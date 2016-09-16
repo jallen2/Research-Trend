@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Paradigm for Scalable Open Real-Time Computing Under Uncertainty</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2006</AwardExpirationDate>
+    <AwardAmount>490000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abdelzaher &lt;br/&gt;CCR-0208769&lt;br/&gt;" A Paradigm for Scalable Open Real-Time Computing Under Uncertainty"&lt;br/&gt;&lt;br/&gt;A key challenge for embedded real-time computing is that of providing temporal performance guarantees. Unfortunately, the wealth of knowledge developed to date in the area of performance assurances in embedded&lt;br/&gt;systems has been confined to a somewhat restrictive application domain where detailed knowledge is assumed of both the available resource capacity in the system and the resource requirements of individual tasks. These restrictions prevent many previous research results from being applied to a wider scope of mainstream applications and services where QoS guarantees are required, yet load and resource models are unavailable. This research seeks a solution to the problem of providing performance guarantees in the absence of detailed load and resource knowledge. The goal is to establish that fine-grained guarantees are achievable with real-time system performance even in the absence of fine-grained models of system load and resource capacity. &lt;br/&gt;&lt;br/&gt;This is approached through new foundations for performance guarantees in embedded real-time systems operating under uncertainty. The research centers on a new calculus aimed to counter fundamental limitations on robustness and scalability in current approaches for performance guarantees. There are two main elements: &lt;br/&gt;&lt;br/&gt;1) A theory for robust schedulability analysis based on feasible regions: A feasible region is a set of aggregate system states in which all timing constraints are guaranteed to be met. This research is developing methods for deriving multi-dimensional feasible regions in a continuous state space, where the dimensions represent aggregate measurable quantities such as the overall utilization of different system resources. Maintaining a system within feasible region boundaries guarantees temporal correctness based on aggregates only. These mechanisms will be more scalable and suitable for systems where detailed information about the load and resources is unavailable. &lt;br/&gt;&lt;br/&gt;2) Middleware components that enforce conformance of a run-time system to its feasible region. The theoretical framework being developed is incorporated into a middleware framework based on control theory, which executes run-time performance monitoring and feedback control mechanisms to ensure that system state converges to a feasible region. This condition is enforced using admission control and QoS adaptation.&lt;br/&gt;&lt;br/&gt;These two elements maintain guarantees on real-time behavior by linking applications with the middleware, specifying desired QoS guarantees, and leveraging run-time feasible region enforcement mechanisms to provide correct temporal behavior in in open real-time systems. This increases the scope of embedded computing from predominantly closed custom-designed systems to large distributed open systems composed of commercial off-the-shelf components such as web servers, mainstream operating systems, and standard protocols such as TCP/IP, where accurate load and resource knowledge is unavailable. High impact is expected through the ability to achieve predictable behavior in many important systems ranging from large Web server farms and Internet routers to ubiquitous computing systems, and smart spaces.</AbstractNarration>
+    <MinAmdLetterDate>07/09/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208769</AwardID>
+    <Investigator>
+      <FirstName>Tarek</FirstName>
+      <LastName>Abdelzaher</LastName>
+      <EmailAddress>zaher@cs.uiuc.edu</EmailAddress>
+      <StartDate>07/09/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Stankovic</LastName>
+      <EmailAddress>jas9f@cs.virginia.edu</EmailAddress>
+      <StartDate>07/09/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Virginia Main Campus</Name>
+      <CityName>CHARLOTTESVILLE</CityName>
+      <ZipCode>229044195</ZipCode>
+      <PhoneNumber>4349244270</PhoneNumber>
+      <StreetAddress>P.O. BOX 400195</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2801</Code>
+      <Text>EMBEDDED &amp; HYBRID SYSTEMS(EHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code/>
+      <Text/>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

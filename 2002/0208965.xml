@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Avatar-Guided Estimation of Human Shape and Motion</AwardTitle>
+    <AwardEffectiveDate>08/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2006</AwardExpirationDate>
+    <AwardAmount>370084</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daniel F. DeMenthon</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>We propose a research program to develop vision algorithms that infer human form and action from video sequences. The main feature of the approach is the use of an animated humanoid avatar to provide strong expectations on body shape and motion. A temporal sequence of body silhouette images is collapsed using line projections into four two-dimensional patterns that can be analyzed using robust signal processing techniques. To identify activities, patterns generated from video of a person are matched against spatio-temporal prototypes generated from the humanoid avatar. A moment-based method for coarse temporal and spatial pattern alignment brings model and data patterns into registration, so that they can be compared to classify viewpoint and activity. The resulting coarse alignment predicts 2D body topology and occlusion in each video frame, which enables a 2D nonrigid shape matching method based on thin-plate splines to identify and delineate body parts in each image. The avatar data also predicts which body dimension measurements can be made most reliably in which image frames, leading to efficient and accurate recovery of 3D body shape, pose and motion. We initially plan to focus on observations of human gait. Gait analysis shares many of the same challenges as the general activity analysis problem, namely high degree of freedom articulated motion, occlusion of body parts from 2D viewpoints, and idiosyncratic performance by different individuals. At the same time, the periodic nature of the activity simplifies temporal alignment of model and data sequences, and improves overall resiliance to noisy data. Success in vision-based gait analysis would enable applications ranging from motion capture for orthopedics to computation of human biometrics for smart rooms and surveillance.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/07/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208965</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Collins</LastName>
+      <EmailAddress>rcollins@cse.psu.edu</EmailAddress>
+      <StartDate>07/29/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0104000</Code>
+      <Name>Information Systems</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Measurement-in-the-Middle</AwardTitle>
+    <AwardEffectiveDate>08/01/2003</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2007</AwardExpirationDate>
+    <AwardAmount>392000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project introduces a new measurement and analysis methodology that can be used to characterize end-end performance measures (such as loss and delay along a path) as well as internal network characteristics (such as loss experienced along distant path segments) from measurements taken at a single point within the network. The proposed "measurement-in-the-middle" approach uses time-stamped, packet-level traces gathered at this single measurement point together with probabilistic state-based sender/receiver models and statistical inferencing techniques to infer end-end performance measures. These metrics include the loss and delay along paths between a source, destination, and measurement point, and along portions of these paths as well. The research performed in this project will develop and analyze (through modeling, simulation, and empirical study) the theoretical foundations and practical considerations needed for this new approach towards network performance measurement and analysis. The ability to infer end-to-end and path-portion performance from a single point within the network has many advantages. Most importantly, because measurements are taken "in-the-middle," the end-end behavior of a large and diverse mix of source/destination pairs can be measured, without having to instrument individual senders and receivers. This research will develop a fundamentally new approach to network measurement methodology that will allow network operations, engineering and research users to measure a larger, and more diverse, mix of network traffic than has been possible in the past. In addition to more fully characterizing network traffic, a richer set of measurements and a better understanding of network traffic can also play an important role in improved network management, network modeling, and network/protocol design.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/09/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0240487</AwardID>
+    <Investigator>
+      <FirstName>Donald</FirstName>
+      <LastName>Towsley</LastName>
+      <EmailAddress>towsley@cs.umass.edu</EmailAddress>
+      <StartDate>08/05/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Kurose</LastName>
+      <EmailAddress>kurose@cs.umass.edu</EmailAddress>
+      <StartDate>08/05/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>AMHERST</CityName>
+      <ZipCode>010039242</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

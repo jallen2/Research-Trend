@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Effective Methods for Finding Software Errors</AwardTitle>
+    <AwardEffectiveDate>04/01/2003</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2010</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software reliability is one of the most important problems in computer&lt;br/&gt;science. A single operating system error can crash the machine. A single&lt;br/&gt;security hole can compromise the integrity of the entire system or, as&lt;br/&gt;software and its errors is replicated, the integrity of entire networks.&lt;br/&gt;This research focuses on practical techniques to effectively find large&lt;br/&gt;numbers of such software errors. Initial results are promising: the&lt;br/&gt;approach has found hundreds of security holes and thousands of serious&lt;br/&gt;errors in the Linux operating system, as well as in large commercial&lt;br/&gt;systems.&lt;br/&gt;&lt;br/&gt;The research centers on using static analysis to find errors in source&lt;br/&gt;code. It uses two main techniques: (1) metacompilation (MC) to check&lt;br/&gt;correctness rules (such as ``a call to the lock() function must be paired&lt;br/&gt;with a call to unlock()'') and (2) belief analysis to infer such rules&lt;br/&gt;automatically.&lt;br/&gt;&lt;br/&gt;Metacompilation uses programmer-written, system-specific static checkers&lt;br/&gt;to find software bugs. Because these extensions can be written by&lt;br/&gt;system implementors themselves, they can take into account the ad hoc&lt;br/&gt;(sometimes bizarre) semantics of a system. Because they are compiler&lt;br/&gt;based, they also get the benefits of automatic static analysis.&lt;br/&gt;&lt;br/&gt;Belief analysis: A major obstacle to finding program errors in a real&lt;br/&gt;system is knowing what correctness rules the system must obey. These&lt;br/&gt;rules are often undocumented or specified in an ad hoc manner.&lt;br/&gt;Belief analysis automatically infers such checking information from&lt;br/&gt;the source code itself, rather than the programmer, thereby avoiding&lt;br/&gt;the need for a priori knowledge of system rules. It works by analyzing&lt;br/&gt;source code to infer what programmers believe to be true and checking&lt;br/&gt;these beliefs for contradictions. For example, if a call to ``lock()''&lt;br/&gt;is paired with a call to ``unlock()'' 1000 times and not paired once,&lt;br/&gt;this is a good indication that the code believes these calls must be&lt;br/&gt;paired, and that the single deviation is an error.&lt;br/&gt;&lt;br/&gt;The research will also involve an educational component. The most&lt;br/&gt;significant feature will be heavily involving undergraduates in research.&lt;br/&gt;Empirically, doing so helps them think creatively, independently, as&lt;br/&gt;well as pushing them to go much deeper than a typical class.</AbstractNarration>
+    <MinAmdLetterDate>03/05/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/30/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0238570</AwardID>
+    <Investigator>
+      <FirstName>Dawson</FirstName>
+      <LastName>Engler</LastName>
+      <EmailAddress>engler@csl.stanford.edu</EmailAddress>
+      <StartDate>03/05/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

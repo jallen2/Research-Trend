@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Practice-Oriented Provable Security for Higher-Layer Protocols: Models, Analyses and Solutions</AwardTitle>
+    <AwardEffectiveDate>07/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2007</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Du</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research is about using the "provable-security approach" in the design and analysis of high-level cryptographic protocols. The aim is to gain assurance for practical cryptographic schemes by finding the right definitions, and then using modern techniques (reductions and their concrete-security analysis) to analyze selected schemes. &lt;br/&gt;&lt;br/&gt;Specific problems to be investigated include: (1) Storing a user's private information on an untrusted server. Here one wants to store user data in such a way that the user can recover it by presenting a password, but an adversary must invest an amount of interaction proportional to the guessing-complexity of the password. (2) The authenticated-encryption scheme in SSH. Though the method used by SSH is not, in general, correct, the situation for SSH itself is far from clear. (3) Delegation of authority to a secondary signature key by a primary one. A well-known approach in security practice, the problem that this solution aims to solve is without any provable-security treatment. (4) Relating the "prescriptive" approach to formalizing authenticated key exchange and the simulation-based approach. (5) Moving to an enriched model of computation, an envelope model, to investigate authenticated key exchange. (6) A systematic investigation of the "game walking" approach to analyzing cryptographic scenarios. Here two adversarial views are compared by writing out a sequence of pseudocode "games" each of which may set some Boolean flag. One bounds the difference in adversarial views by bounding the probability that the flag gets set.</AbstractNarration>
+    <MinAmdLetterDate>07/23/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/22/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208842</AwardID>
+    <Investigator>
+      <FirstName>Phillip</FirstName>
+      <LastName>Rogaway</LastName>
+      <EmailAddress>rogaway@cs.ucdavis.edu</EmailAddress>
+      <StartDate>07/23/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

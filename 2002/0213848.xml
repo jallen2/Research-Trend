@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: High Performance Implementation of Approximate Algorithms for Large-Scale Routing and Network Design</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>233759</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kathleen M. O'Hara</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will address theoretical and computational methodology for massively large, approximate optimization problems in network design and routing, encompassing both static and online problems. A central component of the work will be the implementation of the PI's algorithms on architectures such as IBM's forthcoming BG/L.&lt;br/&gt;&lt;br/&gt;The work will be directed at problem instances arising in networking and telecommunications, that are far larger than those currently studied by the mathematical programming community. While metropolitan area networks, at an appropriate level of aggregation, involve a few hundred nodes, computer networks can be far larger. Looking toward next-generation networking, especially wireless and adhoc networking, the need for optimization tools that can handle much larger networks becomes pressing.&lt;br/&gt;&lt;br/&gt;The PI's previous work built upon methodologies on potential function methods for linear programming, developed during the last decade primarily by the theoretical computer science community. His work further developed the methodology and produced an effective implementation. This implementation is fast (more efficient than competing special-purpose algorithms and much faster than commercial software), it is quite accurate for engineering purposes, and it is general: it handles network design problems, static throughput routing problems, multicommodity flow problems, and in fact, a much more general class of linear programming problems, all with a common interface and no user-selected parameters. It successfully handles problems involving networks with hundreds and up to a few thousand nodes. The resulting linear programs, with tens of millions of variables and constraints, are at the limit of what can be considered approachable with state-of-the-art linear programming software.&lt;br/&gt;&lt;br/&gt;When considering larger networks, however, the dimensions of the optimization problems increase by several orders of magnitude, placing them well beyond the capabilities of current methods and implementations - these problems are large enough that the idea of optimization becomes rather daunting. At the same time, the complexity, economics, and fast-changing nature of networking applications provides a stringent need for cost-effective, survivable designs and high throughput routing schemes. This work will seek to build on new, concrete methodological ideas so as to develop algorithms with provably stronger convergence properties; further, it will also develop high-performance implementations that can tackle massively large problems.&lt;br/&gt;&lt;br/&gt;A parallel effort will concern online routing problems. Many online routing methods (for example, dynamic routing schemes that seek to minimize congestion, or to achieve fair routings) can be viewed as single iterations of potential function methods for corresponding static problems. This project will use this idea, together with the PI's work on static problems, with the aim of developing effective routing algorithms; again, a significant part of this work will be computational.&lt;br/&gt;&lt;br/&gt;In both cases, this project will use previously established industrial research partnerships to validate methodologies and to obtain realistic data.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/03/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0213848</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Bienstock</LastName>
+      <EmailAddress>dano@ieor.columbia.edu</EmailAddress>
+      <StartDate>08/28/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

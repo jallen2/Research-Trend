@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>STI: Multi-Gbps TCP: Data Intensive Networks for Science &amp; Engineering</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2005</AwardExpirationDate>
+    <AwardAmount>1511967</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kevin L. Thompson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The project will develop and deploy "Multi-Gbps TCP" to enable Terascale data transfers across shared networks for data intensive science and engineering. This builds on a foundation of several years of theoretical development and in-depth simulations at Caltech. The testing, optimization and deployment will be accomplished using the regional, national and transoceanic research and production networks available to (and in some cases co-managed and operated by) the Caltech High Energy Physics (HEP) group together with their partners in Abilene, DataTAG, the Starlight-CERN-SURFNet "wavelength triangle", TeraGrid, AMPATH, CANARIE, CalREN and Pacific Light Rail. Work with IETF, ISOC and GGF, and submission of appropriate RFCs and documents during the course of the project, will ensure that the new techniques developed are consistent extensions of existing standards, and available to the worldwide research community.&lt;br/&gt;&lt;br/&gt;The goal of this project is to develop practical TCP and AQM (Active Queue Management) schemes, with loss recovery tuning, that maintain stability, high utilization and negligible loss and delay as the network increases in capacity, size, and load. We aim to validate and deploy these techniques on HEP networks, the TeraGrid and other US backbones including Abilene, ESnet, CalREN, and MREN.&lt;br/&gt;&lt;br/&gt;It is well-known that the additive-increase-multiplicative-decrease strategy with which TCP probes available capacity performs poorly at large window sizes due to serious dynamic and equilibrium problems. These problems must be solved to scale TCP to the high bandwidth regime. The proponents have developed a mathematical theory that provides a fundamental understanding of the current protocols and exposes their stability problems in high latency, high capacity environments and derived a new class of TCP / AQM algorithms that solve these problems. The central thrust of this work is to compensate for delay, capacity, and routing using the correct scaling. Fortunately, the network structure is such that there is sufficient information to allow the right scaling to be applied in a distributed and decentralized manner, while remaining compliant with the current protocol. These new algorithms, with TCP recovery tuning, will automatically rescale the parameters so as to maintain stability and optimize performance as capacity, delay, routing or loads change.&lt;br/&gt;&lt;br/&gt;In simulation the new algorithms in ns-2 and have achieved 98% utilization with an equilibrium queue of less than 100 packets (0.08 ms queuing delay). In this project, we will implement and demonstrate these algorithms in the global HEP research and production networks. In addition, work will occur with both with the standards bodies to help drive emerging standards, and with Grid software developers to deploy them.&lt;br/&gt;&lt;br/&gt;The project will leverage the theoretical work on TCP/AQM of Low and Doyle, the leadership and experience of Bunn and Newman in the development and operation of the international network for HEP (and the broader scientific community) over the last 20 years, and the extensive infrastructure of HEP networks to make a quick impact. The project's success will not only benefit directly the HEP community, but will influence research methods in several fields, by enabling the effective use of Grids, globally distributed Terascale computing, and distributed Petascale databases for the first time.&lt;br/&gt;&lt;br/&gt;NSF recognizes that transfers of data files of 1018 bytes (exabytes) is important. This project addresses the issue of how to do this in real operations.</AbstractNarration>
+    <MinAmdLetterDate>09/20/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/10/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0230967</AwardID>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Low</LastName>
+      <EmailAddress>slow@caltech.edu</EmailAddress>
+      <StartDate>09/20/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Harvey</FirstName>
+      <LastName>Newman</LastName>
+      <EmailAddress>newman@hep.caltech.edu</EmailAddress>
+      <StartDate>09/20/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Doyle</LastName>
+      <EmailAddress>doyle@cds.caltech.edu</EmailAddress>
+      <StartDate>09/20/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Julian</FirstName>
+      <LastName>Bunn</LastName>
+      <EmailAddress>Julian.Bunn@caltech.edu</EmailAddress>
+      <StartDate>09/20/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>California Institute of Technology</Name>
+      <CityName>PASADENA</CityName>
+      <ZipCode>911250600</ZipCode>
+      <PhoneNumber>6263956219</PhoneNumber>
+      <StreetAddress>1200 E California Blvd</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1766</Code>
+      <Text>STRATEGIC TECH FOR INTERNET</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9217</Code>
+      <Text>NATNL RESERCH &amp; EDUCAT NETWORK</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

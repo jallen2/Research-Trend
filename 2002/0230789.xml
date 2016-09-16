@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>STI: Extending the X-Bone Overlay Deployment Tool for Research and Classroom Use</AwardTitle>
+    <AwardEffectiveDate>12/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>500001</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kevin L. Thompson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>STI-XTend augments the X-Bone automated Internet overlay deployment and management tool to provide a secure environment for local and distributed network experiments, to support advanced research and classroom use. The X-Bone applies a Virtual Internet architecture to support secure, concurrent overlay networks (VPNs) using existing Unix operating systems, standard Internet protocols (IPsec, SSL, dynamic routing), and applications. It currently lacks some advanced facilities requested by a number of network researchers and faculty. STI-Xtend augments the X-Bone to support revisitation, dynamic topology control, ports it to additional platforms, and augments its API for integration with networked applications. The tool will be further packaged with additional support materials (examples, scripted demonstrations, and instructions) to enhance its use by the research and educational community. The extensions are:&lt;br/&gt;&lt;br/&gt;Support large-scale network emulation: STI-XTend allows overlays to revisit network components, allowing a small set of devices to emulate a large network using real protocols and applications. &lt;br/&gt;&lt;br/&gt;Dynamic topology control: STI-XTend allows overlay topologies to be modified by adding or deleting nodes or links, and to specify subset of responding nodes used (vs. arbitrary selection). This provides precise control of the participants and topology, allowing repeatable deployments.&lt;br/&gt;&lt;br/&gt;Support additional platforms: The X-Bone supports Unix hosts and host-based routers; STIXTend provides ports for other platforms (MacOS, Solaris) and adds IPv6, multicast, and a single-board system for modest installations and control of closed platforms.&lt;br/&gt;&lt;br/&gt;Augment user interfaces, API, and components: STI-XTend augments the X-Bone's GUI and updates its modular components and capabilities, e.g., dynamic routing (currently using defunct GateD and MRTd). &lt;br/&gt;&lt;br/&gt;The X-Bone is based on the abstract Virtual Internet (VI) architecture, which describes concurrent parallel and hierarchical overlays. The VI model inspired two-layer encapsulation to uniquely integrate IPsec with dynamic routing, and is being used to unify web search, DNS lookup, IP forwarding, and ARP (media-layer address resolution) as instances of a single, generic service. STI-XTend augments the VI architecture to include revisitation and dynamic topology control (especially difficult with IPsec, IPv6, and dynamic routing), as well as ensuring the correctness of the X-Bone API.&lt;br/&gt;&lt;br/&gt;Over the past 3 1/2 years, there have been 4 public code releases and 18 public demonstrations of the X-Bone software. It is part of the FreeBSD ports collection and available as a Linux RPM.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/07/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0230789</AwardID>
+    <Investigator>
+      <FirstName>Joseph</FirstName>
+      <LastName>Touch</LastName>
+      <EmailAddress>touch@isi.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Preconditioned Algorithms for Large Eigenvalue Problems</AwardTitle>
+    <AwardEffectiveDate>08/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2006</AwardExpirationDate>
+    <AwardAmount>211054</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Knyazev &lt;br/&gt;0208773 &lt;br/&gt; In many application areas, there is a pressing and increasing need for novel numerical techniques for solving very large algebraic eigenvalue problems. They arise naturally as discretization of continuous models described by systems of partial differential equations and pose new numerical challenges. The problem matrix may be available only implicitly through a function that computes the corresponding vector-matrix product for a given vector, which thus calls for &lt;br/&gt;matrix-free eigenvalue solvers. The growth of the problem size often leads to badly conditioned problems, which require improved algorithm stability and new tools to estimate the accuracy of computed eigenvalues and eigenvectors. Classical eigenvalue solvers that do not scale linearly with the problem size are very expensive for modern practical problems. The focus of the present project is on an alternative technique, called preconditioning. While the mainstream research in the area introduces preconditioning for eigenvalue problems by using preconditioned inner iterations for solving linear systems with &lt;br/&gt;shift-and-invert matrices, the approach of the present project is to incorporate preconditioning directly into Krylov-based solvers such as the locally optimal block preconditioned conjugate gradient method. The preconditioned iterative methods of this kind are specially designed for large-scale ill-conditioned matrix-free problems and can be effective and parallelizable. The investigator studies preconditioning for singular values computations, an adaptation of the preconditioned eigensolvers to some problems with nonlinear dependence on the spectral parameter, and an efficient solution of eigenproblems resuling from partial differential equations with large jumps in coefficients.&lt;br/&gt; The investigator develops fast, reliable methods to solve very large eigenvalue problems. Numerical simulations are performed on modern parallel computing systems, e.g., on a Beowulf cluster. The targeted applications for a joint investigation with engineers include structural dynamics finite element models associated with re-entry vehicles and their complex aerospace and electronic systems, and evolution of the error covariances in Kalman filter equations for chemistry-transport atmospheric models.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208773</AwardID>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Knyazev</LastName>
+      <EmailAddress>Andrew.Knyazev@ucdenver.edu</EmailAddress>
+      <StartDate>08/28/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Denver-Downtown Campus</Name>
+      <CityName>Aurora</CityName>
+      <ZipCode>800452571</ZipCode>
+      <PhoneNumber>3037240090</PhoneNumber>
+      <StreetAddress>F428, AMC Bldg 500</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Practical Language-Based Security, From The Ground Up</AwardTitle>
+    <AwardEffectiveDate>08/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2005</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Karl Levitt</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A comprehensive security architecture is proposed that uses language-based mechanisms to eliminate errors due to circumvention of type safety, be they intentional or erroneous, and that additionally uses security policy mechanisms to contain malicious behavior. This approach extends techniques previously applied to mobile code and is based on a combination of a) mechanically verifying the absence of such errors in any software before it is run, using code representations that can be checked for such errors or that rule out errors in the first place, and b) monitoring executing software for malicious activity.&lt;br/&gt;&lt;br/&gt;The proposed system consists of multiple layers, each of which is secured by the layer below it, the lowest of which can be provided in tamper-resistant hardware. Key to the solution is to provide a typed hardware abstraction layer (THAL) that enables the construction of a type-safe system "from the ground up", all the way down to the tamper-proof hardware. Hence, the goal is to build a practical system about which we can make security guarantees from the hardware up, and not just "from the operating system up".</AbstractNarration>
+    <MinAmdLetterDate>07/29/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0209163</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Franz</LastName>
+      <EmailAddress>franz@uci.edu</EmailAddress>
+      <StartDate>07/29/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173067</ZipCode>
+      <PhoneNumber>9498244768</PhoneNumber>
+      <StreetAddress>5171 California Avenue, Ste 150</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2802</Code>
+      <Text>TRUSTED COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1667</Code>
+      <Text>HIGH CONFIDENCE SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

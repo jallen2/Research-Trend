@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Improving Test Suites Via Generated Specifications</AwardTitle>
+    <AwardEffectiveDate>09/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>HDCCSR Proposal 0234651&lt;br/&gt; Improving test suites via generated behavioral abstractions&lt;br/&gt; Michael Ernst&lt;br/&gt;&lt;br/&gt;Testing is a key to detecting bugs and increasing software reliability, but generating good test suites is difficult. This project investigates a novel technique for using behavioral differences to improve test suites. The technique compares dynamically generated behavioral abstractions of executions and selects the more complete one -- that is, the test suite that exercises more of the program's semantic behavior. Whereas previous automatic techniques compare dynamic (run-time) behavior to the static structure and text of the program, this new technique considers behavior, which complements structural techniques and is arguably more important.&lt;br/&gt;&lt;br/&gt;The technique is applied to generating, augmenting, and minimizing test suites. Users provide the program to be tested and a technique for generating test cases (via a grammar, random generation, traces collected from users, or otherwise). Users never need to provide a specification. However, the technique generates a behavioral abstraction that is syntactically identical to a formal specification and that, after being checked and perhaps augmented by a human, can be&lt;br/&gt;used as a specification. The efficacy of these techniques is investigated and improved, and they are applied in substantial case studies.</AbstractNarration>
+    <MinAmdLetterDate>09/09/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/10/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0234651</AwardID>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Garland</LastName>
+      <EmailAddress>garland@lcs.mit.edu</EmailAddress>
+      <StartDate>09/09/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Ernst</LastName>
+      <EmailAddress>mernst@cs.washington.edu</EmailAddress>
+      <StartDate>09/09/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7214</Code>
+      <Text>HIGHLY DEPENDABLE COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>W379</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

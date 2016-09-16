@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: Internet Flows as First-Class Values: Support for Dynamic, Flexible Internet Services</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2008</AwardExpirationDate>
+    <AwardAmount>1683497</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The recent metamorphosis of the Internet-from a mere best-effort transport medium to an open communication and computation infrastructure necessitates the development of robust abstractions that facilitate its use to support a constantly increasing number of applications, in compliance with widely-accepted correctness standards that ensure a verifiably safe, fair, secure, and efficient access of Internet resources.&lt;br/&gt;&lt;br/&gt;Programming new Internet applications and services suffers from the same lack of organizing principles that afflicted programming systems some thirty years ago. The researchers believe that recognizing network flows as the central abstraction around which to organize a programming system for the Internet is perhaps the key organizing principle. Speciffically, to rapidly experiment with and deploy a wide range of new services within the existing constraints of the Internet infrastructure, it is necessary to adopt a more powerful model for the naming, creation, composition, sharing, and processing of Internet flows.&lt;br/&gt;&lt;br/&gt;Towards this goal the researchers promote Internet flows to first-class values, i.e., entities that are directly accessed, acted on and programmed according to needs. As a consequence, the task of developing an Internet application or service (e.g., a CDN broker or an end-system multicast) becomes the task of writing an appropriate program to manipulate Internet flows (along with other first-class values relevant to the application). To enable the speciffication and compilation of programs manipulating Internet flows, in particular application-specific Internet protocols, it is necessary to conduct basic research that encompasses two computer science disciplines: Networking Systems and programming Languages. Basic research in networking systems is needed to develop the core services that support the various abstractions to be presented to protocol programmers. Basic research in programming languages is needed to develop the primitives and formalisms that enable the expression of protocol properties and the verification of certain safety properties of the protocol.&lt;br/&gt;&lt;br/&gt;The proposed work will focus on the following specific areas: (1) Transport Services to support various degrees of reliability, congestion management, and timeliness, (2) Routing Services to support various degrees of mobility and multicasting, (3) End-to-End Services to support various degrees of QoS and security, (4) Naming mechanisms to support flexible composition of Internet services, and (5) Type inference to support efficient and safe flow-oriented programming.&lt;br/&gt;Towards the goals outlined above, the proposed research will be a collaborative effort carried primarily by members of established research groups in Networking Systems and in Programming Languages.&lt;br/&gt;&lt;br/&gt;A key component of the proposed work is implementation and prototyping. To that end, the utility of a paradigm in which Internet flows are first-class values will be demonstrated by implementing NetBench a programming environment in which a core set of network flow types and operations will be supported, along with a type-checking and type-inference system to handle types of network flows.&lt;br/&gt;&lt;br/&gt;The pursuit of the research goals outlined in this proposal is timely. Achieving these goals will leapfrog current piecemeal attempts aiming at supporting Internet growth. The researchers believe that the proposed effort will improve the flexibility, reliability, safety, and security of network software development environments, leading to economic efficiencies similar to the higher productivity of software developers arising from traditional programming language research. The research team assembled to pursue these ambitious goals has made significant, nationally-recognized contributions to research in Programming Languages and Internet Technologies and has an established record in software development and technology transfer. Boston University is committed to supporting this team through substantial financial and infrastructural commitments that complement and leverage the support sought from NSF.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/19/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0205294</AwardID>
+    <Investigator>
+      <FirstName>Assaf</FirstName>
+      <LastName>Kfoury</LastName>
+      <EmailAddress>kfoury@cs.bu.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Azer</FirstName>
+      <LastName>Bestavros</LastName>
+      <EmailAddress>best@cs.bu.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Abraham</FirstName>
+      <LastName>Matta</LastName>
+      <EmailAddress>matta@cs.bu.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Byers</LastName>
+      <EmailAddress>byers@cs.bu.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>West</LastName>
+      <EmailAddress>richwest@cs.bu.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

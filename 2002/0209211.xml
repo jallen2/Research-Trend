@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Configurable and Composable Systems Mechanisms Supporting Multi-Property Quality of Service for Memory and Power Constrained Embedded Systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2004</AwardExpirationDate>
+    <AwardAmount>100001</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Project Abstract&lt;br/&gt;Embedded systems are rapidly becoming pervasive and are being deployed on a wide range of devices for an even wider range of applications. The chief device constraints are memory and power, and embedded applications require a wide range of Quality of Service (QoS) properties. A serious problem with systems software for embedded systems is that it is not yet suitable for reuse in different situations. Commercial and research systems software typically falls short in one or more of four ways. First, the software is derived from a larger base or from high-level abstractions such as patterns, and does not scale down far enough. Second, the software offers a point solution, with hard coded constraints on both the systems software infrastructure and the embedded device's characteristics. Third, different QoS levels are not offered or are very limited. Fourth, power conservation is not usually considered.&lt;br/&gt;The goal of this two-year research project is to develop a scientific foundation to overcome the limitations outlined above. This research addresses fundamental questions in four areas: baseline architectural constraints, QoS properties and their compositions, network-wide composition, and software engineering. As a byproduct, a new systems software framework with new and more configurable systems mechanisms is in development to quantify and validate the answers to these fundamental questions.&lt;br/&gt;The project's research on baseline architectural constraints ascertains necessary conditions to achieve small memory and constrained resource usage (ignoring QoS) at a fine granularity, exploring the fundamental tradeoffs in systems software mechanisms and functionality that enable this. This baseline is then extended for multiple QoS properties, including new combinations of lightweight QoS mechanisms, given the fundamental QoS costs, alternative composition strategies, and tradeoffs among them. Research on network-wide composition investigates the fundamental interactions in networks of devices, including techniques to predict and regulate the effect of a given node's behavior on global system properties. The work on software engineering investigates ways to utilize aspects, patterns, and tools in composing middleware for embedded systems. The long- range goal is that application code can be auto-generated in a fine-grained manner so that it does not contain overly general or unnecessary functionality.&lt;br/&gt;QoS mechanisms are being developed to address various issues. For example, computer security encompasses many concepts (e.g., confidentiality, integrity, authorization) each of which can be provided at multiple levels or strengths of service. Likewise, many fault tolerance mechanisms exist. This project extends the understanding of how multiple mechanisms from multiple QoS properties (e.g., security, fault tolerance, real-time behavior) can be composed.&lt;br/&gt;The impact of this research, if successful, is broad. First, it will enable embedded systems applications to be more easily programmed, more robust, and more easily verified. The multi-property QoS analysis and mechanisms from this project will be transitioned through integration into the GridStat research effort, led by the PI under NIST's Critical Infrastructure Protection research program. GridStat is middleware that must deliver status information to the power grid. Exploiting multiple QoS, properties, namely security, timeliness, and fault tolerance, can support in better control and monitoring of the electric power grid, a critical (and vulnerable) infrastructure.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/06/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0209211</AwardID>
+    <Investigator>
+      <FirstName>Krishna</FirstName>
+      <LastName>Sivalingam</LastName>
+      <EmailAddress>krishna@cs.umbc.edu</EmailAddress>
+      <StartDate>08/20/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Bakken</LastName>
+      <EmailAddress>bakken@eecs.wsu.edu</EmailAddress>
+      <StartDate>08/20/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Washington State University</Name>
+      <CityName>PULLMAN</CityName>
+      <ZipCode>991641060</ZipCode>
+      <PhoneNumber>5093359661</PhoneNumber>
+      <StreetAddress>280 Lighty</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2801</Code>
+      <Text>EMBEDDED &amp; HYBRID SYSTEMS(EHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

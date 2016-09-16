@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>VISUALIZATION: Feature Driven Simplification and Visualization of Vector Fields</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2007</AwardExpirationDate>
+    <AwardAmount>287255</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In order to understand large vector fields, scientists typically attempt to simplify and visualize the data. Broadly speaking, there are two methods for visualizing vector field feature extraction techniques and general visualization techniques, that offer complementary advantages. &lt;br/&gt;Feature based techniques extract important features such as topology (critical point and critical curves), attachment or separation lines, vortices, bifurcations or shock waves, and attempt to present a simplified view of the vector field.&lt;br/&gt;There are two main dificulties with this approach. First, too many features may clutter the visualization. Therefore, there is a need to prune spurious and insignificant features.&lt;br/&gt;Second, feature visualization alone may fail to provide a comprehensive view of the data. This can be remedied by using popular general visualization techniques such as streamlines, line integral convolution (LIC), and stream surfaces.&lt;br/&gt;However, most attempts using this approach destroy the underlying important features early in the&lt;br/&gt;simplification or compression approach, as we have demonstrated in our preliminary work. Therefore,&lt;br/&gt;there is a need to tie the feature simplification process with the simplification of the underlying vector field in order to produce consistent visualization.&lt;br/&gt;In this work, we propose to develop controlled feature simplification and preservation algorithms&lt;br/&gt;for 2D vector fields that remove insignificant features and preserve important ones by removing noise and by utilizing feature-driven similarity metrics to measure and control the simplification&lt;br/&gt;process.&lt;br/&gt;The proposed algorithms will simplify the features and the underlying vector field simulatneously&lt;br/&gt;in order to produce consistent visualization. We will extend these algorithms to 3D and ime-dependent vector fields. Additional challenges include: (i) designing efficient algorithms and structure-similarity metrics based on the properties of more complex 3D features such as the 3D separation and attachement lines, vortices and shock wave regions, and (ii) tracking simplied features over time as bifurcations may take place. We will also quantify and visualize the uncertainty or loss due to simplification in order to give a better sense to the scientist as to what is lost or compromised during the simplification process.&lt;br/&gt;We will apply our algorithms to computational fluid dynamics and environmental data. We expect that the algorithms and techniques developed in this project will be applicable to a wide variety of disciplines including aeronautics, meteorology, oceanography, environmental sciences, astronomy, geographic information sciences, computer graphics, and computer-aided geometric design.</AbstractNarration>
+    <MinAmdLetterDate>09/10/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/11/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0222900</AwardID>
+    <Investigator>
+      <FirstName>Suresh</FirstName>
+      <LastName>Lodha</LastName>
+      <EmailAddress>lodha@soe.ucsc.edu</EmailAddress>
+      <StartDate>09/10/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Cruz</Name>
+      <CityName>Santa Cruz</CityName>
+      <ZipCode>950641077</ZipCode>
+      <PhoneNumber>8314595278</PhoneNumber>
+      <StreetAddress>1156 High Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

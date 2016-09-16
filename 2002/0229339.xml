@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Path Dissolution in Propositional Logic</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2004</AwardExpirationDate>
+    <AwardAmount>40000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010200</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Robert B Grafton</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>ABSTRACT&lt;br/&gt;0229339&lt;br/&gt;Erik Rosenthal &lt;br/&gt;U of New Haven&lt;br/&gt;&lt;br/&gt;The problem SAT determining whether a formula in propositional logic is satisfiable has&lt;br/&gt;a long history in computer science. It is important in complexity theory and has myriad applications&lt;br/&gt;in fields such as robotics, optical character recognition, database systems, computer&lt;br/&gt;architecture, circuit design, and verification, to name but a few.&lt;br/&gt;The traditional view of much of the mechanical theorem proving community has been that&lt;br/&gt;interesting applications of automated deduction require first-order rather than propositional&lt;br/&gt;logic. That view has begun to change in light of recent successes with propositional logic.&lt;br/&gt;Propositional logic is of course intractiable (unless NP = P). One approach to this problem&lt;br/&gt;with knowledge representaion and database systems is knowledge compilation preprocessing&lt;br/&gt;the underlying propositional theory. The idea is to do as much computation as possible in an&lt;br/&gt;offline phase. Then queries in the online phase can be handled quickly. Horn clauses, ordered&lt;br/&gt;binary decision diagrams, sets of prime implicates/implicants, and decomposable negation&lt;br/&gt;normal form (DNNF) have all been proposed as targets of such compilation.&lt;br/&gt;Path dissolution is an inference mechanism that works naturally with formulas in NNF. It&lt;br/&gt;is strongly complete in the sense that any sequence of link activations will eventually terminate,&lt;br/&gt;producing a linkless formula called the full dissolvent. The paths that remain are models of the&lt;br/&gt;original formula. Full dissolvents have been used effectively for computing the prime implicants&lt;br/&gt;and implicates of a formula.&lt;br/&gt;Decomposable negation normal form was first introduced in 1998 and is currently being&lt;br/&gt;studied for application to knowledge representation and database systems. A formula in DNNF&lt;br/&gt;is a full dissolvent, and it appears that many of the advantages of DNNF exist with full dissolvents.&lt;br/&gt;It also appears that a full dissolvent of a formula can be obtained more effciently than&lt;br/&gt;a DNNF representation of the formula. The main thrust of this project will be to examine the&lt;br/&gt;relationship of DNNF and full dissolvents.</AbstractNarration>
+    <MinAmdLetterDate>09/17/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/17/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0229339</AwardID>
+    <Investigator>
+      <FirstName>Erik</FirstName>
+      <LastName>Rosenthal</LastName>
+      <EmailAddress>erosenthal@newhaven.edu</EmailAddress>
+      <StartDate>09/17/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of New Haven</Name>
+      <CityName>West Haven</CityName>
+      <ZipCode>065161916</ZipCode>
+      <PhoneNumber>2039327000</PhoneNumber>
+      <StreetAddress>300 Boston Post Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

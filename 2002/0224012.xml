@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CISE Research Resources: Instrumentation for Experimental Research in Machine Learning, Collaborative Filtering, and Virtual Environments</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>50000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rita V. Rodriguez</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>EIA 0224012&lt;br/&gt;Dietterich, Thomas G.&lt;br/&gt;Herlocker, Jonathan L.&lt;br/&gt;Metoyer, Ronald&lt;br/&gt; Oregon State University &lt;br/&gt;&lt;br/&gt;Title: CISE RR: Instrumentation for Experimental Research in Machine Learning, Collaborative Filtering, and Virtual Environments &lt;br/&gt;&lt;br/&gt; This project, upgrading the current cluster for use in large pre-computations that enable effective real-time performance, supports equipment servicing the following four projects:&lt;br/&gt;Real Time Animation of Human Characters for Use in Immersive Training Environments,&lt;br/&gt;Probabilistic Recommendation Methods for Collaborative Filtering (CF),&lt;br/&gt;Machine Learning for Spatial and Sequential Data, and&lt;br/&gt;Reinforcement Learning for Learning Search Control Heuristics with Applications to Protein Structure Determination from Nuclear Magnetic Resonance Spectroscopy and to Real-Time Animation.&lt;br/&gt;The first project aims at automatically selecting and ordering short sequences of captured motion to drive a character along a trajectory while maintaining naturally looking transitions between the sequences. The project exploits off-line reinforcement learning (dynamic programming) algorithms to pre-compute a policy for moving between any pair of poses under a range of trajectory constraints. Real-time control of characters is then permitted without the need for large run-time searches. The second project utilizes collaborative filtering (CF) systems that can predict a probability distribution over the rating of an item. Currently CF, a method by which multiple computer users indirectly help each other make decisions and identify solutions to problems, provides ratings or votes returning the items with the higher number of votes, rather than attaching a probability. The equipment will speed the research process by enabling the testing of un-optimized prototype implementations of new algorithms, and hence allow the evaluation of proposed algorithms without the delay of manual optimization. The third project deals with emerging applications of machine learning (e.g., computer intrusion detection, information extraction from web pages, remote sensing) involving temporal, sequential, or spatial data where nearby data points are typically correlated. The PIs have developed a parallel implementation of a sequential analysis method for conditional random fields (CRFs) that gives near-linear speedups in the computation time, but which is limited in the size of data sets that can be processed. The cluster upgrade should yield a faster solution and allow consideration of larger data sets. The last project, experiments with two new algorithms for reinforcement learning that scale to large search spaces as long as the number of reachable states is small enough to fit in main memory. One method combines linear programming with support-vector machine techniques; the other combines gradient descent search with dynamic programming. These methods, requiring an expensive off-line computation, result in an efficient heuristic that can be applied to the run-time search. Moreover, the cluster will be used by students in a parallel computation course.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0224012</AwardID>
+    <Investigator>
+      <FirstName>Ronald</FirstName>
+      <LastName>Metoyer</LastName>
+      <EmailAddress>rmetoyer@nd.edu</EmailAddress>
+      <StartDate>08/27/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Dietterich</LastName>
+      <EmailAddress>tgd@cs.orst.edu</EmailAddress>
+      <StartDate>08/27/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jonathan</FirstName>
+      <LastName>Herlocker</LastName>
+      <EmailAddress>herlock@cs.orst.edu</EmailAddress>
+      <StartDate>08/27/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Oregon State University</Name>
+      <CityName>Corvallis</CityName>
+      <ZipCode>973318507</ZipCode>
+      <PhoneNumber>5417374933</PhoneNumber>
+      <StreetAddress>OREGON STATE UNIVERSITY</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

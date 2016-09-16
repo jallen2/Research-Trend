@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: A Formal Framework for Systematic Protocol Assessment</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2007</AwardExpirationDate>
+    <AwardAmount>431086</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Wu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A fundamental challenge in network design is how to choose the right protocol, with the right parameter settings, for some given circumstances. A key problem that lacks a systematic formal framework is the scalability issue in the design space: networks rapidly grow not only in size and heterogeneity, but also in the number of available design choices, such as the right protocol to select, or just setting the right parameters for a given protocol.&lt;br/&gt;&lt;br/&gt;To help remedy this situation we propose MERIT, a formal framework for systematically assessing protocols in dynamic scenarios. The key novelty of the researcher's solution is its inherent scalability: rather than comparing the different protocols directly, the researchers compute an inherent measure of the protocol. Using this measure the researchers define a spectrum,&lt;br/&gt;called a MERIT spectrum, for the protocol that characterizes it in a way that ensures comparability with other protocols without porting them to the same platform. In addition, we develop a systematic way of analyzing these spectra.&lt;br/&gt;&lt;br/&gt;While the traditional qualitative and quantitative measures areinformative, they do not provide a satisfactory framework for a systematic and unified comparison of protocols. For example, as shown in the literature, the resulting ranking often strongly depends on the chosen simulation model. The researchers take a new, orthogonal direction in the assessment of routing protocols in MERIT. Specifically, the MERITframework provides a systematic and general way to rank any given routing protocol by comparing it to a theoretical, yet efficiently computable, optimum in its own system, rather than to a competing protocol.&lt;br/&gt;&lt;br/&gt;For the problem of routing in a mobile ad hoc network, the researchers show that the theoretical optimum can be meaningfully defined and computed. The basis of the researchers approach is a characterization based on the ratio of the MEan ``Real'' to the ``Ideal'' cosT, or MERIT, of the protocol, and the researchers call the measure the MERIT ratio. The MERIT ratio as a function of&lt;br/&gt;some parameters defines the MERIT spectrum of the protocol, yielding a multi-faceted representation of protocol effectiveness.&lt;br/&gt;&lt;br/&gt;The successful preliminary theoretical and experimental results of the MERIT framework have encouraged the researchers to develop three primary research directions: (1) Further development of the mathematical model in the MERIT framework, with special emphasis on creating formal methods to analyze MERIT spectra. (2) Creating a software tool for the systematic study of routing protocols using the MERIT framework. (3) Extensive experimentation with real routing protocols to capture and systematically compare their behaviour through analyzing their MERITspectra.&lt;br/&gt;&lt;br/&gt;Regarding the broader impact of the project, the contributions combine to impact the research in the field of dynamic networks. For mobile ad hoc networks, there is an impact in both theoretical model development and also simulation based performance analysis. The three primary research directions of the project are appropriate to help train graduate students to become highly skilled to conduct both theoretical work with strong mathematical foundations, as well as experimental&lt;br/&gt;work using realistic network models in simulation. The methodologies will also be introduced into the graduate curriculum as well as research seminars that may also involve students from underrepresented groups. While the original motivation for MERIT was to assess routing&lt;br/&gt;protocols in mobile ad hoc networks, the methods are also applicable to other dynamic scenarios. Thus, the benefit to society, in addition to the production of well educated and skilled rofessionals, is that networks will run more efficiently since MERIT provides a methodology&lt;br/&gt;to select the right protocol for the job. The results will be broadly disseminated in conference and journal papers, as well as book chapters.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/02/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0220001</AwardID>
+    <Investigator>
+      <FirstName>Andras</FirstName>
+      <LastName>Farago</LastName>
+      <EmailAddress>farago@utdallas.edu</EmailAddress>
+      <StartDate>09/13/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Violet</FirstName>
+      <LastName>Syrotiuk</LastName>
+      <EmailAddress>syrotiuk@asu.edu</EmailAddress>
+      <StartDate>09/13/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Dallas</Name>
+      <CityName>Richardson</CityName>
+      <ZipCode>750803021</ZipCode>
+      <PhoneNumber>9728832313</PhoneNumber>
+      <StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1656</Code>
+      <Text>LARGE SCALE NETWORKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

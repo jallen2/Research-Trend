@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Histogram-based Query Estimation for Datasets with different Modalities</AwardTitle>
+    <AwardEffectiveDate>08/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2005</AwardExpirationDate>
+    <AwardAmount>214892</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gia-Loi Le Gruenwald</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Data summarization and estimation can serve as a useful tool for a diverse set of applications ranging from traditional database query optimization to OLAP applications and the exploration of large data sets. During the course of this project, data estimation and summarization techniques will be developed for datasets with different modalities: point datasets, datasets containing objects with spatial extents, and stream datsets. The approach is specifically based on the use of histograms in different contexts. One of the main problems of applying estimation techniques in a database management system is the unknown characteristic of the distribution of the data that will populate a given DBMS. In fact, in order for such a technique to be useful, the estimation technique should be effective for different kinds of data distributions and query patterns. This is because a DBMS is used for a variety of applications resulting in a wide spectrum of data that populates the database. A new estimation technique called the golden estimator has been identified that employs cumulative probability distributions for creating histograms and captures the underlying data distribution. This technique can also be used to adapt to changes in the query patterns. For objects with spatial extents, this project will lead to histograms derived from Euler's formulation for graphs. For stream datasets, a variety of approaches will be explored that are amenable to maintain histograms dynamically. The research results will be evaluated in the context of the Alexandria Digital Library and the Digital Campus projects at UCSB.</AbstractNarration>
+    <MinAmdLetterDate>08/16/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/19/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0209112</AwardID>
+    <Investigator>
+      <FirstName>Divyakant</FirstName>
+      <LastName>Agrawal</LastName>
+      <EmailAddress>agrawal@cs.ucsb.edu</EmailAddress>
+      <StartDate>08/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Amr</FirstName>
+      <LastName>El Abbadi</LastName>
+      <EmailAddress>amr@cs.ucsb.edu</EmailAddress>
+      <StartDate>08/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Barbara</Name>
+      <CityName>SANTA BARBARA</CityName>
+      <ZipCode>931062050</ZipCode>
+      <PhoneNumber>8058934188</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0104000</Code>
+      <Name>Information Systems</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Model for Combustion in Strongly Stratified Environments</AwardTitle>
+    <AwardEffectiveDate>08/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2007</AwardExpirationDate>
+    <AwardAmount>274426</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Henry A. Warchall</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>DMS Award Abstract&lt;br/&gt;Award #: 0202485&lt;br/&gt;PI: Bayliss, Alvin&lt;br/&gt;Institution: Northwestern University &lt;br/&gt;Program: Applied Mathematics&lt;br/&gt;Program Manager: Catherine Mavriplis&lt;br/&gt;&lt;br/&gt;Title: A Model for Combustion in Strongly Stratified Environments&lt;br/&gt;&lt;br/&gt;We develop and solve numerically a low Mach number model for deflagrations in stellar envelopes. For many stellar environments the Mach number, the ratio of flame or convection speed to the sound speed, is very small (order .01 or less) so that for explicit computations based on full hydrodynamics timesteps are limited by the acoustic speeds, thus requiring excessive computation time to simulate the relatively long timescales associated with the deflagrations and associated convection flows. Our model filters out the sound waves while accounting for strong vertical pressure stratification (of the order of ten orders of magnitude). The model is based on initially pre-computing a strongly stratified hydrostatic solution by solving a boundary value problem in the vertical coordinate. The hydrodynamic equations are then expanded about this solution. The resulting system for the velocities and the non-hydrostatic pressure is then expanded in Mach number, effectively filtering out sound waves and yielding a system where timesteps are restricted by fluid and flame speeds rather than the sound speed. The new model will be applied to the study of convection in the envelope of an accreting white dwarf during a nova outburst. The model will allow simulation over convective timescales and thus allow a theoretical description of the multi-dimensional nuclear burning development of novae.&lt;br/&gt;&lt;br/&gt;We propose to simulate the hydrodynamics of nuclear fluids in a stellar envelope in which sound waves are filtered out. It is typical of such environments that energy is released via nuclear reactions in a manner similar to terrestrial combustion (nuclear combustion). In many such configurations the flame speed and associated fluid speeds are much smaller than the sound speed. This limits the length of time for which these models can be solved and effectively precludes a simulation of phenomena associated with the burning and convection. For example, a simulation of burning in a neutron star envelope required approximately 30,000 hours net processor time, i.e., the time for all processors on a parallel Silicon Graphics computer, for approximately 200 milliseconds of simulated time. For this problem, the burning and convection timescales were of the order of minutes, e.g., about 5 minutes. Thus, a simulation and computer analysis of such phenomena would be prohibitive using current models. We anticipate that such analyses would be feasible with the proposed new model, because acoustic effects would be eliminated. The model will be used to study the nature of white dwarf novae, and in particular to resolve competing theories regarding the role of mixing of different species in promoting nova outbursts. The numerical solution of the model will employ parallel algorithms and computers and thus the project will entail the use of high performance computing to explain observed astrophysical phenomena.&lt;br/&gt;&lt;br/&gt;Date: June 21, 2002</AbstractNarration>
+    <MinAmdLetterDate>07/30/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/26/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0202485</AwardID>
+    <Investigator>
+      <FirstName>Ronald</FirstName>
+      <LastName>Taam</LastName>
+      <EmailAddress>taam@tonic.astro.northwestern.edu</EmailAddress>
+      <StartDate>07/30/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alvin</FirstName>
+      <LastName>Bayliss</LastName>
+      <EmailAddress>a-bayliss@northwestern.edu</EmailAddress>
+      <StartDate>07/30/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northwestern University</Name>
+      <CityName>Evanston</CityName>
+      <ZipCode>602013149</ZipCode>
+      <PhoneNumber>8474913003</PhoneNumber>
+      <StreetAddress>1801 Maple Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

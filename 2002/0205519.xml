@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/ANI: Addressing Fundamental Issues for Robust Internet Performance</AwardTitle>
+    <AwardEffectiveDate>09/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2009</AwardExpirationDate>
+    <AwardAmount>2999937</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Victor S. Frost</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Internet is large, decentralized, and heterogeneous in its technology, administration and capacity. The core of the Internet's success arises from its adherence to a number of architectural principles, central to which is the notion that the network should try to achieve a robust, very often works pretty well level of performance. One of the main techniques for achieving this across a wide range of conditions is making Internet protocols and mechanisms adaptive, so that they self-tune to work reasonably well in whatever circumstances they find themselves.&lt;br/&gt;&lt;br/&gt;This approach has been extremely successful. However, some of the mechanisms, designed to be good enough across a large range of conditions, must now or will soon operate in regimes beyond their effective dynamic range. For example, TCP congestion control mechanisms require revisiting for tomorrow's Internet, both the coming high speed paths, and the coming low speed paths (e.g., lossy wireless links). Similarly, the architecture's ability to gracefully tolerate failures does not extend to new forms of failures, such as misconfigured routing information or malfunctioning middle-boxes, nor to distributed stresses, such as flash crowds, rapidly-spreading worms, or denial-of-service (DoS) floods.&lt;br/&gt;&lt;br/&gt;If we view robustness as the ability of the network to function well over a wide spectrum of conditions particularly given a very large, ever-growing and ever-changing network then we argue that the robustness of the future Internet is clearly at risk. In this proposal, we emphasize a multifaceted approach to robustness:&lt;br/&gt;1) Robust performance in the presence of extreme environments such as very high speed and highly variable delay, which requires rethinking today's congestion control mechanisms.&lt;br/&gt;2) Robust performance in the presence of new forms of failure, both at the network layer, in terms of robust routing, and at the application layer, in terms of coping with the now widespread deployment of middleboxes that have elbowed their way into the architecture. This will require investigating broader notions of fault inference.&lt;br/&gt;3) Robust performance in the presence of distributed stresses, both malicious (denial-of-service floods; congestion control cheaters) and merely teeming (flash crowds). This will require an understanding of the network's topology and the makeup of traffic aggregates, coupled with new control mechanisms deployed inside the network.&lt;br/&gt;&lt;br/&gt;Part of the approach to these is to refine existing protocols and mechanisms, and investigate new ones. But the researchers also emphasize achieving robust performance by detecting incipient failures, on both short time scales (via distributed operational monitoring) and long time scales (via diagnostic probing of deployed protocol implementations).&lt;br/&gt;&lt;br/&gt;While certainly these topics do not address the full range of challenges facing the Internet architecture, they do address some of the core issues in preserving and enhancing the Internet's robustness. In one sense, the proposed research is conservative, in that we frame it in terms of working within the current Internet architecture, rather than advocating a clean sheet approach. The researchers argue, however, that in some ways this conservative approach makes for research that is more fundamental rather than less. The clean sheet approach, while more tidy and much more conducive to easy exploration of basic principles, misses the crucial reality of how different mechanisms wind up interacting once integrated into a truly large-scale network.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/08/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0205519</AwardID>
+    <Investigator>
+      <FirstName>Scott</FirstName>
+      <LastName>Shenker</LastName>
+      <EmailAddress>shenker@icsi.berkeley.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Handley</LastName>
+      <EmailAddress>mjh@icsi.berkeley.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate>10/23/2003</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vern</FirstName>
+      <LastName>Paxson</LastName>
+      <EmailAddress>vern@icsi.berkeley.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sally</FirstName>
+      <LastName>Floyd</LastName>
+      <EmailAddress>floyd@icir.org</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>International Computer Science Institute</Name>
+      <CityName>Berkeley</CityName>
+      <ZipCode>947044115</ZipCode>
+      <PhoneNumber>5106662900</PhoneNumber>
+      <StreetAddress>1947 CENTER ST STE 600</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

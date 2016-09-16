@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: Fast, Flexible, and Secure Wide-Area File Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2007</AwardExpirationDate>
+    <AwardAmount>420000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Du</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal describes a set of new techniques for managing access to remote files in the wide area. The vehicle for evaluating these techniques will be a wide-area file system called MoteFS. MoteFS will provide fast, flexible, and secure access to remote files over untrusted wide-area networks. In more detail, the following mechanisms and policies will be investigated:&lt;br/&gt;- fine-grained namespace mechanisms that allow namespaces to be efficiently and securely added, mutated, transferred and deleted at granularities from single files to millions of files.&lt;br/&gt;- decomposable credentials, which allow credential holders to locally derive and transfer weaker credentials without contacting file owners.&lt;br/&gt;- a cross-server versioning abstraction, which allows correlated versions of a group of files to be referenced even if they span multiple users and file systems.&lt;br/&gt;- client-side differencing, which allows redundant data to be eliminated during network writebacks.&lt;br/&gt;- wide-area prefetching and caching algorithms.&lt;br/&gt;The combined effect of these techniques will allow allow users to interact with their files in a flexible, secure, location-independent manner.</AbstractNarration>
+    <MinAmdLetterDate>08/22/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/20/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0218019</AwardID>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Keleher</LastName>
+      <EmailAddress>keleher@cs.umd.edu</EmailAddress>
+      <StartDate>08/22/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

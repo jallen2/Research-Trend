@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Software: Improving Performance of Out-Of-Core Applications with Memory Access Pattern Guided Prefetching, Page Replacement and Clustering</AwardTitle>
+    <AwardEffectiveDate>01/15/2003</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2004</AwardExpirationDate>
+    <AwardAmount>52188</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Xiaodong Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many large, important scientific and commercial applications use very large data sets that do not fit into available RAM. Such applications have to frequently move portions of their data sets between main memory and secondary storage (such as disks). Unfortunately, because disks are several orders of magnitude slower than RAM, many large applications spend most of their running time on disk I/Os, resulting in a significant performance degradation.&lt;br/&gt;&lt;br/&gt;A lot of research has been carried out to address this problem. Generally, the previous solutions include application-specific algorithms and libraries, compiler-based techniques, and limited Operating System (OS) support. While these solutions are effective, they also have some serious drawbacks. In this proposal, the PI proposes careful OS and architecture co-designs of several novel methods that can significantly improve the performance of large, memory-intensive&lt;br/&gt;applications. The basic idea is to use hardware/software to collect and analyze the runtime memory access patterns of applications. The knowledge of these patterns is then used to guide prefetching and to improve the page-replacement algorithms.&lt;br/&gt;&lt;br/&gt;Preliminary results from the proposed systems show very promising improvements in performance. They can drastically reduce the amount of&lt;br/&gt;page I/O traffic, and hide latencies of many page I/Os. Simulation results based on NPB (NAS Parallel Benchmarks) benchmarks show that pattern-guided prefetching and page-replacement can improve performance by up to 100 times. The proposed methods are transparent to user applications. The proposed studies, if successful, will have broad impacts on the field of high performance computing.</AbstractNarration>
+    <MinAmdLetterDate>02/07/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/07/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0232647</AwardID>
+    <Investigator>
+      <FirstName>Yiming</FirstName>
+      <LastName>Hu</LastName>
+      <EmailAddress>huyg@ucmail.uc.edu</EmailAddress>
+      <StartDate>02/07/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Cincinnati Main Campus</Name>
+      <CityName>Cincinnati</CityName>
+      <ZipCode>452210222</ZipCode>
+      <PhoneNumber>5135564358</PhoneNumber>
+      <StreetAddress>University Hall, Suite 530</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4080</Code>
+      <Text>ADVANCED COMP RESEARCH PROGRAM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

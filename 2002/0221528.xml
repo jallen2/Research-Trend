@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Transport Protocols for the Wired/Wireless NGI: Implementation and Experimental Evaluation</AwardTitle>
+    <AwardEffectiveDate>09/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>734500</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Wu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Next Generation Internet (NGI) poses scalability challenges to the efficient operation of &lt;br/&gt;the transport protocol (TCP). In particular, as the product (bandwidth x delay) grows, the &lt;br/&gt;congestion window required to .fill the pipe. becomes quite large, especially on cross-country &lt;br/&gt;links. One well known problem in TCP in this scenario is the selection of the .initial &lt;br/&gt;window.. More recently, new challenges have emerged because of the increasing popularity &lt;br/&gt;of nomadic access to the Internet via wireless links (e.g., wireless LANs, satellite links, &lt;br/&gt;UMTS, etc). The data rates on wireless links have been constantly on the rise, approaching &lt;br/&gt;the 50Mbps on 802.11a wireless LANs and thus providing an effective extension of backbone &lt;br/&gt;services to mobile users. However, wireless links tend to introduce random packet errors and &lt;br/&gt;loss that are not correlated to congestion. This creates problems to conventional TCP &lt;br/&gt;protocols (e.g., TCP New Reno and TCP SACK), which interpret any loss as a buffer overflow &lt;br/&gt;(i.e., as a symptom of congestion) and thus reduce the congestion window unnecessarily with &lt;br/&gt;consequent loss in performance. The drop in performance is proportional to the (bandwidth x &lt;br/&gt;length) product of the connection and can be quite significant in the high bandwidth NGI &lt;br/&gt;environment, especially on cross country paths including .last hop wireless LANs, UMTS &lt;br/&gt;links, or high bandwidth satellites. &lt;br/&gt;Several approaches to enhance TCP congestion control over high bandwidth wireless links &lt;br/&gt;have been reported in the literature (e.g., TCP Peach, TCP Westwood (TCPW)). Some of &lt;br/&gt;these enhancements have been quite successful. For example, TCPW, a TCP variant that &lt;br/&gt;uses bottleneck bandwidth share estimation. to adjust the congestion window upon loss, has &lt;br/&gt;shown scalable properties and good link utilization in large leaky pipes., (i.e. large &lt;br/&gt;bandwidth delay product, and non negligible random packet loss). &lt;br/&gt;This proposal is about carrying out a systematic, experimental investigation of performance &lt;br/&gt;of TCP over wired/wireless paths. This investigation will include the comparison of various &lt;br/&gt;TCP enhancements proposed so far in the literature. It will consider a representative set of &lt;br/&gt;experimental environments and application scenarios. The proposed project is in part &lt;br/&gt;motivated by our recent positive experience with TCPW Internet experiments of large file &lt;br/&gt;transfers over lossy paths. In this project the researchers will broaden the scope to include a vast gamut of TCP wireless enhancement techniques. The researchers will identify the pros and cons of each scheme, characterize the traffic/network environment for which it is best suited, and, more generally, develop models that relate wireless media characteristics, TCP congestion control &lt;br/&gt;parameters and performance results. &lt;br/&gt;In summary, given: (1) the increasing importance of nomadic computing and wireless access &lt;br/&gt;to the high speed wired Internet; (2) the performance degradations observed in conventional &lt;br/&gt;TCP protocols over wireless path, and (3) the encouraging improvements offered by &lt;br/&gt;modified, wireless versions of TCP (which yet retain the basic end to end paradigm), the researchers believe this a very appropriate time to engage in a systematic, experimentally based &lt;br/&gt;evaluation of wireless TCP protocols by a team that includes protocol developers, &lt;br/&gt;applications developers and network measurement experts.</AbstractNarration>
+    <MinAmdLetterDate>09/09/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/28/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0221528</AwardID>
+    <Investigator>
+      <FirstName>Mario</FirstName>
+      <LastName>Gerla</LastName>
+      <EmailAddress>gerla@cs.ucla.edu</EmailAddress>
+      <StartDate>09/09/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>M.Y.</FirstName>
+      <LastName>Sanadidi</LastName>
+      <EmailAddress>medy@ucla.edu</EmailAddress>
+      <StartDate>09/09/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900952000</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>11000 Kinross Avenue, Suite 211</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

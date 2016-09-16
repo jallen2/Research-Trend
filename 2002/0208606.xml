@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Branch Elimination by Condition Merging</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>70000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Conditional branches are expensive. Branches require a significant&lt;br/&gt;percentage of the execution cycles since they occur frequently and can&lt;br/&gt;cause pipeline stalls. In addition, branches result in forks in the&lt;br/&gt;control flow, which can prevent other code-improving transformations&lt;br/&gt;from being applied. We plan to develop path profile-based techniques&lt;br/&gt;for replacing the execution of a set of two or more branches with a&lt;br/&gt;single branch on a conventional scalar processor. We propose to&lt;br/&gt;improve performance by merging the conditions of two or more branches&lt;br/&gt;into a single condition. Previous approaches have accomplished&lt;br/&gt;such merging of conditions that have either only involved a single&lt;br/&gt;variable or have required special hardware to merge multiple&lt;br/&gt;conditions together. Techniques will be developed to produce a merged&lt;br/&gt;condition involving multiple variables that can be used to bypass the&lt;br/&gt;code testing the original set of conditions on a conventional processor.&lt;br/&gt;Merging conditions may be very good fit for run-time optimization&lt;br/&gt;systems, which optimize frequently executed paths during the execution&lt;br/&gt;of a program.</AbstractNarration>
+    <MinAmdLetterDate>08/23/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/13/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208606</AwardID>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Bailey</LastName>
+      <EmailAddress>mbailey@hamilton.edu</EmailAddress>
+      <StartDate>08/23/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Hamilton College</Name>
+      <CityName>Clinton</CityName>
+      <ZipCode>133231218</ZipCode>
+      <PhoneNumber>3158594011</PhoneNumber>
+      <StreetAddress>198 College Hill Rd</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

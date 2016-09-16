@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Statistical Methods for Dimensionality Reduction in Machine Learning</AwardTitle>
+    <AwardEffectiveDate>07/01/2003</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2006</AwardExpirationDate>
+    <AwardAmount>320000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Edwina L. Rissland</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research addresses the problem of dimensionality reduction, discovering low dimensional structure hidden in high dimensional data. It arises in many fields of information processing, and poses a particular challenge to researchers attempting to build machines that emulate feats of human perception, such as recognizing faces and understanding speech. It also plays an increasingly prominent role in many applications of statistical and scientific computing. With the advent of widespread information technologies, it has become possible to collect and manipulate ever-increasing amounts of experimental data. Thus, scientists interested in the exploratory analysis and visualization of large multivariate data sets face similar challenges in information processing as our perceptual systems.&lt;br/&gt;&lt;br/&gt;This research focuses on two recently proposed algorithms for dimensionality reduction. The two algorithms address the "curse of dimensionality" as it arises in two different settings of machine learning: (1) unsupervised learning, where the dimensionality reduction is performed without any feedback from the learning environment, and (2) supervised learning, where the dimensionality reduction is performed with the benefit of labeled examples.&lt;br/&gt;&lt;br/&gt;The first algorithm to be studied is Locally Linear Embedding (LLE), an unsupervised learning algorithm that computes low dimensional, neighborhood preserving embeddings of high dimensional data. The data, assumed to lie on a nonlinear manifold, is mapped into a single global coordinate system of lower dimensionality. The mapping is derived from the symmetries of locally linear reconstructions, and the actual computation of the embedding reduces to a sparse eigenvalue problem. Notably, the optimizations in LLE (though capable of generating highly nonlinear embeddings) are simple to implement, and they do not involve local minima. LLE has applications to exploratory data analysis, scientific visualization, and computer vision.&lt;br/&gt;&lt;br/&gt;The second algorithm is Multiplicative Margin Maximization (M3), a supervised learning algorithm for nonnegative quadratic programming in support vector machines (SVMs). Support vector machines currently provide state-of-the-art solutions to many problems in machine learning, particularly those involving data sets of high dimensionality. Solving the quadratic programming problem in SVMs, however, remains a significant bottleneck in their implementation. The M3 algorithm is designed to alleviate this bottleneck. Its update rules have a simple closed form, and they converge monotonically to the solution of the maximum margin hyperplane. Moreover, they do not involve any heuristics such as choosing a learning rate or deciding which variables to update at each iteration. They optimize the traditionally proposed objective function for SVMs and can be applied to problems in classification, regression, and novelty detection.&lt;br/&gt;&lt;br/&gt;The algorithms to be studied in this research are easy to implement, but the problems they solve are quite complex. Compared to previous approaches, they are distinguished not only by their novel simplicity and well-behaved optimizations, but also by the unexpected connections they make to other areas in mathematics, computer science, and statistics. The work will not only develop the theoretical foundations of these algorithms, but also attempt to scale them up to increasingly large problems in machine learning.&lt;br/&gt;&lt;br/&gt;This CAREER award recognizes and supports the early career-development activities of a teacher-scholar who is likely to become an academic leader of the twenty-first century. The research is expected to have a broad impact across many areas of science and engineering, by overcoming the challenges posed by data sets of extremely high dimensionality. Software toolkits will be published, so that researchers everywhere will have access to state-of-the-art methods for dimensionality reduction. The educational innovations will include new undergraduate and graduate courses in artificial intelligence, machine learning, statistical computing, and sensory processing.</AbstractNarration>
+    <MinAmdLetterDate>06/24/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/22/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0238323</AwardID>
+    <Investigator>
+      <FirstName>Lawrence</FirstName>
+      <LastName>Saul</LastName>
+      <EmailAddress>saul@cs.ucsd.edu</EmailAddress>
+      <StartDate>06/24/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0104000</Code>
+      <Name>Information Systems</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>6856</Code>
+      <Text>ARTIFICIAL INTELL &amp; COGNIT SCI</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Generalized Branch-and-Cut Method for Mixed Integer Programming</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>287204</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Stephen G. Nash</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Models involving general integer variables with nonlinear constraints are very hard to solve. There has been some, but limited progress towards solving large scale models of this type. Computational results on practical test problems suggest that the gap between the optimum objective value and a bound from the solution of the relaxed problem at the root node is significantly larger when compared with bounds obtained in the linear case, and the size of the enumeration tree explodes quickly. To overcome the difficulties in solving large scale problems of this type, advances in several directions are needed. Methods for generating good cutting planes need to be developed further, as well as more advanced heuristics for identifying a feasible solution quickly need to be developed. However, we think that the most fundamental advance may come from the development of advanced branching schemes in a branch-and-cut method. The standard branching schemes branch on a single variable disjunction at a time. Lenstra showed that by branching on general hyperplanes we can solve a mixed integer linear programming problem in polynomial time. Lenstra's algorithm has found limited practical value. This is because the computational cost of finding the branching hyperplane in his algorithm is very high. However, there is a possibility for finding branching planes that are ``good quality'' but computationally not as expensive. This research will focus on this problem as well as related issues towards solving nonlinear mixed integer programs.&lt;br/&gt;&lt;br/&gt;Several engineering and management problems lead to models that are nonlinear, possibly stochastic, integer programs. These problem areas include inventory, production and chemical process planning, layout, location, logistics and financial optimization. For example, nonlinearity arises naturally while modeling uncertainty using the second moment. This proposal request funds to support our ongoing research for finding efficient techniques for solving such models. The development of general purpose solution methodology for solving nonlinear integer programming problem will have a wide ranging impact, as it would facilitate solving such problems arising from many different areas.</AbstractNarration>
+    <MinAmdLetterDate>04/11/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/11/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0200151</AwardID>
+    <Investigator>
+      <FirstName>Sanjay</FirstName>
+      <LastName>Mehrotra</LastName>
+      <EmailAddress>mehrotra@iems.northwestern.edu</EmailAddress>
+      <StartDate>04/11/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northwestern University</Name>
+      <CityName>Evanston</CityName>
+      <ZipCode>602013149</ZipCode>
+      <PhoneNumber>8474913003</PhoneNumber>
+      <StreetAddress>1801 Maple Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0107000</Code>
+      <Name>Operations Research</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

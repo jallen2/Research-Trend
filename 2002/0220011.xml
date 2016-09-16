@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: Optimization of Reconfigurable Architectures for Efficient Implementation of Particle Filters</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2006</AwardExpirationDate>
+    <AwardAmount>371806</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>ABSTRACT&lt;br/&gt;0220011&lt;br/&gt;Djuric, Petar&lt;br/&gt;SUNY @ Stony Brook&lt;br/&gt;&lt;br/&gt;Optimization of Reconfigurable Architectures for Efficient Implementation of &lt;br/&gt;Particle Filters&lt;br/&gt;&lt;br/&gt;In recent years particle filters have attracted great attention in several research communities. These filters are used in problems where time-varying signals must be processed in real time and the objective is to estimate various unknowns of the signals and to detect events described by the signals. The standard solutions of such problems in many applications are based on the &lt;br/&gt;Kalman or extended Kalman filters. In situations when the problems are highly nonlinear or the noise that distorts the signals is non-Gaussian, the Kalman filters provide solutions that may be far from optimal. &lt;br/&gt;A major drawback of the particle filters is that their implementation is computationally very intensive. They are, however, inherently parallelizable, and special hardware can be built for their implementation that can meet the stringent requirements of real-time processing. In this research, &lt;br/&gt;reconfigurable and physically feasible VLSI architectures for particle filters are developed. In the development of these architectures, many important problems are researched. The most critical of them is the balancing of hardware and software, which itself is tightly related to other important issues. They include reductions of computational complexities by transformations and &lt;br/&gt;approximations, investigation of the degree of parallelism implemented in the filter, investigation of various interconnection mechanisms, random communication schemes, hardware optimization, and design of low power VLSI processors. This effort also includes building of reconfigurable hardware so that it is suitable for different types of particle filters.</AbstractNarration>
+    <MinAmdLetterDate>09/23/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/10/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0220011</AwardID>
+    <Investigator>
+      <FirstName>Sangjin</FirstName>
+      <LastName>Hong</LastName>
+      <EmailAddress>snjhong@ece.sunysb.edu</EmailAddress>
+      <StartDate>09/23/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Petar</FirstName>
+      <LastName>Djuric</LastName>
+      <EmailAddress>petar.djuric@stonybrook.edu</EmailAddress>
+      <StartDate>09/23/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>4720</Code>
+      <Text>SIGNAL PROCESSING SYS PROGRAM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

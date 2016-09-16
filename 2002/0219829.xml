@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: Network and Traffic Engineering for DiffServ MPLS-Based Networks</AwardTitle>
+    <AwardEffectiveDate>09/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2006</AwardExpirationDate>
+    <AwardAmount>299991</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Joseph B. Evans</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The combined use of the Differentiated Services (DiffServ) and Multiprotocol Label Switching (MPLS) Technologies is a promising way to provide Quality-of-Service (QoS) in IP networks, while effectively using network resources. However, to efficiently carry DiffServ traffic over an MPLS network, a mapping between DiffServ classes and LSPs is needed. Moreover, the design and management of such a network is a fundamental key to the success of the QoS provisioning and it includes several open research issues. Many problems need to be solved such as LSP dimensioning, set up tear down procedures, routing, adaptation to actual carried traffic, preemption, initial definition of the network topology, etc. Furthermore, in designing network planning and management methods, we have to take into account the high unpredictability of the Internet traffic.&lt;br/&gt;&lt;br/&gt;Our proposal is a comprehensive study that describes practical solutions for MPLS network planning along with bandwidth and route management, which interwork in a synergetic fashion. The presented ideas are novel paradigms that allow MPLS networks to adapt their state to provide the best possible performance and resource utilization. We propose to design, evaluate and fine-tune these new ideas. &lt;br/&gt;&lt;br/&gt;In the bandwidth management portion of the project, new methods for LSP setup, dimensioning, preemption, and capacity allocation will be designed. The route management research includes novel algorithms for LSP routing and bandwidth request routing. Finally, in the network planning research we will investigate methods to design the optimal MPLS network topology and its dimensioning based on predicted traffic loads and long term Service Level Specification (SLS) contracts.&lt;br/&gt;&lt;br/&gt;To illustrate the inter-relations of the above mentioned research topics, consider a scenario where network planning methods have provided an initial topology of the MPLS network. Possible events include the arrival of a request for LSP setup or arrival of a bandwidth request. The first event can be handled by the combined use of three of our proposed methods, in the order: LSP routing, LSP preemption, and LSP capacity allocation. The LSP routing aims to find the route on the physical network over which the LSP will be routed. LSP preemption decides if any existing LSPs can be preempted on the route to make way for the new LSP in the case in which there is not enough available bandwidth. The LSP capacity allocation method tries to fine tune the LSP capacity to avoid unused reserved bandwidth. The event of arrival of a bandwidth request triggers the LSP setup and dimensioning, which may in turn trigger the LSP creation steps of routing, preemption and capacity allocation.&lt;br/&gt;&lt;br/&gt;The potential impact of this proposal is the development of novel and practical methods which currently are open issues in the design and management of DiffServ-based MPLS networks. Significant progress and contributions to the study of MPLS network management have already been made in our publications. This previous work will be useful towards achieving the proposed objectives.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/15/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0219829</AwardID>
+    <Investigator>
+      <FirstName>Caterina</FirstName>
+      <LastName>Scoglio</LastName>
+      <EmailAddress>caterina@ksu.edu</EmailAddress>
+      <StartDate>09/11/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>4097</Code>
+      <Text>NETWORKING RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1656</Code>
+      <Text>LARGE SCALE NETWORKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

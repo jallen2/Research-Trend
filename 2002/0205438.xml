@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP: Beyond Polygons and Pixels: New Paradigms for Real-Time, Physically-Based Rendering</AwardTitle>
+    <AwardEffectiveDate>07/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2009</AwardExpirationDate>
+    <AwardAmount>2743914</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>ITR: Beyond Polygons and Pixels: New Paradigms for Real-Time, Physically-Based Rendering&lt;br/&gt;&lt;br/&gt;The ultimate goal of this research proposal is to provide real-time, physically accurate synthetic images, delivering breakthrough realism at fully interactive rates. We will achieve this by combining new approaches for parallel graphics rendering with advanced, feature-level psychophysical models of human vision and new image representations. &lt;br/&gt;&lt;br/&gt;Currently, the two extremes of image synthesis are physically-based rendering, where accurate simulation of light reflection gives faithful predictions of the appearance of scenes, and real-time rendering, where crude approximations to accurate simulation are tolerated to provide dynamic imagery at interactive rates. High-quality, physically accurate images incorporating indirect lighting, inter-reflections between surfaces, and color bleeding can take hours or even days to compute on today's workstations, and incremental improvements to the speed of rendering will not be enough to bridge the gap. We estimate that real-time simulations of global illumination for complex scenes might require 10 7 times more processing power than we have on multi-processor workstations today. This can only be achieved by taking a radically different approach to how we generate, encode, and display synthetic images, an approach that separates computation by light reflection components and is based on advanced psychophysical models of human vision and new image representations.&lt;br/&gt;&lt;br/&gt;Low-cost, efficiently pipelined graphics accelerator boards have become extremely popular, but these architectures only process local illumination components, and thus cannot provide global illumination effects or guarantee physical accuracy. To address this shortcoming, we have developed new algorithms that exploit the speed of these accelerator boards for direct lighting while performing global illumination computations in parallel on clusters of off-the-shelf Intel microprocessors. We have reduced computation times from hours to minutes for complex environments, but for real-time image synthesis we need another four orders of magnitude speed-up.&lt;br/&gt;&lt;br/&gt;To reach this goal, we must develop more advanced models of human visual perception.&lt;br/&gt;Current perceptually-driven rendering methods are based on threshold models of human vision that predict the limits of our abilities to discriminate luminance contrasts, spatial patterns, motions, and colors, but provide no guidance for optimizing the order or precision of rendering operations. For our new perception oracles, we are developing higher-level visual models to monitor the importance of scene features such as shadows and reflections to perceived image quality. These new models will then drive the allocation of parallel computing resources as well as select appropriate algorithms to provide the "steepest ascent" solutions. New data structures for pictorial representation will incorporate illumination and contrast gradients as well as pixel-by-pixel intensities to ensure optimal display of physically accurate and perceptually indistinguishable solutions under all viewing conditions. These capabilities will extend the scientific, educational, and commercial application of graphical simulations into visually critical tasks where predictive reliability and speed are paramount.</AbstractNarration>
+    <MinAmdLetterDate>07/05/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/08/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0205438</AwardID>
+    <Investigator>
+      <FirstName>Donald</FirstName>
+      <LastName>Greenberg</LastName>
+      <EmailAddress>dpg@graphics.cornell.edu</EmailAddress>
+      <StartDate>07/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kenneth</FirstName>
+      <LastName>Torrance</LastName>
+      <EmailAddress>ket1@cornell.edu</EmailAddress>
+      <StartDate>07/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Ferwerda</LastName>
+      <EmailAddress>jaf@cis.rit.edu</EmailAddress>
+      <StartDate>07/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cornell University</Name>
+      <CityName>Ithaca</CityName>
+      <ZipCode>148502820</ZipCode>
+      <PhoneNumber>6072555014</PhoneNumber>
+      <StreetAddress>373 Pine Tree Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

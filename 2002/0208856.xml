@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Online Competitive Algorithms</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>235042</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010100</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Beigel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Optimization problems that arise in practice are often inherently&lt;br/&gt;online; that is, the input data is not available prior to&lt;br/&gt;computation but, instead, is given as a sequence of requests&lt;br/&gt;each of which must be served before the next one is received.&lt;br/&gt;A classical example is the caching problem in two-level memory&lt;br/&gt;systems. Modern computer architectures enhance memory performance&lt;br/&gt;by storing frequently accessed data items in a cache, which is&lt;br/&gt;a small buffer memory. Memory locations stored in the cache&lt;br/&gt;can be accessed quickly. Requests to memory locations that are&lt;br/&gt;not in the cache are called faults or misses, and take much&lt;br/&gt;more time. After each memory access, an online caching algorithm&lt;br/&gt;needs to decide whether to put the requested item in the cache,&lt;br/&gt;and if so, which item to evict from the cache. The objective&lt;br/&gt;is to minimize the number of cache faults.&lt;br/&gt;&lt;br/&gt;Due to incomplete information, online algorithms cannot, in general,&lt;br/&gt;compute optimal solutions. This brings up the issue of performance&lt;br/&gt;evaluation: how do we tell good algorithms from bad ones? One measure&lt;br/&gt;of the quality of online algorithms is their competitive ratio,&lt;br/&gt;defined as the maximum, over all request sequences, of the ratios&lt;br/&gt;between the solution computed by the online algorithm and the optimal&lt;br/&gt;(offline) solution. Thus, an algorithm with competitive ratio, say,&lt;br/&gt;1.5, always computes a solution that is within 50% of the minimum.&lt;br/&gt;&lt;br/&gt;This research deals with the competitive analysis of online algorithms.&lt;br/&gt;Several research directions are being explored. The first direction&lt;br/&gt;is to study general techniques for the design and analysis of online&lt;br/&gt;algorithms. Here, the most promising ideas include the&lt;br/&gt;work-function algorithm (and its extensions) and the primal-dual method.&lt;br/&gt;Both of these techniques, as well as some other, have been successfully&lt;br/&gt;applied to specific online problems, but the mechanism behind their&lt;br/&gt;success is still poorly understood, and they still require an in-depth&lt;br/&gt;study to determine their applicability to other problems. Another&lt;br/&gt;direction is to study several extensions of the competitive analysis,&lt;br/&gt;including access graphs (for caching), diffuse adversaries, loose&lt;br/&gt;competitiveness and resource augmentation. This work focuses on some open&lt;br/&gt;problems related to these models, on adapting these models to other&lt;br/&gt;online problems, and on designing new problem-specific models. The&lt;br/&gt;investigator is also continuing his work on several classical&lt;br/&gt;problems in competitive analysis, including the k-server&lt;br/&gt;problem, several versions of caching and scheduling problems,&lt;br/&gt;the k-median problem, and other. The main goals of these efforts&lt;br/&gt;are to develop efficient competitive algorithms for these problems&lt;br/&gt;and to establish matching lower bounds on the competitive ratios.</AbstractNarration>
+    <MinAmdLetterDate>07/16/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/09/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208856</AwardID>
+    <Investigator>
+      <FirstName>Marek</FirstName>
+      <LastName>Chrobak</LastName>
+      <EmailAddress>marek@cs.ucr.edu</EmailAddress>
+      <StartDate>07/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

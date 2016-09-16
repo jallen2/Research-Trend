@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Towards Improved Logics For Reasoning About Security</AwardTitle>
+    <AwardEffectiveDate>07/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2006</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Karl Levitt</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Security protocols are notoriously difficult to design and prove correct. The goal of this project is to design a logic that deals with a number of deficiencies in current logics. The focus will be on two issues: &lt;br/&gt;&lt;br/&gt;(1) Getting more realistic notions of knowledge: Informal arguments regarding the correctness of security protocols often involve statements about knowledge and belief. Assumptions such as "The adversary does not know the key" and "The participants believe that k is a good session key" are standard. The standard semantics for these operators has the problem that agents are able to deduce all logical tautologies and the logical consequences of their knowledge. Because agents "know" how to factor, for example, they can break RSA.&lt;br/&gt;&lt;br/&gt;(2) Modeling more general intruders: Current logics almost invariably use the Dolev-Yao intruder model, which assume that an intruder can compose messages, replay them, or decipher them if she knows the right keys, but cannot otherwise "crack" encrypted messages. While useful, this model is restrictive, in that it does not consider the knowledge that agents have of the protocol being run and cannot deal with probabilistic arguments, such as an adversary randomly guessing the right key to use. &lt;br/&gt;&lt;br/&gt;The research will take as its point of departure the standard models of knowledge and belief based on possible worlds, augmented with probability, so as to be able to reason about knowledge and probability. The notion of algorithmic knowledge, where an agent uses an algorithm to compute what it knows, will be used to deal with resource-bounded reasoning.</AbstractNarration>
+    <MinAmdLetterDate>07/17/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/26/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208535</AwardID>
+    <Investigator>
+      <FirstName>Joseph</FirstName>
+      <LastName>Halpern</LastName>
+      <EmailAddress>halpern@cs.cornell.edu</EmailAddress>
+      <StartDate>07/17/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cornell University</Name>
+      <CityName>Ithaca</CityName>
+      <ZipCode>148502820</ZipCode>
+      <PhoneNumber>6072555014</PhoneNumber>
+      <StreetAddress>373 Pine Tree Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

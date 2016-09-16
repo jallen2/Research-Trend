@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>VISUALIZATION: Effective and Efficient Segmentation Frameworks for Scientific Data Exploration</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2006</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Rapid and substantial improvements in computing power and sensor and imaging technologies produce data sets of ever increasing size. No longer is it possible to rely exclusively on traditional approaches to interactive data exploration and visualization. It is becoming increasingly important to provide technology that enables scientists to analyze their data interactively at higher levels of abstraction. Two approaches are&lt;br/&gt;crucial to making possible higher-level data exploration: (1) hierarchical data exploration relying on a data format representing a data set at multiple approximation levels and (2) segmentation- (or feature-based) data exploration. Approach (2) as becoming increasingly important as it allows scientists to study qualitative behavior of their data, which, in turn, can lead to significant compression of data, i.e., the geometrical representations for extracted segments or features are typically much more storage-efficient than original data. We will do research based on approach (2), and our goal is to devise an entire new framework supporting more efficient and effective data exploration via segmentation. Complex scientific data sets represent physical phenomena with billions of elements. These data sets are multi-valued, muti-dimensional and time-varying, and we are no longer able to fully analyze them with merely traditional visualization technology. One can consider various paradigms when developing tools for the exploration of such data sets, and one&lt;br/&gt;must consider that scientists rarely needs to examine entire data sets. Typically, the interest is in particular regions where certain properties hold. Tools should therefore be developed that allow a scientist to specify the properties of interest, and to segment data sets accordingly.&lt;br/&gt;The proposed approach supports the definition of higher-level data properties, the efficient extraction of the implied data, and the effective visual representation of the extracted data. Our framework is aimed at multi-valued time-varying data sets, where, for example, grid vertices might have multiple associated scalar, vector and tensor quantities.&lt;br/&gt;Our goal is to devise new algorithms that support the numerically robust extraction of regions (or boundaries of these regions) that represent similar qualitative behavior. We propose this ''segmentation'' approach to massive data set exploration as we believe that it is a necessary to provide scientists with exploration technology that supports higher-level data representation coupled with real-time system&lt;br/&gt;behavior.&lt;br/&gt;The challenge is to generate ''segmented data'' from given multi-valued data sets, store the segmented data efficiently, generate the boundaries of segment boundaries, and display these boundaries. We propose an integrated scheme that supports common data presentation for segmentation and that can be applied to a number of data types (scalar, vector or tensor).&lt;br/&gt;In addition, we will combine the segmentation framework with new multiresolution techniques---multiresolution techniques that shall support the extraction and visualization of segmented data and extracted segment boundaries at multiple resolution levels. The need for new tools to explore multi-valued time-varying data sets is paramount. The innovative framework we propose to develop will augment current data exploration paradigms. The new framework will allow scientists to define, segment and track meaningful derived data regions.&lt;br/&gt;Scientists will be able to focus attention to those areas in a data set that carry largest information content, and the power of our framework lies in the fact that it will be possible to more effectively define and extract these area.</AbstractNarration>
+    <MinAmdLetterDate>09/24/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/25/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0222909</AwardID>
+    <Investigator>
+      <FirstName>Kenneth</FirstName>
+      <LastName>Joy</LastName>
+      <EmailAddress>joy@cs.ucdavis.edu</EmailAddress>
+      <StartDate>09/24/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Bernd</FirstName>
+      <LastName>Hamann</LastName>
+      <EmailAddress>hamann@cs.ucdavis.edu</EmailAddress>
+      <StartDate>09/24/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

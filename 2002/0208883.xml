@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Communicating by Information-embedding: Theory, Algorithms and Applications</AwardTitle>
+    <AwardEffectiveDate>06/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2006</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010800</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0208883&lt;br/&gt;Kannan Ramchandran&lt;br/&gt;University of California - Berkeley&lt;br/&gt;&lt;br/&gt;Communicating by message-hiding or steganography (derived from the Greek words steganos meaning \covered" and graphein meaning \to write") goes back over two thousand years ago to the ancient Greeks as a way of communicating secretly to send important espionage infor- mation during war 1 . The theoretical foundations for this powerful communications paradigm are derived from the elegant information-theoretical framework of channel coding with side information (CCSI). CCSI refers to the problem of communicating over a noisy channel with some partial knowledge about the transmission channel (in the form of side information) avail- able at the encoder but not at the decoder. For example, in the multimedia data-hiding or watermarking problem, the side information might refer to a multimedia \host" signal such as an image or audio or video clip that is present only at the encoder, in which the message may be desired to be embedded. The rules of data-embedding are usually that (i) the host medium is minimally perturbed, implying that the embedded message be minimally intrusive; (ii) the embedded message can be reliably and robustly recovered by theintended decoder even in the presence of an intermediate \attacker" who, within the bounds of not rendering the embedded host signal unusable, might attempt to corrupt or erase the message or watermark.&lt;br/&gt;While the field of information-hiding has its origins in covert communications, the scope of applicability ofthis paradigm is far more general, and extends to non-covert communication systems as well. Specifically, it turns out, rather surprisingly, that in general, the most e Ecient way to do digital broadcast is to follow the principles of data-hiding with users' messages being embedded in one another's. Indeed, the theoretically best-known achievable broadcast rates from information-theory to this day date back to the (unreadable) work of Marton [1], whose codebook construction is intimately connected to the methodology for data-hiding. Related to this are the works of Gelfand and Pinsker [2] on CCSI, and by Costa [3] on the so-called problem of \writing on dirty paper" where the punchline is to embed data by adapting to the host medium rather than by trying to \overpower" it. These ideas lay the theoretical foundations for the problem of information-embedding and form the core of this proposal.</AbstractNarration>
+    <MinAmdLetterDate>06/05/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208883</AwardID>
+    <Investigator>
+      <FirstName>Kannan</FirstName>
+      <LastName>Ramchandran</LastName>
+      <EmailAddress>kannanr@eecs.berkeley.edu</EmailAddress>
+      <StartDate>06/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

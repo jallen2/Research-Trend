@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: Scalable Edge Router for Differentiated Services Networks</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2008</AwardExpirationDate>
+    <AwardAmount>429680</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Alhussein A. Abouzeid</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research studies and designs coordinated trafficconditioning, network monitoring, flow control, and provisions the networkproperly to meet the demands for data and multimedia traffic&lt;br/&gt;in various applications. An edge router component to monitor a large network for service level agreement (SLA) violations and bandwidth theft attacks is developed. This network monitoring scheme involves only edge routers. The conditioner and flow control components alleviate the congestion and unfairness in resource allocation. The edge routers share the congestion information with upstream routers to save resource wastage in the downstream domains. &lt;br/&gt;&lt;br/&gt;Continuous monitoring of network activity is required to maintain confidence in the security of networks with quality of service (QoS) support. These solutions have to be scalable in order to&lt;br/&gt;deploy them in the heterogeneous Internet. A scalable edge router cannot use excessive per-flow information and cannot involve core routers. The researchers follow this principle in designing edge routers to achievescalability. &lt;br/&gt;&lt;br/&gt;The following is a list of contributions that are obtainedthrough experiments, simulation, and collaboration with industry.&lt;br/&gt;&lt;br/&gt;1. For the edge router, we determine the optimal traffic assignment rate for each traffic class and weight assignments at the queue to maximize the profit for the service provider of a network&lt;br/&gt;domain. Proper provisioning provides service level agreement bounds, such as throughput, delay, and loss for each user.&lt;br/&gt;&lt;br/&gt;2. To ensure all flows are getting their share of SLA, the flows of a network domain is monitored for possible SLA violation and bandwidth theft attack. We define and employ throughput,&lt;br/&gt;delay, packet loss, and security as QoS parameters for the design of an edge-to-edge SLA monitoring scheme. This contributes to detecting service violations and attacks, especially denial of service (DoS) attacks.&lt;br/&gt;&lt;br/&gt;3. The traffic conditioners at the edge routers intelligently mark and shape packets differentially based on the class parameters and according to network state. Through experimental studies,&lt;br/&gt;we show that the flow characteristics provide better resource utilization and improve the application level quality of service.&lt;br/&gt;&lt;br/&gt;4. The edge routers detect and regulate unresponsive flows that cause poor performance for adaptive flows, such as TCP, which retreats during congestion. The ingress (entry) edge routers&lt;br/&gt;propagate the congestion information to the egress (exit) routers of a previous upstream network domain. This reduces the resource wastage at the downstream network due to undelivered&lt;br/&gt;packets.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0219110</AwardID>
+    <Investigator>
+      <FirstName>Bharat</FirstName>
+      <LastName>Bhargava</LastName>
+      <EmailAddress>bbshail@purdue.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

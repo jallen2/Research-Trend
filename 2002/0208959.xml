@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Sequential Architectures for Quantum Computation</AwardTitle>
+    <AwardEffectiveDate>09/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>306000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Timothy M. Pinkston</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>During the last decade, a revolutionary new computer paradigm has emerged that, unlike conventional ones such as the von Neumann model, is based on quantum mechanics rather than classical physics. Quantum computers can, in principle, solve some hitherto intractable problems including factorization of large numbers, a central issue in secure data encryption. The quantum unit of information is the qubit and n qubits can store 2^n binary numbers simultaneously thus facilitating a type of massive parallelism. Qubits support powerful forms of interaction such as entanglement that have no counterpart in classical computers. On the other hand, quantum states are fragile, nanoscale entities, whose measurement is inherently nondeterministic and does not retrieve all 2^n stored numbers simultaneously. As a result, quantum and classical computers pose fundamentally different design problems. Although several promising physical technologies for quantum computers have been demonstrated, they can handle only a small number of qubits and their scalabilty is severely limited. The logic circuits they employ are essentially combinational quantum circuits, which function as a kind of co-processor within an otherwise classical computer. Once quantum computers with 15 -20 qubits can be built, quantum architectures that fully exploit their computational capabilities and also meet practical design and implementation constraints will be needed. These issues motivate the research proposed here, as well as related problems in classical computers that are implemented using nanoscale technologies such as molecular architectures.&lt;br/&gt;&lt;br/&gt;The overall goal of this proposal is to develop practical methods to design sequential quantum circuits that require much less hardware than current quantum circuits and can be more easily interfaced with classical architectures. The time-space trade-off achievable in classical logic design by using sequential rather than combinational methods is well-known. In the quantum domain, however, it is not obvious that such a trade-off is even possible, since the act of measuring a register's state can destroy its contents. As a result, little or no research has been directed at sequential design methods. However, recent theoretical work on quantum automata by Ambianis et al. demonstrates the feasibility of such methods and points to the possibility of substantial cost savings over conventional approaches. We propose to study the design of quantum sequential circuits starting with exponentially more efficient counters and culminating with application-specific processor designs that realize important applications such as Grover's search algorithm. We will pursue multiobjective optimization, including minimization of the number of qubits, the number of gates, or the circuit depth. We will also take into account the constraints imposed by the most promising physical technologies. Moreover, we will study ways to combine small quantum circuits with large classical circuits to obtain scalable hybrid architectures. Both quantum performance speed-up and conventional scalability then become possible. Novel hybrid designs of this type are expected to play a central role in interfacing quantum processors with classical computers, both conventional and nanoscale. As in traditional computer architecture studies, simulation and other computer-aided design (CAD) methods will, along with the appropriate analytic methods, serve as our principal research tools.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/12/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208959</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Hayes</LastName>
+      <EmailAddress>jhayes@eecs.umich.edu</EmailAddress>
+      <StartDate>09/11/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Igor</FirstName>
+      <LastName>Markov</LastName>
+      <EmailAddress>imarkov@eecs.umich.edu</EmailAddress>
+      <StartDate>09/11/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>
