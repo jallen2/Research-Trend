@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Elliptic Inverse Problems</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>95158</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This is a continuation of work on a new approach to parameter estimation inverse problems. The coefficients in question are computed as the unique global minimum of certain non-negative functionals that also tend to have unique critical points, the latter property being of crucial importance if one seeks truly effective numerical algorithms. The core of the idea involves the observation that the Dirichlet principle for self-adjoint elliptic equations can be reformulated to produce the coefficients in the equation, rather than the solution. Recent work indicates that the techniques extend readily to parabolic and hyperbolic systems as well, which extends the range of applicability considerably. As these methods confront the nonlinear inverse problems directly, they are computationally more expensive than algorithms wherein the problem is initially linearized. On the other hand, when successful, the direct methods tend to give better images, free from the various artifact problems that surround the linearization methods. The methods also exhibit remarkable stability and accuracy in the face of significant ill-posedness. The proposal concentrates mainly on two generic cases, the (as yet unsolved) problem of the reconstruction of all the coefficient functions in the equations for groundwater flow and transport and the electrical impedance tomography problem. These examples have been chosen in part to indicate the broad applicability of this circle of ideas. The first is chosen as a representative of the class of problems in which measurements of the solution are available from inside the region, while the second is an example representative of the situation in which only boundary information on the solution is available. An indication is also given on an extension to imaging undersea regions from reflection seismological data, and landmine detection using microwave impulse radar. These methods may also have profound theoretical implications as well, in the direction of proving associated inverse problem uniqueness theorems.&lt;br/&gt;&lt;br/&gt;Complex physical processes are often represented mathematically by systems of linear ordinary or partial differential equations. A crucial part of this modeling process involves the determination of all of the coefficient functions in the equations modeling certain processes. In many situations of practical interest it is, for various reasons, impractical to measure these functions directly. In groundwater modeling, for example, one cannot easily measure most subsurface parameters, and in medical imaging, one is always trying to infer internal properties ``non-invasively." On the other hand, it is often true that one can make useful measurements of the effects of a particular physical process. For example, in groundwater flow, one can measure the height (head) of water, over time, in a grid of wells, and in electrical impedance tomography, one can apply currents at the surface of a body and measure the resulting surface voltages. Mathematically, in each of these examples one is given data on the solution of a underlying equation with the intent of using this data to estimate some or all of the parameter functions. This is the essence of an inverse problem. This project continues work on computational algorithms for inverse problems involving medical imaging, landmine detection, undersea seismic exploration, and groundwater modeling. Expected benefits would include greatly improved image quality in low energy electrical tomography and the possibility of producing complete flow and contaminant models for use in the management and remediation of underground aquifers.</AbstractNarration>
+    <MinAmdLetterDate>08/29/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/21/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0107492</AwardID>
+    <Investigator>
+      <FirstName>Ian</FirstName>
+      <LastName>Knowles</LastName>
+      <EmailAddress>iknowles@uab.edu</EmailAddress>
+      <StartDate>08/29/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Alabama at Birmingham</Name>
+      <CityName>Birmingham</CityName>
+      <ZipCode>352940001</ZipCode>
+      <PhoneNumber>2059345266</PhoneNumber>
+      <StreetAddress>AB 1170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Alabama</StateName>
+      <StateCode>AL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

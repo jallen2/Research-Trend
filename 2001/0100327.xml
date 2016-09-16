@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>GOALI/Collaborative Research: Scheduling Methodogies for Electronics and Hardware Manufacturing</AwardTitle>
+    <AwardEffectiveDate>07/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2003</AwardExpirationDate>
+    <AwardAmount>44580</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Janet M. Twomey</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This Grant Opportunities for Academic Liaison with Industry (GOALI) award supports the development of a framework, comprised of models and efficient solution algorithms, for two different problem domains. One that is characterized as multi-stage, sequence-dependent group scheduling problem with carry-over setups, and the other with no carry-over setups. Applications of the former exist in printed circuit board (PCB) assembly, while the latter is applicable in hardware (discrete parts) manufacturing such as those supported by cellular manufacturing. The emphasis is on the development of scheduling models that truly reflect real operational constraints. In a two-stage PCB assembly process, these include performing the setup required on either stage based on a surrogate board group representing all board types, and performing the setup on the second stage in anticipation of the arriving board group. The impact of carry-over sequence dependency is assessed by recognizing that the setup time required of a surrogate board group on either stage is dependent upon the entire set of preceding surrogate board groups that have so far been processed. A variety of performance measures including the minimization of total completion time, mean flow time, and weighted tardiness will be considered in order for the producer to be highly responsive to a variety of customer needs. Recognizing that both problems belong to a class of notoriously difficult 'NP-hard' combinatorial optimization problems, the structure of the problems will be exploited to develop efficient lower bounds. For the minimization of mean flow time, special cases will be investigated to identify those that can be optimally solved in polynomial time. For completely solving problem instances that have industrial merit, computationally efficient solution techniques that combine the underlying concepts of branch-and-bound aided by filtered-beam search, and tabu search will be developed and tested. The lower-bounding mechanisms will be embedded in these techniques to not only seek solutions with guaranteed quality, but also use them advantageously to terminate the search to enhance computational efficiency. For the total completion time minimization problem with no carry-over setups, an approach based on an equivalent formulation of the asymmetric generalized traveling salesman problem will be investigated. Finally, the solution techniques developed will be tested with data obtained from industrial collaborators to validate their computational efficiency and ability to obtain solutions with guaranteed quality. &lt;br/&gt;&lt;br/&gt;The successful completion of this project will provide both electronics and hardware manufacturing companies with methodological frameworks for rapidly generating schedules with guaranteed quantifiable performance. The insightful research findings so obtained will also enhance the existing graduate courses in scheduling at Oregon State University and University of Texas at Dallas.</AbstractNarration>
+    <MinAmdLetterDate>05/14/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/19/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0100327</AwardID>
+    <Investigator>
+      <FirstName>Chelliah</FirstName>
+      <LastName>Sriskandarajah</LastName>
+      <EmailAddress>chelliah@utdallas.edu</EmailAddress>
+      <StartDate>05/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Wallner</LastName>
+      <EmailAddress>john.w.wallner@exgate.tek.com</EmailAddress>
+      <StartDate>05/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Dallas</Name>
+      <CityName>Richardson</CityName>
+      <ZipCode>750803021</ZipCode>
+      <PhoneNumber>9728832313</PhoneNumber>
+      <StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1465</Code>
+      <Text>PRODUCTION SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1786</Code>
+      <Text>MANFG ENTERPRISE SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1504</Code>
+      <Text>GRANT OPP FOR ACAD LIA W/INDUS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9147</Code>
+      <Text>GENERIC TECHNOL FOR MANUFACTURING CELLS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>MANU</Code>
+      <Text>MANUFACTURING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

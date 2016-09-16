@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Increasing Parallel Program Performance with the LC Memory Consistency Model</AwardTitle>
+    <AwardEffectiveDate>07/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2005</AwardExpirationDate>
+    <AwardAmount>281750</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research takes a significant step towards enabling and evaluating the application of compiler&lt;br/&gt;optimizations for uniprocessor performance within explicitly parallel programs, with a flexible view&lt;br/&gt;of memory consistency. Two important unanswered questions are targeted: &lt;br/&gt;(1) What kind of performance can be gained with the Location Consistency (LC) memory model in comparison&lt;br/&gt;to the sequential consistency (SC)-derived models for shared memory parallel programs,&lt;br/&gt;amidst the new developments of compiler analysis and optimization for SC-derived models?&lt;br/&gt;(2) As a compromise between the two divergent approaches, can both the SC-derived models and the LC model be supported within the same program, by developing a programmer-controlled memory consistency strategy&lt;br/&gt;supported by compiler technology?&lt;br/&gt;The results&lt;br/&gt;will include:&lt;br/&gt;(1) specification and implemenation of a programming model that assumes an end-to-end view of the memory system based on the LC model, and a study of its programmability,&lt;br/&gt;(2) compilation analyses to uphold programmer-controlled memory consistency so programmers can choose between the memory models in different parts of the same application,&lt;br/&gt;(3) development and refinement of cache consistency protocols based on the LC model in a software caching context,&lt;br/&gt;(4) experimental evaluation of compiler optimization and program performance under&lt;br/&gt;different memory consistency models and cache protocols.</AbstractNarration>
+    <MinAmdLetterDate>06/26/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/06/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105540</AwardID>
+    <Investigator>
+      <FirstName>Lori</FirstName>
+      <LastName>Pollock</LastName>
+      <EmailAddress>pollock@udel.edu</EmailAddress>
+      <StartDate>06/26/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Guang</FirstName>
+      <LastName>Gao</LastName>
+      <EmailAddress>ggao@eecis.udel.edu</EmailAddress>
+      <StartDate>06/26/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Delaware</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>197162553</ZipCode>
+      <PhoneNumber>3028312136</PhoneNumber>
+      <StreetAddress>210 Hullihen Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Delaware</StateName>
+      <StateCode>DE</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP: High Performance Iterative Methods on Parallel Computers and Distributed Shared Environments</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>269364</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The numerical solution of large, sparse systems of linear equations and eigenvalue problems is central to many scientific and engineering applications. Iterative methods executed on parallel computers often provide the only means of solving these problems. Most parallel implementations of iterative methods have adopted a fine grain allocation of equations to different processors. However, recent architectural and computational advances suggest that fine-grain methods may be inadequate. Specifically, high network latencies and synchronization overheads may make fine grain methods ill suited to clusters of workstations (COWs) and massively parallel processors (MPPs). In addition, partitioning a problem to a large number of processors may lead to load imbalances and processor idling. The increasing use of Computational Grids consisting of heterogeneous networks only makes these problems worse. Achieving high performance requires new levels of sophistication in parallel algorithms and in the interaction of the implementation with the runtime system.&lt;br/&gt;&lt;br/&gt;This project will advance the state of the art in high performance, parallel iterative methods by exploring algorithms that combine coarse and fine granularity, and dynamic resource utilization schemes. It will build a new multigrain implementation level on top of traditional parallelization methods to introduce coarser granularity during the preconditioning step. It will identify system-aware iterative algorithms and algorithmic patterns that enable dynamic load balancing, and use them to exploit available runtime system information. The resulting codes will be made available to the community.</AbstractNarration>
+    <MinAmdLetterDate>08/15/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/15/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0112727</AwardID>
+    <Investigator>
+      <FirstName>Andreas</FirstName>
+      <LastName>Stathopoulos</LastName>
+      <EmailAddress>andreas@cs.wm.edu</EmailAddress>
+      <StartDate>08/15/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>College of William and Mary</Name>
+      <CityName>Williamsburg</CityName>
+      <ZipCode>231878795</ZipCode>
+      <PhoneNumber>7572213966</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

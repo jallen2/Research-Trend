@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Scalable Performance Models for Large Scale Networks with Correlated Traffic</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>323993</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050202</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>It is well established that long-range autocorrelation and heavy-tailed inter-packet time distributions are dominant characteristics of modern multimedia high speed network traffic, determining limits to performance and radically influencing policies for management. Incorporating such characteristics in parametric performance models has so far been difficult. This project will center about the development of powerful and efficient models to capture network behavior for varying levels of abstraction while incorporating approximations to long-range dependence and heavy tails. The model does not solely rely on steady state results, but rather on a finite horizon that can be used for online monitoring and early detection of rare events. In particular, this means that time dependent threads can be modeled which are the root cause of such dependency related problems. Decomposability techniques will be used to decrease the granularity if possible and to scale the model to time scales suitable for online analysis and control. The approach will be to extend the successful and innovative model developed for a high-speed network. Highly correlated arrival processes can be viewed as nearly-completely decomposable processes, which in turn impose a nearly-completely decomposable structure on the system as a whole. Each of these nearly decomposed systems can be solved separately and in parallel and their solutions combined to accurately evaluate the performance of the system. Theoretical work must be done to determine error bounds and robust algorithms for solutions in a wide range of applications, to allow flexible approximation of measured correlations, and to broaden the classes of results that can be computed. Additionally, experimental work must be done to exercise models and compare them with published and other artifactual data. Finally, a prototype software package will be developed that demonstrates the viability of placing this tool in the hands of practicing network engineers and equipment designers.</AbstractNarration>
+    <MinAmdLetterDate>09/19/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/14/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0106640</AwardID>
+    <Investigator>
+      <FirstName>Victor</FirstName>
+      <LastName>Wallace</LastName>
+      <EmailAddress>wallace@ku.edu</EmailAddress>
+      <StartDate>09/19/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Appie</FirstName>
+      <LastName>van de Liefvoort</LastName>
+      <EmailAddress>appie@umkc.edu</EmailAddress>
+      <StartDate>09/19/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kenneth</FirstName>
+      <LastName>Mitchell</LastName>
+      <EmailAddress>mitchellke@umkc.edu</EmailAddress>
+      <StartDate>09/19/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Missouri-Kansas City</Name>
+      <CityName>Kansas City</CityName>
+      <ZipCode>641102499</ZipCode>
+      <PhoneNumber>8162355839</PhoneNumber>
+      <StreetAddress>5100 Rockhill Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Missouri</StateName>
+      <StateCode>MO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

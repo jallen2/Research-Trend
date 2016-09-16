@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP (GEO): High Resolution Parallel Coastal Ocean Modeling</AwardTitle>
+    <AwardEffectiveDate>01/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2005</AwardExpirationDate>
+    <AwardAmount>482200</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Thomas F. Russell</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0113111 Street &lt;br/&gt;&lt;br/&gt;A number of computational and numerical tools will be synthesized to produce an innovative and powerful coastal ocean simulation tool. The primary goal of the project is to employ numerical large-eddy simulation to generate accurate predictions of motions and transport in coastal oceans under conditions when a non-hydrostatic and terrain-following representation is essential. The model should be able to handle all processes from the free surface to the bed so that the whole range from surface waves through internal waves to sediment motions can be simulated. The second goal is to apply the best algorithms available to create a simulation code that is capable or representing the physical processes at high resolution and capable of very high speed on multiple processor parallel computer. &lt;br/&gt;&lt;br/&gt;The project code will evolve from an existing semi-implicit numerical code for nonhydrostatic free-surface flows on unstructured grids. The code is based on the three-dimensional unsteady Navier-Stokes equations and utilizes a semi-implicit algorithm that is robust, stable, and very efficient. However, the existing code was developed for serial machines and lacks a number of important elements for the coastal ocean application, e.g., a scalar or material transport module, state-of-the-art subfilter-scale models for large-eddy simulation, and a highly-resolved treatment of the bathymetric or coastal boundaries. The focus of this work is to parallelize the code and install appropriate algorithms to meet both the need to represent the physics accurately and the need to produce a fast and robust production code for the coastal zone. A fundamental concept will be to seamlessly imbed the coastal simulations in larger-scale simulations so that natural boundary conditions would be applied around the entire domain. No artificial devices would be used to filter the simulations to avoid code instabilities or boundary reflections. The unstructured grid will be employed in horizontal planes allowing accurate representation of bathymetric and coastal features, which require severe changes in grid density from one subdomain to another. The composite grid method will be employed to fit a terrain-following highly resolved grid over the bathymetry and linked to the interior domain. &lt;br/&gt;&lt;br/&gt;Two specific applications of the completed code are planned. Both involve nonhydrostatic evolution of internal tides. The first is in Monterey Bay, California, where solitons are expected to form and the internal tide signal is intensified in the bottom of the Monterey Canyon. The second is in Mamala Bay, Hawaii, where high-amplitude and nonlinear internal tides are observed and there are key questions to be answered about the nature of these waves and their behavior in the Bay. &lt;br/&gt;&lt;br/&gt;The contributions on this work include: High performance: Parallel implementation using MPI, the message passing interface; Optimized unstructured-grid, 3D parallel-solver for the nonhydrostatic pressure; Code Features: Accurate advection based on the TVD method for unstructured grids; Nonhydrostatic large-eddy simulation with a fully-validated velocity estimation method for subfilter-scale motions; State-of-the-art grid generation [unstructured in the horizontal] for accurate resolution of complex bathymetry and shore boundaries and an embedded bottom following grid; Free surface using a semi-implicit treatment; and Production-style: Detailed users' manual that illustrates the use of the code for coastal-ocean scale simulations</AbstractNarration>
+    <MinAmdLetterDate>08/15/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/15/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113111</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Street</LastName>
+      <EmailAddress>street@stanford.edu</EmailAddress>
+      <StartDate>08/15/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0204000</Code>
+      <Name>Oceanography</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

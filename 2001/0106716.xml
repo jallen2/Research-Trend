@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Feedforward Control of Data Rate in Wireless Networks</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>318923</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050202</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern wireless networks use feedback control of transmit power to accommodate changing channel conditions, such as propagation loss, shadowing, multi-user interference, etc. This proposal suggests the utilization of feedforward control of data rate, in addition to the existing power control schemes, in order to more effectively combat these disturbances and, in addition, accommodate channel model uncertainties. These controllers use the bit error frequency, observed in the previous packet, in order to calculate the data rate of the packet to be transmitted next. Our preliminary results indicate that ideally this approach leads to a minimum of 20% throughput improvement, without additional power expenditures, or to a minimum of 30% decrease of transmit power, without decreasing the throughput. In some scenarios, this approach may lead to as much as 300% of throughput improvement or to 600% of power saving. Moreover, the efficacy of this&lt;br/&gt;approach is independent of whether a single or multi-user environment is considered, and no data rate wars take place.&lt;br/&gt; The efficacy of feedforward data rate control is mainly due to the following two reasons:&lt;br/&gt;(a) Unlike feedback power control, which adapts relatively slowly due to a finite step of power increase/decrease, feedforward data rate control adapts in the span of one packet transmission time. This leads to a more effective rejection of fast disturbances, such as the level of shadowing. The above-mentioned minima of throughput increase and power decrease are due to this fast adaptation capability.&lt;br/&gt;(b) Unlike feedback power control, which does not adapt to channel uncertainties (e.g., whether the channel is AWGN or Rayleigh), feedforward data rate control does accommodate these effects. The above-mentioned three-fold in-crease of the throughput and six-fold decrease of power are exactly due to this fact.&lt;br/&gt;The approach to the development of feedforward data rate controllers, considered in this proposal, is based on the following three steps: (i) First, a non-causal and non-realistic but optimal feedforward data rate controller is designed. It is non-causal because it calculates the optimal data rate as a function of bit error probability in the packet yet to be transmitted. It is non-realistic, because it uses the probability of bit error rather than the frequency of this event. It is designed solely in order to derive the least upper bound of the achievable throughput.&lt;br/&gt;(ii) Next, this controller is causified and made realistic. The causification is achieved by making the data rate of each packet a function of bit error probability in the previous packet. It is made realistic by using the frequency of bit error rather than its probability. Thus, an implementable controller is obtained and its performance is evaluated. It is shown that causification leads to a relatively small decrease of performance for all practical speeds of mobiles. However, using frequencies instead of probabilities may lead to a substantial performance loss. Thus, a certain level of filtering of bit error frequency is necessary.&lt;br/&gt;(iii) Finally, a filtered version of the above implementable controller is introduced and it is shown that a right level of filtering leads to an efficient performance. At this point, this level of filtering is investigated only experimen-tally (i.e., numerically), and a rigorous method for designing right filters is, along with others, a problem to be addressed in the proposed research.&lt;br/&gt; Based on the results to-date briefly mentioned above, the main tasks of the proposed research are as follows:&lt;br/&gt;1. Develop methods for design of implementable feedforward data rate controllers for wireless networks.&lt;br/&gt;2. Quantify the level of throughput increase and/or transmit power decrease when this technology is used.&lt;br/&gt;3. Develop an architecture in which feedforward data rate control can be used in both cellular and ad-hoc environ-ments.&lt;br/&gt; The impact of the proposed research is in providing wireless network designers with a new method for combating channel disturbances and uncertainties.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/14/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0106716</AwardID>
+    <Investigator>
+      <FirstName>Semyon</FirstName>
+      <LastName>Meerkov</LastName>
+      <EmailAddress>smm@umich.edu</EmailAddress>
+      <StartDate>09/18/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Pierre</FirstName>
+      <LastName>Kabamba</LastName>
+      <EmailAddress>kabamba@umich.edu</EmailAddress>
+      <StartDate>09/18/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

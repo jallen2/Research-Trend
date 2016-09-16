@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>New Prediction Paradigms for Parallel and Distributed Systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2003</AwardExpirationDate>
+    <AwardAmount>189035</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Pratibha Varma-Nelson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research aims to expand and redefine the role of prediction-based techniques for parallel and distributed systems. First, we reduce barrier synchronization overhead by predicting the final producer of a&lt;br/&gt;value before the barrier. This producer identification allows the consumer to speculatively proceed past the barrier, only waiting on the actual production as needed. Second, we introduce the slipstream&lt;br/&gt;paradigm to multiprocessor systems. A redundant version of each parallel thread runs concurrently, its execution reduced by speculatively removing long-latency events, such as shared memory writes. The reduced thread dynamically detects sharing patterns, which are used by the original thread to optimize its coherence and synchronization actions, improving overall performance. Finally, we investigate the use of producer-validated message prediction to reduce traffic in a message-passing environment. Both the producer and the consumer of a message predict its contents, using redundant prediction histories. Since the producer knows the results of the consumer's prediction, it need only send those data that were not correctly&lt;br/&gt;predicted. This traffic reduction is significant in environments in which communication is much more costly than computation, such as networked embedded systems. These three avenues of research represent an excursion into new frontiers of prediction-based technology, resulting in parallel systems that scale to new levels of availability and performance.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105628</AwardID>
+    <Investigator>
+      <FirstName>Gregory</FirstName>
+      <LastName>Byrd</LastName>
+      <EmailAddress>gbyrd@ncsu.edu</EmailAddress>
+      <StartDate>08/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Rotenberg</LastName>
+      <EmailAddress>ericro@ncsu.edu</EmailAddress>
+      <StartDate>08/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>4715</Code>
+      <Text>COMPUTER SYSTEMS ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

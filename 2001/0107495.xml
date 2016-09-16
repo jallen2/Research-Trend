@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Numerical Methods for Layered Models of Ocean Circulation</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>140000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this project is to develop numerical methods for layered (isopycnal) models of the general ocean circulation. In such models, the vertical coordinate is not linear distance, but instead is potential density or some other related quantity. When an isopycnal model is discretized in the vertical, the effect is to represent the ocean as a stack of layers that are approximately immiscible. This corresponds to the observation that the upper and lower regions of the ocean are approximately isolated thermodynamically from each other. However, this isolation is not complete, and in an isopycnal model the exchanges that do occur are under the control of the modeler. This type of model shows great promise for representing the long-term behavior of ocean dynamics. In the present project, the principal investigator will develop and incorporate methods for solving the momentum equation in a flux form for which momentum, not velocity, is the dependent variable. It appears that the momentum formulation may give more reliable results, such as in situations where layer thicknesses tend to zero because of layer interfaces intersecting the top or bottom of the fluid domain. This approach may also be valuable in modeling vertical transport in the ocean. Non-oscillatory or nearly non-oscillatory advection algorithms will be used to solve the momentum equation. Such methods will be analyzed and incorporated into a two-level time-stepping algorithm that the investigator has recently developed for formulations of the governing equations in which the fast and slow time scales are split into separate subsystems. The resulting algorithms will be tested on model problems for which the solution behavior is known. As time permits, the PI will then pursue the implementation and testing of these methods in existing, operational models of ocean circulation. During this project the PI will be in regular contact with ocean modelers at Oregon State University and at Los Alamos National Laboratory.&lt;br/&gt;&lt;br/&gt;The long-term objective of this work is to contribute to an understanding of the global climate system. An important tool towards understanding this system consists of computer simulations involving coupled models of the atmosphere, ocean, sea ice, and terrestrial effects. With such simulations one can test the response of the earth's climate to changes in external forcing, such as increased emissions of greenhouse gases. The world's oceans store and transport tremendous amounts of heat energy, so the oceans play a crucial role in our climate system. When the circulation of the ocean is simulated on a computer, one is using the computer to obtain approximate solutions to mathematical equations that describe the evolution of fluid flows. The goal of the present project is to improve the methods that are used to solve those equations.</AbstractNarration>
+    <MinAmdLetterDate>09/21/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/21/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0107495</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Higdon</LastName>
+      <EmailAddress>higdon@math.oregonstate.edu</EmailAddress>
+      <StartDate>09/21/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Oregon State University</Name>
+      <CityName>Corvallis</CityName>
+      <ZipCode>973318507</ZipCode>
+      <PhoneNumber>5417374933</PhoneNumber>
+      <StreetAddress>OREGON STATE UNIVERSITY</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

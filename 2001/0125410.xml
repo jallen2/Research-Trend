@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Quantifying the Temporal Characteristics of Congestion Events in the Internet</AwardTitle>
+    <AwardEffectiveDate>09/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2007</AwardExpirationDate>
+    <AwardAmount>286267</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050202</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of this research is to lay the foundation for a QoS metric that can be easily &lt;br/&gt;understood and can be used for the design of future packet networks. The premise of the &lt;br/&gt;proposed research is that Quality of Service (QoS) mechanisms have not been widely &lt;br/&gt;employed because of both their complexity and their lack of relationship to user &lt;br/&gt;perceived performance. Therefore, it is currently difficult to justify the investment in &lt;br/&gt;complex QoS technologies while their value to the end customer is unknown. There have &lt;br/&gt;been cases where commercial networks have been over provisioned, resulting in all users, &lt;br/&gt;independent of QoS requirement or priority, receiving the same service. Based on these &lt;br/&gt;experiences network customers are reluctant to pay extra for QoS. &lt;br/&gt;Historically, the telephony QoS metric, call blocking probability, was not only &lt;br/&gt;easily understood but provided the foundation for network design. Clearly this metric is &lt;br/&gt;not suitable for packet networks like the Internet, since packet networks experience delay &lt;br/&gt;and packet loss in the presence of congestion. Recently, it has become increasingly &lt;br/&gt;apparent that temporal characteristics of the congestion episodes have the dominant effect &lt;br/&gt;on user perceived QoS. Reinforcing the increasing importance of the temporal &lt;br/&gt;characteristics of congestion is the recent work in the Internet Engineering Task Force &lt;br/&gt;(IETF) on measurement-based temporal QoS metrics. Once congestion occurs at a &lt;br/&gt;bottleneck point in the network it tends to persist and cause a user observable &lt;br/&gt;impairment. Thus, there is a need to increase our understanding of the temporal &lt;br/&gt;characteristics of congestion. To address this issue a new QoS metric is defined, the rate &lt;br/&gt;of congestion events per unit time, and a research effort identified to develop analytic &lt;br/&gt;methodologies to study this QoS metric. Specifically, this research will focus on: 1) &lt;br/&gt;predicting the frequency of congestion events for long range dependent (LDR) like &lt;br/&gt;traffic, i.e., fractional Brownian motion, in a network context, 2) developing simple &lt;br/&gt;approximations for predicting the frequency of congestion events, 3) validating the &lt;br/&gt;resulting prediction methodologies for networks using real high resolution traffic &lt;br/&gt;measurements, 4) developing efficient techniques to measure the rate of congestion &lt;br/&gt;events, and 5) relating the congestion event metric proposed here to new measurement-&lt;br/&gt;based temporal QoS metrics. A rigorous definition is proposed for the time between &lt;br/&gt;congestion episodes, which leads to the application of first hitting time analysis for its &lt;br/&gt;prediction. The proposed research will exploit some recent theoretical results as well &lt;br/&gt;develop new methods for predicting first hitting times for a realistic traffic. &lt;br/&gt;Network users have been struggling to quantify their perceived performance. The &lt;br/&gt;new QoS metric proposed here summarizes the network component of performance in &lt;br/&gt;one easily understandable number. Equally important, the proposed metric is structured &lt;br/&gt;in such a way that it can be used for network engineering. We expect the proposed &lt;br/&gt;metric, combined with accurate prediction techniques, will play an important role in &lt;br/&gt;designing future packet networks.</AbstractNarration>
+    <MinAmdLetterDate>09/09/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/28/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0125410</AwardID>
+    <Investigator>
+      <FirstName>Tyrone</FirstName>
+      <LastName>Duncan</LastName>
+      <EmailAddress>duncan@math.ku.edu</EmailAddress>
+      <StartDate>09/09/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Victor</FirstName>
+      <LastName>Frost</LastName>
+      <EmailAddress>frost@ittc.ku.edu</EmailAddress>
+      <StartDate>09/09/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Kansas Center for Research Inc</Name>
+      <CityName>LAWRENCE</CityName>
+      <ZipCode>660457568</ZipCode>
+      <PhoneNumber>7858643441</PhoneNumber>
+      <StreetAddress>2385 IRVING HILL RD</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Kansas</StateName>
+      <StateCode>KS</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4097</Code>
+      <Text>NETWORKING RESEARCH</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>4097</Code>
+      <Text>NETWORKING RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9152</Code>
+      <Text>EDUCATION PROGRAM EVALUATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>SMET</Code>
+      <Text>SCIENCE, MATH, ENG &amp; TECH EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

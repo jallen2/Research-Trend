@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SY: Communication and Data Sharing Services for Dynamic Distributed Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2008</AwardExpirationDate>
+    <AwardAmount>1030000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is developing and analyzing algorithms to solve problems of communication and data sharing in highly dynamic distributed environments such as found in networks of mobile and embedded devices. The term dynamic here encompasses many types of changes, including changing network topology, processor mobility, changing sets of participating client processes, a wide range of types of processor and network failures, and timing variations. The properties being studied include ordering and reliability guarantees for communication and coherence guarantees for data sharing. The algorithmic results are accompanied by lower bound and impossibility results, which describe inherent limitations on what problems can be solved, and at what cost. This is particulary important in the networks of embedded devices that need to operate subject to the resource constraints such limited battery power, storage capacity, communication bandwidth and computation power. &lt;br/&gt;&lt;br/&gt;The communication and data-sharing problems to be solved are viewed as high level global services, which span network locations. These services generally provide performance and fault-tolerance guarantees, conditioned on assumptions about the behavior of the environment and of the underlying network substrate. Traditionally, research on distributed services has emphasized specification and correctness, while research on distributed algorithms has emphasized complexity and performance. This project combines and synthesizes these two concerns: It yields algorithms that perform efficiently and degrade gracefully in dynamic distributed systems, and whose correctness, performance, and fault-tolerance guarantees are expressed by precisely-defined global services. Because the setting is so complex, the algorithms are also be very complex, which means that it it is necessary to decompose them into smaller, more manageable pieces. In this project, many of those smaller pieces are being viewed as lower-level, auxiliary global services. These auxiliary services provide lower-level communication and data-sharing capabilities, plus other capabilities such as failure detection, progress detection, consensus, group membership, leader election, reconfiguration, resource allocation, workload distribution, location determination, and routing. This work is being carried out in terms of a mathematical framework based on interacting state machines. The state machines include features to express issues of timing, continuous behavior, and probabilistic behavior. &lt;br/&gt;&lt;br/&gt;The theoretical work in this project is guided by the requirements of systems that include networks of mobile and embedded devices and examples chosen from several prototype applications, including distributed file management, information collection and dissemination, computer-supported cooperative work, distributed games, and multimedia transmission.</AbstractNarration>
+    <MinAmdLetterDate>09/26/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/27/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0121277</AwardID>
+    <Investigator>
+      <FirstName>Nancy</FirstName>
+      <LastName>Lynch</LastName>
+      <EmailAddress>lynch@csail.mit.edu</EmailAddress>
+      <StartDate>09/26/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Shvartsman</LastName>
+      <EmailAddress>aas@cse.uconn.edu</EmailAddress>
+      <StartDate>09/26/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1687</Code>
+      <Text>ITR MEDIUM (GROUP) GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1667</Code>
+      <Text>HIGH CONFIDENCE SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP: Realistic Uncertainty Bounds for Complex Dynamic Models</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2006</AwardExpirationDate>
+    <AwardAmount>444950</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Phillip R. Westmoreland</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The present problems facing society-such as global warming, earthquake preparedness, safety of transport of nuclear waste, and pollutant emission from automobile engines-call for integration of a variety of computer programs, each solving numerical problems in a different discipline. The overriding concern for such complex models is their reliability: predictability, authenticity, and uncertainty. The focus of the present effort is modeling realistic uncertainty in predictions from multi-response, large-scale, nonlinear dynamic models, using a new strategy to attack this problem.&lt;br/&gt;This work re-examines the concept of a mathematical model associated with complex physical systems, considering experiment and theory to be an integral part of the model and treating uncertain parameters of the model as internal, "state" variables. In this way, the uncertainties of the experimental and theoretical foundation are transferred "directly" into uncertainties of model predictions. Establishing this direct relationship allows one also to address the reverse problem: to identify which specific data contribute the most to the prediction uncertainty; to determine the required accuracy of an experiment to bring the prediction uncertainty to a given level; or to assess whether a planned experiment will be able to improve the prediction uncertainty.&lt;br/&gt;This is accomplished by merging convex relaxations from control theory with the technique of solution mapping developed and applied to numerical modeling of chemical kinetics typical of fossil-fuel combustion. The solution mapping technique uses statistical design of computer experiments to replace complex ODE models with surrogate polynomial models. These simpler, though accurate, algebraic models are more suited to numerical optimization. The convex relaxations allow for optimization problems described by a polynomial objective and polynomial constraints (generally nonconvex) to be attacked by convex optimization, namely linear objectives with linear-matrix-inequality constraints. Nearly twenty years of use in robust control has shown these relaxations to be remarkably useful in a wide variety of physically motivated problems and applications.&lt;br/&gt;In this approach, surrogate models are developed for all responses, both from the training set and from the prediction set. Each surrogate model is expressed as a quadratic form in terms of internal model parameters, developed in a series of direct ODE integrations performed according to a factorial design covering a subspace of parameter uncertainties. The quadratic form of the surrogate response models is then explored by an optimization algorithm. In the initial effort, the problem of propagation of uncertainties in a natural-gas-combustion model is cast in the form amenable for the S-procedure, a method of convex optimization widely used in control theory. &lt;br/&gt;Even more sophisticated convex relaxations have recently been developed, centering on the observation that determining if a given polynomial is a sum-of-squares (and hence globally nonnegative), can be cast as a convex feasibility problem, and verified in polynomial-time (in the order of the polynomial). This work will investigate such possibilities for exploring novel avenues for numerically economical assessment of realistic error bounds of complex dynamic models.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/13/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113985</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Frenklach</LastName>
+      <EmailAddress>myf@me.berkeley.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Packard</LastName>
+      <EmailAddress>pack@me.berkeley.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Cryptographic Mechanisms for Internet Security</AwardTitle>
+    <AwardEffectiveDate>03/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2006</AwardExpirationDate>
+    <AwardAmount>218585</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kevin L. Thompson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Internet has opened the door to new possibilities, but also brought with it new risks.&lt;br/&gt;Internet security is a widely recognized problem crossing the boundaries between mathematics,&lt;br/&gt;systems and sociology, and panaceas are unlikely. The goal of this proposal is to isolate and&lt;br/&gt;target a few components of the security problem that have real impact on Internet security in&lt;br/&gt;practice and are well-defined enough that clear, documented, and identifiable progress can be made&lt;br/&gt;within the time-frame and resources of the project. The chosen problems relate to cryptographic&lt;br/&gt;components of current and future Internet security protocols and standards, in technical areas such&lt;br/&gt;as authentication, access control, privacy, key distribution and key compromise, and to bridging&lt;br/&gt;the gap between cryptography and systems security.&lt;br/&gt; Providing high-quality, cost-efective cryptographic mechanisms, and tying them together se-&lt;br/&gt;curely,is a challenge. Cryptographic schemes are easy to specify but hard to validate, and notorious&lt;br/&gt;for containing bugs that take a long time to be discovered. This proposal will employ the practice-&lt;br/&gt;oriented provable-security approach toimprove security guarantees of cryptographic mechansisms.&lt;br/&gt;Developed by Bellare and Rogaway, this approach already has a track record in delivering prac-&lt;br/&gt;tical cryptography backed by theoretical guarantees. Past successes of this method include the&lt;br/&gt;HMAC andOAEP algorithms which have been adopted by numerous standards bodies and widely&lt;br/&gt;implemented.&lt;br/&gt; The first two problems that we propose to address are related to the security of protocols&lt;br/&gt;such as SSL. The researchers propose to investigate the security ofa mechanism that is common practice but&lt;br/&gt;not analyzed in theory, namely to use the same key for both asymmetric encryption and digital&lt;br/&gt;signatures. The researchers will seek to determine under what circumstances this is secure, with particular&lt;br/&gt;focus on existing standards. The researchers will then propose to investigate the security of the session key exchange protocols at the heart of security protocols like SSL, TLS or that of 3GPP, building on past&lt;br/&gt;work in provable security for session key exchange.&lt;br/&gt; The greatest threat to the security the researcher may hope to obtain from some cryptographic mechanism&lt;br/&gt;may simply be key exposure: an intruder breaks into the system and compromises the underlying&lt;br/&gt;key. This problem crosses the boundary between security and cryptography, and the next two&lt;br/&gt;problems proposed by the researcheris to consider two cryptographic approaches to it. The first is forward-security, whose goal is not to prevent key exposure, but to mitigate the damage it causes by making sure that past uses of a key are not compromised by its exposure. The researchers propose two specific pieces of research related to forward security, one in the domain of signatures and the other in the domain&lt;br/&gt;of pseudorandom number generation. The second problem relates to human-memorizable keys, or&lt;br/&gt;passwords. These have the advantage of not being subject to key exposure via breakin, but have&lt;br/&gt;other disadvantages, most notably being subject to dictionary attack. Several corporations have&lt;br/&gt;proposed some form of server-aided, password-based authentication. The researcher looks into the security of some of the potential mechanisms to this end.</AbstractNarration>
+    <MinAmdLetterDate>02/28/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/28/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0129617</AwardID>
+    <Investigator>
+      <FirstName>Mihir</FirstName>
+      <LastName>Bellare</LastName>
+      <EmailAddress>mihir@cs.ucsd.edu</EmailAddress>
+      <StartDate>02/28/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930934</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>The Columbia Hot Spot Rescue Service</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>1414999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050200</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Wu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Although Internet traffic is routinely quite heavy, there has usually been more than enough storage,&lt;br/&gt;processing and bandwidth capacity to provide acceptable performance. However, it is well known that, more&lt;br/&gt;and more frequently, demands for network resources are mushrooming locally into hotspots or data storms,&lt;br/&gt;and in such cases the affected web sites and subnetworks founder almost completely, creating revenue&lt;br/&gt;losses and client dissatisfaction on a large scale. We propose a novel collaborative technology to alleviate&lt;br/&gt;the effects of these hotspots, a technology that we will apply by designing and prototyping a Hotspot Rescue&lt;br/&gt;Service (HRS). This work will build on the past research of the PI's in networking, operating systems, and&lt;br/&gt;distributed caching.&lt;br/&gt; A key premise on which the technology is founded lies in the observation that existing Internet band-width&lt;br/&gt;resources are sufficient to deal effectively with hotspots. In other words, rescues of heavily-overloaded&lt;br/&gt;sites can be assembled from underutilized resources lying elsewhere. It follows that there is no inherent need&lt;br/&gt;for resources held in reserve uniquely for this purpose, i.e., there is no need for over-provisioned, under-utilized resources such as distributed caches to protect against hotspots. We propose instead a paradigm shift in which efficient mechanisms that we provide will enable communities of participating sites to share their resources to suppress hotspots. The service in action will be transparent, in part self-regulating and will take the form of automated traffic redirection to sites with available bandwidth.&lt;br/&gt; The proposed Columbia HRS will be proactive as well as reactive. We will amass hotspot data that&lt;br/&gt;will be modeled and analyzed with the aim of designing hotspot daemons or plugins, software devices for&lt;br/&gt;monitoring traffic behavior and signalling incipient hotspots via hotspot watches and advisories, along with&lt;br/&gt;relevant statistics. We will implement two complementary approaches to the technology, a server-based&lt;br/&gt;approach and a client-based, peer-to-peer (P2P) approach.&lt;br/&gt; In the server-based approach, servers monitor their own loads, the loads of a small set of servers that&lt;br/&gt;they would service in the event that the other server overloads, and, via probes between servers, network&lt;br/&gt;conditions. When a server or network component is identified as going into possible overload, the system&lt;br/&gt;activates a replication mechanism to duplicate the hot content. Clients can then retrieve the content from&lt;br/&gt;the server sites acting as replicas, alleviating the load on the original overloaded resource.&lt;br/&gt; In the P2P approach, clients install a plugin into their browser that communicates with similar plugins&lt;br/&gt;installed on other clients' browsers, as well as with a distributed directory service. Clients cache their recent downloads, and, through the plugin, inform the directory service of the objects that are cached. The directory service can then identify the most popular content, as well as cached locations and notify additional clients of these alternative locations for download. By using client machines to store and deliver the hot content and if requests for the given content can be redirected to the client machines, the hotspot at the server can be eliminated. In this way, hotspot response becomes self-organizing and self-regulatory.&lt;br/&gt; There are several issues that need to be addressed as we develop this rescue service. First, we will use&lt;br/&gt;experimentation and analysis of collected data (including data sets obtained via a company partnerships)&lt;br/&gt;to develop models of causes and effects of network hotspot activity. Next, we will analytically evaluate&lt;br/&gt;the effect on server and network load that techniques such as caching, redirecting, and migrating have&lt;br/&gt;upon hotspots within the network. Last, we will implement and evaluate prototype systems to validate&lt;br/&gt;their effectiveness, either upon simulated hotspot activity within a testbed, or if possible, on actual hotspots&lt;br/&gt;through agreements with content providers.&lt;br/&gt; Development of the HRS will provide research opportunities to multiple students at Columbia, and&lt;br/&gt;its deployment will improve web performance of objects served from academic institutions and non-profit&lt;br/&gt;companies whose content is to date not hosted by commerical third-party content delivery companies.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/11/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0117738</AwardID>
+    <Investigator>
+      <FirstName>Edward</FirstName>
+      <LastName>Coffman</LastName>
+      <EmailAddress>egc@ee.columbia.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Predrag</FirstName>
+      <LastName>Jelenkovic</LastName>
+      <EmailAddress>predrag@ee.columbia.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jason</FirstName>
+      <LastName>Nieh</LastName>
+      <EmailAddress>nieh@cs.columbia.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dan</FirstName>
+      <LastName>Rubenstein</LastName>
+      <EmailAddress>danr@cs.columbia.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

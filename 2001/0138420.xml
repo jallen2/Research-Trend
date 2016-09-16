@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CARGO: Multi-Scale Topological Analysis of Time-Evolving Shapes</AwardTitle>
+    <AwardEffectiveDate>05/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2006</AwardExpirationDate>
+    <AwardAmount>600000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Lloyd E. Douglas</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>DMS-0138420&lt;br/&gt;Jarek Rossignac&lt;br/&gt;&lt;br/&gt;We propose to develop the theoretical foundations and a &lt;br/&gt;set of practical computing tools for the automatic analysis &lt;br/&gt;of time-evolving shapes. Given a family of surfaces that &lt;br/&gt;represent the boundary of a 3D shape whose geometry and &lt;br/&gt;topology change with time, we propose to construct a &lt;br/&gt;higher-dimensional multiresolution representation, which &lt;br/&gt;we have named Atlas Transition Diagram, abbreviated ATD, &lt;br/&gt;that will identify and track the morphological and &lt;br/&gt;topological features of the 3D shape as they evolve with &lt;br/&gt;time and with resolution. Our ATD will also associate a &lt;br/&gt;chart to each feature, thus providing a surface-parameterization &lt;br/&gt;that naturally follows the branches and handles of each &lt;br/&gt;shape in the family. The charts evolve smoothly with time &lt;br/&gt;and resolution and are topologically glued together at &lt;br/&gt;their common boundaries to provide a continuous mapping, &lt;br/&gt;S(r,t,u,v;f); f), that, given a feature ff, a resolution rr, &lt;br/&gt;a time tt, and two parameters u and v, will identify a &lt;br/&gt;unique point on the surface and will allow us to trace &lt;br/&gt;its evolution with rr and tt. The theoretical underpinnings &lt;br/&gt;and algorithmic designs that will lead to a practical &lt;br/&gt;implementation of an efficient system for building and &lt;br/&gt;querying ATDs go far beyond simple extensions of Morse &lt;br/&gt;theory, of surface segmentation approaches, and of &lt;br/&gt;multi-resolution techniques, which have so far been &lt;br/&gt;mainly explored for static surfaces in 3D.&lt;br/&gt;&lt;br/&gt;Evolving surfaces are important to many scientific &lt;br/&gt;and engineering disciplines, including medicine, &lt;br/&gt;developmental biology, cell biology, computational &lt;br/&gt;fluid dynamics and computer aided design. They may &lt;br/&gt;for example represent the growth of a tumor, the shifting &lt;br/&gt;in position of a vortex over an airplane wing, or the &lt;br/&gt;budding of fingers on the hand of a human embryo. We &lt;br/&gt;propose to develop and integrate a collection of &lt;br/&gt;theoretical and algorithmic tools for the analysis &lt;br/&gt;and automated visualization of such evolutions. These &lt;br/&gt;tools will allow us to partition the evolving surface &lt;br/&gt;into features upon which a high-level description of &lt;br/&gt;the shape of the surface and of its evolution will be &lt;br/&gt;based. Furthermore, they will allow us to track their &lt;br/&gt;points, and thus surface properties, through time and &lt;br/&gt;to better visualize their evolutions through texture &lt;br/&gt;maps that continuously evolve with the features and &lt;br/&gt;highlight their boundaries and natural orientation. &lt;br/&gt;Finally, these tools will help us support queries &lt;br/&gt;about the time and nature of topological changes &lt;br/&gt;in the evolving surface, which may be important for &lt;br/&gt;the automatic analysis and retrieval of scientific &lt;br/&gt;datasets. To achieve these results, we propose to &lt;br/&gt;build a surface representation that is controlled &lt;br/&gt;independently or simultaneously by time and resolution &lt;br/&gt;and to decompose the time/resolution domain into cells &lt;br/&gt;where the surface topology (number of components and &lt;br/&gt;through holes) and its partition into features remain &lt;br/&gt;constant. To validate our theoretical contributions &lt;br/&gt;and to increase their impact on the community, we plan &lt;br/&gt;to develop a prototype implementation for animated &lt;br/&gt;objects with triangulated boundaries. We expect to &lt;br/&gt;make the source code of this implementation and its &lt;br/&gt;programming interface publicly available. We envision &lt;br/&gt;exploring collaborations with application developers &lt;br/&gt;in Science, Engineering, Medicine and Biology to help &lt;br/&gt;us refine and validate this approach.</AbstractNarration>
+    <MinAmdLetterDate>03/29/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/08/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0138420</AwardID>
+    <Investigator>
+      <FirstName>Andrzej</FirstName>
+      <LastName>Szymczak</LastName>
+      <EmailAddress>aszymcza@mines.edu</EmailAddress>
+      <StartDate>03/29/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Greg</FirstName>
+      <LastName>Turk</LastName>
+      <EmailAddress>turk@cc.gatech.edu</EmailAddress>
+      <StartDate>03/29/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jarek</FirstName>
+      <LastName>Rossignac</LastName>
+      <EmailAddress>jarek@cc.gatech.edu</EmailAddress>
+      <StartDate>03/29/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Ghrist</LastName>
+      <EmailAddress>ghrist@seas.upenn.edu</EmailAddress>
+      <StartDate>03/29/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

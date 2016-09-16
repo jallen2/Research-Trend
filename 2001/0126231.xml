@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Request Routing for Scalable Services</AwardTitle>
+    <AwardEffectiveDate>09/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>203996</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050202</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Clustering technologies enable incremental scaling of Internet server sites at modest cost. It is increasingly common in cluster-based service architectures to distribute incoming request traffic among servers using redirecting intermediaries integrated into the network switching fabric or interposed between the client and servers. However, Internet services and their delivery architectures continue to evolve rapidly. This creates new challenges and opportunities for redirecting intermediaries, and motivates basic research in both the mechanisms for request redirection and the request routing policies for specific service environments.&lt;br/&gt;&lt;br/&gt;This work will undertake a coordinated research program to expand the potential of redirecting intermediaries as an enabling technology for scalable Internet services. The work focuses primarily on integrating service-aware redirection and request routing as network-level functions in a high-speed switching architecture. The methodology combines simulation, construction of software prototypes, and evaluation of prototypes using synthetic and real workloads.&lt;br/&gt;&lt;br/&gt;The expected outcomes of the work are: &lt;br/&gt; An improved understanding of the role of request routing as an enabler for large-scale Internet services, &lt;br/&gt; Simulation results evaluating these policies in large systems, &lt;br/&gt; Software prototypes that demonstrate the value of these solutions in practice for Web-based services and network storage services, and &lt;br/&gt; Opportunities to train students as participants in this research at both the graduate and undergraduate levels. &lt;br/&gt;&lt;br/&gt;In summary, the research work has the following basic objectives:&lt;br/&gt;&lt;br/&gt;1. Define protocol features essential for redirection at the level of the transport protocol. The switch routes incoming requests on each transport connection to any active server at the discretion of a service-specific routing policy; referred to as Anypoint communication.&lt;br/&gt;&lt;br/&gt;2. Implement an Anypoint-capable transport protocol that supports features commonly required by service protocols: reliable communication, ordering and duplicate suppression, and congestion control.&lt;br/&gt;&lt;br/&gt;3. Define interfaces and capabilities for service-specific policy modules in Anypoint intermediaries. This defines an architecture for decomposing service protocol implementations into a client, a server, and service module to extend the intermediary.&lt;br/&gt;&lt;br/&gt;4. Evaluate the intermediary architecture defined by Anypoint by constructing software prototypes of virtualized service implementations. The initial targets are HTTP 1.1 application services and NFS.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/15/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0126231</AwardID>
+    <Investigator>
+      <FirstName>Amin</FirstName>
+      <LastName>Vahdat</LastName>
+      <EmailAddress>vahdat@cs.ucsd.edu</EmailAddress>
+      <StartDate>09/11/2002</StartDate>
+      <EndDate>03/15/2004</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jeffrey</FirstName>
+      <LastName>Chase</LastName>
+      <EmailAddress>chase@cs.duke.edu</EmailAddress>
+      <StartDate>09/11/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

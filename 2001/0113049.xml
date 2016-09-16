@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP(MPS): Non-Equilibrium Surface Growth and the Scalability of Parallel Discrete-Event Simulations for Large Asynchronous Systems</AwardTitle>
+    <AwardEffectiveDate>08/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2005</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03070000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Materials Research</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>G. Bruce Taggart</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is the result of a proposal submitted to the Information Technology Research initiative. Modeling and simulation of the evolution of natural and artificial complex systems are of fundamental importance in both sciences and engineering. In a large class of systems, the underlying dynamic is asynchronous, the "updates" in the local "configurations" of the system are discrete events in continuous time. Examples of such systems include magnetization dynamics in condensed matter, the evolution of financial markets, call arrivals in cellular communication networks, and the spread of emerging diseases and epidemics.&lt;br/&gt;&lt;br/&gt;To design and develop faithful and scalable parallel algorithms to simulate the evolution of large asynchronous systems is one of the most challenging areas in parallel computing. The ultimate goal of this proposal is to better understand how the scalability of Parallel Discrete-Event Simulation (PDES) algorithms can be enhanced, to program and run PDES simulations for a few chosen applications in science and engineering, and to educate junior researchers to allow them to prepare for careers at the interface between basic sciences and information technology. These types of PDES can be applied to an extremely wide spectrum of computational problems in science, engineering, manufacturing, biology, and economics.&lt;br/&gt;&lt;br/&gt;PDES use the concept of local random simulated time as well as a synchronization scheme. The parallel algorithm must concurrently advance the local simulated times of each subsystem carried by a processing element (PE), without violating causality. In a "conservative" PDES scheme, only those PE's which are guaranteed not to violate causality attempt the updates and increment their local time. The rest of the PE's must idle. In the "optimistic" approach the PE's do not have to idle, but since causality is not guaranteed at every update, the simulated history on certain PE's can become corrupted. This requires a complex "rollback" protocol to correct erroneous computation. Both simulation approaches lead to an evolving and fluctuating time horizon during algorithm execution.&lt;br/&gt;&lt;br/&gt;The research will exploit a novel connection recently discovered by the PI's and collaborators between non-equilibrium surface growth phenomena and the evolution of the fluctuating time horizon of conservative schemes. As the number of computer nodes available to a computational science and engineering problem increases to many thousands, questions of scalability of the underlying algorithms must be answered. These questions include both how well the algorithms scale asymptotically (in the limit of an infinite number of processors) and how they approach the asymptotic limit. Recently the PI's studied the case where each PE is connected to its nearest-neighbor PE's on regular lattice topologies, and each PE has no additional computation to perform if it is not advancing time. This is close to a "worst-case" scenario for scalability of the algorithm. Nevertheless, it was shown that the fraction of non-idling PE's is finite and bounded away from zero in the asymptotic limit of infinitely many PE's. Hence the algorithm is scalable as the problem size and number of PE's increase.&lt;br/&gt;&lt;br/&gt;The methodology of the PI's and collaborators used to obtain these results for PDES is the powerful machinery of non-equilibrium interface/surface physics, notably finite-size scaling and universality, applied to the fluctuating time horizon. This research aims to extend this type of investigation. In particular, the methods of finite-size scaling, universality, renormalization group, coarse-graining, and mean-field approaches that are commonly applied to physical surfaces will be applied to both simple model time surfaces and realistic time surfaces that arise during PDES simulations in science and engineering. Based on the "morphological" properties of the time horizon, the PI's will design and develop algorithms that optimize simulation speed and data management at the same time. &lt;br/&gt;&lt;br/&gt;The research is interdisciplinary at the border between computer science, non-equilibrium surface physics, and the study of complex systems. It will contribute to the engineering and fine-tuning of scalable massively parallel algorithms, while actual implementations will help to understand cooperative behavior in large asynchronous systems. This grant also puts special emphasis on the education and training of young scientists.&lt;br/&gt;%%%&lt;br/&gt;***</AbstractNarration>
+    <MinAmdLetterDate>08/27/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113049</AwardID>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Novotny</LastName>
+      <EmailAddress>man40@ra.msstate.edu</EmailAddress>
+      <StartDate>08/27/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gyorgy</FirstName>
+      <LastName>Korniss</LastName>
+      <EmailAddress>korniss@rpi.edu</EmailAddress>
+      <StartDate>08/27/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rensselaer Polytechnic Institute</Name>
+      <CityName>Troy</CityName>
+      <ZipCode>121803522</ZipCode>
+      <PhoneNumber>5182766000</PhoneNumber>
+      <StreetAddress>110 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0106000</Code>
+      <Name>Materials Research</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

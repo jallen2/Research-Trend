@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Nonconvex Combinatorial Optimization without Auxiliary Binary Variables</AwardTitle>
+    <AwardEffectiveDate>06/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2005</AwardExpirationDate>
+    <AwardAmount>405693</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Stephen G. Nash</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is about solving Nonconvex Combinatorial Optimization Problems (NCOPs) by linear programming based branch-and-bound algorithms. Most NCOPs can be reformulated as mixed-integer programs (MIPs) by the addition of auxiliary binary variables. For this reason the study of NCOPs other than MIPs has been very limited. However, reformulation may have many disadvantages including increasing the size of the problem significantly. There are some NCOP structures that arise naturally in many practical applications and therefore merit study in their own right. These include: (1) semi-continuous - if a nonnegative variable is positive, it must be at least some positive constant; (2) k-cardinality - no more than k variables from a set of n nonnegative variables may be positive; (3) special ordered set of type 2 - no more than 2 variables from a sequence of n nonnegative variables may be positive, and if 2 variables are positive, they must be adjacent in the sequence. The primary objective of this project is to study these and a small number of other NCOP structures, as has been done for MIPS, and to develop preprocessing procedures, polyhedral results (cuts), branching procedures, and primal heuristics for dealing with them directly. The end result will be efficient branch-and-cut algorithms for linear programs with piecewise linear nonconvex objectives, nonconvex quadratic programs, scheduling and facility location problems, and several other NP-hard problems for which an MIP approach has not been very successful. &lt;br/&gt;&lt;br/&gt;Decision making problems in manufacturing and logistics, such as resource allocation and facility location are represented by optimization models. This project contributes to the knowledge of algorithms for solving such optimization models that contain certain types of nonlinearities that make the models very difficult to solve. The results of this project will provide significant enhancements to the optimization tools that are used in practice.</AbstractNarration>
+    <MinAmdLetterDate>03/26/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/09/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0100020</AwardID>
+    <Investigator>
+      <FirstName>George</FirstName>
+      <LastName>Nemhauser</LastName>
+      <EmailAddress>george.nemhauser@isye.gatech.edu</EmailAddress>
+      <StartDate>03/26/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0107000</Code>
+      <Name>Operations Research</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

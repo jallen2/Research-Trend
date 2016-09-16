@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>GARCH, Diffusion, Stochastic Volatility and Wavelets</AwardTitle>
+    <AwardEffectiveDate>07/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2005</AwardExpirationDate>
+    <AwardAmount>121632</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040200</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>grace yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>There are two independent strands of financial stochastic modeling: continuous-time models centered in the modern finance literature and discrete-time models in the empirical finance literature. The continuous-time models are dominated by the diffusion which elegantly accommodates finance theory such as arbitrage and option pricing but is very hard for statistical inference. Most of the discrete-time models are the autoregressive conditionally heteroscedastic (ARCH) and stochastic volatility (SV) models which often provide parsimonious representations for the observed discrete-time data and are relatively easier for statistical inference. It is natural to ask whether the discrete-time model can be compatible with the continuous-time model. Not until recent years did researchers begin to bridge the gap between the two modeling approaches and establish the weak convergence of the discrete-time ARCH model to continuous-time diffusion. Because of the weak convergence linkage, there is a general belief in financial economics and financial mathematics that the ARCH model and its diffusion limit are ``equivalent'' at all respects. Since both types of models involves unknown parameters, their practical implementation requires to estimate and test the parameters from the data. Because of the belief and ARCH's easier statistical inference, it is a common practice toapply statistical procedures derived under the ARCH model to the corresponding diffusion. However, the claimed statistical equivalence and the employed practice are much based on blind faith and lack of adequate statistical justification. In particular, they can not be rigorously justified by the weak convergence linkage. In this proposal PI will initiate a new research topic: study the statistical relationship between these discrete-time and continuous-time models. Three interrelated problems will be investigated. &lt;br/&gt;Whether the experiment formed by observations from the ARCH model is asymptotically equivalent in terms of Le Cam's deficiency distance to an experiment comprised by observations&lt;br/&gt;from the diffusion limit ? Study model equivalence or nonequivalence at different frequencies (e.g. daily, weekly and monthly); Propose a wavelet stochastic volatility model for widely available high-frequency data. The proposed research bears important computational and practical consequence. For example, if the two models are asymptotically equivalent at certain lower frequencies, the easily obtained statistical inference based on the ARCH model can be applied to the subsample that are sampled from the diffusion data at the corresponding frequencies; because ARCH and SV models describe stationary processes and fail to account for local sharp peaks and long-memory founded in high-frequency data, the proposed wavelet model is expected to fit high-frequency data better and easily pick up high frequency features like sharp peaks, local shock, and non-stationarity as well as low frequence phenomenon such as long-memory and long term trend.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt; Stock market modeling has two types of approaches in the literature. One is continuous-time modeling that assumes a stock price to change with time continuously and obey a continuous-time stochastic process. Historically, continuous-time models based on stochastic differential equations have been developed in financial economics. Because of elegant accommodation of finance theory such as arbitrage and option pricing, modern finance theory is much based on the continuous-time modeling. However, in reality all data are recorded only at discrete intervals. Unknown parameters in the continuous-time models need to be estimated and tested from the observed discrete-time data. Due to the difficulty in statistical inference for the continuous time model based on the discrete data, the validity of the continuous-time modeling is not straightforward to check. Another approach is discrete-time modeling of available discrete data. Successful discrete-time models are the autoregressive conditionally heteroscedastic (ARCH) and stochastic volatility (SV) models. These discrete-time models often provide parsimonious representations for the observed discrete-time data, and their statistical inference is relatively easier. But the discrete-time models are statistical models in nature and are not easy to accommodate finance theory. This proposal will study the statistical compatibility of the two types of models and investigate wavelet modeling for high-frequency data. The research bears important theoretical and practical consequences. For example, the research can yield a picture on when continuous-time and discrete-time models are statistically equivalent; if equivalent, the easily obtained statistical inference procedures for thediscrete-time models can be applied to the continuous-time models; the wavelet based model is expected to fit high-frequency data better and easily pick up high frequency features like sharp peaks, local shock, and non-stationarity as well as low frequence phenomenon such as long-memory and long term trend.</AbstractNarration>
+    <MinAmdLetterDate>06/29/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0103607</AwardID>
+    <Investigator>
+      <FirstName>Yazhen</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>yzwang@stat.wisc.edu</EmailAddress>
+      <StartDate>06/29/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Connecticut</Name>
+      <CityName>Storrs</CityName>
+      <ZipCode>062691133</ZipCode>
+      <PhoneNumber>8604863622</PhoneNumber>
+      <StreetAddress>438 Whitney Road Ext.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

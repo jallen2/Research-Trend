@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Scalable Optimization of Generic Java</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>220000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Java programmers rely on clumsy "erasure" idiom to define generic operations: a generic class is represented by conventional classes where all references to type parameters have been replaced by the type Object. Programs that rely on this idiom must repeatedly cast the results of generic operations to the types of omitted type parameters. Generic operations in Java are slower than their non-generic counterparts because this idiom introduces a level of indirection in the representation of type parameters instantiated as primitive types.&lt;br/&gt;&lt;br/&gt;The investigator has recently completed the construction of a prototype compiler for NexGen, a Java extension supporting genericity designed by the investigator and Guy Steele. The compiler relies on the erasure idiom to implement genericity and hence does not improve the performance of computations involving generic classes.&lt;br/&gt;&lt;br/&gt;To produce good performance for generic Java, a compiler must eliminate indirection in the representation of generic class instances. The requisite transformation is called {\em whole program analysis} because it is invalid if any program operation depends on the address of an inlined object. Fortunately, there is a nearly linear algorithm based on previous work by the investigator on concrete type analysis that can determine if a given object field can be inlined.&lt;br/&gt;&lt;br/&gt;This project will develop a new optimizing compiler for NextGen that uses concrete type analysis to inline the parametric fields of generic classes.</AbstractNarration>
+    <MinAmdLetterDate>09/26/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/26/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105596</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Cartwright</LastName>
+      <EmailAddress>cork@rice.edu</EmailAddress>
+      <StartDate>09/26/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

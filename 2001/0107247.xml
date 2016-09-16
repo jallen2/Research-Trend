@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Adaptive multinumeric finite element methods for shallow water flow</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>169888</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Recent progress in coastal ocean modeling has emphasized two main themes: 1) the use of relatively large computational domains which encompass much larger areas than the region of specific interest, the main concept being to place the open ocean boundaries far away in deep water non-resonant ocean basins, and 2) strategically providing computational resolution using unstructured grids in order to maintain an approximately constant level of localized error throughout the domain. This large domain/local grid refinement strategy has led to certain computational difficulties. First, the range of flow regimes varies dramatically from the deep ocean to the shallow near shore and inland regions which include inlets, rivers, and flood plains with surrounding levee systems. Not only are the depths dramatically different, but the force balances in the descriptive equations vary dramatically as well. Various algorithms perform very differently within these widely disparate flow regimes in terms of stability, accuracy and localized mass conservation properties. Second, the high level of grid resolution provided in localized high flow gradient and/or very shallow water depth regions actually degrades the stability properties of many algorithms that worked quite well with coarser discretizations, and work very well in regions with smoother solutions. The main focus of this project is to overcome these difficulties through the use of suitably coupled, finite element hp-adaptive algorithms, which are based on mathematically sound error estimates. The investigators have an extensive history in developing continuous Galerkin finite element methods for shallow water problems, and have recently investigated the use of discontinuous Galerkin methods for these problems. By exploiting the strengths of these two approaches, they plan to develop simulation tools for solving shallow water problems which can model large domains with locally refined, unstructured grids, can accurately resolve high gradient flow regions, can locally adapt to changes in flow characteristics, and which honor local mass conservation principles where necessary. Specifically, under this project, the investigators will (1) further develop and analyze discontinuous Galerkin methods for shallow water flows in two and three dimensions (2) thoroughly compare continuous and discontinuous Galerkin methods for some model problems, and (3) investigate novel multi-algorithmic approaches based on coupling the two methodologies for shallow water equations and related mathematical models.&lt;br/&gt;&lt;br/&gt;Accurate mathematical and computer modeling of coastal ocean circulation and transport of chemical species in shallow waters has significant implications from an economic, environmental and public health perspective. Major inter-related issues include coastal inundation, navigation, sediment movement, pollutant transport and fisheries. Accurate prediction of hurricane storm surges can help save lives and property in many low lying regions throughout the United States and the world. The prediction of coastal currents and water levels is also of major significance in commercial and military navigation, e.g. in the design of harbors and navigation channels. Current computer simulation tools are lacking in their ability to reliably and efficiently model these complex flow regimes. The investigators on this project, through the use of advanced mathematical modeling, numerical algorithms and distributed computing technology, will develop state-of-the-art simulation tools for these applications.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/28/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0107247</AwardID>
+    <Investigator>
+      <FirstName>Clinton</FirstName>
+      <LastName>Dawson</LastName>
+      <EmailAddress>clint@ices.utexas.edu</EmailAddress>
+      <StartDate>08/28/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

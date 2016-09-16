@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Regions: A new architectural capability in networking</AwardTitle>
+    <AwardEffectiveDate>08/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2006</AwardExpirationDate>
+    <AwardAmount>1035878</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050200</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gurudatta M. Parulkar</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Naive pictures of the Internet frequently portray a small collection of hosts or LAN's connected by a "cloud" of connectivity. The truth is more complex. The IP-level structure of the Internet is composed from a large number of constituent networks, each of which differs in some or all of transmission technologies, routing protocols, administrative models, security policies, QoS capabilities, pricing mechanisms, and similar attributes. On top of this, a whole new structure of application-layer overlays and content distribution &lt;br/&gt;networks, equally diverse in the sorts of ways mentioned above, is rapidly evolving. Virtually any horizontal slice through the current Internet structure reveals a loosely coupled federation of separately defined, operated, and managed entities, interconnected to varying degrees, and often differing drastically in internal requirements and implementation. Intuitively, it is natural to think of each of these entities as existing in a region of the network, with each region having coherent internal technology and policies, and each region &lt;br/&gt;managing its interactions with other regions of the net according to some defined set of rules and policies.&lt;br/&gt;&lt;br/&gt;The thesis of the present proposal is that this basic, general notion of a region is a powerful tool for managing the increasingly complex demands on the Internet and its successors, and thus should made into an explicit, first-class component of the network architecture. It is suggested that the many uses of the region concept share a well-defined set of core ideas and operations, and that it is therefore useful to separate the concept of "region" from any specific use of the concept and provide it as an independent, reusable abstraction. It is further suggested that the region abstraction can be implemented as a concrete software entity, and that doing so will provide protocol designers and implementers at all levels of the stack with logically structured, scalable, high-performance access to an important classof functionality.&lt;br/&gt;&lt;br/&gt;The region is a generalization of a group and a bound in some space. The two defining concepts of a region are a set of contained members, which share some common invariants, and a boundary, which allows us to capture the notion of actions taken when entering and leaving the region. Furthermore, it is capable of self-adaptation to changes in its size or usage patterns, allowing the same abstraction to apply under widely differing demands on scalability, performance, and efficiency. Ideas are found useful in many places in networking &lt;br/&gt;to address problems such as scaling, distribution, efficiency, heterogeneity, cost recovery, and many others.&lt;br/&gt;&lt;br/&gt;It is proposed in this research to define and develop the region abstraction and explore its utility as a general mechanism in networking. The research will proceed through several phases of three interrelated activities. The first is the development and definition of the region abstraction itself, with focus on requirements, choice of capabilities, abstract operations, and related issues. The second is designing and building a prototype implementation of the region entity, with focus on appropriate algorithms and adaptation strategies. The third is to examine and validate the region concept through use in three example problems. &lt;br/&gt;The examples serve two purposes, to explore the utility of having regions available and to further refine and improve the definition of a region. They are chosen specifically to stress different aspects of the region abstraction.&lt;br/&gt;&lt;br/&gt;The intention is that the region is a neutral mechanism provided to address many problems, both within a single network layer and across layers. The research will lead to a better understanding of management of multiple layers and the impacts that one can have on another in a controlled way. The research is expected to lead to a framework for decision-making about adaptation to changes in size and usage patterns. Finally, the research is expected to provide a better understanding in each of the example areas of the problems that arise there and how to address them.</AbstractNarration>
+    <MinAmdLetterDate>08/02/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/02/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0137403</AwardID>
+    <Investigator>
+      <FirstName>Karen</FirstName>
+      <LastName>Sollins</LastName>
+      <EmailAddress>sollins@csail.mit.edu</EmailAddress>
+      <StartDate>08/02/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4095</Code>
+      <Text>SPECIAL PROJECTS IN NET RESEAR</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR-SY: System Hardening through Security Aware Compilation and Processor Architecture</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2002</AwardExpirationDate>
+    <AwardAmount>145000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Pratibha Varma-Nelson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Networked computer systems are vulnerable to malicious attack. These attacks&lt;br/&gt;try to take over the control of a victim computer system by re-pointing the processor program counter (PC) to the attacker's code. This proposal explores a role for security aware compilation and processor microarchitecture in preventing unauthorized PC modifications. The two most common instances of PC compromise arise from the corruption of (1) the return address in an activation record and (2) function pointers. The basic approach to guarding PC is to apply an encoding function before any potential PC value (such as return address, or function pointer table entry) is stored in any memory location (such as a stack frame or function pointer table in the data or heap space). &lt;br/&gt;&lt;br/&gt;Any read of a memory value into the PC first has to go through a decoding function. A compromised PC value would go only through the decoding function and hence would render the malicious attack ineffective. This research investigates several variations of PC encoding/decoding schemes and evaluates computational overhead of these schemes and their effectiveness. This research plans to build a hardened Linux system, gcc compiler and other public domain utilities such as Apache web server incorporating the proposed return address and function pointer protection schemes.</AbstractNarration>
+    <MinAmdLetterDate>07/23/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113409</AwardID>
+    <Investigator>
+      <FirstName>Akhilesh</FirstName>
+      <LastName>Tyagi</LastName>
+      <EmailAddress>tyagi@iastate.edu</EmailAddress>
+      <StartDate>07/23/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gyungho</FirstName>
+      <LastName>Lee</LastName>
+      <EmailAddress>ghlee@ece.uic.edu</EmailAddress>
+      <StartDate>07/23/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1667</Code>
+      <Text>HIGH CONFIDENCE SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

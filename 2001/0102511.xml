@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Statistical Methods in the Frequency Domain</AwardTitle>
+    <AwardEffectiveDate>07/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2004</AwardExpirationDate>
+    <AwardAmount>269999</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040200</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Xuming He</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract DMS-0102511 Stoffer &amp; Ombao&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;In this proposal, we concentrate on topics relating, in general, to statistical methods in the frequency domain. First, we propose to extend the spectral envelope methodology for stationary time series to the notion of evolutionary spectral envelope for nonstationary series. In another project, we will direct our attention to analyzing nonstationary multiple time series and their principal components using transforms based on smooth localized complex exponentials (SLEX). In a third project, we will consider spectral analysis of time series collected in experimental designs with covariates. The spectral envelope was first proposed as a method to analyze stationary categorical-valued time series in the frequency domain. The motivation for that research was the analysis of DNA sequences. A common problem in analyzing long DNA sequence data is in identifying coding sequences that are dispersed throughout the sequence and separated by regions of noncoding. It is well known that DNA sequences are heterogeneous, and even within short subsequences of DNA, one encounters local behavior. In this project, we are interested in extending the spectral envelope methodology to capture the local behavior of such sequences. To address this problem of local behavior in categorical-valued time series, we will explore using the spectral envelope in conjunction with a dyadic tree-based adaptive segmentation (TBAS) method for analyzing locally stationary processes. Our hope is that this methodology will help emphasize any harmonic feature that exists in a categorical sequence of virtually any length in a quick and automated fashion. Projects such as the human genome project have produced large amounts of data. We believe our methods will prove to be useful as a data mining technique for help in the analysis of the vast quantities of data being produced by various genome projects. &lt;br/&gt;&lt;br/&gt;While the first project focuses on Fourier based methods, the second project concentrates on other techniques that will give spatial (or time) and frequency localization. Our goal, as always, is to develop computationally efficient algorithms for the analysis of large data sets. In our initial investigations, we will focus on the SLEX transform for analyzing categorical-valued nonstationary time series, but our goal is eventually to apply the technique to multiple time series (and their principal components) in general. The SLEX transform has special properties that make it ideal for analysis of nonstationary time series. The SLEX transform is based on the SLEX basis functions which are localized in both the time and frequency domains. The SLEX transform yields a decomposition in both time and frequency and allows a choice among many orthogonal transforms. Orthogonality leads to computationally efficient procedures for automatic segmentation of nonstationary time series and will hopefully facilitate in our investigation of the theoretical elements of our proposed methodology. An orthogonal representation allows one to store the coefficients and later process them by methods such as nonlinear thresholding. Our feeling is that if the data can be reduced to a relatively small number of meaningful coefficients then these coefficients might be useful in some type of secondary statistical analysis. In our collaborations with other scientists and physicians, we frequently encounter settings where time series, and covariates, are recorded for several subjects in an experimental design. There is an absence of a core of statistical procedures for analyzing such data, and we typically run across techniques that are cooked up in an ad hoc manner by researchers who have little technical skill or knowledge for analyzing correlated data and estimating (spectral) functions. Our goal in this project is to develop a general, user friendly, statistical methodology that will incorporate the relevant information obtained from time series data sets recorded from several units from many groups, and where covariates may also be measured. Our initial approach will be to exploit the relationship between spectral density estimation and generalized linear models.</AbstractNarration>
+    <MinAmdLetterDate>06/22/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/07/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0102511</AwardID>
+    <Investigator>
+      <FirstName>Hernando</FirstName>
+      <LastName>Ombao</LastName>
+      <EmailAddress>hombao@uci.edu</EmailAddress>
+      <StartDate>06/22/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Stoffer</LastName>
+      <EmailAddress>stoffer@pitt.edu</EmailAddress>
+      <StartDate>06/22/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pittsburgh</Name>
+      <CityName>Pittsburgh</CityName>
+      <ZipCode>152132303</ZipCode>
+      <PhoneNumber>4126247400</PhoneNumber>
+      <StreetAddress>University Club</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

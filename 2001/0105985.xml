@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Meta-MAC Protocols: A New Dimension to Adaptation in Medium Access Control</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050202</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In all networks that have a broadcast channel as the basis of communication, the medium access control (MAC) protocol serves a vital role, as it directly controls the access to communication resources. As the networks and the traffic they carry both become more heterogeneous the question is how to best adapt to the unknown or changing network conditions. The natural answer provided by most existing protocols is to include some kind of adaptivity in order to dynamically adust their operation to the actual network conditions. Examples of adaptivity include hybrid protocols that periodically recompute slot assignments, adjustment of retransmission probabilities (e.g., backoff mechanisms), as well as many other ad hoc solutions that tend to become unstable under high load. Rather than what amounts to essentially tuning parameters of the protocol "on the fly," we instead propose a new "meta-MAC" protocol framework that implements new dimension of adaptivity, on top of existing MAC protocols. Specifically, we propose research on a method, whose roots are in Artificial Intelligence (A1), to systematically and automatically combine a set of existing protocols into a single MAC protocol in a novel way, such that the resulting combined protocol has provable optimality properties. Each protocol in the set may be a good candidate for certain situations. For example, a randomized contention based protocol is good for low loads, due to its low delay, while an allocation based protocol is desirable for high loads, as it avoids the breakdown induced by too many collisions. Then the meta-protocol will automatically find combined decisions that dynamically represent the "best of the team," under the actual network conditions, without having to know in advance which of the conditions will actually occur and how they will change. Thus, rather than tuning parameters in an ad hoc manner, we systematically and automatically optimize the medium access approach itself. The proposed research program intends to fully explore the promising potential of the novel meta-MAC protocol aggregation approach, in which encouraging initial results of the PI and co-PI have already shown the principal feasibility. Specifically, the three main research directions include aggregating more sophisticated MAC protocols (such as IEEE 802.11), dynamically altering the protocol mix to support Quality of Service (QoS) at the MAC layer, and an in-depth study of the correctness, stability, and consistency of meta-MAC protocols. Our proposed meta-MAC optimization runs autonomously without any centralized control or any message exchanges. This makes the meta-MAC approach inherently scalable to arbitrarily large networks. Thus, the meta-MAC approach is ideally suited for the evolving application requirements of today's increasingly heterogeneous networking environments. In addition to the above, we plan to incorporate the general approach into the graduate curriculum in the new Telecommunications Engineering Program at the University of Texas at Dallas, thus enriching the traditional telecommunications curriculum with novel adaptive methodologies that provide intelligent, highly adaptive solutions in large, dynamically changing, heterogrneous networks.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105985</AwardID>
+    <Investigator>
+      <FirstName>Andras</FirstName>
+      <LastName>Farago</LastName>
+      <EmailAddress>farago@utdallas.edu</EmailAddress>
+      <StartDate>09/18/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Violet</FirstName>
+      <LastName>Syrotiuk</LastName>
+      <EmailAddress>syrotiuk@asu.edu</EmailAddress>
+      <StartDate>09/18/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Dallas</Name>
+      <CityName>Richardson</CityName>
+      <ZipCode>750803021</ZipCode>
+      <PhoneNumber>9728832313</PhoneNumber>
+      <StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4097</Code>
+      <Text>NETWORKING RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

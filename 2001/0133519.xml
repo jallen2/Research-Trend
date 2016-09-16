@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Synthesis-assistance and Compilation Software for Embedded Systems</AwardTitle>
+    <AwardEffectiveDate>05/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>10/31/2008</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>SUMMARY: Synthesis-assistance and Compilation Software for Embedded Systems&lt;br/&gt;---------------------------------------------------------------------------&lt;br/&gt;&lt;br/&gt;Embedded systems promise to revolutionize our day-to-day lives with ever-increasing intelligence and connectivity at decreasing cost. Yet, many of the software technologies for embedded systems remain antiquated, from compilers that produce code whose performance and power consumption is substantially inferior to assembly language programs, to synthesis software that provides little guidance to the designer on what decisions to make. These shortcomings decrease system performance and increase time-to-market and software and hardware development cost.&lt;br/&gt;&lt;br/&gt;This project is developing fundamental technologies to propel the software for embedded systems to the next level of automation. Opportunities along two directions are being explored: increased automation of the synthesis of embedded soft cores, and new compiler strategies for the management of heterogeneous memories&lt;br/&gt;in embedded systems. When deployed, these innovations can be expected to lead to vast improvements in the time-to-market, cost and performance of embedded designs. Both directions rely on improved compiler&lt;br/&gt;analysis of application domains.&lt;br/&gt;&lt;br/&gt;In the first and major research direction, tools that assist the synthesis of embedded soft cores are being developed. Soft cores are general-purpose processors having parameterizable components instead of a fixed design. The project is designing software that recommends to the user the best choice of an expanded space of hardware parameters for the given soft core, in an automated manner, taking into account the target application domain. The design goal is reduced runtime and power consumption within a given silicon-area budget. For the first time ever, the software uses compiler analysis of the applications to guide its decisions, rather than an exhaustive design space explorations proposed before, resulting in a rapid and scalable&lt;br/&gt;methodology.&lt;br/&gt;&lt;br/&gt;The second direction explored is the efficient compiler allocation of software-exposed heterogeneous memory. In many lower-end embedded chips, often used in micro-controllers and DSP processors, no caches are provided. Instead heterogeneous memory units such as scratch-pad SRAM, internal DRAM, external DRAM and&lt;br/&gt;ROM are memory-mapped to different parts of the address space. Prior to this work, it was left to the user to partition the data among the different memory units. This project is developing a compiler strategy that automatically partitions the data among the memory units. &lt;br/&gt;&lt;br/&gt;This CAREER research also includes a strong educational component that serves college students, industry and local high schools. To this end, several initiatives are pursued. First, a new graduate course on compilers for embedded systems has been designed. It continues to evolve with the integration of new research results. Second, undergraduates are recruited for summer internships to participate in the research. Third, a new laboratory course focuses on the design of embedded soft cores and uses software developed in the research, when complete, as an educational tool. Fourth, a research seminar series is conducted for high school juniors and seniors, using short examples of futuristic applications to excite students&lt;br/&gt;about research in computer engineering.</AbstractNarration>
+    <MinAmdLetterDate>12/19/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/28/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0133519</AwardID>
+    <Investigator>
+      <FirstName>Rajeev</FirstName>
+      <LastName>Barua</LastName>
+      <EmailAddress>barua@eng.umd.edu</EmailAddress>
+      <StartDate>12/19/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

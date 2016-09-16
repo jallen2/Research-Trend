@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SY(CISE): Cache-Oblivious Data Structures</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>449571</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Beigel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>PROPOSAL NO.: 0112849&lt;br/&gt;PRINCIPAL INVESTIGATOR: Arge, Lars&lt;br/&gt;INSTITUTION NAME: Duke University&lt;br/&gt;TITLE: ITR/SY(CISE): Cache-Oblivious Data Structures&lt;br/&gt;&lt;br/&gt;As the memory system in modern computers grows more complex, it is becoming increasingly important to design algorithms that are sensitive to the structure of the memory. One of the essential features of modern memory systems is that they are made up of a hierarchy of several levels of cache, main memory, and disk. While traditional theoretical memory models have assumed a "flat" memory with uniform access time, the access times of different levels of memory can vary by several orders of magnitude in current machines. For example, level-one cache is often around 100 times faster than main memory, while main memory is around&lt;br/&gt;1,000,000 times faster than disks. In order to amortize the large access time of memory levels far away from the processor, memory systems often transfer data between memory levels in large blocks. Thus it is becoming increasingly important to obtain high data locality in memory access patterns.&lt;br/&gt;&lt;br/&gt;This project will focus on the challenging problems encountered when trying to maintain data locality in irregular and dynamic problems, where by definition the data flow is continually changing and unpredictable, making it difficult to organize data locality a priori. In particular, cache-oblivious dynamic data structures will be developed-such data structures can in turn be used to develop cache-efficient algorithms. Only very recently was the first (and only) such dynamic cache-oblivious data structure developed. This structure is a cache-oblivious&lt;br/&gt;version of a search tree. The ambitious goal of this project is to develop cache-oblivious structures for other fundamental problems. In the process general techniques for designing cache-oblivious data structures will be developed. Data structures with applications in a variety of application areas will be considered, but there will be a particular focus on geometric structures. Such structures often have important applications in e.g. spatial databases and geographic information systems (GIS). The project is high-risk because almost nothing is known about dynamic cache-oblivious data structures, but it has the potential to revolutionize the area of&lt;br/&gt;cache- and I/O-efficient computation and to make a tremendous practical impact. Ultimately this research could lead to a standard library of cache-oblivious data structures. Such platform-independent data structures would enable programmers to easily develop a wide variety of applications that obtain high performance on all modern memory hierarchies.</AbstractNarration>
+    <MinAmdLetterDate>08/02/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/23/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0112849</AwardID>
+    <Investigator>
+      <FirstName>Lars</FirstName>
+      <LastName>Arge</LastName>
+      <EmailAddress>large@cs.duke.edu</EmailAddress>
+      <StartDate>08/02/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

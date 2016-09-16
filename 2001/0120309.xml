@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>QSB: Phenotyping Single Nucleotide Polymorphisms using Bayesian Networks</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2004</AwardExpirationDate>
+    <AwardAmount>498849</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Paul Werbos</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The recent completion of a draft of the human genome leaves us with a staggering number of sequences, an impressive number of surprising statistics, and the task of making sense of it, by linking the genetic code to observable characters (phenotypes). And one of the surprising statistics emerged from this first draft can hold the key to unlock the code. On average, the genomes of any two human individuals are identical at 99.9% of all nucleotides. While this extremely high degree of identity is striking, the enormous size of the genome (over 3 x 109 base pairs) means that a 0.1% rate of divergence is still equivalent to over 3 million differences between any two people, which translates, on the average, into one difference every 1000 bases. These subtle variations, called polymorphisms, have been proven to be invaluable tools to relate genetic code&lt;br/&gt;to phenotypes. By far the most common type of polymorphism is the alteration of a single base (A, C, G or T), known as a Single Nucleotide Polymorphism (SNP). Although only a small fraction of these variations resides in coding parts of the genome (i.e. segments that actually affect the expression of the genetic code), SNPs act as unique markers on the genetic code and allow to follow along families (pedigrees) the simultaneous inheritance of code segments and phenotypic characters. This phenomenon allows us to assess the relationship between characters and some areas of the genetic code. The signal of these variations is so strong that simple Mendelian in-heritance was able to reveal the genetic basis of important diseases, such as Huntington's disease or cystic fibrosis. These phenotypes, however, are easy to discover because they follow a simple&lt;br/&gt;pattern of inheritance of a single gene. The next challenge is to discover the genetic bases of complex traits caused by more than one coding region or by the interplay between genetic predisposition and environmental conditions.&lt;br/&gt;&lt;br/&gt;This project seeks a solutions to this problem by mean of an unsupervised machine learning technology known as Bayesian networks (BBNs), born at the confluence between Statistics and Artificial Intelligence. A BBN is a direct acyclic graph in which nodes represent stochastic variables and links represent dependencies among variables. Recent developments of the technology have made possible learning these networks from databases comprising values of several variables and, in so doing, discovering the most probable model of dependence among these variables. BBNs are not restricted to pairwise models of interactions but they can describe and therefore help to assess models where more than one variable is responsible for changes in others. SNPs, environmental conditions and observable characters are represented as stochastic variables, thus allowing a seamless integration of the information. The first technological chal-lenge of the project is the integration of the hierarchical structure of pedigree information (i.e. the information about family inheritance) in the flat structure of the BBNs, where all variables are equally interacting. The second issue tackled by the project will be understanding of the stochastic nature of the mechanism causing missing data (such as failed enotyping, missing phenotypes on ancestors), the development of appropriate treatment for the incomplete databases, and the assessment of the reliability of the resulting models. The third aspect of the project is the integration with existing SNPs databases to provide fast access to the available SNPs information.</AbstractNarration>
+    <MinAmdLetterDate>09/17/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/23/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0120309</AwardID>
+    <Investigator>
+      <FirstName>Paola</FirstName>
+      <LastName>Sebastiani</LastName>
+      <EmailAddress>sebas@bu.edu</EmailAddress>
+      <StartDate>09/17/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Marco</FirstName>
+      <LastName>Ramoni</LastName>
+      <EmailAddress>marco_ramoni@harvard.edu</EmailAddress>
+      <StartDate>09/17/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Children's Hospital Corporation</Name>
+      <CityName>Boston</CityName>
+      <ZipCode>021155737</ZipCode>
+      <PhoneNumber>6179192729</PhoneNumber>
+      <StreetAddress>300 LONGWOOD AVENUE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0306000</Code>
+      <Name>Energy Research &amp; Resources</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

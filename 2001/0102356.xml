@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Computation of Nearly Singular Integrals with Applications to Fluid Dynamics</AwardTitle>
+    <AwardEffectiveDate>08/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2005</AwardExpirationDate>
+    <AwardAmount>165499</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Henry A. Warchall</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0102356&lt;br/&gt;Beale&lt;br/&gt;&lt;br/&gt;The proposed work is concerned with the development of improved &lt;br/&gt;methods for computing singular or nearly singular integrals, and with &lt;br/&gt;applications to numerical methods for simulating fluid flow with moving &lt;br/&gt;boundaries. In many scientific problems, quantities of interest can be &lt;br/&gt;written in terms of integrals such as a double layer potential on a &lt;br/&gt;boundary. When such an integral is evaluated near the boundary, usual &lt;br/&gt;quadrature rules are inaccurate because of large derivatives in the &lt;br/&gt;integrand. It is desirable to calculate such values in a way that is simple &lt;br/&gt;and efficient, without requiring a special choice of quadrature points. The &lt;br/&gt;present approach uses regularization of the singularity and a standard &lt;br/&gt;quadrature rule, followed by local corrections derived from asymptotic &lt;br/&gt;analysis. This technique will be used to design an alternate version of the &lt;br/&gt;immersed boundary method of C. Peskin, a computational method which &lt;br/&gt;has been used to model various biological processes. In this method &lt;br/&gt;viscous, incompressible fluid is influenced by a membrane or interface &lt;br/&gt;which exerts a force on the fluid. In two dimensions, the force can be &lt;br/&gt;expressed in terms of nearly singular integrals to which the proposed &lt;br/&gt;approach can be applied. It is hoped that this modification will extend the &lt;br/&gt;usefulness of the immersed boundary method in realistic applications. &lt;br/&gt;Application may also be made to methods for computing flow with &lt;br/&gt;moving boundaries separating different fluids. The technique for nearly &lt;br/&gt;singular integrals will be extended to surface integrals in three-space, &lt;br/&gt;generalizing work already done for marker points on surfaces. Related &lt;br/&gt;work will concern interfaces in inviscid, potential flow using improved &lt;br/&gt;regularizations of boundary integrals.&lt;br/&gt;&lt;br/&gt;Many scientific processes involve moving boundaries, for example, the &lt;br/&gt;boundary of a drop of one fluid moving through another, or a membrane in &lt;br/&gt;living tissue. Numerical models of such processes encounter special &lt;br/&gt;difficulties, since it is simplest to compute quantities at a set of points &lt;br/&gt;which are regularly spaced and unchanging. There are presently several &lt;br/&gt;numerical approaches which avoid changing fundamentally the way the &lt;br/&gt;region is approximated at each new time. In some cases important &lt;br/&gt;quantities can be written as integrals over boundaries. These integrals &lt;br/&gt;arise as solutions of differential equations and are usually singular, or &lt;br/&gt;nearly singular; that is, large values appear, representing the strong &lt;br/&gt;interaction of nearby points, as in the inverse square law of gravity. &lt;br/&gt;Special techniques are needed to calculate such integrals accurately and &lt;br/&gt;efficiently. This proposal is concerned with the development and &lt;br/&gt;application of methods of this type. The use of integral representations to &lt;br/&gt;modify the design of existing methods for computing fluid motion with &lt;br/&gt;moving boundaries might improve the ability of these numerical methods &lt;br/&gt;to make reliable predictions.</AbstractNarration>
+    <MinAmdLetterDate>08/02/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/02/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0102356</AwardID>
+    <Investigator>
+      <FirstName>J. Thomas</FirstName>
+      <LastName>Beale</LastName>
+      <EmailAddress>beale@math.duke.edu</EmailAddress>
+      <StartDate>08/02/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

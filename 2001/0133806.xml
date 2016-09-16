@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Exposure-Resilient Cryptography</AwardTitle>
+    <AwardEffectiveDate>01/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2008</AwardExpirationDate>
+    <AwardAmount>330000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Beigel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract:&lt;br/&gt;Exposure-Resilient Cryptography concerns the important problem of key&lt;br/&gt;exposure and general information leakage. Exposure of such&lt;br/&gt;information poses one of the most serious and common threats to&lt;br/&gt;employing cryptography in real life. For example, cryptographic&lt;br/&gt;computations (decryption, signature generation, etc.) are often&lt;br/&gt;performed on a relatively insecure device (e.g., a mobile device or an&lt;br/&gt;Internet-connected host) which cannot be trusted to maintain secrecy&lt;br/&gt;of the private key. Thus, the goal of Exposure-Resilient Cryptography&lt;br/&gt;is to design solutions that will limit (or even completely eliminate)&lt;br/&gt;the negative consequences of such an exposure in various cryptographic&lt;br/&gt;scenarios. In particular, this research concentrates on the design of&lt;br/&gt;various key evolving schemes and the problem of partial key exposure.&lt;br/&gt;&lt;br/&gt;The paradigm of secret key evolution over time invloves updating one's&lt;br/&gt;secret key such that key leakage at given period(s) compromises the&lt;br/&gt;security of other periods to the minimal extent possible. The&lt;br/&gt;investigators examine two such models. Forward-secure schemes update&lt;br/&gt;secret key locally, and seek to protect the security of all the past&lt;br/&gt;periods when the current key is exposed. In contrast,&lt;br/&gt;bidirectionally-secure schemes use secure key updates, but protect&lt;br/&gt;all non-exposed periods: both in the past and in the future. In&lt;br/&gt;either model, the public information (e.g., public keys) are not&lt;br/&gt;affected by the secret key evolution. The problem of partial key&lt;br/&gt;exposure concerns the scenario where most but not all secret&lt;br/&gt;information has been leaked. The main question studied in this setting&lt;br/&gt;is how can valuable secret information be stored or represented in&lt;br/&gt;such a way that almost complete exposure of its representation still&lt;br/&gt;guarantees the secrecy of the actual, embedded secret?</AbstractNarration>
+    <MinAmdLetterDate>01/03/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/01/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0133806</AwardID>
+    <Investigator>
+      <FirstName>Yevgeniy</FirstName>
+      <LastName>Dodis</LastName>
+      <EmailAddress>dodis@cs.nyu.edu</EmailAddress>
+      <StartDate>01/03/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2860</Code>
+      <Text>THEORY OF COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

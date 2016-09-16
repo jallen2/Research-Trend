@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SI: Automatic Consistency Checking for IPSec/VPN Security Policy</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2004</AwardExpirationDate>
+    <AwardAmount>388429</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Joseph B. Evans</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Although various IPSec policy issues [2,3,4] have attracted a lot of attention, within the IETF IPSP (IP&lt;br/&gt;Security Policy) working group, there is certain amount of confusion and concerns about the two&lt;br/&gt;fundamental issues: 1) How to ensure the correctness of a set of distributed security policies? 2) How&lt;br/&gt;to systematically determine the correct set of policies and securely distribute them across the&lt;br/&gt;network?&lt;br/&gt;Internet will be more and more dynamic in many aspects. With the capability of various wireless network&lt;br/&gt;technologies, users and even sub-networks can be mobile. Mobility implies potential changes in the&lt;br/&gt;policies or the inter-relations among distributed policies. Adaptive security is another cause of policy&lt;br/&gt;changes. It will be uncommon in the near future that, in reacting to a newly detected intrusion, a security&lt;br/&gt;management system might on-the-fly determine to strengthen the security level by modifying the IPSec&lt;br/&gt;security policies. Therefore, it is critically important to have a safe and rigorous solution to handle the&lt;br/&gt;above two issues.&lt;br/&gt;Policy Specification Correctness&lt;br/&gt;Currently, in the research community of IPSec/VPN policy, to our best knowledge, no rigorous definition&lt;br/&gt;for IPSec/VPN policy correctness has been developed. Later in this proposal, we will give a formal and&lt;br/&gt;reasonable definition for correctness such that we will have a basis for policy specification analysis. Such&lt;br/&gt;correctness analysis must be automated such that the security configuration of a network system can be&lt;br/&gt;adaptive to changes, faults/intrusions, and mobility. On the other hand, if there are inherent constraints&lt;br/&gt;and conflicts among the existing security policies such that it is impossible to have a consistent policy set,&lt;br/&gt;the policy analysis engine should also automatically determine the impossibility.&lt;br/&gt;Inter-domain Secure Policy Distribution&lt;br/&gt;The proposed work under the first issue assumes that we have a perfect and centralized collection of&lt;br/&gt;information related to the policies and security requirements around the whole Internet. However, in reality,&lt;br/&gt;this might not always be possible as Internet is owned and managed by different administrative domains,&lt;br/&gt;while, for trust and privacy consideration, information regarding local policy and network topology might&lt;br/&gt;not be sharable across domain boundaries.&lt;br/&gt;The second objective of this proposed research is, under some inter-domain related constraints, to develop a&lt;br/&gt;collaborative framework/architecture and a suite of distributed protocols such that we can still analyze the&lt;br/&gt;correctness of a set of decentralized IPSec/VPN policies. We will study the issue of the minimum amount&lt;br/&gt;of policy information needed for a particular policy domain to determine whether its local policies and&lt;br/&gt;requirements will be consistent with other domains. Once the set of policies is decided, a policy distribution&lt;br/&gt;mechanism is also needed.&lt;br/&gt;Under this proposed research project, we will first focus on the theoretical aspect of policy and requirement&lt;br/&gt;specifications and their analysis. We will develop algorithms and analytical results to fundamental enhance&lt;br/&gt;our current technology in policy-driven networking systems such as IPSec/VPN. Second, we plan on&lt;br/&gt;implementing a prototype to validate and evaluate our proposed approach on a realistic networking&lt;br/&gt;environment. The first phase will be a small testbed to run the prototype software, which will be open&lt;br/&gt;sourced and available to the community. Furthermore, we would like to collaborate with industry partners&lt;br/&gt;such as equipment venders and ISPs to further evaluate and validate our approach against real-world&lt;br/&gt;challenges. Furthermore, we will pay special attention to the application of our solutions in a mobile&lt;br/&gt;network environment. In such environment, the capability of dynamically updating IPSec security policy is&lt;br/&gt;extremely critical. To summarize, we will not only deliver academic publications about our proposed works&lt;br/&gt;but also produce a prototype system and perform extensive experiments, including the real-world data set if&lt;br/&gt;possible, to evaluate the performance and accuracy and to validate our theoretical model in handling&lt;br/&gt;difficulty issues in Policy-driven networking systems.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113388</AwardID>
+    <Investigator>
+      <FirstName>Shyhtsun</FirstName>
+      <LastName>Wu</LastName>
+      <EmailAddress>wu@cs.ucdavis.edu</EmailAddress>
+      <StartDate>09/06/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

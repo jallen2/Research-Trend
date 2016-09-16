@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>VISUALIZATION:Manipulating Volumes: A New Paradigm for Advanced Volume Visualization</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>339232</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As 3D volume data becomes more prevalent from simulations and sensing equipment, and as volume rendering APIs are becoming available in software and hardware implementations, the need to manipulate volume models arises. However, the work on manipulating volume models for analysis and computer graphics applications is sparse. The few methods that are available are computationally expensive and non-intuitive. This project avoids these problems by using volumetric skeletons to control manipulation. The skeleton acts as a ubiquitous data structure for volumes and allows manipulation in a much more intuitive and general manner. The skeleton is computed from the actual volume with a reversible thinning procedure based upon the distance transform. The skeletal points are connected and arranged in a skeleton-tree structure. The key to this process is the reconstruction phase that maps the sampled voxels around the skeleton-tree. The skeleton is an intuitive mechanism for manipulation. For example, a user can deform the skeleton to create the corresponding deformations in the volume. The skeleton-tree allows the user to reshape volumes and create new visualizations. Among other things, this allows culling sections of a volume logically, morphing volumes to simulate changes in a 3D feature over time, detecting collisions for interactive volume-based virtual reality applications, and volume animation and volume graphics (mimicking the standard graphics pipeline with volumes). Because skeletons can be generated hierarchically, they can be used to perform a variety of tasks including volume smoothing and level-of-detail representation.&lt;br/&gt;&lt;br/&gt;The goal of this project is to extend and fundamentally enhance previous research in volume skeletonization. It will develop a full range of robust skeletal algorithms and interactive tools. The researchers will investigate the exciting new visualization applications of the parameter-based volume skeleton. This should have a wide impact in the visualization and computer graphics communities.</AbstractNarration>
+    <MinAmdLetterDate>09/20/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/13/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0118760</AwardID>
+    <Investigator>
+      <FirstName>Deborah</FirstName>
+      <LastName>Silver</LastName>
+      <EmailAddress>silver@jove.rutgers.edu</EmailAddress>
+      <StartDate>09/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4080</Code>
+      <Text>ADVANCED COMP RESEARCH PROGRAM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Computational Error Estimation and Adaptive Error Control for Multiscaled Differential Equations</AwardTitle>
+    <AwardEffectiveDate>08/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2005</AwardExpirationDate>
+    <AwardAmount>182122</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Multiscaled physical systems involving processes acting on vastly different scales arise in a variety of important applications. Analyzing such systems present overwhelming challenges to mathematical analysis and therefore numerical simulation has become a centrally important tool. However, multi- scaled problems also strain the limit of current computational abilities and resources because of the resolution required to approximate behavior on the small scales accurately. The principle investigator will attack this problem by means of computational error estimation and adaptive error control. He will develop residual-based a posteriori estimates of user-chosen functionals of the solution given in terms of the computed numerical solution. The proposed approach accounts for the global effects of stability through a variational analysis and the dual problem to the original problem. The computational estimates will be used to guide the discretization resolution in order to efficiently compute numerical solutions of a desired accuracy. The research in this proposal will encompass development of computational error estimates, analysis of the reliability and accuracy of the estimates, implementation of adaptive finite element codes, and the use of these codes to investigate physical systems. The underlying applications driving this research will be investigations into the behavior of a small number of particles suspended in a low-Reynolds number flow and reaction- diffusion systems arising in shear flow problems, general relativity, modeling of pattern formation in biological systems, and population dynamics.&lt;br/&gt;&lt;br/&gt;Some physical systems involve processes that act on vastly different scales. An example is given by the motion of small particles suspended in a slow flowing fluid, as for example occurs in riverbeds. In this situation, the interactions of the particles can occur on a very rapid time scale as they approach each other compared to motion of the fluid. Other multi-scaled systems include pattern formation in biological systems like stripes on Zebras, the dynamics of diseases in populations, and problems involving general relativity. Computer simulations of such systems have become a main tool for understanding and predicting their behavior. Yet the multi-scaled aspects strain current computational ability because of the resolution needed to approximate the behavior on small scales accurately. The principle investigator will attack this problem by developing computational error estimates to be used to guide the resolution needed at each point in space and time to obtain simulations of a desired accuracy. The resolution will be adjusted through a feedback mechanism as a system evolves. The proposed research encompasses development of techniques to estimate the error and adjust the resolution of the approximation, implementation of these techniques into computer programs that will be made available to the public, and the use of these computer programs to investigate real physical systems including those mentioned above.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0107832</AwardID>
+    <Investigator>
+      <FirstName>Donald</FirstName>
+      <LastName>Estep</LastName>
+      <EmailAddress>estep@math.colostate.edu</EmailAddress>
+      <StartDate>08/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Colorado State University</Name>
+      <CityName>Fort Collins</CityName>
+      <ZipCode>805232002</ZipCode>
+      <PhoneNumber>9704916355</PhoneNumber>
+      <StreetAddress>601 S Howes St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

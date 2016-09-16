@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Minimization of actuator hysteresis under varying load and temperature conditions</AwardTitle>
+    <AwardEffectiveDate>08/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2005</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Henry A. Warchall</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The accuracy of positioning systems that use piezoelectric actuators is limited by a hysteresis relationship between the input to the actuator and the resulting displacement. The positioning accuracy of the system can be improved by minimizing the effect of the hysteresis. To reach this goal it is necessary to have an accurate representation of the hysteresis, and a control strategy that provides compensation for the hysteresis. Recent work has demonstrated the feasibility of using the KP operator to model hysteresis. This work also demonstrated the use of the inverse KP operator to create an open loop control that minimized the positioning error caused by the hysteresis. The results of that work are restricted to an actuator working under a fixed set of operating conditions. As these conditions change the performance of the model and the control degrade. To remedy this situation the proposed three year research program will focus on the modification of the KP operator so that it is capable of modeling hysteresis over a wide range of operating conditions (temperature and load). As before, the inverse operator will be used as part of a controller designed to minimize positioning error over a range of operating conditions. The major program tasks are: 1) The determination of the conditions necessary for data that is used to identify the nonnegative measure of the KP operator; 2) The modification of the KP operator to explicitly include variables associated with the temperature of the actuator and the load acting on the actuator; 3) The inversion of the modified KP operator and the development of a control based on this inverse. Computer simulations and experimental data will be used to evaluate the relative performance of the KP and modified KP operators. Similarly, the performance of controllers based on the inverses of both operators will be compared to determine if the positioning accuracy of the actuator can be improved by incorporating load and temperature variables into the KP operator. &lt;br/&gt;&lt;br/&gt;A key component of many mechanical systems is the positioning subsystem. This subsystem typically consists of a controller that uses sensor information to drive an actuator such that a desired position is attained by a system component. For a satellite-tracking antenna, it may be the system that aims the parabolic antenna dish at the desired point in the sky, or it is the system that is used to position a specimen under the probe tip in a scanning probe microscope (SPM). Whether it is a system for pointing an antenna or imaging microscopic structure, the accuracy of the positioning directly impacts the overall effectiveness of the system. For an SPM a piezoceramic type actuator is used for positioning. A relationship between the actuator input and the resulting position, called hysteresis, limits the accuracy of this type of actuator. The hysteresis introduces a positioning error that cannot be effectively minimized with conventional control strategies. However, over the past decade several methods have been developed that are capable of minimizing this error for fixed operating conditions. The proposed program is directed at extending a method based on the KP operator so that it can be used to reduce the hysteresis error over a range of actuator operating conditions. The two major benefits of the program are: 1) The results can be used to improve the accuracy of currently installed positioning systems such as those used for microscopic imaging and integrated circuit production and 2) The program will actively engage a diverse undergraduate student population to state of the art research. The second of these benefits is as significant as the first, for this effort will include the development of an experimental test facility at Ferrum College for both computer simulation work and experimental testing. Students at the college will be active participants in the design, implementation and execution of experiments directed at the development and evaluation of the hysteresis models and the actuator controllers. Additionally, they will apply material learned in their undergraduate courses to analyze experimental data and system performance. The program will provide a rare opportunity for undergraduate students in this region to experience advanced research typically only found at a major research university or industrial research center. This program will also be an introduction for this region of the state to advanced technology.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/10/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105190</AwardID>
+    <Investigator>
+      <FirstName>William</FirstName>
+      <LastName>Galinaitis</LastName>
+      <EmailAddress>galinait@rose-hulman.edu</EmailAddress>
+      <StartDate>08/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ferrum College</Name>
+      <CityName>Ferrum</CityName>
+      <ZipCode>240889001</ZipCode>
+      <PhoneNumber>5403655574</PhoneNumber>
+      <StreetAddress>P.O. Box 1000</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9229</Code>
+      <Text>RES IN UNDERGRAD INST-RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>SMET</Code>
+      <Text>SCIENCE, MATH, ENG &amp; TECH EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

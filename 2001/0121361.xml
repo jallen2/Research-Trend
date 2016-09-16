@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP: Tools and Methods for Multiscale Biomolecular Simulations</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2007</AwardExpirationDate>
+    <AwardAmount>2962227</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03070005</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Materials Research</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daryl W. Hess</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is the result of a proposal submitted to the Information Technology Research (ITR) Initiative. The grant is being funded jointly by the Divisions of Materials Research, Chemistry, Biological Infrastructure and Molecular and Cellular Biosciences. &lt;br/&gt;&lt;br/&gt;Large-scale electronic structure and atomistic simulations have proven themselves to be essential in advancing our understanding of the complex physical and chemical transformations undertaken by biomolecules in carrying out their cellular functions. The breathtaking progress in computer performance and recent advances in algorithms for molecular simulations systems are opening unprecedented opportunities to investigate the biomolecular processes in silico, i.e., by accurate modeling of fundamental natural laws and processes through their computer representations. The overarching goal of this project is to seize this opportunity and develop a set of computational methods and tools which will achieve a qualitatively new level of usefulness, flexibility, accuracy and scientific impact. These goals will be achieved by combining significant new developments of both quantum and classical simulation methods, exploring their interoperabilities, and by the exploitation of parallelism and recent algorithmic advances. Realistic biomolecular simulations are notoriously difficult because they typically involve very large and complex mamcromolecules such as DNA or proteins, which need to be simulated in a proper solvent environment. While ideally one would like to describe biomolecules and all their transformations with ab initio accuracy, this is clearly an unreasonable goal given the computational demands of such simulations. What is, however, well within reach is an integrated multiscale approach that treats different parts of the biomolecular system with differing levels of accuracy, depending on their imporatnce. For instance, in order to understand enzymatic reactions, there is a need to understand the structure and chemistry of the complex reaction centers built up by the three-dimensional folding of proteins as accurately as possible. Our strategy is to decompose the large system into a set of overlapping nested regions, using an appropriate physical representation (quantum, classical, or continuum) and to develop interfaces that provides a physically consistent description and keeps the fundamental physical laws intact.&lt;br/&gt;&lt;br/&gt;To achieve these goals we aim to develop a set of modular tools for biomolecular simulations which treat parts of the system at a quantum, classical atomistic or continuum level, as needed for efficient studies of large moelcular complexes. At the quantum level, we will treat the system with a combination of quantum Monte Carlo (QMC), quantum chemical post-Hartree-Fock and density functional methods (DFT). At an intermediate level, calssical molecular dynamics with empirical force fields will be used, while continuum methods may serve to describe the large length-scale properties of the solvent environment. In order to build such tools, substantial algorithmic improvements to current methods need to be developed at each "level" of the physical representation, along with proper interfaces between the different descriptions of the system. The most important innovative features of our approach will be the following: (i) the unprecedented use of the highly accurate QMC approach and its new developments for biological simulations; (ii) at a density functional level, algorithmic improvements will enable routine calculations of thousands of atoms including quantum molecular dynamics, and also dynamically call the QMC approach for checking the accuracy of the DFT functionals in problematic cases; (iii) the electrostatic interactions will be treated in a highly accurate manner in the classical mechanics regions, with the implementation of point multipolar expansions, polarizabilities and low-order continuous wavefunctions, which will provide a robust interface between the quantum and classical regions; (iv) the codes will be based on real-space grids as these enable true O(N) scaling on parallel machines, are more flexible in terms of boundary conditions, and allow for additional gains in accuracy, while preserving stability, via the introduction of non-uniform grids; (v) our methodology relies on proven multigrid methods that allow for an accelerated convergence to the proper solution on different length scales; (vi) the codes will be developed under an Open Source GPL license and made available to the public as "add-on" packages to existing codes, such as AMBER; (vii) the codes will be scalable and portable, running on both massively parallel supercomputers and workstations. They will use modern Web-based technologies for providing access to simulations and their results.&lt;br/&gt;&lt;br/&gt;The new capabilities will enable us to attack key challenges and paradigmatic biomolecular problems, such as enzymatic reactions, blood coagulation proteins, and others, both as a part of our ITR program and through the efforts of the scientific community at large. Ultimately, we will distribute our codes freely to the biosimulation community via the GPL license in order to achieve a wide spread dissemination of results and maximum scientific impact. In addition to the research goals, this program has considerable educational goals, aimed at developing a set of interdisciplinary modern courses that will generate student interest and excitement about computational and simulation science and technology. Toward this end, we will develop a curriculum for the Center for High Performance Supercomputing being currently formed at NCSU, build a set of educational tools which will be introduced and disseminated during summer workshops for students and postdocs.&lt;br/&gt;%%%</AbstractNarration>
+    <MinAmdLetterDate>09/19/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0121361</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Board</LastName>
+      <EmailAddress>jab@ee.duke.edu</EmailAddress>
+      <StartDate>09/19/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Celeste</FirstName>
+      <LastName>Sagui</LastName>
+      <EmailAddress>sagui@ncsu.edu</EmailAddress>
+      <StartDate>09/19/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Lubos</FirstName>
+      <LastName>Mitas</LastName>
+      <EmailAddress>lmitas@unity.ncsu.edu</EmailAddress>
+      <StartDate>09/19/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Lee</FirstName>
+      <LastName>Pedersen</LastName>
+      <EmailAddress>lee_pedersen@unc.edu</EmailAddress>
+      <StartDate>09/19/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jerzy</FirstName>
+      <LastName>Bernholc</LastName>
+      <EmailAddress>bernholc@ncsu.edu</EmailAddress>
+      <StartDate>09/19/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0106000</Code>
+      <Name>Materials Research</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1687</Code>
+      <Text>ITR MEDIUM (GROUP) GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1164</Code>
+      <Text>MOLECULAR BIOPHYSICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9183</Code>
+      <Text>GENERAL FOUNDATIONS OF BIOTECHNOLOGY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>BIOT</Code>
+      <Text>BIOTECHNOLOGY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

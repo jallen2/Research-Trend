@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Streaming Prerecorded Continuous Media in Wireless Environments</AwardTitle>
+    <AwardEffectiveDate>07/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2008</AwardExpirationDate>
+    <AwardAmount>359477</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Two key developments in networking are that the Internet is (1) increasingly used for the streaming of continuous media, a large portion of which is prerecorded, and (2) increasingly accessed by wireless (and possibly mobile) clients. The stringent Quality of Service requirements of continuous media, such as video, combined with the unreliability of wireless links make the real-time streaming over wireless links a very challenging problem. To address the trend towards wireless streaming, the researcher proposes to develop a comprehensive theory and a framework of practical protocols and mechanisms for the real-time streaming of prerecorded continuous media to wireless clients. To overcome the challenges of real-time streaming of continuous media over wireless links the proposed protocols and mechanisms will rely on the following key insights:&lt;br/&gt;&lt;br/&gt;1. For prerecorded continuous media (i) the exact traffic characteristics are known before the streaming commences, and (ii) while the stream is being played out, segments of the stream can be prefetched into a prefetch buffer in the client.&lt;br/&gt;2. Channel probing techniques can identify the wireless links with good transmission conditions in the face of location-dependent, time-varying, and bursty wireless link errors.&lt;br/&gt;3. Rate adaptation techniques of modern wireless systems (e.g., third and fourth generation wireless systems) allow to dynamically allocate transmission capacities to the individual ongoing flows.&lt;br/&gt;&lt;br/&gt;The novel idea of the streaming protocols is to overcome the variability of the wireless links by prefetching segments of the continuous media stream into the client buffer. The prefetching is done by dynamically allocating transmission capacities to the ongoing streams according to (1) the prefetch buffer contents in the clients, and (2) the wireless link conditions (determined through channel probing). Through prefetching (i.e.,work-ahead) prefetched reserves are built up in the clients that allow the clients to continue playback during adverse transmission conditions on the wireless links. The preliminary simulation results for prefetching using a Join-the-Shortest-Queue (JSQ) policy in conjunction with a simple channel probing scheme indicate that prefetching brings dramatic performance improvements.&lt;br/&gt;&lt;br/&gt;The researcher proposes to develop a comprehensive framework for the real-time streaming of continuous media to wireless clients. The specific objectives of the proposed project are to develop:&lt;br/&gt;&lt;br/&gt;1. optimal prefetching mechanisms for a single wireless cell, e.g., mechanisms that for given client buffers minimize the client starvation probability while maximizing the number of supported streams. The researcher will analyze the fundamental trade-offs in prefetching over wireless links and develop call admission rules.&lt;br/&gt;2. prefetching mechanisms for scalable encoded media that enable heterogeneous multimedia streaming services.&lt;br/&gt;3. seamless end-to-end streaming mechanism, for the real-time delivery of continuous media over networks consisting of wired and wireless links to mobile clients.&lt;br/&gt;&lt;br/&gt;In the preliminary work for the proposed project, the researcher has developed a prefetching protocol for the real-time streaming of continuous media between the base station and multiple wireless clients in a wireless cell.&lt;br/&gt;&lt;br/&gt;The proposed research is closely integrated with two educational initiatives. These are (1) outreach and extended education, and (2) the development of a wireless multimedia streaming testbed based on a 802.11 wireless LAN. The goals of the outreach and extended education initiative are to attract traditionally underrepresented minorities to engineering, and to provide high-quality networking instruction to underrepresented students, e.g., working adults. This will be achieved by (i) developing on-line networking labs for K-12 students and teachers in the Arizona MESA and the NSF funded WISE programs, (ii) enhancing the networking courses in ASU's Extended Education program with web-based teaching aids, and (iii) integrating networking courses into the exclusively web-based tri-university Master of Engineering program in Arizona. The streaming testbed will serve as a platform for integrating research, industrial collaborations, and students' education. Protocols for wireless QoS, such as the proposed prefetch protocol will be implemented in undergraduate (senior) design projects to complement and deepen the classroom knowledge.</AbstractNarration>
+    <MinAmdLetterDate>07/12/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/12/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0133252</AwardID>
+    <Investigator>
+      <FirstName>Martin</FirstName>
+      <LastName>Reisslein</LastName>
+      <EmailAddress>reisslein@asu.edu</EmailAddress>
+      <StartDate>07/12/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Arizona State University</Name>
+      <CityName>TEMPE</CityName>
+      <ZipCode>852816011</ZipCode>
+      <PhoneNumber>4809655479</PhoneNumber>
+      <StreetAddress>ORSPA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

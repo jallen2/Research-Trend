@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Research for Mixed Signal Electronic Technologies: A Joint Initiative Between NSF and SRC: Scalable Design and Test Methods for Single-Chip Multi-Link Radio-Frequency Transceivers</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>241999</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010600</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Recent developments in mixed-signal systems, especially those integrating computing and&lt;br/&gt;communication in a system-on-a-chip, have focused on the goal to communicate information via wireless devices and networks. While digital system design to process baseband information is moving into the low gigahertz (GHz) frequency range, the mixed-signal transceivers have to operate in the ISM bands (2.5 GHz up to 5.8 GHz) with even higher frequencies in the near future to satisfy bandwidth demands. Analog design advances have produced several transceiver designs up to 5 GHz, using CMOS, BiCMOS, and other technologies. To reduce noise, these designs tend to separate the transmitter and receiver, and so far, have provided only a single physical link (one transmitter and one receiver) in a wireless device. In the design area, this proposal addresses the creation and verification of scalable systematic design methods to integrate two or more physical links on one single chip to provide more bandwidth and flexibility in communication applications. A methodology to incorporate multi-links is scalable in the sense that more links can be added by application demands. To create this methodology, we propose the following design approaches:&lt;br/&gt;&lt;br/&gt;1. Noise cancellation techniques and circuits to deal with digital switching noise.&lt;br/&gt;&lt;br/&gt;2. Noise cancellation techniques and circuits to deal with RF noise interference between different transceiver links and circuits.&lt;br/&gt;&lt;br/&gt;These circuits will be validated using case studies from industry with whom we have had close&lt;br/&gt;collaborations: Texas Instruments, Motorola, and National Semiconductors, who will provide&lt;br/&gt;advanced fabrication technologies and simulation models for this study.&lt;br/&gt;The designs will be fully tested and the development of scalable test methods is the second focus of this proposal. Mixed-signal test advances, despite intense activities, have been rather slow, especially in high-frequency (GHz) test. We propose to investigate the following approaches and distill the results into a test methodology that can be scaled with respect to operating frequencies and process advances:&lt;br/&gt;&lt;br/&gt;1. End-to-end digital test methods using one transmit link and one receive link on the same chip&lt;br/&gt;to verify correct information transmission.&lt;br/&gt;&lt;br/&gt;2. Designs of on-chip delay and phase measurement circuits, operating at the same frequency as&lt;br/&gt;the transceivers.&lt;br/&gt;&lt;br/&gt;3. Interface between ATE and on-chip test circuits to use test resources efficiently.&lt;br/&gt;During the validation of these test methodologies, we will need access to advance test equipment for comparison purposes, and these equipment will be provided by our collaborator at Teradyne (Tualatin, OR) and Wavecrest (San Jose, CA).&lt;br/&gt;&lt;br/&gt;Another level of integration involves the curriculum - research aspects of the proposed work,&lt;br/&gt;which is being implemented in our current curriculum revision. Dissemination approaches re-used the distance learning methods and assessment supported by NSF, FIPSE, and our own&lt;br/&gt;university. The proposal will deliver fundamental methodologies and techniques, and train the&lt;br/&gt;first-generation system architects in high-frequency mixed-signal design and test.</AbstractNarration>
+    <MinAmdLetterDate>09/26/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/06/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0120255</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Allstot</LastName>
+      <EmailAddress>allstot@ee.washington.edu</EmailAddress>
+      <StartDate>09/26/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mani</FirstName>
+      <LastName>Soma</LastName>
+      <EmailAddress>manisoma@u.washington.edu</EmailAddress>
+      <StartDate>09/26/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

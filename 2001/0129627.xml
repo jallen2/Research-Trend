@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Secure and Proactive DNS</AwardTitle>
+    <AwardEffectiveDate>02/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2006</AwardExpirationDate>
+    <AwardAmount>366253</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kevin L. Thompson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Domain Name System (DNS) is a hierarchically distributed&lt;br/&gt;database that provides information fundamental to Internet&lt;br/&gt;operations, such as translating between human readable host names&lt;br/&gt;and Internet Protocol (IP) addresses. Due to the importance of&lt;br/&gt;the information served by DNS, there is a strong demand for&lt;br/&gt;securing communication within the DNS system. The current&lt;br/&gt;(insecure) DNS does not prevent attackers from modifying or&lt;br/&gt;injecting DNS messages. Users accessing hosts on the Internet&lt;br/&gt;rely on the correct translation of host names to IP addresses by&lt;br/&gt;the DNS. A typical attack, referred to as DNS spoofing, allows an&lt;br/&gt;attacker to manipulate DNS answers on their way to the users.&lt;br/&gt;If an attacker makes changes in the DNS tables of a single&lt;br/&gt;server, those changes will propagate across the Internet as a&lt;br/&gt;viral infection. Increasingly, DNS is also being used to perform&lt;br/&gt;load distribution among replicated servers. For instance,&lt;br/&gt;companies such as Akamai have used DNS to provide Web content&lt;br/&gt;distribution. Moreover, there is consensus that since DNS is a&lt;br/&gt;global and available database, it can be employed as a Public Key&lt;br/&gt;Infrastructure (PKI) which would enable e-commerce applications.&lt;br/&gt;&lt;br/&gt;Securing DNS means providing data origin authentication and&lt;br/&gt;integrity protection. Existing proposals for securing DNS are&lt;br/&gt;mainly based on public-key cryptography. In this proposal, the researcher&lt;br/&gt;describes a new approach based on standard symmetric (or&lt;br/&gt;secret-key) cryptographic techniques. The researcher introduces the concept of&lt;br/&gt;DNS symmetric certificate that are used to create a trusted path&lt;br/&gt;from the DNS root server to a server that is authoritative for a&lt;br/&gt;portion of the DNS tree. This strategy is very similar to the one&lt;br/&gt;introduced by Davis and Swick and symmetric certificates can be&lt;br/&gt;seen as a sort of tickets in the Kerberos system which create a&lt;br/&gt;trusted path from the authentication server to the destination&lt;br/&gt;server going through the ticket-granting server. DNS symmetric&lt;br/&gt;certificate are as manageable as public-key certificates with the&lt;br/&gt;exception that they cannot be shared, which is not generally&lt;br/&gt;required in the DNS system. The project solution enables a wide range of&lt;br/&gt;secure services previously believed impractical or too difficult&lt;br/&gt;to manage, such as mutual authentication and key revocation.&lt;br/&gt;Moreover, the gain in terms of computational complexity, network&lt;br/&gt;traffic, and storage requirements is impressive when compared&lt;br/&gt;with public-key cryptography based approaches. The research has clear&lt;br/&gt;ideas on how to define a secure DNS system based on symmetric-key&lt;br/&gt;cryptography. The researcher proposes to build such a system and make public&lt;br/&gt;the prototype implementation.&lt;br/&gt;&lt;br/&gt;The second part of the proposed research, would focus on a still&lt;br/&gt;unresolved problem: A DNS server represents a single point of&lt;br/&gt;attack which could easily be compromised. The researcher would like to&lt;br/&gt;investigate the possibility to distribute the role of a single&lt;br/&gt;DNS server among several servers. The research proposes a proactive DNS&lt;br/&gt;system that can survive component failures (whether malicious or&lt;br/&gt;not) by combining standard techniques of decentralized storage&lt;br/&gt;and dynamic self-maintenance. The researchers approach would allow DNS&lt;br/&gt;servers to automatically recover from possible, undetected&lt;br/&gt;break-ins and then maintain uninterrupted security. The researchers propose to&lt;br/&gt;use the proactive security model, which provides a method for&lt;br/&gt;maintaining the overall security of a system even when individual&lt;br/&gt;components are repeatedly broken into and controlled by an&lt;br/&gt;attacker, as long as not too many servers are compromised at the&lt;br/&gt;same time. The approach employed by the proactive security model&lt;br/&gt;is to first distribute the cryptographic capabilities among&lt;br/&gt;several servers, next have the server periodically engage in a&lt;br/&gt;refreshment protocol. Information gathered by an attacker before&lt;br/&gt;a refreshment period becomes useless to attack the system in the&lt;br/&gt;future. The researcher proposes to define, and build, an architecture that&lt;br/&gt;combines decentralized storage system technologies, data&lt;br/&gt;redundancy and encoding, and dynamic self-maintenance to create&lt;br/&gt;survivable DNS servers based on the proactive security model.</AbstractNarration>
+    <MinAmdLetterDate>02/07/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/07/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0129627</AwardID>
+    <Investigator>
+      <FirstName>Giuseppe</FirstName>
+      <LastName>Ateniese</LastName>
+      <EmailAddress>ateniese@cs.jhu.edu</EmailAddress>
+      <StartDate>02/07/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Johns Hopkins University</Name>
+      <CityName>Baltimore</CityName>
+      <ZipCode>212182608</ZipCode>
+      <PhoneNumber>4105168668</PhoneNumber>
+      <StreetAddress>3400 N CHARLES ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

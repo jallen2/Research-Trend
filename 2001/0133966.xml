@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Capturing the Lessons of Internet Services: Recovery Oriented Computing</AwardTitle>
+    <AwardEffectiveDate>02/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2007</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The dependability of critical systems is an increasing source of&lt;br/&gt;concern. Modern software systems are routinely composed of millions of&lt;br/&gt;lines of source, including "legacy" code from previous generations and&lt;br/&gt;other vendors, yet critical Internet services and financial systems are&lt;br/&gt;expected to exhibit "four nines" or "five nines" (99.99% or 99.999%)&lt;br/&gt;availability. Vast prior evidence suggests that despite our best&lt;br/&gt;efforts at achieving a correct design, complex systems can and will fail&lt;br/&gt;in unpredictable ways, often resulting from unforeseen interactions&lt;br/&gt;between well-tested components not designed to be used together. The&lt;br/&gt;measured effects of such failures in the Internet arena are staggering,&lt;br/&gt;and in mission-critical systems the costs could be measured in human&lt;br/&gt;lives, as was nearly the case with bugs in the Patriot missile guidance&lt;br/&gt;software used in the Gulf War.&lt;br/&gt;&lt;br/&gt;Since unexpected failures do in fact occur even in the most careful&lt;br/&gt;designs, this work proposes a new approach in which system design&lt;br/&gt;focuses not only on fault avoidance, but on rapid recovery from&lt;br/&gt;unexpected faults. In many cases, fault detection and recovery can&lt;br/&gt;exploit relatively simple, well known techniques that have been proven&lt;br/&gt;to work in keeping Internet systems highly available---despite their&lt;br/&gt;very large scale, stressful workloads, and requirements of continuous&lt;br/&gt;uptime in spite of high levels of software churn and integration of&lt;br/&gt;legacy code. Software watchdogs and timeouts can catch unexpected&lt;br/&gt;exceptional conditions; reactive or prophylactic process- or node-level&lt;br/&gt;restarts can recover from or prevent transient errors resulting from&lt;br/&gt;aging-related state corruption or unreclaimed resources; virtual machine&lt;br/&gt;technology can effectively contain faults in complex software systems.&lt;br/&gt;Although these mechanisms are simple, the challenge lies in determining&lt;br/&gt;how software must be structured so that the mechanisms can be applied.&lt;br/&gt;Similar techniques are well-known in the Internet protocol design&lt;br/&gt;community and embedded-systems community, prior work from which has&lt;br/&gt;inspired this approach.&lt;br/&gt;&lt;br/&gt;Brown and Patterson have proposed the term "Recovery-Oriented Computing"&lt;br/&gt;(ROC) to broadly describe the above philosophy. The primary goals of&lt;br/&gt;the proposed work include the systematic investigation of ROC&lt;br/&gt;engineering techniques to reduce MTTR (mean time to recovery) in complex&lt;br/&gt;software systems, characterization of the properties of software systems&lt;br/&gt;that make them amenable to ROC, and a set of design rules and&lt;br/&gt;(re)structuring techniques for applying ROC to software systems.&lt;br/&gt;Evaluation will include quantification of the trade-offs between&lt;br/&gt;improvement in service availability and quality of service delivered to&lt;br/&gt;users. Testbeds for the work include a ubiquitous computing environment&lt;br/&gt;co-developed with the Stanford Interactivity Lab, and a prototype&lt;br/&gt;COTS-based satellite ground station network co-developed jointly with&lt;br/&gt;the Stanford Space Systems Development Lab.&lt;br/&gt;&lt;br/&gt;The research is complemented by new course offerings and revision of&lt;br/&gt;existing course offerings, at the graduate and undergraduate levels, to&lt;br/&gt;refocus the software engineering curriculum on models closer to&lt;br/&gt;industrial practice for building complex critical-infrastructure&lt;br/&gt;systems. A new joint graduate course being co-taught with Prof. David&lt;br/&gt;Patterson at UC Berkeley focuses on applying ROC to a variety of student&lt;br/&gt;research projects across many domains. Proposed revisions to&lt;br/&gt;advanced-undergraduate courses present Internet software systems&lt;br/&gt;engineering as it is practiced in the field. In both cases, recognized&lt;br/&gt;industrial researchers and practitioners are contributing both their&lt;br/&gt;experience and concrete data that currently is nowhere published about&lt;br/&gt;how complex systems really fail in the field.</AbstractNarration>
+    <MinAmdLetterDate>12/20/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/28/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0133966</AwardID>
+    <Investigator>
+      <FirstName>Armando</FirstName>
+      <LastName>Fox</LastName>
+      <EmailAddress>fox@cs.berkeley.edu</EmailAddress>
+      <StartDate>12/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

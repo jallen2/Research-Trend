@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Efficient Algorithms for Lossless Data and Image Compression</AwardTitle>
+    <AwardEffectiveDate>07/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2003</AwardExpirationDate>
+    <AwardAmount>82940</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010800</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proposal 122293&lt;br/&gt;U of Ill Urbana-Champaign&lt;br/&gt;PI: Bresler, Yoram&lt;br/&gt;&lt;br/&gt;In spite of the focus in recent years on lossy compression of audio, images, and video, lossless data compression remains crucial in applications such as text files, facsimiles, software executables, and&lt;br/&gt;medical imaging. Universal source coding algorithms, which deal with sources whose statistics are unknown, are of particular importance. Universal coding methods are designed for universal performance over a broad class of possible sources. In these methods the source parameters are estimated, either implicitly or explicitly, and the sequence itself is encoded accordingly. Therefore the coding length for universal methods is g eater than the entropy; the extra coding length, called the redundancy satisfies a fundamental lower bound by Rissanen. &lt;br/&gt;&lt;br/&gt;The focus of research in universal data compression has been on reducing redundancies. In this sense, context tree weighting (CTW) has achieved the ultimate goal for the important class of tree sources, because it&lt;br/&gt;has essentially achieved Rissanen 's bound. However, in addition to low redundancies, a universal coding method must be computationally fast, and consume little memory. Neither of the two leading methods, CTW or&lt;br/&gt;PPM, a compression method that has been fine-tuned by various heuristics for practical use, are particularly strong performers in these respects. Therefore, the main goal of the proposed research is to develop algorithms featuring fast computation and low memory use, while providing compression near Rissanen 's bound. &lt;br/&gt;&lt;br/&gt;Like some of the most efficient high-performance universal compression algorithms to-date, the proposed approach is based on the Burrows Wheeler transform (BWT). The BWT is an invertible transform whose output contains segments in which symbols are approximately independent identically distributed. Owing to this similarity to piecewise i.i.d. (PIID), compressing the BWT output using PIID methods yields good&lt;br/&gt;compression results. However, such methods cannot achieve universal coding redundancies close to Rissanen 's bound because they require (whether implicitly or Explicitly) extra bits to encode the positions of&lt;br/&gt;transitions between segments in the BWT output. Recognizing this hidden overhead, this project proposes to take a fresh look at BWT based-methods and the relationship to the fundamental redundancy bounds.&lt;br/&gt;The project will explore ways to close the gap between traditional BWT-based methods and Rissanen 's bound while retaining the computational efficiency of the BWT. A particular challenge will be to apply this approach to lossless image compression. &lt;br/&gt;&lt;br/&gt;The resulting algorithms will have linear complexity, and be better than any current algorithm with comparable asymptotic compression performance, in terms of computation and/or memory use. Some versions of these algorithms will also have simple structure, admitting fast hardware implementations. Furthermore, this research will reveal the role of context modeling in universal lossless image compression. Since near-Rissanen redundancies with linear complexity are hard to beat, we expect a shift in the universal coding literature from compression improvement to implementation and practicality.</AbstractNarration>
+    <MinAmdLetterDate>07/07/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/07/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0122293</AwardID>
+    <Investigator>
+      <FirstName>Yoram</FirstName>
+      <LastName>Bresler</LastName>
+      <EmailAddress>ybresler@illinois.edu</EmailAddress>
+      <StartDate>07/07/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>4720</Code>
+      <Text>SIGNAL PROCESSING SYS PROGRAM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

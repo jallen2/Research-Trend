@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SI: Cooperative Computing for Distributed Embedded Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2006</AwardExpirationDate>
+    <AwardAmount>1518752</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gurudatta M. Parulkar</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of the proposed work is to develop an integrated computational-communication a chitecture&lt;br/&gt;for large scale netwo ks of embedded systems,called cooperative computin .Unlike distributed comput-&lt;br/&gt;ing,coope ative computing is pe formed ove a dynamic ad-hoc network with volatile nodes and connections,&lt;br/&gt;and expects statistically correct executions.E .ective esource management,in pa ticula power and energy&lt;br/&gt;management,will be c ucial since most devices in the netwo k will be mobile and will ely on batte y.The&lt;br/&gt;basic idea in coope ative computing is that nodes coope ate in pe forming a global task in an ad-hoc manne&lt;br/&gt;using thei local esou ces and state information to att act task 's computation o communication.Caching,&lt;br/&gt;routing,topology discove y,o any speci .c use -de .ned application,can be implemented as a global task&lt;br/&gt;over the cooperative computing model.&lt;br/&gt; To effectively cooperate,the nodes that are involved need to know the esources and constraints they face&lt;br/&gt;in successfully accomplishing the ta get task.In such a power and esource constrained environment,the&lt;br/&gt;coope ating nodes must intelligently make the best decisions to ensu e the quality of esult (QoR).&lt;br/&gt;With these goals in mind,the p oposed esea ch is to develop a system a chitectu e to support coope ative&lt;br/&gt;computing ove dynamic netwo ks of embedded systems.Our resea ch will address the following issues:&lt;br/&gt;How to de .ne a global task at the application and ope ating system levels?&lt;br/&gt;How to prog am very large networks of embedded systems to execute a global task without handling&lt;br/&gt;each node individually?&lt;br/&gt;How to implement self-outing using peer-to-peer communication only?&lt;br/&gt;How to measure a pa tially successful execution?&lt;br/&gt;How to predict the powe dissipation and energy consumption of individual nodes,and nodes cooper-&lt;br/&gt;ating ac oss the network?&lt;br/&gt;How to optimize a task to reduce its powe and ene gy budget running on individual nodes,and across&lt;br/&gt;nodes in network?&lt;br/&gt; The system a chitectu e for coope ative computing is based on Smart Messages (SM),which can be&lt;br/&gt;viewed as intelligent ca ie s of data in a netwo k.Sma t Messages a e collections of code and mobile data&lt;br/&gt;that migrate th ough the netwo k,a single network hop at a time,executing at each step.Smart Messages&lt;br/&gt;a e self-outing,namely they a e esponsible fo dete mining thei own paths th ough the netwo k,utilizing a&lt;br/&gt;minimal set of facilities p ovided by nodes in the netwo k.An SM may be denied a equest to oute th ough&lt;br/&gt;a node due to the node 's esou ce limitations,in pa ticula its emaining ene gy level.We conjectu e that&lt;br/&gt;Smart Messages p ovide a .exible support for a wide variety of applications,anging from data collection&lt;br/&gt;and dissemination,content-based outing and object t acking,to more t aditional dist ibuted computing&lt;br/&gt;applications in which execution of a task is sp ead across a collection of devices.&lt;br/&gt; As pa t of this p oposal we plan to implement and extensively evaluate seve al p ototype implementations&lt;br/&gt;of the Smart Message a chitectu e.Ou testbed will consist of networks of embedded multicontrollers and&lt;br/&gt;PDAs based on Bluetooth sho t-range wi eless communication.</AbstractNarration>
+    <MinAmdLetterDate>09/25/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/16/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0121416</AwardID>
+    <Investigator>
+      <FirstName>Liviu</FirstName>
+      <LastName>Iftode</LastName>
+      <EmailAddress>iftode@cs.rutgers.edu</EmailAddress>
+      <StartDate>09/25/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ulrich</FirstName>
+      <LastName>Kremer</LastName>
+      <EmailAddress>uli@cs.rutgers.edu</EmailAddress>
+      <StartDate>09/25/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Hsiao</LastName>
+      <EmailAddress>hsiao@vt.edu</EmailAddress>
+      <StartDate>09/25/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1687</Code>
+      <Text>ITR MEDIUM (GROUP) GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1656</Code>
+      <Text>LARGE SCALE NETWORKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1687</Code>
+      <Text>ITR MEDIUM (GROUP) GRANTS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

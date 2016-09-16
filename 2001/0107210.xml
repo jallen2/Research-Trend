@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Computational Methods for Most-Energetic Traveltimes of Seismic Waves</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>38590</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The work is concerned with the development of computational methods for the most-energetic traveltimes (METTs) of seismic waves and their applications to various physical problems. The METT corresponds to the highest energy level in data and has been recognized as one of most important components for image/inversion processes in highly heterogeneous media. However, METTs often develop discontinuities in wavefronts. Thus, computational principles that have been utilized for the computation of continuous first-arrival traveltimes can hardly be adopted. The upwind direction of the METT is determined by the energy level (amplitudes) of wavefronts and, therefore, the amplitude accuracy is very crucial for a successful METT simulation. Since the transport equation, which solves the amplitude, incorporates the traveltime Laplacian, the traveltime should be solved by a non-oscillatory high-order numerical algorithm which can provide a mechanism for an accurate traveltime Laplacian near the discontinuities. The investigator proposes the development of accurate and efficient algorithms for the METT and the corresponding amplitude in 3D heterogeneous media, incorporating second- and third-order ENO schemes and their local extensions for intersecting wavefronts near discontinuities. A full wavefield solver of negligible numerical dissipation is to be developed and implemented for a numerical verification of the conjecture: the METT can be computed in such a way that the corresponding amplitude is continuous over the whole domain. Applications are planned for the anisotropic METT and realistic geophysical problems such as tomography in oil exploration, earthquake analysis, and shallow seismic reflection. The proposed research subjects are vitally important to energy, economic, and environmental concerns. In particular, the theoretical understanding and numerical algorithms for the METT and the corresponding amplitude will open other promising research areas.&lt;br/&gt;&lt;br/&gt;For various applications of sound waves traveling through a substance, it is necessary to compute the traveltime of the sound waves. Since the acquired data are dominated by the highest energy levels of the waves, the most reliable results can be obtained by incorporating information from the most-energetic traveltime (METT). The proposal is concerned with the development of accurate and efficient computational algorithms for the METT and applications to important geophysical image processing problems. Image processing methods allow geoscientists to find interesting underground features. In oil exploration, for example, geophysicists first compute images of rock/soil structures and then detect the spots where oil reservoirs are. Thus the oil reservoir detection can be successful only with accurate and well-focused images, for which the newly developed algorithms provide the most useful information. The same arguments can be applied to the shallow sound wave reflection, the image processing techniques for the subsurface not deeper than 100 meters. These techniques have been developed for detailed images; examples can be found in waste-disposal site characterization, archaeological search, and ground security analysis. Many cracks and break-downs on buildings or roads are due to an ignorance or under-estimation of the importance of ground security analysis. The proposed work is also applicable to earthquake analysis. Since a horrible destruction happens with a close relation to the most-energetic components of the earthquake wave, the computation of the METT is necessary for a deeper understanding of the earthquake. The new algorithms are expected to provide an effective mechanism that helps geoscientists simulate seismic ground motion and helps geologists predict earthquake destruction areas, with high accuracy and efficiency. The above mentioned problems are vitally important to energy, economic, and environmental concerns and can be solved more reliably by the proposed work.</AbstractNarration>
+    <MinAmdLetterDate>08/30/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/30/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0107210</AwardID>
+    <Investigator>
+      <FirstName>Seongjai</FirstName>
+      <LastName>Kim</LastName>
+      <EmailAddress>skim@math.msstate.edu</EmailAddress>
+      <StartDate>08/30/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Kentucky Research Foundation</Name>
+      <CityName>Lexington</CityName>
+      <ZipCode>405260001</ZipCode>
+      <PhoneNumber>8592579420</PhoneNumber>
+      <StreetAddress>109 Kinkead Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Kentucky</StateName>
+      <StateCode>KY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

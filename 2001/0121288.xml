@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP+IM: Procedural Representation and Visualization Enabling Personalized Computational Fluid Dynamics</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2008</AwardExpirationDate>
+    <AwardAmount>3419155</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computer power has increased dramatically over the past decade and has allowed computational fluid dynamics (CFD) researchers to more accurately simulate many types of complex flow. These simulations have enabled great leaps forward in the design and safety of ships, airplanes, automobiles, and other vehicles. However, this new power has also yielded terabytes of data, and CFD researchers now face a very difficult task in trying to find, extract, and analyze important flow features (e.g., time varying vortices, shock waves) buried within these monstrous datasets. Unlike the explosive growth in computer power, visualization tools for very large datasets have evolved modestly and cannot yet help with these tasks significantly. In particular, since detailed visualization of such large datasets is impractical, CFD researchers must work at a very cumbersome, low level to dice their datasets into workable pieces.&lt;br/&gt;&lt;br/&gt;CFD researchers desperately need new techniques that simplify and automate the iterative process of finding the appropriate portion of their data set. They need a system that will allow the user to articulate appropriate types of features of interest, provide a compact representation of those features, and effectively visualize the feature information locally. The system will have to overcome the challenges of loading a sufficient portion of the data set over a network connection into a desktop machine, mapping the entire data set to a visual representation, and rendering the results at interactive rates.&lt;br/&gt;&lt;br/&gt;This project will attack these CFD visualization problems by developing techniques for creating and using a procedural abstraction for a dataset. The major research objectives are to:&lt;br/&gt;1. Detect features (e.g. shocks) in complex flows using topological operators.&lt;br/&gt;2. Characterize the data relative to these features using a procedural representation consisting of implicit models and free-form deformations.&lt;br/&gt;3. Adapt the procedural representation to the appropriate level of detail using multi-resolution techniques.&lt;br/&gt;4. Encapsulate domain-specific knowledge as metadata to explore these extremely large datasets.&lt;br/&gt;5. Visualize the data directly from the procedural representation.&lt;br/&gt;6. Verify the accuracy of the procedural representation by tracking approximation error.&lt;br/&gt;7. Apply these techniques to the large-scale computational flow simulation problems currently studied at Stanford and Mississippi State University. &lt;br/&gt;The resulting system will allow CFD researchers to work more effectively by interactively exploring their data to pinpoint the features of interest. Moreover, the results of this project will provide solutions not only for CFD researchers, but also for a wide variety of other visualization challenges and applications. The project's main goal is to develop techniques that allow visualization exploration, feature detection, extraction, and analysis at a higher, more effective level through the use of procedural data abstraction and representation.</AbstractNarration>
+    <MinAmdLetterDate>09/20/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0121288</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Hart</LastName>
+      <EmailAddress>jch@cs.uiuc.edu</EmailAddress>
+      <StartDate>09/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Ebert</LastName>
+      <EmailAddress>ebertd@ecn.purdue.edu</EmailAddress>
+      <StartDate>09/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Penny</FirstName>
+      <LastName>Rheingans</LastName>
+      <EmailAddress>rheingan@cs.umbc.edu</EmailAddress>
+      <StartDate>09/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Marcum</LastName>
+      <EmailAddress>marcum@erc.msstate.edu</EmailAddress>
+      <StartDate>09/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kelly</FirstName>
+      <LastName>Gaither</LastName>
+      <EmailAddress>kelly@tacc.utexas.edu</EmailAddress>
+      <StartDate>09/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

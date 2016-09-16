@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Development of Procedures to Analyze Queueing Models with Heavy-Tailed Interarrival and Service Times</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>299741</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Abhijit V. Deshmukh</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This study is concerned with developing procedures for modeling queues with heavy-tailed distributions for interarrival and/or service times. These type of probability distributions decay much slower than exponential. Distributions of this type render queueing analyses very difficult, in that the Laplace-Stieltjes transforms (LSTs) of interarrival and/or service times, which play such a crucial role in analytical queueing theory, often do not have closed form. Previous researchers, to get around this, have approximated these heavy-tailed distributions by families of exponentials. The approaches proposed herein avoid the problems and pitfalls of finding approximating distributions by using the actual heavy-tailed distributions themselves. One method approximates the LSTs needed to produce the output measures (waiting-time and system-size distributions) of interest by directly approximating the LSTs using a discretized version of the heavy tailed distribution itself (transform approximation method [TAM]). Another method avoids using the LST directly by solving an integral equation involving the complementary cdf of the heavy-tailed distribution (level crossing method [LC]). While discrete-event simulation is an alternative to analytical queueing analyses, this also has its limitations in that it usually can only produce mean measures of output performance. It also has difficulty simulating certain of the heavy-tailed distributions, especially with large coefficients of variation (standard deviation divided by mean). New procedures for discrete-event simulation involving quantile estimators are also proposed.&lt;br/&gt;&lt;br/&gt;The usual assumptions that made queueing analyses so productive (Poisson arrivals and exponential-type holding times) clearly do not hold when arrivals and holding times are heavy-tailed. These distributions are important, however, in modeling some important situations. The impact of this research can benefit a variety of areas where heavy-tailed distributions come into play, such as the analysis of extreme events in insurance claims and risk models and some Internet traffic situations. Developing analytic/numeric queueing theoretic procedures and better ways of simulating traffic congestion for general distributions (heavy-tailed as well as any other type) can provide very effective additional tools in the queueing modeler's arsenal.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/01/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0140232</AwardID>
+    <Investigator>
+      <FirstName>Donald</FirstName>
+      <LastName>Gross</LastName>
+      <EmailAddress>dgross1@gmu.edu</EmailAddress>
+      <StartDate>08/27/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Shortle</LastName>
+      <EmailAddress>jshortle@gmu.edu</EmailAddress>
+      <StartDate>08/27/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>George Mason University</Name>
+      <CityName>FAIRFAX</CityName>
+      <ZipCode>220304422</ZipCode>
+      <PhoneNumber>7039932295</PhoneNumber>
+      <StreetAddress>4400 UNIVERSITY DR</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0107000</Code>
+      <Name>Operations Research</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

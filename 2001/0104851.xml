@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Fault Tolerance in System Architectures Implementing the Compression, Transmission and Expansion of Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>200960</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Pratibha Varma-Nelson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Data compression techniques that are important in modern efficient communication and storage systems are implemented using computer system architectures with multiple processing elements. Computer failure errors reduce the reliability of many parts of the overall system because compression is achieved by&lt;br/&gt;reducing the residual redundancy common to all forms of data, particularly image representations. Also, the resulting formats are extremely sensitive to errors introduced by the communications or storage medium. This susceptibility to errors has long been known and most international data compression standards include resilience features designed to eliminate or mitigate channel error effects. Error control coding is employed&lt;br/&gt;in conveying the compressed data. However, there are quite different classes of errors emanating from failures in the computing resources that implement the compressing, transmitting and expanding of the data. The impact of such computational failures can be disastrous to critical data in remote-sensing or medical applications that depend on compressed data. Hence, fault tolerance capabilities need to be considered in system&lt;br/&gt;architectures realizing the compression systems.&lt;br/&gt;&lt;br/&gt;The proposed research will introduce fault tolerance design methods in data compression computing architectures so that temporary computer failures are detected, guaranteeing that no corrupted compressed data reaches the intended user without warning or appropriate action. The research will analyze the specialized effects of computer failure errors in supporting system parts and will provide design methodologies to integrate fault tolerance in standard data compression algorithms. Protection levels will&lt;br/&gt;be verified by computer simulations of the proposed architectural designs. The ultimate goal of this research is to influence optional features in data compression standards that insure fault tolerance capabilities for critical applications.&lt;br/&gt;&lt;br/&gt;Common aspects of various compression standards will be studied concerning computer failure errors. The work will begin with still image standards and later expand to those for video images where motion is involved. Fast transform algorithms, integral to many standards, are highly susceptible to even a single computational error, and special design techniques are required to avoid overwhelming any protection methods applied to them. Most compression standards rely on lossless coding techniques such as Huffman or&lt;br/&gt;arithmetic coding. The outputs from these coding steps contain very little redundancy from which failure errors can be detected. The prediction methods for compressing motion data have feedback paths that greatly exacerbate computer-induced errors, and fault tolerance design techniques will need to be developed especially for them. Any fault tolerance design procedures must also be integrated with the limited error control features and resilience capabilities already present for combating communication or storage&lt;br/&gt;errors, even though they address a totally different class of effects.</AbstractNarration>
+    <MinAmdLetterDate>09/17/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/26/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0104851</AwardID>
+    <Investigator>
+      <FirstName>G. Robert</FirstName>
+      <LastName>Redinbo</LastName>
+      <EmailAddress>redinbo@ece.ucdavis.edu</EmailAddress>
+      <StartDate>09/17/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

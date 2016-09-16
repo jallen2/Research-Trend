@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Exploiting the Critical Path in the Design and Performance Analysis of Modern Processors</AwardTitle>
+    <AwardEffectiveDate>07/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2006</AwardExpirationDate>
+    <AwardAmount>422507</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Timothy M. Pinkston</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>An undesired consequence of the growing parallelism of modern processors is that it is dramatically more difficult to separate the events that limit execution speed from the &gt;events whose latencies are tolerated. A method for focusing design effort is critical-path analysis. This research proposes to apply critical-path &lt;br/&gt;analysis at the micro-architectural level, with the goal of detecting and eliminating execution bottlenecks.&lt;br/&gt;This research will explore the potential of the critical path in four interrelated efforts: (1) Modeling the micro-architectural critical path. The main task is to define a model of the critical path, i.e., the set of events and dependences in a micro-execution that will be exposed in the dependence graph on which the critical path&lt;br/&gt;will be computed. (2) Efficient tracing of the critical path. This effort will develop an on-line algorithm that will use a last-arrival edge at each node to calculate the critical path in one pass in a simulator. (3) Hardware critical-path predictors. This research will explore the use of approximation methods in avoiding the analysis of the entire dependence graph. (4) Criticality-aware processor policies. This research will&lt;br/&gt;use hardware critical-path predictors to focus hardware policies on events likely to be on the critical path.</AbstractNarration>
+    <MinAmdLetterDate>07/02/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/17/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105721</AwardID>
+    <Investigator>
+      <FirstName>Rastislav</FirstName>
+      <LastName>Bodik</LastName>
+      <EmailAddress>bodik@uw.edu</EmailAddress>
+      <StartDate>07/02/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Hill</LastName>
+      <EmailAddress>markhill@cs.wisc.edu</EmailAddress>
+      <StartDate>07/02/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

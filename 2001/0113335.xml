@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SY: A High Performance Memory Manager for Multithreaded Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2002</AwardExpirationDate>
+    <AwardAmount>269922</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Yuan-Chieh Chow</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract:&lt;br/&gt;Recent advances in software engineering, such as graphical user interfaces&lt;br/&gt;and object-oriented programming, have caused applications to become more&lt;br/&gt;memory intensive. These applications tend to allocate dynamic memory&lt;br/&gt;prolifically. Moreover, automatic dynamic memory reclamation (garbage&lt;br/&gt;collection, GC) has become a popular feature in modern programming&lt;br/&gt;languages such as Java. As a result, the time consumed by dynamic storage&lt;br/&gt;management can be up to one-third of the program execution time. The&lt;br/&gt;Dynamic Memory Management Unit (DMMU), a special-purpose hardware&lt;br/&gt;mechanism based on bitmaps and combinational logic can greatly diminish&lt;br/&gt;this overhead. The preliminary results show that the hit ratio for 2&lt;br/&gt;Kbits and 8 Kbits buffer range from 84-99% and 95-99%, respectively. The&lt;br/&gt;hardware complexity of the proposed scheme is O(n), where n is the size of&lt;br/&gt;the bit-vector. For a design with 20K gates and 97% miss rate, the overall&lt;br/&gt;speedup can be as high as 1.41. This proposal calls for the integration of&lt;br/&gt;this hardware unit into SMP systems, which would allow concurrent garbage&lt;br/&gt;collection in multithreaded-multiprocessors environments. This can speed&lt;br/&gt;up the performance of server applications written in Object-oriented&lt;br/&gt;languages such as C++ and Java. Additionally, this proposal also calls&lt;br/&gt;for the study of garbage collection triggering points. The preliminary&lt;br/&gt;study indicates that time-based triggering point may yield higher garbage&lt;br/&gt;collection efficiency than the traditional space-based approach.</AbstractNarration>
+    <MinAmdLetterDate>08/02/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/02/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113335</AwardID>
+    <Investigator>
+      <FirstName>Morris</FirstName>
+      <LastName>Chang</LastName>
+      <EmailAddress>morris@iastate.edu</EmailAddress>
+      <StartDate>08/02/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Illinois Institute of Technology</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606163717</ZipCode>
+      <PhoneNumber>3125673035</PhoneNumber>
+      <StreetAddress>10 West 35th Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1658</Code>
+      <Text>SOFTWARE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

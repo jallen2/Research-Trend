@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>On the Analysis, Optimization, and Efficient Scalarization of Monolithic-Level Array Programs</AwardTitle>
+    <AwardEffectiveDate>07/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2003</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Xiaodong Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The research focuses on techniques, algorithms, and methodologies for the analysis and transformation of monolithic programs, which use operations on entire arrays. High-level monolithic analysis drives the mechanical optimization and efficient scalarization of such programs. Whereas optimization of monolithic code has previously focused primarily on expressions, this project investigates optimization over larger units of program granularity.&lt;br/&gt;&lt;br/&gt;The optimum elimination of unnecessary array partial results, with a particular focus on partial results assigned to a program variable may studied. A given array value assigned to a program variable may contain a permutation of the elements in some other array variable, and hence a compiler may be able to avoid materializing the given value. In contrast to minimizing materializations, there are situations where compiler introduced materializations, such as data rearrangement, or partial materializations, can significantly improve the efficiency of memory access at various levels of the memory hierarchy. Optimization techniques are studied both for avoiding materializations and for utilizing compiler introduced materializations.&lt;br/&gt;&lt;br/&gt;An intrinsic aspect of compiling monolithic code is scalarization. The use of monolithic analysis to obtain information that guides or drives scalarization, hopefully directly yielding optimized scalarized code.</AbstractNarration>
+    <MinAmdLetterDate>08/03/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/02/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105536</AwardID>
+    <Investigator>
+      <FirstName>Harry</FirstName>
+      <LastName>Hunt</LastName>
+      <EmailAddress>hbh@cs.albany.edu</EmailAddress>
+      <StartDate>08/03/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Lenore</FirstName>
+      <LastName>Mullin</LastName>
+      <EmailAddress>lenore@albany.edu</EmailAddress>
+      <StartDate>08/03/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Rosenkrantz</LastName>
+      <EmailAddress>djr@cs.albany.edu</EmailAddress>
+      <StartDate>08/03/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Albany</Name>
+      <CityName>Albany</CityName>
+      <ZipCode>122220100</ZipCode>
+      <PhoneNumber>5184374550</PhoneNumber>
+      <StreetAddress>1400 WASHINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

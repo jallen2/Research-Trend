@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: A Split Operating System Architecture for Servers with Memory-to-Memory Communication</AwardTitle>
+    <AwardEffectiveDate>07/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2007</AwardExpirationDate>
+    <AwardAmount>329002</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Du</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal aims to investigate the impact of the new I/O&lt;br/&gt;technologies on the operating system architecture of the network servers. &lt;br/&gt;The key ingredient of the proposed approach is the memory-to-memory &lt;br/&gt;intra-server interconnect which allows non-intrusive communication &lt;br/&gt;between hosts and intelligent devices. Memory-to-memory communication &lt;br/&gt;eliminates or significantly reduces the overhead typically associated with &lt;br/&gt;conventional communication protocols. This benefit has been extensively &lt;br/&gt;studied to improve the performance of distributed applications but has not &lt;br/&gt;been yet explored in support of the operating system performance. &lt;br/&gt;&lt;br/&gt;The research will focus on how to split the operating system functionality&lt;br/&gt;across a cluster of computing nodes and intelligent devices. Two novel &lt;br/&gt;operating mechanisms based on memory-to-memory communication will be &lt;br/&gt;explored: (i) direct application-to-device communication to offload the &lt;br/&gt;TCP/IP protocol processing to TCP servers executed on intelligent network &lt;br/&gt;interfaces or dedicated nodes, and (ii) direct communication between &lt;br/&gt;memory-mapped file servers and TCP servers. The research will also &lt;br/&gt;investigate how to use memory-to-memory communication to support cooperative &lt;br/&gt;file and network servers for availability and load-balancing.&lt;br/&gt;&lt;br/&gt;This research has been considerably motivated by the increasing interest&lt;br/&gt;in VIA, InfiniBand, and programmable device controllers. Its ultimate goal is &lt;br/&gt;to contribute to the understanding of how systems software should be designed&lt;br/&gt;to exploit and combine these new technologies.</AbstractNarration>
+    <MinAmdLetterDate>06/26/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/18/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0133366</AwardID>
+    <Investigator>
+      <FirstName>Liviu</FirstName>
+      <LastName>Iftode</LastName>
+      <EmailAddress>iftode@cs.rutgers.edu</EmailAddress>
+      <StartDate>06/26/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2876</Code>
+      <Text>DISTRIBUTED SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Efficient Fine Grained Synchronization Support Using Full/Empty Tagged Shared Memory and Cache Coherency</AwardTitle>
+    <AwardEffectiveDate>08/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2005</AwardExpirationDate>
+    <AwardAmount>225000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Timothy M. Pinkston</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Synchronization insures correctness of parallel execution by enforcing true data dependencies and timing constraints. In a parallel programming environment based on the shared-memory programming model, synchronization is provided either through explicit user-level coarse-grain synchronization primitives (such as locks and barriers) or implicitly synchronized data structures such as lock-able L-structures and write-once I-structures.&lt;br/&gt;&lt;br/&gt;In this project we propose a new efficient way to support fine grained synchronization mechanisms&lt;br/&gt;on multiprocessors. We propose to design a full/empty tagged memory hierarchy with aggressive hardware support for fine grained synchronization that is embedded in the cache coherency mechanism of an SMP or a NUMA multiprocessor, or a single-chip multiprocessor. We propose to handle synchronization faults in a similar way as cache misses in a lockup-free cache. We believe that handling synchronization and coherence together can provide a more efficient execution, reducing the occupancy in the memory controllers and the network bandwidth consumed by protocol messages. The performance benefits are primarily the result of allowing a dataflow style of computation in programming models, and maximizing the exposed parallelism by minimizing the possibility of false dependencies caused by coarse grained synchronization.</AbstractNarration>
+    <MinAmdLetterDate>08/02/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/02/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105516</AwardID>
+    <Investigator>
+      <FirstName>Csaba Andras</FirstName>
+      <LastName>Moritz</LastName>
+      <EmailAddress>andras@ecs.umass.edu</EmailAddress>
+      <StartDate>08/02/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>AMHERST</CityName>
+      <ZipCode>010039242</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>4715</Code>
+      <Text>COMPUTER SYSTEMS ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

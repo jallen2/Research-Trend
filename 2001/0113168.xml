@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP: Reconfigurable Computing for Real-Time Control Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>206935</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Lawrence S. Goldberg</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0113168&lt;br/&gt;Carletta&lt;br/&gt;&lt;br/&gt;The speed of data processing is often of critical importance in real-time control systems. The required complexity of the real-time computations increases with the complexity of the control system model and the sophistication of the control algorithm. In addition, the sampling interval (i.e., the length of time within which the computation must be completed) decreases as the control system bandwidth increases. Thus, a complex, high-performance control system may require high-speed computational hardware. Currently, digital control systems universally rely on general-purpose microprocessors or digital signal processing (DSP) chips to compute appropriate control inputs from available sensor data. In some applications, the limits of the control system performance are determined by the speed of the processor used.&lt;br/&gt;&lt;br/&gt;A possible alternative means of implementing a feedback control algorithm would use the field programmable gate array. Recent advances in field programmable gate array (FPGA) technology have completely changed the application area for these inexpensive, off-the-shelf, reconfigurable hardware devices. Once relegated to small "glue logic" applications, FPGAs are now capable of implementing complex very large scale integrated (VLSI) systems. Generally, FPGA implementations can now provide an order of magnitude faster execution time than microprocessor-based implementations, without incurring the high cost of fabrication and development required for application specific integrated circuits. As yet, the potential for&lt;br/&gt;improved control system performance that FPGAs may allow has not been exploited or explored.&lt;br/&gt;&lt;br/&gt;This proposal describes work aimed at starting collaborative, interdisciplinary research in hardware implementation for real-time controls. It seeks to investigate the role that reconfigurable computing can play in control systems. This work aims to exploit reconfigurable computing based on field programmable gate array (FPGA) technology to provide faster hardware, so that more sophisticated and higher bandwidth real-time control systems may be implemented. First, novel FPGA synthesis methods will be developed for the implementation of general adaptive FIR filters. Such filters are the central elements in digital control systems, and in many non-control applications as well. Adaptive filters are chosen so as to exploit the capacity for run-time reconfiguration of the FPGA hardware. Second, to demonstrate the new synthesis methods, the FPGAs will be used to implement a stabilizing feedback control on a magnetic-bearing test rig. Magnetic suspension is an important and interesting control application in its own right, and will provide a suitable benchmark for FPGA implementation. The new FPGA-based control will be compared with a standard DSP-based control to demonstrate the achievable performance gains. The project will train two graduate students, and is amenable to undergraduate participation. When fully developed, the FPGA-controlled magnetic suspension system will serve as the basis for undergraduate laboratory exercises in classes on control and digital design.</AbstractNarration>
+    <MinAmdLetterDate>08/15/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/03/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113168</AwardID>
+    <Investigator>
+      <FirstName>Joan</FirstName>
+      <LastName>Carletta</LastName>
+      <EmailAddress>carlett@uakron.edu</EmailAddress>
+      <StartDate>08/15/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Veillette</LastName>
+      <EmailAddress>veillette@uakron.edu</EmailAddress>
+      <StartDate>08/15/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Akron</Name>
+      <CityName>Akron</CityName>
+      <ZipCode>443250001</ZipCode>
+      <PhoneNumber>3309727666</PhoneNumber>
+      <StreetAddress>302 Buchtel Common</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1517</Code>
+      <Text>ELECT, PHOTONICS, &amp; MAG DEVICE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1660</Code>
+      <Text>ITR COMPETITION FOR UNDER $500K</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

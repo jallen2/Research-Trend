@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NGS: Wisconsin DOVE: Distributed Optimizing Virtual Environment</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>596740</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frederica Darema</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>EIA-0103670&lt;br/&gt;Rastislav Bodik&lt;br/&gt;University of Wisconsin&lt;br/&gt;&lt;br/&gt;NGS: Wisconsin DOVE: Distributed Optimizing Virtual Environment&lt;br/&gt;&lt;br/&gt;Wisconsin DOVE proposes to improve the performance of modern distributed and parallel applications as well as increase the productivity of application developers and system maintainers. Building on recent advances in distributed control, dynamic program optimization, and hardware-supported performance monitoring, our project will build a Distributed Optimizing Virtual Environment (DOVE) whose power will stem from two primary innovations.&lt;br/&gt;&lt;br/&gt;The VM-in-OS paradigm. Dove will implant into the operating system an optimizing virtual machine (VM), whose ability to analyze a running program and correlate the analysis with hardware-based performance monitoring will achieve vertical integration, spanning the application, the kernel, and the hardware. The VM-enabled operating system will be intimately aware of both the application above and the hardware and network below, and hence it will be able to schedule resources more intelligently and adaptively.&lt;br/&gt;&lt;br/&gt;A clan of optimizing virtual machines. Expecting that future distributed applications will be assembled from distributed components written in Java (or a similar mobile language), we propose to organize the VMs underlying the individual distributed components into a clan, in which the VMs exchange profiling and program-analysis information about their clients. By supporting "gossip" among the distributed VMs in a clan, we will be able to compute a run-time communication and dependence profile of the distributed application and, in response, perform a dynamic repartitioning of the application.</AbstractNarration>
+    <MinAmdLetterDate>09/14/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/06/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0103670</AwardID>
+    <Investigator>
+      <FirstName>Rastislav</FirstName>
+      <LastName>Bodik</LastName>
+      <EmailAddress>bodik@uw.edu</EmailAddress>
+      <StartDate>09/14/2001</StartDate>
+      <EndDate>05/06/2004</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mikko</FirstName>
+      <LastName>Lipasti</LastName>
+      <EmailAddress>mikko@engr.wisc.edu</EmailAddress>
+      <StartDate>09/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andrea</FirstName>
+      <LastName>Arpaci-Dusseau</LastName>
+      <EmailAddress>dusseau@cs.wisc.edu</EmailAddress>
+      <StartDate>09/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

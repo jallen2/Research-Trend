@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Towards Scalable Quality of Service Routing</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>142697</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050202</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>To support Quality of Service (QoS) in the Next Generation Internet, new algorithms are needed for many network components, including routing, scheduling and admission control. QoS routing, which identifies paths that have sufficient resources to satisfy the QoS requirement of a connection and selects a path for that connection, is one of the most important components for QoS provision. Although many QoS routing algorithms have been proposed, a number of theoretical and practical issues remain to be addressed to achieve efficient QoS routing in large scale networks, that is, scalable QoS routing. This research will attempt to address some of these issues. Specifically, we will focus on the following four areas.&lt;br/&gt;&lt;br/&gt;Networking state aggregation. For a large network, a common approach to achieve scalable routing is to reduce the size of global network state by aggregating information according to the hierarchical structure of the network. This approach has been adopted by the ATM private network-network interface (PNNI) standard. However, when multiple QoS metrics are involved, precisely aggregating information of a domain may not be feasible since it requires memory space that grows exponentially with respect to the size of the domain. In this research, we will design various topology aggregation schemes, study the trade-offs of the schemes between the amount of space needed and the effectiveness in summarizing the domain information, investigate the QoS routing performance with different topology aggregation schemes, and determine the topology aggregation schemes that are effective in practice for QoS routing with multiple QoS metrics. &lt;br/&gt;&lt;br/&gt;Handling random imprecision of the global network state information. In large scale networks, maintaining precise global state information requires link states to be distributed frequently, which results in large protocol overheads along multiple dimensions including bandwidth, storage, update processing, and the associated context switching. To control the protocol overhead, the link state update frequency may be reduced, which results in the imprecise global state information. The imprecision caused by the infrequent link state updates is random in the sense that a router cannot estimate the accurate global network state. Thus, a practical QoS routing algorithm must be able to perform effective routing using the imprecise global network state information. In this research, we propose a novel routing scheme that performs effective routing in the presence of imprecise global state information. Our scheme is different from the existing methods in that it combines static and dynamic routing and adapts the routing schemes based on network status. We will compare our scheme with the existing methods in terms of routing performance and protocol overheads and identify the strengths and weaknesses of each method through extensive simulations. &lt;br/&gt;&lt;br/&gt;Interaction between resource reservation and QoS routing. Most current QoS routing algorithms assume a separate protocol to perform resource reservation. However, in the future large scale high speed networks, it is desirable to combine resource reservation with QoS routing. Combing resource reservation with QoS routing may have negative impacts on the routing performance, especially for large networks. This research will try to understand the impact of resource reservation on various QoS routing schemes and develop techniques to achieve effective routing in the presence of resource reservation traffic.&lt;br/&gt;&lt;br/&gt;Multi-constrained QoS routing and generic QoS routing algorithms. Multi-constrained QoS routing finds a path that satisfies multiple independent QoS constraints. This problem is NP-hard. However, distributed applications such as the Internet phone and distributed games have very diverse QoS requirements on delay, cost, delay jitter, loss ratio, bandwidth, etc. To support such applications, practical multi-constrained QoS routing algorithms must be developed. Furthermore, due to the complexity of multi-constrained QoS routing, existing QoS routing algorithms are very restrictive on the type and the number of QoS constraints, which implies that different QoS routing algorithms will be needed for different applications. In the future networks, it is desirable to use a generic QoS routing algorithm that can efficiently handle different QoS requirements. In this research, we will study the heuristic algorithms that solve the multi-constrained routing problem effectively in practice and develop a generic algorithm that performs well regardless of the number and the types of QoS requirements.&lt;br/&gt;&lt;br/&gt;We plan to evaluate our techniques by implementing the proposed techniques in Qbone and to validate the techniques through implementation and experimentation in the real network. We believe that by developing effective mechanisms to address these four issues, we will be able to integrate the mechanisms and develop efficient scalable QoS routing schemes for the future large scale high speed networks.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/18/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0106706</AwardID>
+    <Investigator>
+      <FirstName>Xin</FirstName>
+      <LastName>Yuan</LastName>
+      <EmailAddress>xyuan@cs.fsu.edu</EmailAddress>
+      <StartDate>09/18/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Florida State University</Name>
+      <CityName>TALLAHASSEE</CityName>
+      <ZipCode>323064166</ZipCode>
+      <PhoneNumber>8506445260</PhoneNumber>
+      <StreetAddress>874 Traditions Way, 3rd Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

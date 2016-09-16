@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: Static Timing of Interrupt-Driven Software</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2003</AwardExpirationDate>
+    <AwardAmount>447900</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>ABSTRACT&lt;br/&gt;Proposal #01122628&lt;br/&gt;Purdue Research &lt;br/&gt;Palsberg,Jens&lt;br/&gt;&lt;br/&gt;Static Timing of Interrupt-driven Software&lt;br/&gt;&lt;br/&gt;Real-time, reactive and embedded systems are widely and increasingly used throughout society (e.g., flight control, railway signaling, vehicle management systems, medical devices). This trend is likely to continue, as applications that would have been unthinkable only a few short years ago come into the reach of ever more complex processors. Many such applications are long lived, interact with their environment continuously, and are under important real-time constraints. As these reactive systems permeate our lives, bringing us everything from intelligent pace-makers to tiny freshness-tracking devices in groceries, the need for cost-effective, confidence-inspiring software validation techniques grows proportionately. This project focuses on building new tools for checking a common class of reactive real-time systems known as interrupt-driven systems. This proposed research has four facets that complement and support each other. The first continues our preliminary work on analyzing seven commercial microcontrollers to identify a static timing analysis that is sufficiently precise for a single interrupt handler. Second, ways of specifying and checking timing properties for multiple interrupt handlers are being investigated. Third, a typed assembly language is being developed with time bounds in which timing properties can be specified in a modular way, one handler at a time. Fourth, a timed interrupt-handler calculus is being designed that will embody our results in a language-independent way and make it tractable to prove key properties. The new tools will automatically derive a model of the software by static analysis and type checking, and submit the result to a model checker. The tools can lead to significantly reduced testing requirements, and provide support for maintenance throughout the system&lt;br/&gt;life-cycle.</AbstractNarration>
+    <MinAmdLetterDate>07/23/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/12/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0112628</AwardID>
+    <Investigator>
+      <FirstName>Jens</FirstName>
+      <LastName>Palsberg</LastName>
+      <EmailAddress>palsberg@ucla.edu</EmailAddress>
+      <StartDate>07/23/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1667</Code>
+      <Text>HIGH CONFIDENCE SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

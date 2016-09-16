@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Improving System Functionality using Monitoring Processors</AwardTitle>
+    <AwardEffectiveDate>08/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2005</AwardExpirationDate>
+    <AwardAmount>380403</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>ABSTRACT&lt;br/&gt;Proposal #0113418&lt;br/&gt;U of Cal Davis&lt;br/&gt;Farrens, Matthew&lt;br/&gt;&lt;br/&gt;Microprocessors now rival supercomputers in raw processing power, thanks to increases in transistor densities and architectural advances such as the exploitation of parallelism. However, the bandwidth and latency of memory systems is so limited that increasing performance in the microprocessor often leads to little overall system improvement.&lt;br/&gt;&lt;br/&gt;At the same time that this is occurring, software costs are burgeoning. This research explores using some of the increasing silicon real estate to provide extra functionality. The approach is to dedicate a portion of these new transistors to provide programmable monitoring hardware to enhance software development, make debugging more efficient, increase reliability and provide run-time security. Additional applications may be found in monitoring run-time guarantees and invariants for embedded systems.&lt;br/&gt;&lt;br/&gt;Taking a specific example, this approach can address pointer-related defects occurring in software which render systems unreliable and vulnerable to hackers. A simple, auxiliary co-processor monitors address references from a compute processor via a loose coupling (e.g. via the L1 cache coherence bus). This loose coupling reduces design complexity and avoids the need for any core CPU redesign and allows this approach to be readily added to existing designs. Furthermore, the approach is complementary to static compiler analysis techniques and the research extends conventional analysis to exploit efficient run-time monitoring capabilities.</AbstractNarration>
+    <MinAmdLetterDate>08/02/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/21/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113418</AwardID>
+    <Investigator>
+      <FirstName>Matthew</FirstName>
+      <LastName>Farrens</LastName>
+      <EmailAddress>farrens@cs.ucdavis.edu</EmailAddress>
+      <StartDate>08/02/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Premkumar</FirstName>
+      <LastName>Devanbu</LastName>
+      <EmailAddress>devanbu@cs.ucdavis.edu</EmailAddress>
+      <StartDate>08/02/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Frederic</FirstName>
+      <LastName>Chong</LastName>
+      <EmailAddress>chong@cs.uchicago.edu</EmailAddress>
+      <StartDate>08/02/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

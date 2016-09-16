@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Mixed Integer Programming for Radiotherapy Optimization</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>349999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0120145&lt;br/&gt;Langer&lt;br/&gt;&lt;br/&gt;There are approximately 1.2 million new cases of cancer each year in the US and about half undergo treatment with radiation therapy. External beam treatment directs a collection of high energy beams from outside the patient's body towards the tumor. Using the widespread method of conformal radiotherapy, beams are positioned at multiple angles, each shaped to match the tumor. The newest technique, intensity modulated radiotherapy (IMRT), breaks down whole beams into finer beamlets, each of which can, in effect, be assigned a separate intensity. The radiation therapy planning problem is to choose a set of beams/beamlets and assign intensities to them to push tumor dose as high as the tolerances of nearby healthy tissue will allow. Even small increments in tumor dose consistent with tolerance constraints can improve thousands of lives per year. The objective of the proposed research is to develop computational methods tailored to radiation therapy that can compute feasible plans provably within a specified percent of the best possible within the 24-48 hours available for treatment planning.&lt;br/&gt;&lt;br/&gt;To determine volume distributions of dose, oncologists typically model the irregular geometry of tissue structures as the union of a large number of embedded discrete points. Given that the dose delivered to a point can be approximated as linear in the beam intensities, the task of treatment planning optimization can be modeled as mixed-integer program (MIP) with variables corresponding to those intensities, and constraints limiting the dose at each of the tissue points. Dose-volume constraints, which require a specified fraction of each normal organ volume receive a dose below its threshold for damage, are enforced by collecting point constraints for each tissue in a multiple-choice group with alternatives delineated with binary variables.&lt;br/&gt;&lt;br/&gt;The research will develop and test two contributions to generic MIP methodology in order to enable computationally efficient solutions to be be found for the radiotherapy planning problem. The aim is to provide solutions that satisfy prescribed constraints with an objective value that lies within a provable bound around the optimum. The first of these will strengthen LP relaxations of MIP formulations for the multiple-choice (dose--volume) constraints by constructing and adding new valid inequalities. The second will adapt a column-generation approach to deal with the massive IMRT formulations. Instead of modeling the intensity of each beamlet within an IMRT beam, whole patterns of beamlet intensities will be represented as single columns and generated as required.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/04/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0120145</AwardID>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Langer</LastName>
+      <EmailAddress>mlanger@iupui.edu</EmailAddress>
+      <StartDate>09/04/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0112000</Code>
+      <Name>System Theory</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

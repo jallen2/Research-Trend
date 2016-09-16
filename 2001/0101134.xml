@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Constraint Databases: Optimization Techniques and Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>460000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gia-Loi Le Gruenwald</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Constraint databases integrate database and constraint technologies for spatio-temporal database applications including GIS and moving objects. Constraint data models emphasize logical properties while hiding physical representations; they enable general purpose data management capabilities. The project investigates constraint databases in three aspects: algorithms, applications, and foundations. In algorithms, it aims at optimization techniques for constraint database queries. Joins with the intersection predicate are known as spatial joins. Traditional algorithms use heuristics, indexes, and computational geometry techniques to evaluate the join on minimum bounding rectangles of objects as a filter. Recent algorithms allow better approximations for filter, or even perform a direct join on objects. A focus of this project is to study and compare performance of such new algorithms and develop further improvements and models for predicting filter effectiveness in terms of dataset properties and approximations. Moreover, the techniques for intersection join are extended for joins with other topological (e.g., containment, meet), distance, and direction predicates, and to multiway spatial joins. More fundamentally, optimization issues are often related to decision problems of logical properties such as containment, equivalence, and disjointness of transactions (queries/updates). Abstract machines are a recently developed tool for studying such problems. Transactions are often designed in advance with parameters instantiated at runtime. The abstract machine techniques are extended for studying logical properties of parameterized transactions and related computational complexity issues. In applications aspect, the project uses the constraint approach to develop data models and query languages for moving object databases and study query optimization Constraint databases integrate database and constraint technologies for spatio-temporal database applications including GIS and moving objects. Constraint data models emphasize logical properties while hiding physical representations; they enable general purpose data management capabilities. The project investigates constraint databases in three aspects: algorithms, applications, and foundations. In algorithms, it aims at optimization techniques for constraint database queries. Joins with the intersection predicate are known as spatial joins. Traditional algorithms use heuristics, indexes, and computational geometry techniques to evaluate the join on minimum bounding rectangles of objects as a filter. Recent algorithms allow better approximations for filter, or even perform a direct join on objects. A focus of this project is to compare and characterize performance of such new algorithms and develop further improvements and models for predicting filter effectiveness in terms of dataset properties and approximations. Moreover, the techniques for intersection join are extended for joins with other topological (e.g., containment, meet), distance, and direction predicates, and to multiway spatial joins. More fundamentally, optimization issues are often related to decision problems of logical properties such as containment, equivalence, and disjointness of transactions (queries/updates). Abstract machines (in automata theory) have been found to be a very useful tool for studying such problems. Transactions are often designed in advance with parameters instantiated at runtime. The project intends to extend these automata-theoretic techniques for studying logical properties of parameterized transactions and related computational complexity issues. In applications aspect, the project applies the constraint approach to develop data models and query languages for moving object databases. The goal is to provide a conceptual framework and optimization techniques for managing and querying moving objects.</AbstractNarration>
+    <MinAmdLetterDate>09/10/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/18/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0101134</AwardID>
+    <Investigator>
+      <FirstName>Oscar</FirstName>
+      <LastName>Ibarra</LastName>
+      <EmailAddress>ibarra@cs.ucsb.edu</EmailAddress>
+      <StartDate>09/10/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jianwen</FirstName>
+      <LastName>Su</LastName>
+      <EmailAddress>su@cs.ucsb.edu</EmailAddress>
+      <StartDate>09/10/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Barbara</Name>
+      <CityName>SANTA BARBARA</CityName>
+      <ZipCode>931062050</ZipCode>
+      <PhoneNumber>8058934188</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0104000</Code>
+      <Name>Information Systems</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

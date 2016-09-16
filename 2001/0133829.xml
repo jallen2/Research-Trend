@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Flexible, Large-Scale Best-Effort Quality of Service in the Internet</AwardTitle>
+    <AwardEffectiveDate>07/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2007</AwardExpirationDate>
+    <AwardAmount>511999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>For the majority of its users, the Internet remains a best-effort network and provides no direct means for&lt;br/&gt;meeting specific network Quality of Service (QoS) requirements of applications, such as fixed bandwidth&lt;br/&gt;rates or bounds on propagation delay and loss rates. Most previous work that addressed improving QoS&lt;br/&gt;capabilities of networks focused on mechanisms and techniques that require a combination of resource&lt;br/&gt;reservation, admission control, and wide-scale modifications to the network and transport layers of the&lt;br/&gt;protocol stack. These mechanisms and techniques are difficult to deploy in practice because a) they require&lt;br/&gt;changes and new standards within already operational lower layers of the protocol stack and b) they restrict&lt;br/&gt;competing sessions' access to basic network resources.&lt;br/&gt; Recently, as an alternative, researchers and network practitioners have utilized distributed mechanisms&lt;br/&gt;implemented within the network's application layer to compensate for the QoS limitations of the underly-ing&lt;br/&gt;best-effort network infrastructure. These mechanisms provide services such as alternate path routing,&lt;br/&gt;network-internal transcoding of data, content replication and caching that improve session quality. Communication of both data and state information between the network points that implement these distributed mechanisms is performed upon network overlays: virtual networks that directly connect these points to one another by tunneling transmissions across the underlying network.&lt;br/&gt; The research described in this proposal develops and analyzes a Best-Effort QoS service for the wide-area&lt;br/&gt;Internet. This service automates the procedure used by applications to draw upon these distributed&lt;br/&gt;application layer mechanisms to improve the perceived quality and capabilities of the network. An application initiates the service by placing a specific QoS request at a network endpoint. A best effort is then made by the service to locate and instantiate the necessary distributed mechanisms to meet the QoS requirement. The service is best effort in that there is no reservation or admission control phase that restricts or denies other sessions' access to network resources. Hence, there is no guarantee that the QoS requirement will be met, nor is there a guarantee that once met, the requirement will be satisfied for the remainder of the session. The only guarantee is that as long as application layer resources can be located and effectively applied to meet the requirement, then the service will do so.&lt;br/&gt; The work in this proposal will evaluate this service in three broad areas: (i) techniques for locating&lt;br/&gt;available application layer resources, (ii) coordinated selection of these resources, and (iii) controlling how&lt;br/&gt;competing applications share these resources. Our evaluation is performed mainly via mathematical analysis&lt;br/&gt;and simulation upon a generic service. However, we also demonstrate the practicality of the service by&lt;br/&gt;extending the analysis to two specific applications as well as developing and using a testbed for experimental&lt;br/&gt;purposes.&lt;br/&gt; The researcher's teaching efforts focus on the intertwining of analytical and experimental aspects of networking research. To this end, he proposes to develop courses in networking that (i) teach fundamental approaches to modeling and performance evaluation of networking systems, (ii) develop a wide-area classroom laboratory atop the Internet2 that can be used by students across the world to implement wide-area experiments, and (iii) teach students how to integrate experimental and theoretical approaches to networking issues.</AbstractNarration>
+    <MinAmdLetterDate>02/28/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0133829</AwardID>
+    <Investigator>
+      <FirstName>Dan</FirstName>
+      <LastName>Rubenstein</LastName>
+      <EmailAddress>danr@cs.columbia.edu</EmailAddress>
+      <StartDate>02/28/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Critical Path Computing</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Pratibha Varma-Nelson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Critical path prediction is a processor architecture technique that uses &lt;br/&gt;the past behavior of instructions in the instruction stream to predict which&lt;br/&gt;fetched instructions will be on the critical path; that is, which &lt;br/&gt;instructions will have a significant impact on processor performance, and &lt;br/&gt;which will not. This information can then be used to guide the selective &lt;br/&gt;application of a variety of processor optimizations.&lt;br/&gt;&lt;br/&gt;Modern processors remove most artificial constraints on execution&lt;br/&gt;throughput. Therefore, the bottleneck for many workloads on current &lt;br/&gt;processors is the true dependences in the code. Chains of dependent &lt;br/&gt;instructions constrain the overall throughput of the machine, often leaving &lt;br/&gt;aggressive processor technology highly underutilized. These chains of &lt;br/&gt;dependent instructions constitute the critical performance path, or &lt;br/&gt;critical path (CP), though the code.&lt;br/&gt;&lt;br/&gt;The performance of the processor is thus determined by the speed at&lt;br/&gt;which it executes the instructions along this critical path. In our&lt;br/&gt;efforts to get the maximum performance from the processor, it is no&lt;br/&gt;longer reasonable to treat all instructions the same. If we can know&lt;br/&gt;which instructions are critical to performance, we can accelerate&lt;br/&gt;their execution, possibly at the expense of instructions not on the&lt;br/&gt;critical path.&lt;br/&gt;&lt;br/&gt;This research will attempt to identify these critical instructions&lt;br/&gt;dynamically in hardware. We call this critical path prediction. This &lt;br/&gt;prediction is based on the behavior of previous invocations of the &lt;br/&gt;instruction in the pipeline. This prediction will enable the processor to &lt;br/&gt;make better decisions about where to apply certain policies and &lt;br/&gt;optimizations. A variety of critical path predictors will be examined.&lt;br/&gt;&lt;br/&gt;In many cases, critical path prediction will enable more effective &lt;br/&gt;application of other resources or optimizations. Possible applications of &lt;br/&gt;critical path prediction include guiding value prediction, instruction &lt;br/&gt;reuse, instruction issue priority, instruction scheduling on a clustered &lt;br/&gt;architecture, speculation control on a power-constrained processor, &lt;br/&gt;arbitration between instructions or threads on a multithreaded &lt;br/&gt;architecture, or to guide the spawning of speculative threads in a &lt;br/&gt;speculative multithreaded processor.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105743</AwardID>
+    <Investigator>
+      <FirstName>Dean</FirstName>
+      <LastName>Tullsen</LastName>
+      <EmailAddress>tullsen@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Bradley</FirstName>
+      <LastName>Calder</LastName>
+      <EmailAddress>calder@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930934</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

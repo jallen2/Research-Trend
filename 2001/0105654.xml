@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Multiple Description Coding with Correlating Transforms for Multiple Antenna Wireless Systems</AwardTitle>
+    <AwardEffectiveDate>06/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2002</AwardExpirationDate>
+    <AwardAmount>833578</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010800</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>An effective way of providing error resilience for multimedia transmission in a&lt;br/&gt;communication system with a relatively small reduction in efficiency is multiple&lt;br/&gt;description coding (MDC), which assumes the existence of multiple independent&lt;br/&gt;channels between the transmitter and receiver, each of which can be temporarily&lt;br/&gt;down or can experience burst errors. With MDC several coded streams, called&lt;br/&gt;descriptions, are generated and transmitted over different channels. At the&lt;br/&gt;destination, if all of the streams are received error free, than the signal can&lt;br/&gt;be reconstructed at its highest level of fidelity. However, if only one or a few&lt;br/&gt;descriptions are received in a usable form, the receiver can still reconstruct&lt;br/&gt;an acceptable signal. All multiple description coding methods to date assume an&lt;br/&gt;on-off channel model between the transmitter and the receiver; each link is&lt;br/&gt;either broken, in which case the transmitted symbols, or packets, are lost&lt;br/&gt;completely, or it functions properly, in which case the packets are received&lt;br/&gt;free of errors. This model is appropriate for Internet transmission, but it is&lt;br/&gt;not appropriate for wireless channels.&lt;br/&gt;&lt;br/&gt;This study replaces the parallel independent on-off channel model with a&lt;br/&gt;wireless channel model, such as a Rayleigh fading model. Communication is&lt;br/&gt;performed using multiple transmit and receive antennas over the channel. With&lt;br/&gt;these models the signal at any of the receive antennas is the superposition of&lt;br/&gt;the transmitted signals from each transmit antenna independently faded.&lt;br/&gt;Therefore, even if the descriptions at the receiver side are completely&lt;br/&gt;independent, the received signal at each antenna will include some information&lt;br/&gt;from each description. This research involves finding the best multiple&lt;br/&gt;description coding strategy for these channels, the theoretical limits of such a&lt;br/&gt;scheme, and the efficiency with which it can be implemented.</AbstractNarration>
+    <MinAmdLetterDate>05/07/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/20/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105654</AwardID>
+    <Investigator>
+      <FirstName>Russell</FirstName>
+      <LastName>Mersereau</LastName>
+      <EmailAddress>rmm@ece.gatech.edu</EmailAddress>
+      <StartDate>05/07/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yucel</FirstName>
+      <LastName>Altunbasak</LastName>
+      <EmailAddress>yucel@ece.gatech.edu</EmailAddress>
+      <StartDate>05/07/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>4720</Code>
+      <Text>SIGNAL PROCESSING SYS PROGRAM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

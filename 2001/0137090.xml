@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Integrating Actor Model with Real-Time Elastic Control Theory</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2003</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>S. Kamal Abdali</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The rapid advancement of networking technologies and increasing use of embedded devices has extended the scope of traditional computational systems to include intelligent control of physical environments. There are many challenges in such embedded hybrid control systems. Traditionally, the programming language community focused on modeling and reasoning about the semantics of interactions between distributed agents, while the real-time computing community focused on how to manage CPU and network communication resources so that real-time tasks can predictably meet their end-to-end timing constraints. &lt;br/&gt;&lt;br/&gt;This proposed effort integrates the Actor theory with the theory of real-time elastic control. Real time elastic control theory is an innovative approach that integrates the design of a feedback controller with the design of a real-time scheduler. Traditionally, feedback control is a prototypical example of hard real-time applications. This work allows the controller to adapt to unpredictable surges in workload by slowing down its sampling frequencies and adjusting its gains. Such workload surges are unschedulable without the controller adaptation. The word "elastic" refers to the dynamic changes of controller deadlines to improve the management of available computing resources. This work broke the barrier between real-time scheduling theory and feedback control theory. By integrating this theory with Actor model, the barriers between programming language and concurrency control theory, real-time scheduling theory, and feedback control theory will be broken. In addition to the usual qualitative properties (such as eventuality) handled by current formalisms for distributed systems, this work will lay the foundation for a unified framework that will allow users to reason about quantitative properties including whether the timing requirements can be met and the physical system under control is stable.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0137090</AwardID>
+    <Investigator>
+      <FirstName>Gul</FirstName>
+      <LastName>Agha</LastName>
+      <EmailAddress>agha@illinois.edu</EmailAddress>
+      <StartDate>09/12/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Lui</FirstName>
+      <LastName>Sha</LastName>
+      <EmailAddress>lrs@cs.uiuc.edu</EmailAddress>
+      <StartDate>09/12/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1658</Code>
+      <Text>SOFTWARE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1667</Code>
+      <Text>HIGH CONFIDENCE SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9237</Code>
+      <Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

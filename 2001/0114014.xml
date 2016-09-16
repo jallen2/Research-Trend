@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SI - A Networking Protocol for Underwater Acoustic Networks</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>311562</AwardAmount>
+    <AwardInstrument>
+      <Value>Interagency Agreement</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Wu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>We propose development of a network layer protocol necessary to increase the utility of acoustic&lt;br/&gt;communications in the shallow water environment. Increasing attention has been given to collecting data&lt;br/&gt;from difficult to access coastal waters for diverse activities, to include scientific research, industrial and&lt;br/&gt;commercial concerns, and military applications. The preponderance of activity has focused on&lt;br/&gt;developing reliable methods for transmitting the information collected through the difficult time-varying&lt;br/&gt;shallow water medium. However, current network layer protocols, which are responsible for determining&lt;br/&gt;traffic routing, do not provide for guaranteed quality of services. Current protocols also may cause&lt;br/&gt;unnecessary message delays.&lt;br/&gt;The delivery of traffic in an acoustic network is complicated by the excessive propagation delays&lt;br/&gt;resulting from the speed of sound in water. The effect of this propagation speed is to cause an acoustic&lt;br/&gt;network connected by short hops to perform similar to a wire-based network with links between&lt;br/&gt;neighboring nodes of over 100,000 kilometers. However, the potential benefits and increased potential&lt;br/&gt;for application developments that stem from the implementation of wireless underwater networks make it&lt;br/&gt;worthwhile to explore means of mitigating the effects of the propagation delays.&lt;br/&gt;Central to the problem of route determination for network traffic is the discovery of the networks&lt;br/&gt;topology from which network nodes extract next-hop information upon which to base traffic forwarding&lt;br/&gt;decisions. Two principal methods are used for discovering the route information. Proactive routing&lt;br/&gt;methods pre-compute route data before network traffic is generated, thus when traffic is submitted by&lt;br/&gt;network applications the appropriate routes are already known. Reactive routing determines the route&lt;br/&gt;information in response to traffic submissions. This method, referred to as on-demand routing, seeks to&lt;br/&gt;minimize route discovery traffic by only determining routes necessary to support actual traffic patterns.&lt;br/&gt;This routing information is cached to increase responsiveness to submitted traffic and adaptability to&lt;br/&gt;topology changes. Both methods have their merits; however, neither adequately supports resource&lt;br/&gt;allocations necessary to assure guaranteed levels of service quality.&lt;br/&gt;We proposed a novel network protocol that provides many of the benefits of proactive routing yet&lt;br/&gt;retains the adaptability of reactive protocols. Our protocol is based upon a central master node which&lt;br/&gt;periodically probes the network for active participant nodes. In responding to the probes, the nodes&lt;br/&gt;provide the master node with sufficient information for the master node to determine all possible data&lt;br/&gt;paths through the network. From this information the master node makes all routing decisions for the&lt;br/&gt;network and provides irnext-hoply information to each non-master node, thus reducing the workload on&lt;br/&gt;non-master nodes. This information also enables the master node to optimize the allocation of traffic to&lt;br/&gt;network paths providing for active management of delays insuring delay variance and data capacity are&lt;br/&gt;within the established quality of service commitments.&lt;br/&gt;Fundamental to this approach is the separation of control traffic from data delivery. This separation&lt;br/&gt;allows data to be transmitted without first having to wait for traditional handshake mechanisms to provide&lt;br/&gt;access to the channel. This separation significantly reduces the expected delay to which traffic is&lt;br/&gt;subjected resulting in potentially higher data throughput.&lt;br/&gt;Progress in network layer protocols will expand the usefulness of underwater acoustic networks&lt;br/&gt;beyond applications that are limited to very low data rate traffic and non-time sensitive data types.&lt;br/&gt;Specific beneficiaries of this research activity include the Deployable Autonomous Distributed System,&lt;br/&gt;the SeaWeb Technology Demonstrations, the Autonomous Oceanographic Sampling Network, and the&lt;br/&gt;National Oceanographic partnership Programs Front Resolving Observational Network with Telemetry&lt;br/&gt;(FRONT) project.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/16/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0114014</AwardID>
+    <Investigator>
+      <FirstName>Geoffrey</FirstName>
+      <LastName>Xie</LastName>
+      <EmailAddress>xie@nps.edu</EmailAddress>
+      <StartDate>09/12/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Naval Postgraduate School</Name>
+      <CityName>Monterey</CityName>
+      <ZipCode>939435000</ZipCode>
+      <PhoneNumber>8316562271</PhoneNumber>
+      <StreetAddress>1 University Circle</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

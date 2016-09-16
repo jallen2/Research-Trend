@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SI(CISE):Optimal and Robust TCP Congestion Control</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>455757</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gurudatta M. Parulkar</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Internet is undergoing an overhaul unprecedented in size, diversity, and reach, with profound im-&lt;br/&gt;pact in all aspects of our scientific, social, economic and political life through the integration of&lt;br/&gt;networks of communication, transportation, entertainment, utilities, and finance. The stability&lt;br/&gt;and robustness of this vital infrastructure demands a rigorous theory to understand the current&lt;br/&gt;protocols and evolve them to meet emerging challenges. We propose to develop such a theory for&lt;br/&gt;TCP congestion control, and use it to drastically improve the stability, robustness and optimality&lt;br/&gt;of the current protocols.&lt;br/&gt;A key insight is to view congestion control as a distributed asynchronous computation to maxi-&lt;br/&gt;mize aggregate source utility over the Internet; different TCP and active queue management (AQM)&lt;br/&gt;schemes correspond to different utility functions and different algorithms to maximize them.&lt;br/&gt;Our research hastwo components. First, we will develop a new theoretical model of TCP&lt;br/&gt;congestion control based on duality in optimization and multivariate robust control. The theory will&lt;br/&gt;clarify the role of source algorithms, such as Tahoe, Reno and Vegas, and active queue management,&lt;br/&gt;such as DropTail, RED and REM, in the control of networks and establish performance limits of&lt;br/&gt;the current protocols; it will explain the effect on stability when delay, topology, capacity, and load&lt;br/&gt;scale up; and it will provide conditions under which the feedback stability ofTCP/AQM algorithms&lt;br/&gt;are invariant to these effects. Indeed, such a theory is already emerging from our recent works.&lt;br/&gt;Even in its currently preliminary stage, it already provides a fundamental understanding on some&lt;br/&gt;widely observed performance and fairness behavior of the current protocols, and uncovers new and&lt;br/&gt;surprising stability problems. For example, it shows that the current protocols become unstable and&lt;br/&gt;exhibit bifurcation when network capacity increases. Moreover, maintaining stability as capacity&lt;br/&gt;scales up arbitrarily imposes severe constraints on how sources adjust their rates (TCP) and what&lt;br/&gt;congestion information is fed back (AQM). The current protocol does not satisfy the condition&lt;br/&gt;for such stability invariance, and hence may be ill suited for future networks where, pulled by&lt;br/&gt;application demand and pushed by technological advances, the capacity will be large.&lt;br/&gt;The second component of our research is the design of practical TCP and AQM protocols&lt;br/&gt;based on the theory, and the development of prototypes and experiments to demonstrate their&lt;br/&gt;effectiveness. We will use the theory to identify the sources of instability in the current protocols&lt;br/&gt;when delay, network size, capacity, and traffic load scale up. We will design both enhancements that&lt;br/&gt;incrementally evolve the current protocols, and drastically new protocols that have the strongly&lt;br/&gt;robust stability property promised by theory. As a concrete application of our algorithms, we will&lt;br/&gt;apply them to improve TCP performance over wireless links, both because they are ubiquitous and&lt;br/&gt;because they are likely to remain the most important bottlenecks in future networks.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/20/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113425</AwardID>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Low</LastName>
+      <EmailAddress>slow@caltech.edu</EmailAddress>
+      <StartDate>09/06/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Doyle</LastName>
+      <EmailAddress>doyle@cds.caltech.edu</EmailAddress>
+      <StartDate>09/06/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>California Institute of Technology</Name>
+      <CityName>PASADENA</CityName>
+      <ZipCode>911250600</ZipCode>
+      <PhoneNumber>6263956219</PhoneNumber>
+      <StreetAddress>1200 E California Blvd</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1656</Code>
+      <Text>LARGE SCALE NETWORKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

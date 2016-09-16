@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Enabling New Networking Applications and Distributed Systems with Mobile, Lightweight Protection Domains</AwardTitle>
+    <AwardEffectiveDate>03/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>02/29/2008</AwardExpirationDate>
+    <AwardAmount>499290</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Advances in network and computing technologies have accelerated the proliferation of infrastructure&lt;br/&gt;such as content distribution, caching, middleware services, and network measurement testbeds. Recently,&lt;br/&gt;however, a number of new application domains are beginning to emerge that are not well-supported by&lt;br/&gt;existing technologies, such as the ability to distribute dynamically generated or active content, to rapidly&lt;br/&gt;deploy new and untrusted Internet services into existing infrastructure, and the ability to dynamically inject&lt;br/&gt;network measurement code into an existing network experimentation infrastructure.&lt;br/&gt; These new application domains all share several security and resource management requirements: safely&lt;br/&gt;executing untrusted code, scaling to a large number (100s or 1000s) of protection domains per physical host, and supporting a large degree of multiplexing of physical host resources across many concurrently active protection domains. Although there have been many sandboxing technologies proposed in the past, none of them have the combination of water-tight isolation and the ability to scale to a large number of protection&lt;br/&gt;domains required by these new applications.&lt;br/&gt; The goal of this CAREER proposal is to enable this wide array of new networking and distributed&lt;br/&gt;middleware applications by designing and implementing lightweight protection domains, technically focusing&lt;br/&gt;on the notion of using virtual machine monitors (VMMs). A virtual machine monitor is a software layer&lt;br/&gt;that runs immediately on top of the hardware/software boundary, virtualizing all names exposed by that&lt;br/&gt;boundary to give higher-level virtual machines the illusion of their own dedicated physical machine. Virtual&lt;br/&gt;machines are known to have strong isolation, and they are known to support code migration. However,&lt;br/&gt;existing virtual machines and guest operating systems are typically heavyweight, permitting only a small&lt;br/&gt;number (3-10) to concurrently execute on a single physical machine. The first research challenge posed in&lt;br/&gt;this proposal is designing and implementing mechanisms for building lightweight VMMs, virtual machines,&lt;br/&gt;and guest operating systems, so that 100s or 1000s can concurrently execute. An ancillary challenge implied&lt;br/&gt;by this is resource management across virtual machines: to fully isolate one VM from another, each VM's&lt;br/&gt;resource usage (e.g., CPU consumption, I/O rates, memory footprint) must be bounded by the VMM.&lt;br/&gt; Once the researchers have successfully implemented lightweight virtual machines, they intend to heavily leverage this new mechanism to explore several new research topics, as well as revisiting a few existing ones. For example,they will use virtual machines as a sandboxing mechanism enabling web servers to dynamically inject new content-generation code into content delivery networks or web caching systems. As another example, they will use VMs to enable untrusted code authors to upload new Internet services into a virtual hosting platform. As a third example, the researchers plan on exploring the role of virtual machines as a resource container in cluster-of-workstations, in particular exploring the ability to dynamically alter relative resource consumption rates of virtual machines to create the effect of isolated \virtual clusters" within a single physical cluster.&lt;br/&gt; For the educational component of the CAREER proposal, the researchs plan on exploring the use of their virtual machine monitor as a substrate for supporting novel projects in undergraduate and graduate advanced&lt;br/&gt;operating systems courses, such as CSE451 and CSE551 at the University of Washington. A virtual machine&lt;br/&gt;monitor is a natural place for supporting intricate debugging mechanisms, and hardware device emulation.&lt;br/&gt;Having students augment the virtual machine monitor and use it to develop simple components of an&lt;br/&gt;operating system will radically improve the students' understanding of OS issues, as they will be forced to&lt;br/&gt;understand the interface between the OS and the hardware, as well as the structure of the OS itself. Finally,&lt;br/&gt;this will also provide us with an opportunity to revise the OS course curriculum to include modern topics as&lt;br/&gt;security, isolation, mobility, and OS support for embedded devices (which share characteristics of the virtual machines that we will emulate with our VMM).</AbstractNarration>
+    <MinAmdLetterDate>02/28/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/28/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0132817</AwardID>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Gribble</LastName>
+      <EmailAddress>gribble@cs.washington.edu</EmailAddress>
+      <StartDate>02/28/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

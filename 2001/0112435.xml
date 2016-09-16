@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SY(CISE) Learning Syntactic/Semantic Information for Parsing</AwardTitle>
+    <AwardEffectiveDate>08/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2006</AwardExpirationDate>
+    <AwardAmount>461547</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research concerns the unsupervised learning of structural information about English that is not present in current tree-banks (specifically the various Penn tree-banks). That is, one wants a machine to learn this information without having to create a corpus in which the information is annotated. The structural information to be learned often falls at the boundary between syntax and semantics; for example, does the fact that the "New York Stock Exchange" has as part of the name the location "New York" fall under syntax or semantics? What about the similarity between the expressions "[to] market useless items" and "the market for useless items"? The intention is to learn this kind of information in a form that current statistical parsers can use so that they can output more finely structured parses. But this is not meant to suggest that parsing is the sole use for this sort of information. More and more systems for automatically extracting information from free text use coreference detection and "named-entity recognition" (e.g., recognizing that "New York" is a location, but "New York Stock Exchange" is an organization). There is evidence to suggest that both coreference and named-entity recognition can be improved with the finer level of analysis to be made possible by this research. Or again, "language models" (programs that assign a probability to strings in a language) are standard parts of all current speech-recognition systems; there is evidence that suggests that finer grained syntactic analysis can improve current language models. Thus, this research will enable a wide variety of systems to make better use of language input and so make these systems more accessible to a diverse user pool.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0112435</AwardID>
+    <Investigator>
+      <FirstName>Eugene</FirstName>
+      <LastName>Charniak</LastName>
+      <EmailAddress>ec@cs.brown.edu</EmailAddress>
+      <StartDate>08/10/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0104000</Code>
+      <Name>Information Systems</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1654</Code>
+      <Text>HUMAN COMPUTER INTERFACE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

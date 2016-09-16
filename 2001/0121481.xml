@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SY+SI:The System Architecture of a Computing Utility</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2009</AwardExpirationDate>
+    <AwardAmount>2911212</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sajal Das</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computing services in the future should become just as available and easy to use as any of the modern&lt;br/&gt;utilities: power, water, or telephone service. A compute utility should work reliably and invisibly,&lt;br/&gt;providing users with simple, efficient access to their data and individualized computing environments&lt;br/&gt;anywhere in the world. Data kept in the utility may be private, publicly available, or shared between&lt;br/&gt;designated parties.&lt;br/&gt; Our proposed compute utility architecture is based on the idea of a compute capsule, which captures&lt;br/&gt;the entire logical state of an active computing environment. A capsule is portable, persistent,&lt;br/&gt;host-independent, self-contained and can be suspended on disk, arbitrarily bound to different machines,&lt;br/&gt;and transparently resumed. Compute servers in a utility run a small trusted computing base, which&lt;br/&gt;manages the compute capsules like a cache. Users' capsules can be run on any of the compute servers in&lt;br/&gt;the utility and are typically run on local machines for enhanced interactive performance. Capsules provide&lt;br/&gt;users with customizabililty as well as a guarantee of isolation from other users. As persistent objects that&lt;br/&gt;can be shared, duplicated and version-controlled, capsules can be easily managed and administered.&lt;br/&gt; The compute utility model has significant advantages over our current environment. First, instead of&lt;br/&gt;requiring end users to procure, administer and upgrade their equipment individually, resources of a utility&lt;br/&gt;are shared and managed centrally by experts, thus resulting in a more efficient system. Second, a global&lt;br/&gt;utility allows users efficient access to their computing environment everywhere. They need not juggle a&lt;br/&gt;large number of different interfaces and deal with the discontinuities as they move between home and work&lt;br/&gt;every day. Third, a professionally managed compute utility designed to support global mobility and&lt;br/&gt;sharing can provide greater security than our current environment. In contrast, today novice users are&lt;br/&gt;responsible for keeping their systems secure, and the lack of adequate support for sharing and mobility&lt;br/&gt;leads to practices that jeopardize security. Fourth, the infrastructure of a utility serves as an excellent&lt;br/&gt;platform for several emerging computing trends: software hosted remotely by application service&lt;br/&gt;providers, support of ubiquitous access devices, and large-scale distributed computing.&lt;br/&gt; The goal of this research project is to investigate the viability of a compute utility and to lay the&lt;br/&gt;technical foundation for such an infrastructure. The techniques developed can also be applied to manage an&lt;br/&gt;institution's distributed resources.&lt;br/&gt; First, we will investigate the concept of capsules fully by studying their design and applications.&lt;br/&gt;Capsules can be implemented at the machine, operating system and application level; trade-offs between&lt;br/&gt;these different approaches will be studied. We will also explore novel uses of capsules: capsules can be&lt;br/&gt;used to run untrusted software; they can provide secure and shared environments for group projects;&lt;br/&gt;capsules can also serve as pre-installed software packages ready to run on any machine. We will develop&lt;br/&gt;the associated tools to make capsuleseasy to use.&lt;br/&gt; Second, we will develop the technologies to ensure security in a compute utility. Security will be&lt;br/&gt;provided at three levels: a small trusted kernel that provides isolation between capsules and monitors&lt;br/&gt;capsules for added security; the use of certified capsules to create trusted computing environments; data&lt;br/&gt;security will be provided by encryption, and sharing will be supported by a flexible key management&lt;br/&gt;scheme. We plan to conduct a careful analysis of the vulnerabilities of the system.&lt;br/&gt; Third, this research will produce the technologies useful for creating scalable, efficient, and easily&lt;br/&gt;maintainable compute utilities. They include techniques for managing machines in a globally distributed&lt;br/&gt;environment by treating them as caches of capsules, and techniques that combine capsule caching and&lt;br/&gt;remote display technology to support global mobility and sharing.&lt;br/&gt; This research will develop a prototype compute utility to validate the technology developed. To make&lt;br/&gt;extensive experimentation possible, the prototype will support legacy software. The experiments will be&lt;br/&gt;designed especially to address the information technology needs of universities.&lt;br/&gt; Computer systems have gone through two major eras, time-sharing on mainframes and personal&lt;br/&gt;computing. The success of this research may usher in a new era of compute utility and have a significant&lt;br/&gt;impact on our future computing practice.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/17/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0121481</AwardID>
+    <Investigator>
+      <FirstName>Mendel</FirstName>
+      <LastName>Rosenblum</LastName>
+      <EmailAddress>mendel@cs.stanford.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dan</FirstName>
+      <LastName>Boneh</LastName>
+      <EmailAddress>dabo@cs.stanford.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Monica</FirstName>
+      <LastName>Lam</LastName>
+      <EmailAddress>lam@cs.stanford.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

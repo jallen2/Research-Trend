@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Framework for Utilization-Based Absolute Delay Guarantees Using Adaptive Prefetching</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>222950</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050202</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>We propose to develop an architecture and theoretical underpinnings for providing absolute delay&lt;br/&gt;guarantees for HTTP traffic. HTTP traffic constitutes an overwhelming majority of all Internet&lt;br/&gt;traffic today. Both network load and user-perceived end-to-end response time of web requests&lt;br/&gt;depend not only on network conditions but also on the performance of web proxy caches around&lt;br/&gt;major network backbones. For example, in an HTTP-dominated network, increasing the total&lt;br/&gt;amount of cached data may increase hit ratio and subsequently decrease both network load and&lt;br/&gt;network delay. Hence, an architecture for end-to-end web traffic delay guarantees should explicitly&lt;br/&gt;consider the effect of caching. It is the joint consideration of caching and network performance that&lt;br/&gt;separates our work from prior efforts on delay guarantees. Essentially, the joint problem considers&lt;br/&gt;data placement (replication) as a dimension to manipulate for affecting traffic delays. The approach&lt;br/&gt;is cost-effective since data storage is cheaper than network bandwidth.&lt;br/&gt; The first contribution of this project is to develop a scheme for network load control that relies&lt;br/&gt;on adaptive data prefetching. The architecture can be thought of as replacing admission control&lt;br/&gt;at the network boundary. In an HTTP context, while admission control would prevent a client's&lt;br/&gt;request from entering the network, data prefetching would bring the information to the client's&lt;br/&gt;side before it is requested, hence de ecting the request away from the backbone. While prefetching&lt;br/&gt;itself introduces traffic, the performance gain comes from the fact that, unlike serving live requests,&lt;br/&gt;prefetching can occur at a lower priority in the background without jeopardizing user-perceived&lt;br/&gt;network performance. Hence, prefetching removes time constraints from a big chunk of HTTP&lt;br/&gt;traffic which can now be served at a lower priority. Consequently, the remaining (live) HTTP&lt;br/&gt;traffic will receive better service from the network.&lt;br/&gt; The second main contribution of the project is a theoretical derivation of the relationship&lt;br/&gt;between network resource utilization and the satisfaction of end-to-end deadlines. Specifically, we&lt;br/&gt;prove that keeping network resource utilization due to live web traffic below a given threshold&lt;br/&gt;ensures that all ow deadlines are met. We call this threshold, the overcommitment threshold .&lt;br/&gt;This result allows us to associate deadlines with live web traffic and ensure their satisfaction simply&lt;br/&gt;by performing utilization control. The result obviates maintaining per- ow state in the network for&lt;br/&gt;the purposes of satisfying absolute delay guarantees.&lt;br/&gt; Merging the aforementioned contributions together, we propose to use our adaptive prefetching&lt;br/&gt;scheme to keep the amount of live web traffic below the overcommitment threshold. Hence, we&lt;br/&gt;ensure the satisfaction of absolute delay guarantees while requiring neither admission control on the&lt;br/&gt;network boundary nor per- ow state in routers. The architecture calls only for service differentiation&lt;br/&gt;in the network to separate live real-time web traffic from background prefetching traffic which may&lt;br/&gt;receive lower priority. The project will use the PI's existing evaluation testbed for implementing&lt;br/&gt;and evaluating architectural prototypes.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/12/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105873</AwardID>
+    <Investigator>
+      <FirstName>Tarek</FirstName>
+      <LastName>Abdelzaher</LastName>
+      <EmailAddress>zaher@cs.uiuc.edu</EmailAddress>
+      <StartDate>09/12/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Virginia Main Campus</Name>
+      <CityName>CHARLOTTESVILLE</CityName>
+      <ZipCode>229044195</ZipCode>
+      <PhoneNumber>4349244270</PhoneNumber>
+      <StreetAddress>P.O. BOX 400195</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4097</Code>
+      <Text>NETWORKING RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

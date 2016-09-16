@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP COLLABORATIVE RESEARCH: Real Time Optimization for Data Assimilation and Control of Large Scale Dynamic Simulations</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2004</AwardExpirationDate>
+    <AwardAmount>805000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will create and apply algorithms and software tools for on-line simulations that continuously (1) assimilate sensor data from dynamic physical processes, and (2) generate optimal strategies for their control. A number of critical industrial, scientific, and societal problems stand to benefit from this research such as aerodynamics, energy, geophysics, infrastructure, manufacturing, medicine, chemical process and environmental applications; two of these will be the focus of the current research. In these and many other cases, the underlying models have become capable of sufficient fidelity to yield meaningful predictions, provided unknown parameters (typically initial/boundary conditions, material coefficients, sources, or geometry) can be estimated appropriately using observational data.&lt;br/&gt;&lt;br/&gt;The critical step is the solution of a large-scale nonlinear optimization problem that is constrained by the simulation equations, typically PDEs or their reduced order models. A data assimilation phase will seek to minimize the mismatch between sensor data and model-based predictions by adjusting unknown parameters of the PDE simulation, and the optimal control phase will find an optimal control strategy based on the updated model.&lt;br/&gt;&lt;br/&gt;Despite advances in hardware, networks, parallel PDE solvers, large-scale optimization algorithms, and real-time ODE optimization, significant algorithmic and software challenges must be overcome before the ultimate goal of real-time PDE data assimilation and optimal control can be realized. Needed are fundamentally new PDE optimization algorithms that must: (1) run sufficiently quickly to permit decision-making at time scales of interest; (2) scale to the large numbers of variables and constraints that characterize PDE optimization and processors that characterize high-end systems; (3) adjust to different solution accuracy requirements; (4) target time-dependent objectives and constraints; (5) tolerate incomplete, uncertain, or errant data; (6) be capable of bootstrapping current solutions; (7) yield meaningful results when terminated prematurely; and (8) be robust in the face of ill-posedness.&lt;br/&gt;&lt;br/&gt;To create, apply, and disseminate the enabling technologies for real-time PDE data assimilation and optimal control, the project will: (1) Develop algorithms and tools for real-time data assimilation and optimal control that meet the above specifications for a class of important applications. (2) Implement and publicly distribute these algorithms within an object-oriented framework that incorporates problem structure, interfaces easily with high performance PDE solver libraries fosters applicability of our tools to a broad range of real-time data assimilation and optimal control problems, and enables extension of the algorithms without interfering with applications. (3) Apply these algorithms and tools to two critical environmental and industrial problems: modeling and control of chemical vapor deposition (CVD) reactors and of wildland firespread. (4) Interact and work with other user communities to ensure that the algorithms and software we produce are useful across a broad range of applications.</AbstractNarration>
+    <MinAmdLetterDate>09/20/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/20/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0121207</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Keyes</LastName>
+      <EmailAddress>david.keyes@columbia.edu</EmailAddress>
+      <StartDate>09/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Old Dominion University Research Foundation</Name>
+      <CityName>Norfolk</CityName>
+      <ZipCode>235082561</ZipCode>
+      <PhoneNumber>7576834293</PhoneNumber>
+      <StreetAddress>4111 Monarch Way</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1687</Code>
+      <Text>ITR MEDIUM (GROUP) GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1652</Code>
+      <Text>HIGH END COMPUTATION AND INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

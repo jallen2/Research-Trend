@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Compiling for Locality in Advanced Scientific Computations</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>215000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With modern processor architectures, programs can achieve good&lt;br/&gt;performance only if they possess sufficient data locality to exploit&lt;br/&gt;on-chip caches. This research focuses on developing and evaluating&lt;br/&gt;software support for improving locality for advanced scientific&lt;br/&gt;applications for both sequential and parallel machines. The basic&lt;br/&gt;premise is that both compile-time analyses and sophisticated run-time&lt;br/&gt;systems are necessary. Run-time systems are needed because many&lt;br/&gt;programs are not analyzable statically. Compiler support is crucial&lt;br/&gt;both for inserting interfaces to the run-time system and for directly&lt;br/&gt;applying program transformations where possible.&lt;br/&gt;&lt;br/&gt;This proposal investigates locality optimizations needed for three&lt;br/&gt;features found in advanced scientific applications (3D arrays,&lt;br/&gt;irregular accesses, and pointers). It focuses on extending&lt;br/&gt;locality optimizations to handle cache conflicts between multiple&lt;br/&gt;data, deep memory hierarchies (multi-level caches and TLBs), hardware&lt;br/&gt;and software prefetching, nonlinear memory layouts, parallel and&lt;br/&gt;cluster architectures, and memory performance tools. Locality&lt;br/&gt;optimizations will be applied to representative programs and&lt;br/&gt;experimentally evaluated on advanced computer systems.&lt;br/&gt;&lt;br/&gt;The results of this research should help improve the performance&lt;br/&gt;of computationally intensive scientific applications. Because&lt;br/&gt;of trends in computer architectures, lessons learned are also&lt;br/&gt;likely to be useful for application domains such as image&lt;br/&gt;processing and high-performance databases.</AbstractNarration>
+    <MinAmdLetterDate>07/11/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/11/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105411</AwardID>
+    <Investigator>
+      <FirstName>Chau-Wen</FirstName>
+      <LastName>Tseng</LastName>
+      <EmailAddress>tseng@cs.umd.edu</EmailAddress>
+      <StartDate>07/11/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

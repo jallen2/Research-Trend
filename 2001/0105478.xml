@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Compiler-Inserted Control Independence Information for Latency Hiding and Reduced Branch Cost</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>238572</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Timothy M. Pinkston</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern processors predict the outcome of branch instructions and speculatively fetch instructions on the predicted path. If the prediction is wrong the speculatively fetched instructions are squashed (deleted) and fetch continues on the correct path. Techniques will be investigated that will reduce the number of such squashed instructions. With compiler and hardware assistance instructions that would normally be squashed and later re-fetched are identified and specially handled so they can be retained. Another approach to be investigated is to delay the fetch of instructions that might have to be squashed, in their place fetching instructions that would be executed regardless of branch outcome. A memory access latency hiding technique will also be investigated. It works by retiring a portion of the dynamic instruction stream (that is delayed&lt;br/&gt;by a cache miss) out of order, if necessary. The techniques will help solve two pervasive problems: the limited speed of integer programs due to branch mispredictions and the reduced performance of certain&lt;br/&gt;programs due to long memory latency. Branch misprediction penalty is an increasing function of issue width and pipeline depth; as both of these are expected increase the techniques to be developed will have a&lt;br/&gt;greater relative impact.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/16/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105478</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Koppelman</LastName>
+      <EmailAddress>koppel@ece.lsu.edu</EmailAddress>
+      <StartDate>09/04/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Louisiana State University &amp; Agricultural and Mechanical College</Name>
+      <CityName>Baton Rouge</CityName>
+      <ZipCode>708032701</ZipCode>
+      <PhoneNumber>2255782760</PhoneNumber>
+      <StreetAddress>202 Himes Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>4715</Code>
+      <Text>COMPUTER SYSTEMS ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

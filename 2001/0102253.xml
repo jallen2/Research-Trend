@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>New Modeling Procedure for Indoor/Outdoor Propagation Environments in Micro- and Pico-Cell Wireless Communication Systems</AwardTitle>
+    <AwardEffectiveDate>05/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2002</AwardExpirationDate>
+    <AwardAmount>250743</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>James W. Mink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0102253&lt;br/&gt;Iskander&lt;br/&gt;&lt;br/&gt;With this proposal the PI's respectfully request NSF support to develop a detailed, accurate, and&lt;br/&gt;computationally efficient propagation model for wireless communications in micro- and pico-cell systems.&lt;br/&gt;A new 3D model [or alternatively a 2D model with advanced calculation capabilities such as the vertical-plane-launch (VPL) technique] will be developed based on integrating three new and innovative&lt;br/&gt;approaches to improve calculation accuracy and increase the computational efficiency. This includes the&lt;br/&gt;use of the following:&lt;br/&gt;&lt;br/&gt;1. A new unstructured triangular grid ray tracing method (TGRM) to provide significant savings in&lt;br/&gt;computational time when modeling outdoor regions. Preliminary results show that CPU time for the&lt;br/&gt;TGRM method is approximately 30% of that of the visibility ray tracing.&lt;br/&gt;2. A space division procedure based on a uniform rectangular grid method (URGM) for indoor regions&lt;br/&gt;and assuming that the reflection/transmission surfaces coincide with the grid lines. Preliminary&lt;br/&gt;results show that the CPU time for the proposed uniform grid method for indoor propagation regions&lt;br/&gt;is approximately 14% of that of the visibility ray tracing method.&lt;br/&gt;3. An FDTD approach to calculate reflection (F ) and transmission (F ) coefficients of composite walls&lt;br/&gt;and incorporate these coefficients in the overall ray tracing code. This is important for short range&lt;br/&gt;signal prediction where average or effective values of materials properties of walls may provide&lt;br/&gt;inaccurate predictions. The multigrid Finite Difference Time Domain (multigrid FDTD) code will&lt;br/&gt;also be used to calculate diffraction coefficients from indoor and outdoor objects that are difficult to&lt;br/&gt;model analytically. Diffraction coefficient results will be incorporated with a 3D ray tracing code that&lt;br/&gt;implements the proposed procedures described above. Diffraction coefficients will be included as part&lt;br/&gt;of the program in the form of a database and look-up tables.&lt;br/&gt;4. The development of the 3D version of the proposed ray tracing code will be based on using pyramidal&lt;br/&gt;or tetrahedral cells in the TGRM procedure, and solid rectangular cells in the URGM method. The&lt;br/&gt;proposed methods do not involve search algorithms and hence significant improvement in the&lt;br/&gt;computational efficiency is expected.&lt;br/&gt;&lt;br/&gt;The overall results from the developed new propagation model will be validated experimentally on scaled&lt;br/&gt;models in the 60'x40'x23' indoor antenna range available at the University of Utah. Scaled models will be&lt;br/&gt;carefully selected so as to present physical structures of interest, on the one hand, and an object that can be&lt;br/&gt;used as a building block towards the development of a fully understandable and physics-based propagation&lt;br/&gt;model, on the other. With the available experimental facilities (HP8510 up to 40 GHz), it will be possible&lt;br/&gt;to use scale factors as large as 20 to model realistic structures at the higher frequencies (2GHz) presently&lt;br/&gt;being used in terrestrial wireless communication systems.&lt;br/&gt;&lt;br/&gt;In addition to the development of the deterministic EM-based propagation model, the PI's propose to use the calculated EM power distribution pattern to determine statistical parameters that may be used in the&lt;br/&gt;simulation of wireless communications systems. This includes calculations of coverage, delay spread, bit&lt;br/&gt;error rate, and angle of arrival. The project will involve two graduate students to work on the simulation&lt;br/&gt;part of the project, and one additional graduate student together with a team of undergraduate senior&lt;br/&gt;students to work on building the scaled models and conducting the experimental verification part of the&lt;br/&gt;project.</AbstractNarration>
+    <MinAmdLetterDate>05/04/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/04/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0102253</AwardID>
+    <Investigator>
+      <FirstName>Magdy</FirstName>
+      <LastName>Iskander</LastName>
+      <EmailAddress>iskander@spectra.eng.hawaii.edu</EmailAddress>
+      <StartDate>05/04/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Zhengqing</FirstName>
+      <LastName>Yun</LastName>
+      <EmailAddress>zyun@hawaii.edu</EmailAddress>
+      <StartDate>05/04/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1517</Code>
+      <Text>ELECT, PHOTONICS, &amp; MAG DEVICE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

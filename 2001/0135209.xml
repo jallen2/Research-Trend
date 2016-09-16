@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>International Workshop on Simulation and Evaluation Techniques for Modern Processors</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>20000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Pratibha Varma-Nelson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The workshop will consider both short-term and longer-term issues in processor evaluation. The rationale for considering at least some short-term issues is clear: the simulation crisis is already here. Even the SPEC95 benchmarks cannot be run to completion using cycle-accurate simulation. The SPEC2000 benchmarks are substantially longer. A variety of techniques for reducing simulation time are currently in use, yet there is no agreement on which techniques are most appropriate. Some clearly-invalid evaluation techniques are in use simply because there are no alternatives that offer scientifically-valid results with the necessary turnaround times.&lt;br/&gt;&lt;br/&gt;We propose to use the following questions as a starting point for discussion.&lt;br/&gt;&lt;br/&gt;Metrics: What are the proper metrics to use for various architectural studies?&lt;br/&gt;&lt;br/&gt;Benchmarks: What are the appropriate benchmarks to use for various architectural studies in the next 5 years?&lt;br/&gt;&lt;br/&gt;Abstractions: How can researchers determine when abstractions that accelerate simulation (but may reduce accuracy) are appropriate and when they are not? How can their accuracy and precision be characterized?&lt;br/&gt;&lt;br/&gt;Sampling: How/when/whether can researchers use mixed-mode simulations that vary between high and low amounts of detail in a single simulation? How can the accuracy of such simulations be verified?&lt;br/&gt;&lt;br/&gt;Sensitivity: How can researchers structure sensitivity studies to determine when a low-level error will translate into large errors, as opposed to when the low-level error's effect will be masked when aggregated into the full simulation?&lt;br/&gt;&lt;br/&gt;Validation methods: How can a processor simulation be validated before a similar processor is built?&lt;br/&gt;&lt;br/&gt;Hardware assists: How can simulations make use of hardware performance counters and other hardware assists for evaluating next-generation processors (which may have different organizations than the systems from which we are obtaining hardware counts)?&lt;br/&gt;&lt;br/&gt;Portability: Processor models are complex and often closely tied to the simulation infrastructure (e.g., SimpleScalar, ATOM) on which they are developed, and once a model has been validated, it becomes expensive to develop new models. Yet different simulator platforms are best suited for different experiments. How can the portability of processor models best be accomplished?&lt;br/&gt;&lt;br/&gt;Power: What new simulation questions are raised by the growing interest among architects in power modeling?</AbstractNarration>
+    <MinAmdLetterDate>09/12/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/12/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0135209</AwardID>
+    <Investigator>
+      <FirstName>Kevin</FirstName>
+      <LastName>Skadron</LastName>
+      <EmailAddress>skadron@cs.virginia.edu</EmailAddress>
+      <StartDate>09/12/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Virginia Main Campus</Name>
+      <CityName>CHARLOTTESVILLE</CityName>
+      <ZipCode>229044195</ZipCode>
+      <PhoneNumber>4349244270</PhoneNumber>
+      <StreetAddress>P.O. BOX 400195</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>4715</Code>
+      <Text>COMPUTER SYSTEMS ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

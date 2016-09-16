@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Small-Scale Dynamic Reconfigurability for Large-Scale Benefits</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>431784</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Pratibha Varma-Nelson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>General purpose processors (GPPs) are designed to implement on fixed configuration that is good on average but may not be well suited for individual applications. In fact, applications can have drastically different execution characteristics (e.g. branch prediction technique preference, cache configuration and policy preference, low-power opportunities). This suggests the use of device reconfigurability, but generic reconfigurable logic of any substantial scale (e.g. most field programmable gate array (FPGA) technology) is slow, lacks density, and is power-hungry. Yet many processor structures are easily adaptable to a wide variety of configurations. This research will develop dynamic, small-scale, partial reconfigurability for such structures. This "Dynaptable" approach has the further benefit that it integrates work at the architectural, logic, and circuit levels.&lt;br/&gt;&lt;br/&gt;The Dynaptable approach consists of three key elements:&lt;br/&gt;&lt;br/&gt; 1. Flexible structures: designing key processor structures with judicious amounts of reconfigurable hardware to provide flexibility in a low-cost, non-invasive way.&lt;br/&gt;&lt;br/&gt; 2. Run-time monitoring: determining the current configuration's performance or effectiveness compared to other possible competing configurations.&lt;br/&gt;&lt;br/&gt; 3. Dynamic reconfiguration: using the results of run-time monitoring to adapt to a new configuration that improves the chosen figure of merit (e.g. performance, energy-delay product, fault tolerance).&lt;br/&gt;&lt;br/&gt;The research will identify the most profitable places for adding small-scale reconfigurability, design the requisite reconfigurable elements, and develop the most effective and lowest-cost techniques for dynamic monitoring and adaptation. This work will have an impact on the design of a variety of processor components (branch predictor, cache, datapath, etc.) for a range of processing environments (embedded systems, superscalar, SMT, etc.). The final goal is to develop a consistent methodology for dynamically adapting GPP microarchitectures for improved performance, lower power, and increased fault tolerance.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/09/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105626</AwardID>
+    <Investigator>
+      <FirstName>Mircea</FirstName>
+      <LastName>Stan</LastName>
+      <EmailAddress>mircea@virginia.edu</EmailAddress>
+      <StartDate>07/27/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kevin</FirstName>
+      <LastName>Skadron</LastName>
+      <EmailAddress>skadron@cs.virginia.edu</EmailAddress>
+      <StartDate>07/27/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Lach</LastName>
+      <EmailAddress>jlach@virginia.edu</EmailAddress>
+      <StartDate>07/27/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Virginia Main Campus</Name>
+      <CityName>CHARLOTTESVILLE</CityName>
+      <ZipCode>229044195</ZipCode>
+      <PhoneNumber>4349244270</PhoneNumber>
+      <StreetAddress>P.O. BOX 400195</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>4715</Code>
+      <Text>COMPUTER SYSTEMS ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

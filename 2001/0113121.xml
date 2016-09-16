@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/ACS: Collaborative Research LinBox: A Generic Library for Seminumeric Black Box Linear Algebra</AwardTitle>
+    <AwardEffectiveDate>07/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2004</AwardExpirationDate>
+    <AwardAmount>170200</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Haesun Park</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The LinBox group of twelve researchers in three countries (USA, France, Canada) proposes research in the design of efficient algorithms for linear algebra, in their implementation in a software library, and in how to interface the library to widely-used scientific computing software. Algorithms will be implemented, and new algorithms designed, for the black box representation of matrices---hence the name LinBox---over entry domains that are either symbolic, that is, exact, or floating point, that is, inexact. The library is generically programmed as C++ template classes with abstract underlying arithmetics; they can be compiled with a variety of fast libraries for the basic field, floating point, and polynomial operations. A server/client interface seamlessly attaches the library to the common general purpose symbolic systems Maple and Mathematica and to the numeric system MatLab. Parallel execution of the implemented algorithms is facilitated. &lt;br/&gt;&lt;br/&gt;Black box matrices are stored as functions (as linear operators in effect): the matrix is a procedure that takes an arbitrary vector as input and efficiently computes the matrix-times-vector product. Black box linear algebra generalizes sparsity. The LinBox library will contain algorithms for solving singular and non-singular systems of linear equations whose coefficient matrix is given in black box representation. Furthermore, it is proposed to develop fast methods for the rank and the minimal and characteristic polynomial of a black box matrix. Finally, LinBox will contain methods for linear Diophantine problems with black box matrices, such as computing an integral solution to a linear system with integer entries and computing the Smith normal form of an integer matrix.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113121</AwardID>
+    <Investigator>
+      <FirstName>Erich</FirstName>
+      <LastName>Kaltofen</LastName>
+      <EmailAddress>kaltofen@eos.ncsu.edu</EmailAddress>
+      <StartDate>07/27/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Carl</FirstName>
+      <LastName>Meyer</LastName>
+      <EmailAddress>meyer@ncsu.edu</EmailAddress>
+      <StartDate>07/27/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1658</Code>
+      <Text>SOFTWARE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

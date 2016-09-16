@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>High Resolution Finite Difference and Spectral Algorithms for Piecewise Smooth Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>206200</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>We plan to develop and implement new high resolution finite difference and spectral algorithms which reduce the spurious Gibbs effects near the internal edges of piecewise regular data, and recover with high resolution the underlying information in between those edges. These are precisely the issues which defy classical methods and are of great research interest in various applications. Professors E. Tadmor (UCLA) and A. Gelb (ASU), will continue their ongoing cooperative research on the following. (i) Accurate realization of piecewise smooth data in one- and several space dimensions using edge detection and high-resolution reconstruction techniques. In this context we will develop, analyze and implement a spectrally accurate recovery procedures by combining localization based on appropriate concentration kernels which identify finitely many edges, followed by a novel two-parameter family of spectral mollifiers which recover the data between the edges with exponential accuracy. These techniques are at the heart of the modern high-resolution algorithms described below. (ii) Over the last decade, central schemes proved to be an extremely robust, all-purpose tool for solving general nonlinear convective-diffusive problems. We will integrate new recovery procedures and introduce further non-Cartesian enhancement procedures to the resolution of multidimensional central schemes. (iii) Further developments and applications of stable and spurious-free spectral viscosity algorithms. In particular, we plan to apply the new enhanced SV procedure to problems where piecewise smoothness forms due to mixing and instability (Richtmyer-Meshkov, Taylor, ...), simulations of the shallow water equations, and study of the critical threshold phenomena in mixed-type Euler-Poisson equations. &lt;br/&gt;&lt;br/&gt;Look around you: edges are everywhere. Much of the data we encounter -- from images to signals is piecewise smooth, that is, it consists of smooth pieces separated by sharp internal edges. This project proposes to continue the development of novel methods that combat the typical difficulties associated with problems containing piecewise smooth data. Specifically, we propose to extend our ongoing study of dealing with the reconstruction of piecewise smooth data from its spectral information. Here, the large scales represented by the smooth 'pieces' are resolved by a variety of non-oscillatory reconstructions. The difficulty arises with the spurious oscillations due to unresolved small scales which are localized in the neighborhood of the edges. The problem is often realized in terms of the so called 'ringing phenomena'. To this end, the location of the edges is detected and information is treated in the 'direction of smoothness', i.e., away from the detected edges. Application include the high resolution recovery of piecewise smooth data obtained in such inverse applications as magnetic resonance imaging (MRI), positron emission tomography (PET), climatology data and more. Piecewise smooth data also arise in various time dependent problems, due to spontaneous breakup in waves patterns. In this case, the difficulties become even more intricate, as one has to trace moving edges. We also plan to implement the new recovery procedures for tracing the evolution of breakdown of waves, and integrate these recovery procedures with central schemes and spectral viscosity methods -- two modern high resolution methods developed by us earlier.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/18/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0107428</AwardID>
+    <Investigator>
+      <FirstName>Anne</FirstName>
+      <LastName>Gelb</LastName>
+      <EmailAddress>annegelb@asu.edu</EmailAddress>
+      <StartDate>08/28/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Eitan</FirstName>
+      <LastName>Tadmor</LastName>
+      <EmailAddress>tadmor@cscamm.umd.edu</EmailAddress>
+      <StartDate>08/28/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900952000</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>11000 Kinross Avenue, Suite 211</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

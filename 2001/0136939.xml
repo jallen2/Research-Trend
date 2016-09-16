@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Large-Scale Computer Network Experimentation Through Simulation</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2006</AwardExpirationDate>
+    <AwardAmount>530225</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050200</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Du</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The study of computer networks, while a relatively young science, is no different from any scientific inquiry and as such needs to be built on top of a theory-validated-by-experiment foundation. In this award we focus on the use of computer-based simulation which provides the greatest flexibility in creating a general experimentation environment. Simulation offers several important challenges, however. First is the fact that the Internet is an ever changing, highly heterogeneous environment that is typically very difficult to model. Second is the question of how to faithfully reflect the large scale of the Internet in a computer-based simulation. We are primarily interested in addressing this latter challenge in this research. Our interest in large-scale network simulation is motivated by the fact that we view network simulation as an important tool to understand the true effect of a new protocol, mechanism, network service, or application when widely deployed on a large network such as the Internet. It is clearly problematic to simply extend conclusions derived from small simulations and make inferences regarding effect and behavior when extended to a large scale.&lt;br/&gt;&lt;br/&gt;While simulation of networks at the scale of the Internet remains infeasible today, there has been considerable progress made in the last few years in increasing the scale capability of network simulations. Our work uses this improved scaling capability as a starting point. This award represents an effort to go beyond the question of how to perform a large scale simulation run and address the question of how to perform a large-scale simulation experiment. A simulation experiment typically consists of multiple related runs and is also defined by a specific validation and/or evaluation objective (e.g., what will happen if an ISP enables a certain queue management algorithm in all its routers). We note that our work focuses primarily on packet-level discrete-event simulation, as opposed to other approaches that allow scaling through aggregation and approximation. Our goal is to understand the limits of faithful packet-level discrete event simulation as a vehicle for experimentation and validation.&lt;br/&gt;&lt;br/&gt;With the goal of investigating the question of how to perform large-scale simulation experiments we focus on two principal areas of research:&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;1. We will develop and analyze techniques that allow for the efficient execution of multiple network simulation runs. A key observation is that the multiple runs that make up an experiment are often related. Exploiting this fact, we will develop techniques to allow computations from one run to be reused in other runs, thereby reducing the amount of time to complete a set of runs. Our preliminary work demonstrates the feasibility of this approach. We note that while many of our basic ideas can be applied to simulations in general, the specifics of their efficient instantiation is very much domain dependent. Much of the research in this project will focus on exploiting this idea in the context of network simulations for specific, important classes of network protocols and architectures. We consider two specific approaches, one based on the use of updateable simulations and the other based on simulation cloning. &lt;br/&gt;&lt;br/&gt;2. Our second area of research uses as a starting point a presumed ability to perform large-scale network simulation experiments. The main question we ask is how large should a simulation experiment be in order for one to reach correct ``Internet-scale" conclusions? This is admittedly a very hard question to answer. We feel, however, that recent advances in large-scale network simulations have made it possible to finally begin to address this question. We are now capable of considering the effect of non-trivial scaling of a network simulation on the results derived from it. The goal of this work is to develop and analyze a systematic, well-motivated approach for answering the "how large is large-enough?" question. We present a strawman approach which will represent the starting point of our investigation. We also provide experimental evidence demonstrating how scale can affect simulation results.</AbstractNarration>
+    <MinAmdLetterDate>09/24/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0136939</AwardID>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>Fujimoto</LastName>
+      <EmailAddress>fujimoto@cc.gatech.edu</EmailAddress>
+      <StartDate>09/24/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mostafa</FirstName>
+      <LastName>Ammar</LastName>
+      <EmailAddress>ammar@cc.gatech.edu</EmailAddress>
+      <StartDate>09/24/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>George</FirstName>
+      <LastName>Riley</LastName>
+      <EmailAddress>riley@ece.gatech.edu</EmailAddress>
+      <StartDate>09/24/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

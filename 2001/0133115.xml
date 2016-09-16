@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Efficient Audio Compression with Perceptually Embedded Scalability</AwardTitle>
+    <AwardEffectiveDate>06/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2008</AwardExpirationDate>
+    <AwardAmount>356000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0133115&lt;br/&gt;Charles D. Creusere&lt;br/&gt;New Mexico State University&lt;br/&gt;&lt;br/&gt;Efficient Audio Compression with Perceptually Embedded Scalability&lt;br/&gt;&lt;br/&gt;The focus of this project is to develop compression formats for audio data that are better suited to the integrated wireless/landline communications networks currently being developed and fielded. The heterogeneous nature of such networks demands a compressed storage format from which fine layers of audio fidelity can be extracted; thus, each listener on the communications network receives as many layers of audio fidelity (i.e., the best quality audio reproduction) that his or her communications channel can support, all extracted from this single compressed representation. An obvious application of such technology is music-on-demand over forthcoming wireless services like 3G cellular and Bluetooth. A finely layered or 'scalable' bit stream can also be used to improve the streaming of real-time audio over the Internet or a broadcast wireless channel by simplifying rate buffer control and error protection.&lt;br/&gt;&lt;br/&gt;The research here concentrates on developing a high-performance compression algorithm whose scalability is optimized for perceptual performance over the entire range of output fidelities. Most of the audio compression algorithms in wide use today-- MP3 (MPEG audio layer 3), MPEG AAC, Dolby Digital, etc.-- do not support bitstream scalability. Within the frameworks of MPEG 2 and MPEG 4, fine-grained scalability is supported using a technique called bit slice arithmetic coding (BSAC). Unfortunately, subjective testing has shown that BSAC's scalability is not optimized for perceived sound quality at lower bitrates. To more closely tie the bit allocation process to the perceived quality, a non-uniform multirate filter bank is used here whose frequency resolution approximates that of the critical bands of human hearing. Quantization within each critical band is then performed in an optimal, multistage manner using both vector and scalar techniques.</AbstractNarration>
+    <MinAmdLetterDate>02/15/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/31/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0133115</AwardID>
+    <Investigator>
+      <FirstName>Charles</FirstName>
+      <LastName>Creusere</LastName>
+      <EmailAddress>ccreuser@nmsu.edu</EmailAddress>
+      <StartDate>02/15/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New Mexico State University</Name>
+      <CityName>Las Cruces</CityName>
+      <ZipCode>880038002</ZipCode>
+      <PhoneNumber>5756461590</PhoneNumber>
+      <StreetAddress>Corner of Espina St. &amp; Stewart</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Mexico</StateName>
+      <StateCode>NM</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

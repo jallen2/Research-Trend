@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Stochastic and Reliable Matching and Scheduling Algorithms for a Heterogeneous Computing Environment</AwardTitle>
+    <AwardEffectiveDate>07/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2003</AwardExpirationDate>
+    <AwardAmount>97503</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Brett D. Fleisch</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In heterogeneous distributed computing, a network of dissimilar machines is used to&lt;br/&gt;execute a given application in parallel. With the advent of advanced network technologies,&lt;br/&gt;the scale at which heterogeneous computing can be practicaly applied is growing to a&lt;br/&gt;global scale, thus making it possible to collect high performance computers across the&lt;br/&gt;globe into a single computational resource. Multiple users will be able to simulataneously&lt;br/&gt;use this computational resource to execute a variety of large, parallel applications.&lt;br/&gt;However, there are a number of problems to solve before this type of computing becomes a&lt;br/&gt;reality.&lt;br/&gt;Therefore this project proposes to develop effective matching and scheduling methods to&lt;br/&gt;allow multiple users to execute applications in a large, decentralized, failure-prone,&lt;br/&gt;heterogeneous computing environment. Due to the dynamic and uncertain nature of this&lt;br/&gt;environment, the algorithms that will be developed will use statistical techniques to&lt;br/&gt;allocate resources fairly in a highly dynamic system. The algorithms will be evaluated by&lt;br/&gt;simulations and also on a small testbed. There are three different aspects of this&lt;br/&gt;proposed work:&lt;br/&gt;1. Methods will be developed to statistically obtain an estimate of the response time of a&lt;br/&gt;task on an arbitrary target machine. This will be accomplished by developing separate&lt;br/&gt;techniques to estimate the execution time, machine loads, and network loads. A method for&lt;br/&gt;estimating the execution time using data gathered from past executions of the task has&lt;br/&gt;already been developed. This method will be refined and similar stochastic methods will be&lt;br/&gt;developed for machine and network load estimation.&lt;br/&gt;2. A dynamic matching and scheduling method for heterogeneous machines will be developed.&lt;br/&gt;This method will allow each application to make scheduling decisions without direct&lt;br/&gt;knowledge of the other applications executing in the environment. Each application will&lt;br/&gt;have to compete for the computational resources of the network. The scheduling heuristics&lt;br/&gt;will take into account the uncertainty in the stochastic estimates of the execution time&lt;br/&gt;and machine and network loads.&lt;br/&gt;3. Finally, reliable scheduling algorithms based on either heuristic cost functions or&lt;br/&gt;evaluation of the reliability of applications will be developed. The heuristic cost&lt;br/&gt;functions developed will define the impact of a scheduling decision on the reliability of&lt;br/&gt;an application in time units. These algorithms will consider both the execution time and&lt;br/&gt;failure probability of applications while making scheduling decisions, and thus, will be&lt;br/&gt;capable of producing task assignments that improve both the performance and reliability of&lt;br/&gt;applications. In addition, algorithms which can trade performance for reliability of&lt;br/&gt;applications will be designed.</AbstractNarration>
+    <MinAmdLetterDate>06/23/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/23/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0100633</AwardID>
+    <Investigator>
+      <FirstName>Fusun</FirstName>
+      <LastName>Ozguner</LastName>
+      <EmailAddress>ozguner.2@osu.edu</EmailAddress>
+      <StartDate>06/23/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University Research Foundation -DO NOT USE</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6142923732</PhoneNumber>
+      <StreetAddress>1960 KENNY RD</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

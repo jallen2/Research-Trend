@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Architectural Support for Scalable High-Speed Routers</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Timothy M. Pinkston</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Scalable high-speed routers are necessary to handle rapidly growing traffic in the Internet at the aggregated packet forwarding rates expected to reach terabits per second. This proposal deals with a novel router architecture with good scalability and capable of forwarding hundreds of millions of packets per second, in order to keep up with future transmission technologies. It aims to help advance the state-of-the-art of router design and to enable large networking configurations. The project contains both basic research and experimental systems activities, including the major objectives of (1) developing a fast packet classification subsystem (PCS), (2)pursuing a scalable switching fabric (SSF) for interconnecting line cards,&lt;br/&gt;(3) assessing the use of a simultaneous multithreading SMT) processor to replace the conventional processor(s) in each forwarding engine, and 4) investigating into effective fault-tolerant schemes for key router components. The first three objectives are related to router scalability and performance,&lt;br/&gt;whereas the last one is for reliability improvement, which is especially crucial as the router sizes grow. The fast PCS proposed comprises multiple forwarding engines and a novel cache-oriented multistage structure (COMS), which directs packets arriving at line cards to those forwarding engines for table lookups. The COMS caches lookup results at its constituent switching elements to enable fast and concurrent lookups of subsequent packets. Each forwarding engine keeps only partial routing/filter lookup tables, rather than full ones (as in any other router design). The SSF is based on PI's earlier switching fabric work, with an appropriate set of wrap-around connections and additional logics for hardware multicast support. An initial study on the use of an SMT processor to handle multiple table-lookup processes, with one thread for a process, is encouraging, and its extensive assessment will be conducted in this project. Caching lookup outcomes optimally in COMS will be modeled formally as a graph optimization problem, with its solution being developed. Research results from this project are likely to have material, positive impacts on future router design, advancing networking technologies to facilitate the continuous expansion of the Internet for years to come. They will also enrich the lecturing materials of such courses as computer communications and networks, network computing, and distributed systems.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105529</AwardID>
+    <Investigator>
+      <FirstName>Nian-Feng</FirstName>
+      <LastName>Tzeng</LastName>
+      <EmailAddress>tzeng@cacs.louisiana.edu</EmailAddress>
+      <StartDate>08/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Louisiana at Lafayette</Name>
+      <CityName>Lafayette</CityName>
+      <ZipCode>705032701</ZipCode>
+      <PhoneNumber>3374826203</PhoneNumber>
+      <StreetAddress>104 University Circle</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Incorporating Fault Tolerance at the Application Level</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2003</AwardExpirationDate>
+    <AwardAmount>210607</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Pratibha Varma-Nelson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Preliminary work by the PIs has shown that application-level information can be exploited to greatly reduce the amount of redundancy required to deal with transient failures, which are by far the most common type of failure. For example, in a radar target-tracking application, our approach required only 15% redundancy to provide complete fault-tolerance against transient faults. Another use of ALFT is in providing a temporary patch in the event of a permanent processor failure, allowing the system more time to execute a recovery algorithm.&lt;br/&gt;&lt;br/&gt;ALFT is orthogonal to other approaches to fault-tolerance, so that it can be used either by itself or in combination with them. For example, a designer might use ALFT to guard against transients, and make a small amount of hardware redundancy available, in the form of line-replaceable spares, to deal with permanent failures.&lt;br/&gt;&lt;br/&gt;The objective of this project is to develop Application-Level Fault Tolerance strategies and investigate their&lt;br/&gt;effectiveness for various classes of real-time applications. The main focus will be to generalize our approach to include as many different types of applications as possible, develop the most suitable strategy for each application type and evaluate the efficiency of the developed scheme.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/11/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0104482</AwardID>
+    <Investigator>
+      <FirstName>Israel</FirstName>
+      <LastName>Koren</LastName>
+      <EmailAddress>koren@ecs.umass.edu</EmailAddress>
+      <StartDate>09/04/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>C.Mani</FirstName>
+      <LastName>Krishna</LastName>
+      <EmailAddress>krishna@ecs.umass.edu</EmailAddress>
+      <StartDate>09/04/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>AMHERST</CityName>
+      <ZipCode>010039242</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

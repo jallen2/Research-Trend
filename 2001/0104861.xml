@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Direct Reconstruction Algorithm for the 2-D Inverse Conductivity Problem</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2005</AwardExpirationDate>
+    <AwardAmount>84983</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal addresses a direct numerical reconstruction algorithm for the 2-D inverse conductivity problem. The 2-D inverse conductivity problem is to determine an unknown conductivity distribution on a bounded region from knowledge of the Dirichlet-to-Neumann map. Physically, knowledge of the Dirichlet-to-Neumann map is tantamount to knowing the current density distribution on the boundary of the region resulting from any given voltage distribution applied on the boundary. The problem is modeled mathematically by the generalized Laplace's equation with the conductivity as an unknown parameter. In 1995 A. Nachman proved that knowledge of the Dirichlet-to-Neumann map uniquely determines the conductivity in the interior of a smooth bounded region in 2-D. An important feature of Nachman's proof is that it outlines a direct method for solving for the conductivity without iteration. The proof is based on techniques of inverse scattering and the d-bar method, which is a method of solution for scattering problems, not a numerical technique. The primary goals of this proposal are to solve the inverse conductivity problem numerically using the d-bar method, develop a practical reconstruction algorithm for medical applications, and to test the implementation on physically relevant conductivity distributions. &lt;br/&gt;&lt;br/&gt;The 2-D inverse conductivity problem has applications in geophysics, nondestructive testing, and a medical imaging technique known as electrical impedance tomography (EIT). One application of EIT is the imaging of heart and lung function in real time. In this application, electrodes are placed around the circumference of the patient's torso, current is applied on the electrodes and the resulting voltage is measured. The resulting 2-D inverse conductivity problem is then solved numerically to reconstruct how the electricity passes through the interior and to form a cross-sectional image of the patient's chest. Other applications include the detection of breast cancer, monitoring for internal bleeding, and the diagnosis of pulmonary embolis (a blood clot in the lung). The proposed approach represents a new class of image reconstruction algorithm for the EIT problem. Work thus far has indicated that the algorithm yields more accurate images than the existing fast algorithms, since it solves the full set of equations rather than a a more simplified version of the problem. This is particularly important in medical applications such as breast cancer detection, where the measured values distinguish between the presence of a tumor or a benign cyst. The algorithm will be tested on real data and compared to existing algorithnms in terms of accuracy and efficiency.</AbstractNarration>
+    <MinAmdLetterDate>08/30/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0104861</AwardID>
+    <Investigator>
+      <FirstName>Jennifer</FirstName>
+      <LastName>Mueller</LastName>
+      <EmailAddress>mueller@math.colostate.edu</EmailAddress>
+      <StartDate>08/30/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Colorado State University</Name>
+      <CityName>Fort Collins</CityName>
+      <ZipCode>805232002</ZipCode>
+      <PhoneNumber>9704916355</PhoneNumber>
+      <StreetAddress>601 S Howes St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

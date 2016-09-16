@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Exploiting Spatial and Channel Diversity in Ad Hoc Networks</AwardTitle>
+    <AwardEffectiveDate>09/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2003</AwardExpirationDate>
+    <AwardAmount>229991</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050202</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Admela Jukan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Mobile ad hoc networks are multi-hop wireless networks, with dynamically changing network&lt;br/&gt;topology. Evaluating network capacity is a hard problem in such networks because of the shared&lt;br/&gt;nature of the radio medium and possibility of spatial reuse. The latter is again influenced by routes&lt;br/&gt;used and node mobility. On the other hand, understanding the network capacity in terms of available bandwidth is crucial to design effective routing protocols. The resarchers propose empirical techniques to evaluate the network capacity. The techniques work in conjunction with a simulator and use mobility and session-level traces to compute capacity that can be compared against the network utilization reported by the simulator. Preliminary experiments indicate interesting results that more capacity is available with higher mobility; however common routing protocols fail to utilize the additional capacity for better routing performance. Preliminary analysis indicates that spatial diversity is not exploited enough by conventional protocols, indicating that multipath routing protocols and distributing traffic over multiple paths would be quite effective.&lt;br/&gt; While investigating better techniques to evaluate capacity will be one component of the researchers work, they will also expend substantial effort in developing multipath protocols and techniques to achieve better load balance. For efficiency they will focus on protocols with an on-demand nature. The researchers indicate in this proposal how multiple, link- or node-disjoint, loop-free routes can be computed on demand without the use of source routing, with minimal additional overhead. The researchers will further development and analysis of such protocols. The emphasis will be on obtaining as many multipath&lt;br/&gt;routes as possible. Our preliminary results already indicate that such routing mechanisms&lt;br/&gt;reduce route discovery attempts, thus improving both delay and throughput. We will also focus on&lt;br/&gt;evaluating techniques to distribute load on multiple routes effectively for a fuller utilization of the&lt;br/&gt;available capacity.&lt;br/&gt; However, we point out that the dense nature of most ad hoc networks will form multiple routes&lt;br/&gt;in radio vicinity. In that case, topologically disjoint routes may still share radio medium. To&lt;br/&gt;achieve diversity further, we propose using multiple channels in the underlying medium access&lt;br/&gt;control (MAC) layer so that independent channels can be assigned to neighboring routes. While&lt;br/&gt;individual channels may now have less capacity, some preliminary results indicate that significant&lt;br/&gt;performance gains are possible if the transmitter is capable of transmitting on multiple channels&lt;br/&gt;concurrently. The researchers wish to explore, among other things, channel selection issues for individual links and paths when multipath routes are available.&lt;br/&gt; To summarize, the overall goal in this project is to better our understanding of the capacity of&lt;br/&gt;a mobile ad hoc network operating with real network protocols; and to exploit spatial and channel&lt;br/&gt;diversity significantly with a synergistic use of multipath routing and multichannelMAC protocols.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/12/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0125803</AwardID>
+    <Investigator>
+      <FirstName>Samir</FirstName>
+      <LastName>Das</LastName>
+      <EmailAddress>samir@cs.stonybrook.edu</EmailAddress>
+      <StartDate>09/12/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Cincinnati Main Campus</Name>
+      <CityName>Cincinnati</CityName>
+      <ZipCode>452210222</ZipCode>
+      <PhoneNumber>5135564358</PhoneNumber>
+      <StreetAddress>University Hall, Suite 530</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4095</Code>
+      <Text>SPECIAL PROJECTS IN NET RESEAR</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

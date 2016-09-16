@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Beyond the Frame: Perceptually Based Rendering with Distributed Graphics Systems</AwardTitle>
+    <AwardEffectiveDate>05/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2003</AwardExpirationDate>
+    <AwardAmount>52670</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Lawrence Rosenblum</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0135943&lt;br/&gt;David Luebke&lt;br/&gt;University of Virginia&lt;br/&gt;&lt;br/&gt;The computer g aphics community increasingly recognizes the importance of understanding and leveraging the human pe ceptual system.Indeed,several researchers have proposed techniques to accelerate rendering by exploiting the limitations of human vision. However,this research has focused on realistic rendering algorithms such as ray and path tracing, which take seconds or minutes to render.Ve y little work has been done on perceptually d iven interactive rendering,whe e each image must be completed in milliseconds.Yet a dire need exists for techniques to accelerate interactive rendering of ever-la ger datasets,fo despite&lt;br/&gt;tremendous strides in graphics hardware,the growth in complexity of 3-D models appears to be&lt;br/&gt;outstripping our ability to render them.&lt;br/&gt;One barrier to research on perceptually motivated interactive rendering acceleration methods has been the inflexibility of standard graphics hardware.The rendering pipeline, specialized and perfected over many yea s,is now extremely fast at a narrow set of rendering tasks,but researchers cannot tamper with the traditional polygon-rendering underpinnings. We propose to circumvent this barrier by using software rendering,distributed across a cluster to achieve interactive ates on complex scenes.This SGER focuses on building the equipment necessa y to analyze several perceptual rendering techniques impossible under the traditional polygon-oriented interactive rendering paradigm.</AbstractNarration>
+    <MinAmdLetterDate>05/13/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/13/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0135943</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Luebke</LastName>
+      <EmailAddress>luebke@cs.virginia.edu</EmailAddress>
+      <StartDate>05/13/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Virginia Main Campus</Name>
+      <CityName>CHARLOTTESVILLE</CityName>
+      <ZipCode>229044195</ZipCode>
+      <PhoneNumber>4349244270</PhoneNumber>
+      <StreetAddress>P.O. BOX 400195</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2865</Code>
+      <Text>NUMERIC, SYMBOLIC &amp; GEO COMPUT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

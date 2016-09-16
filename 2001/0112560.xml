@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SI(SPIII): An Information Theoretic Approach to Secret Key Generation for Encrypted Communication in a Network</AwardTitle>
+    <AwardEffectiveDate>01/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2005</AwardExpirationDate>
+    <AwardAmount>371049</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Wu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Information security is an issue of critical importance in communication networks. We propose a novel approach for achieving integrity,authentication and privacy among the nodes of a network. The principal challenge that we address concerns the generation and establishment of secret keys in such a network for subsequent secure encrypted communication among the nodes. Our approach, which is based on information theory, provides new insights into the problem of secret key generation, and holds promise for the development of novel techniques and algorithms in the design of cryptosystems.&lt;br/&gt;&lt;br/&gt; An important strength of our approach, which is based on recent theoretical developments, lies in its ability to assure an enhanced level of information security. It uses a stringent notion of information theoretic secrecy or security rather than the notions of computational security and complexity-theoretic security on which all currently used cryptosystems are based. The statistical notion of information theoretic secrecy guarantees that legitimate messages and secret keys are, in effect, concealed from an adversary who is assumed to possess wiretapping and eavesdropping capabilities, and is, furthermore, not limited in terms of computational resources. This is in contrast with the existing notion of security which relies on the difficulty currently faced in solving certain underlying computational problems; recent advances in factorization into primes and quantum computing point to the potential vulnerability of cryptosystems based on this notion of security. A second important strength of our approach is that it enables a systematic study of secret key generation, at the outset and in layers, with different layers of secret keys being assigned to different subsets of nodes in the network. This feature is particularly relevant for guaranteeing information security in networks with changing topologies, particularly when some nodes are either disabled or cease to be authorized and reliable. In such situations, the surviving or remaining authorized nodes can switch from one layer of secret keys to another so as to maintain information security among themselves.&lt;br/&gt;&lt;br/&gt; The proposed program of research addresses several important issues associated with with the aforementioned generation of secret keys in a network. A prime objective is the establishment of secret keys by means of exchanges of "correlated" information over insecure public channels, and through the extraction of "common randomness" from noisy but secure channels; such keys must be concealed from an adversary who can eavesdrop on the public channels, and may possess additional wiretapping capabilities. Explicit \lq\lq rate constraints" will be imposed on exchanges between the nodes, depicting bandwidth limitations associated with the use of shared public channels, e.g., in a wireless environment. An innovative feature, and a useful technical device, involves the introduction of a \lq\lq helper" node (e.g., a centralized or trusted server in a key establishment protocol)which, when appropriate, can serve to facilitate secret key generation by the nodes by furnishing them additional correlated information or computational resources. In another significant departure from current practice, secret keys will be generated using randomization methods and drawing on techniques from the multi-user information theory of source coding and channel coding.&lt;br/&gt;&lt;br/&gt; Our proposed research is expected to lead to several significant and innovative contributions. Firstly, our information theoretic framework will provide new and valuable theoretical insights into the problem of secret key generation in a network of nodes,while complementing the current approach based on computational complexity. Second, our use of techniques for data compression and channel coding in the&lt;br/&gt;design of secret keys will lead to an exploration of novel practical techniques and algorithms for secret&lt;br/&gt;key generation in layers. Third, our proposed framework will afford a means for a quantitative and comparative assessment of the extent of information theoretic security provided by existing secret key cryptosystems, thereby buttressing or weakening current claims of security. An important component of the proposed work is the development of new algorithms and accompanying software for the layered generation of secret keys in a network. Finally, the proposed work will lead to potential advances in information theory through the introduction of new models and techniques.</AbstractNarration>
+    <MinAmdLetterDate>09/07/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/07/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0112560</AwardID>
+    <Investigator>
+      <FirstName>Prakash</FirstName>
+      <LastName>Narayan</LastName>
+      <EmailAddress>prakash@eng.umd.edu</EmailAddress>
+      <StartDate>09/07/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

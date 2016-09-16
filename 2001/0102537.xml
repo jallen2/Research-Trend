@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Robust Limited Memory Hybrid Sparse Solvers</AwardTitle>
+    <AwardEffectiveDate>08/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2006</AwardExpirationDate>
+    <AwardAmount>315473</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Robust Limited Memory Hybrid Sparse Solvers&lt;br/&gt;&lt;br/&gt;Sparse linear solvers can be broadly classified as being either 'direct' or 'iterative.' Direct solvers are based&lt;br/&gt;on a factorization of the associated sparse matrix and are extremely robust. However, their memory requirements grow as a non-linear function of the matrix dimension because original zeroes fill-in during factorization.&lt;br/&gt;The Krylov subspace (KSP) family of iterative methods are memory scalable, but their convergence&lt;br/&gt;can be slow or fail altogether. This project concerns developing scalable hybrids than can be parameterized&lt;br/&gt;to model the range from pure iterative to pure direct methods. We propose to develop parallel algorithms&lt;br/&gt;and software engineering methods aimed at providing robust, limited memory hybrid solvers that satisfy the&lt;br/&gt;computational demands of a variety of applications.&lt;br/&gt;On the algorithmic front, our focus is on hybrids obtained by preconditioning KSP solvers using suitable&lt;br/&gt;incomplete matrix factors. Such preconditioners are robust and widely applicable, but until recently they&lt;br/&gt;were considered unsuitable for parallel computing. The main reason is that the sparse triangular solves for&lt;br/&gt;applying the preconditioner become a bottleneck due to the relatively high latency of communication. We&lt;br/&gt;have recently developed a latency tolerant 'selective-inversion' scheme that overcomes this problem to yield&lt;br/&gt;an efficient and scalable implementation. In this project, we propose developing parallel sparse factorization&lt;br/&gt;techniques that are efficient for the entire spectrum of fill-in. We will develop a new 'supernodal diagonal&lt;br/&gt;row block' formulation for scalable incomplete factorization. We will also consider innovative ways of&lt;br/&gt;combining symbolic (level of fill) and numeric (threshold) strategies to specify fill-in to be either retained&lt;br/&gt;or discarded. Additionally, our algorithmic framework enables us to provide a single, unified, extensible&lt;br/&gt;implementation of hybrids for symmetric positive definite, symmetric indefinite, and nonsymmetric systems.&lt;br/&gt;On the software front, we define a new 'usage model' based 'reverse engineering' process to develop a high-performance domain specific solver as a smart composite of several methods. Our premise is that the right composite solver is domain specific; substantial performance gains can be realized by selecting the right combination of underlying methods to match linear system attributes. We will obtain a uniform interface to a variety of parallel sparse solver software by developing an object-oriented sparse template library that utilizes parameterized polymorphism. Composites will be instantiated by using this template library and a scripting language that supports parallel computing using MPI.&lt;br/&gt;Our design goals and performance targets will be keyed to three large-scale computational science applications. The first concerns computational methods for advanced optimization; this application requires robust indefinite solvers. The second is a structural mechanics application for modeling cracks and fractures. The third application involves large sparse eigenvalue problems that arise in quantum molecular dynamics.&lt;br/&gt;Our project represents a concerted effort to resolve critical research issues in the area of parallel sparse&lt;br/&gt;matrix computations. Our goal is to develop the next generation of sparse solvers by combining research in&lt;br/&gt;parallel algorithms and software engineering.</AbstractNarration>
+    <MinAmdLetterDate>08/13/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/01/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0102537</AwardID>
+    <Investigator>
+      <FirstName>Padma</FirstName>
+      <LastName>Raghavan</LastName>
+      <EmailAddress>raghavan@cse.psu.edu</EmailAddress>
+      <StartDate>08/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

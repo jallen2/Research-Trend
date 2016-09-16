@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: An In-Kernel Runtime Execution Environment for User-Level Programs</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2008</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>EIA-0133589&lt;br/&gt;Erez Zadok &lt;br/&gt;SUNY -Stony Brook&lt;br/&gt;&lt;br/&gt;CAREER: An In-Kernel Runtime Execution Environment for User-Level Programs&lt;br/&gt;&lt;br/&gt;We propose to develop a system that will simplify operating system code development while improving performance. Developing operating system kernel code is difficult for three reasons. First, the kernel is an unforgiving environment to work in, where any small bug can result in large-scale data corruption; debugging tools for kernels are not as flexible as their user-level counterparts and are not used often. Second, kernel developers must write codes that takes into account many unusual conditions such as resource contention, locks, reference counts, being interrupted or re-entrant, and more. Third, before programmers can become proficient kernel developers, they must read and understand large amounts of complex kernel code. However, one major advantage to developing kernel code is that it runs very fast; the kernel has direct access to all the system resources.&lt;br/&gt;&lt;br/&gt;The benefits of this research will include the creation of a novel system that allows anyone who can write user-level code to develop and test their code in the user level where it is easier to do so, and then to execute that code inside the kernel to gain significant performance benefits. This research will enable us to learn about the security and scalability of running many kernel applications and develop methods to optimize the performance of in-kernel applications further.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/06/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0133589</AwardID>
+    <Investigator>
+      <FirstName>Erez</FirstName>
+      <LastName>Zadok</LastName>
+      <EmailAddress>ezk@cs.stonybrook.edu</EmailAddress>
+      <StartDate>08/20/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2884</Code>
+      <Text>NEXT GENERATION SOFTWARE PROGR</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

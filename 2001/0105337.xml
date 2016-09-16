@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Massive Data Streams: Algorithms and Complexity</AwardTitle>
+    <AwardEffectiveDate>07/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2004</AwardExpirationDate>
+    <AwardAmount>256304</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010100</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Du</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: "Massive Data Streams: Algorithms and Complexity"&lt;br/&gt;&lt;br/&gt;Investigators: Joan Feigenbaum and Sampath Kannan&lt;br/&gt;&lt;br/&gt;Abstract:&lt;br/&gt; Massive data sets are increasingly important in many applications,&lt;br/&gt;including observational sciences, product marketing, and monitoring and&lt;br/&gt;operations of large systems. In network operations, raw data typically arrive&lt;br/&gt;in streams, and decisions must be made by algorithms that make one pass&lt;br/&gt;over each stream, throw much of the raw data away, and produce ``synopses''&lt;br/&gt;or ``sketches'' for further processing. Moreover, network-generated massive&lt;br/&gt;data sets are often distributed: Several different, physically separated&lt;br/&gt;network elements may receive or generate data streams that, together, comprise&lt;br/&gt;one logical data set. The enormous scale, distributed nature, and one-pass &lt;br/&gt;processing requirement on the data sets of interest must be addressed with &lt;br/&gt;new algorithmic techniques.&lt;br/&gt; Two programming paradigms for massive data sets are "sampling" and&lt;br/&gt;"streaming." Rather than take time even to read a massive data&lt;br/&gt;set, a sampling algorithm extracts a small random sample and computes&lt;br/&gt;on it. By contrast, a streaming algorithm takes time to read all the input, &lt;br/&gt;but little more time and little total space. Input to a streaming algorithm &lt;br/&gt;is a sequence of items; the streaming algorithm is given the items in order, &lt;br/&gt;lacks space to record more than a small amount of the input, and is required&lt;br/&gt;to perform its per-item processing quickly in order to keep up with&lt;br/&gt;the unbuffered input. The investigators continue the study of &lt;br/&gt;fundamental algorithms for massive data streams. Specific problems of&lt;br/&gt;interest include but are not limited to the complexity of proving properties &lt;br/&gt;of data streams, the construction of one-pass testers of properties of &lt;br/&gt;massive graphs, and the streaming space complexity of clustering.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105337</AwardID>
+    <Investigator>
+      <FirstName>Joan</FirstName>
+      <LastName>Feigenbaum</LastName>
+      <EmailAddress>joan.feigenbaum@yale.edu</EmailAddress>
+      <StartDate>08/01/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sampath</FirstName>
+      <LastName>Kannan</LastName>
+      <EmailAddress>kannan@central.cis.upenn.edu</EmailAddress>
+      <StartDate>08/01/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Yale University</Name>
+      <CityName>New Haven</CityName>
+      <ZipCode>065208327</ZipCode>
+      <PhoneNumber>2037854689</PhoneNumber>
+      <StreetAddress>Office of Sponsored Projects</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2860</Code>
+      <Text>THEORY OF COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Spatial and Spatio-Temporal Aggregation</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>344276</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gia-Loi Le Gruenwald</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Aggregate computation is expensive, especially when time-varying attributes are involved in it. The task of computing aggregates becomes more challenging for spatial and spatio-temporal databases, as the spatial and temporal extent over which the aggregate value holds must be computed. For example, multi-attribute images are often the result of a query in the Earth Observing System (EOS) environments, which retrieves all of the measurements incident on the pixels that satisfy the spatio-temporal bounds of the query. Each pixel of multi-attribute images has several values associated with it. This project develops a suite of techniques for computing spatio-temporal aggregates. While there has been significant work done in temporal aggregation, little is known about how to evaluate spatial aggregates. The existing temporal aggregation and spatial join algorithms are generalized to create efficient algorithms for computing spatial aggregates, and then further generalized these algorithms to accommodate spatio-temporal aggregates. In addition, scalable techniques will be developed by parallelizing the aggregation algorithms on a shared-nothing architecture. The project team includes a hydrologists at the United States Geological Survey on the USGS Death Valley Regional Flow System (DVRFS) Project, which is investigating ground-water flow in the Nevada Test Site, proposed as a repository for high-level nuclear waste. The results from this research has a direct impact on many large-scale spatio-temporal database applications such as EOS, cadastral databases, atmospheric databases and hydrologic databases.</AbstractNarration>
+    <MinAmdLetterDate>09/10/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0100436</AwardID>
+    <Investigator>
+      <FirstName>Bongki</FirstName>
+      <LastName>Moon</LastName>
+      <EmailAddress>bkmoon@cs.arizona.edu</EmailAddress>
+      <StartDate>09/10/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>Snodgrass</LastName>
+      <EmailAddress>rts@cs.arizona.edu</EmailAddress>
+      <StartDate>09/10/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Arizona</Name>
+      <CityName>Tucson</CityName>
+      <ZipCode>857194824</ZipCode>
+      <PhoneNumber>5206266000</PhoneNumber>
+      <StreetAddress>888 N Euclid Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0104000</Code>
+      <Name>Information Systems</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>6855</Code>
+      <Text>INFORMATION &amp; KNOWLEDGE MANAGE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

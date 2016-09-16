@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SI: On Robust and Secure Mobile Ad Hoc and Sensor Networks</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2005</AwardExpirationDate>
+    <AwardAmount>418000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Venugopal V. Veeravalli</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A Mobile Ad hoc NETwork (MANET) is a collection of mobile autonomous system of nodes connected&lt;br/&gt;by wireless links with multi-hop communication and no underlying infrastructure. Research in the field of&lt;br/&gt;MANET is receiving unprecedented attention due to their profound impact on human life. The most&lt;br/&gt;important problems in MANET are Routing, Quality of Service, Security, Power management and Traffic&lt;br/&gt;and Mobility modeling and we plan to address many of these issues.&lt;br/&gt;In a MANET, when a mobile node has a packet to send, it first consults its route cache to determine&lt;br/&gt;whether it already has a route to destination, else it initiates route discovery by broadcasting. Once a route&lt;br/&gt;is established, its continuation and maintenance is of prime concern for efficient communication. A route&lt;br/&gt;could be broken by mobility and is determined by route error packets. Rather than employing a&lt;br/&gt;conventional way of global re-flooding for a new route search, we address this by Local Route Repair&lt;br/&gt;(LLR) approach and achieve re-connectivity with minimum overhead. Further work is needed to extend&lt;br/&gt;our scheme by increasing the length of patch-up part. We expect this to yield a higher amount of savings&lt;br/&gt;in terms of routing overhead and delay when unidirectional links are present. We also plan to define an&lt;br/&gt;analytical framework for different protocols and determine their performance.&lt;br/&gt;The need for scheduling in a MANET arises primarily due to limited availability of resources. We plan to&lt;br/&gt;study the impact of packet level scheduling strategies that transmit packets based on a metric derived&lt;br/&gt;from characteristics of the data being transmitted, like the length of the packets or the length of the route&lt;br/&gt;being traversed by the packets or even the priority of the packets. We plan to test other routing schemes&lt;br/&gt;and define and formulate an analytical model for packet queue at each node so that we could determine&lt;br/&gt;end-to-end delay of different types of packets.&lt;br/&gt;Effective operation of MANETs is dependent on maintaining appropriate routing information in a&lt;br/&gt;distributed fashion. Confidentiality of routing information is important so that not only the payload data&lt;br/&gt;but also the routing message headers carrying, the location information of the mobile nodes can be&lt;br/&gt;exchanged securely. We have defined an authentication scheme that can prevent the external attacks. We&lt;br/&gt;minimize substantial overhead by performing mutual authentication using challenge-response mechanism&lt;br/&gt;along the reply path only when the route reply is received. We plan to propose a distributed intrusion&lt;br/&gt;detection system to handle them. We will build these systems based on traffic profiles that we would&lt;br/&gt;obtain after extensive study of the traffic patterns. We are planning to perform a detailed simulation to&lt;br/&gt;obtain metrics that would help us in differentiating valid and malicious data.&lt;br/&gt;Wireless sensor networks can be easily deployed without any installation costs or pre-planned&lt;br/&gt;organization. To increase fault tolerance, thousands of these sensors might be employed. The traditional&lt;br/&gt;routing protocols defined for wireless ad hoc network do not scale well for sensor networks as they are&lt;br/&gt;data centric and application-specific unlike traditional networks. Most protocols for sensor network&lt;br/&gt;collect data periodically from environment. We feel that there exists a need for networks geared towards&lt;br/&gt;responding immediately to changes in the sensed attributes. Very recently, we have proposed a protocol&lt;br/&gt;called TEEN for such networks. We are also looking at ways to combine the best features of both&lt;br/&gt;proactive and reactive protocols to form a hybrid network. We also believe that sensor networks should&lt;br/&gt;provide the end user with the ability to control the three-way trade-off between energy efficiency,&lt;br/&gt;accuracy and response time dynamically. In brief, the proposal research will have a long-term impact on&lt;br/&gt;the robustness and security of MANETs and sensor networks.</AbstractNarration>
+    <MinAmdLetterDate>08/16/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/07/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113361</AwardID>
+    <Investigator>
+      <FirstName>Dharma</FirstName>
+      <LastName>Agrawal</LastName>
+      <EmailAddress>dpa@cs.uc.edu</EmailAddress>
+      <StartDate>08/16/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Cincinnati Main Campus</Name>
+      <CityName>Cincinnati</CityName>
+      <ZipCode>452210222</ZipCode>
+      <PhoneNumber>5135564358</PhoneNumber>
+      <StreetAddress>University Hall, Suite 530</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1667</Code>
+      <Text>HIGH CONFIDENCE SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

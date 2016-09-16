@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Improvements and New Techniques for Deterministic and Stochastic SIR based Power Control for 3-G Wireless CDMA Networks</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2005</AwardExpirationDate>
+    <AwardAmount>276968</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050202</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The proposed research is about the use of optimal control theory and modern numerical linear algebra&lt;br/&gt;techniques to improve existing power control schemes and to formulate and solve more general and more&lt;br/&gt;realistic formulations of power control problem in 3-G wireless CDMA networks. The first two parts of the&lt;br/&gt;proposal deal with the deterministic power control problem and its variants, and the third part is on&lt;br/&gt;stochastic versions of the same problem.&lt;br/&gt; In the first part of the proposed research, an improvement of distributed constrained power control&lt;br/&gt;algorithm (PCPC), which is presently considered in the literature as the most efficient one, is suggested&lt;br/&gt;via the use of the acceleration techniques for fixed-point iterations and via the use Krylov subspace&lt;br/&gt;iterations (presently considered as the most efficient numerical method for solving systems of linear&lt;br/&gt;large scale algebraic equations).&lt;br/&gt; The second part of the proposal considers an optimal fast closed-loop SIR-based power control&lt;br/&gt;scheme for 3-G wireless CDMA network, based on the recent research work of the author of this proposal&lt;br/&gt;and his doctoral student. In addition of being optimal, the scheme obtained theoretically converges in one&lt;br/&gt;iteration. This scheme follows perfectly channel variations and assumes that the link gains constantly&lt;br/&gt;change in time. Due to the fact that the scheme needs a scalar discrete-time estimator (predictor), it&lt;br/&gt;practically converges in 4-5 iterations. Simulations on a CDMA system demonstrate the effectiveness of&lt;br/&gt;the optimal power control algorithm and its superiority over the corresponding IS-95 algorithm and the&lt;br/&gt;present version of the DCPC algorithm. As a future research topic, a comparative analysis between the&lt;br/&gt;optimized power control algorithm and the improved versions of the DCPC algorithm (accelerated and&lt;br/&gt;Krylov subspace based) to be obtained in the first part of this proposal, is suggested first. Secondly, since&lt;br/&gt;during optimization, the weighted sum of the transmission power and the SIR (signal-to-interference)&lt;br/&gt;error, are jointly optimized, the power control problem can be put in the framework of Nash dynamic&lt;br/&gt;games. It is suggested to extend the optimized power control results to capture the conflict situation&lt;br/&gt;among users in a wireless network, which leads to the formulation of a Nash dynamic game problem.&lt;br/&gt; The third part of this proposal deals with the stochastic formulation of the power control problem. This&lt;br/&gt;is a pretty much new and widely open research problem. The basic problem formulation extends the&lt;br/&gt;deterministic optimized power control problem to a stochastic environment, and leads to the linear power&lt;br/&gt;evolution equation with additive Gaussian white noise. This problem formulation assumes that either link&lt;br/&gt;gains or background noise or both are modeled as Gaussian white noise stochastic processes. Its variant&lt;br/&gt;of colored background noise and colored link gains noise are also suggested for future research. In&lt;br/&gt;addition, more realistic situations of state- and control-dependent noise using optimal control theory&lt;br/&gt;results will be considered. The control variables will be the ones that regulate the convergence process of&lt;br/&gt;the state variables (transmission powers and SIR errors) to their optimal values in a noisy environment.&lt;br/&gt;Note that the state- and control-dependent noise optimal control problems in discrete-time domain have&lt;br/&gt;been solved recently in the optimal control literature. In the final stage of this proposal, it is suggested to&lt;br/&gt;study the power control problem assuming that the link gains change according to Poisson stochastic&lt;br/&gt;processes.&lt;br/&gt; The impact of the proposed research will be in the area of improvements of the capacity of 3-G&lt;br/&gt;wireless CDMA networks, reliability of quality of service (QoS) and durability of user's battery life. All&lt;br/&gt;these will be achieved by controlling interference in an optimal manner.</AbstractNarration>
+    <MinAmdLetterDate>09/20/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/14/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0106857</AwardID>
+    <Investigator>
+      <FirstName>Zoran</FirstName>
+      <LastName>Gajic</LastName>
+      <EmailAddress>gajic@winlab.rutgers.edu</EmailAddress>
+      <StartDate>09/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4097</Code>
+      <Text>NETWORKING RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

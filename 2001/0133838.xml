@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Supporting Evolution in Distributed Object Computing Systems</AwardTitle>
+    <AwardEffectiveDate>02/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2008</AwardExpirationDate>
+    <AwardAmount>395712</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Programming for distributed object computing systems is complicated by the fact that objects persist and interact with a number of other objects in the system. When programmers change and evolve their objects, the ramifications are felt by clients in other parts of the system, not just within the application that is being programmed. Therefore, distributed object programmers require mechanisms to manage this evolution and make it known to other objects in the system.&lt;br/&gt;The dynamically configurable distributed object (DCDO) model is a first step toward managing evolution in distributed object systems. The DCDO model, implemented within the Legion grid computing system, helps enable object evolution and facilitate the development of distributed objects from multiple independent implementation components. Using DCDOs, programmers can evolve existing active objects to accept new member functions, to change the interface and behavior of their member functions, and to remove member functions from their external (public) or internal (private) interface. Programmers can make these changes on the fly, without deactivating any part of the system, without replacing binary exe-cutables, without interrupting the clients of evolving objects, and without having to know what the changes will be at the time the objects are initially compiled and run. The model supports evolution management strategies that define when and how object types evolve from one version to the next, and determine when a type change is propagated to existing instances. The evolution management strategies built into the DCDO model are a good start toward managing change, but they are not sufficient. Programmers require a more general purpose mechanism for defining how objects can change, and for restricting how evolutions can take place. The research described in this proposal will address this problem. In particular, we will make the evolution characteristics of an object a first class entity in the distributed system, so that it can be read by other objects, which can then behave appropriately based on how their peers have evolved and may evolve in the future. Clients will be able to read the evolution histories of servers, and will be able to determine the restrictions, if any, that are placed on future server evolution. Further, clients will be able to register call-back functions with servers in order to be informed when changes take place. When they do, the clients can be given some control over when and how the changes can be carried out. In some cases, a client may be able to veto an evolution operation, or delay it until the client has finished its current application. This functionality is implemented in terms of a protocol that is initiated by the call back functions among the clients who have registered interest in the evolution operation. This begins to address the problem of implementations changing out from under clients that are built to support a different interface. In another important part of the research, we will study how real applications change over time, in order to effectively design evolution management strategies and constraints. We will include a wide range of different applications in the study, including the core Legion objects themselves, high performance scientific applications, and distributed collaborative environments. In the educational component of the proposed program, we will implement the Student Centered Applied Learning through Industry Projects (SCALIP) program. In this program, students work with local industries to define class projects for other students in future instantiations of core graduate courses.</AbstractNarration>
+    <MinAmdLetterDate>01/28/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/17/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0133838</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Lewis</LastName>
+      <EmailAddress>mlewis@binghamton.edu</EmailAddress>
+      <StartDate>01/28/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Binghamton</Name>
+      <CityName>BINGHAMTON</CityName>
+      <ZipCode>139026000</ZipCode>
+      <PhoneNumber>6077776136</PhoneNumber>
+      <StreetAddress>4400 VESTAL PKWY E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

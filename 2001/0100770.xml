@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Adaptive Synchronization Framework Supporting Device-independent Mobile Computing</AwardTitle>
+    <AwardEffectiveDate>07/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2004</AwardExpirationDate>
+    <AwardAmount>150000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Brett D. Fleisch</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Recent technological advances in wireless networks and portable information appliances have engendered the new paradigm of mobile computing, enabling users carrying portable devices to access and update data regardless of their physical location or movement behavior. However, the use of this technology will remain limited unless we develop the necessary concepts, theory and infrastructure that can seamlessly integrate mobility and disconnection into everyday networked computing. Extensive research is needed in order for mobile computing to become pervasive. &lt;br/&gt;Current research efforts do not support sufficient automation and management of mobile data access and update. Assumptions are usually made regarding the application, the source of mobile data, or the particularities of the mobile device. Ubiquitous data access is lacking due to the tight coupling between the mobile device and the mobile data. Users are therefore not allowed to switch mobile devices without spending a lot of effort on copying and re-hoarding. Additionally, current solutions do not support mobile access and hoarding from heterogeneous sources of data such as file systems, database servers, web servers, etc. Current research is also limited to basic synchronization schemes that do not take into consideration the variable and individual needs of consistency and up-to-dateness of mobile data. Finally, current mobile transaction models are not efficient in terms of successful commit rate, especially under prolonged periods of disconnection. &lt;br/&gt;This proposal is based on ongoing research on mobile computing, operating systems and data warehousing. The overall goal is to make mobile computing available to a broader range of users and applications by automating the hoarding of a wide variety of data from multiple heterogeneous sources into mobile devices, and to facilitate sophisticated synchronization between the mobile devices and the fixed networks where the sources reside. The specific goals are:&lt;br/&gt;Develop and evaluate a three-tiered architecture based on the Coda file system that provides independence between the mobile data and the mobile devices via a data warehouse for storing the user's working set. &lt;br/&gt;Develop algorithms for automatically and incrementally hoarding data on mobile devices and for synchronizing the contents of the mobile device with the working set in the warehouse and the original sources.&lt;br/&gt;Develop new synchronization techniques for maintaining the user's working set, based on programmable and conditional consistency specifications of mobile data items. Different data items may have different consistency requirements, and must therefore be synchronized differently.&lt;br/&gt;Develop a new model of mobile transactions that can guarantee that transactional updates performed during disconnection are highly likely to be committed upon reconnection.&lt;br/&gt;Our goal is to build upon existing results to develop the architecture and algorithms to make smart hoarding and synchronization in mobile environments a reality. We see the realization of such a framework as an important and necessary step towards making mobile computing a viable practice for a broad audience; a step that some day may lead us to the realization of ubiquitous computing. In our vision, users should be allowed to switch to any mobile device to connect to the fixed network and carry the necessary data with them, without having to worry about hoarding, synchronization, and other low-level burdens. Given our prior experience and research results in the areas of mobile computing, distributed systems, and data warehousing, we believe that we can successfully apply data warehousing technology to manage important user data as well as support the incremental maintenance of this data in light of frequent updates.</AbstractNarration>
+    <MinAmdLetterDate>07/11/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/11/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0100770</AwardID>
+    <Investigator>
+      <FirstName>Abdelsalam</FirstName>
+      <LastName>Helal</LastName>
+      <EmailAddress>sumi.helal@gmail.com</EmailAddress>
+      <StartDate>07/11/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Joachim</FirstName>
+      <LastName>Hammer</LastName>
+      <EmailAddress>joachimhammer@hotmail.com</EmailAddress>
+      <StartDate>07/11/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Florida</Name>
+      <CityName>GAINESVILLE</CityName>
+      <ZipCode>326112002</ZipCode>
+      <PhoneNumber>3523923516</PhoneNumber>
+      <StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

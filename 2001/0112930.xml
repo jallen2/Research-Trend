@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP: A Live-Data Simulation with Application to Bridge Performance</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>476823</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will develop a new generation of numerical simulation systems using advanced parallel computers, mathematical models, and real-time data. Modern sensor technology and the Internet have made it possible to monitor closely the performance of structures such as highway bridges. However, there are often limits on the possible number of embedded sensors, and accurate prediction the overall structural performance therefore requires other technologies, such as computer modeling, at the same time. This project will merge the two technologies, creating a computer modeling system that incorporates the live data in the numerical simulation.&lt;br/&gt;&lt;br/&gt;Using measured data as an integrated part of a numerical simulation is a challenging research project. Because data collected by the sensors must be moved continuously into the numerical simulation, the traditional paradigm of reading control parameters at the start of the computation is not possible. Instead, this project will use the ALICE memory snooper from Argonne National Laboratory to allow the constant interruption introduced by the transmission of the measured data. This will in turn allow a parallel computer to exchange information with remote sites without going through slow disk I/O. To fully integrate the sensor data with the computation, the project will develop new numerical schemes based on classical multigrid methods, but using the measured data to build the coarse space. The measured data will also be used as a basis for calibrating and validating the parameters in the mathematical model.&lt;br/&gt;&lt;br/&gt;The new simulation system will be used in a high cycle fatigue test of bridge decks, which will be conducted in the Structures Laboratory at the University of Colorado at Boulder. Field tests will also be scheduled on new bridges to be constructed with a variety of installed sensors. These tests are part of ongoing projects sponsored by other agencies. The synergy of these projects will help develop and validate the proposed simulation system.</AbstractNarration>
+    <MinAmdLetterDate>08/15/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0112930</AwardID>
+    <Investigator>
+      <FirstName>Xiao-Chuan</FirstName>
+      <LastName>Cai</LastName>
+      <EmailAddress>cai@cs.colorado.edu</EmailAddress>
+      <StartDate>08/15/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yunping</FirstName>
+      <LastName>Xi</LastName>
+      <EmailAddress>yunping.xi@colorado.edu</EmailAddress>
+      <StartDate>08/15/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1652</Code>
+      <Text>HIGH END COMPUTATION AND INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

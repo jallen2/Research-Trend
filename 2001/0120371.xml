@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Research for Mixed Signal Electronic Technologies: A Joint Initiative Between NSF and SRC: Fast Methods of Coupled EM. Circuit and Logic Simulation for Giga-Scale</AwardTitle>
+    <AwardEffectiveDate>08/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2005</AwardExpirationDate>
+    <AwardAmount>225003</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010600</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project aims at developing fast algorithms for rapid simulation of giga-scale systems-on-chip, where coupled circuit, logic, and electromagnetic (EM) effects (including RLC parasitics, coupling, cross talk, skin and thermal effects---both quasi-static and full-wave), are becoming increasingly important. For coupled EM and circuit simulation, we propose to investigate a novel partial-element equivalent electric circuit (PEEC) approach. For coupled EM and digital simulation, we propose to investigate variant time stepping in EM analysis and to use conservative synchronization with digital events. More specifically, our approach consists of the following key elements:&lt;br/&gt;&lt;br/&gt;Developing fast integral-equation-based solution methods that will make feasible EM simulation in these settings, and will permit hierarchical or multilevel EM analyses at varying degrees of model complexity.&lt;br/&gt;&lt;br/&gt;Implementation of fast and hierarchical schemes through a variation of the partial equivalent electric circuit method for triangular mesh tessellations.&lt;br/&gt;&lt;br/&gt;Coupling of EM simulation schemes directly to digital logic simulation in order to analyze switching and ground bounce in power-ground plane situations.&lt;br/&gt;&lt;br/&gt;Exploitation of structure and redundancies present in EM, circuit-level as well as coupled-system matrices in order to drastically reduce memory and computation time to a degree such that rigorous and complete coupled simulation will be feasible for complex-systems-on-chip. Sensitivity analysis, reduced-order modeling, and multi-physics simulations are targeted in addition.&lt;br/&gt;&lt;br/&gt;Development of optimized compilation techniques for generating ordinary differential equation (ODE) code for circuit simulation, and for exploiting the circuit structural regularity for fast hierarchical circuit/EM simulation. The application drivers for testing proposed coupled EM/circuit and EM/digital simulation will include (1) Giga-hertz CMOS transceivers on chip, and (2) Power/ground network of giga-hertz digital circuits including gate switching activity modeling.&lt;br/&gt;&lt;br/&gt;It is intended that the development of fast and rigorous EM/circuit and EM/logic simulation will enable accurate yet efficient sign-off simulation of next generation mixed-signal circuits and systems, enable simulation in the loop design optimization and architecture tradeoff, and finally enable design for testability where EM effects are becoming hard to characterize, predict, and measure.</AbstractNarration>
+    <MinAmdLetterDate>08/31/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0120371</AwardID>
+    <Investigator>
+      <FirstName>C.-J. Richard</FirstName>
+      <LastName>Shi</LastName>
+      <EmailAddress>cjshi@ee.washington.edu</EmailAddress>
+      <StartDate>08/31/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vikram</FirstName>
+      <LastName>Jandhyala</LastName>
+      <EmailAddress>vj@u.washington.edu</EmailAddress>
+      <StartDate>08/31/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP Methodologies and Tools for Designing and Implementing Large Scale Real-Time Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2008</AwardExpirationDate>
+    <AwardAmount>4989880</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal requests support for research to develop methodologies and tools for designing and implementing very large-scale real-time embedded computer systems that (a) achieve ultra high computational performance through use of parallel hardware architectures, (b) achieve and maintain functional integrity via distributed, hierarchical monitoring and control, (c) are required to be highly available, and (d) are dynamically reconfigurable, maintainable, and evolvable. The specific application that will drive this research and provide a test platform for it is the trigger and data acquisition system for BTeV, an accelerator-based High Energy Physics (HEP) experiment to study matter-antimatter asymmetries (also known as Charge-Parity violation) in the decays of particles containing the b-quark. BTeV has been approved by Fermilab management and is expected to be constructed over the next 5-6 years to run in conjunction with the Fermilab Tevatron Collider. The data-taking phase of the experiment is expected to be at least five years. It requires a massively parallel, heterogeneous cluster of computing elements to reconstruct 15 million particle interactions (events) per second and to use the reconstruction data to decide which events to retain for further data analysis. &lt;br/&gt;&lt;br/&gt;Creating usable software for this type of real-time embedded system will require research into solutions of general problems in the fields of computer science and engineering. The proponents plan to approach these problems in a way that is general, and to produce methodologies and tools that can be applied to many scientific and commercial problems. During this project, the research results will be carried into the high-school system through projects, which enhance existing infrastructure for attracting students into science and engineering disciplines. &lt;br/&gt;&lt;br/&gt;The classes of systems targeted by this research include those imbedded in environments, like BTeV, that produce very large data streams which must be processed in real-time using data-dependent computation strategies. These systems require ultra high performance (~1012 operations per second), necessitating parallel hardware architectures, which in the case of BTeV is composed of a mix of thousands of commodity processors, special purpose processors such as Digital Signal Processors (DSPs), and specialized hardware such as Field Programmable Gate Arrays (FPGAs), all connected by very high-speed networks. The systems must be dynamically reconfigurable to allow maximum performance from the available and potentially changing resources. The systems must be highly available, since the environments produce the data streams continuously over a long period of time, and interesting phenomena important to the analysis are rare and could occur at any time. To achieve the high availability, the systems must be fault tolerant, self-aware, and fault adaptive, since any malfunction of processing elements, the interconnection switches, or the front-end sensors (which provide the input stream) can result in an unrecoverable loss of data. Faults must be corrected in the shortest possible time, and corrected semi-autonomously (i.e., with as little human intervention as possible). Hence, distributed and hierarchical monitoring and control are vital.</AbstractNarration>
+    <MinAmdLetterDate>09/24/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/28/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0121658</AwardID>
+    <Investigator>
+      <FirstName>Paul</FirstName>
+      <LastName>Sheldon</LastName>
+      <EmailAddress>Paul.Sheldon@Vanderbilt.edu</EmailAddress>
+      <StartDate>09/24/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ruth</FirstName>
+      <LastName>Pordes</LastName>
+      <EmailAddress>ruth@fnal.gov</EmailAddress>
+      <StartDate>09/24/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Theodore</FirstName>
+      <LastName>Bapty</LastName>
+      <EmailAddress>bapty@isis.vanderbilt.edu</EmailAddress>
+      <StartDate>09/24/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jae</FirstName>
+      <LastName>Oh</LastName>
+      <EmailAddress>jcoh@syr.edu</EmailAddress>
+      <StartDate>09/24/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Haney</LastName>
+      <EmailAddress>m-haney@uiuc.edu</EmailAddress>
+      <StartDate>09/24/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Vanderbilt University</Name>
+      <CityName>Nashville</CityName>
+      <ZipCode>372350002</ZipCode>
+      <PhoneNumber>6153222631</PhoneNumber>
+      <StreetAddress>Sponsored Programs Administratio</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1687</Code>
+      <Text>ITR MEDIUM (GROUP) GRANTS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1652</Code>
+      <Text>HIGH END COMPUTATION AND INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1687</Code>
+      <Text>ITR MEDIUM (GROUP) GRANTS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

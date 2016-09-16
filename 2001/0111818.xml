@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SI: Wireless Transmission Optimization for Bursty Data Traffic</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2004</AwardExpirationDate>
+    <AwardAmount>305726</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Joseph B. Evans</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The wireless channel is expected to play as dominant a role as the wired internet, in providing seamless information 'super-highway'. In the future, wireless data traffic will be increasingly dominated by a variety of multimedia, such as real-time video, email, web downloads, as opposed to voice transmission. "Tether-free communication and networking', as envisioned by the Information Technology Research program, requires intensive research into handling the transmission of multimedia over the wireless channel. Various multimedia have very different traffic characteristics than voice, being characterized by different delay constraints and burstiness. Handling bursty data has been addressed primarily in the networking communit. The community has focussed on the relationship among the traffic delay constraint, the packet loss rate (which is assumed to be the packet drop rate), and the channel capacity, captured by measures such as "Effective bandwidth'. Networking problems in wired (fiber, copper, etc.) media have been successfully solved by this approach, because this channel is inherently a low-error channel. However, the networking community has by and large ignored the fact that there is a very real, non-idea physical channel on which this data is carried. Therefore, the migration of these approaches to the wireless medium meets a significant obstacle- the fact that the wireless channel is inherently a very noisy, non-robust channel. Thus for wireless channels, it is important to consider the effect on packet loss of both, burstiness and channel errors. Researchers have been approaching the issue of considering both these effects in (the PI believes) an ad hoc manner. This proposal intends to approach the issue in a systematic and logical manner. Specifically, the PI proposes to introduce a joint measure of burstiness and channel condition, and use the measure to solve the key problem of allocating scarce resources among competing users of a wireless system. The proposed joint approach is a fundamental change in paradigm, since it attempts to synthesize ideas from the Networking and Communication Theory communities. The reason why source burstiness as well as channel errors (due to noise, fading, etc.) affect the standard notions of channel capacity, is due to the requirement of finite delay in the data communication. The PI has therefore developed an initial set of measures (details in the full proposal) that relate the delay and packet loss. The measure is based on the random coding error exponent approach, developed in an information theoretic setting. To reduce the packet drop probability, the wireless transmitter must transmit at as high a data rate as possible. But a high rate of transmission would imply a high packet error probability on the wireless channel, due to transmission errors. The measure developed by the PI attempts to capture this trade-off. Preliminary analysis indicates that using this measure indeed offers a substantial benefit (in terms of designing an optimum system) for bursty traffic transmission over fading wireless channels. The first step in the current research would be to refine the developed joint measure. This would involve using more sophisticated source traffic models, more sophisticated fading channel models, and practical channel coding schemes. The developed measure will then be used to design optimal or robust schemes (as the need may be) to allocate wireless resources to competing streams of data traffic. This will involve developing scheduling flow control algorithms, and the associated adaptive channel coding schemes, using the joint measure. In summary, this research will introduce a fundamentally new paradigm for transmission optimization of bursty data traffic over wireless channels, and then demonstrate the usefulness of the new paradigm in practical situations.</AbstractNarration>
+    <MinAmdLetterDate>09/26/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/26/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0111818</AwardID>
+    <Investigator>
+      <FirstName>Rohit</FirstName>
+      <LastName>Negi</LastName>
+      <EmailAddress>negi@ece.cmu.edu</EmailAddress>
+      <StartDate>09/26/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

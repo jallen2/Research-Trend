@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: High Order Numerical Schemes for Multi-Dimensional Systems of Conservation Laws and for Simulations of Multi-Phase Fluids</AwardTitle>
+    <AwardEffectiveDate>08/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2004</AwardExpirationDate>
+    <AwardAmount>129065</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The main theme of the proposed project is the construction of high order accurate numerical schemes for solving multi-dimensional hyperbolic systems of conservation laws, and in particular the construction of numerical schemes for simulations of multi-phase fluid flows. This includes numerical methods for compressible flow, incompressible flow and heat transfer. Recently, the PI's introduced a boundary condition capturing method for variable coefficient Poisson equation in the presence of interfaces. The method is implemented using a standard finite difference discretization on a Cartesian grid making it simple to apply in several spatial dimensions. Furthermore, the resulting linear system is symmetric positive definite allowing for straightforward application of standard "black box" solvers, for example, multi-grid methods. Most importantly, this new method does not suffer from the numerical smearing. Using this method, the PI's extended the Ghost Fluid Method to treat two-phase incompressible flows, in particular those consisting of water and air. The numerical experiments show that the new numerical method performs quite well in both two and three spatial dimensions. Currently, they are working on extending this method to treat a wide range of problems, including for example combustion. Of particular interest is the extension of this method to include interface motion governed by the Cahn-Hilliard equation which models the non-zero thickness interface with a molecular force balance model. &lt;br/&gt;&lt;br/&gt;This proposed research on computational fluid dynamics is focused on the design, implementation and testing of new methods for simulating fluids such as water and gas using the computer. In particular, this work addresses problems where more than one type of one phase of fluid exist, e.g. mixtures of water and air. Our interest lies in improving the current state of the art algorithms so that they are better able to treat the interface that separates two fluids such as oil and water. The results of this research should be of interest to both the military (e.g. many naval applications involve the study of water and air mixtures) and to private industry. A particularly interesting example involves the interaction of water and oil in an underground oil recovery process. The research covered in this proposal has implications for math and science education as well. Not only will the PI's be working with and training graduate students in applied mathematics and engineering, but their research in extending these techniques to other fields, such as computer graphics, can play a role attracting the next generation of young scientists. For example, figure 7 in "Foster and Fedkiw, Practical Animation of Liquids, SIGGRAPH 2001" shows the lovable character "Shrek", from the feature film of the same name, taking a bath in mud.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/20/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0107419</AwardID>
+    <Investigator>
+      <FirstName>Xu-Dong</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>xliu@math.ucsb.edu</EmailAddress>
+      <StartDate>08/20/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Barbara</Name>
+      <CityName>SANTA BARBARA</CityName>
+      <ZipCode>931062050</ZipCode>
+      <PhoneNumber>8058934188</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

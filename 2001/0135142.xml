@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Query Optimization to Meet Performance Targets in a Wide Area Environment</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2004</AwardExpirationDate>
+    <AwardAmount>57358</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this research project is to develop a performance target (PT) sensitive optimizer. Performance targets are relevant in the noisy wide area environment where access costs to Internet accessible WebSources exhibit transient behavior, and are best characterized by a distribution of access costs. A PT sensitive optimizer will have the ability to differentiate among multiple alternate WebSources, and to choose a combination of WebSources so as to best meet a performance target for some query (and its query evaluation plan). The ability to meet a target is quantified by a utility function. Existing optimizers and their cost model consider either specific values or expected values for access costs, and are not sensitive to performance targets. This approach characterizes each plan with the expected value of the cost of the plan, as well as the delay; delay is the deviation above the expected value. A Cost-Delay measure (CDM) combines these two values using a cost factor and a delay factor. A simulation based study of the optimizer's aggregate behavior, for a set of queries and a set of remote relations on WebSources will be used to correlate the PT optimizer's selection of plans and WebSources with its success in maximizing utility or meeting a performance target. The results of this project will provide a tunable optimizer for noisy environments that allow applications to be sensitive to performance targets and to better utilize Internet resources.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/27/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0135142</AwardID>
+    <Investigator>
+      <FirstName>Louiqa</FirstName>
+      <LastName>Raschid</LastName>
+      <EmailAddress>louiqa@umiacs.umd.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vladimir</FirstName>
+      <LastName>Zadorozhny</LastName>
+      <EmailAddress>vladimir@sis.pitt.edu</EmailAddress>
+      <StartDate>09/13/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0104000</Code>
+      <Name>Information Systems</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

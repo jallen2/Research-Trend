@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Data Compression Techniques for Improving Memory Hierarchy Performance</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>270000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract:&lt;br/&gt;This project is aimed at developing data compression techniques for&lt;br/&gt;substantially reducing the data memory footprint of memory intensive&lt;br/&gt;applications. We will study the behavior of a wide range of applications&lt;br/&gt;to identify characteristics of data held in data structures by these&lt;br/&gt;programs that can be exploited in carrying out data compression. We&lt;br/&gt;will develop a suite of data compression transformations that will be&lt;br/&gt;implemented by the compiler. Our goal is to develop data transformations&lt;br/&gt;that can be applied to partially compressible data structures, that is,&lt;br/&gt;data structures in which all the data is not compressible. This approach&lt;br/&gt;will not only result in transformations that are widely applicable, but&lt;br/&gt;also lead to techniques for applying them that are efficient. In particular,&lt;br/&gt;instead of relying on complex compile-time analysis for proving their&lt;br/&gt;applicability, we will be able to use simple value profiling techniques&lt;br/&gt;to identify data structures that are mostly compressible and then apply&lt;br/&gt;the transformations to them. We will develop data compression extensions&lt;br/&gt;(DCX) to a RISC-style instruction set for efficiently manipulating&lt;br/&gt;compressed data. In addition, we will also address other low level code&lt;br/&gt;generation issues, such as impact of transformations on register pressure&lt;br/&gt;and instruction cache behavior, which can have a significant impact on&lt;br/&gt;performance.</AbstractNarration>
+    <MinAmdLetterDate>06/26/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/06/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105355</AwardID>
+    <Investigator>
+      <FirstName>Rajiv</FirstName>
+      <LastName>Gupta</LastName>
+      <EmailAddress>gupta@cs.ucr.edu</EmailAddress>
+      <StartDate>06/26/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Arizona</Name>
+      <CityName>Tucson</CityName>
+      <ZipCode>857194824</ZipCode>
+      <PhoneNumber>5206266000</PhoneNumber>
+      <StreetAddress>888 N Euclid Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2876</Code>
+      <Text>DISTRIBUTED SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

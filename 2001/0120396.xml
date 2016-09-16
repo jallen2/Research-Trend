@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>High-Frequency Low-Noise Mixed-Signal Adaptive Equalizer Towards SOC Design of Data Transmission Circuits</AwardTitle>
+    <AwardEffectiveDate>01/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2005</AwardExpirationDate>
+    <AwardAmount>225000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Paul Werbos</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research proposes to design a 1GHz receiver equalizer in CMOS technology for system-on-chip (SOC) implementation of high-speed long transmission distance transceivers. Analog FIR filter will be used as the equalizing filter, which has higher speed than the equalizing filters commonly used today. This proposal will address the challenges in designing high-speed FIR filters, including analog tap delay line and the learning algorithms. A low-noise error detection scheme is proposed and will be studied in terms of communication theory for better understanding and improvements. Potential application of the proposed equalizer in high-speed wireless data communications will also be studied. In addition, we propose to explore design for test methodology for low-cost test, diagnostics, and characterization of the proposed adaptive mixed-signal equalizer.&lt;br/&gt;&lt;br/&gt;In data transmissions, the signal containing the data is attenuated when transmitted through media and the attenuation is a function of the transmission distance and frequency. Frequency dependent attenuation within the signal bandwidth causes inter-symbol-interference (ISI) in the received signal. ISI in turn causes errors in data recovery, thus limits the transmission distance and transmission rate. To reduce ISI, the frequency dependent attenuation must be compensated, or equalized.&lt;br/&gt;&lt;br/&gt;Depending on the transmission media, the state of the art CMOS transceivers operate at the speeds ranging from 100-Mbit/s to about 10-Gbit/s. Currently, equalization is only used in lower speed (100- to 200-Mbit/s) data transmission over low-cost cables (around 130-meter UTP5 cables). For transmission bit rates in the order of Gbit/s, pre-emphasizing filters have been used&lt;br/&gt;to boost high frequency components in the transmitter. Multiplexing techniques, such as&lt;br/&gt;multilevel signaling and multi-phase clocks, allow the pre-emphasizing filters to operate at&lt;br/&gt;several-hundred-MHz, while enabling multi-Gbit/s data transmission. But, pre-emphasizing&lt;br/&gt;filter boosts the high frequency components of the transmitted signal and introduces strong&lt;br/&gt;emission in the transmitter. To avoid emission problems, receiver equalizer is more desirable.&lt;br/&gt;The main challenges of receiver equalizer are the design of high-speed equalizing filters and the&lt;br/&gt;complexity of filter adaptation algorithm.&lt;br/&gt;&lt;br/&gt;One of the broader impacts of the proposed activity is on providing trained mixed-signal&lt;br/&gt;design engineers for the industry. There has been growing concern over the expected shortage of&lt;br/&gt;graduating engineers specialized in the mixed-signal circuit design area. The proposed research&lt;br/&gt;will strengthen the mixed-signal circuit design program in university for educating skilled design&lt;br/&gt;engineers for industry.</AbstractNarration>
+    <MinAmdLetterDate>09/05/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/02/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0120396</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Fonseka</LastName>
+      <EmailAddress>kjp@utdallas.edu</EmailAddress>
+      <StartDate>09/05/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jin</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>jinliu@utdallas.edu</EmailAddress>
+      <StartDate>09/05/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Johnson</LastName>
+      <EmailAddress>dkjohnson@ti.com</EmailAddress>
+      <StartDate>09/05/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Dallas</Name>
+      <CityName>Richardson</CityName>
+      <ZipCode>750803021</ZipCode>
+      <PhoneNumber>9728832313</PhoneNumber>
+      <StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1517</Code>
+      <Text>ELECT, PHOTONICS, &amp; MAG DEVICE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1752</Code>
+      <Text>RESEARCH FOR MIXED SIGNAL ELECTRONIC TEC</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

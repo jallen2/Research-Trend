@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP: A Motion Planning Approach for Protein Folding Simulation</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>330000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eun K. Park</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will develop a framework for studying protein folding that is based on techniques recently developed in the robotics motion planning community. In particular, this work uses Probabilistic Roadmap (PRM) motion planning techniques which have proven to be very successful for problems involving high-dimensional configuration spaces. The key advance that PRMs offer protein science is the ability to efficiently explore large conformational transitions of realistic models of proteins. The work involves research in both protein science and information technology. &lt;br/&gt;&lt;br/&gt;The project has two main research goals related to protein science. First, PRMs are expected to provide a computational method to predict the folding kinetics of proteins, when the native structure is already known. This makes PRMs ideal for investigating classical problems in protein folding kinetics such as kinetic intermediates, kinetic traps, parallel vs. series folding routes, and general folding mechanism questions related to potential energy landscapes and zippers processes. Second, PRM, used in conjunction with a new ENPOP parameter optimization strategy, has the potential to improve energy models both high-resolution and low-resolution models for predicting biomolecule conformations. &lt;br/&gt;&lt;br/&gt;The project has two main research goals related to information technology. Both are motivated by the massive computational requirements of the simulations needed to investigate the protein folding questions. First, new strategies and optimization techniques for PRMs will be needed to support the efficient extraction of high quality paths from the roadmaps for problems with hundreds of dof. Second, since PRMs are known to be amenable to parallel implementation, they will utilize high-performance computing. This will include the development and application of an adaptive parallel version of the C++ STL (Standard Templates library) called STAPL. With STAPL, the simulations can be optimized and run on various parallel and distributed systems and yield a performance approaching that of code manually optimized for each platform</AbstractNarration>
+    <MinAmdLetterDate>09/24/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/29/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113974</AwardID>
+    <Investigator>
+      <FirstName>Nancy</FirstName>
+      <LastName>Amato</LastName>
+      <EmailAddress>amato@tamu.edu</EmailAddress>
+      <StartDate>09/24/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas A&amp;M Engineering Experiment Station</Name>
+      <CityName>College Station</CityName>
+      <ZipCode>778454645</ZipCode>
+      <PhoneNumber>9798477635</PhoneNumber>
+      <StreetAddress>TEES State Headquarters Bldg.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9184</Code>
+      <Text>BIOTECHNOLOGY - INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>BIOT</Code>
+      <Text>BIOTECHNOLOGY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

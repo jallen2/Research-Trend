@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Solutions and Grids from Genuinely Multidimensional Residual Distribution Schemes</AwardTitle>
+    <AwardEffectiveDate>09/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>160000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Fluctuation-splitting method for solving first-order partial differential equations is a distributive scheme based on evaluating residuals over piecewise linear simplex elements. The nature of the distribution step matches as closely as possible the local physics, thereby achieving minimal numerical dissipation. It is known how to implement this program is two space dimensions but new physics arises in three dimensions. In supersonic flow this is due to the replacement of characteristic lines by bicharacteristic surfaces, and in both supersonic and subsonic flow by the appearance of helicity, the streamwise component of vorticity, which interacts with the acoustics. We will attempt to design distribution schemes around the system version of the linear wave equation, which is the simplest model problem to exhibit these features, and which is embedded in the Euler equations. Application to the Euler equations themselves will be by means of a local linearization that is well established.&lt;br/&gt;&lt;br/&gt;Many phenomena in nature and technology are well enough understood that the mathematical equations describing them can be written down, but to actually solve these equations requires huge computer resources. Examples that could be cited include the flow round an aircraft, the evolution of a galaxy, or the future of the weather. Especially in the last decade, the computer resources available for such projects has grown enormously, but the scientific appetite for computing power remains unsatisfied. When new machines become available, they may initially lie idle for some fraction of the day, but are soon fully utilized, typically within a month. To extract the most information from given resources, it is important that attention be paid to the set of instructions (the algorithm) by which the computer processes the data, both from the viewpoint of efficient arithmetic and also with regard to the process that converts the mathematical equations into arithmetical form (the scheme). Numerous schemes of varying sophistication exist, but new ones are continually sought, and this research seeks to extend the scope of one particular scheme that is based on trying to mimic the physics as directly as possible with few arbitrary decisions. It is hoped that the result of this will be to reduce the amount of computer storage space needed to model a given physical situation with given accuracy. Focus will on complex fluid flows in which an important role is played by rotating vortices. Such flows are at present very difficult to compute efficiently, Advances in this area would be especially beneficial to the prediction of flow round an aircraft in its take-off or landing configuration, and to computing the flows around helicopters.</AbstractNarration>
+    <MinAmdLetterDate>08/30/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/30/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0108540</AwardID>
+    <Investigator>
+      <FirstName>Kenneth</FirstName>
+      <LastName>Powell</LastName>
+      <EmailAddress>powell@umich.edu</EmailAddress>
+      <StartDate>08/30/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Bram</FirstName>
+      <LastName>van Leer</LastName>
+      <EmailAddress>bram@umich.edu</EmailAddress>
+      <StartDate>08/30/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Philip</FirstName>
+      <LastName>Roe</LastName>
+      <EmailAddress>philroe@engin.umich.edu</EmailAddress>
+      <StartDate>08/30/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

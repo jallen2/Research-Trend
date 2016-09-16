@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Research for Mixed Signal Electronic Technologies: A Joint Initiative Between NSF and SRC: CAD Tool for High-Level Design Automation of Integrated Mixed-Signal Microsystems</AwardTitle>
+    <AwardEffectiveDate>08/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2005</AwardExpirationDate>
+    <AwardAmount>150000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010600</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The process for designing an integrated circuit (IC) system-on-a-chip (SoC) shares many similarities with the hardware design of a system on a board or on several boards. The hardware system designer knows the characteristics of the set of system input signals that are to be processed, and the characteristics of the set of system output signals. There are usually several signal processing architectures that can accomplish the goal and the designer must evaluate the tradeoffs that are inherent in the various designs. Board-level hardware system designers have to use available standard commercial components for the most part to create the system of desired functionality. Sometimes requirements allow for the creation of custom ICs, and occasionally a few transistors and discrete components are used to provide proper interfaces among chips. Designers evaluate the potential that various components have for meeting overall system performance requirements based upon the components' terminal characteristics. From the designers' skill and insight, an architecture is selected, the hardware realization breadboarded, and evaluated. In the process of designing an SoC IC, the terminal characteristics of the SoC inputs and outputs must be known. Often, proven board-level hardware realizations of the function are referred to as possible architectures for the SoC. These proven board-level architectures are defined in terms of the interconnection of the group of commercial products that provide various signal processing sub-functions. The SoC architecture can also be defined in terms of these sub-function modules. Partitioning the SoC into blocks that correspond to the sub-functions successfully used in board-level designs is usually convenient because the characteristics of the sub-functions' interconnecting signals are well understood. The performance required of each of the SoC sub-functions must be inferred from the performance specifications of the overall SoC. However, the SoC IC designers do not have available these sub-functions as performance-characterized cells laid out in the target fabrication technology. The SoC IC design team usually has to create each of the sub-function blocks as a custom IC cell. The transistor-level topologies of analog and digital functional blocks are then identified and evaluated.&lt;br/&gt;&lt;br/&gt;Existing CAD tools are capable of sizing MOS transistors of circuits with modest complexity to customize the circuit to meet design specifications through performance function minimization. One SoC IC design problem is to select the sub-function performance requirements in such a way as to optimize the overall SoC performance. It is possible to find these optimized sub-functions' performance requirements using the overall SoC performance specifications and performance function optimization techniques. A new CAD tool that can optimize the SoC sub-function performances based upon the overall SoC performance requirements will be created. The resultant optimized sub-function performance requirements can then become the inputs to other existing design optimization CAD tools that perform subsequent more-detailed design automation steps to create the transistor-level circuit realizations.&lt;br/&gt;&lt;br/&gt;Integrated micro-systems, systems-on-a-chip, will be very complex combinations of analog, digital, mixed-signal, photonic, and MEMS signal processing functions. The analysis, design, and design verification of such a system is incredibly complicated, and will require the use of many very sophisticated CAD tools. At the present time and in the near future, it is unrealistic to expect a single integrated suite of CAD design tools to be able to provide all of the capabilities needed to design, layout, and verify the functionality of an SoC that includes extensive digital functionality, and analog, mixed-signal, photonic, and MEMS signal processing sub-systems. Research will be undertaken on an integrated micro-system design automation tool that will optimize the performance of a complex mixed-signal signal-processing SoC entirely at the conceptual level. Research in behavioral modeling, high-level system performance specification, and performance optimization by objective function minimization will be undertaken to support this effort. To facilitate this overall goal, flexible, accurate, computationally efficient, technology-independent, implementation-independent, high-conceptual-level behavioral models that reflect all important limiting effects of the function that could influence SoC performance are required that represent the many diverse possible actions that can be taken by the various subsystems of an SoC. Analog, digital, mixed-signal, photonic, and MEMS devices that may be included on an SoC will considered in this research.&lt;br/&gt;&lt;br/&gt;One deliverable is a fully documented design environment that supports the capture of an SoC functional description as an interconnection of sub-functions defined in a library of high-conceptual-level behavioral models, and capture of the SoC performance requirements and specifications. This design environment will also facilitate highly efficient system simulation using the behavioral models and an analysis engine. Another deliverable is a fully documented library of technology-independent, implementation-independent, high-conceptual-level, behavioral models. All results will be available for use by others on a project web site. Libraries of behavioral models and behavioral modeling tools will be organized into a designer "toolbox". This CAD tool will be created in standard programming languages and will be easily disseminated.</AbstractNarration>
+    <MinAmdLetterDate>09/07/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/16/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0119778</AwardID>
+    <Investigator>
+      <FirstName>Karl</FirstName>
+      <LastName>Current</LastName>
+      <EmailAddress>current@ece.ucdavis.edu</EmailAddress>
+      <StartDate>09/07/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

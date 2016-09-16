@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Adaptive Beamforming for Spatial and Temporal Sampled Coherent Aperture Systems</AwardTitle>
+    <AwardEffectiveDate>04/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2003</AwardExpirationDate>
+    <AwardAmount>109256</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010800</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal requests support to develop, test, and optimize a new approach to adaptive beamfroming in coherent imaging that was recently developed by the PI [1]. The fundamental approach is based upon the physics of imaging with signals that are scattered from targets consisting of many randomly distributed scatters. The resulting alogrithmic methodology which will be refered to as the scaled Cross-Corelation Function (SCCF) algorithm provides a robust adaptive auto-focusing phase aberration correction algorithm for digitally sampled coherent imaging systems. The underlying fundamental ideas forming the basis of this discovery are far more reaching and should have broad application to inverse problems in coherent imaging such as coherent optics, Synthetic Aperture Radar (SAR), ultrasonics, somar, etc. &lt;br/&gt;&lt;br/&gt;The initial effort will be directed towards medical ultrasound. Here extensive simulations will be performed for 1.5 and 2D dimensional transducer arrays to further develop, test and optimize the new adaptive beamforming methodolgy. These simulations require computer power beyond the capabilities of a single CPU workstation running MATLAB code. Code, either in C++ or Fortran 90, wil be developed to run these simulations on available multiprocessor super computing systems.&lt;br/&gt;&lt;br/&gt;The full implementation of the new methodology, which has been shown in limited simulation tests to be substantially more robust than the Flax-O'Donnell [2,3] and the Rigby [4] beamsum algorithms, is computationally intensive as it requires the computation of N (N-1)=2 signal correlations for all focused cell in the ensemble of cells used to compute the covariance matrix. Here N represents the number of channels. This computation load is too extensive for today's existing ultrasound machines, although future generations systems will undoubtedly have these capabilities. The project effort will involve extensively testing of the suboptimal, less computationally intensive versions of the SCCF methodology that may be implementable with today's hardware. The project efforts will also consider conceptual extensions of the SCCF methodology to microwave, sonar, and optical imaging. Computer simulation testbeds will be developed for these different modalities for the purpose of developing and optimizing suitable adaptive algorithms for these disciplines. Adaptive beamforming in SAR is needed to equalize phase errors caused by unknown positioning errors of the transmit/receive points (synthetic elements) in the synthetically generated array. The current techniques such as the phase gradient algorithm [23] searches for the brighest cell, and then solves for the aberrant phase using phase gradient based upon the nearest neighbor cross-correlation functions. This method is susceptible to image artifacts, persumanly caused by a combination of the instabilities inherent in a phase gradient method and the errors made using the approximation that the good phase in the brightest pixel can be neglected.</AbstractNarration>
+    <MinAmdLetterDate>04/19/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/11/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0109944</AwardID>
+    <Investigator>
+      <FirstName>Seth</FirstName>
+      <LastName>Silverstein</LastName>
+      <EmailAddress>silverstein@virginia.edu</EmailAddress>
+      <StartDate>04/19/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Virginia Main Campus</Name>
+      <CityName>CHARLOTTESVILLE</CityName>
+      <ZipCode>229044195</ZipCode>
+      <PhoneNumber>4349244270</PhoneNumber>
+      <StreetAddress>P.O. BOX 400195</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>4720</Code>
+      <Text>SIGNAL PROCESSING SYS PROGRAM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9237</Code>
+      <Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

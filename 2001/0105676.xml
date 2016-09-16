@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>High-Performance Internet Router Architectures</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>220042</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Pratibha Varma-Nelson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With communication link speed exceeding terabit per second, packet processing at the routing processors is becoming the main bottleneck in network services. The workload for these processors is very different compared to the general-purpose processors.&lt;br/&gt;&lt;br/&gt;The two-year project develops necessary benchmark and simulation environment to analyze the impact of new architectural ideas, such as instruction-level parallelism, branch prediction, speculative execution, lock-up free caches and multiprocessing, on the performance of Internet router architectures. First, it creates suitable workload by developing a set of communication benchmark programs that normally execute on high-performance routers. These programs are executed on commercially available processors and their performance is compared with other standard benchmark applications.&lt;br/&gt;&lt;br/&gt;The main contribution of the project lies in development of an execution-driven simulator for the router, where these communication programs are compiled and executed. The simulator incorporates the network processor, line cards, and the backbone crossbar switch. The input data to the simulator is obtained from real Internet traces, such as NLANR and UCB. By incorporating new ideas in instruction-set design, memory subsystem, packet scheduling, and multiprocessing into the simulator, architectures for the next-generation Internet routers are developed and tested in this project.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/02/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0105676</AwardID>
+    <Investigator>
+      <FirstName>Laxmi</FirstName>
+      <LastName>Bhuyan</LastName>
+      <EmailAddress>bhuyan@cs.ucr.edu</EmailAddress>
+      <StartDate>09/04/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP(DMR): Billion-Atom Multiscale Simulations of Nanosystems on a Grid</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>10/31/2002</AwardExpirationDate>
+    <AwardAmount>486000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03070000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Materials Research</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>G. Bruce Taggart</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is the result of a proposal submitted to the Information Technology Research initiative. The goal of the research is to develop a scalable software infrastructure for large multiscale simulations on a Grid of geographically distributed, massively parallel supercomputers, as well as on future Petaflop computers.&lt;br/&gt;&lt;br/&gt;The multiscale simulation approach will combine, in a single Grid software, finite element (FE) calculation, the coarse-grained molecular dynamics (CGMD), molecular dynamics (MD) simulation, and quantum mechanical (QM) calculation based on the density functional theory (DFT). Continuum mechanics calculation based on the FE method will be performed with constitutive relations derived from the CGMD method in conjunction with MD simulations, which in turn will embed QM algorithm described by the DFT. The following will be developed: (1) Grid-based FE/CGMD/MD/QM algorithms based on space-time multiresolution algorithms implemented with hierarchical decomposition on parallel/distributed computers for scalability and constrained-dynamics-based hybridization for seamless coupling of the hybrid simulation componets; (2) Space-time partitioned multiscale simulation combined with kinetic Monte Carlo (KMC) and parallel replica methods to couple disparate length and time scales; (3) Grid-computation tools including adaptive load balancing using wavelet-based computational-space decomposition and space-filling-curve-based adaptive data compression to reduce communication and storage; (4) Immersive and interactive visualization of the large simulation data using octree-based visibility culling and parallel/distributed preprocessing of the visualization data with machine-learning predictive prefetch.&lt;br/&gt;&lt;br/&gt;The Gridified software will be used to study nanosystems of great importance to future information processing. Multiscale simulations involving 1,000 - 10,000 QM atoms and 100 million - 1 billion MD atoms will be performed to study atomistically-induced phenomena, with emphasis on environmental effects where chemical processes play an important role. The multiscale algorithm will relate the atomistic processes to experimentally observable quantities, by covering an order-of-magnitude larger length scale (10 micron) through continuum mechanics and extending time scales through the KMC and replica methods. The simulations will focus on stress domains and their phonon imaging in Si/Si3N4 and GaAs/Si3N4 nanopixels for sub-0.1 micron microelectronics applications and oxidation effects on them, and on substrate-encoded self-organized growth of lattice-mismatched semiconductor quantum dots (GaAs/InAs). &lt;br/&gt;&lt;br/&gt;The project will involve close collaborations with scientists at government laboratories (Argonne, NASA Ames, Sandia, Naval Oceanographic Office), industry (Intel, Motorola) and universities, as well as international collaborations in Europe, Japan and South America.&lt;br/&gt;%%%</AbstractNarration>
+    <MinAmdLetterDate>08/27/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/20/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113761</AwardID>
+    <Investigator>
+      <FirstName>Rajiv</FirstName>
+      <LastName>Kalia</LastName>
+      <EmailAddress>rkalia@usc.edu</EmailAddress>
+      <StartDate>08/27/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Aiichiro</FirstName>
+      <LastName>Nakano</LastName>
+      <EmailAddress>anakano@usc.edu</EmailAddress>
+      <StartDate>08/27/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Priya</FirstName>
+      <LastName>Vashishta</LastName>
+      <EmailAddress>priyav@usc.edu</EmailAddress>
+      <StartDate>08/27/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Louisiana State University &amp; Agricultural and Mechanical College</Name>
+      <CityName>Baton Rouge</CityName>
+      <ZipCode>708032701</ZipCode>
+      <PhoneNumber>2255782760</PhoneNumber>
+      <StreetAddress>202 Himes Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0106000</Code>
+      <Name>Materials Research</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1652</Code>
+      <Text>HIGH END COMPUTATION AND INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1682</Code>
+      <Text>NANO SCI AND ENG - MPS CORE AW</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9161</Code>
+      <Text>SINGLE DIVISION/UNIVERSITY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>AMPP</Code>
+      <Text>ADVANCED MATERIALS &amp; PROCESSING PROGRAM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

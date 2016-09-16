@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/SY: High-Speed Wavelength-Agile Optical Networks</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2007</AwardExpirationDate>
+    <AwardAmount>2564000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>We propose to explore the architecture and device development issues necessary to develop optical LAN's that are ready to interface with optical MAN's. Our goal is to develop a clear plan for integration of LAN's and MAN's in order to improve the degree to which the benefits of high bandwidth in the MAN's are delivered to end users on the LAN's. The application of architectural techniques to this problem cannot be effectively pursued without understanding the capabilities of proposed and available devices, yet the needs of architecture should strongly guide device development to ensure usefulness and relevance. To address these issues, we have formed a synergistic partnership between network architecture and hardware technology groups.&lt;br/&gt; At the architectural level, we will explore issues in the design and evaluation of robust optical LAN architectures with explicit focus on the means of access to MAN's and on the capabilities necessary for both LAN nodes and the MAN-LAN interfaces (MLI's). The MLI's will serve as both hub and head-end for the LAN and will provide a simple interface between the LAN and the MAN. We will explore the robustness of these architectures to faults and will quantify the benefits of exploiting wavelength conversion and tunable sources to improve a network's robustness to failures with a range of automatic protection algorithms. Using wavelength conversion at MLI's, we will study the impact of wavelength conversion on robustness and network routing. Using wavelength conversion to enhance robustness has received very little attention, whereas routing is the focus of substantial previous work. We will also explore the effectiveness of optically transparent paths as limited by noise and insertion loss in the devices, and will study the tradeoffs between network capacity and robustness given these routing limitations.&lt;br/&gt; At the device level, we will explore devices and subsystems that trade some functionality for increased simplicity or improved cost-effectiveness. The first of these elements is a multi-cavity VCSEL, which exploits the underlying physics to produce wavelength-tunable transmitters at a fraction of the cost of current tunable sources. These VC-SEL's will fill the gap between inexpensive, non-tunable VCSEL's available in a small range of wavelengths, and high-end, carrier-grade lasers. Our proposed tunable VCSEL's are intended to fulfill the requirements of MAN/LAN environments, which are a hybrid of current core networks and current LAN's.&lt;br/&gt; We also plan to develop optical wavelength converters based on dual-pump, four-wave mixing. The dual-pump design enhances both the efficiency and the range of the converter, and can also provide polarization independence. High efficiency is necessary to reduce or to eliminate the need for regeneration of optical signals within the MAN-LAN environment. Only a single wavelength enters the wavelength converter, thus the filter eliminates the effects of coherent and incoherent crosstalk between wavelengths that arises through four-wave mixing. SOA-based wavelength conversion is typically cheaper than other approaches, but suffers from poorer noise figures stemming from the use of the SOA, which make them less attractive for long-distance applications in core networks. For the MAN-LAN environment, SOA's present an attractive and economical alternative that allows ubiquitous availability of wavelength converters at switching nodes.&lt;br/&gt;Third, we will develop high-speed photodetectors based on indium-phosphide materials. The development of&lt;br/&gt;high-speed photodetectors helps to maintain fairly lean wavelength requirements in local and metropolitan areas, avoiding the challenges of dense WDM. While more aggressive scalability is attractive in many ways, a single 80 Gbps wavelength can move a terabyte of data in less than two minutes. A single wavelength with effective access mecha-nisms can be used as a virtual private network if appropriately deployed over a LAN/MAN infrastructure.&lt;br/&gt; Finally, we propose to develop tunable 2x2 switch elements based on indium phosphide ring resonators. Such devices allow a single wavelength to be selected and exchanged by the switch while all other wavelengths pass through untouched. These switches serve as building blocks for several important components, including tunable receivers and low insertion loss, low-crosstalk, high-speed optical crossconnects.&lt;br/&gt; The development of these network elements will guide the types of systems that the network architecture group examines. At the same time, results from the network architecture group in terms of maximum system gain for a given approach (i.e., wavelength conversion, add-drop capability) will influence the direction of the hardware technology development. We believe that this approach is the best method for optimizing the architecture of next-generation fiber-optic WDM systems within the framework of the network element technology.&lt;br/&gt; The research will be conducted by a group of five faculty (S. L. Chuang, K. Choquette, I. Adesida, and S. Lumetta from the University of Illinois at Urbana-Champaign, and M. Medard from MIT) in the optoelectronic device and computer networking areas. This project will foster collaboration between system and device researchers to realize next-generation, high-performance, wavelength-agile optical networks.</AbstractNarration>
+    <MinAmdLetterDate>09/24/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0121662</AwardID>
+    <Investigator>
+      <FirstName>Shun-Lien</FirstName>
+      <LastName>Chuang</LastName>
+      <EmailAddress>s-chuang@uiuc.edu</EmailAddress>
+      <StartDate>09/24/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ilesanmi</FirstName>
+      <LastName>Adesida</LastName>
+      <EmailAddress>iadesida@uiuc.edu</EmailAddress>
+      <StartDate>09/24/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Lumetta</LastName>
+      <EmailAddress>lumetta@uiuc.edu</EmailAddress>
+      <StartDate>09/24/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kent</FirstName>
+      <LastName>Choquette</LastName>
+      <EmailAddress>choquett@illinois.edu</EmailAddress>
+      <StartDate>09/24/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1687</Code>
+      <Text>ITR MEDIUM (GROUP) GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1687</Code>
+      <Text>ITR MEDIUM (GROUP) GRANTS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

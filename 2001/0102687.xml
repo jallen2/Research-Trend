@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Scalable Parallel Algorithms for Large-Scale Discrete Optimization</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>200363</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will develop scalable algorithms for solving discrete optimization problems (DOPs) in distributed-memory computing environments. DOPs arise in many important applications such as planning, scheduling, logistics, telecommunications, bioengineering, and robotics. Most of these problems are NP-complete, but in practice, intelligent search algorithms such as Branch, Cut, and Price (BCP) have been successful at tackling them. This research will develop parallel algorithms based on BCP that not only can use large numbers of processors efficiently, but also can handle very large problem instances. A key part of these algorithms is the data structure used for maintaining the information for each node in the search tree. This can be implemented with a memory-efficient differencing scheme relating the parent and child nodes. However, these data structures do not allow the use of current techniques for implementing scalable branch and bound search algorithms. This project will overcome that difficulty.&lt;br/&gt;&lt;br/&gt;The project will build on previous work in which the PI developed an object-oriented, generic framework called SYMPHONY (Single- or Multi-Process Optimization over Networks). Because of its modular design, SYMPHONY is extremely flexible and can be used to solve a wide variety of DOPs. Source code and documentation for SYMPHONY is currently distributed for free to the research community. This project will develop data structures and load balancing methods to decentralize SYMPHONY's current centralized control and data storage model. These improvements will be added to the web-based distribution to improve the impact of this project.</AbstractNarration>
+    <MinAmdLetterDate>08/16/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0102687</AwardID>
+    <Investigator>
+      <FirstName>Theodore</FirstName>
+      <LastName>Ralphs</LastName>
+      <EmailAddress>tkr2@lehigh.edu</EmailAddress>
+      <StartDate>08/16/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Lehigh University</Name>
+      <CityName>Bethlehem</CityName>
+      <ZipCode>180153005</ZipCode>
+      <PhoneNumber>6107583021</PhoneNumber>
+      <StreetAddress>Alumni Building 27</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4080</Code>
+      <Text>ADVANCED COMP RESEARCH PROGRAM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>4080</Code>
+      <Text>ADVANCED COMP RESEARCH PROGRAM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

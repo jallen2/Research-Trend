@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR/AP: Optimal Nonlinear Estimation in the Geosciences</AwardTitle>
+    <AwardEffectiveDate>09/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>254552</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project develops a new technique for estimation of the state of a stochastic dynamical system, given some partial and imperfect information from measurements. Unlike traditional linear estimation methods, such as least-squares variational methods or Kalman Filter approach, this new technique is capable of handling highly nonlinear dynamics--and thus non-Gaussian statistics-- in a way that approaches the optimality of the formally exact solution by Kushner, Stratonovitch, Pardoux (KSP). Just as KSP, the new method computes the conditional statistics of the system given the measurements. However, when applied to problems of interest in information technology, such as large-scale geoscience or environmental data assimilation, the new method does not lead to functional stochastic equations that are hopelessly intractable to solve, as does KSP. The approach pursued in this project is instead to approximate the conditional statistics by means of a variational formulation, which yields the conditional mean as the minimizer of an appropriate cost function and the covariance as its Hessian. The cost function proposed is calculated by a Rayleigh-Ritz or moment-closure scheme, which should render the problem tractable to numerical computation. The main research that will be done is to develop suitable statistical techniques to model the system for the Rayleigh-Ritz calculation, to work out efficient algorithms for the numerical optimization of the cost function, and to compare with existing suboptimal estimation schemes. &lt;br/&gt;&lt;br/&gt; In many areas of the geosciences of practical importance, it is crucial to combine information from observations with the results of a sophisticated numerical model to produce the best estimate of the past or future state of the system. In the case of a chemical or radioactive spill observed by monitoring a few well sites, one wants to track the contaminant plume backward in time to its source. This must be accomplished with only statistical knowledge about the properties of the aquifer and groundwater flow field and with the measurements themselves subject to error. In numerical weather prediction, the goal is instead to combine the latest observations from satellite arrays with the output of large-scale, meteorological computer models to predict the future state of the weather. Again, the models contain stochastic or chaotic elements which prevent perfect prediction based upon partial and imperfect information. The modeling methods and numerical algorithms developed in this project should provide a practical scheme to compute the best estimate in the face of such randomness in the model and uncertainty in the observations.</AbstractNarration>
+    <MinAmdLetterDate>08/29/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/13/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0113649</AwardID>
+    <Investigator>
+      <FirstName>Shlomo</FirstName>
+      <LastName>Neuman</LastName>
+      <EmailAddress>neuman@hwr.arizona.edu</EmailAddress>
+      <StartDate>08/29/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nicholas</FirstName>
+      <LastName>Ercolani</LastName>
+      <EmailAddress>ercolani@math.arizona.edu</EmailAddress>
+      <StartDate>05/13/2004</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gregory</FirstName>
+      <LastName>Eyink</LastName>
+      <EmailAddress>eyink@jhu.edu</EmailAddress>
+      <StartDate>08/29/2001</StartDate>
+      <EndDate>05/13/2004</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Juan</FirstName>
+      <LastName>Restrepo</LastName>
+      <EmailAddress>restrepo@math.oregonstate.edu</EmailAddress>
+      <StartDate>08/29/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Arizona</Name>
+      <CityName>Tucson</CityName>
+      <ZipCode>857194824</ZipCode>
+      <PhoneNumber>5206266000</PhoneNumber>
+      <StreetAddress>888 N Euclid Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

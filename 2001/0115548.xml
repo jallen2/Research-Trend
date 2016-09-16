@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Global Modeling of HIgh Frequency Circuits and Devices</AwardTitle>
+    <AwardEffectiveDate>10/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2005</AwardExpirationDate>
+    <AwardAmount>360000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Lawrence S. Goldberg</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0115548&lt;br/&gt;Goodnick&lt;br/&gt;&lt;br/&gt;The conventional approach to analyzing circuits and/or systems is to model the behavior in terms of lumped-parameter descriptions of the current-voltage relationships. Hence, device, circuit, and system modeling is often reduced to establishing the parameters that describe I-V characteristics of lumped circuit elements. However, present system operating frequencies characterized in terms of bandwidth and/or clock-speed are increasing at a rate analogous (and even faster) than Moore's law for integration density. As the operating frequency (or the clock speed) increases in circuits, one must treat the signals as electromagnetic waves propagating on transmission lines, rather than the simple voltages and currents. At even higher frequencies in the tera-hertz and far-infrared regime, one has to account for radiation absorption and emission including the interaction with the whole environment. This higher frequency regime is not only being approached from increasingly higher speed devices and circuits, but also from the optoelectronics side as long-wavelength sources and detectors are sought for new optical communication channels, as well as a variety special use applications such as sensing. This requires the development of new CAD tools that combines both electromagnetic theory and semiconductor device concepts. This approach is known as Global Modeling referring to its ability to model complete circuits using one unified scheme.&lt;br/&gt;&lt;br/&gt;Herein is proposed funding for a three-year program of research with the goal of developing device and circuit simulation tools for accurate simulation of high frequency electronic circuits as well as long-wavelength optoelectronic systems. These semiconductor device tools will employ a full-band Cellular Automata/Monte Carlo particle-based techniques developed under previous NSF funding for efficient accurate physical solution of the semi-classical Boltzmann transport equation, coupled hierarchically with lower level models such as hydrodynamic solvers, and distributed transistor behavioral models. These techniques will be combined with robust field solvers based on full-wave solutions of Maxwell's equations using finite difference time domain (FDTD) techniques. The 3D solution of the coupled FDTD/Device problem is challenging from a computational standpoint, hence a large fraction of effort will address algorithmic improvements including parallelization in a distributed workstation environment.&lt;br/&gt;&lt;br/&gt;The device/FDTD simulation kernel will be embedded in a larger simulation domain representing for example the passive elements and stripline coupling of the matching circuit for an amplifier. Comparison and calibration of the simulation tools will be performed in collaboration with industrial partners. High frequency scattering parameter measurements on devices obtained from industrial collaborators will be used to calibrate global simulation results using the above techniques. The PIs will focus on the modeling of high frequency amplifier technologies such as GaAs MESFET and HFET technology, as well as more advanced material systems such as SiGe HBTs and GaN field effect transistors. Consideration of thermal effects will be included as well for power amplifier applications. They will also apply the proposed simulation tool to the investigation of tera-hertz sources and detectors used for example in electro-optic sampling, where comparison will be made to ultrafast optical switching measurements</AbstractNarration>
+    <MinAmdLetterDate>09/25/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/03/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0115548</AwardID>
+    <Investigator>
+      <FirstName>Samir</FirstName>
+      <LastName>El-Ghazaly</LastName>
+      <EmailAddress>el-ghazaly@uark.edu</EmailAddress>
+      <StartDate>09/25/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jim</FirstName>
+      <LastName>Prendergast</LastName>
+      <EmailAddress/>
+      <StartDate>09/25/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Goodnick</LastName>
+      <EmailAddress>stephen.goodnick@asu.edu</EmailAddress>
+      <StartDate>09/25/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Arizona State University</Name>
+      <CityName>TEMPE</CityName>
+      <ZipCode>852816011</ZipCode>
+      <PhoneNumber>4809655479</PhoneNumber>
+      <StreetAddress>ORSPA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1504</Code>
+      <Text>GRANT OPP FOR ACAD LIA W/INDUS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1517</Code>
+      <Text>ELECT, PHOTONICS, &amp; MAG DEVICE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1504</Code>
+      <Text>GRANT OPP FOR ACAD LIA W/INDUS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

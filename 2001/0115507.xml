@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Dynamical Neural Networks for Modeling and Control of Nonlinear Systems</AwardTitle>
+    <AwardEffectiveDate>08/15/2001</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2005</AwardExpirationDate>
+    <AwardAmount>226736</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Paul Werbos</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0115507&lt;br/&gt;Pourboghrat&lt;br/&gt;&lt;br/&gt;Optimal controller design for nonlinear systems has been the topic of much research in the past years. Although optimal controller design has been completely developed for dynamic linear systems, its nonlinear extension is still a topic of research. A general framework for dynamic optimization is the calculus of variations and the Hamilton-Jacobi-Bellman (HJB) equation. Although these minimization algorithms over the years have found many important applications, the corresponding algorithm usually requires the solution of a two-point boundary value problem, which is not applicable for on-line implementation. Currently, there are several approximating techniques available that can be used for optimal regulator design. These can also be implemented on-line at the price of rendering the control sub-optimal. The problem of optimal tracking controller is even harder, since the approximating techniques, in general, cannot be implemented on-line.&lt;br/&gt;&lt;br/&gt;This project will attempt to develop a universal optimal controller for a large class of controllable and observable nonlinear systems. The objective of this research is a new generic approach for the design of optimal controllers that can be implemented on-line. The key component for the proposed control architecture is the use of a generic dynamic neural network (DNN). DNNs are shown to be capable of approximating any nonlinear dynamic system with an arbitrary degree of accuracy, provided that they have enough number of neurons. This generic model of the nonlinear system can be utilized for the derivation of the proposed universal controller for optimal tracking problem. The problem of weight adjustment (adaptation) in the network can be viewed as a controller design for an equivalent system. This allows one to formulate the two problems of parameter adaptation and controller design for a system as single problem of controller design.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2001</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2001</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0115507</AwardID>
+    <Investigator>
+      <FirstName>Farzad</FirstName>
+      <LastName>Pourboghrat</LastName>
+      <EmailAddress>pour@siu.edu</EmailAddress>
+      <StartDate>08/14/2001</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Southern Illinois University at Carbondale</Name>
+      <CityName>Carbondale</CityName>
+      <ZipCode>629014308</ZipCode>
+      <PhoneNumber>6184534540</PhoneNumber>
+      <StreetAddress>Ofc. of Sponsored Projects Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0510403</Code>
+      <Name>Engineering &amp; Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>
