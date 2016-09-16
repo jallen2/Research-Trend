@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Reliability Analysis and Robust Synthesis of HIgh-Performance Clock Networks.</AwardTitle>
+    <AwardEffectiveDate>07/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2006</AwardExpirationDate>
+    <AwardAmount>240000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010600</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The research component of the proposal is to explore a new methodology for clock networks that explicitly accounts for the interplay between the various design factors. The educational component will provide graduate student researchers with an interdisciplinary training in VLSI, optimization, and numerical computing. Furthermore, the research results will be integrated in graduate courses at Purdue University.&lt;br/&gt;The design of clock networks is a fundamental problem in synchronous circuit synthesis, and requires trading off between design effort, physical resource costs and performance. Most existing clock design methodologies do not explicitly perform this trade-off. Instead, a design is first proposed, and then evaluated in terms of physical resource costs and performance, and the design repeated if necessary. As a large number of such iterations may be required, the design effort is minimized with some simplifying assumptions. One of these artificially imposed constraints is that of ``zero-skew'', where it is required that all elements are clocked (i.e., switch) at the same time-instant. This requirement constrains the physical layout of clock distribution networks, as the variation in the arrival of the clock signal at the various switching elements must be held small. Perhaps more important, as all circuit elements switch together, the demand from the power supply is not uniform over time but peaks sharply once every clock cycle. This uneven demand on the power supply leads to what is commonly referred to as power-supply noise: As the demands on the power supply peak sharply, its ability to deliver power degrades, leading to possibly degraded performance of the circuits.&lt;br/&gt;With these observations serving as the backdrop, we propose to develop a design methodology for clock networks that employs nonzero clock skews, and directly addresses the interplay between various factors that determine the trade-off between the design effort, physical resource costs and performance. We present preliminary results that show that our approach holds much promise. Specifically, we propose to perform together scheduling and synthesis of clock networks such that both power supply noise and physical resource costs are reduced. Essential to our objectives is the efficient analysis of power supply noise. We propose a framework and techniques for power-supply noise analysis that draw upon our past successes with model reduction techniques for interconnect modeling both in the time and frequency domain.</AbstractNarration>
+    <MinAmdLetterDate>07/05/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/05/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0203362</AwardID>
+    <Investigator>
+      <FirstName>Venkataramanan</FirstName>
+      <LastName>Balakrishnan</LastName>
+      <EmailAddress>ragu@ecn.purdue.edu</EmailAddress>
+      <StartDate>07/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Cheng-Kok</FirstName>
+      <LastName>Koh</LastName>
+      <EmailAddress>chengkok@ecn.purdue.edu</EmailAddress>
+      <StartDate>07/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

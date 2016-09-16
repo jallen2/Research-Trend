@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: A Robust Fully Decentralized Read/Write File System</AwardTitle>
+    <AwardEffectiveDate>08/15/2003</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2009</AwardExpirationDate>
+    <AwardAmount>410773</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The core of this proposal is the design and implementation of Ivy, a fully decentralized read/write file system built from untrusted network storage. Ivy will act as a case study in a larger effort to explore how to build robust and trustworthy systems from unreliable and mutually-distrustful components. The Ivy project will further network research by providing a challenging test case for DHTs and overlay networks.&lt;br/&gt;&lt;br/&gt;Ivy will itself demonstrate new levels of availability and security, and will provide a powerful new platform to support distributed collaboration. The motivating application for Ivy is collaboration among distributed groups of users. The users might be cooperating in writing a document, maintaining a web site, or developing software. Such collaboration is often awkward with current technology, especially if the different users are in different organizations, or if their organization has insufficient financial or technical resources. For example, cooperating people in different companies, or in different government agencies, often have to resort to e-mail to exchange updates to shared documents. The reason that this happens is that a more sophisticated solution would typically require all participants to place undue trust in each other or in some central entity. For example, if a distributed group of collaborators decide to share a single NFS file server, then they must all trust whoever runs it to keep it reliable and secure, and they may also have to have a formal financial arrangement in order to pay for the server. The group members would have to trust each other to update shared files in a responsible way, and (equivalently) to keep their hosts secure against outsiders breaking in and modifying shared files. If the participants have any degree of mutual distrust, a conventional file server won't be appropriate. Such a group would like to enjoy the illusion of a reliable central file server, trustable to control updates by any member, without having to trust or rely on any single system component or user. &lt;br/&gt;&lt;br/&gt;Ivy will explore this theme in an extreme form, viewing the Internet as a location-transparent data store rather than as a communication system. The main obstacles to realization of this vision are the unreliability and untrustworthiness of Internet nodes. Thus Ivy's design has two main concerns: avoidance of single points of failure, in the form of either critical components or critical data structures; and achieving integrity with untrusted participants. The core of Ivy's design is that it keeps all information in per-participant logs. Participants append update operations to their own logs, and scan the other participants' logs to determine the current state of the file system. Ivy stores and replicates the log records in the DHash peer-to-peer block storage system, so that a participant's log is available even when the participant is not. This use of logs greatly aids both elimination of single points of failure and dealing with untrusted participants. The fact that each log has a single writer makes log data easy to authenticate. It also means that Ivy need not use locks internally, since it has no directly shared mutable data structures; this eliminates both reliability and trust problems in the case of an unresponsive lock holder. The presence of the logs offers the potential of recovering from accidental or malicious damage, by ignoring suspect logs or log entries. &lt;br/&gt;&lt;br/&gt;This proposal has intellectual merit as both systems and algorithmic research. The Ivy system will provide a unique combination of standard read/write file system semantics, complete decentralization, high availability, and arms-length trust relationship among participants. The work will also drive research into algorithms that turn untrusted and unreliable components into systems with well-defined reliability and security properties. This is an aspect of distributed systems that is facing new and exciting challenges with the advent of Internet-wide systems. &lt;br/&gt;&lt;br/&gt;This proposal will have broad impact by involving both undergraduates and graduate students at MIT. The work contains a number of sub-projects suitable for students at both levels; as a result these students will learn how to design and build practical distributed systems out of untrusted components. The PI is currently developing a graduate-level course in distributed systems. Initial work on Ivy has already influenced revisions in the course structure and formed&lt;br/&gt;the basis for new lab assignments.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0238028</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Morris</LastName>
+      <EmailAddress>rtm@csail.mit.edu</EmailAddress>
+      <StartDate>08/14/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4097</Code>
+      <Text>NETWORKING RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

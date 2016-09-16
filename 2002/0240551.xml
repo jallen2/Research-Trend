@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>On-Demand Secure Routing Resilient to Byzantine Failures</AwardTitle>
+    <AwardEffectiveDate>08/01/2003</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2006</AwardExpirationDate>
+    <AwardAmount>336062</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research project presents a novel practical solution for providing a routing service under a strong adversarial model, capable of adversarial omissions (black hole attack). An ad-hoc wireless network is an autonomous self-organizing system of mobile nodes connected by wireless links where nodes not in direct range can communicate via inter-mediate nodes. A common technique used in routing protocols for ad hoc wireless net-works is to establish the routing paths on-demand, as opposed to continually maintaining a complete routing table. A significant concern in routing is the ability to function in the presence of Byzantine failures, which include nodes that drop, modify, or mis-route packets in an attempt to disrupt the routing service. This project designs an on-demand routing protocol for ad hoc wireless networks that provides resilience to Byzantine fail-ures caused by individual or colluding nodes. The first proposed adaptive probing tech-nique detects a malicious link after log n faults have occurred, where n is the length of the path. These links are then avoided by multiplicatively increasing their weights and by us-ing an on-demand route discovery protocol that finds a least weight path to the destina-tion. A great deal of work will be required in order to further improve and experimentally validate the proposed solution. This project would involve further development and an implementation of the secure routing protocol and provide a detailed comparison with other existing ad hoc routing protocols under both normal and adversarial conditions.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0240551</AwardID>
+    <Investigator>
+      <FirstName>Baruch</FirstName>
+      <LastName>Awerbuch</LastName>
+      <EmailAddress>baruch@cs.jhu.edu</EmailAddress>
+      <StartDate>08/05/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Johns Hopkins University</Name>
+      <CityName>Baltimore</CityName>
+      <ZipCode>212182608</ZipCode>
+      <PhoneNumber>4105168668</PhoneNumber>
+      <StreetAddress>3400 N CHARLES ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

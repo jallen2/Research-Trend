@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Third Party Programmability for Embedded Systems</AwardTitle>
+    <AwardEffectiveDate>07/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2004</AwardExpirationDate>
+    <AwardAmount>180000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>There are a rapidly-growing number and diversity of embedded processors in general use today. In a growing number of cases the device is programmable by its user. Programmablility varies in complexity from&lt;br/&gt;simple memory functions, like a cell phone that remembers a list of numbers, to full third-party programmability (TPP), where, for example, a cell phone can download new software from the Internet&lt;br/&gt;and offer significantly new functionality. This feature allows the device to exploit some of the advantages of general-purpuse computers like personal desktop computers or Internet servers. The device serves as a platform for a diversity of applications, even applications that were not yet conceived at the time the device was built.&lt;br/&gt;&lt;br/&gt;In order to exploit these advantages, embedded processor software platforms must offer a range of features well-known from general purpose computers: flexibility, portability, extensibility, predictability, and deliverability. Of these, a particularly unique challenge arises in the delivery of new programs to the device.&lt;br/&gt;Installing new code on general-purpose computers attached to the Internet is already a significant challenge, but the support of TPP embedded processors is an even more diverse and unsettled issue. It is often the case that smart devices are not networked, have only intermittent Internet connectivity, or operate primarily in networks consisting of other smart devices through local peer-to-peer links. This makes code delivery a particular challenge and impels the need for new architectures.&lt;br/&gt;&lt;br/&gt;In this project we will derive a range of code delivery architectures for TPP smart devices based on the assumption of complex connectivity requirements. In the general case issues include small code size (for&lt;br/&gt;instance programs may be limited to one or two kilobyte sizes), interaction with operational requirements (like naivety of a human operator in the field or kitchen), safety requirements for TPP devices with high-energy actuators, security issues for network communication or when mischief is particularly threatening (like programming for automobiles), interplay with network connectivity (like ability to&lt;br/&gt;function both with and without access to the Internet). We will analyze architecture, language, and analysis techniques available to deal with the issues.&lt;br/&gt;&lt;br/&gt;An early basis for our study of requirements will be the area of smart appliances for homes. A diversity of delivery options are the subject of current research in this area. We will begin by developing a system for programming microwave ovens using bar codes on food packages and generalize our experience with this system to others. Existing systems in this area assume too little (like recipes that can be expressed with 3-10 numbers) or too much (like an attached PC that must access recipes from the Internet). An ideal system will allow small programs to be delivered on packages that can function as scripts or invoke network connectivity if it exists to download code for more substantial functionality.&lt;br/&gt;&lt;br/&gt;Our research also focuses on predictability using advanced analysis techniques such as formal verification. Our research will identify the appropriate subsets of general-purpose programming languages for embedded&lt;br/&gt;applications and develop tools for applying verification techniques directly to the source code using domain-specific and automated abstractions.</AbstractNarration>
+    <MinAmdLetterDate>07/05/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/05/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208990</AwardID>
+    <Investigator>
+      <FirstName>Carl</FirstName>
+      <LastName>Gunter</LastName>
+      <EmailAddress>cgunter@uiuc.edu</EmailAddress>
+      <StartDate>07/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Rajeev</FirstName>
+      <LastName>Alur</LastName>
+      <EmailAddress>alur@cis.upenn.edu</EmailAddress>
+      <StartDate>07/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

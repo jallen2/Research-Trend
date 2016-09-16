@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Multithreading: A Viable Approach for High Performance Single Chip Architecture</AwardTitle>
+    <AwardEffectiveDate>01/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2004</AwardExpirationDate>
+    <AwardAmount>311682</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010300</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Carmen Whitson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most modern single processor architectures focus on exploiting instruction-level parallelism. However, despite continued performance improvements, there is increasing doubt that aggressive ILP architecture techniques would continue bringing the desired improvements and that there will come about a diminishing return in the performance of single-chip architectures.&lt;br/&gt;&lt;br/&gt;Multithreaded execution models promise to exploit thread-level parallelism (TLP) beyond a pure ILP approach. Multithreading can be applied directly at the level of uniprocessor instruction-set architectures. For example, Simultaneous MultiThreading (SMT) is a promising approach, which is attracting the attention of a number of academic and industrial research groups. This technique allows the various pipelines of a "superscalar" processor to be efficiently utilized by scheduling from several "coarse-grain" threads of one (or several) program(s). Although exploiting both ILP and TLP is attractive, the following questions are investigated in the project:&lt;br/&gt;&lt;br/&gt;- Can an architecture model, which integrates fine-grain multithreading support with a coarse-grain multithreaded architecture model such as SMT, be developed?&lt;br/&gt;&lt;br/&gt;- What are the design trade-off when mapping these architecture features to single-chip implementations?&lt;br/&gt;&lt;br/&gt;- What compiling methodology for the proposed architecture model would exploit thread-level parallelism at both coarse and fine-grain levels?</AbstractNarration>
+    <MinAmdLetterDate>09/23/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/23/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0234444</AwardID>
+    <Investigator>
+      <FirstName>Jean-Luc</FirstName>
+      <LastName>Gaudiot</LastName>
+      <EmailAddress>gaudiot@uci.edu</EmailAddress>
+      <StartDate>09/23/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173067</ZipCode>
+      <PhoneNumber>9498244768</PhoneNumber>
+      <StreetAddress>5171 California Avenue, Ste 150</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>4715</Code>
+      <Text>COMPUTER SYSTEMS ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

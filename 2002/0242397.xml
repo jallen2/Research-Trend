@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Survivable Continual Data Streams</AwardTitle>
+    <AwardEffectiveDate>08/01/2003</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2008</AwardExpirationDate>
+    <AwardAmount>215844</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gia-Loi Le Gruenwald</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Continual data streams are a generalization of continuous data streams due to two major factors: (1) irregular data bursts and (2) the need to integrate all kinds of data and metadata, instead of pure time series or multimedia. Continual data streams naturally have a trade-off between performance scalability properties and system survivability properties. On the one hand, survivability requires increased redundancy since node and network instability inevitably renders parts of the system unavailable. On the other hand, scalability requires a decrease in data redundancy, to reduce update and propagation costs. This inherent trade-off between survivability and scalability is a major research challenge due to the irregular arrival and integration of continual data streams. The project will investigate the approaches that span the spectrum between absolute consistency guarantees for replicas in traditional replication on one extreme and by-chance consistency/zero guarantees for cached copies in traditional proxy caches on the other extreme. Formally, this approach is based on the notion of bounded inconsistency such as Epsilon Serializability. The main technical idea is to keep the distance between a replica and the original to within the specified threshold (to handle bursts) while optimizing the performance scalability and integrating heterogeneous data streams.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0242397</AwardID>
+    <Investigator>
+      <FirstName>Calton</FirstName>
+      <LastName>Pu</LastName>
+      <EmailAddress>calton@cc.gatech.edu</EmailAddress>
+      <StartDate>08/06/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0104000</Code>
+      <Name>Information Systems</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Computational Infrastructure for Embedded High Consequence System Development</AwardTitle>
+    <AwardEffectiveDate>07/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2004</AwardExpirationDate>
+    <AwardAmount>90000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Project Summary&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The objective of the proposed activity is the development of &lt;br/&gt;a high-assurance function, called a classloader. This function &lt;br/&gt;carries out the static aspects associated with the execution &lt;br/&gt;of Java classfiles as it is defined by a concrete implementation &lt;br/&gt;of the Java Virtual Machine (JVM). The implementation &lt;br/&gt;being targeted is called the Sandia Secure Processor (SSP). To &lt;br/&gt;date, a prototype of the SSP has been developed in VHDL which &lt;br/&gt;synthesized to &lt; 40K gates and is capable of operating near 75MHz.&lt;br/&gt;&lt;br/&gt;The goal is to compose the classloader and the SSP to produce a &lt;br/&gt;Java-centric computational component capable of being used in &lt;br/&gt;embedded system development. Intended application areas for this &lt;br/&gt;technology encompass high to ultra-high consequence embedded systems.&lt;br/&gt;&lt;br/&gt;A primary application domain for which this technology is targeted &lt;br/&gt;has imposed the following constraints on the system:&lt;br/&gt;&lt;br/&gt; 1.There must be the option of building the processor &lt;br/&gt; using rad-hard technology.&lt;br/&gt;&lt;br/&gt; 2.An open source for the system must be available allowing &lt;br/&gt; detailed design analysis and testing of all aspects of &lt;br/&gt; the system (possibly down to the gate level).&lt;br/&gt;&lt;br/&gt; 3.Certification evidence should be provided by formal &lt;br/&gt; mathematical proofs of correctness to the extent possible, &lt;br/&gt; and strongly convincing evidence must be provided in all &lt;br/&gt; other cases where mathematical proofs have not been achieved.&lt;br/&gt;&lt;br/&gt; 4.A security policy must be strictly enforced ensuring that &lt;br/&gt; any program is either rejected as incorrect by compile-time &lt;br/&gt; or run-time checks, or its behavior must be understandable by &lt;br/&gt; reasoning based entirely on the language semantics, independent &lt;br/&gt; of the implementation. In particular, no security violation must &lt;br/&gt; be permitted to succeed regardless whether it is the result &lt;br/&gt; of an inadvertent error, or a malevolent well thought out attack.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Correctness-preserving program transformation is the method that is being &lt;br/&gt;employed to implement a high-assurance classloader function. In this approach, &lt;br/&gt;the functionality of the classloader is realized via a lengthy sequence of &lt;br/&gt;small "intellectually manageable" rewrite steps. Here, a rewrite step is &lt;br/&gt;considered to be intellectually manageable if its correctness can be formally &lt;br/&gt;verified in practice. In order to achieve this goal, novel transformation &lt;br/&gt;techniques are being explored and developed.&lt;br/&gt;&lt;br/&gt;This project will significantly impact the computer science community &lt;br/&gt;by (1) advancing knowledge in the area of program transformation, &lt;br/&gt;(2) demonstrating to industry that formal methods (in this case program &lt;br/&gt;transformation) can be effectively applied to real-world problems, and &lt;br/&gt;(3) providing a computational infrastructure (i.e., the SSP) that is &lt;br/&gt;suitable for embedded high-consequence system development.</AbstractNarration>
+    <MinAmdLetterDate>07/05/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/05/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0209187</AwardID>
+    <Investigator>
+      <FirstName>Victor</FirstName>
+      <LastName>Winter</LastName>
+      <EmailAddress>vwinter@mail.unomaha.edu</EmailAddress>
+      <StartDate>07/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Nebraska at Omaha</Name>
+      <CityName>Omaha</CityName>
+      <ZipCode>681820210</ZipCode>
+      <PhoneNumber>4025542286</PhoneNumber>
+      <StreetAddress>6001 Dodge Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Nebraska</StateName>
+      <StateCode>NE</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2801</Code>
+      <Text>EMBEDDED &amp; HYBRID SYSTEMS(EHS)</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code/>
+      <Text/>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

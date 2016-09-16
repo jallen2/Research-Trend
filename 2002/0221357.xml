@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Data Centric Sensor Networks</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>540000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Du</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Recent technological advances have led to the emergence of sensor networks that integrate small, low-power sensors and actuators with limited on-board processing and wireless communication capabilities.An example of this type of sensor networks is homeland security at airports, bridges, and public buildings: a large number of low cost lightweight wireless devices is scattered in a geographic region and form a surveillance and communication network.Its major function is to locate and track unusual sounds in the region.These wireless devices are equipped with acoustic sensors and can locate a sound wave.They have to organize themselves dynamically, and&lt;br/&gt;convey the location information within a time frame that allows the controller to take necessary action, even in the case of poor spatial distribution of sensor devices, wireless/acoustic interference, and malicious destruction. Out-of-date information is of no use, as the object that was tracked may no longer be in the vicinity when the information is received.This presents a key technical challenge in cooperative engagement how to effectively coordinate and control sensors over an unreliable wireless ad hoc network and is the focus of this proposal.&lt;br/&gt;Specifically, the researchers propose an integrated framework in which a comprehensive solution can be designed with a set of component solutions to achieve the targeted goals.Then the resesarchers propose to carry out tasks along the following five research avenues:&lt;br/&gt;A unified framework for designing, and reasoning the effectiveness of, sensor networks: the researchers survey several application scenarios of data-centric, application-oriented sensor networks, define an abstract problem for information dissemination in sensor networks, and identify a set of requirements and objectives. Then, the researchers configure the required functionalities into modules in/across layers, and figure in their functional dependency.Under this unified framework, one can design protocols specific to a layer without negligence of their interaction, and compatibility, with protocols in other layers.Also, cross layer issues can be identified and appropriately addressed.&lt;br/&gt;Hierarchical cluster formation and routing: Due to the unique characteristics of data-centric sensor networks, the researchers believe topology in the form of hierarchical cluster structure offer the greatest performance benefits.Also, as the information collected by various sensors may be correlated, redundant, and/or of different qualities, this structure facilitates digests of sensor data. The researchers propose to develop, and rigorously prove its optimality of, a decentralized cluster formation scheme that captures and utilizes these unique characteristics. The researchers will also exercise motion control of mobile routers/base stations to effectively recover network partition and/or to relieve communication bottlenecks.&lt;br/&gt;Topology control and power management: The researchers consider, in conjunction with the hierarchical cluster formation scheme, how to exercise power management so as to maintain network connectivity, optimize spatial network reuse, and mitigate MAC-level interference.This is achieved by (i) powering off sensors that are not relay nodes when there are no events; and (ii) devising strategies for setting (a set of) minimal transmission powers when sensors are not evenly distributed.Again tasks in this avenue will be carried out with a rigorous theoretical base.&lt;br/&gt;MAC design for timely dissemination of delay-sensitive data: The researchers address several medium access issues: (i) how to mitigate medium contention to improve short-term and long-term throughput fairness, (ii) how to incorporate well-grounded scheduling policies in MAC to achieve temporal QoS within/between clusters, and (iii) how to tradeoff throughput for delay when real-time messages are involved.&lt;br/&gt;Empirical study with the use of Motes: To validate the design and to empirically study the overall performance, the researchers will leverage the tiny wireless sensors, Motes, and construct a sensor network testbed. As Motes are rather limited in their processing and communication capability, the researchers will integrate Motes with MOPS/520 PC104 boards.This is realized by attaching a Mote to the PC board and use the Mote's serial peripheral interface (originally for synchronous data transfer between the Atmega 163 processor in Motes and peripheral devices) for data transfer between the two boards.The researchers will also simulate acoustic sensor behaviors by using the sound cards and microphone on the PC104 board.With such a sensor network testbed in place, the researchers will be able to implement and experiment with the proposed protocols and algorithms. The researchers plan to simulate homeland surveillance where acoustic sensors can give clues to guards who watch close circuit TVs.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0221357</AwardID>
+    <Investigator>
+      <FirstName>Panganamala</FirstName>
+      <LastName>Kumar</LastName>
+      <EmailAddress>prk@tamu.edu</EmailAddress>
+      <StartDate>09/06/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Lui</FirstName>
+      <LastName>Sha</LastName>
+      <EmailAddress>lrs@cs.uiuc.edu</EmailAddress>
+      <StartDate>09/06/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jennifer</FirstName>
+      <LastName>Hou</LastName>
+      <EmailAddress>jhou@cs.uiuc.edu</EmailAddress>
+      <StartDate>09/06/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4095</Code>
+      <Text>SPECIAL PROJECTS IN NET RESEAR</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

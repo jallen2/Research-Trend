@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Cross-Layer Architectures for Power Adaptive and Smart Antenna Equipped Mobile Ad Hoc Networks</AwardTitle>
+    <AwardEffectiveDate>08/15/2003</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2009</AwardExpirationDate>
+    <AwardAmount>467002</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In this proposal the goal is to increase the capacity of ad hoc networks by efficiently using power control and smart antennas. Traditionally there has been a clear separation between the layers of the protocol stack. In particular, the design and development of protocols at the physical and higher layers has tended to proceed independently. In order to exploit the functionalities provided by a particular layer it is important that the other layers be made aware of the features at the other layers. In particular, traditional protocols do not exploit the ability to tune transmission power or the presence of smart antennas effectively. In fact, many of them fail to function correctly or suffer from degraded performance. The PI propose cross-layer architectures that would consist of new inter-dependent protocols at the MAC, routing and the transport layers that can effectively exploit the aforementioned physical layer features. &lt;br/&gt;&lt;br/&gt;First the proposer propose a power aware cross-layer architecture wherein the layers jointly co-operate to dynamically choose the correct transmission power levels in response to both short term and long term factors. Short-term power management is based on increasing the power levels temporarily to re-establish links that fail due to mobility to provide the higher layer protocols a short grace period to recuperate from failures. Towards this the proposer propose methods that help in determining whether link failures are due to mobility or are induced due to congestion effects. Based on such determinations, intelligent decisions on how the power levels ought to be tuned are taken. Long-term power management is based on choosing transmission power levels for long periods of time such that the topology of the network is shaped to achieve the best throughput. The choice of the power levels are jointly made based on interactions between the layers such that appropriate trade-offs between performance metrics such as throughput and power consumption are achieved. Our methods are applicable in cases wherein the nodes in the network are heterogeneous in terms of power capabilities, i.e., the maximum powers with which different nodes are able to transmit are potentially different. &lt;br/&gt;&lt;br/&gt;Second, the proposer propose a cross-layer architecture that exploits the presence of smart antennas. The architecture facilitates close interactions between the MAC, routing and transport layers to exploit both directional transmissions and receptions in a highly dynamic environment. The interactions help choose the right local connectivity to ensure that a high level of spatial re-use of the spectrum is achieved while keeping the communication overheads fairly small. &lt;br/&gt;&lt;br/&gt;The educational plan is expected to enhance awareness of wireless networking among their students and motivate them to further explore the exciting field of wireless networking. In addition, outreach activities are expected to increase the awareness of wireless networking in the local community.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Broader Impact:&lt;br/&gt;&lt;br/&gt;The research will have a big impact on ad hoc network design by bridging the gap between the physical layer and higher layer technologies. It is expected that the cross layer architectures that we will develop will lead to a significant enhancement in the capacity of ad hoc networks. This in turn, may be expected to further the potential of the widespread deployment of these networks. Examples of such deployments may be in vehicular networks, disaster recovery missions, and tactical battlefields missions. Furthermore, the mechanisms that will be developed are expected to provide considerable power savings that would reduce battery drainage and thereby extend the longevity of the network. &lt;br/&gt;&lt;br/&gt;It is envisioned that this work will motivate future research and development in terms of other possible cross-layer technologies wherein higher layer protocols can exploit other physical layer functionalities such as variable modulation techniques or the ability to dynamically vary the level of error control coding. &lt;br/&gt;&lt;br/&gt;Research agenda is complemented by a strong educational plan that includes (a) the enhancement of the content of existing courses in networking and the initiation of new and exciting courses on wireless networks at both the undergraduate and graduate levels (b) increase our outreach activities to bring wireless technology to the local community by demonstrations and talks at local high schools and (c) close collaboration with industry to improve our students' awareness of commercial systems.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Major Intellectual Contributions: &lt;br/&gt;&lt;br/&gt;The major intellectual contribution in this proposal is to exploit cross-layer dependencies to provide interactions between layers to fully exploit features at the physical layer in mobile ad hoc networks. In particular the proposer focus on the presence of smart antennas and the ability to tune transmission power levels at the physical layer. If such interactions are not provided and protocols at the different layers are designed independent of each other, the capacity of the network is considerably lower than what can be achieved with such interactions. Furthermore, many of the protocols may not work in the way envisioned or may perform unsatisfactorily. We provide mechanisms that can allow the various layers to co-operate to intelligently make choices on (a) how the network topology should be formed to begin with and tuned dynamically and, (b) what to do at a particular layer in response to an event at another layer, in order to increase the capacity of the network and achieve considerable power savings.</AbstractNarration>
+    <MinAmdLetterDate>08/13/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/13/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0237920</AwardID>
+    <Investigator>
+      <FirstName>Srikanth</FirstName>
+      <LastName>Krishnamurthy</LastName>
+      <EmailAddress>Krish@cs.ucr.edu</EmailAddress>
+      <StartDate>08/13/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

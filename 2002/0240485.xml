@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NR: Design and Evaluation of Retrieval Functions in Peer-to-Peer File Sharing Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2003</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2007</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Wu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Peer-to-peer (P2P) file sharing systems allow content to be shared between distributed end-systems or peers. Files are stored at the peers and transferred directly between them. The last few years have seen the popularity of such systems grow tremendously. Beyond their recent popularity, peer-to-peer systems represent a significant new content delivery paradigm that has the potential to re-shape the architecture and performance of the Internet in the long term. A typical P2P user session consists of a search phase where multiple searches may be conducted followed by a retrieval phase in which multiple files may be requested. Much research and development has gone into the design of differing systems for file search, with the aim of improving performance and robustness. In the proposed work, the researchers focus on the file retrieval phase, which has so far received less attention from the research community. We are motivated by three main observations: (i) A P2P system user's experience is the sum total of the performance of both the search as well as the retrieval functions; (ii) The network resources used during the retrieval phase can outweigh by far the resources consumed during the search phase. As such, new paradigms and improvements in the design of the retrieval phase can have far reaching implications on the performance of the Internet in general; (iii) A P2P system provides a significantly different context for content retrieval than the more traditional client-server model; they have larger scale content replication, the peers may possess severe resource constraints, and the peers are quite dynamic. Our proposed research encompasses three areas:&lt;br/&gt;&lt;br/&gt;1. Peer selection strategies for improved performance of the retrieval phase. The resesearchers examine two aspects of this problem that are unique to the P2P environment and that have received little attention: (i) the fact that, due to the large-scale replication inherent in P2P systems, the search phase can only discover a subset of available replicas, and (ii) the constrained nature of serving peers which may require requests to block until serving capacity is available.&lt;br/&gt;2. Content retrieval strategies involving multiple serving peers simultaneously. The large scale replication that may be present in P2P systems leads to the interesting possibility of performing file retrieval from multiple peers in parallel, both to improve performance and overcome peer dynamics and instability. This work considers the effect of wide-scale deployment of parallel downloading on performance as well as fairness among network users. In addition, our work revisits the selection problem in this context.&lt;br/&gt;3. A holistic approach to the operation of P2P systems. The objective is to improve overall P2P user search and retrieval experience. We introduce a new dimension, the quality of a search, by which one should judge the performance of the outcome of a search phase and its effect on the performance during the retrieval phase. The researchers study existing search techniques with this new perspective and also consider two search paradigms inspired by prior work on distributed match-making algorithms and broadcast-stream scheduling.&lt;br/&gt;&lt;br/&gt;The research output will consist of theoretical as well as practical studies of the areas described above. THe researchers will use a variety of techniques to evaluate our ideas (including mathematical and theoretical analysis, simulation, emulation, and experimentation). This work will be among the first to study the retrieval phase in P2P systems in depth. Because network resource usage is primarily influenced by the retrieval phase requirements, this work will also provide the basis of an understanding of the effect of P2P systems on Internet resources and further guide provisioning efforts to meet the demands of P2P systems. We are also committed to activities that will promote the broader impact of the proposed work including: (i) development of modules based on our research for graduate and undergraduate classes, (ii) continued emphasis on inclusion of under-represented groups within our research efforts and (iii) outreach activities to Atlanta-based historically black colleges and universities.</AbstractNarration>
+    <MinAmdLetterDate>09/24/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/24/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0240485</AwardID>
+    <Investigator>
+      <FirstName>Mostafa</FirstName>
+      <LastName>Ammar</LastName>
+      <EmailAddress>ammar@cc.gatech.edu</EmailAddress>
+      <StartDate>09/24/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ellen</FirstName>
+      <LastName>Zegura</LastName>
+      <EmailAddress>ewz@cc.gatech.edu</EmailAddress>
+      <StartDate>09/24/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

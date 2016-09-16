@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Evolutionary Algorithms for Symbolic FSM Equivalence Checking</AwardTitle>
+    <AwardEffectiveDate>08/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2005</AwardExpirationDate>
+    <AwardAmount>147726</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010600</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Integrated Circuits (ICs) are becoming more complex and market demand continues to pressure designers to produce new ICs in a shorter amount of time. For these reasons, there is interest in the use of verification&lt;br/&gt;methods that allow designers the ability to ensure correctness of their product without resorting to time-consuming simulation techniques. Two approaches for verification are equivalence checking and model checking. Internally, in these two approaches, a method for checking the equivalence of Finite State Machines (FSM) is commonly used.&lt;br/&gt;&lt;br/&gt;FSM equivalence checking is typically implemented through the use of a symbolic state-space reachability algorithm that uses BDD data structures and satisfiability (SAT) algorithms. While there have been advances in symbolic FSM machine state-space traversal methods in recent years, many designs of interest still cannot be verified using this method due to the transition relation (TR) BDD becoming too large, the BDD representing the state space already traversed becoming too large, the intermediate BDDs during image computation becoming too large, and, the overall process requiring too much computation time.&lt;br/&gt;&lt;br/&gt;Evolutionary algorithms have recently been applied to several problems in design automation. This research project involves the investigation of the use of evolutionary algorithms for exact and approximate FSM&lt;br/&gt;equivalence checking. Evolutionary algorithms are being developed that prune the TR and the reachable state BDDs such that exact, over-approximation or under-approximation state space traversals can be&lt;br/&gt;performed. Since evolutionary algorithms can be quite computationally intensive, a major portion of this effort focuses on the development of efficient mutation and crossover operations.</AbstractNarration>
+    <MinAmdLetterDate>09/26/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/09/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0243365</AwardID>
+    <Investigator>
+      <FirstName>Mitchell</FirstName>
+      <LastName>Thornton</LastName>
+      <EmailAddress>mitch@engr.smu.edu</EmailAddress>
+      <StartDate>09/26/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Southern Methodist University</Name>
+      <CityName>Dallas</CityName>
+      <ZipCode>752750302</ZipCode>
+      <PhoneNumber>2147682030</PhoneNumber>
+      <StreetAddress>6425 BOAZ</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SOFTWARE: Compiler Techniques for High-Performance Computing in Java</AwardTitle>
+    <AwardEffectiveDate>02/01/2003</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2006</AwardExpirationDate>
+    <AwardAmount>320000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Since its debut in 1995, Java has gained acceptance rapidly among software developers as the language of choice for many applications where portability and reliability are paramount. Java's support for clean object-oriented (OO) design, write once, run anywhere portability, comprehensive static type checking, automatic storage management, and safe execution semantics have dramatically improved programmer productivity and software reliability.&lt;br/&gt;Despite of this high level of interest, Java has made little headway in the arena of high-performance&lt;br/&gt;computing because it is too slow. The performance penalty is particularly acute when Java programs are written in a clean, object-oriented style that makes extensive use of polymorphism. Our recent studies of Java performance show that applications written in this object-oriented style incur performance penalties of a factor of ten or more over applications coded in a more tedious style similar to Fortran and C. If this performance gap cannot be bridged, the object-oriented benefits of Java will not be realized for compute-intensive applications, squandering an opportunity to revolutionize high-performance programming.&lt;br/&gt;We propose to address this problem by conducting research into compiler technologies that make&lt;br/&gt;it possible to develop applications and component libraries using the full power of the Java language&lt;br/&gt;without sacrificing significant run-time performance. Although these strategies are suitable for use&lt;br/&gt;in a compiler, we will incorporate the resulting technologies into a source-to-source optimization&lt;br/&gt;tool. This tool will use application developer interaction to help optimize and package the Java&lt;br/&gt;software.&lt;br/&gt;We believe that the development of Java implementation technology suitable for high-performance&lt;br/&gt;software could catalyze a revolution in the way compute-intensive applications are constructed&lt;br/&gt;enabling the solution of more difficult scientific problems and the development of web applications&lt;br/&gt;that have heretofore been out of reach. A large number of computational scientists share this vision, as evidenced by the experimental use of Java reported in the Java Grande Forum.&lt;br/&gt;The optimization of object-oriented programs has been an active area of programming language&lt;br/&gt;research for nearly twenty years, but little attention has been focused on the optimization technology required for high-performance numerical computation. Prior to Java, type-safe object-oriented languages were not considered candidates for numerical applications. To achieve high performance for polymorphic numerical code, the language implementation must perform class specialization, which clones a type-specific version of a class containing polymorphic fields, object inlining, which replaces a variable containing a reference to an object by a tuple of variables containing the object's fields and method inlining, which replaces method calls by specialized versions of the correspondingmethod body.&lt;br/&gt;We believe that a judicious application of these three transformations combined&lt;br/&gt;with standard instruction-level code optimization can translate polymorphic object-oriented source&lt;br/&gt;programs to machine code comparable in quality to optimized Fortran.&lt;br/&gt;In addition to these necessary optimizations, we propose two novel compilation strategies: almostwhole-program compilation, which relaxes the above optimizations' requirement of whole-program compilation to allow for more programming flexibility, and semantics modifying transformations which improve the communication between the compiler and the programmer to allow for even more aggressive optimizations.&lt;br/&gt;We also propose to apply the technologies resulting from this research to optimize several scientific applications written in Java.</AbstractNarration>
+    <MinAmdLetterDate>02/12/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/02/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0234345</AwardID>
+    <Investigator>
+      <FirstName>Ken</FirstName>
+      <LastName>Kennedy</LastName>
+      <EmailAddress>ken@rice.edu</EmailAddress>
+      <StartDate>02/12/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Zoran</FirstName>
+      <LastName>Budimlic</LastName>
+      <EmailAddress>zoran@rice.edu</EmailAddress>
+      <StartDate>02/12/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

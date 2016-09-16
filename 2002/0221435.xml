@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Beyond BGP: Flexible and Scalable Interdomain Routing (BGGP)</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2007</AwardExpirationDate>
+    <AwardAmount>410000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050200</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Interdomain routing performs the critical function of gluing together individual pieces of the Internet topology to create a connected data delivery infrastructure. Today this critical function is performed by the Border Gateway Protocol (BGP) [rfc1771] which establishes reachability information among Autonomous Systems (ASes). However despite its importance, current measurements and analysis have not led to a basic understanding of BGP's dynamics, performance under stress, fundamental weaknesses, and potential breaking points (if any). Although a few data collection points have been set up in the last few years &lt;br/&gt;[ipe,routeviews], the routing data collected by these measurement points are mixed with measurement artifacts [ftntalk], thus the data do not necessarily reflect the protocol's behavior in actual operation. &lt;br/&gt;&lt;br/&gt;In order for the Internet to continue its unprecedented growth, the interdomain routing protocol must continue to evolve to meet ever increasing and sometimes contradictory requirements. There is a general belief that the current BGP routing protocol may be unable to meet its new requirements (for instance, accomodating the sharp increase in use of site multi-homing, which keeps routing tables from optimally small sizes[huston:scale:2001]). BGP is generally thought to be reaching the end of its useful lifetime, although this has not been validated by analysis or measurements [nimrod,irtfrr,huitema:ipng,huston:scale:2001]. Due to the lack of a shared understanding of the problem and lack of sufficient data and analysis, there is no consensus on where/when BGP collapses and what (if anything) should be done. &lt;br/&gt;&lt;br/&gt;To address the above critical questions facing interdomain routing, the researchres have assembled a team with research and operational experience, and expertise in network protocols, algorithms, modeling and analysis. The resarchers have identified the following fundamental technical requirements that the global routing must meet: it must scale in order to handle the growth (both in the number of users and in the richness of connectivity); security and resilience are critical issues, so it must continue to function in face of ever increasing faults and attacks; it must be able to fully utilize the rich Internet connectivity; and it must both allow network operators to apply various policy constraints and implementors to easily extend the protocol's functionality when needed. &lt;br/&gt;&lt;br/&gt;Based on the above criteria the researchers propose to tackle the challenge with the following 3 steps. (1) Develop measurement methodologies and collect data necessary to understand the current BGP operation, its overhead, dynamics under stress, potential vulnerabilities, inadequacies in functionality. The research will base this measurement effort on precise requirements that isidentiied as lacking in existing data, such as for the data not to be collected over vulnerable multihop links [ftntalk]. A new effort at University of Oregon, separate from this proposal, is the measurement companion, if funded. (2) Guided by our measurement and analysis, evaluate several proposed design approaches, including meeting the requirements by tinkering with BGP, by a NIMROD-like [nimrod] maps-approach, by two different approaches to handling multihoming scalability, and by a Clean Slate approach of a complete BGP replacement. Each of these approaches emphasizes different aspects of the interdomain routing problem. The researchers believe there are fundamental trade-offs between many of the desired technical requirements and that these trade-offs are currently not well understood. The combination of measurement and rigorous analysis with a team including operations expertise will bring these trade-offs into clear view. (3) Based on the data analysis and design evaluations the researchers will produce a final approach as the recommendation for moving forward. &lt;br/&gt;&lt;br/&gt;Through iterations of the above steps, the proposed research undertaking is expected to produce new understanding of current interdomain routing operations, their dynamics and resilience (or lack of it), and vulnerabilities; a new analysis will also be produced that draws on direct and intensive measurement and operations knowledge to capture the fundamental trade-offs among interdomain routing requirements; and a conclusion will be reached on how to meet the future Internet's interdomain routing needs.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0221435</AwardID>
+    <Investigator>
+      <FirstName>Randall</FirstName>
+      <LastName>Bush</LastName>
+      <EmailAddress>randy@psg.com</EmailAddress>
+      <StartDate>09/11/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Oregon Eugene</Name>
+      <CityName>Eugene</CityName>
+      <ZipCode>974035219</ZipCode>
+      <PhoneNumber>5413465131</PhoneNumber>
+      <StreetAddress>5219 UNIVERSITY OF OREGON</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

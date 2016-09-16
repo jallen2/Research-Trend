@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Development, Analysis, and Implementation of Robust Algebraic Preconditioners for Sparse Linear Systems</AwardTitle>
+    <AwardEffectiveDate>08/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2005</AwardExpirationDate>
+    <AwardAmount>153910</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Benzi&lt;br/&gt;0207599&lt;br/&gt; The solution of large, sparse systems of linear equations &lt;br/&gt;continues to be one of the fundamental problems of computational mathematics. Recent years have seen significative advances in the performance and robustness of iterative methods, prompted by the need to solve increasingly large systems of equations. The linear systems (and eigenvalue problems) arising from the discretization of partial differential equations in three space dimensions are too large for direct solution methods, and the only viable option is to use preconditioned Krylov subspace methods or, if applicable, multigrid-type methods. While robust and effective iterative solvers are available in the case of systems involving symmetric positive definite matrices or M-matrices, much work remains to be done in the case of indefinite systems. A major part of the project consists in the development of algebraic preconditioners for symmetric indefinite matrices. The investigator develops both incomplete factorization methods and sparse approximate inverses. He makes use of techniques developed by the direct solvers community, like pivoting strategies of the Bunch-Kaufman and Bunch-Parlett type. Preliminary experiments on saddle-point and shifted linear systems are encouraging. He also explores multilevel variants of these preconditoners. Special methods targeted to so-called KKT-type systems are investigated. Other parts of the project deal with the construction of robust preconditioners for least-squares problems, and for singular linear systems arising from Markov chain calculations. The latter problem is currently of particular interest due to recent applications in data mining. Specifically, the largest matrix problems currently being solved are the so-called "Google Problems", which amount to computing the stationary distribution vector of Markov chains with 2.7 billion states. Improvements in solution techniques have the potential of greatly affecting this important area.&lt;br/&gt; Advances in many important fields of science and technlogy depend on progress in mathematical algorithms used in computer simulations. A recent example is provided by the emerging field of data mining. The well-known search engine "Google" (see http://www.google.com) relies on the solution of an extremely large, sparse matrix model; in technical terms, a stochastic matrix, or Markov chain. This amounts to finding the solution to a very large set of simultaneous linear algebraic equations. Part of this project deals with finding improved solution methods for problems of this type. More generally, the project aims to solve challenging, large-scale problems in numerical linear algebra. The main goal is to develop efficient and robust algorithms, and related software, for solving difficult problems arising in various fields of engineering and physical sciences. Some other areas that would benefit from this work include computational fluid dynamics, structural analysis, acoustics, electromagnetics, and optimal control. In all of these areas, computer simulations are of paramount importance and there is a strong need for reliable and efficient solution algorithms and software.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/27/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0207599</AwardID>
+    <Investigator>
+      <FirstName>Michele</FirstName>
+      <LastName>Benzi</LastName>
+      <EmailAddress>benzi@mathcs.emory.edu</EmailAddress>
+      <StartDate>07/30/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Emory University</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303224250</ZipCode>
+      <PhoneNumber>4047272503</PhoneNumber>
+      <StreetAddress>1599 Clifton Rd NE, 4th Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>VISUALIZATION: Advanced Weather Data Visualization</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2004</AwardExpirationDate>
+    <AwardAmount>298311</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Xiaodong Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The atmospheric science community requires visualization of observed, measured, and simulated data for accurate analysis of the atmosphere and improved weather prediction. Unlike many scientific communities, weather observers and atmospheric scientists rely heavily on important visual cues in the atmosphere to determine the potential severity of many storms.&lt;br/&gt;However, the current state-of-the-art in weather visualization from systems such as Vis5D, VisAD, or D3D, lack important visual information that is crucial for atmospheric scientists to fully understand the development and evolution of weather systems.&lt;br/&gt;Recognizing the importance of these visual cues, this project will significantly enhance the visualization of weather data through the development of innovative software techniques that will provide more accurate and effective visual representations of weather data. Simple visualization practices, such as depth cueing, isosurface texturing, volume shading, shadows, and correct natural color effects (such as sunlight) are absent in current weather data visualization software. While advanced computer graphics applications (e.g., movie production) have effectively used these techniques for some time, they have yet to be applied in a robust way to weather data. In this project, we will not only fill this gap to create improved, visually accurate weather data visualization, but also increase the quantity and clarity of the information conveyed from the resulting visualizations. Using mature numerical weather prediction software, the Advanced Regional Prediction System (ARPS), to generate numerically simulated severe weather events, new software techniques will be developed to enhance the visualization of this data and begin a new era in weather data visualization.&lt;br/&gt;Beyond current capabilities of standard isosurfaces, scalar volume renderings, and two-dimensional images lies important rendering capabilities for weather visualization, such as shaded volumes, shadows, light-transport, and simulated natural cloud modeling. In this project, we will develop, enhance, and apply these techniques to atmospheric data in ways which have yet to be attempted.&lt;br/&gt;The primary goal of our research is to produce visually accurate images of weather model data that will provide more accurate information than current methods and use the same cognitive model and analysis process as the forecasters already use, allowing them to increase their effectiveness. &lt;br/&gt;We will additionally develop techniques to effectively incorporate non-visual data and allow the selective visualization of the visual / non-visual weather data to enable better understanding of the relationships between these variables and quantities. Our goal is to develop these improved techniques, while also allowing interactive exploration of the observed, measured, and model data.&lt;br/&gt;Through the use of programmable graphics hardware with three-dimensional texture-mapping, we will implement techniques for interactive visually accurate weather visualization with low-albedo illumination, physics-based atmospheric scattering and attenuation, and volumetric shadowing. &lt;br/&gt;We will also implement slower high-albedo illumination models at coarser resolutions to give approximate multiple scattering effects and utilize this scattering information in the illumination calculation per-pixel fragment through three-dimensional texture mapping hardware. We will use perceptually motivated mapping of non-visual weather quantities (e.g., temperature, dewpoint, wind, atmospheric pressure, vorticity) to glyphs, particles, and isosurfaces to provide more information in an easily understandable manner, extending on our previous work in rceptually-motivated glyph rendering, fast isosurface rendering, and volume illustration. Given the capabilities of current graphics hardware, we won't be able to produce truly visually accurate images and animations of time-varying atmospheric data for at least the first half of the project, although we expect to be able to produce good approximations at interactive rates. We also plan to incorporate simple key-frame recording tools into the visualization system for off-line generation of atmospheric visualizations.&lt;br/&gt;The weather models produced contain multiple variables at each spatial location. By employing scientific-based combinations of these variables, it is possible to localize specific features contained in these models. We will extend our preliminary work in the development of multi-dimensional transfer function methods for multivariate data to effectively convey information from this complex model data. This improved interactive weather visualization system will increase the effectiveness of atmospheric analysis, improve severe storm forecasting, and enhance the formulation, parameterizations, and physics of numerical weather prediction models. &lt;br/&gt;Additionally, it will improve the training of weather observers and atmospheric science students (both undergraduate and graduate), and provide understandable animations to help in basic weather education at the K-12 level. &lt;br/&gt;The ultimate goal of this research is to produce a visually accurate, interactive rendering of a numerical severe thunderstorm simulation, thereby enhancing the ability of both the scientist and general user to discover and explore atmospheric processes in an unprecedented way.</AbstractNarration>
+    <MinAmdLetterDate>09/23/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/30/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0222675</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Ebert</LastName>
+      <EmailAddress>ebertd@ecn.purdue.edu</EmailAddress>
+      <StartDate>09/23/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jason</FirstName>
+      <LastName>Levit</LastName>
+      <EmailAddress>Jason.Levit@noaa.gov</EmailAddress>
+      <StartDate>09/23/2002</StartDate>
+      <EndDate>01/07/2004</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Charles</FirstName>
+      <LastName>Hansen</LastName>
+      <EmailAddress>hansen@cs.utah.edu</EmailAddress>
+      <StartDate>09/23/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Oklahoma Norman Campus</Name>
+      <CityName>NORMAN</CityName>
+      <ZipCode>730199705</ZipCode>
+      <PhoneNumber>4053254757</PhoneNumber>
+      <StreetAddress>201 Stephenson Parkway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oklahoma</StateName>
+      <StateCode>OK</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>4080</Code>
+      <Text>ADVANCED COMP RESEARCH PROGRAM</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

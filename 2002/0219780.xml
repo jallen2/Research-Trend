@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: Protocol Coordination for Multistream Applications</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2007</AwardExpirationDate>
+    <AwardAmount>368047</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Wu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The world is rapidly being populated by a wide array of information appliances such as computers, personal digital assistants, video cameras, digital light projectors, and cable set-top boxes. These&lt;br/&gt;appliances are no longer simply islands of technology, but have the ability to communicate with other devices in their environment. Future Internet applications will increasingly make use of these&lt;br/&gt;devices by organizing them in a distributed fashion. Examples of these applications include distributed sensor arrays, tele-immersion, computer-supported collaborative workspaces (CSCW), ubiquitous computing environments, and complex multistream, multimedia presentations. In these applications, no one device or computational resource produces or manages all of the data streams&lt;br/&gt;transmitted. Instead, these applications will be distributed over a collection of devices in an environment. These types of applications are called "cluster-to-cluster" (C-to-C) applications.&lt;br/&gt;&lt;br/&gt;In a C-to-C application, a set of processes distributed on a cluster of devices or computers communicates with another set of processes on a remote cluster of devices or computers. Processes are distributed on the device clusters at either end to manage the data streams and control the application. Unfortunately, traditional network technologies and protocols are ill-equipped to support these kinds of applications.&lt;br/&gt;&lt;br/&gt;The fundamental problem is that current transport-level protocols operate in isolation from other traffic flows and within a strict understanding of "end-to-end." The transport-level protocols used by multiple, related, data streams that share a common path have no coordination mechanism. As a result, each process in a C-to-C application competes with other processes within the same application for network resources. Also, each transport-level protocol must make independent assessments of current network conditions (e.g., delay, congestion, etc.) which can lead to inconsistent and adversarial protocol dynamics. Furthermore, the numerous data streams produced by a C-to-C application will have semantic relationships known only to the application. These relationships affect how the data should be transmitted and the operation of transport-level protocols. A C-to-C application needs a global view of performance across all of its flows&lt;br/&gt;in order to make adaptations to dynamic network conditions. Independent adaptation of the separate flows uninformed of aggregate application performance is insufficient.&lt;br/&gt;&lt;br/&gt;A key characteristic of C-to-C applications is that a large portion of the communication path is shared among all data flows. Although no two data flows may share an entire end-to-end path, all data flows share the path between the two clusters. Furthermore, this shared common path is likely to be where network conditions vary the most and the source of congestion due to outside traffic. Exploiting this characteristic, our general approach to the problem is to introduce mechanisms at the points of aggregation for data streams in a cluster application that determine network conditions along the shared common path and provide a consistent and coordinated view of available network resources.&lt;br/&gt;&lt;br/&gt;Specifically, a major contribution of our work will be to introduce an additional protocol between the network level (IP) and the transport level (TCP, UDP, etc.). We call this protocol the "Coordination Protocol" (CP). This additional protocol will be used to communicate information between forwarding mechanisms within the cluster infrastructure on either end of the application. The information exchanged by these mechanisms is used to estimate the dynamic network conditions along the shared path (i.e., congestion, latency, jitter, etc.). Because a single mechanism is charged with estimating network conditions across all flows of a multistream application, all individual transport-level protocols involved in a C-to-C application receive a consistent and coordinated view of current network conditions. The application can then react to congestion, loss, and other network events in a manner that incorporates application-level knowledge and achieves global objectives.&lt;br/&gt;&lt;br/&gt;The major features of the researchers approach are:&lt;br/&gt; - Provides a consistent measurement of network conditions across all application flows.&lt;br/&gt; - Preserves end-to-end semantics of transport-level protocols.&lt;br/&gt; - Locally deployable.&lt;br/&gt; - Independence from application architecture.&lt;br/&gt; - Serves as a framework for other types of coordination.&lt;br/&gt;&lt;br/&gt;As a whole, the aggregate network behavior of all the flows of a C-to-C application should respond appropriately to congestion and other network conditions. How each individual stream responds,&lt;br/&gt;however, can only be determined at the application level because only the application has an understanding of how the streams are related. The coordination protocol we will develop provides cluster applications with the ability to apply application-level knowledge about these interstream semantic relationships and coordinate the use of network resources. The protocol will help us explore coordination mechanisms and make possible a wide range of new application types&lt;br/&gt;that do not currently exist, but are envisioned by researchers and industry as the future of the Internet.</AbstractNarration>
+    <MinAmdLetterDate>09/26/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/01/2006</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0219780</AwardID>
+    <Investigator>
+      <FirstName>Ketan</FirstName>
+      <LastName>Mayer-Patel</LastName>
+      <EmailAddress>kmp@cs.unc.edu</EmailAddress>
+      <StartDate>09/26/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Chapel Hill</Name>
+      <CityName>CHAPEL HILL</CityName>
+      <ZipCode>275991350</ZipCode>
+      <PhoneNumber>9199663411</PhoneNumber>
+      <StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

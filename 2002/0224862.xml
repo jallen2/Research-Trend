@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Concurrent Garbage Collection for Multithreaded-Multiprocessor Environments</AwardTitle>
+    <AwardEffectiveDate>08/01/2001</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2005</AwardExpirationDate>
+    <AwardAmount>122902</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Memory management consumes a great deal of time on today's computer systems, and will take even longer in the future. Software techniques have successfully hidden most of this overhead on personal workstations by shifting the work to times when the system is waiting for user&lt;br/&gt;interaction. Such techniques are less effective on SMP servers, where the overall computational overhead is what matters. The Dynamic Memory Management Unit (DMMU), a special-purpose hardware mechanism based on bitmaps and combinational logic can greatly diminish this overhead. Preliminary results for three languages show that this approach is much&lt;br/&gt;faster than software memory allocation, and consumes only slightly more memory than software-allocation techniques. This proposal calls for the integration of this hardware unit into SMP systems, which would allow concurrent garbage collection in multithreaded-multiprocessors&lt;br/&gt;environments. This can speed up the performance of server applications written in Object-Oriented languages such as C++ and Java.</AbstractNarration>
+    <MinAmdLetterDate>05/20/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/29/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0224862</AwardID>
+    <Investigator>
+      <FirstName>Morris</FirstName>
+      <LastName>Chang</LastName>
+      <EmailAddress>morris@iastate.edu</EmailAddress>
+      <StartDate>05/20/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

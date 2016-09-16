@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: Fine-Grain Dynamic Leakage Reduction for Microprocessors</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>225000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Reducing energy consumption is a key challenge in the design of modern microprocessors. Until recently, the primary source of energy dissipation in CMOS microprocessors has been the dynamic switching of load capacitances, but with continuing reductions in feature size and the accompanying reductions in threshold voltage, static leakage power is increasing exponentially. Most leakage power is dissipated on critical paths, especially after slower, low-leakage transistors are used on non-critical paths. To reduce leakage energy further, it is necessary to dynamically deactivate the fast leaky transistors on critical paths when they are not needed.&lt;br/&gt;&lt;br/&gt;This project is developing fine-grain dynamic leakage reduction techniques, whereby small pieces of an active processor are put to sleep for short periods of time. The project is investigating circuit-level leakage reduction technique that have low sleep transition energy and rapid wakeup times, together with micro-architectural and compiler techniques that increase the sleep time of micro-architectural components without impacting performance or dynamic power dissipation. Accurate static power models that capture the sleep-time dependence of leakage energy are being developed for use with architectural simulators. This work enables a new class of limited critical activity architectures, where fast but power hungry logic can be selectively enabled to speed critical paths while limiting overall power consumption.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/18/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0219545</AwardID>
+    <Investigator>
+      <FirstName>Krste</FirstName>
+      <LastName>Asanovic</LastName>
+      <EmailAddress>krste@eecs.berkeley.edu</EmailAddress>
+      <StartDate>08/27/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1652</Code>
+      <Text>HIGH END COMPUTATION AND INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

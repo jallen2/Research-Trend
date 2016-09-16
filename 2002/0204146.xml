@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Taylor Expansion Diagrams: A Compact Canonical Representation for RTL Verification</AwardTitle>
+    <AwardEffectiveDate>07/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2006</AwardExpirationDate>
+    <AwardAmount>286000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010600</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this work is to develop a new canonical representation and an efficient verification infrastructure to support the RTL verification of large designs. The proposed graph-based representation, called Taylor Expansion Diagram, is based on a different decomposition principle than used by decision&lt;br/&gt;diagrams such as BDDs and BMDs. It is obtained by treating the symbolic expression of the design as a continuous, differentiable function and applying Taylor series expansion with respect to its word-level variables. &lt;br/&gt;&lt;br/&gt;The resulting Taylor Expansion Diagram (TED) is canonical for a fixed ordering of variables. TEDs can be used to represent functions containing both algebraic and Boolean expressions, facilitating the representation of complex designs with arithmetic operators and Boolean logic, typically encountered in &lt;br/&gt;RTL specifications. &lt;br/&gt;&lt;br/&gt;We are building an RTL verification infrastructure centered around TED that can be used to verify functional equivalence of RTL designs. We are developing systematic, algorithmic techniques for constructing and manipulating TED representations of HDL designs, based on the new theory.&lt;br/&gt;We are also investigating how to exploit TEDs for implementation verification, that is checking functional equivalence between an RTL specification and its logic, gate-level implementation. By carrying out extensive experiments, the applicability of TEDs to realistic designs with arithmetic circuits and Boolean logic must be evaluated, and the performance of TEDs compared against that of BDDs and *BMDs.&lt;br/&gt;&lt;br/&gt;This project has also an important educational role of teaching students about modern design representations from decision diagrams to more abstract, word-level data structures in the context of design synthesis and verification.</AbstractNarration>
+    <MinAmdLetterDate>07/02/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/29/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0204146</AwardID>
+    <Investigator>
+      <FirstName>Maciej</FirstName>
+      <LastName>Ciesielski</LastName>
+      <EmailAddress>ciesiel@ecs.umass.edu</EmailAddress>
+      <StartDate>07/02/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>AMHERST</CityName>
+      <ZipCode>010039242</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

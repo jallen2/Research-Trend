@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Spectral Entropy and Adaptive, Lossy Source Coding</AwardTitle>
+    <AwardEffectiveDate>07/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>02/29/2004</AwardExpirationDate>
+    <AwardAmount>232488</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010700</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Venugopal V. Veeravalli</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The efficient digital representation of voice, still images, high quality audio, and video, called lossy source compression, has a host of commercial applications today. These applications include digital cellular telephones, MP3 players, DVDs, HDTV, videoconferencing, Internet telephony, and the transmission/storage of still images. The best approaches to source compression in these applications are adaptive in nature and are based upon a technique called nonlinear approximation. However, these compression methods have been designed primarily based on experiments without any guiding theory. This research investigates a new approach to adaptive lossy source compression based upon a mathematical quantity called the spectral entropy. This new approach to source compression, denoted as the SpEnt (spectral entropy) method, offers a fundamentally sound approach to adaptive source compression that has been missing heretofore. This work develops SpEnt-based lossy compression methods for speech, video, and still images that should find applications in many commercial products.&lt;br/&gt;&lt;br/&gt;The most successful methods for lossy source compression today are sample-function adaptive coders (also called input-by-input adaptive or realization-adaptive). In sample function adaptive coders, not only might the number of parameters transmitted in each block or frame vary from block-to-block (frame-to-frame), but for a given number of transmitted parameters, which parameters are transmitted in each block may vary. For such coders with a fixed set of basis functions, it is usually said that the coefficients corresponding to the best n basis functions are sent, rather than the first n, and this is called nonlinear approximation in harmonic analysis. Campbell derived the quantity that he called the coefficient rate of a random process in 1960, and he showed that the coefficient rate depends on the spectral entropy (the entropy of the power spectral density of the original process). No coding theorems were proved and no possible implications of coefficient rate for source compression were stated. Recent work by the PI and his students produced two new derivations of Campbell's coefficient rate. One derivation allows coefficient rate to be interpreted with respect to a quantity called the effective bandwidth of the process. The other derivation reveals a new approach to source compression based upon coefficient rate that adapts to each realization of the source. More specifically, by studying the dominant terms in the series expansion of the product of terms, it was shown that in a sequence of N samples of a particular coefficient, the number of coefficient samples that should be coded is proportional to the coefficient variances. Thus, whether a particular coefficient is being coded or not is changing from block-to-block, and thus, lossy compression based upon the spectral entropy clearly falls in the class of nonlinear approximation methods. Motivated by these results, this research formulates a new approach to lossy source compression, called the spectral entropy (SpEnt) method, and develops SpEnt based coders for lossy compression of wideband speech (50 Hz to 7 kHz), video, telephone bandwidth speech, and still images. Further, this work examines the role of spectral entropy and Campbell's coefficient rate as fundamental quantities in adaptive coding of a sequence of source realizations.</AbstractNarration>
+    <MinAmdLetterDate>09/30/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/26/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0243332</AwardID>
+    <Investigator>
+      <FirstName>Jerry</FirstName>
+      <LastName>Gibson</LastName>
+      <EmailAddress>gibson@ece.ucsb.edu</EmailAddress>
+      <StartDate>09/30/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Barbara</Name>
+      <CityName>SANTA BARBARA</CityName>
+      <ZipCode>931062050</ZipCode>
+      <PhoneNumber>8058934188</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

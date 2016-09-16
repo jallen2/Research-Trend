@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>HPNC: High Speed Networking for Automated Fluorescence Microscopy</AwardTitle>
+    <AwardEffectiveDate>09/15/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2004</AwardExpirationDate>
+    <AwardAmount>168500</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Douglas Gatchell</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With high speed networking capability, investigators at Children's Mercy Hospital will be able to rapidly transmit high volumes of digital images produced by fluorescent microscopes to colleagues at collaborating Internet2 institutions where images will be processed. The images must be captured and transmitted with very low latency, because network delays could lessen data quality (fluorescence is quenched from prolonged exposures (&gt;5.) at the excitation wavelengths at high magnification) and because sustained high transmission rates are required (2-4 Mb/sec over 3 hours per experiment). &lt;br/&gt;Fluorescence microscopy is a key technology in cell biology and genetics research. Molecular cytogenetic detection of chromosomal abnormalities by fluorescence in situ hybridization (FISH) has been translated into clinical practice. More recently, FISH has been used to stratify patients for cancer therapies targeted to the genes rearranged in these disorders. CMH investigators study the causes of human chromosomal disorders using a new type of single copy DNA probe (scFISH) that has been designed and produced directly from the human genome draft. Funded research studies at CMH are using scFISH probes to detect abnormal chromosomes from patients with inherited or acquired disorders. It is feasible to produce and hybridize arrays of scFISH probes at very high genomic densities (1 per 20-30 kb), enabling definition of chromosome rearrangements at a resolution not feasible with conventional FISH probes. With conventional FISH, the rate of DNA probe preparation is a bottleneck in generating results from hybridization experiments. This is overcome with scFISH, in which umerous probes can be prepared and hybridized simultaneously. Now, the rate at which the microscopist can scan slides for adequate metaphase chromosome spreads (or other cellular structures) is the limiting factor in the analysis of scFISH (or immunofluorescence) data.&lt;br/&gt;CMH investigators are collaborating with computer scientists and engineers, respectively, at the University of Missouri-Columbia (MU) and at the University of Missouri-Kansas City (UMKC) to develop an automated system to expedite processing and prioritize images from scanned microscope slides of fluorescently-labeled, hybridized metaphase chromosomes or antibody-labeled cells. Current commercial automation systems are limited only to fluorescent probe detection, and do not account for both chromosome (or cellular) morphology and the fluorescent signals, which is the goal of this project. This system will reduce the backlog of hybridized or antibody-stained slides and should therefore result in significantly higher throughputs for scFISH studies aimed at defining the breakpoints of chromosomal rearrangements.&lt;br/&gt;Slide scans will be processed (at least) daily by MU and UMKC collaborators to select the optimal images of either fluorescently-labeled probes hybridized to chromosomes or antibodies bound to cellular structures in order to obtain timely results for subsequent genetic analyses of patient specimens. For the FISH application, slides will initially be scanned at low magnification to localize the fields containing metaphase chromosome spreads and distinguish them from intact interphase nuclei and empty or incomplete fields. (Other criteria will be developed for immunofluorescence studies to select optimal cells for further analyses.) The coordinates of potential metaphase spreads will be recorded for subsequent rescanning of specific subsets of fields at higher magnification, resulting in a total of ~7200 images per slide. MU and CMH investigators have carried out image analyses indicating that metaphase chromosomes are computationally-distinguishable from interphase nuclei and other cellular structures. &lt;br/&gt;Once algorithms and parameters have been optimized for feature selection (ie. chromosome density, overlap, condensation, banding, and clarity and the location of fluorescent signals), images and coordinates the "best" metaphase spreads will be returned to microscopists at CMH, where they will then be reviewed, and ranked according to metaphase quality. The coordinates and rankings of these images will be sent to collaborators at MU and UMKC for subsequent parametric or algorithmic refinement. Sensitivity and specificity of algorithms will be monitored at each iteration until the processing algorithms cannot improve upon existing rankings. Under ideal circumstances, the microscopist and the image processing procedures will produce identical rankings. However, the rankings will be considered adequate (ie. useful) if at least the top 50% of human-ranked metaphase chromosome spreads or labeled cells are also present in the computer-based rankings. Once the software is ready for production applications, it will be compared with a commercial automated FISH analysis system that has not been optimized for use with metaphase chromosomes.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/12/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0228916</AwardID>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Rogan</LastName>
+      <EmailAddress>progan@cmh.edu</EmailAddress>
+      <StartDate>09/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Children's Mercy Hospitals and Clinics</Name>
+      <CityName>Kansas City</CityName>
+      <ZipCode>641084698</ZipCode>
+      <PhoneNumber>8162343874</PhoneNumber>
+      <StreetAddress>2401 Gillham Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Missouri</StateName>
+      <StateCode>MO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

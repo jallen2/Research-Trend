@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: A Paradigm of Parallel Programming for Morton-Ordered Matrices</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>409974</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>We propose a novel marriage of new fundamentals of data structures and algorithms with the productive tools of generic programming. Together they promise tools that could make high performance computing available to any scientist. The data structure is the Morton-order representation of matrices (and arrays in general), which admits both row, column, and quadrant decompositions. Its benefits are grounded in architecture where it solves problems of locality at all levels of a memory hierarchy. The favored algorithms use divide- and-conquer recursion-a style associated with functional programming-because they address the problems of balanced scheduling and communication of distributed and multiprocessing. Generic programming contributes, also, to this higher-level algebraic view of program construction. The anticipated result is a style for parallel programming without requiring explicit choreography either of memory or of processors. That is, the programmer can specify computations, and eventually new algorithms, with a high-level language closer to mathematics. We propose to develop the tools and the techniques to carry these programs to an efficient parallel implementation.&lt;br/&gt;&lt;br/&gt;Products will include a new programming style, new efficiencies for parallel and Grid computing, tools to carry old codes into this environment, tools to support the new generation of programs, support for teaching a new generation of programmers, and new algorithms that can only be inspired by this high-level perspective on programming.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/12/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0219884</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Wise</LastName>
+      <EmailAddress>dswise@cs.indiana.edu</EmailAddress>
+      <StartDate>08/28/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Lumsdaine</LastName>
+      <EmailAddress>al75@uw.edu</EmailAddress>
+      <StartDate>08/28/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1652</Code>
+      <Text>HIGH END COMPUTATION AND INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

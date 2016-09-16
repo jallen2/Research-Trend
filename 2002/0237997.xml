@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Network Modeling and Resource Allocations</AwardTitle>
+    <AwardEffectiveDate>08/15/2003</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2009</AwardExpirationDate>
+    <AwardAmount>421063</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Victor S. Frost</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The overall goal of the proposed research is to enable a systematic network provisioning and dimensioning and resource allocation based on accurate traffic modeling for diverse traffic with a vision of providing end-to-end QoS guarantees. The proposed work focuses on four major research thrusts:&lt;br/&gt; 1. Development of stochastic and deterministic traffic models for elastic and real-time traffic : We will first build faithful stochastic traffic models to study the interaction between transport layer protocols and active queue management mechanisms for macro-management of a large number of connections. We will apply limiting theorems to investigate the asymptotic behavior of the system with a large number of flows and develop scalable macro-scale models. Our findings will be used to develop accurate and yet scalable nonlinear deterministic models to investigate the dynamics of a network with multiple bottlenecks and to predict the expected performance of flows. We will study the effects that congestion at one part of network has on other parts of network. We will also design distributed algorithms to enhance the stability (robustness) of network in case of instability. &lt;br/&gt; 2. Design of pricing schemes for between end users and service providers and between domains: We will develop non-cooperative incomplete information game models and study the end users' behavior, where users are not assumed to be aware of the precise utilities/actions of other users and/or network state. Based on our findings we will design a pricing mechanism that will improve the system efficiency and fairness. We will generalize the models to cases where the selfish users do not know their own utilities precisely. We will also model the problem of inter-domain pricing and service level agreements as a non-cooperative game, where cooperation may emerge as a result of presence of credible threat or incentive. We will use both pricing and QoS parameters of service level agreements as design parameters to induce efficiency among domains and design a distributed algorithm that will ensure convergence to a desired operating point.&lt;br/&gt; 3. Integration of physical and logical network management: We will propose the integration of physical and logical network management as a means of providing improved end-to-end QoS. We will formulate the problem of designing a unified suite of policies for managing the networks as a Multi-time scale Markov Decision Process (MMDP) problem. This will allow us to break the complex overall problem of designing integrated policies into several simpler MDP problems corresponding to different time scales. We will apply the detailed traffic models we develop for elastic and non-responsive traffic to predict the expected performance of a variety of applications as a function of network configurations and adopted policies. This will be used to design our optimal policies for different time scales, based on selected performance measures such as throughput of elastic traffic, packet loss rate and delay of real-time traffic, and a cost associated with reconfiguration of networks in the form of disrupted service for some flows. &lt;br/&gt; 4. Wireless link scheduling for end-to-end QoS guarantees: We will extend the optimization problem framework we have proposed recently for resource allocation over a wireless link for non-real-time flows. Using this framework as a starting point we will design an opportunistic wireless scheduling algorithm for real-time and non-real-time applications, which exploits channel conditions of the users. Our approach will be based on multi-objective optimization, which will allow us to efficiently trade-off the performance of one class for that of the other, based on our detailed traffic models for both elastic and inelastic traffic. We will first develop a method of translating the multiple objective functions to a scalar objective function, which allows the designer to achieve Pareto optimality using the simpler scalar objective function. The existence of such a scalar objective function and a mapping has been recently proved by Fleischer. The scalar objective function will then be used to design a wireless link scheduling algorithm that achieves Pareto optimality. The selection of actual operating point on the Pareto frontier will be governed by a set of constraints we impose. This technique will be extended to other resource allocation problems with multi-objective functions. Based on the proposed wireless link scheduling algorithm and its performance, we will investigate the issue of wireless network provisioning.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2003</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0237997</AwardID>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>La</LastName>
+      <EmailAddress>hyongla@eng.umd.edu</EmailAddress>
+      <StartDate>08/14/2003</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

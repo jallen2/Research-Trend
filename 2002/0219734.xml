@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>State-Time Approach for Analysis and Simulation of Complex Multicomponent Systems Using Future Massively Parallel Computing Systems</AwardTitle>
+    <AwardEffectiveDate>01/01/2003</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2007</AwardExpirationDate>
+    <AwardAmount>234920</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eduardo A. Misawa</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Kurt S. Anderson&lt;br/&gt;Department of Mechanical, Aerospace and Nuclear Engineering&lt;br/&gt;Rensselaer Polytechnic Institute&lt;br/&gt;NSF Proposal No. 0219734&lt;br/&gt;State-Time Approach for Analysis and Simulation of Complex Multicomponent Systems Using Future Massively Parallel Computing Resources&lt;br/&gt;&lt;br/&gt;The principal objectives of this work are to research state-time methods for performing analysis, simulation, and optimization of complex dynamic systems. The goal is to produce dynamic systems analysis formulations which will be able to more effectively and fully exploit anticipated massively parallel computing resources (i.e. &gt; 106 processors). The proposed space-time formulation permits the treatment of time within the equations of motion as a generalized coordinate. This permits the problem of performing the computer simulation, and associated analysis to be parallelized over both space and time, resulting in a far greater level of coarse grain parallelization with an associated decrease in simulation turnaround time. This significant increase arises from the fact that the most advanced of today's parallel dynamics analysis algorithms are sequential in time. Thus parallelization over the domain of the system using currently promoted methods is only beneficial when using a surprisingly limited number of processors, even if many are available. Parallelizing over both space and time results in a drastic increase in the number of coarse grain calculations that may be distributed over the available processors. By forming the equations and solving them in the proposed state-time manner, the level of required sequential calculation relative that which may be performed in parallel is reduced by a factor approximately equal to the number of temporal integration steps (often &gt; 105) which would have been performed using current approaches. The proposed method, if successful, will allow the use of more detailed models, for more complex systems, with results obtained at a small fraction of the time required using current formulations.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0219734</AwardID>
+    <Investigator>
+      <FirstName>Kurt</FirstName>
+      <LastName>Anderson</LastName>
+      <EmailAddress>anderk5@rpi.edu</EmailAddress>
+      <StartDate>09/04/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rensselaer Polytechnic Institute</Name>
+      <CityName>Troy</CityName>
+      <ZipCode>121803522</ZipCode>
+      <PhoneNumber>5182766000</PhoneNumber>
+      <StreetAddress>110 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

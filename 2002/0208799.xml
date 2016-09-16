@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Dynamic Modeling, Analysis, and Synthesis of Embedded Hybrid Systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2005</AwardExpirationDate>
+    <AwardAmount>275313</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Biswas, Gautam&lt;br/&gt;CCR-0208799&lt;br/&gt;&lt;br/&gt;Embedded systems, which include software components integrated into physical processes, are per-vading all aspects of our daily lives from home appliances to safety-critical systems, such as aircraft and nuclear plants. The widespread use necessitates the development of new engineering tech-niques that can ensure their timely and assured development, accurate monitoring during operation, and robust control, to ensure safety and reliability. This project develops an integrated model-based approach to embedded system development that includes the plant, its environment, and the embed-ded computing system. The models provide a common framework for design and run-time analyses of system stability, liveliness, safety, security, and real-time supervisory control. Models can also form the basis for generating the hardware and software components of the embedded systems, and de-fining their run-time configurations. This generative aspect of modeling is a very relevant and distin-guishing property of the model-based development process. Further, the ability to analyze system behavior at run-time forms the basis for methodologies designed to accommodate deviations caused by disturbances and unexpected changes in the environment. The goal is to ensure that the system and its surroundings are not harmed when aberrant situations occur.&lt;br/&gt;&lt;br/&gt;The project will develop technologies for run-time analysis of embedded systems that alleviate some of the complexities of modeling and analysis of systems with large mode spaces. Specifically, effec-tive methodologies that address run-time dynamic analysis issues are addressed. This includes three primary tasks:&lt;br/&gt;Developing a new concept called the dynamic hybrid automaton (DHA) for embedded sys-tems models with large mode spaces. A DHA is simply a hybrid automaton, which can be constructed incrementally, on-the-fly, at run-time, as system behavior evolves. It is based on formal compositional modeling techniques in the hybrid automata framework that ensure model construction grows linearly (as opposed to exponentially) as a function of the number of switching elements in the hybrid model.&lt;br/&gt; Tracking system behavior using hybrid observers developed from the hybrid automata mod-els. This involves techniques for updating the models of the observer on-line when a mode change is detected while tracking the plant behavior. Research challenges focus on model and tracking procedures that minimize mistracking at mode transition boundaries, and devel-oping code generation systems that allow for incremental recalculation of the observer mod-els while satisfying hard time bounds on the generation process, and&lt;br/&gt; Synthesizing supervisory controllers on-line in response to mode changes, some of which may be attributed to disturbances and unexpected changes in the environment. A new con-cept, the Active Controller Model (ACM), is proposed. The ACM is a dynamic data structure that explicitly represents the currently active supervisory controller (SVC), together with its generator and actuator. The SVC can be implemented as a generic procedure that uses the ACM as its "knowledge base" to compute what control actions to take. When the plant model changes, the ACM is updated to address the new situation. This will involve a number of in-novative research tasks, such as developing an expressive language to describe control ob-jectives, definition and incremental update procedures for the ACM models, and "anytime" re-source-bound algorithms for synthesizing supervisory controller code on-line. Robust super-visory controllers will extend the concept of adaptive control into the hybrid-systems domain, and adjust to configuration changes in the plant and environment. &lt;br/&gt;&lt;br/&gt;The success of all three components of this project is very heavily dependent on handling computa-tional complexity issues in incremental model generation, code generation for the hybrid observer, and on-line supervisory controller synthesis based on desired objectives for the plant. Therefore, complexity studies of the synthesis and code generation algorithms is an important component of the project. The goals are ambitious, but the success of these methods will offer new flexibility in embed-ded applications while addressing issues of reliability and safety during run-time operation.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/18/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208799</AwardID>
+    <Investigator>
+      <FirstName>Gautam</FirstName>
+      <LastName>Biswas</LastName>
+      <EmailAddress>gautam.biswas@vanderbilt.edu</EmailAddress>
+      <StartDate>07/24/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gabor</FirstName>
+      <LastName>Karsai</LastName>
+      <EmailAddress>gabor.karsai@vanderbilt.edu</EmailAddress>
+      <StartDate>07/24/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sherif</FirstName>
+      <LastName>Abdelwahed</LastName>
+      <EmailAddress>sherif@ece.msstate.edu</EmailAddress>
+      <StartDate>07/24/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Vanderbilt University</Name>
+      <CityName>Nashville</CityName>
+      <ZipCode>372350002</ZipCode>
+      <PhoneNumber>6153222631</PhoneNumber>
+      <StreetAddress>Sponsored Programs Administratio</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2801</Code>
+      <Text>EMBEDDED &amp; HYBRID SYSTEMS(EHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code/>
+      <Text/>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

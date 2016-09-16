@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Time Complexity Limits for Shared-Memory Synchronization</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2005</AwardExpirationDate>
+    <AwardAmount>107497</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010100</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kathleen M. O'Hara</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Through the years, much work has been done on synchronization algorithms for&lt;br/&gt;shared-memory multiprocessors. In contrast, very little work has been done on&lt;br/&gt;time-complexity lower bounds that express fundamental limits to which such&lt;br/&gt;algorithms are subject. Given the vastness of the literature on&lt;br/&gt;synchronization, this may seem somewhat surprising. However, there is a&lt;br/&gt;simple explanation: while devising a useful time complexity measure for&lt;br/&gt;sequential algorithms is straightforward, it is not altogether obvious how to&lt;br/&gt;do this in a meaningful way for synchronization algorithms. Indeed, in most&lt;br/&gt;synchronization algorithms, processes may wait unboundedly; thus, if one merely&lt;br/&gt;applies the standard sequential measure of counting all operations to such an&lt;br/&gt;algorithm, then its time complexity is unbounded. This is not a very useful&lt;br/&gt;statistic.&lt;br/&gt;&lt;br/&gt;Recently, some progress has been made towards defining useful time complexity&lt;br/&gt;measures. One such measure is the the remote memory references (RMR) measure.&lt;br/&gt;Under the RMR measure, a distinction is made between local and remote accesses&lt;br/&gt;of shared memory. An access is local if it does not require a traversal of&lt;br/&gt;the global interconnect between processors and shared memory, and is&lt;br/&gt;remote otherwise. The RMR measure was motived by research on "local-spin"&lt;br/&gt;synchronization algorithms. In such algorithms, processes are structured so&lt;br/&gt;that all busy waiting is on variables cached locally or stored in a local&lt;br/&gt;memory module.&lt;br/&gt;&lt;br/&gt;When studying synchronization problems, the following key question arises:&lt;br/&gt;Using some class C of synchronization primitives, what is the most&lt;br/&gt;efficient possible algorithm for solving a given synchronization problem?&lt;br/&gt;It is this basic question to which this research project is directed, where&lt;br/&gt;"efficiency" is defined as time complexity under the RMR measure. The&lt;br/&gt;research agenda includes work on both algorithms and lower bounds. Based&lt;br/&gt;on such work, rankings of synchronization primitives are being developed&lt;br/&gt;that order synchronization primitives according to the time complexity&lt;br/&gt;(worst-case, average-case, amortized) with which various synchronization&lt;br/&gt;problems can be solved. Such rankings should be of value to computer&lt;br/&gt;architects. Indeed, preliminary research has shown that a variety of&lt;br/&gt;fetch-and-phi primitives are more powerful than comparison primitives for&lt;br/&gt;implementing blocking synchronization mechanisms. This stands in contrast&lt;br/&gt;to the fact that compare-and-swap and related comparison primitives are&lt;br/&gt;commonly regarded to be among the most powerful and useful of primitives,&lt;br/&gt;and are widely supported in modern machines.</AbstractNarration>
+    <MinAmdLetterDate>08/16/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/16/2002</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208289</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Anderson</LastName>
+      <EmailAddress>anderson@cs.unc.edu</EmailAddress>
+      <StartDate>08/16/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Chapel Hill</Name>
+      <CityName>CHAPEL HILL</CityName>
+      <ZipCode>275991350</ZipCode>
+      <PhoneNumber>9199663411</PhoneNumber>
+      <StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

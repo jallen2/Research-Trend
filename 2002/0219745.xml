@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: Automated Verification of Asynchronous Software Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2005</AwardExpirationDate>
+    <AwardAmount>360000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract&lt;br/&gt;0219745&lt;br/&gt;Ciardo -&lt;br/&gt;College of William and Mary&lt;br/&gt;&lt;br/&gt;This research is devoted to the development and implementation of novel sequential and parallel algorithms for the verification of asynchronous software systems, such as communication protocols and distributed or embedded software. Existing automated techniques based on state-space exploration, in particular symbolic model checking based on Binary Decision Diagrams (BDDs), focus on verifying synchronous hardware and software. Although symbolic model checking may in principle be applied to asynchronous software systems as well, this poses new challenges that are not, or only insufficiently addressed in the literature. Most importantly, the inherent complexity of asynchronous software makes state-space exploration a time-bound problem, in addition to a memory-bound problem. The research addresses these two fundamental limitations by developing algorithms that employ Multi-valued Decision Diagrams (MDDs) and Boolean Kronecker Operators to encode sets of states and transitions, respectively, in contrast to BDDs traditionally used for both purposes. This paves the way for exploiting the property of event locality that is inherent in asynchronous software and, thereby, for greatly improving the efficiency of sequential algorithms and enabling their efficient parallelization.</AbstractNarration>
+    <MinAmdLetterDate>09/05/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0219745</AwardID>
+    <Investigator>
+      <FirstName>Gianfranco</FirstName>
+      <LastName>Ciardo</LastName>
+      <EmailAddress>ciardo@iastate.edu</EmailAddress>
+      <StartDate>09/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>College of William and Mary</Name>
+      <CityName>Williamsburg</CityName>
+      <ZipCode>231878795</ZipCode>
+      <PhoneNumber>7572213966</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1686</Code>
+      <Text>ITR SMALL GRANTS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code/>
+      <Text/>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1667</Code>
+      <Text>HIGH CONFIDENCE SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

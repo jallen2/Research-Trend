@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RUI: Computing Patterns in Strings</AwardTitle>
+    <AwardEffectiveDate>06/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2005</AwardExpirationDate>
+    <AwardAmount>132220</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010100</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Beigel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The problem of computing patterns in sequences or strings of characters&lt;br/&gt;from a finite alphabet has important applications in numerous areas of&lt;br/&gt;computer science, notably in data compression, information theory, and&lt;br/&gt;pattern matching. This problem has also important applications in biology.&lt;br/&gt;The stimulus for such recent works is the study of biological sequences&lt;br/&gt;such as DNA and protein that play a central role in molecular biology. DNA&lt;br/&gt;sequences can be viewed as quite long but finite strings of nucleotides of&lt;br/&gt;4 different types, while protein sequences can be viewed as finite strings&lt;br/&gt;of amino acids of 20 possible types. Patterns such as periodicities and&lt;br/&gt;repetitions make up a significant fraction of both DNA and protein&lt;br/&gt;sequences. Although the functions of these patterns are not well&lt;br/&gt;understood, they appear important for understanding the expression,&lt;br/&gt;regulation and evolution of a biological sequence. These patterns can be&lt;br/&gt;used to identify the sequence among other sequences, an application that&lt;br/&gt;plays a role in genetic fingerprinting. Repetitions in biological&lt;br/&gt;sequences have been associated with human genetic diseases. They also&lt;br/&gt;complicate multiple sequence alignment because matches may be present in&lt;br/&gt;numerous places.&lt;br/&gt;&lt;br/&gt;The literature has generally considered problems in which a period u of a&lt;br/&gt;repetition is invariant. It has been required that occurrences of u match&lt;br/&gt;each other exactly. Due to the action of evolutionary mutation, patterns&lt;br/&gt;in biological strings are seldom exact but rather approximate. It&lt;br/&gt;therefore becomes necessary to recognize u' as an occurrence of u if the&lt;br/&gt;distance between u' and u is bounded by a certain threshold. Several&lt;br/&gt;definitions of distance have been proposed like the Hamming distance which&lt;br/&gt;counts the minimum number of character substitutions required to transform&lt;br/&gt;u' into u, and the edit distance which counts the minimum number of&lt;br/&gt;substitutions, insertions, and deletions of characters required to&lt;br/&gt;transform u' into u. Although there is an enormous literature dealing with&lt;br/&gt;approximate pattern matching according to these and other definitions of&lt;br/&gt;distance, very little is known on approximate repetitions, a version of&lt;br/&gt;repetitions where errors are allowed, and much remains to be done. Given&lt;br/&gt;the importance of patterns in biological strings and the exponential&lt;br/&gt;growth in the DNA database, it is important to develop efficient&lt;br/&gt;algorithms for detecting these patterns. The investigators study patterns&lt;br/&gt;such as periodicities, repetitions, covers, and seeds and their&lt;br/&gt;approximate versions built upon various commonly used distance measures.&lt;br/&gt;Techniques include recent combinatorial techniques related to partial&lt;br/&gt;strings which are strings where a number of gap characters are allowed.&lt;br/&gt;They also include the cover array, the highest scoring paths in weighted&lt;br/&gt;grid graphs, the probabilistic models that have been proposed for&lt;br/&gt;repetitions, and the subtree max gap problem which is a poweful tool in&lt;br/&gt;parallel algorithm design.</AbstractNarration>
+    <MinAmdLetterDate>05/29/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/06/2005</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0207673</AwardID>
+    <Investigator>
+      <FirstName>Francine</FirstName>
+      <LastName>Blanchet-Sadri</LastName>
+      <EmailAddress>blanchet@uncg.edu</EmailAddress>
+      <StartDate>05/29/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina Greensboro</Name>
+      <CityName>GREENSBORO</CityName>
+      <ZipCode>274125013</ZipCode>
+      <PhoneNumber>3363345878</PhoneNumber>
+      <StreetAddress>1111 Spring Garden Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

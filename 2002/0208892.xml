@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Branch Elimination by Condition Merging</AwardTitle>
+    <AwardEffectiveDate>09/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2006</AwardExpirationDate>
+    <AwardAmount>180000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Conditional branches are expensive. Branches require a significant&lt;br/&gt;percentage of the execution cycles since they occur frequently and can&lt;br/&gt;cause pipeline stalls. In addition, branches result in forks in the&lt;br/&gt;control flow, which can prevent other code-improving transformations&lt;br/&gt;from being applied. We plan to develop path profile-based techniques&lt;br/&gt;for replacing the execution of a set of two or more branches with a&lt;br/&gt;single branch on a conventional scalar processor. We propose to&lt;br/&gt;improve performance by merging the conditions of two or more branches&lt;br/&gt;into a single condition. Previous approaches have accomplished&lt;br/&gt;such merging of conditions that have either only involved a single&lt;br/&gt;variable or have required special hardware to merge multiple&lt;br/&gt;conditions together. Techniques will be developed to produce a merged&lt;br/&gt;condition involving multiple variables that can be used to bypass the&lt;br/&gt;code testing the original set of conditions on a conventional processor.&lt;br/&gt;Merging conditions may be very good fit for run-time optimization&lt;br/&gt;systems, which optimize frequently executed paths during the execution&lt;br/&gt;of a program.</AbstractNarration>
+    <MinAmdLetterDate>08/23/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/14/2004</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0208892</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Whalley</LastName>
+      <EmailAddress>whalley@cs.fsu.edu</EmailAddress>
+      <StartDate>08/23/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Xin</FirstName>
+      <LastName>Yuan</LastName>
+      <EmailAddress>xyuan@cs.fsu.edu</EmailAddress>
+      <StartDate>08/23/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>van Engelen</LastName>
+      <EmailAddress>engelen@cs.fsu.edu</EmailAddress>
+      <StartDate>08/23/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Florida State University</Name>
+      <CityName>TALLAHASSEE</CityName>
+      <ZipCode>323064166</ZipCode>
+      <PhoneNumber>8506445260</PhoneNumber>
+      <StreetAddress>874 Traditions Way, 3rd Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

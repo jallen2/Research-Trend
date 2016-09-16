@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Forensix: Large-scale Tamper-resistant Computer Forensic Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2002</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2005</AwardExpirationDate>
+    <AwardAmount>762311</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kevin L. Thompson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computer forensic systems are large-scale auditing systems that are complementary with on-line intrusion and anomaly detection and have been a relatively understudied field in network security. Whereas intrusion and anomaly detection systems attempt to do an active on-line analysis of events, forensic systems seek to log all of the information being processed for subsequent, off-line analysis. For the most part, computer forensics is still an ad-hoc activity that is applied to a system that has already been compromised.&lt;br/&gt;&lt;br/&gt;Leveraging the advances in computing, networking, and storage systems and building on the work within the IDS community, the project will build an experimental computer forensics system that will allow system administrators, law enforcement officials, and security experts to quickly and easily track down sources of security incidents after they have happened. There are a number of unique aspects of proposed approach including:&lt;br/&gt;(i) Actively tracking changes to the system being monitored at the operating system kernel level before an attack occurs to capture forensic data&lt;br/&gt;(ii) Backing the audit information to a locally connected logging host. This logging host exports only one service: the audit trail information from the host being monitored. All other access to the logging host is allowed only through the console. Thus, the logging host is a system that will provide extremely detailed system information.&lt;br/&gt;(iii) A database system to hold logging information. With an investigation of techniques for populating a database to allow advanced queries on the logging information. The goal of this is to allow complex queries to be performed while monitoring the system.&lt;br/&gt;&lt;br/&gt;The main questions to answer as a result of this research are:&lt;br/&gt;(i) Can a scalable proactive logging hosts be built to capture a large number of attacks?&lt;br/&gt;(ii) Can database technologies be used to actively mine fore malicious activities?&lt;br/&gt;(iii) How can file systems and database technologies be developed to support scalable logging?</AbstractNarration>
+    <MinAmdLetterDate>09/05/2002</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/13/2003</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0230960</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Maier</LastName>
+      <EmailAddress>maier@cs.pdx.edu</EmailAddress>
+      <StartDate>09/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Wu-chi</FirstName>
+      <LastName>Feng</LastName>
+      <EmailAddress>wuchi@cs.pdx.edu</EmailAddress>
+      <StartDate>09/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Wu-chang</FirstName>
+      <LastName>Feng</LastName>
+      <EmailAddress>wuchang@cs.pdx.edu</EmailAddress>
+      <StartDate>09/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jonathan</FirstName>
+      <LastName>Walpole</LastName>
+      <EmailAddress>walpole@cs.pdx.edu</EmailAddress>
+      <StartDate>09/05/2002</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Oregon Health and Science University</Name>
+      <CityName>Portland</CityName>
+      <ZipCode>972393098</ZipCode>
+      <PhoneNumber>5034947784</PhoneNumber>
+      <StreetAddress>3181 S W Sam Jackson Park Rd</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0206000</Code>
+      <Name>Telecommunications</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1766</Code>
+      <Text>STRATEGIC TECH FOR INTERNET</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9217</Code>
+      <Text>NATNL RESERCH &amp; EDUCAT NETWORK</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>
