@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: nm Electron Wave Devices for Low-Power VLSI Electronics</AwardTitle>
+    <AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>240000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dimitris Pavlidis</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Transistors are the key element in modern integrated circuits (ICs). Since a typical circuit has billions of transistors, heat generated during transistor operation limits how fast the chip can operate and how many transistors it can contain. Industry is seeking a transistor design with the lowest possible power-supply voltage and the smallest amount of leakage current when it is off. To switch quickly, it must provide large currents when it is on. The ratio of off-current to on current is determined by a factor called the sub-threshold swing (SS); in a normal transistor the SS is limited to 0.06 Volts per decade, i.e. each factor of 10:1 in the on-off ratio requires 0.06 Volts power supply voltage, and a typical 10 to the eighth on/off ratio requires 8*0.06V, or about 0.5 Volts. Tunnel transistors have been proposed to reduce the SS, but these have small on-currents because the probability of an electron tunneling, hence contributing to current, is very small. An electron which does not tunnel through the transistor is instead reflected. Exploiting the wave nature of electrons, we will suppress the reflection by using additional reflectors, in a structure much like the coatings which suppress the reflection from light from the surface of a camera lens. If the electron is not reflected, it instead passes through the transistor, and the on-current is increased. We will also develop another low-SS transistor, a superlattice transistor, which exploits electron wave properties to block transmission when the transistor is off but not when it is on. Success in the project would allow a ~5:1 reduction in IC power consumption, leading to faster, bigger, and more useful chips benefitting computers. This is a key broader impact. An intellectual broader impact is the use of fundamental physics, electron quantum interference in a device of vast public application. REU and summer internships are another broader impact. &lt;br/&gt;&lt;br/&gt;The project seeks to replace the modern transistor in VLSI, a vast industry, with a new device, operating at lower voltage, for low switching power, yet giving low off-state current, for low standby power, and high on current, for high speed. One proposed transistor is a tunnel-FET, which has low operating voltage but low on-current, with added electron wave reflectors which cause destructive interference of the reflected electron wave. This suppresses electron reflection, hence increases transmission, hence on-current. The second transistor uses a superlattice in the electron source to suppress hot electrons, thereby producing on:off characteristics sharper than a Boltzmann distribution. This allows large on:off ration at low voltages. We will model (simulate) design, build and test these transistors. Modelling will use quantum transport simulators (NEMO) with the addition of scattering. Fabrication requires standard FET fabrication processes (well established at UCSB), but adds electron energy filters formed either during MBE channel growth or during MOCVD regrowth of the transistors. The intellectual significance is clear: coherent electron effects as the basis of a mass-market electron device.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/04/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1509394</AwardID>
+    <Investigator>
+      <FirstName>Gerhard</FirstName>
+      <LastName>Klimeck</LastName>
+      <EmailAddress>gekco@purdue.edu</EmailAddress>
+      <StartDate>09/04/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mykhailo</FirstName>
+      <LastName>Povolotskyi</LastName>
+      <EmailAddress>mpovolot@purdue.edu</EmailAddress>
+      <StartDate>09/04/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1517</Code>
+      <Text>ELECT, PHOTONICS, &amp; MAG DEVICE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>100E</Code>
+      <Text>Novel devices &amp; vacuum electronics</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

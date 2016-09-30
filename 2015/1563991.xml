@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Spectral Profiling: Understanding Software Performance without Code Instrumentation</AwardTitle>
+    <AwardEffectiveDate>07/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>850000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Dynamic analyses such as profiling program execution are widely used because they can measure various aspects of the runtime behavior of a software system and have a wide range of applications in software engineering. These analyses are typically carried out by adding probes to the software, which imposes space/time overhead, is intrusive, and can negatively affect software behavior. To address these issues, we propose a novel approach that allows for analyzing software behavior accurately and non-intrusively by leveraging the electromagnetic emissions produced by a computer as it executes code. Our approach can collect runtime information about a software system by simply placing a device next to the system. It can thus not only enable profiling for a variety of software systems for which this was previously impossible (e.g., embedded systems), but also benefit dynamic analyses in more traditional contexts.&lt;br/&gt;&lt;br/&gt;This project will combine various machine learning and static analysis techniques to build likely electromagnetic signatures for different code patterns, investigate which code granularity provides the most accurate matching of electromagnetic emissions to code, and explore adaptive and hierarchical techniques for performing this matching at runtime. This research is inherently interdisciplinary and promises to break new ground and have broader impact in several combined areas, including software engineering, programming languages, computer architecture, and electromagnetics. Unlike previous work on electromagnetic emissions analysis, our approach will collect runtime information that is fine-grained enough to measure the execution of short sequences of statements, if not individual instructions. This will let us apply our approach to several software engineering tasks. In fact, if successful, this research will both provide a solid conceptual foundation, which other researchers will be able to leverage, and investigate a set of specific techniques and tools that build on this foundation to support tasks such as zero-overhead performance measurement, debugging, and anomaly detection.</AbstractNarration>
+    <MinAmdLetterDate>07/07/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/07/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1563991</AwardID>
+    <Investigator>
+      <FirstName>Alenka</FirstName>
+      <LastName>Zajic</LastName>
+      <EmailAddress>alenka.zajic@ece.gatech.edu</EmailAddress>
+      <StartDate>07/07/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Milos</FirstName>
+      <LastName>Prvulovic</LastName>
+      <EmailAddress>milos@cc.gatech.edu</EmailAddress>
+      <StartDate>07/07/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alessandro</FirstName>
+      <LastName>Orso</LastName>
+      <EmailAddress>orso@cc.gatech.edu</EmailAddress>
+      <StartDate>07/07/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

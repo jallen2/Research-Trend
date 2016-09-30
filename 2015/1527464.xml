@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Collaborative Research: Multi-level Non-volatile FPGA Synthesis to Empower Efficient Self-adaptive System Implementations</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Self-adaptivity is a key requirement for many electronic devices to consistently interact with the dynamic, uncertain, and noisy physical environment. While Field Programmable Gate Arrays (FPGAs), being reconfigurable, are a natural platform for implementing such devices, it is becoming more and more difficult for traditional FPGAs to keep up with the ever-increasing scale and complexity of self-adaptive applications due to the limited scalability, high leakage power, and severe process variations of CMOS technologies. A set of prior research projects demonstrated that it is technically feasible to construct FPGAs based on non-volatile memories (NVMs). These NV-FPGAs offer attractive features such as better scalability, superior energy efficiency, near-zero power-on delay, anti-radiation, as well as the ability to store more than one bit per cell. However, NV-FPGAs also display a complex design space involving information density, read and write speeds, data retention time, and device endurance. When used for self-adaptive systems, the distinctive NVM characteristics may influence reconfiguration speed, clock frequency, circuit functionality, memory performance, and/or device lifetime.&lt;br/&gt;&lt;br/&gt;This project addresses this technology gap as it prepares NV-FPGAs for more demanding self-adaptive systems. This project aims to fine-tune various procedures on the FPGA synthesis flow based on NVM characteristics, so as to exploit their advantages and mitigate their shortcomings. First, considering the needs of self-adaptive applications, this project fine-tunes various steps on the FPGA synthesis flow. Novel techniques are proposed to optimize task scheduling, data allocation, logic mapping, placement, and routing to improve reconfiguration speed, energy efficiency, reliability, and endurance of NVM FPGAs. Second, this project explores the rich NVM design space and sets different optimization goals for look-up tables, flip-flops, and on-chip memories. The success of this project will lead to a long-lasting, rapid-adaptive, reliable, and energy-efficient platform better suited to the needs of a wide range of applications with self-adaptivity requirement, including healthcare, wellness, industry, and even military applications, all of which are critical for the United States to drive its new strategies of innovation and technology. It will also train a diverse type of engineers to design the future generation of embedded and cyber-physical systems with the cutting-edge technology of non-volatile memories. Algorithms and tools developed in this project will be made publicly available so that they will benefit the entire scientific community.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527464</AwardID>
+    <Investigator>
+      <FirstName>Chengmo</FirstName>
+      <LastName>Yang</LastName>
+      <EmailAddress>chengmo@udel.edu</EmailAddress>
+      <StartDate>07/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Delaware</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>197162553</ZipCode>
+      <PhoneNumber>3028312136</PhoneNumber>
+      <StreetAddress>210 Hullihen Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Delaware</StateName>
+      <StateCode>DE</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

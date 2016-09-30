@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>InTrans: A virtualized SoC platform architecture for mini autonomous drones</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kenneth C. Whang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Building on recent results from the RoboBees project, this InTrans project explores the design of new computing modalities that enable scalable performance and energy efficiency across a wide range of energy- and weight-constrained applications, from miniature autonomous drones (e.g., RoboBees) to larger small-scale flying robots. The pursuit of energy-efficient compute performance remains an important objective, but computing modalities continue to evolve over time. Demand for mobility and portability led to laptops and then to smaller smart phones that pack the functionality and performance of yesterday's computer into one's hand. Technology is now at the cusp of another paradigm shift with the proliferation of "internet of things" (IoT) devices and small-scale drones. Despite the perception that CMOS technology scaling is reaching a plateau, these applications require ever higher levels of energy-efficient computing with ever shrinking form factors, demanding a new era of circuits, architectures, and systems.&lt;br/&gt;&lt;br/&gt;One extreme example is the RoboBees project at Harvard, which set out to create a colony of autonomous robotic bees: &lt;500mg, insect-sized, flapping-wing robots with sufficient sensing, computing, and actuation to achieve autonomous flight. This NSF-funded project designed, implemented, and tested a "brain chip" that met severe weight and real-time computation requirements. It comprises a general-purpose core with a collection of dedicated hardware accelerators for the specific sensing, image processing, and control algorithms needed for autonomous flight. While this chip significantly improves power and performance compared to those only using general-purpose cores, a platform that combines multiple one-off accelerators is inflexible to subsequent changes in computing needs. Future computing systems for autonomous drones must readily accommodate and adapt to changing workloads and application needs. A promising research direction is to develop a virtualized platform architecture constructed out of composable accelerators that can provide scalability via virtualization. In other words, next-generation computing systems will comprise computing elements flexible enough to operate across a range of applications while retaining the benefits of specialization. Via close collaboration with researchers at Intel, this InTrans project will (1) identify interesting applications to target within the broad range of embedded systems that combine sensing, computing, and actuation and (2) develop and demonstrate new computer architectures that readily scale performance and energy consumption across a broad range of platforms and system constraints.</AbstractNarration>
+    <MinAmdLetterDate>09/01/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/01/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1551044</AwardID>
+    <Investigator>
+      <FirstName>Gu-Yeon</FirstName>
+      <LastName>Wei</LastName>
+      <EmailAddress>guyeon@eecs.harvard.edu</EmailAddress>
+      <StartDate>09/01/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Brooks</LastName>
+      <EmailAddress>dbrooks@eecs.harvard.edu</EmailAddress>
+      <StartDate>09/01/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Wood</LastName>
+      <EmailAddress>rjwood@eecs.harvard.edu</EmailAddress>
+      <StartDate>09/01/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Harvard University</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021385366</ZipCode>
+      <PhoneNumber>6174955501</PhoneNumber>
+      <StreetAddress>1033 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Approximate optimization: Algorithms, Hardness, and Integrality Gaps</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>266000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Optimization problems, where the goal is to find a solution subject to some constraints that maximizes or minimizes a certain objective value, are ubiquitous in computing. As an overwhelming majority of optimization problems are NP-hard to solve optimally, one widely studied approach is to settle for approximately optimal solutions with provable guarantees on quality. The overarching goal in the theory of approximate optimization is to identify, for broad classes of optimization problems, the best approximation factor achievable efficiently. This study has two sides that go hand-in-hand, the design of efficient approximation algorithms, and complementary hardness results establishing limits to the best approximation possible. One of the most widely employed approaches to design approximation algorithms is via convex programming relaxations such as linear or semidefinite programs. So a third intertwined aspect is to understand the power and limitations of such tools for important optimization problems.&lt;br/&gt;&lt;br/&gt;Research on this topic has made huge strides, and for a broad class of problems called constraint satisfaction problems, a common meeting ground of all these aspects has been uncovered, in the form of a canonical semidefinite program achieving the best possible approximation ratio in a unified manner. This theory, however, relies on the unproven Unique Games Conjecture (UGC), and also doesn't extend to various other important settings. This project focuses on a carefully conceived collection of fundamental research directions that are germane given our current understanding of the approximability landscape. Topics studied will include approaches to bypass the reliance on the UGC where possible, the complexity of approximately solving problems where a perfectly satisfying assignment exists (a setting that is not at all captured by the UGC), and a promising new direction where the notion of approximation is not in the number of constraints satisfied but rather in how strongly the constraints are satisfied. The project will aim to advance the frontiers of the subject by harnessing the confluence of the three aspects: algorithms, hardness, and mathematical programming, that together bear upon this rich subject. In particular, the project will investigate the power of semidefinite programs in certifying properties of random graphs and matrices, as well as their limitations in the form of integrality gaps as prognosis of the intractability of problems whose status is otherwise open or only known under the UGC.&lt;br/&gt;&lt;br/&gt;The proposed research will shed light on the approximability of basic optimization problems that abstract some of the core computational tasks arising in practice. The research and outreach activities will aim to foster a cross-fertilization of ideas between the approximation and constraint satisfaction communities. On the education front, the project will train and mentor graduate students and provide a stimulating research environment for them. The research will balance the long term and general agenda of advancing the frontiers of the subject with the investigation of precisely stated open questions that are yet to receive the thorough investigation they deserve. The research findings, as appropriate, will be integrated into a novel course highlighting the emerging confluence of algorithms, hardness results, and integrality gaps.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/22/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526092</AwardID>
+    <Investigator>
+      <FirstName>Venkatesan</FirstName>
+      <LastName>Guruswami</LastName>
+      <EmailAddress>guruswami@cmu.edu</EmailAddress>
+      <StartDate>08/06/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7927</Code>
+      <Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

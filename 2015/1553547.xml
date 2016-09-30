@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Scaling Approximate Inference and Approximation-Aware Learning</AwardTitle>
+    <AwardEffectiveDate>04/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2021</AwardExpirationDate>
+    <AwardAmount>42053</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Aidong Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The last decade has seen an enormous increase in our ability to gather and manage large amounts of data; business, healthcare, education, economy, science, and almost every aspect of society are accumulating data at unprecedented levels. The basic premise is that by having more data, even if uncertain and of lower quality, we are also able to make better-informed decisions. To make any decisions, we need to perform "inference" over the data, i.e. to either draw new conclusions, or to find support for existing hypotheses, thus allowing us to favor one course of action over another. However, general reasoning under uncertainty is highly intractable, and many state-of-the-art systems today perform approximate inference by reverting to sampling. Thus for many modern applications (such as information extraction, knowledge aggregation, question-answering systems, computer vision, and machine intelligence), inference is a key bottleneck, and new methods for tractable approximate inference are needed.&lt;br/&gt;&lt;br/&gt;This project addresses the challenge of scaling inference by generalizing two highly scalable approximate inference methods and complementing them with scalable methods for parameter learning that are "approximation-aware." Thus, instead of treating the (i) learning and the (ii) inference steps separately, this project uses the approximation methods developed for inference also for learning the model. The research hypothesis is that this approach increases the overall end-to-end prediction accuracy while simultaneously increasing scalability. Concretely, the project develops the theory and a set of scalable algorithms and optimization methods for at least the following four sub-problems: (1) approximating general probabilistic conjunctive queries with standard relational databases; (2) learning the probabilities in uncertain databases based on feedback on rankings of output tuples from general queries; (3) approximating the exact probabilistic inference in undirected graphical models with linearized update equations; and (4) complementing the latter with a robust framework for learning linearized potentials from partially labeled data.</AbstractNarration>
+    <MinAmdLetterDate>03/31/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/31/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1553547</AwardID>
+    <Investigator>
+      <FirstName>Wolfgang</FirstName>
+      <LastName>Gatterbauer</LastName>
+      <EmailAddress>gatt@cmu.edu</EmailAddress>
+      <StartDate>03/31/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

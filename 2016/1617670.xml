@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Collaborative: Automated Detection and Repair of Error Handling Bugs in SSL/TLS Implementations</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>249998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Secure Sockets Layer (SSL)/Transport Layer Security (TLS) protocols are critical to internet security. However, the software that implements SSL/TLS protocols is especially vulnerable to security flaws and the consequences can be disastrous. A large number of security flaws in SSL/TLS implementations (such as man-in-the-middle attacks, denial-of-service attacks, and buffer overflow attacks) result from incorrect error handling. These errors are often hard to detect and localize using existing techniques because many of them do not display any obvious erroneous behaviors (e.g., crash, assertion failure, etc.) but they cause subtle inaccuracies that completely violate the security and privacy guarantees of SSL/TLS. This project aims to improve error handling mechanisms in SSL/TLS implementations by building novel tools that reduce developer effort in writing and maintaining correct error handling code while making SSL/TLS implementations more secure and robust. &lt;br/&gt;&lt;br/&gt;This project develops a framework for improving the robustness of error handling code in SSL/TLS implementations. The framework has three main objectives. First, error specifications for different SSL/TLS functions are automatically inferred to learn how they communicate the failures. Next, the inferred specifications are used to build a tool for automatically detecting error handling bugs. Finally, the framework also provides new program repair tools that can automatically fix the detected bugs. Therefore, the framework provides end-to-end assistance in maintaining error-handling code in SSL/TLS implementations and thus significantly improves internet security.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617670</AwardID>
+    <Investigator>
+      <FirstName>Suman</FirstName>
+      <LastName>Jana</LastName>
+      <EmailAddress>sumanj@gmail.com</EmailAddress>
+      <StartDate>08/04/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Medium: Augmenting Logs with Static Analysis and Symbolic Execution</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2019</AwardExpirationDate>
+    <AwardAmount>297100</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gurdip Singh</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Internet services such as Facebook, Amazon, Gmail, iTunes, or Office 360 are a backbone of the modern economy, and include millions of consumer applications and business services provided by large, medium-sized and small businesses. All these services are essentially organized as complex distributed software systems. When such a system encounters a failure (a service outage or an unexpected performance problem), the potential costs of the failure can quickly reach millions of dollars in lost revenue or lost productivity. Diagnosing the root causes of the problem quickly and restoring the service as soon as possible are both critical.&lt;br/&gt;&lt;br/&gt;The basic approach to this problem is to record (or "log") information frequently as system components execute and interact, and then to analyze these logs after a failure in attempting to diagnose the root causes. While these analyses use increasingly sophisticated statistical and machine-learning based techniques, they are limited by the information gathered in the logs: the state-of-the-art approaches today record limited information pertaining to major events so that they do not slow down the services significantly during normal operation. In particular, these systems do not record detailed internal information within components or detailed network traffic between components that can be enormously useful in diagnosing failures more quickly.&lt;br/&gt;&lt;br/&gt;This project develops new techniques that make it possible to reconstruct this missing information by leveraging recent advances in program analysis and automated testing. Moreover, the project develops a new strategy that breaks down the reconstruction task into small steps that will allow the analysis to scale to very large distributed services. The project also develops new, more sophisticated analysis techniques for individual components that go beyond the current state-of-the-art, by tailoring them to the specific problems faced in this work. The project engages industrial partners to evaluate the techniques on their systems, and makes the resulting software solutions available in open source form to the research community as well as the industrial partners. Together, these techniques have the potential to result in large cost-savings for a wide range of Internet services.</AbstractNarration>
+    <MinAmdLetterDate>04/25/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/25/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1564274</AwardID>
+    <Investigator>
+      <FirstName>Tao</FirstName>
+      <LastName>Xie</LastName>
+      <EmailAddress>taoxie@illinois.edu</EmailAddress>
+      <StartDate>04/25/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Swarup</FirstName>
+      <LastName>Sahoo</LastName>
+      <EmailAddress>ssahoo2@illinois.edu</EmailAddress>
+      <StartDate>04/25/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vikram</FirstName>
+      <LastName>Adve</LastName>
+      <EmailAddress>vadve@cs.uiuc.edu</EmailAddress>
+      <StartDate>04/25/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

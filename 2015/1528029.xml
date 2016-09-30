@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Cross-Layer Design of Power Delivery and Load Balancing for Green Data Centers</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>498687</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As ever more computing is moved to the cloud, the energy consumption of data centers becomes increasingly important, both from an environmental and cost viewpoint. As a result, there is an increasing trend towards reducing the energy and carbon foot- print of data centers. While there has been considerable efforts to reduce the energy consumption, relatively little attention has been paid towards the power delivery in data centers. The objective of this work is to reduce the high voltage conversion losses (currently contributing 10-15% power loss) to almost zero by designing a joint software and hardware power delivery architecture specifically for a multi-server environment. This research, which could lead to drastic reduction of power conversion losses in data centers, has far-reaching impact on the design of sustainable and green data centers. Participation of underrepresented groups is encouraged, and portions of the research is incorporated into cloud computing courses, as hardware projects into a laboratory power electronics course, and as a case study of data center power delivery in an advanced graduate level power electronics course. An interactive online power usage portal, that visualizes in real-time the power usage of each individual server in the test-cluster provides opportunities for public interaction with the research. These open-source software and hardware demonstrations enable practitioners from around the world to learn more about sustainable computing. &lt;br/&gt;&lt;br/&gt;This research explores a cross-layer design approach to data centers, where the power delivery architecture and software load balancing algorithms work together to achieve the highest possible power delivery efficiency. The research explores electrically series-connected racks of servers, to minimize overall power conversion and attendant losses. A key challenge in series voltage stacking is the variation in input voltage of each server due to imbalance of computational load in a series-stack. In this research, the challenge is addressed both in hardware and software. In software, scalable load balancing algorithms that ensure uniform power consumption in each server in the rack are developed. The load balancing algorithms simultaneously optimize for response time and power loss. Moreover, hardware power converters and distributed energy storage (e.g., capacitors, batteries) provide filtering and power balance in cases when software alone does not suffice. A key question being addressed is the suitable size of energy storage, and the required control bandwidth of the power converters to ensure proper operation for realistic workloads. In addition, high speed sensing and communication of electrical measurements of voltage and currents are employed in combination with operation of servers at asymmetric input voltages for static power consumption mismatch mitigation. The load balancing algorithms is tested with two types of workloads: (1) Interactive web workloads with short turnaround time and homogeneous servers; and (2) Map-reduce type workloads with long turnaround time and servers with data locality constraint.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1528029</AwardID>
+    <Investigator>
+      <FirstName>Yi</FirstName>
+      <LastName>Lu</LastName>
+      <EmailAddress>yilu4@illinois.edu</EmailAddress>
+      <StartDate>08/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Pilawa-Podgurski</LastName>
+      <EmailAddress>pilawa@illinois.edu</EmailAddress>
+      <StartDate>08/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

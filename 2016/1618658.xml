@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Collaborative Research: Network Event Detection with Multistream Observations</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>280000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal in network event detection is to detect the existence of a set of nodes over a large network whose observations reflect the occurrence of an unusual event. Existing studies of network event detection have been mainly from two perspectives. The first is data-driven without assuming any underlying statistical model, and is typically applicable to more general data sets, but may not come with performance guarantees. The second perspective is model-driven, with certain statistical distributions (e.g., Gaussian) assumed for the data, and usually comes with performance guarantees, but may be limited to applications where the data fit the model. The goal in this project is to explore a framework for network event detection that unifies a wide range of event detection problems, in which the data are assumed to be governed by some underlying statistical distributions, but is data-driven in the sense that little is assumed a priori about the distributions. The developed detection approaches and statistical tools have a wide range of applications, including fraud detection, clinical trials, medical diagnosis, high-frequency trading, voting irregularity analysis, and network intrusion.&lt;br/&gt;&lt;br/&gt;A comprehensive approach to general network event detection problems is developed in this project through the exploration of three thrusts: (i) detection of (unstructured) point events, (ii) detection of graph-based structured events, and (iii) sequential and quickest detection of dynamically evolving graph structures. The performance of the designed tests is characterized in terms of the probability of detection error and the rate at which this error goes to zero. Various fundamental issues are addressed, including non-i.i.d. data streams, as well as the interplay between network size, event size, sample size, and data dimension.</AbstractNarration>
+    <MinAmdLetterDate>06/30/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618658</AwardID>
+    <Investigator>
+      <FirstName>Venugopal</FirstName>
+      <LastName>Veeravalli</LastName>
+      <EmailAddress>vvv@illinois.edu</EmailAddress>
+      <StartDate>06/30/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7936</Code>
+      <Text>SIGNAL PROCESSING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

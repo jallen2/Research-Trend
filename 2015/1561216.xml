@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Fine-Grained Software Power Prediction and Its Application on Power Management of Heterogeneous Multicore Systems</AwardTitle>
+    <AwardEffectiveDate>02/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2018</AwardExpirationDate>
+    <AwardAmount>299928</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Power dissipation and energy consumption are major cost considerations across modern computer systems including data center design, enterprise level server design, battery life management on a smart phone, and circuit layout on a microprocessor. There are numerous approaches that address the hardware aspect of the problem. However, software-behavior-driven power management is not well addressed and understood.&lt;br/&gt;&lt;br/&gt;SPONGE, a fine-grained function level software power prediction mechanism, is proposed to dynamically apply proper power saving mechanisms to improve power efficiency and schedule suitable workloads to heterogeneous cores. The PI is proposing a new metric, Power Efficiency of Function (PEF), to evaluate the power efficiency of software at fine granularity. Based on PEF, a software-behavior-driven power management scheme is introduced to improve system power efficiency at runtime. The power management scheme applies power saving mechanisms including thread mapping and voltage and frequency scaling, driven by program characteristics based on the software power prediction of the target platform. PEF enables a quantitative measurement of the ratio of useful work done to resources utilized. By involving software in the loop of power management, it is possible to provide a fine-grained power management scheme with a seamless connection between software and operating systems, especially for power-aware scheduling on heterogeneous multicore architectures.</AbstractNarration>
+    <MinAmdLetterDate>01/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1561216</AwardID>
+    <Investigator>
+      <FirstName>Weisong</FirstName>
+      <LastName>Shi</LastName>
+      <EmailAddress>weisong@wayne.edu</EmailAddress>
+      <StartDate>01/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Wayne State University</Name>
+      <CityName>Detroit</CityName>
+      <ZipCode>482023622</ZipCode>
+      <PhoneNumber>3135772424</PhoneNumber>
+      <StreetAddress>5057 Woodward</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Memory Persistency: programming paradigms for byte-addressable, non-volatile memories</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>499996</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>For over a decade, researchers in industry and academia have sought new techniques to store data so vast amounts of data can be stored inexpensively and accessed quickly. Today, computer systems typically have three kinds of data storage: rotating disks for cheap-but-slow, long-term, bulk data storage; main memory for fast, but expensive access to data applications are actively using; and FLASH, which behaves much like rotating disks, but offers somewhat faster access at a higher price per bit. However, we are now at the cusp of availability of new storage technologies that offer performance close to that of main memory, but can store data durably?that is, when the computer is powered off?at a cost per bit between Flash and main memory. These new non-volatile memory devices add a new layer to the computer system data storage hierarchy between memory and FLASH. Within a decade, systems incorporating these new non-volatile memories will become widely available. Indeed, as cost and manufacturing processes improve, such memories may become the preferred storage for small devices in the ``Internet of Things'' and become critical to performance and recoverability in cloud systems. &lt;br/&gt;&lt;br/&gt;These new memories open up the possibility to explore new formats and structures for storing data across computer system power failures. Unlike disk and FLASH, data in non-volatile memories can be accessed at very fine granularity?individual data items (e.g., bytes)?rather than coarse-grained blocks of data. This fine-grain access enables the development of data structures that reliably store data even if power fails unexpectedly, but with greater performance and simplicity than data storage on disk or FLASH. Existing computer main memory systems have not been designed with durability across power failures in mind, since the data is lost when power fails, and therefore do not try to maintain any specific order in which data is written to memory. However, controlling this order of writing data is critical to allowing a system to recover and continue operation if power fails while writes are in progress. This research project will develop new ways for programmers to efficiently and easily design high-performance data structures that can recover from unexpected failures by carefully controlling the order in which data is recorded. The research will be performed in close collaboration with industry, and integrated with the principal investigators? course offerings in operating systems and parallel computer architecture.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/30/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1525372</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Wenisch</LastName>
+      <EmailAddress>twenisch@umich.edu</EmailAddress>
+      <StartDate>07/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Chen</LastName>
+      <EmailAddress>pmchen@umich.edu</EmailAddress>
+      <StartDate>07/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: CCA: NUMB: Exploiting Non-Uniform Memory Bandwidth for Computational Science</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>750000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research seeks to maximize the benefit that modern and upcoming trends in computer hardware systems can confer on science and engineering disciplines that use computation to catalyze discovery and innovation. Computer architecture and hardware systems have been experiencing disruptive transformations, and are certain to continue on this evolutionary path as platforms highlighted by massive parallelism and heterogeneous composition of processing units are becoming the norm. Such advances have triggered a realignment of market segments and computing capabilities from what was previously known: Complex fluid simulations that were previously in the purview of enterprise-grade computing may now be accommodated in modestly sized clusters. Virtual prototyping tasks previously handled by clusters can now be performed using a single workstation. This newfound availability of advanced computer capabilities, however, poses challenges for traditional practices in scalable software engineering, and even reaches the limitations of theory and algorithms that were designed with a less-parallel, homogeneous computing platform in mind. This research activity combines one of the most prominent ongoing trends in computer architecture, namely the fact that memory access and bandwidth are both non-uniform in heterogeneous CPU/GPU systems, with driving applications from the domain of computational science and engineering. This project will lead to the coordinated development of hardware innovations, scalable development practices, heterogeneity-friendly distributed computing algorithms and parallelism oriented numerical methods to extract optimal performance from emerging platforms on scientific computing workloads. &lt;br/&gt;&lt;br/&gt;The expected systems and computer architecture advances resulting from this activity include: (i) Defining appropriate consistency models for systems with Non-Uniform Memory Bandwidth (NUMB), developing and refining Heterogeneous Race Free (HRF) consistency models for overlapping scopes and NUMB platforms. (ii) Improving the coordination of memory bandwidth utilization, by developing interfaces and mechanisms to manage interstage temporal locality, and assessing such mechanisms and policies in the context of our driving applications. (iii) Exploring enhanced mechanisms for synchronization, both among GPUs as well as between the CPU and GPU, by exploiting hardware-assisted reduction models in heterogeneous system and provide fine-grain data handling and synchronization semantics without fine-scale locks and barriers. (iv) Designing and implementing Operating System extensions to better manage heterogeneous memory (e.g., various levels of caches, accelerator memory or non-volatile memory (NVM) data stores). Applications research will emphasize (a) workloads in Adaptive Computational Fluid Dynamics (CFD), an area that has traditionally fostered co-development of theoretical and systems aspects and is well represented in the joint expertise of the collaborating investigators, and (b) instances of interactive Virtual Anatomical Modeling and Simulation, as an emerging exemplar of a host of computer-aided training tools for medical and surgical education that has only been made possible due to the enhanced capacity of modern computing platforms. This synergistic research endeavor will facilitate important emerging applications in medicine, computer-aided design and engineering research that are on the verge of attaining practical utility. It will also reveal new options for enabling more energy-efficient systems, provide a blueprint for optimized performance in throughput-sensitive applications beyond numerical computing, and generate opportunities for development of academic courses that highlight the merits of a conscious co-evolution of systems and theory principles.</AbstractNarration>
+    <MinAmdLetterDate>08/17/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/17/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1533885</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Wood</LastName>
+      <EmailAddress>david@cs.wisc.edu</EmailAddress>
+      <StartDate>08/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Hill</LastName>
+      <EmailAddress>markhill@cs.wisc.edu</EmailAddress>
+      <StartDate>08/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Swift</LastName>
+      <EmailAddress>swift@cs.wisc.edu</EmailAddress>
+      <StartDate>08/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Eftychios</FirstName>
+      <LastName>Sifakis</LastName>
+      <EmailAddress>sifakis@wisc.edu</EmailAddress>
+      <StartDate>08/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>I-Corps: Virtual 3D reconstruction of hollow organs from white light endoscopy</AwardTitle>
+    <AwardEffectiveDate>11/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2016</AwardExpirationDate>
+    <AwardAmount>50000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07070000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Steven Konsek</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>White light endoscope (WLE) is a medical device that allows physicians to conduct real-time video explorations of the interior of organs to detect disease or guide surgery. Unfortunately, the WLE video data are too cumbersome in their native form to review post-treatment; hence, the information is often reduced to handwritten notes or a few still-image frames for inclusion in medical records. The loss of this visually rich information limits the ability of WLE to inform clinical decisions about treatment and surgery. In particular, diseases like bladder cancer, which holds the unfortunate distinction as the 4th most common cancer in men and the highest treatment cost per patient-lifetime of all cancers, would benefit from novel ways to review WLE video data to facilitate early detection of tumors and to better track changes in the bladder wall of patients likely to experience recurrence (&gt; 50%). The goal of this project is to develop new technology to produce 3D visualizations of the interior of hollow organs such as the bladder from WLE videos. The availability of such technology will provide physicians with new tools to make better informed decisions about treatment and surgery, as well as provide researchers with new technology to enable novel studies on disease progression, ultimately leading to better health outcomes and lower treatment costs for diseases like cancer.&lt;br/&gt;&lt;br/&gt;The proposed novel algorithm applies state-of-the-art techniques in computer vision to the problem of 3D reconstruction of the shape and surface appearance of hollow organs. A key innovation in the proposed approach is that the algorithm is suitable to reconstruct a full, 3D model of an organ from endoscopic video captured with standard clinical hardware and requires only minor modifications to the standard clinical workflow. The ability to create these reconstructions from standard equipment and workflows arises from careful design decisions regarding (1) the protocol for endoscopic video collection, (2) necessary image pre-processing steps and (3) the particular combination of state-of-the-art techniques developed in the computer vision community into an end-to-end pipeline unique for our application. In brief, the overall algorithm involves the following steps: down-sample raw image data, process selected frames, determine camera poses, extrapolate the organ surface as a mesh and apply image-based texture to the finalized mesh. The team's initial application is for reconstructing urinary bladder using standard rigid cystoscopy data; to date the team has validated the ability to perform 3D reconstructions using standard clinical cystoscopy videos of &gt; 30 human patients. As the proposed method can powerfully augment the visual medical record of internal organ appearance, it is broadly applicable to endoscopy and represents a significant advance in monitoring the appearance of a patient's organ over time, as may be well suited for applications such as cancer surveillance.</AbstractNarration>
+    <MinAmdLetterDate>10/27/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/27/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1602118</AwardID>
+    <Investigator>
+      <FirstName>Audrey</FirstName>
+      <LastName>Ellerbee</LastName>
+      <EmailAddress>ellerbee@stanford.edu</EmailAddress>
+      <StartDate>10/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8023</Code>
+      <Text>I-Corps</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

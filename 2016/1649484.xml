@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Noisy Computation of Distributed State Machines</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>72322</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Distributed systems are collections of computational devices that work together to solve problems. These systems play an increasingly important role in modern society - from data centers serving popular websites to GPU clusters tackling deep scientific problems. A key obstacle in designing these systems is that due to many different unpredictable factors individual devices might behave in a faulty manner. Standard strategies to cope with this possibility assume that only a bounded fraction of the devices might suffer from faults (which can be catastrophic), while the rest execute perfectly. This project, by contrast, explores novel modeling and analysis techniques for studying systems in which every device might be faulty to some degree, but the faults are assumed less severe than the typical definitions. By doing so, it tackles the following fundamental question: when and how is it possible for a collection of locally unreliable devices to work together to reliably solve a global problem? Answers to this question can support the development of more cost effective and robust distributed systems. They will also provide potential insight into coordination problems in nature where the underlying computational "devices" (be they cells, ants, or bees) execute much less precisely than digital processors. In addition to these large scale impacts, this project will also have a local impact in the classroom. The PI will include insights from this work into a course that includes a module on novel ideas in the theory of distributed systems, and the project will help fund a graduate student to work on the topic.&lt;br/&gt;&lt;br/&gt;In more detail, the canonical approach to formally modeling a distributed system is to represent the distributed processes as state machines that interact through shared objects or network channels. This project describes local faults (called "computational noise" in the following) as state machine transition functions that might probabilistically deviate from their specification. There are many different ways to instantiate this general idea. This project will investigate two main approaches: one which describes noise by allowing bounded adversarial modifications to the system's state machines, and another which describes noise as injections of random offsets to the underlying multi-dimensional vector of property values describing each device's current configuration. The project will apply these two approaches to two representative and well-studied problems: symmetry breaking on a shared channel and threshold detection with population protocols. The goal is to produce new results of immediate application to existing areas of computer science research, as well as to develop a foundation of models and tools on which a long-term investigation of this topic can be built.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1649484</AwardID>
+    <Investigator>
+      <FirstName>Calvin</FirstName>
+      <LastName>Newport</LastName>
+      <EmailAddress>cnewport@cs.georgetown.edu</EmailAddress>
+      <StartDate>09/06/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgetown University</Name>
+      <CityName>Washington</CityName>
+      <ZipCode>200571789</ZipCode>
+      <PhoneNumber>2026250100</PhoneNumber>
+      <StreetAddress>37th &amp; O St N W</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>District of Columbia</StateName>
+      <StateCode>DC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7934</Code>
+      <Text>PARAL/DISTRIBUTED ALGORITHMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Incremental Semantic Sentence Processing Models</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>116601</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Donald T. Langendoen</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Extracting a single meaning from the many possible interpretations of a complex sentence is one of the most sophisticated of human abilities, and is still beyond the reach of most artificial language processing systems. Current computational models of human sentence processing can simulate human reading behavior using probability estimates of words and syntactic patterns, but are not yet sophisticated enough to estimate the probability of complex underlying ideas that are expressed across multiple sentences. This exploratory EAGER project extends human sentence processing models beyond these word- and syntax-based techniques to model complex cross-sentential meaning involving coreference relationships between pronouns and their antecedents, and quantificational relationships between individuals and groups. The proposed extensions are based on a graphical representation of discourse structure, which can be constructed incrementally in time order as sentences are processed. Probabilities associated with individual elements of these graphs are then combined to obtain probability estimates over possible meanings of input sentences, which can then be compared based on these probabilities. The resulting computational sentence processing models are then evaluated on explanatory text from on-line encyclopedia articles and on existing broad-coverage psycholinguistic datasets.&lt;br/&gt;&lt;br/&gt;Accurate models of how these complex relationships are decoded from natural language could further our understanding of how the brain works, and may someday allow non-programmer domain experts to explain desired products, goals and constraints to machines. But current broad-coverage sentence processing models are focused primarily on modeling syntax, in particular using probabilistic context-free grammar (PCFG) surprisal. Despite their syntactic sophistication, PCFG models make unrealistic assumptions that word sequences are generated without any continuity of referential meaning or any preferences among possible coreference and quantifier scope orderings. The proposed work will develop a more human-like semantic processing model by augmenting an existing incremental parser with a graphical dependency-based adaptation of discourse representation structures. The proposed semantic processing model will define complete semantic dependency representations of sentences, including quantifier scope and coreference relationships, even those that cross sentence boundaries. The model will then exploit the graphical nature of these dependency representations by estimating the probability of each analysis as the product of the probabilities of its component dependencies, based on the distributional similarity of each dependency's source predicate to the other predicates connected to its destination.</AbstractNarration>
+    <MinAmdLetterDate>08/03/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/03/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1551313</AwardID>
+    <Investigator>
+      <FirstName>William</FirstName>
+      <LastName>Schuler</LastName>
+      <EmailAddress>schuler@ling.osu.edu</EmailAddress>
+      <StartDate>08/03/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

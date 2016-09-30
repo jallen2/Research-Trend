@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Statistical Learning for High-Dimensional Stochastic Dynamical Systems</AwardTitle>
+    <AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>196236</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>High-dimensional stochastic dynamical systems arise in a wide variety of scientific fields and applications, including models for the dynamics of molecules, of multi-agent systems (such as cars or animals), of activity of neurons, etc. The high-dimensionality of these systems corresponds to the large number of variables (atoms, agents, neurons, respectively, in the preceding examples) and typically makes these systems very expensive to simulate and hard to understand even when simulations are possible. This research project aims to develop novel ideas and algorithms for the model reduction of such systems. The investigator will develop automatic learning algorithms that, by collecting a number of short simulations in parallel, output a much lower-dimensional model of the original system that yields faster simulations, with provable accuracy, in a much reduced number of variables. This will make the simulations less expensive, allowing one to perform more and longer simulations, and make the extraction of useful information from simulated data easier. He will apply these constructions to molecular dynamics simulations, expecting to significantly reduce the computational time needed to simulate small biomolecules.&lt;br/&gt;&lt;br/&gt;Large data sets in high dimensional spaces appear in a wide variety of scientific fields and applications. The PI focuses here on data sets that originate from the simulation of high-dimensional stochastic systems that arise in a wide variety of applications (e.g. molecular dynamics), with the goal of producing a much lower dimensional stochastic system with similar statistical properties as the full system, at least at a certain time scale. This is possible for a wide variety of dynamical systems with separation of time scales when the structure of the forces acting on the system and the stochastic perturbations are such that the trajectories of the system accumulate, in state or phase space, around low-dimensional sets (at the appropriate time scale and accuracy). The approach only requires access to a simulator S for the original system that, given initial conditions and the shortest time scale of interest as inputs, produces as output a (stochastic) path of the system starting at that initial condition and stops at the specified time. A call to S is typically expensive, but after a small number of carefully designed calls that yield a relatively small number of short paths, the algorithm learns and outputs a low-dimensional representation of the system, that is, a low-dimensional stochastic system whose trajectories are (in a suitable statistical sense), at the requested time scale, close to those of the original system. This construction may be performed in an online setting, as new regions of state space are explored, and in a multiscale fashion, where the time scale at which the system is reduced varies. These techniques will be adaptive to the assumed low intrinsic dimension of the simulated data, the timescale of interest, and the accuracy, leading to a new generation of results and algorithms for learning and approximating high-dimensional stochastic systems. While the techniques to be developed are applicable to a large family of stochastic systems, the main application considered in this project is Molecular Dynamics (MD). These techniques are expected to dramatically speed up the exploration of the state space of these molecules and of MD simulations as a whole. At the same time, they are general enough that they are applicable to a wide variety of stochastic systems, and the framework sets the stage for a novel approach to automatic learning of dynamical systems that is amenable to further generalizations.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/16/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1522651</AwardID>
+    <Investigator>
+      <FirstName>Mauro</FirstName>
+      <LastName>Maggioni</LastName>
+      <EmailAddress>mauro.maggioni@jhu.edu</EmailAddress>
+      <StartDate>09/16/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

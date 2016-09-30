@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Systematically and Scalably Testing Network Programs through Symbolic Exploration of Packet Dynamics</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>499810</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Network protocols and applications are an essential component of the Internet, and they must be implemented correctly so that Internet nodes (e.g., desktop PCs, laptops, smartphones, sensors, and routers) can correctly communicate with one another. However, the correctness of their implementations is difficult to test, especially under the large space of potential behavior introduced by packet dynamics. This is because there are a prohibitively large number of packet dynamics possibilities, and many bugs are revealed only in low probability corner cases, such as those with specific packet delay, number of packets, packet ordering, or packet loss and duplication. The goal of this project is to design and implement symbolic representations and methods for packet dynamics and the underlying network. These representations and methods will enable the use of emerging test case generation techniques based on symbolic execution for a systematic exploration of network protocol and application implementations. The approach will leverage symbolic execution capabilities of focusing on distinct input classes, in our context for packet dynamics and network states, avoiding redundantly testing equivalent behavior, and instead spending testing resources on packet dynamics leading to distinct and potentially buggy behavior.&lt;br/&gt;&lt;br/&gt;The proposed research consists of four research tasks. First, develop symbolic representations of common types of Internet packet dynamics, such as independent and dependent packet delays, and packet loss rates. Second, design distributed symbolic drivers that provide a network program under test with the illusion of communicating over a network with symbolic packet dynamics. Third, design a class of execution methods with mixed symbolic and random packet dynamics models for testing a network program with a large number of packets. Fourth, evaluate the proposed techniques and tools. The tasks will provide new insights into the correctness of vital network protocols and applications, and what type of representations and methods are more effective at detecting different types of bugs.&lt;br/&gt;&lt;br/&gt;The key potential broader impact is the detection of bugs in critical network protocols and applications, which may resonate well outside the computer science community. In addition, joined efforts by members of the networking and the software engineering communities are rare, but as shown in this proposal could be clearly beneficial in bringing the latest validation methodologies to bear in critical networking infrastructure, and in pushing to the forefront of the software testing agenda the networking timing and scale issues. From that perspective, the cross-cutting nature of this proposal and the expected byproducts for which the investigators have a strong record (students, data, tools, papers in top venues) will impact and generate synergy across both communities. The investigators will hold seminars to discuss with the systems and software engineering groups of professional and students the challenges and results of the project. They will also continue actively recruiting and training undergraduate, female, and minority students through this project.</AbstractNarration>
+    <MinAmdLetterDate>08/17/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/17/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526253</AwardID>
+    <Investigator>
+      <FirstName>Lisong</FirstName>
+      <LastName>Xu</LastName>
+      <EmailAddress>xu@cse.unl.edu</EmailAddress>
+      <StartDate>08/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sebastian</FirstName>
+      <LastName>Elbaum</LastName>
+      <EmailAddress>elbaum@cse.unl.edu</EmailAddress>
+      <StartDate>08/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Nebraska-Lincoln</Name>
+      <CityName>Lincoln</CityName>
+      <ZipCode>685031435</ZipCode>
+      <PhoneNumber>4024723171</PhoneNumber>
+      <StreetAddress>2200 Vine St, 151 Whittier</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Nebraska</StateName>
+      <StateCode>NE</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

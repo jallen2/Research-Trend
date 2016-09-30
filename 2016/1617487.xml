@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Operating Systems Kernels in High-Level Languages</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most software depends on the correctness and efficiency of the underlying operating system kernel, since the kernel mediates access to resources such as storage, network, and memory. Kernels are typically implemented in low-level languages, for example, the Linux kernel is written in the C language; such languages are efficient but difficult to use correctly. In contrast, implementing kernels in high-level languages could in principle result in both reduced programmer effort and reduced incidence of bugs. This research will explore the costs and benefits of implementing kernels in high-level languages.&lt;br/&gt;&lt;br/&gt;The main reason kernels use C is performance. C allows a kernel to define its own high-performance mechanisms for memory management, thread scheduling, interrupts, etc. In contrast, high-level languages tend to prescribe specific particular mechanisms in these areas, which are difficult to change. One potential problem is that high-level languages are often garbage-collected to improve safety, but garbage collection is widely viewed as too slow to use in kernels.&lt;br/&gt;&lt;br/&gt;This project will first investigate performance: whether a kernel written in a high-level language can be as fast as a kernel written in C. The project will implement a kernel using the Go language, a type-safe, garbage-collected language with good support for threads. Then, the plan is to compare performance with existing C kernels such as Linux, OpenBSD, and FreeBSD. It is expected there will be a need to face efficiency and functionality challenges, particularly in the use of garbage collection for large kernel data structures such as file and page caches.&lt;br/&gt;&lt;br/&gt;The project's second area of focus will be to exploit the high-level language to achieve multi-core in-kernel parallelism in situations that are not practical when using C. C impedes flexible use of transient threads, since the programmer must supply the logic to decide when the last thread has finished using each shared object, which can then be freed. Extensive use of threads is much easier when a garbage collector automates this task. The plan is to exploit Go's garbage collection by implementing complex system calls such as fork and exec using internal worker threads on multiple cores. The team will evaluate whether the resulting performance and scalability improvement can be made to outweigh the costs of garbage collection and thread overhead.&lt;br/&gt;&lt;br/&gt;Intellectual merit.&lt;br/&gt;This work will shed quantitative light on the effect of language choice on kernel performance, a question that is currently understood mostly anecdotally. The interaction of garbage collection with the specific ways kernels use memory is particularly worth understanding. The investigation of in-kernel parallelism will exploit high-level language support to harness techniques that are impractical in C kernels.&lt;br/&gt;&lt;br/&gt;Broader impacts.&lt;br/&gt;The work has the potential for broad impact because most software depends critically on services provided by the operating system kernel. Using a better language for the kernel would likely reduce the prevalence of bugs and increase the ease with which kernel developers can provide desirable new features. Providing solid evidence to support an eventual switch to language technology which ought to make kernels more reliable and easier to develop is the intended outcome.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617487</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Morris</LastName>
+      <EmailAddress>rtm@csail.mit.edu</EmailAddress>
+      <StartDate>08/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>M. Frans</FirstName>
+      <LastName>Kaashoek</LastName>
+      <EmailAddress>kaashoek@lcs.mit.edu</EmailAddress>
+      <StartDate>08/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nickolai</FirstName>
+      <LastName>Zeldovich</LastName>
+      <EmailAddress>nickolai@csail.mit.edu</EmailAddress>
+      <StartDate>08/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

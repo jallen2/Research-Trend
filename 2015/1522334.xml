@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Priorconditioned Krylov Subspace Methods for Inverse Problems</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>220002</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Inverse problems are gaining importance in a wide variety of applications; they play an important role in medical imaging because of the push towards non-invasive diagnostic techniques. In some applications, e.g., in the investigation of the brain activity from the measurement of the induced magnetic field in the space outside the skull, the relation between the unknown causes and the observed effects can be expressed as a linear function. In other cases, when the relationship is more complicated, the solution of linear inverse problems may have to be addressed as part of a more general solution scheme. While in principle easy to state, the solution of a linear system of equations arising from inverse problems can be extremely challenging, in particular when there is a mismatch between the number of observations and the degrees of freedom and when the dimensions of the problems are very large. When data collection is problematic because of the associated costs, technical difficulties, or health risks, the number of unknowns in the resulting linear system exceeds the number of equations. In order to produce a meaningful solution for such systems it is necessary to augment standard techniques with qualitative knowledge about the problem. This project concerns the design and analysis of computational methods for the solution of linear ill-posed problems that naturally translate qualitative information or belief about the data and the solution in quantitative terms. In particular, by formulating the problem within the framework of Bayesian inference, the project will develop mathematically sound and computationally efficient schemes for large scale problems where the disturbance in the data may be rather substantial and may have a statistics rather different from white noise. The Bayesian framework is the natural setting for expressing the a priori beliefs about the solution. The prior beliefs may vary widely from one time instance to another, or from one point in space to another, and it may be necessary to express them in hierarchical layers. Since this approach very closely resembles the way in which people formulate what they know and how knowledge is updated as new evidence arrives, it is expected that the methodology will be widely utilized. &lt;br/&gt;&lt;br/&gt;The increasing popularity of complex models in inverse problems comes with an increase in associated computational costs. The methodology developed as part of this project addresses the need for computational efficiency by combining Bayesian inference with the Krylov subspace iterative methods, the natural choice for the solution of large scale linear systems. In this manner the philosophical appeal of the Bayesian framework is transformed in a very powerful Bayes-meets-Krylov computational scheme of wide applicability. The project provides an important connection between numerical linear algebra and Bayesian inference and will shed some light on how to link spectral properties of linear operators with statistical features of the unknown solution. Krylov subspace methods for inverse and ill-posed problems and the Bayesian solution of inverse problems are two very rich research areas which have received much interest, individually and jointly, in the last decade. There is experimental evidence that their symbiotic cooperation can be very advantageous in a variety of applications, but a solid understanding of the changes in the subspaces where the approximate solutions are sought and in approximation of the relevant eigenvalues in the associated Lanczos processes is still largely missing. The combination of theoretical and computational tools will fill this intellectual gap and open the way for the use of state-of-the-art iterative numerical solvers for very large ill-posed systems in the context of sequential Monte Carlo methods. This will reduce the gap between statistical uncertainty quantification and numerical linear algebra, to great advantage for both fields. In fact, the success of the Krylov-meets-Bayes approach, confirmed in a number of different settings and particularly in the solution of underdetermined problems, relies on left and right preconditioners to augment the quantitative data with additional qualitative information. Understanding the changes in the Krylov subspaces and in the associated Lanczos process induced by the statistically inspired preconditioners in discrete linear inverse problems is one of the aims of this project. In particular, the powerful tools of numerical linear algebra and the connection between Krylov subspace iterative solvers, the Lanczos process, and the associated orthogonal polynomials will be utilized to enlighten the connections and differences with classical schemes, including Tikhonov regularization. In the first part of the project, the analysis will be first carried out in the case of Gaussian prior and noise, and will be subsequently extended to the case of conditionally Gaussian prior, whose covariance matrix depends on unknown parameters, which are estimated via a nonlinear step as we learn more about the unknown of primary interest. In the latter case, the ensuing prior conditioners will be a parametrized family of matrices. Understanding how the spectral properties of the preconditioned systems change as functions of the parameters of the prior covariance will be part of the project; here, the connections with Gauss-type quadrature rules and moments may turn out be crucial.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1522334</AwardID>
+    <Investigator>
+      <FirstName>Daniela</FirstName>
+      <LastName>Calvetti</LastName>
+      <EmailAddress>dxc57@po.cwru.edu</EmailAddress>
+      <StartDate>07/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Case Western Reserve University</Name>
+      <CityName>CLEVELAND</CityName>
+      <ZipCode>441064901</ZipCode>
+      <PhoneNumber>2163684510</PhoneNumber>
+      <StreetAddress>Nord Hall, Suite 615</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

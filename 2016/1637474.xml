@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Gradient Sliding Schemes for Large-scale Optimization and Data Analysis</AwardTitle>
+    <AwardEffectiveDate>02/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>266731</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Georgia-Ann Klutke</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The rapid advances in technology for digital data collection have led to significant increases in the size and complexity of data sets, sometimes known as big data. Optimization models, when combined with novel statistical analysis, have been proven fruitful in analyzing these complex datasets. However, optimization problems arising from these applications often involve nonsmooth components that can significantly slow down the convergence of existing optimization algorithms. Moreover, the complex datasets are so big and often distributed over different storage locations that the usual assumption that an entire dataset can be completely traversed in each iteration of the algorithm is unrealistic. Gradient sliding schemes do not require this assumption and hence are ideally suited for optimization with big data. The research aims at tackling these computational challenges through the design, analysis, and implementation of a novel class of optimization algorithms using gradient sliding schemes. The effectiveness of these new optimization algorithms will be demonstrated by solving problems in image processing and machine learning.&lt;br/&gt;&lt;br/&gt;The gradient sliding algorithms are first-order methods that use first-order information (gradients and function values) exclusively in addition to some auxiliary operations, such as projection over the feasible set. As opposed to existing first-order methods, gradient sliding methods can skip the computation of gradients from time to time, while still preserving the optimal convergence properties for solving different types of large-scale optimization problems. This research will also study a new class of conditional gradient sliding methods that require a linear optimization rather than a more involved projection over the feasible set in each iteration. These algorithms are expected to exhibit optimal rate of convergence in terms of both the number of gradient computations and the number of times for solving the linear optimization subproblem. Moreover, randomized variants of these gradient sliding algorithms which are amenable to parallel/distributed computing will also be studied. When applied to data analysis, these algorithms can reduce, by orders of magnitude, the number of traverses through the datasets, the computational cost associated with the involved matrix-vector multiplications, as well as the communication costs for the distributed datasets.</AbstractNarration>
+    <MinAmdLetterDate>04/13/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/13/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1637474</AwardID>
+    <Investigator>
+      <FirstName>Guanghui</FirstName>
+      <LastName>Lan</LastName>
+      <EmailAddress>george.lan@isye.gatech.edu</EmailAddress>
+      <StartDate>04/13/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>006Y</Code>
+      <Text>Service, Manufacturing, and Op</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>072E</Code>
+      <Text>NETWORKS &amp; QUEUING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>077E</Code>
+      <Text>SIMULATION MODELS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

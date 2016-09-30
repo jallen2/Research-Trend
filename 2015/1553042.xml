@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Trading Communication and Storage for Computation to Enhance Energy Efficiency</AwardTitle>
+    <AwardEffectiveDate>02/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2021</AwardExpirationDate>
+    <AwardAmount>170354</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Looking forward, a fundamental challenge in computer systems is the Power Wall, where, due to imbalances in technology scaling, not all the compute engines that find place on chip can be powered on at the same time. The Power Wall is transforming all levels of the system stack, including the parallel architecture landscape. Communication power, as induced by data movement and the orchestration thereof, along with storage power, dominates computation power. As the degree of concurrency increases, communication power becomes even more prominent due to more frequent data transfers. At the same time, emerging memory technologies are not mature enough to keep up with the corresponding capacity, bandwidth, and performance requirements within a tight power budget. An amnesic processor, can minimize, if not eliminate, the power and performance overhead associated with data storage, retrieval, and communication, thus, operate more energy efficiently. The limited storage of the amnesic machine represents the short-term memory, which lacks long-term memory by construction. &lt;br/&gt;&lt;br/&gt;When compared to its classic counterparts, an amnesic machine can facilitate more compute engines to occupy the area once devoted to (long-term) memory, which can further be harnessed for recomputation. Recomputation can transparently convert workloads to become more compute intensive such that they can make a better use of classic architectures optimized for performance, as opposed to energy efficiency. This project intends to unlock the energy efficiency premise of amnesic machines. To this end, the PI proposes to explore compiler and microarchitecture support to decide when to replace remote loads with re-computation. The research has three major thrusts: (i) at compiler time, integer linear programming based optimization will be performed to generate a probabilistic energy-minimal re-computation schedule; (ii) runtime controller will be designed to decide when to re-compute based on the information the compiler provides; and (iii) memory hierarchy will also be explored to maximize energy efficiency. Interaction with emerging technologies and reliability issues will also be considered. The integrated education and outreach plan includes workshop organization, undergraduate curriculum, and Eureka! program for K-12 girls .</AbstractNarration>
+    <MinAmdLetterDate>01/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1553042</AwardID>
+    <Investigator>
+      <FirstName>Ulya</FirstName>
+      <LastName>Karpuzcu</LastName>
+      <EmailAddress>ukarpuzc@umn.edu</EmailAddress>
+      <StartDate>01/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Scaling the Real-time Capabilities of Powertrain Controller in Automotive Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>449506</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CSR: Small: Scaling the Real-time Capabilities of Powertrain Controllers in Automotive Systems&lt;br/&gt;&lt;br/&gt;ScratchPad Memory(SPM)-based many-core architecture is a promising concept to improve the real-time capability of computing systems required in safety-critical applications. Demonstrating the proposed approach for powertrain controllers is just the first step and has the potential to enable the rapidly increasing fields of internet-of-things (IoT), avionics, robotics, cyber-infrastructure, and much more. An open-source cycle-accurate simulator of the SPM-based many-core processor, and a low level virtual machine (llvm) compiler will be developed as the outcome of this research significantly advancing this technology. &lt;br/&gt;&lt;br/&gt;This project will develop architecture, compilation, scheduling techniques, and real- time analysis to scale up the real-time capabilities of powertrain controllers of automotive systems. Powertrain controller is a safety-critical, hard-real-time controller in modern automobiles, directly responsible for the operation of the engine and transmission. The complexity of powertrain control applications is rapidly increasing in a quest to fulfill increasingly stringent regulations on the fuel- efficiency and emissions. To meet this demand, the real-time capability of powertrain engine control units (ECU) must also improve. Real-time capability of a processor is essentially a measure of how many/complex/frequent tasks can be guaranteed to finish in given deadlines. The challenge is that the real-time capability of a processor cannot be improved by traditional performance enhancing techniques, e.g., increasing frequency, adding more on-chip memory, or by adding caches. This research will employ (SPMs) instead of caches to improve the real-time capability of powertrain ECUs. SPM partitioning, mapping/scheduling, SPM management techniques and real-time analyses for SPM-based many-core architecture (in which each core has an SPM instead of a cache) will be developed. This will be done for two data management schemes: one for task-level management, where all the code and data of the task are brought into the SPM at the beginning of the task and the other for function-level management, which enables executing applications on processors with much smaller SPM sizes, and can still be efficient through various compiler optimizations.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1525855</AwardID>
+    <Investigator>
+      <FirstName>Aviral</FirstName>
+      <LastName>Shrivastava</LastName>
+      <EmailAddress>aviral.shrivastava@asu.edu</EmailAddress>
+      <StartDate>08/18/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Arizona State University</Name>
+      <CityName>TEMPE</CityName>
+      <ZipCode>852816011</ZipCode>
+      <PhoneNumber>4809655479</PhoneNumber>
+      <StreetAddress>ORSPA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

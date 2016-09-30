@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Entropy Maximization in Approximation, Learning, and Complexity</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>466000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Entropy plays a distinguished role in the world. The second law of thermodynamics tell us that, in closed systems, entropy always increases; it is maximized at thermodynamic equilibrium. Given a collection of data, the "principle of maximum entropy" asserts that, among all hypothetical probability distributions that agree with the data, the one of maximum entropy best represents the current state of knowledge.&lt;br/&gt;&lt;br/&gt;Moreover, if one considers a convex set of probability distributions, the problem of maximizing a strongly concave function (like the Shannon entropy) over this set is computationally tractable and has a unique optimal solution. This project is concerned with the structure and computational utility of entropy maximizers in algorithm design, machine learning, complexity theory, and related areas of discrete mathematics. In particular, the project will study the role of entropy maximization in encouraging simplicity in the optimum solution. This property stands to reason: The entropy maximizer should intuitively contain only the information implied by the constraints and nothing more.&lt;br/&gt;&lt;br/&gt;The scope of the project includes not only classical entropy functionals like the Shannon entropy and Kullback-Leibler divergence, but also the analogous notions for quantum states (von Neumann entropy). The study of quantum entropy maximizers has far-reaching applications in semi-definite programming and communication complexity. Moreover, much of the theory extends to other Bregman divergences, and this is particularly relevant for applications in online algorithms where certain smoothed entropy functionals become relevant. A portion of the project concerns entropy optimality on path spaces. This perspective provides a novel view of Markov processes on discrete and continuous spaces. The PI will employ this viewpoint to study rapid mixing of Markov chains, as well smoothing properties of the noise operator on the discrete hypercube (a topic with remarkable applications in complexity theory and hardness of approximation).&lt;br/&gt;&lt;br/&gt;Finally, it should be mentioned that iterative algorithms for finding entropy maximizers can be viewed in the framework of entropy-regularized gradient descent; such algorithms are fundamental in machine learning (boosting) and online convex optimization (multiplicative weights update). This provides a powerful connection to large bodies of work, and a substantial motivation for the project is to create a bridge of ideas and techniques between the two perspectives.&lt;br/&gt;&lt;br/&gt;Broader impact of the project includes training of the next generation of scientists, including at the undergraduate level. This project presents a number of opportunities for undergraduate researchers to contribute in a meaningful and substantial way, while at the same time receiving valuable mentoring and experience as developing scientists.</AbstractNarration>
+    <MinAmdLetterDate>05/17/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/17/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1616297</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Lee</LastName>
+      <EmailAddress>jrl@cs.washington.edu</EmailAddress>
+      <StartDate>05/17/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7927</Code>
+      <Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

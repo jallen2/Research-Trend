@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CHS: Medium: Leveraging Human Interaction to Efficiently Learn and Use Multimodal Object Affordances</AwardTitle>
+    <AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2020</AwardExpirationDate>
+    <AwardAmount>1199831</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this research is to enable robots to effectively identify, reason about and predict the affordances of common objects found in everyday human environments. When a robot enters a new environment, it should not need to learn all domain knowledge from scratch. Instead, it should be able to leverage general commonsense knowledge about the objects it sees, as well as domain-specific knowledge it acquires through situated interaction, to reason effectively about the attributes and affordances of objects in the surrounding environment. The PIs' ultimate objective is to make robots more accessible to everyday people. Project outcomes will contribute research infrastructure and novel data sources for the research community, as well as create an opportunity for broadening participation and STEM educational outreach. Undergraduate and graduate education will be impacted because the research will supplement the material and projects covered in the PIs' AI, robotics and HRI courses. The PIs have a track record of including undergraduate research assistants in their labs, and PI Thomaz serves as faculty advisor to the undergraduate AI Club. Both PIs have an extensive history of mentoring and promoting women in science and technology. And they will continue their tradition of open source software development in this project; all data deriving from this research will be made publicly available.&lt;br/&gt;&lt;br/&gt;This project encompasses an end-to-end research agenda that explores how a domain-specific affordance knowledge base, which the PIs call a Situated Affordance Network (SAN), can be represented, acquired, and then used for reasoning about complex tasks.&lt;br/&gt;&lt;br/&gt;* SAN Representation: The PIs will use Markov logic networks to establish the SAN knowledge representation, which relates physical object properties to object attributes and affordances. This representation will serve as the unifying foundation for the remainder of the work.&lt;br/&gt;* SAN construction from semantic knowledge sources: The PIs will develop automated techniques for leveraging existing, general purpose semantic knowledge resources to construct a domain-specific SAN based on object and location observations made by the robot. The outcome will be a Markov logic network that represents abstract conceptual knowledge about the robot's environment, including categorical labels, object attributes and affordances.&lt;br/&gt;* SAN refinement through situated interaction: Next, the PIs will develop techniques for physically grounding the SAN's abstract affordance concepts in the environment in which the robot exists. They will develop techniques for learning specific representations of objects, locations, attributes, and the controllers needed to achieve affordances through situated interaction with the environment and with the human user.&lt;br/&gt;* Affordance reasoning using SAN: In the final research thrust, the PIs will develop algorithmic techniques that leverage the unified SAN representation to enable the robot to perform high level task planning, adapt to changes in the environment and generalize domain-independent knowledge across multiple contexts.&lt;br/&gt;&lt;br/&gt;At the completion of this work, a robot will be able to enter a novel environment, and 1) use objects that it recognizes in the scene to initialize a domain-specific SAN that contains abstract knowledge about the attributes and affordances of objects in the surrounding environment, 2) incrementally refine the resulting SAN through exploration of the environment and interaction with a human, and 3) leverage the resulting representation to perform complex tasks in the environment, including prediction of the affordances of novel objects, grounding of abstract task plans, and performing plan repair. The main contribution of this research is not the specific SAN knowledge base that has been generated for a given domain and object set, but rather the domain-independent method by which a robot can construct a SAN for any new environment.</AbstractNarration>
+    <MinAmdLetterDate>06/03/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/02/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1564080</AwardID>
+    <Investigator>
+      <FirstName>Sonia</FirstName>
+      <LastName>Chernova</LastName>
+      <EmailAddress>chernova@cc.gatech.edu</EmailAddress>
+      <StartDate>06/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andrea</FirstName>
+      <LastName>Thomaz</LastName>
+      <EmailAddress>athomaz@ece.utexas.edu</EmailAddress>
+      <StartDate>06/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems (CHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

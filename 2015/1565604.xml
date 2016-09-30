@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: CHS: WiFi-Based Human Behavior Sensing and Recognition System for Aging in Place</AwardTitle>
+    <AwardEffectiveDate>08/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>90800</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As "baby boomers" age, the United States will experience considerable growth in its elderly population over the coming years. Studies consistently confirm that the majority of older adults would prefer to remain in their own homes for as long as possible. Therefore, there is a critical need for home-based assisted living technologies capable of continuously yet unobtrusively monitoring activities of daily living (ADLs) and detecting abnormal events, both to reduce the cost of elder care and to enhance the quality of life. Current human behavior monitoring systems for aging in place, which are typically based on cameras, smartphone/wearable devices, or ambient sensors, have fundamental limitations such as high cost and invasion of privacy that prevent them from being widely deployed. The PI's objective in this project is to build on his prior work to establish a research program to investigate a new approach to aging in place that harnesses the now-ubiquitous commercial home WiFi signals to monitor ADLs and detect abnormal events. The central idea is that different human activities cause different changes in WiFi signals; by analyzing these changes, the activity that caused the change can be recognized. This work will have broad societal impact both within the United States and abroad, by contributing to new techniques and systems for WiFi-based human behavior sensing and recognition in both single-subject and multi-subject scenarios. If the new system is effective, it will provide a non-intrusive, device-free, low-cost and privacy-preserving assisted living technology for aging in place. The PI will integrate research results from this project into both his undergraduate and graduate courses, as well as the K-12 education program; furthermore, the hardware and software developed in this research will be open-source, and the dataset collected during this project will be made available to others for further research.&lt;br/&gt;&lt;br/&gt;The PI plans to exploit the fine-grained PHY layer Channel State Information (CSI) extracted from the WiFi signals as the basis for a unified scheme for monitoring both the most common stationary and moving activities performed daily by older adults in their homes. He will detect stationary activities by tracking the minute but periodic chest movements caused by breathing, and he will extract frequency domain features to robustly recognize the same moving activity even with different movement directions or at different locations. The PI will develop Markov models to recognize complex ADLs, and he will leverage the breathing and physical body movement information to detect abnormal behaviors including accidental falls and disturbed sleep that are potential issues relating to aging in place. Ultimately, the PI will extend his techniques to recognize ADLs of multiple persons performed at the same time. To successfully achieve these objectives, the PI will need to overcome a number of significant technical challenges, for example detecting minute changes in the WiFi signal due to stationary activities such as working at a computer or watching TV while seated on a sofa. Robustly recognizing the same moving activity (e.g., housecleaning) performed in different ways or at different locations will also be tricky, because different movement directions or different layouts at different locations cause different disturbances to WiFi signals.</AbstractNarration>
+    <MinAmdLetterDate>06/15/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/15/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1565604</AwardID>
+    <Investigator>
+      <FirstName>Mi</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>mizhang@egr.msu.edu</EmailAddress>
+      <StartDate>06/15/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>026Y</Code>
+      <Text>CRII CISE Research Initiation</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

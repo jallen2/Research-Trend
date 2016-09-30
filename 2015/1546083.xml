@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: Collaborative Research: F: Holistic Optimization of Data-Driven Applications</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>600000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>We interact with online shopping and banking websites on a daily basis. Many of these websites are powered by data-driven applications. Such application often consists of two parts: an application hosted on an application server, and a database management system (DBMS) hosted on a separate server from the application server that maintains persistent data. Unfortunately, many data-driven applications suffer from performance problems, such as taking a long time to load a page or inability to scale up to serve large number of clients simultaneously. The state of the art in discovering and fixing performance problems in data-driven applications is to examine the two parts of the application separately, and doing so misses many opportunities in discovering and fixing such problems. Unlike prior approaches, in this project we will treat the DBMS and the application in tandem. In particular, we will devise new techniques and tools to help identify performance problems, understand the cause of such problems, and fix them automatically. This project will open up new opportunities in cross-layer program compilation and optimization, with the practical goal of improving the performance of data-driven applications that will have a significant impact in many aspects of our daily lives. The findings from this project will be incorporated into undergraduate and graduate software engineering, introduction to data management, and compiler classes to be offered at the University of Chicago and the University of Washington. The outreach activities of this project will include engaging and advising students through special programs geared toward under-represented groups such as the Distributed Research Experiences for Undergraduates (DREU) organized by CRA-W (Computing Research Association -- Women) and Diversity Workshops organized by CRA-W.&lt;br/&gt;&lt;br/&gt;Specifically, the proposed research consists of three thrusts: (1) a new cross-layer program analysis framework that produces an end-to-end profile of data-driven applications by understanding the application code, the queries that the application sends to the DBMS, and how the DBMS processes such queries; (2) a program analysis and testing framework that identify performance problems in data-driven applications by leveraging the end-to-end profile created from (1); and (3) new means to optimize data-driven applications by transforming both the application code and the queries that are issued. These three thrusts will work together to improve the performance of data-driven applications and help programmers detect performance problems during development. Software developed by this project, benchmarks used for evaluation, and performance comparison with existing techniques will be released to public domain through the project website. Further information will be available at the project website (http://db.cs.washington.edu/projects/coopt.html).</AbstractNarration>
+    <MinAmdLetterDate>09/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/14/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1546083</AwardID>
+    <Investigator>
+      <FirstName>Alvin</FirstName>
+      <LastName>Cheung</LastName>
+      <EmailAddress>akcheung@cs.washington.edu</EmailAddress>
+      <StartDate>09/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

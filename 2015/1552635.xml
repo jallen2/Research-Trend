@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Interactive Training of Semantic Parsers via Paraphrasing</AwardTitle>
+    <AwardEffectiveDate>02/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2021</AwardExpirationDate>
+    <AwardAmount>104064</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With the increase in popularity of virtual assistants such as Siri, there is a renewed demand for deep and robust language understanding. Statistical semantic parsing is a promising paradigm for addressing this demand. The key obstacle in building statistical semantic parsers is obtaining adequate training data. This CAREER project aims to develop a new interactive framework for building a semantic parser, where the system, acting like a foreign speaker of English, asks users to paraphrase utterances that the computer already understands into ones that the computer doesn't. The framework opens up intriguing applications in education. One such application is a bidirectional tutoring system, in which the system poses questions to the student. The student must both answer and paraphrase the question, thereby both practicing the course material and providing training data to the system. Natural language is a universal entry point, which can increase engagement and promote diversity. High-quality semantic parsers can drastically improve the way humans interact with computers. In the longer term, this work can also have a significant impact on the way natural language processing systems are built. Currently, the prevailing paradigm is very much a train-and-deploy one, whereas there are many more opportunities for improvement and personalization if deployed systems were to learn on-the-fly.&lt;br/&gt;&lt;br/&gt;This project develops a new interactive framework for building a semantic parser, which aims to obtain complete coverage in a given domain. The key idea is for the system to choose logical forms, generate probe utterances that capture their semantics, and ask users to paraphrase them into natural input utterances. In the process, the system learns about linguistic variation and novel high-level concepts. The data is then used to train a paraphrasing-based semantic parsing model. Existing paraphrasing models are either transformation-based, which excel at capturing structural regularities in language or are vector-based, which excel at capturing soft similarity. The project develops novel models to capture both. The framework developed in this project improves the state-of-the-art of natural language processing and machine learning in three ways. First, the framework departs from the classic paradigm of gathering a dataset and learning a model; instead, an interactive system interleaves the two steps. Second, the framework learns high-level concepts, which is crucial for natural language understanding, since words often represent complex concepts. Finally, it resolves a classic tension between the rigidity of logical representations and the flexibility of continuous representations by capturing both in a unified model.</AbstractNarration>
+    <MinAmdLetterDate>01/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1552635</AwardID>
+    <Investigator>
+      <FirstName>Percy</FirstName>
+      <LastName>Liang</LastName>
+      <EmailAddress>pliang@cs.stanford.edu</EmailAddress>
+      <StartDate>01/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

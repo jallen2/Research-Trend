@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Understanding Anti-Analysis Defenses in Malicious Code</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>530780</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The problem of cyber-security encompasses computer systems of all sizes and affects almost all aspects of our day-to-day lives. This makes it fundamentally important to detect accurately and respond quickly to cyber-threats as they develop. This project aims to develop techniques and tools that can accelerate the process of understanding and responding to new cyber-threats as they develop. The authors of malicious software (malware) usually try to make the malware stealthy in order to avoid detection. In many cases, this involves a variety of techniques aimed at hindering analysis efforts by security analysts; we refer to such techniques as anti-analysis defenses. When confronted by such defenses, security analysts have to identify and disable them in order to observe and understand its real behaviors and thereby develop countermeasures. Current approaches for doing this are slow and cumbersome. This project aims to develop highly general, efficient, and robust automated techniques for speeding up the process of identifying and understanding anti-analysis defenses in malware, with the goal of providing security analysts with tools that can help them respond quickly to new cyber-threats as they develop.&lt;br/&gt;&lt;br/&gt;Malicious software (malware) usually employs a variety of anti-analysis and anti-tampering defenses to hinder analysis and reverse engineering. Currently, neutralizing such defenses requires a lot of manual intervention and is therefore tedious and time-consuming. This project develops semantics-based techniques to automate most or all of this effort and so accelerate the process of identifying and neutralizing such defenses. The project focusses on analyzing programs that employ a variety of anti-analysis and anti-tampering defenses. In particular, the project will focus on the following research questions:&lt;br/&gt;* Detection. How do characterizations of environmental observations translate to detection algorithms for anti-analysis defenses? How can the detection algorithms be made general?&lt;br/&gt;* Precision. What factors affect the precision of such detection algorithms? How can the precision be improved?&lt;br/&gt;* Performance. Sophisticated analysis of low-level code can be expensive. At the same time, the high volumes of new malware that are encountered make it important for analyses to be efficient. How can such detection algorithms be made efficient enough to be practical?&lt;br/&gt;*Stealthy Defenses. How can environment checks be made statically and dynamically stealthy? What are the implications for anti-analysis detection algorithms?&lt;br/&gt;&lt;br/&gt;In order for such anti-anti-analysis techniques to have longevity, it is important that they be general, i.e., make as few assumptions as possible about the nature or form of the defenses that may have been applied. To this end, the project will articulate explicitly the assumptions underlying the techniques it develops. This can be expected to suggest new directions for research by indicating where assumptions may be weakened or removed. The potential contributions of this research are both technical and societal. The ability to more easily neutralize anti-analysis defenses deployed by malware will allow security researchers to respond to new and emerging malware threats quickly. This will have the effect of limiting the scope of the damage caused by such malware, and improve the security and reliability of our cyber-infrastructure. Additionally, the project will involve graduate and undergraduate students in all aspects of the research and thereby contribute to the development of a highly skilled workforce. Finally, software developed as part of the project will be made available to the broader research community, thereby assisting and supporting other research projects in this area.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/03/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1525820</AwardID>
+    <Investigator>
+      <FirstName>Saumya</FirstName>
+      <LastName>Debray</LastName>
+      <EmailAddress>debray@cs.arizona.edu</EmailAddress>
+      <StartDate>08/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christian</FirstName>
+      <LastName>Collberg</LastName>
+      <EmailAddress>collberg@cs.arizona.edu</EmailAddress>
+      <StartDate>08/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Arizona</Name>
+      <CityName>Tucson</CityName>
+      <ZipCode>857194824</ZipCode>
+      <PhoneNumber>5206266000</PhoneNumber>
+      <StreetAddress>888 N Euclid Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

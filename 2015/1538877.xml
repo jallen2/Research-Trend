@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Compute-Aware Control Systems: Coordinated Control of Physical Systems and Computer Processes</AwardTitle>
+    <AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>369906</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Atul G. Kelkar</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Increasingly, the heart of modern products includes embedded processors that control physical systems such as lights, motorized mechanisms, and communications. These developments are enabled by the increasing sophistication of embedded processor technology that can reconfigure the computing system while it is running in order to improve performance or power usage. However, current practice is to design the controller of the processor separately from the physical system controller, overlooking the opportunity for synergy. The focus of this research is to develop methods to coordinate the design of the processor and physical-system controllers in order to give more design flexibility. Specifically, this coordination will make the physical system control algorithms compute-aware, that is, adaptive to the fluctuating demands and limitations of the computing systems. Similarly, a computer process controller will be designed that dynamically manages the power and performance of the computing processes in response to the changing demands of the physical system controller. The impact of this work is that embedded processors used for controls applications can be downsized, made lighter in weight and lower power, while still maintaining stability and good performance. The applications that are expected to have the most benefit are self-powered systems such as mobile robots and aerial robots, especially ones where size and weight are important.&lt;br/&gt;&lt;br/&gt;The objective of this research is to develop coordinated control methods for the physical system controller and the computing system controller. The research will combine a theoretical framework with a software architecture in order to design and analyze the stochastic hybrid system that arises from integrating the physical system controller and the computing system controllers. The researchers will develop stability analysis methods and new design methods that will expand the applicability of anytime algorithms to larger classes of control laws and larger classes of physical systems. The predictive control methods to be developed for computing systems will make the system highly responsive to the fluctuating demands on the computer processor. The computer science approaches to be used include the concepts of soft-real-time computing, reusable software frameworks, and software verification and validation methods. The architecture to be developed has three basic components: Compute-Aware Physical System Controllers: standard controllers reformulated into Anytime Algorithms, which can be stopped or reconfigured anytime due to sudden limitations in the computer resources; Computer Power and Performance Controller: a controller for computer processes that adapts to changing requirements of the physical system controller; and a High-Level Coordination Controller: algorithms that manage the trade-off between the power and performance requirements of the computer system and of the physical system controller. All of the developed methods will be validated through Monte Carlo simulations and experiments.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1538877</AwardID>
+    <Investigator>
+      <FirstName>Aldo</FirstName>
+      <LastName>Ferri</LastName>
+      <EmailAddress>al.ferri@me.gatech.edu</EmailAddress>
+      <StartDate>08/26/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Bonnie</FirstName>
+      <LastName>Ferri</LastName>
+      <EmailAddress>bonnie.ferri@ece.gatech.edu</EmailAddress>
+      <StartDate>08/26/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7569</Code>
+      <Text>Dynamics, Control and System D</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>030E</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>031E</Code>
+      <Text>MECHATRONICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>032E</Code>
+      <Text>SENSORS AND ACTUATORS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>033E</Code>
+      <Text>Smart and responsive structures</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>034E</Code>
+      <Text>Dynamical systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8024</Code>
+      <Text>Complex Systems</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

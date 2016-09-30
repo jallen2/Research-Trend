@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Algorithm and Theory for Interface Computations</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>162703</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Phenomena in which a fluid interacts with an immersed elastic structure abound in nature and in everyday life. Such fluid-structure interaction (FSI) problems include the swimming of microorganisms, the flying of birds, blood flow in the heart, and the deformation of leaves in the wind. One powerful way to understand such FSI problems is through computer simulation. Many FSI problems lead to challenging computational problems that call for significant improvements over currently available algorithms. The immersed boundary (IB) method is a popular computational method for FSI problems, and one major goal of this project is to understand the mathematical properties of the IB method to aid in the development of faster and more robust numerical algorithms. Another goal is to adapt the IB method so that it can handle problems in which fluid (water) can flow through an elastic structure. Such problems are particularly important for the understanding of movement and shape changes of biological cells. This cell-biological aspect of the work will be performed in collaboration with experimental biophysicists. The project will train undergraduate and graduate students in the mathematical and computational sciences through research on these problems.&lt;br/&gt;&lt;br/&gt;This project consists of two major aims in theory and algorithmic development for computational problems with moving membrane interfaces. On the theoretical side, the PIs will establish a convergence theory for the immersed boundary (IB) method. The IB method is a widely used numerical method for fluid structure interaction problems, but despite its popularity, its convergence properties are poorly understood. Convergence analysis for the IB method will be one of the first to be established for a fluid structure interaction algorithm in which a dual grid is used; one for the fluid and another for the elastic structure. Such an analysis will clarify the effect of grid and time discretization parameters on the stability properties of the IB method. On the algorithmic side, the PIs will develop a numerical scheme to handle electrodiffusion of ions and transmembrane water flow in the presence of deformable elastic membranes. A novel feature of the osmotic water flow problem in contrast to conventional fluid structure interaction problems is that the interfacial membrane does not move with respect to the local fluid velocity and that this slip velocity is controlled by the jump in concentration of a diffusing chemical across the membrane interface. The fluid structure interaction will be treated with the IB method whereas chemical diffusion will be treated using a Cartesian embedded boundary method. This algorithm will be applied to study the interplay between electrophysiology/osmotic water flow and cell mechanics, an area that is poorly explored theoretically but whose importance is becoming increasingly clear.</AbstractNarration>
+    <MinAmdLetterDate>06/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1620198</AwardID>
+    <Investigator>
+      <FirstName>Lingxing</FirstName>
+      <LastName>Yao</LastName>
+      <EmailAddress>lxy195@case.edu</EmailAddress>
+      <StartDate>06/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Case Western Reserve University</Name>
+      <CityName>CLEVELAND</CityName>
+      <ZipCode>441064901</ZipCode>
+      <PhoneNumber>2163684510</PhoneNumber>
+      <StreetAddress>Nord Hall, Suite 615</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

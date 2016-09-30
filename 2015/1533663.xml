@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: CCA: Collaborative Research: Automatically Scalable Computation</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>For over thirty years, each generation of computers has been faster than the one that preceded it. This exponential scaling transformed the way we communicate, navigate, purchase, and conduct science. More recently, this dramatic growth in single processor performance has stopped and has been replaced by new generations of computers with more processors on them; for example, even the cell phones we carry have multiple processors in them. Writing software that effectively leverages multiple processing elements is difficult, and rewriting the decades of accumulated software is both difficult and costly. This research takes a different approach -- rather than converting sequential software into parallel software, this project develops ways to store and reuse computation. Imagine computing only when computer time and energy are cheap and plentiful, storing that computation, and then using it later, when computation might be limited or expensive. The approach used involves making informed predictions about computation likely to happen in the future, proactively executing likely computations in parallel with the actual computation, and then "jumping forward in time" if the actual execution arrives at any of the predicted computations that have already been completed. This research touches many areas within Computer Science, architecture, compilers, machine learning, systems, and theory. Additionally, exploiting massively parallel computation will produce immediate returns in multiple scientific fields that rely on computation.&lt;br/&gt;&lt;br/&gt;The approach used in this research views computational execution as moving a system through the enormously high dimensional space represented by its registers and memory of a conventional single-threaded processor. It uses machine learning algorithms to observe execution patterns and make predictions about likely future states of the computation. Based on these predictions, the system launches potentially large numbers of speculative threads to execute from these likely computations, while the actual computation proceeds serially. At strategically chosen points, the main computation queries the speculative executions to determine if any of the completed computation is useful; if it is, the main thread uses the speculative computation to immediately begin execution where the speculative computation left off, achieving a speed-up over the serial execution. This approach has the potential to be extremely scalable: the more cores, memory, and communication bandwidth available, the greater the potential for performance improvement. The approach also scales across programs -- if the program running today happens upon a state encountered by a program running yesterday, the program can reuse yesterday's computation. This project has the potential to break new ground for research in many areas in Computer Science touched by it.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1533663</AwardID>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Homer</LastName>
+      <EmailAddress>homer@bu.edu</EmailAddress>
+      <StartDate>07/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jonathan</FirstName>
+      <LastName>Appavoo</LastName>
+      <EmailAddress>jappavoo@bu.edu</EmailAddress>
+      <StartDate>07/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ajay</FirstName>
+      <LastName>Joshi</LastName>
+      <EmailAddress>joshi@bu.edu</EmailAddress>
+      <StartDate>07/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

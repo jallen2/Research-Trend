@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NRI: Decentralized Feedback Control Design for Cooperative Robotic Walking with Application to Powered Prosthetic Legs</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>612213</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jordan Berg</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project addresses the creation of innovative decentralized controllers for legged locomotion. Decentralized controllers require only local information to accomplish their function. In the case of legged locomotion, decentralization is desirable for several reasons. For prosthetics, where the purpose is to replace a lost natural limb, it is impractical to wire the user with a profusion of sensors. Therefore the prosthetic device must primarily rely on its own built-in measurements. Another advantage of decentralization is the management of complexity. As robots become more sophisticated, the number of variables that must be monitored for a complete description of the system status becomes so large that top-down controllers are costly or infeasible to implement. The challenge of decentralized control is made substantially more difficult because walking and running are hybrid dynamic behaviors, that is, the dynamics follow a completely different set of rules when, for example, a foot is planted on the ground, compared to when it is swinging in the air. This project will address the substantial analytical difficulties caused by these features. This project will advance the state of the art in advanced lower limb prosthetics, as well as in locomotion for the next generation of legged robots. &lt;br/&gt;&lt;br/&gt;This project will investigate the systematic design of decentralized feedback controllers that coordinate low-dimensional subsystems to achieve robust legged locomotion, overcoming the curse of dimensionality in legged robots and enabling cooperative human-machine walking with powered prosthetic legs. The project draws upon robotics, optimization, and feedback control theory to advance two key innovations: (1) creating algorithms to systematically design robust stabilizing decentralized controllers for cooperative subsystems; and (2) transferring the decentralized control framework into practice with an experimental quadruped and a powered prosthetic leg. The problem of creating decentralized nonlinear controllers for robust dynamic walking with interconnected subsystems, coordinated only by a common gait cycle phasing variable, will be formulated in the context linear and bilinear matrix inequalities. The theoretical significance of these algorithms include: (1) they are powerful tools for the design of general nonlinear decentralized feedback control schemes; (2) they explicitly account for underactuation to account for walking motions that are not flat-footed; (3) they provide cooperation between subsystems of complex walking models with high dimensionality and strong interactions; and (4) they provably stabilize full-dimensional hybrid dynamical models of walking robots rather than simplified models. This decentralized control framework is technologically significant because it can be readily transferred into practical high-DOF legged robots, as well as wearable robots for physical rehabilitation.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1637704</AwardID>
+    <Investigator>
+      <FirstName>Kaveh</FirstName>
+      <LastName>Akbari Hamed</LastName>
+      <EmailAddress>kakbarihamed@mail.sdsu.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Gregg</LastName>
+      <EmailAddress>rgregg@utdallas.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>San Diego State University Foundation</Name>
+      <CityName>San Diego</CityName>
+      <ZipCode>921822190</ZipCode>
+      <PhoneNumber>6195945731</PhoneNumber>
+      <StreetAddress>5250 Campanile Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8013</Code>
+      <Text>National Robotics Initiative</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8086</Code>
+      <Text>Natl Robotics Initiative (NRI)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

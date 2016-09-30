@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: Bridging Parallel and Queueing-Theoretic Scheduling</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>825000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Scheduling computational tasks on computational resources has played a fundamental role in computer science since the 1950s. One branch of scheduling (queueing theoretic) has focused on analyzing multiple sequential jobs competing for a shared resource with the goal of minimizing the response time (latency) over all jobs. Most operating system and server schedulers use ideas developed as part of this research. Another branch of scheduling (parallel) has focused on analyzing a single parallel job running on a dedicated parallel machine, with the goal of maximizing efficiency (throughput) of the job. Most schedulers for dynamically parallel programs use ideas developed as part of this research. Until recently these branches were adequate on their own, and the communities studying them have had very little interaction. However, the mainstream availability of parallel hardware, and the need to handle many parallel jobs sharing a single resource, has recently changed this. The goal of this project is to bridge the two branches by developing new theory and practical scheduling algorithms, that can handle multiple dynamically parallel jobs competing for shared resources. The project brings together PIs with expertise from each area, and will apply and combine techniques from each area. The project has the potential to have significant broad impact on the theory and practice of widely used shared parallel systems. The project will include an educational outreach component in which the PIs will include ideas from the project in courses they teach.&lt;br/&gt;&lt;br/&gt;This project is the first to tackle the union of these two domains. The PIs will develop scheduling algorithms for a stream of arriving jobs, where the jobs are complex multi-threaded fine-grained parallel jobs with dynamic parallelism and dependencies among tasks. The research will address three specific challenges, as follows. Challenge 1, Statistical Characterization/Modeling: Scheduling multiple jobs requires knowing something about when each job will complete and what it will do in the future, such as the number of tasks it will create or the granularity of tasks. A significant part of the project is devoted to measuring parallel jobs and statistically characterizing them to create simple models of their behavior. Challenge 2, Algorithmic Development and Analysis: There are currently no scheduling algorithms for the problem that is being considered. While queueing theory touts the optimality of always running the job with the "shortest expected remaining time," this has little meaning when jobs are parallel and there are many resources. New theorems and analytical techniques will be developed. Challenge 3, Implementation and Benchmarking: An important component of the project will be the implementation and benchmarking of our algorithms on prototype systems. The PIs will investigate multiple metrics including latency, throughput, fairness, and robustness.</AbstractNarration>
+    <MinAmdLetterDate>06/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1629444</AwardID>
+    <Investigator>
+      <FirstName>Umut</FirstName>
+      <LastName>Acar</LastName>
+      <EmailAddress>umut@cs.cmu.edu</EmailAddress>
+      <StartDate>06/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mor</FirstName>
+      <LastName>Harchol-Balter</LastName>
+      <EmailAddress>harchol@cs.cmu.edu</EmailAddress>
+      <StartDate>06/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Guy</FirstName>
+      <LastName>Blelloch</LastName>
+      <EmailAddress>blelloch@cs.cmu.edu</EmailAddress>
+      <StartDate>06/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: Collaborative Research: F: Efficient and Exact Methods for Big Data Reduction</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>499653</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Research in big data involves analyzing growing data sets with huge numbers of samples, very high-dimensional feature vectors, and complex and diverse structures. The ever-growing volume and complexity of these data sets make many traditional techniques inadequate to extract knowledge from them. An emerging area, known as sparse learning, has achieved great success in learning from big data by identifying a small set of explanatory features and/or samples. Typical examples include selecting features that are most indicative of users? preferences for recommendation systems, identifying brain regions that are predictive of neurological disorders based on imaging data, and extracting semantic information from raw images for object recognition. However, training sparse learning models can be computationally prohibitive due to the sparsity-inducing regularization, which is non-smooth and can be highly complex when incorporating complex structures. This project aims at developing algorithms and tools to significantly accelerate the training process of sparse learning models for big data applications. The key idea is to efficiently identify redundant features and/or samples, which can be removed from the training phase without losing useful information of interests. Success in these unique techniques is expected to dramatically scaling up sparse learning for big data by orders of magnitude in terms of both time and space. The PIs plan to integrate the big data reduction tools developed in this project into their education and outreach activities, including development of new courses and integration of project components into existing courses. The PIs will make special efforts to recruit female and underrepresented students to this project.&lt;br/&gt;&lt;br/&gt;The major technical innovations of this project include the following components: (1) the PIs will develop efficient feature reduction methods for the generic scenario where the structures of both input and output can be represented by directed acyclic graphs; the proposed formulations include many existing approaches as special cases; (2) the PIs will develop efficient methods to reduce the numbers of features and samples simultaneously under a unified formulation, which can also incorporate various structures; (3) the PIs will develop efficient methods to discard irrelevant data subspaces to accelerate the process of uncovering low-rank structures commonly seen in big data. All the proposed data reduction methods are exact, i.e., the models learned on the reduced data sets are identical to the ones learned on the full data sets. This project heavily relies on optimization theory, especially on sensitivity analysis and convex geometry. The outcome of this project includes a unified approach to accelerate sparse learning and provide a systematic framework for developing efficient and exact data reduction methods. The systematic study and in-depth exploration of redundant data identification is expected to deepen the understanding of sparse learning techniques and dramatically enhance their applications in big data analytics.</AbstractNarration>
+    <MinAmdLetterDate>09/07/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/07/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1633370</AwardID>
+    <Investigator>
+      <FirstName>Jie</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>jwangumi@umich.edu</EmailAddress>
+      <StartDate>09/07/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

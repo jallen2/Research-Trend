@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Stochastic Planning and Probabilistic Inference for Factored State and Action Spaces</AwardTitle>
+    <AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>447122</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hector Munoz-Avila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many important problems require control of multiple actuators, or agents, in parallel, to achieve a common coordinated goal in a stochastic environment. Examples of such problems include scheduling in a building with multiple elevators, managing a team for fire and rescue operations, managing the inventory of a large company, controlling a robotic soccer team, and controlling a robotic team to manage shelving and orders in a warehouse environment. These problems naturally fit into a formulation as discrete-time central-control problems where we design an algorithm that decides what action each agent takes at any time step in order to optimize the common objective. The corresponding computational problem, known as stochastic planning, is challenging due its sheer size. In particular, the number of possible states (for example, possible positions of robots, shelves and merchandise in a warehouse) and the number of possible joint actions (combinations of actions of individual robots) are huge in any problem instance of interest. State of the art approaches typically fail due to requiring too much time to properly search for a good policy or due to requiring too much memory to store intermediate values. By viewing stochastic planning through the lens of probabilistic inference, this project proposes several novel domain independent algorithmic approaches that take advantage of problem structure to calculate approximate solutions effectively under time constraints. The project funds are largely devoted to support training and research of PhD students therefore directly support human development in an important high impact area for the nation. &lt;br/&gt;&lt;br/&gt;More concretely, we propose three competing approaches to solving such problems, all taking insight from formulating the finite horizon control problem as probabilistic inference in a corresponding graphical model, also known as a dynamic Bayesian network. The first approach uses the idea of Monte Carlo search, but adds a strong symbolic component by introducing aggregate trajectories. Aggregate trajectories are obtained by simulating a compositional symbolic model under independence assumptions over the random variables. Each aggregate trajectory provides a value estimate that is approximate but can replace numerous individual trajectories. In this way we get fast approximation of values and effective control under time constraints. The second approach uses problem structure to translate the inference problem into an integer linear program, where the objective and quality of the solution can be traded-off for speed through problem decomposition. A novel construction shows how to sidestep the exponential complexity of the problem and obtain a sequence of integer programs that are both small and decomposable so as to yield effective control under time constraints. The third approach, or more accurately framework, builds on the tight connection between stochastic planning and probabilistic inference in the corresponding dynamic Bayesian network. We show that variants of the first two approaches can be viewed in this light, and through this we propose new inference algorithms for solving the stochastic planning problem. In addition, based on this analysis, we propose new algorithms for probabilistic inference, and new generalized inference questions that go beyond current research on marginal map in graphical models.</AbstractNarration>
+    <MinAmdLetterDate>06/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1616280</AwardID>
+    <Investigator>
+      <FirstName>Roni</FirstName>
+      <LastName>Khardon</LastName>
+      <EmailAddress>roni@cs.tufts.edu</EmailAddress>
+      <StartDate>06/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Tufts University</Name>
+      <CityName>Medford</CityName>
+      <ZipCode>021555807</ZipCode>
+      <PhoneNumber>6176273417</PhoneNumber>
+      <StreetAddress>20 Professors Row</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

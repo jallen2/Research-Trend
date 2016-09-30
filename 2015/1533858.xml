@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: FP: Write-Efficient Parallel Algorithms for Emerging Memory Technologies</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>845000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Chip manufacturers in the past ten years have been enhancing computing performance by including multiple processor cores per chip. Given that all the cores have to access a shared memory, however, this access has increasingly become a bottleneck in terms of energy, latency, and bandwidth. To help deal with these and other problems, industry has been developing a variety of new memory technologies such as phase-change memory, Spin-Torque Transfer Magnetic RAM, and Memristor-based Resistive RAM. These technologies offer the promise of significantly lower energy and higher density than standard DRAM memory technology. One of the key issues, however, is that writing to memory based on the technologies is significantly more costly than reading from memory, suffering from higher latency, lower per-chip bandwidth, and higher energy costs.&lt;br/&gt;&lt;br/&gt;The goal of this project is to develop new sequential and parallel algorithms and algorithm design techniques that are efficient in terms of the number of writes they perform, and hence make better use of these new technologies by reducing energy consumption and improving performance. This contrasts with 50 years of research on algorithms in which writes are assumed to be no more costly than reads. If successful the research will have a broad impact on future users of such technologies, which could be very many, as well as on the models and approaches for future algorithm design. The PIs also plan to develop efficient implementations of algorithms that they will make freely and openly available. The project includes an educational outreach component in which, as part of courses on databases and applied algorithms, the PIs will teach students about the new memory technologies and algorithms that can take advantage of them.&lt;br/&gt;&lt;br/&gt;Within the scope of work the PIs will (1) develop appropriate abstract models for capturing the asymmetric costs in memories, (2) develop and analyze algorithms in the models, (3) prove lower bounds, (4) develop programming abstractions that help express such algorithms, (5) develop working applications (e.g., in graph analytics and databases) based on the algorithms developed, and (6) experimentally verify the utility of the models and abstractions in guiding the development of efficient algorithms. The intellectual challenge within this context will be in developing such models, algorithms, and programming abstractions that are simultaneously simple, elegant, and practical, while at the same time gaining insights into fundamental limits and trade-offs.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1533858</AwardID>
+    <Investigator>
+      <FirstName>Phillip</FirstName>
+      <LastName>Gibbons</LastName>
+      <EmailAddress>gibbons@cs.cmu.edu</EmailAddress>
+      <StartDate>07/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Guy</FirstName>
+      <LastName>Blelloch</LastName>
+      <EmailAddress>blelloch@cs.cmu.edu</EmailAddress>
+      <StartDate>07/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

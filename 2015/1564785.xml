@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ABI Innovation: Scalable kmer-based algorithms and software for gene expression and regulation</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>800000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Peter H. McCartney</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proteins are one of the basic building blocks of living organisms. Each tissue carefully regulates the set of proteins that it produces, both of the types of protein made and the amounts of each. For instance, the proteins that make up the structure and enable the function of the heart are different from those defining the lungs or brain. A deep understanding of the processes that control what proteins are made and how this is timed is of fundamental scientific importance, with implications throughout biology. This project focuses on two critical points in protein regulation: the step in which genes are read off of the genomic DNA to make the intermediate mRNA (called transcription), and the step in which some pieces of the mRNA are removed and the ends reconnected (called splicing), so that translation to protein will result in versions with distinct properties. Complete profiling of mRNA produced by tissues is possible but results in very large, complex data sets. This project will create software tools to facilitate efficient analyses of these data sets, making sense of the two processes described above. The results can be applied to investigate a wide variety of biological questions. Besides the scientific contributions, several educational and outreach activities are aimed at students at the high school and undergraduate levels. In particular, a summer workshop will be organized to provide hands-on bioinformatics experiences to local high school teachers and representative students. Students in the University of Maryland Terrapin Teacher program will be mentored to create lesson plans in Bioinformatics; the lessons will subsequently be delivered at local high schools. In addition, high school students will be invited to participate in summer research experiences under the mentorship of the PIs.&lt;br/&gt;&lt;br/&gt;Cellular morphology and function is determined by precise regulation of gene activity. A long-term goal of biological research is to fully decipher the mechanisms of gene regulation. Spatial and temporal regulation of final gene products is primarily executed when genes are transcribed and the resulting RNA is processed. In turn, transcriptional regulation is mediated by regulatory elements, such as enhancers and promoters, which are characterized by diffuse clusters of short degenerate DNA motifs. An important task in the analysis of the transcriptional regulation involves comparison of regulatory regions, both within and across genomes. With regards to post-transcriptional processing events, critical first steps are identification, characterization and quantification of alternatively processed variants of a gene. Increasingly, sequence data are available that hold the answers to these questions, but which must be mined in order to extract their secrets. The scale of the task of incorporating the massive amounts of next generation sequencing data render conventional solutions inefficient and thus presents a major computational bottleneck. The proposed research will develop efficient algorithms and tools for the analysis of gene expression at both transcriptional and post-transcriptional levels by exploiting recently developed ultrafast data structures for DNA words or k-mers. The proposed solutions to two related but different fundamental problems - quantification of regulatory region similarity, and quantification of alternative isoforms of a gene, provide an alternative to traditional approaches by reformulating the problems in terms of k-mer similarity searches, for which extremely efficient solutions have been recently developed and exploited for related problems, including transcript quantification (e.g. Sailfish). The proposed tools will enable investigation of certain fundamental mechanistic and evolutionary questions pertaining to transcriptional regulation and analysis of splice isoform variants at an unprecedented scale. &lt;br/&gt;The research goals will be tied to several STEM educational activities focused on local high school students, both in terms of early research involvement and classroom education. Some of these activities will be organized at the Center for Bioinformatics and Computational Biology (CBCB), thereby encouraging the close interaction between the students and the center faculty.&lt;br/&gt;The link to the results will be provided at PI's lab page at cbcb.umd.edu/~sridhar/software.html</AbstractNarration>
+    <MinAmdLetterDate>06/27/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/27/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1564785</AwardID>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Mount</LastName>
+      <EmailAddress>smount@umd.edu</EmailAddress>
+      <StartDate>06/27/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sridhar</FirstName>
+      <LastName>Hannenhalli</LastName>
+      <EmailAddress>sridhar@umiacs.umd.edu</EmailAddress>
+      <StartDate>06/27/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1165</Code>
+      <Text>ADVANCES IN BIO INFORMATICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

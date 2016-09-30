@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Indoor Spatial Query Evaluation and Trajectory Tracking with Bayesian Filtering Techniques</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>499995</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Today most people spend a significant portion of their time daily in indoor spaces such as office buildings, shopping malls, convention centers, subway systems, and many other structures. In addition, indoor spaces are becoming increasingly large and complex. For instance, the New York City Subway has 469 stations and contains 233 miles of routes. In 2014, the subway system delivered over 1.75 billion rides, averaging approximately 5.6 million daily rides on weekdays. Therefore, users will have more and more demand for launching location-based (spatial) queries for finding friends, objects, or points of interest in indoor spaces. However, existing spatial query evaluation techniques for outdoor environments cannot be applied in indoor spaces because these techniques assume that user locations can be acquired from GPS signals or cellular positioning, but the assumption does not hold in covered indoor spaces. Furthermore, indoor spaces are usually modeled differently from outdoor spaces. In indoor environments, user movements are enabled or constrained by entities and topologies such as doors, walls, and hallways. Radio Frequency Identification (RFID) is a very popular electronic tagging technology that allows objects to be automatically identified at a distance using an electromagnetic challenge-and-response exchange of data. An RFID-based system consists of a large number of low-cost tags that are attached to objects and readers, which can identify tags without a direct line-of-sight through RF communications. RFID technologies have become increasingly popular over the last decade with applications in areas such as supply chain management, health care, and transportation. In this project, the researchers consider the setting of an indoor environment where a number of RFID readers are deployed in the indoor space. Each user is associated with an RFID tag, which can be identified by a reader when the user is within the detection range of the reader. Given the history of RFID raw readings from all the readers, the research team is in the position to design a system that can efficiently answer indoor spatial queries and track trajectories of objects. The research results of this project will improve the performance of numerous high value-added indoor applications and hence benefit the economy of our country. In addition, the ability to be able to locate people in indoor spaces will improve emergency response. The project will promote teaching, learning, and training by exposing both undergraduate and graduate students to mathematical and technological underpinnings in the field of spatial data management.&lt;br/&gt;&lt;br/&gt;In this project, the research team will develop an array of techniques to derive accurate object locations from erroneous RFID raw readings for supporting indoor spatial query evaluation and trajectory tracking. With accurate spatial query results and trajectory information, many high level applications (e.g., indoor layout planning and indoor location-based services) can be supported. This project will contribute to the research community by piloting novel indoor data management techniques that will accomplish the following goals: (1) develop and compare a number of Bayesian filtering-based location inference methods for evaluating spatial queries in indoor environments, (2) design novel indoor query evaluation algorithms for various spatial query types such as range query and k nearest neighbor query, (3) invent a hidden Markov model-based approach for indoor object trajectory tracking, and (4) implement a simulation toolkit and a prototype system, where all the components will be integrated for performance evaluation. All the research results and publications will be available on the project web site (http://www.eng.auburn.edu/~weishinn/Indoor.htm).</AbstractNarration>
+    <MinAmdLetterDate>09/02/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/22/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618669</AwardID>
+    <Investigator>
+      <FirstName>Xiao</FirstName>
+      <LastName>Qin</LastName>
+      <EmailAddress>xqin@auburn.edu</EmailAddress>
+      <StartDate>09/02/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Wei-Shinn</FirstName>
+      <LastName>Ku</LastName>
+      <EmailAddress>weishinn@auburn.edu</EmailAddress>
+      <StartDate>09/02/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Auburn University</Name>
+      <CityName>Auburn University</CityName>
+      <ZipCode>368490001</ZipCode>
+      <PhoneNumber>3348444438</PhoneNumber>
+      <StreetAddress>310 Samford Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Alabama</StateName>
+      <StateCode>AL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9199</Code>
+      <Text>UNDISTRIBUTED PANEL/IPA FUNDS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Cataloging Software Using a Semantic-Based Approach for Software Discovery and Characterization</AwardTitle>
+    <AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>299926</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>When scientists need to find software for a task, they often use ad hoc methods such as asking their colleagues, searching the web, or using whatever others appear to be using. This unsystematic approach often results in unproductive effort and poorer scientific results because scientists cannot find the software that is best for their needs. If a comprehensive software index were available it would help enable more efficient use of existing software resources and tools and contribute to more efficient and effective investment in the scientific research itself. &lt;br/&gt;&lt;br/&gt;Further, software is created and evolves too rapidly for humans to monitor; thus creation of the index should be automated. Also, while today's social-coding movement is putting more software into open-source repositories, thus offering greater opportunities to find and characterize software automatically, a significant obstacle remains: the lack of automated indexing methods that can produce results acceptable to humans. This proposed EAGER project seeks to investigate the use of innovative computing techniques for automating the creation of an index that can be used by scientists to find the software they need. Their test system (CASICS - Comprehensive and Automated Software Inventory Creation System) will be tested with an initial set of users and made available for public use.&lt;br/&gt;&lt;br/&gt;In this project, the researchers will (1) extend an existing software ontology; (2) develop methods for source code analysis using the ontology; (3) adapt a repository crawler to apply the methods to projects in SourceForge and GitHub; (4) implement a browsing and search interface to the database of results; and (5) augment the search facility to use semantic similarity via the ontology. They will use the prototype system to explore variants of the code analysis methods, select the best, and assess the performance of inferring characteristics of software found in the repositories. For automated index creation to be feasible, software discovery and characterization algorithms need to improve, so that the index is complete and organized more meaningfully. &lt;br/&gt;&lt;br/&gt;This project will explore the hypothesis that a deeper underlying knowledge structure, coupled with appropriate feature extraction and classification algorithms, can improve classification performance compared to past approaches. The use of ontologies to assist source code analysis has been explored in other work, but it has not been applied as proposed here. The project is expected to extend the state of the art in source code analysis and categorization.&lt;br/&gt;&lt;br/&gt;The central question in this project is whether the ontology-based descriptions of software produced by the classification methods can compare with human labeling. To address this, and in addition to the intellectual merit of the classification approach described above, the researchers have also proposed unique methods for empirically evaluating the results of the classification, as follows: (a) assess the overlap between the output of their methods with the classifications already present in GitHub and SourceForge - the two software catalogs they propose to mine, (b) develop a test system to perform double-blind evaluation with human judges on the software that is classified and (c) compare the search in CASICS to Google using a set of benchmark search queries that users in astronomy and systems biology would issue for various scenarios, identified through a survey.</AbstractNarration>
+    <MinAmdLetterDate>06/15/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/17/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1533792</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Doyle</LastName>
+      <EmailAddress>doyle@cds.caltech.edu</EmailAddress>
+      <StartDate>06/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Hucka</LastName>
+      <EmailAddress>mhucka@caltech.edu</EmailAddress>
+      <StartDate>06/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>California Institute of Technology</Name>
+      <CityName>PASADENA</CityName>
+      <ZipCode>911250600</ZipCode>
+      <PhoneNumber>6263956219</PhoneNumber>
+      <StreetAddress>1200 E California Blvd</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

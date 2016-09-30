@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Combining Reinforcement Learning and Deep Learning Methods to Address High-Dimensional Perception, Partial Observability and Delayed Reward</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>499886</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hector Munoz-Avila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Consider the problem faced by a machine agent that has to interact with some dynamical environment to achieve some goals. Concretely, imagine an agent engaged in a virtual competition as a human would. It can see the screen composed of many moving objects. At any time, it can choose one of a dozen or so actions. Its action controls one of the objects on the screen, but it often is not clear which one. Every so often the an evaluation is given of the competition. At some point the competition ends. How should such an agent choose actions, or more importantly how can we build agents that can learn to compete, i.e., achieve high scores, through trial and error. In this project methods will be developed and evaluated to build such agents. &lt;br/&gt;&lt;br/&gt;The above problem is an instance of what is called a reinforcement learning (RL) problem. Such problems abound in sequential decision-making settings. Applications in industry include factory optimization, robotics, and chronic disease management (to list but three diverse domains of interest). Like many of these RL problems, Atari games (used as a testbed here to evaluate learning strategies) have three characteristics of interest to this project. First, they generate high-dimensional images and so the agent faces a difficult perception problem. Second, they often have deeply-delayed rewards; i.e., actions have long-term consequences. For example, losing a resource may not cost at the moment of loss, but could lead to very high losses much later when that resource is critically necessary. Third, they have deep partial observability, i.e., to compete effectively one has to often remember the deep past. For example, a location encountered far back in the past may become valuable much later because a critical resource becomes available at that time and the agent would have to find its way back to that location to use the resource. It is proposed to address these three challenges respectively with new neural network architectures for predicting the consequences of actions, new methods for intrinsically motivating agents even when reward is delayed, and new recurrent neural network architectures to remember the past effectively. Success of the proposed work is expected to significantly expand the scope of application of reinforcement learning. Finally, Atari games will be used instead of, say, factory optimization as an evaluation domain because they are readily available. They will be used to draw high-school and under-represented undergraduate students interest into complex ideas underlying the proposed work; their fun visualizations will allow them to be integrated into teaching in the PIs' classes, and there are a variety of games that vary in the degree of difficulty of the three challenge dimensions allowing more effective control of the evaluations more effectively.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526059</AwardID>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>Lewis</LastName>
+      <EmailAddress>rickl@umich.edu</EmailAddress>
+      <StartDate>08/06/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Satinder</FirstName>
+      <LastName>Baveja</LastName>
+      <EmailAddress>baveja@umich.edu</EmailAddress>
+      <StartDate>08/06/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Honglak</FirstName>
+      <LastName>Lee</LastName>
+      <EmailAddress>honglak@eecs.umich.edu</EmailAddress>
+      <StartDate>08/06/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

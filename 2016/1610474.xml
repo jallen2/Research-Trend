@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CDS&amp;E: Coupled Thermal, Piezoelectric, and Hot Carrier Effects in AlGaN/GaN HEMTs: Multiscale Modeling of Time Evolution of Device Degradation</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>282815</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hao Ling</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>High electron mobility transistors (HEMTs) based on nitride material systems feature a unique combination of high breakdown voltage, high output power, high efficiency, wide bandwidth, low noise, and temperature and radiation hardness and have great potential in applications such as wireless communication, homeland security, radar and satellite systems, as well as emerging harsh-environment computing, sensing, cloud-networking and power conversion electronics. However, issues related to long-term reliability of these devices still remain a major concern. Reliability can be defined as the probability of operating a system for a given time under specified conditions without failure. For semiconductor devices, unrecoverable change of a device parameter (such as degradation in the output current) may be considered as a failure. As evidenced in recently reported stress or accelerated tests, high temperature gradients (thermal effect), high electric fields and built-in or induced mechanical stresses (inverse piezoelectric effect), and high current densities (hot carrier effect) may all induce damages or defects in the constituent materials and ultimately lead to device failure. Yet, the exact physical mechanisms governing the defect formation as well as the nature and distribution of these defects are still not clearly understood. This poses a significant challenge to not only interpreting the experimental results but also predicting or extrapolating the device lifetime, tasks that are critical, for example, for devices used in remote applications. It is well acknowledged that to study physical processes that are experimentally intractable, numerical modeling becomes essential. This project sets out to develop a multiscale and multiphysics simulation framework for modeling the time evolution of and the physical mechanisms responsible for AlGaN/GaN HEMT degradation. The developed simulator will enable device design for improved reliability. The simulator and the related instructional materials will be deployed and made freely available on nanoHUB.org for the broader community to use in research and classroom activities. &lt;br/&gt;&lt;br/&gt;The objective of the proposed research is to develop a multiscale, multiphysics simulation framework (HEMT 3-D) for modeling device degradation mechanisms in AlGaN/GaN HEMTs. Specific fundamental issues to be addressed include: a) correlation between metal diffusion, polarization, and induced charge density, b) origin, spatial and temporal distribution of defects, and how they affect electrostatics, band structure, gate leakage, carrier deconfinement and trapping-detrapping and contact resistances, c) correlation between lattice heating and hot-electron injection into the barrier material, d) strain and inverse-piezoelectric effects and their temperature dependence, and e) device optimization through engineering geometry, material composition, channel orientation, and enhancement of heat transfer at barrier-channel and buffer-substrate interfaces via microscopic tuning of the interface characteristics. To properly treat the atomistic symmetry in the nanostructured active region as well as the underlying physical processes that are complex, nonlinear, highly stochastic and dynamically-coupled at different length and time scales, the simulator will employ a modular approach integrating first-principles molecular dynamics, lattice kinetic Monte Carlo, and quantum-corrected electron-phonon transport kernels. Portability and run-time efficiency of the simulator will be achieved through the use of open-source scientific software, compilers and libraries, as well as incorporating optimized models, algorithms and extensions for GPGPU platforms. Verification of the computational results will be considered at every stage of the software development effort against experimental data available in literature as well as through collaboration with experimentalists in research laboratories, academia and industries.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1610474</AwardID>
+    <Investigator>
+      <FirstName>Shaikh</FirstName>
+      <LastName>Ahmed</LastName>
+      <EmailAddress>ahmed@siu.edu</EmailAddress>
+      <StartDate>08/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Southern Illinois University at Carbondale</Name>
+      <CityName>Carbondale</CityName>
+      <ZipCode>629014308</ZipCode>
+      <PhoneNumber>6184534540</PhoneNumber>
+      <StreetAddress>Ofc. of Sponsored Projects Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7564</Code>
+      <Text>COMMS, CIRCUITS &amp; SENS SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>026Z</Code>
+      <Text>NSCI: National Strategic Computing Initi</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

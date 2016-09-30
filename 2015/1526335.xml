@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF:Small:Collaborative Research:Making Computational Geometry Polynomial in Derivation Length and in Dimension</AwardTitle>
+    <AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>249983</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computational geometry is the discipline that creates algorithms to&lt;br/&gt;design and manipulate shapes. It has wide application in science,&lt;br/&gt;engineering, and industry -- CAD/CAM systems are a notable example.&lt;br/&gt;The problem is, where we see shapes and their spatial relations, the&lt;br/&gt;computer sees only numbers -- and usually, for speed, only&lt;br/&gt;approximate, "floating-point" numbers. E.g., points on a line that&lt;br/&gt;are represented as numerical coordinates, when rounded to the&lt;br/&gt;number of digits the computer stores, may no longer lie on any common&lt;br/&gt;line. Subsequent calculations that rely on a line being straight or&lt;br/&gt;two lines intersecting at most once can then go badly astray. Error&lt;br/&gt;in numerical computation can sometimes be limited by rounding, but&lt;br/&gt;there is no practical technique for rounding three-dimensional shapes.&lt;br/&gt;&lt;br/&gt;This project investigates shape rounding by encasement:&lt;br/&gt;High-complexity shapes are encased in approximating polyhedra with&lt;br/&gt;floating-point vertex coordinates. Given an encasement, the PIs have&lt;br/&gt;described a rounding algorithm that projects input features to nearby&lt;br/&gt;encasement features. For dealing with intersections of surfaces, the&lt;br/&gt;project creates output-sensitive algorithms for another type of&lt;br/&gt;encasement, an isolating encasement that can have distant boundary&lt;br/&gt;vertices but cannot encase other features.&lt;br/&gt;&lt;br/&gt;Encasement is only part of the solution, so the project also explores&lt;br/&gt;ways to compute topological structure using bounded-complexity&lt;br/&gt;arithmetic by avoiding numerical computation for the degenerate (zero)&lt;br/&gt;expressions. It investigates using graph theory to analyze explicit&lt;br/&gt;expressions and algebraic techniques to analyze expressions involving&lt;br/&gt;roots of polynomials.&lt;br/&gt;&lt;br/&gt;The outcome is to include a software library for implementing&lt;br/&gt;computational geometry algorithms with automated shape rounding. The&lt;br/&gt;project integrates education and research through an introductory&lt;br/&gt;computational geometry course in which standard algorithms are taught&lt;br/&gt;and implemented using the library. Previously, the computational cost&lt;br/&gt;of multi-step algorithms forced students to consider each algorithm in&lt;br/&gt;isolation.</AbstractNarration>
+    <MinAmdLetterDate>06/26/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/26/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526335</AwardID>
+    <Investigator>
+      <FirstName>Victor</FirstName>
+      <LastName>Milenkovic</LastName>
+      <EmailAddress>vjm@cs.miami.edu</EmailAddress>
+      <StartDate>06/26/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Miami</Name>
+      <CityName>CORAL GABLES</CityName>
+      <ZipCode>331462926</ZipCode>
+      <PhoneNumber>3052843924</PhoneNumber>
+      <StreetAddress>1320 S. Dixie Highway Suite 650</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7929</Code>
+      <Text>COMPUTATIONAL GEOMETRY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

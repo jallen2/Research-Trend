@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RAPID: Optimizing Experimental Approaches to Ebola Membrane Fusion Inhibitor Peptide Design through High-Throughput Biomolecular Simulation Workflows on Blue Waters</AwardTitle>
+    <AwardEffectiveDate>04/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2017</AwardExpirationDate>
+    <AwardAmount>199995</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project seeks to greatly reduce the overall experimentation time for finding promising drugs that fight Ebola. A very early stage of Ebola infection is viral entry, when the Ebola virus attaches to and enters the host cell. A promising type of antiviral drug is one that is "entry-inhibiting" or "entry-blocking". This type of drug inhibits the entry of the Ebola virus into the cell. In order for this drug to work well, it must be made up of Ebola inhibitor molecules that bind strongly to the Ebola virus, that is, these inhibitors must have a strong "binding affinity" to the virus. This project seeks to greatly speed up the process of finding Ebola inhibitors (that can then be incorporated into anti-viral drugs) by analyzing promising inhibitors and improving their binding affinity by simulating and optimizing their behavior on supercomputers. Inhibitors are found and initially vetted through "virtual" testing and only promising inhibitors are sent for laboratory testing. The new software for high-performance computing based simulations, that this project will develop and use, will run on the Blue Waters Petascale Resource. &lt;br/&gt;&lt;br/&gt;This project seeks to develop steerable, high-throughput simulation workflows that facilitate the rapid investigation of modifications to the lead peptides of potential inhibitors of the Ebola virus to improve their binding affinity to the virus. The results of each experiment can feed back into further rounds of optimization to speed the peptide design process. This proposal builds on work done previously: (a) lessons learned from previous simulations (b) the availability of a simulation package named AMBER MD, that already has code optimized for GPUs on Blue Waters that will make simulations run faster, and (c) prototype code for analysis steps and input staging. Also, the PI plans to use an existing workflow engine (such as PEGASUS) to build the workflows. Thus, there is a stated intent to make robust software and reuse software that already exists, which aligns with the ACI programs strategic goals.</AbstractNarration>
+    <MinAmdLetterDate>03/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1521728</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Cheatham</LastName>
+      <EmailAddress>tec3@utah.edu</EmailAddress>
+      <StartDate>03/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7781</Code>
+      <Text>PETASCALE - TRACK 1</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>001Z</Code>
+      <Text>Ebola</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7781</Code>
+      <Text>PETASCALE - TRACK 1</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7914</Code>
+      <Text>RAPID</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

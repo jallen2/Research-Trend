@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Online Detection and Recovery from Electrostatic Discharge Induced Transient Errors</AwardTitle>
+    <AwardEffectiveDate>07/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>If energy from an electrostatic discharge (ESD) reaches the integrated circuit components inside a mobile device, failure may result. Multiple design cycles are generally needed before a product can go through ESD qualification testing with only sporadic, relatively benign, soft failures occurring. Manifestations of soft failures include a hanging application, an operating system crash, poor signal fidelity, data transmission errors, and momentary display flickering. These are referred to as soft failures because they are recoverable from, although operator intervention may be needed, e.g., one may have to turn the power off and on again. This project will develop techniques for demonstrating an operating system based approach for mitigating ESD-induced soft failures. It is expected to reduce the need for hardware to be redesigned to meet ESD specifications, thereby resulting in a shorter time-to-market for mobile devices and other electronic products. Such techniques can potentially subsequently be applied to mitigate a broad range of reliability and security hazards as well. The project will involve graduate and undergraduate students, include members of underrepresented groups, and will thus help enlarge the workforce in information and communication technologies.&lt;br/&gt;&lt;br/&gt;The signature of ESD-induced noise can be detected in an integrated circuit (IC) and when such noise is detected, logic errors are likely to occur throughout the IC. It will be demonstrated that ESD detectors may be placed inside an IC; when activated, an interrupt signal will be sent to the operating system. In the interest of power and area efficiency, there will be no attempt to identify the affected registers inside the IC, nor to handle the different types of errors differently. Instead, the operating system will be designed to respond to the notice of impending errors and will subsequently rollback the system to a previous "known good" checkpoint. The proposed solution will be validated in hardware and this will allow ESD-induced errors to be characterized at the application level. To enable further research in ESD-induced failure analysis, diagnosis and recovery, fault modeling of ESD-induced errors will also be undertaken.</AbstractNarration>
+    <MinAmdLetterDate>07/15/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526106</AwardID>
+    <Investigator>
+      <FirstName>Elyse</FirstName>
+      <LastName>Rosenbaum</LastName>
+      <EmailAddress>elyse@uiuc.edu</EmailAddress>
+      <StartDate>07/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Shobha</FirstName>
+      <LastName>Vasudevan</LastName>
+      <EmailAddress>shobhav@illinois.edu</EmailAddress>
+      <StartDate>07/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

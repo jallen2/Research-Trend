@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Gaussian-Localized Polynomial Approximation: A Well-Conditioned Spectral Method for Solving Partial Differential Equations in Complicated Domains</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>108872</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Radial basis functions (RBF) are a numerical technology that has proven to be of great value in many fields. For example, three-dimensional laser scanners convert objects, such as a human face, into a "point cloud," that is, measurements of the position of points on the face. RBF interpolation connects the dots into a smooth surface so that face appears as a recognizable face instead of a cloud of unconnected markers. RBFs have been applied to solve the partial differential equations of fluid flow so as to track hurricanes and predict weather, tidal flows in harbors, combusting flows in an automobile engine, and so on. Unfortunately, RBFs also have flaws. Calculations scale poorly to a large number of degrees of freedom, round-off errors can turn a forecasting model into a useless random number generator, and poor accuracy is sometimes present in problem classes where RBFs have hitherto been a great success. One goal of this research project is to understand RBFs at a deeper level. Why do they work so well (much of the time)? Why do they triumph when similar polynomial-based methods fail? What is the relationship between RBFs and polynomials? This project will explore the foundations of RBFs to better delineate their domain of application, improve performance where feasible, and potentially mark some application domains as unsuitable for RBFs. &lt;br/&gt;&lt;br/&gt;To cope with their shortcomings and to also understand RBFs at a more fundamental level, the PI will intensively study RBF-substitutes: these are products of polynomials with Gaussians, equivalent to extending the infinite interval basis of Hermite functions to interpolation and PDE-solving on a finite interval. Earlier work of the PI established a rigorous convergence-and-error theorem and also numerical comparisons showing the superiority of Hermite functions to RBFs in some applications. Conventional single-domain pseudospectral methods fail unless the domain is a rectangle or ellipse, a so-called tensor product domain. The PI plans to extend these Hermite pseudo-RBFs to solve multidimensional PDEs in geometrically-complicated domains using irregular grids, problems where RBFs are sometimes good and sometimes failures. Such complicated domains include a telescope with a hexagonal lens or an ocean ringed with bays and pierced with islands. Hermite functions and RBFs are easy to program and therefore ideal for preliminary design, classroom modeling, and complementing and enriching theory. An applied goal of the project is to advance numerical rapid prototyping, that is, to devise algorithms that, despite complicated domain boundaries, combine brevity of code with spectral accuracy.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1521158</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Boyd</LastName>
+      <EmailAddress>jpboyd@umich.edu</EmailAddress>
+      <StartDate>08/25/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

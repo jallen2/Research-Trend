@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Optimal Path Planning Among Mobile Sources of Threat in Complex Environments</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>273835</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jordan Berg</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research effort will create novel algorithms for path planning and trajectory generation by a controlled mobile system operating in an environment populated by multiple mobile threats. These threats correspond to objects moving unpredictably, or possibly maliciously. The chosen worst-case approach models the mobile threats as pursuers actively and intelligently seeking a collision. The specific objective of the algorithm is to safely steer the controlled system to its destination, while minimizing the cumulative exposure to all threat sources. Accounting for all possible actions by all pursuers quickly results in a problem too large for even the most powerful computer. To make the calculations practical, the problem is divided into two parts -- first a short-term evasion strategy considering only the single most imminent threat, and second a long-term steering strategy with the goal of safely steering the controlled system to its goal destination while accounting for all threats. As air travel and automobile traffic become more autonomous, it becomes imperative for these systems to accommodate one or more uncommunicative, malfunctioning, or malicious agents. Finally, undergraduate and under-represented students will have the opportunity to work under the supervision of the PI in research projects related to the scope of this research effort via two different research programs which are offered every summer semester at the University of Texas at Austin.&lt;br/&gt;&lt;br/&gt;Problems of capture-evasion in the presence of multiple sources of threat are generally computationally intractable. This project approaches such problems using a combination of a short-term evasion strategy and a long-term steering strategy. The short-term strategy is based on a suitably defined threat metric, which is a state-dependent metric that measures the closeness of an evader from the highest-risk threat, while accounting for the dynamic and input constraints of both parties. The long-term strategy is primarily intended to steer the evader to its goal destination, while its cumulative exposure to every pursuer along its ensuing trajectory is kept low at all times. This project approaches these problems in the following stages: 1) Formulate the differential game describing multiple, potentially adversarial, decision makers as a path planning problem considering multiple mobile sources of threat. 2) Define a computationally tractable solution approach. 3) Leverage modern techniques such as sampling-based algorithms to address the path planning problem subject to non-trivial dynamic and input constraints, with time-varying state constraints to represent mobile obstacle. 4) Validate the solution to the capture-evasion problem by comparing its performance, in terms of the likelihood of the evader safely reaching its destination, against Monte Carlo simulations and other powerful but time-consuming numerical solution techniques.</AbstractNarration>
+    <MinAmdLetterDate>08/17/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/17/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1562339</AwardID>
+    <Investigator>
+      <FirstName>Efstathios</FirstName>
+      <LastName>Bakolas</LastName>
+      <EmailAddress>bakolas@austin.utexas.edu</EmailAddress>
+      <StartDate>08/17/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7569</Code>
+      <Text>Dynamics, Control and System D</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>030E</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>034E</Code>
+      <Text>Dynamical systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8024</Code>
+      <Text>Complex Systems</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

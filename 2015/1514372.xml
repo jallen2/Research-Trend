@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Automating robot programming through constraint solving and motion planning</AwardTitle>
+    <AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>799999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The project aims to develop a high-level programming framework, called Robosynth, for personal robots. Here, rather than writing low-level code that defines how a robot must perform a task, the user of the robot writes a specification that defines what is to be accomplished. Given this specification and a model of the robot's environment, Robosynth automatically synthesizes a program that can be executed on the robot. So long as the environment behaves according to the assumed model, all executions of this program are guaranteed to satisfy the user-defined requirements.This approach and its derivatives can make robot programming accessible to a vast untapped body of inexperienced programmers.&lt;br/&gt;&lt;br/&gt;The technical highlights of the project are the specification language using which users interact with Robosynth, and the algorithms that Robosynth uses for automatic code synthesis. These algorithms simultaneously reason about a logical task level that is concerned with the high-level goals of the robot, as well as a continuous motion level concerned with navigating and manipulating a physical space. At the task level, Robosynth leverages recent methods for analyzing complex systems of logical constraints, for example SMT-solving and symbolic solution of graph games. Motion-level reasoning is performed using sampling-based motion planning techniques.</AbstractNarration>
+    <MinAmdLetterDate>06/17/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/17/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1514372</AwardID>
+    <Investigator>
+      <FirstName>Swarat</FirstName>
+      <LastName>Chaudhuri</LastName>
+      <EmailAddress>swarat@rice.edu</EmailAddress>
+      <StartDate>06/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Lydia</FirstName>
+      <LastName>Kavraki</LastName>
+      <EmailAddress>kavraki@cs.rice.edu</EmailAddress>
+      <StartDate>06/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8206</Code>
+      <Text>Formal Methods and Verification</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

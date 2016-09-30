@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Medium: Broad-Coverage Semantic Parsing: Linguistic Representation Learning from Crowd-Scale Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2020</AwardExpirationDate>
+    <AwardAmount>313528</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Donald T. Langendoen</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Automated understanding of text is a capability that will advance a wide range of language technologies, including information extraction, question answering, opinion analysis, and translation between languages. Such technologies have been in demand in the intelligence and defense communities for many years, and they now underlie many commercially available information-management tools. This project develops robust algorithms that understand natural language expressions by mapping them to formal representations of their meaning, a technique known as semantic parsing. For semantic parsing to be employed in technologies like those listed above, it needs to overcome the fundamental challenge of broad coverage, the ability to handle any text input, in multiple languages. This project meets this challenge by creating new methods for gathering large repositories of semantically annotated data at greatly reduced cost; these are then used to train much more accurate broad-coverage parsing models. The results of this project include open-source implementations, high-quality annotated corpora on an unprecedented scale, and reusable distributed semantic representations for use by the community of natural language processing researchers and practitioners. &lt;br/&gt;&lt;br/&gt;The goal of broad-coverage semantic parsing can only be achieved by simultaneously focusing on new, large scale sources of data with semantically meaningful annotations and new learning algorithms for inducing models with the representational capacity to make full use of such data. For scalable data collection, this project introduces new techniques that rely on two key complementary insights: (1) any reader who understands a text can answer questions about it, and (2) questions can be constructed whose answers probe any aspect of semantics that need to be recovered. These observations allow designing new data collection techniques that reduce the burden of semantic annotation by providing simple questions and answers about texts. This QA-style annotation can be done for any text in any language, given only native speakers, bypassing the significant effort that currently goes into defining detailed annotation standards. It also allows gathering new datasets on a much larger scale, and for more diverse text types, than ever before. In addition, the project develops new representation learning techniques that tie together a wide range of semantic annotation styles, including the new crowdsourced ones, in a multitask learning setup. Continuous representations (e.g., of word types) provide a powerful way to allow sharing of statistical strength across a large vocabulary, many of whose elements are sparsely observed. While past work has emphasized learning word embeddings, this project employs a shared continuous space ("framespace") that can capture abstract frames and roles used in predicate-argument (and logical) semantics. The usefulness of these representations depends on the tasks they are trained to perform, and using multiple related tasks can lead to benefits on all of them, by sharing of statistical strength across task-specific representations, across elements of the semantic lexicon, and even across languages.</AbstractNarration>
+    <MinAmdLetterDate>03/09/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/31/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1562364</AwardID>
+    <Investigator>
+      <FirstName>Noah</FirstName>
+      <LastName>Smith</LastName>
+      <EmailAddress>nasmith@cs.cmu.edu</EmailAddress>
+      <StartDate>03/09/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Luke</FirstName>
+      <LastName>Zettlemoyer</LastName>
+      <EmailAddress>lsz@cs.washington.edu</EmailAddress>
+      <StartDate>03/09/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

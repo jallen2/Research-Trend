@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Algorithms for Inverse Problems that Exploit Kronecker Product and Tensor Structures</AwardTitle>
+    <AwardEffectiveDate>07/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>299933</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In many scientific and engineering applications, it is necessary to solve an inverse problem; that is, to determine quantities defining an object or a system through indirect measurements. The mathematics used to produce images in devices such as X-Ray Computed Tomography (CT) and Magnetic Resonance Imaging (MRI) are excellent examples. The mathematical models describing an inverse problem are often so complicated that it is not possible to find an exact analytical solution, and it is necessary to use an approximation based on a set of simpler equations. However, many equations may be needed; in medical imaging, for example, it is not unusual to compute approximations by solving millions of equations. Additional complications arise because an inverse problem may have infinitely many solutions, or the solutions may change dramatically if there are small errors in the indirect measurements. Thus, additional constraints and mathematical tools (often referred to as regularization) are needed to stabilize the numerical methods. The type and amount of regularization is problem dependent, requiring the algorithms to be able to easily adapt to user and/or problem specifications. The aim of this project is to develop mathematical tools and algorithms that exploit particular mathematical structures (called Kronecker product and tensors) in the matrices associated with equations that make up the inverse problem. Exploiting these structures will allow for better approximations, more efficient algorithms, and better facilitate the incorporation of regularization methods. One targeted application is for inverse problems that arise in image reconstruction for breast cancer detection; advancements in this area would have a clear benefit to society.&lt;br/&gt;&lt;br/&gt;Efficient singular value decomposition (SVD) approximation methods for large-scale matrices that arise in discrete ill-posed inverse problems will be developed. The approach will exploit inherent Kronecker product and tensor structures, and will be the basis for a computational platform for the efficient solution of large-scale ill-posed problems. Efficient approaches to solve Kronecker product and tensor structured SVD updating problems will be developed. Iterative methods that can incorporate regularization, sparse and low-rank constraints on the solution will also be considered. The SVD approximations and updating methods developed in this project can be used as tools to obtain approximate solutions of ill-posed inverse problems, as preconditioners to accelerate iterative solvers, or as tools to build solution methods for nonlinear problems. The computational platform, based on SVD approximations, developed will have a broad scientific impact for applications where it is necessary to compute solutions of large-scale ill-posed inverse problems, including astronomy, cosmology, geophysics, microscopy, and medical imaging.</AbstractNarration>
+    <MinAmdLetterDate>07/15/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1522760</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Nagy</LastName>
+      <EmailAddress>nagy@mathcs.emory.edu</EmailAddress>
+      <StartDate>07/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Emory University</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303224250</ZipCode>
+      <PhoneNumber>4047272503</PhoneNumber>
+      <StreetAddress>1599 Clifton Rd NE, 4th Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

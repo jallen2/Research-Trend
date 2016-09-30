@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Robust Asset-and-User-Aware Dispatch of the Power Distribution Grid during Extreme Temperatures</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>119829</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eyad Abed</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Extreme temperatures can push various power grid components to their operational limits. The available capacity of most generation resources and power system components becomes negatively affected as the temperature increases beyond certain thresholds. Not surprisingly, this temperature-induced reduction in available power generation and transmission capacities generally coincides with increased electricity demand on the system, mostly attributed to the increased utilization of air-conditioning (A/C) systems. Ignoring the effects of temperature on various grid assets could lead to overloading these assets, resulting in reduced lifetime and premature component failure. It is therefore crucial to incorporate the effects of ambient temperature into power grid operation in order to prevent stress on components and avoid blackouts that could result from failure to meet demand during periods of extreme temperature. This issue is becoming more important since climate models project an increase in the duration and frequency of heat waves. Loss of power during extreme temperature conditions is not merely an inconvenience, as it may also impact the availability of other critical infrastructures such as water sanitation plants, transportation systems, and hospitals and other urgent care units. &lt;br/&gt;&lt;br/&gt;In this project, the researchers will pursue a possible solution that involves design of a methodology for proactive dispatch of the energy resources in a distribution system exposed to extreme ambient temperatures. Electric utilities have traditionally addressed the issue at hand through two means: defining dynamic thermal ratings (DTR) for various components to adjust their available capacity based on ambient temperature and, more recently, offering incentivized demand response (DR) programs for remotely shutting down A/C units under stressed conditions. Although effective in many instances, are vulnerable to significant weaknesses. First, DTR are often assigned heuristically or experimentally, and are not usually amenable to closed form mathematical calculation. Also, A/C-based DR is usually implemented based on the contractual agreements between the utility and the users, and does incorporate users' well-being (i.e., the indoor temperature users will experience due to A/C shutdown). This, under severe heat wave events, can potentially lead to negative health impacts especially on infants and the elderly. The goal of this proposal is to improve the effectiveness of both these tools. The proposed solution models the effects of excess temperatures on available generation/transmission capacity of components, as well as on expected reduction in component lifespan due to overloading or operating under harsh conditions. Indoor temperatures at residential homes are incorporated into the DR dispatch by developing thermal models for houses, which can determine the indoor temperature based on internal and external gains. This creates a multi-objective design problem in which the aim is to optimize cost in conjunction with asset lifetime and user comfort. To address the inherent uncertainties in the model, a robust optimization approach is adopted. To ensure tractability of the optimization problem and the scalability of the proposed solution, standard restructuring techniques will be used to transform the nonlinear formulation into a convex, mixed-integer quadratically constrained programming problem. Furthermore, to enable awareness on user conditions, algorithms will be built based on non-invasive monitoring to detect human occupancy and status of A/C units using the aggregate measurements available from smart meters.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1610703</AwardID>
+    <Investigator>
+      <FirstName>Mina</FirstName>
+      <LastName>Sartipi</LastName>
+      <EmailAddress>Mina-Sartipi@utc.edu</EmailAddress>
+      <StartDate>07/27/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Tennessee Chattanooga</Name>
+      <CityName>Chattanooga</CityName>
+      <ZipCode>374032504</ZipCode>
+      <PhoneNumber>4234254431</PhoneNumber>
+      <StreetAddress>615 McCallie Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>155E</Code>
+      <Text>Electric power networks</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

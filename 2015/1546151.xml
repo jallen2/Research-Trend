@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: F: Graph Sketching and Optimization Problems</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>599451</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>James French</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Connections between computers on the internet, between people on social media, between cell regulation mechanisms and diseases: each of these networks is represented in the computer as an abstraction called a graph. Questions about connections - shortest or least congested paths between computers, clusters of friends or people with influence, best location to disrupt or promote cell growth - become graph optimization questions and need algorithms for their repeated solution. &lt;br/&gt;&lt;br/&gt;For huge graphs, optimization algorithms may demand more time and memory than is available. The past decade has seen significant advances in processing huge lists or tables of numbers (vectors and matrices) as more compact "sketches." (One technique for "linear sketches" takes inner products with pseudorandom matrices to make them smaller: this keeps similar data similar, and mathematical analysis shows that disparate data has a good chance of remaining separate.) There has not been similar progress for processing graphs, and converting graph data to vectors or matrices increases their size and/or loses their structure. &lt;br/&gt;&lt;br/&gt;This project extends the concept of linear sketches for graphs, and develops methods for solving large scale convex optimization problems using linear sketches. Most computational platforms easily calculate inner products, and the linearity allows data updates by algorithms that are naturally parallel or distributed, and that use simple communication. Development of algorithms and insights using linear sketching are intellectually compelling, and useful in practice. There has been nascent progress towards linear-sketch-based graph algorithms, however much more algorithmic development is necessary.&lt;br/&gt;&lt;br/&gt;The goal is to design algorithms that operate in small space and have provable guarantees and efficient implementations. The specific problems targeted are clustering, matching and assignment problems, and their generalizations to stochastic input. The project seeks to develop iterative algorithms that are easily adapted to a variety of computational models, to implement and validate the new algorithms on publicly available datasets, and to make the algorithms widely available.</AbstractNarration>
+    <MinAmdLetterDate>09/08/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1546151</AwardID>
+    <Investigator>
+      <FirstName>Sudipto</FirstName>
+      <LastName>Guha</LastName>
+      <EmailAddress>sudipto@cis.upenn.edu</EmailAddress>
+      <StartDate>09/08/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

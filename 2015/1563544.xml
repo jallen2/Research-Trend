@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Medium: A Smart Runtime System for Parallel Programming</AwardTitle>
+    <AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>366416</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Since the clock speed of computers is not increasing, the only way to speed up processing is by exploiting multiple cores. Programming these multicore processors is a challenging task due to bugs resulting from concurrency and synchronization. This project is developing new synchronization mechanisms that address three aspects of concurrent systems --- programmability, scalability and fault-tolerance. Programmability refers to the ease of developing concurrent applications. Scalability refers to the performance of the program when the number of threads in the system increase. Fault-tolerance refers to the ability of the system to cope with failure of a thread holding a lock.&lt;br/&gt;&lt;br/&gt;Currently, the most prevalent synchronization mechanism is based on monitors with condition variables. Monitors or lock based systems are hard to use for multi object operations, usually have poor scalability and low tolerance for faults. Lock-free mechanisms may have good scalability and fault-tolerance, but are notoriously hard to write and debug. Software Transactional Memory systems hold most promise for programmability. However, it is difficult to get efficient conditional synchronization in current transactional memory systems. This project is developing new synchronization techniques that address global conditional synchronization aspects of monitor or transactional memory systems. In particular, it is developing scalable mechanisms to detect global or multi object conditions and automatically notify threads waiting on these conditions. The only way to simulate this mechanism in current systems is by using a global lock or busy wait which results in a large number of context switches and slower performance. The mechanisms developed in this project will result in more concise and faster programs.&lt;br/&gt;&lt;br/&gt;For scalability and fault-tolerance, the project is developing methods that enable asynchronous and parallel execution of certain object methods. Asynchronous execution is carried out by keeping a monitor thread that can execute methods on behalf of threads that make the monitor call. This technique improves cache locality and concurrency. For objects with high-contention, the project is studying methods that enable parallel execution of read operations by keeping read-only copies of objects. However, maintaining copies of every monitor object or creating an additional thread for asynchronous execution is inefficient. The project is developing efficient techniques to determine which objects to replicate at runtime.&lt;br/&gt;&lt;br/&gt;The project will result in improving programmer productivity and reducing concurrency errors in development of multicore programs. It will also lead to better understanding of how global conditions in a multithreaded program can be evaluated efficiently. As a result, the concurrent programming systems will become more reliable and faster. In addition, the graduate students supported by the project will be trained in fundamentals of multicore computing.</AbstractNarration>
+    <MinAmdLetterDate>04/01/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/01/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1563544</AwardID>
+    <Investigator>
+      <FirstName>Vijay</FirstName>
+      <LastName>Garg</LastName>
+      <EmailAddress>garg@ece.utexas.edu</EmailAddress>
+      <StartDate>04/01/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

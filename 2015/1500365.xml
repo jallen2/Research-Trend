@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Systematic and Scalable Testing of Concurrent Software in the Cloud</AwardTitle>
+    <AwardEffectiveDate>02/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>65559</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>While multicore and many core and GPU processors increase computing speed, the concurrent and parallel programs written for them are increasingly complex, hard to verify, and difficult to test. So-called "concurrency bugs" are very hard to find, because of the huge number of thread interleavings that need to be examined to find the circumstances in which a bug might occur. Techniques for finding bugs in sequential programs do not scale to concurrent programs, especially for programs with data inputs and shared memory, which require more rigor and exhaustive testing. The project will investigate an approach that combines symbolic execution with a form of schedule exploration to find efficient solutions. Scalability is pursued by seeking to parallelize the execution on a cloud platform, which is a step toward a cloud service for concurrent software testing. There is a dire need for tools capable of doing scalable and efficient testing of concurrent programs, which will have a high impact on software quality and correctness if implemented in a widely available service. This EAGER grant will explore the feasibility of this high-risk, potentially high-reward approach.</AbstractNarration>
+    <MinAmdLetterDate>02/20/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/20/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1500365</AwardID>
+    <Investigator>
+      <FirstName>Zijiang</FirstName>
+      <LastName>Yang</LastName>
+      <EmailAddress>zijiang.yang@wmich.edu</EmailAddress>
+      <StartDate>02/20/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Western Michigan University</Name>
+      <CityName>Kalamazoo</CityName>
+      <ZipCode>490085200</ZipCode>
+      <PhoneNumber>2693878298</PhoneNumber>
+      <StreetAddress>1903 West Michigan Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Coding for Networked Control Systems over Lossy Links</AwardTitle>
+    <AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>359999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The coming decade will witness an explosive growth in the number of devices with wireless communication capabilities and that can sense, measure, actuate, interact, and communicate with each other in ad hoc and/or centralized fashions. Such devices will appear in automobiles, household appliances, wearable electronics, sensor networks, surveillance systems, various controllers and many others. A common catch-all phrase for these emerging devices is the Internet-of-Things. One of the great opportunities that such a plethora of intelligent devices presents is that they can cooperate, coordinate, make joint decisions, and influence the environment they are in by taking joint actions. A main challenge in realizing this opportunity is that these multiple devices, or agents, must do so in a decentralized way and while communicating over unreliable links. Although communication systems have always had to deal with unreliable links, because of the real-time nature of the control and sensing signals that need to be exchanged, the dynamically-changing traffic patterns, and the possible mobility of the agents, traditional schemes designed for communication systems are no longer applicable. The goal of this proposal is to facilitate the design and analysis of networked systems that interact and communicate with each other over noisy communication links and builds on the investigators? prior work of constructing the first efficiently decodable tree codes that can be used to reliably implement any distributed protocol over lossy erasure links. &lt;br/&gt;&lt;br/&gt;How best to operate distributed heterogeneous agents over networks of lossy links is an area of active research. Questions include what information should the agents exchange? How best should they quantize and encode their measurements or control signals to combat the uncertainties (delay or message drops) in the network? How can they facilitate cooperation and overcome the competition? How can they do all this in a distributed fashion? And so on. These very challenging questions overlap with the conventional fields of communications, networking and control and combine elements of each in novel ways. As result, a theory that can deal with them in a holistic manner has yet to emerge. This proposal attempts the beginning of such a theory through the study of tree codes, a new paradigm in coding that allows the reliable implementation of interactive protocols over lossy links, as well as through the study of causal source coding. Tree codes were introduced nearly twenty years ago as a bridge between information theory and control, but did not gain much traction since explicit constructions with efficient decoding did not exist. The area of causal source coding is even less explored. The proposed research has five main thrusts: (1) the design of efficiently encodable and decodable tree codes for other classes of channels, such as AWGN and BSC, (2) the study of the performance of control systems and the interaction and tradeoffs between source coding, channel coding and controller design, (3) the study of causal source coding; in particular, causal transform codes and how they can be optimized in the control setting, (4) implementing distributed protocols over erasure links, and (5) determining metrics from control theory to guide the code design.</AbstractNarration>
+    <MinAmdLetterDate>09/17/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/17/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1509977</AwardID>
+    <Investigator>
+      <FirstName>Babak</FirstName>
+      <LastName>Hassibi</LastName>
+      <EmailAddress>hassibi@caltech.edu</EmailAddress>
+      <StartDate>09/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>California Institute of Technology</Name>
+      <CityName>PASADENA</CityName>
+      <ZipCode>911250600</ZipCode>
+      <PhoneNumber>6263956219</PhoneNumber>
+      <StreetAddress>1200 E California Blvd</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

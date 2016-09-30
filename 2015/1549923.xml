@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: EAGER: Renewables: A function space theory for continuous-time flexibility scheduling in electricity markets</AwardTitle>
+    <AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2017</AwardExpirationDate>
+    <AwardAmount>149604</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eyad Abed</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Current electric power grid operating procedures have worked well for many years in compensating for the variability and uncertainty of electric power load by programmed changes in generation. This has contributed to the reliable and economic delivery of electric power to millions of customers. However, the rising level of renewable generation injected into the power grid adds a higher level of variability and uncertainty. Moreover, in several markets that are aggressively pursuing green energy, large, fast, and unexpected power changes are leading to frequent sudden demands for ramping power generation, so-called ramping scarcity events, while increasing the operating cost of the systems. This project takes a new modeling that is expected to yield algorithms for scheduling of generation resources that is more effective for systems with high renewable penetration. The main focus of the work is what is known as the unit commitment problem, which involves scheduling of generating units to compensate for variability in power demand. While currently unit commitment is considered in terms of generation schedules that change on an hourly basis, the project considers a scheduling over shorter time intervals to adequately track changing supply and demand in highly variable power networks. This research can eliminate a fundamental barrier to large-scale renewable integration, thus paving the way to sustainable, reliable, and economic integration of renewable electricity resources. This would contribute to reaching national targets on energy independence and greenhouse gas reductions. While the approach offers a radically different point of view, it does not fundamentally alter the architecture of the wholesale market, nor the complexity of the scheduling problem, so the integration of the project's ideas in real markets is expected to be practically feasible.&lt;br/&gt;&lt;br/&gt;The main hypothesis in this work is that ramping scarcity events are evidence of a severe bottleneck that lies in the prevalent discrete time formulation of the power system operation problem in general, and in particular to two interdependent factors: 1) the approximation behind the structure of the unit commitment (UC) problem decision space, and 2) the structure of the operating cost functions of the generating units and other flexible resources, who are allowed to bid for energy but not for ramping. The current UC decision space includes only hourly commitment decision points and hourly generation schedules, which form a piecewise constant generation trajectory for each generating unit. These trajectories are a zero-order approximation of their higher-order continuous-time counterparts that populate the actual UC decision space. In fact, the information about the variability of the net-load is poorly captured in the hourly UC model, and a wealth of information about the variations of the net-load is lost. In order to address the increased ramping demand, instead of limiting the decision space to the commitment state and generation trajectory, it would be advantageous to also include the first derivative of the generation trajectory, i.e. the ramping trajectory, as a decision variable among the degrees of freedom, opening the door to receiving competitive offers that capture the joint cost of generation and of ramping at each time instant. Recognizing that a continuous-time trajectory bears additional degrees of freedom that could be chosen as part of the optimization decision space, a new approach is proposed that incorporates variables that directly represent additional degrees of freedom and can facilitate appropriately pricing them. The notion utilized is the well-established notion of function space that allows the UC problem to be formulated as a Mixed Integer Linear Programming (MILP) problem, currently in vogue, but with additional degrees of freedom to balance the variability. Preliminary results clearly show that the introduction of explicit ramping trajectory variables alter the priority given to different units in the schedule, reduces the total operation cost, and considerably reduces ramping scarcity events. It is also noticed that introducing sub-hourly decision variables is more complex and leads to decreased efficiency compared to the function space representation, which is tailored to increase the accuracy in representing both objectives and constraints.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1549923</AwardID>
+    <Investigator>
+      <FirstName>Anna</FirstName>
+      <LastName>Scaglione</LastName>
+      <EmailAddress>Anna.Scaglione@asu.edu</EmailAddress>
+      <StartDate>09/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Arizona State University</Name>
+      <CityName>TEMPE</CityName>
+      <ZipCode>852816011</ZipCode>
+      <PhoneNumber>4809655479</PhoneNumber>
+      <StreetAddress>ORSPA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>155E</Code>
+      <Text>Electric power networks</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

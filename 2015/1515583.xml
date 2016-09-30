@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAPSI:Developing a Novel Simulator for Testing Smart Power Grid Optimization Techniques</AwardTitle>
+    <AwardEffectiveDate>06/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2016</AwardExpirationDate>
+    <AwardAmount>5070</AwardAmount>
+    <AwardInstrument>
+      <Value>Fellowship</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>01090000</Code>
+      <Directorate>
+        <LongName>Office Of The Director</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Office Of Internatl Science &amp;Engineering</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anne L. Emig</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Creating more efficient power plants and introducing alternative energies like solar and wind are making great headway in reducing the cost of electricity, but these ignore two major problems with current power grids: excessive peak power consumption and power line failures. To address these, researchers have been developing the ?Smart Grid? - a power grid that uses sensors to monitor grid health and provide more fine-grained information about power usage and cost to consumers and providers. Parallel to these developments, many researchers are investigating new techniques for automated grid control to reduce peak consumption and handle situations where failures may occur (due to natural disasters, etc). Unfortunately, for a class of problems that can model smart grid problems, known as Distributed Constraint Optimization Problems (DCOP), there is only one simulator for testing algorithms, and it only supports problems that do not change over time. Thus, the purpose of this project is to develop a simulator that does support dynamic problems so that researchers can test their algorithms in a more realistic setting. This research will be conducted in collaboration with Dr. Makoto Yokoo at Kyushu University in Fukuoka, Japan. Dr. Yokoo is well known as the founder of the DCOP field, and his expertise in DCOP algorithms will prove indispensable for this project.&lt;br/&gt;&lt;br/&gt;The FRODO 2 simulator is the de facto standard for testing DCOP algorithms. It supports an XML formatted problem configuration and offers an extensible platform for developing new algorithms. However, FRODO 2 is designed only for static problems ? problems that do not change over time. Furthermore, FRODO 2 can be cumbersome to extend due to over-use of interfaces and Java's Reflection API. This project's purpose is to develop a DCOP simulator that supports dynamic problems (with the main use-case being Smart Grid problems) and has a cleaner design. Furthermore, we hope to design this simulator to support true distributed simulations ? FRODO 2 only supports local, non-parallel simulations. This NSF EAPSI award is funded in collaboration with the Japan Society for the Promotion of Science.</AbstractNarration>
+    <MinAmdLetterDate>06/05/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/05/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1515583</AwardID>
+    <Investigator>
+      <FirstName>Victor</FirstName>
+      <LastName>Szczepanski</LastName>
+      <EmailAddress/>
+      <StartDate>06/05/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Szczepanski Victor N</Name>
+      <CityName>Las Cruces</CityName>
+      <ZipCode>880118034</ZipCode>
+      <PhoneNumber></PhoneNumber>
+      <StreetAddress></StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Mexico</StateName>
+      <StateCode>NM</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

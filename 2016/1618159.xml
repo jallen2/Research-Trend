@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Matching and Ranking via Proximity Graphs: Applications to Question Answering and Beyond</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>498491</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>James French</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will explore novel alternatives to a classic term-based full-text search, which is one of the most widely used computer algorithms. The current full-text search approaches heavily rely on memorizing which words and phrases appear in which text documents. The proposed research, in contrast, will examine methods that deviate from this well-studied path by using more generic similarity search methods. In doing so, the proposed research will pursue the following two objectives: (1) mitigating limitations of the existing approaches such as the mismatch between words that appear in queries and documents; and (2) developing approaches that permit an efficient separation of labor between data scientists and designers of retrieval algorithms. The latter would allow data scientists to focus on development of effective similarity models without worrying too much about low-level performance issues, while designers of retrieval algorithms and software engineers will be able to focus on development of more efficient and/or scalable approaches having fewer concerns about quality of results.&lt;br/&gt;&lt;br/&gt;The proposed research will investigate at least two scenarios where a term-based full-text search is replaced with a more generic high-accuracy k-nearest (k-NN) neighbor search. In the first scenario, it will develop a similarity function that goes beyond pure lexical matching and takes into account distributional similarity, similarity learned from a parallel (monolingual) corpus, and so on. In this scenario, the similarity function will be used as a black-box function coupled with a generic similarity search engine, implemented as a part of the Non-Metric Space Library (NMSLIB). Several search algorithms will be explored. One of the search approaches will rely on building a proximity graph (also known as a neighborhood graph), where nodes are objects and similar nodes are connected by edges. In the second scenario, the proposed research will build a pseudo inverted file over super terms. Super terms are (dense or sparse) vectorial representations of words appearing within a sliding window of small size. The super terms form a pseudo-vocabulary that can be indexed using a proximity graph (or any other efficient k-NN search method). At query time, the super terms will be extracted from the query and matched against the pseudo-vocabulary to obtain k nearest super terms (as well as documents where they occur). This approach will incorporate term proximity and term similarity (the latter will make the approach less affected by the vocabulary mismatch). Because preliminary experiments demonstrated that proximity graphs are not sufficiently accurate and efficient for the task in hand, the proposed research will also attempt to develop better variants of the proximity graphs methods. Should such an improvement fail, alternative search methods will also be explored. Experimental insights, algorithmic improvements, and new challenging datasets (resulting from the proposed work) will advance the state of the art in k-NN search, which is another widely used method. This, in turn, will benefit a variety of other NLP tasks such as classification, dictionary-based entity detection, and first story detection, which all heavily relying on the k-NN search. Additional project information will be made available at the project website: http://www.lti.cs.cmu.edu/PGraph</AbstractNarration>
+    <MinAmdLetterDate>09/06/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618159</AwardID>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Nyberg</LastName>
+      <EmailAddress>ehn@cs.cmu.edu</EmailAddress>
+      <StartDate>09/06/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

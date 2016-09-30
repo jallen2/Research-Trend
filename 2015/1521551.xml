@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Statistical Tools for Analyzing Multiple Networks</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>325000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The widespread use of functional magnetic resonance imaging (fMRI) and other neuroimaging technologies has given rise to a new field of brain connectomics, which studies patterns of connections between different regions of the brain. This project brings together the investigator's expertise on statistical analysis of networks and her collaboration with neuroscientists to develop new methods for simultaneous statistical analysis of multiple networks and apply them primarily to brain connectivity networks inferred from fMRI imaging of mentally ill and healthy patients, with the goal of using sound statistical inference to discover how their brains differ. The methods leverage underlying common structure to share information across networks and identify structural network features associated with disease status and other diagnostic assessments. &lt;br/&gt;&lt;br/&gt;The raw fMRI data collected from brain imaging are typically converted to network representations, which are then analyzed to find patterns of normal human brain activity as well as abnormalities associated with various mental disorders. Thus the data are essentially a sample of networks, one for each subject. However, the current use of network analysis tools in brain connectomics is typically confined to simple global summaries of the network; even more commonly, the network structure is ignored altogether in what is known as massively univariate analysis, which looks at each connection separately. At the same time, the networks community has developed a wealth of methods for analyzing the structure of a single network, for example, discovering communities, but there are hardly any statistical methods that can handle samples of networks in a way that both respects and exploits network structure. This project will bridge this gap by developing new statistical methodology for samples of networks, and applying it to problems in brain connectomics. Our first goal is developing methods to estimate the "population mean" (in particular the underlying communities) from a noisy sample of networks. This project proposes an EM-type algorithm which outperforms naive averaging by exploiting the underlying common structure. The second goal is designing new accurate classifiers for networks which can identify interpretable predictive features such as subnetworks by using penalties based on both spatial and network distances between edges. The third goal is developing new measures of network similarity inspired by canonical correlations, which can be used for both network classification and clustering, the latter especially important for discovering subtypes of brain connectivity disorders which manifest themselves as different subtypes of psychiatric disorders. This project will also investigate measures of variability of network structure and methods for predicting not only disease status, but more complex multivariate diagnostic assessments. Development of these methods will have direct impact on research in neuroscience and mental health, and this project will ensure the methods relevance and feasibility by working in close collaboration with two brain imaging labs and disseminating the results both in the statistics and the connectomics communities. The project will also contribute to training graduate students in both network analysis and brain connectomics.</AbstractNarration>
+    <MinAmdLetterDate>07/15/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1521551</AwardID>
+    <Investigator>
+      <FirstName>Elizaveta</FirstName>
+      <LastName>Levina</LastName>
+      <EmailAddress>elevina@umich.edu</EmailAddress>
+      <StartDate>07/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8069</Code>
+      <Text>CDS&amp;E-MSS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8091</Code>
+      <Text>BRAIN Initiative Res Support</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

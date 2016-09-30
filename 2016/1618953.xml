@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Collaborative Research: Developing Golden Speakers for Second-Language Pronunciation &lt;br/&gt;Training.</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>120000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>People who learn a second language (L2) as adults often speak with a persistent foreign accent. This can make them less intelligible, more subject to discrimination, and less confident when interacting with others. Surprisingly, though, L2 learners rarely receive formal training in pronunciation, in part because effective training must be customized to meet each learner's individual needs. To address this gap, the investigators propose to develop algorithms to synthesize a personalized "golden speaker" for each learner: his or her own voice but with a native accent. The rationale is that, by listening to their own golden speaker, learners can more easily perceive differences between their actual and ideal pronunciations. This work focuses on developing the technology for golden speakers, which the investigators plan to evaluate in the future as a new tool for pronunciation learning systems. As such, this research can benefit a large number of workers in the US who are non-native speakers of English, particularly in higher education, health care and the technology sector. The project also provides opportunities for graduate and undergraduate students to conduct research in a multi-disciplinary team with expertise in signal processing, machine learning, and language acquisition. &lt;br/&gt;&lt;br/&gt;Two types of golden-speaker model are proposed. The first type is based on a reformulation of parametric statistical models for voice conversion, where instead of force-aligning source (native) and target (non-native) frames, they are matched based on their phonetic similarity. Several similarity metrics are proposed, from vocal-tract-length normalization to deep auto-encoders. The second type is based on a sparse representation of speech, which models individual frames as linear combinations of phonetic anchors. This requires new techniques to transform the constellation of anchors in the L2 speech to match the structure of native anchors (e.g., pairwise distances). Two types of evaluation are proposed for the golden-speaker models: their ability to interpolate phones not included in the learner's inventory, and the accent, intelligibility and comprehensibility of the resulting speech, as rated by native English listeners. For this purpose, the investigators propose to collect a large speech corpus from multiple Spanish and Korean learners of English and Indian speakers of English, each at different levels of English proficiency.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618953</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Levis</LastName>
+      <EmailAddress>jlevis@iastate.edu</EmailAddress>
+      <StartDate>08/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

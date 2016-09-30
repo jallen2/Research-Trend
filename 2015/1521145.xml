@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Non-uniform sampling of permutations and large scale hypothesis testing</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>262278</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern scientific tools are delivering very large data sets. This is especially true in biology where expression levels for thousands of genes or even the specific DNA information at millions of locations on the genome can be measured. Scientists would like to correlate these variables with other measured quantities, especially the presence or absence of a disease. When millions of hypotheses are investigated, it is possible that one of them will correlate with some genes just by chance. It is common to insist that the observed correlation for one test be so strong that it would happen by chance at most once in 20 million tries. The usual way to measure chance correlations is to shuffle the data at random and see how often a strong effect appears. If the event of interest is a one in 20 million outcome we usually need about ten times that many random shuffles to be sure. This proposal is about finding more efficient random shuffling strategies to get a desired answer with fewer shuffles. The goal is to find important biological variables with much less computation and greater reliability. Finding the important genes is a first step for followup work that includes mining the literature and running experiments to understand the role of those genes and determine whether their relationship is useful or not. Part of the work will also involve adjusting for other factors measured or otherwise that could make the observed correlations misleading. New mathematical methods for finding and measuring rare and unusual outcomes can also be used in industrial problems where the rare phenomenon is an unusually effective product design as measured by computer simulations.&lt;br/&gt;&lt;br/&gt;The usual way to test whether a gene or a gene set is associated with a phenotype (disease, height, etc.) or a treatment (diet, medicines, etc.) is to run a permutation test. From n data points, there are as many as n! permutations to run. Usually this amount of permutations is beyond our budget and we sample from the permutations as well. If we compute our test statistic M times, once on the original data and once for each of M-1 permutations, then the smallest p value we can possibly get is 1/M. That is, to attain a target p value we have to compute our statistic at least 1/p times. The standard threshold for genome wide association studies translates into a bare minimum of 20,000,000 computations. To have adequate power in a permutation test requires more like 10/p computations. When the phenotype/treatment is binary, the permutation test reduces to sampling with replacement. This project uses non-uniform sampling of permutations or combinations. The main method is importance sampling from mixtures of proposals using the mixture component probabilities as control variates. Markov chain Monte Carlo methods will be investigated.</AbstractNarration>
+    <MinAmdLetterDate>06/22/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/17/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1521145</AwardID>
+    <Investigator>
+      <FirstName>Art</FirstName>
+      <LastName>Owen</LastName>
+      <EmailAddress>owen@stat.stanford.edu</EmailAddress>
+      <StartDate>06/22/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8069</Code>
+      <Text>CDS&amp;E-MSS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

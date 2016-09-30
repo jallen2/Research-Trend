@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: From Discrepancy to Optimization and Approximations in Geometric Hypergraphs</AwardTitle>
+    <AwardEffectiveDate>02/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2021</AwardExpirationDate>
+    <AwardAmount>310452</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>How does one evenly distribute points on a sphere? Given points, how does one color them red and blue, so no circular region has too many of one color? The first question is open-ended until one defines evenly; the second is fully-specified, but hard -- there are many possible colorings and many regions to check. In these, and many similar problems, even when one is trying to be fair to a number of players, some will win a little and some will lose a little; the mathematical concept of "discrepancy" captures the amount of deviation from uniformity that must occur. Through what sometimes seem abstract problems, such as coloring, this mathematics explores the limits of how well can a sample represent a whole -- an important question for computation, since algorithms are often made efficient by doing initial computation on a sample of the input data. &lt;br/&gt;&lt;br/&gt;In this project, the PI will explore questions of geometric discrepancy and their connections to algorithms for optimization and approximation. She has three foci: (1) Relative discrepancy, in which bounds depend on set size -- eg., the number of points in a circle. (In two and three dimensions, the PI has previously nearly optimal bounds in two- and three-dimensions.) Algorithms to find good colorings will also be sought, especially for geometric objects with characteristics (like "fatness") that apply to models for manufacturing or simulation. (2) Extending epsilon-nets, which are samples that approximate a whole (e.g., a subset S from points P is an epsilon-net if any circle that contains an epsilon fraction of P must contain a point of S) so that you have some idea how many points from S lie in a circle that contains a larger fraction of P. Epsilon-nets not only help approximate a whole, but also indicate where more computation is needed in divide and conquer algorithms. (3) Leveraging improved epsilon nets for better approximation algorithms. It has been known for some time that improved bounds on epsilon nets in various geometric settings (e.g. axis aligned rectangles, etc) immediately give improved bounds for various NP-hard packing and covering problems in those same geometric settings. The PI has some of the strongest bounds (e.g. she proved optimal bounds in the case of axis-aligned rectangles, and has also found some practical applications of these to problems in networking), and aims to make progress on a number of still open questions in this domain, such as the size of weak epsilon-nets for axis aligned rectangles. &lt;br/&gt;&lt;br/&gt;This work pulls together several themes in mathematics and computation, including when local solutions can be extended to global solutions. Progress in understanding discrepancy can have broad and unexpected impact: fairness of resource allocation affects more than just science and engineering simulations.</AbstractNarration>
+    <MinAmdLetterDate>02/04/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/04/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1553354</AwardID>
+    <Investigator>
+      <FirstName>Esther</FirstName>
+      <LastName>Ezra</LastName>
+      <EmailAddress>eezra3@math.gatech.edu</EmailAddress>
+      <StartDate>02/04/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7929</Code>
+      <Text>COMPUTATIONAL GEOMETRY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

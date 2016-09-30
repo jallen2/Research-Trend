@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Control-Flow and Data-Flow Analysis of Android Software: Foundations and Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>470208</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In recent years the growth in the number of computing devices has been driven primarily by smartphones and tablets. For such devices, Android is the dominant platform. The correctness, security, and performance of Android devices is of paramount importance for many millions of users. However, the scientific foundations for software analysis, verification, and transformation in this area are still very inadequate. The proposed work will significantly advance the state of the art in software analysis for Android. The results will be made available to other researchers, which will help design new analyses to improve software quality. Integration of research and education will develop the expertise of new developers of mobile software. Recruitment of underrepresented students will contribute to increased diversity in computing. Through commercial and academic software tools, new software analyses could enter real-world use in the development toolkits of Android programmers, resulting in better software quality and faster time to market.&lt;br/&gt;&lt;br/&gt;Android applications are framework-based and event-driven. The complex semantics of the framework event/callback model presents a major challenge to static analysis. The project will develop a precise semantic description that captures essential abstraction of the run-time execution model, including modeling of components, their interactions through calls and callbacks, and their handling of external events. Based on this semantics, the project will design a general program representation of application control flow and data flow, and will develop algorithms for constructing and traversing it. The resulting representation and algorithms can serve as basis for a wide variety of static analyses. Three exemplar client analyses will be designed and evaluated: (1) detection of resource leaks, (2) detection of energy-related defects, and (3) taint analysis. These analyses target important quality problems and can help improve the performance and security of Android software. A suite of public algorithm implementations and experimental subjects will be made publicly available, to enable development and evaluation of existing and new static analyses for Android.</AbstractNarration>
+    <MinAmdLetterDate>06/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526459</AwardID>
+    <Investigator>
+      <FirstName>Atanas</FirstName>
+      <LastName>Rountev</LastName>
+      <EmailAddress>rountev@cse.ohio-state.edu</EmailAddress>
+      <StartDate>06/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

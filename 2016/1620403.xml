@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>MULTISCALE STOCHASTIC REACTION-DIFFUSION ALGORITHMS</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>47362</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Stochastic reaction-diffusion processes are widely used in the modeling of cancer, immune systems, and developmental biology. These processes describe the concentration changes of the chemically reacting species that diffuse through space. Numerical simulation of stochastic reaction-diffusion processes is challenging since the underlying biochemical systems are large in general and naturally involve various scales in the speed of chemical reaction and diffusion and their quantities in different locations. The multiscale nature can slow down the speed of the numerical simulation. Moreover, stochastic simulation requires a set of repeated performance of the simulations to obtain averaged behavior of chemical species. The goal of this project is to develop efficient numerical algorithms for stochastic reaction-diffusion processes by coupling different numerical schemes based on scales and by applying optimal strategies to increase accuracy and efficiency. The ability to simulate large stochastic systems will provide an efficient tool for modeling and understanding of complex biochemical systems. A graduate-level course in the field related to this project will be redesigned. The undergraduate and graduate students will participate in the project and will receive mentorships.&lt;br/&gt;&lt;br/&gt;This project focuses on the development and the analysis of multiscale numerical algorithms for stochastic reaction-diffusion processes combining different numerical schemes. Markov chain models are widely used to model chemically reacting species with diffusion, but the exact simulation of Markov chain models for large systems are computationally expensive when the systems involve multiscale phenomena. There are many studies to develop and to understand multiscale methods for stochastic reaction-diffusion processes using Markov chain models, but the major drawback in the existing methodologies is that they do not fully account for significant changes in the abundances of chemical species in time and space, which reduce the accuracy of the approximations. In this project, a spatial domain of interest will be divided into several subsets based on the abundance of chemical species and Markov chain models and stochastic partial differential equations will be respectively applied to the different regions. Then, the method will be extended to incorporate moving interfaces between the numerical schemes, which change in time, and to use optimal strategies to find a location of the next reaction. The fast simulation skills of large stochastic reaction-diffusion systems will increase efficiency in the study of experimental science and engineering. Moreover, the results of the proposal will be applied to explore the impact on human development or disease, for example, to find key signaling pathways in cancer or immune systems and to find how the tissues and organs develop to have different functions in the embryo.</AbstractNarration>
+    <MinAmdLetterDate>06/28/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/28/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1620403</AwardID>
+    <Investigator>
+      <FirstName>Hye Won</FirstName>
+      <LastName>Kang</LastName>
+      <EmailAddress>hwkang@umbc.edu</EmailAddress>
+      <StartDate>06/28/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland Baltimore County</Name>
+      <CityName>Baltimore</CityName>
+      <ZipCode>212500002</ZipCode>
+      <PhoneNumber>4104553140</PhoneNumber>
+      <StreetAddress>1000 Hilltop Circle</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

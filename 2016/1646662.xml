@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Real-time Enforcement of Content Security Policy upon Real-world Websites</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>94718</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Cross-site scripting (XSS) vulnerabilities -- though being known for more than ten years -- are still one of the most commonly-found web application vulnerabilities in the wild. Among all the defenses proposed by researchers, one widely-adopted approach is called Content Security Policy (CSP) -- which has been standardized by W3C and adopted by all major commercial browsers, such as Google Chrome, Internet Explorer, Safari, and Firefox. Though being successful in the client-side adoption, the server-side adoption of CSP is worrisome: According to a recent Internet-scale survey of 1M websites, at the time of the study, only 2% of top 100 Alexa websites enabled CSP, and 0.00086% of 900,000 least popular sites did so. This project is creating a backend-language-agnostic approach to help CSP's deployment at the server side, which automatically transforms existing real-world web contents to comply with CSP. &lt;br/&gt;&lt;br/&gt;The key insight of the project is that although web scripts may occur in different formats, contain real-time, user-related information, or be generated dynamically, these scripts are originated from the server and generated from certain templates. Therefore, the project can group scripts based on their similarities and infer the templates behind the scripts. Specifically, there are two types of scripts to handle: inline scripts and dynamic scripts. For the former, the project generalizes the script structures -- such as for loop and if statement -- as well as the type information of each object as templates and only allows scripts that matches the templates. For the latter, in addition to the matching with templates, the project instantiates these templates in runtime.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1646662</AwardID>
+    <Investigator>
+      <FirstName>Yinzhi</FirstName>
+      <LastName>Cao</LastName>
+      <EmailAddress>yinzhi.cao@lehigh.edu</EmailAddress>
+      <StartDate>08/01/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Lehigh University</Name>
+      <CityName>Bethlehem</CityName>
+      <ZipCode>180153005</ZipCode>
+      <PhoneNumber>6107583021</PhoneNumber>
+      <StreetAddress>Alumni Building 27</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

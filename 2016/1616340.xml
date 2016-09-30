@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>An optimization-based framework for deconvolution: theoretical guarantees and practical algorithms</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2019</AwardExpirationDate>
+    <AwardAmount>184481</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Lora Billings</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Deconvolution is an inverse problem that consists of teasing apart the contributions of different signal sources in data. While these problems are common across the applied sciences, this project will focus on three examples. In neuroscience, recordings of neuron activity using extracellular electrodes measure the action potentials or spikes of adjacent cells. Spike sorting, or equivalently multi-waveform deconvolution, is the problem of identifying the signals corresponding to each cell and deconvolving them to reveal the separate spiking patterns. Super-resolution fluorescence microscopy allows one to obtain images or videos of complex cell structures at high resolution from low-resolution data. In computer vision, blurred pictures, such as ones taken from a cellphone, are well approximated by the convolution of a sharp image with a motion-blur kernel. The aim of this project is to develop and analyze algorithms to tackle these problems, with special emphasis on adapting these methods so that they can be applied efficiently to large amounts of data. &lt;br/&gt;&lt;br/&gt;Most recent literature on underdetermined linear inverse problems under sparsity constraints focuses on randomized sensing schemes, which do not allow to model convolution problems such as super-resolution, spike sorting in neuroscience, or blind deconvolution in computer vision. The main goal of this project is to develop optimization-based methods for deterministic deconvolution problems, as well as to derive theoretical guarantees on their performance and their robustness to noise. This will require developing novel proof techniques, which do not rely on probabilistic tools, to characterize the conditioning of convolution operators and the optimality conditions of L1-norm minimization problems. Building upon these optimization-based methods, practical algorithms will be designed to operate in big-data regimes where it is not computationally tractable to apply sophisticated processing uniformly across the data.</AbstractNarration>
+    <MinAmdLetterDate>07/25/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/25/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1616340</AwardID>
+    <Investigator>
+      <FirstName>Carlos</FirstName>
+      <LastName>Fernandez Granda</LastName>
+      <EmailAddress>cfg3@nyu.edu</EmailAddress>
+      <StartDate>07/25/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

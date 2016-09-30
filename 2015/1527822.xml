@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: THEORETICAL AND ALGORITHMIC FOUNDATIONS OF CONSTRAINED PARTICLE FILTERING</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>349901</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many modern technologies (from image stabilizations in a camera, to chemical plants, from power grids to robot navigation) require computer algorithms to track the state of a dynamical system that is both modeled and measured with uncertainty. Particle filters are a technique that track many particles (candidate states) to arrive at a best estimate, which is the mean or average of tracked state. This project considers constraints on the best estimate (and not just individual particles) giving a new way to ensure correctness of the modeling, and safety of the underlying system. Handling constraints in dynamical systems in real time is challenging when either the systems or the constraints, or both, are nonlinear. &lt;br/&gt;&lt;br/&gt;The new methods of this project incorporate the constraints into the estimation process itself, avoiding wasted time and guaranteeing convergence in ways that were not possible before. The project also includes integrated research and learning activities, and will serve as a crucial catalyst to the new Ph.D. program at Rowan University by providing its inaugurating class. This research (i) develops a sequential Monte Carlo method that iteratively constructs a set of particles that approximate the posterior density of the state and also satisfy the non-linear constraints; ii) establishes error bounds and convergence properties of this method; iii) derives necessary and sufficient conditions under which traditional approaches admit a bounded estimation error; iv) applies and assesses the theoretical results to solve real-world applications, with linear and non-linear constraints, including control of hand prostheses, estimation of time-varying sparse networks in communications and biology, and emerging applications in the electric power grid.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527822</AwardID>
+    <Investigator>
+      <FirstName>Roman</FirstName>
+      <LastName>Shterenberg</LastName>
+      <EmailAddress>shterenb@math.uab.edu</EmailAddress>
+      <StartDate>08/04/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nidhal</FirstName>
+      <LastName>Bouaynaya</LastName>
+      <EmailAddress>bouaynaya@rowan.edu</EmailAddress>
+      <StartDate>08/04/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rowan University</Name>
+      <CityName>Glassboro</CityName>
+      <ZipCode>080281701</ZipCode>
+      <PhoneNumber>8562564057</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

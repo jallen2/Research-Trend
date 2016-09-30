@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BSF:2014170: SINR-Governed Wireless Networks: Geometric Analysis and Algorithms</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>40000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Among many different models used to describe wireless networks, the PIs will focus on the one commonly called the SINR (Signal-to-Noise-and-Interference Ratio) model. It attempts to model the reception or non-reception of a wireless transmitter signal in the presence of interference from other transmitters and ambient noise. Much recent work has been devoted to analyzing the SINR model and using it to predict the behavior of real-life wireless networks. One simple aspect of this model is the construction of a SINR reception map, which associates with every transmitter the region where it can be received and also contains a region where no signal can be received due to interference of multiple transmitters. The exact map is difficult to compute due to the complexity of the so-called SINR inequality that determines whether or not a signal is received. Previous work has been done on approximating the reception map. The methods for this computation suffer from slow construction times (so-called preprocessing times) and from the fact that, for transmitters of unequal power, the preprocessing time depends not only on the number of transmitters and the accuracy of the approximation, but on other parameters of the problem that can not be expressed in terms of these two. The PIs will develop methods to overcome these by speeding up the preprocessing times.&lt;br/&gt;&lt;br/&gt;More specifically, the PIs will develop batch preprocessing for SINR-diagram point location queries. They will then use these tools to speed up existing algorithms for SINR-governed wireless networks. The PIs will study fundamental problems arising in SINR-governed wireless networks, combining algebraic tools with techniques of computational geometry and combinatorial optimization. The PIs will investigate a diverse suite of problems, including how to cope with directional antennas, problems arising when successive interference cancellation is enabled, combinatorial problems concerning SINR diagrams, and combinatorial optimization problems such as scheduling under a restricted, more practical version of the SINR model. The PIs will also investigate further applications of the underutilized combination of computer algebra and computational geometry tools in a more general context.&lt;br/&gt;&lt;br/&gt;Understanding the geometric properties of SINR-governed networks and being able to analyze such networks and predict their behavior is extremely important. Moreover, efficient solutions to the problems of this family, as well as to problems that PIs intend to study from a more practical point of view, will benefit the motivating application domain of wireless communication. These solutions are essential in the planning stages of such networks (e.g., determining where to locate the devices), for examining existing networks, and for utilizing them efficiently. In this respect, the proposed project has the potential for substantial socioeconomic impact, as the popularity of such networks is rapidly increasing.&lt;br/&gt;&lt;br/&gt;The project incorporates an educational mission, through training of graduate students and reciprocal visits among students and participants from the two institutions.</AbstractNarration>
+    <MinAmdLetterDate>08/03/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/03/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1540656</AwardID>
+    <Investigator>
+      <FirstName>Boris</FirstName>
+      <LastName>Aronov</LastName>
+      <EmailAddress>boris.aronov@nyu.edu</EmailAddress>
+      <StartDate>08/03/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

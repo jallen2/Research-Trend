@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: An Aspect-Oriented Approach to Large-Scale Urban Simulations</AwardTitle>
+    <AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>465040</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Population, environmental, and technological changes are reshaping the infrastructure of our urban environments, and will be a major focus of attention in the near future. With the advent of alternative energy and the Internet of Things, there is suddenly a plethora of new technologies that will require major restructuring of cities. In order to establish sound public policies, all these new technologies can greatly benefit from urban simulations, to measure their impact on the city and on the people before the policies are defined. Large-scale urban simulations tend to be too large and complex to fit a single machine's resources and a single group's expertise. As such, distributed and decentralized urban simulations are a desirable technology to develop. Unfortunately, distributed simulations are still rarely used (except in military applications). Developing distributed simulations is much harder than developing non-distributed ones, and requires a much higher level of software engineering expertise, which usually modeling and simulation experts do not have. The difficulties have been well-known by researchers and engineers, and over the years there have been a few efforts to address them. One of the most important efforts was the development of the High Level Architecture (HLA) standard. The adoption of HLA in practice, however, has been very slow. Surveys suggest that domain-specific adaptors and middleware could help bridge the technical gap in software knowledge. The use of appropriate software engineering concepts and theories can greatly reduce the technical complexity of developing such middleware, and make HLA accessible to a much wider audience, including scientists.&lt;br/&gt;&lt;br/&gt;The main objective of this proposal is to investigate whether the use of Aspect Oriented Programming (AOP) concepts will help overcome the engineering challenges faced by distributed simulation systems. Introduced in 1997 by Kiczales, Lopes et. al, AOP put forward a model of system decomposition that encompasses a base functional decomposition as well as one or more orthogonal ones that cut across the base and each other. There are many similarities between the concept of aspect (as given by AOP) and the general concept of aspect of a city that urban planning researchers routinely use. All these aspects are conceptually distinct, but interact with each other over essentially the same objects of simulation, the city and its coordinate system. There are many unknown variables in applying the AOP paradigm to the simulation field. For instance, if simulators are divided by aspects, there is a high chance that urban entities such as individuals, vehicles, and buildings, will be common to multiple simulators. The HLA standard enforces that an attribute of an object can be owned (i.e. read and write permission) by any simulator, but only by one simulator. Thus multiple aspects of the same object will need to coexist, but as different objects. Consistency and performance become issues in maintaining separate versions of what is essentially the same entity. Determining how to maintain a semantic interoperability between aspects would solve one of the major issues with distributed simulations. If AOP proves to be a good fit for distributed simulations, this work can have a tremendous influence on the accessibility of distributed simulations for a large number of modeling and simulation experts, therefore also having a potential impact on policy making, wherever modeling and simulation is used ? in science, logistics, social behavioral, transportation management, health, and land to mention only some examples.</AbstractNarration>
+    <MinAmdLetterDate>06/17/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/17/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526593</AwardID>
+    <Investigator>
+      <FirstName>Cristina</FirstName>
+      <LastName>Lopes</LastName>
+      <EmailAddress>lopes@ics.uci.edu</EmailAddress>
+      <StartDate>06/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173067</ZipCode>
+      <PhoneNumber>9498244768</PhoneNumber>
+      <StreetAddress>5171 California Avenue, Ste 150</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

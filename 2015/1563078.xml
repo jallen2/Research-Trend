@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Collaborative Research: From Volume to Velocity: Big Data Analytics in Near-Realtime</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2020</AwardExpirationDate>
+    <AwardAmount>666665</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most existing techniques and systems for data analytics focus exclusively on the volume side of the common definition of Big Data as volume, velocity and variety. In contrast, there are clear indications that the velocity component will become the dominant requirement in the near future, most significantly, because of the proliferation of mobile devices across the planet. This is compounded by the fact that the freshest data often contains the most valuable information and that users have grown accustomed to data that is deeply analyzed and processed by sophisticated machine learning (ML) techniques, to enable their "always on" experience. In most mobile interactions, for example, the physical locations of one or potentially many users play a role, but the system needs to process the actual locations, not the ones from ten minutes ago. Many similar use cases exist in finance, intelligence and other domains. In all of them, the desires for fresh and for highly processed data are in a fundamental tension, as high quality analysis is computationally expensive and often done in large batches. The intellectual merits of this project are to investigate a combination of new ideas to address this challenge, spanning machine learning algorithms, specialized hardware accelerators, domain-specific languages, and compiler technology. The project's broader significance and importance are to pave the way for new kinds of high-velocity big-data analytics, which have the potential to revolutionize the way that people interact with the world.&lt;br/&gt;&lt;br/&gt;The project investigates new incremental ML primitives and new algorithms that can trade off speed with precision, but retain provable guarantees. Novel DSLs (domain-specific languages) make such algorithms and techniques available to application developers, and new compilation techniques map DSL programs to specialized accelerators. In particular, the project shows how through these novel compilation techniques, machine learning algorithms can especially benefit from hardware acceleration with FPGAs. Finally, the project investigates new compilation techniques for end-to-end data path optimizations, including conversion of incoming data from external formats into DSL data structures, and transferring data between network interfaces and FPGA accelerators. Tying these new ideas and techniques together, this project will result in an integrated full-stack solution (spanning algorithms, languages, compilers, and architecture) to the problem of achieving high velocity in big data analytics.</AbstractNarration>
+    <MinAmdLetterDate>07/21/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/21/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1563078</AwardID>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>Re</LastName>
+      <EmailAddress>chrismre@cs.stanford.edu</EmailAddress>
+      <StartDate>07/21/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Oyekunle</FirstName>
+      <LastName>Olukotun</LastName>
+      <EmailAddress>kunle@stanford.edu</EmailAddress>
+      <StartDate>07/21/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

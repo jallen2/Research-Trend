@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Detecting Races in SDN Control Plane</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software Defined Networking (SDN) has rapidly emerged as a promising solution to building the future Internet. Current legacy network devices are typically proprietary, closed, and complex platforms, which as a result have severely throttled innovation in networking. SDN in contrast is designed to separate intelligent control plane (controller) from switching fabrics, ushering in enormous opportunities for rapid open innovations and quick creation of customized services. In SDN, the controllers play a central role, acting as the brain of the entire network. Thus, the reliable and secure operation of them is of extreme importance. Unfortunately, the asynchrony of network events and the complex architecture of SDN controllers make them prone to hard-to-find yet serious data race bugs, that can cause serious reliability and security issues to the whole SDN network.&lt;br/&gt;&lt;br/&gt;In the principal investigators' (PIs) initial investigation, they found that data race bugs in the control plane can greatly reduce the reliability and security of SDN, e.g., causing system crashes, denying critical network services, interfering with service chains, or leaking privacy network information. These are not acceptable for SDN technology deployment. Unfortunately there is a serious lack of techniques to detect systematically these harmful concurrency bugs in the SDN control plane. This work seeks to address these issues. First, this project will conduct a systematic investigation of mainstream SDN controllers and develop an abstracted causality model to capture the unique happens-before semantics of the SDN control plane for race detection. Second, the project will develop the first dynamic race detection tool for the SDN control plane and will target mainstream controllers, such as Floodlight, ONOS and OpenDaylight, to maximize the impact on the SDN community. Third, this project will design new techniques to handle missing events in the dynamic execution of SDN controllers to reduce false alarms and for more complete race detection. Finally, the PIs will extend the techniques to detect a broad range of concurrency bugs.&lt;br/&gt;&lt;br/&gt;The goal of the project is to develop a reliability and security model for the SDN control plane. The PIs have been developing network security, SDN, and software analysis related courses. The PIs will recruit and educate minorities and underrepresented students. The teams are well positioned to help shape the landscape of SDN reliability/security research and education in the academic communities and to influence the industry.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617985</AwardID>
+    <Investigator>
+      <FirstName>Guofei</FirstName>
+      <LastName>Gu</LastName>
+      <EmailAddress>guofei@cse.tamu.edu</EmailAddress>
+      <StartDate>08/24/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Shaoming (Jeff)</FirstName>
+      <LastName>Huang</LastName>
+      <EmailAddress>jeff@cse.tamu.edu</EmailAddress>
+      <StartDate>08/24/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas A&amp;M Engineering Experiment Station</Name>
+      <CityName>College Station</CityName>
+      <ZipCode>778454645</ZipCode>
+      <PhoneNumber>9798477635</PhoneNumber>
+      <StreetAddress>TEES State Headquarters Bldg.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

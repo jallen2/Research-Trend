@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Fast algorithms for nonlinear kinetic models</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>52977</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In multiscale modeling hierarchy, the Boltzmann and related kinetic equations serve as a building block that bridges atomistic and continuum models. These equations describe the non-equilibrium dynamics of a gas or system comprised of a large number of particles in random motion and constantly colliding with each other, and have found applications in various fields such as rarefied gas/plasma dynamics, radiative transfer, semiconductor modeling, etc. The prominent challenges associated with numerically approximating the Boltzmann-like equations are the expense of evaluating the collision term - a high-dimensional, nonlinear, nonlocal integral operator. Fast algorithms developed in this project will greatly advance the state-of-the-art simulation of collisional kinetic equations, and will enable scientists and engineers to effectively handle more complex systems that have previously not been feasible, due to the enormous expense of evaluating the collision term.&lt;br/&gt;&lt;br/&gt;The new algorithms will be based on spectral approximation which stands out for its superior accuracy among the available Boltzmann solvers. To reduce the huge computational cost of conventional spectral methods, the main idea is to exploit and leverage the convolutional and low-rank structure in the collision integral. Four specific aims will be addressed: 1) fast algorithms for the Boltzmann collision operator with general collision kernel that will allow efficient simulation of particle interactions beyond hard sphere model; 2) fast algorithms for the multi-species Boltzmann equation, which would be invaluable for describing gaseous mixtures; 3)fast algorithms for the inelastic Boltzmann equation, which have immediate application in modeling granular materials; 4) a fast deterministic solver for the Schrodinger-quantum Boltzmann system modeling the kinetics of Bose-Einstein condensate at finite temperature.</AbstractNarration>
+    <MinAmdLetterDate>06/20/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/20/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1620250</AwardID>
+    <Investigator>
+      <FirstName>Jingwei</FirstName>
+      <LastName>Hu</LastName>
+      <EmailAddress>jingweihu@purdue.edu</EmailAddress>
+      <StartDate>06/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7237</Code>
+      <Text>NANO NON-SOLIC SCI &amp; ENG AWD</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

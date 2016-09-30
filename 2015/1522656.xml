@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Reduced Order Modeling of Realistic Noisy Flows</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>143196</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many flows in engineering, geophysics, and medicine pose two significant challenges for computations. First, the computational resources that are available for the numerical simulations can accommodate only low spatial and temporal resolutions. Therefore, standard numerical methods usually yield extremely inaccurate results. To alleviate this, state-of-the-art numerical methods generally use spatial filtering to eliminate the noise (i.e., numerical artifacts). The second challenge posed by these realistic flows is that they require numerous repeated runs (e.g., to determine optimal parameters in automobile design or cardiovascular flow simulation, or to find appropriate initial conditions in weather forecasting and climate modeling). These repeated runs can tremendously increase the computational cost of the numerical simulations. Thus, low cost surrogate models (called reduced-order models) that target only the dominant flow structures are generally used. Combining state-of-the-art data generation methods and reduced-order modeling is required for an accurate and efficient numerical simulation of realistic flows. A simplistic attempt to combine these two approaches is, however, doomed to fail due to numerical instability, noisy data, and modeling inconsistency. This project aims to develop a framework that will transform reduced-order modeling into a robust tool that can tackle the challenges raised by realistic noisy flows in engineering, geophysics, and medicine. &lt;br/&gt;&lt;br/&gt;The numerical simulation of many realistic flows is fraught with difficulties (insufficient numerical resolution; numerical instability; need for repeated runs). To address these challenges, state-of-the-art numerical approaches are needed: large eddy simulation (LES) and regularized models tackle the lack of numerical resolution and the instability, whereas reduced-order models (ROMs) based on proper orthogonal decomposition (POD) balance the computational cost and accuracy when repeated runs are needed. A simplistic attempt to combine LES and regularized models with standard ROMs is, however, doomed to fail due to the following reasons: (i) standard ROMs are plagued by numerical instability; (ii) although LES and regularized models stabilize the numerical simulations, the data that they generate for ROMs is inherently noisy; and (iii) the modeling inconsistency between data generation (i.e., regularized and LES models) and ROMs can yield inaccurate results. This project will develop a modeling, theoretical, and computational framework that will transform reduced-order modeling into a robust tool that can tackle the challenges raised by realistic noisy flows. The main innovation is the explicit POD spatial filter, which bridges the inconsistency gap between the data generation (i.e., regularized and LES models) and ROMs. This breakthrough paves the way for the development of novel regularized ROMs and the introduction in a ROM setting of genuine LES models that use approximate deconvolution to recover subfilter-scale information. Over the last decades, a wealth of regularized and LES models have been highly developed in the engineering and geophysics communities. The explicit POD spatial filter represents the missing link that finally allows the leverage of these successful approaches in reduced-order modeling.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1522656</AwardID>
+    <Investigator>
+      <FirstName>Traian</FirstName>
+      <LastName>Iliescu</LastName>
+      <EmailAddress>iliescu@vt.edu</EmailAddress>
+      <StartDate>07/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Polytechnic Institute and State University</Name>
+      <CityName>BLACKSBURG</CityName>
+      <ZipCode>240610001</ZipCode>
+      <PhoneNumber>5402315281</PhoneNumber>
+      <StreetAddress>Sponsored Programs 0170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1303</Code>
+      <Text>CLIMATE MODELING &amp; PREDICTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

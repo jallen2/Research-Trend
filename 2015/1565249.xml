@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Tensor hypercontraction for electronic structure and first principles molecular dynamics</AwardTitle>
+    <AwardEffectiveDate>05/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2019</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03090000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Chemistry</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Evelyn M. Goldfield</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Todd Martinez of Stanford University is supported by an award from the Chemical Theory, Models and Computational Methods Program in the Chemistry Division to develop efficient and accurate methods for studying the electronic properties of large molecules. To describe the quantum mechanical behavior of molecules, it is necessary to solve the electronic Schrodinger equation. Unfortunately, this equation is very difficult to solve, even with modern computers. The main problem is that computational effort for the most accurate methods grows with the sixth power of molecular size. Martinez and coworkers design methods that reduce that scaling considerably. Such methods are needed to reach the goal of designing molecules with tailored properties, such as drugs that bind effectively to proteins and molecules with favorable fluorescent properties for use in biological imaging. If this work is successful, the size of molecules whose properties can be accurately predicted will be greatly enlarged compared to present approaches. &lt;br/&gt;&lt;br/&gt;This project focuses on the development of the tensor hypercontraction method for electronic structure and ab initio molecular dynamics. Tensor hypercontraction casts the electron repulsion integrals and wave function amplitudes in a factorizable form, leading to scaling reductions by as much as two powers of the molecular size for wave function-based electronic structure methods like perturbation theory and coupled cluster. The Martinez group is developing new grids for least-squares variants of hypercontraction and extending the hypercontraction methodology to include analytic gradients of the energy that are needed in first principle molecular dynamics. They are exploring the application of hypercontraction to self-consistent field methods like Hartree-Fock and density functional theory. Hypercontraction emphasizes rank sparsity in the associated quantities. This is a powerful approach, but it is also useful to simultaneously exploit spatial locality (element sparsity). New approaches which can exploit both rank and element sparsity simultaneously, i.e. a local form of tensor hypercontraction, are being considered. These new and improved hypercontraction methods are used to predict fluorescence energies and lifetimes for fluorescent proteins that may be used in bioimaging applications.</AbstractNarration>
+    <MinAmdLetterDate>03/25/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/25/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1565249</AwardID>
+    <Investigator>
+      <FirstName>Todd</FirstName>
+      <LastName>Martinez</LastName>
+      <EmailAddress>Todd.Martinez@stanford.edu</EmailAddress>
+      <StartDate>03/25/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>6881</Code>
+      <Text>Theory, Models, Comput. Method</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

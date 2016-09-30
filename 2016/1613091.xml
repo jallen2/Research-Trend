@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Combinatorial Optimization, Spin Models, and the Geometry of Sparse Random Graphs</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2021</AwardExpirationDate>
+    <AwardAmount>118683</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tomek Bartoszynski</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Networks and graphs are ubiquitous mathematical models to describe important systems (social networks, transportation networks, and biological systems, among others). A network is comprised of a certain number of objects (normally referred to as 'nodes' or 'vertices') connected by links of various importance ('edges' and their 'weights'). Analyzing network data is notoriously challenging. An important task is to group the vertices into subgroups such that each subgroup is highly connected, and any two subgroups have only loose interconnections. Even if one is only trying to identify merely two subgroups (known as the min-bisection problem), no efficient algorithm is known to partition the nodes of large graphs in general. The situation changes when one considers that the graphs might have a random structure. Indeed, for many reasonable probabilistic models on graphs, there appear to be efficient algorithms to solve the min-bisection problem. This project will develop our fundamental understanding of these probabilistic models and will study efficient algorithms to treat them.&lt;br/&gt;&lt;br/&gt;The project focuses on various models of sparse random graphs, the simplest being the Erdos-Renyi (independent edges) random graph, with bounded average degree. Many statistical inference tasks can be addressed by suitably defined combinatorial optimization problems. For instance, the min-bisection problem requires to find a balanced partition of the vertex set that minimizes the number of edges across the partition. These optimization problems are associated to certain Gibbs measures on the underlying graph, from which the optimizers are recovered as ground states. Statistical physicists conjectured that these Gibbs measures are asymptotically equivalent (for random graphs) to Gibbs measures of suitably defined spin glass models. This project aims at establishing this connection on a firm basis and exploiting it to study the structure of large random graphs. It has also recently been suggested that semidefinite-programming relaxations for the same problems can be studied through other Gibbs measures (with vector spins). Studying these spin models will improve our understanding of efficient algorithms for solving these tasks.</AbstractNarration>
+    <MinAmdLetterDate>06/23/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/23/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1613091</AwardID>
+    <Investigator>
+      <FirstName>Amir</FirstName>
+      <LastName>Dembo</LastName>
+      <EmailAddress>amir@stat.stanford.edu</EmailAddress>
+      <StartDate>06/23/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andrea</FirstName>
+      <LastName>Montanari</LastName>
+      <EmailAddress>montanari@stanford.edu</EmailAddress>
+      <StartDate>06/23/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1263</Code>
+      <Text>PROBABILITY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

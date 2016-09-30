@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Geometric and Topological Analysis on Trajectory Sensing: Collection, Classification and Anonymization</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Wenjing Lou</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The maturing of mobile devices and systems provide an unprecedented opportunity to collect a large amount of data about real world human motion at all scales. The rich knowledge contained in these data sets can have a huge impact in many fields ranging from transportation to health care, from civil engineering to energy management, from e-commerce to social networking. While the applications are paradigm-transforming, recent studies show that the trajectory data can raise serious privacy concerns in revealing personally sensitive information such as frequently visited locations or social ties. These concerns become the major hurdle in utilizing these data sets. This project systematically studies the issue of anonymizing trajectory data, from the bottom layer of trajectory sensing and data collection, to the middle layer of trajectory representation and anonymity, to the application layer of how the anonymized trajectory data can be used.&lt;br/&gt;&lt;br/&gt;By the nature of trajectories as being time stamped sequence of points, in this project novel geometric and topological algorithms that directly work on distributed sensors collecting the trajectories are developed for achieving the objective. Queries to such decentralized sensors are made to ensure no sensitive information is released. The intellectual contribution lies in the following aspects. 1) The topological representation of trajectories, i.e., how trajectories pass around obstacles and landmarks in the domain is adopted. The topological representation is compact and descriptive, introducing novel discrete and combinatorial problems to study. 2) A novel framework is developed for distributed sensors to directly learn, classify and compare the topological types of the target trajectories, using harmonic one-forms and Hodge decomposition from algebraic topology. The new framework can substantially reduce the communication cost within the network, while maintaining the requirement of user privacy from the very beginning of sensing and data collection. 3) A family of anonymization algorithms using different ideas are developed, by altering the way to connect the time-stamped points into trajectories, by adjusting the topological resolution to reach a balance between data anonymity and utility, and by sensing and recording randomized hash data to answer popular trajectory queries. 4) The trajectory data sets are often huge, so algorithms for handling large scale trajectory data sets are developed in both centralized and decentralized settings.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618391</AwardID>
+    <Investigator>
+      <FirstName>Jie</FirstName>
+      <LastName>Gao</LastName>
+      <EmailAddress>jgao@cs.sunysb.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

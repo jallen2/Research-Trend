@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: From Real-Time Sensor Data Streams to Continuous Data Fields Models: Formal Foundations and Computational Challenges</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Massive sensor data streams are created from the automatic collection of sensor data in high frequency and in near real-time today. This project aims to advance the analytical potential of live-streamed data, historical data streams, and model simulations by creating an overarching representation in the form of the field data model with a set of operators that establish the field algebra. A field is best explained as, for example, a magnetic field; the magnetic force can be determined for each point in a magnetic field and the field is therefore considered to be continuous. Similarly, environmental phenomena such as air pollution or flooding are considered continuous in space and time although they are sampled at limited, discrete time-space locations with sensors. This project develops the field algebra, which is an intuitive, yet mathematically defined formalism to represent real-world phenomena as fields and to express analytical needs as canonical operations over fields. The field model represents phenomena as continuous entities again, and the implementation hides the fact that their spatio-temporal continuity is calculated on-the-fly based on real-time measurements streams. Extending sensor data streams to fields is transformative, as rarely a domain scientist is interested in the readings of individual sensors. Allowing scientists to work with high-level abstractions will significantly enhance their analytical tasks such as finding insights about changes, trends, or unexpected events happening in the real world. The project will integrate fields and data streams mathematically so that mappings between both are well defined. The field data model is complemented by the development of an innovative computational framework for synthesizing and analyzing fields based on very large numbers of high throughput, real-time sensor data streams, and for creating continuous representations on-the-fly. This framework provides novel algorithms to assure that the field operators can absorb the throughput of very large numbers of sensor data streams, yet still compute complex analytical results in near real-time. This project will benefit our society by enabling us to react to situations such as extreme weather events, environmental disasters or chemical accidents immediately, and organize response effort based on accurate and timely information; this will help to protect the public interests better.&lt;br/&gt;&lt;br/&gt;The research in this project develops a formal foundation for sensor data streams by abstracting them as geographic fields, and a scalable computational framework that computes field operators on massive numbers of sensor data streams in near real-time. In this research, the field algebra, with a recursive definition of fields and a set of field operators are formalized. The field algebra and data streams are formally integrated on the level of their mathematical foundations. The formal field algebra is implemented as a data type hierarchy and integrated with stream data models. At the same time, a computational framework is developed that extends data stream engines with computational components to estimate spatio-temporal fields based on recursive or transposed field definitions, and the evaluation of complex predicates over fields, which lays the foundation for co-analyzing live and historic fields. The results of this project will be distributed via scientific publications, open source software, and online training tutorials and classes. The project web site (http://www.spatial.maine.edu/~nittel/s2f.html) will provide access to the results of this project.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527504</AwardID>
+    <Investigator>
+      <FirstName>Max</FirstName>
+      <LastName>Egenhofer</LastName>
+      <EmailAddress>max@spatial.maine.edu</EmailAddress>
+      <StartDate>08/26/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Silvia</FirstName>
+      <LastName>Nittel</LastName>
+      <EmailAddress>nittel@spatial.maine.edu</EmailAddress>
+      <StartDate>08/26/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maine</Name>
+      <CityName>ORONO</CityName>
+      <ZipCode>044695717</ZipCode>
+      <PhoneNumber>2075811484</PhoneNumber>
+      <StreetAddress>5717 Corbett Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maine</StateName>
+      <StateCode>ME</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

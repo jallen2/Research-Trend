@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Energy-efficient Massive MIMO Processing for Millimeter-wave Communications</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>244614</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hao Ling</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract Title: &lt;br/&gt;Energy-efficient Massive MIMO Processing for Millimeter-wave Wireless Communications&lt;br/&gt;&lt;br/&gt;Abstract: &lt;br/&gt;&lt;br/&gt;To meet the ever-growing demands for high-speed, large-capacity wireless services, millimeter-wave (mmWave) technology has emerged as a promising option for next-generation wireless networks. The mmWave systems operate around and above 30GHz, where the spectrum is less crowded and the available bandwidth is much wider than that of legacy wireless systems at relatively lower radio frequencies. On the other hand, the use of such high frequencies incurs severe channel path loss, which is the dominant factor limiting the coverage and robustness of mmWave communications. A natural opportunity to cope with this problem is to adopt massive multiple-input multiple-output (MIMO) in mmWave transceivers, where very large antenna arrays with hundreds of antenna elements can be packaged in a miniature size to provide large diversity-multiplexing gains and hence significantly improved coverage, throughput and robustness against channel fading. However, as the number of antenna elements increases, not only the signal acquisition and hardware costs increase drastically, but also the computational complexity of traditional antenna array processing techniques becomes prohibitively high. The objective of this research is to provide key technological innovations in large-scale array processing such that massive MIMO can be utilized for high-speed mmWave wireless communications at affordable computational costs. New signal processing techniques will be developed to perform the key sensing tasks of mmWave massive MIMO transceivers, including direction of arrival estimation and channel estimation, in an energy-efficient and robust manner. Solving such computational bottlenecks of massive MIMO is an essential step toward unleashing the well-appreciated potential of mmWave technology, which will make available abundant spectrum opportunities for wireless connectivity in both cellular data services and Internet of things. Another important goal of this project is to integrate research with education in effort to enhance the learning experiences for students in the field of wireless communications. &lt;br/&gt;&lt;br/&gt;This project aims to develop an innovative compressive sensing framework to tackle the computational bottleneck in two important sensing tasks of MIMO processing: direction-of-arrival estimation for beamforming and spatial sectorization, and channel estimation for data demodulation. While existing research seeks strenuously to find affordable solutions to high-dimensional signal estimation problems over a very large angle or channel space, this project sets forth an exploratory path that gets around this difficulty by exploiting the inherent structures of the sensing tasks to reduce the problem space itself. At the core of this research is a new framework of compressive covariance sparse sensing (CCSS), which bypasses the intermediate step of recovering the original signals whenever possible and directly extracts the useful statistics to effect strong signal compression and efficient feature extraction at low sampling costs. Based on the CCSS framework, new formulations, algorithms and sensing mechanisms will be developed to efficiently solve the direction-of-arrival and channel estimation problems in resource-constrained mmWave massive MIMO systems, with quantified performance and cost tradeoffs.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1546604</AwardID>
+    <Investigator>
+      <FirstName>Zhi</FirstName>
+      <LastName>Tian</LastName>
+      <EmailAddress>ztian1@gmu.edu</EmailAddress>
+      <StartDate>07/31/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>George Mason University</Name>
+      <CityName>FAIRFAX</CityName>
+      <ZipCode>220304422</ZipCode>
+      <PhoneNumber>7039932295</PhoneNumber>
+      <StreetAddress>4400 UNIVERSITY DR</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7564</Code>
+      <Text>COMMS, CIRCUITS &amp; SENS SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>153E</Code>
+      <Text>Wireless comm &amp; sig processing</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

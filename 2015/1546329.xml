@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: F: Large-Scale Transductive Learning from Heterogeneous Data Sources</AwardTitle>
+    <AwardEffectiveDate>01/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2019</AwardExpirationDate>
+    <AwardAmount>1188545</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>James French</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Important problems in the big-data era involve predictions based on heterogeneous sources of information and the dependency structures in data. In recommendation systems, for example, predictions need to be made not only based on observed user ratings over items (movies, books, music, shopping products, etc.), but also based on information such as demographical data of users and textual descriptions of items. In event detection from textual data (news stories, tweets, maintenance reports, legal documents, etc.), joint inference must be based on who (agents), what (event types or topics), where (locations) and when (dates), and also based on the connections among agents (in social networks), topics (in an event-type ontology), locations (in a map) and temporal co-occurrences. The fundamental research questions therefore include: (1) how to develop a unified optimization framework for predictions based on heterogeneous information and dependency structures in various kinds of tasks; (2) how to make the inference computationally tractable when the combined space of model parameters is extremely large; and (3) how to significantly enhance the prediction power of the system by leveraging massively available unlabeled data in addition to human-annotated training data which are often sparse.&lt;br/&gt;&lt;br/&gt;This project will address the three challenges via the following four approaches.&lt;br/&gt;&lt;br/&gt;(1) A unified representation of heterogeneous information sources using product graphs: This framework aims to represent heterogeneous sources of data and intra-source dependencies, such as social connections among users, semantic similarities among items, contextual correlations among keywords, topical similarities among documents, hierarchical relations among topic labels, and so on. Each data source will be represented using a graph, and the individual graphs of multiple sources will be combined into a product graph where each node corresponds to a tuple of nodes in the individual graphs, and each link aggregates the links in the individual graphs. &lt;br/&gt;&lt;br/&gt;(2) Transductive learning over graph products: This project plans to reduce the inference problems in a broad range of prediction tasks to semi-supervised transductive learning problems over the product graphs mentioned above. The training data in each task (of classification, regression or link prediction) will be represented as a subset of labeled (or scored) nodes in the product graph, and the labels (or scores) of those nodes will be propagated over the links in the product graph until convergence. This project will study various kinds of graph transductions theoretically and empirically.&lt;br/&gt;&lt;br/&gt;(3) Large-scale optimization algorithms: The induced product graphs are typically extremely large. To address the computational bottlenecks, this project will develop new scalable algorithms based on theoretical properties and computational characteristics of spectral graph products, including adapted versions of rank-reduced matrix factorization, aggressive basis pruning, and sampling-based low-rank approximation.&lt;br/&gt;&lt;br/&gt;(4) Thorough evaluations in multiple important applications: The proposed new approach will be evaluated on benchmark data collections for context-aware collaborative filtering, semi-structured event detection and tracking, and expert finding via multi-source social network analysis.&lt;br/&gt;&lt;br/&gt;The proposed work, if successful, will offer principled solutions for enhancing the prediction power of systems in a broad range of tasks, whenever recommendation, classification and regression are involved. Technical impacts of the proposed work are expected in multiple research fields. For further information see the project web site at: http://nyc.lti.cs.cmu.edu/gp-trans/index.html</AbstractNarration>
+    <MinAmdLetterDate>09/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/14/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1546329</AwardID>
+    <Investigator>
+      <FirstName>Yiming</FirstName>
+      <LastName>Yang</LastName>
+      <EmailAddress>yiming@cs.cmu.edu</EmailAddress>
+      <StartDate>09/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

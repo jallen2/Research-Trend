@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NRI: A Model based Approach to Distributed Adaptive Sampling of Spatio-Temporally Varying Fields</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>499996</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research project studies the problem of designing active sensing systems for monitoring dynamically evolving spatial fields using mobile robotic sensor networks. As a particular motivating problem, we consider fields governed by advection-diffusion equations, a model sufficiently general to cover a huge range of important phenomena: from the recent Aliso Canyon gas leak in California and the volcanic ash clouds of Eyjafjallajokull, to the temperature profile within a building. The development of a realistic open-source simulation toolbox for the active sensing problem will allow the assimilation of K-12/undergraduate/graduate students, and high school teachers in projects related to the research, and also allow a broader dissemination of the research to the general public at the annual TAMU Physics and Engineering fair while educating them about the benefits of the project, for instance, in response to a hazardous situation such as a chemical leak or an oil spill.&lt;br/&gt;&lt;br/&gt;In the current literature, statistical black-boxes (such as Gaussian Processes), which were originally developed for (quasi)-static spatial fields, are being used to model fields with structured temporal dynamics. In this process, two issues which ought to be distinct, the correctness of the model, and considerations of computational efficiency, have become entangled and the consequences can be dangerous: state-of-the-art methods may provide cheap but drastically wrong estimates, along with error bounds that are grossly over-confident when the spatial fields are temporally varying. The investigators will seek to produce adaptive estimation techniques for dynamic spatial fields that are optimal and correct. In particular, randomized model reduction techniques shall be used to attain computational tractability whilst preserving correctness. Further, the project shall seek to develop receding horizon sensor tasking strategies that can drastically outperform greedy strategies in terms of the information content of the estimated field.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1637889</AwardID>
+    <Investigator>
+      <FirstName>Dylan</FirstName>
+      <LastName>Shell</LastName>
+      <EmailAddress>dshell@cs.tamu.edu</EmailAddress>
+      <StartDate>08/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Suman</FirstName>
+      <LastName>Chakravorty</LastName>
+      <EmailAddress>schakrav@aero.tamu.edu</EmailAddress>
+      <StartDate>08/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas A&amp;M Engineering Experiment Station</Name>
+      <CityName>College Station</CityName>
+      <ZipCode>778454645</ZipCode>
+      <PhoneNumber>9798477635</PhoneNumber>
+      <StreetAddress>TEES State Headquarters Bldg.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8013</Code>
+      <Text>National Robotics Initiative</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8086</Code>
+      <Text>Natl Robotics Initiative (NRI)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

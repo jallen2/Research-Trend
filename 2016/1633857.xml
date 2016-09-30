@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: F: Open-World Foundations for Big Uncertain Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>432202</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Driven by the need to learn from vast amounts of text data, efforts throughout natural language processing, information extraction, databases, and AI are coming together to build large-scale knowledge bases. These systems continuously crawl the web to extract relational data from text, and have already populated their databases with millions of entities and billions of tuples. Large-scale probabilistic knowledge bases are revolutionizing the way we access data. They are now routinely used by scientists to build knowledge bases of publications, by law enforcement to extract information from the dark web, and by regular search engine users who find their results augmented with structured information. Such knowledge bases are inherently probabilistic: to go from raw text to structured data, a sequence of statistical machine learning techniques associate probabilities with database tuples. This project revisits the semantics underlying such systems, and provide a more adequate foundational framework. In particular, the closed-world assumption of probabilistic databases, that facts not in the database have probability zero, clearly conflicts with their everyday use, and obstructs the progress in this area.&lt;br/&gt;&lt;br/&gt;More specifically, this project develops a new semantic foundation based on the open-world assumption, that facts not in the database are possible, but have unknown probability. It designs the basic algorithms for query answering in this setting, both exact and approximate. Moreover, in a deep theoretical component, this project studies fundamental questions of data and domain complexity that are unique to open-world reasoning about big uncertain data. Finally it develops proof-of-concept applications in machine learning and data mining, and additional knowledge-representation layers that strengthen open-world reasoning. The developed semantics provide meaningful answers when some tuple probabilities are not precisely known. The developed algorithms allow for efficient query answering, even when reasoning about the open world, in time linear in the database size for tractable queries. This project provides a scientific leap at the fundamental, semantic level. It also provides a context for training undergraduate and graduate students in subjects spanning databases, artificial intelligence, theory, and machine learning, and will target the integration of probabilistic knowledge bases into computer science curricula.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1633857</AwardID>
+    <Investigator>
+      <FirstName>Guy</FirstName>
+      <LastName>Van den Broeck</LastName>
+      <EmailAddress>guyvdb@cs.ucla.edu</EmailAddress>
+      <StartDate>09/06/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900952000</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>11000 Kinross Avenue, Suite 211</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

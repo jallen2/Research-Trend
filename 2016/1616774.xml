@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Software-Defined Data Plane for Datacenters</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many popular cloud applications that power our daily lives, such as Facebook, Google, Amazon, and Twitter, spend a large fraction of their time performing network operations. Even supposedly computationally intensive applications such as parallel machine learning are often limited by communication performance. Datacenter network designers have been racing to keep up with this increased reliance on network usage, but they have had only limited success in achieving desirable system properties as they are often constrained by the lack of switch support for deploying new protocols.&lt;br/&gt;&lt;br/&gt;Fortunately, innovation in switch and network interface card (NIC) design is now focused on building not just faster but also more flexible packet processing devices. Whereas traditional switches and NICs typically provide functionality to route and forward packets, many upcoming switches have support for transforming the packet as well as performing computations on the packet before routing it towards its destination. These devices have the potential to revolutionize the use of networking devices within datacenters as they provide the ability to reconfigure packet processing and deploy new protocols.&lt;br/&gt;&lt;br/&gt;This project will investigate flexible packet processing functionality on NICs and switches and their potential for optimizing high performance networked systems inside the datacenter. This work provides new abstractions and building blocks for the use of flexible packet processing pipelines, while respecting the hardware constraints that will be associated with these technologies. The researchers will examine how the resulting data plane functionality can be used to implement resource allocation mechanisms inside the datacenter so as to enable congestion control, performance isolation, adaptive routing, and efficient load balancing. They will also examine implementing on the NICs and switches some of the packet processing traditionally done in end-host software. The goal is to show how and by how much flexible packet processing can benefit widely used datacenter applications and also provide guidance on what features that future iterations of the hardware should provide in order to significantly improve application performance.&lt;br/&gt;&lt;br/&gt;Broader Impact: Network-intensive datacenter applications are used by literally billions of people around the globe on a daily basis. By improving the efficiency of network operations, results from this project can dramatically reduce the cost of provisioning existing public services, like Wikipedia, as well as make it much cheaper for new public services to be developed. By enabling the deployment of more effective resource allocation protocols on flexible switches, this work also has the potential to provide substantial improvements to the networking performance within datacenters. The researchers will publicly release the developed software and enable a rich set of network protocols and high-performance datacenter applications.</AbstractNarration>
+    <MinAmdLetterDate>08/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1616774</AwardID>
+    <Investigator>
+      <FirstName>Xi</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>xi@cs.washington.edu</EmailAddress>
+      <StartDate>08/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Arvind</FirstName>
+      <LastName>Krishnamurthy</LastName>
+      <EmailAddress>arvind@cs.washington.edu</EmailAddress>
+      <StartDate>08/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

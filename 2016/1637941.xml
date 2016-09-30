@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NRI: Real-Time Semantic Computer Vision for Co-Robotics</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>719116</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project develops real-time object recognition algorithms that generate extensive semantic object descriptions as a side effect of recognition. This side-information includes perceived object costs, attributes (object properties), and affordances (actions afforded by objects). With these, the act of recognizing a "door knob" would automatically produce the information that this is a "flexible" object, "made of metal," which "can be grasped" and "can be twisted," but "cannot be eaten." For robotics, this information is sometimes more important than the recognition of the object itself. The project enables robots to perform zero shot learning, e.g. learn to recognize door knobs by simply being told that these are objects that "are flexible, made of metal, can be grasped and twisted but not eaten." The research has applicability in areas such as manufacturing, intelligent systems, assisted living, and homeland security. Educationally, the project provides an exciting opportunity for undergraduate research.&lt;br/&gt;&lt;br/&gt;This research develops new methods for top-down (task-driven) regularization of deep learning algorithms, though a combination of structural and loss-based regularizers. Structural regularizers constrain object and scene recognition models to guarantee speed and automatic generation of rich mid-level semantic (MLS) descriptions as a side effect of recognition. Loss-based regularizers penalize errors in the multiple semantic outputs of these models, enabling simultaneously high performance in object recognition, MLS predictions, and zero-shot learning. The resulting learning algorithms will endow robots with human-like abilities to infer rich MLS descriptions of objects and scenes as a "side effect" of object recognition and scene classification, in real-time. These contributions will be developed in the context of a new co-robotics problem, person-following unmanned aerial vehicles, where computer vision plays a mission critical role for tasks such as control and semantic motion planning but whose requirements in terms of speed and MLS inference are far superior to what is feasible today.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1637941</AwardID>
+    <Investigator>
+      <FirstName>Nuno</FirstName>
+      <LastName>Vasconcelos</LastName>
+      <EmailAddress>nuno@ece.ucsd.edu</EmailAddress>
+      <StartDate>08/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930934</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8013</Code>
+      <Text>National Robotics Initiative</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8086</Code>
+      <Text>Natl Robotics Initiative (NRI)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

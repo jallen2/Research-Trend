@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CICI: Data Provenance: Provenance-Based Trust Management for Collaborative Data Curation</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita Nikolich</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Data-driven science relies not only on statistics and machine learning, but also on human expertise. As data are being collected to tackle increasingly challenging scientific and medical problems, there is need to scale up the amount of expert human input (curation and, in certain cases, annotation) accordingly. This project addresses this need by developing collaborative data curation: instead of relying on a small number of experts, it enables annotations to be made by communities of users of varying expertise. Since the quality of annotations by different users will vary, novel quantitative techniques are developed to assess the trustworthiness of each user, based on their actions, and to distinguish trustworthy experts from unskilled and malicious users. Algorithms are developed to combine users' annotations based on their trustworthiness. Collaborative data curation will greatly increase the amount of human annotated data, which will, in turn, lead to better Big Data analysis and detection algorithms for the life sciences, medicine, and beyond.&lt;br/&gt;&lt;br/&gt;The central problems of collaborative data curation lie in the high variability in the quality of users' annotations, and variability in the form the data takes when they annotate it. The proposal develops techniques to take annotations made by different users over different views of data (such as an EEG display with filters and transformations applied to the signal), to use provenance to reason about how the annotations relate to the original data, and to reason about the reliability and trustworthiness of each user's annotations over this data. To accomplish this, the research first defines data and provenance models that capture time- and space-varying data; novel reliability calculus algorithms for computing and dynamically updating the reliability and trustworthiness of individuals, based on their annotations and how these compare to annotations from recognized experts and the broader community; and a high-level language called PAL that enables the researchers to implement and compare multiple policies. The researchers will initially develop and validate the techniques on neuroscience and time series data, within a 900+ user public data sharing portal (with 1500+ EEG and other datasets for which annotations are required). The project team later expands the techniques to other data modalities, such as imaging and genomics</AbstractNarration>
+    <MinAmdLetterDate>09/08/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1547360</AwardID>
+    <Investigator>
+      <FirstName>Zachary</FirstName>
+      <LastName>Ives</LastName>
+      <EmailAddress>zives@cis.upenn.edu</EmailAddress>
+      <StartDate>09/08/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Val</FirstName>
+      <LastName>Tannen</LastName>
+      <EmailAddress>val@cis.upenn.edu</EmailAddress>
+      <StartDate>09/08/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Susan</FirstName>
+      <LastName>Davidson</LastName>
+      <EmailAddress>susan@cis.upenn.edu</EmailAddress>
+      <StartDate>09/08/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sampath</FirstName>
+      <LastName>Kannan</LastName>
+      <EmailAddress>kannan@central.cis.upenn.edu</EmailAddress>
+      <StartDate>09/08/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8027</Code>
+      <Text>Cyber Secur - Cyberinfrastruc</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8089</Code>
+      <Text>Understanding the Brain/Cognitive Scienc</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

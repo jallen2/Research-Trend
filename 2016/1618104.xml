@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Enhancing Memory System Dependability by Integrity Checking</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>438500</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Memory system dependability is increasingly a concern as memory cell density and total capacity continue to increase. Recent field studies have shown that memory error rates are rising and memory errors have demonstrated correlation patterns. With these two trends, current memory error protection schemes are no longer sufficient for server computers. This project explores a unique error protection scheme called MemGuard, which is based on memory integrity checking, to enhance memory error protections for server computers as well as to provide a cost- and energy-efficient solution for personal and mobile computers. The research may significantly improve the dependability of computer systems without incurring high cost or energy overhead. The education and outreach activities will encourage minority and women students to get involved in the research, and will include interactions with middle/high school students and teachers.&lt;br/&gt;&lt;br/&gt;The MemGuard scheme checks the consistency between memory reads and memory writes using hash-based signatures to detect memory errors. It can detect memory cell errors with a negligible rate of false negative. Compared to SECDED (single error correcting double error detection) ECC and SDDC (single data device correction) schemes, it is much stronger in multi-bit error detection and with negligible cost and energy overhead. It does not correct errors immediately as the other two schemes do; instead, it may reply on OS checkpointing or program restarting for error recovery. The project will fully investigate the design of MemGuard, evaluate the strength of MemGuard with realistic DRAM error modes, extend it to multiprocessors and I/O rich environments, develop a similar integrity-based scheme for processor/memory communication error protection, and combine MemGuard with existing error protection schemes. The project will also optimize the design and implementation of the hash functions of MemGuard, combine MemGuard with selection error protection, and explore efficient checkpointing strategies for improved efficiency.</AbstractNarration>
+    <MinAmdLetterDate>06/30/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618104</AwardID>
+    <Investigator>
+      <FirstName>Arun</FirstName>
+      <LastName>Somani</LastName>
+      <EmailAddress>arun@iastate.edu</EmailAddress>
+      <StartDate>06/30/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Zhao</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>zzhang@iastate.edu</EmailAddress>
+      <StartDate>06/30/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

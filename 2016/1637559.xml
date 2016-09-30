@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AitF: Fast and Accurate Memristor-Based Algorithms for Social Network Analysis</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>560784</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The area of computational social network analysis includes fundamental problems such as predicting the spread of information or disease, detecting communities in a population, and identifying missing links in an incomplete network. Common techniques for solving such problems require matrix-vector multiplications, a computationally-expensive mathematical operation. If performed at the software level, such multiplications can be prohibitively slow, particularly for the large-scale networks that are becoming increasingly prevalent in real applications. Instead, the PIs will perform these multiplications at the hardware level by using the memristor device, a newly invented chip component. In this project, the PIs will develop scalable, efficient, and effective memristor-based algorithms for problems in network analysis. Such algorithms will have a clear impact across scientific disciplines, as well as on tools used in practice. This project bridges the two areas of hardware and algorithms, and provides excellent topics for graduate student researchers, who the PIs will recruit from a diverse student body, including women and other underrepresented groups. Additionally, the research developed in this project will be incorporated into coursework taught by the PIs at Syracuse University. &lt;br/&gt;&lt;br/&gt;The project will investigate the use of memristors in developing effective, scalable algorithms for social network analysis, with potentially major effects both on research and practice. One can assemble memristors into a crossbar array, and by effectively setting and modifying the resistances of the memristors (which can be done in real-time), this array can represent a matrix. By applying proper voltages at the inputs of the array, one can perform extremely fast matrix-vector multiplication at the hardware level. The resistances can be set in parallel in O(N) time, and the matrix-vector multiplication itself can be done in O(1) time. Even for large matrices which must be partitioned to fit on the crossbar array hardware, one can expect running time reductions of multiple orders of magnitude, allowing for fast, potentially real-time, network analysis. The project will consider four major topics: (1) Eigenvalue and eigenvector finding, (2) Information spread in networks, (3) Pathfinding and prediction of missing links, and (4) Community detection. Using these topics as reference points, the PIs will develop a suite of algorithms, general techniques, and theoretical analyses with broad applicability both inside and outside of social network analysis. These devices can be potentially utilized for solving many critical problems and applications to achieve transformative accelerations in speed, enhancements in scalability, and reductions in computational complexity and power/energy consumption.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1637559</AwardID>
+    <Investigator>
+      <FirstName>Yanzhi</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>ywang393@syr.edu</EmailAddress>
+      <StartDate>08/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sucheta</FirstName>
+      <LastName>Soundarajan</LastName>
+      <EmailAddress>susounda@syr.edu</EmailAddress>
+      <StartDate>08/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Syracuse University</Name>
+      <CityName>SYRACUSE</CityName>
+      <ZipCode>132441200</ZipCode>
+      <PhoneNumber>3154432807</PhoneNumber>
+      <StreetAddress>OFFICE OF SPONSORED PROGRAMS</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7239</Code>
+      <Text>Algorithms in the Field</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

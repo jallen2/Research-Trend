@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Synergy: Collaborative: CPS-Security: End-to-End Security for the Internet of Things</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>375000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ralph Wachter</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computation is everywhere. Greeting cards have processors that play songs. Fireworks have processors for precisely timing their detonation. Computers are in engines, monitoring combustion and performance. They are in our homes, hospitals, offices, ovens, planes, trains, and automobiles. These computers, when networked, will form the Internet of Things (IoT). The resulting applications and services have the potential to be even more transformative than the World Wide Web. The security implications are enormous. Internet threats today steal credit cards. Internet threats tomorrow will disable home security systems, flood fields, and disrupt hospitals. The root problem is that these applications consist of software on tiny low-power devices and cloud servers, have difficult networking, and collect sensitive data that deserves strong cryptography, but usually written by developers who have expertise in none of these areas. The goal of the research is to make it possible for two developers to build a complete, secure, Internet of Things applications in three months.&lt;br/&gt;&lt;br/&gt;The research focuses on four important principles. The first is "distributed model view controller." A developer writes an application as a distributed pipeline of model-view-controller systems. A model specifies what data the application generates and stores, while a new abstraction called a transform specifies how data moves from one model to another. The second is "embedded-gateway-cloud." A common architecture dominates Internet of Things applications. Embedded devices communicate with a gateway over low-power wireless. The gateway processes data and communicates with cloud systems in the broader Internet. Focusing distributed model view controller on this dominant architecture constrains the problem sufficiently to make problems, such as system security, tractable. The third is "end-to-end security." Data emerges encrypted from embedded devices and can only be decrypted by end user applications. Servers can compute on encrypted data, and many parties can collaboratively compute results without learning the input. Analysis of the data processing pipeline allows the system and runtime to assert and verify security properties of the whole application. The final principle is "software-defined hardware." Because designing new embedded device hardware is time consuming, developers rely on general, overkill solutions and ignore the resulting security implications. The data processing pipeline can be compiled into a prototype hardware design and supporting software as well as test cases, diagnostics, and a debugging methodology for a developer to bring up the new device. These principles are grounded in Ravel, a software framework that the team collaborates on, jointly contributes to, and integrates into their courses and curricula on cyberphysical systems.</AbstractNarration>
+    <MinAmdLetterDate>08/17/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/21/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1505684</AwardID>
+    <Investigator>
+      <FirstName>Prabal</FirstName>
+      <LastName>Dutta</LastName>
+      <EmailAddress>prabal@eecs.umich.edu</EmailAddress>
+      <StartDate>08/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8225</Code>
+      <Text>SaTC Special Projects</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8235</Code>
+      <Text>CPS-Synergy</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: SaTC: Robust and Platform Independent Recovery of Design Features from C++ Binaries</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>175000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computer software play a ubiquitous role in the modern way of life. Attacks against vulnerable software lead to compromise and loss of financial and personal information. While the application stores and the software manufacturers may strive to provide vulnerability-free software, the onus to defend against attacks and ensure integrity of one?s personal information and resources is on the end-user. However, due to the lack of source code, (1) end users are unable to identify and fix vulnerabilities in the software they run, and (2) the open source community is unable to detect violation of software licensing terms by closed source software. This project aims to recover design information from binaries in a platform-neutral and obfuscation resilient manner. As a direct consequence, this project promises advancement in end-user-level security, and for the first time, facilitates detection of design-level plagiarism in software. &lt;br/&gt;&lt;br/&gt;This project aims to reconstruct a design profile of a C++ binary by leveraging the unavoidable information leakage that occurs due to adherence to Application Binary Interface (ABI) specification. It takes advantage of the platform-independent nature of ABI specification to offer both platform neutrality and obfuscation resilience in design recovery. First, traditional static and dynamic binary analysis approaches are employed in order to extract design elements and design pertinent features. Then, theorem proving is utilized to establish relationship between various design-level program entities. This project views adherence to ABI as a source of design leakage, exploits the leakage to recover design information, and investigates ways to minimize the leakage while maintaining interoperability through adherence.&lt;br/&gt;&lt;br/&gt;The results from this research will be disseminated through peer-reviewed publications and software release. Based on the research, new course materials and professional training tutorials will be developed, to help future security engineers and researchers gain in-depth knowledge about design recovery.</AbstractNarration>
+    <MinAmdLetterDate>04/25/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/25/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1566532</AwardID>
+    <Investigator>
+      <FirstName>Aravind</FirstName>
+      <LastName>Prakash</LastName>
+      <EmailAddress>aprakash@binghamton.edu</EmailAddress>
+      <StartDate>04/25/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Binghamton</Name>
+      <CityName>BINGHAMTON</CityName>
+      <ZipCode>139026000</ZipCode>
+      <PhoneNumber>6077776136</PhoneNumber>
+      <StreetAddress>4400 VESTAL PKWY E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>026Y</Code>
+      <Text>CRII CISE Research Initiation</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>025Z</Code>
+      <Text>SaTC: Secure and Trustworthy Cyberspace</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

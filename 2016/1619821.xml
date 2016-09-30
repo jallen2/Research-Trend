@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Reduced order models for imaging and inversion with waves and diffusive fields</AwardTitle>
+    <AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>64173</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The project's focus is on development of novel techniques for computational inversion and imaging problems arising in medical imaging, geophysical exploration, nondestructive evaluation and testing and other applications where the internal structure and properties of objects must be determined without direct access to the object's interior. The object is subjected to probing fields and the measurements of its response are made. Electromagnetic fields and acoustic waves are most often used for probing. Conventionally an inverse problem of determining an object's properties from the measurements is formulated as a minimization of a misfit between the measured data and the prediction of a forward model. Such problems are notoriously difficult to solve due to a highly nonlinear dependence of measurements on model properties. We propose an approach to inversion and imaging based on the theory of reduced order models (ROMs). This approach aims to alleviate the nonlinearity of the inverse problem thus making it much easier to solve. It allows one to obtain images free from various types of artifacts that conventional methods often struggle to remove. &lt;br/&gt;&lt;br/&gt;The proposed framework is general enough and can be applied to inversion and imaging both with waves and in diffusive regimes. First, a ROM is constructed as a projection of the partial differential equation (PDE) operator on subspaces of PDE solution snapshots either in the time or the frequency domain. This ensures that the ROM response interpolates the measured data. Even though neither the PDE operator nor the solution snapshots are directly accessible in inversion, projections can be computed from the measured data using the tools of linear algebra. After the ROM is constructed it may be used in at least two ways. First, it can be used in an imaging algorithm. Since the ROM is a projection of the PDE operator, an image can be constructed from the back-projection of a ROM. Model reduction takes into account nonlinear interactions between the reflectors and thus allows one to eliminate artifacts caused by multiple reflections. This is a vast improvement over conventional imaging approaches that are often based on linearizations (Born, Kirchhoff) which miss or misinterpret the nonlinear effects. Second, the ROM can be used to reformulate conventional optimization problems to minimize ROM misfit instead of data misfit. Such optimization objective is expected to be more convex which makes inversion less prone to local minima. Another consequence is accelerated convergence. The following specific aspects of ROMs for inversion and imaging are proposed: (1) new imaging functionals;(2) backscattering and non-collocated source/receiver data measurement settings; (3) nonlinear data preprocessing; (4) reformulations of conventional optimization approaches; (5) non-iterative inversion methods.</AbstractNarration>
+    <MinAmdLetterDate>06/15/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/15/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1619821</AwardID>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Mamonov</LastName>
+      <EmailAddress>mamonov@math.uh.edu</EmailAddress>
+      <StartDate>06/15/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Houston</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>772042015</ZipCode>
+      <PhoneNumber>7137435773</PhoneNumber>
+      <StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

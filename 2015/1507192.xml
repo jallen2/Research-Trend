@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Back-Channel Communication Embedded in Standard Compliant Wireless Packets</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>330000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chengshan Xiao</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In modern Internet-of-Things (IoT) applications, wireless communication is typically the dominant factor in overall power consumption. Enabling energy-efficient wireless communication, therefore, is the most critical issue to prolong the lifespan of ultra-low power (ULP) IoT devices and eventually realize perpetual operation only powered by harvested ambient energy. This program presents innovative "back-channel" communication techniques for ultra-low power devices, which could not afford standard WiFi or Bluetooth Low Energy (BLE) based wireless communication due to their extremely limited power budget. The concept of back-channel communication will make it possible to interconnect heterogeneous ULP IoT devices through existing WiFi or BLE networks even if these ULP IoT devices are incapable of decoding regular WiFi or BLE messages. In addition, WiFi and BLE standard compliant nodes will benefit from the back-channel technique to significantly enhance their power efficiency without employing a proprietary wakeup signal transmitter and/or dedicated channel resources. Novel concepts such as WiFi-on-demand, replacing conventional always-on WiFi Access Points, can be realized by the outcomes of the proposed research. The results of this program will be disseminated in the form of Web applications and software packages so that students, researchers and industry experts can explore other applications utilizing the concept of back-channel communication embedded in ubiquitous WiFi and/or BLE standard packets. The proposed research could make direct impact on the next wireless standardization to adopt more flexible packet structures to enrich use-cases of back-channel communication.&lt;br/&gt;&lt;br/&gt;The proposed back-channel signaling embedded in WiFi and BLE messages has unique properties that are easily detectable by ULP receivers consuming only 10s of micro-Watts or even less. The proposed scheme eliminates the need for specialized transmitter hardware or dedicated channel resources for embedded back-channel signal transmission. Instead, carefully sequenced data bit streams will generate back-channel messages from already-deployed WiFi and BLE infrastructure without any hardware modification. This WiFi and BLE back-channel communication is feasible in various modulation formats that are easily decodable by non-WiFi / non-BLE IoT devices. This research program will demonstrate multiple types of ULP back-channel receiver integrated circuits (ICs) that include the RF and analog frontend as well as the baseband signal processing. A complete ULP wakeup scheme will be demonstrated with fabricated back-channel receiver ICs interacting with commercial off-the-shelf WiFi and BLE devices. The IC design goal is to achieve 1/1000x lower power consumption than a commercial low-power WiFi receiver and 1/200x lower power than a commercial Bluetooth receiver. A generalized back-channel communication framework will be proposed to expand the back-channel use cases beyond WiFi and BLE standards.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/14/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1507192</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Wentzloff</LastName>
+      <EmailAddress>wentzlof@umich.edu</EmailAddress>
+      <StartDate>08/05/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Hun-Seok</FirstName>
+      <LastName>Kim</LastName>
+      <EmailAddress>hunseok@umich.edu</EmailAddress>
+      <StartDate>08/05/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7564</Code>
+      <Text>COMMS, CIRCUITS &amp; SENS SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>153E</Code>
+      <Text>Wireless comm &amp; sig processing</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

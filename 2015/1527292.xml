@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Manifold optimization algorithms for protein-protein docking</AwardTitle>
+    <AwardEffectiveDate>07/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>449997</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mitra Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proteins are the major building blocks of the cell. Many proteins perform their function by interacting with other proteins. In a typical cell hundreds of thousands of different protein interactions take place. Characterizing these interactions helps elucidate how living organisms function at the molecular level, contributes towards the development of treatments against diseases such as cancer and facilitates the design of novel bio-inspired materials. Detailed understanding of protein interaction mechanisms requires determining the three-dimensional structures of protein-protein complexes. These structures are very difficult to obtain using experimental techniques, thus, computational approaches can be very useful. The team of Kozakov, Paschalidis, Vajda and Vakili has developed algorithms and software that, according to the worldwide evaluation experiment CAPRI (Critical Assessment of Predicted Interactions), are among the best for predicting the structures of protein-protein complexes. These methods have been implemented in the fully automated docking server ClusPro, which is free for academic use, and has over 10,000 regular users. However, the current tools are computationally too demanding to serve such a large user base or to model protein interactions on a genomic scale. The goal of this project is to use rigorous geometrical and biophysical principles to substantially improve the efficiency of docking algorithms while retaining the accuracy of the generated models. Faster modeling of protein complexes will lead to better understanding of fundamental biological questions at both the cellular and system levels and will facilitate biochemical, biomedical, and biotechnology research. In addition, the methods will be used in training graduate students and teaching undergraduate and high school students.&lt;br/&gt;&lt;br/&gt;The protein-docking problem is to computationally determine the 3-dimensional (3D) structure of the complex formed by two unbound proteins, given their individual 3D structures, by finding the global minimum of an energy-based scoring function. If one of the proteins, considered the receptor, is in fixed position and orientation, the search space includes the 6D rotational/translational space of the other protein, considered the ligand, as well as additional degrees of freedom that represent the flexibility of the two proteins. Since the energy function has a large number of local minima separated by high barriers, the minimization problem is extremely challenging. The proposed project aims to draw on the innovative manifold and optimization-based approaches that the group has developed for various components of docking protocols in order to (i) put the algorithms on a solid theoretical footing, (ii) study their performance and behavior more rigorously, and (iii) develop generalizable features of the algorithms that can be applied to other application domains. The work will focus on four key algorithms. First, the Fast Fourier Transform on Manifolds (MFFT) will be studied, which enables global systematic search in the space of rigid body motions of one protein with respect to the other. The computational complexity of MFFT will be analyzed and numerical performance tests for different bandwidth settings will be conducted. Second, underestimation-based sampling techniques will be explored, acting on the same manifold and targeting a medium-range search to refine MFFT solutions. A variety of underestimators will be developed and tested. Third, manifold-based local optimization approaches for flexible protein optimization will be developed. In each case, different manifold parameterizations and different minimization approaches will be compared. Finally, a new formulation of side-chain packing and other problems arising in protein docking will be developed using principles from the theory of Markov Random Fields. In this context, different solution approaches will be developed involving the Maximum Weight Independent Set (MWIS) problem and generalized belief propagation. The algorithms developed will be released as an open source software library to be used both for protein docking and in other application domains.</AbstractNarration>
+    <MinAmdLetterDate>07/07/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/07/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527292</AwardID>
+    <Investigator>
+      <FirstName>Sandor</FirstName>
+      <LastName>Vajda</LastName>
+      <EmailAddress>vajda@bu.edu</EmailAddress>
+      <StartDate>07/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Pirooz</FirstName>
+      <LastName>Vakili</LastName>
+      <EmailAddress>vakili@bu.edu</EmailAddress>
+      <StartDate>07/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ioannis</FirstName>
+      <LastName>Paschalidis</LastName>
+      <EmailAddress>yannisp@bu.edu</EmailAddress>
+      <StartDate>07/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dmytro</FirstName>
+      <LastName>Kozakov</LastName>
+      <EmailAddress>midas@bu.edu</EmailAddress>
+      <StartDate>07/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7931</Code>
+      <Text>COMPUTATIONAL BIOLOGY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

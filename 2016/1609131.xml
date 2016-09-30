@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Distributed Control for Demand Dispatch: The Creation of Virtual Energy Storage from Flexible Loads</AwardTitle>
+    <AwardEffectiveDate>07/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>380000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eyad Abed</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Ostensibly free energy from the wind and the sun comes with unwanted volatility, such as ramps with the setting sun or with gusts of wind. Controllable generators have managed supply-demand balance of power in the past, but this is becoming increasingly costly with increasing penetration of renewable energy. It has been argued since the 1980s that consumers should be put in the loop, with the idea that "demand response" can be managed to help to create the needed supply-demand balance. However, consumers use power for a reason, and expect some guarantees on the quality of service (QoS) they receive. For example, the temperature in a building or refrigerator must remain within strict bounds. Moreover, the behavior of some consumers is unpredictable, while the grid operator requires predictable controllable resources to maintain reliability. The goal of this project is to create a science for "demand dispatch," which is virtual energy storage using flexible loads. A major outcome will be the creation of resources for grid regulation that are as reliable and responsive as giant fleets of batteries. By design, the impact to consumers of electricity will be undetectable in many cases; strict bounds on QoS will be maintained in all cases. The potential economic impact of these new resources is enormous. California plans to spend billions of dollars on batteries that will provide only a small fraction of the balancing services that can be obtained using demand dispatch. The potential impact of developing this methodology and associated technology is no less than a sustainable energy future becoming possible with the right mix of infrastructure and control systems.&lt;br/&gt;&lt;br/&gt;The goal of this project is to create virtual energy storage resources via demand dispatch to be used for grid-level regulation, ramping, peak smoothing, and even recovery from contingencies such as generation faults, while ensuring that QoS to consumers obeys strict constraints. Demand dispatch can only be realized by devising distributed control algorithms that meet multiple, potentially conflicting objectives: the grid needs high quality resources for regulation; the consumer expects that water supply is not interrupted, fish in the refrigerator stays fresh, and the climate within a building remains within desired bounds. The project aims to create a science for demand dispatch based on these essential ingredients:&lt;br/&gt;&lt;br/&gt;(i) "Local intelligence" is required to ensure local QoS constraints are met, while simultaneously providing reliable service to the grid. This is realized through local stochastic control at each load as part of an overall distributed control architecture. &lt;br/&gt;&lt;br/&gt;(ii) Capacity of service to the grid is a function of QoS constraints. The nature of these relationships will be investigated in part through the creation of prototype hardware. One outcome of these experiments will be the creation of load simulation code that will be used as part of the project, and shared with others working in this field.&lt;br/&gt;&lt;br/&gt;(iii) Insight from cost/QoS tradeoff curves will be applied in the creation of market incentives for consumer engagement.&lt;br/&gt;&lt;br/&gt;Topic (i) presents significant scientific challenges. This will require the development of stochastic control / Markov Decision Process techniques that will be a focus of the project. Analysis is based on related ideas from information theory and extensions of concepts from the theory of general state space Markov models. Grid-level analysis requires concepts from deterministic control theory such as passivity, along with traditional power systems technology. The scientific foundations to be developed have applications beyond power. The proposed computational tools for constructing local optimal policies are novel, and applicable to general classes of stochastic control models. The distributed control architecture is also likely to find applications in many fields.</AbstractNarration>
+    <MinAmdLetterDate>07/14/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/14/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1609131</AwardID>
+    <Investigator>
+      <FirstName>Sean</FirstName>
+      <LastName>Meyn</LastName>
+      <EmailAddress>meyn@ece.ufl.edu</EmailAddress>
+      <StartDate>07/14/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Florida</Name>
+      <CityName>GAINESVILLE</CityName>
+      <ZipCode>326112002</ZipCode>
+      <PhoneNumber>3523923516</PhoneNumber>
+      <StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>155E</Code>
+      <Text>Electric power networks</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

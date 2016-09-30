@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Collaborative Research: Ultra-Responsive Architectures for Mobile Platforms</AwardTitle>
+    <AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2017</AwardExpirationDate>
+    <AwardAmount>115228</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Conventional microprocessors are designed primarily for sustained&lt;br/&gt;performance; they can operate at near-peak performance essentially&lt;br/&gt;indefinitely until their energy source is exhausted. In battery and&lt;br/&gt;cooling constrained environments such as mobile devices, sustained power&lt;br/&gt;(and, consequently, peak performance) must be limited to at most a few&lt;br/&gt;watts so that the device can dissipate heat using only passive&lt;br/&gt;convection. However, many interactive mobile applications (such as&lt;br/&gt;handwriting/speech recognition or image-based search) instead call for&lt;br/&gt;bursts of intense computation in response to user input, creating the&lt;br/&gt;need for a new ultra-responsive operating regime: rather than limit peak&lt;br/&gt;power assuming sustained operation, systems should instead exploit heat&lt;br/&gt;storage to enable brief computation bursts that greatly exceed&lt;br/&gt;sustainable thermal limits without overheating. This project&lt;br/&gt;investigates an approach called "computational sprinting", the central&lt;br/&gt;essence of which is to compute at unsustainable rates but only briefly&lt;br/&gt;so that temperatures do not reach unsafe levels.&lt;br/&gt;&lt;br/&gt;The goal of this project is to address the architectural, thermal,&lt;br/&gt;electrical, and software barriers to ultra-responsiveness via&lt;br/&gt;computational sprinting. In particular, the project explores: (1)&lt;br/&gt;architectures and memory systems that sprint via parallelism (activating&lt;br/&gt;tens of reserve functional units/cores) and voltage boosting&lt;br/&gt;(overdriving cores for single-thread performance) while facilitating&lt;br/&gt;fast burst onsets; (2) thermal designs that improve thermal response&lt;br/&gt;behavior to enable longer and more intense sprints; (3) mobile-optimized &lt;br/&gt;electrical designs that provide stable supply voltages&lt;br/&gt;despite current surges of an order-of-magnitude or more; and &lt;br/&gt;(4) software mechanisms that explicitly manage limited thermal budgets &lt;br/&gt;and anticipate and stage data needed during the sprint. The project&lt;br/&gt;includes the fabrication of an experimental testbed to approximate the&lt;br/&gt;computational, thermal and electrical capabilities of a future many-core&lt;br/&gt;mobile device and to provide practical experience with sprinting.&lt;br/&gt;Project impacts include (1) developing and advancing techniques for&lt;br/&gt;improving the responsiveness of mobile devices and (2) integrating the&lt;br/&gt;discoveries into a new cross-departmental course on computer system&lt;br/&gt;design.</AbstractNarration>
+    <MinAmdLetterDate>01/27/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/27/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1623834</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Wenisch</LastName>
+      <EmailAddress>twenisch@umich.edu</EmailAddress>
+      <StartDate>01/27/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

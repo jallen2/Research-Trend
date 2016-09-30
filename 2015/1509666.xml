@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Contingency-Constrained Unit Commitment with High Penetration of Intermittent Renewables</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>360000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Reliability is a major concern for power systems, and engineers have been striving hard to keep lights on under all kinds of uncertainty, including contingencies caused by a sudden failure of a generator or a transmission line. The North American Electric Reliability Corporation (NERC) N-1 rule requires that no such single failure should result in system infeasibility, and this rule has been embedded in certain versions of the unit commitment process. The resulting contingency-constrained unit commitment(CCUC) is extremely complex, and the issue is now compounded by the drastic increase in intermittent renewables such as wind or solar. In Spain, for example, it is not uncommon that a drop of wind generation within just a few hours is equivalent to the shutdown of four nuclear units, and this has presented major challenges to system operators. Consideration of contingencies in the presence of intermittent renewables is thus a critical and urgent issue. In collaboration with ISO-NE, Southern California Edison and Alstom Grid, this proposal is on CCUC with high penetration of intermittent renewables. The problem is challenging in view of different types of uncertainties and their magnitudes, the large number of contingencies, the combinatorial nature of mixed-integer optimization, and the largeness of power systems. Our focus will be on novel formulations of interval CCUC, and on advanced optimization methods. The proposed research will have the broader impacts on managing other uncertainties, e.g., N-2 contingencies, and on other complex problems such as microgrid energy optimization. For these problems, difficulties associated with uncertain weather, electricity demand and microgrid-associated intermittent renewables can be modeled by the interval formulation. The resulting mixed-integer linear optimization problems can then benefit from our advanced optimization methods. Furthermore, the research will educate graduate and undergraduate students and professionals through courses, seminars, publications and online materials. It will also benefit high school students through their teachers? involvement in the daVinci summer project at UConn. The participations of under-represented groups will be actively sought.&lt;br/&gt;&lt;br/&gt;Specifically, Task 1 is on formulating CCUC for the co-optimization of energy and reserve considering N-1 contingencies and intermittent renewables. The novel idea lies in using intervals to describe transmission contingencies based on generation shift factors (GSFs), as opposed to analyzing contingencies one at a time. A line flow is a weighted sum of net nodal injections, where weights are GSFs. When a transmission line is tripped, GSFs will be changed. Various transmission contingencies can thus be described by varying values of GSFs, and be modeled by intervals. Conservativeness of this modeling will be alleviated through shrinking ranges of GSFs based on identifying and eliminating redundant contingency transmission constraints, and through improving interval arithmetic, e.g., by using affine arithmetic. Generator contingencies and intermittent renewables will then be incorporated within the interval optimization framework. To effectively solve the problem, Task 2 is on developing a new generation of optimization methods. The key is to synergistically integrate our latest surrogate Lagrangian relaxation(SLR), which exploits separability, with branch-and-cut, which exploits linearity. While SLR requires iterations, by novel exploitation of the invariant nature of subproblem convex hulls across iterations, the overall CPU time and solution quality will be drastically improved. In addition, parallel implementation of our approach will be explored. The method will be tested using realistic data sets from ISO-NE and CAISO.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1509666</AwardID>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Luh</LastName>
+      <EmailAddress>Peter.Luh@uconn.edu</EmailAddress>
+      <StartDate>08/06/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Connecticut</Name>
+      <CityName>Storrs</CityName>
+      <ZipCode>062691133</ZipCode>
+      <PhoneNumber>8604863622</PhoneNumber>
+      <StreetAddress>438 Whitney Road Ext.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>155E</Code>
+      <Text>Electric power networks</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

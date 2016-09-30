@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Implementation and evaluation of the unified parameterization in NCAR Community Atmospheric Model</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>449437</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06020106</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Atmospheric &amp; Geospace Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eric T. DeWeaver</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Atmospheric global circulation models (CGMs) used for weather prediction and climate simulation typically divide the atmosphere into a grid on which quantities like temperature and pressure take on a single value to represent mean conditions across each grid cell. For reasons of computational expense GCMs have traditionally used grid spacings of a hundred kilometers or more, at which it is not possible to represent individual clouds or even large cloud systems. Cumulus clouds, which produce intense precipitation and have other important effects, are represented indirectly in these models by convective parameterizations, which attempt to capture their aggregate behavior over a grid cell. With increasing computer power it has become possible to run GCMs at resolutions high enough to enter the "gray zone", in which some portion of the motions of the largest cumulus ensembles is explicitly represented on the model grid, but the smaller clouds must still be represented indirectly through convective parameterization. The goal of the work performed here is to develop a parameterization which adjusts automatically and seamlessly as grid spacing decreases and a greater portion of the cumulus activity is resolved explicitly. At coarser resolutions the parameterization represents the entire spectrum of cloud sizes and motions, but at fine resolutions the parameterization effectively shuts itself off and allows the clouds to be explicitly simulated. The scheme is called the "unified parameterization" because it unifies the treatment of clouds between fine resolution cloud resolving models (CRMs) and coarse-scale GCMs.&lt;br/&gt;&lt;br/&gt;The unified parameterization is implemented in two models, one a CRM with a limited regional domain which is capable of explicit cloud simulation. Reference simulations with a resolution of 1-2km are performed, and these are compared to simulations at progressively coarser resolutions using the unified parameterization. The simulations assess the extent to which the unified scheme mimics the behavior of the fine-resolution simulation and approximates it more faithfully as resolution increases. These simulations are meant to test and develop the unified parameterization at the fine-scale end of the gray zone. The other is a GCM, the Community Atmosphere Model (CAM), and experiments with this model explore the behavior of the parameterization on the coarse-scale side of the zone.&lt;br/&gt;&lt;br/&gt;The work has broader impacts due to the potential of the unified parameterization to improve models used for weather forecasting and for anticipating the likely consequences of climate change. Deficiencies in cumulus parameterization are a persistent source of bias in weather and climate models, and diminish their value for research and operational applications. Moreover, the issue of mixed implicit-explicit cloud representation addressed in the work will become increasingly important as higher resolutions are adopted for weather and climate models. The use of CAM, a freely available model developed by and for the research community, as a testbed for the scheme enables community access to results of the research. In addition, the project will support and train a graduate student, thereby supporting the next generation of researchers in model development. The project is a continuation of research begun with the support of the Center for Multiscale Modeling of Atmospheric Processes (CMMAP), an NSF Science and Technology Center.</AbstractNarration>
+    <MinAmdLetterDate>06/17/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/17/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1538532</AwardID>
+    <Investigator>
+      <FirstName>Minoru</FirstName>
+      <LastName>Chikira</LastName>
+      <EmailAddress>mchikira@atmos.colostate.edu</EmailAddress>
+      <StartDate>06/17/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Randall</LastName>
+      <EmailAddress>randall@atmos.colostate.edu</EmailAddress>
+      <StartDate>06/17/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Colorado State University</Name>
+      <CityName>Fort Collins</CityName>
+      <ZipCode>805232002</ZipCode>
+      <PhoneNumber>9704916355</PhoneNumber>
+      <StreetAddress>601 S Howes St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>5740</Code>
+      <Text>CLIMATE &amp; LARGE-SCALE DYNAMICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

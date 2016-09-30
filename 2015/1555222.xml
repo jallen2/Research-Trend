@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Numerical Methods For Liquid Crystals And Their Optimal Design</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2021</AwardExpirationDate>
+    <AwardAmount>40200</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Padmanabhan Seshaiyer</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Liquid crystals are commonplace in modern technological devices, and are most famously used for their optical properties in electronic displays (for example, LCDs). What makes them so useful is that they are easily manipulated and controlled by applying voltages or magnetic fields. Moreover, liquid crystals can interact with fine-scale "material particles." Thus, liquid crystals enable the fine-scale manipulation of matter. The goal of this research project is to create new mathematical methods/algorithms for simulating liquid crystal phenomena, and for designing new materials that utilize liquid crystals. In other words, the research will provide the groundwork for developing functionalized and switchable materials that are "driven" by liquid crystal physics. The research will impact local communities, education, and liquid crystal scientists: (i) Middle School Science Fair Projects. The PI will mentor science fair projects on liquid crystals at minority serving middle schools (the visual appeal of liquid crystals makes them ideal for project topics). PI will involve post-docs and graduate students in the mentoring. (ii) Public Library Engagements. PI will interact with middle/high school students through local libraries by creating a "sit-with-a-scientist" program. Each session takes place at a library branch location and includes a short, introductory presentation followed by hands-on activities to allow the students to actively learn about the physics and mathematics of liquid crystals. PI will involve post-docs and graduate students by having them assist during the sessions. (iii) Education. PI will continue to mentor undergraduates through REUs and senior projects, and create a graduate course "Computational Methods For Liquid Crystals" based on this research. (iv) Open Software. PI will create software implementations, tutorials, and demos of the research.&lt;br/&gt;&lt;br/&gt;The research will create new mathematical algorithms to correctly and efficiently simulate liquid crystal (LC) phenomena above the scale of molecules. Current algorithms do not do this. They either make ad-hoc changes to the underlying model for mathematical convenience, or they are expensive to compute (or both). Efficiency is crucial to facilitate "plugging" these methods into high level design and optimization procedures for, say, material design. Molecular simulations of LCs are too expensive for iterative design work. The Q-tensor model is better, but can still be expensive and hard to solve. The research does the following: (i) creates new methods for the Q-tensor model that are cheaper to solve and more faithful to the physical model by taking advantage of the discrete maximum principle (DMP); (ii) extend our method to handle arbitrary geometry through a "cut" finite element method (cutFEM); (iii) extend our cutFEM to do optimal shape design of LC systems, including self-assembly of colloidal inclusions. The research will create new methods to simulate and optimize liquid crystal systems that capitalize on delicate mathematical tools, such as Gamma-convergence and the DMP. This fits well within our core expertise, such as prior work in LCs, 3-D mesh generation/implementation, multi-physics geometric flows, and shape optimization. Consulting with LC modeling experts will help validate our results. An added benefit of the research is that it will further the development of finite element methods for non-linear degenerate partial differential equations, and combine shape optimization with cutFEMs.</AbstractNarration>
+    <MinAmdLetterDate>01/20/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/20/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1555222</AwardID>
+    <Investigator>
+      <FirstName>Shawn</FirstName>
+      <LastName>Walker</LastName>
+      <EmailAddress>walker@math.lsu.edu</EmailAddress>
+      <StartDate>01/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Louisiana State University &amp; Agricultural and Mechanical College</Name>
+      <CityName>Baton Rouge</CityName>
+      <ZipCode>708032701</ZipCode>
+      <PhoneNumber>2255782760</PhoneNumber>
+      <StreetAddress>202 Himes Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8048</Code>
+      <Text>Division Co-Funding: CAREER</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8990</Code>
+      <Text>Optics and Photonics</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

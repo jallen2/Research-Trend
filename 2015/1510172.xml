@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>High-dimensional M-estimation: Understanding risk, improving performance and assessing resampling</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>247381</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The nature of datasets that scientists in academia or industry are currently working with is changing at a very rapid pace. The data is more complex, larger and higher-dimensional than it has ever been before. A lot of the methods used in practice are based on the idea that they are somehow optimal, in terms of measurement accuracy or prediction of future outcomes, at least for certain models of data generating mechanism. A most widely applied and time-honored principle of data analysis is the use of so-called "maximum likelihood methods". It has recently been discovered by the PI and collaborators that in a setting often encountered with modern and large datasets, these maximum likelihood methods are suboptimal and can be improved upon. This is true even for an extremely basic and widely used technique (e.g.,linear regression). One of the aims of the project is to understand if the same phenomena occur for other methods that are widely used in machine/statistical learning practice and in turn develop better tools for data scientists and data analysts. Currently, accuracy assessment for these estimators are often performed through data driven procedures (such as the bootstrap). Another aim of the project is to understand if the corresponding accuracy assessment are misleading for datasets with many predictors. If that is the case, the PI is planning to work on methods to correct the existing procedures so they yield trustworthy accuracy assessments. &lt;br/&gt;&lt;br/&gt;High-dimensional statistics offers a profound challenge to classical statistics, both on the applied and the theoretical end. A broad class of methods used in practice is based on solving nontrivial optimization problems to estimate parameters of interest. This yields a so-called M-estimator. When the dimension of this estimator is small compared to the number of observations the practitioner has, standard empirical process techniques can be applied to understand the statistical properties of those estimators. In the setting the PI considers, these techniques fail and new techniques need to be developed. The PI plans on using a mix of tools inspired from random matrix theory, convex analysis and concentration of measure results to study those estimators. The development of new optimal methods is expected - based on using tools from convex analysis. Another exciting research line is that the techniques developed by the PI should allow us to study resampling methods in high-dimension (such as the bootstrap). Those are widely used to assess statistical significance from the observed dataset, without having to appeal to theoretical arguments. While the low-dimensional theory is well-established and relatively easy, and suggests that these numerical methods should work well, the high-dimensional case has yet to be understood. The PI plans on studying these problems thoroughly and propose practically relevant solutions if these widely used-in-practice methods are shown to provide statistically misleading accuracy assessments.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1510172</AwardID>
+    <Investigator>
+      <FirstName>Noureddine</FirstName>
+      <LastName>El Karoui</LastName>
+      <EmailAddress>nkaroui@stat.berkeley.edu</EmailAddress>
+      <StartDate>07/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

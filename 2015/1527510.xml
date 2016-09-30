@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Concurrent Accelerated Data Integration</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>502175</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Not only is big data voluminous, it is varied. Individual data analysis tasks must first collect data sets that are often in unrelated locations and frequently in vastly disparate formats. These data sets almost always need multiple changes prior to the analysis task, such as format normalization, data cleansing, type checking, and outlier detection. These "data integration" activities typically consume an inordinate amount of time and effort both on the part of the data analyst and on the part of the computing systems.&lt;br/&gt;&lt;br/&gt;This project is to design, prototype, and evaluate an Application-Specific Instruction Processor (ASIP) that will support the concurrent execution of data integration workloads for multiple streams of big data. The ASIP will not only execute an individual integration stream, but will be capable of concurrently executing a number of distinct data integration streams (each with its own processing requirements), enabling data from disparate sources to be utilized for analysis. Successful ASIP deployment will substantially increase the throughput (and therefore effectiveness) of big data analysis across a range of fields.&lt;br/&gt;&lt;br/&gt;What is unique about the ASIP design is not just that the instruction set will be customized, but the entire data path will be optimized for the data integration problem. Both very long instruction word (VLIW) and vector techniques will be used to expose and exploit parallelism. Complex transformations will be supported by a combination of customized engines as well as hardware virtualization. The optimization for data integration not only includes the computational data path, but explicit attention will be paid to the memory subsystem design as well. The project will include super-optimization of memory subsystems from individual applications to the application class comprised of data integration workflows.&lt;br/&gt;&lt;br/&gt;The result should lead to dramatic improvements in the overhead of preparing data for analysis.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/20/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527510</AwardID>
+    <Investigator>
+      <FirstName>Roger</FirstName>
+      <LastName>Chamberlain</LastName>
+      <EmailAddress>roger@wustl.edu</EmailAddress>
+      <StartDate>08/20/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ron</FirstName>
+      <LastName>Cytron</LastName>
+      <EmailAddress>cytron@cs.wustl.edu</EmailAddress>
+      <StartDate>08/20/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Washington University</Name>
+      <CityName>SAINT LOUIS</CityName>
+      <ZipCode>631304899</ZipCode>
+      <PhoneNumber>3147474134</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 1054</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Missouri</StateName>
+      <StateCode>MO</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

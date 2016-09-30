@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: III: Using Genomic Context to Understand Evolutionary Histories of Individual Genes</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>175000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Evolutionary trees show relationships between organisms through evolutionary time, and are central to many biomedical applications such as understanding protein function and analyzing the human microbiome. Interestingly, evolutionary histories can change across the genome, creating a complex genomic landscape. Understanding genome-wide evolution requires sophisticated computational tools that can analyze the rapidly growing set of genomes sequenced from species spanning the tree of life. Currently available methods for inferring these complex evolutionary histories have serious limitations, either in terms of accuracy or scalability to large datasets. This project will develop new computational methods for reconstructing evolutionary trees for individual segments of the genome while considering their connections to other parts of the genome. The computational methods developed will be made publicly available to the community of evolutionary biologists, and will help improve various downstream biomedical analyses. To facilitate adoption, the PI will train biologists interested in the new methods. Beyond impacting the research community, the PI will contribute to new promising diversity initiatives at UC San Diego to engage URM/Women undergraduate students in research projects defined in the exciting overlap between biology and computing.&lt;br/&gt;&lt;br/&gt;A "gene tree" shows the evolutionary history for a small segment of the genome, and accurate reconstruction of each gene tree can be difficult because a small segment may provide little data and only a weak signal. A principled approach for improving gene tree estimation is to consider the connection between different parts of the genome. However, computational limitations of such co-estimation approaches have left researchers with only one feasible option: to infer gene trees independently for each segment, ignoring the underlying genome-wide patterns of evolution. This project will develop new scalable statistical methods for inferring gene trees given genomic sequence data and a genome-wide description of the evolutionary history, the so-called species tree. The focus will be on a specific probabilistic model of gene trees, the multi-species coalescent model, that links population level patterns of allele differentiation to species level histories. Scalable gene tree inference under this model remains a poorly studied problem. To develop scalable methods for calculating and optimizing likelihood scores with respect to the multi-species coalescent model, the project will use algorithmic techniques such as divide-and-conquer and dynamic programming. Other approaches that will be explored include designing simplified optimization scores that are easier to compute than the full likelihood and developing new approximations to the likelihood function. If successful, the project will produce pioneering scalable solutions for inferring gene trees given the species tree under the multi-species coalescent model, and such a method will have substantial positive impact on downstream biological analyses. Moreover, this project can pave the way for scalable solutions to an even more complex inference problem, where the goal is to co-estimate a large number of gene trees and the species tree in one analysis. For further information see the project web page: http://eceweb.ucsd.edu/~smirarab/2016/01/27/genetrees.html</AbstractNarration>
+    <MinAmdLetterDate>04/04/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/04/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1565862</AwardID>
+    <Investigator>
+      <FirstName>Siavash</FirstName>
+      <LastName>Mir arabbaygi</LastName>
+      <EmailAddress>smirarab@ucsd.edu</EmailAddress>
+      <StartDate>04/04/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930934</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>026y</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

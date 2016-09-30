@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AitF: FULL: Collaborative Research: Compact Data Structures for Traffic Measurement in Software-Defined Networks</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>360000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Thyagarajan Nandagopal</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software-Defined Networking (SDN) is changing the way networks are designed and managed, by separating the "control plane" (which decides how to handle the traffic) from the "data plane" (which actually forwards each packet). Many large companies---like Google, Microsoft, and Facebook---have already deployed SDN technology, and many equipment vendors support open interfaces for programming their switches. While most work on SDN focuses on how to control the network, measuring the traffic in the network is equally important. Traffic measurement is useful to identify congested links, denial-of-service attacks, performance problems, and configuration mistakes, and also drives decisions of how the network should forward traffic in the future. However, the support for traffic measurement in today's commodity switches is quite primitive. In this proposal, the PIs bring algorithmic research on so-called "compact data structures" to bear on the problem of programmable traffic measurement in SDNs. Compact data structures can give approximate answers to measurement questions with limited overhead in terms of switch memory and processing resources. &lt;br/&gt;&lt;br/&gt;The project is interdisciplinary, bringing together researchers in computer networking and theoretical computer science to match practical problems with novel solutions. The proposed research starts with designing new query abstractions for collecting traffic statistics on existing SDN switches, and then progresses to identifying new compact data structures so that future switches can support much richer traffic measurement at reasonable overhead. The researchers have close ties with network administrators and switch vendors, allowing them to ground the project in a strong understanding of both operational requirements and hardware constraints, and also influence future SDN technology.&lt;br/&gt;&lt;br/&gt;This project aims to identify a switch data-plane architecture for collecting diverse traffic statistics, as well as a small set of programmable sketches and samples for variety of analyses to trade-off accuracy and resources. The architecture will include a measurement control API between the controller and the switch, and this needs a communication-efficient interface, along with a high-level language for specifying traffic queries, and with that, a run-time system on the controller that compiles these queries into commands to the switches with suitable CDSs. These challenges will be addressed using OpenFlow API that is widely popular for SDNs and in new redesigns. This is a conversation between the networking and algorithmic communities, mutually informing each other on what is possible, what is required, and ultimately what is effective and useful.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1535878</AwardID>
+    <Investigator>
+      <FirstName>Shanmugavelayu</FirstName>
+      <LastName>Muthukrishnan</LastName>
+      <EmailAddress>muthu@cs.rutgers.edu</EmailAddress>
+      <StartDate>08/18/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7239</Code>
+      <Text>Algorithms in the Field</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>012Z</Code>
+      <Text>AitF FULL Projects</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

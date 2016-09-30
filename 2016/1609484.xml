@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Locality in Network Optimization</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many recent problems in control, communication, computation, and machine learning can be posed in the framework of network optimization. Despite the great number of algorithms that have been proposed to address modern large-scale problems there remains a crucial challenge of building computationally efficient, accurate, scalable, distributed procedures. A key issue is that of understanding locality. Locality is a structural property of optimization instances that captures the property that information need not propagate across the entire network but only across local portions of it. As a consequence decisions made at a node can be made based only on local information thus reducing both communication requirements and computational complexity. This research involves identifying when locality occurs, designing algorithms that take advantage of locality, and applying these algorithms to variety of applications. The project also provides an opportunity for training graduate students and postdoctoral researchers in the disciplines of optimization, networking, and control.&lt;br/&gt;&lt;br/&gt;Typically sensitivity results concern the objective function evaluated at the optimal solution not the optimal solution itself. Herein sensitivity is characterized by the change in the optimal solution at a given node given a change in a network parameter at another node. Locality holds when the sensitivity decays with the distance between the two nodes. The main objectives of this research project are: (1) Theoretical Analysis: developing a general theory to characterize the local sensitivity of optimal solutions in a variety of network optimization problems and developing analytic tools to quantify the rate at which sensitivity decays with distance; (2) Algorithm Development: developing computationally efficient local message-passing algorithms to solve a variety of network optimization problems; and (3) Applications: applying these algorithms to problems in network optimization, distributed computation, and cooperative control.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1609484</AwardID>
+    <Investigator>
+      <FirstName>Sekhar</FirstName>
+      <LastName>Tatikonda</LastName>
+      <EmailAddress>sekhar.tatikonda@yale.edu</EmailAddress>
+      <StartDate>07/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Yale University</Name>
+      <CityName>New Haven</CityName>
+      <ZipCode>065208327</ZipCode>
+      <PhoneNumber>2037854689</PhoneNumber>
+      <StreetAddress>Office of Sponsored Projects</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

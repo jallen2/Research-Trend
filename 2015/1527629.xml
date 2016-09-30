@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Scalable Coordination for Wide-Area Distributed Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>499566</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Scalable coordination of concurrently executing tasks is a challenging open problem for large-scale distributed systems. For loosely dependent tasks that require little or no communication, simple abstractions such as barrier synchronization suffice for coordination. However, for large-scale cloud-computing and web-services applications that require tighter synchronization (such as online transaction processing systems, distributed file systems, and graph processing applications), a fine-grained complex coordination service is needed. Especially with increasing demand for large-scale web-services for e-commerce, social networking, and Internet of Things, the coordination of tasks over wide-area (i.e., across clusters, across datacenters, and across Internet) has recently gained greater importance.&lt;br/&gt;&lt;br/&gt;Traditional distributed coordination techniques fail to scale for wide-area networks to support these new generation applications. Centralized coordination fails to scale with respect to the increased distances in the wide-area, whereas distributed coordination fails to scale with respect to the number of nodes involved. This research project claims that it is possible to achieve scalable coordination of distributed tasks over wide-area using a novel hybrid design, called Maestro. The Maestro framework will address the following research questions: (1) What are the limits of fully-centralized and fully-decentralized solutions to coordination, and what are the scalability benefits of a hybrid hierarchical approach? (2) How can locality-awareness be utilized to achieve high-performance across wide-area? (3) How can partition-awareness be utilized to achieve consistency across wide-area? &lt;br/&gt;&lt;br/&gt;The Maestro framework will employ a hierarchical lock broker architecture with a novel lock-leasing mechanism and smart/adaptive lock migration. This combination allows flexibility of control and provides the best of both centralized and decentralized approaches. As the authority of their respective domains, the brokers learn and adapt to the access patterns of tasks at runtime to improve lock-locality and hence scalability, while they also have autonomy to allow independent tasks to be initiated and executed in a decentralized manner. Maestro will provide optimizations such as proactive leasing of locks to servers even before they are requested, lock migration (changing primary site assignment of locks), and shared/fractional lock-leasing to selectively allow decentralized coordination and relaxed consistency when appropriate.&lt;br/&gt;&lt;br/&gt;The proposed Maestro framework will be evaluated on two popular distributed application domains: wide-area ZooKeeper for distributed coordination, and wide-area distributed metadata management. Maestro will fill an important gap in the wide-area scalable coordination of tightly-coupled consistency-critical distributed applications, and it will enable further broader impacts through graduate and undergraduate level curriculum development, enhancing scientific/technological understanding via organizing academic workshops, outreaching to K-12 students, recruitment of minority groups, and distributing tools and software to the community.</AbstractNarration>
+    <MinAmdLetterDate>09/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/14/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527629</AwardID>
+    <Investigator>
+      <FirstName>Tevfik</FirstName>
+      <LastName>Kosar</LastName>
+      <EmailAddress>tkosar@buffalo.edu</EmailAddress>
+      <StartDate>09/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Murat</FirstName>
+      <LastName>Demirbas</LastName>
+      <EmailAddress>demirbas@cse.buffalo.edu</EmailAddress>
+      <StartDate>09/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Buffalo</Name>
+      <CityName>Amherst</CityName>
+      <ZipCode>142282567</ZipCode>
+      <PhoneNumber>7166452634</PhoneNumber>
+      <StreetAddress>520 Lee Entrance</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Video-Aware Network Transport + Network-Aware Video Coding</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>499916</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will build new foundational technology for Internet video streaming, by spanning the research areas of video-coding and computer-networking systems. The goal is to get rid of video glitches and stalls, and to build the abstractions to enable a "World Wide Web of video," where anybody can use hyperlinks to reference, quote, excerpt, and edit educational and other videos online. &lt;br/&gt;&lt;br/&gt;The project will develop an open-source video-streaming application, to be called Alfalfa. Alfalfa will be similar to traditional systems (e.g. Netflix, YouTube) in that it will fetch and play encoded video from a Web server via HTTP. But unlike these "adaptive-bitrate streaming" systems, Alfalfa will not have a concept of a coded video "bitrate" or "stream" at all. Instead, each frame will be a possible switching point between quality levels, and the player's job will be to plan, at runtime, the best frame-by-frame path through the video that maximizes a quality-of-experience metric. The intention is to make the video encoder as "dumb" as possible and to make most rate-control decisions at playback time. &lt;br/&gt;&lt;br/&gt;Broader Impacts: Robust video streaming and the "World Wide Web of video" will serve as a direct multiplier for students taking and creating online video courses, especially in regions of the world with poor Internet connectivity. The project plans to collaborate with providers of online courses to test the Alfalfa technology and use it to allow student-driven online video editing in appropriate classes. In addition, the project will include a demonstration component that will stream U.S. broadcast television stations to members of the public, educating the public about video-streaming technology and enlisting participants in an effort to better understand the factors that influence the "quality of experience" of online video.</AbstractNarration>
+    <MinAmdLetterDate>08/17/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/17/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1528197</AwardID>
+    <Investigator>
+      <FirstName>Keith</FirstName>
+      <LastName>Winstein</LastName>
+      <EmailAddress>keithw@cs.stanford.edu</EmailAddress>
+      <StartDate>08/17/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

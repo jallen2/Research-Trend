@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Enabling Deep Neural Networks for Mobile-Cloud Applications</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>427037</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Over the past three years, Deep Neural Networks (DNNs) have become the dominant approach to solving a variety of important problems in computing. This includes problems in speech recognition, machine translation, handwriting recognition and many computer vision problems like face, object, and scene recognition. Although they are renowned for their excellent recognition performance, DNNs are also known to be computationally intensive: networks commonly used for speech, visual and language understanding tasks routinely consume hundreds of MB of memory and Gflops of computing power, typically the province of server-class computers. However, the relevance of the above applications to the mobile setting and the potential for developing new applications provides a strong case for executing DNNs on mobile devices.&lt;br/&gt;&lt;br/&gt;This project is to build an execution framework for deep-neural networks on mobile-cloud platforms so as to enable a broad class of emerging applications such as continuous mobile vision. In particular, this work will look at enabling a large suite of DNN-based face, scene and object processing algorithms based on applying DNNs to video streams from wearable devices. This framework, given an arbitrary DNN, will compile it down to a resource-efficient variant at modest loss in accuracy. The project plans include developing novel techniques to specialize DNNs to contexts and to share resources across multiple simultaneously executing DNNs. Finally, it will create a run-time system for managing the optimized models generated. Using the challenging continuous mobile vision domain as a case-study, the plan is to demonstrate that these techniques yield very significant reductions in DNN resource usage, including orders of magnitude reduction in memory use and instructions executed, in common mobile settings.</AbstractNarration>
+    <MinAmdLetterDate>08/11/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/11/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1614717</AwardID>
+    <Investigator>
+      <FirstName>Arvind</FirstName>
+      <LastName>Krishnamurthy</LastName>
+      <EmailAddress>arvind@cs.washington.edu</EmailAddress>
+      <StartDate>08/11/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

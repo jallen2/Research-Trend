@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AitF: Collaborative Research: High Performance Linear System Solvers with Focus on Graph Laplacians</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2020</AwardExpirationDate>
+    <AwardAmount>266666</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Fast and robust solvers for systems of linear equations are the work horse of many communities in the sciences, engineering, business, and industry. Few pieces of software are so important of all these areas. Recent theoretical progress on efficient solvers for special cases of linear systems, including Symmetric Diagonally Dominant matrices, have sparked a renaissance in faster algorithms for wide classes of optimization problems that have not seen improvements in many years.&lt;br/&gt;&lt;br/&gt;The main goal of this project is to take the next step to find and implement fast robust solvers that work in seconds on systems that are a factor of 100 to 1000 times larger than is now possible on a modern large workstation. For the applications mentioned above the solver may be called 100s or 1000s times for a single run. As a result, such a solver needs to meet several important requirements: 1) it must be robust enough to not need human intervention between these runs; 2) it must be fast enough to finish all work in a reasonable amount of time. 3) it must be able to handle the very different systems of equations that arise in applications.&lt;br/&gt;&lt;br/&gt;This project aims to bridge the theoretical and practical aspects of designing efficient and robust solvers for linear systems in graph Laplacians. The PIs plan to develop code packages that have good practical performances as well as provable guarantees in the worst case. Doing so requires them to address a range of issues arising from numerical analysis, combinatorics, high performance computing, and data structures.&lt;br/&gt;&lt;br/&gt;They plan to address shortcomings of existing packages for solving linear systems in graph Laplacians, specifically their robustness in the presence of widely varying edge weights. Resolving this issue is crucial for bridging the theory and practice of incorporating these solvers in optimization algorithms such as iterative least squares, mirror descent, and interior point methods. Specifically, they will study a variety of theoretical algorithmic tools from the perspective of high performance computing, focusing on topics at the core of data structures, high performance computing, numerical analysis, scientific computing, and graph theory. Progresses on them have the potential of opening up novel lines of investigations on well-studied topics for the team and the students that they will train.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1637523</AwardID>
+    <Investigator>
+      <FirstName>Gary</FirstName>
+      <LastName>Miller</LastName>
+      <EmailAddress>glmiller@cs.cmu.edu</EmailAddress>
+      <StartDate>08/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7239</Code>
+      <Text>Algorithms in the Field</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

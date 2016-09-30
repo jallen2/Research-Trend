@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Using Imperfect Predictions to Make Good Decisions</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2021</AwardExpirationDate>
+    <AwardAmount>89888</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hector Munoz-Avila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As humans and other animals navigate the world they demonstrate remarkable flexibility in encountering unfamiliar systems, spaces and phenomena, learning to make predictions about how they will behave, and making good decisions based on those predictions. Crucial to this ability is the fact that one does not need to make perfectly accurate or fully detailed predictions to make good decisions. Though, due to our natural limitations, our predictions about the future are necessarily flawed, they are nevertheless sufficiently useful to make reasonable decisions. For artificial agents, in contrast, imperfect predictions often lead to catastrophic failures in decision making. Many existing approaches fundamentally assume that the agent will eventually learn to make perfect predictions and make perfect decisions, which is unreasonable in sufficiently rich, complex environments. This work considers the problem of developing artificial agents that are more aware of and more robust to their own limitations. Agents that can more robustly and flexibly learn from experience in truly complex environments have the potential to impact nearly any application in which decisions are made over time, for instance autonomous robots/vehicles, personal assistants, and medical/legal decision support. Furthermore, as the project will be undertaken at an undergraduate-only liberal arts college, undergraduate researchers will play an integral role in the work. The PI will also build on the strength of the liberal arts setting to enhance instruction of key discipline-specific research and writing skills throughout the Computer Science curriculum. Explicit development of these skills will not only improve students' preparation for a wide variety of career paths (including basic research) but is also aligned with best practices for broadening participation in the discipline. &lt;br/&gt;&lt;br/&gt;This project studies model-based reinforcement learning (MBRL) under the assumption that the agent has fundamental limitations that prevent it from learning a perfect model or from producing optimal plans. The central hypothesis is that in this context the MBRL problem cannot be decomposed into separate model-learning and planning problems, each treating the other as an idealized black box. Rather the optimization process for each component must be aware of its role in the overall architecture and of the limitations of its partner. One key aim of the work is to derive novel measures of model quality that are more tightly related to the true objective of control performance than standard measures of one-step prediction accuracy adapted from supervised learning settings. Another is to investigate how model learning objectives/algorithms can be adapted to account for the limitations of the specific planner that will use the model. Further, control algorithms will be investigated that can make effective use of models of non-homogeneous quality by mediating between model-based and model-free knowledge. The ultimate goal is to integrate these principles into novel MBRL agents that are significantly more robust to limitations in the model class and/or planner and are able to succeed in environments that are too complex and high-dimensional to be modeled or solved exactly.</AbstractNarration>
+    <MinAmdLetterDate>02/16/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/16/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1552533</AwardID>
+    <Investigator>
+      <FirstName>Erik</FirstName>
+      <LastName>Talvitie</LastName>
+      <EmailAddress>erik.talvitie@fandm.edu</EmailAddress>
+      <StartDate>02/16/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Franklin and Marshall College</Name>
+      <CityName>Lancaster</CityName>
+      <ZipCode>176043003</ZipCode>
+      <PhoneNumber>7173584517</PhoneNumber>
+      <StreetAddress>Office of the Provost</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

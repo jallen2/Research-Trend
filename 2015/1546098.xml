@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: F: Learning Big Bayesian Networks</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>919305</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A fundamental problem in analyzing big data is to extract and represent the relations among the huge number of variables in a dataset. For example, in a genomic dataset, one may want to find out the dependence among a large number of genetic variations and various disease states. The Bayesian network is a commonly used class of mathematical models to represent such complex relations among a collection of variables, with wide applications in many scientific fields, ranging from the biomedical sciences to the social sciences. The goal of this project is to develop statistical and machine learning methods to construct Bayesian networks from big data, where the datasets may contain thousands to millions of variables. This is a challenging problem, particularly for large networks, as seen from the fact that state-of-the-art methods can barely handle thousands of variables. In this project, a novel divide-and-conquer approach will be developed and implemented as open-source packages for public use. The PIs will also study the theoretical properties of key components of this approach. Through seminar organization and educational activities in both graduate and undergraduate training, the cutting-edge research in this project will be communicated immediately to a much broader audience.&lt;br/&gt;&lt;br/&gt;The proposed approach consists of three main components: Partition, Estimation and Fusion (PEF). In the partition stage, spectral clustering will be embedded into an iterative subsampling approach to efficiently group variables into clusters. In the estimation stage, a few new methods will be developed to estimate the structure of a Bayesian network for each cluster of nodes, which serves as a subgraph of the big network. These methods include convex relaxations for permutations, fast algorithms for large-scale regularized estimation of the parameters of a Bayesian network, and novel formulations for discrete data. The final fusion stage will merge subgraphs into one big Bayesian network via a new method based on multiple-response sparse regression. Rigorous analysis of the PEF learning strategy for Bayesian networks under high-dimensional scaling will be conducted to provide theoretical guarantees for the methods and the algorithms.</AbstractNarration>
+    <MinAmdLetterDate>09/15/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/15/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1546098</AwardID>
+    <Investigator>
+      <FirstName>Qing</FirstName>
+      <LastName>Zhou</LastName>
+      <EmailAddress>zhou@stat.ucla.edu</EmailAddress>
+      <StartDate>09/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Arash</FirstName>
+      <LastName>Amini</LastName>
+      <EmailAddress>arash.amini@stat.ucla.edu</EmailAddress>
+      <StartDate>09/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900952000</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>11000 Kinross Avenue, Suite 211</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

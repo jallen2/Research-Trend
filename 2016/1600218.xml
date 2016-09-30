@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Accelerated Dynamics of Surface Chemical Reactions</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Triantafillos Mountziaris</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>1600218 PI: Ramprasad &lt;br/&gt;Institution: University of Connecticut&lt;br/&gt;Title: Accelerated Dynamics of Surface Chemical Reactions&lt;br/&gt;&lt;br/&gt;Surface chemical reactions are ubiquitous in natural phenomena and play a key role in several scientific disciplines, such as heterogeneous catalysis, crystal growth, and electrochemistry. Achieving a molecular-level picture of the mechanisms and dynamical detail of surface chemical reactions though remains a daunting task. Current methods of inquiry, be it empirical or computational, provide us with only a limited view of this complex world. One way of achieving the requisite level of understanding is by the use of molecular dynamics (MD) simulations. These simulations can directly monitor the progression of reactions at surfaces at the molecular level as a function of a variety of relevant conditions. Nevertheless, significant gaps remain in present-day MD capabilities: they are either fast (but not versatile or accurate), e.g., those based on empirical force-fields, or they are versatile and accurate (but not efficient), e.g., those based on quantum mechanical (or ab initio) methods. The proposed work will exploit an adaptive machine learning scheme that can both accelerate ab initio MD simulations as well as create accurate force-fields (at no extra cost) on-the-fly. Timescales previously unreachable using quantum mechanical simulations may be accessed using this new paradigm (conceivably,milliseconds to seconds), while still preserving the fidelity of quantum mechanics.&lt;br/&gt;&lt;br/&gt;The primary reason ab-initio MD simulations are slow is largely because of enormous redundancies that permeate present-day paradigms. Energies and forces, the ingredients necessary to perform MD simulations, are evaluated for every configuration that is visited, regardless of whether a new configuration is similar to a previously visited configuration. The basic premise underlying this proposal is that a methodology based on machine learning can be used to eliminate the significant effort involved in predicting atomic forces and energies of revisited or similar states within a local minimum, and at equivalent multiple local minima, thus eliminating an enormous amount of redundancies. Only when a truly new configuration is encountered is an ab initio scheme necessary; otherwise, the inexpensive machine learning algorithm is used to predict atomic forces and energies. In the former instance, the learning algorithm is retrained to include the new information, thus making the prediction scheme adaptive on-the-fly. The specific goals of the proposed research are: (1) The development of stand-alone force-fields just using the data accumulated during ab initio MD simulations; and (2) Application of this development to important model surface science problems, including surface adatom diffusion, surface oxidation, and surface catalytic reactions. Several educational initiatives are also planned, including new course offerings, workshops, online lectures, short courses, and symposia.</AbstractNarration>
+    <MinAmdLetterDate>08/16/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/16/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1600218</AwardID>
+    <Investigator>
+      <FirstName>Ramamurthy</FirstName>
+      <LastName>Ramprasad</LastName>
+      <EmailAddress>rampi@uconn.edu</EmailAddress>
+      <StartDate>08/16/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Connecticut</Name>
+      <CityName>Storrs</CityName>
+      <ZipCode>062691133</ZipCode>
+      <PhoneNumber>8604863622</PhoneNumber>
+      <StreetAddress>438 Whitney Road Ext.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1403</Code>
+      <Text>PROCESS &amp; REACTION ENGINEERING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7752</Code>
+      <Text>CDI NON SOLICITED RESEARCH</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

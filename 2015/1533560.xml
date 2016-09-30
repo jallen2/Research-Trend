@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: EXPL: CCA: Merging Parallel Run-times and Operating Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>298669</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: XPS: EXPL: CCA: Merging Parallel Run-times and Operating Systems&lt;br/&gt;&lt;br/&gt;Parallelism, the ability to do break down larger tasks into smaller tasks that can be done simultaneously, is essential for applications to continue to become exponentially faster over time. Considerable effort has been placed and is being placed into research on how to achieve parallelism within hardware, programming languages, compilers, and algorithms. However, application software also depends on systems software, particularly the operating system kernel. Currently, the application software and the operating system kernel are very distinct domains with a high barrier between them, and only the operating system kernel has full access to the hardware. While this design exists for very good reasons, it may now limit the parallelism and thus the performance possible in applications. This project investigates an alternative design in which the application software and the operating system kernel are merged into one entity. The intellectual merits are several. First, such a design has not been previously studied in the context of parallelism---this project will determine if it is a good idea. Second, the design resonates with modern languages and run-time systems that are designed specifically with parallelism in mind---such systems can leverage the opportunity to use the operating system kernel and the hardware in new ways. Finally, the project team is well poised to carry out the investigation given their prior work in operating systems and virtualization for high performance computing. The project's broader significance and importance are based on the extent to which the alternative design can enhance performance and the amount of exploitable parallelism. If this is considerable, then the alternative design may be widely adopted and thus contribute to keeping computing performance, as experienced even by end-users, on its exponential track.&lt;br/&gt;&lt;br/&gt;The project is primarily concerned with allowing modern parallel run-time systems (and their applications) to be re-conceptualized as kernels in their own right. By being a kernel, a run-time can access the full hardware capabilities of the machine, and it can implement exactly the kernel abstractions that it needs to achieve its goals. The team is designing, implementing, and evaluating a kernel framework to support the porting and construction of parallel run-time systems for this model. Using a set of several current run-time systems and several different kinds of parallel hardware, the team is also investigating what kernel abstractions are useful within this model, as well as how to leverage kernel-only hardware features to better support the run-time systems. Both mature run-times which are to be ported to the model and nascent run-times that can be co-designed with the model are under consideration. The project also integrates with another effort that is investigating a virtualization approach that may make it possible to support the new model simultaneously with the old model.</AbstractNarration>
+    <MinAmdLetterDate>06/25/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/25/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1533560</AwardID>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Dinda</LastName>
+      <EmailAddress>pdinda@northwestern.edu</EmailAddress>
+      <StartDate>06/25/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northwestern University</Name>
+      <CityName>Evanston</CityName>
+      <ZipCode>602013149</ZipCode>
+      <PhoneNumber>8474913003</PhoneNumber>
+      <StreetAddress>1801 Maple Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Exploring the Use of Secure Multi-Party Computation in the Context of Organ Donation</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>125669</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Informally speaking, Secure Multi-Party Computation (SMPC) allows two or more parties to jointly compute some function on their private inputs in a distributed fashion (i.e., without the involvement of a trusted third party) such that none of the parties learns anything beyond its dedicated output and what it can deduce from considering both this output and its own private input. Since its inception in 1982 by Yao, SMPC has advanced greatly and over the years a large body of work has been developed. To date, prominent applications for SMPC include private set intersection, auctions, and data mining. However, despite all advances, there still are many areas of application for which the use of SMPC has not yet been explored. Considering the fact that SMPC allows one to achieve strong security guarantees, the use of SMPC should be further advanced into fields of application which require the handling of highly-sensitive information of multiple parties in a centralized fashion and as such exhibit great promise to substantially benefit from the use of SMPC techniques. Such an area of application is organ donation. Currently, more than 120,000 patients in the U.S. alone are waiting to receive a lifesaving organ transplant and the need by far outweighs the number of available organs. Increasing the pool of organ donors is challenging and reports of organ scandals have even resulted in a decline in the number of potential organ donors. On one hand, transparency and fairness in the allocation process was shown to influence the willingness to donate organs. In turn, it is argued that in the case of living donations (where a patient has a willing donor but the donor's medical characteristics are not compatible with those of the patient), the recipient of the organ donation should have the right for the transparency to be limited. As such this project seeks to explore whether it is possible to effectively and efficiently introduce SMPC into the context of organ donation with the goal to ensure suitable transparency and privacy guarantees for donors and recipients alike. The potential impact of this work is substantial---for individual patients and society at large---in that addressing common attacks on traditional organ donation systems may not only help rebuild lost trust but may even lead to a greater buy-in than ever before.&lt;br/&gt;&lt;br/&gt;For living donations, the project seeks to devise initial protocols which allow the determination of donors in a cyclic fashion such that (a) it does not require a trusted third party, (b) the attributes of all patients and donors are kept private at all times, (c) all parties are satisfied with the exchange, (d) application-specific requirements are met, and (e) it is secure even in the presence of adversaries. For post-mortem donations, the project will explore the suitability of traditional privacy-preserving matching approaches---recognizing that matching the characteristics of organs come with unique challenges and requirements. Also, the project will investigate whether it is feasible to introduce a systemic change to how post-mortem organ donation is carried out today.</AbstractNarration>
+    <MinAmdLetterDate>07/21/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/21/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1646999</AwardID>
+    <Investigator>
+      <FirstName>Susanne</FirstName>
+      <LastName>Wetzel</LastName>
+      <EmailAddress>swetzel@stevens.edu</EmailAddress>
+      <StartDate>07/21/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stevens Institute of Technology</Name>
+      <CityName>HOBOKEN</CityName>
+      <ZipCode>070305991</ZipCode>
+      <PhoneNumber>2012168762</PhoneNumber>
+      <StreetAddress>CASTLE POINT ON HUDSON</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

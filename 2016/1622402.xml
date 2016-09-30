@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Reasoning under Uncertainty in Cybersecurity</AwardTitle>
+    <AwardEffectiveDate>08/07/2015</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2017</AwardExpirationDate>
+    <AwardAmount>23249</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Cyber security, like security in the physical world, relies upon investigation methodologies that piece together dispersed evidence spread across multiple places, and come to a conclusion on what security breaches have happened and how they happened. While effective evidential reasoning based on manual analysis are used in the physical world by law-enforcement agencies, in the cyber world we need automated reasoning methodologies to handle the automated cyber attacks against our nation's information infrastructures every day. This research aims at discovering and developing such automated reasoning methodologies. The problem is difficult due to the uncertain nature of such reasoning, which is compounded by the characteristics of cyber attacks.&lt;br/&gt;&lt;br/&gt;The uncertainty in cyber security comes from two sources. The first is the uncertainty from not knowing the attacker's actions and choices. Since hackers are essentially invisible in the cyberworld, we have to rely upon various types of sensors that report symptoms of potential attacks. The second source of uncertainty comes from these sensors. Since in most cases the symptoms of cyber&lt;br/&gt;attacks significantly overlap with symptoms from benign network activities, it is not possible to rely on a single sensor to give an absolutely correct judgment on whether an attack has happened and succeeded. A key question is how to use these imperfect sensors to conduct reasoning so that one can come up with almost certain conclusions regarding a system's security status. &lt;br/&gt;&lt;br/&gt;This challenge of reasoning under uncertainty is not new. In the past four decades computer science researchers have developed an array of reasoning models and methods for uncertainty, especially in the area of artificial intelligence. However, the emergence of cyber threats poses a new&lt;br/&gt;challenge to this problem. The existing methodologies typically require a knowledge-engineering process to build a knowledge model for the problem domain. This has worked reasonably well with the more static and well-behaved problem domains such as disease diagnosis. A key difference between these problem domains and cyber security is that the latter has to deal with an active&lt;br/&gt;malicious attacker who will try to break whatever assumptions made in the reasoning model. For this reason, the knowledge model for cyber security cannot be static because then they can be easily evaded. What will be an effective and practical knowledge engineering approach to handle the uncertainty in cyber security is the biggest open problem that needs to be answered from the&lt;br/&gt;research.&lt;br/&gt;&lt;br/&gt;This research adopts an empirical, bottom-up approach to tackle the above challenges. Instead of starting from the existing theories, the PI will start from empirical study on how a human security analysts would reason about cyber events and try to capture the essence of the reasoning in the process. Then, the PI will carry out this empirical study by running intrusion detection sensors on production networks and work with system administrators to understand and reason about the alerts. The next step is to develop a reasoning model that simulates the human reasoning process, and apply the automated reasoning engine on fresh new data to see how it fares. In this spiral theory development process the PI can always make sure that the methodologies are applicable to real cyber-security analysis and constantly find gaps in the model that reveal what will be the most appropriate theories and how to apply them in this problem. The eventual goal is to find the right theoretical framework for reasoning under uncertainty in cyber-security, and validate such theories through repeatable experiments on data from production systems.&lt;br/&gt;&lt;br/&gt;This research is tightly integrated into the PI?s education efforts both for students and targeted at the society at large. The empirical nature of the research provides a valuable venue for dialogue between security practitioners and researchers, which will result in a two-way education process: students working on the project can acquire the essential skills of applying advanced knowledge to a practical problem; and security practitioners like system administrators can learn the state-of-the art in cyber security technology through collaborative work with the research team. The empirical study carried out from the research will provide endless data and examples to refresh the materials of the cyber-security courses taught by the PI. New courses with a focus on uncertainty in cyber security defense will be developed. There will be a number of undergraduate students who take part in the research efforts, which will provide a unique education experience for them. Moreover, the test-bed infrastructure produced from the research will also be used as an education platform for the general public about cyber-security problems, with the help of the out-reach programs already established at Kansas State University.</AbstractNarration>
+    <MinAmdLetterDate>02/11/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/11/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1622402</AwardID>
+    <Investigator>
+      <FirstName>Xinming</FirstName>
+      <LastName>Ou</LastName>
+      <EmailAddress>xou@usf.edu</EmailAddress>
+      <StartDate>02/11/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of South Florida</Name>
+      <CityName>Tampa</CityName>
+      <ZipCode>336129446</ZipCode>
+      <PhoneNumber>8139742897</PhoneNumber>
+      <StreetAddress>3702 Spectrum Blvd.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

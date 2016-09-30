@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Improving Cloud Services by Exploiting Synchronized Clocks and Software Defined Flash</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>506175</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Yan Solihin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Large-scale data centers provide the computational infrastructure that underlies the increasing use of cloud services (Amazon AWS, Microsoft Azure, etc.). Today's data centers exhibit properties of both loosely coupled distributed systems and tightly coupled supercomputers. For example, networking infrastructure now mimics early supercomputers with low lantency and high bandwidth per link, high bisection bandwidth Fat-Tree topologies, and remote memory operations (e.g., RoCE). The rapid increase in cloud computing motivates the desire to invest in increasing capabilities, and that the trend is to move further toward supercomputing-like capabilities. Nonetheless, the scale of today's systems and services necessitates that many distributed systems properties remain, such as relatively high failure rates and the need for integrated reliable storage systems for transaction processing.&lt;br/&gt;&lt;br/&gt;This project seeks to improve cloud services through the combined use of the IEEE Precision Time Protocol and Software Defined Flash to develop a high performance, reliable, cost-effective, transactional storage system. A key aspect of this project is the development of a prototype distributed transactional system built on-top of a multi-version key-value Flash-based storage system. The storage system exploits SSD write behavior to efficiently maintain multiple key versions that are time ordered based on a globally (within the data center) unique timestamp for each request and enables clients to make a local commit or abort decision. The proposed approach exploits both tightly synchronized clocks with &lt; 1 microsecond skew and Software Defined Flash to eliminate or reduce overheads relative to other systems.</AbstractNarration>
+    <MinAmdLetterDate>09/07/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/07/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1616947</AwardID>
+    <Investigator>
+      <FirstName>Alvin</FirstName>
+      <LastName>Lebeck</LastName>
+      <EmailAddress>alvy@cs.duke.edu</EmailAddress>
+      <StartDate>09/07/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

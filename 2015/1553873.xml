@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: A Compositional Approach to Modular Cyber-Physical Control System Design</AwardTitle>
+    <AwardEffectiveDate>02/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2021</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Complex, networked, distributed cyber-physical systems (CPSs) are emerging in many safety-critical application domains such as aerospace and automotive. Design of such systems heavily relies on insights and experiences of engineers as principled design methodologies that can cope with the complexity of these systems are lacking. As a result, extensive testing and fine-tuning is required to ensure that the final product satisfies the design objectives. As a principled alternative, this project proposes to use modularity for managing complexity during both the design- and the life-cycles of cyber-physical systems. The objective is to develop the scientific foundation and associated algorithmic tools for the design of modular cyber-physical control systems. If successful, in the long-run this research will lead to a "plug and play" integration framework for CPSs supported by automated design tools, where one can replace a subsystem with another one or perform upgrades to subsystems while maintaining operational correctness guarantees. Results from this research will be relevant to many application domains, including next generation air vehicles, automotive systems and robotics. Its potential transformative impact will be on the way CPSs in these domains are designed and operated. Translation to the economy will proceed by actively seeking and engaging industrial partners. This research effort will be complemented by an education plan where interdisciplinary research and thinking in the area of CPS will be fostered among undergraduate and graduate students to prepare the next generation of CPS researchers and practitioners.&lt;br/&gt;&lt;br/&gt;To be specific, the project will develop theoretical foundations and associated algorithmic tools for distributed synthesis of provably correct control protocols that give rise to compositional design principles for cyber-physical control systems. In particular, algorithms for decompositions of system requirements at the discrete/logic level and of the system states at the continuous/system level will be developed. The main idea is a novel separation between external and internal factors affecting each subsystem that allows internal interactions required for the successful operation of a subsystem to be computed explicitly. These internal interactions, namely interface rules, are captured in terms of assumption and guarantee pairs that are used for solving local synthesis problems to obtain local controllers in a distributed manner, while maintaining global correctness guarantees when these controllers are deployed simultaneously. The modularity-performance trade-off space will be explored by introducing proper partial orders on these interface rules and by tuning the complexity of the interface rules according to these order relations. Tools from control theory (decentralized and robust control, model reduction, discrete event systems) and formal methods (temporal logics, compositional verification, distributed reactive synthesis) will be brought to bear to address these problems.</AbstractNarration>
+    <MinAmdLetterDate>01/27/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/27/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1553873</AwardID>
+    <Investigator>
+      <FirstName>Necmiye</FirstName>
+      <LastName>Ozay</LastName>
+      <EmailAddress>necmiye@umich.edu</EmailAddress>
+      <StartDate>01/27/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

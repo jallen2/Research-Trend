@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: FP: Collaborative Research: Synchrony-aware Primitives for Building Highly Auditable, Highly Scalable, Highly Available Distributed Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Amy Apon</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Auditability is a key property for developing highly scalable and highly available distributed systems, as it enables identifying performance bottlenecks, dependencies among events, and latent concurrency bugs. In turn, for the auditability of a system, time is a key concept. However, there is a gap between the theory and the practice of distributed systems in terms of the use of time. The theory of distributed systems shuns the notion of time and considers asynchronous systems whose event ordering is captured by logical clocks. The practical distributed systems employ NTP synchronized clocks to capture time but tend to use ad hoc methods. This project bridges this gap and provides synchrony-aware system primitives that support building highly auditable, highly scalable, and highly available distributed systems. The project has applications to cloud computing, distributed NewSQL databases, and globally distributed web services. The project enables other broader impacts through enhancing scientific/technological understanding via organizing academic workshops, outreaching to K-12 students, recruitment of minority groups, and distributing tools and software to the community.&lt;br/&gt;&lt;br/&gt;To enable highly auditable systems, the project investigates lightweight and efficient designs for an augmented time (AT) primitive. AT combines the theoretical underpinnings of causality and the practicality of physical clocks by identifying how logical/vector clocks can be improved and tuned based on the availability of NTP synchronization. The principle guiding AT design will be "uncertainty resilience". These AT clocks enable highly auditable systems since they can efficiently provide global consistent-state snapshots without needing to wait out clock synchronization uncertainties and without requiring prior coordination. Leveraging on these auditability primitives, the project builds support for scalable and available systems. To enable highly scalable systems, the project investigates design of synchrony-aware coordination primitives, such as barrier synchronization, mutual exclusion, leader election, and causally and totally ordered communication support. The principle guiding the design of the synchrony-aware coordination primitives is "silent consent". These primitives improve performance and efficiency over their asynchronous system counterparts by trading timing information gathered from AT clocks and avoiding explicit communication needed for coordination. Finally, the project will leverage the auditability support provided by AT and will investigate the design of a monitor component that detects and corrects distributed system state corruptions. The principle guiding the design of the monitor component is "centralized oversight and override".</AbstractNarration>
+    <MinAmdLetterDate>08/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1533802</AwardID>
+    <Investigator>
+      <FirstName>Sandeep</FirstName>
+      <LastName>Kulkarni</LastName>
+      <EmailAddress>sandeep@cse.msu.edu</EmailAddress>
+      <StartDate>08/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

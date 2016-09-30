@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Distributed Recursive Robust Estimation: Theory, Algorithms and Applications in Single and Multi-Camera Computer Vision</AwardTitle>
+    <AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chengshan Xiao</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many computer vision problems require recursive robust estimation. Some examples include surveillance applications involving a large indoor or outdoor area monitored by a network of static cameras; natural background scenes' recovery, e.g. forest scenes with moving leaves and branches, and their subspace estimation for texture synthesis applications in animated movies; and multi-site video conferencing. The surveillance problem requires tracking moving objects; this can be an easy problem if the background is static. However consider outdoor scene monitoring on a rainy or very foggy day. As the fog moves and its density changes, it results in complex and changing backgrounds and the tracking algorithms need to be robust to this type of 'large' background noise. The texture synthesis for animation is a well-studied problem if there are no occlusions (in this case the background sequence is directly available) but becomes difficult in the presence of severe (large-sized and persistent) occlusions, e.g. moving and occasionally static animals occluding the background scenes. We show in this project that the most challenging step in all the above problems can either be posed as a distributed recursive robust principal components' analysis (PCA) problem, that is robust to outliers, or as a distributed recursive robust sparse recovery problem, that is robust to large but structured noise (noise that is non-sparse and lies in a low-dimensional subspace). The main goal of this project is to develop distributed algorithms to solve these problems for the multi-camera setting. The algorithms will be developed in the context of a multi-site video combining application (needed for multi-site video conferencing). &lt;br/&gt;&lt;br/&gt;This project is developing the first set of online distributed solutions for the decomposition of a matrix into a sum of a sparse and a low-rank matrix. Robust PCA and robust sparse recovery are special cases of this more general problem. Our online solutions will be significantly faster and memory-efficient compared to existing batch methods. Moreover, unlike most batch methods, these will provably work even when for slow moving or occasionally static foreground objects (these result in the sparse matrix also becoming rank deficient and hence batch methods do not work in this case). This advantage comes because our methods exploit accurate initial subspace knowledge and slow subspace change (both are usually practically valid assumptions in real videos). The key novelty of our work within the computer vision literature is that it is robust to slow changing backgrounds or to frequent and persistent occlusions (depending whether the foreground or the background is the layer of interest).</AbstractNarration>
+    <MinAmdLetterDate>06/16/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/16/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1509372</AwardID>
+    <Investigator>
+      <FirstName>Nicola</FirstName>
+      <LastName>Elia</LastName>
+      <EmailAddress>nelia@iastate.edu</EmailAddress>
+      <StartDate>06/16/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Namrata</FirstName>
+      <LastName>Vaswani</LastName>
+      <EmailAddress>namrata@iastate.edu</EmailAddress>
+      <StartDate>06/16/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

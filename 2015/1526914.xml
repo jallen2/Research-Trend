@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Collaborative Research: Approximate Learning and Inference in Graphical Models</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>164088</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jun Huan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is designing efficient methods for approximate learning and prediction in graphical models. In a typical setting, the parameters of an unknown graphical model are to be estimated from data observations. Once learned, the parameters are often used to make predictions about unseen data. The learning problem can be solved by estimating the parameters of the model that generate the observed data with the highest probability (a process known as maximum likelihood estimation), and the prediction task is typically performed by a statistical inference method. As exact learning and prediction are computationally intractable, in practice, we seek to replace the maximum likelihood estimation and prediction tasks with more tractable surrogates. This project is developing such surrogates that (a) can be leveraged for learning in large, real-world graphical models with hidden variables, (b) are orders of magnitude faster than the current state-of-the-art methods, and (c) provide a rigorous alternative to the more heuristic methods that are often employed at scale.&lt;br/&gt;&lt;br/&gt;Under certain conditions, surrogates can outperform exact maximum likelihood estimation combined with an approximate inference algorithm for prediction. However, many of the typical approaches are much too slow or too limited in power to be used to learn the kinds of large-scale graphical models with many hidden variables that arise in practice. This project studies the design of fast, distributed approximate learning and inference procedures based on the Bethe approximation, a surrogate that is known to perform well in practice. The core observation is that approximate maximum likelihood estimation using the Bethe surrogate can be reduced to solving a series of approximate inference problems via the Frank-Wolfe algorithm. The benefit of this approach is that many fast, combinatorial algorithms already exist for approximate inference in graphical models. In addition to provable bounds and convergence rates, the methods are practically evaluated using several publicly available datasets, primarily social network and image data. Baselines will be application-specific methods known to work well on those datasets, with the developed code made publicly available.</AbstractNarration>
+    <MinAmdLetterDate>09/15/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/15/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526914</AwardID>
+    <Investigator>
+      <FirstName>Tony</FirstName>
+      <LastName>Jebara</LastName>
+      <EmailAddress>jebara@cs.columbia.edu</EmailAddress>
+      <StartDate>09/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

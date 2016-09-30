@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Multi-Scale Predictive Control of Coupled Energy Networks</AwardTitle>
+    <AwardEffectiveDate>07/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>328614</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eyad Abed</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Infrastructure networks (electrical, natural gas, water, transportation) have evolved into massive and highly sophisticated engineering systems. The U.S. electrical transmission network comprises 30,000 transmission lines that span 450,000 miles and that are connected to 55,000 substations. The gas transmission network consists of 210 pipelines that span 305,000 miles and comprise 1,400 compressor stations and over 11,000 delivery gates. Each substation and delivery gate is connected to a vast distribution (utility) network that takes resources to buildings, homes, and industrial facilities. Water and transportation networks have similar arrangements and complexity. Infrastructure networks present drastically different time scales and layouts that make them notoriously difficult to synchronize. For instance, electricity flows throughout the power grid nearly instantaneously while natural gas flows in pipelines at 30-50 miles per hour. The difficulty in achieving synchronization became evident during the so-called Polar Vortex of 2014 in which record low temperatures experienced in the Midwest region of the U.S. triggered cascading shortages of natural gas and electricity that affected the entire country. This project seeks to develop new control architectures that can effectively synchronize infrastructure networks by managing space and time scales in a systematic manner. The control architectures will enable more effective mitigation of extreme weather and man-made events as well as a more efficient distribution of resources. &lt;br/&gt;&lt;br/&gt;The research team will pursue the project goals by developing a new transformative control paradigm -referred to by the investigators as multi-scale model predictive control (msMPC). The msMPC formulation will enable the systematic design of hierarchical control architectures capable of handling heterogenous energy networks covering vast and disparate spatial and temporal scales. The key idea behind msMPC is to create a control hierarchy in which a top level coordinating controller computes control actions using highly coarse but tractable space-time representations of the entire system. The coarse control actions are then communicated and progressively refined at the lower levels. At the lowest level is a set of decentralized control agents each operating on a portion of the time-space domain. Each agent rejects local and high-frequency disturbances, while remaining coordinated with other agents through capturing global information obtained from the coarser levels. In other words, msMPC is a paradigm that seeks to bridge the gap between fully centralized and fully decentralized control. The project also aims at developing a stability theory for msMPC hierarchies and performing studies to identify more effective infrastructure arrangements (e.g., hub-based as opposed to resource-based). The interdisciplinary nature of the work will provide a unique training environment for graduate students that combines control and economic theory, systems modeling, optimization algorithms, and high-performance computing.</AbstractNarration>
+    <MinAmdLetterDate>07/17/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/17/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1609183</AwardID>
+    <Investigator>
+      <FirstName>Victor</FirstName>
+      <LastName>Zavala Tejeda</LastName>
+      <EmailAddress>victor.zavala@wisc.edu</EmailAddress>
+      <StartDate>07/17/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>155E</Code>
+      <Text>Electric power networks</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

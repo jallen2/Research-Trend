@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CDS&amp;E: Multiscale Integrations of Exoplanetary Systems</AwardTitle>
+    <AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>137613</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With thousands of planets outside our solar system detected in recent years, there is an emerging need for tools that help extract scientific knowledge from the large amount of observational data. The purpose of this project is to develop a tool for understanding the long-time orbital evolution of interacting exoplanets. Innovative tools are needed because many exoplanet systems exhibit configurations distinct from that of our solar system, rendering existing approaches insufficient. The tools developed in this research project will facilitate the detection of exoplanets and the identification of their parameters, help explain how observed systems evolved to their current configuration, and help determine whether an observed system is habitable by common life forms. The research will contribute not only to mathematics and astronomy, but will also introduce the general public to scientific thinking and discovery. For instance, its implementation will be adapted to a free screen saver with social media interface, which will allow those outside academia to perform and enjoy exoplanet detection and evolution prediction. &lt;br/&gt;&lt;br/&gt;Computational efficiency is a central concern in this project. Changes in planet orbits induced by nonlinear planet-planet interactions are oftentimes slow, requiring the simulation of a trajectory for billions of orbits. Moreover, many of the aforementioned scientific investigations require large numbers of trajectories, and hence direct simulations are too time- and storage-consuming. Fortunately, planetary systems contain a small parameter of planet/star mass ratio, which makes them nearly-integrable and exhibiting different dynamics over well-separated timescales. This research project utilizes this fact and achieves accelerated simulation. Several outstanding challenges are the lack of analytical expressions for averaging integrals, approximation errors due to small but not infinitesimal mass ratio, and the inaccuracy of averaging near passage through resonance. These challenges are addressed by two mathematical contributions. One is a multiscale method that allows the computation of long time orbital evolution by averaging over fast scale nonlinear oscillations. This method is based on numerical resolution of homological PDEs derived from near identity transformations. The other is an adaptive procedure that allows accurate integration through transient resonances, which is accomplished by matched asymptotic expansions with an appropriate near-resonance rescaling.</AbstractNarration>
+    <MinAmdLetterDate>09/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/25/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1521667</AwardID>
+    <Investigator>
+      <FirstName>Molei</FirstName>
+      <LastName>Tao</LastName>
+      <EmailAddress>mtao@gatech.edu</EmailAddress>
+      <StartDate>09/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8069</Code>
+      <Text>CDS&amp;E-MSS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

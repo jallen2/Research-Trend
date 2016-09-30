@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Preserving User Privacy in Server-driven Dynamic Spectrum Access System</AwardTitle>
+    <AwardEffectiveDate>01/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2018</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Thyagarajan Nandagopal</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Dynamic spectrum access (DSA) technique enables wireless devices, called secondary users (SUs), to use spectrum that are allocated to licensed incumbent users (IUs) as long as they do not interfere with IUs' operation. It has been widely accepted as a crucial solution to mitigate the spectrum scarcity problem for wireless communications. As a key form of DSA, regulators have proposed to release more Federal spectrum for sharing with commercial wireless users, under the umbrella of a spectrum access system (SAS) database to govern the spectrum sharing between IUs and SUs. However, the success of this sharing hinges upon how privacy issues are managed. In current SAS schemes, the operation data of both federal IUs and commercial SUs need to be shared with the SAS database for it to decide if sharing is permitted. Yet, operation data of federal IUs are often classified information and SU operation data may also be commercial secret. Since SAS is not necessarily operated by a trusted third party and can potentially be breached by attackers, these current schemes threaten the privacy of both IUs and SUs. To address this privacy issue, this project develops a privacy-preserving SAS (P2-SAS), which ensures that the SAS system can still accurately decide whether spectrum sharing among IUs and SUs are permitted while it learns nothing about the operation data of IUs and SUs. This project is the first to be able to successfully realize privacy-preserving spectrum allocation in SAS. It addresses regulators' concerns with DSA's privacy issue and hence greatly help the development of the entire nation's broadband networks. The project provides a blueprint on how privacy-preserving mechanisms can be integrated in many other communication systems beyond DSA. &lt;br/&gt;&lt;br/&gt;The project realizes its privacy preserving spectrum allocation using secure homomorphic computation. In P2-SAS, IUs and SUs share only ciphertexts of their operation data with the SAS Server, which then performs secure homomorphic computation directly over these ciphertexts, so that none of the IU/SU operation data would be exposed to any snooping party, including the SAS itself. The project aims to convert complex spectrum allocation computation and certification procedures into the limited homomorphic computation types provided by efficient Paillier cryptosystems. Leveraging the unique characteristics of spectrum allocation computation, various refining techniques will be explored to significantly reduce the computation and communication overhead of P2-SAS and prevent potential attacks on the system.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/16/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1547223</AwardID>
+    <Investigator>
+      <FirstName>Kui</FirstName>
+      <LastName>Ren</LastName>
+      <EmailAddress>kuiren@buffalo.edu</EmailAddress>
+      <StartDate>09/16/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Buffalo</Name>
+      <CityName>Amherst</CityName>
+      <ZipCode>142282567</ZipCode>
+      <PhoneNumber>7166452634</PhoneNumber>
+      <StreetAddress>520 Lee Entrance</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7976</Code>
+      <Text>EARS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7976</Code>
+      <Text>EARS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

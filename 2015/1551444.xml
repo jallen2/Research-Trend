@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Collaborative Research: Enabling Economic Policies in Software-Defined Internet Exchange Points</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>149992</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Internet routing---particularly inter-domain routing---suffers from a long list of well-known problems that makes it difficult to innovate new types of end-to-end services and applications. Routing decisions are made locally by routers based on policies that users and their applications have little control over, resulting in routing decisions that are not optimized for users or their applications. Moreover, the "money flow," from customers through a sequence of providers that handle their packets, is determined by business relationships (service-level agreements (SLAs)) among providers---which change very slowly. One consequence is that it is virtually impossible in today's Internet to offer an end-to-end service with any real predictability of quality, let alone a guarantee. Moreover, concerns about network providers discriminating against some providers? content (see the net neutrality debate) add another dimension of complexity. &lt;br/&gt;&lt;br/&gt;Software-Defined Networking (SDN) is an emerging networking paradigm in which data traffic is routed at the granularity of individual flows by a programmable controller. The ability to route flows at a finer granularity than destination prefixes, and the potential for various stakeholders to express and enforce routing policies for their traffic have made SDN appealing also for inter-domain routing. At the same time, an increasing number of inter-provider connections are being realized at Internet Exchange Points (IXPs). In this context, Software-Defined Internet Exchange Points (SDX) have been proposed as a way for multiple providers to collectively control the routing decisions at Internet Exchange Points (IXPs). Most SDX research has focused on the problems associated with composed and possibly conflicting policies specified by providers or with scalability issues implementing flow-level policies at major IXPs with large numbers of flow. &lt;br/&gt;&lt;br/&gt;Intellectual Merit: While SDXs hold great potential, they also exhibit considerable challenges: SDXs offer mechanisms to enforce (certain types of) policies, but they do not define policies. The frameworks needed to define policies are an open area of research. Policies are typically derived from economic relationships established between providers, or between providers and their customers. Moreover, access to, and use of, resources at an SDX itself (e.g., network capacity, processing, and storage) requires that an economic relationship be established between a provider and the SDX. In other words, SDXs act as marketplaces, marketing their resources to providers (e.g., the right to use link bandwidth, processing cycles, and storage), and SDXs provide a way for providers to market their (transit) services to other providers on behalf of their customers. Current SDX designs do not consider these economic relationships and thus omit a critical aspect of Internet operation. This project includes fundamental research aimed at the design of controllers for Software-Defined Internet Exchange Points that can be programmed to implement end-to-end (i.e., inter-domain) routing policies that are tied to explicit economic relationships between network entities. &lt;br/&gt;&lt;br/&gt;Broader Impacts: The results from this research have the potential for a transformative impact on how inter-domain routing---which is at the core of economic interactions between network providers in the Internet---is implemented and used to provide novel services in networks. The interdisciplinary nature of this work---crossing the boundaries of engineering and economics---presents particular challenges in developing solutions that are technically sound and can be adopted in practice. The work involves an education component. Results from our work will be disseminated in the form of open-source toolsets and publications.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/21/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1551444</AwardID>
+    <Investigator>
+      <FirstName>Anna</FirstName>
+      <LastName>Nagurney</LastName>
+      <EmailAddress>nagurney@gbfin.umass.edu</EmailAddress>
+      <StartDate>08/21/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Tilman</FirstName>
+      <LastName>Wolf</LastName>
+      <EmailAddress>wolf@ecs.umass.edu</EmailAddress>
+      <StartDate>08/21/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>AMHERST</CityName>
+      <ZipCode>010039242</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

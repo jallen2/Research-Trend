@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>I-Corps: Automated Attendance Check by Using Smartphone Cameras</AwardTitle>
+    <AwardEffectiveDate>01/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2016</AwardExpirationDate>
+    <AwardAmount>50000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07070000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Lydia Mcclure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Checking attendance in scenarios such as classrooms commonly needs an instructor to recognize each student one by one by reading the names on a roster or ask students to sign up the attendance sheet. However, this traditional method faces two problems: reading students' names may occupy minutes of lecture time when the number of students is large and letting students to sign up an attendance sheet is prone to be cheated since they can sign their own names and their classmates' names who are absent in the class; it is not a desirable task for instructors to calculate the total attendance of every student in a semester by going through every attendance sheet manually. This I-Corps team proposes an efficient and accurate way to accomplish this task. By taking videos of student faces in classrooms using Smartphone cameras, the team proposes a unified framework of visual face detection, tracking and recognition algorithms to recognize multi-faces in the video simultaneously.&lt;br/&gt;&lt;br/&gt;The proposed system has the following steps: instructors install the proposed App on their own Smartphones; in the first class, instructors use the Smartphone cameras to take a short-period video of student faces in the classroom. The application will automatically build a face dataset for the course and the instructor only needs to identify them for the first class; in the remaining classes, instructors take videos of each class and the application will do automated attendance check. The proposed Smartphone App will perform multi-object tracking to associate detected faces (including false positives) into face tracklets (each tracklet contains multiple instances of the same individual with variations in pose, illumination etc.) and then the face instances in each face tracklet are clustered into a small number of clusters, achieving sparse face representation with less redundancy.</AbstractNarration>
+    <MinAmdLetterDate>01/02/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/02/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1521289</AwardID>
+    <Investigator>
+      <FirstName>Zhaozheng</FirstName>
+      <LastName>Yin</LastName>
+      <EmailAddress>yinz@mst.edu</EmailAddress>
+      <StartDate>01/02/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Missouri University of Science and Technology</Name>
+      <CityName>Rolla</CityName>
+      <ZipCode>654096506</ZipCode>
+      <PhoneNumber>5733414134</PhoneNumber>
+      <StreetAddress>300 W 12th Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Missouri</StateName>
+      <StateCode>MO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8023</Code>
+      <Text>I-Corps</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

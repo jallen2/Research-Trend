@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPS: Synergy: Verified Control of Cooperative Autonomous Vehicles</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>776725</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Corman</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The project studies techniques for constructing guaranteed-safe control algorithms for maneuvering autonomous vehicles ("self-driving cars") under a variety of environmental conditions. Existing autonomous vehicles are able to navigate highways and surface streets reliably when the driving conditions do not pose significant challenges. However, future vehicles will need to handle pot-holes, snow, high winds, driving rain, darting animals, fog and all the other impediments that make driving in the real world challenging in the first place. Some of these conditions require "aggressive maneuvers" in the form of sudden acceleration, braking and/or rapid steering. Such aggressive maneuvers present significant challenges to existing autonomy algorithms, raising concerns regarding the safety of the passengers, other vehicles on the road and pedestrians. At the same time, guaranteeing safe behavior while in autonomous operation is critical for the adoption of these systems, and such guarantees demand the development of reliable and verified maneuvering. The Ninja Car platform at the University of Colorado, Boulder serves as an experimental platform for the verified algorithms, and is also used to educate students and enthusiasts on the design and implementation of autonomous vehicles. The research carried out in this project contributes to the ultimate vision of self-driving cars that are safe by focusing on guaranteed-safe algorithms for maneuvering. Furthermore, the educational activities seek to educate a new generation of students and enthusiasts from the general public on the design and deployment of self-driving cars.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;This project develops reliable control systems for maneuver regulation in autonomous ground vehicles that are adaptive to, and guaranteed for, a variety of driving conditions. The approach first considers the problem of developing a stack of increasingly complex models for autonomous vehicles. The simplest models serve to develop formally verified control algorithms for maneuver regulation and the corresponding set of maneuvers that can be carried out for varying road conditions. These results are transferred to more sophisticated models that use on-board sensors to fine-tune the control to the actual dynamics of the car (such as the wear on the shocks, tire pressure, etc.). Finally, building upon verified maneuvers for a single vehicle, the project studies cooperative maneuvers for multiple vehicles, wherein the vehicles communicate to meaningfully share information. The cooperating vehicles then implement verified collision avoidance schemes and share driving conditions (e.g. how slick a given road actually is) to formulate environment-aware, guaranteed-safe maneuvers.&lt;br/&gt;&lt;br/&gt;The research extends the growing body of work on applying formal methods for rigorously solving control problems. A framework of transverse control Lyapunov and barrier functions provides a basis for solving trajectory tracking problems for nonlinear dynamical systems. The work also investigates new constraint-solving approaches for synthesizing these functions for nonlinear systems. The research is evaluated using a 1/8th-scale model testbed called the Ninja Car at the University of Colorado, Boulder. The research ideas are also integrated into educational activities that use the Ninja Car as a cost effective system for instructing engineering students at all levels, and enthusiasts interested in autonomous vehicles, on the fundamental principles that underlie the design and deployment of these systems.</AbstractNarration>
+    <MinAmdLetterDate>09/19/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1646556</AwardID>
+    <Investigator>
+      <FirstName>Lijun</FirstName>
+      <LastName>Chen</LastName>
+      <EmailAddress>lijun.chen@colorado.edu</EmailAddress>
+      <StartDate>09/19/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sriram</FirstName>
+      <LastName>Sankaranarayanan</LastName>
+      <EmailAddress>srirams@colorado.edu</EmailAddress>
+      <StartDate>09/19/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christoffer</FirstName>
+      <LastName>Heckman</LastName>
+      <EmailAddress>christoffer.heckman@colorado.edu</EmailAddress>
+      <StartDate>09/19/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dirk</FirstName>
+      <LastName>Grunwald</LastName>
+      <EmailAddress>dirk.grunwald@colorado.edu</EmailAddress>
+      <StartDate>09/19/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Hauser</LastName>
+      <EmailAddress>john.hauser@colorado.edu</EmailAddress>
+      <StartDate>09/19/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8235</Code>
+      <Text>CPS-Synergy</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

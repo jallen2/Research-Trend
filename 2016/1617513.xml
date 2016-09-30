@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Enhancing the Security and Performance of GPU Access in Web Browsers</AwardTitle>
+    <AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>499805</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern personal computers have embraced increasingly powerful Graphics Processing Units (GPUs), hardware components that enable high performance graphics. The software that controls the programming of these GPUs in today's computers (i.e., the graphics stack) was designed to be used by applications acquired from trustworthy developers and installed directly by the user. However, web applications (i.e., applications running inside a web browser) are gaining in popularity and WebGL is a recent industry effort to provide GPU-based graphics for web applications. However, WebGL has posed serious security concerns as malicious web applications have used WebGL to accomplish attacks on user's systems. Unfortunately, web browser-based protection techniques have not solved the security concerns and have significantly worsened WebGL performance. This project is developing techniques to improve the security of GPU-based graphics for web applications, without worsening performance.&lt;br/&gt;&lt;br/&gt;The project is proceeding in two research thrusts. In the first thrust, the researchers are using GPU virtualization technology to sandbox a web application's access to the GPU, providing hardware-level isolation for sharing a GPU. In this design, each web application uses a dedicated virtual GPU (or vGPU) allowing the web application to achieve high graphics performance, while isolating it from the rest of the system. The project is developing a new operating system compositor to control and schedule the shared resources between the vGPUs. Unfortunately, the vGPU-based architecture cannot prevent all possible GPU-based security attacks, including some forms of information leakage, denials-of-service, and memory integrity attacks. In the second thrust, the researchers are studying these remaining attack vectors and developing complementary solutions.</AbstractNarration>
+    <MinAmdLetterDate>06/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617513</AwardID>
+    <Investigator>
+      <FirstName>Ardalan</FirstName>
+      <LastName>Amiri Sani</LastName>
+      <EmailAddress>ardalan@uci.edu</EmailAddress>
+      <StartDate>06/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173067</ZipCode>
+      <PhoneNumber>9498244768</PhoneNumber>
+      <StreetAddress>5171 California Avenue, Ste 150</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

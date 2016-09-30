@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Fast Algorithms for Solving Big Data PDE Parameter Estimation Problems on Cloud Computing Platforms</AwardTitle>
+    <AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>179999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Parameter estimation problems arise in many scientific and economic disciplines, for example, in medical imaging, geophysical explorations, nondestructive testing, and economic structural estimation. Despite enormous effort put into designing efficient methods, solving parameter estimation problems is still very challenging, since the parametrized equations have to be solved repeatedly until the parameters are estimated with satisfactory accuracy. This research project aims to develop and implement efficient numerical methods for solving parameter estimation problems that involve a large number of measurements and partial differential equations. Reusable, open source software will be developed and made available to the scientific community. The techniques under development in the project will be applicable in geophysics to reduce the computational costs of large surveys that are of high economic impact, for example, in oil and gas exploration and groundwater surveys. The results from this project will also be applicable in medical imaging to reduce health care screening costs and improve diagnosis of certain diseases.&lt;br/&gt;&lt;br/&gt;Parameter estimation can be formulated as an optimization problem with constraints that are given by the parametrized partial differential equations (PDEs). The unknowns are parameters of the PDEs, which correspond to physical properties of the object to be measured. The objective is to minimize the misfit between PDE simulations and measured data plus some regularization term. Cloud computing platforms provide access to immense computational resources at moderate costs and are thus highly attractive for solving PDE parameter estimation problems. This holds particularly for big data problems since the computational costs of the estimation are dominated by the computational costs for PDE simulations. The latter, in many cases, grows linearly with the number of data. Straightforward extensions of the currently most reliable parameter estimation algorithms to massively parallel platforms, however, lead to huge communication overhead and memory requirement. This project seeks to design alternative tailored algorithms that make efficient use of cloud platforms and are able to solve parameter estimation problem with massive amounts of data in reasonable time. The approach undertaken in this project is based on three cornerstones. First, two reduced-order modeling techniques and their combination will be investigated. The PDEs will be discretized on rather coarse rectangular meshes that are aligned to the problem domain. On these meshes, reduced order models with adaptive multiscale bases will be used. Both techniques will dramatically reduce the computational cost associated with the PDE simulations. Second, stochastic optimization methods will be designed to exploit redundancy typically present in big data sets. The goal is to reduce the required number of PDE simulations, derive parameter selection rules, and quantify uncertainty of the solution. Third, the above steps will be combined and implemented on massively parallel cloud computing platforms.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/16/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1522599</AwardID>
+    <Investigator>
+      <FirstName>Lars</FirstName>
+      <LastName>Ruthotto</LastName>
+      <EmailAddress>lruthotto@emory.edu</EmailAddress>
+      <StartDate>09/16/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Emory University</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303224250</ZipCode>
+      <PhoneNumber>4047272503</PhoneNumber>
+      <StreetAddress>1599 Clifton Rd NE, 4th Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8037</Code>
+      <Text>Advanced Manufacturing</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8396</Code>
+      <Text>Clean Energy Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8609</Code>
+      <Text>Other Energy Research</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

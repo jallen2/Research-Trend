@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Development and Application of Efficient High-order Semi-Lagrangian Schemes</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>79713</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Understanding behaviors of plasmas plays an increasingly important role in modern science and engineering such as thermo-nuclear fusion, satellite amplifier, and computer chip manufacturing. A fundamental model in plasma physics is the Vlasov-Maxwell system, which is a nonlinear kinetic transport model describing the dynamics of charged particles due to the self-consistent electromagnetic forces. As predictive simulation tools in studying the complex kinetic system, efficient, reliable and accurate transport schemes are of fundamental significance. The main numerical challenges in such studies lie in the high dimensionality, nonlinear coupling, and inherent multi-scale nature in both space and time. Another application concerned in this project is in atmospheric science. One example is the chemistry-climate model in the study of evolution of stratospheric ozone and many other chemical constituents. The present generation of global climate models include hundreds of tracer species in order to adequately represent complex physical and chemical processes, resulting in huge computational cost in computer simulations. &lt;br/&gt;&lt;br/&gt;The PI will develop and analyze a class of efficient, reliable and highly accurate numerical methods for transport problems in plasma physics and atmospheric science. A semi-Lagrangian framework will be devised by employing a high order discontinuous Galerkin spatial discretization to take advantage of its many attractive properties, such as flexibility, compactness, and excellent ability to resolve features involving multiple scales. By a careful design in the scheme formulation, the proposed scheme is free of splitting error and able to conserve total mass of the system. Motivated by the work of PI on developing a fast asymptotic preserving Maxwell solver that is capable of recovering the magneto-static limit, the temporal scale separation issue associated with the Vlasov-Maxwell simulations will be addressed. For the applications in the global chemistry-climate modeling, the new schemes can be conveniently adapted to the spherical transport simulations based on the cubed-sphere geometry. Theoretical issues including the stability analysis and error estimates will be investigated.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1620047</AwardID>
+    <Investigator>
+      <FirstName>Wei</FirstName>
+      <LastName>Guo</LastName>
+      <EmailAddress>wguo@msu.edu</EmailAddress>
+      <StartDate>09/06/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8012</Code>
+      <Text>CR, Earth System Models</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

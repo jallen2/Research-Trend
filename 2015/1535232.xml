@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: EASE: Improving Research Accountability through Artifact Evaluation</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>499515</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Research in computer systems, particularly in the first stages of creating a new innovation, relies almost exclusively on software prototypes, simulators, benchmarks, and data sets to understand the benefits and costs of new ideas in computers, ranging from consumer devices to exascale systems. These artifacts are used to evaluate new capabilities, algorithms, bottlenecks and trade-offs. Empirical study is behind the rapid pace of innovation in creating faster, lower energy and more reliable systems. This experimental approach lies at the core of development that fuels the nation's information economy. Given the critical importance of experimental study to developing new computer systems, several efforts are underway to curate experimental results through accountable research. One effort, Artifact Evaluation (AE), is being adopted to promote high quality artifacts and experimentation, including making public the experimental information necessary for reproducibility. However, the rapid adoption of AE is hampered by technical challenges that create a high barrier to the process: there is no consistent or simple environment, or mechanism, to package and reproduce experiments for AE. Authors rely on their own approaches, leading to much time consumed, as well as considerable variability in the ways materials are prepared and evaluated, unnecessarily obstructing the AE process. &lt;br/&gt;&lt;br/&gt;To overcome the technical challenges with AE, and to more broadly encourage adoption of AE in computer science and engineering research, this project is developing a software infrastructure, Experiment and Artifact System for Evaluation (EASE), to create and run experiments specifically for AE, in which authors create, conduct and share artifacts and experiments. It allows for repeating, modifying, and extending experiments. Authors may also use EASE to package and upload their experiments for archival storage in a digital library. EASE is being developed and deployed for two use cases, namely compilers and real-time systems, keeping the project tractable to address specific needs. These communities have overlapping but also distinct requirements, helping to ensure EASE can also be extended and&lt;br/&gt;used by other computer systems research communities as well.&lt;br/&gt;&lt;br/&gt;EASE will be release as open source software, based on an Experiment Management System (EMS) previously developed by the project investigator in a project call Open Curation for Computer Architecture Modeling (OCCAM), used to define and conduct experiments using computer architecture simulators. Using EMS as a starting point, EASE will provide AE support, by: 1) separating EMS from OCCAM's repository and hardware services, transforming the EMS infrastructure into EASE, a fully standalone, sustainable, and extensible platform for AE; 2) supporting record and replay (for repeating and reproducing results, as well as provenance) of artifacts and experiments as part of normal development and experimental practice to ease participation in AE by authors and evaluators; 3) supporting artifacts,workflows of artifacts and experiments that run directly on a machine, including specialized hardware and software, and run indirectly on a simulator or emulator; 4) allowing both user-level (artifacts and experiments as user processes) and system-level (artifacts and experiments involving kernel changes) innovations; 5) providing consistent/uniform access, whether locally or remotely, to artifacts and experiments; 6) simplifying viewing, running, modifying, and comparing experiments by innovators (i.e., during innovation development), artifact evaluators (during AE), and archive users (after publication); 7) enabling indexing (object locators and search tags) and packaging of artifacts and experiments for AE and for archival deployment (e.g., to ACM?s or IEEE?s Digital Library); and 8) refining, expanding, generalizing, and documenting EASE to ensure it is robust, maintainable and extensible, and that it can be used and sustained by different CSR communities (starting with real-time and compilers, given their different artifacts, data and methods).</AbstractNarration>
+    <MinAmdLetterDate>06/16/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/16/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1535232</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Mosse'</LastName>
+      <EmailAddress>mosse@cs.pitt.edu</EmailAddress>
+      <StartDate>06/16/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Bruce</FirstName>
+      <LastName>Childers</LastName>
+      <EmailAddress>childers@cs.pitt.edu</EmailAddress>
+      <StartDate>06/16/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pittsburgh</Name>
+      <CityName>Pittsburgh</CityName>
+      <ZipCode>152132303</ZipCode>
+      <PhoneNumber>4126247400</PhoneNumber>
+      <StreetAddress>University Club</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

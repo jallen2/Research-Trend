@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: General Linear Multimethods for the Time Integration of Multiscale Multiphysics Problems</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2019</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many fields in science and engineering rely on computer simulations of time-dependent multiscale multiphysics systems. These fields include mechanical and chemical engineering, aeronautics, astrophysics, plasma physics, meteorology and oceanography, finance, environmental sciences, and urban modeling.&lt;br/&gt;&lt;br/&gt;Multiscale problems, by definition, have interacting components that evolve at different temporal or spatial scales. For example, the coupled Earth includes the atmosphere (evolving at time scales of minutes) interacting with oceans (time scales of hours) and with polar ice caps (time scales of days). Computer simulations track the evolution of systems at discrete time steps -- the short time steps needed to track rapid atmospheric changes are inefficient for modeling the slow-changing ice. Even within the atmosphere models for local mixing chemical reactions (miliseconds) will be coupled to models of long distance flow of pollutants (weeks). No single time discretization algorithm can efficiently model all processes. Improvements in simulation capabilities require the development of new flexible time integration algorithms that preserve the accuracy and stability of the component models.&lt;br/&gt;&lt;br/&gt;This project will develop a rigorous approach to the construction and analysis of multirate multimethod discretizations for time-dependent partial differential equations (PDEs)in the framework of General Linear Methods (GLMs). GLMs extend traditional integration schemes such as Runge-Kutta and Linear Multistep, and enjoy favorable mathematical properties that make them very well-suited for the construction and study of multimethods. The new time stepping algorithms will enjoy the following properties: (1) different time steps can be used in different subdomains to achieve efficiency; (2) different discretizations can be applied to operators modeling different physical processes; (3) they will have high order of temporal accuracy, and allow for efficient time step and error control; and (4) linear and nonlinear stability constraints impose only local restrictions on the step size. The new methods will be implemented in high quality software, and will be applied to real-life simulations arising in the prediction of atmospheric pollution.&lt;br/&gt;&lt;br/&gt;The outcomes of this research will advance the field of large, multiscale, multiphysics simulations, which will benefit several major fields in science and engineering. The development of novel computational high performance computing algorithms and their application to real problems provide an excellent opportunity for training postdocs and graduate students. The PI will broadly disseminate the algorithms and software developed during this research.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1613905</AwardID>
+    <Investigator>
+      <FirstName>Adrian</FirstName>
+      <LastName>Sandu</LastName>
+      <EmailAddress>asandu@cs.vt.edu</EmailAddress>
+      <StartDate>08/01/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Polytechnic Institute and State University</Name>
+      <CityName>BLACKSBURG</CityName>
+      <ZipCode>240610001</ZipCode>
+      <PhoneNumber>5402315281</PhoneNumber>
+      <StreetAddress>Sponsored Programs 0170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>6892</Code>
+      <Text>CI REUSE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPS: Synergy: Coordinated Action Among Independent Mobile Cyber-Physical Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>799995</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proof assistants are a programming technique for writing trustworthy software, in which the programmer writes not only the program code but also a mathematical proof of the code's correctness. An automated proof checker then either verifies that the code is correct or shows where the proof is wrong, thus empowering the programmer to fix incorrect assumptions. This project focuses on the goal of software assurance for autonomous vehicles (AVs), which are complex cyber-physical systems, such as multi-robot teams, that move in the world and interact with one another. Examples of these systems include self-driving cars, automated drones for inspection and surveillance, and rescue robots for disaster recovery. Programs that interact with the real world through sensors and actuators must make many assumptions about noisy sensors, physics, human users, and other circumstances that cannot be controlled by the program. The intellectual merits are three tools to implement and prove complex AVs correct for noisy, real-world operations. These tools equip AVs to handle increasing levels of complexity of interaction. This project will lead to advances in software assurance of many kinds of AVs and multi-CPS systems. The project's broader significance and importance are that all kinds of AVs in the future must be built to be safe for real-world deployment, even under adverse conditions. Interoperability of diverse AV systems will also be improved, which will aid in coordination, for example among first-responders.&lt;br/&gt;&lt;br/&gt;The project integrates three key tasks into the verification of cyber-physical systems with increasing levels of concurrent operation. First, the project investigates the application of transformers to AVs. A transformer is a mechanism to combine a complex program with a proof about a corresponding simpler program in order to yield a proof about the complex program. This method will empower engineers to design AVs that can interact with one another safely and correctly in the real world without proving by hand the correctness of the multi-CPS variant of the program that handles errors in sensing and actuation. In the second task, the project turns to the verification of certain core building blocks of mobile AVs, including the rapidly-exploring random trees (RRT) motion planner and the Kalman filter state estimator. The core challenge in this task is to prove properties about algorithms that use continuum probabilities and other real numbers, typically implemented as floats. Since floating-point errors present an obstacle to verification, the PIs instead leverage constructive reals, which are capable of computing a result to arbitrary precision. In the third task, the project seeks to define a type system as the basis for codifying and performing inference about capabilities of heterogeneous AVs. This representation of capabilities is flexible, extensible, and supports probabilistic inference, thus accounting for sensing and actuation errors. This task will enable close coordination, even among AVs that have never encountered one another before.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1646417</AwardID>
+    <Investigator>
+      <FirstName>Ross</FirstName>
+      <LastName>Knepper</LastName>
+      <EmailAddress>rak@cs.cornell.edu</EmailAddress>
+      <StartDate>08/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>J. Gregory</FirstName>
+      <LastName>Morrisett</LastName>
+      <EmailAddress>greg.morrisett@cornell.edu</EmailAddress>
+      <StartDate>08/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cornell University</Name>
+      <CityName>Ithaca</CityName>
+      <ZipCode>148502820</ZipCode>
+      <PhoneNumber>6072555014</PhoneNumber>
+      <StreetAddress>373 Pine Tree Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

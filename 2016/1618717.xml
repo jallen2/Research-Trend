@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: New classes of optimization methods for nonconvex large scale machine learning models.</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>499143</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Intelligent systems that say, recommend music or movies based on past interests, or recognize faces or handwriting based on labeled samples, often learn from examples using "supervised learning." The system tries to find a prediction function: a combination of feature values of the song, movie, image, or pen movements, that, on known inputs, produces score values that agree with known preferences. Some combinations may add with simple positive or negative weight parameters (The more guitar the better, or I really don't want accordion), while others can be more complex (nether too loud nor too soft). If parameters for such a function can be found, then it can be hoped that, on a new input, the function will be a good approximation for the preference. &lt;br/&gt;&lt;br/&gt;In scientific computing, there are many optimization techniques used to find the best parameters. The type called "gradient methods" is like a group hike that gets caught in the hills after dark; the members want to go downhill to return to the valley quickly, but take small steps so as not to trip. With a little light, the group can discover more about its vicinity to 1) suggest the best direction, 2) take longer steps without tripping, or 3) send different members in different directions so that someone finds the best way. When there are many parameters (not just latitude and longitude) there are many more directions to step. Simple combinations define simple (aka convex) valleys, and many optimization-based learning methods (including support vector machines (SVM), least squares, and logistic regression) have been effectively applied to find the best parameters. More complex combinations that sometime lead to better learning, may define non-convex valleys, so the known methods may get stuck in dips or have to take very small steps -- they often lack theoretical convergence guarantees and do not always work well in practice. &lt;br/&gt;&lt;br/&gt;This project will explore non-convex optimization for machine learning with three techniques that are analogous to the hikers? use of the light: &lt;br/&gt;First, new techniques will be explored for exploiting approximate second-order derivatives within stochastic methods, which is expected to improve performance over stochastic gradient methods, avoid convergence to saddle points, and improve complexity guarantees over first-order approaches. Compared to other such techniques that have been proposed, these approaches will be unique as they will be set within trust-region frameworks, the exploration of which represents the second component of the project. Known for decades to offer improved performance for nonconvex optimization, trust region algorithms have not fully been explored for machine learning, and we believe that, when combined with second-order information, dramatic improvements (both theoretically and practically) can be achieved. Finally, for such methods to be efficient in large-scale settings, one needs to offer techniques for solving trust region subproblems in situations when all data might not be stored on a single computer. To address this, parallel and distributed optimization techniques will be developed for solving trust region subproblems and related problems. The three PIs work together with about a dozen students at Lehigh; their website is one way they disseminate research papers, software, and news of weekly activities. &lt;br/&gt;&lt;br/&gt;This project is funded jointly by NSF CISE CCF Algorithmic Foundations, and NSF MPS DMS Computational Mathematics.</AbstractNarration>
+    <MinAmdLetterDate>06/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618717</AwardID>
+    <Investigator>
+      <FirstName>Katya</FirstName>
+      <LastName>Scheinberg</LastName>
+      <EmailAddress>kas410@lehigh.edu</EmailAddress>
+      <StartDate>06/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Frank</FirstName>
+      <LastName>Curtis</LastName>
+      <EmailAddress>fec309@lehigh.edu</EmailAddress>
+      <StartDate>06/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Martin</FirstName>
+      <LastName>Takac</LastName>
+      <EmailAddress>mat614@lehigh.edu</EmailAddress>
+      <StartDate>06/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Lehigh University</Name>
+      <CityName>Bethlehem</CityName>
+      <ZipCode>180153005</ZipCode>
+      <PhoneNumber>6107583021</PhoneNumber>
+      <StreetAddress>Alumni Building 27</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7929</Code>
+      <Text>COMPUTATIONAL GEOMETRY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

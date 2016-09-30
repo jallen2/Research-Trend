@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Novel Framework for the Efficient and Accurate Solutions of Complex Chance-Constrained Optimal Control Problems</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jordan Berg</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will create a novel integrated computational framework for formulating and solving optimal control problems in the presence of uncertainty. Optimal control is concerned with finding the user-specified inputs to a dynamic system that will produce the best possible outcome, in the sense that some performance measure is made as small or as large as possible. Typically the outcome must also satisfy additional constraints, capturing physical limitations or operating requirements that the system cannot or must not violate. In uncertain systems subject to significant random influence, both performance and constraints may be characterized probabilistically. One such formulation involves "chance constraints," requiring that a specified undesirable event must be sufficiently unlikely -- for example, the probability that two aircraft will pass within an unsafe distance of each other must be less than a given threshold. Unfortunately chance constraints often lead to formulations that are computationally intractable. This project aims to overcome this obstacle through innovations in four areas, namely 1) the representation of uncertainty in the form of chance constraints, 2) the computationally tractable approximation of chance constraints, 3) the efficient discretization of continuous optimal control problems, and 4) the structuring of the optimal control problem so that it can be split among many different processors using only local information. These innovations will be integrated into a unified framework, amplifying their benefits and ultimately enabling accurate and efficient solution of complex uncertain optimal control problems. Results from this of this work will benefit rapid multi-agent trajectory planning for search, rescue and reconnaissance missions, as well as applications involving human motion, air-traffic control, underwater vehicle control, and hypersonic vehicle mission planning. Educational activities will include outreach to high school students and teachers through the University of Florida Student Science Training Program and Summer Science Institute.&lt;br/&gt;&lt;br/&gt;Presently, chance-constrained control is almost exclusively dominated by robust model predictive control, invariably involving linear dynamics and convex polyhedral chance constraints, mostly comprising Gaussian random parameters. In contrast, this project will pose trajectory design as a nonlinear chance-constrained optimal control problem in an uncertain environment. The following key aspects will be studied: (a) modeling of the uncertain environment and its contribution to probabilistic constraints on the state and control variables; (b) scalable semi-analytical approximation of nonlinear, nonconvex and potentially high dimensional chance constraints involving non-Gaussian probability measures based on split-Bernstein approximations and Markov chain Monte Carlo; (c) highly accurate and low-dimensional variable-order Gaussian quadrature methods for discretizing the continuous optimization problem arising from the chance-constrained optimal control problem; and (d) a novel large-scale nonlinear programming problem solver for rapidly and accurately solving problems arising from the variable-order Gaussian quadrature discretization. Work in this area can lead to significant contributions in autonomous path planning, extendable to multi-agent systems. This will require efficient and accurate conversion of the joint chance constraints into computationally attractive forms that can be shown to be consistent with and convergent to the originally prescribed chance constraints. This research will lay the foundation for the direct solution of chance-constrained optimal trajectory design by discretizing the transcribed problem using a variable order orthogonal collocation method, solved using an nonlinear programming routine that employs a powerful reverse communication architecture, enabling parallel processing together with a state-of-the-art nonlinear programming algorithm.</AbstractNarration>
+    <MinAmdLetterDate>07/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1563225</AwardID>
+    <Investigator>
+      <FirstName>Anil</FirstName>
+      <LastName>Rao</LastName>
+      <EmailAddress>anilvrao@ufl.edu</EmailAddress>
+      <StartDate>07/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mrinal</FirstName>
+      <LastName>Kumar</LastName>
+      <EmailAddress>mrinalkumar@ufl.edu</EmailAddress>
+      <StartDate>07/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Florida</Name>
+      <CityName>GAINESVILLE</CityName>
+      <ZipCode>326112002</ZipCode>
+      <PhoneNumber>3523923516</PhoneNumber>
+      <StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7569</Code>
+      <Text>Dynamics, Control and System D</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>030E</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8024</Code>
+      <Text>Complex Systems</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>
