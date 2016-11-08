@@ -31,21 +31,21 @@ def totalabs():
     print("Abstracts found:", y)
     print("Total files:", x+y)
 def fileandabs():
-    for items in glob.glob("2002/*.xml"):
+    for items in glob.glob("2015/*.xml"):
         item = open(items)
         str_data = item.read()
         data = et.fromstring(str_data)
         an = data.find("Award").find("AbstractNarration").text
         if an is not None:
             addIDandAbs(data.find("Award").find("AwardID").text,data.find("Award").find("AbstractNarration").text)
-    key = input("Dictionary Key: ")
+    key = raw_input("Dictionary Key: ")
     print("Key:",key,"\nAbstract:", awards[key])                                        
 
 print("\nHow would you like to proceed?")
 print("A: Abstract Totals(found, not found, total files)")
 print("B: Key and Abstract") 
 print("NOTE: Type the letter associated with the program you wish to run.")
-answer = input("Selection:")
+answer = raw_input("Selection:")
 if answer == "A":
     totalabs()
 elif answer == "B":
