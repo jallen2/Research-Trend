@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Meta-Networking Research: Analysis, Partitioning, and Mapping Tools for Large Experiments</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>325785</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Brassil</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project attacks the pressing research problem of scaling and semi-automating large network experiments. Networking research is technically challenging due to the great scale and heterogeneity of protocols and devices in the Internet that researchers need to experiment with. To address this the project will investigate and tackle the problems of resource limitations and experimental artifacts of the testing platforms and scaling techniques. Work to date has either focused on control plane protocols (e.g., routing simulators), or solely considered the data plane. This project's goal is to conduct experiments that are joint control plane and data plane at a scale not previously possible. &lt;br/&gt;&lt;br/&gt;The project project includes three complementary efforts to address experimentation scale challenges by designing:&lt;br/&gt;&lt;br/&gt;(1) Experiment Mapping Tools and Taxonomy: The project will design a general framework, taxonomy, and a set of tools to bridge the current gap between testbed users and large-scale testbed experiments that use multiple scaling techniques. The user can supply hints on desired fidelity of different components, and these will be used to determine a high fidelity mapping for the experiment.&lt;br/&gt;(2) Experiment Analysis and Partitioning Tools: The project will design methods to model complex dependencies between components of a large-scale experiment to facilitate planning and mapping. These models may also allow partitioning the large experiment into maximally independent smaller experiments that can be sequentially executed to mimic the large experiment.&lt;br/&gt;(3) Applications to Case Studies: The project will use a range of large experiments as applications, focusing on problematic experiments including (a) experiments to understand the effect of misconfigurations, attacks, and defenses on Internet infrastructure (e.g., scalability of RPKI, effect of worms or DDoS on BGP, BGP policy conflicts), (b) experiments for anomaly detection, and (c) experiments with cloud computing.&lt;br/&gt;&lt;br/&gt;The research will help identify and deploy scalable protocols that will enable the Internet to securely accommodate increased traffic volumes. Impacts of the research include the development and public dissemination of general-purpose experimental tools, large-scale testing techniques, methodologies for the use of testing frameworks, and related graduate-level courseware. The PI will undertake significant outreach efforts to simulation and testbed teams, e.g., DETER/Emulab, GENI, AutoNetkit, ns-3, and to industry. The PI will actively involve undergraduate and graduate students from under-represented minority groups in computer science in the research and educational efforts, and will organize a DIMACS workshop on project topics.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/20/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319924</AwardID>
+    <Investigator>
+      <FirstName>Sonia</FirstName>
+      <LastName>Fahmy</LastName>
+      <EmailAddress>fahmy@cs.purdue.edu</EmailAddress>
+      <StartDate>08/20/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

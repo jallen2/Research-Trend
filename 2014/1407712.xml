@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Online Learning in Big-Data Stream Mining</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Online Learning in Big Data Stream Mining&lt;br/&gt;&lt;br/&gt;The world is increasingly information-driven. Vast amounts of data are being produced by diverse sources and in diverse formats including sensor readings, physiological measurements, documents, emails, transactions, tweets, and audio or video files. Many businesses and government institutions are also embracing automation and relying on a variety of sensors and infrastructure to collect, store, and analyze data on a continuous basis. It is becoming critical to endow assessment systems with the ability to process streaming information from sensors in real-time in order to better manage physical systems, derive informed decisions, tweak production processes, and optimize logistics choices. Data stream mining refers to the broad class of techniques that can be used in sense and respond systems that continuously receive data streams from multiple sources and employ analytics aimed at detecting and predicting actionable information. Such techniques are useful in many domains including medical and health informatics, intelligent connected network systems for transportation, security, and energy, as well as social, multimedia, and business intelligence. The aim of this proposal is to develop methods and techniques for real-time stream mining with the aim of extracting information from large data streams. The framework accomplishes this objective by networking multiple learners to pose and answer queries at different levels and in real time. A central aspect of the framework is that it accommodates distributed data sources and distributed processing of the data. Besides the aforementioned applications, the proposed research is expected to have an impact on user interfaces, human computer interactions, and machine-to-machine communication and services.&lt;br/&gt;&lt;br/&gt;This research focuses on developing a framework for distributed knowledge extraction from high-volume data streams using a network of adaptive learners/classifiers that is deployed over a distributed computing infrastructure. The proposed paradigm differs from existing mining and search solutions, which are mainly query driven. Instead, the proposed framework is data and concept driven and can catalyze a shift in the design and implementation of networked stream mining applications by allowing continuous learning and dynamic adaptation of networked learners in response to latency, resource and data characteristics, and by allowing various learners to proactively reason and shape their interactions with other learners based on their capabilities and knowledge. In this regard, the approach to stream mining developed in this proposal addresses several unique technical challenges: (a) the need to develop decentralized approaches for stream mining where learners make decisions based on local interactions with their neighbors. This step involves formally defining local objectives and metrics and associated inter-node message exchanges that enable the decomposition of the application into a set of autonomously operating nodes, while ensuring global performance; (b) the need to develop algorithms that are able to cope with asynchronous events including different data rates at the nodes, link failures, and dynamic topology configurations; (c) the need to develop distributed solutions that can cope effectively with system overload, due to large data volumes and limited system resources (including CPU, memory, and I/O bandwidth). There is usually a large computational cost incurred by each learner and solutions need to be sensitive to the rates at which individual learners can handle data; and (d) the need to develop adaptive stream-mining systems to track concept drifts especially since data characteristics evolve over time due to many factors including congestion at shared processing nodes and communication delays between processing nodes.</AbstractNarration>
+    <MinAmdLetterDate>07/25/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/25/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1407712</AwardID>
+    <Investigator>
+      <FirstName>Ali</FirstName>
+      <LastName>Sayed</LastName>
+      <EmailAddress>sayed@ee.ucla.edu</EmailAddress>
+      <StartDate>07/25/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mihaela</FirstName>
+      <LastName>van der Schaar</LastName>
+      <EmailAddress>mihaela@ee.ucla.edu</EmailAddress>
+      <StartDate>07/25/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

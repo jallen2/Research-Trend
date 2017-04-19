@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Medium: Securing JavaScript Web Applications via Staged Policy Enforcement</AwardTitle>
+    <AwardEffectiveDate>04/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2015</AwardExpirationDate>
+    <AwardAmount>1151927</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>JavaScript is the lingua franca of modern Internet computing. Unlike traditional code, JavaScript is highly dynamic and malleable. While JavaScript is increasingly used in security-critical applications that manipulate sensitive information like banking information and social security numbers, Web browsers' sandboxing mechanism for JavaScript (the "same-origin policy") is too coarse to adequately secure "mashups" that combine code at runtime from mutually distrusting origins.&lt;br/&gt;&lt;br/&gt;This project provides tools to secure JavaScript applications from buggy or malicious code by enforcing security policies, written by developers and users, that specify what code should be trusted and what data must be protected.&lt;br/&gt;&lt;br/&gt;Faced with dynamic applications like mashups, traditional enforcement mechanisms call for either one incomplete initial analysis or expensive from-scratch re-analysis whenever code is added. This project instead introduces staged program analysis. At each stage, as much analysis as possible is performed as possible given the known code; the remainder of the analysis computation is deferred until more code becomes available.&lt;br/&gt;&lt;br/&gt;The system, implemented in a browser and evaluated on real Web sites, must be scalable enough to use with complex, popular sites; precise enough to produce few false positives; efficient enough to run on end users' browsers without noticeable performance degradation; and user-friendly in minimizing user intervention and providing a faithful rendition of protected sites.&lt;br/&gt;&lt;br/&gt;For users, the project will make Web 2.0 applications safer and more reliable, without degrading the browsing experience. For developers, it will provide early error detection and the guarantee of safe execution for dynamic Web 2.0 applications.</AbstractNarration>
+    <MinAmdLetterDate>03/11/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/15/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0964702</AwardID>
+    <Investigator>
+      <FirstName>Hovav</FirstName>
+      <LastName>Shacham</LastName>
+      <EmailAddress>hovav@cs.ucsd.edu</EmailAddress>
+      <StartDate>03/11/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ranjit</FirstName>
+      <LastName>Jhala</LastName>
+      <EmailAddress>jhala@cs.ucsd.edu</EmailAddress>
+      <StartDate>03/11/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sorin</FirstName>
+      <LastName>Lerner</LastName>
+      <EmailAddress>lerner@cs.ucsd.edu</EmailAddress>
+      <StartDate>03/11/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

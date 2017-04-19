@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: F: DKM: Plato: A model-based database for compressed spatiotemporal sensor data</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>1100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Sensor data of diverse types and large volumes need to be combined with the current standard SQL databases, which provide context and metadata for the sensor data. The combination will lead to a new generation of analytics in a number of areas, such as smart buildings that are based on building and environmental data collected by sensors. The project argues that this new generation of analytics must be based on the same healthy database technology cornerstones that the prior (non-sensor) business intelligence platforms were based on: Declarative queries, automatic optimization, efficient storage representations and multiple layers of abstraction lead to high productivity for the developer and the analyst. Such productivity is currently absent from sensor data analytics because database technology and sensor data processing currently do not mix well. Productivity is especially low in cases involving (a) many types of sensor data, (b) combinations of sensor data with conventional database data that provide context and (c) many types of analyses. Besides low productivity, the current (limited) state of the art poses very high expertise requirements on the analysts: They must be simultaneously experts in signal processing, statistics and big data management. The project will deliver a database system for sensor data, where the analyst can rapidly develop declarative queries that are automatically optimized. By doing so, the project will deliver the envisioned productivity gains and will lower the technical sophistication bar needed for acting in the space, therefore enabling many scientists and domain specialists to engage in analytics.&lt;br/&gt;&lt;br/&gt;This project argues that at the core of the failure of SQL databases in the management and analytics of sensor spatiotemporal data is the lack of a critical abstraction, which is the real world models, which capture the stochastic processes that generate the measurements. The proposed Plato database system will bring the real world model concept into SQL databases by using models (spatiotemporal continuous functions) as first class citizens. The delivery of Plato requires innovative solutions to multiple problems: The project will design and &lt;br/&gt;implement (a) a model-aware data model and respective query language features that allow seamless combination of conventional SQL querying with statistical signal processing, (b) learning algorithms that learn the model components of reduced-noise, additive model representations, which are naturally compressions of the original, (c) query processing algorithms that operate directly on the compressed representations and utilize the the relatively few bits necessary for the required confidence of the analytics, and (d) semiautomated algorithms that further compress the model representations by considering the dependencies (mutual entropy) between the models. Finally, the project will exercise the resulting system on large scale statistical sensor data processing cases, such as the ones presented by the UCSD Energy Dashboard. The exercise will measure the lines-of-code as well as the runtime efficiency of the analyses.&lt;br/&gt;&lt;br/&gt;For further information see the project web site at http://www.db.ucsd.edu/NSF14Plato</AbstractNarration>
+    <MinAmdLetterDate>08/26/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1447943</AwardID>
+    <Investigator>
+      <FirstName>Yoav</FirstName>
+      <LastName>Freund</LastName>
+      <EmailAddress>yfreund@ucsd.edu</EmailAddress>
+      <StartDate>08/26/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yannis</FirstName>
+      <LastName>Papakonstantinou</LastName>
+      <EmailAddress>yannis@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/26/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

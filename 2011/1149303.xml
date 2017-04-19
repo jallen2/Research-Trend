@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Empirical Tuning for Extreme Scale</AwardTitle>
+    <AwardEffectiveDate>03/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2013</AwardExpirationDate>
+    <AwardAmount>342530</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Today, simulation and scientific computation underlie many if not most areas of science and engineering. For many of these areas, there is no such thing as enough compute power: as processing speed is increased, the scientist is free to increase the complexity, and thus accuracy, of the simulation or computation. It is therefore critical that scientific computing software extract the maximal level of performance on all the various hardware used by researchers. Unfortunately, getting software to run at near-peak speeds while maintaining numerical accuracy is a challenging problem for even the most well-informed computer scientist, and is almost impossible for those in other fields to achieve. Performance tuning requires the application of a vast array of optimizations, many of which are almost unknown outside of specialized computer science literature. An optimization that provides large speedup on one machine may cause performance loss on another, so that even computer scientists who specialize in optimization research have struggled to provide computational scientists with kernels that deliver deliver outstanding performance across all available machines. The only known way to address this critical problem is to build software frameworks which can use empirical timings on the user's actual hardware to automatically select the best optimizations to apply. In this way, instead of writing a library of routines optimized for only a handful of architectures, the computer scientists builds a software framework that automatically adapt each kernel of interest to the particular hardware possessed by the scientist or engineer. If such frameworks are to be used by researchers who are not themselves sophisticated in computer science, the self-adapting framework must be robust numerically and require little or no knowledge of the hardware from the installer.&lt;br/&gt;&lt;br/&gt;The PI's ATLAS (Automatically Tuned Linear Algebra Software) autotuning framework was one of the pioneering projects that showed that empirical auto-tuning could address this vital need, mostly in the context of serial or low-parallel computation. The PI's career plan calls for performing the cutting-edge systems research necessary to extend ATLAS to address today's need for extreme-scale computation, and to exploit the ongoing evolution of computer architecture, thus helping the hundreds of thousands of scientists and engineers that rely on linear algebra for their computational performance. In order to make the impact of this CAREER plan even wider, the PI and collaborators will undertake groundbreaking research in empirical compilation and embody the fruits of this labor into a freely available empirical optimizing compiler, which will enable autotuning for almost any scientific computation. Most of this work will be undertaken by students at a minority serving institution, and since this work requires a deep understanding of architecture, parallel computing, and backend compiler research, these students will obtain outstanding educational benefit. Further, the results of this fundamental systems research will allow us to drastically improve our curricula, particularly in graduate and undergraduate Parallel Programming, Computer Architecture, and advanced optimization classes.</AbstractNarration>
+    <MinAmdLetterDate>03/09/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/09/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1149303</AwardID>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>Whaley</LastName>
+      <EmailAddress>rcwhaley@lsu.edu</EmailAddress>
+      <StartDate>03/09/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at San Antonio</Name>
+      <CityName>San Antonio</CityName>
+      <ZipCode>782491644</ZipCode>
+      <PhoneNumber>2104584340</PhoneNumber>
+      <StreetAddress>One UTSA Circle</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-EHS: An Enabling Substrate for Embedded and Hybrid Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2014</AwardExpirationDate>
+    <AwardAmount>630000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Embedded applications are very demanding in terms of both performance and efficiency. To meet these demanding requirements embedded systems are turning to parallelism (for performance) and special-purpose hardware (for efficiency). This trend has created a pair of technology gaps in programming of embedded systems. First, few tools exist to map embedded applications to parallel systems. Second, using special-purpose hardware (ASICs) for the computationally demanding parts of applications makes it impossible to program these parts of the applications. &lt;br/&gt;&lt;br/&gt;This project seeks to close both of these technology gaps. First, the project is developing a programming system for mapping embedded systems to parallel (multi-core) platforms. This system takes ?C? code, annotated with real-time constraints, and automatically partitions operations across multiple processors, placing data and coordinating communication and synchronization. The partitioning will be done to meet real-time constraints, to balance load, and to minimize energy consumed. Second, the project is developing a programmable multi-core platform that matches the efficiency of hard-wired (ASIC) logic on embedded kernels. The approach is to optimize data and instruction movement to eliminate much of the overhead and inefficiency of conventional processors. The design of the processor is then optimized to close the gap with ASICs.&lt;br/&gt;&lt;br/&gt;This research is expected to enable a renaissance in embedded system design. It will enable rapid development of embedded systems for emerging multi-core platforms and will ensure that such systems operate efficiently and meet real-time constraints. It will also enable the rapid development of efficient embedded systems for applications and algorithms for which hard-wired modules do not exist. Overall, this research seeks to make possible the development of embedded systems that simply are not feasible with today's programming tools and platforms.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/16/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0719844</AwardID>
+    <Investigator>
+      <FirstName>William</FirstName>
+      <LastName>Dally</LastName>
+      <EmailAddress>billd@csl.stanford.edu</EmailAddress>
+      <StartDate>08/06/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Algorithms for computing aggregate functions of matrices with applications to Lattice QCD</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>One of the most computationally challenging tasks in Numerical Linear &lt;br/&gt;Algebra (NLA) is the estimation of the trace or the determinant of functions &lt;br/&gt;of matrices. The computational difficulty arises for very large matrices &lt;br/&gt;where the computation of the entire spectrum is infeasible. Traditionally, &lt;br/&gt;this problem is approached through stochastic techniques, such as Monte &lt;br/&gt;Carlo, where each step involves the solution of a linear system of equations. &lt;br/&gt;Deterministic techniques could provide approximations much faster but &lt;br/&gt;introduce bias in the result. This research will employ a combination of &lt;br/&gt;these techniques. Deterministic techniques involve novel uses of &lt;br/&gt;traditional NLA tools such as low rank approximations, deflation, and &lt;br/&gt;preconditioners, not only for speeding the solution of linear systems but also &lt;br/&gt;for reducing the variance of the stochastic process. The team plans to use Hadamard &lt;br/&gt;vectors, which are popular in coding theory, with an ordering induced by &lt;br/&gt;hierarchical graph-coloring, to produce a deterministic sequence of sampling &lt;br/&gt;vectors for Monte Carlo that exploits the structure of the matrix.&lt;br/&gt;&lt;br/&gt;Although most of these techniques address the general NLA problem, the &lt;br/&gt;motivating application is lattice quantum chromodynamics (LQCD). The goal &lt;br/&gt;of LQCD is to calculate the properties, structure, and interactions of hadrons,&lt;br/&gt;the basic constituents of matter. Computation of observables in LQCD entails &lt;br/&gt;averaging of correlation functions over an ensemble of gauge fields. &lt;br/&gt;These correlation functions often require the trace of the inverse of a large &lt;br/&gt;sparse matrix, or the ratio of determinants of two such matrices. &lt;br/&gt;&lt;br/&gt;It is increasingly clear that there is an opportunity for real gains by &lt;br/&gt;harnessing the synergy between randomized and deterministic techniques.&lt;br/&gt;Based on such an approach, this research will advance the current &lt;br/&gt;state-of-the-art in NLA, while transforming some of the standard computational &lt;br/&gt;practices in LQCD. It will also be useful in other disciplines, as the &lt;br/&gt;problem is common in many statistical applications, in data mining, &lt;br/&gt;in uncertainty quantification, as well as in quantum physics applications &lt;br/&gt;such as quantum Monte Carlo.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218349</AwardID>
+    <Investigator>
+      <FirstName>Andreas</FirstName>
+      <LastName>Stathopoulos</LastName>
+      <EmailAddress>andreas@cs.wm.edu</EmailAddress>
+      <StartDate>07/30/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kostas</FirstName>
+      <LastName>Orginos</LastName>
+      <EmailAddress>kostas@wm.edu</EmailAddress>
+      <StartDate>07/30/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>College of William and Mary</Name>
+      <CityName>Williamsburg</CityName>
+      <ZipCode>231878795</ZipCode>
+      <PhoneNumber>7572213966</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

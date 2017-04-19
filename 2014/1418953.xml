@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Efficient high order methods for two multiscale problems</AwardTitle>
+    <AwardEffectiveDate>01/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2017</AwardExpirationDate>
+    <AwardAmount>126125</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Multiscale problems are ubiquitous in engineering and physics. This kind of problem involves phenomena that occur across a variety of time and length scales, which may vary in orders of magnitude. To prevent inaccurate solutions, traditional approximation methods need extremely refined meshes to resolve all the scales, which places huge demands on memory and computation time and thus limits the applications. In this project, we construct new multiscale methods to efficiently and accurately solve two model equations that are broadly used in studies of detonation, combustion and turbulence involving reactions, and nanoscale semiconductor devices. The proposed research will develop new multiscale methods to meet with the increasing demand for computational resources in multiscale problems. Reliable and efficient multiscale methods will further help predict physical phenomena in realistic applications. &lt;br/&gt;&lt;br/&gt;Specifically, this project focuses on multiscale methods for reactive flow equations and the Schrodinger equation. In high-speed reacting flows with multispecies and multireactions, incorrect propagation of discontinuities may occur in underresolved mesh regions. Our approach is to combine a high order shock-capturing scheme such as WENO for the convection part with Harten's subcell resolution for the reaction part. The subcell treatment utilizes the flow information and is able to control the dissipation of shock-capturing schemes to avoid the spurious solutions due to the underresolved mesh. The goal is to capture the correct locations of shocks and discontinuities in high-speed reacting flows with coarse meshes in both time and space. In simulations of electron transport modeled by the Schrodinger-Poisson system, the computational cost is huge due to the high frequency oscillations of the solution. The idea is to incorporate some known structures of the solution into the base functions of Discontinuous Galerkin methods. This can be accomplished by building local solution spaces based on the semiclassical approximation WKB asymptotic, which has certain multiscale structures of the solution. We aim to construct an inexpensive and reliable solver for Schrodinger-Poisson system to simulate quantum transport of electrons in nanoscale semiconductors.</AbstractNarration>
+    <MinAmdLetterDate>12/19/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/19/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1418953</AwardID>
+    <Investigator>
+      <FirstName>Wei</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>weiwang1@fiu.edu</EmailAddress>
+      <StartDate>12/19/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Florida International University</Name>
+      <CityName>Miami</CityName>
+      <ZipCode>331990001</ZipCode>
+      <PhoneNumber>3053482494</PhoneNumber>
+      <StreetAddress>11200 SW 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

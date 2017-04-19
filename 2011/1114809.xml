@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Collaborative Research: Algorithms for Reallocation Problems</AwardTitle>
+    <AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>249999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Virtualization typically involves remapping physical resources (e.g., storage, memory, processors) into logical resources so that these computational resources can be shared in dynamic environments. The remapping process has an online component, in that requests arrive and the system responds. In traditional online problems, resources are thought of as irrevocably assigned. However, in virtualized environments, previously allocated resources can be reassigned or reallocated. This project formalizes how computational resources can be reallocated efficiently when there is some cost for the reallocation.&lt;br/&gt;&lt;br/&gt;The project investigates the algorithmic complexity of reallocation problems arising from large-scale systems design, and especially reallocation algorithms that are universal with respect to reallocation-cost functions. The research plan addresses problems in memory and storage reallocation, scaleout and sharding in storage systems, reallocation for dynamic combinatorial and geometric structures (finite-element meshes, metric spaces), and classical online allocation problems (scheduling and bin packing). The aim of the project is three-fold: (1) to study the asymptotic performance of reallocation, (2) to obtain results that are universal with respect to a wide class of reallocation cost functions, and (3) to quantify the performance of known heuristics in widespread use.&lt;br/&gt;&lt;br/&gt;The way computation works today, on laptops and desktops, in supercomputers and data centers, and in cloud computing, critically depends upon virtualization. Hardware trends (e.g., multicore, solid state disks) and software trends (e.g., data-centric computing) mean that virtualization is becoming even more prevalent. Reallocation algorithms have a large impact on the performance of virtualized systems. The algorithmic approach outlined in this project promises to improve the performance, scalability, and predictably of large systems. As such, this research show great promise for improving the general infrastructure of computing in the next decade.</AbstractNarration>
+    <MinAmdLetterDate>05/24/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/24/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1114809</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Bender</LastName>
+      <EmailAddress>bender@cs.sunysb.edu</EmailAddress>
+      <StartDate>05/24/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

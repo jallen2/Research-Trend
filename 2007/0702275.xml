@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Economic Mechanisms for Dynamic Resource Patitioning in Multi-Core Processors</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>172670</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ahmed Louri</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern microprocessors contain multiple computing elements (cores) that can perform different computations in parallel. Such multi-core processors, however, must share certain hardware resources (e.g., caches, bus bandwidth, power). Current multi-core implementations do not provide any explicit management of the shared resources, thereby resulting in "free-for-all" behaviors where some cores can consume a large and unfair portion of the shared resources. Such an undisciplined approach can lead to severe performance degradations for the other cores, and even lower overall/aggregate system performance. This project proposes to adapt ideas and techniques from online/Internet auctions to manage shared resources in multi-core processors. The central idea is that by providing each core with a limited budget, all cores will "play nicely" since no single core will be able to take control of an unfair portion of the shared resources. Furthermore, each core can intelligently bid on the resources that it will benefit the most from, leading to improved per-core and overall system performance. An additional advantage of leveraging existing online auction algorithms is that significant analysis has already gone into proving various properties of these algorithms, thereby providing a strong theoretical foundation for the proposed multi-core resource management techniques.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/18/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702275</AwardID>
+    <Investigator>
+      <FirstName>Gabriel</FirstName>
+      <LastName>Loh</LastName>
+      <EmailAddress>loh@cc.gatech.edu</EmailAddress>
+      <StartDate>09/18/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

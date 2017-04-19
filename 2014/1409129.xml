@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: III: CGV: Medium: Architectures for Energy Efficient Ray Tracing</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>899991</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computer graphics have become an integral part of nearly all modern computing devices. These machines range from high-performance systems, scientific workstations, and desktop computers, to dedicated gaming consoles, and to mobile electronics such as laptops, tablets, and phones. All of these devices have dedicated accelerators that enable high-performance 3D graphics. However, these accelerators, known as graphics processing units - GPUs, are becoming limited by power consumption and associated thermal issues. Improvements in process technology can help reduce energy requirements as chips migrate to the new processes, but in computer graphics, scene complexity and new demands for image quality are ever increasing. This places new demands on the GPU, and conspires to keep the power/thermal envelope high regardless of whether the GPUs are deployed in desktop workstations or energy constrained mobile platforms. This project aims to address this problem by developing new algorithms and new architectures for highly realistic 3D computer graphic image synthesis that consume significantly less power than current GPU growth trends.&lt;br/&gt;&lt;br/&gt;This work is to target ray tracing as a rendering algorithm. Ray tracing has well-understood advantages in supporting realistic rendering with high quality composite global lighting effects. It is also highly amenable to parallel processing, albeit utilizing a different type of parallelism than offered by current commercial GPUs. Ray tracing can also be naturally throttled to adjust the image quality given real-time temporal or energy constraints. This is much more difficult with the Z-buffer based rendering techniques used by current commercial GPUs. Starting from a proven framework with lightweight multiple-instruction, multiple-data (MIMD) thread processors that perform well with computations that are not efficiently executed in single-instruction, multiple-data (SIMD) bundles, the plan is to simultaneously develop new architectures and new algorithms that will work together to produce images with a lower energy cost.&lt;br/&gt;&lt;br/&gt;Expected primary contributions of the overall project include: a detailed examination of the energy required to render images with various lighting effects; techniques for trading off image quality, energy, and rendering speed through ray throttling and hardware-assisted frameless rending techniques; memory system enhancements to reduce data movement and the associated energy cost; novel extensions of our recent work in data streaming and runtime pipeline reconfiguration in many parts of the ray tracing algorithm; algorithmic improvements that take advantage of our custom architecture. If successful, this work has the potential to change fundamentally the way that computer graphics is delivered to a huge variety of end users. The promise of improved image quality and lower energy costs could change the way we experience graphics on future computing devices.</AbstractNarration>
+    <MinAmdLetterDate>09/03/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1409129</AwardID>
+    <Investigator>
+      <FirstName>Alan</FirstName>
+      <LastName>Davis</LastName>
+      <EmailAddress>ald@cs.utah.edu</EmailAddress>
+      <StartDate>09/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Erik</FirstName>
+      <LastName>Brunvand</LastName>
+      <EmailAddress>elb@cs.utah.edu</EmailAddress>
+      <StartDate>09/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Cem</FirstName>
+      <LastName>Yuksel</LastName>
+      <EmailAddress>cem@cs.utah.edu</EmailAddress>
+      <StartDate>09/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

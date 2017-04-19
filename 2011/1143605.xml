@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Coordinated Performance Optimization within a Power Budget for Chip Multiprocessors</AwardTitle>
+    <AwardEffectiveDate>06/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>255353</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Since power consumption has become a major constraint for the further throughput improvement of chip multiprocessors (CMPs), a key challenge is to optimize the performance of a CMP within a power budget limited by the CMP's cooling, packaging, and power supply capacities. This project aims to develop a coordinated power control framework for CMPs. The proposed framework has the following novel features. 1) It can dynamically and explicitly shift power among the CPU cores and other components in a CMP based on measured workload characteristics for optimized CMP performance within a power budget. 2) It adopts an online model estimator to dynamically measure the performance contributed by each component and then partitions the chip-level power budget among the components. 3) It can achieve fair or differentiated cache sharing under the impacts of dynamic cache resizing used in CMP power control. 4) It also coordinates components within a core for core-level power control and coordinates CMPs with main memory and disks for optimized system performance. 5) Our framework is based on a control-theoretic foundation for systematically and rigorously developing power control strategies. While basic control theory has already shown great promise in microprocessor power management, an important feature of our framework is that it relies on advanced optimal control theory to coordinate multiple control and optimization loops in different layers of a CMP in a holistic way for optimized performance and guaranteed stability. &lt;br/&gt;&lt;br/&gt;In addition to integrating research with education and outreach programs, the outcome of this research is expected to provide effective mechanism and a rich set of tools fer performance and power optimization in CMPs.</AbstractNarration>
+    <MinAmdLetterDate>07/19/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/19/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1143605</AwardID>
+    <Investigator>
+      <FirstName>Xiaorui</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>xwang@ece.osu.edu</EmailAddress>
+      <StartDate>07/19/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

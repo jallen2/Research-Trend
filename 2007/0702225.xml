@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Effective, Efficient, and Correct Software Analysis and Optimization Tools</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2011</AwardExpirationDate>
+    <AwardAmount>425000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Reppy</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Our modern society increasingly depends on the reliability, safety, and security of computer software. However, the compilers and other tools that analyze and translate the software into executable form can create a critical bottleneck: if a compiler has an error, then any software compiled by it may in turn be compromised.&lt;br/&gt;&lt;br/&gt;This project addresses this fundamental problem by developing effective, efficient, and correct language and tool implementation technology. Central to the project is that program analyses and transformations, the heart of optimizing compilers and software analysis tools, are written in a specialized language, named Rhodium. By focusing on this domain, it becomes feasible to build a fully-automatic correctness checker that ensures that Rhodium analyses and transformations are guaranteed to preserve the behavior of any program they process.&lt;br/&gt;&lt;br/&gt;Previous work developed a proof-of-concept Rhodium system, and demonstrated it on a range of intraprocedural optimizations. This project is developing new techniques that will allow the Rhodium system to scale to richer and more realistic settings, including the ability to optimize full-featured object-oriented and functional languages, perform scalable interprocedural analyses, execute with high efficiency, and cover the full range of tasks in the "middle-end" of optimizing compilers and software checking tools.</AbstractNarration>
+    <MinAmdLetterDate>07/02/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/24/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702225</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Grossman</LastName>
+      <EmailAddress>djg@cs.washington.edu</EmailAddress>
+      <StartDate>03/24/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Luis</FirstName>
+      <LastName>Ceze</LastName>
+      <EmailAddress>luisceze@cs.washington.edu</EmailAddress>
+      <StartDate>03/24/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Craig</FirstName>
+      <LastName>Chambers</LastName>
+      <EmailAddress>chambers@cs.washington.edu</EmailAddress>
+      <StartDate>07/02/2007</StartDate>
+      <EndDate>03/24/2009</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

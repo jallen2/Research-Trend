@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Fast Charging Batteries via Electrochemical Model-based Control</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>294714</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: Fast Charging Batteries via ElectroChemical Model-Based Control&lt;br/&gt;&lt;br/&gt;In telecommunications, there were 5.2B active mobile handsets and over 1.7B mobile phone sales worldwide for 2012. Mobile phones are also a powerful tool for solving poverty and financial inequity in third world countries. In electrified transportation, there were 53,000 were plug-in electric vehicles sold in the U.S. for 2012. Despite growing sales, range anxiety is considered the largest inhibitor of electrified transportation. Significant reduction in charge times, e.g. comparable to filling a gas tank, would eliminate this obstacle and consequently reduce emissions and oil dependence. It is clear that fast charging increases the practicality of mobile devices and electric vehicles. However, it can also decrease cycle life depending on the charging method used. Traditionally, batteries are charged via a constant current/constant voltage (CCCV) protocol. A typical mobile phone requires 47 minutes to charge from 0-50%. However, it is well-known within the academic and industrial communities that alternative protocols can reduce charge times. Such alternatives, however, are almost always heuristic, without any provably optimal properties or safe constraint satisfaction guarantees. This research project pursues a drastically different and potentially transformative approach. This research seeks to significantly reduce Li-ion battery charge times by developing control theoretic foundations for electrochemical model-based control. Mathematically, this is formulated as minimizing charge time subject to constraints on estimated electro-chemical variables associated with aging. This approach is termed Electro-chemical model-based Control (ECC). The development of this control strategy will provide a major breakthrough in the way batteries are operated, safely at their electrochemical limits. The PI is currently establishing collaborations to impact both sectors with this research. Collaborations with electrochemists in the BATT group at Lawrence Berkeley National Lab are also being pursued. At UC Berkeley, the PI has created a new course entitled Energy Systems and Control. This course studies energy systems in transportation and energy infrastructures as motivation for systems and control theory. Results from this research will directly influence course material. Finally, the PI has historically recruited students of underrepresented populations to facilitate higher educational access. The PI plans to coordinate with the UC Berkeley Center for STEM Innovation, Leadership, and Diversity to recruit undergraduate researchers.&lt;br/&gt;&lt;br/&gt;Ultimately, this research seeks to achieve a 10 minute 0-20% charge time and 25 minute 0-50% charge time over 500 charge/discharge cycles. The project is organized into three integrated research tasks. (i) First, it will analyze parameter sensitivity and develop a fast charging-oriented reduced model for estimator design. (ii) Second, it will derive provably stable state estimators and optimal fast charging algorithms. These designs will advance PDE estimation and reference governor theory, respectively, while translating these theories to battery systems. (iii) Finally, it will quantify the performance of an ECC approach vis-à-vis traditional CCCV protocols on a battery-in-the-loop experimental facility. This project is among the first to focus on control-theoretic methods for optimizing battery charge times via electro-chemical models. Mathematically, these models are multi-state coupled nonlinear partial differential equations (PDEs). Due to the model complexity, several fundamental tools in systems and control theory will be developed in the context of batteries. (i) The first is a systematic procedure for assessing parameter sensitivity in multi-state PDE models. (ii) The second is fast charging-relevant model reduction techniques for achieving observability. (iii) The third is advancements to state estimation theory for PDE-ODE models. (iv)The fourth is advancements to reference governor theory for PDE-ODE models. (v) The last is an experimental quantification of ECC fast charging performance versus traditional protocols.</AbstractNarration>
+    <MinAmdLetterDate>07/18/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/18/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1408107</AwardID>
+    <Investigator>
+      <FirstName>Scott</FirstName>
+      <LastName>Moura</LastName>
+      <EmailAddress>smoura@berkeley.edu</EmailAddress>
+      <StartDate>07/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

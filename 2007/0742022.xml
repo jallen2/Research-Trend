@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>IKL Reasoning Engine</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2009</AwardExpirationDate>
+    <AwardAmount>184599</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frank Olken</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Interoperation between systems which use extensive formalized knowledge&lt;br/&gt;is hampered by the wide variety of formalisms currently in use in such&lt;br/&gt;systems. Attempts to create World-wide Web standards have already&lt;br/&gt;yielded a collection of such formalisms, not all mutually compatible. &lt;br/&gt;This situation results in part from a methodology which views deductive&lt;br/&gt;efficiency of inference engines, rather than semantic clarity, as the&lt;br/&gt;primary design criterion for new formalisms. Recent work (reviving an &lt;br/&gt;older idea) has focussed instead on the design of a single, &lt;br/&gt;highly expressive, logic into which a wide number of existing &lt;br/&gt;formalisms can be straightforwardly mapped, essentially treating &lt;br/&gt;them as subsets or simple ontologies (theories) within the &lt;br/&gt;single common formalism. The resulting logic, &lt;br/&gt;called the Interoperation Knowledge Language (IKL), &lt;br/&gt;can express many representational strategies and the relationships&lt;br/&gt;between them in a single formalism, in principle overcoming this &lt;br/&gt;interoperation problem in many common cases. To realize this potential &lt;br/&gt;in practice requires an inference engine to process IKL.&lt;br/&gt;&lt;br/&gt;Although IKL is more expressive than first-order logic and so is&lt;br/&gt;not decidable, many of the formalisms translated into it have very &lt;br/&gt;tractable inference behavior. This project implements a new design &lt;br/&gt;of a reasoner which is theoretically complete for IKL, while also having&lt;br/&gt;the ability to recognize many of the known tractable subcases and &lt;br/&gt;use efficient inference strategies on inputs which fit into these &lt;br/&gt;known cases. The behavior of the engine is directed by scripts&lt;br/&gt;which control its search behavior in a highly flexible multi-directional &lt;br/&gt;search space combining hyper-resolution, rule-saturation and &lt;br/&gt;tableaux reasoning. The engine is designed as an experimental &lt;br/&gt;workbench rather than a production engine, with a focus on inventing&lt;br/&gt;useful techniques for controlling its behavior, running large&lt;br/&gt;experiment suites semi-automatically, and gathering information &lt;br/&gt;relevant to the search process. We plan to make use of this engine&lt;br/&gt;in a series of projects devoted to learning new inference strategies &lt;br/&gt;from empirical ontological data. &lt;br/&gt;&lt;br/&gt;Broader Impacts. &lt;br/&gt;&lt;br/&gt;The code created by this project will be publicly available &lt;br/&gt;under the GNU Lesser General Public Licence. &lt;br/&gt;&lt;br/&gt;Details of the project can be found on the project web page at &lt;br/&gt;http://homam.ihmc.us/silkie/Home.html</AbstractNarration>
+    <MinAmdLetterDate>09/10/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/16/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0742022</AwardID>
+    <Investigator>
+      <FirstName>Patrick</FirstName>
+      <LastName>Hayes</LastName>
+      <EmailAddress>phayes@ihmc.us</EmailAddress>
+      <StartDate>09/10/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Eskridge</LastName>
+      <EmailAddress/>
+      <StartDate>09/10/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Florida Institute for Human and Machine Cognition, Inc.</Name>
+      <CityName>Pensacola</CityName>
+      <ZipCode>325026008</ZipCode>
+      <PhoneNumber>8502024473</PhoneNumber>
+      <StreetAddress>40 S. Alcaniz St.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Static Analysis for Safe Browser Addons</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>499875</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research project helps secure the privacy of web browser users. It specifically targets the browser addon framework, which allows third-party developers to extend the browser's functionality. These addons are written in JavaScript and have extraordinary privileges and access to sensitive user information. Therefore, vetting third-party addons to prevent malicious or accidental security violations is critical. However, the current vetting process for browser addons is manual and ad-hoc, making this process both tedious and error-prone. The goal of this research project is to enhance and automate addon vetting by using static analysis for JavaScript to enforce formal security policies.&lt;br/&gt;&lt;br/&gt;The approach taken by this project is three-fold: (1) design formal security policies to provide provable guarantees; (2) create a provably-sound static security analysis for JavaScript-based browser addons; and (3) develop new tools for explaining security problems in addon code so that third-party developers can revise insecure add ons to eliminate vulnerabilities. This work benefits society as a whole by giving people assurance that their sensitive information is being treated securely. The work also benefits academia and industry by providing the first-ever provably-sound JavaScript static analysis for browser addons. The techniques that are developed will advance understanding of how to usefully analyze dynamic languages such as JavaScript, and the analysis framework itself will enhance research infrastructure by providing a platform for researchers to develop static analyses for JavaScript.</AbstractNarration>
+    <MinAmdLetterDate>07/16/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/16/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319060</AwardID>
+    <Investigator>
+      <FirstName>Ben</FirstName>
+      <LastName>Hardekopf</LastName>
+      <EmailAddress>benh@cs.ucsb.edu</EmailAddress>
+      <StartDate>07/16/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Barbara</Name>
+      <CityName>Santa Barbara</CityName>
+      <ZipCode>931062050</ZipCode>
+      <PhoneNumber>8058934188</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

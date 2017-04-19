@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>DC: Medium: Designing and Programming a Low-Power Cluster Architecture for Data-Intensive Workloads</AwardTitle>
+    <AwardEffectiveDate>07/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2014</AwardExpirationDate>
+    <AwardAmount>600000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project defines a novel architecture for energy efficient computing, called FAWN, or a "Fast Array of Wimpy Nodes", which uses a large collection of small, slower computers to do tasks formerly handled by a single large, fast computer. By using more, slower, computers in tandem, the architecture runs more energy efficiently. However, doing so in a practical manner requires overcoming many significant challenges: The individual nodes have much less memory than programmers are used to; the computational task must be split across a much larger number of nodes, and the load must be balanced between them so that no single slow computer will cause the overall operation to be delayed too long. Modern datacenter environments further operate under very strict requirements for processing delay in order to ensure user satisfaction; these requirements may be harder to meet when running on the FAWN architecture.&lt;br/&gt;&lt;br/&gt;The project is tackling these challenges by developing new techniques for storing and managing large volumes of data on fast solid-state&lt;br/&gt;(Flash) memory. Through collaboration with experts in CS theory, the project is developing new algorithms for memory-efficient, highly parallel data analysis and data-mining, and implementing and evaluating them in a demanding, high-performance environment. Through a collaboration with Intel, the project is constructing a 100-node prototype of a FAWN cluster using cutting-edge low-power processors.&lt;br/&gt;&lt;br/&gt;This project has the potential to substantially reduce the capital and operating costs of large Internet services, and to greatly reduce their energy costs and footprint. It may also substantially advance the state of the art in practical algorithms and systems architectures for data-intensive and energy-efficient computing.</AbstractNarration>
+    <MinAmdLetterDate>05/26/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/26/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0964474</AwardID>
+    <Investigator>
+      <FirstName>Anupam</FirstName>
+      <LastName>Gupta</LastName>
+      <EmailAddress>anupamg@cs.cmu.edu</EmailAddress>
+      <StartDate>05/26/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Andersen</LastName>
+      <EmailAddress>dga@cs.cmu.edu</EmailAddress>
+      <StartDate>05/26/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

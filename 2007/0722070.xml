@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS-FIND: Greedy Routing on Hidden Metric Spaces as a Foundation of Scalable Routing Architectures without Topology Updates</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2010</AwardExpirationDate>
+    <AwardAmount>732158</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A growing consensus among experts is that the routing system is &lt;br/&gt;approaching a critical architectural breaking point. The Internet &lt;br/&gt;Architecture Board has tried to identify the factors that limit &lt;br/&gt;routing scalability and reached the conclusion that the most acutely &lt;br/&gt;scale-limiting parameter of the current routing system is routing &lt;br/&gt;table size, not so much for its memory requirements as for its &lt;br/&gt;reaction to network dynamics. This conclusion is not surprising in &lt;br/&gt;light of recent research demonstrating that no routing algorithm can &lt;br/&gt;provide reasonable scalability bounds on dynamic Internet-like graphs. &lt;br/&gt;&lt;br/&gt;These findings offer the ominous but definitive lesson: to scale &lt;br/&gt;efficiently and indefinitely, we must learn how to route without &lt;br/&gt;topology updates. Updateless routing seems impossible at first &lt;br/&gt;glance, but Milgram's 1967 experiments showed that such routing is &lt;br/&gt;in fact a reality of greedy search strategies in social networks. &lt;br/&gt;Jon Kleinberg provided the first model formally demonstrating &lt;br/&gt;efficiency of such greedy routing strategies. However, both the &lt;br/&gt;Kleinberg model and its subsequent variations deal with graph &lt;br/&gt;topologies vastly different from scale-free topologies of observed &lt;br/&gt;complex networks, including the Internet. &lt;br/&gt;&lt;br/&gt;This project proposes a new model of Greedy Routing on Hidden &lt;br/&gt;Metrics, the GROHModel, which generalizes the Kleinberg model and &lt;br/&gt;naturally yields scale-free topologies. The model employs the &lt;br/&gt;concept of a hidden metric space (HMS) existing behind every complex &lt;br/&gt;network, including the Internet. The project thoroughly investigates &lt;br/&gt;the hypothesis that the observable scale-free structure of complex &lt;br/&gt;networks is a consequence of natural evolution that maximizes the &lt;br/&gt;efficiency of greedy routing on these HMSs. &lt;br/&gt;&lt;br/&gt;The research agenda of the project is two-fold: (1) demonstrate the &lt;br/&gt;existence of HMSs, thus validating the GROHModel premises; and (2) &lt;br/&gt;build methodologies to explicitly re-construct the HMS for the &lt;br/&gt;observable Internet topology, and more generally for any given &lt;br/&gt;complex network. As soon the Internet's HMS is reconstructed, one &lt;br/&gt;can use it to deliver addressing schemes for updateless, &lt;br/&gt;indefinitely scalable Internet routing architectures based on greedy &lt;br/&gt;routing strategies. &lt;br/&gt;&lt;br/&gt;The intellectual merit of this project involves concerted &lt;br/&gt;cross-fertilization across fields of networking, theoretical &lt;br/&gt;computer science, physics, and mathematics. The project develops a &lt;br/&gt;novel network modeling methodology that is elegantly generic in &lt;br/&gt;nature, mathematically sound, and promises a solution to one of the &lt;br/&gt;most challenging problems of future large-scale networking. &lt;br/&gt;&lt;br/&gt;Since the Internet is just one of many complex networks that form &lt;br/&gt;essential fabrics of human life, the potential advances of this work &lt;br/&gt;are profound. Navigability of complex networks, i.e., efficiency of &lt;br/&gt;targeted information propagation in them, has a fundamental &lt;br/&gt;relationship to their structure. Proved faithful to reality, the &lt;br/&gt;fundamental understanding advanced with the GROHModel may also result in &lt;br/&gt;advances in understanding of structure and function of biological, social&lt;br/&gt;and language networks.&lt;br/&gt;&lt;br/&gt;Broader Impacts: the effects of scaling limits of conventional routing&lt;br/&gt;on current networks include performance drops, loss of reachability and &lt;br/&gt;high cost. As the networks grow, these are worsened. In present times,&lt;br/&gt;operators and enterprises are attempting a transition to IPv6 in order&lt;br/&gt;to allow virtually limitless sites to connect directly to the Internet.&lt;br/&gt;This transition is expected to worsen routing strains. This project's &lt;br/&gt;innovative reexamination of the routing solution space is relevant and&lt;br/&gt;timely.</AbstractNarration>
+    <MinAmdLetterDate>09/17/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/14/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0722070</AwardID>
+    <Investigator>
+      <FirstName>Kimberly</FirstName>
+      <LastName>Claffy</LastName>
+      <EmailAddress>kc@caida.org</EmailAddress>
+      <StartDate>09/17/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dmitri</FirstName>
+      <LastName>Krioukov</LastName>
+      <EmailAddress>dima@krioukov.net</EmailAddress>
+      <StartDate>09/17/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7606</Code>
+      <Text>FUTURE INTERNET DESIGN (FIND)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

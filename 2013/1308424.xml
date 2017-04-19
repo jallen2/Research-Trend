@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Computer Experiments with Tuning or Calibration Parameters: Modeling, Estimation and Design</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>170000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In the statistical approach to computer experiments, Gaussian process models are often employed to describe the relationship between the simulation output and the input variables. There are three types of input variables: control variables, tuning parameters and calibration parameters. The tuning parameter can be the mesh density in finite element analysis. Calibration parameters are also part of the computer code but not part of the physical experiment. The combined data from computer and physical experiments are used to calibrate the computer model. These two types have received much less attention in the literature. The main goal of this proposal is to study some issues in modeling, estimation and design for tuning and calibration parameters in computer experiments. A class of nonstationary Gaussian process models is proposed, which can be used to efficiently link data from simulations with different tuning parameter values. Issues on covariance modeling and comparisons of competing models are studied. For designing computer experiments, typical use of space-filling designs is replaced by non-uniform designs that can better reflect the nonstationary nature of information in the data. For calibration parameters, the standard estimation procedure is shown to be asymptotically inconsistent. A new theoretical framework is proposed for studying the estimation properties, including modification and new estimation procedures to achieve consistency and optimal convergence rates.&lt;br/&gt;&lt;br/&gt;The last decade has seen rapid advances in realistic physical modeling and efficient numerical methods, which make it possible to use complex mathematical models to mimic physical realities. Computer simulations can be much faster or less costly than running physical experiments. Furthermore, physical experiments can be difficult or infeasible to conduct. Therefore computer simulations are now routinely used in lieu of physical experimentations. Computer modeling and experiments have become popular in scientific and engineering investigations. They have helped reap benefits ranging from reduced development cycle time, better product, to cost reduction. In view of the wide range of applications of complex system simulations, the proposed work should have broad-based impacts on a variety of problems in autos and aerospace, computational material design, geological and atmospheric studies, and green energy simulations. It will be incorporated into publicly released software like R, thus directly benefiting practitioners in industries and researchers in academe.</AbstractNarration>
+    <MinAmdLetterDate>06/27/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/04/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1308424</AwardID>
+    <Investigator>
+      <FirstName>C. F. Jeff</FirstName>
+      <LastName>Wu</LastName>
+      <EmailAddress>jeffwu@isye.gatech.edu</EmailAddress>
+      <StartDate>06/27/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

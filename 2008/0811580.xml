@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPA-CPL-T: Collaborative Research: Revisiting the Sequential Programming Model for Multicore Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2009</AwardExpirationDate>
+    <AwardAmount>50000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Recently, the microprocessor industry has moved toward multicore microprocessor designs as a means of utilizing the increasing transistor counts in the face of physical and micro-architectural limitations. &lt;br/&gt;Unfortunately, providing multiple cores does not directly translate into performance for most codes. To make use of multicore, many new languages have been proposed to ease the burden of writing parallel programs, yet the programming effort involved in creating correct and efficient parallel programs is still far more substantial than writing the equivalent single-threaded version. A more attractive approach is to rely on tools, both compilers and runtime optimizers, to automatically extract threads from sequential applications. Unfortunately, despite decades of research on automatic parallelization, most techniques have only been effective in the scientific and data-parallel domains. With recently gained insight, the investigators showed that the limits of prior thread-extraction approaches are not fundamental. By applying known and new compilation techniques in a systematic manner, the investigators found that SPEC CINT2000, among the most sequential of codes, has abundant scalable parallelism.&lt;br/&gt;&lt;br/&gt;In this project, the team of investigators is taking the initial steps toward developing the techniques necessary to build an automatic thread extraction framework. These techniques include developing static transformations that extract parallelism and quantifying the opportunities for dynamic optimization. The system will ultimately consist of a series of static transformations and compiler-inserted hints combined with a run-time optimization component. This framework will address the multicore challenge by reliably extracting parallelism from a wide range of applications without burdening the programmer with what should remain to be low-level implementation details.</AbstractNarration>
+    <MinAmdLetterDate>07/25/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/25/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811580</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>August</LastName>
+      <EmailAddress>august@cs.princeton.edu</EmailAddress>
+      <StartDate>07/25/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Princeton University</Name>
+      <CityName>Princeton</CityName>
+      <ZipCode>085442020</ZipCode>
+      <PhoneNumber>6092583090</PhoneNumber>
+      <StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

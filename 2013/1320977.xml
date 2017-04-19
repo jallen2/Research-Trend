@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Towards an Accurate, Geo-Aware, PoP-Level Perspective of the Internet's Inter-AS Connectivity</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>531994</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Understanding where and how the more than 40,000 actively routed Autonomous Systems (ASes) in today's Internet interconnect is essential for meaningfully investigating a wide range of critical Internet-related problems such as the vulnerability of the Internet to physical damage. However, much of the published work on Internet topology has focused primarily on discovering the existence of such interconnections (e.g., logical connectivity such as AS-to-AS links or physical connectivity such as router-to-router links). Considerably less attention has been paid to the where and in how many different locations these interconnections have been established. For example, the often-studied AS-level view of the Internet is too coarse as mapping entire ASes to single geographic locations eliminates essential details (e.g. AS-level path diversity). At the same time, the popular router-level view of the Internet is not only too detailed, but also inherently difficult to capture.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: The main goal of this project is to design, develop and rigorously evaluate techniques to accurately map the geographic location of all the PoPs (Point-of-Presence) of a given target AS and determine the inter-AS connections that are established at each PoP (point of presence) of this AS. A significant fraction of the Internet's physical infrastructure (e.g. routers, switches) is hosted at a relatively small number of physical building complexes, called colocation (or colo) facilities or data centers that can be accurately geo-located. Thus, a core element of this project is the design of new targeted active measurement campaigns specifically developed to map a given colo facility by identifying not only all the PoPs of all the ASes present in that colo facility, but also the corresponding inter-AS connectivity that is visible to active probing at that location. &lt;br/&gt;&lt;br/&gt;Broader Impact: The inferred PoP-level maps are leveraged to develop a new and improved simulation environment, called cBGP+, that is built on the existing simulator (cBGP) but supports real-world AS path diversity. This new simulator will enable many Internet stakeholders (e.g. ISPs, DHS) to meaningfully assess, evaluate, and predict the inter-AS reachability of the Internet in the presence of certain events or changes (e.g., political unrests or the results of natural or man-made disasters).</AbstractNarration>
+    <MinAmdLetterDate>08/20/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320977</AwardID>
+    <Investigator>
+      <FirstName>Bruce</FirstName>
+      <LastName>Maggs</LastName>
+      <EmailAddress>bmm@cs.duke.edu</EmailAddress>
+      <StartDate>08/20/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Walter</FirstName>
+      <LastName>Willinger</LastName>
+      <EmailAddress>walter@research.att.com</EmailAddress>
+      <StartDate>08/20/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Reza</FirstName>
+      <LastName>Rejaie</LastName>
+      <EmailAddress>reza@cs.uoregon.edu</EmailAddress>
+      <StartDate>08/20/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Oregon Eugene</Name>
+      <CityName>Eugene</CityName>
+      <ZipCode>974035219</ZipCode>
+      <PhoneNumber>5413465131</PhoneNumber>
+      <StreetAddress>5219 UNIVERSITY OF OREGON</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

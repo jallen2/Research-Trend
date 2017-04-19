@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER:Toward a locality-enhancing transformation framework for irregular programs</AwardTitle>
+    <AwardEffectiveDate>02/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2018</AwardExpirationDate>
+    <AwardAmount>418786</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many domains in computer science, from data-mining to simulation to computational biology, focus heavily on irregular applications, which deal with complex algorithms that manipulate complex data structures. For example, to analyze large data sets, point correlation - a data mining algorithm - organizes data in a tree-like structure that is then manipulated to extract trends and patterns. As such algorithms become more pervasive, and, more importantly, the data sets they are applied to become much larger, writing high performance irregular applications has become critically important. However, the complexity of irregular algorithms makes writing high-performance applications very difficult: simple expressions of the algorithms do not perform well, and high-performance implementations are difficult to express. An attractive solution is to develop a set of tools that could take a simple expression of an algorithm and automatically transform the program into a higher performing version. This project aims to develop automated, robust and generally-applicable performance-enhancing techniques and transformations for irregular programs.&lt;br/&gt;&lt;br/&gt;The chief obstacle to identifying and performing performance-enhancing transformations on irregular programs is the apparent lack of principles that unify irregular applications. However, this research argues that there are, indeed, such principles that can guide the development of transformations. By leveraging high-level structural properties of irregular algorithms, it is possible to automatically transform irregular programs to significantly improve their performance. This project pursues a set of interlocking efforts to build a framework to (i) analyze irregular programs, (ii) identify profitable and legal transformations, (iii) automatically restructure programs according to those transformations, and then (iv) tune the performance of the transformed applications to best fit the target execution platform.</AbstractNarration>
+    <MinAmdLetterDate>01/06/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/12/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1150013</AwardID>
+    <Investigator>
+      <FirstName>Milind</FirstName>
+      <LastName>Kulkarni</LastName>
+      <EmailAddress>milind@purdue.edu</EmailAddress>
+      <StartDate>01/06/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

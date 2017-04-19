@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TTP: Small: NFS4Sec: An Extensible Security Layer for Network Storage</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>486784</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita Nikolich</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Network File System (NFS) is a popular method for computers to access files across networks. The latest major version of this IETF protocol, version 4, is widely accepted and includes numerous new features to improve security, performance, and usability when used over wide-area networks. However, the NFSv4's security focus is on network-wide encryption (ensuring that user data cannot be intercepted) and user authentication (ensuring that only legitimate users can access their files); it does not address end-to-end data security (i.e., persistently stored data), does not address data integrity (malicious or benign data corruptions), and more.&lt;br/&gt;&lt;br/&gt;This project extends NFSv4 with a security layer that allows one to develop multiple, composable plugin modules to enhance the protocol's security. This layer allows for interception of protocol requests between clients and servers to perform various useful security functions: logging access to files by users and hosts, useful for regulatory compliance reports and audits; inspecting files for malware patterns and automatically quarantining them; verifying the integrity of long-lived files against malicious changes (e.g., Trojan intrusions) and benign but serious ones (e.g., storage media degradation and hardware corruptions); detecting denial-of-service attempts and ensuring quality-of-service to legitimate users through load-balancing and redirection; automatic snapshotting and logging to allow for forensic analysis and recovery from failures and intrusions. In a cloud-based era where more data lives longer and is accessed over wide-area, insecure networks, this project helps elevate the level of security of every user's data files.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/28/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1223239</AwardID>
+    <Investigator>
+      <FirstName>Erez</FirstName>
+      <LastName>Zadok</LastName>
+      <EmailAddress>ezk@cs.stonybrook.edu</EmailAddress>
+      <StartDate>08/28/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Radu</FirstName>
+      <LastName>Sion</LastName>
+      <EmailAddress>sion@cs.stonybrook.edu</EmailAddress>
+      <StartDate>08/28/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

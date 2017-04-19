@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Capitalizing on First-Class SQL Support in the Ur/Web Programming Language</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The World Wide Web has become one of the most popular platforms for deploying rich software applications, and most Web applications include interfaces to persistent databases, many implemented with the SQL language. Mainstream programming techniques provide programmers with little help in construction of correct database interface code. As a result, many Web applications include serious security vulnerabilities that allow attackers to read others' private data, or even delete or corrupt it. Furthermore, programmers expend substantial effort reimplementing similar functionality for each new application and its new data model. This project studies programming tool support that can help solve both of these problems, based on a programming language and compiler that in a sense "understand" SQL database access.&lt;br/&gt;&lt;br/&gt;A connecting thread in the project's technical approach is real-world application of computer theorem proving technology. The programming language, Ur/Web, is based on dependent type theory, a language paradigm pioneered by interactive mathematical theorem proving tools. In the Web application context, type theory provides a unified framework for enforcing key program properties, such as invulnerability to code injection attacks and other common security problems. On top of this is built support for metaprogramming, or programs that generate programs, where the key security properties ought to be guaranteed for any code outputs of a metaprogram. One major thrust of the project is using metaprogramming to reify coding patterns as reusable libraries, dramatically reducing time and effort needed to construct a new application. The other major thrust is static program analysis, where symbolic execution and automated theorem proving are used to verify formally that Web applications conform to declarative security policies, covering information flow and access control. Metaprogramming will support component-based construction with module-local reasoning, while the static analysis ensures global consistency of programs from a security perspective.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/28/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217501</AwardID>
+    <Investigator>
+      <FirstName>Adam</FirstName>
+      <LastName>Chlipala</LastName>
+      <EmailAddress>adamc@csail.mit.edu</EmailAddress>
+      <StartDate>08/28/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

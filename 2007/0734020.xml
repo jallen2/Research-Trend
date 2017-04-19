@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Formal Approaches to Verifying Medical Device Software</AwardTitle>
+    <AwardEffectiveDate>03/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2009</AwardExpirationDate>
+    <AwardAmount>55000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>While the purpose of medical devices is to help save lives, the software that controls them has the potential to cause death or injury to patients and care givers. For this reason, medical device software must be extensively tested to ensure that there are no defects that may cause unexpected behavior. However, typical code-testing techniques can only be applied after a significant portion of the system has already been built. In addition, these methods are very time consuming and require a significant amount of manual effort to infer, based on the test data, whether the system has met its requirements. Early detection of defects can be achieved through the construction of pre-implementation system models; however, this still does not address the problem of manual interpretation of test results. Instrumentation-Based Verification (IBV) is a specification-based testing strategy that is expected to solve the manual interpretation problem by creating an explicit connection between requirements and test results. Whether an implementation model satisfies its requirements can then be automatically deduced since the formal encodings of requirements drove the test generation.&lt;br/&gt;&lt;br/&gt;This NSF project enables a pilot empirical study to assess the practical utility of IBV in the context of medical-device software, in which researchers work with Food and Drug Administration staff at their software laboratory in OSEL (Office of Science and Engineering Laboratories), to assess the practical utility of IBV for medical-devices. This study will involve the development of a controller model in an industry-standard design tool, for a medical application such as an infusion pump. IBV is implemented for this model in the team?s model-based verification tool, Reactis. The research objective is development of a model-based medical software and system design flow to detect defects early in the design cycle. An empirical aspect of the project focuses on quantifying the overhead of using IBV, in order to understand whether the extra burden IBV imposes compensates for its benefits.</AbstractNarration>
+    <MinAmdLetterDate>03/07/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/07/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0734020</AwardID>
+    <Investigator>
+      <FirstName>Arnab</FirstName>
+      <LastName>Ray</LastName>
+      <EmailAddress>arnabray@fc-md.umd.edu</EmailAddress>
+      <StartDate>03/07/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>W. Rance</FirstName>
+      <LastName>Cleaveland</LastName>
+      <EmailAddress>rance@cs.umd.edu</EmailAddress>
+      <StartDate>03/07/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Fraunhofer Center for Experimental Software Engineering</Name>
+      <CityName>College Park</CityName>
+      <ZipCode>207403823</ZipCode>
+      <PhoneNumber>2404872905</PhoneNumber>
+      <StreetAddress>5825 University Research Court</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

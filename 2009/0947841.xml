@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: CISE/IIS/RI/Program Element 7495: Crowdsourcing for NLP: Exploring Two Approaches</AwardTitle>
+    <AwardEffectiveDate>08/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2013</AwardExpirationDate>
+    <AwardAmount>208000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>"Crowdsourcing" is the idea of using the "wisdom of crowds", that is, combining large numbers of judgments by non-experts, to produce reliable answers to complex problems. In the field of natural language processing(NLP), annotating sentences to show what events they express (and which parts of the sentence express which participants) is such a complex task. For example, the sentence "Maria rides the bus from home to her office" should be recognized as a Ride_vehicle event, with "Maria" as Mover, "the bus" as the Vehicle, "from home" as the Source and "to her office" as the Goal; NLP systems should also be able to recognize the same event with the same participants in the sentence "Maria's bus ride from home to her office takes 40 minutes", but most current systems cannot.&lt;br/&gt;&lt;br/&gt;FrameNet (http://framenet.icsi.berkeley.edu) is building a lexical database of hundreds of event types (called "semantic frames") and examples of each in annotated sentences, which can be used to train NLP systems. But expert annotation of sentences is slow and expensive; this project is testing whether crowdsourcing can speed up the creation of such databases, specifically by exploring two crowdsourcing techniques to see which works better for these tasks: (1) online games, where players compete to see who can annotate rapidly and accurately (similar to the "Verbosity" game) and (2) a system in which people are paid small amounts of money to complete such tasks, using Amazon's "Mechanical Turk" (www.mturk.com). If successful, these techniques could be used to build better databases for new NLP systems that really understand "who did what to whom", thus improving question answering and web searching.</AbstractNarration>
+    <MinAmdLetterDate>08/17/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0947841</AwardID>
+    <Investigator>
+      <FirstName>Collin</FirstName>
+      <LastName>Baker</LastName>
+      <EmailAddress>collinb@icsi.berkeley.edu</EmailAddress>
+      <StartDate>08/17/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>International Computer Science Institute</Name>
+      <CityName>Berkeley</CityName>
+      <ZipCode>947044115</ZipCode>
+      <PhoneNumber>5106662900</PhoneNumber>
+      <StreetAddress>1947 CENTER ST STE 600</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Advances in Global Dynamic Optimization</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>310202</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Burka</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Paul Barton&lt;br/&gt;0933095&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Intellectual Merit The objective of this research is to develop algorithms for the global solution of dynamic optimization problems of practical size, with a particular interest in chemical engineering applications. In such optimization problems, inputs, parameters and/or initial conditions for a system of differential equations that optimize a specified performance metric are sought. This type of optimization problem is ubiquitous in engineering disciplines due to the widespread use of differential equations to model systems of interest. For chemical engineering applications, it is widely known that dynamic optimization problems nearly always exhibit multiple suboptimal local minima. Most dynamic optimization algorithms can only guarantee convergence to local minima, which can have serious economic and environmental consequences, and may also result in unsafe operating conditions, when implemented on real systems. To date, there are roughly three algorithms capable of solving general dynamic optimization problems to guaranteed global optimality - all of these are restricted to problems with fewer than about five degrees of freedom and five state variables due to excessive computational cost, and therefore cannot be used to address many practical chemical engineering problems. Thus, the primary objective of this work is to develop more efficient algorithms for solving dynamic optimization problems globally.&lt;br/&gt;&lt;br/&gt;Under previous NSF support, the PI and coworkers developed a rigorous global dynamic optimization algorithm, which hinges on a novel theory for generating convex relaxations for these problems. Though this theory works well in many cases, there remain large classes of problems for which these relaxations are too weak. This work involves the theoretical development and efficient numerical implementation of better techniques for generating convex relaxations. For general dynamic optimization problems, a new theory has recently been developed which can provide tighter relaxations in many cases, yet there are many remaining challenges regarding implementation of this theory to produce a complete algorithm. These challenges are the topic of one of the tasks that will be undertaken in this project.&lt;br/&gt;&lt;br/&gt;All techniques to relax dynamic optimization problems require the generation of bounds on the state variables over a range of parameters. The accuracy of these bounds is directly reflected in the strength of the convex relaxations generated. Methods for efficiently generating tighter bounds than are currently available are the subject of the second specific research tasks. It is found that major improvements can potentially be made for the specific case of optimization problems involving chemically reacting systems, due to the availability of independently known physical information. This includes a very large and important class of chemical engineering applications. However, exploiting this information to its fullest extent presents several interesting theoretical and computational questions that remain to be addressed. Finally, a method for generating tight bounds for general dynamic optimization problems by augmenting our existing method with simple first-order Taylor models in a novel manner will be studied.&lt;br/&gt;&lt;br/&gt;Broader Impact The ability to solve dynamic optimization problems of practical size could have a major impact on the chemical process industry. The ability to simulate large-scale dynamic systems efficiently has caused an increase in the development of detailed dynamic process models for many chemical processes. Yet optimizing these systems for design, operation or control can currently only be done locally, or through the use of inappropriate linear approximations. The ability to solve globally dynamic optimization problems involving such detailed dynamic models would allow appropriate treatment of important problems such as formal safety verification of chemical processes, design of start-up and shut-down procedures, synthesis of integrated batch processes, and the integration of design and control. Furthermore, it is believed that generic global dynamic optimization techniques will find widespread use in nearly all science and engineering disciplines.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0933095</AwardID>
+    <Investigator>
+      <FirstName>Paul</FirstName>
+      <LastName>Barton</LastName>
+      <EmailAddress>pib@mit.edu</EmailAddress>
+      <StartDate>09/11/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1403</Code>
+      <Text>PROCESS &amp; REACTION ENGINEERING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>050E</Code>
+      <Text>CHEMICAL PROCESS DESIGN</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7752</Code>
+      <Text>CDI NON SOLICITED RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

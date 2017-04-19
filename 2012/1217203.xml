@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Multiscale Computation of Highly Oscillatory Dynamical Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>497235</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Highly oscillatory dynamical systems are computationally very challenging. Traditional numerical techniques require several function evaluations per wavelength. This is typically prohibitingly computationally costly. In earlier work the investigators have developed and analyzed numerical algorithms for efficient solution of such systems with well-defined scale separation. In this proposal the investigators tackle the harder problems where the scale separation is less clear and where the decomposition into slow and fast variables is not known. Abstractly, a full-scale model with state variables u is given. A number of slow variables, U, which include the local averages of u(t), is to be computed using a sequence of short time histories of u(t), starting from appropriate initial conditions consistently defined by U(t). Hence, the essential objectives that form this proposal are: (1) Under what conditions and in what sense do the multiscale approaches converge? What is the accuracy in the approximation of U, and what are the stability properties of the methods? (2) How can we find higher order accurate algorithms in a systematic way, when the dynamical system's right hand side can be decomposed into stiff and non-stiff parts? (3) Design such methods with a substantial reduction of computational complexity compared with existing techniques. The proposed research will delineate mathematically what it means for a dynamical system that appear to be highly oscillatory to possess slow modes. With this information, new efficient numerical algorithms can be devised and tested rigorously. The proposed research will establish a mathematical link between a variety of averaging theories and new effective numerical integrators and filtering techniques.&lt;br/&gt;&lt;br/&gt;The proposed research is at the very mathematical and computational heart of many important applications in science and engineering, from astrophysics to quantum mechanics. In these applications there are rapid oscillations as, for example, vibrations of atoms that affects the overall system on a much slower time scale. This is traditionally difficult to simulate with reasonable computational cost. The theories and algorithms developed in this proposal make such simulations practical and directly relate to important atomistic simulations that are used in place of actual physical experiments. They will have direct consequences, for example, in molecular biology for understanding drug functions at the cellular level, and also in the study of material properties and unstable events such as the formation and propagation of cracks, which may affect electronic components as well as the structural safety of airplanes.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217203</AwardID>
+    <Investigator>
+      <FirstName>Bjorn</FirstName>
+      <LastName>Engquist</LastName>
+      <EmailAddress>engquist@math.utexas.edu</EmailAddress>
+      <StartDate>07/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yen-Hsi</FirstName>
+      <LastName>Tsai</LastName>
+      <EmailAddress>ytsai@math.utexas.edu</EmailAddress>
+      <StartDate>07/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

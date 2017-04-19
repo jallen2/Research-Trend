@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Bayesian Nonparametric Learning for Large-Scale Structure Discovery</AwardTitle>
+    <AwardEffectiveDate>03/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2019</AwardExpirationDate>
+    <AwardAmount>401480</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Weng-keen Wong</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CAREER: Bayesian Nonparametric Learning for Large-Scale Structure Discovery&lt;br/&gt;&lt;br/&gt;This CAREER project will advance the state-of-the-art for automated discovery of structure within data as diverse as images and video, natural language, audio sequences, and social and biological networks. Contemporary applications of statistical machine learning are dominated by parametric models. This approach constructs models of pre-determined size (with a finite-dimensional vector of parameters which) are tuned using training data. To be effective, the underlying structure of such models must be manually specified by experts with application-specific knowledge. This presumed structure imposes limits on what can possibly be learned even from very big datasets.&lt;br/&gt;&lt;br/&gt;Bayesian nonparametric models instead define distributions on models of arbitrary size with infinite-dimensional spaces of functions, partitions, or other combinatorial structures. They lead to flexible, data-driven unsupervised learning algorithms, and models whose internal structure continually grows and adapts to new observations. Bayesian nonparametric models, while promising, are an incompletely-developed technology posing significant challenges to practice. This CAREER project will increase the practical feasibility and impact of Bayesian nonparametric approaches by pursuing three interrelated themes:&lt;br/&gt;&lt;br/&gt;1) Nonparametric Model Design and Evaluation. New families of models for data with hierarchical, spatial, temporal, or relational structure are investigated. Quantitative validation of the statistical assumptions and biases inherent in these models will be emphasized, evaluating whether these align with the empirical statistics of significant application areas.&lt;br/&gt;&lt;br/&gt;2) Reliable Structure Discovery. Statistical inference algorithms which move beyond the local moves of standard (and widely used) Monte Carlo and variational methods will be developed. Compelling examples indicate that local optima are a significant issue for contemporary methods, so a family of novel algorithms is proposed, which dynamically adjust model complexity as learning proceeds.&lt;br/&gt;&lt;br/&gt;3) Scalable and Extensible Nonparametric Learning. Common patterns across a wide range of popular nonparametric models are identified, which suggest a corresponding family of scalable and parallelizable online learning algorithms. The "memoized" online variational inference algorithm avoids some practical instabilities and sensitivities of conventional methods, while allowing provably correct optimization of the nonparametric model structure and complexity.&lt;br/&gt;&lt;br/&gt;An extensible "BNPy: Bayesian Nonparametric Learning in Python" software package is under development to allow easy application of the novel learning algorithms to a wide range of current and future BNP models. The education and outreach plan of this CAREER project leverages this software to create interdisciplinary undergraduate research teams exploring applications in the natural and social sciences, and a week-long summer school on Bayesian nonparametrics to be held twice at Brown University's Institute for Computational and Experimental Research in Mathematics (ICERM).</AbstractNarration>
+    <MinAmdLetterDate>03/13/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/09/2017</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1349774</AwardID>
+    <Investigator>
+      <FirstName>Erik</FirstName>
+      <LastName>Sudderth</LastName>
+      <EmailAddress>sudderth@cs.brown.edu</EmailAddress>
+      <StartDate>03/13/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

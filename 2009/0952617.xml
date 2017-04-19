@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Clause Generation: A New Perspective on Parallel Symbolic Model Checking</AwardTitle>
+    <AwardEffectiveDate>01/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>02/29/2012</AwardExpirationDate>
+    <AwardAmount>123904</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Symbolic finite-state model checking is a technique for analyzing properties of computational systems. This project rethinks symbolic model checking to achieve scalable performance on multi-core and networked computers. Current attempts to parallelize model checking use standard algorithms and techniques, but this project takes a new approach in which parallel threads share Boolean clauses, which are lemmas of the final proof. It is hypothesized that such clauses represent the appropriate quantum of shared information for parallelization: neither so simple as to cause excessive communication, nor so complex as to cause threads to duplicate work. If the hypothesis is correct, implementations will achieve near-linear scaling with the number of computer cores. The work also investigates the tradeoffs between verifying correctness of properties versus checking properties for counterexamples, exploring performance implications of the tradeoffs.&lt;br/&gt;&lt;br/&gt;Symbolic model checking has applications in a wide range of areas, from verifying sequential circuits and security protocols to analyzing biological processes. Advances in model checking allow one to analyze systems of increasingly higher complexity. The project will integrate research and education by developing curriculum that increases the workforce's proficiency in logic, as well as develop educational material on computational thinking for secondary school students.</AbstractNarration>
+    <MinAmdLetterDate>12/31/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/03/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0952617</AwardID>
+    <Investigator>
+      <FirstName>Aaron</FirstName>
+      <LastName>Bradley</LastName>
+      <EmailAddress>aaron.r.bradley@colorado.edu</EmailAddress>
+      <StartDate>12/31/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

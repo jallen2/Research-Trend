@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Scalable Concurrent Compacting Garbage Collection for Commodity Multi-Core Processors</AwardTitle>
+    <AwardEffectiveDate>07/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2011</AwardExpirationDate>
+    <AwardAmount>275001</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Concurrency is an increasingly important area of study as commodity parallel multi-core processors (such as Intel's Core processors) enter the mainstream.&lt;br/&gt;At the same time, mainstream programming languages such as Java and C# support both concurrent programming and automatic memory management (so-called "garbage collection" or GC). Ordinary programmers expect their programming platforms to yield both responsiveness and performance for their applications running on commodity parallel computers. This project explores new approaches to GC that exploit hardware parallelism to retain and improve desirable space/time performance characteristics for programs. It will benefit the hardware industry by exploiting their new multi-core offerings, while contributing to economic and national security by enhancing usability, performance, and reliability of software. The project will produce high-demand graduates skilled in the art and science of concurrent programming, able to exploit parallelism in the production of more reliable high-performance application systems, from the desktop to the data center, so expanding the capabilities of the national technical work-force.&lt;br/&gt;&lt;br/&gt;While efficient concurrent non-moving collectors are ubiquitous in production programming languages, efficient non-intrusive compaction is still missing. Without compaction (whether by the GC or separately), maximizing memory utilization and locality, and minimizing memory fragmentation is difficult. Retaining responsiveness and exploiting parallelism, means reconciling compaction with concurrency. The project is devising new approaches for automatic compaction of dynamically allocated data, with emphasis on techniques that allow compaction to occur concurrently (i.e., in parallel) with the application. Concurrent compaction approaches based on concurrent copying (i.e., moving) GC as well as standalone concurrent compaction (in concert with non-moving GC) are being designed, implemented, and evaluated for established benchmark programs using metrics that measure responsiveness, application utilization, and throughput.</AbstractNarration>
+    <MinAmdLetterDate>07/11/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702240</AwardID>
+    <Investigator>
+      <FirstName>Antony</FirstName>
+      <LastName>Hosking</LastName>
+      <EmailAddress>hosking@purdue.edu</EmailAddress>
+      <StartDate>07/11/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

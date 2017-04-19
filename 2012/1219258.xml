@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Integrating Learning and Search for Structured Prediction</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>463437</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The field of machine learning is extremely successful in solving classification problems where the inputs are fixed size feature vectors and the outputs are a small fixed number of classes. However, many applications such as natural language understanding and visual scene interpretation involve inputs and outputs of variable size that have rich internal structure. This project will study new approaches for such structured prediction problems. For example, the inputs may be natural language documents or visual scenes and the outputs may be formal representations of their semantic content, such as entities inferred or observed and the relationships between them. Most approaches to structured prediction learn a cost function to score potential structured outputs. Finding the correct output for the given structured input then consists of inferring the least cost output. Unfortunately, the computational cost of this inference is prohibitive for expressive cost functions; this forces the use of either simpler cost functions or approximate inference. In either case, prediction accuracy can suffer.&lt;br/&gt;&lt;br/&gt;The current project aims to address this issue by integrating learning and search in a new framework that allows for the development of novel algorithms for structured prediction. In particular, this project will address three topics: (1) A generic framework will be developed for cost function learning by imitating the decisions of an optimal time-bounded search procedure on the training data. This will allow for a wide range of state-of-the-art search algorithms to be leveraged for structured prediction. (2) A theory and framework will be developed to learn to speed up the search for a global optimum by compressing the search into a shorter time-frame. This will allow for learning to address not only accuracy but also the computational efficiency of the predictor. (3) Both the cost function learning and speedup learning will be instantiated in multiple search algorithms and evaluated in different applications.&lt;br/&gt;&lt;br/&gt;The project seeks to make contributions to a variety of applications of broad impact including natural language understanding, tracking objects in video, and personalized scheduling. The frameworks, algorithms and testbeds for learning to search and structured prediction will be integrated into the Weka tool-box so that they can be easily combined with different supervised learning algorithms and used in further research. The results and benchmark domains will be publicly distributed through the project's web pages. A special topics graduate course will be taught on the topic of this proposal at Oregon State University.</AbstractNarration>
+    <MinAmdLetterDate>07/16/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/22/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1219258</AwardID>
+    <Investigator>
+      <FirstName>Prasad</FirstName>
+      <LastName>Tadepalli</LastName>
+      <EmailAddress>tadepall@eecs.orst.edu</EmailAddress>
+      <StartDate>07/16/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alan</FirstName>
+      <LastName>Fern</LastName>
+      <EmailAddress>afern@eecs.oregonstate.edu</EmailAddress>
+      <StartDate>07/16/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Oregon State University</Name>
+      <CityName>Corvallis</CityName>
+      <ZipCode>973318507</ZipCode>
+      <PhoneNumber>5417374933</PhoneNumber>
+      <StreetAddress>OREGON STATE UNIVERSITY</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

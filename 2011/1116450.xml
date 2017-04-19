@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Arbitration, Coherence, and Consistency for Nanophotonic Multicore Processors</AwardTitle>
+    <AwardEffectiveDate>06/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2015</AwardExpirationDate>
+    <AwardAmount>430000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In recent years, the microprocessor design industry has made an aggressive transition to chip-multiprocessor designs, where additional device resources provided by continued semiconductor fabrication process scaling are dedicated to providing ever-increasing numbers of processor cores per die. These cores are expected to maintain a view of shared memory that is easy for programmers and users to work with; that is, the memory contents must be updated only in ways that are coherent and consistent across the whole chip. Similarly, the multiple processing cores must coordinate their accesses to shared resources like input/output subsystems as well as off-chip connectivity to other chips and main memory. Providing a scalable and low-overhead communication substrate, or network on chip, for such activities is one of the most pressing challenges faced by designers today. Existing and proposed designs are adapting numerous techniques and lessons learned from prior off-chip networks, but these solutions are far from ideal given the radically-different opportunities and constraints that exist in both electrical and nanophotonic on-chip networks.&lt;br/&gt;&lt;br/&gt;This project investigates novel on-chip networks and hardware protocols for communicating and coordinating the activities of multiple on-chip processor cores. These networks and protocols provide highly-scalable performance while minimizing power and area overheads, hence enabling processor chips that deliver unprecedented levels of performance. The research work is focused on networks built with nanophotonic devices packaged in a 3D chip stack, with an emphasis on efficient arbitration protocols based on high-speed optical mechanisms as well as arbitration-free implementations that rely on coding of message contents to enable robust delivery even when the communication channel is under contention. The project also shows how to utilize the benefits of optical on-chip networks--ultra-low latency, massive bandwidth, and ultra-fast global coordination and consensus--to streamline the hardware protocols that provide a coherent and consistent view of memory.&lt;br/&gt;&lt;br/&gt;Without dramatic innovations in the design and online management of multicore chip interconnects, the continued device scaling of future nanometer technologies may no longer provide substantial returns in utility or performance. As a result, the microprocessor industry, and by extension, the computer industry as a whole faces a serious challenges in maintaining the growth-based business model that has sustained it for four decades. This research has broad industry- and economy-wide impact since it helps to address or avert these challenges</AbstractNarration>
+    <MinAmdLetterDate>06/10/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/10/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116450</AwardID>
+    <Investigator>
+      <FirstName>Mikko</FirstName>
+      <LastName>Lipasti</LastName>
+      <EmailAddress>mikko@engr.wisc.edu</EmailAddress>
+      <StartDate>06/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

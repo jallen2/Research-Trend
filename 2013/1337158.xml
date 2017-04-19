@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: CLCCA: On the Hunt for Correctness and Performance Bugs in Large-scale Programs</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>292331</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The scale of computing applications has been dramatically increasing over the past several years. As applications in domains such as computational genomics, data mining, and machine learning are let loose on ever-more-complex problems, the scale of the inputs to these applications has shot up. And as the pursuit of parallelism has led to increasing core counts for servers, and increasing numbers of servers and racks for data centers, the scale of the systems that these applications must run on has also dramatically risen. A critical problem in developing large scale applications is detecting and debugging scaling issues, which are problems with program behavior that emerge only as a program scales up. Scaling issues show up as correctness bugs or performance bottlenecks. Unfortunately, detecting bugs that arise at large scales is difficult. Manually poring through logs or performance profiling individual application processes is not practical. Moreover, the developer may not have access to the inputs and systems necessary to run the application at large scales. This research project aims to develop automated techniques to detect and diagnose correctness and performance bugs for large-scale programs using program behavior modeling, training at small scale runs, and extrapolating to large-scale runs.&lt;br/&gt;&lt;br/&gt;To achieve our objectives, we build statistical models that incorporate scale. By relating program scale to program behavior, we can predict how a program behaves at large scales, without ever seeing correct behavior at that scale, and use those predictions to detect and diagnose bugs. The project is structured around three thrusts, each using the computational genomics applications for context. In the first, we build statistical models of program behavior that incorporate scale. In the second, we build statistical techniques for detecting when there is an error and then drilling down to identify potential root causes in the software. In the third, we build a testing tool which will allow us to uncover such scaling issues in an accelerated manner. In aggregate, the project combines in innovative ways applications of static analysis, dynamic instrumentation, modeling, and machine learning-based data analysis. The project will use computational genomics applications, such as Blast, Bowtie, Trinity/Butterfly, and Margin, to evaluate the approach.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1337158</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Gribskov</LastName>
+      <EmailAddress>gribskov@purdue.edu</EmailAddress>
+      <StartDate>09/13/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Milind</FirstName>
+      <LastName>Kulkarni</LastName>
+      <EmailAddress>milind@purdue.edu</EmailAddress>
+      <StartDate>09/13/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Saurabh</FirstName>
+      <LastName>Bagchi</LastName>
+      <EmailAddress>sbagchi@purdue.edu</EmailAddress>
+      <StartDate>09/13/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

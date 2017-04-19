@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Practical Approach to Rothe's Method: Method of Lines Transpose</AwardTitle>
+    <AwardEffectiveDate>08/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>205000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many important equations in Physics, Chemistry and Materials Science exhibit a range of critical time scales. Generally, behaviors break up into a range of fast, medium, and slow time scales. Take for example the process of casting a polymer membrane that undergoes phase separation during the casting process. Polymers of this type include fuel cell membranes, separators in modern batteries, and polymer based solar cells. The fastest time scale is the spinodal region (an initial coursing process during casting) which might be pico to micro seconds. Then comes a longer transient phase, which is on the order of tens of minutes to hours. This transient is when the system settles down and the membrane starts to take its final form. The overall casting process can take days to complete, dictating how well the membrane will work. The state of the art for modeling these processes is to use direct simulation of casting by modeling the individual atoms in the system using molecular dynamics. However, even on the biggest super computers, the best methods can only simulate hundreds of pico seconds. To obtain accurate models of these systems over these time scales, a new class of models, functionalized Cahn Hilliard, was proposed. However, this type of model is very challenging to solve, requiring both temporal and spatial accuracy over a wide range of scales. To accommodate this model, we are developing a new class of numerical methods which take advantage of the multi-core computing revolution. If successful, this new class of numerical methods will facilitate rapid simulations of problems we could only experimentally interrogate in the past. The overall goal in developing this new class of numerical methods for challenging models of this nature is to move the process of design away from an Edisonian approach to one of thoughtful design process. With reliable numerical tools, the process of design can be greatly enhanced. A key example of this is the materials and wing design of the new Boeing 777 aircraft, which was designed primarily through computer simulation.&lt;br/&gt;&lt;br/&gt;This proposal centers on the development of O(N), semi-analytic, high order, implicit solvers based on the method of lines transpose, otherwise known as Rothe's method, for a large class of PDEs. The methods are motivated by the PIs work on developing an A-Stable to all orders in time implicit method for acoustic problems with a variable wave speed. The method starts by discretizing the PDE in time, then solving the resulting non-oscillatory Helmholtz equation using a fast summation methodology, i.e., we use the free space Green's function to invert the operators followed by applying a boundary integral to correct the free space solution. To generate high order solutions, a new approach based on successive convolution is introduced. The proposal centers on the extension of the core algorithm, based on successive convolution, to a wide class of linear and non-linear PDEs. A novel method for multi-level domain decomposition (DD) is presented. The DD method offers a possible path for developing scalable versions of the algorithm for distributed multi-core platforms.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/09/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1418804</AwardID>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Christlieb</LastName>
+      <EmailAddress>christlieb@math.msu.edu</EmailAddress>
+      <StartDate>08/06/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

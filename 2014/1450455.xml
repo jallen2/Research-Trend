@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSI: CRESCAT, A Computational Research Ecosystem for Scientific Collaboration on Ancient Topics, Spanning the Full Data Life Cycle</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>1500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project integrates, tests, and documents a suite of interoperable software tools to support collaborative research. The tools are collectively called CRESCAT (Computational Research Ecosystem for Scientific Collaboration on Ancient Topics). The initial focus is on disciplines that deal with dynamic interactions and structural changes within spatially situated populations over long time spans in the past, e.g., paleobiology, archaeology, and economic history. Despite their differences, these disciplines have similar computational needs for modeling and analyzing data. Moreover, the same software can be used in many other disciplines, enabling economies of scale by building and maintaining a common set of interoperable tools to serve a wide range of researchers, while spanning the full research data life cycle, consisting of (1) acquisition, (2) integration, (3) analysis, (4) publication, and (5) archiving of data. An intuitive graphical user interface is provided for end-user researchers to work with their data in all stages of the life cycle without cumbersome manual data transfers and transformations. The project will address a major computational problem that affects many scientific disciplines due to the challenge of integrating and analyzing data of diverse origins based on heterogeneous spatial, temporal, and taxonomic ontologies. Thus it will have a broad impact in the sciences and beyond by showing how to represent explicitly the full variability of individual judgments and the divergent conceptualizations and terminologies through which those judgments are expressed, with explicit attribution of each observation, interpretation, and conceptual ontology to a particular named person or group. Unlike many computational tools for scientific research, which assume a degree of ontological consensus that does not exist, CRESCAT conforms to actual research practices. It does not impose a standardized ontology, thereby ignoring or suppressing the inevitable disagreements and conflicting interpretations that arise among researchers. Instead, it represents ontological diversity, observational uncertainty, and interpretive disagreement explicitly within a larger common framework in which end users can query, analyze, and compare the full range of observations, interpretations, and terminologies to inform their own judgments about the evidence. CRESCAT is designed to allow scientific disagreements and observational and interpretive uncertainties to be represented digitally in a way that exposes these differences themselves as data for analysis and debate. Thus, in addition to the practical goal of building a more efficient shared framework for advanced research, the proposed work will provoke theoretical reflection about how computational tools should relate to scientific practice.&lt;br/&gt;&lt;br/&gt;The CRESCAT project is an interdisciplinary collaboration between computer scientists, paleobiologists, geoscientists, archaeologists, economic historians, and other social scientists. The goal is to demonstrate the value of an integrative software ecosystem that spans the social and natural sciences and can facilitate any research characterized by overlapping models of temporal and spatial relations or by conflicting terminologies and taxonomies. CRESCAT's representation of scientific knowledge eschews forced standardization, which is impractical in many cases due to lack of an enforcement mechanism and is also questionable in principle since divergent ontologies often legitimately reflect different theoretical assumptions and research agendas. Central to the CRESCAT suite of tools is an innovative data-integration system that represents explicitly both research data and the ontologies inherent in the data. An ontology is defined here as a conceptual model of entities and the relationships among them in a given domain of knowledge, in contrast to a schema,&amp;#148;which is the implementation of an ontology in logical data structures within a working system. CRESCAT's data-integration system operates at a level of abstraction sufficient to provide a predictable and efficiently queryable database structure based on an abstract global schema, which in turn is based on an upper ontology specified in terms of fundamental concepts and relationships applicable to all scientific and scholarly disciplines. The data-integration system is implemented in an enterprise-class XML/XQuery DBMS that serves as a data warehouse (using the non-relational graph data model), in which is stored diverse data from a wide range of research projects representing many disciplines. The terminology and conceptual distinctions of each research project are fully preserved. The approach to research data taken in the CRESCAT project is (1) coherent, tightly integrating software tools and data formats within a single analytical framework; (2) open-ended, interconnecting existing tools while allowing the addition of new tools in the future; (3) non-exclusive, in no way preventing its component tools from participating in other software ecosystems; (4) scalable, designed to handle large-scale data management, analysis, and visualization; and (5) sustainable, maintaining shared resources to meet common needs for software and technical support and thus enabling substantial economies of scale.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/28/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1450455</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Levy</LastName>
+      <EmailAddress>tlevy@ucsd.edu</EmailAddress>
+      <StartDate>08/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Schloen</LastName>
+      <EmailAddress>d-schloen@uchicago.edu</EmailAddress>
+      <StartDate>08/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kathleen</FirstName>
+      <LastName>Morrison</LastName>
+      <EmailAddress>k-morrison@uchicago.edu</EmailAddress>
+      <StartDate>08/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Hakizumwami B.</FirstName>
+      <LastName>Runesha</LastName>
+      <EmailAddress>runesha@uchicago.edu</EmailAddress>
+      <StartDate>08/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606375418</ZipCode>
+      <PhoneNumber>7737028669</PhoneNumber>
+      <StreetAddress>5801 South Ellis Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8009</Code>
+      <Text>Scientifc Software Integration</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

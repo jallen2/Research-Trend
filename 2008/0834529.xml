@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-DMSS, SM: A Holistic Approach to Reliable Pervasive Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Krishna Kant</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Holistic Approach to Reliable Pervasive Systems&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;This project proposes a holistic approach to developing reliable pervasive systems through three contributions: &lt;br/&gt;&lt;br/&gt;(1) A unified view of a pervasive distributed system is proposed for debugging purposes. This view overcomes the heterogeneous requirements for various technologies. The key idea is to formulate all system artifacts, system wide or local to a given node, static or temporal, independently of their granularity, into relations. Programs are debugged by writing SQL-like queries over these relations. A query compiler is developed that translates queries into system-level or node-level replay requests, and in the meantime, instruments application code to populate relevant relations. (2) Programming language support is proposed to facilitate the tracking of dependencies among essential events in the program. To that end, a simple language built on Java is proposed, with annotations for high-level application events and their dependencies. This represents one of the cornerstones for dealing with the large number of events in dynamic pervasive applications. In addition, the integration with a programming language allows the query compiler to verify parts of queries referring to application-specific definitions. (3) Runtime and communication support through specific overlay networks is investigated to efficiently propagate events as well as causality information across nodes. At the node level, an instrumented Java virtual machine is used to log and trace local events in a runtime-adaptable manner. Such an adaptive event logging/tracing strategy significantly reduces resource demands.&lt;br/&gt;&lt;br/&gt;Involvement in computer science student organizations will be specifically leveraged to promote undergraduate student research.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/13/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0834529</AwardID>
+    <Investigator>
+      <FirstName>Patrick</FirstName>
+      <LastName>Eugster</LastName>
+      <EmailAddress>peugster@cs.purdue.edu</EmailAddress>
+      <StartDate>08/20/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Xiangyu</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>xyzhang@cs.purdue.edu</EmailAddress>
+      <StartDate>08/20/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

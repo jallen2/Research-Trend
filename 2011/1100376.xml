@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Solving Large Sum-of-Squares Optimization Problems in Control by Exploiting the Parallel Structure of Polya's Algorithm</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2012</AwardExpirationDate>
+    <AwardAmount>237473</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>George Chiu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this project is to develop new parallel algorithms for control of nonlinear and uncertain systems. Computer architectures are changing, with multi-core chips and graphics cards replacing the CPU-based desktop powerhouses of years past. And with this change, a great deal of control systems technology is becoming obsolete. The problem is that the optimization algorithms being used by controls engineers are not built for the parallel processing environments we are encountering today. Increasingly, this will limit our ability to control the large and complex models we use to describe such phenomena as fusion energy and biological immunity. For this project, we have identified an approach to control of nonlinear or uncertain dynamics based on optimization using Polya's lemma. The unique feature of this approach is that the optimization algorithms when applied to Polya's lemma become almost perfectly parallel. This means that the algorithms we develop can run on almost any type of parallel computing architecture, including cluster computers and supercomputers. Considering that the computing power available on these platforms is currently more than 2,000,000 times great than that available on a single-core desktop, the result of this project will be an order of magnitude increase in the complexity of systems we can control. The project organization has three parts. i) develop parallel algorithms to formulate robust control problems on the simplex as semidefinite-programming problems via Polya's lemma ii) develop parallel primal-dual interior-point algorithms for the problem of robust control on cluster computing and multi-core architectures. Iii) expand the scope beyond robust control to nonlinear analysis and more general types of system uncertainty and include additional computing platforms such as GPU computing and supercomputing. The algorithms developed in this project will be posted online for free distribution using a public license.&lt;br/&gt;&lt;br/&gt;An order-of-magnitude increase in the complexity of systems that can be controled has important implications. For example, although detailed models of plasma in fusion reactors are available, those models are too complex to control efficiently using existing algorithms. The result is poor plasma confinement and inefficient energy production. If more detailed models can be used to improve plasma confinement, this has far-reaching implications for energy production. Additionally, biological models of interaction between cells in the immune system contain many different actors and are nonlinear and highly uncertain. An improved ability to analyze and control these models may lead to innovative forms of treatment for diseases such as cancer which is believed to be caused by a failure of the immune system to self-regulate. The PI has ongoing projects in both the areas of fusion research and immunology and this research will be integrated into these projects. Finally, this project has an international component with the University of Campinas in Brasil, including extended teaching exchanges in both Campinas and Chicago. This will strengthen the collaborative relationship between these two institutions and provide an international perspective and educational opportunity for students at both schools.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1100376</AwardID>
+    <Investigator>
+      <FirstName>Matthew</FirstName>
+      <LastName>Peet</LastName>
+      <EmailAddress>mpeet@asu.edu</EmailAddress>
+      <StartDate>08/26/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Illinois Institute of Technology</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606163717</ZipCode>
+      <PhoneNumber>3125673035</PhoneNumber>
+      <StreetAddress>10 West 35th Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1632</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>030E</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>036E</Code>
+      <Text>CIVIL INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1057</Code>
+      <Text>CIS BASE RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>5913</Code>
+      <Text>BRAZIL</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>CVIS</Code>
+      <Text>CIVIL INFRASTRUCTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

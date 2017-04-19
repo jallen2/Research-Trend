@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>An Ultra-Efficient Radio Correlator Architecture</AwardTitle>
+    <AwardEffectiveDate>08/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>448864</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03020000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Astronomical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ralph A. Gaume Jr.</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Large-baseline arrays of radio telescopes operating as interferometers can produce images of remarkably high spatial resolution and dynamic range, but it is in general a computationally demanding task. One step in particular, the formation of cross-correlations between each pair of telescopes in the array to give visibilities, has an imposing scaling behavior with number of telescopes N, increasing as the square of that number. Other steps in the signal processing chain scale only in proportion to the number of telescopes, and so tend to be computationally much cheaper. The correlation step therefore dominates as arrays grow in number of telescopes, which is precisely the trend for many current and planned instruments. Despite vast increases in the power of modern computers, the correlator electronics for very large interferometer arrays are projected to be very expensive and consume vast amounts of electrical power.&lt;br/&gt;&lt;br/&gt;A potential breakthrough in computational efficiency for interferometer data processing is being investigated by Dr. M. Morales of the University of Washington and coworkers. The approach replaces the classic correlation step by a spatial Fourier transform, and precedes this with a gridding operation that puts the data on regular spacings, thereby allowing the use of the Fast Fourier Transform (FFT). As is well known, the FFT computational speed scales as N ln(N), and therefore represents a substantial computational savings over N-squared when the number of telescopes is large. Gridding and other computational operations introduced to precondition the problem are only linear in N, so the overall imaging computation for an interferometer with many elements should be reduced, perhaps dramatically.&lt;br/&gt;&lt;br/&gt;The new, faster correlator architecture will be explored with laboratory prototypes that build on FPGA (Floating Point Gate Array) firmware running on standard radio-astronomy computational hardware. The culmination of this effort is intended to be a fully parallelized end-to-end demonstration unit operating on actual sky data from the Long Wavelength Array (LWA) and the Precision Array to Probe the Epoch of Re-ionization (PAPER) radio astronomical arrays. Funding for this work is being provided by NSF's Division of Astronomical Sciences through its Advanced Technologies and Instrumentation program.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1206552</AwardID>
+    <Investigator>
+      <FirstName>Judd</FirstName>
+      <LastName>Bowman</LastName>
+      <EmailAddress>judd.bowman@asu.edu</EmailAddress>
+      <StartDate>08/10/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Miguel</FirstName>
+      <LastName>Morales</LastName>
+      <EmailAddress>mmorales@phys.washington.edu</EmailAddress>
+      <StartDate>08/10/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1218</Code>
+      <Text>ADVANCED TECHNOLOGIES &amp; INSTRM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1207</Code>
+      <Text>OBSERVATIONAL ASTRONOMY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7697</Code>
+      <Text>INSTRUMENTATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

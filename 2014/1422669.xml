@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Engineering and Learning Visual Representations</AwardTitle>
+    <AwardEffectiveDate>07/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>456617</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Visual data, including video imagery, conveys "information" about objects of interest within the scene: Shape, material, identity, relations, etc. However, it is also highly redundant, and subject to variability that has little to do with the properties of the scene of interest, but instead depend on the sensor, the vantage point, and the nature of the illuminant, etc. This project addresses the question of determining what function of imaging data should be inferred and stored, that is, as "informative" as possible for a class of tasks such as object or scene detection, localization, recognition and categorization, and at the same time as "compressed" as possible, and insensitive to nuisance variability. Such a function is called a Representation. This research has pedagogical value, by framing seemingly unrelated methods as different approximations of an ideal Representation, thus facilitating the educational process in Computer Vision. This is further expected to facilitate the design of better Representations, and therefore improved algorithms for visual recognition (detection, localization, recognition, and categorization) systems, with impact in a range of applications from autonomy (e.g., robotic navigation and surveillance) to interaction (e.g., assisted surgery and augmented reality).&lt;br/&gt;&lt;br/&gt;The project frames the problem of inferring optimal task-specific Representations in terms of the Information Bottleneck Principle, and addresses issues of computability, approximation, and dimensionality reduction within this framework. It also addresses questions of "learnability," to determine whether a generic learning architecture can approximate an optimal representation. The Information Bottleneck is a generalization and relaxation of the notion of minimal sufficient statistic, where complexity constraints and task relevance are explicitly taken into account. The challenge is that modeling the generative process for visual data entails complex geometry (surface shape), topology (occlusions), photometry (material reflection, illumination), and dynamics (motion) with the object of interest living in infinite-dimensional spaces. Thus, the Information Bottleneck is difficult to even formalize, let alone instantiate, compute, and optimize. The project focuses on developing approximations of the Information Bottleneck that are tractable and yet enjoy performance guarantees.</AbstractNarration>
+    <MinAmdLetterDate>07/14/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/14/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422669</AwardID>
+    <Investigator>
+      <FirstName>Stefano</FirstName>
+      <LastName>Soatto</LastName>
+      <EmailAddress>soatto@cs.ucla.edu</EmailAddress>
+      <StartDate>07/14/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

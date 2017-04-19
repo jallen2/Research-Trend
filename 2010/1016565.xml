@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Information Theory-Based Methods for Hardness Amplification and Compression</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>406410</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project aims to investigate two kinds of problems in theoretical computer science and information theory. The first is about Hardness Amplification. Here the goal is to find ways to manipulate functions that are hard to compute in some computational model to obtain new functions that are significantly harder to compute. For example, in communication complexity, one might expect that computing k copies of a functionality should take k times the communication, but to date we do not know how to prove this. Prior work has shown that the communication must grow by a factor of roughly the square root of k, but it remains to be seen whether this can be increased to a factor of k. Another domain where this kind of problem makes sense is for streaming algorithms. In a streaming algorithm, the input arrives as a massive data stream that cannot be stored. The goal is to compute a function of the data using as little memory as possible. One might expect that handling k independent streams of data in parallel should require k times the memory, yet we do not know how to prove this. Similar questions can be asked about amplifying the hardness of approximation algorithms, and showing that composing a function with itself increases its circuit depth. This kind of question is related to proving lowerbounds, a central goal of theoretical computer science.&lt;br/&gt;&lt;br/&gt;The second kind of problem is about compression. Today we have a good understanding of how single messages can be compressed so that the number of bits it takes to represent them is more or less equal to the information that they carry. Here the information can be measured using Shannon's Entropy function, or in the case of randomized transmissions, the mutual information between the inputs and the messages. However, if we have an interactive communication process between several parties, it is not clear how to reduce the communication in the interaction so that the communication is close to the amount of information conveyed between the parties. This problem is closely related to the problem of amplifying the communication complexity of a function, discussed above. Prior work has shown how to reduce the communication of a protocol that conveys small information, and such a compression scheme turns out to be useful to prove that computing many copies of a function must require larger communication. Indeed, an optimal compression scheme would give an optimal result in the setting of hardness amplification. Finding such a scheme is a major goal of this project. This project also aims to study the compression of memory used by streaming algorithms. Given a streaming algorithm, can we always reduce the memory usage of the algorithm until the number of bits used is close to the amount of information stored by the algorithm. In this setting, it is not clear what the right measure of information should be, and defining a meaningful measure of the information is another goal.&lt;br/&gt;&lt;br/&gt;The common theme tying the problems of this proposal together is an information theory based method that is applicable to these problems.</AbstractNarration>
+    <MinAmdLetterDate>07/21/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/02/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016565</AwardID>
+    <Investigator>
+      <FirstName>Anup</FirstName>
+      <LastName>Rao</LastName>
+      <EmailAddress>anuprao@u.washington.edu</EmailAddress>
+      <StartDate>07/21/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7927</Code>
+      <Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

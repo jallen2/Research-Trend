@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Architectural Support for New Parallel Execution Paradigms Via Agile Threads</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>468000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In the multi-core processor era, microprocessors will only continue to scale in performance in the presence of abundant thread level parallelism. Achieving this goal of continuously scaling software parallelism will clearly require the exploitation of new compilation, language, and execution paradigms. One huge barrier to the viability of many proposed execution paradigms and the introduction of new paradigms is the inability of modern processor architectures to execute short threads efficiently. Many of these new execution models can be highly effective at exposing parallelism to the hardware if they have the freedom to identify and exploit opportunities for parallelism that are 10s to 100s of instructions long. However, current machines are not designed to execute short threads well. The goal of this research is to significantly reduce the startup cost for a new thread (or thread new to a core). This in turn reduces the break-even point that determines whether a piece of code is parallelizable or not.&lt;br/&gt;&lt;br/&gt;The term "thread migration" is used to indicate a large number of parallel execution operations, all of which involve moving stored or cached state from one core to another. These operations include forked threads, migrated/moved threads for thermal management or load balancing, loop-parallel threads, task-level parallelism, helper threading, transactional execution, and speculative multithreading - all of these operations will be accelerated to some degree by this research. This research will attack all sources of the thread startup cost, including software (e.g., operating system) overheads, branch predictor state, cached data and instruction state, the commit latency, and the overhead of transferring the primary thread state between cores. In addition to reducing the parallel programming complexity, the broader imapcts of this research include graduate and undergraduate student training, availability of an open-souce simulation infrastructure.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018356</AwardID>
+    <Investigator>
+      <FirstName>Dean</FirstName>
+      <LastName>Tullsen</LastName>
+      <EmailAddress>tullsen@cs.ucsd.edu</EmailAddress>
+      <StartDate>07/31/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

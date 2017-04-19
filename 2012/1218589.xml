@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Supporting Next Generation Adaptive Multi-Lens Stereoscopic Video Streaming</AwardTitle>
+    <AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2016</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project investigates a coordinated adaptation and network streaming framework for next generation multi-lens stereoscopic video. Future stereoscopic cameras may be made up of multiple (more than two) lenses to provide a denser sampling of viewpoints to ameliorate the mismatch between capture and viewing scenario dependent display, a problem that will grow as stereoscopic devices and displays become more ubiquitous. With an appropriate streaming system, a much richer user experience can be delivered that is both network adaptive and reduces the negative side-effects of stereoscopic imaging such as 3D eye fatigue. A multi-lens stereoscopic video framework will require the confluence of three interrelated components: compression and representation; retrieval, streaming and adaptation; and viewing scenario dependent optimization. These three components will act together to provide a low-latency, viewing scenario optimized experience for stereoscopic imaging. &lt;br/&gt;&lt;br/&gt;With this architecture in mind, this project will:&lt;br/&gt;* Investigate multi-lens compression technologies to support efficient retrieval and viewing scenario optimization. The compression of the multi-lens stereoscopic data needs to achieve high compression, but at the same time, be amenable to adaptation and subset retrieval. &lt;br/&gt;* Develop adaptive streaming techniques for the proposed retrieval-friendly compression format. The key objective is to avoid introducing artifacts (due to the decreased quality) that make their way into the stereoscopic field. This adaptation layer will be coordinated with a viewing scenario dependent optimization in order to retrieve the best data possible while also being network adaptive.&lt;br/&gt;* Develop viewing scenario dependent optimal display management technologies. To maximize viewing experience and minimize negative side effects, viewing scenario dependent optimization will select a subset of images from the array to best match the viewing scenario. Novel view synthesis techniques may be used to help minimize the image data retrieved, yet provide good user experience.&lt;br/&gt;&lt;br/&gt;Broader Impact: Dynamically delivering optimized stereoscopic content according to the viewing scenario can reduce side effects such as 3D fatigue and headaches that people have from viewing stereoscopic content. The threaded architecture can also be used for other multi-view systems (e.g., video sensor networks), where the display of video requires only a subset of the camera views to be delivered. Finally, the results from the display management work can also be combined with eye tracking to enable free-view and free-glass stereo viewing experiences.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218589</AwardID>
+    <Investigator>
+      <FirstName>Wu-chi</FirstName>
+      <LastName>Feng</LastName>
+      <EmailAddress>wuchi@cs.pdx.edu</EmailAddress>
+      <StartDate>08/06/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Feng</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>fliu@cs.pdx.edu</EmailAddress>
+      <StartDate>08/06/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Portland State University</Name>
+      <CityName>Portland</CityName>
+      <ZipCode>972070751</ZipCode>
+      <PhoneNumber>5037259900</PhoneNumber>
+      <StreetAddress>1600 SW 4th Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

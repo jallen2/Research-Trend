@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Adaptive Synchronization for Multicore Systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>250025</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Transactional Memory (TM) is among the most promising techniques for simplifying the development of correct parallel programs. Dozens of different techniques have been developed to implement TM, with each appearing ideally suited to some combination of application and hardware characteristics. Unfortunately, when the wrong algorithm is chosen for a workload, pathologically bad performance can result. &lt;br/&gt;&lt;br/&gt;The problem is particularly acute in programs whose behavior varies over&lt;br/&gt;time: the best TM implementation for one phase of execution may be unacceptable during another phase. This research will create new algorithms for dynamic adaptivity, so that the implementation of TM can be changed repeatedly during program execution, thereby maximizing performance during each program phase.&lt;br/&gt;&lt;br/&gt;The research will explore both mechanism and policy. It will create new algorithms and heuristics for selecting TM implementations. It will also model the behavior of a wide array of TM algorithms and workloads on multiple architectures, in order to create a knowledge base suitable for guiding adaptivity. To achieve maximum performance, the research will consider a broad set of characteristics, to include TM implementation details, bottlenecks, and overheads; risk of pathology; properties of the hardware environment; and workload requirements such as frequency of inter-thread synchronization, I/O, and nontransactional access to shared data. This research will also develop novel static analyses and a dynamic optimization framework to avoid any overhead while providing robust, adaptive TM. Prototypes and source code will be distributed as open-source software.</AbstractNarration>
+    <MinAmdLetterDate>07/20/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/20/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016828</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Spear</LastName>
+      <EmailAddress>spear@cse.lehigh.edu</EmailAddress>
+      <StartDate>07/20/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Lehigh University</Name>
+      <CityName>Bethlehem</CityName>
+      <ZipCode>180153005</ZipCode>
+      <PhoneNumber>6107583021</PhoneNumber>
+      <StreetAddress>Alumni Building 27</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER CPA-CSA: Correctness-Constrained Execution for Processor Designs</AwardTitle>
+    <AwardEffectiveDate>02/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2015</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The design complexity of current microprocessor systems is such that practically every system released to the market incorporates latent bugs. Manufacturers and design houses alike strive to validate and verify their designs as much as possible during system development, and then attempt to contain the impact of escaped bugs through publicly available errata reports. Some escaped bugs are innocuous, and can be easily overcome through a BIOS or OS update, but still others are potentially dangerous to the users of the system, or they might compromise its security and adversely affect its performance.&lt;br/&gt;&lt;br/&gt;This project focuses on developing integrated hardware and software solutions to guarantee that a processor chip operates correctly, even if its design is flawed. The key idea driving this research is to create two modes of operation for the processor: a complex high-performance mode to be used when executing within the portion of the system that has been verified at design time, and a simple low-performance mode guaranteed to be correct under all execution scenarios. By carefully selecting the appropriate mode of operation at runtime, it is possible to always execute correctly: in high-performance when the operation is one that has been verified at design-time or in low performance otherwise. In addition, because of the extreme simplicity of the low-performance mode, it is possible to guarantee that this mode of operation always provides correct results but at a performance price. Related research has shown that, in practice, the low-performance mode intervenes only in very rare occasions, making its performance impact negligible overall. The research challenges to be undertaken in this project include devising low-cost mechanisms to select execution between fast and correct mode, developing the simple mode of operation in such a way that can be fully verified, and developing techniques to efficiently encode the correct states of operation.</AbstractNarration>
+    <MinAmdLetterDate>01/25/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/18/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0746425</AwardID>
+    <Investigator>
+      <FirstName>Valeria</FirstName>
+      <LastName>Bertacco</LastName>
+      <EmailAddress>valeria@umich.edu</EmailAddress>
+      <StartDate>01/25/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

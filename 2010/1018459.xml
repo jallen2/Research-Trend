@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Probabilistic Tabled Logic Programming</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Tabled resolution uses memoization to address the major shortcomings of Prolog-style resolution, namely, weak termination, repeated subcomputations, and weak semantics for negation. Several complex problems requiring fixed-point computation, including several model checking and program analysis problems, have been cast as query evaluation over logic programs and solved efficiently using tabled resolution.&lt;br/&gt;&lt;br/&gt;This project aims to combine deduction, especially tabled resolution, with probabilistic inference in order to facilitate declarative modeling and reasoning of systems with probabilistic behavior. The project includes (a) fundamental research on the semantics of probabilistic tabled resolution, (b) implementation of the research results in a robust prototype, and (c) development of applications that combine logical and probabilistic reasoniong such as probabilistic model checking of finite-state and pushdown models and probabilistic program analysis. The project addresses several problems at the level of semantics, including the treatment of programs with a mixture of continuous and discrete random variables, programs that encode dynamic models over unbounded but discrete time, and the integration of scalable probabilistic inference techniques (e.g. sampling) with deduction. At the implementation level, the project develops light-weight methods for incorporating probabilistic inference and parameter learning into a declarative programming framework called Probabilistic Tabled Logic Programming (PTLP). This framework provides a firm semantic and computational basis for combining logical and probabilistic reasoning. A computing infrastructure that tightly integrates computational logic, statistics, and constraint processing will have an immediate impact on the areas of system development and verification, planning, logistics, and optimization and control, with broad application in science and engineering.</AbstractNarration>
+    <MinAmdLetterDate>07/21/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/21/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018459</AwardID>
+    <Investigator>
+      <FirstName>I.</FirstName>
+      <LastName>Ramakrishnan</LastName>
+      <EmailAddress>ram@cs.sunysb.edu</EmailAddress>
+      <StartDate>07/21/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Scott</FirstName>
+      <LastName>Smolka</LastName>
+      <EmailAddress>sas@cs.stonybrook.edu</EmailAddress>
+      <StartDate>07/21/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Warren</LastName>
+      <EmailAddress>warren@cs.sunysb.edu</EmailAddress>
+      <StartDate>07/21/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Coimbatore</FirstName>
+      <LastName>Ramakrishnan</LastName>
+      <EmailAddress>cram@cs.stonybrook.edu</EmailAddress>
+      <StartDate>07/21/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: VeriF-OPT, a Verification Framework for Optimizations and Program Transformations</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>466000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The modern world runs on software, and software runs on compilers, programs that bridge the gap between human-readable high-level programming languages and the low-level machine code that computers execute. Every year, millions of dollars and countless hours of effort go into ensuring that software is correct and reliable. However, the bulk of this analysis is applied at the high level, leaving the compiler as a potential weak link in the verification chain. Errors in a compiler are particularly insidious because they are difficult to isolate and reproduce, and potentially affect every program processed by that compiler. The VeriF-OPT project aims to make it feasible to verify compilers by providing a user-friendly and reusable framework for constructing rigorous mathematical proofs of compiler correctness, thus removing a source of error that potentially undermines the verification of high-level programs.&lt;br/&gt;&lt;br/&gt;The VeriF-OPT project will use formal methods tools, including the Isabelle proof assistant and the K Framework for programming language specification, to develop a general, reusable framework for specifying and verifying compilers for any language, lowering the high barrier to entry for compiler verification. The framework will be designed to work particularly well for optimizations for parallel programs, which are often more complex and poorly understood than their sequential counterparts. The core components of the framework are a domain-specific language for the specification of program transformations, an executable semantics for this language that allows compiler designers to test and refine their designs before committing to verification, and a formal semantics for the language that serves as the basis for proofs of correctness. Every verification in VeriF-OPT will produce code fragments, lemmas, and other intermediate results that, thanks to the modular design of the framework, can be reused in future projects. By helping compiler designers, testers, and verifiers work together to create compilers with strong guarantees of correctness, the project will raise the standard for software reliability and help prevent costly and dangerous failures due to undetected and unexpected bugs.</AbstractNarration>
+    <MinAmdLetterDate>06/27/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/27/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318191</AwardID>
+    <Investigator>
+      <FirstName>Grigore</FirstName>
+      <LastName>Rosu</LastName>
+      <EmailAddress>grosu@illinois.edu</EmailAddress>
+      <StartDate>06/27/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Elsa</FirstName>
+      <LastName>Gunter</LastName>
+      <EmailAddress>egunter@cs.uiuc.edu</EmailAddress>
+      <StartDate>06/27/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

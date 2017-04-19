@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Integrating separation logic and SMT for better heap verification</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Heap-allocated pointer structures are a common source of software errors. In particular, pointer safety errors, like memory leaks and dereferencing null or dangling pointers, often cause programs to fail or leave them vulnerable to be exploited by malware. Tools that are able to detect such errors at compile time have long been considered impractical because they scale badly to large programs. This has started to change recently with the advent of verification tools based on separation logic (SL), which scale to software components of industrial size. The aim of this project is to increase the degree of automation, precision, and soundness of today's SL-based verification tools and broaden the scope of tools that could use separation logic. Because heap-allocated data structures are among the most difficult software constructs to reason about, this work has the potential to make a significant impact on the reliability of software.&lt;br/&gt;&lt;br/&gt;SL-based tools depend on theorem provers for separation logic to automatically discharge proof obligations concerned with properties about pointer structures. Today's tools implement tailor-made provers for this task. However, the analysis of real-world programs involves reasoning about other data types including, for instance, integers, arrays, and bit-vectors. To cope with this, existing separation logic tools make simplifying (and in general unsound) assumptions, rely on interactive help from the user, or implement ad-hoc and incomplete extensions of their tailor-made provers. The PIs will investigate a more systematic approach towards combined reasoning about heap and other data types by integrating an SL theorem prover into a satisfiability modulo theories (SMT) solver. This research is motivated by the observation that reasoning about separation logic fragments can be reduced entirely to reasoning in decidable first-order theories that fit well into the SMT framework. Modern SMT solvers implement decision procedures for many first-order theories that are relevant in program verification, such as linear arithmetic, arrays, and bit-vectors. A reduction to first-order logic enables a seamless combination of separation logic with these theories. Moreover, SMT solvers are already an integral part in the tool chain of many existing verification tools. These tools could directly benefit from an integrated SL prover. In addition, we expect that specific capabilities added to the SMT solver as a result of the project will be useful to a broad set of SMT users.</AbstractNarration>
+    <MinAmdLetterDate>06/14/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/14/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320583</AwardID>
+    <Investigator>
+      <FirstName>Clark</FirstName>
+      <LastName>Barrett</LastName>
+      <EmailAddress>barrett@cs.stanford.edu</EmailAddress>
+      <StartDate>06/14/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Wies</LastName>
+      <EmailAddress>wies@cs.nyu.edu</EmailAddress>
+      <StartDate>06/14/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

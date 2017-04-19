@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: High Assurance at Low Cost in Data Centers Using Virtualization</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>424000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;As our reliance on online services continues to grow, the need for maintaining high availability of these services has become a pressing need as well as a challenge. The challenges include hardware failures, software bugs, operator error, malicious break-ins, and wide-area disasters such as power blackouts and natural catastrophes. This project is developing techniques to build data center services that remain highly available under such challenging conditions using virtualization.&lt;br/&gt;The project makes two contributions. First, is a novel approach for Byzantine fault-tolerance (BFT) with a replication cost factor close to F+1 in order to tolerate up to F failures, thereby halving the cost of state-of-the-art BFT approaches. The savings in replication cost as well as commensurate gains in service throughput are realized using virtualization and are applicable to data centers hosting multiplexed services. Second, is a novel approach to seamlessly recover from wide-area disasters with negligible service replication cost during typical conditions. These gains are realized using virtual machine checkpointing, asynchronous replication, and semantics-aware storage techniques. The project demonstrates the feasibility of these approaches using theoretical analysis as well as prototype-driven experiments. The prototype implementations will be made available to other researchers and practitioners.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2009</MaxAmdLetterDate>
+    <ARRAAmount>424000</ARRAAmount>
+    <AwardID>0916972</AwardID>
+    <Investigator>
+      <FirstName>Arun</FirstName>
+      <LastName>Venkataramani</LastName>
+      <EmailAddress>arun@cs.umass.edu</EmailAddress>
+      <StartDate>07/31/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Prashant</FirstName>
+      <LastName>Shenoy</LastName>
+      <EmailAddress>shenoy@cs.umass.edu</EmailAddress>
+      <StartDate>07/31/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>Hadley</CityName>
+      <ZipCode>010359450</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Sparse Graphical Models for Multivariate Time series</AwardTitle>
+    <AwardEffectiveDate>08/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>120000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of this research is to develop sparse graphical models in the spectral domain to help visualize connectivity (correlation) among neurophysiological signals recorded as a multivariate time series. Partial coherence, the spectral-domain analogue of the partial correlation, will be used as a measure of functional connectivity which identifies the frequency region that drives the correlation between any two component series adjusted for the linear effects of the others. In the neuroscience applications, the vertices of a graph may represent different voxels while an edge between two vertices reflect a direct connection between the signals at the two voxels. The absence of an edge is indicated by a null partial coherence for the two signals, and the ability to detect it is the key in the construction of a meaningful graph. At present, partial coherence is computed by estimating the spectral density matrix first and then inverting it. This classical approach works well so long as the dimension of the series or the number of voxels is small relative to the length of the series. Serious computational complexity and statistical stability problems arise when estimating the partial coherences for high-dimensional fMRI time series. The stability and complexity are invariably influenced by factors such as the degree of spectral smoothing and size of the matrix to be inverted. The goal of this research is to completely avoid these issues by estimating the inverse spectral density matrix directly using the penalized normal likelihood in analogy with the recent developments in sparse estimation of Gaussian graphical models leading to the fast graphical lasso methodology. It will exploit an under-utilized fact that the spectral density matrix of a multivariate stationary process at each frequency is actually the covariance matrix of a random vector of the same dimension with complex entries.&lt;br/&gt;&lt;br/&gt;Spectral-domain methodologies are commonly used in the analysis of multivariate time series data arising from biological, physical and engineering sciences. This research elevates the general concepts and techniques of Gaussian graphical models from the standard multivariate data to the multivariate time series setup in the spectral domain, and develops graphical lasso methodology for structured covariance (precision) matrices. The proposed work is interdisciplinary in nature with immediate applications to the analysis of neuroscience data. Its focus on high-dimensional data analysis has immediate impacts on settings where multivariate time series data are collected such as in financial markets, epidemiology, environmental monitoring and global change. A graduate student will be involved in the research project, the results will be incorporated in graduate courses and presented in seminars and workshops accessible to researchers outside the field of statistics.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1309586</AwardID>
+    <Investigator>
+      <FirstName>Mohsen</FirstName>
+      <LastName>Pourahmadi</LastName>
+      <EmailAddress>pourahm@stat.tamu.edu</EmailAddress>
+      <StartDate>08/01/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas A&amp;M University Main Campus</Name>
+      <CityName>College Station</CityName>
+      <ZipCode>778454375</ZipCode>
+      <PhoneNumber>9798626777</PhoneNumber>
+      <StreetAddress>400 Harvey Mitchell Pkwy South</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

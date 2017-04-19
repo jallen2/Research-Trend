@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Confidence and Misplaced Confidence in Image Reconstruction</AwardTitle>
+    <AwardEffectiveDate>09/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>495489</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The underlying problem considered here is the solution of a discretization of an integral equation of the first kind. Even with complete information, the problem is ill-posed, in the sense that small changes in the data can make arbitrarily large changes in the solution. Unfortunately, complete information is not available in applications such as medical imaging (CAT, MRI), astronomical imaging, spectroscopy, or non-destructive testing for cracks in a structure, and the problem becomes a discretized version of the ill-posed problem. Solution algorithms regularize the problem, replacing the ill-posed problem by one that is well-posed in order to compute a solution. The basic idea behind all regularization methods is to impose additional constraints on the model in order to make the problem well-posed. There are two very different kinds of constraints, which are typically not well differentiated: data constraints that are guaranteed to hold with 100% certainty, and bias constraints, arising from what the observer expects to see. If the observer is wrong about the bias constraints, then the solution algorithm might produce a solution that is is quite believable but very misleading. This work focuses on three major open questions in the solution to ill-posed problems: development of diagnostics to validate candidate solutions and identify bias; development of improved algorithms that produce validated solutions through discovery of new filtering methods, reliable choice of parameters, better understanding of Krylov methods, and unification of algorithms for data least squares, least squares, and total least squares problems; and computation of confidence bounds for the solutions, making use of data constraints (e.g., nonnegativity).&lt;br/&gt;&lt;br/&gt;The broader impact of the work arises from its potential to produce more reliable images for medical applications (CAT, MRI, etc.), astronomy, spectroscopy, locating oil reservoirs, testing structures for hidden cracks, and other applications. The techniques involve effective use of extra information known about the image (for example, that each pixel value is nonnegative) in order to constrain the solution image. The focus is on improved methods and on more precise knowledge of the solution through the construction of statistical confidence intervals. The work also has great value in education. A graduate course in advanced numerical linear algebra will be offered that will include a section on discrete ill-posed problems. This work will be presented at Maryland's SPIRAL summer program for undergraduate students from Historically Black Colleges and Universities, since it provides a visually-appealing and easily-explained introduction to ill-posed problems.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/05/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016266</AwardID>
+    <Investigator>
+      <FirstName>Dianne</FirstName>
+      <LastName>O'Leary</LastName>
+      <EmailAddress>oleary@cs.umd.edu</EmailAddress>
+      <StartDate>09/18/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

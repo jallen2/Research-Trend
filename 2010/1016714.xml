@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Enabling High-Concurrency and Scalability for Many-Core Processors</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Theodore Baker</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Enabling High-Concurrency and Scalability for Many-Core Processors&lt;br/&gt;&lt;br/&gt;We are developing a novel operating system (OS) for many-core processors. For power and other reasons, microprocessor designs now involve increasing numbers of cores, with an expectation of 100s or 1000s of cores per chip in the future. The movement to high concurrency even for mainstream applications implies the need to simplify concurrent programming and the need for an OS &lt;br/&gt;capable of managing and delivering high concurrency.&lt;br/&gt;&lt;br/&gt;The first step is to leverage "private" memory, which the OS and the compiler can use without the need for concurrency control, thus achieving both simplicity and high performance. With OS and compiler support, this simplest form of concurrency management can be used more often and we can detect when the privacy assumption is not valid, thus preventing one class of errors. For &lt;br/&gt;"embarrassingly" parallel applications, this model often suffices.&lt;br/&gt;&lt;br/&gt;For more complex concurrency patterns, we combine compiler analysis with dynamic locking, which allows us to choose adaptively from a variety of synchronization methods based on the amount of contention, and also check for common synchronization errors through a combination of static and dynamic analysis.&lt;br/&gt;&lt;br/&gt;Finally, built-in speculative execution enables latency hiding for long-running tasks, such as asynchronous I/O operations. With a many cores we can now speculatively execute several paths in parallel. Additionally, these mechanisms can be used as a lightweight checkpoint/restart for fault tolerance, especially for transient or non-deterministic bugs, thus simplifying high-availability applications.</AbstractNarration>
+    <MinAmdLetterDate>08/02/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/02/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016714</AwardID>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Brewer</LastName>
+      <EmailAddress>brewer@cs.berkeley.edu</EmailAddress>
+      <StartDate>08/02/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

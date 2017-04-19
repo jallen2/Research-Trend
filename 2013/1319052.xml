@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Uniqueness and Reconstructions Methods for Inverse Problems</AwardTitle>
+    <AwardEffectiveDate>07/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>280000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Specific problems addressed in this proposal include the recovery of the location and shape of interior objects from surface measurements or the determination of obstacles from acoustic or electromagnetic scattering data. In particular, we concentrate on developing extremely fast algorithms designed to detect significant features utilizing only minimal data. One central feature of this proposal is the investigation of inverse problems for so-called anomalous diffusion models. Classical diffusion is based on Brownian motion and has its roots in 19th century physics. Here a very localised disturbance spreads with the characteristic shape of a bell curve and, further, the state of the process at a given time step depends only on the state at the previous time step. While this serves well for a wide range of models, it fails for those that exhibit a "history" or "memory" effect. This includes many materials that been developed over the last twenty years as well as economic forecasting such as stock and commodity market modeling. It turns out that degree of ill-conditioning in anomolous diffusion inverse problems can be very different from those of the classical case suggesting that indeed fundamental new physics is involved. From a mathematical and computational standpoint this comes at a price; the resulting analysis is considerably more complex and challenging.&lt;br/&gt;&lt;br/&gt;Many objects of physical interest cannot be studied directly. Examples include, imaging the interior of the body, the determination of cracks within solid objects, and material parameters such as the conductivity of inaccessible objects. When these problems are translated into mathematical terms they take the form of partial differential equations, the Lingua Franca of the mathematical sciences. However, since we have additional unknowns in the model, these introduce unknown parameters in the equations that have to be additionally resolved by means of further measurements. In this proposal we deal with the practical aspects of such "inverse problems" from a mathematical and computational perspective. We are interested in when a unique determination can be made from a given amount of data, but these inverse problems are characterized by often severe "ill-conditioning", meaning that even when there is only one solution to the problem, two very different objects may produce data sets that are infinitesimally close. This aspect makes designing and analyzing algorithms for the efficient numerical recovery of the unknowns extremely challenging. Inverse problems can have multiple scales of complexity. Some, such as earthquake modeling require large scale computational resources and amassing considerable amounts of data. Others rely on obtaining extremely fast computations with minimal data collection; developing algorithms that enable a hand-held scanner to locate flaws in structural materials or portable machines to detect tumors in a noninvasive way. The proposal also has a significant educational component in the training of undergraduate students. Many of the distinct features of inverse problems can be seen from considering applications in vibration, heat conduction and acoustic scattering, and can have a significant hands-on component. The experimental equipment is readily available and cheap. Metal plates make conductive 2D media, a saw cuts an insulating inclusion and cheap thermistors can be used to measure data. Loudspeakers make incident waves, microphones make receivers, the software to go between analogue signals and digital data is on most laptops. The mystery of the "hidden" object can be added by black, light opaque, acoustically transparent speaker cloth. We have amassed much of this equipment already, some of it quite well used in previous undergraduate research experiences.</AbstractNarration>
+    <MinAmdLetterDate>07/01/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/11/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319052</AwardID>
+    <Investigator>
+      <FirstName>Bangti</FirstName>
+      <LastName>Jin</LastName>
+      <EmailAddress>btjin@ucr.edu</EmailAddress>
+      <StartDate>07/01/2013</StartDate>
+      <EndDate>02/11/2016</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>William</FirstName>
+      <LastName>Rundell</LastName>
+      <EmailAddress>Rundell@math.tamu.edu</EmailAddress>
+      <StartDate>07/01/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas A&amp;M University Main Campus</Name>
+      <CityName>College Station</CityName>
+      <ZipCode>778454375</ZipCode>
+      <PhoneNumber>9798626777</PhoneNumber>
+      <StreetAddress>400 Harvey Mitchell Pkwy South</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

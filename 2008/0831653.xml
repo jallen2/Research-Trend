@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS-NECO: Collaborative Research: Fixing the Reliability Problem in Network Software From its Root</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>650000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most of the Internet's complexity resides in software running on Internet routers. Bugs in this software are a highly critical problem, leading to a number of recent high-profile attacks and outages, and are increasingly becoming a bottleneck in building highly reliable networks. The PIs are designing and evaluating techniques to make the Internet resilient to software bugs. Their approach consists of two key components. First, they are building a highly reliable single instance of a network router. This involves performing a characteristic study of bugs in router software, by using static and dynamic code analysis and by taxonomizing publicly disclosed vulnerabilities. They also apply and extend techniques such as rollback, reordering inputs, microreboots, and automated debugging to construct a software router resilient to implementation bugs. Second, the PIs are developing and building an architecture for highly-available bug-resistant networks. Their design leverages the principle of "control and data diversity", which simultaneously runs multiple functionally-equivalent instances of a piece of software or data. Each instance is changed from the others in a way that makes it unlikely multiple copies will simultaneously undergo the same bug, for example by randomizing the execution environment, having each instance be responsible for a subset of routes, or by having different programmers implement each instance. In addition to producing designs and algorithms that enable these networks, the PIs will also make available tools and implementations to enable their use. &lt;br/&gt;Successful completion of this project will significantly improve the Internet's ability to avoid and recover from failures.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/06/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0831653</AwardID>
+    <Investigator>
+      <FirstName>Yuanyuan</FirstName>
+      <LastName>Zhou</LastName>
+      <EmailAddress>yyzhou@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/21/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Matthew</FirstName>
+      <LastName>Caesar</LastName>
+      <EmailAddress>caesar@uiuc.edu</EmailAddress>
+      <StartDate>08/21/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7747</Code>
+      <Text>NETWORK ECOSYSTEMS (NECO)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7794</Code>
+      <Text>NETWORK SCIENCE &amp; ENGINEERING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

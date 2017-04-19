@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Beyond the Method of Regularized Stokeslets</AwardTitle>
+    <AwardEffectiveDate>08/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>120000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Method of Regularized Stokeslets is a numerical technique for the efficient computation of the motion of immersed elastic filaments or boundaries in incompressible Stokes flow. The method is based on desingularizing the expression for the fluid velocity resulting from forces applied on surfaces, curves or even scattered points. The main idea is to follow the derivation of the fundamental solution of the Stokes equations but replacing the delta function with a smooth approximation. The motivation for developing regularized Stokeslets is twofold: (1) when forces are distributed over a surface in three dimensions, the singular Stokeslet is integrable but numerical methods often have difficulty computing accurately the flow at fluid points very near the surface since the integrals have very spiky kernels (known as nearly-singular). Regularizing the kernels provides a stable computational technique; (2) the Stokes equations have more singular solutions derived from differentiating the Stokeslet (Stokes doublets, dipoles, stresslets, rotlets, etc.). Their higher singularity makes the integration over surfaces divergent but regularization methods provide a way to use these elements in computations. The proposed work extends the popular method of regularized Stokeslets in several ways. It advances the theory of regularization methods, broadly defined to include the systematic derivation of higher-order elements for the computationally efficient modeling of swarms of microorganisms. The convergence of the method in the case of solid bodies moving in the fluid is addressed based on error analysis and corrections to the velocity field to improve the convergence rate. The theory also includes desired properties that the blobs must satisfy in order to attain the theoretical accuracy in computations, and to provide families of blobs that satisfy these properties. The theory of regularized Stokeslets is expanded to apply to other fluid models, such as the Brinkman equations for porous media and models of channels with permeable walls. The work extends the methods for applications with periodic boundary conditions in one, two or three coordinate directions. The further advancement of the theory provides a richer and more complete set of tools for modeling small-scale flows driven by forces, microorganism motility, flows around particles near surfaces and more. &lt;br/&gt;&lt;br/&gt;This project combines the development of new mathematical theory and computational methods to devise more accurate and more efficient ways of simulating the fluid motion around microorganisms and cilia. The project will improve and extend a popular computational technique, called the method of regularized Stokeslets, which has been very useful in many applications in areas of biological fluid flows. Its uses include the removal of unwanted biofilms, microfiltration as a method for removing particulate matter, understanding the motion and behavior of bacterial flagella, understanding the forces required by self-propelled microswimmers, analyzing sperm motility and other issues related to human reproduction. The popularity of the method is due to its usefulness in a wide variety of applications and to the relative ease of implementation compared to other methods. However, the method of regularized Stokeslets can be improved in many ways by adding new components that will expand its applicability, by performing mathematical analyses that will shed light on new ways of implementing the model, and by assessing new computational methods that reach the results either more accurately or faster or both.</AbstractNarration>
+    <MinAmdLetterDate>08/09/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/09/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217223</AwardID>
+    <Investigator>
+      <FirstName>Ricardo</FirstName>
+      <LastName>Cortez</LastName>
+      <EmailAddress>rcortez@tulane.edu</EmailAddress>
+      <StartDate>08/09/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Tulane University</Name>
+      <CityName>NEW ORLEANS</CityName>
+      <ZipCode>701185698</ZipCode>
+      <PhoneNumber>5048654000</PhoneNumber>
+      <StreetAddress>6823 ST CHARLES AVENUE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

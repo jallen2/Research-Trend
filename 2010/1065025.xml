@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>G&amp;V: Medium: Collaborative Research: Large Data Visualization Using An Interactive Machine Learning Framework</AwardTitle>
+    <AwardEffectiveDate>06/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2015</AwardExpirationDate>
+    <AwardAmount>542002</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract - Machiraju, Rangarajan, and Thompson&lt;br/&gt;&lt;br/&gt;As computer power continues to increase, the complexity of simulations also increases thereby producing datasets of unprecedented size. Without effective analysis tools, results from these large-scale simulations cannot be utilized to their fullest extent. This research addresses the problem of large-data visualization and exploration by employing interactive multi-scale machine learning, which exploits an efficient feature-based, multi-resolution representation of the data. The investigators are leveraging methods from the field of machine learning to perform two distinct tasks: identify regions of interest and enhance robustness of feature detection algorithms. The primary outcome of this effort is the realization of a framework for exploring large datasets. Further, this work is introducing a large body of work in machine learning to the field of visualization. Successful completion of this research will help overcome the brittleness of existing visualization methods and foster expedient discovery in many areas of science and engineering.&lt;br/&gt;&lt;br/&gt;The multi-resolution techniques developed here will employ a two-fold strategy. First, semi-supervised learning based on training with the domain expert is used to develop strategies for selective spatial and temporal refinement of the data. A classifier is constructed to tag the output of the coarse resolution feature detection (i.e. regions) as either interesting or not interesting. Then at the finest scale, interesting local data chunks containing features of interest are identified for further analysis. Second, several local feature detection algorithms, or weak classifiers, are combined into a single, more robust compound classifier using adaptive boosting, or AdaBoost, and a data adaptive variant called CAVIAR that facilitates validated feature detection. Ideally, the compound classifier combines the best of all weak classifiers as they respond to the underlying physical signal. This research is demonstrating the effectiveness of these methods by applying existing local detection algorithms for visualizing vortices in turbulent flow fields.</AbstractNarration>
+    <MinAmdLetterDate>03/30/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/30/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1065025</AwardID>
+    <Investigator>
+      <FirstName>Raghu</FirstName>
+      <LastName>Machiraju</LastName>
+      <EmailAddress>machiraju.1@osu.edu</EmailAddress>
+      <StartDate>03/30/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Han-Wei</FirstName>
+      <LastName>Shen</LastName>
+      <EmailAddress>hwshen@cse.ohio-state.edu</EmailAddress>
+      <StartDate>03/30/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

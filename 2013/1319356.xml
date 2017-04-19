@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Randomized Models for Nonlinear Optimization: Theoretical Foundations and Practical Numerical Methods</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project involves the design, analysis, and implementation of numerical algorithms for the mathematical optimization of large-scale, complex systems. In particular, the novel feature of the proposed algorithms is the use of random sampling of objective function information in the context of solving deterministic (i.e., non-random) problems. Despite the success of randomization in, e.g., stochastic gradient techniques for machine learning, it has yet to be used actively in other settings as it has been deemed too expensive in sequential computing environments. However, with parallel computing becoming increasingly common, and with new advancements and convergence theory for randomized algorithms, these methods have great promise. The research in this project will focus on the use of ``accurate'' randomized models, broadening of convergence theory, and implementation of effective software. The novelty of the approach lies in achieving a middle ground between deterministic models that have to be accurate at each algorithmic step, and stochastic models that are accurate only in expectation, by exploiting random models that need to be accurate only with sufficiently high probability. The proposed strategies will balance per-iteration cost of the optimization routine with convergence speed while utilizing parallel computation. The priority in the project on developing practical, general-purpose numerical methods based on theoretically sound methodologies solidifies the merits of the proposed work.&lt;br/&gt;&lt;br/&gt;This project focuses on the development of novel numerical algorithms, and their analysis, for solving problems in two related realms of engineering design. In the first, the aim is to minimize a quantity---e.g., cost, energy, or the discrepancy between expected and observed data---that can only be determined via a computer simulation. These "black-box" optimization problems arise in important areas such as molecular geometry optimization, circuit design, and groundwater modeling. The second area represents those applications in which a given design needs to be robust under various input conditions, which includes problems in, e.g., medical image registration and the optimization of control systems. The project promises to advance the study of algorithms for solving all of these types of problems via the common thread of exploiting randomization and parallel computation.The impact of this work will clearly be cross-disciplinary, and will benefit users of optimization methods and software in academia, governmental research laboratories, and private industry. It will also promote the use of rigorous, classical algorithms in combination with randomized models for solving cutting-edge scientific problems.Finally, the educational plan will expose undergraduate and graduate students to modern efforts and challenges in computational mathematics, improve the educational opportunities for students interested in scientific research, and encourage faculty interaction in area schools.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319356</AwardID>
+    <Investigator>
+      <FirstName>Frank</FirstName>
+      <LastName>Curtis</LastName>
+      <EmailAddress>fec309@lehigh.edu</EmailAddress>
+      <StartDate>09/06/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Katya</FirstName>
+      <LastName>Scheinberg</LastName>
+      <EmailAddress>kas410@lehigh.edu</EmailAddress>
+      <StartDate>09/06/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Lehigh University</Name>
+      <CityName>Bethlehem</CityName>
+      <ZipCode>180153005</ZipCode>
+      <PhoneNumber>6107583021</PhoneNumber>
+      <StreetAddress>Alumni Building 27</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

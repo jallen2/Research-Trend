@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Advanced DAta Movement ANalysis Toolkit (ADAMANT)</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>02/29/2016</AwardExpirationDate>
+    <AwardAmount>89999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Today, a significant fraction of computer time and power is spent moving data through the memory sub-system of the computer rather than performing the actual computation. This is especially true in scientific, large-scale, and data-intensive computations. Large-scale computing systems are continuing to grow in size and understanding the cost of this data movement will be of fundamental importance on future Extreme scale system, in which energy and power will be primary concerns, and where the complexity and depth of the memory sub-system will heavily penalize inefficient data movement. But capturing and understanding the details of data movement in a large-scale scientific application can be a challenging problem. Therefore to improve data movement and hence improve applications efficiency (both performance and power), new methodologies are needed to capture, analyze, and optimize data-movement across all the layers of the computer?s hardware/software stack.&lt;br/&gt;This project addresses this need by researching and developing software tools to capture data movement from large-scale applications, and then to present this information in a manner that is easy to analyze and understand by connecting the information to the program via a characterization of data objects. The tools use binary analysis and instrumentation, a technique that can automate the identification of data objects within an application. By observing data objects, their access patterns, and data movement information, scientists and application developers can analyze and optimize their applications to increase performance and energy efficiency of large-scale applications and systems.&lt;br/&gt;The data-centric view promoted by this project enables models and methodologies for characterizing and predicting performance on future architectures, as those sought for extreme scale systems. The data-centric view of performance and energy efficiency is orthogonal to the traditional instructions-centric view. This new data-centric view will inspire new algorithms and systems, co-designed in a way that is particularly relevant to the scientific computing community.</AbstractNarration>
+    <MinAmdLetterDate>08/22/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/22/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1451598</AwardID>
+    <Investigator>
+      <FirstName>Laura</FirstName>
+      <LastName>Carrington</LastName>
+      <EmailAddress>lnett@sdsc.edu</EmailAddress>
+      <StartDate>08/22/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Pietro</FirstName>
+      <LastName>Cicotti</LastName>
+      <EmailAddress>pcicotti@sdsc.edu</EmailAddress>
+      <StartDate>08/22/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

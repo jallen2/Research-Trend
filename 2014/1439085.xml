@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: EXPL: CCA: A Framework for Portable Parallel Performance</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Unable to increase computer processor peformance growth at the historic rate, the microprocessor industry has shifted to bundling more processor cores in each computer. While additional processor cores puts more processing power in each computer, the burden of making use of this power shifts to the programmer. To make matters worse, the cores in each computer are not all the same and each computer model may have a different number and mix of cores. Software optimized for one computer may perform poorly for another, and having programmers optimize for each computer model is not practical. This project intends to overcome these problems by changing the way programmers write code for these systems and having the computer optimize the software for its specific configuration. The project will study ways to convey the richer set of information necessary to help computers best optimize the software running upon it. This project has the potential to fundamentally alter how programmers develop software for modern architectures, relieving them of the arduous task of optimizing their code for different systems. Users of any software---from computational scientists to home desktop users---would experience an increase in performance and faster deployment of new applications.&lt;br/&gt;&lt;br/&gt;The proposed software interface must represent code in a way that is automatically analyzable and highly amenable to automatic code transformations at runtime. The project will explore many designs, including explicitly encoding register dependences in Single Static Assignment (SSA) form, statically determining and encoding memory dependency information into instructions, and using an expressive code layout scheme to make runtime analysis and optimization more efficient. In concert with this design space exploration, various runtime optimizations will be developed which will customize the software execution for the specific computer while also optimizing for dynamically changing user desires such as execution speed and energy consumption. The synergistic design of the software interface and runtime optimizations will allow determination of the optimal set of information to include in the interface. This project also aims to create tools for developers (compiler, assembler, and architectural simulator) to enable others to use and evaluate it.&lt;br/&gt;&lt;br/&gt;The PI will keep building on his past successes in fostering diversity and educational outreach efforts. He will host several undergraduate student researchers each year, teaming them with graduate student mentors. He will also continue to incorporate current research results into undergraduate and graduate courses.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1439085</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>August</LastName>
+      <EmailAddress>august@cs.princeton.edu</EmailAddress>
+      <StartDate>07/28/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Princeton University</Name>
+      <CityName>Princeton</CityName>
+      <ZipCode>085442020</ZipCode>
+      <PhoneNumber>6092583090</PhoneNumber>
+      <StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

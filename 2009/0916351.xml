@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Programming Abstractions for Algorithmic Software Synthesis</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2013</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;In contrast to software verification, software synthesis "writes" programs rather than merely checks them for errors. While verification has recently reached the programmer, the success of synthesis remains in the hands of formally trained experts. To ease the adoption of synthesis, this proposal develops algorithmic synthesis, which is to deductive synthesis what model checking is to deductive verification: Rather than deducing a program with a theorem prover, algorithmic synthesis systematically finds the program in a space of candidate implementations.&lt;br/&gt;&lt;br/&gt;A key remaining challenge is how to describe this candidate space. Each synthesizer must be "programmed" with insights about the domain and its implementation tricks. In deductive synthesis, the insight is conveyed by a domain theory. In algorithmic synthesis, programmers typically communicate their insight by writing a partial program that syntactically defines the candidate space. The partial program is then completed by the synthesizer. Since the program is specified partially, programmers can control the candidate space size, making algorithmic synthesis feasible while leaving tedious program details to the synthesizer.&lt;br/&gt;&lt;br/&gt;This project investigates linguistic aspects of algorithmic synthesis, addressing three issues: (1) How to debug partial programs? Angelically non-deterministic oracles will be used for gradual development of partial programs. (2) What is domain insight and how to communicate it? Programming abstractions will be developed for defining the candidate space naturally. (3) How to refine the insight with the goal of aiding the synthesizer scalability? An interactive dialogue between the programmer and the synthesizer will help the programmer refine and formalize her insight.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2009</MaxAmdLetterDate>
+    <ARRAAmount>500000</ARRAAmount>
+    <AwardID>0916351</AwardID>
+    <Investigator>
+      <FirstName>Rastislav</FirstName>
+      <LastName>Bodik</LastName>
+      <EmailAddress>bodik@uw.edu</EmailAddress>
+      <StartDate>08/08/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

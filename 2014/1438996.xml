@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: CCA: Scalable Approximate Computing for Data Parallel Applications</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>850000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Data parallel applications are an important class of problems where energy consumption is a barrier to future performance scaling. These applications provide a paradigm where thousands of threads are concurrently executed on parallel hardware. A key characteristic shared by many of these applications is that absolute correctness of the output is not essential for proper operation. This opens up a new design dimension for microprocessors to trade off performance and energy consumption with output correctness. Image and video processing applications are well known candidates for approximation as users can tolerate occasional dropped frames or small losses in resolution during video playback. Machine learning and data analysis on massive data sets provide opportunities to process subsets of input data in a fraction of the time, while still yielding representative results. This project will design and develop the enabling application analysis, compiler, and run-time software technologies to facilitate scalable approximate computing. Our goal is to increase the execution efficiency of data-parallel applications by an order of magnitude on commodity hardware by trading off small, user-controlled levels of output accuracy for increased efficiency. By creating enabling technologies, we expect approximate computing to become pervasive, enabling data-intensive computing to be integrated into more aspects of life. Outreach activities will introduce data-parallel computing and energy efficiency to a new generation of high school students through an effort to reach out to local high schools.&lt;br/&gt;&lt;br/&gt;This project uses a vertically integrated approach that combines deep application analysis, automatic generation of approximate kernels, and a run-time system that seamlessly manages approximate execution. First, deep analysis of compute-intensive mobile and datacenter applications will automatically identify code regions that are amenable to approximation. Second, an idiom recognition and replacement approach is used to identify common computation patterns and synthesize approximate versions with varying degrees of accuracy. Third, sampling-based approaches as well as predictive strategies that perform approximate checking will be explored to ensure that output quality degradation does not exceed a user-specified threshold. Finally, a run-time compiler and management layer orchestrates the usage of approximate kernels and error checking while ensuring user error thresholds are honored.</AbstractNarration>
+    <MinAmdLetterDate>07/17/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/17/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1438996</AwardID>
+    <Investigator>
+      <FirstName>Zhuoqing</FirstName>
+      <LastName>Mao</LastName>
+      <EmailAddress>zmao@umich.edu</EmailAddress>
+      <StartDate>07/17/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jason</FirstName>
+      <LastName>Mars</LastName>
+      <EmailAddress>profmars@umich.edu</EmailAddress>
+      <StartDate>07/17/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Lingjia</FirstName>
+      <LastName>Tang</LastName>
+      <EmailAddress>lingjia@umich.edu</EmailAddress>
+      <StartDate>07/17/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Scott</FirstName>
+      <LastName>Mahlke</LastName>
+      <EmailAddress>mahlke@eecs.umich.edu</EmailAddress>
+      <StartDate>07/17/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

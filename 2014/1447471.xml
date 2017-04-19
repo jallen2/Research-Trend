@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: F: DKA: Randomized methods for high-dimensional data analysis</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>285000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Randomized methods have recently proven highly useful in efficiently analyzing big data sets, and this project covers mathematically rigorous techniques for developing such algorithms to analyze and store such data efficiently. In particular this project focuses on furthering applications of recent randomized methods for large-scale computational linear algebra. Applications of this research include: randomized linear algebra, manifold learning, and model-based compressed sensing. Many of the developed technologies on problems in these areas are unified by the common tool of randomized "oblivious subspace embeddings."&lt;br/&gt;&lt;br/&gt;This research attacks the big data problem in randomized linear algebra, manifold learning, and model-based compressed sensing. In randomized linear algebra one imagines that the input is an extremely large matrix A, and the goal is to efficiently process this input, e.g., in the form of regression, principal component analysis, (approximate) matrix multiplication, eigenvalue estimation, k-means clustering, etc. First proposed by Sarlos was the idea of using "oblivious subspace embeddings" to speed up computation, i.e., picking a random matrix S (from an appropriate distribution) such that solving the problem on SA instead of A still yields an almost optimal solution to the original problem (where S is chosen so that SA has many fewer rows than A, thus compressing the massive data). This project develops novel methods to obtain more efficient such S, as well as to find new applications to kernelized and regularized regression problems.In manifold learning one imagines that the input data lies on a low-dimensional manifold in a high-dimensional space. For example, pixelated handwritten images can be viewed as high-dimensional vectors (indexed by pixels), whereas empirically it has been observed that such images tend to lie near a much lower dimensional manifold. By learning these parameters ("manifold learning"), one can do more efficient classifier training as well as achieve data compression. This project explores more efficient ways to use randomized methods to do manifold learning, e.g., by using efficient subspace embeddings. In model-based compressed sensing one wishes to acquire sparse signals with structured sparsity patterns efficiently using few linear measurements, for later (approximate) recovery. Organizing these measurements as the rows of a measurement matrix S, it is known that such S are closely connected to subspace embeddings. This project aims to explore this connection to obtain more efficient model-based compressed sensing and recovery algorithms.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1447471</AwardID>
+    <Investigator>
+      <FirstName>Jelani</FirstName>
+      <LastName>Nelson</LastName>
+      <EmailAddress>minilek@seas.harvard.edu</EmailAddress>
+      <StartDate>08/25/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Harvard University</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021385366</ZipCode>
+      <PhoneNumber>6174955501</PhoneNumber>
+      <StreetAddress>1033 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

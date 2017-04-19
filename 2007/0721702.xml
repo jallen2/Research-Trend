@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS-WN: Bit-Switched Wireless Networks</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>600000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Thyagarajan Nandagopal</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Wireless mesh networks are becoming an important mode of high-speed Internet access, especially in parts of the country and the world that are poorly served by wireline providers. In addition, an increasing number of sensor networks rely on mesh protocols. This proposal seeks to dramatically improve the total network capacity and individual data transfer throughput in these networks using the following mutually-reinforcing ideas:&lt;br/&gt;&lt;br/&gt;1. Partial Packet Recovery (PPR) - a method used to determine which bits are likely to be correct in any given packet reception using physical layer hints, derived from modified wireless physical layers. PPR will lead to more robust reception and fewer retransmissions, and thus the opportunity to use both more aggressively concurrent channel access algorithms and higher bit-rates.&lt;br/&gt;&lt;br/&gt;2. Channel access using conflict maps, a protocol to aggressively exploit concurrent transmissions whenever they are likely to succeed, using measured observations of past success and failure. This technique will lead to more accurate, less conservative transmission decisions than existing techniques, thereby increasing spatial reuse.&lt;br/&gt;&lt;br/&gt;3. Bit-wise opportunistic routing (Bit-ExOR), which takes advantage of the fact that a transmission often results in different receivers correctly receiving different subsets of the bits in the transmission. Each node uses PPR and forwards the correct portions of a packet, while collaborating with other nodes to avoid duplicate forwarding.&lt;br/&gt;&lt;br/&gt;This project could have a long-term impact on the right protocol architecture for wireless networks - one in which error recovery and forwarding occur at the "bit-level'' (at bit-range granularities), rather than at the packet-level, and where channel access uses observations of the fate of the individual bits in previous transmissions to maximize concurrency. The resulting abstraction is a "bit-switched network", a modest but potentially powerful twist on packet switching.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/17/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0721702</AwardID>
+    <Investigator>
+      <FirstName>Hari</FirstName>
+      <LastName>Balakrishnan</LastName>
+      <EmailAddress>hari@csail.mit.edu</EmailAddress>
+      <StartDate>08/20/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Morris</LastName>
+      <EmailAddress>rtm@csail.mit.edu</EmailAddress>
+      <StartDate>08/20/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7389</Code>
+      <Text>PROGRAMMABLE WIRELESS NETWORKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

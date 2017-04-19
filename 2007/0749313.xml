@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Enabling Earthquake System Science Through Petascale Calculations (PetaShake)</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2010</AwardExpirationDate>
+    <AwardAmount>1800000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Manish Parashar</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this project is developing PetaShake, an advanced computational research platform designed to support high-resolution earthquake simulations on a regional(&lt; 1000 km) scale. PetaShake will extend two high-performance, open-source scientific modeling codes, the finite-difference Olsen code and the finite-element Hercules code, toward petascale capability. These operational codes scale efficiently on thousands of processors, and they are being widely applied to wave propagation simulations, dynamic fault rupture studies, physics-based seismic hazard analysis, and full 3D tomography. The researchers will improve single-processor performance through better cache usage, data localization, and platform-dependent optimizations; parallel performance to scale onto 100,000+ cores through a higher degree of parallelization and overlapping between communication and computation; and I/O performance to support high-resolution input meshes and time-varying output volumes by parallelizing all I/O and exploring the use of asynchronous I/O. They will also improve fault tolerance and fault detection capabilities, and incorporate an on-demand verification and validation capability into the PetaShake platform to support rapid development and enhanced flexibility while maintaining scientific validity. Although the focus of PetaShake will be on capability computing, the research to optimize this platform will enable the petascale capacity-computing and data-intensive goals of three other CME platforms, CyberShake, DynaShake, and F3DT. Southern California, the natural laboratory for the proposed project, comprises23 million people and about half the national earthquake risk. The Southern California Earthquake Center (SCEC) coordinates a comprehensive program of earthquake system science that involves over 500 scientists at more than 50 research institutions, and it incorporates the results into practical seismic hazard analysis. This project will provide the HPC required to achieve the objectives for earthquake source physics and ground motion prediction in the SCEC research plan. Its cyberinfrastructure and simulation results will be used by the SCEC community and its partners in earthquake engineering and disaster management. A diverse set of undergraduate and graduate students from SCEC?s UseIT and ACCESS intern programs will participate, enhancing the career trajectories of women and minorities interested in high-performance computing.</AbstractNarration>
+    <MinAmdLetterDate>09/24/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/17/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0749313</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Jordan</LastName>
+      <EmailAddress>tjordan@usc.edu</EmailAddress>
+      <StartDate>09/24/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7255</Code>
+      <Text>GEOINFORMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7583</Code>
+      <Text>ITR-HECURA</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7691</Code>
+      <Text>PetaApps</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7699</Code>
+      <Text>ICER</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

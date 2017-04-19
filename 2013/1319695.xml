@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: LeakDroid: Exposing Leaks and Jank in Android Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>465133</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Android software is widely used in smartphones, tablets, and various&lt;br/&gt;other devices. In devices with limited resources, an application that&lt;br/&gt;consumes too many resources can lead to slowdowns, crashes, and&lt;br/&gt;negative user experience. Software defects related to leaking of&lt;br/&gt;resources are widespread and varied, but there does not exist a&lt;br/&gt;comprehensive strategy for testing and debugging of such leaks.&lt;br/&gt;Another common problem in Android software is when an application&lt;br/&gt;takes too long to respond to a user action, in which case it is&lt;br/&gt;perceived as sluggish and of low quality. There do not exist testing&lt;br/&gt;techniques or tools for exposing the underlying software defects&lt;br/&gt;leading to poor responsiveness.&lt;br/&gt;&lt;br/&gt;Resource leaks and poor responsiveness can have severe effects on&lt;br/&gt;software reliability, performance, and marketplace success. This&lt;br/&gt;project develops LeakDroid, a novel approach and toolset for testing&lt;br/&gt;and debugging of such defects. Static code analyses are used to&lt;br/&gt;extract precise GUI models of Android applications; such analyses are&lt;br/&gt;essential for many algorithms for program understanding, optimization,&lt;br/&gt;testing, and debugging. Next, GUI tests are generated based on common&lt;br/&gt;leak patterns, through sequences of GUI events that should not lead to&lt;br/&gt;increases in resource usage. Poor responsiveness is exposed with tests&lt;br/&gt;that introduce delays at chosen code locations. Debugging techniques&lt;br/&gt;are then employed to find leaking data structures and poor&lt;br/&gt;responsiveness operations, as well as the corresponding defective&lt;br/&gt;code. These contributions advance the state of the art in the&lt;br/&gt;important area of analysis, testing, and debugging for Android&lt;br/&gt;software. When these advances and tools become part of software&lt;br/&gt;development practices, they would result in lower costs and increased&lt;br/&gt;quality applications for millions of users of mobile devices. The&lt;br/&gt;educational efforts of the project develop the skills of the next&lt;br/&gt;generation of creators of mobile software</AbstractNarration>
+    <MinAmdLetterDate>06/27/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/27/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319695</AwardID>
+    <Investigator>
+      <FirstName>Atanas</FirstName>
+      <LastName>Rountev</LastName>
+      <EmailAddress>rountev@cse.ohio-state.edu</EmailAddress>
+      <StartDate>06/27/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: New and Improved Algorithms for Minimization and Subspace Tracking</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Gram--Schmidt orthogonal factorization algorithm and the Golub--Kahan--Lanczos (GKL) bidiagonal reduction algorithm produce two fundamental factorizations for numerical linear algebra. Enhancements to these algorithm provide the foundation for the ``New and Improved Algorithms for Minimization and Subspace Tracking'' that are the subject of this proposal. These are both orthogonal factorization algorithms designed to produce bases for subspaces of interest and, for both algorithms, stability analyses are necessary to consider what is necessary to keep these bases orthogonal. The algorithms are also adapted to be based upon matrix--matrix operations, thereby making them implementable using the level-3 BLAS and sparse BLAS routine necessary to make them efficient on modern architectures.&lt;br/&gt;&lt;br/&gt;Based upon the new Gram--Schmidt and GKL procedures, regularized least squares and algorithms for tracking the leading principal subspace of a matrix are developed. Using discrete cosine and fast Fourier transform&lt;br/&gt;based preconditioners developed by the PI and collaborators in a previous NSF project, a regularized least squares algorithm is extended into a Newton--based regularized total least squares algorithm that is well suited to image deblurring problems.&lt;br/&gt;&lt;br/&gt;The research on the block Gram--Schmidt and GKL bidiagonalization algorithms advance the scientific community's knowledge of how to develop efficient software in modern computing environments for two fundamental algorithms in numerical linear algebra, a core field that straddles computational science and applied mathematics. The Gram--Schmidt algorithms are important in the development of iterative methods for the solution of large systems of linear equations arising in a long list of scientific and engineering disciplines. The GKL bidiagonal reduction algorithm and subspace tracking work is useful in the numerous applications of dimension reduction within statistics, most notably web search algorithms. Bidiagonal reduction is also a key component in the solution of the Netflix problem--the problem of identifying which films a customer would enjoy watching among a very large sample based upon a smaller sample of films which he/she has already rated. The image deblurring algorithms are important in the reconstruction of high-resolution images. These images, similar to those produced by high-resolution television, are expensive to transmit. The total least squares research develops an algorithm that would be useful in recovering a high-resolution image from cheaper-to-transmit lower resolution images.</AbstractNarration>
+    <MinAmdLetterDate>06/30/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115704</AwardID>
+    <Investigator>
+      <FirstName>Jesse</FirstName>
+      <LastName>Barlow</LastName>
+      <EmailAddress>barlow@cse.psu.edu</EmailAddress>
+      <StartDate>06/30/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

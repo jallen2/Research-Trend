@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Optimization Algorithms for Multi-Armed Bandit Problems</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>380000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computation in many emerging applications, such as online advertising and large scale social, media or sensor networks, is increasingly moving away from a simplistic view of computing a fixed function on a well defined input. Increasingly we are realizing that the input and the function are only the means to an end; and are inexact and imprecise at best. In many of these applications, the cost of realizing the input, in possibly distributed and dynamic/interactive environments, is a significant fraction of the cost of the computation itself. The emerging theme has been (i) to formulate models (very often probabilistic) of the input, (ii) precompute strategies that probe or realize few pieces of the input, and (iii) execute the strategies while making small adjustments as the data is incrementally made available. Moreover all these three stages are interleaved and the optimization is often repetitive. The overall process corresponds to repeatedly adapting to the short run behavior of the input which is reset often, starting from an initial and aggregate model of the long term behavior. Thus the task is to design and analyze algorithms that span and adapt to multiple scales of time.&lt;br/&gt;&lt;br/&gt;Similar problems which encode the tradeoffs between exploration and exploitation has classically been modeled by the Multi-Armed Bandit problem, where the arms correspond to the available choices. However, these emerging domains differ in several critical aspects. This proposal seeks to extend the optimization and analysis of Multi-Armed Bandit problems in a number of novel dimensions, specifically in terms of nonlinear and subadditive objective functions, noisy and error-prone feedbacks, lack of centrality and entangled feedbacks, implementation barriers of budgets or policies, and dynamic behavior. These extensions are connected, and progress on these problems would lead to a wealth of new results and more importantly, new techniques, in optimization as well as in bandit literature.&lt;br/&gt;&lt;br/&gt;In addition to the development of new algorithmic and analysis ideas, the proposal would train graduate students to develop simultaneous expertise in theoretical computer science, machine learning and statistics, as well as stochastic control. Moreover the crosscutting aspect of the research would be disseminated through tutorials, surveys and monographs.</AbstractNarration>
+    <MinAmdLetterDate>06/30/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117216</AwardID>
+    <Investigator>
+      <FirstName>Sudipto</FirstName>
+      <LastName>Guha</LastName>
+      <EmailAddress>sudipto@cis.upenn.edu</EmailAddress>
+      <StartDate>06/30/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

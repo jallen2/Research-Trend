@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Efficient Analysis of Non-Linear and Non-Gaussian State-Space Representations</AwardTitle>
+    <AwardEffectiveDate>07/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2012</AwardExpirationDate>
+    <AwardAmount>404463</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>04050000</Code>
+      <Directorate>
+        <LongName>Direct For Social, Behav &amp; Economic Scie</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Divn Of Social and Economic Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Michael Reksulak</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The investigators propose to develop numerical methods for achieving likelihood evaluation and filtering in applications involving non-linear and/or non-Gaussian state space models. The hallmark of these models is their representation of the interaction of observable variables (typically observed subject to measurement error) and unobservable state variables. The models serve as workhorses in a broad spectrum of applications ranging from reduced-form representations of, e.g., asset-return behavior, to representations of dynamic stochastic general equilibrium (DSGE) models amenable to likelihood-based estimation and inference. The objective of filtering is to infer time-t behavior of state variables given measurement of the observable variables through time t, conditional on the specified model, but unconditional on the past behavior of the state. Likelihood evaluation involves probability assessments regarding the observable variables measured through time t, again conditional on the model but unconditional on current and past behavior of the state. Both objectives require the calculation of integrals necessary for eliminating the dependence of inferences on realizations of the state.&lt;br/&gt;When the model in question is linear and stochastic innovations are Gaussian, the integrals required for achieving likelihood evaluation and filtering can be calculated analytically via the Kalman filter. However, theoretical and empirical considerations often necessitate extensions beyond linear/Gaussian frameworks. For example, approximation errors associated with linear approximations of DSGE models can impart significant errors in corresponding likelihood representations. Highly accurate non-linear model approximations can all but eliminate associated likelihood approximation errors, but the adoption of such model approximations of course entails a departure from linearity. Departures from either linearity or normality render required integrals as analytically intractable; their calculation thus entails the use of numerical methods.&lt;br/&gt;&lt;br/&gt;The objective of the project is to develop numerical methods for achieving likelihood evaluation and filtering that are straightforward to implement, and that deliver accurate and numerically efficient approximations of targeted integrals. The objective will be pursued through the implementation of efficient importance sampling (EIS) techniques, which by design yield optimal global approximations of targeted integrands. In the context of state-space representations, implementation of EIS is complicated by the unavailability of analytical representations of targeted integrands. Thus the objective of the project ? development of the EIS filter ? amounts to the development of techniques for overcoming this complication in a broad range of settings.&lt;br/&gt;&lt;br/&gt;Broader Impacts: Results obtained to date indicate that the EIS filter can deliver dramatic improvements in accuracy and numerical efficiency over existing techniques. Results have been obtained from applications to two models studied previously in the filtering literature for which the EIS filter reduces numerical standard errors of targeted integrands by several orders of magnitude relative to the particle filter, while entailing reduced computational times. Moreover, likelihood approximations associated with the EIS filter are continuous functions of model parameters, easing greatly the problem of model estimation. These results suggest that by developing robust algorithms for implementing the EIS filter in general state-space environments (including those involving high dimensional state spaces and singular transition densities), this project can broaden substantially the range of problems for which the shackles of linearity/normality can be loosened.</AbstractNarration>
+    <MinAmdLetterDate>01/30/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0850448</AwardID>
+    <Investigator>
+      <FirstName>Jean-Francois</FirstName>
+      <LastName>Richard</LastName>
+      <EmailAddress>fantin@pitt.edu</EmailAddress>
+      <StartDate>01/30/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>DeJong</LastName>
+      <EmailAddress>dejong@pitt.edu</EmailAddress>
+      <StartDate>01/30/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pittsburgh</Name>
+      <CityName>Pittsburgh</CityName>
+      <ZipCode>152132303</ZipCode>
+      <PhoneNumber>4126247400</PhoneNumber>
+      <StreetAddress>University Club</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

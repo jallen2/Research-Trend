@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CMG Collaborative Research: Probabilistic stratigraphic alignment and dating of paleoclimate data</AwardTitle>
+    <AwardEffectiveDate>10/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>157017</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06040000</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Ocean Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Baris M. Uz</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Intellectual Merit: Stratigraphic alignment is the primary way in which long marine climate records (105-107years) are placed on a common age model. However, currently there are no techniques for quantifying the uncertainty associated with these alignments. This project will build probabilistic models of an automated stratigraphic alignment algorithm for paleoclimate records as a means of characterizing this uncertainty. The development of this uncertainty analysis is important because the relative timing of climate responses (derived from stratigraphic alignment) is frequently used to evaluate causal relationships within the climate system. Therefore, this study will also assess the effects of alignment uncertainty on these evaluations. Additionally, a probabilistic algorithm will be created for age model development through orbital tuning. The improved accuracy and error estimates for paleoclimate age models that result from this work will improve estimates of the climate system?s sensitivity to changes in radiative forcing. &lt;br/&gt;&lt;br/&gt;The original software developed by PI L. Lisiecki uses dynamic programming to find the optimal alignment of paleoclimate records based on user-defined parameter settings and produces one best-fit alignment with no uncertainty analysis. The new version will provide users with alignments sampled in proportion to their probability and will provide error bars for the estimated relative ages at each point in the alignment. Specifically, this project will develop two probabilistic versions of the alignment algorithm (pairwise and multiple) in the form of (pair and profile) Hidden Markov models (HMM) and develop a probabilistic HMM for creating orbitally tuned age models for paleoclimate data. The algorithm for age model development will incorporate knowledge gained about sedimentation rate variability from the pair and profile HMM algorithms. All three algorithms will be applied to create a new stack model of benthic &amp;#948;18O records (a proxy for global climate) with uncertainty estimates which include data noise, alignment uncertainty and age model uncertainty. This "probabilistic stack" is scientifically important because it will yield uncertainty estimates for a widely used measure of past climate change. &lt;br/&gt;This project also aims to develop statistical methods to characterize the shapes of the posterior distributions of stratigraphic alignments and orbital tuning. This alignment problem is in a large class of discrete high dimensional problems that often have complex multimodal solution spaces which are difficult to characterize. To date the characterization of these spaces has been limited to a point estimate(s) and Bayesian confidence limits around these high-D estimates. In this project novel methods will be developed for the identification of clusters from multiple modes in these high-D spaces and characterize them as specific probabilistic models using both direct samples from the posterior distribution and the probabilities of each sampled value. Given the limited utility of point estimates and confidence limits in such high-D spaces, these probabilistic characterizations of posterior spaces will greatly improve the ability to describe such posterior spaces. &lt;br/&gt;Broader Impacts: The current version of the alignment software developed by PI Lisiecki has been downloaded by users in many different countries and applied to a wide variety of data in many publications. The new software and &amp;#948;18O stack with uncertainty analysis will be posted on the NOAA NCDC website, on Lisiecki's personal website, the Brown CCMB web server. The new software will improve stratigraphic alignments and estimation of their uncertainty, which ultimately will lead to a better understanding of the climate system and better climate change predictions. The alignment problem is one of many problems in discrete high-D inference, including: the prediction of RNA secondary structures; the characterization of segmental duplications in primate genomes; and stochastic context free grammars in linguistics. This work on the characterization of discrete high-D posterior spaces will have a direct impact in all of these other areas and beyond. This proposal will train undergraduate and graduate students and a post-doc in both stratigraphy and mathematical statistics. This proposal will also broaden participation of under-represented groups by supporting a female PI at the start of her career.</AbstractNarration>
+    <MinAmdLetterDate>09/27/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/11/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1025444</AwardID>
+    <Investigator>
+      <FirstName>Lorraine</FirstName>
+      <LastName>Lisiecki</LastName>
+      <EmailAddress>lisiecki@geol.ucsb.edu</EmailAddress>
+      <StartDate>09/27/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Barbara</Name>
+      <CityName>Santa Barbara</CityName>
+      <ZipCode>931062050</ZipCode>
+      <PhoneNumber>8058934188</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7215</Code>
+      <Text>OPPORTUNITIES FOR RESEARCH CMG</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7232</Code>
+      <Text>MATHEMATICAL GEOSCIENCES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1303</Code>
+      <Text>CLIMATE MODELING &amp; PREDICTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7215</Code>
+      <Text>OPPORTUNITIES FOR RESEARCH CMG</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7232</Code>
+      <Text>MATHEMATICAL GEOSCIENCES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

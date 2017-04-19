@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SDCI Net: Collaborative Research: An integrated study of datacenter networking and 100 GigE wide-area networking in support of distributed scientific computing</AwardTitle>
+    <AwardEffectiveDate>09/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>498378</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kevin L. Thompson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As supercomputing speeds increase to peta- and exaflops, scientists are increasing their scale and range of simulations, which are resulting in ever growing datasets that need to be moved to local computers at the scientists' own laboratories. The first goal of this project is to identify bottlenecks that result in poor and/or inconsistent end-to-end application-level throughput using data collection and analysis by working in conjunction with scientists in the Community Earth System Model (CESM) project. With knowledge of the weakest components in the end-to-end chain, we plan to experiment in a controlled environment using a testbed that consists of a high-end cluster at NERSC, which is capable of sourcing/sinking data to disks at close to 100Gbps speeds, and other high-performance computing systems connected via the DOE 100Gbps Advanced Networking Initiative (ANI) prototype network. Multiple datacenter networking technologies such as Remote Direct Memory Access (RDMA) over Converged Ethernet (RoCE) and Internet Wide-Area RDMA Protocol (iWARP) will be combined with high- speed (100Gb/s) wide-area networking solutions, such as dedicated virtual circuits and IP-routed paths, respectively, for a comparative performance study of file transfers and wide-area MPI I/O. A new software module of the Extended-Sockets API (ES-API), which offers RDMA features such as zero-copy operations, will be prototyped and integrated into file transfer applications. Finally, trials will be organized to transfer the best identified solutions to CESM and other scientists. The intellectual merit of the proposed project consists of: i) a systematic scientific approach to determine the reasons for poor end-to-end application-level performance experienced by CESM scientists, ii) development of integrated datacenter and wide-area networking solutions to address the identified problems, and iii) the enabling of these solutions to be utilized by CESM and other science projects. The broader impacts of the proposed activities consist of i) the creation of a course module on datacenter networking, and the involvement of undergraduate students in this research at all three institutions, ii) diversity and outreach programs, and iii) the active promotion of the developed solutions to the CESM project and other scientists.</AbstractNarration>
+    <MinAmdLetterDate>09/07/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/07/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1127340</AwardID>
+    <Investigator>
+      <FirstName>Malathi</FirstName>
+      <LastName>Veeraraghavan</LastName>
+      <EmailAddress>mv5g@virginia.edu</EmailAddress>
+      <StartDate>09/07/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Virginia Main Campus</Name>
+      <CityName>CHARLOTTESVILLE</CityName>
+      <ZipCode>229044195</ZipCode>
+      <PhoneNumber>4349244270</PhoneNumber>
+      <StreetAddress>P.O. BOX 400195</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7683</Code>
+      <Text>SOFTWARE DEVELOPEMENT FOR CI</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7683</Code>
+      <Text>SOFTWARE DEVELOPEMENT FOR CI</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

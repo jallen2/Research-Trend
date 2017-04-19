@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Priori Analysis of Subgrid Molecular Transport Effects on High Pressure Turbulent Combustion Modeling</AwardTitle>
+    <AwardEffectiveDate>07/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2013</AwardExpirationDate>
+    <AwardAmount>220694</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ruey-Hung Chen</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Miller&lt;br/&gt;0965624&lt;br/&gt;&lt;br/&gt;This proposal addresses subgrid statistics of turbulent flames under realistic high pressure thermodynamic conditions relevant to modern diesel engines, gas turbines, and rocket engines. The research will utilize massively parallel direct numerical simulations (DNS), in which all length and time scales of the turbulent flame are fully resolved using high order accurate techniques and without the use of turbulence or subgrid models, to analyze several high pressure flames. The particular focus is on analyzing terms relevant to modern combustion models with emphasis on large eddy simulation (LES) and filtered density function (FDF) approaches. High pressure experiments are difficult and existing DNS validations of these approaches have thus far not addressed four coupled phenomena that can be highly important in real flames: large pressure, realistic chemistry, real property models, and generalized heat and mass diffusion.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: &lt;br/&gt;&lt;br/&gt;It is hypothesized that localized subgrid molecular mixing effects, which are often assumed to be negligible relative to turbulent stirring, can have a substantial impact on high pressure flame dynamics. This is due to the fact that ultimately many flames are controlled locally by the diffusion of species and temperature. Extinction and re-ignition events are highly sensitive to local flame conditions and Soret cross-diffusion is also highly amplified at high pressures. DNS will therefore be conducted for hydrogen-oxygen, hydrogen-air, heptane-air, and methane-air reacting shear layers. Both detailed and reduced chemical kinetics, a real gas state equation, real property evaluations, and a complete generalized diffusion model will be incorporated. Massively parallel simulations will produce a database for each flame at various pressures and Reynolds numbers. The database will then be explored in an a priori manner to analyze subgrid terms and statistics related to LES and FDF of high pressure turbulent combustion. Terms requiring modeling will be identified and modeled as appropriate.&lt;br/&gt;&lt;br/&gt;Broader Impact: &lt;br/&gt;&lt;br/&gt;The research is expected to enhance society's ability to predictively model turbulent combustion at elevated pressures. This is imperative due to the ever increasing combustion chamber pressures encountered in hydrocarbon combustion devices utilized in society (including diesel engines, gas turbines, rocket engines, and other potential hydrogen technologies). Both graduate and undergraduate students will be involved. In addition, a multidisciplinary portion of the education plan involves bringing together the graduate students involved with this research with a group of computer engineers at UNC Charlotte. The DNS code will be shared and run on the UNCC parallel FPGA cluster. The purposes of this exercise are: knowledge sharing between two typically non-intersecting groups, and code optimization for both typical and advanced parallel architectures.</AbstractNarration>
+    <MinAmdLetterDate>06/17/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/17/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0965624</AwardID>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>Miller</LastName>
+      <EmailAddress>rm@clemson.edu</EmailAddress>
+      <StartDate>06/17/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Clemson University</Name>
+      <CityName>CLEMSON</CityName>
+      <ZipCode>296340001</ZipCode>
+      <PhoneNumber>8646562424</PhoneNumber>
+      <StreetAddress>230 Kappa Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>South Carolina</StateName>
+      <StateCode>SC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1406</Code>
+      <Text>THERMAL TRANSPORT PROCESSES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1407</Code>
+      <Text>COMBUSTION, FIRE, &amp; PLASMA SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>047E</Code>
+      <Text>REACTION ENGINEERING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>057E</Code>
+      <Text>Thermodynamics</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>061E</Code>
+      <Text>Fire</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>063E</Code>
+      <Text>POLLUTANT FORMATION &amp; MITIGATN</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>064E</Code>
+      <Text>Convection heat and mass transfer</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Computational Methods for Multiscale Turbulent Reacting Flows</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>217464</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of the proposed research is to develop computational methods within a multiscale modeling framework for turbulent reacting flows. The framework is based on hybrid coarse-grained and fine-grained(resp.) simulations based on large-eddy simulations (LES) and a stochastic low-dimensional model, the one-dimensional turbulence (ODT) model. The ODT model is designed to capture the coupling between turbulent and molecular transport and chemistry/heat release. The framework has been developed by the PI for combustion to directly model subgrid scale physics associated with turbulence-chemistry interactions; but, it can easily have broader applications for multiscale driven flows involving 3D deterministic solutions with low-dimensional stochastic solutions. The work proposed here extends the model formulation to address the development of multiscale computational tools to couple the two solution schemes. The approaches involve physics-based matching of filtered subgrid scale stresses between LES and ODT as well as the implementation multiresolution methods based on the wavelet transform. Data assimilation strategies will be formulated and implemented for managing the transfer of statistics from the stochastic solution to the high-order deterministic LES solution. Finally, strategies to accelerate the integration of chemical kinetics and molecular transport will be investigated to improve the computational efficiency of the hybrid LES-ODT formulation. The various formulations will be validated with direct numerical simulations (DNS).&lt;br/&gt;&lt;br/&gt;The proposed effort addresses a novel simulation framework to study combustion flows. The combustion of fossil and novel fuels make up the lion?s share of energy consumption in the US and abroad; and the ability to simulate combustion flows, with expanding computational resources and know-how, can eventually replace building expensive prototypes of engines, and speed up the design-to-production process, and help mitigate the generation of pollutants and greenhouse gases. Combustion simulation is complex, because an account of complex physics from the molecular scale to the device scale is required; the investigator and his colleagues will develop multiscale strategies to simulate combustion flows through hybrid simulations that are designed to addresses physics at different ranges of scales. The combined outcome is a bootstrapping process for these simulations that results in computationally efficient strategies to represent the broad ranges of scales in combustion flows. Much of the effort requires insight to the physics of combustion flows and energy and environmental implications; but, other aspects of the effort draw upon advances in information technology (including access to supercomputing resources, advances in software) and computational mathematics.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915150</AwardID>
+    <Investigator>
+      <FirstName>Tarek</FirstName>
+      <LastName>Echekki</LastName>
+      <EmailAddress>techekk@ncsu.edu</EmailAddress>
+      <StartDate>08/07/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

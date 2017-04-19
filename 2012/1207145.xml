@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Molecular Semulation: A New Paradigm in Materials Modeling</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>456331</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03070000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Materials Research</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daryl W. Hess</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>TECHNICAL SUMMARY&lt;br/&gt;The Division of Materials Research, the Division of Mathematical Sciences, and the Office of Cyberinfrastructure contribute funds to this award. &lt;br/&gt;This award supports computational and statistical research, and education with the aim of developing a new materials modeling technique in which large-scale molecular dynamics simulations of crystal plasticity are emulated with statistically-derived relations that map output spatial defect densities to input atomic configurations. A series of carefully chosen simulations of the plastic response of materials to high strain rate deformation is used to create data from which the statistical models are developed. These models are in turn used to predict resulting defect densities for input configurations that are not part of the data base. To succinctly describe this new concept, the word "semulation" is borrowed from computer science where it has been used to define a process or tool that combines the best of simulation and emulation. Mappings that enable statistical analysis are created by assigning to each atom a set of values that provide a unique measure of bonding environment. This information, which implicitly includes defect and lattice type, is then coarse grained to create a spatial distribution of defect densities. To statistically correlate the results, the coarse grain data is pooled across counts of different atom environments in the same and nearby subregions. Tools in the form of LAMMPS subroutines will be distributed so that researchers can develop their own data bases, and a web interface will be created that will allow access to existing data bases. &lt;br/&gt;&lt;br/&gt;NON TECHNICAL SUMMARY&lt;br/&gt;The Division of Materials Research, the Division of Mathematical Sciences, and the Office of Cyberinfrastructure contribute funds to this award. &lt;br/&gt;This award supports computational and statistical research, and education with the aim of developing a new materials modeling technique. Data base searching and statistical analysis is playing an increasingly important role in a wide range of applications. For example, rather than trying to apply grammar and syntax rules, current language translation software relies on searches of data bases that contain already translated documents. The PI aims to develop a similar concept for modeling damage in metals by creating databases of damage profiles generated from large-scale atomic simulations, and then using these databases to efficiently predict damage for new conditions that are not included in the original simulations. This requires developing new statistical analysis methods that can map defect distributions after a metal is deformed back to the metal's initial structure. These tools and associated web-based interfaces will be distributed to the computational materials science community so that researchers can both develop their own data bases, and use existing data bases to predict damage in metals without having to carry out a full simulation.</AbstractNarration>
+    <MinAmdLetterDate>08/29/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/29/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1207145</AwardID>
+    <Investigator>
+      <FirstName>Brian</FirstName>
+      <LastName>Reich</LastName>
+      <EmailAddress>brian_reich@ncsu.edu</EmailAddress>
+      <StartDate>08/29/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Donald</FirstName>
+      <LastName>Brenner</LastName>
+      <EmailAddress>brenner@ncsu.edu</EmailAddress>
+      <StartDate>08/29/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1765</Code>
+      <Text>CONDENSED MATTER &amp; MAT THEORY</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>6892</Code>
+      <Text>CI REUSE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7569</Code>
+      <Text>CYBERINFRASTRUCTURE/SCIENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9162</Code>
+      <Text>MULTI DIVISION/UNIVERSITY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>AMPP</Code>
+      <Text>ADVANCED MATERIALS &amp; PROCESSING PROGRAM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

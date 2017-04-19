@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Extension of the APP detector for multipitch tracking and speaker separation</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2010</AwardExpirationDate>
+    <AwardAmount>125000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In many real world scenarios, speech recognition and speaker identification systems must deal with simultaneous speech from several talkers, i.e., speech mixtures representing conversations in natural environments. Users of cochlear implants encounter problems in separating speakers in multi-speaker environments, because of the loss of fine temporal structure. Thus, a crucial preprocessing step for such systems is the segregation of speech according to its constituent sources. The project is the first part of this process which involves the recognition of the number of speakers and the separation of their pitch tracks based on the periodic portions of the speech signal (i.e., voiced regions). Since different speakers have characteristic pitch ranges as a consequence of vocal cord physiology, pitch tracks can be used to help separate the combined signal into different speech streams. Current popular multi-pitch tracking approaches are susceptible to artifacts caused by the interaction between the periodic regions of the different speech signals. Consequently, the periodicity of the combined signal can be different from that of the individual components. The major new idea is the extension of an existent periodicity and pitch estimation process to higher dimensions, arriving at a multi-dimensional periodicity function which is not susceptible to the harmonic interaction artifacts. Preliminary results show that the multiple pitch tracks obtained are accurate even when one speaker is considerably more dominant than the other speaker. The approach is easily generalized to non-speech audio and it should be robust in noisy channels. The outcome of this project will be used in a future project where the actual speech streams will be separated from each other based on the multi-pitch information.</AbstractNarration>
+    <MinAmdLetterDate>08/09/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/09/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0812509</AwardID>
+    <Investigator>
+      <FirstName>Carol</FirstName>
+      <LastName>Espy-Wilson</LastName>
+      <EmailAddress>espy@glue.umd.edu</EmailAddress>
+      <StartDate>08/09/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

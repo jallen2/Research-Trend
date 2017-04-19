@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Computational techniques for nonlinear joint inversion</AwardTitle>
+    <AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>270000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>An accurate representation of the Earth's subsurface is needed to manage natural resources such as groundwater and to monitor pollutants such as those from industrial landfills. Geophysical exploration techniques are non-invasive strategies for imaging the subsurface. In these approaches, electric fields are induced into the subsurface and the subsequent decay response is measured. These measurements are converted into information about the subsurface by combining them with a physical model in an inversion methodology. It is often the case that these problems are mathematically ill-posed because the measurements and mathematical model provide inconsistent or incomplete information. This project will provide a new method of electromagnetic geophysical characterization that combines complex resistivity and ground-penetrating radar measurements, integrating material properties across a vast range of frequency bands: 102 - 109 Hz. This range of information will be combined in a joint inversion that offers more observational information than is traditionally used to image the subsurface. We will accommodate inconsistent information by appropriately weighting measurements and models with experimental statistics. The algorithms developed under this project are computationally efficient and can be used with large data sets or complex mathematical models because they are grounded in modern numerical linear algebra techniques. &lt;br/&gt;&lt;br/&gt;Regularizing solutions for ill-posed linear inverse problems have been widely studied with respect to the impact of the choice and relevant weighting of applied regularizers. Yet, in the context of the solution of ill-posed nonlinear inverse problems the impact of stabilizing a Jacobian inversion within a Newton update, which effectively regularizes the solution, appears to be less well-appreciated. In addition, Lagrange parameters that connect one or more models and data for joint or multiple inversion, and control the relationship between components of an inversion process, may be chosen in a somewhat ad-hoc manner. The computational cost of generating a convergent sequence of solutions in the linear framework limits serious consideration of most linear approaches in the nonlinear framework. This project transforms the solution of relevant nonlinear problems by applying techniques that appropriately include physically based modeling constraints, and choosing regularization parameters based on underlying noise statistics in data. This methodology opens efficient avenues for incorporating uncertainty in solutions of nonlinear problems by emphasizing solution techniques that permit analysis of the propagation of intrinsic measurement and numerical error through the solution process. Thus the underlying computational algorithms have the potential for significant impact beyond the specifics of this project.</AbstractNarration>
+    <MinAmdLetterDate>06/29/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1418714</AwardID>
+    <Investigator>
+      <FirstName>Jodi</FirstName>
+      <LastName>Mead</LastName>
+      <EmailAddress>mead@math.boisestate.edu</EmailAddress>
+      <StartDate>06/29/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Bradford</LastName>
+      <EmailAddress>johnb@cgiss.boisestate.edu</EmailAddress>
+      <StartDate>06/29/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Boise State University</Name>
+      <CityName>Boise</CityName>
+      <ZipCode>837250001</ZipCode>
+      <PhoneNumber>2084261574</PhoneNumber>
+      <StreetAddress>1910 University Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Idaho</StateName>
+      <StateCode>ID</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8396</Code>
+      <Text>Clean Energy Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8609</Code>
+      <Text>Other Energy Research</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

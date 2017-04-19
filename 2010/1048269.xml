@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CiC: FRCC: Cloud Storage with Minimal Trust</AwardTitle>
+    <AwardEffectiveDate>04/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2014</AwardExpirationDate>
+    <AwardAmount>370000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project asks: how can one build a cloud storage service under minimal trust assumptions? The project aims to design, implement, and evaluate a practical, concrete system that allows clients to use cloud storage providers like Azure and S3 -- but without the clients having to trust, that is assume, that the providers always operate correctly. &lt;br/&gt;&lt;br/&gt;Of course, reducing assumptions is generically good, but doing so is particularly relevant to cloud storage: for economic and operational reasons, data is increasingly migrating to storage service providers (SSPs), yet SSPs are complex black boxes that can experience software bugs, correlated manufacturing defects, misconfigured servers, operator error, malicious insiders, bankruptcy, fires, and more. &lt;br/&gt;&lt;br/&gt;For these reasons, the project is building a system, called Padova, that tolerates scenarios in which all servers in the SSP fail, and the failures include malicious, buggy, or improbably unlucky behaviors. The approach is enforce a sensible ordering of updates at the client; this provides the foundation for safety and allows a client to gather updates from any node in the system, client or server, which in turn contributes to liveness and availability. Padova eliminates trust for safety and minimizes trust for liveness and availability.&lt;br/&gt;&lt;br/&gt;This project makes cloud storage safer for existing customers and spur further adoption of cloud storage. This means more people paying less for computing, producing beneficial effects throughout the computational ecosystem. The educational benefits include graduate and undergraduate mentoring, the latter through UT's Turing Scholars program, which cultivates particularly talented undergraduates.</AbstractNarration>
+    <MinAmdLetterDate>03/25/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/25/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1048269</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Dahlin</LastName>
+      <EmailAddress>dahlin@cs.utexas.edu</EmailAddress>
+      <StartDate>03/25/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Lorenzo</FirstName>
+      <LastName>Alvisi</LastName>
+      <EmailAddress>lorenzo@cs.utexas.edu</EmailAddress>
+      <StartDate>03/25/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Walfish</LastName>
+      <EmailAddress>mwalfish@cs.utexas.edu</EmailAddress>
+      <StartDate>03/25/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

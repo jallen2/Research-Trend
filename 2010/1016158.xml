@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Studies in Randomness Extraction</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>223928</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Randomness extraction is an algorithmical process that transforms objects with low-quality randomness into objects with high-quality randomness. The objects (usually called sources) can be finite probability distributions, finite binary strings, and infinite binary sequences, and the randomness quality is measured, respectively, by min-entropy, Kolmogorov complexity, and constructive Hausdorff dimension. There exists a vast amount of work on randomness extractions in all three settings. Our project will extend the field by investigating randomness extraction in situations that go beyond some of the basic assumptions for which the main current techniques and tools have been developed.&lt;br/&gt;&lt;br/&gt;In some applications, the assumption that the involved probability distributions are independent is problematic. Therefore, an algorithm that attempts to remedy defective sources should be able to handle even sources with bounded independence. The project will study the issue of randomness extraction from two or more sources with bounded independence, in contrast with the current literature that has only considered the case of fully independent sources. Extending some partial results, the objective is to establish upper bounds on the quality of randomness that can be obtained from such sources and to design efficient extractors that perform in the vicinity of the upper bounds. Another research line of the project is dedicated to exposure-resilient extractors, which are efficient procedures that manage to extract bits that look random even to an adversary that has adaptive access to the input sources. The objective is to design such extractors with parameters suitable for applications in cryptography.&lt;br/&gt;&lt;br/&gt;Randomness extraction is a very active field and has been an incubator of ideas with a significant impact even outside the area. The proposed research opens new directions of study that are natural and challenging. It adds new dimensions in the study of randomness extraction and has the potential of enlarging the range of applications of extractors. Randomness extraction has applications in computational complexity, randomized algorithms, constructive combinatorics, cryptography, error-correcting codes, and other areas. The project attempts to make many of these applications more practical and more robust. The project will establish new connections between computational complexity, Kolmogorov complexity, and algorithmical information theory. The project will allow undergraduate and graduate students to participate in research activities that have a strong theoretical flavor and the promise of real-world applications.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/07/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016158</AwardID>
+    <Investigator>
+      <FirstName>Marius</FirstName>
+      <LastName>Zimand</LastName>
+      <EmailAddress>mzimand@towson.edu</EmailAddress>
+      <StartDate>07/24/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Towson University</Name>
+      <CityName>Towson</CityName>
+      <ZipCode>212520001</ZipCode>
+      <PhoneNumber>4107042236</PhoneNumber>
+      <StreetAddress>8000 York Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7927</Code>
+      <Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

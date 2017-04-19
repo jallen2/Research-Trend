@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Exploratory Studies of New Automata Models and Algorithms for TCAM-based Regular Expression Matching</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>50000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Regular expression matching is the core operation in a wide range of networking and security services (such as malware filtering) on most networking middleboxes and security devices. As each packet is processed by such a device, the packet payload is examined to determine if it matches any of the specified regular expressions, each of which might correspond to a specific security threat. In most regular expression matching solutions, the regular expressions are converted into a finite state automata model which is then used to perform the search. Because each packet must be searched, high speed and low memory regular expression matching solutions are required. Unfortunately, the standard automata models, deterministic finite state automata (DFA) and nondeterministic finite state automata (NFA), are insufficient because neither can achieve both low memory and high speed. This project explores the feasibility of new high speed low memory regular expression matching solutions based on ternary content addressable memory (TCAM). If successful, the result will be a fundamentally new regular expression matching solution that will help make the Internet both faster and more secure.&lt;br/&gt;&lt;br/&gt;This project will develop new regular expression matching solutions by developing new finite state automata models such as the overlay deterministic finite state automata (ODFA) that account for memory inefficiencies in DFA. Along with developing new automata models, the project will develop new scalable and automated algorithms for efficiently constructing the automata from the input regular expressions as well as efficient algorithms for encoding these automata in TCAM. A key design constraint for the automata models and algorithms will be leveraging the prioritized parallel search and ternary compression capabilities of TCAM to reduce automata size and decrease the time required for each automata lookup.</AbstractNarration>
+    <MinAmdLetterDate>08/15/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/15/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1347953</AwardID>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Torng</LastName>
+      <EmailAddress>torng@cse.msu.edu</EmailAddress>
+      <StartDate>08/15/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alex</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>alexliu@cse.msu.edu</EmailAddress>
+      <StartDate>08/15/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

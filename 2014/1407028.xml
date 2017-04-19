@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A reliable and scalable approach to causal inference for large-scale multivariate data</AwardTitle>
+    <AwardEffectiveDate>08/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>119999</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With masses of large-scale data being generated, a key challenge facing many scientists is to infer relationships amongst variables of interest. In particular, inferring causal or functional relationships amongst genes, proteins, and other biological elements is of fundamental interest to scientists. This project will develop methods for inferring causal or functional relations between genetic, proteomic, and transcriptomic features both for the ENCODE human genome project and data for mice with different susceptibility to obesity and diabetes. For both types of data, this project will develop frameworks that comprise: (1) domain knowledge that informs the choice of model and algorithm; (2) fast, parallelizeable algorithms with provable run-time guarantees; and (3) statistical consistency guarantees for the algorithms developed under assumptions that are likely to be satisfied in practice.&lt;br/&gt;&lt;br/&gt;Directed graphical models or Bayesian networks provide a useful framework for representing causal or functional relationships. A number of algorithms have been developed for inferring directed or Bayesian networks from data. However prior approaches are either unreliable as they require assumptions that are rarely satisfied in practice, or do not scale to larger datasets. The proposed project will address this issue by developing algorithms for inferring directed networks with both statistical consistency guarantees and run-time guarantees. The new algorithms will involve exploiting connections between techniques in numerical linear algebra for developing fast solvers of linear systems and concepts in graph theory. Algorithms will be coded in R and will exploit parallel processing. Evaluation will involve both small-scale and large-scale synthetic graphical models with known network structure, real datasets involving yeast data where some of the directions are known, and new biochemistry data in which most of the directions are unknown. Theoretical guarantees on run-time and statistical consistency will be provided using a combination of tools from graph theory, numerical linear algebra, and concentration of measure the PI has used and developed in prior work.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/03/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1407028</AwardID>
+    <Investigator>
+      <FirstName>Garvesh</FirstName>
+      <LastName>Raskutti</LastName>
+      <EmailAddress>raskutti@cs.wisc.edu</EmailAddress>
+      <StartDate>08/07/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

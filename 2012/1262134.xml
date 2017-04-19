@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: ABI Innovation: Genome-Wide Inference of mRNA Isoforms and Abundance Estimation from Biased RNA-Seq Reads</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>200158</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Peter H. McCartney</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The University of California, Riverside and University of California, Los Angeles are awarded collaborative grants to identify mRNA isoforms on a genome-wide basis. Due to alternative splicing events in eukaryotic cells, the identification of mRNA isoforms (or transcripts) is a difficult problem in molecular biology. Traditional experimental methods for this purpose are time-consuming and cost ineffective. The emerging RNA-Seq technology provides a possible effective way to address this problem. This project aims to develop efficient and accurate methods for inferring isoforms and estimating their abundance levels from RNA-Seq data where the reads may be sampled non-uniformly due to the existence of various biases including positional, sequencing and mappability biases. In particular, a novel statistical framework based on quasi-multinomial distributions will be introduced and a companion expectation-maximization (EM) algorithm developed for estimating isoform abundance levels that can handle all above biases in RNA-Seq data. The algorithms will be implemented efficiently in C++, tested extensively on both simulated and real RNA-Seq data in human, mouse and drosophila, and made available to the public for free. The performance of the algorithms will be evaluated extensively using both simulated and real RNA-Seq data. In the latter case, perturbations to some important splicing factors will be introduced into selected cell lines to induce widespread alteration of splicing events. RNA-Seq data of these cells, combined with quantitative RT-PCR validation, will provide an enriched dataset to assess the performance of the algorithms in predicting both isoform abundance and relative variation. In addition, the validation results may provide insight on the regulatory functions of the splicing factors and serve as a testbed for further improvement of the algorithms.&lt;br/&gt;&lt;br/&gt;The broader impact of this project is twofold. First, RNA-Seq data analysis is a timely topic in bioinformatics due to the recent rapid advance in next generation sequencing (NGS) technologies and its potential impact in life sciences and medicine. Despite the success of many RNA-Seq applications, several challenges remain in the analysis of RNA-Seq data, one of which comes from the understanding and handling of biases in RNA-Seq reads. The approaches proposed in this project for treating RNA-Seq biases combine unique techniques from statistics, machine learning and combinatorial algorithms. Moreover, the experimental validation results may shed light on the regulatory functions of some important splicing factors. Second, the project will provide an excellent opportunity for the training of two computer science PhD students, a postdoc and two biology undergraduate students in the interdisciplinary field of computational biology and bioinformatics. Since many of the involved students are female, the research will also help improve the representation of women in science and engineering.</AbstractNarration>
+    <MinAmdLetterDate>08/31/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/31/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1262134</AwardID>
+    <Investigator>
+      <FirstName>Xinshu Grace</FirstName>
+      <LastName>Xiao</LastName>
+      <EmailAddress>gxxiao@ucla.edu</EmailAddress>
+      <StartDate>08/31/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1165</Code>
+      <Text>ADVANCES IN BIO INFORMATICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A parallel algorithmic framework for flexible time discretization adaptive Cartesian grids</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>194987</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Accurately predicting the weather, understanding global climate change, designing novel materials, developing means of exploiting energy resources, and modeling the effects of natural hazards increasingly rely on our ability to efficiently solve mathematical equations on large scale computing platforms. To exploit the emerging computing power now available on multi-core desktop machines as well as at local and national supercomputing centers, numerical algorithms originally designed to run on a single computing processor (e.g. a CPU) must often be redesigned to operate efficiently (or "scale") in a supercomputing environment with thousands of processors. This project focuses on redesigning a particular class of numerical methods that dynamically allocate computing resources to spatial regions of a computational domain where a simulation is most demanding. For example, such methods would place many more grid points (e.g. pixels) at a burning flame front, but leave the empty space in an industrial burner only coarsely resolved. Or, to accurately track a thin filament of volcanic ash, an adaptive method will update high resolution regions of the simulation domain to follow the ash plume as it meanders through the atmosphere, but will not waste computational resources in areas of the globe where no ash has arrived. Many such adaptive methods now show modest scalability in a multi-processor environment, but we propose a new software paradigm which will allow these "adaptive refinement mesh" methods to scale efficiently to ever larger numbers of computing processors as well as enable domain scientists to more easily incorporate complex numerical algorithms into a high performance software frameworks. Successful achievement of project goals will enable researchers to take advantage of the national investment in supercomputing centers and to make progress towards providing solutions to grand challenge problems. As a particular demonstration of our adaptive mesh paradigm, we will produce high resolution simulations of volcanic ash transport in the atmosphere. Such simulations are critical for predicting aviation hazards associated with volcanic eruptions.&lt;br/&gt;&lt;br/&gt;Single step, single stage multi-rate schemes are routinely used for solving partial differential equations on adaptively refined meshes. However, such methods are usually limited to second order accuracy or may suffer from operator splitting errors. Higher order temporal discretizations involving multiple stages or complex coupling strategies are considerably more difficult to incorporate into existing adaptive mesh software frameworks. The PI proposes a highly scalable algorithmic framework that simplifies the task of implementing sophisticated time stepping strategies into adaptive Cartesian mesh methods. The PI anticipates providing functionality that allows the user to describe their temporal strategy in a natural, method-of-lines setting. This will require designing an efficient, scalable data pipeline that provides a vectorized view of spatial data distributed across adaptively refined meshes and processors. Emphasis will be focused on explicit multi-stage Runge-Kutta methods for hyperbolic and parabolic conservation laws. Targeted applications of this work include the application of the theory of multi-rate methods for ODEs to the method-of-lines setting, the implementation of multi-rate, explicit Runge-Kutta-Chebyshev methods for reaction diffusion equations in an adaptive framework, and a demonstration of the effectiveness of the proposed framework on modeling dispersion of airborne volcanic ash in the atmosphere. The work will be done using the ForestClaw software platform, developed by the PI and her collaborator C. Burstedde (Univ. of Bonn, Germany).</AbstractNarration>
+    <MinAmdLetterDate>07/03/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/03/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1419108</AwardID>
+    <Investigator>
+      <FirstName>Donna</FirstName>
+      <LastName>Calhoun</LastName>
+      <EmailAddress>donnacalhoun@boisestate.edu</EmailAddress>
+      <StartDate>07/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Boise State University</Name>
+      <CityName>Boise</CityName>
+      <ZipCode>837250001</ZipCode>
+      <PhoneNumber>2084261574</PhoneNumber>
+      <StreetAddress>1910 University Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Idaho</StateName>
+      <StateCode>ID</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

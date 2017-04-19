@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Monte Carlo methods for fully non-linear PDEs and application to quantitative finance</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>119441</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Michael H. Steuerwalt</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Monte Carlo methods have brought a new era to quantitative finance, resulting in accurate and implementable numerical methods for pricing risks in complicated models. In several models and for certain types of risks, the solution of a partial differential equation (PDE for short) provides the price of the risk. The complexity of the pricing PDE increases with the dimension of the problem and with the complication of the non-linear components of the model. One of the major features of Monte Carlo methods is to be less sensitive to the dimension of the problem than other evaluation methods, as the dimension grows with the number of uncorrelated risk factors. For a significant class of PDEs, i.e. for fully non-linear parabolic equations, designing an appropriate Monte Carlo method is challenging. Recently, new work by the PI and his colleagues opened the door to progress. This award will exploit these advances in theoretical and practical aspects of Monte Carlo schemes for fully non-linear parabolic PDEs and will also incorporate existing ideas in the simpler linear and semi-linear cases. The project will relax the assumptions that had to made previously and will result in schemes for more general situations, such as fully non-linear parabolic equations, nonlinear terms that are neither concave and nor convex, or non-Lipschitzian terms. The convergence of such schemes will be analyzed and asymptotic results for the rate of convergence will be derived. In addition, more problematic PDE's, i.e. degenerate PDEs will be considered. The award will also support the study of so called non-monotone Monte Carlo schemes. Such schemes are observed to converge faster in practice than monotone schemes, but the rigorous mathematical verification of this improved convergence still presents difficulties at the theoretical level, which in turn impedes further broad progress. The theoretical discoveries will be verified by implementing them in practical numerical schemes. This implementation will involve undergraduate students in the context of a summer REU program. Students will be trained in a class of state-of-the-art numerical techniques that have wide practical applications.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The award will support the development of computational methods that are useful in quantitative finance. Traditional methods for this task are known to be quite accurate, but are limited to situations of low complexity. So-called Monte Carlo methods, which employ simulated random experiments, are known to avoid this bottleneck (at some well-known loss of accuracy), but so far have been limited to cases with special (linear or nearly linear) structure. This project will extend computational Monte Carlo schemes to situations with more general non-linear structure. The results of this project will help mathematicians and financial engineers to test new models by comparing their outcome with the patterns in the market and thus help to extend our knowledge about financial markets. Specifically, the project will provide efficient methods for performing computations in the models. At the immediate application level, the project will contribute to progress in the practical aspects of risk pricing, i.e. to develop faster and more reliable evaluations of financial derivatives and of risk related products. Moreover, there are potential applications also in other areas of engineering, for e.g. noise reduction in image processing. The breadth of applications of this research project is also expected to attract students from mathematics and other disciplines. The award will support undergraduate students through summer research experiences and train them in an exciting and accessible area, and the results obtained from this research will be integrated into classes. The award will also be used to disseminate the results within the mathematical research community and beyond.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1209519</AwardID>
+    <Investigator>
+      <FirstName>Arash</FirstName>
+      <LastName>Fahim</LastName>
+      <EmailAddress>fahim@math.fsu.edu</EmailAddress>
+      <StartDate>07/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

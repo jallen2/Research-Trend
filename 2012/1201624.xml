@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Resource Allocation in Clouds: A Stochastic Modeling and Control Perspective</AwardTitle>
+    <AwardEffectiveDate>07/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2012</AwardExpirationDate>
+    <AwardAmount>224928</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Cloud computing services (such as Amazon EC2 system, Google AppEngine, and Microsoft Azure) are becoming ubiquitous and are starting to serve as the primary source of computing power for both enterprises and personal computing applications. A cloud computing platform (or simply, a cloud) can provide a variety of resources, including infrastructure, software, and services, to users in an on-demand fashion. Compared to traditional own-and-use approaches, cloud computing services eliminate the costs of purchasing and maintaining the infrastructures for cloud users, and allow the users to dynamically scale up and down computing resources in real time based on their needs.&lt;br/&gt;&lt;br/&gt;A cloud consists of a number of machines (computers), each with a certain amount of resources (CPU, RAM, hard disk space, etc.). Each machine can be subdivided into virtual machines, where each virtual machine (VM) behaves like a small machine with a certain amount of dedicated resources. When a user submits a job to the cloud, he or she requests a certain amount of resources from the cloud and the cloud responds by creating a VM with the required resources in a machine. The resource allocation problem is to figure out how to allocate jobs to machines. Further, when several jobs are waiting for service, the cloud must also decide which job to select for service next. The goal of this project is to design resource allocation algorithms for efficient operation of the cloud, and to design pricing mechanisms to maximize the cloud service provider revenue while providing good quality of service to competing users.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: The prior art in this area is to view the problem as a sequence of static problems as follows: consider the jobs that are currently waiting for service and allocate them to machines by solving a combinatorial optimization problem. Static approaches which ignore the dynamic nature of the system lead to instability. Our viewpoint here is fundamentally different: we consider the resource allocation problem as a dynamic stochastic network control problem. We will use queue length information about waiting jobs as the feedback signal to take resource allocation decisions such as routing jobs to machines and scheduling jobs on machines. To this end, we will answer a number of fundamental questions: what is the stability region of a cloud? ; is there a tradeoff between computational complexity and stability? ; how can we characterize the performance of resource allocation algorithms beyond stability? ; and how should a cloud provider price its resources for maximizing social welfare or profit? From a theoretical perspective, the novelty in the proposed approach lies in the design of control and performance analysis algorithms while taking computational complexity considerations in account.&lt;br/&gt;Broader Impact: The PIs teach graduate-level courses spanning networks, games, control theory, and optimization. We were among the first to incorporate network applications in control courses and control applications in networking classes. The proposed project provides new opportunities for such cross-fertilization by opening up a new application area, namely cloud computing, for control-theoretic methodologies. The PIs have a strong record of advising undergraduate students and graduate students from underrepresented groups. We will continue our recruitment efforts from such student groups for this project also. We will also use specific opportunities for this purpose as applicable, such as the NSF Alliance Graduate Education and the Professoriate (AGEP) program, which is a coordinated effort by Iowa universities to recruit minorities, and the Graduate Minority Assistantship Program (GMAP), which provides funds for recruiting minority students on research assistantships.</AbstractNarration>
+    <MinAmdLetterDate>06/26/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/26/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1201624</AwardID>
+    <Investigator>
+      <FirstName>Lei</FirstName>
+      <LastName>Ying</LastName>
+      <EmailAddress>lying6@asu.edu</EmailAddress>
+      <StartDate>06/26/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

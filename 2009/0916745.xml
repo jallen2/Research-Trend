@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF:Small: Locality-Driven Architectures for Scalable Multicore Systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>399301</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The successive innovations in semiconductor manufacturing over the last 35 years of Moore's law have turned what used to be a room-sized computer system into a single chip composed of billions of transistors. These levels of integration have forced a change toward parallelism in computer system design, including both single-chip multiprocessors and systems-on-a-chip. Today, these chips have a few tens of individual processors but future scaling will make possible hundreds or thousands of them on a chip. Two important challenges have emerged which threaten to hinder performance scaling in multicore systems. First, while technology scaling will continue to enable increased transistor counts for the foreseeable future, power and thermal limitations will prevent all but a small fraction of them to be operating simultaneously at full speed. Second, the speed of the communication paths from the multicore chip to its external memory and to other processors is increasing at a slow rate. Because these communication paths must be shared by more and more on-chip processing cores, the paths must be used as efficiently as possible to prevent them from becoming a bottleneck in the system.&lt;br/&gt;&lt;br/&gt;This project seeks to develop new computer hardware and software mechanisms that exploit data locality in high performance systems, including repeated use of a data item as well as use of multiple data items that lie near one another in memory. In particular, the project will develop hardware mechanisms for bulk data transfers that support renaming, packing, and integration into the virtual memory system. The PI will also develop hardware mechanisms in the on-chip memory system that will allow it to adapt to different programming primitives as well as to different coherence needs among the processing cores. The mechanisms will be evaluated in terms of effectiveness and programmability using a range of applications.&lt;br/&gt;&lt;br/&gt;This research aims to develop technologies critical to emerging parallel multicore chips, without which such chips will not be able to meet performance and power goals. Enabling enhanced performance in a power-efficient manner is critical to all deployments of future computing platforms, including those for science, commerce, and national security. The broader impact of this research will include training graduate and undergraduate students as researchers, while also working to increase participation of underrepresented groups in computing. The primary outreach activity will include participation in a summer camp to attract high-school girls to computer science.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916745</AwardID>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Keckler</LastName>
+      <EmailAddress>skeckler@cs.utexas.edu</EmailAddress>
+      <StartDate>07/30/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: The Traveling Salesman Problem and Lightweight Approximation Algorithms</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2016</AwardExpirationDate>
+    <AwardAmount>349999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The traveling salesman problem (TSP) is easily the most famous problem in discrete optimization. Given a set of n cities and the costs c(i,j) of traveling from city i to city j for all i and j, the goal of the problem is to find the least expensive tour that visits each city exactly once and returns to its starting point. A linear programming relaxation of the problem called the subtour LP is known to give extremely good lower bounds on the length of an optimal tour in practice. Nevertheless, the subtour LP bound is poorly understood from a theoretical point of view. For 30 years it has been known that it is always at least 2/3 times the length of an optimal tour, and it is known that there are instances such that it is at most 3/4 times the length of an optimal tour, but no progress has been made in tightening these bounds. It has been conjectured that the subtour LP is always at least 3/4 times the length of the optimal tour. The goal of this research is to resolve this conjecture. Because this goal is very ambitious, a number of intermediate goals have been proposed.&lt;br/&gt;&lt;br/&gt;Theoretical computer scientists have intensively studied approximation algorithms for NP-hard problems; these are polynomial-time algorithms that always provide solutions that are provably close to optimal (in terms of some performance guarantee). The main issue driving theoretical work has been improvements in performance guarantee rather than whether the algorithms are implementable or practical. While understanding the limits of approximability is and should be one of the issues that theoretical work advances, one can also explore whether those limits can be reached with algorithms that are less computationally intensive than the ones currently in the literature. We call this the creation of lightweight versions of approximation algorithms. This exploration advances the potential impact of approximation algorithm on practice without losing the &lt;br/&gt;theoretical rigor of the field.&lt;br/&gt;&lt;br/&gt;The intellectual merit of the proposal lies in the possibility of making substantial progress in resolving outstanding problems related to the subtour LP for the traveling salesman problem, and also in making practical some of the outstanding theoretical work in approximation algorithms. The goal of this research lies in moving theoretical and practical studies of optimization problems closer to each other. In the case of the traveling salesman problem, we have a bound that is very good in practice, but we do not understand its theoretical properties. In the case of approximation algorithms, we have some very good theoretical algorithms, but they are often not practical. We would like to understand the theoretical properties of the subtour LP bound for the traveling salesman problem, and to make practical some of the good theoretical work in approximation algorithms.</AbstractNarration>
+    <MinAmdLetterDate>06/20/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/20/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115256</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Williamson</LastName>
+      <EmailAddress>dpw@cs.cornell.edu</EmailAddress>
+      <StartDate>06/20/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cornell University</Name>
+      <CityName>Ithaca</CityName>
+      <ZipCode>148502820</ZipCode>
+      <PhoneNumber>6072555014</PhoneNumber>
+      <StreetAddress>373 Pine Tree Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

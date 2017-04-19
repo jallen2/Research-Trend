@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Using Knowledge Resources to Improve Information Retrieval</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>498554</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Current search engines understand how humans use language, but they do not understand the language itself. They match the words in a query to the words in a document and words that are linked somehow to the document (e.g., "Click here to get the employee handbook") to find documents that might satisfy the query. Then they use statistical methods and the behavior of other people who searched for similar information to rank these potential matches. Although current technology works well most of the time, it sometimes fails badly because the search engine does not really understand the meanings of the documents that it ranks. Recently, companies, research organizations, and volunteer communities have begun to create large knowledge graphs that describe important, essential, or well-known information. Knowledge graphs are similar in spirit to Wikipedia, but they are designed to be used by computers instead of humans. For example, a knowledge graph might contain the entities "Cleveland Cavaliers" and "LeBron James", and these two entities might be connected by an "employs" relationship. Information can be entered by people with moderate expertise, and by machine learning software, thus it is practical to build large knowledge graphs that cover a wide range of human knowledge. Freebase, which is now owned by Google, is a well-known knowledge graph that contains 2.5 billion "facts" about 44 million "topics" and is growing rapidly. Currently knowledge graphs are used for just a few well-defined tasks, for example, to produce the info boxes that Google displays next to some search results. New methods of using knowledge graphs for more varied tasks are of significant scientific and commercial interest. This project develops new methods of using knowledge graphs to improve the accuracy of search engines, especially for vague, ambiguous, or poorly-specified queries. The search engine uses the knowledge graph to identify the probable meanings of query terms, and then uses this knowledge to improve its ability to identify documents that match those meanings. The project is of practical significance for its potential to improve search engine accuracy on queries that are currently difficult. It is of scientific significance for its potential to inject greater understanding of meaning and relationships into search engines. The project is of educational significance because it provides opportunities for graduate student to do class projects and independent studies that lead to participation in the National Institute of Standards and Technology's (NIST) annual TREC conference, which is a semi-competitive annual event that attracts some of the best research groups from around the world.&lt;br/&gt;&lt;br/&gt;Knowledge graphs are less structured than typical relational databases and semantic web resources but more structured than the text stored in full-text search engines. The weak semantics used in these semi-structured information resources is sufficient to support interesting applications, but is also able to accommodate contradictions, inconsistencies, and mistakes, which makes them easier to scale to large amounts of information. The typical use of a semi-structured resource treats it like a structured resource that has somewhat restricted functionality. The application must understand the semantics associated with each type of entity, attribute, and relation that it uses. Although this approach is effective, the need to understand the semantics of entity types and relation types limits the application's ability to automatically incorporate new types of information as the resource evolves and grows. This project develops new methods of using semi-structured information resources that make fewer assumptions about the structure and semantics of a semi-structured knowledge resource, thus enabling them to make full use of the resource as it grows and evolves. The resource is treated as a network of entities and relations that are each described by a "bag of words" description. Entities and relations are retrieved using extensions of full-text retrieval methods. Evidence such as estimates of authority or related language models can be associated with entity and relation types, and propagated along specific network links to improve entity and relation models. This project applies this general architecture to make several improvements in the accuracy of a full-text search engine, for example, providing an alternative method of answering entity-attribute queries and a more stable and effective method of query expansion. Research results are disseminated through scientific publications, open-source software, and the project's web site (http://www.cs.cmu.edu/~callan/Projects/IIS-1422676/).</AbstractNarration>
+    <MinAmdLetterDate>08/08/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422676</AwardID>
+    <Investigator>
+      <FirstName>Jamie</FirstName>
+      <LastName>Callan</LastName>
+      <EmailAddress>callan@cs.cmu.edu</EmailAddress>
+      <StartDate>08/08/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Dynamic Blind Source Separation</AwardTitle>
+    <AwardEffectiveDate>09/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>291839</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Blind source separation (BSS) refers to the task of identifying sources from their linear mixtures.&lt;br/&gt;Traditional approaches to BSS have been limited to static mixtures. Furthermore, such approaches typically rely upon hard-to-exploit and non-robust assumptions on source-statistics. In contrast, the proposed research addresses the general problem of separating dynamically-mixed signals by simultaneously identifying both the dynamics as well as the input sources. The basic tool in the formulation of relevant ill-posed system identification problems is the notion of sparsity which is used as a regularization term to limit the choices of input/process dynamics in a natural way. The proposed research stands to benefit from a rather powerful theory on computationally-tractable sparsity-inducing optimization, based on &amp;#8467;1-functionals, which has taken shape in recent years.&lt;br/&gt;&lt;br/&gt;The proposed plan begins with an analysis of a general dynamic-mixtures-model, exploring&lt;br/&gt;sparsity as a regularizing term. Motivation for such models stems from system identification, distributed sensing, as well as problems in spectral analysis, subspace identification, and antenna arrays. The proposal continues on with an outline of specialized formalisms intent on capturing, in a similar framework, problems of delay/coherence analysis as well as of system identification in a non-stationary/nonlinear-mixing setting. To this end, it is proposed that the notion of joint sparsity?a form of dependent-component-analysis, is a suitable tool for identifying commonalities between sources, harmonics, etc., while seeking tell-tale signs of the presence of time-delays and of nonlinear mixing. The proposal covers in some detail the case of autoregressive dynamics which leads to a convex optimization problem. Tradeoffs between noise, model order, and stability are raised and integrated into the proposed research plans. Connections between BSS and image segmentation techniques?a form of geometric BSS, are highlighted in a way which suggests another conceptual angle for the proposed research. Finally, the issue of dictionary design is being discussed, i.e., how to obtain a suitable ?over-complete? basis for source signals and possibly system dynamics as well, based on prior information and on available data, in a way that will ensure a degree of robustness and computability while promoting sparsity.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: Practical as well as theoretical questions will be investigated with regard to the rather ubiquitous identification problem for system dynamics and signal transmission paths, in the presence of unknown disturbances and inputs. The formalism is cast in the context of blind source separation, and the basic new tool is the concept of sparsity with respect to suitably chosen collection of signals as a selection rule for modeling. The approach stands to benefit from the theory of sparse representations/compressive sensing which has come to fruition in recent years. Problems of delay estimation, coherence analysis, non-linear and non-stationary modeling are presented with a new angle?seeking relevant information in a jointly-sparse representation of measured time-series. A potentially transformative broad spectrum of tools may result from the new ways of analysis and system identification proposed herein.&lt;br/&gt;&lt;br/&gt;Broader Impact: The research may impact very different fields such as Physics?in calibrating and filtering measurements, Image analysis?in MRI/medical imaging, System identification, Acoustics and the control of jitter, Communications?blind deconvolution in noisy and resonant channels, Radar processing, and others.</AbstractNarration>
+    <MinAmdLetterDate>09/03/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/03/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1027696</AwardID>
+    <Investigator>
+      <FirstName>Tryphon</FirstName>
+      <LastName>Georgiou</LastName>
+      <EmailAddress>tryphon@uci.edu</EmailAddress>
+      <StartDate>09/03/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

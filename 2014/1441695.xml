@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SaTC: STARSS: ICM: Invariant Carrying Machine for Hardware Assurance</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>333333</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Design of complex semiconductor circuits and systems requires many steps, involves hundreds of engineers, and is typically distributed across multiple locations and organizations worldwide. The conventional processes and tools for design of semiconductors can ensure the correctness, that is, the resulting product does what it is supposed to do. However, these processes do not provide confidence about whether the chip is altered such that it provides unauthorized access or control. Such undesirable behavior may due to a weakness in the design that results in an unintentional side channel or due to maliciously inserted Trojan hardware. This project develops techniques for improving the reliability and trustworthiness of hardware systems.&lt;br/&gt;&lt;br/&gt;The Invariant-Carrying Machine (ICM) approach developed in this project is based on light-weight formal methods, and requires only minor additions over the conventional design process. In this approach, each design carries with it an inductive invariant that is used to guarantee the security. When receiving a design from the third party or after a complex design process, the user can check whether the circuit inductively satisfies the invariant and whether the invariant satisfies the security rules. Any violation will raise a red flag for deploying the design. The project develops principles and tools for checking inductive invariants, investigates suitable security properties, and validates the approach by testing on hardware Trojan benchmarks.</AbstractNarration>
+    <MinAmdLetterDate>09/08/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1441695</AwardID>
+    <Investigator>
+      <FirstName>Hai</FirstName>
+      <LastName>Zhou</LastName>
+      <EmailAddress>haizhou@northwestern.edu</EmailAddress>
+      <StartDate>09/08/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northwestern University</Name>
+      <CityName>Evanston</CityName>
+      <ZipCode>602013149</ZipCode>
+      <PhoneNumber>8474913003</PhoneNumber>
+      <StreetAddress>1801 Maple Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8225</Code>
+      <Text>SaTC Special Projects</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

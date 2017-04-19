@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Technologies for Elastic OS Services in fos</AwardTitle>
+    <AwardEffectiveDate>10/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2013</AwardExpirationDate>
+    <AwardAmount>194177</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As the number of cores per chip scales to 1000s by the middle of the next decade, a fundamentally different set of constraints governs software design, including the operating system. However, recent research has demonstrated problems with scaling monolithic OS designs. In monolithic OSs, OS code executes in the kernel on the same core, which makes an OS service request. That has led to significant performance degradation and exhibits severe scalability problems. Efforts to improve scalability of these services have been difficult and marginally successful. The primary question facing OS research over the next decade is: How can the operating system services be designed such that they scale to hundreds or thousands of cores? To answer this question, the research community needs to rethink operating system design from the ground up in light of current and future multicore architectures.&lt;br/&gt;&lt;br/&gt;One solution is to provide a factored operating system that scales over the increasing number of cores. A factored operating system (called "fos") factors out the system services of a monolithic OS into a set of individual services. fos further factors and parallelizes each system service into an Internet-style collection, or fleet, of cooperating servers that are distributed across the multicore chip and bound to specific cores. To maintain good performance and efficient utilization in the face of varying system resources and application demand, the fleets need to employ elasticity. The PIs propose an elastic version of fos (dubbed "e-fos") which provides technologies to allow system services to be scaled up or down at run-time. The primary goal of e-fos is to scale to a large numbers of cores while meeting the varying demand in resources and services, i.e., discover and evaluate how a factored operating system can leverage elasticity to maintain performance and efficiency. e-fos demonstrates elastic fleets and mechanisms to manage the elasticity for future multicores. These techniques replace the outdated "static OS components", which currently hinder contemporary monolithic OSs from scaling to hundreds or thousands of cores. For further information, see the project webpage: http://groups.csail.mit.edu/carbon/fos.</AbstractNarration>
+    <MinAmdLetterDate>09/22/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/22/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1049457</AwardID>
+    <Investigator>
+      <FirstName>Anant</FirstName>
+      <LastName>Agarwal</LastName>
+      <EmailAddress>agarwal@cag.csail.mit.edu</EmailAddress>
+      <StartDate>09/22/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7793</Code>
+      <Text>DATA-INTENSIVE COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7793</Code>
+      <Text>DATA-INTENSIVE COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

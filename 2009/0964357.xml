@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>HCC: Medium: Collaborative Research: Data-Parallel Hash Tables: Theory, Practice and Applications</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>532084</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Parallel data structures and algorithms are becoming an increasingly important research area, due to the rapid advances in GPUs and other massively parallel commodity multi-core hardware along with the software needed to program these devices. In this collaborative effort involving the University of California at Davis and Harvard University, the PIs will focus on the design and implementation of parallel hash tables, one of the most fundamental of data structures, on the new platforms. Real-time parallel hashing would enable a variety of graphics applications on dynamically changing data, including spatial hashing, surface and image matching, and hashed octrees which in turn enable a host of other applications including Boolean surface operations, point-cloud nearest neighbors, ray-tracing acceleration and photon mapping. In prior work, the PIs built a baseline implementation that shows effective parallel hashing can be done on the GPU; they can construct the table as quickly as the fastest available radix sort, and can execute parallel random access on the elements much more quickly than binary search. In the current research, the PIs plan to improve upon their baseline implementation significantly, while also focusing on related structures such as multi-maps and Bloom filters. New designs and construction algorithms will be developed, implemented, and analyzed with respect to performance, and then applied to a variety of computer graphics applications. The PIs expect this work to lead to interesting theoretical results; modern hash table constructions have never been considered in the parallel context, so finding the right model for analysis is one goal of the research.&lt;br/&gt;&lt;br/&gt;Broader Impacts: This project will contribute to the computing infrastructure, not only for computer graphics but also for general-purpose computation. The PIs will distribute their implementations freely, in part by extending and building upon their existing (and popular) library of general-purpose data structures (the CUDA Data Parallel Primitives). The PIs note that making the most of the emerging parallel GPU resources requires training the next generation of programmers to think in parallel; therefore, they plan to exploit this project as an opportunity to revive a long-untaught undergraduate parallel programming course, in addition to studying parallel algorithms with their graduate students.</AbstractNarration>
+    <MinAmdLetterDate>06/24/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/24/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0964357</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Owens</LastName>
+      <EmailAddress>jowens@ece.ucdavis.edu</EmailAddress>
+      <StartDate>06/24/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Annamaria</FirstName>
+      <LastName>Amenta</LastName>
+      <EmailAddress>amenta@cs.ucdavis.edu</EmailAddress>
+      <StartDate>06/24/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

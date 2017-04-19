@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Bayesian Inference via Markov Chains, Diffusion Processes, and Distributed Computing</AwardTitle>
+    <AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2017</AwardExpirationDate>
+    <AwardAmount>149869</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The investigator studies long-time behavior for diffusion processes and exact sampling algorithms under various scenarios, to address the following main challenges that arise in a high-dimensional, non-linear Markov chain Monte Carlo (MCMC) setting: (1) data/model-grid discrepancy, (2) high computing cost for likelihood evaluation, (3) distance of the (dependent) samples from the desired target distribution, (4) tuning the MCMC, and (5) high computing cost associated with the serial nature of a MCMC procedure. The target distribution explored by the Markov chain is the posterior distribution resulting from a Bayesian approach to an inverse problem, where the forward model is a differential equation. Such situations often arise in earth sciences and biological applications. For challenge (1), the investigator uses diffusion processes and Feynman-Kac representations for solutions of partial differential equations to eliminate the need for "matching" the data to the physical model grid as it is often done in spatial settings. For challenges (2) and (3), the investigator uses suitably generated Bernoulli random variates to overcome the need for likelihood evaluation. In addition, the investigator develops drift and minorisation conditions for the corresponding Markov chain transition kernel. These conditions are used in a perfect sampling algorithm to obtain independent and identically distributed draws from the posterior distribution. The investigator addresses challenge (4) by carefully constructing diffusion processes converging in total variation distance to the posterior distribution. He uses distributed computing via graphical processors (GPU) to overcome the computational challenges associated with high-dimensional MCMC algorithms.&lt;br/&gt;&lt;br/&gt;In modern science, researchers build probability models under complex settings to assess and understand the variability of a physical system under study. For example, in weather prediction, scientists compute probabilities of various events of interest in the near future. Such models are explored and summarized using computationally intensive methods. It is extremely important that the outputs of these algorithms have the desired confidence, in order to be useful for the decision making process. The investigator develops efficient computational methods for exploring complex probability models by combining methodological advances with highly efficient parallel computing using graphical processors. The project has an educational aspect in that it involves graduate students under the supervision of the investigator.</AbstractNarration>
+    <MinAmdLetterDate>05/21/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/21/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1209142</AwardID>
+    <Investigator>
+      <FirstName>Radu</FirstName>
+      <LastName>Herbei</LastName>
+      <EmailAddress>herbei@stat.osu.edu</EmailAddress>
+      <StartDate>05/21/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Quantization for Acquisition and Computation Networks</AwardTitle>
+    <AwardEffectiveDate>01/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>156840</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Brown</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Networks of sensors are increasingly important in a variety of applications including national security, environmental monitoring, and health care. These systems should serve their purposes with minimal communication between sensors and minimal computation overhead from coding. In particular, these efficiencies can dramatically improve battery life, and in systems such as those implanted in a body, replacing spent batteries is very difficult&lt;br/&gt;&lt;br/&gt;This project will develop original approaches to the signal coding in sensor network systems. Though distributed source coding principles seem to be a natural fit for sensor networks, they are rarely used in these systems. Reasons include high complexity, high delay, and sensitivity to the accuracy of the assumed probabilistic models. Also, there may be no node with the memory and computing power to do Slepian-Wolf decoding. The failure of these methods in practice has left a glaring technological gap. Most sensor networks use simple uniform scalar quantization and compression that does not exploit inter-sensor correlation, or no compression at all. This project will use high-resolution quantization theory to develop a framework for providing and exploiting quantized side information among nearby nodes in a network, with the aim of supporting inference and computation tasks.&lt;br/&gt;&lt;br/&gt;The central innovative idea is to allow limited (low-rate, short-range) communication among encoders to enable adaptation. A second key area of innovation is a focus on information acquisition systems that are designed to make a computation rather than enable reproduction of every measured value. The focus on acquisition and computation -- as opposed to communication -- is consistent with the actual motivation for deploying sensor networks, and it brings robustness to uncertainty in measurement distributions to the forefront.</AbstractNarration>
+    <MinAmdLetterDate>04/07/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/07/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1441917</AwardID>
+    <Investigator>
+      <FirstName>Vivek</FirstName>
+      <LastName>Goyal</LastName>
+      <EmailAddress>vgoyal@mit.edu</EmailAddress>
+      <StartDate>04/07/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7935</Code>
+      <Text>COMM &amp; INFORMATION THEORY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

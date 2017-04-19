@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Graph-Based Codes</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>176419</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tomek Bartoszynski</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>ABSTRACT&lt;br/&gt;&lt;br/&gt;Principal Investigator: Walker, Judy L. &lt;br/&gt;Proposal Number: DMS - 0903517&lt;br/&gt;Institution: University of Nebraska-Lincoln&lt;br/&gt;Title: Graph-Based Codes&lt;br/&gt;&lt;br/&gt;Generally speaking, the goal of coding theory is to enable reliable transmission of data. This proposal considers both channel coding, i.e., reliable transmission of data across a noisy channel, and network coding, i.e., reliable transmission of data through a network. Channel coding is the appropriate model for most traditional applications, such as the transmission of satellite pictures from outer space, the storage (and retrieval) of computer data on a disk drive, and the transmission of a voice (or data) signal for a land line telephone. In each of these situations, information can be thought of as being put into a channel so that the (possibly corrupted) information comes out of the other end of the channel. Network coding, on the other hand, involves more complicated relaying, and possibly combining, of information. This is the correct model for a variety of more modern applications, such as cellular telephone networks (with their system of towers), sensor networks, camera surveillance networks, and peer-to-peer networks. In both (modern) channel coding and network coding, graph theory plays a crucial role.&lt;br/&gt;&lt;br/&gt;This proposal considers two types of channel codes based on graphs: codes defined by Tanner graphs and codes defined by tail-biting trellises. In each case, the codes come equipped with an iterative message-passing decoding algorithm that operates on the associated graph, that is extremely efficient, and that corrects, with high probability, many more error patterns than are guaranteed by the code's minimum Hamming distance. However, in both cases, the relevant algorithm's performance is hindered by the existence of pseudocodewords, which are objects that arise in similar ways as do codewords and which compromise the decoder. Thus to understand the performance of the algorithms, one must understand the pseudocodewords; most of the problems described in this proposal relating to channel coding stem from this observation. In network coding, the network over which we want to send information is modeled by a network, in the graph theory sense of the word. This proposal concerns both lossless networks, where one assumes any information transmitted is received without errors, and lossy networks, where one assumes that errors and/or erasures can occur. The problem in the lossless case is therefore not how to encode the information, but rather, given a network with its sources and sinks and given a desire to simultaneously transmit certain pieces of information from the sources to the sinks, how does one designate what information should be carried across each of the edges of the network? In the lossy case, one must consider this question along with the questions of how to ensure low error rates and how to guarantee robustness of the network.</AbstractNarration>
+    <MinAmdLetterDate>07/26/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/26/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0903517</AwardID>
+    <Investigator>
+      <FirstName>Judy</FirstName>
+      <LastName>Walker</LastName>
+      <EmailAddress>judy.walker@unl.edu</EmailAddress>
+      <StartDate>07/26/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Nebraska-Lincoln</Name>
+      <CityName>Lincoln</CityName>
+      <ZipCode>685031435</ZipCode>
+      <PhoneNumber>4024723171</PhoneNumber>
+      <StreetAddress>151 Prem S. Paul Research Center</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Nebraska</StateName>
+      <StateCode>NE</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1264</Code>
+      <Text>ALGEBRA,NUMBER THEORY,AND COM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

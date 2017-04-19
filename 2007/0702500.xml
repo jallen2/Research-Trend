@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Algorithms Design and Systems Implementation to Improve Buffer Management for I/O Data Accesses</AwardTitle>
+    <AwardEffectiveDate>06/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2010</AwardExpirationDate>
+    <AwardAmount>287000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Although processor cycles, memory size, and disk capacity all become increasingly abundant, there is still a serious deficiency in the system support for handling data-intensive applications, which is the long latency of hard disk accesses, measured by the time to get the first byte of requested data. This latency improvement has significantly lagged behind other system component improvement, including disk peak bandwidth. To address this critical issue, the investigators will develop new and efficient buffer cache management systems that adapt to the dramatic technology changes and the high demand of data-intensive applications with complicated access patterns. Aiming at making the memory buffer as a truly effective agent between the requests from applications and services provided by disks, the investigators will leverage the cache and prefetch mechanisms in the memory buffer to improve effective I/O system performance, perceived by applications, by minimizing the cost (both energy and time) of expensive disk accesses. A unique approach to be adopted in the research is to put the disk layout information directly on the map of buffer management and effectively integrate both temporal and spatial localities. The investigators will design and implement a system infrastructure that analyzes and exploits data layout information on disks. With this critical system support, the investigators will further design and implement dual-side-aware memory buffer management algorithms that adapt to characteristics exhibited at both programs' side and disks' side.</AbstractNarration>
+    <MinAmdLetterDate>05/23/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/20/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702500</AwardID>
+    <Investigator>
+      <FirstName>Song</FirstName>
+      <LastName>Jiang</LastName>
+      <EmailAddress>song.jiang@uta.edu</EmailAddress>
+      <StartDate>05/23/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Wayne State University</Name>
+      <CityName>Detroit</CityName>
+      <ZipCode>482023622</ZipCode>
+      <PhoneNumber>3135772424</PhoneNumber>
+      <StreetAddress>5057 Woodward</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

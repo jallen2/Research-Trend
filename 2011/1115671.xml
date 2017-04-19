@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>New Techniques on Reconstruction and Limiting for Numerical PDE</AwardTitle>
+    <AwardEffectiveDate>10/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>170955</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The development of limiting techniques starts from high resolution capturing schemes for solving nonlinear conservation laws whose weak solutions contain discontinuities. These schemes do not trace discontinuities in a weak solution individually and automatically smear them into transition layers within a few mesh cells. They can achieve high order of accuracy if the solution is smooth and there is a nonlinear limiting mechanism to prevent spurious oscillations in the vicinities of discontinuities. The limiting techniques have since been developed for many other methods and applications, e.g., the Runge-Kutta discontinuous Galerkin methods with limiting, the moment limiter etc. Hierarchical reconstruction decomposes the job of limiting a high degree polynomial defined in a cell into a series of smaller jobs, each of which only involves the non-oscillatory reconstruction of a linear polynomial from cell averages. Therefore it only uses information from adjacent cells and can be naturally formulated on unstructured meshes in multi dimensions. It does not use local characteristic decomposition and thus is less dependent on the underlying equation to be solved. The principle investigator proposes several new improvements related to the hierarchical reconstruction in higher orders. The analytical study of the role of the remainder term in it could provide deeper understanding of the limiting mechanism. In particular, a compact, multi-step method is proposed to reconstruct a piecewise polynomial function of high degree from cell averages and sparsely located polynomial approximations. This property is novel. Its development and theoretical understanding is a new area to be explored.&lt;br/&gt;&lt;br/&gt;More and more complex problems from science, engineering, business and daily life are handled by computers. However, only a finite amount of information can be stored and all numbers are truncated in a computer with a finite number of digits before and after being processed. Therefore a computer simulation is an approximation and is usually "noisy" as in the real world. In particular, non-smooth data tends to induce artifacts in computational solutions, making them less useful or completely useless. Non-smooth data is common in real applications. For example, the air pressure and density have jumps across a shockwave induced by a supersonic aircraft; the human body contains various jumps in density; in nanoscience, fuel cells, composite materials, material defect detection etc, non-smooth data originates from interfaces between different materials, irregular boundaries and cracks; in simulations in environmental science, ocean and atmosphere, non-smooth data comes from heterogeneous underground structures, irregular seafloor, seashore and ground surface, dynamic interfaces separating solid, liquid and gas etc. The project involves the development and analysis of a general method which eliminates as much computational artifacts as possible from the underlying solution without actually knowing it. The proposed limiting techniques are less problem dependent and can be useful in solving gas dynamics equations, magnetohydrodynamics equations and many other equations related to these applications. The new compact, multi-step reconstruction method could significantly reduce the memory cost of the discontinuous Galerkin methods enabling them to solve more complicated applications. It can also be formulated as a compact interpolation method and can be broadly used in computer graphics, image processing and many other scientific and engineering &lt;br/&gt;computations.</AbstractNarration>
+    <MinAmdLetterDate>09/20/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/20/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115671</AwardID>
+    <Investigator>
+      <FirstName>Yingjie</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>yingjie@math.gatech.edu</EmailAddress>
+      <StartDate>09/20/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

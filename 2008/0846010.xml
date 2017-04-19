@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Contingent Static Analysis for Dynamically Composed Systems</AwardTitle>
+    <AwardEffectiveDate>07/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>425000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009&lt;br/&gt;(Public Law 111-5).&lt;br/&gt;&lt;br/&gt;Pervasive societal use of information systems has increased the need&lt;br/&gt;for software to be both reliable and extensible. One technique that&lt;br/&gt;can be used to improve software reliability is the application of&lt;br/&gt;static analyses to discover and validate that properties hold across&lt;br/&gt;all program executions. Unfortunately, additional challenges arise when&lt;br/&gt;applying static analyses to programs that can be dynamically extended,&lt;br/&gt;such as is the case, for example, with Firefox plugins, Microsoft Office&lt;br/&gt;Add-Ins, and Eclipse plugins. This project will develop techniques&lt;br/&gt;for contingent static analysis that will be able to more precisely and&lt;br/&gt;efficiently analyze dynamically extensible software systems.&lt;br/&gt;&lt;br/&gt;Specifically, this project will explore techniques for accommodating&lt;br/&gt;dynamic composition during interprocedural program analysis using a&lt;br/&gt;runtime mechanism to efficiently avoid making overly conservative&lt;br/&gt;approximations. Analysis results will be expressed as contingent&lt;br/&gt;properties of different program regions, where the validity of each&lt;br/&gt;contingent property depends explicitly on the validity of properties&lt;br/&gt;from other program regions. The runtime mechanism will then validate&lt;br/&gt;and invalidate these contingent properties as new code is dynamically&lt;br/&gt;loaded into the execution environment. This approach will be applied&lt;br/&gt;to develop contingent escape and information flow analyses.</AbstractNarration>
+    <MinAmdLetterDate>06/19/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/11/2014</MaxAmdLetterDate>
+    <ARRAAmount>425000</ARRAAmount>
+    <AwardID>0846010</AwardID>
+    <Investigator>
+      <FirstName>Jeffery</FirstName>
+      <LastName>von Ronne</LastName>
+      <EmailAddress>vonronne@cs.utsa.edu</EmailAddress>
+      <StartDate>06/19/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at San Antonio</Name>
+      <CityName>San Antonio</CityName>
+      <ZipCode>782491644</ZipCode>
+      <PhoneNumber>2104584340</PhoneNumber>
+      <StreetAddress>One UTSA Circle</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

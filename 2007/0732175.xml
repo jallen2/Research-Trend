@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>MSPA-MCS: Collaborative Research: Algorithms for Near-Optimal Multistage Decision-Making under Uncertainty: Online Learning from Historical Samples</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>172330</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tie Luo</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Collaborative Research: Algorithms for Near-Optimal Multistage Decision-Making under Uncertainty: Online Learning from Historical Samples&lt;br/&gt;&lt;br/&gt;Abstract&lt;br/&gt;&lt;br/&gt;Recent advances in information technologies enable firms to collect and maintain huge amounts of raw data regarding demand, sales history and other aspects of their operations. However, little is known about using this data effectively and efficiently within their decision-making processes, which can often be modeled as multi-stage stochastic optimization problems. In many application domains, such as supply chain management and revenue management, these give rise to complex problems, where the decision in each stage must be made under uncertainty about the future evolution of an underlying stochastic process. Traditional approaches to these problems assume that the uncertainty is defined through explicitly specified probability distributions that are known a priori; the knowledge of these distributions is crucial to the development of the corresponding optimization algorithms. However, in most practical situations the exact distributions are not known, and only historical data is available. This research project aims to develop a general-purpose sampling-based algorithmic framework for these models that, unlike traditional approaches, uses the raw historical data as the source of samples. First, we plan to develop sampling-based algorithmic approaches to approximately solve complex stochastic dynamic programming formulations, the dominant paradigm used for these problems. Second, we focus on sampling-based algorithms for models that combine optimization and learning simultaneously. A common theme between these two research thrusts, and a central feature of our research project, is the development of explicit quantitative analysis of the performance of our algorithms that provide guarantees on the sample-size needed to assure a specified error bound with respect to optimal solution for the true underlying probability distribution.&lt;br/&gt;&lt;br/&gt;Consider a firm like Amazon that provides millions of different items to customers throughout the US. Clearly, it is important for the company to have the inventory that its customers want, since if an item is out of stock, then the customer is likely to purchase the item from elsewhere. On the other hand, maintaining extra inventory for undesired items has the disadvantage of tying up capital in obtaining them, using significant resources in warehousing this supply, which is further compounded by the risk of perishability and obsolesce. If one had a crystal ball with which one could predict the future, then the company could know how many requests there will be, day by day, for each of the items it sells, and therefore know how much of what should be on hand in each of its warehouses. Instead, one can model the future probabilistically (similar to what a weather forecaster does when saying that there is a 40% chance of showers tomorrow), and then one can cast the problem of making the optimal decisions for these inventory levels as a problem of maximizing the average profit that can be obtained (or minimizing the average costs incurred), where the notion of average is with respect to the randomness used to model our inability to exactly predict the future. This project has the goal of using past historical data as a means for modeling the predictions for future data, and then designing algorithms that produce provably near-optimal decisions based on this approximation. This type of decision-making in the face of uncertainty arises in a wide range of application domains, from selling different classes of airline&lt;br/&gt;tickets for a portfolio of flight legs to manufacturing a suite of products that rely on overlapping sets of components. This project focuses on settings in which there are multiple stages of decision-making that must be made in the face of an evolving view of the predictions of future&lt;br/&gt;requirements. The aim is to provide tools to automate such decision-making with algorithms that are guaranteed to quickly produce reliable solutions.</AbstractNarration>
+    <MinAmdLetterDate>08/03/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/03/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0732175</AwardID>
+    <Investigator>
+      <FirstName>Retsef</FirstName>
+      <LastName>Levi</LastName>
+      <EmailAddress>retsef@mit.edu</EmailAddress>
+      <StartDate>08/03/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Gamarnik</LastName>
+      <EmailAddress>gamarnik@mit.edu</EmailAddress>
+      <StartDate>08/03/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7454</Code>
+      <Text>MSPA-INTERDISCIPLINARY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7303</Code>
+      <Text>MATH SCI PRIORITY AREA: INTERDISCIPLINAR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

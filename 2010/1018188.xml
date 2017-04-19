@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: AF: Small: Locality with Dynamic Parallelism</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2014</AwardExpirationDate>
+    <AwardAmount>449055</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With the recent dominance of computers with many parallel cores, and the widespread use of large data centers, the need to supply high-level, simple and general approaches to developing parallel codes for these machines has become critical. There are many challenges to effectively developing such parallel codes, but certainly a principle difficulty is dealing with communication costs - or when looked at from the other side, taking advantage of locality. Unfortunately this challenge has only become more difficult on modern parallel machines that have many forms of locality - network latency and bandwidth, shared and distributed caches, partitioned memories, and secondary storage in a variety of organizations.&lt;br/&gt;&lt;br/&gt;To address this problem this project is developing an approach for programmers to understand locality in their parallel code without needing to know any details of the particular parallel machine they are using. In the approach programmers express the full dynamic parallelism of their algorithm without describing how it is mapped onto processors, and are given a simple high-level model for analyzing locality. The research is based on the conjecture that locality should be viewed by the programmer as a property of the algorithm or code and not the machine. To ensure that real machines can take proper advantage of the locality analyzed in the model, the research is developing scheduling approaches that map the "algorithm locality" onto various forms of machine locality, including shared caches, distributed caches, trees of caches, and distributed memory machines. The results of the research include both theoretical bounds for such schedulers on specific machine organizations, and experimental validation on a set of benchmark applications.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/05/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018188</AwardID>
+    <Investigator>
+      <FirstName>Guy</FirstName>
+      <LastName>Blelloch</LastName>
+      <EmailAddress>blelloch@cs.cmu.edu</EmailAddress>
+      <StartDate>07/28/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

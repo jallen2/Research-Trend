@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Dynamic Abstractions for Verification</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Verification is currently a major bottleneck in the design of the&lt;br/&gt;hardware and software systems society depends on. Design errors&lt;br/&gt;can lead to recalls, software crashes, cyber attacks, and even&lt;br/&gt;the loss of life. A fundamental approach for identifying and&lt;br/&gt;fixing design errors is to use formal verification, which checks&lt;br/&gt;whether a set of system properties holds across all possible&lt;br/&gt;system behaviors. Unfortunately, current algorithms suffer from&lt;br/&gt;poor scalability and cannot be directly applied to modern&lt;br/&gt;designs. This drawback is currently addressed with the use of&lt;br/&gt;manual abstractions that in essence hide irrelevant&lt;br/&gt;implementation details, thereby reducing the size of formulas to&lt;br/&gt;be analyzed. Besides the manual effort involved, another&lt;br/&gt;disadvantage of this approach is that it is very hard to&lt;br/&gt;guarantee that an abstraction is correct. The goal of the proposed&lt;br/&gt;research is to develop efficient methods for algorithmically&lt;br/&gt;building provably correct abstractions, thereby drastically&lt;br/&gt;improving the scalability of formal verification algorithms.&lt;br/&gt;&lt;br/&gt;Our approach to finding correct abstractions is based on the&lt;br/&gt;following three ideas. First, building an abstraction that is&lt;br/&gt;correct in a small subspace of the search space is easy. Second,&lt;br/&gt;one can stitch together abstractions found for subspaces to&lt;br/&gt;produce an abstraction for the entire subspace explored so far.&lt;br/&gt;Third, abstractions built for explored subspaces may hold in many&lt;br/&gt;subspaces that have not been visited yet. This re-usability of&lt;br/&gt;abstractions makes our approach extremely powerful in identifying&lt;br/&gt;irrelevant parts of formulas. From a theoretical point of view,&lt;br/&gt;the proposed research will lead to a better understanding of&lt;br/&gt;abstractions and to the development of new formal verification&lt;br/&gt;algorithms. From a practical point of view, it will result in the&lt;br/&gt;creation of various kinds of tools including SAT-solvers and&lt;br/&gt; model checkers that will boost the scalability of formal&lt;br/&gt;verification.</AbstractNarration>
+    <MinAmdLetterDate>06/21/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/21/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319580</AwardID>
+    <Investigator>
+      <FirstName>Panagiotis</FirstName>
+      <LastName>Manolios</LastName>
+      <EmailAddress>pete@ccs.neu.edu</EmailAddress>
+      <StartDate>06/21/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Evgueni</FirstName>
+      <LastName>Goldberg</LastName>
+      <EmailAddress>eigold@ccs.neu.edu</EmailAddress>
+      <StartDate>06/21/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

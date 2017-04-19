@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Architecting A Database Management System for Semantic Web Data</AwardTitle>
+    <AwardEffectiveDate>02/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frank Olken</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of the Semantic Web is to free Web data from the applications that control them, so that data can be easily described and exchanged. &lt;br/&gt;This is accomplished by supplementing natural language and other data found on the Web with machine readable metadata in statement form (e.g., X is-a person, X has-name Joe, X has-age 35) and enabling descriptions of data ontologies so that data from different applications can be integrated through ontology mapping. One element of this vision is to turn the Web into a giant database, against which one can issue structured queries and receive structured answers in response.&lt;br/&gt;&lt;br/&gt;The SW-Store project is undertaking the clean-slate design of a DBMS specifically architected for this type of Web metadata and the prevalent Semantic Web data model, the Resource Description Framework, or RDF. The management of Semantic Web data presents many difficult challenges. The size of the data is growing rapidly, and in theory could reach the scale of the Web. The types of queries vary greatly in complexity, ranging from keyword search to complicated parameterized subgraph matching. Data integration, inference, and reasoning must be primitive operations that can operate at scale without human intervention. A data management system must not only be a place where data is stored and from which data is accessed; it must use the machine-readable semantics of the data to develop higher level models and help guide a user through the mass of information. In sum, a data management system for the Semantic Web will look very different from a standard, transactional, relational database system.&lt;br/&gt;&lt;br/&gt;The SW-store project researches the architecture of such a system. This research is inherently interdisciplinary, bringing in ideas from the data management, Semantic Web, and artificial intelligence communities. The project involves experimenting with partitioning schemes, where data is allocated to different nodes on a shared-nothing cluster so that queries can be run in parallel across multiple machines. It also involves exploring how ontology reasoning can be integrated inside the database system so that it can benefit from the near limitless scalability a shared-nothing cluster can offer. SW-Store further investigates providing iterative query interfaces and integrating complex queries with text search. Finally, the project involves studying the design of the storage layer for a Semantic Web data management system, looking at how data should be laid out, updates should be performed, and what materialized views to create.&lt;br/&gt;&lt;br/&gt;Further information about the project can be found at the project Webpage: &lt;br/&gt;http://db.cs.yale.edu/swstore/</AbstractNarration>
+    <MinAmdLetterDate>02/18/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/30/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0845643</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Abadi</LastName>
+      <EmailAddress>daniel.abadi@yale.edu</EmailAddress>
+      <StartDate>02/18/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Yale University</Name>
+      <CityName>New Haven</CityName>
+      <ZipCode>065208327</ZipCode>
+      <PhoneNumber>2037854689</PhoneNumber>
+      <StreetAddress>Office of Sponsored Projects</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF:Small: Data Triggered Threads for Removing Redundant Execution and Increasing Parallelism</AwardTitle>
+    <AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2016</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As high-performance general-purpose processors advance further into the chip multiprocessor era, with ever increasing core counts, the industry faces two huge challenges. The first is how to effectively use that hardware parallelism when much of the available software does not parallelize easily. The second challenge is managing the power and energy consumed by these processors. Given constrained power, we can only scale performance if we improve the performance delivered per Watt. &lt;br/&gt;Data-triggered threads (DTT) is a new programming and execution model designed to address both of these issues. Any conventional architecture that exploits parallelism does so by initiating new parallel computation based on control flow ? that is, execution (i.e., the core?s program counter) reaches a fork instruction or maybe a pthread create call. DTT instead spawns a new thread when data in memory is changed. The programmer specifies a function that is not attached to a set of call sites (a place in the program where the function is called), but rather is attached to a variable or even a field in a data structure type. When that variable is modified by the program, a thread in another core (or multithreading context) is automatically spawned to execute the data-triggered thread, containing code that depends on the changed data.&lt;br/&gt;Data-triggered threads provide two key advantages over traditional mechanisms for describing parallelism. The first is that the dependent computation becomes available immediately, as soon as the source data is modified. The second is that the dependent computation need only be executed if the triggering data is actually modified ? in many cases it is not. This work exploits a huge new opportunity to eliminate redundant computation. In the C SPEC benchmarks, 78% of loads are redundant (meaning the same load fetches the same value as the last time it went to the same address). The computation which operates on those values is often also redundant. Researchers in computer architecture and related areas have been working to reduce the power consumed by each instruction, and have made steady progress. It is far preferable, though, to just not execute those instructions ? no power or energy optimization will beat that.&lt;br/&gt;This research is exploring a number of opportunities to exploit this new execution model, including: (1) Data triggered threads via architectural support, (2) software-only data triggered threads, (3) data triggered threads to complement existing parallel applications, (4) automatic generation of data triggered threads in the compiler, and (5) programming experience with data triggered threads ? how does DTT code written from scratch differ from programs modified to use DTT, what kind of code will novice programmers produce, and how does that impact the architectural and software runtime implementations.&lt;br/&gt;Generation-to-generation performance scaling of processors is critically important to the national and world economy ? not just to hardware vendors, but also the software industries that sell products every time someone upgrades their system. The data triggered threads programming and execution model represents solutions to the two key barriers to performance scaling. It addresses the parallelism crisis by giving the programmer a new way to express parallelism. It addresses the power problem in the most effective way possible ? by not executing computation that does not need to be done.</AbstractNarration>
+    <MinAmdLetterDate>05/16/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/26/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1219059</AwardID>
+    <Investigator>
+      <FirstName>Dean</FirstName>
+      <LastName>Tullsen</LastName>
+      <EmailAddress>tullsen@cs.ucsd.edu</EmailAddress>
+      <StartDate>05/16/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

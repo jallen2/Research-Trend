@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: CSR: Scaling Geo-Replicated Storage In and Across Many Datacenters</AwardTitle>
+    <AwardEffectiveDate>03/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2017</AwardExpirationDate>
+    <AwardAmount>175000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project focuses on improving the state of the art in storage for large-scale websites like Amazon, Facebook, and Google that are an integral part of our modern lives. The research is important because it will make the websites more reliable, less expensive to build, and faster for everyone to access. The efforts of this project will guide and focus both industrial efforts and future researchers. This project has the following unique features: optimal speed for reading data from storage and scalability inside and across data centers when compared to the leading research system and the leading industrial system. A working prototype of new storage designs will be produced and released during the course of the work. &lt;br/&gt;&lt;br/&gt;To accomplish the goals, the project addresses two major deficiencies in the state of the art. First, current systems are likely non-optimal for reading data from storage as they all use multiple rounds of communication. This problem will be addressed by designing, implementing, and evaluating algorithms for reading data that use optimally few rounds of communication. Second, current systems do not scale across data centers, so that building more data centers does not increase the amount of storage or its throughput. This project will use partial replication to store only a subset of the data in each data center so that adding new data centers will result in proportional increases in storage capacity and throughput. An important component is the innovation educational experience in the design phase of the project and systems building experience in the implementation phase for graduate students.&lt;br/&gt;&lt;br/&gt;Large-scale websites are an important and enriching part of modern life. The algorithms and prototypes developed by this research will make the storage that powers them bigger and faster. These improvements to storage will in turn result in improvements to the websites themselves and perhaps even enable new types of services that were not previously possible.</AbstractNarration>
+    <MinAmdLetterDate>03/04/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/04/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1464438</AwardID>
+    <Investigator>
+      <FirstName>Wyatt</FirstName>
+      <LastName>Lloyd</LastName>
+      <EmailAddress>Wyatt.Lloyd@usc.edu</EmailAddress>
+      <StartDate>03/04/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

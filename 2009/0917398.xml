@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: SMT-Aware Real Constraint Solving</AwardTitle>
+    <AwardEffectiveDate>10/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2013</AwardExpirationDate>
+    <AwardAmount>466883</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computers are commonly used to perform numerical computation, but they can also compute symbolically. Symbolic computation is required, for example, when instead of numerically simulating a system, the goal is to design or exhaustively verify a system. Tarski's seminal result on decidability of the theory of reals showed that nonlinear constraints can be symbolically solved. However, the currently available solvers are not designed for the features--scalability, expressiveness, and extensibility--that are required in practice.&lt;br/&gt;&lt;br/&gt;This project develops a symbolic reasoning engine that is simultaneously efficient and expressive, and that includes nonlinear reasoning over the theory of reals. The approach is based on integrating the theory of real closed fields with existing theories supported by Satisfiability Modulo Theory (SMT) solvers. SMT solvers are general-purpose, widely used, symbolic solvers, but they currently lack support for reasoning over nonlinear arithmetic. Motivated by the application to verification of hybrid dynamical systems, this project explores an approach for reasoning in the theory of reals that can trade completeness for efficiency and can be integrated within existing SMT solvers.&lt;br/&gt;&lt;br/&gt;The availability of nonlinear reasoning in SMT solvers will make it easier, especially for users not skilled in symbolic methods, to routinely build applications that use symbolic reasoning. It will enable several new applications spanning a wide spectrum of science and engineering, such as robotics, safety-critical control systems, embedded systems, and systems biology.</AbstractNarration>
+    <MinAmdLetterDate>09/17/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0917398</AwardID>
+    <Investigator>
+      <FirstName>Bruno</FirstName>
+      <LastName>Dutertre</LastName>
+      <EmailAddress>bruno@csl.sri.com</EmailAddress>
+      <StartDate>09/17/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ashish</FirstName>
+      <LastName>Tiwari</LastName>
+      <EmailAddress>tiwari@csl.sri.com</EmailAddress>
+      <StartDate>09/17/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SRI International</Name>
+      <CityName>Menlo Park</CityName>
+      <ZipCode>940253493</ZipCode>
+      <PhoneNumber>6508592651</PhoneNumber>
+      <StreetAddress>333 RAVENSWOOD AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

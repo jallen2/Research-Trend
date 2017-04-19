@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Statistical Analysis of Software</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>499999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;The project investigates statistical software analysis, which infers&lt;br/&gt;relationships among program components by using statistical properties&lt;br/&gt;derived from multiple program executions.&lt;br/&gt;&lt;br/&gt;To motivate statistical techniques, it is useful to draw analogies to&lt;br/&gt;static analysis methods. Static analysis is about inferring&lt;br/&gt;dependencies between program components: If a value is changed in one&lt;br/&gt;component, how does that affect a value in a different component?&lt;br/&gt;Static analysis tends to work best for properties that are local,&lt;br/&gt;meaning the pieces of the program we are trying to relate are not&lt;br/&gt;separated by a great deal of other computation. The statistical analog&lt;br/&gt;of dependencies is correlation. Instead of proving definitively via&lt;br/&gt;static reasoning the presence or absence of dependencies, we can&lt;br/&gt;observe at run-time that some properties of two components have high&lt;br/&gt;or low correlation. Importantly, correlation is not affected by&lt;br/&gt;syntactic or even dynamic locality: if two components have a&lt;br/&gt;correlation, regardless of how much time or computation passes between&lt;br/&gt;the execution of one component and the execution of the other, this&lt;br/&gt;correlation can be detected if the appropriate statistical question is&lt;br/&gt;asked.&lt;br/&gt;&lt;br/&gt;The initial focus is on using cross-correlation, which which computes&lt;br/&gt;the maximum correlation between two sequences of observations, to&lt;br/&gt;formalize statistical correlation between software components that&lt;br/&gt;have a direction in time. This idea gives rise to a natural graph that&lt;br/&gt;captures the strength and direction of statistical influence one&lt;br/&gt;component has upon another; these graphs are analogous to traditional&lt;br/&gt;dependency graphs, but have unique and useful properties.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2009</MaxAmdLetterDate>
+    <ARRAAmount>499999</ARRAAmount>
+    <AwardID>0915766</AwardID>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Aiken</LastName>
+      <EmailAddress>aiken@cs.stanford.edu</EmailAddress>
+      <StartDate>08/07/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

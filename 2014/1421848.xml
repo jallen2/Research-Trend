@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF:Small:Collaborative Research:Efficient Codes and their Performance Limits for Distributed Storage Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>162699</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Brown</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The explosive growth of data being generated and collected has rekindled interest in efficient means of storing such data. Large data centers and distributed storage systems have become more widespread, playing an ever-increasing role in our everyday computational tasks. While a data center should never lose data, disk failures occur on a daily basis as confirmed by the industry statistics. Methods and ideas from error correcting codes developed in this project enable the system to provide better guarantees against data loss as well as to reduce the amount of data that needs to be moved in order to enable recovery of information lost due to disk failures. Another related goal of this project is the reduction of storage overhead needed to support the recovery procedures. These goals are accomplished by relying on algebraic methods of constructing the data encoding procedures as well as on novel algorithms of data exchange and recovery. Overall the research performed in the course of this project contributes to the development of more efficient data management procedures in large-scale distributed storage systems.&lt;br/&gt;&lt;br/&gt;This project puts forward new algebraic procedures for data encoding and recovery that enables one to achieve tradeoff between overhead and repair bandwidth based on the concept of local recovery. The project studies both the case of recovering from a single disk loss, which is the most frequent problem in systems, as well as from the failure of multiple disks, addressing the problem of correcting one erasure as well as multiple erasures in data encoding. New bounds on the distance of codes with the locality requirement derived in this research are attained with new constructions of optimal locally recoverable codes equipped with simple recovery procedures. The project also addresses the problem of simultaneous recovery of data from multiple locations, enhancing data availability in large-scale distributed storage systems which are a key backbone component of the 21st century economy.</AbstractNarration>
+    <MinAmdLetterDate>07/22/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1421848</AwardID>
+    <Investigator>
+      <FirstName>P. Vijay</FirstName>
+      <LastName>Kumar</LastName>
+      <EmailAddress>vijayk@usc.edu</EmailAddress>
+      <StartDate>07/22/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7935</Code>
+      <Text>COMM &amp; INFORMATION THEORY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

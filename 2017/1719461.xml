@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Fast algorithms for large-scale nonlinear algebraic eigenproblems</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>71870</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project concerns development and analysis of new numerical algorithms for large-scale algebraic eigenproblems with nonlinearity in eigenvalues, eigenvectors, and parameters. These eigenproblems arise in electronic structure calculation, design of accelerator cavities, delay differential equations, vibration analysis of complex structures, and many more. Structure-preserving linearization techniques that have been developed recently are competitive for small or medium polynomial and rational eigenproblems, but they entail high computational costs for large-scale simulations due to the significantly enlarged dimension of linearized problems. In addition, linearization introduces considerable complications for the development of preconditioners, and it is not applicable to eigenproblems with full nonlinearity. &lt;br/&gt;&lt;br/&gt;The PI shall develop novel iterative projection methods that are accurate, robust and efficient, for the solution of large-scale truly nonlinear eigenproblems. This goal can be achieved in part by exploration of special properties of different types of nonlinear eigenproblems that enable solution strategies similar to those for linear eigenproblems. This investigation is focused on ( 1) new preconditioned eigensolvers, including conjugate-gradient-like and minimal-residual-like methods, for efficient solution of a large number of extreme and interior eigenvalues of problems with nonlinearity in eigenvalues, with and without the variational principle; (2) fast inexact Newton-like methods to solve parameter-dependent degenerate eigenproblem for the study of (in)stabilities of dynamical systems; (3) efficient algorithms for solving eigenproblems with nonlinearity in eigenvectors arising from condensed matter physics and electronic structure calculation. The research will develop a systematic and unified treatment of mathematical theory and development of numerical software.</AbstractNarration>
+    <MinAmdLetterDate>12/02/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/02/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1719461</AwardID>
+    <Investigator>
+      <FirstName>Fei</FirstName>
+      <LastName>Xue</LastName>
+      <EmailAddress>fxue@clemson.edu</EmailAddress>
+      <StartDate>12/02/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Clemson University</Name>
+      <CityName>CLEMSON</CityName>
+      <ZipCode>296340001</ZipCode>
+      <PhoneNumber>8646562424</PhoneNumber>
+      <StreetAddress>230 Kappa Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>South Carolina</StateName>
+      <StateCode>SC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8069</Code>
+      <Text>CDS&amp;E-MSS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8396</Code>
+      <Text>Clean Energy Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8609</Code>
+      <Text>Other Energy Research</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

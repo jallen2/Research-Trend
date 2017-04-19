@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Modules as a Framework for Interference Alignment in Networks</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>117000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>phillip regalia</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Interference Alignment is a breakthrough paradigm for wireless networks where several users share the same channel resources. Today's commercially available networks are built so as to avoid interference, so that a given resource is used by only one user at a time. With interference alignment, all users access the channel simultaneously and each user obtains half the interference-free rate, thereby achieving a network throughput that scales linearly with the number of users. The two most commonly studied approaches to interference alignment are the linear and non-linear schemes. In the former case the alignment problem can be formulated as that of solving an overdetermined system of equations with respect to a subset of the unknowns, and can be cast into the familiar language of vector spaces. The latter requires deep results in number theory on approximating an irrational number by a rational one. At present no unifying framework exists that encompasses both approaches. This research uses the theory of modules (on residue rings or polynomial rings) from modern algebra as a unifying framework for interference alignment. First the framework is introduced and shown to reduce to well known linear and non-linear interference alignment by choosing proper rings. Then, channels are classified in terms of their submodule decomposition and their degrees of freedom evaluated. Finally, actual codes are designed through a novel method where a destination decodes the lattice code that is the closet (in a nested lattice chain) to the received signal. This latter task has connections with the recently proposed compute-and-forward method of relaying. Connections among the two are also explored.&lt;br/&gt;&lt;br/&gt;The central impact of the proposed work stems from its unified theoretical treatment of interference alignment. No such unified framework or methodology exists at present. Although it has been often observed that classical linear algebra tools are insufficient for network problems, the theory of modules has not emerged so far as a tool to explain, analyze and design codes for interference networks. This research, by exploring novel foundations of interference alignment, will provide the community with an extremely rich toolset to design and analyze codes, which is expected to impact and benefit other network problem such as network coding and compute-and-forward relaying.&lt;br/&gt;From a technical perspective the new paradigm proposed in this research will enlarge the scope of information processing in interference networks, and provide an important step forward into the consolidation of a comprehensive theory of network science for distributed, decentralized, interfering networks. The results of this research will be presented at major national and international professional venues, in the information theory and communication networks communities and are expected to be of immediate use to the industrial sector.</AbstractNarration>
+    <MinAmdLetterDate>07/19/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/19/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218635</AwardID>
+    <Investigator>
+      <FirstName>Daniela</FirstName>
+      <LastName>Tuninetti</LastName>
+      <EmailAddress>danielat@uic.edu</EmailAddress>
+      <StartDate>07/19/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606124305</ZipCode>
+      <PhoneNumber>3129962862</PhoneNumber>
+      <StreetAddress>809 S MARSHFIELD</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7935</Code>
+      <Text>COMM &amp; INFORMATION THEORY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: AF: Medium: Learning and Matrix Reconstruction with the Max-Norm and Related Factorization Norms</AwardTitle>
+    <AwardEffectiveDate>06/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2017</AwardExpirationDate>
+    <AwardAmount>915986</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Weng-keen Wong</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Matrix learning is fundamental in many learning problems. These include problems that can be directly formulated as learning some unknown matrix, as well as a broader class of learning problems involving a matrix of parameters. The most direct matrix learning problem is matrix completion, completing unseen entries in a partially observed matrix. Matrix completion has recently received much attention both in practice in collaborative filtering (notably through the Netflix challenge), and theoretical analysis as an extension to compressed sensing. Matrix learning has also been used for clustering, transfer and multi-task learning, and similarity learning.&lt;br/&gt;&lt;br/&gt;The dominant approach to matrix learning in recent years, especially in the context of matrix completion, has used the matrix trace norm (developed in part by the PI on this award). Indeed, trace norm-based methods enjoy much success in a variety of applications. This project develops and studies alternative matrix norms to the trace-norm, most importantly the promising max-norm.&lt;br/&gt;&lt;br/&gt;Learning with the max-norm was initially presented in 2004 (along with the trace norm), but has not received the same attention, despite many theoretical and empirical advantages. This project identifies domains where the max-norm and related norms can be beneficial, develops computational methods for using these norms, and promotes the adoption of these norms. A central aim is to develop optimization methods for max-norm regularized problems that are as efficient as the corresponding methods for trace-norm regularized problems, such as singular value thresholding and LR-type methods. Beyond matrix completion, the project applies the max-norm both to problems where the trace-norm has been previously applied, and in novel settings. Novel applications include clustering, binary hashing, crowdsourcing, modeling rankings by a population, and similarity learning.&lt;br/&gt;&lt;br/&gt;Research under this project links the machine learning and theory-of-computation research communities (where SDP relaxations essentially corresponding to the max-norm have played a significant role in recent years). The project forms bridges between the communities, enabled in part by cross-disciplinary tutorials. Through collaboration with sociologists the PIs reach out to the social sciences, and increase the broad impact of the work by presenting it in an approachable and useable way to this audience.</AbstractNarration>
+    <MinAmdLetterDate>06/21/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/16/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1302662</AwardID>
+    <Investigator>
+      <FirstName>Nathan</FirstName>
+      <LastName>Srebro</LastName>
+      <EmailAddress>nati@ttic.edu</EmailAddress>
+      <StartDate>06/21/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yury</FirstName>
+      <LastName>Makarychev</LastName>
+      <EmailAddress>yury@ttic.edu</EmailAddress>
+      <StartDate>06/21/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Toyota Technological Institute at Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606372902</ZipCode>
+      <PhoneNumber>7738340409</PhoneNumber>
+      <StreetAddress>6045 S. Kenwood Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

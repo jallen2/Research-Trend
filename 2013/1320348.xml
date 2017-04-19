@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: A Compositional Approach to Video Segmentation</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>499443</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is pursuing a novel strategy for video segmentation based on the decomposition of a video into multiple overlapping segments of pixels, and the subsequent composition of these segments into hypotheses about the existence of objects within the video. Given an input video, this approach produces a set of spatio-temporal pixel regions as its output, where the set of output regions has a high degree of overlap with the objects that are present in the video. The project further develops methods for semantic segmentation, occlusion analysis, and activity recognition which can exploit a segment-based video representation. The basis for the approach is a statistical framework known as composite likelihood, which implicitly models the joint distribution of a random vector through distributions of low-dimensional statistics on overlapping subsets of variables. This statistical model is ideally-suited to describing video objects as a collection of multiple overlapping segments. Using this framework, methods are being developed to track overlapping segments within a video and generate object hypotheses. Additional efforts are aimed at improving the computational efficiency of the approach in order to address applications in on-line video analysis.&lt;br/&gt;&lt;br/&gt;The resulting algorithms yield improved performance in video object segmentation and tracking, and provide new approaches to content-based video categorization and retrieval, for unstructured video collections such as those found on YouTube. The project is producing a novel publicly-available dataset containing fine-grained ground truth video object segmentations, in order to facilitate research activities in video analysis. The project is integrated with education and outreaches high school students to research in STEM.</AbstractNarration>
+    <MinAmdLetterDate>09/19/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/13/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320348</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Rehg</LastName>
+      <EmailAddress>rehg@cc.gatech.edu</EmailAddress>
+      <StartDate>09/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Fuxin</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>lif@eecs.oregonstate.edu</EmailAddress>
+      <StartDate>09/19/2013</StartDate>
+      <EndDate>07/13/2016</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

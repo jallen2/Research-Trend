@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Privacy-preserving measurements of the Tor network to improve performance and anonymity</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>299967</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Samuel M. Weber</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As the Tor network has grown since 2003 to almost 2000 volunteer relays, the anonymity that it can provide has grown too. This project is measuring Tor's network characteristics and usage, laying the foundation for evaluating its anonymity and improving performance. The project is addressing three components of this challenge. First, it invents new algorithms for collecting Tor network load and usage data safely, including new metrics to ensure that collected data doesn't harm privacy too much yet is still useful for research. Second, it collects and make available aggregated data about the live Tor network over time, and design and deploy new tools to manipulate and understand this data. Third, it identifies which measurements are necessary to support the wider performance and anonymity research questions, do the measurements, and feed the results into the anonymity community's ongoing research projects. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Research Activity 1: Directory and network data. Analyze patterns in directory authority opinions to tune them for better network anonymity and performance, and then track long-term characteristics like churn rate so researchers can simulate design changes. &lt;br/&gt;&lt;br/&gt;Research Activity 2: Performance data. Design and perform measurements &lt;br/&gt;to better understand why the Tor network has high (and highly variable) latency. Early investigations show that queuing inside Tor's relays contributes to this latency. Discovering what exactly is wrong with Tor's congestion control mechanisms will allow designers to learn whether proposed &lt;br/&gt;improvements actually help. The project will also investigate other theories of how to improve performance, such as: a) Tor's round-robin scheduling approach should prioritize interactive traffic over bulk traffic; b) incentive systems could encourage users to relay traffic; c) Tor's path selection &lt;br/&gt;algorithms should load balance better over the relays; and d) clients should handle variable latency and connection failures by dynamically adapting to observed network quality.</AbstractNarration>
+    <MinAmdLetterDate>09/17/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0959138</AwardID>
+    <Investigator>
+      <FirstName>William</FirstName>
+      <LastName>Regli</LastName>
+      <EmailAddress>regli@drexel.edu</EmailAddress>
+      <StartDate>09/17/2009</StartDate>
+      <EndDate>11/02/2009</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Roger</FirstName>
+      <LastName>Dingledine</LastName>
+      <EmailAddress>arma@mit.edu</EmailAddress>
+      <StartDate>11/02/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Roger</FirstName>
+      <LastName>Dingledine</LastName>
+      <EmailAddress>arma@mit.edu</EmailAddress>
+      <StartDate>09/17/2009</StartDate>
+      <EndDate>11/02/2009</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Drexel University</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191021119</ZipCode>
+      <PhoneNumber>2158955849</PhoneNumber>
+      <StreetAddress>1505 Race St, 8th Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

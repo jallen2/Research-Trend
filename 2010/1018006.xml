@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: An Integrated Parallel Constraint Programming Platform for Combinatorial Search Problems</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>277065</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many real-world problems, ranging from scheduling in industrial production lines, planning for intelligent robots, protein structure predication, resource allocation, to various network optimization problems are combinatorial search problems. Constraint Programming (CP) and Answer Set Programming (ASP) are emerging techniques for solving these problems. CP over Finite Domains (FD) has had great successes in many application areas, such as scheduling, where use of global constraints is very effective. ASP has been found amenable to knowledge-intensive search problems such as planning and configuration problems. Recently, there has been great interest in parallelizing CP and ASP solvers to take advantage of the power provided by multi-core processors. &lt;br/&gt;&lt;br/&gt;This research aims to develop an integrated parallel constraint programming platform for combinatorial search problems. It entails three tasks. Firstly, this research will enhance the power of CLP(FD) (Constraint Logic Programming over FD) by enabling constraints over Composite Finite Domains (CFD). The resulting language, CLP(CFD), allows for natural and efficient modeling of problems with multi-attributed objects. Action Rules (AR), a successful language developed by the PI, will be enhanced and used to implement CLP(CFD). Secondly, this research will develop a compiler to translate ASP programs into AR. For an ASP program, the generated program maintains a partial answer set as a pair of disjoint tuple sets and uses labeling and propagation to compute answer sets. Unlike most ASP solvers, the AR-based solver requires no prior grounding of programs. Thirdly, this research will parallelize AR. Since AR is used as a common intermediate language for both CLP(CFD) and ASP, a parallel implementation of AR will directly result in parallel solvers for CLP(CFD) and ASP. This research will advance the implementation techniques for constraint languages and the resulting system will benefit a wide range of real-world applications.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018006</AwardID>
+    <Investigator>
+      <FirstName>Neng-Fa</FirstName>
+      <LastName>Zhou</LastName>
+      <EmailAddress>zhou@sci.brooklyn.cuny.edu</EmailAddress>
+      <StartDate>07/28/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>CUNY Brooklyn College</Name>
+      <CityName>Brooklyn</CityName>
+      <ZipCode>112102889</ZipCode>
+      <PhoneNumber>7189515622</PhoneNumber>
+      <StreetAddress>Office of Research &amp; Sponsored P</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

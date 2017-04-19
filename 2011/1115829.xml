@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Simplification of Obfuscated Executables</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2015</AwardExpirationDate>
+    <AwardAmount>401252</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Programs with potentially malicious content are becoming increasingly common. Such programs are usually highly obfuscated, using a variety of techniques that make it difficult to analyze the code, figure out its internal logic, and develop countermeasures. Existing tools for reverse engineering such programs are primitive and require a great deal of tedious and time-consuming manual intervention, which hampers the timely development of defenses against newly discovered malware. This project aims to devise automatic techniques to simplify away these obfuscations and thereby make it significantly faster and easier to understand the internal logic of obfuscated code with potentially malicious content. &lt;br/&gt;&lt;br/&gt;The project uses dynamic program analysis techniques to identify instructions that affect the program's observable behavior; these instructions are then extracted and, where appropriate, simplified using equational techniques. Key research questions investigated include simplification in the face of arbitrary obfuscations and combinations of obfuscations, including (possibly multiple layers of) self-modification and emulation. The main impact of this project will be to make it easier and quicker for security researchers to figure out the internal logic of malware programs. This, in turn, will make it possible to respond more quickly to new malware and develop countermeasures to them faster and with less manual intervention. The effect will be to reduce the damage done by malware before they can be neutralized.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/03/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115829</AwardID>
+    <Investigator>
+      <FirstName>Saumya</FirstName>
+      <LastName>Debray</LastName>
+      <EmailAddress>debray@cs.arizona.edu</EmailAddress>
+      <StartDate>08/19/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Arizona</Name>
+      <CityName>Tucson</CityName>
+      <ZipCode>857194824</ZipCode>
+      <PhoneNumber>5206266000</PhoneNumber>
+      <StreetAddress>888 N Euclid Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Efficient Algorithms for Continuous Time Service Network Design Models that Accurately Estimate Consolidation Opportunities in Time</AwardTitle>
+    <AwardEffectiveDate>01/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2017</AwardExpirationDate>
+    <AwardAmount>349898</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Georgia-Ann Klutke</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of the research supported by this award is the development of planning methods for in service systems that will enable high-velocity services in a cost-effective manner. The main motivation is in planning of transportation services by consolidation carriers. Consolidation carriers play a prominent role in order fulfillment and the supply chains that support product manufacturing. With the continued trend towards just-in-time practices, fast shipping requests in the retail sector are echoed in the supply chains providing the products ordered. As a result, many consolidation carriers are facing increased pressure to deliver goods in less time and at low cost. Transportation planning decisions for a consolidation carrier have both a geographic and temporal component. A common technique for handling time in planning models is discretization, which means that a model will include the decision that the dispatch occurs in a certain time window. The planning model will represent time at each facility with a series of windows, with the choice of windows determined a priori. Customer demands for rapid delivery necessitate a fine granularity, i.e., many narrow time windows. Existing solution methods cannot handle that level of granularity efficiently enough to be useful in practical settings. This award will yield solution methods that can handle precise representations of time, enabling carriers to provide, in a cost-effective manner, the short delivery times requested by their customers (some of the savings may even be passed on to the customers). These methods will help both the carriers and the companies they support compete in a global economy. As cost is primarily a function of (trailer) miles traveled, reducing miles can also lead to a reduction in emissions. By modeling time more precisely, carriers may also be able to better synchronize their transportation options, leading to greater use of greener options like rail. &lt;br/&gt;&lt;br/&gt;While there is widespread use of discretizations of time in service network design models the fundamental question behind their use has not yet been answered; namely, "Can one produce a methodology that yields the benefits of discretizing time to a very fine degree without explicitly modeling each discrete point in time?" The research supported by this award will answer this question in the affirmative. A service network design problem defined on a very fine discretization of time will be studied so that consolidation opportunities can be accurately captured. An algorithmic framework that can be adapted to this problem will be developed, yielding an algorithm that can solve it in a runtime that is acceptable for use in practice. The framework will be primal-dual in nature, and algorithms that follow it will repeatedly solve service network design models, while dynamically adjusting the time representation. One representation will yield a relaxation of the problem (the dual), while the other will produce a feasible solution (the primal). The framework will be extended so that it may be used to initiate the development of algorithms for a broader class of service network design models. For example, models that value or choose the times when shipments are available for pickup and due for delivery, which impact how they can be consolidated with other shipments. Moreover, the framework will be extended to produce algorithms that can solve these models in reasonable run-times.</AbstractNarration>
+    <MinAmdLetterDate>06/24/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/24/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1435625</AwardID>
+    <Investigator>
+      <FirstName>Mike</FirstName>
+      <LastName>Hewitt</LastName>
+      <EmailAddress>mhewitt3@luc.edu</EmailAddress>
+      <StartDate>06/24/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Loyola University of Chicago</Name>
+      <CityName>CHICAGO</CityName>
+      <ZipCode>606601537</ZipCode>
+      <PhoneNumber>7735082471</PhoneNumber>
+      <StreetAddress>1032 W. Sheridan Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1787</Code>
+      <Text>SERVICE ENTERPRISE SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>072E</Code>
+      <Text>NETWORKS &amp; QUEUING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>076E</Code>
+      <Text>SERVICE ENTERPRISE SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>077E</Code>
+      <Text>SIMULATION MODELS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>078E</Code>
+      <Text>ENTERPRISE DESIGN &amp; LOGISTICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8023</Code>
+      <Text>Health Care Enterprise Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9147</Code>
+      <Text>GENERIC TECHNOL FOR MANUFACTURING CELLS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1787</Code>
+      <Text>SERVICE ENTERPRISE SYSTEMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

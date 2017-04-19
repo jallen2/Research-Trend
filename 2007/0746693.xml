@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Parallelization using Inspector/Executor Strategies (PIES)</AwardTitle>
+    <AwardEffectiveDate>02/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2014</AwardExpirationDate>
+    <AwardAmount>411891</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Irregular computations occur in many important science and engineering application domains such as solving partial differential equations over irregular grids, molecular dynamics simulations, and computations over sparse matrices. To address this problem, inspector/executor strategies have been developed where the inspector dynamically analyzes memory reference patterns and generates communication schedules and/or reorganizes computation and data, and the executor executes the irregular computation in parallel. Although inspector/executor strategies have been incorporated into many applications and libraries, these strategies are still hindered by two main problems: (1) Currently, no general framework exists for automating the process of incorporating inspector/executor strategies into programs despite the complexity and difficulty that by-hand synthesis entails. (2) The performance of irregular applications significantly lags that of regular applications ? and this gap is widening for current and next-generation high-end multi-core systems.&lt;br/&gt;This research involves developing a tool suite called PIES (Parallelization using Inspector/Executor Strategies) for the automatic incorporation of inspector/executor strategies into irregular applications. The PIES tool suite includes the Mapping Intermediate Representation (MapIR) for specifying irregular code and inspector/executor strategies, a program analysis tool capable of determining the legal application of various inspector/executor strategies, a code generator capable of automatically generating inspectors and executors, and performance models to guide the selection of inspector/executor strategies and their parameters. This research includes an outreach program for local high school students based on applying the PIES tool suite to molecular dynamics simulations. Use of the PIES tool suite reduces software development time by automating the incorporation of inspector/executor strategies into existing code and enables the development of new inspector/executor strategies.</AbstractNarration>
+    <MinAmdLetterDate>02/07/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/29/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0746693</AwardID>
+    <Investigator>
+      <FirstName>Michelle</FirstName>
+      <LastName>Strout</LastName>
+      <EmailAddress>mstrout@cs.arizona.edu</EmailAddress>
+      <StartDate>02/07/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Colorado State University</Name>
+      <CityName>Fort Collins</CityName>
+      <ZipCode>805232002</ZipCode>
+      <PhoneNumber>9704916355</PhoneNumber>
+      <StreetAddress>601 S Howes St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4080</Code>
+      <Text>ADVANCED COMP RESEARCH PROGRAM</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

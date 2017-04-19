@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Novel Discontinuous Galerkin Finite Element Methods for Second Order Fully Nonlinear Equations and High Frequency Wave Equations</AwardTitle>
+    <AwardEffectiveDate>08/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>260000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The PI proposes to carry out a comprehensive study for two of most difficult numerical partial differential equation (PDE) problems using discontinuous Galerkin (DG) methods. The first main goal of the award is to develop convergent direct DG discretization methods for approximating viscosity solutions of general second order fully nonlinear PDEs, which builds upon the PI's previous successful research on developing indirect numerical methods for these PDEs. The objectives of this part of the research project are: (i) to extend the direct nonstandard DG methods to high-dimensional Monge-Ampere and Bellman equations; (ii) to establish a general convergent theory for the proposed DG methods; (iii) to develop efficient non-Newtonian nonlinear solvers for solving the resulting nonlinear systems; (iv) to apply the resulting DG methods to fully nonlinear PDE application problems including the optimal mass transport problem, the semigeostrophic flow problem, and stochastic optimal control problems; (v) to further develop the DG finite element differential calculus theory resulted from the proposed research project. The second main goal of the award is to develop absolutely stable, solver-friendly, and coercivity-preserving DG discretization methods and two-level Schwarz fast solvers for high frequency acoustic, elastic and electromagnetic wave equations. To resolve highly oscillatory waves, sufficiently fine mesh must be used, which in turn results in huge algebraic systems to solve. It is the sheer amount of computations coupled with the strong indefiniteness and the extremely ill-conditioned nature of high frequency wave problems that makes them intractable even on today's high performance computers if the brute force approach is adopted. The ultimate solution to overcome the challenge must be sought at the algorithmic level. The objectives of this part of the research project are: (i) to design, analyze and implement novel absolutely stable, solver-friendly, and coercivity-preserving DG discretization methods for the three types of high frequency wave equations; (ii) to develop, analyze and test novel parallelizable two-level Schwarz solution methods for solving the resulting large algebraic systems.&lt;br/&gt;&lt;br/&gt;The completion of the proposed research will have a significant theoretical and practical impact on the emerging field of numerical fully nonlinear PDEs and the thriving field of high frequency wave computation. The anticipated new enabling numerical capabilities can be used to solve various fully nonlinear PDE problems and wave scattering problems arising from differential geometry, antenna design, astrophysics, geophysical fluid dynamics, image processing, optimal control and optimal mass transport, petroleum engineering, geoscience, medical science, defense and telecommunication as well as financial industries. The education component of this research project is train graduate students in developing necessary applied and computational mathematics knowledge and skills so that they can pursue a successful career in either academia or industry in the near future.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318486</AwardID>
+    <Investigator>
+      <FirstName>Xiaobing</FirstName>
+      <LastName>Feng</LastName>
+      <EmailAddress>xfeng@math.utk.edu</EmailAddress>
+      <StartDate>07/29/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Tennessee Knoxville</Name>
+      <CityName>KNOXVILLE</CityName>
+      <ZipCode>379960003</ZipCode>
+      <PhoneNumber>8659743466</PhoneNumber>
+      <StreetAddress>1 CIRCLE PARK</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

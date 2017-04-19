@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Combining Optimality and Correctness in Control Systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>349999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jordan Berg</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Optimal control is an area of engineering focused at maintaining systems close to desired behaviors, while at the same optimizing certain costs. Examples include driving a vehicle along a trajectory while minimizing fuel consumption, controlling a set of thermostats in a building to follow a desired temperature profile while maintaining electricity consumption to a minimum, etc. Formal verification is an area of computer science focused at proving the correctness of system designs. The systems are computer programs and digital circuits, while correctness specifications include safety (making sure nothing bad happens) and liveness (making sure something good eventually happens). With the increasing integration of physical and digital systems into safety critical cyber physical systems, there is a need for computational tools that combine optimal control and correctness requirements. This project establishes a connection between optimal control and formal verification and impacts a large number of areas where correctness and optimality are crucial, such as air traffic control (design safe minimum-energy paths for airplanes taking off and landing in a crowded airport), vehicle autonomy (e.g., persistent surveillance for disaster relief), medical robotics (optimality and safety are fundamental in the robotic needle steering problem), etc. The education and outreach plan includes related courses at the undergraduate and graduate level, the involvement of undergraduate and high school students in research, collaborations with elementary school robotics teams, and the involvement of the Principal Investigator in high school summer internship programs.&lt;br/&gt;&lt;br/&gt;The results of this project will include formulations and solutions to optimal control problems with correctness requirements expressed as temporal logic formulas for both finite and infinite systems, in both probabilistic and non-probabilistic setups. The systems under consideration are finite-state transition systems and Markov decisions processes, and infinite-state discrete-time (stochastic) linear systems and piecewise affine systems. Correctness is specified as formulas of Linear Temporal Logic. The optimization objectives include classical average costs per stage and quadratics over state and control variables, as well as some special costs induced by particular specifications. Central to the approach are receding-horizon implementations of the optimal control strategies. The main application area is autonomous vehicle control for search and rescue in disaster relief scenarios.</AbstractNarration>
+    <MinAmdLetterDate>07/17/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/17/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1400167</AwardID>
+    <Investigator>
+      <FirstName>Calin</FirstName>
+      <LastName>Belta</LastName>
+      <EmailAddress>cbelta@bu.edu</EmailAddress>
+      <StartDate>07/17/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7569</Code>
+      <Text>Dynamics, Control and System D</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>030E</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>031E</Code>
+      <Text>MECHATRONICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>034E</Code>
+      <Text>Dynamical systems</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

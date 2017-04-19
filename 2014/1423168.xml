@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Blameworthy Programs: Accountability via Deviance and Causal Determination</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>499754</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Security protocols enable useful tasks over untrusted networks. For example, confidential communication over the Internet between users and Web services like Google, Facebook, Amazon and Bank of America rely on protocols like SSL/TLS and the supporting Public Key Infrastructure (PKI). These protocols are designed to provide global security properties like authentication and confidentiality when various parties (e.g., the user, the Web service, and participants in the PKI such as certificate authorities) execute their prescribed programs. However, when individual parties deviate from their prescribed programs and the global security property is violated, it is important to hold agents accountable by detecting deviant behavior and determining which deviations actually caused the violation. Such determinations are useful in a wide range of distributed security settings, including in protocols for authentication and key exchange, electronic voting, and online auctions. &lt;br/&gt;&lt;br/&gt;This project develops logic and language-based methods for deviance and causal determination in distributed systems. The project addresses the following scientifically challenging tasks: (1) Developing a language for distributed computing in which prescribed behavior of agents are represented with contracts. The contracts are specified via types and a type-directed distributed monitoring infrastructure is designed to detect deviance from contracts. The technical approach is based on novel dependent and stateful session types to express and verify security-relevant properties of systems. (2) Developing a formal blame semantics for distributed systems that is extensional (protocol- or system-independent). Recognizing that some deviations may not affect the security property, the blame semantics combines deviance from contracts with a novel definition of programs as actual causes of global security properties. The formalization of actual causation in this setting, while inspired by counterfactual theories of actual causation in philosophy and in computer science, goes beyond those theories by dealing with interacting distributed programs with nondeterministic operational semantics. (3) Applications of these methods to conduct a comprehensive study of proposed protocols for augmenting accountability in the public key infrastructure. &lt;br/&gt;&lt;br/&gt;The project has potential for significant broader impact on society. Recent results have exposed the fragility of the Public Key Infrastructure on which hundreds of millions of people around the world rely to protect their communication over the Internet. A systematic basis for design, analysis, and comparison of protocols that improve accountability of the PKI can help protect Internet users from malicious adversaries who seek to snoop on their communications. The project also provides extensive training and educational opportunities for undergraduate and graduate students at Carnegie Mellon University.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/04/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423168</AwardID>
+    <Investigator>
+      <FirstName>Limin</FirstName>
+      <LastName>Jia</LastName>
+      <EmailAddress>liminjia@cmu.edu</EmailAddress>
+      <StartDate>09/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Zeliha</FirstName>
+      <LastName>Kaynar</LastName>
+      <EmailAddress>dilsun@cs.cmu.edu</EmailAddress>
+      <StartDate>09/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anupam</FirstName>
+      <LastName>Datta</LastName>
+      <EmailAddress>danupam@andrew.cmu.edu</EmailAddress>
+      <StartDate>09/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Frank</FirstName>
+      <LastName>Pfenning</LastName>
+      <EmailAddress>fp@cs.cmu.edu</EmailAddress>
+      <StartDate>09/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

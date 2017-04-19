@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CT-ISG: High-Speed Cryptography</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract:&lt;br/&gt;&lt;br/&gt;&lt;br/&gt; Anyone with a moderate amount of skill can intercept Internet mail&lt;br/&gt;&lt;br/&gt; messages and private web pages to see what they say; can modify&lt;br/&gt;&lt;br/&gt; messages in transit, changing their content without any trace; and&lt;br/&gt;&lt;br/&gt; can send fake messages that are indistinguishable from legitimate&lt;br/&gt;&lt;br/&gt; messages. Cryptography responds to these threats by scrambling and&lt;br/&gt;&lt;br/&gt; unscrambling packets to protect against forgery and against&lt;br/&gt;&lt;br/&gt; espionage. An attacker who forges a message can't scramble it in the&lt;br/&gt;&lt;br/&gt; right way; when legitimate users' computers unscramble the message,&lt;br/&gt;&lt;br/&gt; they see that it's a forgery and that it should be thrown away. An&lt;br/&gt;&lt;br/&gt; attacker who intercepts a scrambled credit-card number can't figure&lt;br/&gt;&lt;br/&gt; out the original number.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt; Unfortunately, cryptography is often too slow to deploy on busy&lt;br/&gt;&lt;br/&gt; network servers. Widely used web sites such as google.com and&lt;br/&gt;&lt;br/&gt; livejournal.com have installed all the necessary cryptographic&lt;br/&gt;&lt;br/&gt; software but use it for only a small fraction of their web pages. &lt;br/&gt;&lt;br/&gt; When a user tells his web browser to make a cryptographically&lt;br/&gt;&lt;br/&gt; protected connection to https://www.google.com, Google redirects the&lt;br/&gt;&lt;br/&gt; browser to http://www.google.com, turning off the cryptography!&lt;br/&gt;&lt;br/&gt; Similar comments apply to SMTP (mail), DNS (name lookup), and other&lt;br/&gt;&lt;br/&gt; Internet protocols: even when the necessary cryptographic software&lt;br/&gt;&lt;br/&gt; has been written and installed, users are often forced to disable or&lt;br/&gt;&lt;br/&gt; limit the software so that their computers are not overloaded. This&lt;br/&gt;&lt;br/&gt; research responds by producing new speed records for the&lt;br/&gt;&lt;br/&gt; cryptographic operations needed to protect the Internet. These&lt;br/&gt;&lt;br/&gt; speedups allow cryptography to handle a larger fraction of the total&lt;br/&gt;&lt;br/&gt; volume of Internet communication, reducing the Internet's overall&lt;br/&gt;&lt;br/&gt; exposure to attack.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0716498</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Bernstein</LastName>
+      <EmailAddress>proposal-qlznvbgnroelrkdkzl@box.cr.yp.to</EmailAddress>
+      <StartDate>08/27/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606124305</ZipCode>
+      <PhoneNumber>3129962862</PhoneNumber>
+      <StreetAddress>809 S MARSHFIELD</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7456</Code>
+      <Text>ITR-CYBERTRUST</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

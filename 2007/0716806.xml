@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CT-T: A Clean-Slate Infrastructure for Information Flow Control</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>1200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Experience shows that most programmers can't write secure code. Few applications have the luxury of being written by security-conscious programmers, and thus the vast majority of all software is untrustworthy. At the same time, operating systems and networks have spectacularly failed to control the damage caused by subverted software.&lt;br/&gt;&lt;br/&gt;However, one technique--information flow control--has proven capable of limiting damage by buggy and even malicious software. The military has long used this technique to protect sensitive data against Trojan horses, but retrofitting existing operating systems with information flow control is a lengthy and difficult process, often unable to keep pace with the evolution of commodity software.&lt;br/&gt;&lt;br/&gt;We intend to develop a clean-slate infrastructure for distributed applications in which the lowest-level abstractions are specifically designed to control information flow. We will re-think the architecture of operating systems, networks, and even processors to realize an infrastructure that relies on a small, highly-secure, and, at least in part, mechanically checkable trusted computing base. On top of this base, we will implement interfaces that resemble the network programming APIs to which Unix programmers are accustomed.&lt;br/&gt;&lt;br/&gt;Our infrastructure will aim to give programmers as much freedom as possible to structure their applications, subject only to information flow constraints. Our motivating application will be scalable Internet web sites replicated across multiple servers.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/31/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0716806</AwardID>
+    <Investigator>
+      <FirstName>Nick</FirstName>
+      <LastName>McKeown</LastName>
+      <EmailAddress>nickm@ee.stanford.edu</EmailAddress>
+      <StartDate>09/12/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dawson</FirstName>
+      <LastName>Engler</LastName>
+      <EmailAddress>engler@csl.stanford.edu</EmailAddress>
+      <StartDate>09/12/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Mazieres</LastName>
+      <EmailAddress>dm-list-sup-nsf14@scs.stanford.edu</EmailAddress>
+      <StartDate>09/12/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christoforos</FirstName>
+      <LastName>Kozyrakis</LastName>
+      <EmailAddress>kozyraki@stanford.edu</EmailAddress>
+      <StartDate>09/12/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7456</Code>
+      <Text>ITR-CYBERTRUST</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

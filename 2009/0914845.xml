@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Exploiting Software Elasticity for Automatic Software Self-Healing</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software failures in server applications are a significant problem for preserving system availability. In the absence of perfect software, this research focuses on tolerating and recovering from errors by exploiting software elasticity: the ability of regular code to recover from certain failures when low-level faults are masked by the operating system or appropriate instrumentation. Software elasticity is exploited by introducing rescue points, locations in application code for handling programmer-anticipated failures, which are automatically repurposed and tested for safely enabling fault recovery from a larger class of unanticipated faults. Rescue points recover software from unknown faults while maintaining system integrity and availability by mimicking system behavior under known error conditions. They are identified using fuzzing, created using a checkpoint-restart mechanism, and tested then injected into production code using binary patching. This approach masks failures to permit continued program execution while minimizing undesirable side-effects, enabling application recovery and software self-healing.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/19/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0914845</AwardID>
+    <Investigator>
+      <FirstName>Jason</FirstName>
+      <LastName>Nieh</LastName>
+      <EmailAddress>nieh@cs.columbia.edu</EmailAddress>
+      <StartDate>09/12/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Angelos</FirstName>
+      <LastName>Keromytis</LastName>
+      <EmailAddress>angelos@cs.columbia.edu</EmailAddress>
+      <StartDate>09/12/2009</StartDate>
+      <EndDate>06/19/2013</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

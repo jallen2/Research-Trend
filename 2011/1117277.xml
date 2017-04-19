@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CGV: Small: Towards a Mathematics of Terrain</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Terrain, in this project, is defined as the elevation of the earth's surface above some reference geoid. Over the last few decades, ever larger quantities of terrain data with higher accuracy in (x, y) and z have become available. Improved bathymetry data of the sea floor has also been collected, and elevation data for other planets and their satellites is now available (for a generalized definition of "terrain"). The PI's goal in this project is to develop and validate a new mathematical representation of terrain, which will be closer to the physics of how terrain is formed and be designed to represent legal realistic terrain more easily than unrealistic terrain. Aside from constituting an interesting application of deeper mathematics in its own right, such a foundation for terrain representation that is geologically sound will enable the design of operators such as compression and siting from first principles. This work will generalize and extend the PI's previous successful terrain representation and algorithms work, such as ODETLAP. The new terrain representation will be a sequence of parameterized transformations of various classes inspired by the physics of how terrain is formed. Modeling the real world, the transformations will be nonlinear (e.g., real river valleys cannot be superimposed and added). Nonlinearity is powerful, but difficult to study. The first class of transformations, called scooping, will model how river valleys form, and will guarantee to produce only hydrologically valid terrain. Erosion, deposition and hill creation transformations will also be studied. Each class of transformation has many design options; for example, should fewer and more powerful, rather than many but less powerful, transformations be used? The PI's goal is to encode the terrain in as few bits as possible while satisfying, in addition to RMS error, richer, application-dependent, metrics such as multi-observer siting to maximize viewshed, and then path planning to avoid those observers. Hydrological accuracy and visual recognizability are other metrics. This project continues the PI's collaboration with Professor Marcus Andrade at the Federal University of Vicosa in Brazil. Project outcomes will be validated by means of extensive tests on real terrain databases.&lt;br/&gt;&lt;br/&gt;Broader Impacts: The simplest implication of this work will be more compact terrain compression algorithms. Thus, this research will allow larger terrain datasets to be accessed and processed by consumers in portable products such as GPS navigators. Easier access to large terrain databases will facilitate a probability distribution over possible realistic terrain, which in turn will allow optimizing operations such as multi-observer siting and path planning (the former has applications ranging from cell phone tower siting to surveillance, while the latter is important for energy conservation during transportation). Hydrological applications of better large terrain data include floodplain planning (flood damage in the US amounted to $50,000,000,000 during the 1990s). Through involvement of graduate students in the PI's research and through his graduate courses, this project will also help to increase the educated workforce in a foundational discipline that is important to American productivity and future economic prosperity.</AbstractNarration>
+    <MinAmdLetterDate>07/20/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/25/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117277</AwardID>
+    <Investigator>
+      <FirstName>W Randolph</FirstName>
+      <LastName>Franklin</LastName>
+      <EmailAddress>frankwr@rpi.edu</EmailAddress>
+      <StartDate>07/20/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rensselaer Polytechnic Institute</Name>
+      <CityName>Troy</CityName>
+      <ZipCode>121803522</ZipCode>
+      <PhoneNumber>5182766000</PhoneNumber>
+      <StreetAddress>110 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

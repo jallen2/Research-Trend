@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: CGV: Small: Designing an Adaptive Method for Solving Large Linear Systems of Equations in Two and Three-Dimensional Space</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>499999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In numerous engineering and scientific disciplines, ranging from-image processing to simulation of fluid dynamics, the state of a system is easy to describe in terms of local relations (e.g., at each point in the image, a pixel should be brighter/darker than its neighbors). Transforming these local relations into a global set of values (e.g., assigning a brightness value to each pixel that satisfies these relations) requires solving a large system of linear equations, called the Poisson system. The proposed research is motivated by the observation that although the linear system is global, with properties at one point in space affecting the solution at points far away, in many cases the details of the solution are only required at particular locations (e.g., when merging multiple images into a single panorama, a detailed solution is only needed near the seams). As a result, computational effort expended on estimating the details of the solution away from these regions of interest is wasted. Using this observation, this project aims to develop a new method for solving the Poisson system -- providing a way to adapt traditional techniques so that computation is only focused where it is needed, reducing both the memory requirements and running times by orders of magnitude. This will have significant impact across a broad range of disciplines, making it possible to find the desired part of the solution that satisfies the local relations in less time and with less memory than is currently possible. In addition to providing significant impact in computational sciences (where solving such systems is a standard part of many simulations), such an approach could also have an impact on science education, as it can enable real-time simulation of physical processes, making it possible for students to interactively explore the effect of different physical variables, thereby enriching intuitive understanding.&lt;br/&gt;&lt;br/&gt;The key observation enabling a multigrid solution of the Poisson equation over an adapted grid is that, in a Poisson system, long-distance effects are dominated by lower frequencies, so high-resolution components of the solution need only be computed in regions of interest. The approach investigated in this project will leverage this observation and extend traditional multigrid so that it can be implemented over quadtrees/octree that are adapted to the regions or interest. This enables replacing a space/time complexity that is determined by the dimension of the embedding space with a space/time complexity that is determined by the dimension of the manifold over which an accurate solution is desired. To implement such a solver, the traditional multigrid approach will be modified in two ways. First, to compensate for the fact that the coarser solution cannot be up-sampled to the finer resolutions, the solution of the linear system will be represented as a linear combination of functions at all levels of the hierarchy, not just the finest one. Second, instead of using traditional restriction and prolongation operators to transition between successive levels of the hierarchy, the solver will proceed by iterating through the levels of the hierarchy (fine-to-coarse and then coarse-to-fine as in a typical V- or W-cycle), relaxing the system within each level, and adjusting the constraints at the other levels, accounting for the components of the solution that have already been met. For example, in the prolongation phase, the coarser solution will be incorporated into the finer levels by adjusting the constraints, rather than updating the current estimate of the solution. The research will explore the general design of such a system, as well as domain-specific implementations developed in collaboration with domain experts. The resulting framework will facilitate deployment in the areas of physical simulation, computational fluid dynamics, surface reconstruction, and image processing. In these applications, the reduction in the number of degrees of freedom should result in a ~100-fold increase in efficiency and should enable the solution of very large-scale systems on commodity PCs; whereas previously these were relegated to the context of high performance distributed computing. Results will be made publicly available in the form documented C/C++ source code for constructing adapted quadtrees/octrees, formulating the system constraints, and evaluating the computed solution. Project web site (http://www.cs.jhu.edu/~misha/Code/AdaptiveMG/) provides access to further information and results.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422325</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Kazhdan</LastName>
+      <EmailAddress>misha@cs.jhu.edu</EmailAddress>
+      <StartDate>08/05/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Johns Hopkins University</Name>
+      <CityName>Baltimore</CityName>
+      <ZipCode>212182608</ZipCode>
+      <PhoneNumber>4105168668</PhoneNumber>
+      <StreetAddress>3400 N CHARLES ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

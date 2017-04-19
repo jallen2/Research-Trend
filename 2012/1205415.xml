@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CI-ADDO-EN: Enhancing and Supporting a Community Testbed</AwardTitle>
+    <AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2015</AwardExpirationDate>
+    <AwardAmount>362340</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Brassil</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will support the following development of the Seattle platform for running distributed experiments: 1) building a new virtual machine that executes native code using the Google Native Client (NaCl) sandbox and 2) providing sufficient support to ensure the testbed continues to be useable by the community.&lt;br/&gt;&lt;br/&gt;Adding native code execution will make it easier for researchers to run legacy code on the Seattle testbed.&lt;br/&gt;As a result, researchers and students can use code written elsewhere on this testbed via the Google Native Client and Google Native Client toolchain. The resulting code will execute computationally in the NaCl sandbox, but call into Seattle?s Repy V2 sandbox to safely perform system calls. An implementation of a POSIX-like API will be provided that is safe, portable, and adequate to execute most code without modification. Unmodified programs can be compiled and executed and their calls will be re-mapped to use this API. This will allow researchers to have a write-once, run anywhere API across thousands of diverse user devices.&lt;br/&gt;&lt;br/&gt;The project will also maintain the core software and servers for the Seattle testbed. While new feature requests are outside the scope of the project addressing serious bugs is within scope. In addition four new machines required to maintain reliable service to the Seattle community will be added.&lt;br/&gt;&lt;br/&gt;The resulting Seattle Testbed will:&lt;br/&gt; - Have sufficient uptime to continue as a valuable resource for educators and researchers;&lt;br/&gt; - Allow researchers to write C code in native client for performance critical measurements;&lt;br/&gt; - Provide facilities for legacy code execution.&lt;br/&gt;&lt;br/&gt;Broader Impact:&lt;br/&gt;The Seattle testbed has already had a positive impact in the educational and research communities. It is used to teach undergraduate networking, distributed systems, and security at approximately a dozen universities. Researchers use it as a platform to study networks, mobile devices, cloud environments, and large scale distributed systems under the varieties of access links, configurations, and loads encountered in the real world. This project supports these broader impacts by enhancing the support infrastructure and, via the new sandbox, broadens the range of code that can be used in teaching and experimentation.</AbstractNarration>
+    <MinAmdLetterDate>06/07/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/25/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1205415</AwardID>
+    <Investigator>
+      <FirstName>Justin</FirstName>
+      <LastName>Cappos</LastName>
+      <EmailAddress>jcappos@nyu.edu</EmailAddress>
+      <StartDate>06/07/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

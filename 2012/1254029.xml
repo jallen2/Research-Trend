@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Programmable Smart Machines</AwardTitle>
+    <AwardEffectiveDate>06/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2018</AwardExpirationDate>
+    <AwardAmount>466936</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Faster computers have enabled advances in science, commerce and daily life. Unfortunately, computers have also become complex and more and more difficult to program efficiently. This trend threatens the sustainability of future advances. Perhaps, however, we can draw upon biologically inspired learning techniques to shed light into a new model of hybrid computers, a ``Programmable Smart Machine'', that inherently learns from its past behavior to automatically improve its performance without the burden of more complex programming. Specifically this work explores the addition of a smart memory to a computer that gives it the abilities to learn, store and exploit patterns in past execution to improve its performance.&lt;br/&gt;&lt;br/&gt;Central to this work is the introduction of a new kind of global long-term machine learning based 'cache' that can be viewed as an auto-associative memory. The 'cache' is fed raw low-level traces of execution, from which it extracts and stores commonly occurring patterns that can be recognized and predicted. The core execution process is modified to send the trace to the 'cache' and to exploit its feedback to enact acceleration. The long-term goal is a system whose performance improves with the size and contents of the 'cache', which can be constructed with local associative memory devices and a shared online repository that is contributed to and leveraged by many systems. In this way a kind of shared computational history is naturally created and exploited.&lt;br/&gt;&lt;br/&gt;This work experimentally explores questions with respect to concretizing the ``Programmable Smart Machine'' model. What are useful and tractable traces for detecting patterns in execution? Can current unsupervised deep learning techniques detect, store and recall useful patterns? How can the predictions from the machine learning based memory be utilized to automatically improve performance? How big does the machine learning based memory need to be to yield useful predictions and acceleration? This work explores these questions using simulation and controlled workload experiments to create complete traces including all instructions, register values, and I/O events. Using the traces, at least two deep learning approaches will be evaluated with respect to the number and size of patterns they recognize. The resulting trained models will be integrated into the published auto-parallelization methodology that established preliminary results for this work. The simulation infrastructure, trace data and experimental results will be made publicly available to enable broader study.&lt;br/&gt;&lt;br/&gt;This work produces unique trace data of computer operation. The PI has found that visual and audio presentations of the preliminary data reflect the kind of intuition that computer scientists develop about how computers work. This aspect will be leveraged to develop both a seminar, ``From Bits to Chess to Supercomputers'' and an associated&lt;br/&gt;``Computing Intuition'' website that engages K-12 students with computing.</AbstractNarration>
+    <MinAmdLetterDate>04/08/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/21/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1254029</AwardID>
+    <Investigator>
+      <FirstName>Jonathan</FirstName>
+      <LastName>Appavoo</LastName>
+      <EmailAddress>jappavoo@bu.edu</EmailAddress>
+      <StartDate>04/08/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

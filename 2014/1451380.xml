@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Example-based Audio Editing</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2017</AwardExpirationDate>
+    <AwardAmount>150000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Contemporary users of technology interact with photos and video by editing them, but still use audio only passively, by capturing, storing, transmitting, and playing it back. These two different ways of interacting with contemporary media persist because current software tools make it very difficult for general users to manipulate audio. This project will develop novel technologies that will make audio editing and manipulation accessible to non-experts. These tools will allow a user to guide the software with audio editing requests by vocalizing the desired edits, providing before/after examples of the desired effects, or by presenting other recordings that exhibit the desired audio manipulations. For example, a user might issue a command to the software to equalize sounds by using a booming voice for more bass, or a nasal tone for middle frequencies; to add echoes by mimicking the desired effect by uttering "hello, hello, hello ..." with each successive "hello" in a lower volume; or to add reverb by providing examples of recordings with the desired reverb. Making it easier for general computer users to manipulate and edit audio recordings can impact many fields, such as medical bioacoustics, seismic signal analysis, underwater monitoring, audio forensics, surveillance applications, oil exploration probing, conversational data gathering, and mechanical vibration measuring. The goals of this project are to provide novel and practical audio tools that will allow non-expert practitioners from these fields to easily achieve required audio manipulations.&lt;br/&gt;&lt;br/&gt;The project will exploit modern signal processing and machine learning techniques to produce more intuitive interfaces that help people accomplish what are currently difficult audio editing tasks. This will include developing novel estimators to extract editing-intent parameters directly from audio recordings. The project will focus on three different editing operations: equalization, noise control, and echo/reverberation. A number of different approaches will be explored for each operation. For example, for equalization, one approach will have users select before and after sounds to identify their desired modification, and the system will then use spectral deconvolution estimations to directly compute the transfer function that maps the spectrum of the before sound to that of the after sound, and apply that function to the audio recording that the user is editing. For noise control, one approach will have users vocalize what types of noise to remove, and then match the user's input with the corresponding component in the recording that is being edited by using low-rank spectral decomposition. For reverb and echo, one approach will have users utter "one, two, three, ..." to illustrate the desired number of repetitions, temporal spacing, and attenuation between echoes, and then use voice detection measurements to extract the echo parameters, while correcting for vocalization errors such as random inconsistency in the echo spacing. The project will create new theories of how human guidance and automated audio-intelligent processing can work in tandem to solve fundamental and practical problems.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/21/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1451380</AwardID>
+    <Investigator>
+      <FirstName>Paris</FirstName>
+      <LastName>Smaragdis</LastName>
+      <EmailAddress>paris@illinois.edu</EmailAddress>
+      <StartDate>08/21/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems (CHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

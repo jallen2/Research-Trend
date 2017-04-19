@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BSF:2012171:Progress Guarantees for Hardware Transactional Memory</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>44996</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is funded as part of the United States-Israel Collaboration in Computer Science (USICCS) program. Through this program, NSF and the United States - Israel Binational Science Foundation (BSF) jointly support collaborations among US-based researchers and Israel-based researchers. Until recently, processors became faster every year, because basic circuit elements like transistors and wires became both smaller and faster. Around 2005, things changed. Every year, circuits elements continue to become smaller, but they no longer become faster, because they overheat. In response, processor manufacturers now put multiple processors on each chip. Instead of doing one task faster, these multicore architectures do many tasks in parallel. This revolution in computer architecture presents enormous challenges to software designers, who must now structure software to exploit increasing parallelism, not speed.&lt;br/&gt;&lt;br/&gt;Recently, Intel and IBM announced new multicore architectures with direct hardware support for transactions, a programming abstraction that promises to make parallel software much easier to design. The move to hardware transactions can bring about a fundamental positive change in the way we program multicore machines, and now is the time to understand the implications of such a shift. The proposed research will center around rethinking and redesigning basic synchronization structures such as locks, memory management, and a range of concurrent data structures such as heaps, hash tables, and skip lists, and on how progress guarantees for these data structures interact with issues such as memory management.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1331141</AwardID>
+    <Investigator>
+      <FirstName>Maurice</FirstName>
+      <LastName>Herlihy</LastName>
+      <EmailAddress>herlihy@cs.brown.edu</EmailAddress>
+      <StartDate>09/11/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: A Dual-VM Binary Code Reuse Based Framework for Automated Virtual Machine Introspection</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2020</AwardExpirationDate>
+    <AwardAmount>212179</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Virtual Machine Monitors (VMMs) and hypervisors have become a foundational technology for system developers to achieve increased levels of security, reliability, and manageability for large-scale computing systems such as cloud computing. However, when developing software at the VMM layer, developers often need to interpret the very low level hardware layer state and reconstruct the semantic meanings of the guest operating system events due to the lack of operating system level abstractions. This semantic gap problem has been a road block for a decade for many VMM level applications such as virtual machine introspection (VMI), malware analysis, and virtual machine management.&lt;br/&gt;&lt;br/&gt;This research seeks to design and develop new approaches, practical techniques, and efficient implementations to automatically bridge the semantic gap for VMM layer programs including VMI. In particular, a dual-VM, binary code reuse based framework is formulated and applied to automatically bridge the semantic gap. Such a framework directly enables a large set of legacy utility software to automatically become VMI software. Meanwhile, the research includes developing a set of practical enabling techniques such as memory exclusive kernel version inference, and integrates these techniques with efficient implementations from binary rewriting. The results of this research are to significantly increase the productivity of virtualization software development as well as the security of virtualization software, and also open new opportunities for automated system administration, intrusion detection, and incident response.</AbstractNarration>
+    <MinAmdLetterDate>05/11/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/30/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1453011</AwardID>
+    <Investigator>
+      <FirstName>Zhiqiang</FirstName>
+      <LastName>Lin</LastName>
+      <EmailAddress>zhiqiang.lin@utdallas.edu</EmailAddress>
+      <StartDate>05/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Dallas</Name>
+      <CityName>Richardson</CityName>
+      <ZipCode>750803021</ZipCode>
+      <PhoneNumber>9728832313</PhoneNumber>
+      <StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

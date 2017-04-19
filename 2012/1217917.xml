@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Scaling the Compute Efficiency of General-Purpose Processors</AwardTitle>
+    <AwardEffectiveDate>07/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2016</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The growth of the microprocessor industry has led to progress in diversified computing applications, such as health care, education, security, and communications. However, energy consumption has emerged as a barrier to the continued success of the American semiconductor industry. The inability to scale chip voltages at the historic rate has created a difficult design dilemma referred to as dark silicon: more transistors can fit on a chip, but a growing fraction will not be able to be used due to power dissipation limits. To scale performance in this landscape, fundamental increases in the computational efficiency of processors is required to get much more performance for much less energy. To scale computational efficiency, this work develops an architectural approach referred to as Composite Cores. The proposed architecture brings the notion of heterogeneity from between different cores in a processor to within a core. &lt;br/&gt;&lt;br/&gt;Each composite core will consist of several energy efficient engines that have been customized to particular execution scenarios found in general-purpose applications. A dynamic management system will perform fine-grain mapping of application segments to the most efficient engine. Hardware mechanisms to ensure delay-free migration of program state provide smooth transitions from engine to engine. By dynamically partitioning an application across a set of customized engines, a large portion of the efficiency gains afforded by hardware accelerators on regular codes can be realized on general-purpose applications. The broader impact of this work is that green computing is recognized as one of the most important challenges in the semiconductor industry and more broadly in Computer Science. Composite cores enable general-purpose processors to reach new levels of energy efficiency while not sacrificing the ability to execute arbitrary code.</AbstractNarration>
+    <MinAmdLetterDate>06/25/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/25/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217917</AwardID>
+    <Investigator>
+      <FirstName>Reetuparna</FirstName>
+      <LastName>Das</LastName>
+      <EmailAddress>reetudas@umich.edu</EmailAddress>
+      <StartDate>06/25/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Scott</FirstName>
+      <LastName>Mahlke</LastName>
+      <EmailAddress>mahlke@eecs.umich.edu</EmailAddress>
+      <StartDate>06/25/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

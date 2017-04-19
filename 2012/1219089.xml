@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Collaborative Research: Lighthouse: Resource-Aware Advisor for High-Performance Linear Algebra</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>263000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research will study ways to ease the production and&lt;br/&gt;use of high-performance matrix algebra software. Matrix algebra&lt;br/&gt;calculations constitute the most time-consuming part of simulations&lt;br/&gt;in diverse fields, and lowering the runtimes of those computations&lt;br/&gt;can have a significant impact on overall application performance. The&lt;br/&gt;process of converting matrix algebra from algorithm to high-quality&lt;br/&gt;implementation is, however, a complex one. At each step, the code&lt;br/&gt;developer is confronted with a myriad of possibilities, many requiring&lt;br/&gt;expertise in numerical computation, mathematical software, compilers,&lt;br/&gt;and computer architecture. In response to these difficulties, the PIs&lt;br/&gt;have developed a prototype taxonomy implementation entitled Lighthouse,&lt;br/&gt;which is a guide to the linear system solver routines from the software&lt;br/&gt;package LAPACK. It is the first framework that combines a matrix algebra&lt;br/&gt;software ontology with code generation and tuning capabilities. Its&lt;br/&gt;interface is designed for users across a spectrum of disciplines, career&lt;br/&gt;levels, and programming experience.&lt;br/&gt;&lt;br/&gt;The PIs will dramatically extend the Lighthouse framework in a number of new directions. &lt;br/&gt;First, they will construct a general taxonomy of software that can be used to build&lt;br/&gt;highly-optimized mathematical applications. The taxonomy will initially&lt;br/&gt;provide an organized ontology of software components for high-performance&lt;br/&gt;matrix algebra and later other numerical software from a variety of&lt;br/&gt;problem domains. It will serve as a guide to practitioners seeking&lt;br/&gt;to learn what is available for their mathematical programming tasks,&lt;br/&gt;how to use it, and how the various parts fit together. Second, the PIs&lt;br/&gt;will apply a combination of source code analysis and machine learning&lt;br/&gt;techniques to fully automate the generation of parameterized models that,&lt;br/&gt;given representative inputs and a simple architecture description, can be&lt;br/&gt;evaluated to identify methods from various libraries that best reflect&lt;br/&gt;the user's resource and performance requirements. This automation is&lt;br/&gt;critical for ensuring that the taxonomy is comprehensive enough to be&lt;br/&gt;useful and that it accurately reflects the features and performance&lt;br/&gt;of the latest versions of numerical libraries. Finally, the PIs will&lt;br/&gt;advance the state-of-the-art in tuning tools by improving some of the&lt;br/&gt;tools included in the taxonomy, broadening their ranges of functionality&lt;br/&gt;in terms of problem domains and languages. This project will produce&lt;br/&gt;the following impacts: greater performance by applications, enabling&lt;br/&gt;both more discovery with available computing resources and greater&lt;br/&gt;productivity of application programmers; greater understanding of the&lt;br/&gt;interaction between architecture and algorithms; and an educational tool&lt;br/&gt;for future computational scientists.</AbstractNarration>
+    <MinAmdLetterDate>08/31/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/03/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1219089</AwardID>
+    <Investigator>
+      <FirstName>Elizabeth</FirstName>
+      <LastName>Jessup</LastName>
+      <EmailAddress>jessup@cs.colorado.edu</EmailAddress>
+      <StartDate>08/31/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

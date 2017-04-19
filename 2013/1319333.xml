@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR:Small: Scalable Transaction Management and Consistency Models for Cloud Data Storage Systems</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>461236</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this project is to develop scalable techniques and system architectures for transaction management in cloud computing systems. In the recent years, various data management systems based on key-value storage models have emerged to address the scalability requirements of cloud based applications. However, these systems do not provide rich data management primitives, such as multi-row serializable transactions, often needed in many application domains. This project is investigating scalable transaction management techniques for key-value based data storage systems with the aim of supporting multi-row transactions with ACID (atomicity, isolation, durability, consistency) properties in such systems. For scalability, this investigation is based on utilizing the snapshot isolation model. Additional issues arise in supporting transaction management for geographically replicated data across different cloud datacenters. Considering that weaker consistency models can be adequate in certain applications, this project aims to develop techniques for supporting different transactional consistency models such as snapshot isolation, causal consistency, serializability, and session-level consistency for geo-replicated data in cloud applications. Moreover, the goal of this project is to exploit the semantics of data operations for enhanced performance and availability. &lt;br/&gt;&lt;br/&gt;This project aims at enabling the use of key-value based cloud data storage models for a large-class of applications with various different data consistency requirements. The lack of transaction support with strong consistency models in cloud computing systems has been an obstacle in adoption of such systems in many critical application domains. A potentially transformative impact of this project will be towards enabling a broader class of applications to utilize cloud computing systems.</AbstractNarration>
+    <MinAmdLetterDate>09/09/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/04/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319333</AwardID>
+    <Investigator>
+      <FirstName>Anand</FirstName>
+      <LastName>Tripathi</LastName>
+      <EmailAddress>tripathi@cs.umn.edu</EmailAddress>
+      <StartDate>09/09/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

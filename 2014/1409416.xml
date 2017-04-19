@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Medium: Availability-Consistency Tradeoffs in Key-Value and NoSQL Storage Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>584508</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Key-value/NoSQL storage systems are a key component of the cloud computing revolution. Today's key-value/NoSQL storage systems lie at different points on the tradeoff spectrum of availability (i.e., fast reads and writes) vs. data consistency (across multiple clients) vs. partition-tolerance. This project will better characterize what is achievable along this spectrum, to make these systems dynamically adapt along the spectrum to meet application requirements, and to benchmark the actual availability and consistency achieved by real systems under real conditions.&lt;br/&gt;&lt;br/&gt;The project will follow two synergistic thrusts. The first thrust will use probabilistic models for availability, consistency, and partitions to analyze the tradeoffs among these. Then it will design adaptive techniques to meet an SLA (Service Level Agreement) or SLO (Service Level Objective) which specifies either an availability constraint or a consistency constraint, while optimizing the other metric. Finally, these techniques will be implemented in some of the leading key-value/NoSQL storage systems in use today in industry. Our second thrust will apply the large body of formal verification research to key-value/NoSQL systems. The work herein includes use of a formal modeling language to specify models for key-value/NoSQL stores, and use of standard as well as statistical model-checking to analyze and characterize the behavior of these systems.&lt;br/&gt;&lt;br/&gt;This work will imbue existing key-value/NoSQL storage systems with the ability to adapt to the tradeoffs between consistency, availability, and partition-tolerance, as a function of provider and customer requirements, at run-time. It will lead to better SLAs and SLOs that combine both consistency models and availability models in a practical and achievable way. Thus, the project will directly impact the large developer and user communities of key-value/NoSQL storage systems. The project will produce open software and meaningful datasets.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1409416</AwardID>
+    <Investigator>
+      <FirstName>Jose</FirstName>
+      <LastName>Meseguer</LastName>
+      <EmailAddress>meseguer@cs.uiuc.edu</EmailAddress>
+      <StartDate>09/11/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nitin</FirstName>
+      <LastName>Vaidya</LastName>
+      <EmailAddress>nhv@illinois.edu</EmailAddress>
+      <StartDate>09/11/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Indranil</FirstName>
+      <LastName>Gupta</LastName>
+      <EmailAddress>indy@illinois.edu</EmailAddress>
+      <StartDate>09/11/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

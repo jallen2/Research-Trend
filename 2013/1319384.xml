@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Inference and Checking of Context-sensitive Pluggable Types</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>315058</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Pluggable types allow programmers to extend a language's type system to enhance program correctness and program security. Unfortunately, pluggable types require annotations in the program, and therefore, place a burden on programmers. This annotation burden is one reason why pluggable types have not been widely adopted in practice. This project will develop techniques that will allow programmers to realize the benefits of pluggable types without incurring the annotation burden. One concrete application (and thrust of the project) tackles security and privacy of Android apps.&lt;br/&gt;&lt;br/&gt;Pluggable types will become more important, as JSR 308 (Type Annotation Specification) becomes part of Java 8 in 2014. The PI has developed a framework for inference and checking of context-sensitive pluggable types. The framework is instantiated to nontrivial systems and has inferred and checked close to a million lines of Java code in a modular and compositional manner. The key innovations in the framework are (i) support for context sensitivity, which allows instantiation to precise type systems such as Purity and Ownership, and (ii) a scalable inference engine, which allows type inference with zero or very small number of programmer annotations. The key insight is that viewpoint adaptation, a concept from Universe types, elegantly enables context sensitivity, both in the specification of the type system and in the type inference analysis. The project will advance the framework towards applications in concurrency, sustainable computing and security. Notably, the project will leverage the framework towards modular and compositional information flow analysis for Android; this will help address standing issues such as (i) the large Android library, and (ii) implicit information flow.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319384</AwardID>
+    <Investigator>
+      <FirstName>Ana</FirstName>
+      <LastName>Milanova</LastName>
+      <EmailAddress>milanova@cs.rpi.edu</EmailAddress>
+      <StartDate>07/29/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rensselaer Polytechnic Institute</Name>
+      <CityName>Troy</CityName>
+      <ZipCode>121803522</ZipCode>
+      <PhoneNumber>5182766000</PhoneNumber>
+      <StreetAddress>110 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

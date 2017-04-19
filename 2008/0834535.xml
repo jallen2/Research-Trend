@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR - EHCS(EHS), TM: Abstract Interpretation-Based Analysis and Verification for Critical Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern embedded critical systems are generally interactive and reactive, i.e. they are programs that interact with mechanical or electronic devices such as sensors and actuators. Errors in safety-critical and mission-critical programs (such as in the aviation arena) can be catastrophic. This research proposal identifies several areas in which the static analysis of critical systems using abstract interpretation can ensure the correctness of various aspects of critical systems. There are important issues in the analysis of critical systems for which abstract interpretation provides a promising approach. This research pursues analysis of liveness and responsiveness properties of critical systems. Most present-day static analyzers analyze safety properties, stating that no unwanted error can ever appear during any program execution. Recent work on termination has shown that abstract interpretation can also be useful in proving liveness properties like termination. Such liveness properties state that something good must eventually happen when the program is executed. In the context of reactive critical systems, an important liveness property is responsiveness: the program should react to an external event in a timely fashion. Abstract interpretation has proven to be a powerful method for verifying the safety properties of programs. On the other hand, temporal logic and its related methods provide ways for dealing with liveness properties of programs. An important aspect of the work proposed here is the integration of the two approaches in order to reason formally about a wide class of properties incorporating both safety and liveness. Furthermore, existing verification methods using abstraction are often restricted to finitary abstractions, i.e. abstractions into a finite domain. As another aspect of the proposed work, these verification methods will be extended to infinite domains. The research results are expected to have impact in a number of diverse areas. First, the new methodologies developed in the area of abstract interpretation as part of this research will provide the theoretical basis for future uses of static analysis to ensure the correctness of critical and embedded systems. Second, we anticipate the construction of software will be performed to extend the capability of current analyzers used in industry, such as the ASTRÉE system, to check increasingly important properties ? such as liveness and responsiveness of critical systems. Additionally, the proposed research will involve students at both the graduate and senior undergraduate level. Finally, the techniques developed will become part of the topics covered graduate courses in abstraction interpretation and verification.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/09/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0834535</AwardID>
+    <Investigator>
+      <FirstName>Patrick</FirstName>
+      <LastName>Cousot</LastName>
+      <EmailAddress>pcousot@cs.nyu.edu</EmailAddress>
+      <StartDate>08/25/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Amir</FirstName>
+      <LastName>Pnueli</LastName>
+      <EmailAddress>amir@cs.nyu.edu</EmailAddress>
+      <StartDate>08/25/2008</StartDate>
+      <EndDate>03/09/2010</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Benjamin</FirstName>
+      <LastName>Goldberg</LastName>
+      <EmailAddress>goldberg@cs.nyu.edu</EmailAddress>
+      <StartDate>08/25/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7903</Code>
+      <Text>EHCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

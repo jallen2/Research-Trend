@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Large: Domain Specific Language Infrastructure for Biological Simulation Software</AwardTitle>
+    <AwardEffectiveDate>07/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2016</AwardExpirationDate>
+    <AwardAmount>1770669</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Biophysics simulation helps biomedical researchers understand the physical constraints on biological systems as they engineer novel drugs, synthetic tissues, medical devices, and surgical interventions. However, writing high-performance biophysics simulation software for modern parallel computer hardware is a challenging problem. This research project will solve this problem by developing a new generation of biophysics simulation software that is optimized for complex high-performance computer hardware. The project will develop this software using a family of domain specific languages (DSLs). A DSL is a concise programming language with a syntax that is designed to naturally express the semantics of a narrow problem domain. Biophysics simulation DSLs will be used to improve the productivity of simulation software developers and the efficiency and performance of the resulting software by enabling the DSL implementation to take advantage of high-level domain-specific optimizations that are inaccessible to general-purpose compilers and general-purpose languages. The simulation technology built from the family of biophysics simulation DSLs will be used to solve the important biological problems of developing new neuroprosthetics, combating viral infections, effective drug discovery, and understanding drug side effects. In addition, this research will expose students at the graduate and undergraduate level to the role that domain-specific languages play in computing in general and biophysics simulation in particular.&lt;br/&gt;&lt;br/&gt;The biophysics simulation DSLs will be developed with a general DSL infrastructure. This infrastructure will make use of polymorphic embeddings, multi-stage compilation, and parallel execution patterns to implement the high-level, implicitly parallel DSLs in a common host language. The DSL infrastructure will simplify DSL development by providing a reusable framework for parallelism and domain-specific optimization. When completed, this infrastructure will allow scientists in other application domains to create and use their own high-performance DSLs, in the same manner that this research uses the infrastructure to develop DSLs for biophysics simulation. The result will be a new generation of DSLs in a number of domains that provide high-productivity application development and high-performance on modern heterogeneous parallel hardware such as multicore microprocessors, GPUs and distributed systems.</AbstractNarration>
+    <MinAmdLetterDate>07/13/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/19/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1111943</AwardID>
+    <Investigator>
+      <FirstName>Patrick</FirstName>
+      <LastName>Hanrahan</LastName>
+      <EmailAddress>hanrahan@cs.stanford.edu</EmailAddress>
+      <StartDate>07/13/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vijay</FirstName>
+      <LastName>Pande</LastName>
+      <EmailAddress>pande@stanford.edu</EmailAddress>
+      <StartDate>07/13/2011</StartDate>
+      <EndDate>05/19/2016</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Russ</FirstName>
+      <LastName>Altman</LastName>
+      <EmailAddress>Russ.Altman@stanford.edu</EmailAddress>
+      <StartDate>07/13/2011</StartDate>
+      <EndDate>05/19/2016</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Oyekunle</FirstName>
+      <LastName>Olukotun</LastName>
+      <EmailAddress>kunle@stanford.edu</EmailAddress>
+      <StartDate>07/13/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Aiken</LastName>
+      <EmailAddress>aiken@cs.stanford.edu</EmailAddress>
+      <StartDate>07/13/2011</StartDate>
+      <EndDate>05/19/2016</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7925</Code>
+      <Text>LARGE PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

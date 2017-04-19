@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Efficient Solution of Advection Dominated PDE Constrained Optimization Problems</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>264825</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The aim of this proposal is to develop, analyze and implement optimization&lt;br/&gt;algorithms that integrate multilevel iterative solvers, adaptive mesh refinement methods, &lt;br/&gt;and so-called `all-at-once' methods for the solution of optimization problems &lt;br/&gt;governed by advection dominated partial differential equations (PDEs). &lt;br/&gt;The presence of strong advection in the governing PDE creates many challenges for&lt;br/&gt;the numerical solution of these optimization problems, beyond the challenges already&lt;br/&gt;encountered in the numerical simulation of single advection dominated PDEs and beyond&lt;br/&gt;the many difficulties in solving PDE constrained optimization problems with weak or no advection. &lt;br/&gt;One reason for the additional challenges arising in the optimization context is the presence of the &lt;br/&gt;so-called adjoint equation, which is also an advection dominated PDE, but with advection &lt;br/&gt;given by the negative of the advection in the governing equation. This can cause significant &lt;br/&gt;and perhaps unexpected differences in the behavior of discretization schemes and iterative &lt;br/&gt;solvers when they are extended from the application to single advection dominated PDEs &lt;br/&gt;to the solution of PDE constrained optimization problems. This research will analyze &lt;br/&gt;the sources of these differences, their impact on the quality of computed solution&lt;br/&gt;and on the efficiency of solution algorithms. Another goal is to devise modifications of &lt;br/&gt;multilevel iterative solvers, adaptive mesh refinement methods, and so-called KKT solvers to&lt;br/&gt;make them robust against the presence of advection.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Many important real-life applications such as the shape optimization of technological devices, &lt;br/&gt;the optimal control of systems, and the identification of parameters in environmental&lt;br/&gt;processes lead to optimization problems governed by systems of advection dominated&lt;br/&gt;partial differential equations. This research addresses mathematical and algorithmic&lt;br/&gt;issues that are crucial for the reliable and efficient solution of these problems. It will lead&lt;br/&gt;to a better theoretical understanding of the solution properties of these optimization problems &lt;br/&gt;as well as to new computational tools for their reliable and efficient solution. Furthermore, &lt;br/&gt;it will provide training opportunities for students in an important area of computational science.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/13/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915238</AwardID>
+    <Investigator>
+      <FirstName>Matthias</FirstName>
+      <LastName>Heinkenschloss</LastName>
+      <EmailAddress>heinken@rice.edu</EmailAddress>
+      <StartDate>09/13/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

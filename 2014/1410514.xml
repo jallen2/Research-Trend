@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Machine Learning Framework for Acceleration of Materials Prediction</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>372000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03070000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Materials Research</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daryl W. Hess</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>NON-TECHNICAL SUMMARY&lt;br/&gt;&lt;br/&gt;Computational research has been playing an increasingly important role in the development of new materials. The central aim of this project is to create a theoretical framework and computational tools capable of speeding up the prediction of new synthesizable materials by orders of magnitude. The efficiency and the reliability of the method will be achieved by combining two bio-inspired algorithms. A learning "neural network" scheme will be implemented in the "Module for Ab Initio Structure Evolution" package which presently has the capability to perform global structure optimization with an evolutionary algorithm. The introduced computational approach will be applicable to a broad range of material classes and expected to accelerate the exploration of complex systems. A particular focus will be placed on the development of metal oxide catalysts and metal-based battery electrodes for energy-related applications.&lt;br/&gt;&lt;br/&gt;Artificial neural networks are a powerful tool used in many research areas for dealing with classification, control, and interpolation problems in multi-dimensional spaces. The application of the method to solid state problems requires a formalism specifically designed for building and training neural networks to map the potential energy profiles of given atomic configurations. Namely, an automated algorithm should be able to parse an arbitrary atomic configuration into a suitable set of input parameters, train the neural network on a relevant dataset, and monitor the ability to produce accurate total energy and atomic forces during simulations. The PI's preliminary work and the recent research in the field have shown that, compared to widely used quantum mechanical and classical models, neural networks have the potential to provide a good balance between accuracy and efficiency.&lt;br/&gt;&lt;br/&gt;The project will include multiple educational activities to foster high-school and undergraduate students' interest in science and mathematics. Students will have the opportunity to learn about computational methods and take part in the research under PI's supervision. A part of the outreach work will be done through Binghamton University's Evolutionary Studies program which brings together students and researchers from biological, physics, and computer sciences.&lt;br/&gt;&lt;br/&gt;TECHNICAL SUMMARY&lt;br/&gt;&lt;br/&gt;This award supports computational and theoretical research and education directed at advancing analytical and computational techniques for materials discovery. Computational input can be particularly valuable at the initial stages of materials development providing libraries of synthesizable candidates and possible synthesis conditions. The success of determining new stable materials depends on the careful global optimization of crystal structures and the accurate evaluation of their thermodynamic stability. Traditionally, the two challenges have been addressed separately. &lt;br/&gt;&lt;br/&gt;This project will combine a neural network method with an evolutionary algorithm to automate and accelerate compound prediction. The neural network formalism will be generalized to describe a wide range of interatomic interactions with near ab initio accuracy while scaling linearly with the system size. Preliminary tests have shown the ability of such models to capture subtle many-body effects. The developed computational approach is expected to accelerate the exploration of systems known to exhibit particularly complex structures, such as metal oxide catalysts or metal-based battery electrodes. Neural network models will be trained, in particular, on already generated databases containing thousands of entries. Analysis of the constructed neutral-network-based interpolators will advance the fundamental understanding of the bonding mechanisms for future rational materials design. &lt;br/&gt;&lt;br/&gt;The compound prediction tool offering a combination of two bio-inspired algorithms will be released as an open-source code. One of the objectives is to create a shared online resource with full access to all built interatomic models and all ab initio data used for training the neural networks. Such a platform will ensure reuse of generated density functional theory data and reduce the redundancy of expensive ab initio calculations. Validation of the developed predictive approach will be carried out in close collaborations with Chemistry and Engineering experimental groups at Binghamton University. The project will also include multiple educational activities to foster high-school and undergraduate students' interest in science and mathematics. Students will have the opportunity to learn about computational methods and take part in the research under PI's supervision. A part of the outreach work will be done through Binghamton University's Evolutionary Studies program which brings together students and researchers from biological, physics, and computer sciences.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/03/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1410514</AwardID>
+    <Investigator>
+      <FirstName>Alexey</FirstName>
+      <LastName>Kolmogorov</LastName>
+      <EmailAddress>kolmogorov@binghamton.edu</EmailAddress>
+      <StartDate>07/24/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Binghamton</Name>
+      <CityName>BINGHAMTON</CityName>
+      <ZipCode>139026000</ZipCode>
+      <PhoneNumber>6077776136</PhoneNumber>
+      <StreetAddress>4400 VESTAL PKWY E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1765</Code>
+      <Text>CONDENSED MATTER &amp; MAT THEORY</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>6892</Code>
+      <Text>CI REUSE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7237</Code>
+      <Text>NANO NON-SOLIC SCI &amp; ENG AWD</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7569</Code>
+      <Text>CYBERINFRASTRUCTURE/SCIENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPS: Breakthrough: Cyber-Physical System Securitization by Responsibility Analysis</AwardTitle>
+    <AwardEffectiveDate>01/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Corman</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Programs describe successions of actions to be performed by computers. Unfortunately programmers make errors which are exploited by attackers to divert program actions from their goals. Accordingly, program actions must be checked to be always safe and secure. Program security starts with the definition of which actions might be insecure and when they are bad. Insecure actions cannot be always forbidden as for safety. This project formalizes the concept of responsibility analysis. Responsibility analysis aims at determining automatically which program entities cause bad insecure actions to happen. This is possible by examining the program text only, because this text precisely describes all possible actions that can happen when later running a program. &lt;br/&gt;&lt;br/&gt;Based on an operational semantics of programs, the project formally defines semantic responsibility as the most precise way of locating the possible origin of bad actions. A sound static responsibility analysis will be designed by abstract interpretation of this operational semantics, on top of traditional safety analyses of C programs. A prototype static responsibility analyzer will be built to check for the security of cyber-physical systems (given bad actions and a security policy). The result of the analysis will be used to check that all entities responsible for bad actions are duly authorized (or the security policy is wrong). This tool will help programmers to soundly cure potential vulnerabilities at program design time as opposed to present-day post-mortem remedies after those attacks on programs that get detected. This would be a breakthrough at the confluence of cyber security, privacy, and cyber-physical systems.</AbstractNarration>
+    <MinAmdLetterDate>09/09/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/09/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1446511</AwardID>
+    <Investigator>
+      <FirstName>Patrick</FirstName>
+      <LastName>Cousot</LastName>
+      <EmailAddress>pcousot@cs.nyu.edu</EmailAddress>
+      <StartDate>09/09/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8234</Code>
+      <Text>CPS-Breakthrough</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

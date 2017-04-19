@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SBIR Phase I: Source-code recovery from machine code for security analysis and enforcement</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2014</AwardExpirationDate>
+    <AwardAmount>150000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07070000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Peter Atherton</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The innovation in this project is to develop software to recover equivalent C source-code programs from commercial off-the shelf machine-code programs compiled from any programming language, and then analyze the code for security purposes. Optional run-time checks for security enforcement can be injected in the output code. The output source-code is functional: it can be modified, recompiled, and executed as required. Because of extensive executable analyses, the recovered source-code is readily comprehensible with features like symbols, types, functions, arguments, return values, and control-flow constructs. Alternately, the mechanism can recover the intermediate representation of a well-known open-source compiler, allowing machine-code analyses with source-code compiler methods. This is a significant advancement in bridging the gap between machine-code and source-code analysis. The current prototype has been successfully evaluated with executables compiled from over two million lines of source code. Additional research is being conducted in two directions. First, methods are being devised to detect interesting features in malicious software like the underlying communication mechanism, input/output channels and information flow. These methods are enhanced by innovations in analyzing memory locations in machine code, rather than just registers, yielding greater analysis precision. Second, several hybrid methods are being explored to statically analyze obfuscated executables, optionally aided by dynamic information.&lt;br/&gt;&lt;br/&gt;The broader/commercial impact of the innovation is a dramatic improvement in the speed, efficiency and efficacy in countering cyber threats, bringing a game-changing capability in cybersecurity for both desktop and mobile platforms. President Obama recently cited cyber-threats as one of our most serious economic and national security challenges. Cyber-crime costs the US economy billions of dollars and poses a direct threat to our national infrastructure and financial institutions. The losses from theft of intellectual property alone cost American companies around $250 Billion per year. The innovation has the potential to enable orders-of-magnitude productivity improvements across the cyber security spectrum including malware analysis, exposing undesirable behavior in untrusted code, detecting vulnerabilities from proprietary software, and enforcing security. The mechanism being developed results in a precise discovery of features and robust defense measures against the threats. It also enables modification and maintenance of legacy software whose source code has been lost. Consequently, the mechanism enables a substantially faster, automated, and more detailed analysis of cyber-threats resulting in a more robust defense capability. This ability directly contributes to minimizing losses to the US economy. Better protection of our IP and trade secrets also contributes to minimizing American job losses.</AbstractNarration>
+    <MinAmdLetterDate>06/17/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/17/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1315099</AwardID>
+    <Investigator>
+      <FirstName>Aparna</FirstName>
+      <LastName>Kotha</LastName>
+      <EmailAddress>kotha.aparna@gmail.com</EmailAddress>
+      <StartDate>06/17/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SecondWrite</Name>
+      <CityName>Bethesda</CityName>
+      <ZipCode>208141836</ZipCode>
+      <PhoneNumber>2406838966</PhoneNumber>
+      <StreetAddress>5802 Grosvenor Lane</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

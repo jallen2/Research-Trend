@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>HCC: Small: Incentive-Compatible Machine Learning</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computational mechanism design has been highly successful in providing a theoretical and practical framework for coordinated decision making in systems with multiple, self-interested agents. A key property introduced within mechanism design theory is that of "incentive-compatibility," namely that it is an agent's best interest to truthfully reveal private information about its preferences for different outcomes even in settings of strategic interdependence. However, there has been relatively little attention given to the use of incentive mechanisms for the purpose of coordinating computational processes, where the inputs to the computation are distributed across agents. The focus of this project is on the problem of incentive-compatible learning, where the private information of agents represents "training data" and the design goal is to allow the system to collectively learn from the distributed experience that this information represents.&lt;br/&gt;&lt;br/&gt;The research seeks mechanisms that promote learning with self-interested agents that is just as effective as it would be with cooperative agents, and to otherwise understand when this is not possible. It will provide a new bridge between mechanism design theory and computer science. The research is centered around three themes: (1) incentive-compatible reinforcement learning, where the design goal is to quickly learn an optimal policy for the entire state space when each agent has private information about the rewards for some subset of the state space and may misreport them; (2) incentive-compatible supervised learning, where each agent has private knowledge of a set of labeled training examples and the design goal is to learn a hypothesis that minimizes global error despite agents' ability to misreport training data; (3) incentive-compatible information aggregation, where each agent has a subjective belief about the probability of some uncertain events and participates in a mechanism to capitalize on its information, and the design goal is to achieve online aggregation of information despite the intrinsic self-interest of agents. This project has the potential for broad spillover benefits to societal, engineering, and business settings where learning is performed with self-interested agents.</AbstractNarration>
+    <MinAmdLetterDate>08/22/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/22/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915016</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Parkes</LastName>
+      <EmailAddress>parkes@eecs.harvard.edu</EmailAddress>
+      <StartDate>08/22/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yiling</FirstName>
+      <LastName>Chen</LastName>
+      <EmailAddress>yiling@seas.harvard.edu</EmailAddress>
+      <StartDate>08/22/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Harvard University</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021385366</ZipCode>
+      <PhoneNumber>6174955501</PhoneNumber>
+      <StreetAddress>1033 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7932</Code>
+      <Text>COMPUT GAME THEORY &amp; ECON</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

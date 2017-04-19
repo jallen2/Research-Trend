@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Managing Spatial Data in a Distributed Environment</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>508000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Advances in distributed computing enable the pooling of resources located across the Internet to provide a scalable, and robust solution for many computational needs. Distributed key-value store systems like Google's BigTable and Amazon's Dynamo allow the indexing and retrieval of a large amount of data in parallel, while distributed computing frameworks like MapReduce and Pregel provide a fault-tolerant way to process a large amount of data using distributed computing resources. These distributed computing techniques are applied to the spatial database domain. Specifically, issues involved in storing and retrieving spatial data in a distributed environment, as well as, processing spatial queries in parallel using a distributed computing framework are investigated. All of these methods rely on variants of hashing in order to obtain near constant time behavior in distributing the data and it is preferable that they are as close as possible to being distance-preserving. Specifically, spatial objects in proximity should have similar hash values. In particular, it is desirable to be able to estimate how far apart two objects are (within a given error bound) by just considering their hash values. Such hash functions enable performing an approximate range query using simple hash table lookup operations. Other issues involve the parallel processing of spatial queries. Some easy examples are the distance join query which finds pairs (p,q) of objects (from two different sets) where the distance between p and q is less than a given threshold, or computing the shortest paths from each node to every other node in a road network. More difficult are the spatial problems which can not be easily decomposed into multiple tasks running in parallel, e.g., the distance semi-join query, and network Voronoi diagram construction. This requires developing a generic method to traverse a graph or a tree in parallel to solve these query problems. Ideally, the method should require little or no communication between parallel tasks which will be accomplished by allowing the parallel tasks to produce redundant results which can then be pruned.&lt;br/&gt;&lt;br/&gt;The developed tools will help improve the robustness and scalability for spatial data management. The parallel query processing results can be useful for query problems which requires traversing a tree or a graph which are often spatially embedded. Having a method to traverse a graph or a tree in parallel that requires little or no communication enables processing of many types of spatial queries using distributed computing resources where currently communication can be very costly. Specifically, it can be expected that the tools will enable spatial applications such as online mapping, computer aided design, online gaming and scientific simulations to handle terabytes of spatial data while it is impossible or inefficient to do with the current technologies. This is of utility to all organizations that process spatial data and attempts will be made to use it in some government agencies. In addition, the project provides educational and research opportunities for graduate and undergraduates. The project web site (http://www.cs.umd.edu/~hjs/distributed-spatial.html) will be used to disseminate results.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/10/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320791</AwardID>
+    <Investigator>
+      <FirstName>Hanan</FirstName>
+      <LastName>Samet</LastName>
+      <EmailAddress>hjs@umiacs.UMD.EDU</EmailAddress>
+      <StartDate>09/06/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

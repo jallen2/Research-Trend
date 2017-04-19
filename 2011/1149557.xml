@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER:An Introspective Architecture for Manycore Performance and Power Debugging</AwardTitle>
+    <AwardEffectiveDate>03/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2018</AwardExpirationDate>
+    <AwardAmount>400157</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Rapid advances in transistor technology combined with innovations in computer architecture have led to manycore processors, which can deliver significantly higher software performance. Getting scalable performance (for example, eight times speedup in program execution time on an eight-core processor) is a challenging task even for experienced software developers. This is because parallel programs can suffer from performance problems that either do not exist in sequential applications or that are aggravated by parallel execution. Also, power consumption of manycore applications is a crucial factor limiting their widespread adoption. Unfortunately, analyzing manycore applications for performance and power using just software tools presents challenges due to programs written in multiple languages and source files, libraries in binary-only form, and so on. An efficient hardware-software framework, that can offer insight into performance and power profiles of software execution and subsequently facilitate remediation mechanisms to overcome the observed program bottlenecks, would be a valuable step toward realizing the promise of manycore computing. &lt;br/&gt;&lt;br/&gt;This research project explores a transformative hardware-software cooperative solution, where the software receives an introspective look into the hardware behavior and dynamically deploys remediation mechanisms to boost performance and lower the power consumption in manycore applications. This hardware-software approach is drastically different from the conventional hardware-level optimization techniques that can no longer automatically guarantee performance scalability, given the increasing diversity and complexity of manycore applications. The outcomes of this project can be used both in software development and education to more precisely understand the manycore application behavior. On a broader level, this introspective framework can boost programmer productivity by offering fast and more accurate feedback about the program execution, and effectively improving the software development cycle.</AbstractNarration>
+    <MinAmdLetterDate>03/07/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1149557</AwardID>
+    <Investigator>
+      <FirstName>Guru Prasadh</FirstName>
+      <LastName>Venkataramani</LastName>
+      <EmailAddress>guruv@gwu.edu</EmailAddress>
+      <StartDate>03/07/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>George Washington University</Name>
+      <CityName>Washington</CityName>
+      <ZipCode>200522000</ZipCode>
+      <PhoneNumber>2029946255</PhoneNumber>
+      <StreetAddress>2121 Eye Street NW</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>District of Columbia</StateName>
+      <StateCode>DC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

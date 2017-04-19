@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Medium: Multicore Virtual Machines for High-Speed Networking</AwardTitle>
+    <AwardEffectiveDate>04/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2015</AwardExpirationDate>
+    <AwardAmount>878979</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A mismatch exists in modern computer systems between the computational resources provided by emerging multicore chip-multiprocessors (CMPs) and the ability of virtual machines (VMs), such as the Java VM or Microsoft Common Language Runtime, to exploit those resources. CMP architectures will dominate the next several processor generations; meanwhile, for reasons of security and portability, software will target VMs rather than native processors. However, since modern VMs are ill-equipped to directly exploit the coarse-grained parallelism provided by CMPs, they will not experience significant performance increases with future generations of processors.&lt;br/&gt;&lt;br/&gt;This work aims to pioneer an approach for accelerating the execution of VMs on CMPs by creating pipelined VMs which are implemented as a series of balanced programs, or pipeline stages, each executing on a distinct processor core. A pipelined VM with N balanced stages can provide an N-fold increase in performance relative to an unpipelined VM. Pipelined VMs allow programmers to benefit from multicore parallelism while writing sequential single-threaded programs.&lt;br/&gt;&lt;br/&gt;This research agenda closely integrates theoretical work on the benefits and limits of VM pipelining, with both 1) the design and implementation of pipelines on real systems, and 2) the exploration of novel computer architectures and mechanisms. For concreteness, the research plan focuses on pipelined VMs that target high-speed networking, an area in which aggressive CMPs are already deployed in commercial and academic platforms and where publically-accessible testbeds will allow others to develop and deploy pipelined VMs of their own design.</AbstractNarration>
+    <MinAmdLetterDate>03/23/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/03/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0964201</AwardID>
+    <Investigator>
+      <FirstName>Patrick</FirstName>
+      <LastName>Crowley</LastName>
+      <EmailAddress>pcrowley@wustl.edu</EmailAddress>
+      <StartDate>03/23/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Washington University</Name>
+      <CityName>Saint Louis</CityName>
+      <ZipCode>631304862</ZipCode>
+      <PhoneNumber>3147474134</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 1054</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Missouri</StateName>
+      <StateCode>MO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

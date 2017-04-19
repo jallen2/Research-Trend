@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Collaborative Research: Fast and Precise Dynamic Race Detection: Eliminating State and Checking Redundancy</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>301004</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: SHF:Small:Collaborative Research:RUI: Fast and Precise Dynamic Race Detection: Eliminating State and Checking Redundancy&lt;br/&gt;&lt;br/&gt;The national computing infrastructure utilizes multicore processors and multiprocessor hardware across the entire spectrum of systems from small mobile devices to huge data centers. These systems can execute many software threads of control concurrently to improve responsiveness and performance, but the potential for unintentional interference between threads makes it difficult to ensure their reliability. Run-time analysis tools for automatically detecting interference problems can help improve software reliability, but they currently have significant performance shortcomings limiting their widespread adoption. Developing more efficient analyses is thus essential. This research examines how to improve the performance of run-time analyses for detecting data race conditions. Data races are perhaps the most fundamental type of thread interference and occur when multiple threads manipulate a shared memory location without proper synchronization.&lt;br/&gt;&lt;br/&gt;The project addresses both the space and time overhead of dynamic race detection. The techniques developed leverage memory access patterns observed during a target program's execution to adaptively compress the access history information maintained by a dynamic race detector, as well as new optimizations for eliminating redundant checks and for replacing multiple checks on related memory locations with a single coalesced check. The intellectual merits are achieving substantial performance improvements over existing techniques and enabling comparable improvements in dynamic analyses for other important non-interference properties, including atomicity and determinism. Such analyses must also reason about races. The broader impacts are potentially transforming the principles and practices of multithreaded software engineering by enabling more widespread adoption of analysis tools to detect race conditions and other concurrency defects, contributing to the national software research infrastructure, and increasing access to science research opportunities and training for students.</AbstractNarration>
+    <MinAmdLetterDate>06/11/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/11/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1421016</AwardID>
+    <Investigator>
+      <FirstName>Cormac</FirstName>
+      <LastName>Flanagan</LastName>
+      <EmailAddress>cormac@ucsc.edu</EmailAddress>
+      <StartDate>06/11/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Cruz</Name>
+      <CityName>Santa Cruz</CityName>
+      <ZipCode>950641077</ZipCode>
+      <PhoneNumber>8314595278</PhoneNumber>
+      <StreetAddress>1156 High Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

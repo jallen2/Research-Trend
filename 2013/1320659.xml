@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Flange: A Domain Specific Language for Network</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>298292</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Brassil</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>An increasing amount of software depends on the network, and at the same time networks themselves are becoming more programmable via technologies like OpenFlow, opening a wide range of opportunities both for network efficiencies and in-network computation. While new programming models seek to make network reconfiguration easier, none provide tools to solve the joint problem of software-controlled routing and placement of in-network computational services. This project will design and build a domain specific language (DSL), called Flange, for managing services in networks. The project's approach marshalls configurable forwarding and computing devices in the network, with pervasive monitoring to support service adaptation. The project includes building and releasing a prototype compiler, runtime, system and front-ends that enable Flange programming both with dedicated syntax (standalone DSL) and embedded in host languages. &lt;br/&gt;&lt;br/&gt;The success criteria for this project is that a network administrator using the prototype is able to set a new service (e.g. video-transcoding) using less than a page of Flange code. Using the same mechanism, a network engineer should be able to launch a persistent function that monitors network conditions and responds to saturation by redirecting traffic to an alternate path. The novelty of the project is twofold. First, the semantic foundation at the root of the project treats both hardware and software aspects of networks uniformly, as constituting a single process network. For example, the project models forwarding as an in-the-network service, while considering it in the same light as other potentially instantiated services in the network such as transcoding or compression. Second, the Flange language will provide novel global view programming abstractions for large networks. Flange programs will be able to inspect network entities, aggregate information, signal and respond to events, all without reference to their own place of execution (which is often physically distributed). &lt;br/&gt;&lt;br/&gt;The work proposed here stands to impact network operational efficiency and flexibility for national science-focused cyberinfrastructure as well as in commercial applications, where the economic impact of networked computing is clear. In addition, the design decisions the underly Flange are pedagogically relevant and will be presented in courses taught by the PIs.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/21/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320659</AwardID>
+    <Investigator>
+      <FirstName>Douglas</FirstName>
+      <LastName>Swany</LastName>
+      <EmailAddress>swany@iu.edu</EmailAddress>
+      <StartDate>08/21/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ryan</FirstName>
+      <LastName>Newton</LastName>
+      <EmailAddress>rrnewton@indiana.edu</EmailAddress>
+      <StartDate>08/21/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

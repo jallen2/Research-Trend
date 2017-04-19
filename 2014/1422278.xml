@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Statistical Data Privacy: Fundamental Limits and Efficient Algorithms</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Brown</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Privacy is a fundamental individual right. In the era of big data, large amounts of data about individuals are collected both voluntarily (e.g., frequent flier/shopper incentives) and involuntarily (e.g. US Census or medical records). With the ready ability to search for information and correlate it across distinct sources (using data analytics and/or recommender systems), privacy violation takes on an ominous note in this information age. &lt;br/&gt;&lt;br/&gt;Anonymization of user information is a classical technique, but is susceptible to correlation attacks: by correlating the anonymized database with another (perhaps publicly available) deanonymized database, a user's privacy could still be divulged. A way out of the limitations of anonymization is to release a randomized database; this offers plausible deniability of any user identity breached via the data release. A systematic way of providing guarantees for the deniability of user presence/absence is the technical field of differential privacy, providing strong privacy guarantees against adversaries with arbitrary side information. It is of fundamental interest to characterize privacy mechanisms that randomize "just enough" to keep the released database as true to the intended one as possible, providing maximal utility. &lt;br/&gt;&lt;br/&gt;Based on recent work connecting the areas of information theory and statistical data privacy (via a hypothesis testing context) and demonstrating novel privacy mechanisms that exponentially improve (in terms of variance of noise added, say) upon the state of the art for medium and low privacy regimes, the objective of the project is threefold: (a) characterize the fundamental limits to tradeoffs between privacy and utility in a variety of canonical setting; (b) discover (near) optimal mechanisms that can be efficiently implemented in practice; and (c) seek natural notions of statistical data privacy (beyond differential privacy) using the operational context of hypothesis testing. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Privacy is a central, and multifaceted, social and technological issue of today's information age. This project is focused on the technical aspect of this multifaceted area, and seeks to discover fundamental limits to privacy-utility tradeoffs in the context of currently well established notions of privacy (differential privacy). The expected results expected are fundamental and immediately applicable to a variety of practical settings. Specifically, two concrete practical settings involving genomic data release and smart meter data release will be studied in detail. Due to privacy concerns, genomic and smart meter data is simply unavailable at large -- depriving widespread data analytics and practical implications of such analysis. This project will build and release a software suite of sanitization tools, involving the privacy mechanisms discovered as part of this project.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422278</AwardID>
+    <Investigator>
+      <FirstName>Pramod</FirstName>
+      <LastName>Viswanath</LastName>
+      <EmailAddress>pramodv@uiuc.edu</EmailAddress>
+      <StartDate>07/24/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7935</Code>
+      <Text>COMM &amp; INFORMATION THEORY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

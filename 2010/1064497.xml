@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: A Code-Centric Approach to Specifying, Checking, and Discovering Shared-Memory Communication</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>901206</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project aims to improve the practice of shared-memory concurrent programming by exploring a fundamentally new way to specify, verify, test, and monitor how threads communicate via memory. Shared-memory concurrency has become an increasingly important style of programming because it is a common way to utilize multicore processors, i.e., machines where there is more than one processing core, and desktops, laptops, servers, and even mobile devices are increasingly multicore. Shared-memory concurrency is widely recognized as difficult and error-prone, and much prior work has aimed to detect bugs related to this style automatically. This project complements prior work by focusing on application-specific specifications in terms of how different parts of the code-base use concurrency to communicate, rather than focusing on how individual pieces of data are used. This approach aims to improve the quality of software used throughout society, to improve the productivity of software developers and testers, and to influence how students are taught concurrent programming.&lt;br/&gt;&lt;br/&gt;At the heart of the approach is a communication graph in which the nodes are program points and the edges indicate communication via shared memory. That is, for each edge, the code that the source node represents performs a write in one thread that is subsequently read in another thread by the code that the target node represents. Such graphs can form the foundation for conceptual and intellectual tools useful throughout the development and maintenance of software, including specifications (declarations of what communication is allowed), static checking (program analysis to infer possible communication), dynamic checking (efficient run-time communication monitoring), testing (design/evaluation of a test-suite in terms of communication coverage), and automatic anomaly detection and bug isolation (in terms of unexpected communication) for deployed software. This project is developing and evaluating tools inspired by this foundation, leveraging synergies across the execution stack, including work on computer architecture, run-time systems, compilers, programming languages, automatic testing, and static analysis.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/13/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1064497</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Grossman</LastName>
+      <EmailAddress>djg@cs.washington.edu</EmailAddress>
+      <StartDate>07/28/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Luis</FirstName>
+      <LastName>Ceze</LastName>
+      <EmailAddress>luisceze@cs.washington.edu</EmailAddress>
+      <StartDate>07/28/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

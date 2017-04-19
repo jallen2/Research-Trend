@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Option: Small: Automatic Software Model Repair for Security Policies</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>448789</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Increasing cyber security depends on our ability to guarantee that the system will provide the expected functionality under normal circumstances as well as if the system is perturbed by some random events or security threats. Providing such guarantee is often complicated due to several factors such as changes in system requirements caused by user demands, exposure to a new threat model that was not considered (or not relevant) in the original design, or identifying bugs or vulnerabilities during a system life cycle. The purpose of the project is to develop automated techniques --that provide justifiable confidence about correctness-- to transform an existing software model into a new model that satisfies both the existing functionality and the desired security requirements. &lt;br/&gt;&lt;br/&gt;Developing algorithms that generate models that satisfy existing functionality and new security requirements poses new challenges due to the fact that existing trace-based properties do not suffice for several security properties. A characteristic of trace-based properties is that if a model satisfies a trace-based property and it is restricted by removing some undesired behaviors then the revised model still satisfies that trace-based property. Hence, adding a trace-based property can be achieved by removing behaviors that violate it. Since trace-based properties cannot express several security properties, this project will utilize a new formalism, hyperproperties, that generalizes trace-based properties and can be used for modeling security requirements. In particular, a hyperproperty consists of a set of trace-based properties and to satisfy that hyperproperty it is required that the repaired program exhibit `all? behaviors in one of these properties.&lt;br/&gt;&lt;br/&gt;To develop algorithms that justifiably provide assurance about models developed by them, this project will first focus on formalizing commonly used security requirements using hyperproperties. It will perform complexity analysis to evaluate the complexity of adding different security properties to an existing model. To mitigate cases where the complexity is high, it will develop heuristics and algorithms that (1) identify whether adding the given hyperproperty can be achieved via adding a related stronger trace-based property, and (2) identify a subset of hyperproperties where adding the given property is more efficient. This work will also result in the development of efficient algorithms and tools that utilize the complexity bottlenecks. Thus, the results of the proposed project will enhance assurance of software systems by repairing security flaws and vulnerabilities in an automated fashion.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/19/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318678</AwardID>
+    <Investigator>
+      <FirstName>Sandeep</FirstName>
+      <LastName>Kulkarni</LastName>
+      <EmailAddress>sandeep@cse.msu.edu</EmailAddress>
+      <StartDate>08/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

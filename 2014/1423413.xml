@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: RUI: Task Mapping for Emerging Network Topologies</AwardTitle>
+    <AwardEffectiveDate>12/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2017</AwardExpirationDate>
+    <AwardAmount>258631</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project aims to improve the performance of large scientific simulations on next-generation high-performance computing (HPC) systems by developing new strategies for task mapping, the assignment of specific parts of an application to each of the many processing nodes in an HPC system. A key determinant of application performance on HPC systems is the speed of message delivery between related parts of the application. This in turn depends upon the network connecting the processing nodes. Task mapping has the potential to improve network performance by arranging communicating parts of the application in a way that distributes messages more evenly through the network, preventing any part of it from becoming overloaded. The PI has previously shown that task mapping can reduce application running time on current HPC systems by up to 30%. New algorithms are needed for larger next-generation systems, which must use novel network topologies for the internode connections due to power limitations.&lt;br/&gt;&lt;br/&gt;The specific network topology studied is Dragonfly, two variations of which are used in commercial systems. Dragonfly organizes network switches into groups that form a high-radix "virtual switch". This allows a direct connection between every pair of groups. Together with high connectivity between the switches within a group, this guarantees that every pair of nodes is connected by a short path. The problem is that having only a single direct connection between each pair of groups makes that connection a potential bottleneck. The project will develop task mapping algorithms that balance the goal of localizing related tasks to exploit intra-group connectivity with the need to spread the job across the system so that it can utilize many inter-group links simultaneously. The project will also develop node allocation algorithms to support jobs of varying size, providing each job with nodes that are well-connected while minimizing contention between jobs.&lt;br/&gt;&lt;br/&gt;By improving application performance on next-generation HPC systems, the project will help realize the full potential of these powerful systems. In addition, the project will heavily involve undergraduate student researchers, who will be trained as future leaders in science and engineering.</AbstractNarration>
+    <MinAmdLetterDate>09/03/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/03/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423413</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Bunde</LastName>
+      <EmailAddress>dbunde@knox.edu</EmailAddress>
+      <StartDate>09/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Knox College</Name>
+      <CityName>Galesburg</CityName>
+      <ZipCode>614014999</ZipCode>
+      <PhoneNumber>3093417000</PhoneNumber>
+      <StreetAddress>2 E South St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

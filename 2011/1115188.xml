@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Query Compilation on Probabilistic Databases</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frank Olken</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of probabilistic databases is to manage large databases where the data is uncertain. Applications include Web-scale information extraction, RFID systems, scientific data management, biomedical data integration, business intelligence, data cleaning, approximate schema mappings, and data deduplication. Despite the huge demand and the intense recent research on probabilistic databases, no robust probabilistic database systems exist to date. The reason is that the probabilistic inference problem is, in general, intractable. Fortunately, in databases there are two distinct inputs to the probabilistic inference problem: the query and the database instance. This has led recently to the discovery of safe queries, which are queries that can be evaluated efficiently on any input database, and to new probabilistic inference algorithms that exploit the structure of the query. However, unsafe queries remain a major challenge in probabilistic databases.&lt;br/&gt;&lt;br/&gt;This project studies novel algorithms for evaluating unsafe queries on probabilistic database, with guaranteed performance. It uses a novel approach, query compilation, which translates the query into one of four targets: OBDDs, FBDDs, d-DNNFs, and circuits using inclusion/exclusion nodes. The project pursues two thrusts: (1) It develops instance-dependent compilation techniques that significantly extend the reach of instance-independent techniques used in safe queries. (2) It develops approximate query compilation techniques , which always run efficiently, even on intractable query, instance pairs, by sacrificing accuracy. These algorithms are conservative, in the sense that they return correct probabilities in all cases when the input query, instance pair is tractable.&lt;br/&gt;&lt;br/&gt;The Intellectual Merit of this project consists of new techniques for compiling queries into one of four compilation targets, OBDD, FBDD, d-DNNF, and inclusion/exclusion-based inference, using both exact inference (without performance guarantees), and approximate inference (with performance guarantees). It expands our understanding of probabilistic inference, and leads to practical approaches for probabilistic database engines. As Broader Impact, the project benefits a large class of applications that require general purpose management of uncertain data, ranging from large-scale information extraction systems, to scientific data management, to business intelligence. The project gradually incorporates topics from probabilistic data into into a curriculum for graduate level education; query compilation is already discussed in the PI's book on Probabilistic Databases ( http://dx.doi.org/10.2200/S00362ED1V01Y201105DTM016), a graduate-level textbook.&lt;br/&gt;&lt;br/&gt;For further information see the project web site at the URL: http://www.cs.washington.edu/homes/suciu/project-querycompilation.html</AbstractNarration>
+    <MinAmdLetterDate>08/05/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115188</AwardID>
+    <Investigator>
+      <FirstName>Dan</FirstName>
+      <LastName>Suciu</LastName>
+      <EmailAddress>suciu@cs.washington.edu</EmailAddress>
+      <StartDate>08/05/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

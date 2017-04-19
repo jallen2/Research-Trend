@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Recognition of Handwritten Words in School Essays Using Conditional Random Fields</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2009</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research concerns recognition of words in handwritten responses of children in reading comprehension tests. The approach to word recognition will be based on conditional random fields (CRFs), which are discriminative methods that do not make any assumptions about the underlying data and hence are known to be superior to Hidden Markov Modes (HMMs) for sequence labeling problems.&lt;br/&gt;The student response is first segmented into word images using an existing neural network based algorithm. Each word image is then over- segmented into a number of small segments such that the combination of segments forms character images. Segments are labeled as characters with probability evaluated from the CRF model. The total probability of a word image representing an entry from the lexicon is computed using a dynamic programming algorithm which evaluates the optimal combination of segments. A lexicon derived from the reading passage, testing prompt, answer rubric and student responses is used to limit the number of paths to explore.&lt;br/&gt;&lt;br/&gt;The state and transition parameters of the CRF model are estimated from handwriting samples. State parameters correspond to features such as: position (normalized by length), place (in start, middle or end), height, width, distances to prototype, deviations of height, etc. Transition parameters correspond to features such as: label of character pair (th, er, qu, etc), vertical overlap (of pixels of candidate character images), height difference, width difference, aspect ratio difference, bigram width, etc.&lt;br/&gt;&lt;br/&gt;The research test-bed will consist of scored handwritten responses to reading comprehension prompts from Grades 8 and 5 of an inner city school in Buffalo, New York. There are 300 Grade 8 responses and 200 Grade 5 responses, with about 100-150 words in each response. &lt;br/&gt;Training data for parameter estimation will initially consist of 150 student responses and 1,000 half-page writings of adults. These will be supplemented with additional school data as research progresses.&lt;br/&gt;&lt;br/&gt;Goal-oriented integration of complex document image analysis, natural language processing and machine learning will drive improved handwriting recognition methods. Children?s handwriting recognition has never before been studied in document analysis. Handwriting recognition technology for complex documents is as yet largely unavailable. Success will allow statewide testing to be done later in the school year with results provided sooner thereby having an impact on improved education.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0750876</AwardID>
+    <Investigator>
+      <FirstName>Sargur</FirstName>
+      <LastName>Srihari</LastName>
+      <EmailAddress>srihari@cedar.buffalo.edu</EmailAddress>
+      <StartDate>09/13/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Buffalo</Name>
+      <CityName>Amherst</CityName>
+      <ZipCode>142282567</ZipCode>
+      <PhoneNumber>7166452634</PhoneNumber>
+      <StreetAddress>520 Lee Entrance</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems (CHS)</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7484</Code>
+      <Text>IIS SPECIAL PROJECTS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9237</Code>
+      <Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

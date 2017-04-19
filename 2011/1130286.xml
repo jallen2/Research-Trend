@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Momentum Based Motion Planning for Manipulators with Heavy Loads</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>249966</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jordan Berg</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research focuses on the development of computationally efficient motion planning algorithms that enable a manipulator robot to dramatically increase its lifting capacity over most current algorithms, which only enable a robot to lift loads that can be supported statically at each point along the manipulator path. In a more general sense, this research is concerned with momentum based motion planning using dynamic models. The planning will be accomplished using a recently developed motion planning algorithm, Sampling Based Model Predictive Optimization (SBMPO), which may be viewed as a sampling-based generalization of the A* algorithm to optimal motion planning using a dynamic model. The research will develop answers to fundamental questions related to the use of SBMPO for the direct development of trajectories that have appropriate momentum characteristics. One is what model - for example the open loop dynamic model, the closed loop dynamic model, or even an ?extended kinematic model? (i.e., a kinematic model preceded by one or more integrators) - is the most effective at incorporating information about the manipulator dynamics and torque limits? A related critical issue is the development of ?optimistic A* heuristics? (i.e, rigorous lower bounds on the chosen cost) that are not overly conservative and hence can allow for efficient trajectory generation. . A major contribution will also be the incorporation of learning, so that when a lifting or throwing problems is encountered that is similar to a previously solved problem, the planning algorithm executes more quickly based on the prior experience&lt;br/&gt;&lt;br/&gt;Manipulator lifting and throwing capabilities are considerably underutilized because current planning algorithms generate paths based on kinematic models that are not capable of modeling the torque limitations of the motors or the inertial characteristics of the loaded manipulator and hence cannot plan trajectories with the required momentum to lift or throw heavy loads. This research provides motion planning algorithms that increase the lifting and throwing capacity of any manipulator that has a control system designed to follow trajectories characterized in terms of acceleration, velocity, and position. A primary application of this is service robots (e.g., humanoid robots), which are light weight and relatively weak compared to their industrial counterparts. These robots will be able to perform important lifting tasks such as the lifting of luggage, groceries, one gallon milk jugs, and book bags in home environments. The research will also increase the capacity of robots used to clear heavy outdoor debris such as logs, bricks, and large rocks. It is expected that if a robot is given this increased capacity, other applications will follow. This research will be applicable to mobile robotics as well since environments with steep hills, viscous mud or deep sand patches, and high stiff vegetation require momentum based planning. In general, this research will help to connect the fields of control and planning in new ways, with the primary motivation being the development of reliable and computationally efficient trajectory generation algorithms for momentum based planning.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/19/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1130286</AwardID>
+    <Investigator>
+      <FirstName>Emmanuel</FirstName>
+      <LastName>Collins</LastName>
+      <EmailAddress>ecollins@eng.fsu.edu</EmailAddress>
+      <StartDate>08/19/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Florida State University</Name>
+      <CityName>TALLAHASSEE</CityName>
+      <ZipCode>323064166</ZipCode>
+      <PhoneNumber>8506445260</PhoneNumber>
+      <StreetAddress>874 Traditions Way, 3rd Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1632</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>030E</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>031E</Code>
+      <Text>MECHATRONICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>034E</Code>
+      <Text>Dynamical systems</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Modeling and Optimization of Thermal and Energy Efficient Processing in Multi-Core System-Chips</AwardTitle>
+    <AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2010</AwardExpirationDate>
+    <AwardAmount>275000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proposal ID: 0702792&lt;br/&gt;Title: Modeling and Optimization of Thermal and Energy Efficient Processing in Multi-Core System-Chips&lt;br/&gt;PI name: Rajesh Gupta&lt;br/&gt;PI Inst: UC SanDiego&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Multi-Core System-Chips, or Chip Multi Processors (CMPs), represent both an opportunity as well as a challenge to the new generation of computer system architects and implementers. However, the exploitation of additional processing resources in an energy efficient manner is a challenge due to lack of scalability of the heat dissipation capabilities of the integrated chips. Use of best known methods for low power design at various circuit, logic or architectural design levels is not enough to realize the potential for multi-core performance improvement. Instead, systems must be architected to push the thermal limits to take the maximum advantage of the available heat dissipation limits, both statically as well as dynamically. This proposal seeks to build a framework for energy-efficient CMP systems that enables the system architect to make various power related decisions from the choice of shutdown and slowdown states to architectural support for speed scaling and load balancing -- in a systematic manner. The approach relies upon the formulation of the speed scaling problem and its different instances under various constraints as an optimization problem. The optimization problem takes into account not only package effects, but also spatial distribution of heat dissipation across the CMP die. Particular attention is paid to leakage power, given its growing importance due to the advancing processes, low voltage (e.g., sub-threshold) circuit operations and due to 'architectural leakage' caused by blocks that are not subject to shutdown or slowdown measures. The PIs treatment of leakage is based on two key concepts: efficient runtime determination of a critical speed that provides optimum energy efficient processing; and scheduling methods that takes a global view of the system level power consumption and exploit the flexibility to make power state changes to achieve effective load-balancing and latency hiding effects. The PI also seek to capture the application intent by enabling the application developer to explicitly program important application-specific 'metadata' using a power-aware API (that, for instance, may change algorithms, precision based on current energy availability profile). The intellectual merit of the project is in optimization techniques that seek a judicious balance of multiple slowdown and shutdown states for the most efficient utilization of energy while pushing the thermal limits supported by the physical placement and packaging constraints. The broader impact of the proposed research is its contribution to an infrastructure of various courses and projects related to the topic of thermally aware energy efficient embedded processing. The project seeks to provide students chance to learn and experiment with the OS internals, memory interfaces and time-bound computations.</AbstractNarration>
+    <MinAmdLetterDate>07/23/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702792</AwardID>
+    <Investigator>
+      <FirstName>Rajesh</FirstName>
+      <LastName>Gupta</LastName>
+      <EmailAddress>gupta@cs.ucsd.edu</EmailAddress>
+      <StartDate>07/23/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>High-Order Numerical Solution of Wave-Type Equations with Discontinuous Coefficients</AwardTitle>
+    <AwardEffectiveDate>09/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2011</AwardExpirationDate>
+    <AwardAmount>199847</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The key objective of the project is to build an efficient numerical method for computing the propagation of waves in the media with material discontinuities. Potential applications include a broad range of problems in both electromagnetism and acoustics. Mathematically, the propagation is governed by wave-like equations (either in the frequency domain or in the time domain) with discontinuous coefficients. Discontinuities in the coefficients are typically of the first kind. They present a major challenge when constructing a high-order numerical approximation, especially when they are not aligned with the discretization grid. Having a high-order discretization, on the other hand, is crucial for obtaining a robust predictive capability, because it alleviates the points-per-wavelength constraint and is also far better suited for multiscale problems, such as computing a small scale phenomenon (e.g., nonlinear backscattering in optics) at a large background (such as the forward propagating laser beam). In the course of the project, we will address the foregoing problem with the help of Calderon?s pseudodifferential boundary projections. These operators allow one to obtain equivalent surface parameterizations of solutions. The latter are subsequently combined with the appropriate interface conditions, which yields a self-consistent formulation. A key advantage of Calderon?s operators is that their discrete counterparts can be efficiently computed using the method of difference potentials. In doing so, one can use regular grids with no adaptation, and obtain high-order approximations for the domains of irregular shape. The anticipated results will make an important contribution to the theory of numerical methods for partial differential equations. On the practical side, the outcome will be an efficient and robust numerical methodology for solving a variety of applied problems.&lt;br/&gt;&lt;br/&gt;It is very common that the propagating light, or sound, or radio waves have to pass through the interfaces between the materials with different properties. Examples are abundant and range from simple everyday setups, such as the interface between air and glass for light, to various applications of radars and sonars, to satellite communications, to plasma fusion devices, and others. The presence of interfaces, across which the material characteristics vary sharply, makes it more difficult to solve these problems on the computer. However, from the standpoint of mathematics, the corresponding formulations share a number of important components, and in the course of the project we are going to develop and test a universal numerical methodology for solving a variety of such problems. The methodology will exploit the advanced mathematical apparatus known as Calderon?s projections. The results of the project will contribute to both the theory and practice of solving scientific problems on the computer, and will be important for applications in acoustics, electromagnetism, and optics.</AbstractNarration>
+    <MinAmdLetterDate>09/08/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/20/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0810963</AwardID>
+    <Investigator>
+      <FirstName>Semyon</FirstName>
+      <LastName>Tsynkov</LastName>
+      <EmailAddress>tsynkov@math.ncsu.edu</EmailAddress>
+      <StartDate>09/08/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

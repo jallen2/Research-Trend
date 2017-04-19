@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Taint-Based Information Tracking in Networked Systems</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>TC: Small: Taint-Based Information Tracking in Networked Systems&lt;br/&gt;PI: Nick Feamster (Georgia Tech)&lt;br/&gt;&lt;br/&gt;Network operators must control and monitor the flow of information within and across their networks. Existing mechanisms for controlling information flow are primarily host-based: operating systems can "taint" portions of memory or applications based on the inputs to a particular process or resource. Unfortunately, if a host is compromised or otherwise breached, that information may propagate in unintended ways. Once information has leaked, tracking the provenance of the leaked data is challenging. This project is developing a mechanism for tracking and controlling information flow across the network to cope with these problems. This mechanism would allow operators to control how information propagates within and between networks and to devise more complex policies; for example, it might be used to control which application traffic was allowed on which part of the network. The information carried in the network traffic might ultimately be attributed to a specific user or process, thus allowing operators to express policies according to the process and user that generated the traffic.&lt;br/&gt;&lt;br/&gt;We are addressing several research challenges. First, we are exploring the appropriate granularity for tainting that preserves semantics without imposing unacceptable memory and performance overhead. Second, we are designing the system to minimize performance overhead on applications. Third, we are exploring translation mechanisms between host-based taints and network-based taints, so that taints carried in network traffic convey meaningful semantics without imposing prohibitive network overhead. The research will result in an information tracking and control system that is deployed&lt;br/&gt;in experimental settings (e.g., the Georgia Tech campus network) using the existing and forthcoming programmable switch implementations, and integrated into undergraduate and graduate networking and security courses.</AbstractNarration>
+    <MinAmdLetterDate>09/22/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/22/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916732</AwardID>
+    <Investigator>
+      <FirstName>Nicholas</FirstName>
+      <LastName>Feamster</LastName>
+      <EmailAddress>feamster@cs.princeton.edu</EmailAddress>
+      <StartDate>09/22/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Extensible Web Browsers and User Privacy</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>374774</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern Web browsers provide a "private browsing" mode, wherein the browser does not record the user's behavior such as which sites they visited. This mode is valuable to users of all stripes, from the privacy-conscious to those those worried about persecution by totalitarian regimes. Browser implementers therefore take great care to try to ensure these modes function correctly. However, modern browsers are highly extensible: users can install extensions to customize their browser, and millions have done so. Unfortunately, it is technically challenging for browsers to automatically flag which extensions are privacy-preserving and which are not, so browsers currently do not attempt to offer such guidance -- leaving users to fend for themselves.&lt;br/&gt;&lt;br/&gt;This work presents a type system for verifying whether extensions violate private browsing mode. The types distinguish Safe values (that may always be used in private mode) from Unsafe ones (that may lead to privacy violations). The type system is engineered to be&lt;br/&gt;"lightweight": extensions that never perform unsafe actions should type check without changes, and extension authors must only annotate their extension code when an unsafe action is used. Extensions that pass this check are accompanied by a guarantee that they do not perform privacy-violating actions, and are thus safe to install in private-browsing mode.</AbstractNarration>
+    <MinAmdLetterDate>08/17/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/17/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1223231</AwardID>
+    <Investigator>
+      <FirstName>Shriram</FirstName>
+      <LastName>Krishnamurthi</LastName>
+      <EmailAddress>sk+17@cs.brown.edu</EmailAddress>
+      <StartDate>08/17/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Benjamin</FirstName>
+      <LastName>Lerner</LastName>
+      <EmailAddress>Benjamin_Lerner@brown.edu</EmailAddress>
+      <StartDate>08/17/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

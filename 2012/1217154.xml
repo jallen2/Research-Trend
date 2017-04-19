@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Accurate high performance computing for nonlinear collisional kinetic theory</AwardTitle>
+    <AwardEffectiveDate>09/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>167677</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This work will implement, analyze, and benchmark accurate numerical schemes for nonlinear collisional kinetic equations and their extension to high performance computing. Kinetic equations describe physical systems at the mesoscopic level, where there are large numbers of interactions between particles but they are not frequent enough to be described as a continuum. At each point in phase space a nonlinear integral term models the effect of interactions with all of the other particles in the system. This integral is difficult and expensive to evaluate due to the delicate conservation structure of the interactions and its dimensionality, however it has many properties that makes it well-suited for parallel computation. This work seeks to overcome the computational bottleneck of the collisional integral term in kinetic models by adapting a conservative spectral numerical method to massively parallel computer architectures, and will investigate how this scales with increasing computational nodes. The proposed work will further enhance the method by applying high order space and time discretization to the transport terms in the system, which was previously infeasible due to the expense of evaluating the collision term, as well as investigating methods for reducing the complexity of the integration for further efficiency. It will also carefully investigate the order of accuracy of computation with regards to the velocity domain cutoff and quadrature. This work will extend the conservative spectral method to the case of anisotropic in angle collisional models, in particular the grazing collisions (Landau) limit and applications to collisional plasma models. Finally, this work will attempt to extend the ideas of asymptotic-preserving schemes to efficiently compute the collision term in stiff regimes.&lt;br/&gt;&lt;br/&gt;Many important problems in science can be described at the molecular level as individual particles bouncing around, each with its speed and direction. These particles interact with each other as well as other objects through collisions that exchange energy and momentum, and the average behavior of these interactions can be felt as wind, for example. Kinetic models describe problems where particle density is low enough that collisional effects matter in the dynamics of the problem, but is not so strong that one can simply use the average behavior to describe the evolution. Kinetic models can characterize a wide variety of applications such as design of nano- and micro-scale devices, energy applications in plasma physics such as semiconductors and nuclear fusion, and atmospheric re-entry for spacecraft and satellites. In addition to physical applications, these models can be used for the modeling of biological and social dynamics, such as the dynamics of crowds in confined spaces, or modeling the flocking and herding of animals, which could be of security and environmental interest. This work will develop new simulation tools that are able to leverage high performance computing resources to perform high accuracy simulation of problems that were previously computationally infeasible, which can provide a broader view of kinetic applications.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/04/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217154</AwardID>
+    <Investigator>
+      <FirstName>Irene</FirstName>
+      <LastName>Gamba</LastName>
+      <EmailAddress>gamba@math.utexas.edu</EmailAddress>
+      <StartDate>09/13/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jeffrey</FirstName>
+      <LastName>Haack</LastName>
+      <EmailAddress>haack@math.utexas.edu</EmailAddress>
+      <StartDate>09/13/2012</StartDate>
+      <EndDate>05/04/2015</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

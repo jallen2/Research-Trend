@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: Small: DCM: Open Flow Enabled Hadoop over Local and Wide Area Clusters</AwardTitle>
+    <AwardEffectiveDate>06/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2017</AwardExpirationDate>
+    <AwardAmount>749806</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Robert Chadduck</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>BigData: Small: DCM: Open Flow Enabled Hadoop over Local and Wide Area Clusters&lt;br/&gt;Robert L. Grossman&lt;br/&gt;University of Chicago&lt;br/&gt;&lt;br/&gt;In the recent years, data intensive programming using Hadoop and MapReduce has become more and more important. As normally deployed, Hadoop's implementation of MapReduce in a multi-rack cluster is dependent upon the top of the rack switches and of the aggregator switches connecting multiple racks. To use Hadoop effectively at scale across many racks requires expensive network switches and routers that are complex to configure and to maintain.&lt;br/&gt;&lt;br/&gt;Software defined networks using OpenFlow have proven in many cases to offer good performance at lower cost and to be simpler to manage. The first goal of this proposal is to contribute to the development of a new version of Hadoop called Hadoop-OFP. The basic idea of Hadoop-OFP is to integrate OpenFlow enabled switches with Hadoop: to i) improve performance; ii) lower the cost of the hardware required; and iii) simplify the management of the cluster. &lt;br/&gt;&lt;br/&gt;Large data flows are also a critical component of data intensive computing. Unfortunately, setting up networks to manage large data flows can be challenging. A second goal of this proposal is to develop a tool that can configure OpenFlow enabled networks to handle more efficiently the large data flows that arise with data intensive computing.</AbstractNarration>
+    <MinAmdLetterDate>06/07/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/07/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1251201</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Grossman</LastName>
+      <EmailAddress>robert.grossman@uchicago.edu</EmailAddress>
+      <StartDate>06/07/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606375418</ZipCode>
+      <PhoneNumber>7737028669</PhoneNumber>
+      <StreetAddress>5801 South Ellis Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7701</Code>
+      <Text>DATA INTEROPERABILITY NETWORKS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

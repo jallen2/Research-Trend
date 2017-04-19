@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>PetaBricks: A Language and Compiler for Scalability and Robustness</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>685557</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The most widely used parallel languages require users to worry about mundane details. High performance programs written in these languages unnecessarily require both algorithmic and architecture expertise interposed in the same program text. This lack of separation overly complicates programs. Furthermore, the programmers have to explicitly, or implicitly, choose a data and computation distribution. This reduces the compatibility, malleability, portability, and maintainability of the optimized programs. This research addresses how programmers can express parallelism in computation by directly allowing experts to create reusable software constructs or "bricks." &lt;br/&gt;&lt;br/&gt;The research explores the PetaBricks compositional language, in which automatic parallelism extraction and locality recognition will become tractable. The major task is the building of the compiler to map the algorithmic parallelism and locality to near optimal utilization of the resources. &lt;br/&gt;&lt;br/&gt;The language will be composed of base cases and compositions. They can be composed recursively to solve large problems. The ordering and granularity of these compositions will be managed by the compiler and runtime framework to allow programs to adapt. The research introduces Patlo: a pattern transformation language for optimization where domain experts can program patterns and corresponding transformations for algorithm-specific and architecture-specific optimizations.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0832997</AwardID>
+    <Investigator>
+      <FirstName>Alan</FirstName>
+      <LastName>Edelman</LastName>
+      <EmailAddress>EDELMAN@MATH.MIT.EDU</EmailAddress>
+      <StartDate>08/18/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Saman</FirstName>
+      <LastName>Amarasinghe</LastName>
+      <EmailAddress>saman@mit.edu</EmailAddress>
+      <StartDate>08/18/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

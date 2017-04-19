@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>New Sampling Tools, with Applications to Quantum Monte Carlo and Stochastic Control</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The investigator and his students develop new methods for sampling multidimensional probability densities. The idea is to achieve importance sampling by formulating high-quality proposal densities implicitly. For problems where the variables are continuous the investigator does this by first locating the modes of the density to be sampled, and then sampling by a creating a one-to-one and onto mapping from a convenient reference density onto the given probability space so that the neighborhoods of the modes have a high probability of being sampled. This map is defined implicitly by an efficient solution algorithm for a degenerate algebraic equation. Two successive samples are independent. This idea has been successfully applied by the investigator to problems in Bayesian estimation and in data assimilation, and the investigator proposes to extend it to quantum Monte Carlo and to stochastic control via path integral formulations. For problems where the variables are discrete and the previous algorithm is not applicable and where the probabilities are defined by a Hamiltonian, the investigator proposes to search for high-probability samples by first estimating a sequence of renormalized Hamiltonians via a fast algorithm developed with previous NSF support, and then sampling these Hamiltonians sequentially to find high-probability samples. In a first stage, the investigator expects to apply this second idea to the sampling of spin glasses and simple gauge fields.&lt;br/&gt;&lt;br/&gt;The investigator and his students develop efficient algorithms for finding samples of given probability distributions. One can think of the given probability distributions as embodying a (possibly uncertain) theoretical model of a physical system, and the samples as instances of events for which the model is valid; one can then contrast these instances with (possibly uncertain) data and find out what is likely to happen given both the data and the model. This is commonly done in fields such as meteorology and economics. However, finding useful samples is typically difficult and costly in computer resources because the number of possibilities is typical colossal, but most of them turn out to be highly unlikely once data are taken into account. One wants to focus on likely instances, but in general one does not know in advance where these are. This difficulty is a major bottleneck in scientific computing. The investigator has been developing sampling methods that can find the high probability samples, even without prior knowledge, by optimizing the sampling in suitably abstract versions of the problems; he has successfully used these new methods in oceanography and geophysics, and proposes to develop them further for use in robotics, computational chemistry, and nuclear physics.</AbstractNarration>
+    <MinAmdLetterDate>08/29/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/05/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217065</AwardID>
+    <Investigator>
+      <FirstName>Alexandre</FirstName>
+      <LastName>Chorin</LastName>
+      <EmailAddress>chorin@math.berkeley.edu</EmailAddress>
+      <StartDate>08/29/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

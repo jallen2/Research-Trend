@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RUI: Intermediate-level Vision: Grouping of generic features for image and video processing</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>187449</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The human vision system is able to recognize objects and understand the scene from the boundary of the objects alone. It is astonishingly robust so that it can sustain this capability under distraction by non-boundary points and sparse sampling of the boundary points. How the system achieves this feat is largely unknown. This project investigates how a computer can replicate it algorithmically. The problem is fundamental and closely related to perceptual organization and intermediate level vision problems. Thus, this research has the potential to impact a wide range of computer vision applications. Since the input (a small set of isolated points) is small compared to the whole image and has no color information, the algorithm is efficient, robust against changes in illumination and contrast, and applicable to any imaging modalities.&lt;br/&gt;&lt;br/&gt;The main problem is to interpolate boundary points into a perceptually salient set of surfaces without being distracted by spurious non-boundary points. Interpolation by straight skeletons brings a time-reversible, multi-scale representation of a point set where salient boundary points tend to form a polygonal surface persistently while spurious non-boundary points tend to disappear quickly as the scale increases. Because of the time-reversible nature, a surface at each scale can be traced back to the original scale or the original point set. Thus, this technique can be used to form a set of salient surfaces from the original point set. This research develops a general purpose feature grouping algorithm using the straight skeleton interpolation and applies it to a number of intermediate vision problems in 2D and 3D domains. The investigator actively involves undergraduate students into the research and promotes STEM education in the northeastern part of the U.S.A through presentations, demonstrations, and outreach activities. The source code and toolboxes will be made publicly available and used to promote STEM education.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1421734</AwardID>
+    <Investigator>
+      <FirstName>Toshiro</FirstName>
+      <LastName>Kubota</LastName>
+      <EmailAddress>kubota@susqu.edu</EmailAddress>
+      <StartDate>08/07/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Susquehanna University</Name>
+      <CityName>Selinsgrove</CityName>
+      <ZipCode>178701164</ZipCode>
+      <PhoneNumber>5703724592</PhoneNumber>
+      <StreetAddress>514 University Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7936</Code>
+      <Text>SIGNAL PROCESSING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9229</Code>
+      <Text>RES IN UNDERGRAD INST-RESEARCH</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS-NBD-SGER: Map/Reduce for Network Traffic Analysis (MR-Net Sger)</AwardTitle>
+    <AwardEffectiveDate>04/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2010</AwardExpirationDate>
+    <AwardAmount>100244</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0823774&lt;br/&gt;&lt;br/&gt;This project explores a new class of parallel algorithms that process very large network datasets. The goal is to be able to analyze 2.7 billion pings to map the Internet address space, process six months of flow records to understand long-term traffic trends, and search a week?s worth of packet headers to retroactively detect zero-day compromised machines. Each of these tasks requires efficient and economical processing of datasets in sizes from 50GB to several terabytes. This leap in dataset sizes by a factor of 100-1000-fold or more requires fundamentally different ways of handling network data than today?s tcpdump and ethereal on a workstation. Two recent developments make this leap possible. First, Google has demonstrated that the map/reduce abstraction be easily parallelized and run efficiently and cost-effectively over clusters of hundreds of commodity PCs. It is the basis of their web search engine and has prompted at least one open source implementation. Map/reduce is the computation engine of Google?s web search engine, increasingly being used in other applications. Map/reduce is the key to processing huge network datasets. Second, recent programs such as PREDICT make massive network datasets available. PREDICT promises to make available packet header traces, address space scans, netflow records, dark address space traffic, and voice over IP (VoIP) call records from several large ISPs. At USC researchers are collecting packet header traces and address space scans. PREDICT is the key to obtaining huge network datasets. This work is proposes as a SGER because it is both timely and, at this point, highly speculative. The researchers must characterize what network problems can be solved by map/reduce before a full proposal will be credible. This proposal is the key to demonstrating the potential impact of for map/reduce processing of huge network datasets to change our understanding of the Internet.&lt;br/&gt;&lt;br/&gt;The intellectual merit of this work is to develop a preliminary understanding of how to use map/reduce style processing for network datasets. What algorithms are applicable? What problems parallelize well or poorly? What kind of compute clusters are needed? And more generally, how can networking researchers cope with gigabyte-to-terabyte datasets that are needed to describe a billion-user Internet?&lt;br/&gt;&lt;br/&gt;The broader merit of this work is that it will lead to answers of both fundamental and practical questions facing the Internet. Considering these datasets, questions include: What does the Internet look like? At what rate is the Internet address space being consumed? How many Internet users connect with dynamic addresses? How can one respond to intrusions effectively? Can new techniques detect low-rate denial-of-service attacks, spam generation in compromised servers? Can one traceback and detect botnets control networks? More important than these specific questions is the broader question of how can one understand properties in a billion-node Internet and the petabyte-per day of traffic that flows over it.</AbstractNarration>
+    <MinAmdLetterDate>03/12/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/12/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0823774</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Heidemann</LastName>
+      <EmailAddress>johnh@isi.edu</EmailAddress>
+      <StartDate>03/12/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

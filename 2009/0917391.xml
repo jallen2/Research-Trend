@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Collaborative Research: Dynamic Invariant Inference, Enhanced</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>183000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In just a decade, dynamic invariant inference has emerged as one of the most promising directions in program analysis, with a variety of applications. An invariant inference system observes a program during test execution and filters a large number of candidate invariants (i.e., suspected relations between program data), finally reporting only those that hold with high confidence. However, inferred invariants are not always true (they depend on the quality of a test suite), and the few really useful invariants discovered are often accompanied by many more true but trivial and irrelevant facts. This work improves the quality of discovered invariants by ensuring their consistency with facts that are known statically. For instance, even though the invariants describing the behavior of two functions f1 and f2 may be unknown, we may know that any valid input for f1 is also valid for f2. This fact can be incorporated in the inference process to eliminate inconsistent invariants. More generally, the work explores techniques for expressing, discovering, and employing such consistency constraints to improve the quality of produced invariants, from type information and other sources including static analysis and user-supplied annotation.&lt;br/&gt;&lt;br/&gt;The work will impact many aspects of software engineering, including scientific and industrial uses. Concrete benefits will be in the form of publications, usable software (released under an academic open-source license), software prototypes, and educational activities and resources (enhancement of a textbook and current courses, internships for high school students).</AbstractNarration>
+    <MinAmdLetterDate>07/27/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/07/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0917391</AwardID>
+    <Investigator>
+      <FirstName>Michal</FirstName>
+      <LastName>Young</LastName>
+      <EmailAddress>michal@cs.uoregon.edu</EmailAddress>
+      <StartDate>07/27/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Oregon Eugene</Name>
+      <CityName>Eugene</CityName>
+      <ZipCode>974035219</ZipCode>
+      <PhoneNumber>5413465131</PhoneNumber>
+      <StreetAddress>5219 UNIVERSITY OF OREGON</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9217</Code>
+      <Text>NATNL RESERCH &amp; EDUCAT NETWORK</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

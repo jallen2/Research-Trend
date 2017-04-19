@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-PDOS: Out-of-Context Prefetching for L2 Caches</AwardTitle>
+    <AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2010</AwardExpirationDate>
+    <AwardAmount>222000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Krishna Kant</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>On a multi-tasked system, the CPU cycles through a number of processes every few milliseconds. Some of the processes are memory-intensive, but most are non-intensive support processes and other user programs such as text-editors, email clients, and instant messengers. A typical system cycles through a few memory-intensive processes, each of which replaces several cache blocks from the level-2 cache from other processes. This results in a large number of demand misses for the L2, and ties up the memory subsystem preventing effective prefetching.&lt;br/&gt;&lt;br/&gt;This project investigates a possible solution to this problem by modifying the OS to prefetch to the L2 out of context, i.e. when the CPU is executing a non memory-intensive process. (ideally, just before the memory-intensive process will be brought in for execution). Thus, when this process resumes execution, it will have low L2 cache misses which in turn will keep the memory-bus free in order to prefetch even more blocks. Out-of-context prefetching aims to shift from a predominantly demand-fetched paradigm to a predominantly prefetched paradigm.&lt;br/&gt;&lt;br/&gt;In conjunction with accurate predictors for prefetching, this work has the potential to greatly mitigate the performance CPU-memory gap problem on a system-wide level. The expected outcome of the project is a Linux implementation of out-of-context prefetching on a full-system simulator, and a website that documents all the assumptions, the source code, and extensive project results beyond those published in the corresponding research literature. All researchers, operating system designers, and processor manufacturers will have access to the website and the research findings to freely incorporate them as they wish.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/07/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720741</AwardID>
+    <Investigator>
+      <FirstName>Sohum</FirstName>
+      <LastName>Sohoni</LastName>
+      <EmailAddress>sohum.sohoni@asu.edu</EmailAddress>
+      <StartDate>08/21/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Oklahoma State University</Name>
+      <CityName>Stillwater</CityName>
+      <ZipCode>740781011</ZipCode>
+      <PhoneNumber>4057449995</PhoneNumber>
+      <StreetAddress>101 WHITEHURST HALL</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oklahoma</StateName>
+      <StateCode>OK</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

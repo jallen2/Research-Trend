@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: Enhancement and Support of DMTCP for Adaptive, Extensible Checkpoint-Restart</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>514427</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Society's increasingly complex cyberinfrastructure creates a concern for software robustness and reliability. Yet, this same complex infrastructure is threatening the continued use of fault tolerance. Consider when a single application or hardware device crashes. Today, in order to resume that application from the point where it crashed, one must also consider the complex subsystem to which it belongs. While in the past, many developers would write application-specific code to support fault tolerance for a single application, this strategy is no longer feasible when restarting the many inter-connected applications of a complex subsystem. This project will support a plugin architecture for transparent checkpoint-restart. Transparency implies that the software developer does not need to write any application-specific code. The plugin architecture implies that each software developer writes the necessary plugins only once. Each plugin takes responsibility for resuming any interrupted sessions for just one particular component. At a higher level, the checkpoint-restart system employs an ensemble of autonomous plugins operating on all of the applications of a complex subsystem, without any need for application-specific code.&lt;br/&gt;&lt;br/&gt;The plugin architecture is part of a more general approach called process virtualization, in which all subsystems external to a process are virtualized. It will be built on top of the DMTCP checkpoint-restart system. One simple example of process virtualization is virtualization of ids. A plugin maintains a virtualization table and arranges for the application code of the process to see only virtual ids, while the outside world sees the real id. Any system calls and library calls using this real id are extended to translate between real and virtual id. On restart, the real ids are updated with the latest value, and the process memory remains unmodified, since it contains only virtual ids. Other techniques employing process virtualization include shadow device drivers, record-replay logs, and protocol virtualization. Some targets of the research include transparent checkpoint-restart support for the InfiniBand network, for programmable GPUs (including shaders), for networks of virtual machines, for big data systems such as Hadoop, and for mobile computing platforms such as Android.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/17/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1440788</AwardID>
+    <Investigator>
+      <FirstName>Gene</FirstName>
+      <LastName>Cooperman</LastName>
+      <EmailAddress>gene@ccs.neu.edu</EmailAddress>
+      <StartDate>08/08/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

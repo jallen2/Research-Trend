@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RUI: Fourier-Based Learning of Fundamental Function Classes</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2011</AwardExpirationDate>
+    <AwardAmount>250519</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Machine learning is increasingly used to automate many tasks, such as training email clients to recognize unwanted email messages. The knowledge gained by a machine learning algorithm must be represented internally in some form. For example, assume that an email filtering algorithm has learned that if an email message contains the phrase ``fast profits'' then it is very likely an unwanted message, while if it contains the phrase ``computational learning theory'' then it is likely a legitimate message. The algorithm might represent this knowledge by associating a large negative numeric weight with the first phrase and a large positive weight with the second. Given a new message, the algorithm could first determine which phrases were present in the message, sum the corresponding weights, and mark the message as unwanted if the sum was negative. The described knowledge representation is a form of linear threshold function; such functions are the basis for many common knowledge representations produced by machine learning programs.&lt;br/&gt;&lt;br/&gt;This research addresses foundational questions related to the learning of linear threshold functions and other important classes of functions. &lt;br/&gt; Answers to such questions should be useful to theoreticians and could lead to better applied machine learning algorithms and the identification of fundamental limitations of certain algorithmic approaches, saving wasted development efforts. The primary research methodology used is discrete Fourier analysis, and a second project goal is to develop new Fourier techniques applicable beyond learning. A third project objective is to provide a stimulating research experience to undergraduate and Master's students.</AbstractNarration>
+    <MinAmdLetterDate>09/19/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0728939</AwardID>
+    <Investigator>
+      <FirstName>Jeffrey</FirstName>
+      <LastName>Jackson</LastName>
+      <EmailAddress>jacksonj@duq.edu</EmailAddress>
+      <StartDate>09/19/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duquesne University</Name>
+      <CityName>Pittsburgh</CityName>
+      <ZipCode>152820001</ZipCode>
+      <PhoneNumber>4123961537</PhoneNumber>
+      <StreetAddress>Room 310 Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2860</Code>
+      <Text>THEORY OF COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9229</Code>
+      <Text>RES IN UNDERGRAD INST-RESEARCH</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

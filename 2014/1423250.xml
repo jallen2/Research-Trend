@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Collaborative Research: Dynamic Forwarding and Caching for Data-Centric Networks: Theory and Algorithms</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Two fundamental trends in networking are clearly visible. First, the bulk of network traffic today, and of its projected enormous growth, consists mainly of content disseminated to multiple users. Second, network content is accessed increasingly in mobile wireless environments with dynamic and unreliable channel conditions. Traditional network protocols, designed originally for point-to-point communication over static wired networks, are fundamentally ill suited for such scenarios. Motivated by these trends, this project will develop dynamic and distributed algorithms which can fully exploit network resources (both bandwidth and storage) for efficient and robust content dissemination under changing network conditions.&lt;br/&gt;&lt;br/&gt;This project builds on recent active research efforts in data-centric networking, which places information content, rather than source-destination pairs, at the center of the network architecture. While there have been a number of significant results in data-centric networking research, the central problem of the joint design and optimization of dynamic caching and forwarding algorithms has yet to be thoroughly studied. This project will study the fundamental limits of caching and forwarding, as well as the design of practical and robust algorithms for optimizing the use of bandwidth and storage in data-centric content delivery. Unlike many existing works on centralized algorithms for static caching, this project will develop scalable, distributed, dynamic algorithms that can address large-scale caching and forwarding under changing content, user demands and network conditions.&lt;br/&gt;&lt;br/&gt;To achieve this goal, the project will take two complementary approaches. The first approach is based on a stochastic model for distributed caching and forwarding recently developed by the PIs. This approach significantly expands on classical backpressure-based routing techniques to incorporate caching within a unified framework, leading to new algorithms which maximize user demand rate satisfied by the network. The second approach is based on a flow-based distributed convex optimization framework, in which content-specific routing and caching are carried out on a distributed node-by-node basis to minimize a global cost objective such as delay.&lt;br/&gt;&lt;br/&gt;This project addresses both practical and theoretical issues, and consists of the following main thrusts: (1) the design of jointly optimal forwarding and caching algorithms for minimizing delay; (2) the design of scalable, robust, hierarchical dynamic caching and forwarding algorithms which operate with dynamically adjusted name resolutions; (3) the development of algorithms which combine dynamic caching and forwarding with congestion control for fairness and enhanced performance; (4) the exploration of coding techniques in storage and transmission for obtaining practical advantages in performance and reliability, as well as for enabling the study of fundamental performance limits in caching and forwarding; (5) the development of low-complexity, dynamic forwarding and caching algorithms delivering lower user delay and greater resilience to multi-user interference and channel fading in mobile wireless environments; and (6) development of algorithms for querying and caching which lead to optimal decision making in a sensing context.&lt;br/&gt;&lt;br/&gt;The broader significance of this work will include: (1) direct and long-term impact on network architectures for big data applications used in national security, commercial enterprise, scientific exploration and research, health services, and other important social projects; (2) impact on undergraduate and graduate education, with particular emphasis on involving female and minority students, through a planned course segment on 'theory and algorithms for data-centric networking' and active hands-on projects involving testbed investigation and validation; (3) enhancement of infrastructure for research and education through active partnering with other university departments, government research institutions and industry; and (4) broad dissemination to enhance scientific and technological understanding by participation in multi-disciplinary conferences and workshops, and exposure to broader media.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423250</AwardID>
+    <Investigator>
+      <FirstName>Edmund</FirstName>
+      <LastName>Yeh</LastName>
+      <EmailAddress>eyeh@ece.neu.edu</EmailAddress>
+      <StartDate>08/27/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

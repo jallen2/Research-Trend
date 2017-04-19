@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Temporal Stimulus Segmentation with Spiking Neurons</AwardTitle>
+    <AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2016</AwardExpirationDate>
+    <AwardAmount>316236</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kenneth C. Whang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Human beings have an unmatched ability to learn to abstract information from the environment, use this information to predict the consequences of their actions, and develop appropriate behavioral strategies. State-of-the-art artificial devices are far from exhibiting such autonomous learning abilities. This project focuses on a subset of the skills required for autonomous learning, specifically, the ability to identify the relevant cues and stimuli from the environment and establish how to act in their presence. In many situations, such as speech processing, this problem amounts to extracting temporally extended segments embedded in a continuous sensory stream of irrelevant stimuli and noise, a problem of temporal stimulus segmentation. Traditional algorithms for stimulus segmentation that learn based just on the unsegmented input stream are unlikely to succeed in this task, especially if the relevant segments do not exhibit features that are detectable by some standard pre-processing strategy. As a consequence, existing models typically endow a learning agent with prior knowledge of what is relevant (the so-called "states" of the agent) and focus on the problem of relating each state with the outcome they predict. Such models, of widespread use in computational neuroscience and machine learning, are unable to form or modify their own relevant states, preventing the development of truly autonomous learning and decision-making devices.&lt;br/&gt;&lt;br/&gt;This project aims to develop a biologically relevant solution to the problem of temporal stimulus segmentation, with a focus on foundational theory and principles. In this theory, the states are represented by spatio-temporal patterns of spike trains and are processed by a network of spiking neurons capable of online, spike-based learning. The network learns to segment the input stream by taking appropriate actions at the right time, using a spike-based synaptic plasticity rule that approximates gradient ascent on the average reward, and makes use of locally available information about the network's decision. Importantly, the relevant segments are constructed so as to be behaviorally meaningful but not statistically different from irrelevant stimuli and noise, and therefore their boundaries are not detectable by standard pre-processing techniques.&lt;br/&gt;&lt;br/&gt;Segmentation performance will be quantified as a function of the network's properties (such as number of neurons, connectivity and architecture) in the framework of different neurobiologically-inspired stimulus-coding schemes, and contrasted to more traditional approaches such as artificial neural networks and hidden Markov models. The research will be further enhanced by developing a hard challenge application related to natural stimuli, with the long-term goal of demonstrating the power and usefulness of the new approach compared to more traditional ones. This will also demonstrate that the network can be applied widely, across modalities (e.g., vision as well as speech), and in real-life scenarios.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1161852</AwardID>
+    <Investigator>
+      <FirstName>Giancarlo</FirstName>
+      <LastName>La Camera</LastName>
+      <EmailAddress>giancarlo.lacamera@stonybrook.edu</EmailAddress>
+      <StartDate>09/06/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

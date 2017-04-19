@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Least Privilege Enforcement through Secure Memory Views</AwardTitle>
+    <AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>499902</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this project is to provide protection against exploits through untrusted third-party software components and against malicious application manipulation. These problems constitute an important class of vulnerabilities in current software, and are tied to a common denominator -- the lack of ability to divide a program and the data manipulated by it in a fine-grained manner and to control the interactions between the resulting constituents. &lt;br/&gt;&lt;br/&gt;This project proposes practical fine-grained ``least privilege'' enforcement through a computation model where the heap can be divided into a dynamic number of memory domains. Security contexts --- called secure memory views (SMVs) --- can be defined that map privileges of code executing within them onto memory domains. Threads are allowed to dynamically switch their set of privileges (i.e., switch which SMVs they are bound to) in a secure and controlled fashion, termed security context switching. These ideas are realized through three core contributions. (1) A programming model is devised to allow the application programmer to easily apply the proposed techniques, while also providing enough structure to reason about the resulting properties and to secure these. (2) The new concepts are reified within a modern mainstream programming language through development of a compiler supporting the language extensions, as well as modifications of the language runtime. (3) An efficient implementation of security context switching is proposed, involving both the language runtime and the operating system kernel itself. To validate the research, a popular web browser as well as a web server are enhanced to use SMVs. By using widely employed open-source software for implementing and validating the proposed support our concepts become available to a large community for use as well as further research and development.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/01/2017</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117065</AwardID>
+    <Investigator>
+      <FirstName>Aniket</FirstName>
+      <LastName>Kate</LastName>
+      <EmailAddress>aniket@purdue.edu</EmailAddress>
+      <StartDate>02/01/2017</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Patrick</FirstName>
+      <LastName>Eugster</LastName>
+      <EmailAddress>peugster@cs.purdue.edu</EmailAddress>
+      <StartDate>02/01/2017</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Patrick</FirstName>
+      <LastName>Eugster</LastName>
+      <EmailAddress>peugster@cs.purdue.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate>02/01/2017</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

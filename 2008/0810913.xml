@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Further Study of Hierarchical Reconstruction Algorithms</AwardTitle>
+    <AwardEffectiveDate>08/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2012</AwardExpirationDate>
+    <AwardAmount>167780</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>High resolution capturing schemes for solving conservation laws, e.g., the ENO scheme, smear discontinuities within a few mesh cells and achieve high accuracy where the solution is smooth. A series of works by Cockburn and Shu et al. on discontinuous Galerkin (DG) methods and local DG introduce many new techniques to the DG family and enable it to solve a broader class of equations including conservation laws. Still, the limiting technique for DG is not very mature and is considered to be one of the major open problems in scientific computing. The investigator and his colleagues propose the further study of a new limiting technique, the hierarchical reconstruction (HR). It is a general reconstruction procedure used as a limiter to remove spurious oscillations in the presence of shocks. The HR algorithm, motivated by the moment limiter of Biswas, Devine and Flaherty (1994), involves only a MUSCL, a second order ENO or other piecewise linear reconstructions in each stage of a multi-layer reconstruction process without characteristic decomposition. Therefore it is compact and easy to implement for arbitrary meshes. It does not truncate higher degree terms of a polynomial and actually uses the information from all degree terms. It has been proved that HR does not reduce the approximation order of a polynomial. Moreover, HR can be used for finite volume and central schemes as well without characteristic decomposition, which leads to a new finite volume approach. The investigator and his colleagues also propose the study of the local constant velocity version of the back and forth error compensation and correction method (BFECC) for velocity advections in multi-phase fluid simulation, BFECC for moving meshes and for interpolation between grids. &lt;br/&gt;Adapting HR to BFECC wherever necessary could significantly improve the robustness of BFECC for non-smooth solution.&lt;br/&gt;&lt;br/&gt;This project is on the study and development of new methods for using computers to simulate certain natural phenomena such as airflow passing a wing, shock waves propagating in a body, smokes etc. Computer simulations help scientists and engineers testing various experimental configurations and product designs without conducting costly experiments.&lt;br/&gt;Nowadays a lot of special effects in Hollywood movies are made by computer simulation. The BFECC method co-developed by the principal investigator has been used by NVIDIA for smoke simulation, http://developer.download.nvidia.com/SDK/10/direct3d/Source/Smoke/doc/Smoke.wmv.&lt;br/&gt;However, computer simulation is a noisy process. Noises constantly come from machine errors, and from the non-smoothness of simulated objects, such as shocks, corners of boundaries, interfaces separating different fluids or tissues in a body etc. Without special techniques, simulation noises caused by shocks can easily destroy a simulation result. In fact, two of the fundamental challenges for developing computational methods are to reduce simulation time and noises from the non-smoothness of simulated objects. The investigator and his colleagues study a new method for removing noise, which is easier to use for complex geometry and less dependent on simulated objects. Preliminary results for simulations of shocks are encouraging. The new idea could be adapted to many other areas and motivate the development of improved computational methods. For example, it could allow a complicated aircraft shape to be simulated more easily, motivate more robust techniques to stabilize simulations of multi-phase fluids, fuel cells etc and provide a black-box de-noising tool for simulations whose underlying physics are more empirical.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0810913</AwardID>
+    <Investigator>
+      <FirstName>Yingjie</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>yingjie@math.gatech.edu</EmailAddress>
+      <StartDate>08/14/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

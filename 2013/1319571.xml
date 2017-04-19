@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Contracts for Message-Passing Parallel Programs</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>463999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software plays an increasingly important role in science and engineering. The design of aircraft, sky scrapers, and automobiles; climate modeling and weather prediction; and the development of new pharmaceuticals, are just a few of the many endeavors that use computer programs to simulate natural phenomena. Yet studies have shown that many of these programs are ridden with defects ("bugs") that may lead to incorrect results. The same is true in other software domains, but the problems with scientific software are particularly acute for several reasons. Most significantly, much scientific software is "message-passing" parallel software---designed to execute on "supercomputers" which are networks of many thousands of processors. While there are many methods to help develop verifiably correct sequential programs, few of these have been extended to parallel programs. The "Design by Contract" methodology --- which works by decomposing a program into parts that can be specified and verified independently --- is one such approach, and has been successfully applied to sequential programs in a variety of domains. Professor Siegel's project is extending that methodology to apply to message-passing parallel programs, enabling the development of much more reliable scientific and engineering applications.&lt;br/&gt;&lt;br/&gt;The approach generalizes and extends existing contract specification and verification mechanisms in various ways. As in the sequential case, a procedural decomposition is used, but each procedure can be executed by multiple processes that are not necessarily running in lockstep. The contract pre-conditions and post-conditions are interpreted as "collective assertions". These are expressions that can refer to the state of multiple processes and have a special semantics: to evaluate such an expression a snapshot of the local state of each process is taken as it passes through the assertion location; once a snapshot has been obtained from each process they are composed to form a global state in which the expression is evaluated. Contracts must also refer to the state of the message buffers, for example, to express that there are no unreceived messages from one process to another. Symbolic execution and model checking techniques are used to verify a procedure satisfies its contract. These ideas are being realized as an extension to the Toolkit for Accurate Scientific Software (TASS), and applied to programs written in C with the widely-used Message Passing Interface.</AbstractNarration>
+    <MinAmdLetterDate>08/09/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/15/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319571</AwardID>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Siegel</LastName>
+      <EmailAddress>siegel@udel.edu</EmailAddress>
+      <StartDate>08/09/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Delaware</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>197162553</ZipCode>
+      <PhoneNumber>3028312136</PhoneNumber>
+      <StreetAddress>210 Hullihen Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Delaware</StateName>
+      <StateCode>DE</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

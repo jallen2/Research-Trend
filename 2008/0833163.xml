@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>COLLABORATIVE RESEARCH: Extreme OpenMP: A Programming Model for Productive High End Computing</AwardTitle>
+    <AwardEffectiveDate>09/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>234999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>High-end distributed and distributed shared memory platforms with millions of processors will be deployed in the near future to solve the toughest technical problems. Their individual nodes will be heterogeneous multithreading, multicore systems, capable of executing many threads of control, but with relatively little memory per thread, low bandwidth to main memory and deep memory hierarchies. &lt;br/&gt;A programming model that supports productive, portable, efficient parallel programming both within and across the nodes of these petascale systems is essential if their potential is to be realized. Since it is easier for application developers and tool vendors to extend existing software rather than adopt a new programming language, a programming model based upon a familiar paradigm is highly desirable. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;OpenMP is a widely supported shared memory programming model that provides ease of maintenance. It is suitable for programming multicore nodes, but does not address the needs of distributed memory platforms. This research will significantly extend OpenMP so that it can be used to program all levels of a high-end petascale system. In order to accomplish this, the investigators will enhance its existing mechanisms for describing multiple levels of parallelism, provide additional features for specifying synchronization and for achieving high levels of locality, as well as develop a novel I/O interface. Moreover, they will substantially improve the state of the art in OpenMP implementation technology, enabling high performance between nodes as well as within them. Results will be demonstrated via a state-of-the-art Fortran/C/C++ OpenMP compiler, a highly optimized communications library, and a range of large scale applications.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/02/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0833163</AwardID>
+    <Investigator>
+      <FirstName>Danesh</FirstName>
+      <LastName>Tafti</LastName>
+      <EmailAddress>dtafti@vt.edu</EmailAddress>
+      <StartDate>09/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Polytechnic Institute and State University</Name>
+      <CityName>BLACKSBURG</CityName>
+      <ZipCode>240610001</ZipCode>
+      <PhoneNumber>5402315281</PhoneNumber>
+      <StreetAddress>Sponsored Programs 0170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7583</Code>
+      <Text>ITR-HECURA</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Theory and Algorithm of Adaptive Methods for Numerical Methods</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>149999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal is on the study of advanced numerical methods for partial differential equations (PDEs) that arise from scientific and engineering applications. The theme of research is on the development, application and analysis of multilevel adaptive finite element methods. Comparing with the uniform refinement of the computational grid, adaptive finite element methods through mesh adaptation are more preferred to locally increase mesh densities in the regions of interest, thus saving the computer resources. The strategies of mesh adaptation can fall into two categories: h-method and r-method. The PI proposes to study several novel ideas in both methods and combine them to develop a more efficient, integrated, and flexible method for a large class of PDEs. More precisely, for r-method, the PI proposes a new energy using the concept of Optimal Delaunay Triangulation (ODT) and will develop related fast optimization methods and apply to the numerical solution of PDEs. For h-method, the PI will design and analyze multigrid methods, gradient recovery schemes, and refinement and coarsening algorithms based on a novel decomposition of bisection grids. Furthermore, these two methods will be naturally incorporated to result a more multilevel mesh adaptation strategy, in which h-method will be mainly used as a local smoother while the coarse mesh will be moved using the information from fine grids to severs as a coarse grid correction. The PI hopes to develop a more complete theoretical foundation and modern techniques for the combined use of adaptivity and multilevel solvers.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The multilevel adaptive methods developed and studied in this work are expected to have a broader impact on the numerical solutions of a large class of practical problems. Special target applications for this work are the convection-dominated problems and numerical simulation of pattern formation. The convection-dominated convection diffusion problems are particularly important to several flow problems in the real applications, for example, automotive industry (flow in combustion engines), plating industry (electro-chemically reacting flows with mass transfer at the electrode boundaries), and aerospace (high Reynolds number flow) among many others. Pattern formation occurs in diverse physical, chemical, and biological systems, from Drosophila embryo to the large-scale structure of the universe. By developing improved multilevel numerical techniques to reduce the computer time required to solve the underlying equations, and at the same time producing more accurate solutions through the use of adaptive finite element methods, this project will provide powerful tools for the exploration of models in physics and biology. In addition, a fully integrated involvement in undergraduate and graduate computational mathematics education is an integral part of the project. By developing a MATLAB package (iFEM), the PI will be able to design a new project-oriented course on multilevel adaptive finite element methods.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811272</AwardID>
+    <Investigator>
+      <FirstName>Long</FirstName>
+      <LastName>Chen</LastName>
+      <EmailAddress>chenlong@math.uci.edu</EmailAddress>
+      <StartDate>08/25/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173213</ZipCode>
+      <PhoneNumber>9498247295</PhoneNumber>
+      <StreetAddress>141 Innovation Drive, Ste 250</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

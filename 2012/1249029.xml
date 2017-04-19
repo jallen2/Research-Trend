@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SBIR Phase I: Automatic Security Audit of Third-Party Software</AwardTitle>
+    <AwardEffectiveDate>01/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2013</AwardExpirationDate>
+    <AwardAmount>149978</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07070000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Glenn H. Larsen</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The innovation of this Small Business Innovation Research Phase I project is the automatic security audit of third-party software. To demonstrate the capabilities of the technology, this project will build a security audit Cloud service, BitTurner, to automatically discover vulnerabilities and conduct security audits of third-party software. This cloud service will be fully automated; it will apply to programs for which source code is not available such as commercial binaries; and because every vulnerability report it generates will be accompanied by a test case demonstrating the vulnerability, it will have no false positives. This combination of attributes should revolutionize the process of software auditing and make it much faster and more cost effective. This is made possible by a novel combination of state-of-the-art program analysis techniques. The BitTurner Cloud service will incorporate white-box fuzzing using two different symbolic execution engines, black-box fuzzing enhanced with taint-directed fuzzing, and static vulnerability analysis to direct white-box fuzzing. The proposed highly parallel architecture will let us achieve high throughput and low latency while minimizing cost. The team also plans to extend the technology and infrastructure for security audit of mobile apps.&lt;br/&gt;&lt;br/&gt;The broader/commercial impact of automatic security audit of third-party software addresses an enormous market that has a dire and immediate need for innovative solutions. Security breaches cost businesses billions of dollars every year, and a majority of attacks are due to vulnerabilities in software. However, many barriers stand in the way of taking the steps needed to ensure software security. Manual auditing is prohibitively expensive because of the time and specialized skills required. Techniques based on source code are inapplicable to third-party software in binary form. Existing techniques based on static analysis can report so many false positive warnings that their results overwhelm developers and analysts and waste huge resources to weed out false positives. BitTurner's disruptive Cloud-based security audit technology should change this landscape by allowing fully automatic auditing of third-party software with no false positives, based on low-cost distributed computing. Security auditing as a service is already a large market, but existing commercial offerings are often an inadequate match for customer needs. BitTurner's technology may provide more comprehensive results at a competitive price point, and so both capture existing customers and make auditing available for software where it is currently infeasible.</AbstractNarration>
+    <MinAmdLetterDate>11/13/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/25/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1249029</AwardID>
+    <Investigator>
+      <FirstName>Jimmy</FirstName>
+      <LastName>Su</LastName>
+      <EmailAddress>jimmysu@ensighta.com</EmailAddress>
+      <StartDate>11/13/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ensighta Inc</Name>
+      <CityName>Berkeley</CityName>
+      <ZipCode>947092015</ZipCode>
+      <PhoneNumber>5108463909</PhoneNumber>
+      <StreetAddress>2003 VINE ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

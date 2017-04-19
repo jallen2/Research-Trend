@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Medium: Scalable and Secure Database as a Service</AwardTitle>
+    <AwardEffectiveDate>04/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2016</AwardExpirationDate>
+    <AwardAmount>1200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The CirrusDB project seeks to address several key challenges that arise when building a "database as a service". The goal of such a service is to provide a SQL interface to many applications, storing data that today might be spread across hundreds or thousands of separate database management systems. This is attractive because the costs incurred by individual users in the form of software licensing, hardware, management, and energy can be substantially lowered because it will be possible to multiplex many different databases onto a smaller footprint. Moreover, the costs can be made proportional to actual usage, saving significant up-front investments by application developers. &lt;br/&gt;&lt;br/&gt;The intellectual merit of CirrusDB relates to three key challenges in this area:&lt;br/&gt;&lt;br/&gt;1) Multi-tenancy, in which the resource use of a complex set of database workloads are monitored and the databases are consolidated on to a minimum number of physical machines while ensuring performance isolation and live migration with no downtime. Unlike existing work on large-scale multi-tenancy, which has focused on co-locating tenants with similar schemas, CirrusDB attempts to co-locate tenants which have resource utilization profiles that will not exceed the capacity of the machine on which they are hosted.&lt;br/&gt;&lt;br/&gt;2) Scalability in which the responsibility for query processing (and the corresponding data) is partitioned amongst multiple nodes in the service to achieve high throughput, using a novel graph partitioning strategy.&lt;br/&gt;&lt;br/&gt;3) In which the DBaaS infrastructure executes SQL queries issued by applications over encrypted data, enabling complete SQL processing over fully private data. The key idea is to use the notion of "adjustable security" by encrypting the data in layers in a way that allows not just equality checks but also range queries, sorting operations, and joins to be executed efficiently.&lt;br/&gt;&lt;br/&gt;CirrusDB will have broad impact in that it will result in database solutions that will a enable large, multi-node database service to be deployed both on a public cloud as well as in private data centers, providing multi-tenancy, scale-out using automatic partitioning, and privacy for SQL query execution. This will result in significantly lower administrative and capital costs required to run large-scale databases. CirrusDB will also reduce the barrier to entry for applications that use databases, because it will not be necessary to have in-house database expertise even when one needs high transactional performance.&lt;br/&gt;&lt;br/&gt;For further information see the project web site at the URL: http://db.csail.mit.edu/cirrusdb/</AbstractNarration>
+    <MinAmdLetterDate>03/16/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1065219</AwardID>
+    <Investigator>
+      <FirstName>Samuel</FirstName>
+      <LastName>Madden</LastName>
+      <EmailAddress>madden@csail.mit.edu</EmailAddress>
+      <StartDate>03/16/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nickolai</FirstName>
+      <LastName>Zeldovich</LastName>
+      <EmailAddress>nickolai@csail.mit.edu</EmailAddress>
+      <StartDate>03/16/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Hari</FirstName>
+      <LastName>Balakrishnan</LastName>
+      <EmailAddress>hari@csail.mit.edu</EmailAddress>
+      <StartDate>03/16/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

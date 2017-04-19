@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Computing Shape From Depth Discontinuities</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>260000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Piecewise smooth surfaces are used to describe the boundary shape of solid objects, such as those that can be fabricated with machine tools. They are composed of smooth surface patches meeting along piecewise smooth patch boundary curves called feature lines, across which the surface normal fields can be discontinuous. Structured lighting triangulation systems (e.g. based on lasers, or coded pattern projection) are used to capture the location of points on smooth surface patches, but are unable to sample feature lines. As a result, postprocessing operations are used to detect the feature lines lost in the clouds of sample points. Unfortunately, reconstructing feature lines from these samples is intrinsically impossible, because a continuous function with discontinuous derivatives is not a band-limited signal. &lt;br/&gt;&lt;br/&gt;This project introduces a new primal-dual framework for representation, capture, processing, and display of piecewise smooth surfaces, based on a new dual representation for piecewise smooth surfaces in the space of oriented 3D lines, or rays. In alternative dual representations tangent planes are used. An image capture process detects depth discontinuities, for example using multi-flash photography, from a generalized camera moving with respect to the object, or from a static camera and a moving object. Articulated and deformable objects, as well as real-time capture for 3D cinematography applications, will be considered in later phases of the project. A depth discontinuity sweep is a surface in dual space composed of the time-dependent family of depth discontinuity curves span as the camera pose describes a curved path in 3D space. Only part of this surface is visible and measurable from the moving camera. Silhouettes are included in the visible depth discontinuities. Locally convex points deep inside concavities can be estimated from the additional information, but not locally concave point laying at the bottom of concavities, resulting in holes in the reconstructed surface. New methods to fill these holes are proposed. One of these extrapolates the non-visible depth discontinuity curves from the visible ones by exploiting symmetries in the captured data. A second approach is based on interpreting the data as captured with a cylindrical camera looking at a fully visible toroidal surface. A new highly compressed surface representation composed of simple curve primitives in dual space will be developed. While sampling is regular for triangulation-based systems in primal space, in the dual space of rays samples are highly concentrated in the vicinity of high curvature points. Feature line points, which are highly localized in primal space, are easy to estimate in dual space because they correspond to extended and smooth curve segments. The investigators will implement hybrid systems combining depth discontinuities with triangulation-based systems, as well as photometric stereo, to achieve more accurate reconstructions of solid objects bound by piecewise smooth surfaces with accuracy guarantees for metrology applications. The proposed research includes applications ranging from reverse engineering to real-time 3D cinematography, and development of variational algorithms to fit watertight piecewise smooth implicit surfaces to the capture data, as well as isosurface algorithms to triangulate these implicit surfaces preserving feature lines.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0729126</AwardID>
+    <Investigator>
+      <FirstName>Gabriel</FirstName>
+      <LastName>Taubin</LastName>
+      <EmailAddress>taubin@brown.edu</EmailAddress>
+      <StartDate>08/24/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2865</Code>
+      <Text>NUMERIC, SYMBOLIC &amp; GEO COMPUT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

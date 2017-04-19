@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR--PDOS: Memory Efficient Garbage Collection Framework for Java Server Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mohamed G. Gouda</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Applications utilizing garbage collection often require up to five times more heap memory than similar applications using explicit memory management. In large server applications, such poor memory utilization can cause the throughput performance to degrade ungracefully, leading to unstable systems and unexpected failures.&lt;br/&gt;The goal of this project is to develop a memory-efficient garbage collection framework for these servers. The framework has three components not existing in today's commercial garbage collectors: compartmental heaps, phase-based garbage collection invocation policy, and priority page eviction policy. Collectively, these three components allow any garbage collectors utilizing our framework to perform more efficiently while requiring less memory. The ultimate result is an increase in the throughput performance and a predictable and graceful throughput degradation behavior of these servers under extreme memory demands.&lt;br/&gt;&lt;br/&gt;The success of our proposed work will help promote the transfer of the technologies developed into practice through the industry collaborations and into the classroom through the various related courses. In a broader context, the proposed work will improve the performance and robustness of server applications including application servers and web services, which are the foundations of web based applications serving millions of users each day.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/09/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720757</AwardID>
+    <Investigator>
+      <FirstName>Witawas</FirstName>
+      <LastName>Srisa-an</LastName>
+      <EmailAddress>witty@cse.unl.edu</EmailAddress>
+      <StartDate>08/21/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Nebraska-Lincoln</Name>
+      <CityName>Lincoln</CityName>
+      <ZipCode>685031435</ZipCode>
+      <PhoneNumber>4024723171</PhoneNumber>
+      <StreetAddress>151 Prem S. Paul Research Center</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Nebraska</StateName>
+      <StateCode>NE</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7793</Code>
+      <Text>DATA-INTENSIVE COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

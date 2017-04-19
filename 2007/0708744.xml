@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRI: CRD: iSim - Simulator of Internet-Scale Events</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2008</AwardExpirationDate>
+    <AwardAmount>49890</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Allison Mankin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Dynamics of Internet-scale events such as worm propagation, distributed denial-of-service attacks, flash crowds, routing instabilities, and DNS attacks depend on the configuration of all the networks that generate or forward legitimate and malicious traffic. To fully understand these events researchers need simulation tools that reproduce all the relevant event details and event traffic?s interaction with the Internet architecture. Collaborative defenses against Internet-scale attacks have also been proposed. The effectiveness of these defenses depends on the underlying Internet topology and the deployment locations, so high-fidelity Internet simulation is necessary to properly evaluate these defenses.&lt;br/&gt;&lt;br/&gt;Current network simulators cannot be used to study Internet-scale events. They are general-purpose, packet-level simulators that reproduce too many details of network communication, which limits scalability. Even distributed versions of network simulators such as GTNetS and PDNS, designed for large-scale events, have limited scalability because each packet and its handling are simulated in minute detail. For example, PDNS requires powerful, 100+ CPU clusters, to simulate worm propagation with up to 1.28 M vulnerable hosts. Many researchers do not have an access to such a large cluster. Another drawback of the current network simulators is that they lack a built-in Internet model. Researchers that aim to simulate Internet-scale events must themselves assemble the Internet topology, and determine end-host communication patterns, link bandwidths and routes. The effort required to set up a realistic Internet model from scratch is considerable so many researchers adopt simplfied models (e.g., assuming infinite bandwidth links, assuming highly symmetric Internet topology etc.) which leads to incorrect results. The iSim work builds upon our recent achievements in creating an Internet-scale simulator of worm propagation events, called PAWS. PAWS is a distributed simulator, deployed on the Emulab testbed. This project will explore the potential of the PAWS simulator as a community resource.</AbstractNarration>
+    <MinAmdLetterDate>09/07/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/07/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0708744</AwardID>
+    <Investigator>
+      <FirstName>Jelena</FirstName>
+      <LastName>Mirkovic</LastName>
+      <EmailAddress>mirkovic@isi.edu</EmailAddress>
+      <StartDate>09/07/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Delaware</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>197162553</ZipCode>
+      <PhoneNumber>3028312136</PhoneNumber>
+      <StreetAddress>210 Hullihen Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Delaware</StateName>
+      <StateCode>DE</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

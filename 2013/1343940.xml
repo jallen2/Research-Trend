@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SCH: EXP: Intelligent Clinical Decision Support with Probabilistic and Temporal EHR Modeling</AwardTitle>
+    <AwardEffectiveDate>01/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2017</AwardExpirationDate>
+    <AwardAmount>686411</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Clinical decision support has the potential to reduce healthcare costs and improve patient outcomes, while shedding light into policy questions surrounding healthcare costs and practices in the US. This project aims to develop intelligent clinical decision support techniques for recommending optimal action plans - including both diagnostic tests and medical interventions - for treating chronic disease, performing multi-step and adaptive treatments, and modifying long-term health habits. In an effort to integrate evidence-driven decision-making with established clinical practices, the research will develop disease-agnostic artificial intelligence techniques that combine data from large electronic health records (EHRs) with recommendations from human experts. A prototype decision support system will be tested on three clinical settings - cardiology, clinical depression, and emergency room readmission - using existing EHR datasets and consultation with domain experts from clinical partners. Outcomes-driven and cost-driven optimized decisions will be compared to current clinical practice. This exploratory research will provide the groundwork for follow-up projects in decision support information presentation, integration with clinical workflow and IT systems, and making the transition from retrospective studies to clinical trials. Other broader impacts include workshops for healthcare applications of AI, and women and minority students will be recruited and mentored in graduate and undergraduate computer science research.&lt;br/&gt;&lt;br/&gt;The technical approach of this research builds on state-of-the-art machine learning and artificial intelligence methods to automatically learn, simulate, and reason about patient-specific treatment plans. Such methods must be simultaneously probabilistic and temporal. Probabilistic techniques are needed to handle significant uncertainties in clinical diagnoses and outcomes, much like a human clinician would. Temporal techniques are needed to consider sequences of future decisions over the course of treatment, rather than decisions at single time points. More specifically, this project will consider the use of statistical relational learning (SRL) techniques to mine for probabilistic, temporal patterns in large electronic health records, and these patterns will be used in partially-observable Markov decision processes (POMDPs) that exhaustively search for optimal treatment sequences. Recent results indicate that SRL achieves superior performance to other machine learning methods in predicting cardiac arrest from demographic and lifestyle observations, and POMDP treatment plans outperform existing fee-for-service practices by reducing costs by 50% and improving outcomes by 40% on a clinical depression dataset. By combining SRL and POMDPs, specifically, using SRL to learn a disease progression model used by the POMDP, this project aims to achieve further improvements in recommendation quality and computational scalability for complex treatments. Furthermore, because EHRs may suffer from limited or missing data, clinical decision support tools should follow established practices and expert knowledge when necessary. To do so, new workflows for integrating expert knowledge into SRL and POMDPs will be explored. Evaluation will be performed on a variety of disease scenarios in conjunction with clinical partners at Marshfield Clinic, Centerstone, Wake Forest School of Medicine, and South Bend Memorial Hospital.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/12/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1343940</AwardID>
+    <Investigator>
+      <FirstName>Shaun</FirstName>
+      <LastName>Grannis</LastName>
+      <EmailAddress>sgrannis@regenstrief.org</EmailAddress>
+      <StartDate>09/13/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sriraam</FirstName>
+      <LastName>Natarajan</LastName>
+      <EmailAddress>natarasr@indiana.edu</EmailAddress>
+      <StartDate>11/12/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sriraam</FirstName>
+      <LastName>Natarajan</LastName>
+      <EmailAddress>natarasr@indiana.edu</EmailAddress>
+      <StartDate>09/13/2013</StartDate>
+      <EndDate>09/08/2014</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kris</FirstName>
+      <LastName>Hauser</LastName>
+      <EmailAddress>kris.hauser@duke.edu</EmailAddress>
+      <StartDate>11/12/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kris</FirstName>
+      <LastName>Hauser</LastName>
+      <EmailAddress>kris.hauser@duke.edu</EmailAddress>
+      <StartDate>09/13/2013</StartDate>
+      <EndDate>09/08/2014</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8018</Code>
+      <Text>Smart and Connected Health</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8018</Code>
+      <Text>Smart and Connected Health</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8061</Code>
+      <Text>SCH Type I: EXP</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

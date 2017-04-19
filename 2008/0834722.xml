@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-PSCE, TM: A Declarative Approach to Managing the Complexity of Massively Parallel Programs</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>865125</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Parallel programs are typically written using a style in which independent processes are expressed sequentially and use locally-expressed message passing as a means of data exchange as well as a means of inter-process synchronization. From the network relationships that are implied by messaging among processes arise implicit data structures and implicit algorithms - that is, global parallel data structures and global parallel algorithms for which there is no explicit global representation. Limited only to a local approach for creating parallel programs, achieving correctness and performance of large-scale parallel algorithms is rapidly moving beyond our reasoning abilities. To address this shortcoming, this project develops a declarative language approach for describing new high-level communication operations, a means for composing these operations with computations, and a means for expressing transformations for optimizing the resulting compositions.&lt;br/&gt;&lt;br/&gt;This project's implementation plan is based on aggressive evolution of the technology that is currently most effective in large-scale parallel computing - namely, explicitly managed shared data. In the distributed-memory case this is achieved with message passing, but the same discipline can be applied in the shared memory case as well. This project's approach may enable higher levels of expressiveness and abstraction for data management, communication, and coordination. Moreover, the separation of concerns that is naturally imposed between communication and computation greatly simplifies the mental model and implementation effort for programmers. In order not to sacrifice performance because of this division, this scheme's composition and transformation mechanisms will allow communication and computation to be (automatically) combined in an optimized fashion so that high performance and high scalability are achieved. To facilitate adoption by practicing programmers of the paradigms and tools that are developed, integration with education is essential. Accordingly, this project will directly train undergraduate, graduate, and post-doctoral researchers and will develop supporting curricula and materials to train both students and practicing programmers. Close collaboration with large-scale real-world scientific applications will further increase the practical relevance of this work.</AbstractNarration>
+    <MinAmdLetterDate>08/12/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0834722</AwardID>
+    <Investigator>
+      <FirstName>Arun</FirstName>
+      <LastName>Chauhan</LastName>
+      <EmailAddress>achauhan@cs.indiana.edu</EmailAddress>
+      <StartDate>08/12/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Lumsdaine</LastName>
+      <EmailAddress>al75@uw.edu</EmailAddress>
+      <StartDate>08/12/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7902</Code>
+      <Text>PSCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NECO: Architectural Support For Fault Management</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>237000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Joseph Lyles</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Internet today is a global infrastructure used by one and all. It is also the life-line of many businesses. The Internet, however, still lacks the kind of reliability and robustness we expect from critical infrastructure. While the network has in-built fault-tolerance, it is typically restricted to hard failures alone; the network is equipped to neither detect nor react to soft failures such as high delays or losses that may be due to faulty implementations or hardware failures or congestion related. To support delay- and loss-sensitive applications, it is important to devise efficient mechanisms to quickly detect such failures and recover from them in an automated fashion. Network devices provide very little support for debugging performance problems?let alone automatically respond to them. Operators today inject active probes between pairs of provider edge routers to detect any forwarding problems such as high delays and losses, in their network. Operators typically rely on applying indirect inference algorithms, such as tomographic approaches, that can infer root causes by joining active probes with network topology snapshots. Given the problem is fundamentally under-constrained; inference is only approximate at best and can be quite slow. Automated response mechanisms require fast and accurate localization in order to be effective. The main research focus of this research is to create novel in-network fault management mechanisms to automatically detect, localize, report and respond to failures and other performance degradations.&lt;br/&gt;&lt;br/&gt;The research revolves around three basic ideas: 1) Equipping routers with specialized high-speed low-complexity measurement primitives to measure delay and loss; 2) Using this feedback to allow routing protocols to automatically respond to congestion or chronic failure conditions; and 3) Integrating these mechanisms into NetFlow to provide per-flow delay and loss. Together, these mechanisms provide a rich set of tools for network operators and administrators to monitor and manage their networks efficiently and improve the overall fault-tolerance properties of these networks.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: This research will contribute to the established research area of network fault-tolerance by allowing the network to automatically detect and respond to soft failures; it will carve new areas of research on scalable router primitives for high-fidelity measurements; and; it will significantly enhance the capabilities of routers by incorporating new definitions of flows commensurate with latest innovations and advancements in the Internet. This research directions combine three disparate areas of research?scalable router primitives, fault-tolerant routing protocols, and measurement?to significantly improve the robustness of critical infrastructure, the Internet. The work has the potential to provide a powerful fault management platform the Internet requires to sustain the next generation of delay-sensitive and interactive applications.&lt;br/&gt;&lt;br/&gt;Broad Impact: The project will contribute to the education of the next generation of networking engineers and designers. The researchers will disseminate the results through the traditional academic channels, and will actively participate in industry forums leveraging their collaborations with AT&amp;T and Cisco. They will also design and revise courses in Networking and Router Architectures in the graduate and undergraduate curriculum, and supervise Ph.D, Master, and undergraduate projects through the Honors program.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/09/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0831647</AwardID>
+    <Investigator>
+      <FirstName>Ramana</FirstName>
+      <LastName>Kompella</LastName>
+      <EmailAddress>Kompella@cs.purdue.edu</EmailAddress>
+      <StartDate>08/08/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

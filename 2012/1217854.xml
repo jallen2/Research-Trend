@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Tool Support for Verifiably-Robust Software</AwardTitle>
+    <AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>499922</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Society increasingly relies on software in critical roles for which crashes can have serious consequences including the loss of lives. For example, it is now commonplace for software to control the engines and brakes in our cars. This research investigates a new approach for improving the resilience of software. The goal is to verify that hidden bugs cannot cause programs to transition into problematic states in which they stop responding to human control or respond differently than when they were tested. Given the scale that our society depends on software in critical roles, new approaches to improving software resilience have the potential to reduce the financial costs of software failures and even save lives.&lt;br/&gt;&lt;br/&gt;Previous work on software resilience largely focused on extensive testing or formal verification of correctness. This project takes a new approach - it seeks to verify that the consequences of a software error have a limited scope in time. Precisely, it verifies that after a bounded time period after an error, the execution will reach a state in which it will respond with same behaviors seen while testing. This property is known in the distributed systems literature as self-stabilization. The project will combine type annotations with compiler analyses to verify that a computation is self-stabilizing. A second thrust of the project is to explore how to compose self-stabilizing computations with stateful computations while still providing useful system level guarantees.</AbstractNarration>
+    <MinAmdLetterDate>07/03/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/03/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217854</AwardID>
+    <Investigator>
+      <FirstName>Brian</FirstName>
+      <LastName>Demsky</LastName>
+      <EmailAddress>bdemsky@uci.edu</EmailAddress>
+      <StartDate>07/03/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173213</ZipCode>
+      <PhoneNumber>9498247295</PhoneNumber>
+      <StreetAddress>141 Innovation Drive, Ste 250</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

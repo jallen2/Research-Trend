@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Adaptive Techniques for Achieving End-to-End QoS in the I/O Stack on Petascale Multiprocessors</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>640000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Emerging high-end computing platforms, such as leadership-class machines at the petascale, provide new horizons for complex modeling and large-scale simulations. These machines are used to execute data intensive applications of national interest such as climate modeling, cosmic microwave background radiation, and astrophysical thermonuclear flashes. While these systems have unprecedented levels of peak computational power and storage capacity, a critical challenge concerns the design and implementation of scalable I/O (input-output) system software (also called I/O stack) that makes it possible to harness the power of these systems for scientific discovery and engineering design. Unfortunately, currently, there are no available mechanisms that accommodate I/O stack-wide, application-level QoS (quality-of-service)specification, monitoring, and management.&lt;br/&gt;&lt;br/&gt;This project investigates a revolutionary approach to the QoS-aware management of the I/O stack using feedback control theory, machine learning, and optimization. The goal is to maximize I/O performance and thus improve overall performance of large scale applications of national interest. The project uses (1) machine learning and optimization to determine the best decomposition of application-level QoS to sub-QoSs targeting individual resources, and (2) feedback control theory to allocate shared resources managed by the I/O stack such that the specified QoSs are satisfied throughout the execution. The project tests the developed I/O stack enhancements using the workloads at NCAR, LBNL and ANL systems. It also involves two efforts in broadening participation: CISE Visit in Engineering Weekends (VIEW) and NASA-Aerospace Education Services Project (NASA-AESP) at the Center for Science and the Schools (CSATS).</AbstractNarration>
+    <MinAmdLetterDate>09/19/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0937949</AwardID>
+    <Investigator>
+      <FirstName>Padma</FirstName>
+      <LastName>Raghavan</LastName>
+      <EmailAddress>padma.raghavan@vanderbilt.edu</EmailAddress>
+      <StartDate>09/19/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mahmut</FirstName>
+      <LastName>Kandemir</LastName>
+      <EmailAddress>kandemir@cse.psu.edu</EmailAddress>
+      <StartDate>09/19/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Qian</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>quw6@psu.edu</EmailAddress>
+      <StartDate>09/19/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7952</Code>
+      <Text>HECURA</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

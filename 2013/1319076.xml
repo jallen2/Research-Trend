@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: XCap: Practical Capabilities and Least Authority for Virtualized Environments</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>499912</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern software systems inherit their architecture, software development methodology, and security model from time-sharing operating systems developed four decades ago. Desktop, server, cloud, and even industrial control systems rely on a large stack of commercial off-the-shelf software that runs on top of a monolithic operating system kernel. Each application runs with the full set of privileges of some user, has access to the entire file space of that user, and can access the complete interface of a complex operating system kernel, and a number of privileged systems components. The security model exposed by existing software systems is fundamentally too weak; it fails to provide adequate isolation between computations.&lt;br/&gt;&lt;br/&gt;XCap is a secure environment for least-authority execution of applications and system services. Unmodified, untrusted, off-the-shelf applications, running on untrusted operating systems, are isolated by a virtual machine monitor. XCap builds on two principles: strong isolation and secure collaboration. XCap's default -- a share nothing environment -- is augmented by a capability access control model: a clean and general abstraction, enabling fine-grained delegation of rights in a flexible and manageable way. In XCap, capabilities serve as a general foundation for constructing least privilege services out of existing components of the traditional operating system stack. XCap maximizes the principle of least authority: it redesigns common operating system services in such a way that the authority of individual applications and services is minimized. Each component possesses the smallest subset of rights required to accomplish its task.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/19/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319076</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Regehr</LastName>
+      <EmailAddress>regehr@cs.utah.edu</EmailAddress>
+      <StartDate>08/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anton</FirstName>
+      <LastName>Burtsev</LastName>
+      <EmailAddress>aburtsev@uci.edu</EmailAddress>
+      <StartDate>08/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

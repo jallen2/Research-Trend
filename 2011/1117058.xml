@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: PAPI-V Hardware Performance Monitoring for Virtualized Environments</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>425000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Cloud computing involves use of a hosted computational environment that can provide elastic compute and storage services on demand. Virtualization is a technology that allows multiple virtual machines (VMs) to run on a single physical machine and share its resources. Virtualization is increasingly being used in cloud computing to provide economies of scale, customized environments, fault isolation, and reliability. To address performance concerns with the use of cloud computing for scientific computing, the PAPI-V project is developing a system for hardware performance monitoring in virtualized environments to enable software developers to understand and optimize system and application performance and adapt to changing conditions. To accomplish this goal, the project is extending the widely used Performance API (PAPI) cross-platform library for accessing hardware performance counters.&lt;br/&gt;&lt;br/&gt;The PAPI-V project is addressing the following aspects: &lt;br/&gt;1. Timing: The PAPI timing routines are being extended to provide standard real and virtual timers across different Virtual Machine Monitors (VMMs). &lt;br/&gt;2. Component measurements: The existing PAPI I/O, network, and other shared resource components are being extended to provide relevant information in virtualized environments. &lt;br/&gt;3. Virtualization of selected processor hardware counters: A selected set of processor counters considered being most relevant for application performance analysis and tuning in virtualized environments is being implemented across VMMs. &lt;br/&gt;4. Interpretation of data: A mechanism for defining metrics that correctly quantify the contributions of various factors to overall performance is under development.&lt;br/&gt;&lt;br/&gt;The research results will be implemented in the publically available and widely used PAPI library. The PAPI-V extension will allow application and tool developers to use a familiar interface to obtain relevant information for achieving the best possible performance in cloud computing environments.</AbstractNarration>
+    <MinAmdLetterDate>09/09/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/28/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117058</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Terpstra</LastName>
+      <EmailAddress>terpstra@eecs.utk.edu</EmailAddress>
+      <StartDate>06/04/2012</StartDate>
+      <EndDate>08/28/2014</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Terpstra</LastName>
+      <EmailAddress>terpstra@eecs.utk.edu</EmailAddress>
+      <StartDate>09/09/2011</StartDate>
+      <EndDate>06/04/2012</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Heike</FirstName>
+      <LastName>Jagode</LastName>
+      <EmailAddress>jagode@icl.utk.edu</EmailAddress>
+      <StartDate>08/28/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Shirley</FirstName>
+      <LastName>Moore</LastName>
+      <EmailAddress>svmoore@utep.edu</EmailAddress>
+      <StartDate>09/09/2011</StartDate>
+      <EndDate>06/04/2012</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Tennessee Knoxville</Name>
+      <CityName>KNOXVILLE</CityName>
+      <ZipCode>379960003</ZipCode>
+      <PhoneNumber>8659743466</PhoneNumber>
+      <StreetAddress>1 CIRCLE PARK</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

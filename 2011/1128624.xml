@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Distributed Control and Coordination for Massively Integrated Multicore Platforms</AwardTitle>
+    <AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>475000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Continuous technology scaling allows tens or hundreds of processing cores integrated on the same chip; this represents the multicore computing paradigm which makes it possible to run multiple heterogeneous applications concurrently on a single chip. In such multiprocessor systems, individual processing nodes can communicate and coordinate via networks-on-chip (NoCs). Therefore, a major challenge is to determine the mathematical techniques for designing and optimizing such on-chip networks in a rigorous manner.&lt;br/&gt;&lt;br/&gt;Recent multicore platforms (such as Intel Single Chip Cloud Computer) benefit from the multiple voltage and frequency island (VFI) design style with support for dynamic voltage and frequency scaling (DVFS). In such systems, the voltage and frequency of each island can be set independently of all other islands and adapt at run-time in response to temporal variations in application characteristics. Spatio-temporal workload variations result in various on-chip power and thermal gradients, which also raise major concerns for lifetime reliability. On-chip power and thermal management has therefore become a critical component of every step in the multicore design flow, from physical design all the way up to micro-architecture and system-level design.&lt;br/&gt;&lt;br/&gt;Starting from these overarching ideas, this project addresses the fundamental issue of designing effective and highly scalable control algorithms for power and thermal management in VFI-based multicore systems. Unlike much of the existing work in this area, the focus of this research is on truly scalable system-level design methodologies that can take advantage of the existing knobs at circuit-level (e.g., voltage, frequency) for systems comprised of hundreds or thousands of cores. At the same time, the proposed control techniques may be useful for regulating other on-chip shared resources such as network bandwidth or off-chip bandwidth.&lt;br/&gt;&lt;br/&gt;This new design methodology enables the development of a wide variety of energy-efficient multicore applications ranging from gaming and entertainment platforms, to communication systems, data centers, and vehicular traffic management. More broadly, the results of this project impact significantly other research communities by improving the level of understanding of networking concepts needed to design and control complex systems.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1128624</AwardID>
+    <Investigator>
+      <FirstName>Radu</FirstName>
+      <LastName>Marculescu</LastName>
+      <EmailAddress>radum@ece.cmu.edu</EmailAddress>
+      <StartDate>08/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Diana</FirstName>
+      <LastName>Marculescu</LastName>
+      <EmailAddress>dianam@ece.cmu.edu</EmailAddress>
+      <StartDate>08/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

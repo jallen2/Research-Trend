@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: CDI-Type II: BirdCast: Novel Machine Learning Methods for Understanding Continent-Scale Bird Migration</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2016</AwardExpirationDate>
+    <AwardAmount>1309845</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>An interdisciplinary team of computer scientists, statisticians, and ornithologists will develop novel computer science methods and apply them to the challenge of understanding the annual migration of birds across North America, which is one of the most complex and dynamic natural phenomena on the planet. While direct observation of migrating birds is limited to a handful of birds wearing tracking devices, other sources of data provide partial information about migration that, when appropriately combined, will provide insight into migration at a scale previously unimaginable. These sources include a continent-wide network of volunteer bird watchers, night flight calls captured by a network of acoustic monitoring stations, continent-scale weather patterns gathered by a network of weather stations, and clouds of migrating birds detected at night by WSR-88D weather radar stations. To analyze these data, the team will develop two innovative machine learning techniques-Collective Graphical Models (CGMs) and Semi-Parametric Latent Process Models (SLPMs). The resulting model will be able to identify the complex conditions governing the dynamics of migration behavior including the choice of migratory pathways, the factors that influence when birds migrate, and the speed and duration of each night's movements. CGMs greatly extend the scope of phenomena that can be captured with graphical models. Under suitable conditions, a CGM is able to recover a model of the behavior of individuals using only collective observations.&lt;br/&gt;&lt;br/&gt;For BirdCast, it will construct a model of individual bird dynamics from the collective observations provided by birders, acoustic and weather stations, and weather radar. Once the model is constructed, it will be applied to live data feeds (bird sightings, acoustic detections, radar detections, and weather forecasts) to predict bird migration in real time. SLPMs are an extension of latent process models, such as the CGM for bird migration, in which the dynamics of a process is represented by latent variables that are observed only indirectly. In an SLPM, the conditional probability distribution of each variable is modeled using flexible, non-parametric methods from machine learning, such as boosted regression trees. Introducing such flexible methods such as CGMs and SLPMs into latent variable models raises difficult challenges for model fitting and validation. Preventing over-fitting will require the creation of novel information regularization and latent model cross-validation methods to enforce latent variable semantics.&lt;br/&gt;&lt;br/&gt;The proposed work will allow, for the first time, real-time predictions of bird migrations: when they migrate, where they migrate, and how far they will be flying. Accurate models of migration have broad application for basic research by allowing researchers to understand behavioral aspects of migration, how migration timing and pathways respond to variation in climatic conditions, and whether linkages exist between annual variation in migration timing and subsequent inter-annual changes in population size.&lt;br/&gt;&lt;br/&gt;BirdCast will expand opportunities for the public to participate in the gathering of data and its analysis. The existing data set has more than 60 million observations, and the size is growing exponentially. Last year, volunteers contributed more than 1.3 million hours observing birds. Student engagement in the research is significant as well.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1125098</AwardID>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Kelling</LastName>
+      <EmailAddress>stk2@cornell.edu</EmailAddress>
+      <StartDate>09/12/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Wesley</FirstName>
+      <LastName>Hochachka</LastName>
+      <EmailAddress>wmh6@cornell.edu</EmailAddress>
+      <StartDate>09/12/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Farnsworth</LastName>
+      <EmailAddress>af27@cornell.edu</EmailAddress>
+      <StartDate>09/12/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cornell University</Name>
+      <CityName>Ithaca</CityName>
+      <ZipCode>148502820</ZipCode>
+      <PhoneNumber>6072555014</PhoneNumber>
+      <StreetAddress>373 Pine Tree Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7751</Code>
+      <Text>CDI TYPE II</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7721</Code>
+      <Text>FROM DATA TO KNOWLEDGE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7751</Code>
+      <Text>CDI TYPE II</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

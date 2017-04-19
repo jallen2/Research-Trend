@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Developing a theoretical and methodological framework for high dimensional Markov chain Monte Carlo</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2016</AwardExpirationDate>
+    <AwardAmount>99998</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The investigators study multivariate methods for assessing the quality and ensuring the reliability of a Markov chain Monte Carlo (MCMC) experiment. This work is strongly motivated by research in Bayesian methods for functional neuroimaging experiments, but will be applicable in any MCMC simulation. Usually, Markov chain output is used to estimate a vector of parameters that contains multiple mean and variance parameters along with quantiles. A fundamental question is when to terminate such a simulation. The investigators study sequential fixed-volume stopping rules that allow construction of confidence regions for estimating the target vector, which describe the reliability of the resulting estimates. Using these methods requires that the Markov chain converges at a geometric rate, which in turn yields a limiting distribution for the Monte Carlo error with an associated covariance matrix. Estimating this matrix forms a major component of the research-a long standing open question in MCMC output analysis. The investigators improve on existing methods, which enable effective estimation in the case where the target vector is moderately large. Moreover, the investigators study several methods for handling the setting in truly high-dimensional settings, i.e. when there are many more parameters than iterations in the Markov chain. The investigators also formally study the convergence rates of component-wise MCMC samplers often encountered in the functional neuroimaging settings. &lt;br/&gt;&lt;br/&gt;Complex probability models are commonly used to help gain understanding of phenomenon in a range of fields including science, engineering, medicine, education, and law. An example that motivates the investigators work is that of applied cognitive scientists modeling brain activity. Inference from such probability models is usually obtained from computational approximations. For a widely used computational technique, the investigators study the convergence properties and develop formal stopping rules focusing on high-dimensional practically relevant settings. The statistical methodology developed here will provide scientists with sophisticated output analysis techniques, leading to greater confidence and reliability for their computational results.</AbstractNarration>
+    <MinAmdLetterDate>06/27/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/22/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1308270</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Flegal</LastName>
+      <EmailAddress>jflegal@ucr.edu</EmailAddress>
+      <StartDate>06/27/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

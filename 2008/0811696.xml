@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPA-CPL: A hardware-design inspired methodology for parallel programming</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>375000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A source of weakness in parallel programming has been the lack of compositionality; independently-written parallel programs, e.g., libraries and packages, can't be combined to produce large parallel programs with predictable performance or functionality. One may have the best parallel implementations of FFT and Linear Equation Solvers and yet a large parallel program that calls both of these procedures in parallel may not run well. The problem is much worse for applications that are inherently parallel but produced by combining existing sequential implementations. Consider your cell phone: it may drop an incoming call while you are surfing the web, or not stop playing the music when you answer a call. The problem is compositionally -- two independently written programs don't interact properly in a parallel setting.&lt;br/&gt;&lt;br/&gt;A scalable model for software composition is space-multiplexing, where a set of resources (e.g., processors and memory) are devoted exclusively to executing a given program fragment or module. This research plans to define and use Bluesoft -- a derivative of the Bluespec SystemVerilog (BSV) -- as its source language. Bluespec?s semantics are well understood and there is substantial experience in using it for hardware design in both academia and industry. Bluesoft adds to Bluespec a ?sequential connective? for combining atomic actions, a crucial feature needed for software design. The Bluesoft compiler will combine the strategies used for compiling Bluespec and StreamIt, a stream-based language developed at MIT for tiled architectures. The Bluesoft compiler will borrow the static elaboration phase of the BSV compiler to generate a network of modules and use the sophisticated program analysis and code generation techniques used in the StreamIt compiler for the backend.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811696</AwardID>
+    <Investigator>
+      <FirstName>Professor</FirstName>
+      <LastName>Arvind</LastName>
+      <EmailAddress>arvind@mit.edu</EmailAddress>
+      <StartDate>08/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Saman</FirstName>
+      <LastName>Amarasinghe</LastName>
+      <EmailAddress>saman@mit.edu</EmailAddress>
+      <StartDate>08/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

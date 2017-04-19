@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Reality, exactness, and computation in numerical algebraic geometry</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2012</AwardExpirationDate>
+    <AwardAmount>159601</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;The methods of numerical algebraic geometry extend the reach of algebraic geometry to problems for which existing symbolic methods are not well suited, e.g., due to the number of variables or the inexactness of the coefficients. The value of these methods is continuing to gain recognition. For example, the algebraic geometry software packages Macaulay 2 and CoCoA are both actively developing either new homotopy modules or interfaces to existing numerical software, such as Bertini and PHCpack. Despite the benefits of these numerical methods (e.g., parallelizability), there are a few drawbacks. For example, to find the real isolated solutions of a polynomial system using homotopy methods, one must first produce all complex isolated solutions and then sort out those with imaginary part below a pre-chosen tolerance. Also, one major benefit coming from numerical algebraic geometry is that it is simple to produce approximations of many generic points on any given irreducible component of an algebraic set. However, there is currently no way to recover exact defining equations for the component. This project has two directions. In one, a new set of techniques, based on Gale duality and the Khovanskii-Rolle theorem, for finding only the real solutions of polynomial systems will be developed. In the other, the simplicity of finding generic points on algebraic sets via numerical methods will be exploited. The latter direction will include work on recovering exact defining equations via lattice basis reduction techniques such as LLL or PSLQ. Both directions are expected to result in new, freely available software.&lt;br/&gt;&lt;br/&gt;Polynomial systems of equations are ubiquitous throughout mathematics, science, and engineering. An entire mathematical field - algebraic geometry - grew out of the need to find solutions to these sorts of equations. Until the 1960s, though, there was no known general technique for solving such systems of equations. However, the methods developed at that point require too much memory to be effective except for relatively small problems. More recently developed methods - the numerical methods of Sommese, Verschelde, and Wampler, now collectively known as numerical algebraic geometry - allow for the solution of much larger polynomial systems, opening the application of algebraic geometry methods to a wider class of problems. However, there are still drawbacks to these numerical methods. The goals of this project include addressing two of these drawbacks. In particular, the PI will work on developing efficient methods to find only those solutions that are of interest in real-world applications (i.e., real solutions rather than complex solutions) and on recovering valuable exact data from the approximate data that is provided as the output of these powerful new numerical methods.</AbstractNarration>
+    <MinAmdLetterDate>07/23/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/23/2009</MaxAmdLetterDate>
+    <ARRAAmount>159601</ARRAAmount>
+    <AwardID>0914674</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Bates</LastName>
+      <EmailAddress>bates@math.colostate.edu</EmailAddress>
+      <StartDate>07/23/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Colorado State University</Name>
+      <CityName>Fort Collins</CityName>
+      <ZipCode>805232002</ZipCode>
+      <PhoneNumber>9704916355</PhoneNumber>
+      <StreetAddress>601 S Howes St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

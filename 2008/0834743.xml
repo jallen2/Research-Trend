@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-DMSS, SM: Design and Evaluation of a Scalable Meta-Event Dissemination System</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>432000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CSR-DMSS, SM: Design and Evaluation of a Scalable Meta-Event&lt;br/&gt;Dissemination System&lt;br/&gt;&lt;br/&gt;Project Abstract:&lt;br/&gt;&lt;br/&gt;Event dissemination systems offer a powerful middleware for&lt;br/&gt;distributed applications such as electronic trading platforms, news&lt;br/&gt;aggregators, and network intrusion detection systems. Such systems are&lt;br/&gt;usually based on the publish-subscribe paradigm: published events are&lt;br/&gt;delivered to clients who have a supplied a matching&lt;br/&gt;subscription. While most current publish-subscribe systems support&lt;br/&gt;subscriptions that evaluate to true/false on a per-event basis,&lt;br/&gt;emerging applications need support for subscriptions to higher level&lt;br/&gt;"meta-events", which correspond to combinations of basic events. The&lt;br/&gt;challenge in tracking such subscriptions is that there is no single&lt;br/&gt;event, when processed in isolation, permits the evaluation of a&lt;br/&gt;subscription to true or false.&lt;br/&gt;&lt;br/&gt;This project designs, implements and evaluates an event dissemination&lt;br/&gt;system that supports tracking of meta-events. The system converts&lt;br/&gt;user-defined subscriptions into "triggers", and efficiently maintains&lt;br/&gt;the state of the triggers using algorithms inspired by the literature&lt;br/&gt;on data stream processing. The system scales with increasing numbers&lt;br/&gt;of subscriptions through merging triggers by identifying commonalities&lt;br/&gt;between them, and through indexing triggers for fast detection of&lt;br/&gt;matching subscriptions for events. The system is evaluated using an&lt;br/&gt;internet-scale testbed, such as Planetlab. Such a meta-event&lt;br/&gt;dissemination system will provide a more expressive interface to the&lt;br/&gt;designer of distributed and web applications, thus transforming the&lt;br/&gt;way in which distributed applications are authored. This is expected&lt;br/&gt;to impact the application of information technology in various fields&lt;br/&gt;such as healthcare, finance, and security. The project enhances&lt;br/&gt;undergraduate and graduate education through strengthening the&lt;br/&gt;freshmen engineering course in Electrical and Computer Engineering and&lt;br/&gt;through developing a strong algorithmic foundation for research&lt;br/&gt;students in networking and distributed computing.</AbstractNarration>
+    <MinAmdLetterDate>08/12/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0834743</AwardID>
+    <Investigator>
+      <FirstName>Arun</FirstName>
+      <LastName>Somani</LastName>
+      <EmailAddress>arun@iastate.edu</EmailAddress>
+      <StartDate>08/12/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Srikanta</FirstName>
+      <LastName>Tirthapura</LastName>
+      <EmailAddress>snt@iastate.edu</EmailAddress>
+      <StartDate>08/12/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

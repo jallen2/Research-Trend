@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Approximate Fictitious Play for the Optimization of Complex Systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>139863</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The prevalence of advanced computing technology has resulted in&lt;br/&gt;&gt; increasingly complex simulation models of manufacturing,&lt;br/&gt;&gt; telecommunication, logistic, transportation, supply chain and other&lt;br/&gt;&gt; engineering systems. Such models often lack mathematical properties&lt;br/&gt;&gt; that have traditionally been essential to the development of efficient&lt;br/&gt;&gt; computational procedures for determining an optimal system design.&lt;br/&gt;&gt; Consequently, the need arises to develop new optimization algorithms&lt;br/&gt;&gt; that remain efficient even in the absence of simplifying mathematical&lt;br/&gt;&gt; structures. This research investigates the analytical and practical&lt;br/&gt;&gt; potential of computationally efficient variants of Fictitious Play&lt;br/&gt;&gt; (FP), an iterative technique from the mathematical theory of learning,&lt;br/&gt;&gt; as an optimization paradigm to achieve this goal.&lt;br/&gt;&gt;&lt;br/&gt;&gt; The key idea is to model the optimization problem as a game of common&lt;br/&gt;&gt; interest between artificial "players" that correspond to components of&lt;br/&gt;&gt; a carefully chosen partition of the design variables. The shared&lt;br/&gt;&gt; interest of these players is to optimize the metric of system&lt;br/&gt;&gt; performance. Theoretical justification for this approach is rooted in&lt;br/&gt;&gt; the well-known fact that for games of common interest, limit points of&lt;br/&gt;&gt; FP are Nash equilibria and thus may be viewed as a type of local&lt;br/&gt;&gt; optimum. The research builds on the investigators' earlier work on&lt;br/&gt;&gt; Sampled Fictitious Play (SFP), a modification that replaces the&lt;br/&gt;&gt; exceptionally demanding expected utility calculations in FP with their&lt;br/&gt;&gt; sampled approximations while still preserving FP's theoretical&lt;br/&gt;&gt; properties. The work will culminate in a powerful and rigorous suite&lt;br/&gt;&gt; of algorithms the investigators term Approximate Fictitious Play&lt;br/&gt;&gt; (AFP), where the "players" interact with one another by calculating a&lt;br/&gt;&gt; best response to a sample of strategies independently and adaptively&lt;br/&gt;&gt; chosen from a probability distribution over their history of past best&lt;br/&gt;&gt; responses. A major computational benefit of AFP is that the best&lt;br/&gt;&gt; response subproblems are embedded in and significantly smaller than&lt;br/&gt;&gt; the original optimization problem, leading to a dramatic increase in&lt;br/&gt;&gt; efficiency compared to finding jointly optimal strategies.&lt;br/&gt;&gt; Traditionally, simulation models of complex systems have been employed&lt;br/&gt;&gt; as descriptive tools to test "rule-of-thumb" alternatives suggested by&lt;br/&gt;&gt; a knowledgeable user. The AFP paradigm promises to make these models&lt;br/&gt;&gt; prescriptive as its convergence and optimality properties do not rely&lt;br/&gt;&gt; on regularity conditions that such systems and models are unlikely to&lt;br/&gt;&gt; exhibit.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/13/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0830092</AwardID>
+    <Investigator>
+      <FirstName>Marina</FirstName>
+      <LastName>Epelman</LastName>
+      <EmailAddress>mepelman@umich.edu</EmailAddress>
+      <StartDate>08/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Smith</LastName>
+      <EmailAddress>rlsmith@umich.edu</EmailAddress>
+      <StartDate>08/04/2008</StartDate>
+      <EndDate>09/03/2008</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2865</Code>
+      <Text>NUMERIC, SYMBOLIC &amp; GEO COMPUT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

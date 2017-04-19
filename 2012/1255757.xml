@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Hardware-Accelerated Transistor-to-Application SEU Simulation Platform</AwardTitle>
+    <AwardEffectiveDate>04/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2017</AwardExpirationDate>
+    <AwardAmount>183000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As transistors shrink in size, they enable more functionality on the same area of silicon. However, small transistors are also more susceptible to intermittent errors due to alpha particles striking the silicon. Engineering systems to tolerate such errors is a problem that will become increasingly important over time. Evaluating fault tolerant designs has traditionally been almost impossible because (i) faults occur very infrequently, (ii) they require highly detailed (and thus time-consuming) simulations to determine whether they have any real effect, and (iii) millions or even billions of such simulations need to be performed to determine whether the design can actually tolerate particle strikes with different charateristics. &lt;br/&gt;&lt;br/&gt;This project addresses the problem through a set of interlocking simulators, each at a different level of accuracy and simulation speed. The initial particle strike is modeled in extremely high detail for a short time until it can be modeled by a faster simulator with less detail, and so on. How to intelligently decide when the particle strikes, what it strikes, and when to transition between simulators are some of the core intellectual components of this project. Such a simulator could help develop techniques to build more efficient and effective reliable systems than are possible today.</AbstractNarration>
+    <MinAmdLetterDate>02/14/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1255757</AwardID>
+    <Investigator>
+      <FirstName>Derek</FirstName>
+      <LastName>Chiou</LastName>
+      <EmailAddress>derek@ece.utexas.edu</EmailAddress>
+      <StartDate>02/14/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Orshansky</LastName>
+      <EmailAddress>orshansky@mail.utexas.edu</EmailAddress>
+      <StartDate>02/14/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8081</Code>
+      <Text>Failure Resistant Systems(FRS)</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Algorithms, Performance and Design for Sparsity-Enforced Learning</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>327217</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Supervised learning is used to infer an unknown regression function from a set of training data. Applications include time-series prediction, remote sensing, medical image analysis, computer vision, face detection, text categorization, image scene classification, speech recognition, and bioinformatics. Existing learning algorithms have several drawbacks. For example, the set of basis functions usually involves unknown parameters that need to be determined empirically. The optimization problem defined by the learning task depends on a trade-off parameter that requires careful selection. Analytical performance of the existing learning methods is not well studied and the role of the set of basis functions is not yet clear. In addition, currently there is no effective way to select the set of basis functions.&lt;br/&gt;&lt;br/&gt;The investigator develops a new framework of sparsity-enforced learning for regression function learning to overcome the drawbacks of existing approaches. This framework includes numerical algorithms for sparse vector estimation, tight bounds for performance analysis, and optimization procedures for dictionary design. A flexible form for the inferred function is a linear combination of basis functions, which are constructed by discretizing the unknown parameters. Algorithms are designed to learn the weight vector by convex sparsity enforcing, hierarchical Bayesian modeling and normalized maximum likelihood principle. The discretization and the sparsity enforcement enable automatic selection of most relevant basis functions with appropriate parameters. The investigator analyzes the performance of the learning framework by deriving tight bounds on the mean-squares error of the learned weights, in particular, the Cramer-Rao bound and Hammersley-Chapman-Rob bins bound. The performance bounds (and their simplifications) are employed to optimally design the overcomplete dictionary. The investigator uses the developed framework to model time series and extract knowledge from images.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/03/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1014908</AwardID>
+    <Investigator>
+      <FirstName>Arye</FirstName>
+      <LastName>Nehorai</LastName>
+      <EmailAddress>nehorai@ese.wustl.edu</EmailAddress>
+      <StartDate>07/27/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Washington University</Name>
+      <CityName>Saint Louis</CityName>
+      <ZipCode>631304862</ZipCode>
+      <PhoneNumber>3147474134</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 1054</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Missouri</StateName>
+      <StateCode>MO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7936</Code>
+      <Text>SIGNAL PROCESSING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7936</Code>
+      <Text>SIGNAL PROCESSING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

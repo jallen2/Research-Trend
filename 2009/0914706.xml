@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Hybrid Gaskinetic Computation Scheme for flows with Multi-scales and Multi-physics</AwardTitle>
+    <AwardEffectiveDate>07/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2013</AwardExpirationDate>
+    <AwardAmount>184220</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;The accurate and efficient computation of complex gas flows is a very challenging task that requires significant computing resources. Hypersonic flows around an entry vehicle, for example, can experience a full range of Knudsen (Kn) numbers, and can include thermochemical nonequilibrium (NE) effects, with radiation heat transfer. Essentially, these flows require modeling from atomic, mesoscopic and macroscopic scales, employing quantum, statistical and classical fluid mechanics. Because of associated large rarefication effects, traditional computational schemes based on continuum Navier-Stokes equations cannot always simulate those complex flows. New computation schemes are preferred. The investigators propose a consistent time-accurate Hybrid gaskinetic Bhatnagar-Gross-Krook method (H-BGK) scheme, valid in the full Kn number range to simulate hypersonic aerothermodynamics flows. H-BGK method provides automated sub-domain solutions by direct BGK method and by the gaskinetic BGK method of Xu (BGKX) in the high and low Kn regimes, respectively. Direct BGK employs the Shakov model using quadratures for discrete velocity integration. The BGKX solution can produce accurate heat rate prediction for near-continuum thermochemical NE flows. The proposed work focuses on developing general, accurate and efficient gaskinetic schemes which can compute complex gas flows with multiphysics, multiscales, multispecies, multidimensions and a wide range of Kn numbers. These new hybrid BGK schemes are original in design and implementation. The proposed method, with pertinent modifications, can be applied to a variety of flows with multiple Kn numbers. The investigators will compare their simulation results with those obtained by different numerical methods and experiments. &lt;br/&gt;&lt;br/&gt;The investigators propose a powerful hybrid computational scheme which can simulate complex gas flows (with multiscales, multispecies, multidimensions, and multiphysics, especially with a large range of rarefication effects). Once developed, this unique new scheme can both accurately and efficiently simulate many challenging complex gas flows. Traditional gas simulation schemes are much inferior because they deal with dense gas flow situations rather than diluted ones. With its powerful capabilities, this new scheme can be applied in many fields and events. It can address gas flow problems in physics, astronomy, aerospace and mechanical engineering, and is also relevant to vacuum and semi-conductor industries. There are numerous possible space related scenarios. For example, NASA must consider the drag and heat flux of hypersonic flows over a re-entry space shuttle. The new scheme addresses the drag and heat flux at high altitude regions with low atmospheric density as the spacecraft returns to earth. Another low-density application involves materials processing inside vacuum chambers.</AbstractNarration>
+    <MinAmdLetterDate>07/13/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/30/2009</MaxAmdLetterDate>
+    <ARRAAmount>184220</ARRAAmount>
+    <AwardID>0914706</AwardID>
+    <Investigator>
+      <FirstName>Chunpei</FirstName>
+      <LastName>Cai</LastName>
+      <EmailAddress>ccai@mtu.edu</EmailAddress>
+      <StartDate>07/13/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New Mexico State University</Name>
+      <CityName>Las Cruces</CityName>
+      <ZipCode>880038002</ZipCode>
+      <PhoneNumber>5756461590</PhoneNumber>
+      <StreetAddress>Corner of Espina St. &amp; Stewart</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Mexico</StateName>
+      <StateCode>NM</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

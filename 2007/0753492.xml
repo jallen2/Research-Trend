@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: CT-ISG: Mitigating Exploits of the Current Interdomain Routing Infrastructure</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>163765</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ralph Wachter</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project addresses fundamental flaws in Internet-routing infrastructure using both theoretical analysis and practical tools. The results not only improve the security of the current Internet, but also advance principles of secure routing design useful for next-generation protocols. The project advocates a different approach than previous work in this area by formally defining comprehensive requirements for protocol security, rather than imposing new technologies to address one or two specific exploits.&lt;br/&gt;&lt;br/&gt;The Border Gateway Protocol (BGP) provides best-effort connectivity between the component networks of the Internet, a task called interdomain routing. However, BGP lacks any security mechanism, allowing accidental router misconfiguration or intentional attacks that have far-reaching effects on network stability and traffic flow. Furthermore, simply adding security mechanisms is insufficient because BGP also lacks the guarantee that specification-compliant inputs always produce stable routes across the network.&lt;br/&gt;&lt;br/&gt;This project addresses these shortcomings through research on various assumptions that guarantee good routing behavior and on methods to verify or enforce these assumptions to prevent deviation from that behavior. We identify and address attacks that have previously been studied as well as new attacks that have not yet received attention in the literature. We target incremental-deployment benefits and computational efficiency as primary desiderata; thus, our solutions can offer incentives for immediate adoption without system-wide changes. Through its educational component, our project introduces students to cross-disciplinary research. This encourages collaboration in research projects and allows development of coursework integrating security, networking, and theory for a timely application domain.</AbstractNarration>
+    <MinAmdLetterDate>11/19/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0753492</AwardID>
+    <Investigator>
+      <FirstName>Aaron</FirstName>
+      <LastName>Jaggard</LastName>
+      <EmailAddress>aaron.jaggard@nrl.navy.mil</EmailAddress>
+      <StartDate>11/19/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

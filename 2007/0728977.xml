@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Complete Adaptive Algorithms for Curves and Surfaces and their Complexity</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>205869</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computational problems of curves and surfaces arise in many applications, including geometric modeling, graphics and visualization, engineering design and simulations. Most computational approaches to curves and surfaces fall under one of two viewpoints, called the Algebraic Approach and the Geometric Approach (respectively). The former approach leads to exact and complete algorithms, but these are usually inefficient and hard to implement. In the Geometric Approach, one avoids powerful algebraic techniques, in favor of numerical and simple subdivision methods. These are easier to implement, but more importantly, their complexity is adaptive, meaning that the complexity strongly depends on the input instances. Moreover, input instances with high complexity are atypical. For these reasons, most implementors prefer the Geometric Approach. Unfortunately, geometric algorithms are usually nonrobust, incomplete and have no guaranteed topological properties. Indeed, achieving robust geometric algorithms for curves and surfaces is widely viewed as the major open problem of geometric modeling. Recently, some robust adaptive algorithms for meshing curves and surfaces have been proposed, but some non-degeneracy conditions (e.g., non-singularity) remain.&lt;br/&gt;&lt;br/&gt;This research addresses several basic problems within the Geometric Approach, including the intersection of curves and surfaces, and meshing of implicit surfaces. The achieved results represent two fundamental advances in the theory of algorithms: (1) For the first time, complete and fully adaptive algorithms for such problems have been constructed. The key to such algorithms is the judicious application of zero bounds, or their geometric analogues. (2) The complexity analysis of some adaptive algorithms for meshing is initiated. The analysis introduces novel amortization arguments, and suitable concepts of precision-sensitivity. This represents a new frontier in the analysis of algorithms. Both advances build upon the principal investigator's prior work in Exact Geometric Computation, and in the implementation of the open-source Core Library software. The new adaptive algorithms are validated via implementation in Core Library.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0728977</AwardID>
+    <Investigator>
+      <FirstName>Chee</FirstName>
+      <LastName>Yap</LastName>
+      <EmailAddress>yap@nyu.edu</EmailAddress>
+      <StartDate>08/27/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2865</Code>
+      <Text>NUMERIC, SYMBOLIC &amp; GEO COMPUT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7929</Code>
+      <Text>COMPUTATIONAL GEOMETRY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Theory and Implementation of Novel Numerical Methods for Equations with Singularities</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>152805</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Elliptic partial differential equations are essential mathematical models in various scientific disciplines, and the development of methods for approximating solutions of these equations has been a central focus of computational mathematics. The performance of numerical methods in general depends on the smoothness of the solutions under study. Quite common in practical applications, singularities in the solution can severely deteriorate the efficacy of the numerical approximation. Addressing major concerns in scientific computations, the study of finite element methods for singular solutions has led to many effective algorithms, but most of them are for two-dimensional singular problems. The area of finite element approximations for three-dimensional singular solutions is much less explored and much more challenging. Due to the anisotropic multiscale character of the singularity and the complexity of three-dimensional geometry, the existing methods are complicated and difficult to implement and are still missing some critical pieces of theoretical analysis. This project will significantly improve the effectiveness of existing numerical simulations in many areas where multi-dimensional computations are essential. These areas include aircraft design in aerospace engineering, crack propagation in mechanical engineering, elastography in medical imaging, Black-Scholes models in finance, modeling of fluids and of electromagnetic fields, and computation for the Schrödinger equation in quantum mechanics. &lt;br/&gt;&lt;br/&gt;In this project, the PI proposes a systematic research on finite element methods (FEMs) for singular solutions of elliptic PDEs, especially in 3D. Targeting fundamental theoretical and numerical issues, this research has two main components. (I) Innovative numerical advancements: the development of new 3D meshing algorithms. Simple, explicit, and well structured, these meshes can effectively capture the local behavior of the singular solution and lead to optimal FEMs. (II) Rigorous theoretical investigations: (1) sharp regularity estimates in new function spaces; (2) sharp error analysis in energy and non-energy norms on both 2D graded meshes and the proposed 3D meshes; (3) fast multigrid-based numerical solvers on these meshes; (4) a-posteriori estimates on the proposed 3D meshes and extensions to other 3D PDEs with singularities. Pushing forward the frontier of the FEMs for 3D singular solutions, this proposed research will bring new ideas to the development of novel numerical algorithms for 3D PDEs with broader applications. In addition, the sharp non-energy error estimates and a-posteriori analysis can provide theoretical justifications for nonlinear models and optimization control problems.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1418853</AwardID>
+    <Investigator>
+      <FirstName>Hengguang</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>hli@math.wayne.edu</EmailAddress>
+      <StartDate>07/29/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Wayne State University</Name>
+      <CityName>Detroit</CityName>
+      <ZipCode>482023622</ZipCode>
+      <PhoneNumber>3135772424</PhoneNumber>
+      <StreetAddress>5057 Woodward</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

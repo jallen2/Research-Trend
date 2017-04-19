@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Typed Self-Application</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2018</AwardExpirationDate>
+    <AwardAmount>493612</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Static type checking has brought us more reliable software. Types make programs more readable, prevent entire classes of mistakes, and help compilers optimize data layout and data access. Types also make it easier to use libraries and to design interfaces, and they make it harder to misuse data and write bad programs. An entirely different trend is as old as programming: self-application. In particular, self-application is popular in the form of implementing a language in itself. When the trends of types and self-application meet, a fundamental challenge for type systems arises. For example, what is the type of an interpreter that can interpret a representation of itself? And what is the type of a compiler that can compile a representation of itself? The goal of the project is to enable the next generation of typed, self-applicable interpreters, compilers, and partial evaluators. This next generation will guarantee that the output represents a typed program, and that the type of the output program is related to the type of the input program. The result will be self-applicable meta-programs that are more reliable and have all the benefits of static type checking.&lt;br/&gt;&lt;br/&gt;Many popular languages have a self-interpreter, that is, an interpreter for the language written in itself; examples include Standard ML, Haskell, Scheme, JavaScript, Python, and Ruby. Similarly, many languages have self-compilers, that is, a compiler for the language written in itself. Also, some languages have a virtual machine written in itself, including Java and Self. The project will bring static type checking to self-applicable interpreters, compilers, and partial evaluators, and take such meta-programs to a higher level of reliability by ensuring that the output programs type check and therefore cannot contain entire classes of mistakes. The investigator will teach the results to students as part of existing undergraduate and graduate courses.</AbstractNarration>
+    <MinAmdLetterDate>07/10/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/10/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1219240</AwardID>
+    <Investigator>
+      <FirstName>Jens</FirstName>
+      <LastName>Palsberg</LastName>
+      <EmailAddress>palsberg@ucla.edu</EmailAddress>
+      <StartDate>07/10/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

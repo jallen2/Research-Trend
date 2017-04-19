@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Say "No" to Extraction--A Transformative Circuit Simulation Paradigm Guided by First Principles</AwardTitle>
+    <AwardEffectiveDate>03/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>02/29/2016</AwardExpirationDate>
+    <AwardAmount>800000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Over the last few decades, integrated circuits (IC) have progressed from being dominated with nonlinear circuits to being dominated with linear networks because of the scaling of transistors and interconnects in ICs. However, the prevailing circuit simulation paradigm is still heavily dominated by SPICE (Simulation Program with Integrated Circuit Emphasis), which is very capable of solving nonlinear functions for the simulation of active devices, but has difficulties in keeping up with the growth in the linear network because of (1) the sheer volume of interconnects--every device added has to be connected, (2) the growing sophistication of the models describing the interconnects--every added interconnect translates into many circuit parameters, i.e., resistances, capacitances, and inductances, and (3) the highly irregular large-scale system matrices arising from the extraction of circuit parameters for a linear network from the layout. The highly irregular large-scale system matrices arising from such models make it unlikely for the existing circuit simulator to achieve the optimal complexity (i.e., linear complexity in time and space) in simulation.&lt;br/&gt;&lt;br/&gt;This proposal seeks to develop a transformative circuit simulation paradigm that offers not only unparalleled efficiency but also unprecedented accuracy, overcoming the shortcomings of the existing simulation frameworks. Guided by physics-based first principles, the PIs propose to bypass the step of the extraction of the linear network. Going directly from layout to simulation, such an extraction-free methodology allows for a computation-free decomposition of the system matrix, thus enabling a circuit simulator of linear complexity or optimal complexity in time and space.&lt;br/&gt;Further speedup is achieved with an embarrassingly parallel implementation of the transformative circuit simulator on a many-core node or a cluster of such nodes. This project will deliver a public-domain circuit simulator that can fully account for the interactions between nonlinear devices, substrate, on-die interconnects, and package; thereby contributing to the continued scaling and integration of circuits crosscutting digital, analog, and RF technologies across full electromagnetic spectrum for years to come.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The availability of the transformative circuit simulator in the public domain will enrich the learning experience of future circuit designers progressing through the pipeline of higher education. Moreover, in partnership with the diversity programs at Purdue, summer camp projects that embed essential concepts related to circuits, electromagnetics, and computing will be developed to broaden the participation of underrepresented minority and women students in computing and engineering. Through the active involvement of undergraduate and graduate students in the project and the integration of research results into the undergraduate graduate curricula, students will be trained with a broad range of skills, in areas such as circuits, electromagnetics, numerical linear algebra, and many-core computing.</AbstractNarration>
+    <MinAmdLetterDate>03/11/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/25/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1065318</AwardID>
+    <Investigator>
+      <FirstName>Y. Charlie</FirstName>
+      <LastName>Hu</LastName>
+      <EmailAddress>ychu@purdue.edu</EmailAddress>
+      <StartDate>03/11/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dan</FirstName>
+      <LastName>Jiao</LastName>
+      <EmailAddress>djiao@purdue.edu</EmailAddress>
+      <StartDate>03/11/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Cheng-Kok</FirstName>
+      <LastName>Koh</LastName>
+      <EmailAddress>chengkok@ecn.purdue.edu</EmailAddress>
+      <StartDate>03/11/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

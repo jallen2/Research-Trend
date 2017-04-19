@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Numerical Methods for Moving Interfaces in Fluids</AwardTitle>
+    <AwardEffectiveDate>07/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2012</AwardExpirationDate>
+    <AwardAmount>225232</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Henry A. Warchall</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The work consists of two projects concerning numerical methods for problems of fluid flow with moving interfaces. An improved numerical method will be designed for the combined motion of viscous fluid flow, governed by the Navier-Stokes equations, and a moving boundary which exerts a force on the fluid in&lt;br/&gt;response to its stretching. The immersed boundary method of C. Peskin was developed for this prototype problem and has had a number of applications in biology. In the new approach the interface is kept sharp and the method should be second-order accurate. The velocity will be found in two parts: at each time the steady Stokes velocity, determined by the interfacial force,&lt;br/&gt;will be found either from singular integrals, as done in related work with J. Strain, or from a grid calculation such as the immersed interface method. The remaining regular part of the velocity will be calculated on a rectangular grid using characteristics backward in time. The decomposition of the velocity allows effort to be concentrated at the interface, where it is most needed. For initial development the moving interface will be represented by tracking particles, but the present approach can be combined with refined methods for interface motion such as Strain's semi-Lagrangian contouring. Implicit versions of the method will be considered, to avoid time step limitations due to the interface motion. A graduate student will work on a related project dealing with the representation of surfaces. In the second part of the work,&lt;br/&gt;estimates of maximum errors will be derived for finite difference methods for diffusion equations with discontinuities at interfaces, in which corrections are added to the differences near the interface, as in the immersed interface method of R. Leveque and Z. Li and related work of A. Mayo. Such methods allow treatment of general interfacial boundaries with the simplicity of a rectangular grid. An expected gain of accuracy in the solution relative to the truncation error will depend on the choice of discretization. This choice will be investigated and proofs of accuracy will be given.&lt;br/&gt;&lt;br/&gt;A number of scientific problems involve moving boundaries in fluids, such as a drop of one fluid in another, or the motion of an elastic membrane in living tissue. Numerical study of such problems has special difficulties. It is desirable to calculate fluid quantities at fixed points not depending on the current location of the moving boundary, but discontinuities in quantities across the boundary must be taken into account. The aim in the first project is to improve such a method for a prototype model which has been applied to several biological problems. Such improvement could extend the usefulness of numerical simulation in these problems since it would be inherently more accurate and therefore more efficient for large computations, especially&lt;br/&gt;in three dimensions. The second project concerns analytical understanding and estimation of errors made when difference operators are used in the presence of boundaries, with resulting discontinuities. Such error estimates are needed to ensure the accuracy of approximations made in numerical simulation of fluid flow with moving boundaries using the immersed interface method or in the method developed here.</AbstractNarration>
+    <MinAmdLetterDate>05/28/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/20/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0806482</AwardID>
+    <Investigator>
+      <FirstName>J. Thomas</FirstName>
+      <LastName>Beale</LastName>
+      <EmailAddress>beale@math.duke.edu</EmailAddress>
+      <StartDate>05/28/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

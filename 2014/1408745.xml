@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: A Balance of Power: Programming and Reasoning for Software-Defined Networks</AwardTitle>
+    <AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>1004152</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computer networks use switches, routers, and other devices to process and forward traffic. In a traditional network, these devices coordinate to agree on how traffic should be forwarded. Software-defined networks (SDN) replace this distributed control with a logically centralized controller program which dictates forwarding behavior to each device by installing rules which can include instructions to send certain traffic to the controller for processing or notification. Incorrect rules can lead to the controller missing vital notifications, giving it an incorrect view of the network's state and potentially harming network functionality. On the other hand, if traffic is sent to the controller needlessly, performance can suffer.&lt;br/&gt;&lt;br/&gt;This project is developing Flowlog, a tierless SDN programming language. A tierless language unifies the disparate layers of programming for SDNs: the controller program itself, switch forwarding rules, and the controller's internal state. Flowlog safely handles rule-management on the switches automatically, without any intervention from the programmer. This not only simplifies development, but also prevents the above bugs that can arise from manual rule-installation. Finally, Flowlog programs can interact with arbitrary other programs, even those not written in Flowlog. Since a failure in a controller program can compromise the entire network, program reliability is of central importance. Thus, Flowlog is designed to enable automatic reasoning about programs, and the project is building in support for program verification (both for a specific network and in general), differential analysis, fault-tolerance testing, and even automated repair of errant programs.</AbstractNarration>
+    <MinAmdLetterDate>05/14/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/14/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1408745</AwardID>
+    <Investigator>
+      <FirstName>Shriram</FirstName>
+      <LastName>Krishnamurthi</LastName>
+      <EmailAddress>sk+17@cs.brown.edu</EmailAddress>
+      <StartDate>05/14/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8206</Code>
+      <Text>Formal Methods and Verification</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

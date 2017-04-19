@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Collaborative Research: Scalable Malware Analysis Using Lightweight Virtualization</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>259264</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As the web continues to play an increasing role in information&lt;br/&gt;exchange, so too is it becoming the prevailing platform for infecting&lt;br/&gt;vulnerable hosts. One commonly deployed strategy for delivering&lt;br/&gt;web-malware involves the underhanded tactic of targeting browser&lt;br/&gt;vulnerabilities to automatically download and run malicious software&lt;br/&gt;upon visiting a website. When popular websites are exploited, the&lt;br/&gt;victim base from these so-called drive-by downloads can be far greater&lt;br/&gt;than other forms of exploitation because traditional defenses (e.g.,&lt;br/&gt;firewalls) pose no barrier to infection. Unfortunately, with the&lt;br/&gt;plethora of (insecure) web applications being deployed today, it is&lt;br/&gt;likely that web servers will continue to be popular targets for&lt;br/&gt;exploitation for the foreseeable future.&lt;br/&gt;&lt;br/&gt;One of our primary goals is to take an in-depth look at the malware&lt;br/&gt;serving network on the Web by building a scalable malware execution&lt;br/&gt;and analysis infrastructure. Specifically, we plan to build a&lt;br/&gt;resource-efficient host architecture that permits lightweight process&lt;br/&gt;monitoring via tracking of interactions with the OS. An important&lt;br/&gt;facet of our research direction is to explore a transactional&lt;br/&gt;framework that unifies virtualization and logging to allow efficient&lt;br/&gt;analysis. In this framework, the granularity of recorded transactions&lt;br/&gt;is dynamically adjusted based on execution contexts, aggregating&lt;br/&gt;multiple transactions to a single, summarized, transaction whenever&lt;br/&gt;possible. Broader impats of this project will result from the&lt;br/&gt;comprehensive analysis of the different aspects of the problem posed&lt;br/&gt;by web-based malware, and the tools, methods, and analytical&lt;br/&gt;techniques that will ultimately allow for large-scale malware analysis&lt;br/&gt;by the security community at large.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915364</AwardID>
+    <Investigator>
+      <FirstName>Fabian</FirstName>
+      <LastName>Monrose</LastName>
+      <EmailAddress>fabian@cs.unc.edu</EmailAddress>
+      <StartDate>09/11/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Chapel Hill</Name>
+      <CityName>CHAPEL HILL</CityName>
+      <ZipCode>275991350</ZipCode>
+      <PhoneNumber>9199663411</PhoneNumber>
+      <StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

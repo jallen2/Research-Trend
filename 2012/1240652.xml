@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Design and Implementation of Algorithms for an Experimental High-Radix Network Switching system</AwardTitle>
+    <AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2013</AwardExpirationDate>
+    <AwardAmount>149888</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Technology and economic trends in computer hardware have led to the widespread adoption of extremely large clusters of multicore servers as today?s supercomputers. As applications are modified to exploit the increased parallelism of these additional nodes and cores, the application?s network messages typically become both smaller and more frequent. Although the bandwidth of the interconnect networks in current supercomputer systems is almost keeping up with increases in compute performance, there has been little improvement in the overhead of sending messages, and correspondingly little improvement in the throughput of the network when sending short messages. As a consequence of these two trends, many applications scale poorly on existing supercomputing systems, and many more applications are expected to scale poorly as the industry moves forward with even larger supercomputer systems. &lt;br/&gt;&lt;br/&gt;In this study, TACC is investigating a possible solution to these issues with a new network switch and network interface architecture that can sustain full network bandwidth using very short messages. This project is investigating the programming models required to use this network efficiently and is evaluating the performance of the new interconnect network in direct comparison with a modern (quad-data-rate Infiniband) interconnect that is widely used in current supercomputers.&lt;br/&gt;&lt;br/&gt;The evaluation of the new system is being conducted through a number of case studies. Implementations of algorithms known to exhibit poor parallel scaling on standard systems due to network performance limitations are being ported to the new system and instrumented with timers and hardware performance counters to document the detailed performance characteristics. This study will provide an initial evaluation of the technical viability of the current implementation of this new architecture for these algorithms, and is expected to provide recommendations for future enhancements to the architecture.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1240652</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>McCalpin</LastName>
+      <EmailAddress>mccalpin@tacc.utexas.edu</EmailAddress>
+      <StartDate>09/06/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

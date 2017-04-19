@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ATD: Data-driven stochastic source inversion algorithms for event reconstruction of biothreat agent dispersion</AwardTitle>
+    <AwardEffectiveDate>10/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>466803</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Realistic event reconstruction problems require PDE-based models, and incorporating sensor data into them must be efficient for emergency response purposes. The investigator and her colleagues will efficiently solve this problem using techniques from numerical linear algebra that do not require multiple simulations of the forward model. These techniques can be viewed from the Bayesian perspective as finding first and second moments for point and uncertainty estimates, respectively. Least squares estimates will be weighted with inverse covariance matrices found by a new technique developed as part of this work that does not require normally distributed errors. These weights make least squares estimates more accurate, and the approach is computationally more efficient than full Bayesian methods. The investigator and her colleagues will quantify uncertainty in the PDE based forward model, while accounting for both data and parameter uncertainty. These PDE-based models will adopt a multi-GPU computing paradigm for overall acceleration of the algorithms for threat&lt;br/&gt;detection, and it is expected that near real-time inversions of the three-dimensional contaminant dispersion model will be produced.&lt;br/&gt;&lt;br/&gt;This problem is motivated by the fact that in their June 2008 report (GAO-08-180) to Congressional requesters, the Government Accountability&lt;br/&gt;Office (GAO) has found that ?While the Department of Homeland Security (DHS) and other agencies have taken steps to improve homeland defense, local first responders still do not have tools to accurately identify right away what, when, where, and how much chemical, biological, radiological, or nuclear&lt;br/&gt;materials are released in U.S. urban areas, accidentally or by terrorists?. DHS has deployed the BioWatch program in several major cities to monitor the air for biothreat agents. The number of sensors in urban areas is limited, and a reliable account of the chemical-biological dispersion event and its impact on the population cannot be created purely from measurements. The PI and her colleagues will develop computationally fast mathematical algorithms to reconstruct the dispersion of a chemical or biological agent that is detected by a sensor network. This will allow first responders to identify and quantify the location and amount of chemical-biological agent release. Once the dispersion event is backtracked in time it can then be projected forward using high-fidelity atmospheric transport and dispersion models to predict the hazard zone for emergency response and hazard mitigation. The problem under consideration is equally significant in defense operations on the battlefield, where estimates on the location, strength and time of chemical-biological agent release can support tactical decisions such as areas to avoid, protective gear usage and medical response.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/01/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1043107</AwardID>
+    <Investigator>
+      <FirstName>Jodi</FirstName>
+      <LastName>Mead</LastName>
+      <EmailAddress>mead@math.boisestate.edu</EmailAddress>
+      <StartDate>09/16/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Inanc</FirstName>
+      <LastName>Senocak</LastName>
+      <EmailAddress>senocak@boisestate.edu</EmailAddress>
+      <StartDate>09/16/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Boise State University</Name>
+      <CityName>Boise</CityName>
+      <ZipCode>837250001</ZipCode>
+      <PhoneNumber>2084261574</PhoneNumber>
+      <StreetAddress>1910 University Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Idaho</StateName>
+      <StateCode>ID</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>J183</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7552</Code>
+      <Text>COFFES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>J184</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>6877</Code>
+      <Text>ALGORITHMS IN THREAT DETECTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7721</Code>
+      <Text>FROM DATA TO KNOWLEDGE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7752</Code>
+      <Text>CDI NON SOLICITED RESEARCH</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

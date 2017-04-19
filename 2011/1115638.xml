@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Approximate Augmented Lagrangians: First-Order and Parallel Optimization Methods, with Applications to Stochastic Programming</AwardTitle>
+    <AwardEffectiveDate>07/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>358499</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Continuous optimization is a mathematical discipline with extensive&lt;br/&gt;applications in engineering design and business/logistical planning.&lt;br/&gt;Its currently most common solution techniques are difficult to adapt&lt;br/&gt;to newly evolving computer architectures comprising dozens to&lt;br/&gt;thousands of processing elements working in parallel. Combining&lt;br/&gt;several existing techniques with some recent results of the principal&lt;br/&gt;investigator, this project explores a means of solving continuous&lt;br/&gt;optimization problems that should adapt more readily to parallel&lt;br/&gt;computer architectures than present standard solvers, allowing the&lt;br/&gt;architectures' full power to be brought to bear on large,&lt;br/&gt;time-consuming problems. Without such new solution approaches,&lt;br/&gt;solution of critical design and planning problems may not benefit from&lt;br/&gt;most of the advances in computing power anticipated for the next&lt;br/&gt;decade. The project will also involve cooperative work with the&lt;br/&gt;Brazilian research community.&lt;br/&gt;&lt;br/&gt;The technical approach is to capitalize on recent advances in&lt;br/&gt;augmented Lagrangian and conjugate gradient algorithms to produce a&lt;br/&gt;new kind of modular parallel continuous constrained optimization&lt;br/&gt;solver. The solver consists of a classical augmented Lagrangian outer&lt;br/&gt;loop, with subproblems solved by the a state-of-the art&lt;br/&gt;box-constrained conjugate gradient method terminated by a recently&lt;br/&gt;developed relative error criterion. The research consists of three&lt;br/&gt;stages: the goal of stage one is to create an object-oriented, modular&lt;br/&gt;serial implementation, test it extensively, and address some&lt;br/&gt;theoretical issues. Stage two aims to evolve the stage-one substrate&lt;br/&gt;into a parallel solver for which the user explicitly specifies how to&lt;br/&gt;map the problem structure to multiple processing elements. Stage&lt;br/&gt;three's goal is to automate the structure detection and mapping&lt;br/&gt;process. Stages two and three will use stochastic programming&lt;br/&gt;problems as test cases.</AbstractNarration>
+    <MinAmdLetterDate>07/11/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/11/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115638</AwardID>
+    <Investigator>
+      <FirstName>Jonathan</FirstName>
+      <LastName>Eckstein</LastName>
+      <EmailAddress>jeckstei@rci.rutgers.edu</EmailAddress>
+      <StartDate>07/11/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University Newark</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>071021896</ZipCode>
+      <PhoneNumber>9739720283</PhoneNumber>
+      <StreetAddress>Blumenthal Hall, Suite 206</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7934</Code>
+      <Text>PARAL/DISTRIBUTED ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Algorithms and Statistical Methods for Personalized Diagnosis and Therapy in Cancer</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>369605</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>At present, there are several public efforts under way to generate massive data sets&lt;br/&gt;derived from all available cancer tissues. Such data is already available for four forms of cancer: Ovarian,&lt;br/&gt;lung, breast and colon, and more are on the way. One of the characteristics of these data sets is that the&lt;br/&gt;number of features that are measured is in the tens of thousands, while the number of tissue samples for&lt;br/&gt;each form of cancer is in the hundreds. The main challenge therefore is to extract the most informative features&lt;br/&gt;that can be used to distinguish one set of cancer patients from another, for example, those that respond to a&lt;br/&gt;particular form of therapy from those who do not. Such features, referred to as biomarkers, can then be used&lt;br/&gt;to develop therapies that are customized to focused groups or even individual patients. However, almost&lt;br/&gt;all available algorithms for extracting relevant features from big data sets face a "barrier" in that the number&lt;br/&gt;of features extracted is bounded below by the number of training samples. This number, which might be&lt;br/&gt;in the hundreds, is far too large to be useful in biological applications. In this project, it is proposed to&lt;br/&gt;develop some novel algorithms for feature extraction that can break through this "barrier" and identify far&lt;br/&gt;fewer features than the number of training samples. These newly developed algorithms will be analyzed&lt;br/&gt;in terms of their statistical behavior and their optimality; in addition they will be validated on actual data&lt;br/&gt;sets from lung, ovarian and endometrial cancer.&lt;br/&gt;&lt;br/&gt;Another important aspect of current cancer therapy is the widespread acceptance of the need to use&lt;br/&gt;multi-drug combinations. This is because when a patient is treated with a single drug, almost invariably&lt;br/&gt;the tumor will grow back even if it shrinks initially, and the relapsed tumor is often resistant to the drug.&lt;br/&gt;Due to combinatorial explosion, it is not feasible to try out all possible combinations of drugs in experimental&lt;br/&gt;settings. Moreover, due to the complexity of the behavior of cancer cells, it is also not possible&lt;br/&gt;to develop analytical models for the mechanisms of action of multiple drugs used in combination. It is&lt;br/&gt;therefore imperative to develop methodologies for predicting the efficacy of multi-drug combinations while&lt;br/&gt;making almost no assumptions about the mechanism of action of each drug. In this project, it is proposed to use&lt;br/&gt;the so-called "maximum entropy method" to develop such a prediction methodology. The maximum entropy&lt;br/&gt;method was developed about fifty years in the context of deriving equilibrium statistical mechanics&lt;br/&gt;from information theory, and is widely accepted as one of the best methods to be used when it is desired to&lt;br/&gt;minimize the number of a priori assumptions.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: Currently available algorithms for classification and regression such as LASSO, elastic&lt;br/&gt;net, and Dantzig have the feature that the number of key features extracted is roughly equal to the number&lt;br/&gt;of training samples. However, even this number is too large to be of practical use in biological situations.&lt;br/&gt;Preliminary investigations on a new algorithm invented by the PI show that it does not have this limitation.&lt;br/&gt;Moreover, this new algorithm has shown promising performance on two types of cancer data sets:&lt;br/&gt;endometrial and ovarian. If a sound theoretical foundation can be established for the observed behavior of&lt;br/&gt;this algorithm, as well as for another that is still in the conceptual stage, that would be a very significant&lt;br/&gt;contribution to statistics and to machine learning theory. On another front, if it can be established through&lt;br/&gt;theory and experiment that the maximum entropy method can be used to predict the efficacy of multi-drug&lt;br/&gt;combinations, that would greatly advance both the theory of the method and the practical applicability of&lt;br/&gt;multi-drug therapy.&lt;br/&gt;&lt;br/&gt;Broader Impacts: Cancer is the second leading cause of death in the USA, in other industrialized countries,&lt;br/&gt;and also in newly industrializing countries. It is widely accepted that cancer is the most "individual" of diseases&lt;br/&gt;in that no two manifestations are alike. Therefore personalized therapy is the way forward. However,&lt;br/&gt;there are very few methodologies for developing personal therapy that are agnostic as to the type of cancer.&lt;br/&gt;The present project aims to develop precisely such methodologies. Given the large mindshare of cancer in&lt;br/&gt;the scientific community and in society at large, it can be safely assumed that if the project is successfully&lt;br/&gt;completed, then the research findings would be followed up by the cancer researcher community. To hasten&lt;br/&gt;the process, the PI will work with several cancer researchers in the UT Southwestern Medical Center in&lt;br/&gt;Dallas and in the M. D. Anderson Cancer Center in Houston.&lt;br/&gt;&lt;br/&gt;The project will entail the training of two graduate students and at least one undergraduate summer&lt;br/&gt;intern per year. This would serve to increase the pool of trained manpower and also to disseminate the&lt;br/&gt;analytical approach to cancer therapy design to a broader audience.</AbstractNarration>
+    <MinAmdLetterDate>06/28/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/28/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1306630</AwardID>
+    <Investigator>
+      <FirstName>Mathukumalli</FirstName>
+      <LastName>Vidyasagar</LastName>
+      <EmailAddress>m.vidyasagar@utdallas.edu</EmailAddress>
+      <StartDate>06/28/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Dallas</Name>
+      <CityName>Richardson</CityName>
+      <ZipCode>750803021</ZipCode>
+      <PhoneNumber>9728832313</PhoneNumber>
+      <StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Analyzing the Impacts of Non-Gaussian Errors in Gaussian Data Assimilation Systems</AwardTitle>
+    <AwardEffectiveDate>09/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>596054</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06020105</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Atmospheric &amp; Geospace Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nicholas F. Anderson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The basis for most of the world's operational and research variational data assimilation (DA) is that all errors are Gaussian distributed. For synoptic-scale weather systems this assumption is a good approximation, however even at these large scales there some variables (e.g., positive-definite quantities such as relative humidity) cannot be properly characterized by assumed Gaussian error distributions. The impact of an imposed negative value for a positive-definite variable such as moisture is that an operational system DA system could fail to converge or otherwise yield an unstable numerical forecast or an unphysical model state. This Gaussian assumption is also present in retrieval systems that are based upon a maximum likelihood estimation (MLE) Bayesian-type approach. In some other Bayesian systems the moisture variable is assumed to be lognormally distributed and so the retrieved variable is the natural logarithm of the moisture variable. Both approaches introduce a bias into the analysis by finding the incorrect statistic to describe the probabilistic behavior of the random variable. In this project an alternative approach for non-Gaussian variables that combines a lognormal distribution with a Gaussian distribution, referred to as a mixed distribution, will be applied and evaluated. This mixed distribution allows for the retrieval and assimilation of Gaussian- and lognormally-distributed variables simultaneously. The mixed approach is different to the other two approaches in that it is finding the analysis mode with the correct covariances between the random variables, and not the mode of the best Gaussian approximation or the median of the lognormal distribution.&lt;br/&gt;&lt;br/&gt;In the first stage of this effort, methods for determining where one can and cannot impose a Gaussian assumption for humidity within DA schemes, as well to quantify the impacts of such assumptions on retrieved quantities, will be developed. The second stage will investigate the impacts of assimilating retrieved data from the Gaussian assumption approach against the mixed distribution approach into a larger 3D- or 4D-VAR (variationally-based) approach as appropriate to the particular model system being evaluated [e.g., the NSF/NCAR-supported Weather Forecasting and Research (WRF) DA system]. The intellectual merit of this work will trace to the ability to better observe and assimilate moisture fields and develop an improved understanding of their interactions with other model-prognostic fields for a variety of dimensions of atmospheric prediction: synoptic, mesoscale and cloud resolving. Anticipated Broader Impacts of this effort will come through the ability to exert carefully motivated changes in DA schemes employed in larger numerical weather prediction systems, which would in-turn be expected to foster improved predictions of severe and/or extreme weather events. Broader impacts through education will occur through the mentorship and early-career development of a supported postdoctoral research associate, who will be trained in non-Gaussian DA methods as well as gain experience with retrievals and near-operational large DA systems.</AbstractNarration>
+    <MinAmdLetterDate>09/24/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/15/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1038790</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Forsythe</LastName>
+      <EmailAddress>forsythe@cira.colostate.edu</EmailAddress>
+      <StartDate>09/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Jones</LastName>
+      <EmailAddress>Andrew.S.Jones@ColoState.edu</EmailAddress>
+      <StartDate>09/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Fletcher</LastName>
+      <EmailAddress>fletcher@cira.colostate.edu</EmailAddress>
+      <StartDate>09/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Colorado State University</Name>
+      <CityName>Fort Collins</CityName>
+      <ZipCode>805232002</ZipCode>
+      <PhoneNumber>9704916355</PhoneNumber>
+      <StreetAddress>601 S Howes St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1525</Code>
+      <Text>PHYSICAL &amp; DYNAMIC METEOROLOGY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

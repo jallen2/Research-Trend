@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF:SM: A Time-Predictable Multicore/Manycore Architecture for Real-Time</AwardTitle>
+    <AwardEffectiveDate>07/16/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>288164</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Real-time systems ranging from aircraft and nuclear power plant controllers to video games and graphics animations have become an increasingly important part of our society. For real-time applications to harness the full potential of multicore chips, the execution time of multicore processors must be predictable, which is particularly crucial for hard real-time and safety-critical systems. Unfortunately, current multicore architectures are designed for maximizing average-case performance, and some architectural features such as shared caches can significantly affect the worst-case performance, making accurate WCET (Worst-Case Execution Time) analysis extremely difficult, if not impossible. This harmful impact on time predictability will become even more severe in emerging manycore processors.&lt;br/&gt;&lt;br/&gt;This proposal attempts to design a time-predictable yet high-performance multicore/manycore architecture to provide scalable and predictable performance for future high-performance real-time applications. In addition to systematic analysis of existing multicore architectural features that can severely affect time predictability of computing, this project will develop a variety of time-predictable cache and memory architectures to ensure time predictability. This project will also implement TMulticore on a FPGA to develop deep understanding of real design constraints for time-predictable multicore/manycore chips.&lt;br/&gt;&lt;br/&gt;The success of this project is expected to enable the safe and reliable use of multicore/manycore processors for a wide variety of real-time applications to enhance their performance and energy efficiency with deterministic computation time. This project will involve both undergraduate and graduate students in the design, implementation, and evaluation of the proposed TMulticore processor. In particular, the PI is committed to attracting underrepresented students into this project. In addition, funding of this project will greatly facilitate the growth of the new Ph.D. program in Electrical and Computer Engineering at the Southern Illinois university.</AbstractNarration>
+    <MinAmdLetterDate>09/30/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/14/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1063645</AwardID>
+    <Investigator>
+      <FirstName>Wei</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>wzhang4@vcu.edu</EmailAddress>
+      <StartDate>09/30/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Commonwealth University</Name>
+      <CityName>RICHMOND</CityName>
+      <ZipCode>232980568</ZipCode>
+      <PhoneNumber>8048286772</PhoneNumber>
+      <StreetAddress>P.O. Box 980568</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7218</Code>
+      <Text>RET SUPPLEMENTS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

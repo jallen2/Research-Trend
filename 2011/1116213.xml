@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Methods for Diagnosis of Non-Classical Faults in Digital Circuits</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>299999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The research in this project focuses on diagnostic test generation methods for non-classical faults, such as transition delay and bridging faults, which represent the fault behaviors of modern VLSI devices. Although, the existing tools for VLSI circuit testing incorporate years of research they only deal with classical stuck-at faults. A stuck-at fault is detectable by a single input pattern. Detection of a transition fault is more complex because it requires a sequence of two patterns. Also, the existing tools find tests that detect faults and may not diagnose them, i.e., identify the exact cause of a failure. The traditional metric used in testing is fault coverage. This research investigates the use of a new metric termed diagnostic coverage for the effectiveness of tests in their role of fault diagnosis. For example, to distinguish between two faults one must use a test that detects one fault but not the other; such a test is called an exclusive test. This research provides new algorithms to generate tests for diagnosis of non-classical faults while allowing the use of the available testing tools.&lt;br/&gt;&lt;br/&gt;Moore's law prediction of the number of devices on a VLSI chip doubling every eighteen months simply follows the trend of minimum cost per transistor. The enabling technology driver is the shrinking geometry of features allowing higher transistor density and speed. Nanometer geometries have, however, led to greater process variations. Two characteristics separate the testing of modern VLSI technologies. First, the complex fault mechanisms are no longer represented by the classical stuck-at faults. Second, the impact of increased process variation on yield requires testing to be diagnostic-oriented; faults must be identified so that their causes can be eliminated. The research in this project addresses both needs of the advancing VLSI technology.</AbstractNarration>
+    <MinAmdLetterDate>06/15/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/15/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116213</AwardID>
+    <Investigator>
+      <FirstName>Vishwani</FirstName>
+      <LastName>Agrawal</LastName>
+      <EmailAddress>vagrawal@eng.auburn.edu</EmailAddress>
+      <StartDate>06/15/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Auburn University</Name>
+      <CityName>Auburn University</CityName>
+      <ZipCode>368490001</ZipCode>
+      <PhoneNumber>3348444438</PhoneNumber>
+      <StreetAddress>310 Samford Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Alabama</StateName>
+      <StateCode>AL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

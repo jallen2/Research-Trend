@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Collaborative Research: An accelerated numerical solver framework for simulation of solid-fluid dynamics</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>194966</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modeling and simulation of complex fluids, or intricate systems involving interaction of solid and fluid phases are highly relevant to industrial and engineering applications, and also provides a valuable tool in disciplines such as the study of biofluids and the functional modeling of the circulatory system. The challenges of this task are accentuated by the complexity of the governing physical laws, the demands for accuracy of discrete approximations and the need to accommodate the high resolutions mandated by common applications. Modern hardware offers a unique opportunity: as computational capacity continues to increase, simulations that would have taken days now have the potential of being completed within minutes. However, capitalizing on this potential necessitates a concerted effort of algorithmic development and theoretical innovations in numerics and discretization techniques that promote regularity and expose parallelization opportunities. Alleviating resolution limitations will enable revolutionary new uses of simulation. A promising possibility is the use of simulation in real-time decision making and control. Several ground breaking studies utilize control of solid/fluid interaction but they are limited to linear equations (low Reynolds number flows where Green's functions can be efficiently used). However, the more general nonlinear cases, for example higher Reynolds number Newtonian flows and complex viscoelastic fluids (at all Reynolds numbers) cannot be considered with the tools available in the linear case. This activity will combine expertise from computer engineering, numerical analysis, applied mathematics and experimental physics to jointly address these challenges. &lt;br/&gt;&lt;br/&gt;The proposal promotes the potential for scalable parallel performance via the adoption of discretization schemes that leverage regular data structures; in particular it will focus on embedded cut cell methods that couple a Lagrangian representation of the solid with an Eulerian representation of the fluid. It will develop higher order methods that are highly computationally efficient while remaining compatible with linear algebra solvers that are parallel-friendly by design. The key developments will be implicit methods  specifically designed to accommodate novel parallel multigrid preconditioners for symmetric Krylov solvers. Finally, the modeling approach for the governing equations will be validated against experimental data obtained in Co-PI Kavehpour's research group. The study of complex solid-fluid dynamic interaction can serve as intuitive proving grounds for the development of scalable, parallelism-oriented numerical solvers. Although there are several existing methods in the general field of solid/fluid interactions, there is still considerable room for improvement especially in the case of viscoelastic flows. There is a clear demand for methods that improve accuracy and efficiency. Very few methods achieve higher order accuracy without incurring burdensome computational expense from associated numerical linear algebra. However, bold performance gains require novel algorithms specifically designed for these new architectural specifications. This collaborative activity will engage in cross-cutting interventions to maximize the benefit of computing innovation while striving for an accurate simulation framework validated against experimental findings.&lt;br/&gt;&lt;br/&gt;Outreach activities include mentoring underrepresented high school students in scientific computing and large-scale engineering projects.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423064</AwardID>
+    <Investigator>
+      <FirstName>Eftychios</FirstName>
+      <LastName>Sifakis</LastName>
+      <EmailAddress>sifakis@wisc.edu</EmailAddress>
+      <StartDate>07/28/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

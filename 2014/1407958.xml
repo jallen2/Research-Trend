@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Sparsity-promoting optimal design of large-scale networks of dynamical systems</AwardTitle>
+    <AwardEffectiveDate>08/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>389673</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Sparsity-promoting optimal design of large-scale networks of dynamical systems&lt;br/&gt;&lt;br/&gt;The proposal introduces new methods for the design of large-scale networks of dynamical systems. Systems of this type arise in applications ranging from distributed power generation, to coordination of unmanned aerial vehicles and deployment of teams of robotic agents, to control of fluid flows around wind turbines and vehicles, to control of segmented mirrors in extremely large telescopes. One of the major challenges in systems with large number of degrees of freedom is the development of analytical and computational methods for their tractable analysis and design.&lt;br/&gt;&lt;br/&gt;Interactions between subsystems often induce complex dynamical responses that cannot be predicted by analyzing subsystems in isolation. Blackouts in power networks, congestion in transportation networks, spatio-temporal oscillations in biochemical networks, turbulence in fluid flows, and the spread of information in social networks illustrate the complex and seemingly unpredictable behavior that arises in systems of high dynamical order. The broader impacts of the proposed work range from improved performance and suppression of blackouts in power systems to systematic design of sensor networks and multi-agent systems. The educational aspect of the proposal is to develop a new introductory course on analysis and design of networks. This course will be aimed at attracting students from diverse engineering departments at senior undergraduate and first year graduate levels.&lt;br/&gt;&lt;br/&gt;The intellectual merit lies in the development of theory and techniques for structure identification and optimal design of large networks of dynamical systems. The PI will combine tools and ideas from control theory, optimization, and compressive sensing to achieve an optimal tradeoff between network performance and controller sparsity. The proposed approach involves both structure identification and structured optimal design steps. In the structure identification step, sparsity will be induced by regularizing an optimal control problem with a penalty on communication requirements in the distributed controller. In contrast to previous efforts, this penalty will reflect the fact that sparsity should be enforced in a specific set of coordinates. After having identified a controller structure, the structured optimal design step will optimize the network performance over the identified structure. Alongside the sparse feedback synthesis, the PI will address the critical question of optimal sensor and actuator selection in large-scale networks.&lt;br/&gt;&lt;br/&gt;Although, in general, finding the solution to this problem requires an intractable combinatorial search, this award will draw upon recent developments in sparse representations to cast it as a semidefinite program (SDP). While the resulting SDP can be solved using general-purpose solvers, the PI will develop customized algorithms to exploit the problem structure and reduce computational complexity. Such customized solvers will be capable of dealing with large problems.&lt;br/&gt;that general-purpose solvers are not able to handle.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1407958</AwardID>
+    <Investigator>
+      <FirstName>Mihailo</FirstName>
+      <LastName>Jovanovic</LastName>
+      <EmailAddress>mihailo@usc.edu</EmailAddress>
+      <StartDate>08/07/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

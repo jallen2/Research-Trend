@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Protecting Privacy While Providing Utility in Published Network Mobility Traces Using Differential Privacy</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>478672</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Recorded information of an individual's movement among access points in a WiFi network or among cell towers in a cellular network is typically regarded as private data and not divulged by network operators. Yet such traces of real-world individual mobility are critically important for researchers and engineers in evaluating new mobile network protocols, architectures, and applications. This project will develop and evaluate techniques for manipulating and then publishing mobility traces in a manner such that (i) well-defined, formally-proven, privacy guarantees are provided to the users whose data are contained in the original traces, and (ii) the published traces provide high accuracy when used in common computer network and protocol design and analysis tasks. &lt;br/&gt;&lt;br/&gt;The differential privacy techniques developed in this project use a constrained trajectory-prefix representation of the original data to determine the underlying representation of the original data and judiciously allocate random noise needed to satisfy differential privacy (DP) constraints. The utility of the derived DP trajectories - the difference between task-specific performance realized using the derived DP trajectories and realized using the original trajectories - will be evaluated for four common and representative use cases. The original data itself will be obtained from an operational 4,500-node WiFi campus wireless network. Since a more restricted output DP data may provide higher utility (than DP traces) for a specific task for a given privacy budget, this project will also examine utility tradeoffs from specializing DP output for specific tasks. The project will also develop error bounds on published DP data to provide the network analyst with a quantitative measure of the degree of "randomness" associated with the DP data. &lt;br/&gt;&lt;br/&gt;This project allows 'real world' network mobility data to be made available to networking researchers and analysts, while at the same time providing formal privacy guarantees to users whose activities are represented in that data. The specific DP traces of user mobility made publicly available as part of this project will also be of interest and use, as will the ensuing community discussion around the most appropriate and useful forms of private mobility data. More broadly, in the nascent era of "big data," privacy has become of paramount importance. Mobile wireless users and their trajectories among network access points are just one example of trajectory footprints - sequences of physical locations visited, acquaintances met, web sites visited or any of a myriad of other activities are 'trajectories' of significant interest well beyond the networking research community. The domain-specific research undertaken in this project may thus find application in these and many other areas. The mentoring of a diverse group of graduate research assistants and undergraduate REU students and incorporation of privacy-related research results into graduate-level seminars and (more broadly) privacy issues into undergraduate network curriculum will provide additional broader impact for this project's research.</AbstractNarration>
+    <MinAmdLetterDate>09/15/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/19/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1421325</AwardID>
+    <Investigator>
+      <FirstName>Gerome</FirstName>
+      <LastName>Miklau</LastName>
+      <EmailAddress>miklau@cs.umass.edu</EmailAddress>
+      <StartDate>12/19/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Kurose</LastName>
+      <EmailAddress>kurose@cs.umass.edu</EmailAddress>
+      <StartDate>09/15/2014</StartDate>
+      <EndDate>12/19/2014</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gerome</FirstName>
+      <LastName>Miklau</LastName>
+      <EmailAddress>miklau@cs.umass.edu</EmailAddress>
+      <StartDate>09/15/2014</StartDate>
+      <EndDate>12/19/2014</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>Hadley</CityName>
+      <ZipCode>010359450</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

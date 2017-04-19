@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Automatic Speech Recognition of Unconventionally-Vocalized Speech</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>457999</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Despite great advances in computer recognition of conventional speech, automatic recognizers have enormous trouble with speech that deviates from speech norms in pitch range, speaking style, and timing.&lt;br/&gt;Unconventional speech includes the "motherese" used to speak to young children, certain kinds of dysarthric speech, and singing. Current speech recognizers draw their power from statistical models of very large collections of real speech, but the corollary of this power is that speech that differs from this norm cannot be handled nearly so well.&lt;br/&gt;&lt;br/&gt;The goal of this project is to create a speech recognition system able to handle a broad range of non-canonical speaking and voicing styles. As a motivating basis, we will target the transcription of singing.&lt;br/&gt;Sung speech poses a number of significant challenges with implications in broader speech scenarios: In comparison with conventional speech, the speech timing is highly distorted; the pitch level, range, and dynamics are very different; and there are frequently simultaneous sound sources (i.e., accompanying instruments) whose signals must be distinguished from the voice.&lt;br/&gt;&lt;br/&gt;The approach is to make a best-effort separation of the voice, e.g., by closely filtering the predominant pitch in a mixed signal. This candidate voice is then transformed and normalized to resemble conventional speech: The pitch harmonics are interpolated to achieve a more pitch-invariant spectrum, and the time axis is warped to achieve a more uniform rate of change (eliding over sustained, unchanging sounds). Then, a conventional speech recognizer is adapted to recognize this normalized speech. To train the recognizer for the target domain, a substantial collection of music audio is manually aligned with phoneme-level transcriptions of the singing. This corpus will be freely available to other researchers in music and non-canonical speech.&lt;br/&gt;&lt;br/&gt;This work will develop techniques to make current speech recognition applicable to a much broader range of speech material and speakers.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/08/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117015</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Ellis</LastName>
+      <EmailAddress>dpwe@ee.columbia.edu</EmailAddress>
+      <StartDate>07/29/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

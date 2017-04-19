@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPA-CPL: Cache-Aware Synchronization and Scheduling of Data-Parallel Programs for Multi-Core Processors</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>355717</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Project Abstract&lt;br/&gt;&lt;br/&gt;Multi-core (parallel) processors are becoming ubiquitous. The use of such systems is key to science, engineering, finance, and other major areas of the economy. However, increased applications performance on such systems can only be achieved with advances in mapping such applications to multi-core machines. This task is made more difficult by the presence of complex memory organizations which is perhaps the key bottleneck to efficient execution, and which was not previously addressed effectively. This research involves making the mapping of the program to the machine aware of the complexities of the memory-hierarchy in all phases of the compilation process. This will ensure a good fit between the application code and the actual machine and thereby guarantee much more effective utilization of the hardware (and thus efficient/fast execution) than was previously possible. &lt;br/&gt;&lt;br/&gt;Modern processors (multi-cores) employ increasingly complex memory hierarchies. Management of such hierarchies is becoming critical to the overall success of the compilation process since effective utilization of the memory hierarchy dominates overall performance. This research develops a new cache-hierarchy-aware compilation and runtime system (i.e., including compilation, scheduling, and static/dynamic processor mapping of parallel programs). These tasks have one thing in common: they all need accurate estimates of data element (iteration, task) computation and memory access times which are currently beyond the (cache-oblivious) state-of-the-art. This research thus develops new techniques for iteration space partitioning, scheduling, and synchronization which capture the variability due to cache, memory, and conditional statement behavior and their interaction. This research will have a broad impact on the computer industry as it will allow the ubiquitous multi-core systems of the future to be efficiently exploited by parallel programs.</AbstractNarration>
+    <MinAmdLetterDate>08/09/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/20/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811882</AwardID>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Veidenbaum</LastName>
+      <EmailAddress>alexv@ics.uci.edu</EmailAddress>
+      <StartDate>08/09/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alexandru</FirstName>
+      <LastName>Nicolau</LastName>
+      <EmailAddress>anicolau@uci.edu</EmailAddress>
+      <StartDate>08/09/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173213</ZipCode>
+      <PhoneNumber>9498247295</PhoneNumber>
+      <StreetAddress>141 Innovation Drive, Ste 250</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

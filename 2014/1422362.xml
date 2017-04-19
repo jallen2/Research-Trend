@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Collaborative Research: Software Defined Network Function Virtualization (SDNFV) - Flexible, High Performance Network and Data Center Virtualization</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>279899</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Traditional computer networks have been built from hardware appliances, such as routers, firewalls, and switches, to implement functionality. These devices can process network packets at high speed, but provide little flexibility since they are based on purpose-built hardware. Recent improvements in multi-core processors and high-speed network interface cards have enabled Network Function Virtualization (NFV), which allows these network components to run instead on commodity compute servers. NFV makes the network data processing elements run as software, allowing them to be deployed dynamically or easily modified and tuned with changes in network workloads. At the same time, Software Defined Networking (SDN) has grown in popularity as a way to manage more easily network services by centralizing control plane functions. This research investigates how the convergence of NFV and SDN can enable a new breed of highly dynamic network services for customers of Internet Service Providers (ISPs), and also grant cloud computing customers far greater control over data center resources. The work will explore both the software mechanisms needed to support network components running at speeds well beyond 10 Gbps inside of virtual machines, and the algorithms and control architectures required to coordinate these components with high performance and low cost. &lt;br/&gt;&lt;br/&gt;The project targets two application areas for Software Defined Network Function Virtualization (SDNFV). The first is dynamic services for network providers for which the principal investigators (PIs) are developing a SDNFV platform that enables line-rate packet processing within virtual machines by exploiting network interface controller (NIC) polling and shared memory for zero-copy communication. This flexible infrastructure will allow packets to be redirected based on complex policies, packet data, or service state, which is not currently possible in hardware-based solutions. The second focus area is on cloud computing data centers in which SDNFV will enable cloud data center operators to easily partition and multiplex network resources in the same way they currently virtualize servers and storage devices. In this application area the PIs are developing virtualization-layer trust boundaries that provide strict performance and data isolation, while still permitting the optimizations required for SDNFV?s fast packet processing. They will also study the new resource management and scheduling algorithms required to ensure a group of virtual machine-based network services can meet their strict latency requirements. Finally the PIs will evaluate their ideas by building prototypes and testing them using realistic benchmark workloads and traces.&lt;br/&gt;&lt;br/&gt;The proposed work has the potential to redefine how networks are built and managed, by transitioning away from single-purpose hardware to flexible software-based network components. This research could make the connected, digital world we rely on more efficient and more responsive to workload changes, attacks, and policy decisions. The research will be paired with an educational program to enhance the networking and distributed systems curriculum at the researchers' institutions. This will help prepare undergraduate, Masters, and Ph.D. students to enter the work force with highly sought-after experience in the latest networking technologies.</AbstractNarration>
+    <MinAmdLetterDate>09/09/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/18/2017</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422362</AwardID>
+    <Investigator>
+      <FirstName>Timothy</FirstName>
+      <LastName>Wood</LastName>
+      <EmailAddress>timwood@gwu.edu</EmailAddress>
+      <StartDate>09/09/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>George Washington University</Name>
+      <CityName>Washington</CityName>
+      <ZipCode>200522000</ZipCode>
+      <PhoneNumber>2029946255</PhoneNumber>
+      <StreetAddress>2121 Eye Street NW</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>District of Columbia</StateName>
+      <StateCode>DC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

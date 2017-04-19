@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: The Power of Online Learning in Stochastic System Optimization</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>376628</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Brown</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project considers a constrained optimization problem applied to a stochastic system with dynamic system states that have a stationary state distribution. At each state, an operation is implemented and a corresponding system cost occurs depending on the chosen action; the objective is to minimize the expected cost given service/demand constraints. Solving this problem is challenging and the main difficulty comes from the fact that the state distribution of the system is often unknown a priori and may change over time in practice. Known algorithms that handle this challenge, in particular, Backpressure algorithms, suffer from a slow convergence speed and poor short-term performance. This project instead investigates the value of online learning in optimal stochastic system control. Preliminary results have produced an online-learning technique called dual learning, along with two corresponding online-learning-aided control strategies. Lagrange multipliers form key quantities in solving a constrained optimization problem; the queue vector turns out to play the role of Lagrange multiplier, and thus one can utilize the information of the system dynamics for accelerating the learning of the control algorithm. Based on this insight, we systematically study the value of online learning in optimal stochastic system control in the following thrusts: 1) Fundamental Limits: We investigate the performance limits of the proposed online-learning-based-strategies, in particular, how fast is it possible for any control scheme to converge to the optimal and what is the corresponding utility-delay tradeoff? 2) Control with partially observable states: We study the practical scenario where one has uncertainty in the cost function of an action. We plan to not only develop efficient algorithms, but also conduct utility-delay tradeoff analysis and regret analysis for the proposed schemes. 3) Performance Evaluation: We evaluate the performance of the proposed algorithms under various settings and through trace-driven evaluations to compare their pros and cons. &lt;br/&gt;&lt;br/&gt;Because the generality and importance of such stochastic system optimization problems, the proposed approaches have the potential to be applied in different areas, such as display-advertisement allocation, wireless network control, and Smart Grids. We leverage on-going collaborations with industry to disseminate the research results in real applications. We continue the effort in recruiting and training undergraduate researchers and under-represented groups through this project.</AbstractNarration>
+    <MinAmdLetterDate>07/22/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423542</AwardID>
+    <Investigator>
+      <FirstName>Xin</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>liu@cs.ucdavis.edu</EmailAddress>
+      <StartDate>07/22/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7935</Code>
+      <Text>COMM &amp; INFORMATION THEORY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

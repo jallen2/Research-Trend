@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Medium: Collaborative Research: Securing Concurrency in Modern Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>399991</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5). &lt;br/&gt;&lt;br/&gt;Concurrency-related vulnerabilities are pervasive in modern computing &lt;br/&gt;systems. Concurrency exploits include time-of-check-to-time-of-use &lt;br/&gt;(TOCTTOU) race conditions in file systems, attacks on signal handlers, &lt;br/&gt;and evasive malware that uses concurrency to escape sandboxing &lt;br/&gt;mechanisms. As processors feature ever more parallelism, and &lt;br/&gt;computers process more of our sensitive data, defending against &lt;br/&gt;concurrency attacks is a key challenge for the coming decade. &lt;br/&gt;&lt;br/&gt;The first goal is to protect legitimate applications from concurrency &lt;br/&gt;attacks when they access system resources (e.g., prevent TOCTTOU &lt;br/&gt;attacks on file accesses and exploitable race conditions in signal &lt;br/&gt;handlers). The objective is to provide application programmers with &lt;br/&gt;mechanisms and policies for synchronizing access to system resources &lt;br/&gt;so they can avoid unintentional vulnerabilities. &lt;br/&gt;&lt;br/&gt;The second goal is to provide strong confinement of untrusted code in &lt;br/&gt;the presence of concurrency, i.e., blocking intentionally malicious &lt;br/&gt;behavior. Today's malware abuses concurrency mechanisms to bypass and &lt;br/&gt;circumvent containment mechanisms like reference monitors and system &lt;br/&gt;call wrappers. Providing robust system support for containing &lt;br/&gt;malicious code is a critical challenge in intrusion detection and &lt;br/&gt;prevention. &lt;br/&gt;&lt;br/&gt;Modern computing systems fundamentally depend on concurrency for their &lt;br/&gt;performance and functionality. Making sure that concurrency is used &lt;br/&gt;securely is essential for building a trusted cyber infrastructure. &lt;br/&gt;This research will have a significant impact on the practical &lt;br/&gt;development of secure software, and enable security-critical &lt;br/&gt;applications to realize the performance benefits of today's highly &lt;br/&gt;parallel systems.</AbstractNarration>
+    <MinAmdLetterDate>07/20/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/09/2012</MaxAmdLetterDate>
+    <ARRAAmount>399991</ARRAAmount>
+    <AwardID>0905177</AwardID>
+    <Investigator>
+      <FirstName>Jedidiah</FirstName>
+      <LastName>Crandall</LastName>
+      <EmailAddress>crandall@cs.unm.edu</EmailAddress>
+      <StartDate>07/20/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of New Mexico</Name>
+      <CityName>Albuquerque</CityName>
+      <ZipCode>871310001</ZipCode>
+      <PhoneNumber>5052774186</PhoneNumber>
+      <StreetAddress>1700 Lomas Blvd. NE, Suite 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Mexico</StateName>
+      <StateCode>NM</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

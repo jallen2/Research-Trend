@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CDI-Type II: Collaborative Research - Simulation of ultrasonic-wave propagation with application to cancer therapy.</AwardTitle>
+    <AwardEffectiveDate>10/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2013</AwardExpirationDate>
+    <AwardAmount>480001</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Pedro Embid</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The project develops and implements recent "Fourier continuation alternating direction" (FC-AD) high-performance algorithms for nonlinear Partial Differential Equations (PDE), validates such solvers via comparisons with experiments and well-known approximations, and applies the resulting methodology to realistic medical configurations. A significant portion of the effort will design strategies to expand significantly the applicability of High-Intensity-Focused-Ultrasound (HIFU) (an emerging minimally invasive therapy that uses focused ultrasound beams to cause localized destruction of cancer tissue), and to enable design of optimal HIFU therapies for liver, kidney, and pancreatic cancers. In HIFU, an ultrasound source acoustically contacts the patient's skin to produce a high-amplitude ultrasonic field within the body that focuses on (and heats) a target region---thus leading to tumor destruction. The ultrasound propagates within a medium that is highly heterogeneous---most strongly so due to bone---thus affecting heating, which arises, for example, through perfusion by large blood vessels. Optimal HIFU requires a treatment-planning computational tool, which ensures treatment of the targeted zone and minimal impact on the surrounding tissue. Because previous 3D PDE solvers are more expensive, solution of such complex HIFU problems has not been possible. Using alternating directions and a rapidly convergent Fourier series for non-periodic functions, the proposed FC-AD method has provided for the first time high-order unconditionally stable numerics for general 3D domains at a cost that grows only linearly with the size of the spatial discretization; preliminary tests have demonstrated the capability of the FC-AD method to address satisfactorily the types of nonlinear acoustic problems under consideration. This approach will make possible the study of the effect of heterogeneity on field focusing, heat deposition, and ablation properties - enabling highly optimized HIFU treatment. The associated geometric/computational demands provide a powerful driving force for additional developments of our solvers, geometry modeling tools, etc. The proposed multi-disciplinary interactions will further significantly the state of the art in all three fields: computational science, nonlinear wave physics, and cancer therapy.&lt;br/&gt;&lt;br/&gt;Broader Significance of the Project: Already a well-established technique for medical imaging, ultrasound is seeing widening use in diagnostic and therapeutic applications ranging from tumor detection, to kidney stone destruction, to targeted drug delivery. Both the accuracy of ultrasound images, and the precision and reliability with which ultrasound can deliver energy or modify the structure of tissue, depend critically on the type of software that will result from this effort, providing a capability to predict the propagation properties of ultrasonic fields in biological media. The resulting methodology will be applicable across the broad spectrum of biomedical ultrasonics - enabling rapid instrument prototyping, treatment planning, and ultrasound safety assessment. Although the work plan is focused on the modeling of HIFU-based cancer treatment, the potential for effecting key advances in multiple therapeutic and diagnostic applications is very significant.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/18/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0835812</AwardID>
+    <Investigator>
+      <FirstName>Oscar</FirstName>
+      <LastName>Bruno</LastName>
+      <EmailAddress>obruno@caltech.edu</EmailAddress>
+      <StartDate>09/18/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>California Institute of Technology</Name>
+      <CityName>PASADENA</CityName>
+      <ZipCode>911250600</ZipCode>
+      <PhoneNumber>6263956219</PhoneNumber>
+      <StreetAddress>1200 E California Blvd</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7751</Code>
+      <Text>CDI TYPE II</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7721</Code>
+      <Text>FROM DATA TO KNOWLEDGE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7722</Code>
+      <Text>COMPLEXITY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7752</Code>
+      <Text>CDI NON SOLICITED RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Non-invasive detection of malicious javascript at web browsers</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2011</AwardExpirationDate>
+    <AwardAmount>69873</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most websites use javascript to provide personalized content to the users. At the same time, more and more attackers are using the web to deliver their attacks, especially with malicious javascript. Malicious javascript detection needs to be fast enough so that it does not interfere with users' normal activities (non-invasive), and yet effective enough to protect them from the majority of attacks. Rule-based or signature-based detection mechanisms often fail to detect obfuscated and malicious javascript. Behavior-based detection mechanisms are more robust against obfuscation, and have been effective in identifying variants of known attacks. However, monitoring behavior during execution usually is rather invasive, as it requires too much time and resources to be used in web browsers while users are interacting with websites. &lt;br/&gt;&lt;br/&gt;This project investigates non-invasive detection of malicious javascript using classifiers (data mining techniques) trained on malicious scripts, including obfuscated scripts. Preliminary results show that it is possible to detect the vast majority of malicious scripts without full-blown de-obfuscation, while labeling very few benign scripts as malicious. As the detection mechanism correctly identifies most benign scripts, resource-intensive detection mechanisms can use this method to filter most benign scripts and focus on the remainder only. &lt;br/&gt;&lt;br/&gt;Key elements of the envisioned solutions are: (a) automatic collection of malicious javascript; (b) partial de-obfuscator that will extract features for classifiers; (c) classifiers that assess the maliciousness of scripts; (d) redirection graphs that chronicle the connections between websites hosting known malicious scripts; (e) feedback mechanism to assist javascript collection and classifier re-training.</AbstractNarration>
+    <MinAmdLetterDate>07/20/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/20/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016918</AwardID>
+    <Investigator>
+      <FirstName>Eunjin</FirstName>
+      <LastName>Jung</LastName>
+      <EmailAddress>ejung2@usfca.edu</EmailAddress>
+      <StartDate>07/20/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Iowa</Name>
+      <CityName>IOWA CITY</CityName>
+      <ZipCode>522421320</ZipCode>
+      <PhoneNumber>3193352123</PhoneNumber>
+      <StreetAddress>2 GILMORE HALL</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Domain Decomposition Methods: Algorithms and Theory</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>180000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The development of iterative methods for large algebraic systems is central in the development of efficient codes for computational fluid dynamics, elasticity, and electromagnetics. Many other tasks in such codes parallelize relatively easily. Progress on algebraic system solvers therefore remain very important now that parallel and distributed computing systems, with a substantial number of fast processors, each with a relatively large memory, are becoming widely available. A very desirable feature of domain decomposition algorithms is that they respect the memory hierarchy of modern parallel and distributed computing systems, which is essential for approaching peak floating point performance. This is important since the cost of communication often can dominate for large computer systems. The domain decomposition methods are also relatively easy to implement and they have an increasingly solid theoretical basis, which shows that the rate of convergence can be made independent of the number of subdomains and only deteriorates very slowly with the dimension of the subproblems allocated to individual processors. This research is supported by high quality software systems in particular by Argonne's PETSc library and by collaborators, who are highly accomplished developers of parallel code. Work will continue on developing several families of domain decomposition methods for increasingly complicated systems of partial differential equations. Domain decomposition algorithms are iterative methods, often of preconditioned conjugate gradient type, for the parallel solution of the large linear, or nonlinear, systems of algebraic equations that arise when partial differential equations are discretized. Much of the work is focused on finite element methods which makes it possible to build on the well developed theory and practice of that field. In each iteration step, local problems representing the restriction of the original problem to a potentially large number of subregions are solved exactly or approximately. The subregions, often allocated to individual processors of a parallel computer, form a decomposition of the entire domain of the problem. In addition, the inclusion of a coarse component often substantially increases the efficiency of the preconditioner and can dramatically reduce the CPU time. Each class of applications, e.g., elasticity, incompressible fluid flow, and electromagnetics, requires a special consideration and, in particular, the design of an appropriate coarse solver, for the problem at hand, is crucially important. Of important applications, the main focus of this project is now on problems of electromagnetics. Work on almost incompressible elasticity and stationary, incompressible Navier-Stokes will also continue. &lt;br/&gt;&lt;br/&gt;This project will combine mathematical analysis with the design and numerical testing of algorithms. New powerful tools for the analysis of these iterative methods are now becoming available, which makes it possible to predict the rate of convergence in terms of geometric properties of the subdomains that are easy to understand even for quite irregular subdomains such as those that result from using standard mesh partitioners. This work will have an impact on graduate education in scientific computing, outside the narrow research community, by providing new knowledge disseminated through conference and invited talks, tutorials, journal articles, etc. Furthermore, with a focus on widely used methods and through direct contact with computational engineering scientists at the US national laboratories and in academia, the new and improved algorithms will have an impact on the development of important software libraries of these laboratories.</AbstractNarration>
+    <MinAmdLetterDate>07/18/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/18/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1216564</AwardID>
+    <Investigator>
+      <FirstName>Olof</FirstName>
+      <LastName>Widlund</LastName>
+      <EmailAddress>widlund@cs.nyu.edu</EmailAddress>
+      <StartDate>07/18/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

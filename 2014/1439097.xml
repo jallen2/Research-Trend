@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: CCA: Collaborative Research: SPARTA: a Stream-based Processor And Run-Time Architecture</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>271000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computer systems have undergone a fundamental transformation recently, from single&amp;#8208;core processors to devices with increasingly higher core counts within a single chip. The semi&amp;#8208;conductor industry now faces the infamous power and utilization walls, that is, physical constraints such as levels of power and energy consumption, but also reliability of the various components, must be taken into account not only during the chip fabrication process, but also when generating machine code and during program execution. To meet these challenges, heterogeneity in design, both at the architecture and technology levels, will be the prevailing approach for energy efficient computing as specialized cores, accelerators, and graphical processing units (GPUs) can eliminate the energy overheads of general&amp;#8208;purpose homogeneous cores. However, with future technological challenges pointing in the direction of on&amp;#8208;chip heterogeneity, and because of the traditional difficulty of parallel programming, it becomes imperative to produce new system software stacks that can take advantage of the heterogeneous hardware. &lt;br/&gt;&lt;br/&gt;This project proposes to rethink the whole hardware&amp;#8208;software interface, by researching novel ways to design many&amp;#8208;core chip architectures and weaving heterogeneous components together and binding them by a fast and energy efficient on&amp;#8208;chip interconnection network. On top of it will lay a system software layer to efficiently drive applications and map them onto the best suited components of the chip. Both the hardware and software layer are encompassed by a novel execution model, which describes how to orchestrate the various parts of a program in the most efficient way (be it with respect to power and energy, performance, or reliability). To achieve these goals, the development of a new model of computation called SPARTA (Stream-based Processor And RunTime Architecture) is proposed. The proposed model combines a new runtime and compiler technology with a hierarchical heterogeneous many&amp;#8208;core chip and features hardware mechanisms for stream&amp;#8208;based fine&amp;#8208;grain program execution models to be reflected in different new software/hardware systems. Many issues are be envisioned, including programmability, scalability, performance evaluation, and power efficiency. Specifically, the goal is to identify the major challenges and obstacles toward an efficient exploitation of parallelism and scalability. To do so, traditional approaches will be re-evaluated by studying a collection of representative programs. A vertical design methodology is then proposed to effectively address the above challenges through the SPARTA approach and its implementation. In particular, the proposed cross-layer methodology consists of (a) a programming/execution model that will combine the Codelet model (leveraging our past research in dataflow models and extensions) with generalized streams: the Streaming Codelets, (b) an architecture model that will efficiently support the Streaming Codelets in heterogeneous hardware, and (c) a system software Stack that will be capable of effectively mapping Streaming Codelets to the proposed architecture. Finally, a qualitative and quantitative study of SPARTA will be performed via selected benchmarks and a consolidated methodology based on experimentation and analysis. The holistic cross-layer design methodology spanning the hardware/software stack and the reliability techniques developed from this research will significantly impact next generation multi&amp;#8208;core and System&amp;#8208;on&amp;#8208;Chip (SoC) architectures with improvements in energy efficiency, programmability, performance and robustness.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1439097</AwardID>
+    <Investigator>
+      <FirstName>Guang</FirstName>
+      <LastName>Gao</LastName>
+      <EmailAddress>ggao@eecis.udel.edu</EmailAddress>
+      <StartDate>07/24/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Delaware</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>197162553</ZipCode>
+      <PhoneNumber>3028312136</PhoneNumber>
+      <StreetAddress>210 Hullihen Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Delaware</StateName>
+      <StateCode>DE</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

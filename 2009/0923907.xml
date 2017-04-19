@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-AES: Parallelizing Irregular Applications for Multicore Processors</AwardTitle>
+    <AwardEffectiveDate>01/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>666938</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>NSF Award Abstract&lt;br/&gt;&lt;br/&gt;There is a fundamental change ongoing in the computer industry. Instead of increasing clock frequency, which increases power dissipation, CPU chip manufacturers are using advances in semiconductor technology to increase the number of cores on a processor chip. This shifts the burden of improving program performance from chip manufacturers to software developers. Many industry experts believe that programming multicore processors is now the most important challenge facing the software industry.&lt;br/&gt;&lt;br/&gt;Compiler technology for parallel architectures is not effective for irregular applications that use linked data structures such as trees and graphs. These data structures are ubiquitous in important application areas like graphics, mesh generation and linear system solvers.&lt;br/&gt;&lt;br/&gt;This project develops a new approach for parallelizing and optimizing irregular programs for multicore processors. The key insight is that optimistic parallelization is essential for irregular programs. Transactional memory is an attractive way to implement optimistic parallelization; this project will design, implement and evaluate new transactional models that exploit properties of high-level program abstractions rather than simply tracking low-level reads and writes.&lt;br/&gt;&lt;br/&gt;Results will be disseminated through publications and by making the software transactional memory system available for downloading. Technology transfer to leading companies is another avenue for disseminating results.</AbstractNarration>
+    <MinAmdLetterDate>03/13/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/13/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0923907</AwardID>
+    <Investigator>
+      <FirstName>Keshav</FirstName>
+      <LastName>Pingali</LastName>
+      <EmailAddress>pingali@cs.utexas.edu</EmailAddress>
+      <StartDate>03/13/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

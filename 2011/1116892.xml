@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Frameworks for Design and Analysis of Heuristics</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>358000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>At the core of many of the tasks we need computers to solve lie a collection of important, though difficult, optimization problems. These problems can be hard to solve optimally, and as a result they have typically been attacked through two distinct approaches. The first is to construct algorithms with provable worst-case approximation guarantees. This approach has the advantage of provable guarantees but the disadvantage that these guarantees can be fairly poor. The second approach is to develop natural heuristics and to test them on benchmark problems. This approach has the advantage of producing techniques that can work well in practical settings similar to the benchmarks, but the disadvantage that the conditions needed for good performance are often not well understood. This project aims to bridge the gap between these approaches: to develop new theoretical foundations for the analysis of non-worst-case guarantees, as well as new tools for the design of formally-justified heuristics.&lt;br/&gt;&lt;br/&gt;Specifically, this project will pursue four main directions. The first is the analysis of implicit assumptions in problem formulations. Often the objective function used in an optimization problem is a proxy for a goal that cannot be directly measured by the algorithm, and thus the instance already needs to have the property that these two are related. This relation is often not explicitly stated and yet can potentially provide usable structure an algorithm can use. The second is analysis of natural conditions on inputs due to how they are constructed. For example, if certain parts of the instance given to the algorithm are the result of noisy measurements, then the algorithm can be flexible to their exact values. The third is development of fast methods to test the "niceness" of an instance, which can then be used in the selection of an appropriate algorithm for that instance. Finally, the last direction is the development of algorithms that provide a smooth transition between their performance on stable and unstable instances with applications to privacy-preserving data analysis.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/14/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116892</AwardID>
+    <Investigator>
+      <FirstName>Avrim</FirstName>
+      <LastName>Blum</LastName>
+      <EmailAddress>avrim.blum@cs.cmu.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

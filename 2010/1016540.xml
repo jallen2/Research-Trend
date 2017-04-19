@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Energy-Efficient Scheduling and Load Balancing</AwardTitle>
+    <AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>228041</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern computer systems consume substantial amounts of energy, and energy costs for large computing facilities can reach into the billions of dollars. At the same time, battery power is a limiting factor for cellular phones and other small mobile devices. This proposal aims to design and implement scheduling and load-balancing algorithms which better optimize for energy-efficiency without sacrificing quality of service. Since these algorithms can be implemented in software (without the design or construction of new devices), they are a promising direction to deal with the growing demand for energy to power computation.&lt;br/&gt;&lt;br/&gt;Scheduling and load-balancing are naturally online problems, where tasks arrive during the run of the algorithm and are not known in advance. The intellectual merit of this proposal includes improving our techniques for producing provably competitive results in such online problems, as well as exploring new hybrid models in cases where the tasks are partially predictable. The proposal aims to produce algorithms under very general relationships between energy and task completion rate (prior work has generally assumed a quadratic relationship, which is not realistic) and to permit more general representations of quality of service. Algorithmic techniques for these problems include linear program rounding, online primal-dual, and flow-based analysis for variants of online weighted matching.&lt;br/&gt;&lt;br/&gt;The broader impact of this proposal involves the implementation and testing of algorithms, potentially leading to substantial savings in energy. The implementations also require dealing with a number of practical problems, such as collecting data about tasks on arrival (algorithms typically assume that information like priorities and workloads are known) and designing effective user interfaces. These will lead to a number of excellent undergraduate projects in which students can be exposed to advanced theoretical techniques in algorithm design while also producing energy-conserving software for real devices.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/16/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016540</AwardID>
+    <Investigator>
+      <FirstName>Adam</FirstName>
+      <LastName>Meyerson</LastName>
+      <EmailAddress>awm@cs.ucla.edu</EmailAddress>
+      <StartDate>08/08/2010</StartDate>
+      <EndDate>11/16/2011</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Rafail</FirstName>
+      <LastName>Ostrovsky</LastName>
+      <EmailAddress>rafail@cs.ucla.edu</EmailAddress>
+      <StartDate>11/16/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Multiscale Simulations of Heterogeneous Particulate Flows</AwardTitle>
+    <AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>297586</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The proposed research is on development and simulation of a multiscale &lt;br/&gt;model for heterogeneous particulate flows, in which the motion of a very &lt;br/&gt;large number of small solid particles is coupled with a Newtonian &lt;br/&gt;incompressible fluid. The problem derives from particle transport, &lt;br/&gt;sedimentation, fluidization and separation processes that are common in &lt;br/&gt;many applications. Currently, there are two major approaches to simulate &lt;br/&gt;such flows: one of them is based on averaged equations, the other one - on &lt;br/&gt;direct numerical simulations. The first approach requires homogeneity in &lt;br/&gt;the flow which is often violated in applications, while the second one is &lt;br/&gt;currently limited to a relatively small number (compared to applications) &lt;br/&gt;of particles. However, practical applications involve millions and &lt;br/&gt;billions of particles whose small size leads the problem of interest to &lt;br/&gt;span two length scales: fine scale - the scale of particles, and coarse &lt;br/&gt;scale - the scale of the application. In developing the proposed approach &lt;br/&gt;the variational multiscale framework is employed, in which the problem is &lt;br/&gt;split into two problems corresponding to the coarse and fine scales. It is &lt;br/&gt;assumed that in each coarse grid the particle distribution can be of three &lt;br/&gt;different regimes depending on their concentrations: dilute, moderate and &lt;br/&gt;dense. The main goal of the proposed study is to design a multiscale &lt;br/&gt;method that can handle heterogeneous flows in all three regimes in a &lt;br/&gt;unified way. The key idea of the proposed approach is, after separating &lt;br/&gt;the two scales, to use properly chosen subgrid models adaptively to &lt;br/&gt;represent micro-scale flow and particle dynamics on a coarse grid. In the &lt;br/&gt;dilute limit, a modified viscosity is used to represent averaged effects. &lt;br/&gt;In the dense limit, the discrete network approximation method to &lt;br/&gt;approximate the subgrid effects is utilized. Network models allow avoiding &lt;br/&gt;detailed fine-scale simulations in the dense regimes and provide &lt;br/&gt;substantial CPU savings. In the intermediate regime, fine-scale features &lt;br/&gt;within a target coarse-grid block are resolved. The issues to be focused &lt;br/&gt;on are (1) coarse coupling, (2) boundary conditions for local problems, &lt;br/&gt;(3) approximation of subgrid effects, (4) effective solution strategies.&lt;br/&gt;&lt;br/&gt;The proposed project provides tools to simulate heterogeneous particulate flows of small rigid particles in an incompressible fluid which have been &lt;br/&gt;of great interest for the last decade and are commonly encountered in many &lt;br/&gt;applications and fundamental fluid mechanics. The complexity of this &lt;br/&gt;problem due to the presence of two different length scales is enormous and &lt;br/&gt;only very recently the development of numerical techniques for direct &lt;br/&gt;numerical simulations and computing power allowed for some attempts to &lt;br/&gt;numerically resolving flows containing a relatively large number of &lt;br/&gt;particles. However, existing direct numerical simulations methods have &lt;br/&gt;been developed for flows where the maximal number of particles to be &lt;br/&gt;handled does not exceed a couple dozens of thousands while for practical &lt;br/&gt;applications much larger amount is of primary importance. This dictates a &lt;br/&gt;need in developing a state-of-the-art predictive multiscale model for &lt;br/&gt;heterogeneous particulate flows which allows one to obtain a detailed and &lt;br/&gt;accurate representation of the flow, and which is the main focus of the &lt;br/&gt;proposed research.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/03/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016531</AwardID>
+    <Investigator>
+      <FirstName>Yuliya</FirstName>
+      <LastName>Gorb</LastName>
+      <EmailAddress>gorb@math.uh.edu</EmailAddress>
+      <StartDate>08/05/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Houston</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>772042015</ZipCode>
+      <PhoneNumber>7137435773</PhoneNumber>
+      <StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

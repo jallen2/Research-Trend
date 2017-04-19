@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SBIR Phase I: A Cloud Client Service for Next Generation of Mobile Computing, Leveraging Low Latency Video Encoder Algorithms</AwardTitle>
+    <AwardEffectiveDate>01/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2015</AwardExpirationDate>
+    <AwardAmount>150000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07070000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Steven Konsek</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The broader impact/commercial potential of this Small Business Innovation Research (SBIR) Phase I project will be to enable various low latency video applications that are not possible today. One of the most interesting is in the area of cloud computing, in which a server in a data center somewhere on the Internet runs a client's application remotely, and delivers the frame-by-frame video to the client's viewer. This allows for a very cheap client device, consisting of just a video decoder and an input such as a mouse pad, while graphic or compute intensive tasks run on powerful servers in the cloud that can be leased to the client on an as-needed basis. This server-client model could also be used internally at a company or school, greatly simplifying IT requirements. And for high security applications there is also an advantage, as all data is stored remotely. There is nothing local on the user's device to be compromised. Cloud computing services such as these are already coming on line, but the range of applications they can run is limited by the lack of good low latency video encoding. Solving this problem opens up a whole new paradigm of how people purchase, maintain and use personal computers and software.&lt;br/&gt;&lt;br/&gt;This Small Business Innovation Research (SBIR) Phase I project investigates techniques for real-time ultra low latency video compression. The goal of the research is to enable the encoding and transmission of video over a communications medium such as the Internet, cell phone network, satellite network, etc. such that the video may be viewed at the receiving end with no more than 1 frame of latency from when it was encoded at the source. The best and newest industry-standard video compression specification, called H.265, will be used as a framework such that the resulting compressed video can be readily decoded by widely available software or hardware. Framework tools and techniques to monitor and adjust the bit rate of the compressed video will be developed and tested to achieve the low latency goals while maintaining high visual quality of the compressed video. The result of this research will be a set of algorithms that can be used in the design of an H.265 video encoder that will achieve the low latency goal, as well as a characterization of the limitations of these algorithms such that their applicability to various real-world opportunities can be assessed.</AbstractNarration>
+    <MinAmdLetterDate>12/05/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/05/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1448012</AwardID>
+    <Investigator>
+      <FirstName>Adam</FirstName>
+      <LastName>Malamy</LastName>
+      <EmailAddress>Adam.Malamy@NGCodec.com</EmailAddress>
+      <StartDate>12/05/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>NGCodec Inc.</Name>
+      <CityName>San Jose</CityName>
+      <ZipCode>951262620</ZipCode>
+      <PhoneNumber>4086603189</PhoneNumber>
+      <StreetAddress>1145 Mariposa Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>5371</Code>
+      <Text>SMALL BUSINESS PHASE I</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>5371</Code>
+      <Text>SMALL BUSINESS PHASE I</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8028</Code>
+      <Text>Sensor Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8034</Code>
+      <Text>Hardware Components</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

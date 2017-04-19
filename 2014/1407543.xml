@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative research: Statistical and computational efficiency for massive data sets via approximation-regularization</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>79996</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project integrates approximation methodology from computer science with modern statistical theory to improve analysis of large data sets. Modern statistical analysis requires methods that are computationally feasible on large datasets while at the same time preserving statistical efficiency. Frequently, these two concerns are seen as contradictory: approximation methods that enable computation are assumed to degrade statistical performance relative to exact methods. The statistical perspective is that the exact solution is undesirable, and a regularized solution is preferred. Regularization can be thought of as formalizing a trade-off between fidelity to the data and adherence to prior knowledge about the data-generating process such as smoothness or sparsity. The resulting estimator tends to be more useful, interpretable, and suitable as an input to other methods. Conversely, in computer science applications, where much of the current work on approximation methods resides, the inputs are generally considered to be observed exactly. The prevailing philosophy is that while the exact problem is, regrettably, unsolvable, any approximate solution should be as close as possible to the exact one. We make a crucial realization: that the approximation methods themselves naturally lead to regularization, suggesting the intriguing possibility that some computational approximations can simultaneously enable the analysis of massive data while enhancing statistical performance. &lt;br/&gt;&lt;br/&gt;Our research develops new methods that leverage this phenomenon, which we have dubbed 'approximation-regularization.' The first method uses a matrix pre-conditioner to stabilize the least-squares criterion. If properly calibrated, this approach provides computational and storage advantages over regularized least squares while providing a statistically superior solution. A second innovation addresses principal components analysis (PCA) for regression on large data sets where PCA is both computationally infeasible and known to be statistically inconsistent. By employing randomized approximations, we can address both of these issues, while improving predictions at the same time. Lastly, we introduce new methods for unsupervised dimension reduction, whereby approximation algorithms that leverage sparsity, and statistical methods that induce it, enable the use of spectral techniques on very large matrices. In each of these cases, approximation-regularization yields both computational and statistical gains relative to existing methodologies. This research recognizes that approximation is regularization and can thereby increase statistical accuracy while enabling computation. It will result in new statistical methods for large datasets, which are computationally and statistically preferable to existing approaches, while also bringing attention to this important area in statistics. Additionally, these methods will permit scientists in other fields, such as astronomy, genetics, text and image processing, climate science, and forecasting, to make ready use of available data.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/20/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1407543</AwardID>
+    <Investigator>
+      <FirstName>Darren</FirstName>
+      <LastName>Homrighausen</LastName>
+      <EmailAddress>darrenho@stat.colostate.edu</EmailAddress>
+      <StartDate>08/20/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Colorado State University</Name>
+      <CityName>Fort Collins</CityName>
+      <ZipCode>805232002</ZipCode>
+      <PhoneNumber>9704916355</PhoneNumber>
+      <StreetAddress>601 S Howes St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

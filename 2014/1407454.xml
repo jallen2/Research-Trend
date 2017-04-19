@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Medium: Collaborative Research: An App-Centric Transport Architecture for the Internet</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>284800</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Brassil</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Transmission Control Protocol and its socket interface are used by most network applications today---viewed as a software program, it is likely the most popular one in the world. Over thirty years old, this program is now showing signs of age. Web, mobile, and embedded applications use it in unanticipated ways (many interacting flows of different lengths with different objectives); it does not properly support mobile devices with multiple networks; it does not allow an application to adapt quickly to changing network conditions; it does not work well in fast datacenter networks; and it has a fruitless, adversarial relationship with in-network "middleboxes".&lt;br/&gt;&lt;br/&gt;App-Centric Transport (ACT) aims to solve these problems. Unlike today's transport architecture, ACT takes application objectives into account in making its transmission decisions. ACT uses a computer-generated transmission control program, which takes models of the workload and objectives to automatically synthesize protocols. This program (Remy) serves both as a way to implement protocols and as a design tool to answer fundamental questions about congestion control. ACT explores centralized control over transmission and path selection for datacenters, and uses machine learning classifiers to select the best network on mobile devices. It aims to resolve tussles between endpoint transport and in-network middleboxes by viewing middlebox interposition as a generalization of multi-path transport. Project participants are collaborating with Facebook and Google on some of these ideas. The education plan introduces protocol design contests where students can run and measure their protocols over trace data and compare their protocols on a leaderboard.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/09/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1407454</AwardID>
+    <Investigator>
+      <FirstName>Bryan</FirstName>
+      <LastName>Ford</LastName>
+      <EmailAddress>bryan.ford@yale.edu</EmailAddress>
+      <StartDate>08/21/2014</StartDate>
+      <EndDate>11/18/2014</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Joan</FirstName>
+      <LastName>Feigenbaum</LastName>
+      <EmailAddress>joan.feigenbaum@yale.edu</EmailAddress>
+      <StartDate>11/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Yale University</Name>
+      <CityName>New Haven</CityName>
+      <ZipCode>065208327</ZipCode>
+      <PhoneNumber>2037854689</PhoneNumber>
+      <StreetAddress>Office of Sponsored Projects</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

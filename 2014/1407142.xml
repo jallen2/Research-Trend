@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Emerging Issues in Modeling Longitudinal Observations with Censoring</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Longitudinal studies--commonly referred to as cohort studies in epidemiology or panel studies in sociology--are of fundamental importance in understanding time related issues within the same group of subjects. In longitudinal studies, the collection of information can be stopped at the end of the study, or at the time of dropout of a study participant, or at the time of the occurrence of a terminal event. Death, the most common terminal event, often occurs in aging cohort studies and fatal disease follow-up studies, e.g., organ failure or cancer studies. If not handled appropriately, the occurrence of terminal event can cause serious bias in statistical inference, leading to incorrect conclusions. The current literature has primarily focused on modeling the longitudinally measured variables given that the terminal event has not happened yet, hence the observed repeated measures "terminated" by a terminal event are implicitly treated as incomplete data. Such a modeling strategy, however, is inappropriate for many studies when some effect of interest is directly related to the terminal event time, such as the medical cost data. In this project, a conditional modeling strategy will be implemented, which treats repeated measures up to a terminal event as complete data and directly models the effect of terminal event time on a response variable. A related problem is some predictor variable subject to limit of detection in regression analysis, which occurs frequently in studies involving assay measures, where measures of certain substance (e.g., hormone, air pollutant, or water contaminant) become unreliable when their concentrations are below certain level due to technology limitation. The current literature has focused on primarily ad hoc imputation or unverifiable model assumptions for the predictor variable subject to limit of detection, but these methods generally yield biased results. This project will tackle this issue using robust statistical methods, which follow similarly the conditional modeling strategy for terminal events, and yield more reliable results than existing approaches.&lt;br/&gt;&lt;br/&gt;The project investigates modeling strategies that model the effect of terminal event time directly by treating it as a covariate in longitudinal studies. In such statistical models, the usual relationship of interest between the longitudinally measured response variable and covariates is kept when data collecting time is far from the terminal event time, and the relationship becomes increasingly related to the terminal event time when data collecting time is close to the terminal event. Such models provide much more intuitive and sensible interpretations, and can be applied to recurrent events data with the presence of a terminal event. Both parametric and semiparametric models will be considered. Estimating methods for parameters in the proposed models will be investigated. The asymptotic theory for the case that the terminal event time is subject to right censoring will be a major focus. A closely related set of longitudinal regression problems with censored covariates considered in this project is about the issue of detection limit for covariates. The validity of any estimating approach relies on how reliably one can model and estimate the tail distribution of the covariate subject to limit of detection. Due to the feature of this type of data, parametric models are not verifiable and nonparametric models are not able to gain any useful information about the missing tail distribution. The project investigates semiparametric models, which are able to gain useful information from observed data and are insensitive to model misspecification of the missing tail probabilities.</AbstractNarration>
+    <MinAmdLetterDate>07/11/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/01/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1407142</AwardID>
+    <Investigator>
+      <FirstName>Bin</FirstName>
+      <LastName>Nan</LastName>
+      <EmailAddress>bnan@umich.edu</EmailAddress>
+      <StartDate>07/11/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III:Small:Transactional Data Stores in the Cloud</AwardTitle>
+    <AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>515336</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Cloud computing has emerged as a powerful paradigm for hosting Internet scale applications in large computing infrastructures due to their desirable features of unlimited resources and infinite scalability, pay-per-use model requiring no up-front investment, elasticity of resources, and fault-tolerance. Since one of the primary goals of the cloud is to host data-intensive applications, large-scale data management is a crucial component. Traditional relational databases have been extremely successful but lack scalability, elasticity, fault-tolerance, and self-management features that are required in cloud settings. This has led to the emergence of a new storage model referred to as the key-value store model. Although key-value stores have the desired features, they provide minimal consistency and reduced functionality due to their single-key access guarantees thus placing unprecedented burden on application developers. This project explores two alternative scalable data stores designs in the cloud -- ElasTraS: an elastic transactional data store targeted towards enterprise applications requiring a relational storage model; and G-Store: a transactional multi-key value store targeted for applications which favor the data model of key-value stores, but require consistent and scalable access beyond single keys. This project brings forth many novel research solutions for designing and implementing scalable data management systems, and acts as a building block for developing commodity solutions dealing with the growing scale of the Internet. The project enables both graduate and undergraduate students to be trained in the design and development of software and solutions for large-scale distributed systems. The project URL is available at: http://www.cs.ucsb.edu/~dsl/?q=cloud-transactions.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/19/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018637</AwardID>
+    <Investigator>
+      <FirstName>Amr</FirstName>
+      <LastName>El Abbadi</LastName>
+      <EmailAddress>amr@cs.ucsb.edu</EmailAddress>
+      <StartDate>08/01/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Divyakant</FirstName>
+      <LastName>Agrawal</LastName>
+      <EmailAddress>agrawal@cs.ucsb.edu</EmailAddress>
+      <StartDate>08/01/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Barbara</Name>
+      <CityName>Santa Barbara</CityName>
+      <ZipCode>931062050</ZipCode>
+      <PhoneNumber>8058934188</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

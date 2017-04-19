@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Risk Aware Query Processing in Mixed Security Database Environments</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2015</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>During database query processing, data migrates across different system components each of which may offer different levels of security guarantees and may be susceptible to different attacks. If the underlying data (or part of it) is sensitive, data migration, especially from secure components to those that are relatively insecure could increase risk of data loss. This proposal takes a "risk-based" approach to security wherein instead of designing approaches to prevent attacks, the proposed research controls flow of data during query processing through various components in such a way to strike a balance between risk of exposure and system performance. Risk-aware query processing techniques is explored in two settings: (a) A stand-alone database server where data on disks is stored encrypted (and is hence secure) but is loaded in plaintext into memory during query processing. (b) Cloud computing environment where, during peak load queries (and corresponding data) are shipped from (relatively secure) private storage to be processed at (relatively insecure) public cloud infrastructure, a phenomena known as cloudbursting. In both these settings, techniques to co-optimize query execution to simultaneously minimize both disclosure risks as well as performance costs are explored. The research offers a complementary approach to traditional techniques based on preventing attacks to support practical security in the context of database systems.&lt;br/&gt;&lt;br/&gt;The project seeks to help launch a new direction to database security research that explores techniques to limit risks (instead of only preventing attacks). The research, if successful, will make cloud-based data management solutions more secure increasing the rate of their adoption even for applications that have substantial data confidentiality concerns. Finally, the planned research, system development, and educational activities are expected to significantly enhance the educational experience of students.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1118127</AwardID>
+    <Investigator>
+      <FirstName>Sharad</FirstName>
+      <LastName>Mehrotra</LastName>
+      <EmailAddress>sharad@ics.uci.edu</EmailAddress>
+      <StartDate>08/05/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173213</ZipCode>
+      <PhoneNumber>9498247295</PhoneNumber>
+      <StreetAddress>141 Innovation Drive, Ste 250</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

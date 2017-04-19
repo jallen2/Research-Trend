@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Contract Inference for Polyglot Programming</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>384339</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software engineers use various "programming languages" to write the software that runs on our computers, smart phones, cars, and other devices. Modern software is a complex mix of pieces written in many different languages. But cross-language communication is difficult and error-prone, for humans and machines alike. The PI's research will ease the burden of developers working across multiple programming languages by automatically generating the "glue" that sticks different fragments together, which will let developers work in more modern, safe, high-level languages while still benefiting from the large existing investment in older, unsafe, low-level code. The result will be faster, cheaper development by productive programmers, leading to more trustworthy software to benefit society as a whole.&lt;br/&gt;&lt;br/&gt;Specifically, the PI will use a variety of static program analyses to address three recurring challenges of multi-language software development: disallowed values, resource management, and error reporting. Disallowed values, such as unexpected NULL pointers, are a form of API misuse that can lead to failures or undefined behaviors. By identifying these and trapping them in high-level code before they reach low-level libraries, the PI's research will allow safer execution and improved failure diagnostics. Resource management requires uncovering the subtle, sometimes quirky rules by which low-level libraries track memory, file descriptors, and other resources. Static analyses to recover resource management models will let these be managed automatically by the improved mechanisms (e.g., garbage collectors) available in high-level code. Lastly, error reporting analysis will identify ad hoc error propagation mechanisms (such as returned error codes) used in low-level libraries and map these to the structured high-level mechanisms (such as exceptions) that high-level application developers expect. The net effect of these will be improved library bindings that let high-level programmers do their jobs more efficiently, introducing fewer bugs, creating tomorrow's great software for all of us to rely upon.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318489</AwardID>
+    <Investigator>
+      <FirstName>Benjamin</FirstName>
+      <LastName>Liblit</LastName>
+      <EmailAddress>liblit@cs.wisc.edu</EmailAddress>
+      <StartDate>08/07/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

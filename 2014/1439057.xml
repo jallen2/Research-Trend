@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: DSD: End-to-end Acceleration of Genomic Workflows on Emerging Heterogeneous Supercomputers</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>849984</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Aidong Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The proposed research harnesses parallelism to accelerate the&lt;br/&gt;pervasive bioinformatics workflow of detecting genetic variations.&lt;br/&gt;This workflow determines the genetic variants present in an&lt;br/&gt;individual, given DNA sequencing data. The variant detection workflow&lt;br/&gt;is an integral part of current genomic data analysis, and several&lt;br/&gt;studies have linked genetic variants to diseases. Typical instances&lt;br/&gt;of this workflow currently take several hours to multiple days to&lt;br/&gt;complete with state-of-the-art software, and current algorithms and&lt;br/&gt;software are unable to exploit and benefit from even modest levels of&lt;br/&gt;hardware parallelism. Most prior approaches to parallelization and&lt;br/&gt;performance tuning of genomic data analysis pipelines have targeted&lt;br/&gt;computation, I/O, or network data transfer bottlenecks in isolation,&lt;br/&gt;and consequently, are limited in the overall performance improvement&lt;br/&gt;they can achieve. This project targets end-to-end acceleration&lt;br/&gt;methodologies and uses emerging heterogeneous supercomputers to&lt;br/&gt;reduce workflow time-to-completion.&lt;br/&gt;&lt;br/&gt;The project focuses on holistic methodologies to accelerate multiple&lt;br/&gt;components within the genetic variant detection workflow. It explores&lt;br/&gt;lightweight data reorganizations at multiple granularities to enhance&lt;br/&gt;locality, investigates compute-, communication-, and I/O task&lt;br/&gt;cotuning, locality-aware load-balancing, and coordinated resource&lt;br/&gt;partitioning to exploit high-performance computing platforms. A key&lt;br/&gt;goal of the proposed research is to design domain-specific&lt;br/&gt;optimizations targeting the massive parallelism and scalability&lt;br/&gt;potential of current heterogeneous supercomputers, so that the&lt;br/&gt;developed techniques can be easily transferred and applied to &lt;br/&gt;dedicated academic cluster and commercial computational environments.&lt;br/&gt;Outreach efforts target undergraduate students through recruiting&lt;br/&gt;workshops and attract them to interdisciplinary graduate programs.&lt;br/&gt;Curriculum development activities emphasize cross-layer parallelism.&lt;br/&gt;&lt;br/&gt;For further information, see project web site at &lt;br/&gt;http://sites.psu.edu/XPSGenomics</AbstractNarration>
+    <MinAmdLetterDate>08/20/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/20/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1439057</AwardID>
+    <Investigator>
+      <FirstName>Padma</FirstName>
+      <LastName>Raghavan</LastName>
+      <EmailAddress>padma.raghavan@vanderbilt.edu</EmailAddress>
+      <StartDate>08/20/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mahmut</FirstName>
+      <LastName>Kandemir</LastName>
+      <EmailAddress>kandemir@cse.psu.edu</EmailAddress>
+      <StartDate>08/20/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kamesh</FirstName>
+      <LastName>Madduri</LastName>
+      <EmailAddress>madduri@cse.psu.edu</EmailAddress>
+      <StartDate>08/20/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Paul</FirstName>
+      <LastName>Medvedev</LastName>
+      <EmailAddress>pashadag@cse.psu.edu</EmailAddress>
+      <StartDate>08/20/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

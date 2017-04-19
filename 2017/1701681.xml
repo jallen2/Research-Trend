@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: NeTS: A Coordinate System based Network for Data Plane Scalability and High Throughput</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>128370</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The growing popularity of cloud services and big data processing requires design of high-bandwidth networks that provide scalability for tens of thousands of servers and flexibility for incremental growth of network size. Recent work has been investigating new network architecture and protocols to achieve three important design goals of large data centers, namely, flexibility for incremental growth, scalability for large networks, and high throughput. Unfortunately, existing data center network architectures focus on one or two of the above properties and pay little attention to the others.&lt;br/&gt;&lt;br/&gt;This research entails a systematic study of the architecture and design issues of a novel coordinate-based network. The design innovations include (i) a random and dense interconnect of network switches to achieve flexibility, (ii) a novel greedy routing protocol on virtual coordinates to replace address-based routing and achieve forwarding plane scalability, and (iii) extension of the greedy routing protocol for high-throughput multi-path routing.&lt;br/&gt;&lt;br/&gt;In addition, the design innovations provide network capabilities to support important data center services, such as key-value operations and multicast. Compared to existing work, the coordinate-based network provides new opportunities to achieve these services without exhausting data plane memory.&lt;br/&gt;&lt;br/&gt;The research objectives include the following: (i) design, implementation, and evaluation of the proposed network architecture and protocols; (ii) design and implementation of scalable data center services in the proposed network, including key-value operations and multicast; (iii) design of the update and recovery methods to maintain a consistent network; and (iv) development of a unified simulator for data center network protocols and prototyping the proposed network.&lt;br/&gt;&lt;br/&gt;The results of this research contribute towards enhancing the performance and scalability of current data center networks, the creation of a novel greedy routing protocol using virtual coordinates, and the education of undergraduate and graduate students on network protocol design. Given the growing importance of big data applications and cloud computing, the proposed research has the potential to influence network operation in academia, industry, business, and government. The results of this research will be incorporated into the undergraduate course Computer Networking and Introduction to Database Systems and graduate courses Advanced Computer Networking and Data Center Networks, Cloud Computing, and Future Internet taught by the PI at the University of Kentucky. Students trained in this project will be capable to develop new protocols and conduct network experiments in various test tools. The PI is also making effort to integrate under-represented minorities. Finally, the simulator built for this work will be disseminated in the form of an open-source prototype.</AbstractNarration>
+    <MinAmdLetterDate>11/21/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/21/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1701681</AwardID>
+    <Investigator>
+      <FirstName>Chen</FirstName>
+      <LastName>Qian</LastName>
+      <EmailAddress>cqian12@ucsc.edu</EmailAddress>
+      <StartDate>11/21/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Cruz</Name>
+      <CityName>Santa Cruz</CityName>
+      <ZipCode>950641077</ZipCode>
+      <PhoneNumber>8314595278</PhoneNumber>
+      <StreetAddress>1156 High Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

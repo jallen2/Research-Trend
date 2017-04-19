@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>HCC: Small: Individualized Inverse-Blurring and Aberration Compensated Displays for Personalized Vision Correction with Applications for Mobile Devices</AwardTitle>
+    <AwardEffectiveDate>08/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>499996</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research is concerned with the refractive elements of the eye and the errors or artifacts produced in the process of focusing light onto the retina. As the popularity of mobile hand-held devices continues to grow, a limiting factor that may emerge as an increasing impediment to their adoption among sizeable segments of the population is the prevalence of vision problems. Effective use of these devices is predicated upon reasonable visual performance by a user who must interact with a small area. This is particularly problematic for the population of older users, who face increasing incidence of vision ailments as they age. But even for younger people, there is evidence that the prevalence of myopia is increasing, especially in Asian populations. Furthermore, some visual impairments involve higher order optical aberrations (sometimes referred to as "irregular astigmatism"), which are impossible to correct with spectacle lenses.&lt;br/&gt;&lt;br/&gt;In prior work, the PI developed Vision-Realistic Rendering (VRR) to simulate an individual's vision system from measuring his or her optical system. Given these same optical measurements for that individual, the PI's goal in the current project is to achieve vision correction algorithmically and digitally rather than optically; that is, given a user with refractive error corrected by spectacles or with high order optical aberrations, compute an individualized "inverse blur" transformation to be applied to a sharp image such that when the resulting transformed image is then viewed by this individual, the inverse blur is canceled by the optical aberrations of his or her vision and this blurred version of the image appears in sharp focus to this individual.&lt;br/&gt;&lt;br/&gt;The problem with the inverse blurring process is that it tends to produce an image whose dynamic range is much larger than that of the original image (due to a weak frequency response in the blurring kernel, and division by weak response creates large values). There are usually many negative pixels and a bright spot in the pre-deconvolved image. Computation of the pre-deconvolved image involves using inverse-filtering or a spatial domain solver. However, the situation is fundamentally different from that of performing the image de-blurring as a post-process; since the blurring convolution is the final step, there is a loss of frequency information that cannot be recovered by adding prior knowledge. The PI's approach in this project is to address the large dynamic range of the pre-deconvolved image by using a high dynamic range display system, and the loss of frequency information by the concept of a multi-layered display that does not lose any frequency content even after the blurring.&lt;br/&gt;&lt;br/&gt;Broader Impacts: Eyeglasses cannot correct higher order optical aberrations that arise in the vision system of many patients who have certain types of corneal pathologies or who experience side effects of corneal refractive surgeries (such as LASIK and PRK). If successful, this research will significantly impact vision correction technology by laying the foundations for a variety of new display algorithms and devices which transcend this limitation and provide vision correction for patients whose vision problems are related to either low or higher order optical aberrations. &lt;br/&gt;&lt;br/&gt;The PI makes a concerted effort to involve undergraduate students and minorities in his research. He offers independent study for students at all levels, includes undergraduate students in research group meetings, and offers freshman and sophomore seminars on related topics. He works closely with the Black Graduate Engineering and Science Students and Latino Association of Graduate Students in Engineering and Science, and supervises students in the Summer Undergraduate Program in Engineering Research at Berkeley which brings underrepresented minorities from around the country to do research at Berkeley during the summer.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/09/2017</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1219241</AwardID>
+    <Investigator>
+      <FirstName>Brian</FirstName>
+      <LastName>Barsky</LastName>
+      <EmailAddress>barsky@cs.berkeley.edu</EmailAddress>
+      <StartDate>08/07/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems (CHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

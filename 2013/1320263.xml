@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Light-weight Architectural Schemes for Resilient High-performance Microprocessors</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>492844</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In future technology generations, smaller and more transistors &lt;br/&gt;operating at low supply voltages and high clock speeds will be &lt;br/&gt;increasingly susceptible to many different resiliency problems, such &lt;br/&gt;as soft errors, wear-out issues, hard errors, and off- and on-chip bus &lt;br/&gt;bit errors. These errors may cause silent data corruption, application &lt;br/&gt;aborts, or system crashes in high-performance microprocessors and &lt;br/&gt;computer systems. Previous techniques for addressing these errors &lt;br/&gt;incur significant performance and power overheads despite &lt;br/&gt;optimizations, and often require invasive changes that incur high &lt;br/&gt;implementation complexity.&lt;br/&gt;&lt;br/&gt;In this research project, the investigators propose a novel, &lt;br/&gt;light-weight, yet highly-effective architectural approach to processor &lt;br/&gt;reliability that incurs much lower overheads than existing approaches &lt;br/&gt;by leveraging key architectural observations about the problems.&lt;br/&gt;&lt;br/&gt;This project's innovative approach for the detection of soft errors, &lt;br/&gt;wear-out, and hard errors is based on detecting execution anomalies &lt;br/&gt;that are triggered by errors, without using redundant execution. By &lt;br/&gt;exploiting the notion of value locality, this project generalizes &lt;br/&gt;anomalies to include unexpected values as well as conditions (e.g., &lt;br/&gt;memory access exceptions) and provides significant coverage which &lt;br/&gt;includes the most problematic cases of silent data corruption. For &lt;br/&gt;recovery from soft errors, the project's investigators propose a &lt;br/&gt;retry-based scheme that avoids adding any hardware overhead to achieve &lt;br/&gt;recovery by using existing spare speculative resources in the &lt;br/&gt;processor. For off-chip bus bit errors, the investigators propose a &lt;br/&gt;novel bit interleaving scheme that reduces the chances of multiple &lt;br/&gt;bits in a single error correcting code (ECC)-protected data unit being &lt;br/&gt;corrupted undetectably or uncorrectably. Like the other schemes, this&lt;br/&gt;interleaving imposes minimal power, performance, and complexity overhead.&lt;br/&gt;&lt;br/&gt;This project targets achieving reliability while keeping power, &lt;br/&gt;performance, and hardware overheads low, an important goal for the &lt;br/&gt;U.S. microprocessor and computer hardware industry. The project's &lt;br/&gt;investigators are committed to releasing the research artifacts as &lt;br/&gt;open-source software to be used by the research community. The &lt;br/&gt;graduate students working on this project will be trained in &lt;br/&gt;architecture and reliability issues and will be well-positioned to &lt;br/&gt;join the U.S. computer hardware industry. This project will also &lt;br/&gt;support educational activities such as homework and term projects in &lt;br/&gt;undergraduate and graduate courses as well as outreach activities of &lt;br/&gt;various centers at Purdue with which the investigators are involved. &lt;br/&gt;With a woman as one of the investigators, the project will act as a &lt;br/&gt;basis for encouraging women to join graduate programs in electrical &lt;br/&gt;and computer engineering.</AbstractNarration>
+    <MinAmdLetterDate>06/27/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/27/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320263</AwardID>
+    <Investigator>
+      <FirstName>T.</FirstName>
+      <LastName>Vijaykumar</LastName>
+      <EmailAddress>vijay@ecn.purdue.edu</EmailAddress>
+      <StartDate>06/27/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Irith</FirstName>
+      <LastName>Pomeranz</LastName>
+      <EmailAddress>pomeranz@ecn.purdue.edu</EmailAddress>
+      <StartDate>06/27/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

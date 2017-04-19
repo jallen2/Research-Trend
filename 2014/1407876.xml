@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Quality of Configuration in Large Scale Data Centers</AwardTitle>
+    <AwardEffectiveDate>05/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2017</AwardExpirationDate>
+    <AwardAmount>299353</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The management of the emerging data centers involves substantial complexity due to numerous resources that must be properly configured at all levels from individual devices to entire systems and services. The complexity of configuration management leads to numerous opportunities for misconfigurations and attacks. It has been estimated that misconfigurations are responsible for 62% of downtime and 65% of security exploits in current computer systems. These, already high percentages, are expected to continue increasing due to current trends of extensive virtualization, architectural heterogeneity, and increasing size. &lt;br/&gt;&lt;br/&gt;This project attempts to devise quality metrics to characterize the vulnerability of the given configuration to bad parameter values (set accidentally or by a malicious entity). The quality metrics are also expected to provide guidance for evaluating alternatives to proposed or required configuration changes. The main challenge in characterizing configuration quality is that in practice specifications of correct configuration are not available and the viability of the configuration must be determined by analyzing the application behavior. The key issue to consider in devising the quality metrics relates to the configuration management structure and the direct/indirect dependencies that it implies. The project will examine methods ranging from discovering the configuration structure to flow analysis of the source code along with methods to correlate the discovered information. In many cases, the dependencies are not definitive and hence the quality metrics need to consider fuzzy values and their composition. The project will evaluate the usefulness of the metrics in the context of current open-source software such as Apache web server.&lt;br/&gt;&lt;br/&gt;Reducing misconfigurations and detecting them quickly is expected to have a substantial impact on computing systems with respect to their availability, functional correctness, usability, and resistance against hacker attacks. The metrics explored in this project are expected to provide important insights into improving the configuration of systems at various stages including design, deployment, and dynamic reconfiguration.</AbstractNarration>
+    <MinAmdLetterDate>04/28/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/28/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1407876</AwardID>
+    <Investigator>
+      <FirstName>Krishna</FirstName>
+      <LastName>Kant</LastName>
+      <EmailAddress>kkant@temple.edu</EmailAddress>
+      <StartDate>04/28/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Temple University</Name>
+      <CityName>PHILADELPHIA</CityName>
+      <ZipCode>191405104</ZipCode>
+      <PhoneNumber>2157077379</PhoneNumber>
+      <StreetAddress>3340 N. Broad Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

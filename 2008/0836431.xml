@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Scaling up unsupervised grammar induction</AwardTitle>
+    <AwardEffectiveDate>07/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2009</AwardExpirationDate>
+    <AwardAmount>212721</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This SGER project seeks to determine the scalability of computationally intensive, iterative statistical learning algorithms on a MapReduce architecture. Such algorithms underlie much research in natural language processing, yet their scalability to even moderately large training datasets (text corpora) has been under-explored. On the surface, scaling to more data appears to be a good fit for the MapReduce paradigm, and this exploratory project aims to identify whether such algorithms benefit from more data and more complex data than used in prior work. A special emphasis is given to unsupervised learning algorithms, such as the Expectation-Maximization algorithm, which have been widely studied on small problems and rarely studied on large ones. The technique is applicable to many other methods, as well.&lt;br/&gt;&lt;br/&gt;At the same time, the project seeks to explore how to leverage supercomputers and MapReduce to make these learning algorithms faster, permitting a faster research cycle. Concretely, the "E step" (or its&lt;br/&gt;analogue) is the most computationally demanding part of an iteration, but the standard assumption that the training data are independently and identically distributed permits parallelization. To the extent that this parallelization is affected by network and input-output overhead, each iteration of training may be made faster, perhaps reducing training time from days or weeks to hours. This project explores this tradeoff and others like it.&lt;br/&gt;&lt;br/&gt;This work leverages a resource donated by Yahoo for use by the PI's research group: a 4,000-node supercomputer running Hadoop (an open-source implementation of MapReduce).</AbstractNarration>
+    <MinAmdLetterDate>07/11/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0836431</AwardID>
+    <Investigator>
+      <FirstName>Noah</FirstName>
+      <LastName>Smith</LastName>
+      <EmailAddress>nasmith@cs.cmu.edu</EmailAddress>
+      <StartDate>07/11/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

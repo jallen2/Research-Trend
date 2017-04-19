@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Steganographic and Steganalytic Methods for Timing Channels with Side Information</AwardTitle>
+    <AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>435419</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Steganographic and Steganalytic Methods&lt;br/&gt;for Timing Channels with Side Information&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;This proposal addresses dual problems of steganography (design of&lt;br/&gt;coding techniques for covert communications) and steganalysis&lt;br/&gt;(design of statistical methods for detection of covert communications)&lt;br/&gt;applied to timing channels on asynchronous networks. Hidden messages&lt;br/&gt;are embedded by modulating the timings of a cover packet stream&lt;br/&gt;(e.g., SSH file transfer data; keystroke data for instant messaging&lt;br/&gt;or other interactive session) which plays the role of side information&lt;br/&gt;for the encoder. The encoder is also subject to causality and latency constraints.&lt;br/&gt;Hence the objective of this research is to construct and analyze novel methods&lt;br/&gt;for covert communications over timing channels with side information,&lt;br/&gt;as well as novel methods for detecting them.&lt;br/&gt;&lt;br/&gt;The project is organized around four research thrusts:&lt;br/&gt;1) Develop mathematical formulations and research the information-theoretic&lt;br/&gt; limits of timing codes with side information. The problem formulation&lt;br/&gt; includes a statistical model for the input packet process (e.g., &lt;br/&gt; a renewal process, or a Markov process), steganographic constraints&lt;br/&gt; (to guarantee statistical undetectability of the embedded messages),&lt;br/&gt; causality constraints, and latency constraints.&lt;br/&gt;2) Develop and analyze a family of practical codes that satisfy the above&lt;br/&gt; constraints. These codes are nonlinear and stochastic (they inject&lt;br/&gt; an optimized amount of ``noise'' via a queue) and&lt;br/&gt; we refer to them as queue-based steganographic codes.&lt;br/&gt;3) Develop an efficient computational framework for optimizing&lt;br/&gt; information-theoretic functionals associated with queueing processes.&lt;br/&gt;4) Construct a steganalysis learning machine (based on empirical data&lt;br/&gt; and various timing codes) which returns a binary decision about&lt;br/&gt; the presence of hidden data.&lt;br/&gt;&lt;br/&gt;Broad Impact and Intellectual Merit:&lt;br/&gt;This project is highly multidisciplinary and involves a synergy between&lt;br/&gt;research and educational activities in random processes, communications,&lt;br/&gt;coding, queueing theory, information theory, statistics, and learning&lt;br/&gt;theory. The project addresses fundamental questions with applications&lt;br/&gt;to information protection and cybersecurity.&lt;br/&gt;Other impact includes computational methods for queueing processs,&lt;br/&gt;steganographic methods for signal processing and other timing channels, etc.&lt;br/&gt;Many graduate students are interested in moving into such an&lt;br/&gt;attractive research area, which combines breadth and strong emphasis&lt;br/&gt;on fundamentals with practical relevance. We intend to train these&lt;br/&gt;students for leadership roles in information technology.</AbstractNarration>
+    <MinAmdLetterDate>07/22/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0830776</AwardID>
+    <Investigator>
+      <FirstName>Sean</FirstName>
+      <LastName>Meyn</LastName>
+      <EmailAddress>meyn@ece.ufl.edu</EmailAddress>
+      <StartDate>07/22/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Pierre</FirstName>
+      <LastName>Moulin</LastName>
+      <EmailAddress>moulin@ifp.uiuc.edu</EmailAddress>
+      <StartDate>07/22/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4720</Code>
+      <Text>SIGNAL PROCESSING SYS PROGRAM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

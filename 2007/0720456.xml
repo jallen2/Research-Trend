@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: PDOS: RIVER: Resource Management Infrastructure for Consolidated Hosting in Virtualized Data Centers</AwardTitle>
+    <AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2012</AwardExpirationDate>
+    <AwardAmount>432000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The recent resurgence of research in server virtualization &lt;br/&gt;has created a lot of interest among providers of large-scale&lt;br/&gt;data centers in employing this technology to design improved &lt;br/&gt;solutions for managed hosting. Virtualization holds the promise of increased&lt;br/&gt;degrees of resource consolidation with accompanying reduction in&lt;br/&gt;operational costs of administration, repair, and electricity. &lt;br/&gt;Designing efficient virtualized data centers &lt;br/&gt;is therefore a desirable and worthy endeavor in multiple ways. &lt;br/&gt;The transition from traditional hosting models &lt;br/&gt;to a virtualized model is, however, not a trivial one. Realizing&lt;br/&gt;the consolidation-related benefits that virtualization has to&lt;br/&gt;offer requires a re-consideration of: (i) schedulers within the VMM,&lt;br/&gt;(ii) mechanisms for resource usage monitoring and accounting, and &lt;br/&gt;(iii) system-wide dynamic resource provisioning mechanisms. &lt;br/&gt;This proposal identifies the key challenges that arise on&lt;br/&gt;all these fronts in a virtualized data center, and &lt;br/&gt;develops a comprehensive solution, called River, to address them. &lt;br/&gt;&lt;br/&gt;River will make the following specific contributions: (i) improved&lt;br/&gt;resource management algorithms &lt;br/&gt;within the virtual machine monitor (VMM) that use both &lt;br/&gt;horizontal (between the schedulers in the VMM) and vertical &lt;br/&gt;(between VMM and hosted OS schedulers) co-operation, &lt;br/&gt;(ii) efficient and stable dynamic resource provisioning, and &lt;br/&gt;(iii) systems primitives that would provide new opportunities&lt;br/&gt;to the provisioning algorithms for improved cost-cutting via &lt;br/&gt;reduction of virtualization overheads. A prototype River data center based&lt;br/&gt;on Xen will be developed and resulting code &lt;br/&gt;made available to the community. Finally, we will&lt;br/&gt;re-design the labs associated with the systems courses at Penn State to &lt;br/&gt;employ virtualized hosting of class projects.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/23/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720456</AwardID>
+    <Investigator>
+      <FirstName>Anand</FirstName>
+      <LastName>Sivasubramaniam</LastName>
+      <EmailAddress>anand@cse.psu.edu</EmailAddress>
+      <StartDate>08/20/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Bhuvan</FirstName>
+      <LastName>Urgaonkar</LastName>
+      <EmailAddress>bhuvan@cse.psu.edu</EmailAddress>
+      <StartDate>08/20/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

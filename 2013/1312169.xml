@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Efficient integral equation solvers for large-scale frequency domain electromagnetic scattering problems</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2017</AwardExpirationDate>
+    <AwardAmount>144294</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Michael H. Steuerwalt</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration> &lt;br/&gt;The investigator proposes to develop highly-parallel, efficient, accurate and rapidly-convergent algorithms for evaluation of the interaction between waves and geometrically complex structures. The family of algorithms to be developed by the investigator will focus mainly on (1) The design of a general methodology based on approximations of Dirichlet-to-Neumann operators capable of producing intrinsically well-conditioned boundary integral equation formulations for a wide suite of scattering problems with all types of boundary conditions, (2) The implementation of these formulations within a computational toolbox that delivers fast, high-order solvers for scattering problems which can also handle geometries described by CAD models produced by all of the major CAD engines, and (3) The design and Finite Element and Boundary Element implementation of non-overlapping Domain Decomposition Methods (DDM) for the solution of Maxwell's equations based on quasi-optimal transmission conditions. The proposed approach consists of the following main elements: (a) High-order integral equation solvers that rely on high-order surface representations that accept as input commercial CAD formats as well as triangulations and even point clouds; (b) Pseudodifferential calculus-based design of coercive approximations of Dirichlet-to-Neumann operators that on one hand leads to well-conditioned integral equation formulations that require small numbers of Krylov-subspace iterations for a wide range of electromagnetic problems and on the other hand leads to transmission conditions that optimize the norm of the iteration operators that lie at the heart of non-overlapping Domain Decomposition Methods for the solution of Maxwell's equations; and (c) Use of equivalent sources, FFT-based acceleration algorithms to achieve fast integral solvers.&lt;br/&gt; &lt;br/&gt;The algorithms that are to be developed as part of the proposed work are of fundamental significance to diverse applications such as radar, electronic circuits, antennas, communication devices, photonics. The simulation of electromagnetic wave propagation in complex structures gives rise to a host of significant computational challenges that result from oscillatory solutions, low-fidelity representations of complex geometries, and ill-conditioning in the low and high-frequency regimes. The recent efforts of the investigator and his collaborators resulted in the development and analysis of a highly efficient computational methodology which resolved several of these difficulties and whose extension, proposed hereby, will enable the investigator to fulfill an ambitious plan: to simulate with high fidelity realistic scattering environments.&lt;br/&gt; </AbstractNarration>
+    <MinAmdLetterDate>06/13/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/19/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1312169</AwardID>
+    <Investigator>
+      <FirstName>Catalin</FirstName>
+      <LastName>Turc</LastName>
+      <EmailAddress>cat.c.turc@gmail.com</EmailAddress>
+      <StartDate>06/13/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New Jersey Institute of Technology</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>071021982</ZipCode>
+      <PhoneNumber>9735965275</PhoneNumber>
+      <StreetAddress>323 DOCTOR MARTIN LUTHER</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

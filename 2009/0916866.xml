@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI-Small: Exploiting Comparable Corpora for Machine Translation (CC4MT)</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Parallel corpora, i.e. texts that are translations of each other, are an important resource for many natural language processing tasks, and especially for building data-driven machine translation systems. Unfortunately, for the majority of languages, parallel corpora are virtually non-existent. To be able to develop machine translation systems for those languages, we need to be able to learn from non-parallel corpora. Comparable corpora ? i.e. documents covering at least partially the same content ? are available in far larger quantities and can be easily collected on the Web. Examples include news published in many languages by Voice of America or BBC, and the multi-lingual Wikipedia.&lt;br/&gt;To make best use of comparable corpora it is not sufficient to extract sentence pairs, which are sufficiently parallel, thereby building a parallel corpus and then using proven training procedures. Rather, new techniques are required to find sub-sentential translation equivalences in non-parallel sentences. To extract phrase pairs from comparable corpora requires a cascaded approach:&lt;br/&gt;- find comparable documents using, for example, cross-lingual information retrieval techniques;&lt;br/&gt;- detect promising sentence pairs, i.e. those, which may contain translational equivalences; &lt;br/&gt;- apply robust phrase alignment techniques to detect phrase translation pairs within non-parallel sentence pairs;&lt;br/&gt;The main focus of the project lies on this third step: developing novel alignment algorithms, which do not rely on aligning all words within the sentences, as traditional word alignment algorithms do, but can separate parallel from non-parallel regions.&lt;br/&gt;The long term benefit of this work will be that machine translation technology can be applied to those languages, for which so far no translation systems are available, due to the lack of the language resources required by current technology. This will enable communication across language barriers, esp. in critical situations like medical assistance or disaster relieve.</AbstractNarration>
+    <MinAmdLetterDate>09/15/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/15/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916866</AwardID>
+    <Investigator>
+      <FirstName>Stephan</FirstName>
+      <LastName>Vogel</LastName>
+      <EmailAddress>stephan.vogel@cs.cmu.edu</EmailAddress>
+      <StartDate>09/15/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

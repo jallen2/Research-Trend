@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CDS&amp;E: Matrix-Free Algorithms for Large-Scale Hydrodynamic Brownian Simulations</AwardTitle>
+    <AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>515247</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Brownian dynamics (BD) is a computational method for macromolecular simulation with a myriad of applications in multiple areas including biology and chemical engineering. Currently, many BD simulations ignore the effect of the long-range hydrodynamic interactions (HI) between particles in a fluid. This choice is made to reduce the computational cost of these simulations, although it is now appreciated that HI is responsible for much of the dynamic behavior of macromolecules that we observe in reality. This project will develop matrix-free algorithms and software to enable the modeling of hydrodynamic interactions in large-scale BD simulations.&lt;br/&gt;&lt;br/&gt;Further, although BD has been a staple technique, it is not able to accurately model HI in high volume fraction systems, such as the crowded environment inside biological cells. A solution is to use Stokesian dynamics (SD). A drawback of SD is its high computational cost, but this cost can also be reduced for large systems using a matrix-free approach. New matrix-free free approaches for SD will be developed that are more efficient than those currently available, and that are also applicable to BD.&lt;br/&gt;&lt;br/&gt;The high computational cost of HI is due to the construction and manipulation of a large hydrodynamic mobility or diffusion matrix. This project's approach is to replace this mobility matrix by an operator applied with a FFT-based particle-mesh Ewald summation, thereby asymptotically reducing the computational complexity and storage requirements compared to commonly used methods. Since the mobility matrix is no longer available, this approach requires the use of matrix-free algorithms for computing Brownian displacements.&lt;br/&gt;&lt;br/&gt;The algorithms will be implemented in a high-performance software library for multicore nodes and GPUs. The library can be used by other researchers to add fast HI capabilities and also SD functionality to their existing BD codes. Data analysis tools to handle long and large trajectory output files will also be developed. The software tools will be demonstrated on large-scale biological simulations to study the mechanisms behind diffusion in the E. coli nucleoid.&lt;br/&gt;&lt;br/&gt;BD simulation is the main tool used in biology for studying intra-cellular transport and the diffusive mechanisms that lie behind almost all cellular processes. This work will pave the way for other researchers to perform much more realistic BD simulations at large scales. Furthermore, the algorithms developed here may be applied to a wide range of other particle simulation methods in mechanical and chemical engineering and materials science where Brownian particles interact through long-range forces. The results of this work will be disseminated to both the application and computational science communities. Software implementing the new algorithms will be released in library form under an open-source license, and educational materials on particle simulations, accessible to computer science and mathematics students, will be made freely available on the Web.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1306573</AwardID>
+    <Investigator>
+      <FirstName>Jeffrey</FirstName>
+      <LastName>Skolnick</LastName>
+      <EmailAddress>skolnick@gatech.edu</EmailAddress>
+      <StartDate>08/05/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Edmond</FirstName>
+      <LastName>Chow</LastName>
+      <EmailAddress>echow@cc.gatech.edu</EmailAddress>
+      <StartDate>08/05/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1765</Code>
+      <Text>CONDENSED MATTER &amp; MAT THEORY</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7573</Code>
+      <Text>BIO-RELATED MATERIALS RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

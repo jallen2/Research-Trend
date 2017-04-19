@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: A Hierarchical Approach to Unsupervised Feature Discovery</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kenneth C. Whang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Contrary to some depictions in popular media, humans are still far better than any computer program at understanding the visual world around them. If we understood how the visual system does this, perhaps better artificial vision systems could be built. The goal of this project is to understand how the brain represents the visual world and why. Following a mantra famously credited to Richard Feynman -- What I cannot create, I do not understand -- this project's approach is to create a computer system that learns from natural input (images, videos), assuming that the visual system operates with the goal of efficiently representing the world. These representations will then be compared to measurements of visual neurons. The long term goal is to understand the functional roles of the early visual processing layers in the human visual pathway.&lt;br/&gt;&lt;br/&gt;The model is based on the efficient coding hypothesis, in which the early visual pathway serves to capture the statistical structure of its visual inputs by efficiently coding visual information in its outputs. Most computational models following this hypothesis have focused on modeling only one or two visual layers. In this project, Cottrell's group proposes a hierarchical information processing model, which concurs with the efficient coding hypothesis, yet provides the most complete description so far of the early visual processing layers. In this model, the visual inputs are first compressed to reduce noise using Sparse Principal Components Analysis (SPCA), then the data dimensions are expanded to capture the statistical structure of the visual inputs using overcomplete Sparse Coding. A nonlinear activation function then formats the outputs of this layer for the next layer up, and the whole process is repeated. Preliminary work shows that the resulting hierarchical model can learn visual features exhibiting the receptive field properties of neurons in the early visual pathway, including retinal ganglion cells, LGN, V1 simple and complex cells, and V2 cells.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/13/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1219252</AwardID>
+    <Investigator>
+      <FirstName>Garrison</FirstName>
+      <LastName>Cottrell</LastName>
+      <EmailAddress>gary@cs.ucsd.edu</EmailAddress>
+      <StartDate>09/13/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7327</Code>
+      <Text>CRCNS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

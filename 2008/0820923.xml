@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SCREMS: Next Generation Parallel Computing Infrastructure for Numerical Relativity</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>86191</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Henry A. Warchall</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Center for Computational Relativity and Gravitation in the School&lt;br/&gt;of Mathematical Sciences at the Rochester Institute of Technology will&lt;br/&gt;purchase a computer cluster which will be dedicated to the support of&lt;br/&gt;research in the mathematical sciences. The equipment will be used for&lt;br/&gt;several research projects including in particular: the development of&lt;br/&gt;new, highly efficient, extremely high accuracy numerical algorithms to&lt;br/&gt;solve the non-linear equations of general relativistic&lt;br/&gt;magnetohydrodynamics (GRMHD). Magnetohydrodynamics represents a&lt;br/&gt;difficult challenge numerically due to the small-scale features&lt;br/&gt;introduced by shocks in the fluid material and the magnetic fields.&lt;br/&gt;The problem can only be tackled efficiently using higher-order finite&lt;br/&gt;differencing methods (greater than fourth-order), including those&lt;br/&gt;designed to evolve conservative systems, in conjunction with&lt;br/&gt;highly-scalable adaptive-mesh-refinement (AMR) algorithms. The next&lt;br/&gt;generation of multi-core processors are expected to have up to 32&lt;br/&gt;individual cores in the near future, and computational nodes with more&lt;br/&gt;than 64 cores will soon follow. The challenge, then, is to&lt;br/&gt;efficiently parallelize the algorithm on these many-core systems. We&lt;br/&gt;will do this by optimizing inter and intra-node communication via a&lt;br/&gt;combination of openMP and MPI. The proposed cluster, which will&lt;br/&gt;initially have 12 nodes (upgraded to 16 in year 2), each containing 8&lt;br/&gt;cores and 16 GB of RAM, interconnected with a high-speed, low-latency&lt;br/&gt;InfiniBand network, will model these future clusters so that we can&lt;br/&gt;develop new algorithms. This cluster will act as the central workhorse&lt;br/&gt;for developing numerical techniques and performing GRMHD simulations&lt;br/&gt;for the next 3 years.&lt;br/&gt;&lt;br/&gt;Partial support for this award is from PHY, Gravitational Physics program.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0820923</AwardID>
+    <Investigator>
+      <FirstName>Joshua</FirstName>
+      <LastName>Faber</LastName>
+      <EmailAddress>jafsma@rit.edu</EmailAddress>
+      <StartDate>08/20/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yosef</FirstName>
+      <LastName>Zlochower</LastName>
+      <EmailAddress>yosef@astro.rit.edu</EmailAddress>
+      <StartDate>08/20/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rochester Institute of Tech</Name>
+      <CityName>ROCHESTER</CityName>
+      <ZipCode>146235603</ZipCode>
+      <PhoneNumber>5854757987</PhoneNumber>
+      <StreetAddress>1 LOMB MEMORIAL DR</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1244</Code>
+      <Text>GRAVITATIONAL THEORY</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1260</Code>
+      <Text>INFRASTRUCTURE PROGRAM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

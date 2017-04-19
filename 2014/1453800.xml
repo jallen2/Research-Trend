@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Mining and Exploring Heterogeneous Information Networks with Social Factors</AwardTitle>
+    <AwardEffectiveDate>05/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2020</AwardExpirationDate>
+    <AwardAmount>191928</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jun Huan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Heterogeneous social information networks, such as online social networks, online forums, and digital government, are valuable sources for data analysis. However, most of the current information network studies ignore the social factors involved and treat people and their interactions simply as nodes and links in graphs. This project provides a systematic approach for analyzing such networks that addresses human factor-related questions, recognizing that different types of links have different relevance to a particular question. For example, a "mentor" link might be much more relevant to recommending someone to apply for a particular job rather than see a certain movie. This project identifies five fundamental research problems and provides solutions to these problems in heterogeneous social information networks: (1) predicting missing user and link characteristics, (2) identifying personality traits, (3) role detection, (4) prediction of social activities, and (5) recommender systems. Together these provide a way to include social understanding in analysis of networks.&lt;br/&gt;&lt;br/&gt;The basic approach is to provide probabilistic models that can (1) incorporate guidance in terms of either limited labels or heuristics from domain experts, and (2) automatically select the most critical information in complicated heterogeneous information networks for the target problem. For example, for the user profiling problem of age group prediction, a probabilistic model is designed via defining the probability of a possible label configuration given the network structure and strengths on different types of links. The derived learning algorithm will propagate the labels from only a few users via different types of links, and the strength of each link type will be learned according to the configuration probability of labels on that link type. The intuition is that if the "classmates" link type brings two users with similar age together, the algorithm needs to assign the same age group label to the two connected users that are classmates and assigns a higher strength weight to the "classmates" link type. The project will develop an integrated network mining system based on Spark and GraphX, to support the proposed algorithms on large-scale networks. This system will be used as a research vehicle for exploring efficient approximations with quality guarantees for the proposed algorithms.</AbstractNarration>
+    <MinAmdLetterDate>03/23/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/22/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1453800</AwardID>
+    <Investigator>
+      <FirstName>Yizhou</FirstName>
+      <LastName>Sun</LastName>
+      <EmailAddress>yzsun@cs.ucla.edu</EmailAddress>
+      <StartDate>03/23/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

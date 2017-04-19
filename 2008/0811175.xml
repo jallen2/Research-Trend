@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Systematic Lagrangian Methods for Transport Problems</AwardTitle>
+    <AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>167000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This work focuses on the development of higher-order Lagrangian particle methods for problems which have long-range self forces exhibiting algebraic decay. The advantage of a Lagrangian particle framework is that regions that require characterization (i.e., mesh points) are precisely where there are test particles. Most particle methods are first order at best; in particular, the ad hoc fashion in which they are obtained makes it extremely challenging to systematically derive higher-order boundary conditions. An important sub-class of problems with long range forces are those arising in plasma physics. The fundamental governing set of equations is the Boltzmann-Maxwell (BM) system, which may be reduced to the Vlasov-Poisson (VP) system under key assumptions. These problems are 6D plus time and exhibit a range of complex dynamics. Typically, Particle-In-Cell (PIC) is used to address computational problems governed by these systems. The proposer has been engaged in addressing issues with PIC (and other schemes) by developing a systematic particle formulation. The initial framework is based on the evolution of the Lagrangian flow map, where long range forces are evaluated using fast summation algorithms. The proposed work seeks to develop high-order Lagrangian methods with four or higher dimensions. Critical issues to be addressed include: I) a rigorous analysis of numerical heating in mesh-based particle methods, II) increasing the spatial accuracy of Lagrangian particle methods, III) an analysis of the use of regularization and its impact on the accuracy of boundary integral methods, and IV) accelerating explicit/implicit Spectral Deferred Correction (SDC) using high-order correction.&lt;br/&gt;&lt;br/&gt;The project will create new simulation tools that are more accurate, more reliable, and of broader applicability than existing methods for a range of problems of interest in applied physics, chemistry and materials science. Higher accuracy and better predictive capability have a real impact in the applied sciences on reducing the huge expense of experimental design procedure by providing a refined design prior to construction. Collaboration with the Air Force Research Laboratory is under way, aimed at real world problems such as modeling spacecraft plume interactions.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811175</AwardID>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Christlieb</LastName>
+      <EmailAddress>christlieb@math.msu.edu</EmailAddress>
+      <StartDate>08/01/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Languages and Abstraction for Dynamic Big Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>456896</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The analysis of large datasets using computers, a.k.a., big data analytics, is emerging as an important tool in many fields, such as science and discovery, technology, health care, and commerce. The data sets used in such applications are usually dynamic: they change over time as new data becomes available. Such dynamic changes are often small, requiring similarly small but potentially important updates, because new information can be crucial in detecting a pattern or an anomaly. For example, the Internet or a social network changes dynamically as new web pages become available, new links are added, or existing links are removed. As a result of such dynamic changes, two clusters of previously disconnected web sites can become connected by the addition of a single link, indicating for example, an important news item or a security breach. Unfortunately, in many existing big-data systems, absorbing new information involves making one or more passes over the entire dataset. Such batch processing of dynamic data results in slow updates, as well as inefficiencies in the utilization of resources such as hardware and energy, by (unnecessarily) performing many subcomputations that are unaffected by changes. This project aims to lay the groundwork for the programming languages and software systems that can support the development of such applications in the real world. The work has the potential to transform the way the programmers express computations on dynamically changing big data sets, make it possible to derive new information and knowledge from big dynamic data sets by computing with them responsively and efficiently, and transform the way that we teach the design, analysis, and implementations of computations operating for dynamic data sets. The project also includes the development of undergraduate lectures on parallelism.&lt;br/&gt;&lt;br/&gt;The project aims to enable the user to express the dynamism in large data sets implicitly, without concerning themselves with how exactly the results will be updated when the data changes, e.g., which data depends on which other data, which data may need to be updated, which dependencies need to be reconstructed. Starting with an implicitly dynamic program, a software system automatically and efficiently constructs a record of the computed results and updates it as the dataset changes. To achieve this goal, the project develops abstractions, programming languages, compilers, and run-time systems. Concretely, we expect three sets of contributions: novel, powerful abstractions and cost models for writing programs that operate on dynamically changing large datasets, programming language support in the form of compilers and run-time systems for realizing such abstractions on practical hardware, and efficient algorithms and implementations, to be used to evaluate the proposed and future work.</AbstractNarration>
+    <MinAmdLetterDate>08/09/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/20/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320563</AwardID>
+    <Investigator>
+      <FirstName>Umut</FirstName>
+      <LastName>Acar</LastName>
+      <EmailAddress>umut@cs.cmu.edu</EmailAddress>
+      <StartDate>08/09/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

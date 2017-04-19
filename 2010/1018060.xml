@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Locally Decodable Codes and Space Bounded Computation</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>346480</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project focuses on questions related to bounding the space requirements of computation in various settings, and the relationship between computation time and space.&lt;br/&gt;&lt;br/&gt;Current computation tasks often involve very large data sets, for example data originating from the internet, biological or other scientific databases. The size of input data in certain computational tasks requires special considerations and solutions that work with only small portions of the input at a time: manipulating all of the input at once would be prohibitive even with the latest computer technology. Locally decodable codes and streaming algorithms are motivated by such applications.&lt;br/&gt;&lt;br/&gt;Locally decodable codes are error correcting codes with the extra property that in order to retrieve the correct value of one position of the input with high probability, it is sufficient to read just a small number of positions of the possibly corrupted codeword. So far the known constructions of such codes with constant number of queries have very large length with respect to the input size, and there is a large gap between the known upper and lower bounds on the length of codewords, even in the case of 3-query codes. The project further examines the relationship between the length necessary for the codewords, the number of queries allowed for decoding, and the error correcting properties of locally decodable codes.&lt;br/&gt;&lt;br/&gt;In addition, the project includes proving bounds on storage space in the cell probe model while limiting the number of positions accessed to answer questions about the data, and bounding the space requirements of streaming algorithms. Finally, the project addresses the relationship between the size and depth of Boolean circuits necessary to compute a given function. This is directly related to the relationship between the time and space of computation.</AbstractNarration>
+    <MinAmdLetterDate>07/21/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/21/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018060</AwardID>
+    <Investigator>
+      <FirstName>Anna</FirstName>
+      <LastName>Gal</LastName>
+      <EmailAddress>panni@cs.utexas.edu</EmailAddress>
+      <StartDate>07/21/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: CPA-SEL: Implementation Techniques for High-level Parallel Languages</AwardTitle>
+    <AwardEffectiveDate>07/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2010</AwardExpirationDate>
+    <AwardAmount>91867</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The rapid trend toward multi-core architectures promises faster execution of computer programs but poses significant difficulties for software development due to the lack of good programming models for exploiting the parallelism in such architectures. This situation is a significant opportunity for programming-language research to supply effective languages and tools for writing desktop applications while exploiting the performance of multi-core hardware. It is well known that functional-programming languages provide a good semantic base for concurrent and parallel programming, but for such languages to be successful, they need to provide competitive performance. The research focuses on the technical challenges in the efficient implementation of parallel functional languages. The characteristics of multi-core and many-core architectures demand that implementations preserve sequential semantics in parallel constructs, manage the granularity and scheduling of parallel threads, and be aware of the locality of data. The research explores a collection of techniques that combine static program analyses, compiler transformations, and dynamic runtime policies. Empirical analysis of both traditional parallel benchmarks and small applications is used to evaluate the effectiveness of the techniques developed by this research. By addressing performance concerns, the research will enable the practical use of parallel functional programming languages for a broad range of applications.</AbstractNarration>
+    <MinAmdLetterDate>06/12/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/04/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811419</AwardID>
+    <Investigator>
+      <FirstName>Matthew</FirstName>
+      <LastName>Fluet</LastName>
+      <EmailAddress>mtf@cs.rit.edu</EmailAddress>
+      <StartDate>06/12/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Toyota Technological Institute at Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606372902</ZipCode>
+      <PhoneNumber>7738340409</PhoneNumber>
+      <StreetAddress>6045 S. Kenwood Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2880</Code>
+      <Text>SOFTWARE ENGINEERING AND LANGU</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

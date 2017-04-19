@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>I/O Virtualization - From Self-Virtualizing Devices to Metadata-Rich Information Appliances</AwardTitle>
+    <AwardEffectiveDate>07/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2009</AwardExpirationDate>
+    <AwardAmount>75000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Demands for online access to large data sets distributed across multiple machines are prevalent both in large-scale enterprises and in scientific settings. An example is remote data visualization for large-scale applications running on peta-scale machines, where researchers are seeking ways to accelerate the scientific processes they are carrying out via real-time inspection and validation of the outputs from their running codes.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;This research addresses a basic problem basic problem for the large-scale data movements implied by such tasks, which is the substantial semantic gap between application-level data exchanges and the I/O services provided by underlying hardware and system platforms. For instance, at the device level, data being moved may be described as a linear sequence of blocks, whereas the application level views it as highly structured data on which it is performing a complex checkpoint operation. To help close help close this gap, for future virtualized execution platforms, this project realizes the &lt;br/&gt;notion of Abstract IO (A-IO) devices, where each such device can be designed to provide useful new functionality to end user applications. Toward this end, it exploits new system- and device -level virtualization technologies to present to operating systems what appear to be physical devices, but are actually virtual representations of such devices. For such `logical devices', it then addresses the question regarding where to place their higher level I/O device functions on future many-core platforms: on the general computational cores of host machines or on specialized cores &lt;br/&gt;associated with devices. The utility of the approach is evaluated in the context of two realizations of A-IO based devices (NIC and block device), and with actual scientific and enterprise applications.</AbstractNarration>
+    <MinAmdLetterDate>06/19/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/19/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702249</AwardID>
+    <Investigator>
+      <FirstName>Greg</FirstName>
+      <LastName>Eisenhauer</LastName>
+      <EmailAddress>eisen@cc.gatech.edu</EmailAddress>
+      <StartDate>06/19/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ada</FirstName>
+      <LastName>Gavrilovska</LastName>
+      <EmailAddress>ada@cc.gatech.edu</EmailAddress>
+      <StartDate>06/19/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Karsten</FirstName>
+      <LastName>Schwan</LastName>
+      <EmailAddress>schwan@cc.gatech.edu</EmailAddress>
+      <StartDate>06/19/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

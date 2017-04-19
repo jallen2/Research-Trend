@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Medium: SimSQL: A Database System Supporting Implementation and Execution of Distributed Machine Learning Codes</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>1200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Statistical machine learning (ML) is a commonly-applied framework for analyzing very large data sets. In statistical ML, the goal is to learn a statistical model that can be used to understand the data, find patterns, or make predictions. Thus, many new software systems have been designed to support easy implementation and fast execution of parallel/distributed ML computer codes over large data sets. Almost all of those systems are "non-relational" in the sense that they utilize data and programming models that are very different from today's relational database management systems. Still, the attractiveness of the relational or database-oriented approach to data processing persists. For example, codes running on top of a database are declarative, so a programmer need only be concerned with what he or she wants, and not how to obtain it. This makes it easier to write codes and get them to run in a distributed environment, enabling a strong separation between the code and the database data processing algorithms, storage, hardware, and indexing, and even from the database schema. Further, much of the world's structured data sits in relational databases, and extracting anything more than a small subsample of a large data set for external use is typically a non-starter. Being able to execute a ML inference code within the database, using the database engine, would greatly increase applicability of statistical ML. &lt;br/&gt;&lt;br/&gt;This project will perform the fundamental research necessary to make ML-in-the-database a mature technology. All of the ideas developed by the project will be prototyped, evaluated, and distributed within the context of SimSQL, which is a parallel, relational database system, augmented with the ability to perform "stochastic analytics". This means that SimSQL has special facilities that allow a user to define special database tables that have simulated data---these are data that are not actually stored in the database, but are produced by calls to statistical distributions. Since tables of simulated data in SimSQL can have such recursive dependencies, it is easy to use SimSQL to run stochastic ML inference algorithms (such as MCMC) over "Big Data". Research tasks include increasing the level of performance of SimSQL by exploiting the optimization opportunities presented by large-scale, iterative, ML computations. They also include expanding the types of ML inference algorithms that can easily be specified in SimSQL's SQL dialect, making SimSQL applicable for various stochastic inference algorithms such as MCMC (Markov Chain Monte Carlo) and Monte Carlo EM (Expectation Maximization). Further, the project will investigate automatically compiling R and BUGS-like ML algorithm specifications into SimSQL SQL. All of the software developed by the project will be available open source under the Apache license. The code can be downloaded from (and more information can be found at) http://cmj4.web.rice.edu/SimSQL/SimSQL.html</AbstractNarration>
+    <MinAmdLetterDate>08/11/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1409543</AwardID>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>Jermaine</LastName>
+      <EmailAddress>Christopher.m.jermaine@rice.edu</EmailAddress>
+      <StartDate>08/11/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

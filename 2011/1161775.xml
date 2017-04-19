@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Collaborative Research: Marrying program analysis and numerical search</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>600000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research project explores ways to solve optimization problems where the targets of optimization are programs containing general-purpose control and data constructs. Such optimization questions arise often in the everyday practice of software engineering. While it may seem that standard optimization packages could solve these problems, it is often not so. White-box optimization approaches like linear programming are ruled out here because they only permit very restricted classes of objective functions. Black-box optimization techniques like gradient descent and Nelder-Mead search are applicable in principle, but they work well only in relatively smooth search spaces, and due to arbitrarily nested branches and loops, even simple programs can have highly irregular, ill-conditioned behavior.&lt;br/&gt;&lt;br/&gt;The central insight guiding this project is that program analysis techniques from the field of formal reasoning about programs can work together with blackbox optimization toolkits, and make it possible to solve many more problems of the above sort than are currently possible. Ultimately, the project will produce a unified system for optimizing programs that can leverage flexible combinations of optimization techniques and program analysis strategies. As numerous real-world problems faced in the development of everyday software are optimization problems, this system will offer a new range of capabilities to the end programmer. In addition, the research will foster synergy between two different research areas customarily housed in different academic departments.</AbstractNarration>
+    <MinAmdLetterDate>04/04/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1161775</AwardID>
+    <Investigator>
+      <FirstName>Armando</FirstName>
+      <LastName>Solar-Lezama</LastName>
+      <EmailAddress>asolar@csail.mit.edu</EmailAddress>
+      <StartDate>04/04/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

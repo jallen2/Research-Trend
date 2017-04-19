@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: IMUnit: Improved Multithreaded Unit Testing</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CCF-0916893&lt;br/&gt;SHF:Small: IMUnit: Improved Multithreaded Unit Testing&lt;br/&gt;PIs: Darko Marinov and Grigore Rosu&lt;br/&gt;&lt;br/&gt;Computing is going through a paradigm shift from a mostly sequential worldview to a mostly parallel worldview. The currently dominant programming model for parallel code is that of shared data, where multiple threads of computation communicate by accessing shared data objects. Unfortunately, developing and testing multithreaded code is very hard. To significantly improve testing of multithreaded code, this project develops a set of new techniques and tools for multithreaded tests. A multithreaded test is a piece of code that creates and executes two or more threads. Executing a test follows some schedule/interleaving of the multiple threads. The key of the new approach is to allow the explicit specification of a set of relevant schedules for each test, while traditional tests implicitly specify all possible schedules. This project addresses three important challenges for multithreaded tests: (1) How to describe a set of schedules and which schedules from a given set to explore? (2) How to automatically generate multithreaded tests, especially schedules, for given code? (3) How to select and prioritize rerunning of the multithreaded tests when the code changes? Improved unit testing of multithreaded code has the potential to substantially increase the quality of developed code.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916893</AwardID>
+    <Investigator>
+      <FirstName>Grigore</FirstName>
+      <LastName>Rosu</LastName>
+      <EmailAddress>grosu@illinois.edu</EmailAddress>
+      <StartDate>09/11/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Darko</FirstName>
+      <LastName>Marinov</LastName>
+      <EmailAddress>marinov@illinois.edu</EmailAddress>
+      <StartDate>09/11/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9217</Code>
+      <Text>NATNL RESERCH &amp; EDUCAT NETWORK</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

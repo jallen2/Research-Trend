@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A High Order Semi-Lagrangian Approach for the Vlasov Equation</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>185500</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In this proposal, the investigator proposes to develop a very high order mesh-based numerical method for Vlasov simulations. In the phase space, the proposed methodology couples the high order finite element discontinuous Galerkin (DG) method for spatial advection and for computing long range forces by field equations (Maxwell's or Poisson's equations) and the high order finite difference weighted essentially non-oscillatory (WENO) scheme for particle interactions in velocity directions via operator splitting. The methodology is designed to take advantages of the DG method in its flexibility and compactness in handling complicated geometry, and the WENO reconstructions in their robustness and stability in resolving complicated/under-resolved solution structures. To improve computational efficiency, the investigator proposes to use extra large numerical time steps by using semi-Lagrangian framework for advection. A suitable numerical solution space is designed to ensure high order coupling among different numerical methods in six-dimensional phase space. Spectral/integral deferred correction framework is proposed to guarantee high order temporal accuracy. Besides the high order accuracy in both space and time, the proposed scheme would be designed to be mass conservative and positivity preserving, which are two important properties of the analytical solution. The investigator and her group are going to perform convergence study, as well as track the time evolution of physically conserved quantities (e.g. momentum and energy) as a measurement of the quality of the proposed scheme.&lt;br/&gt;&lt;br/&gt;The intellectual merit of the proposed activity lies in the development of a robust, efficient and highly accurate numerical algorithm under a semi-Lagrangian framework for Vlasov simulations. The objective of the proposed project is to design a high order numerical approach that allows for relatively coarse spatial mesh with accuracy and extra large numerical time steps with stability. At the same time, theoretical accuracy and stability properties of the proposed scheme under relatively simple setting (e.g. linear equations) will be studied. The theoretical study will provide a solid foundation, as well as a good guidance, to the design of numerical algorithm. The well-developed algorithm will have impact in fusion simulations, as well as other applied fields such as astrophysics, semi-conductor device simulations. Further impact comes from the multidisciplinary nature of the proposed research, as well as the training of undergraduate and graduate students.</AbstractNarration>
+    <MinAmdLetterDate>07/16/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/16/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217008</AwardID>
+    <Investigator>
+      <FirstName>Jing-Mei</FirstName>
+      <LastName>Qiu</LastName>
+      <EmailAddress>jingqiu@math.uh.edu</EmailAddress>
+      <StartDate>07/16/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Houston</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>772042015</ZipCode>
+      <PhoneNumber>7137435773</PhoneNumber>
+      <StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

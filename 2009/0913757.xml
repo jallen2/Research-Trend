@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Efficient numerical techniques of two-phase transport model in the cathode of hydrogen polymer electrolyte fuel cell</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>90000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal is awarded using funds made available by the American Recovery and Reinvestment Act of 2009 (Public Law 111-5). &lt;br/&gt;&lt;br/&gt;This project is to develop advanced numerical techniques in order to perform efficient, accurate&lt;br/&gt;and state of the art simulations for two-phase transport model in the cathode of hydrogen&lt;br/&gt;proton exchange membrane fuel cell (PEMFC). The computational efficiency and accuracy for&lt;br/&gt;solving two-phase transport PEMFC model depends crucially on the partition of mesh for precisely&lt;br/&gt;capturing the anisotropic interface of single- and two-phase zones, the design of proper&lt;br/&gt;discretization schemes and efficient iterative methods for solving a highly unstable nonlinear&lt;br/&gt;system due to the discontinuous and degenerate diffusion coefficient. The PI proposes to develop&lt;br/&gt;anisotropic adaptive mesh techniques, and advanced algorithms in both discretization&lt;br/&gt;and iteration level in order to design a better discretized model which can be solved more efficiently and accurately by iterative methods on an optimal mesh. More precisely, for anisotropic&lt;br/&gt;adaptive mesh method, the PI proposes an a posteriori error estimator based on error equaldistribution&lt;br/&gt;by equalidistributing edge length of finite element in Hessian matrix-metric. For the&lt;br/&gt;discontinuous and degenerate diffusion coefficient, the PI proposes Kirchhoff transformation to&lt;br/&gt;skillfully reformulate the original PEMFC model to a linear Poisson's equation, and Newton's&lt;br/&gt;method to efficiently solve the resulting inverse Kirchhoff transformation. In particular, for the&lt;br/&gt;case of wet gas channel in PEMFC, in which Kirchhoff transformation brings the discontinuity&lt;br/&gt;back to the resulting Kirchhoff's variable on the interface of gas channel and gas diffusion&lt;br/&gt;layer, the PI proposes Dirichlet-Neumann alternating iterative domain decomposition method&lt;br/&gt;to resolve this interfacial boundary problem. On the discretization level, the PI will design a&lt;br/&gt;combined finite element-upwind finite volume method to overcome the dominant convection in&lt;br/&gt;gas channel of PEMFC without losing the benefits of FEM. For nonlinear iteration schemes,&lt;br/&gt;the PI will employ either Picard's or Newton's method to linearize nonlinear PEMFC model,&lt;br/&gt;combining with specifically preconditioned Krylov-type solver. The PI hopes to develop more&lt;br/&gt;efficient and accurate numerical simulations for two-phase transport model in the cathode of&lt;br/&gt;hydrogen PEMFC by uniting modern numerical techniques of adaptivity and multilevel solvers&lt;br/&gt;with standard numerical methods.&lt;br/&gt;&lt;br/&gt;Fuel cells have been called the key to abundant energy from secure and renewable sources,&lt;br/&gt;e.g., fuel cells promise to replace the internal combustion engine in transportation due to their&lt;br/&gt;higher energy efficiency and zero or ultralow emissions. Hydrogen proton exchange membrane&lt;br/&gt;fuel cell (PEMFC) is presently considered as a potential type of fuel cells for such application.&lt;br/&gt;Since PEMFC involves electrochemical reactions, current distribution, two-phase flow transport&lt;br/&gt;and heat transfer, a comprehensive mathematical modeling of multiphysics system and high performance&lt;br/&gt;computing combining with the advanced numerical techniques shall make a significant&lt;br/&gt;impact in the development of fuel cell technology. However, because of the complexity of the underlying&lt;br/&gt;mathematical model, current numerical techniques are far from being satisfactory due&lt;br/&gt;to poor performances on both efficiency and accuracy. Hence, advanced numerical techniques&lt;br/&gt;are urgently required to significantly improve the efficiency and accuracy of fuel cell simulation.&lt;br/&gt;The proposed numerical techniques in this project will challenge a number of critical numerical&lt;br/&gt;difficulties, which are caused by large discontinuity, degeneracy, nonlinearity, dominant convection&lt;br/&gt;and anisotropy, by designing and analyzing the efficient numerical methods toward fast&lt;br/&gt;convergence and precise solutions. The PI will utilize the proposed efficient numerical methods&lt;br/&gt;to eventually develop an efficient and robust in-house code for PEM fuel cell simulations&lt;br/&gt;by achieving one to two orders of magnitude improvement on the existing commercial fuel cell&lt;br/&gt;packages in computational performance. The PI hopes that the proposed numerical techniques&lt;br/&gt;and numerical package for PEMFC will lead to a significant progress and likely breakthrough in&lt;br/&gt;the field of computational fuel cell technology, substantially impacting the commercialization of&lt;br/&gt;fuel cells and further helping in the transition to hydrogen economy.</AbstractNarration>
+    <MinAmdLetterDate>09/14/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/14/2009</MaxAmdLetterDate>
+    <ARRAAmount>90000</ARRAAmount>
+    <AwardID>0913757</AwardID>
+    <Investigator>
+      <FirstName>Pengtao</FirstName>
+      <LastName>Sun</LastName>
+      <EmailAddress>pengtao.sun@unlv.edu</EmailAddress>
+      <StartDate>09/14/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Nevada Las Vegas</Name>
+      <CityName>Las Vegas</CityName>
+      <ZipCode>891541055</ZipCode>
+      <PhoneNumber>7028951357</PhoneNumber>
+      <StreetAddress>4505 MARYLAND PARKWAY</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Nevada</StateName>
+      <StateCode>NV</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

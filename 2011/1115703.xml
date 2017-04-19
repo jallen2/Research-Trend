@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: The Boundary of Learnability for Monotone Boolean Functions</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Machine learning is a dynamic and rapidly growing research area that plays an important role in many applications over a diverse range of areas including scientific discovery, search technology, finance, natural language, and more. An important goal in machine learning theory is to understand which types of binary classification rules (i.e. Boolean functions) can be efficiently learned from labeled data, and which cannot. This proposal describes a detailed program of theoretical research on understanding the learnability of different types of monotone Boolean functions from uniform random examples. Monotone functions are highly natural from a learning point of view; they are also a central class of functions in computational complexity theory and the analysis of Boolean functions, and the study of their learnability has close connections to these areas.&lt;br/&gt;&lt;br/&gt;Recent years have seen exciting advances both on efficient algorithms and on hardness results for learning monotone functions. The PI believes that building on this progress, a fine-grained understanding of the boundary between learnable and unlearnable classes of monotone functions may be within reach. More precisely, the PI will work to show that monotone DNF formulas (depth-2 circuits) are efficiently learnable, while monotone depth-3 circuits are not. Establishing this would be a landmark in our understanding of the learnability of this important class of Boolean functions.&lt;br/&gt;&lt;br/&gt;On the positive side the PI will work on a range of intermediate problems, leading up to the goal of obtaining a poly(n)-time algorithm for learning arbitrary poly(n)-term monotone DNF formulas:&lt;br/&gt;&lt;br/&gt;* Learning Monotone Decision Trees Better. The PI will analyze a widely used machine learning heuristic for decision tree induction and work to show that it is in fact an efficient algorithm for learning poly(n)-size monotone decision trees.&lt;br/&gt;&lt;br/&gt;* Learning Monotone CDNF. Using results and techniques from discrete Fourier analysis of Boolean functions, the PI will work to obtain a polynomial time algorithm for monotone Boolean functions whose CNF (Conjunctive Normal Form) size and DNF (Disjunctive Normal Form) size are both polynomial in n (a broader class than poly(n)-size monotone decision trees).&lt;br/&gt;&lt;br/&gt;* Learning Monotone DNF Formulas. The PI has developed an algorithm for learning monotone DNF formulas with a subpolynomial number of terms; using different techniques he has also given a poly(n)-time algorithm that can learn random poly(n)-size monotone DNF formulas. The PI will work to unify these two approaches to obtain a single, more powerful, algorithm for learning monotone DNF.&lt;br/&gt;&lt;br/&gt;* Other approaches. The PI will study other approaches that may be useful for monotone function learning problems: 1) analyzing the distribution of "Fourier weight" in monotone functions; 2) applying specialized boosting algorithms to learn monotone functions; and 3) using conjectures in Fourier analysis of Boolean functions as tools toward learning results.&lt;br/&gt;&lt;br/&gt;Building on his recent work, the PI will also work to establish two types of negative results for learning monotone functions: cryptographic hardness results, and lower bounds for Strong Statistical Query learning. The goal in both cases is to show that learning depth-3 monotone circuits is hard; techniques for monotone hardness amplification in complexity theory are expected to play a role in both of these directions.</AbstractNarration>
+    <MinAmdLetterDate>06/16/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/16/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115703</AwardID>
+    <Investigator>
+      <FirstName>Rocco</FirstName>
+      <LastName>Servedio</LastName>
+      <EmailAddress>rocco@cs.columbia.edu</EmailAddress>
+      <StartDate>06/16/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

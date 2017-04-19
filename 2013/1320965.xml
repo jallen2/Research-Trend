@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Scalable Network Virtualization for Multi-Core Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>470315</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Brassil</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As virtualization spreads throughout the data center, the communication endpoints within the data center are becoming virtual machines (VMs), not physical servers. Therefore, the network facilities for packet processing and security must operate all the way to the VM. This last hop switching among virtual machines within the physical server has become a critically important component of the data center network. This project will explore the design space of server/switch integration, in which software and hardware based switching are more efficiently integrated directly into the server. More specifically, it will decouple the switching operations and distribute their implementation throughout the virtualized system. This project will be comprised of the following thrusts: &lt;br/&gt; - Efficient Software Switching via a decoupled software switching architecture using a flow-based approach that eliminates these&lt;br/&gt; overheads and that enables efficient switching in software&lt;br/&gt; - Judicious choice and use of hardware acceleration. &lt;br/&gt; - The Rack Becomes the Server via having the network control plane learning the hardware topology, monitoring the network traffic,&lt;br/&gt; instructing the hypervisor to move communicating VMs closer to each other. &lt;br/&gt;&lt;br/&gt;As the demand for data center capacity continues to increase at an incredible rate, it is becoming critical to minimize the number of physical machines. This research will transform the way in which networking is implemented on future systems, enabling the effective use of 100s of virtual machines per physical machine. This reduction in physical machines can have significant societal and economic impacts. If U.S. data centers used virtualization technology to achieve just half of the power reductions predicted by Intel, we would save $3.5 billion of electricity and prevent the release of 322 million pounds of CO2 per year.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/19/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320965</AwardID>
+    <Investigator>
+      <FirstName>Alan</FirstName>
+      <LastName>Cox</LastName>
+      <EmailAddress>alc@rice.edu</EmailAddress>
+      <StartDate>08/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

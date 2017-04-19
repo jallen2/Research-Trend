@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SDCI NET: Development of an Ultra-high Speed End-to-end Transport Stack based on the Packet Scale Paradigm.</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>830000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kevin L. Thompson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>End-to-end data transfer rate requirements in the computational science communities&lt;br/&gt;---including computational biology, physics, astronomy, medicine, and environmental&lt;br/&gt;modeling--- are soon to approach the terabit-per-second regime. Unfortunately, the&lt;br/&gt;state-of-the-art in end-to-end transport protocol implementations scales to at most a&lt;br/&gt;few gigabit-per-seconds of single-stream steady-state throughput. This project will&lt;br/&gt;develop a 10Gbps+ Linux transport-layer stack of the novel paradigm of "packet-scale&lt;br/&gt;congestion-control", which can potentially improve scalability by several orders of&lt;br/&gt;magnitude. For this, the project will: (i) develop a non ACK-clocked state machine&lt;br/&gt;that replaces the TCP state machine, and (ii) develop both software-based as well as&lt;br/&gt;hardware-assisted high-speed implementations of precise inter-packet gap control and&lt;br/&gt;packet timestamping. The implementation will be extensively tested on a 10Gbps&lt;br/&gt;in-laboratory test-bed as well as on nationwide NLR paths. The project will then&lt;br/&gt;partner with up to three projects from the scientific domain, for deploying and&lt;br/&gt;evaluating the impact of the protocol stack on their infrastructure. The resultant&lt;br/&gt;implementation is expected to be transformative in the design and implementation of&lt;br/&gt;non ACK-clocked transport protocols. It is expected to dramatically improve large&lt;br/&gt;high-speed bulk data transfers, without requiring expensive dedicated networks, thus&lt;br/&gt;revolutionizing how the computational science community relies on the networking&lt;br/&gt;infrastructure.</AbstractNarration>
+    <MinAmdLetterDate>07/18/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1127413</AwardID>
+    <Investigator>
+      <FirstName>Jasleen Kaur</FirstName>
+      <LastName>Sahni</LastName>
+      <EmailAddress>jasleen@cs.unc.edu</EmailAddress>
+      <StartDate>07/18/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Frank</FirstName>
+      <LastName>Smith</LastName>
+      <EmailAddress>smithfd@cs.unc.edu</EmailAddress>
+      <StartDate>07/18/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Chapel Hill</Name>
+      <CityName>CHAPEL HILL</CityName>
+      <ZipCode>275991350</ZipCode>
+      <PhoneNumber>9199663411</PhoneNumber>
+      <StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7683</Code>
+      <Text>SOFTWARE DEVELOPEMENT FOR CI</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7683</Code>
+      <Text>SOFTWARE DEVELOPEMENT FOR CI</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

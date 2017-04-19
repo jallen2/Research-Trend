@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Streamlining High-End Computing with Software Persistent Memory</AwardTitle>
+    <AwardEffectiveDate>01/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2013</AwardExpirationDate>
+    <AwardAmount>759999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Current high-end computing (HEC) applications explicitly manage persistent data, including both application state and application output. This practice not only increases development time and cost, but also requires an application developer to be intimately aware of the underlying platform-dependent storage mechanisms to achieve good application I/O performance. Such vertical development also makes the application software less portable.&lt;br/&gt;&lt;br/&gt;The Software Persistent Memory (SoftPM) project builds a lightweight infrastructure for streamlining data management in next generation HEC applications. SoftPM eliminates the duality of data management in HEC applications by allowing applications to allocate persistent memory in much the same way volatile memory is allocated and easily restore, browse, and interact with past versions of persistent memory state. This simplifies the implementation of three broad capabilities required in HEC applications -- recoverability (e.g., checkpoint-restart), record-replay (e.g., data-visualization), and execution branching (e.g., simulation model-space exploration).&lt;br/&gt;&lt;br/&gt;The SoftPM project is organized in three modules. The first module builds an evolvable SoftPM API and addresses memory management issues. The second module addresses high-performance I/O and the atomicity of persistence points for local storage and parallel file systems. The final module builds several HEC application case-studies to illustrate the different capabilities supported by SoftPM in HEC environments.</AbstractNarration>
+    <MinAmdLetterDate>01/08/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/13/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0937964</AwardID>
+    <Investigator>
+      <FirstName>Ming</FirstName>
+      <LastName>Zhao</LastName>
+      <EmailAddress>mingzhao@asu.edu</EmailAddress>
+      <StartDate>01/08/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Raju</FirstName>
+      <LastName>Rangaswami</LastName>
+      <EmailAddress>raju@cs.fiu.edu</EmailAddress>
+      <StartDate>01/08/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jason</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>liux@cis.fiu.edu</EmailAddress>
+      <StartDate>01/08/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Florida International University</Name>
+      <CityName>Miami</CityName>
+      <ZipCode>331990001</ZipCode>
+      <PhoneNumber>3053482494</PhoneNumber>
+      <StreetAddress>11200 SW 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

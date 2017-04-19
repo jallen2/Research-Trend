@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Boundary Integral Simulations for Solvent Effects in Protein Structure and Dynamics</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>114000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proteins are large biomolecules each consisting of a unique sequence of amino acids with a complex three-dimensional structure. Proteins perform many essential functions in living organisms, and some diseases are associated with improper protein structure. Hence there is great interest among biomedical researchers in understanding the structure, dynamics, and function of proteins. In their natural environment proteins are surrounded by water with dissolved salt; the protein/solvent interactions are critical to proper function in the organism. Laboratory experiments are used to study these protein/solvent interactions, but computer simulations are also increasingly employed to complement the experiments. The investigators will use their expertise in computational mathematics to develop improved numerical algorithms and software for computing protein/solvent interactions, with potential impact on areas such as protein folding and synthetic drug design. Several applications will be studied in collaboration with bioscientists. The software developed will be posted in open source format on a public website and will be installed in a widely distributed molecular simulation software package for use by bio-computational researchers. The project will train a postdoc and a graduate student in this important branch of scientific research. &lt;br/&gt;&lt;br/&gt;The project will develop improved numerical algorithms and software for computing electrostatic solvent effects which play a key role in determining protein structure, dynamics, and function. Computing these effects is challenging, and implicit solvent models based on the Poisson-Boltzmann (PB) equation for the electrostatic potential are a popular approach to reducing the cost. However, grid-based PB simulations encounter difficulties due to the singular point charges representing the protein, the complex geometry and discontinuous dielectric constant across the molecular surface, and the unbounded computational domain. In previous NSF-supported research, the investigators developed a new treecode-accelerated boundary integral (TABI) potential solver with improved accuracy and efficiency, low memory usage, and straightforward parallelization. The current project has the following components. 1. (algorithm development) The investigators will extend the current TABI potential solver to compute the electrostatic solvation forces needed for molecular dynamics simulations. This requires careful discretization of singular integrals representing the induced charge on the molecular surface separating the low-dielectric protein domain from the high-dielectric solvent domain. 2. (parallel computing) The investigators will develop a new parallel TABI solver for graphics processing units (GPUs), taking advantage of the treecode's low memory and communication requirements. 3. (biological applications) The investigators will apply the new TABI potential solver and force driver to study solvent effects in proteins. Applications to be studied in collaboration with bioscientists include: (a) pH-dependent properties of a bactericidal lectin protein; (b) structural changes of a neurotransmitter receptor in an ionic environment which is relevant to an autoimmune disease; (c) extension of TABI to incorporate polarizable atomic multipole solutes.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/17/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1418957</AwardID>
+    <Investigator>
+      <FirstName>Weihua</FirstName>
+      <LastName>Geng</LastName>
+      <EmailAddress>wgeng@smu.edu</EmailAddress>
+      <StartDate>08/26/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Southern Methodist University</Name>
+      <CityName>Dallas</CityName>
+      <ZipCode>752750302</ZipCode>
+      <PhoneNumber>2147682030</PhoneNumber>
+      <StreetAddress>6425 BOAZ</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

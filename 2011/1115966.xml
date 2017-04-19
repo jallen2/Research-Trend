@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Scalable Algorithms for Learning to Recover Logical Form from Natural Language</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A key aim in Natural Language Processing is to robustly map from natural language sentences to formal representations of their underlying meaning. Recent work has addressed this problem by learning semantic parsers given sentences paired with logical meaning representations. The goal of this project is to develop models and learning algorithms for recovering lexical structure, in the context mapping sentences to logical form. This work is inspired by linguistic theories of the lexicon, but directly motivated by the limitations observed in current, state-of-the-art learning algorithms.&lt;br/&gt;&lt;br/&gt;The central hypothesis is that a new probabilistic learning approach for lexical generalization can simultaneous achieve the goals of (1) language-independent learning, (2) robustness when analyzing natural, unedited text, and (3) requiring reduced data annotation effort, in a computationally efficient manner that will scale to large learning problems. The approach under development induces a Combinatory Categorial Grammar (CCG), that is modified to replace the traditional, explicit list of lexical items in the lexicon with a distribution over lexical items that allows for significant generalization in the construction of possible syntactic and semantic structures for given input words. Modifying the CCG lexicon in this manner greatly increases the potential to generalize from the available training data without sacrificing the scalability that comes from working within an established grammar formalism for which efficient learning and parsing algorithms have been developed. This work will have impact at the algorithmic level and through applications, including advanced natural language interfaces to databases for non-technical users.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115966</AwardID>
+    <Investigator>
+      <FirstName>Luke</FirstName>
+      <LastName>Zettlemoyer</LastName>
+      <EmailAddress>lsz@cs.washington.edu</EmailAddress>
+      <StartDate>08/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

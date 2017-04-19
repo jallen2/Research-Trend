@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Petaflops Geospace Simulations</AwardTitle>
+    <AwardEffectiveDate>01/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2012</AwardExpirationDate>
+    <AwardAmount>1500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daniel Katz</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In recent years a concerted effort to develop General Circulation Models of Earth?s magnetosphere and it?s interaction with the solar wind and Earth?s upper atmosphere has been a major focus of the space sciences community. Much progress has been made toward this goal, but it has become clear that the computational requirements are very large. This project will develop a petaflop-capable version of the OpenGGCM (Open Geospace General Circulation Model), which is a coupled community model of the Earth?s magnetosphere, ionosphere, and thermosphere. The computationally challenging part of the OpenGGCM is the MHD magnetosphere core code which, in the current code, is under-resolved and lacks some of the necessary physics to model some of the key aspects of the magnetosphere - solar wind interaction. The petaflop OpenGGCM will overcome these limitations by including optimized code for new hardware, such as the IBM Cell Broadband Engine (CBE). The project will also develop a code library that intelligently reduces and compresses the data output from the simulation. Such I/O reduction becomes necessary for petascale simulations because I/O bandwidth and capacity does not keep pace with CPU performance. The compression technique will use wavelet compression to reduce output data before they are written to storage. This will facilitate the extraction of the optimal amount of information from the simulation. &lt;br/&gt;&lt;br/&gt;This project lays the groundwork for the next generation of geospace simulations, which promise to allow the study of the most fundamental problems of space physics. These will be the first true multiscale simulations that encompass all scales from the global scale of the magnetosphere down to the smallest scales at which the fluid approximation breaks down. The increased model resolution will dramatically reduce numerical effects and will make it possible to study dissipation sensitive phenomena such as turbulence and its effects. The development of I/O reduction algorithms introduces a new approach to mitigate the I/O bottlenecks inherent to petascale systems. &lt;br/&gt;&lt;br/&gt;All code developed during this project will be publicly available. Specifically, the petascale enabled P-OpenGGCM will be made available at the Community Coordinated Modeling Center (CCMC) for runs on demand, and the libraries developed to exploit the CBE architecture and to perform I/O compression will be made publicly available. The OpenGGCM is not just a research tool but also a candidate model for Space Weather prediction, and thus has the potential for a significant societal impact. The model improvements from this project will enhance its value in this capacity significantly. The compression libraries will be generic tools that can be utilized by any petascale simulation using time series data on three-dimensional rectilinear grids.</AbstractNarration>
+    <MinAmdLetterDate>01/04/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/04/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0749125</AwardID>
+    <Investigator>
+      <FirstName>R. Daniel</FirstName>
+      <LastName>Bergeron</LastName>
+      <EmailAddress>rdb@cs.unh.edu</EmailAddress>
+      <StartDate>01/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Joachim</FirstName>
+      <LastName>Raeder</LastName>
+      <EmailAddress>J.Raeder@unh.edu</EmailAddress>
+      <StartDate>01/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kai</FirstName>
+      <LastName>Germaschewski</LastName>
+      <EmailAddress>kai.germaschewski@unh.eduu</EmailAddress>
+      <StartDate>01/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Douglas</FirstName>
+      <LastName>Larson</LastName>
+      <EmailAddress>douglas.larson@unh.edu</EmailAddress>
+      <StartDate>01/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Foulks</LastName>
+      <EmailAddress>rafoulks@cs.unh.edu</EmailAddress>
+      <StartDate>01/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of New Hampshire</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>038243585</ZipCode>
+      <PhoneNumber>6038622172</PhoneNumber>
+      <StreetAddress>51 COLLEGE RD SERVICE BLDG 107</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Hampshire</StateName>
+      <StateCode>NH</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

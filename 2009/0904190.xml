@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Scalable Multiscale Models for the Cerebrovasculature: Algorithms, Software and Petaflop Simulations</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>276510</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Barry I. Schneider</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Future petaflop simulations of realistic biological and physical systems will necessarily involve concurrent multiscale modeling. This project will address fundamental mathematical, algorithmic and software issues for simulating a human brain vascular model, the first of its kind, consisting of 100 large 3D arteries (Macrovascular Network, MaN), 10 million arterioles (Mesovascular Network,MeN) and one billion capillaries (Microvascular Network, MiN). The three-level MaN-MeN-MiN integration offers a general platform for developing hybrid deterministic-stochastic systems, scalable algorithms, and scalable multiscale software to handle coupling between heterogeneous PDEs and also between continuum and atomistic formulations. Building upon their initial work on the human arterial tree and the new brain imaging data, PIs propose image-based 3D Navier-Stokes simulations for fully resolving MaN, coupled to subpixel stochastic simulations of MeN and MiN to complete the closure. Project will implement an MPI/UPC hybrid model to exploit the strengths of both programming paradigms: the high scalability and rich functionality for process control in MPI, and the low communication overhead for small messages and fine-grain parallelism in UPC. We will further seek to integrate multi-threading into the MPI/UPC model, especially for dynamic refinement. The main software advancement will be the development of MPIg tailored for multiscale applications, like the MaN-MeN-MiN problem, on a single or multiple petaflop platforms. Several open issues associated with co-processing and visualization of petabyte-size data will be also addressed. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Broader Impact: This work will contribute to Computational Mathematics (interfacing heterogeneous PDEs, and also PDEs-atomistic systems); to Computer Science (development of UPC/MPI, multiscale MPIg, and increased leverage of vendor-supplied MPI in MPIg); and Bioengineering (biomechanics gateway to simulate brain pathologies). This proposal is transformative in that it shifts the computational paradigm to a new level (orders of magnitude above the state-of-the-art) that will allow, for first time, realistic simulations of cerebrovasculature in health and disease. The validated algorithms for peta°op computing we propose are of general interest for use in many multiscale biological and physical applications, including vascular trees of all living organisms and also in simulations of nuclear reactors and other power/chemical plants. The new simulation environment, with the human brain as a backdrop, will be critical in training a new generation of inter-disciplinary scientists to be comfortable in using multiscale mathematics and scalable software tools for extreme computing. Project will engage postdocs, graduate, undergraduate and high school students. We will use 3D immersive/interactive visualizations as an opportunity to educate students about simulation, predictability, and other issues of computer science, engineering, and applied mathematics. Outreach activities will involve female students from middle and high schools and students from the special MET high schools.</AbstractNarration>
+    <MinAmdLetterDate>09/08/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0904190</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Papka</LastName>
+      <EmailAddress>papka@niu.edu</EmailAddress>
+      <StartDate>09/08/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606375418</ZipCode>
+      <PhoneNumber>7737028669</PhoneNumber>
+      <StreetAddress>5801 South Ellis Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

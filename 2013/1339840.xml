@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: SI2-SSI: A Comprehensive Ray Tracing Framework for Visualization in Distributed-Memory Parallel Environments</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>235961</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Scientific visualization plays a large role in exploring the scientific simulations that run on supercomputers; new discoveries are often made by studying renderings generated through visualization of simulation results. The standard technique for rendering geometry is rasterization and the most commonly used library for performing this is OpenGL. Many visualization programs (VisIt, Ensight, VAPOR, ParaView, VTK) use OpenGL for rendering. However, recent architectural changes on supercomputers create significant opportunities for alternate rendering techniques. The computational power available on emerging many-core architectures, such as the Intel Xeon Phi processors on TACC?s Stampede system, enable ray-tracing, a higher quality technique. Further, as the amount of geometry per node rises, ray-tracing becomes increasingly cost effective, since its computational costs are proportional to the screen size, not the geometry size. Finally, the software implementation for OpenGL can not be easily mapped to non-GPU multi-core and many-core systems, creating a significant gap; if not closed, visualization will not be possible directly on large supercomputers. This confluence of new, more capable architectures, the increase in geometry per node, and concerns about the durability of the established rendering path all motivate this work. &lt;br/&gt;&lt;br/&gt;To address these trends, this research uses a two-pronged approach. First, the research will replace the OpenGL pathways that are commonly used for visualization with a high-performance, open-source ray tracing engine that can interactively render on both a CPU and on accelerator architectures. This new library will support the OpenGL API and will be usable immediately by any OpenGL-based visualization package without additional code modi&amp;#64257;cation. Second, this research will provide a direct interface to a high-performance distributed ray tracing engine so that applications can take advantage of ray tracing capabilities not easily exposed through the standard OpenGL interface, such as participating media and global illumination simulation. These features will enable the open science community to easily create photo-realistic imagery with natural lighting cues to aid in analysis and discovery. It will further expand the capacity of existing cyberinfrastructure to provide interactive visualization on standard HPC resources. &lt;br/&gt;&lt;br/&gt;This work has the potential to revolutionize in situ visualization capabilities by unifying the (potentially hybrid) architecture that efficiently run both simulation and visualization. Communicating with underrepresented groups will be a major component of outreach efforts through the PCARP, MITE and Women in Engineering programs. In addition, the project team will disseminate this work to the general public through NSF XD program, the VisIt visualization toolkit and by exhibiting at forums such as IEEE Visualization, IEEE High Performance Graphics and ACM Supercomputing.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/13/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1339840</AwardID>
+    <Investigator>
+      <FirstName>Henry</FirstName>
+      <LastName>Childs</LastName>
+      <EmailAddress>hankchilds@gmail.com</EmailAddress>
+      <StartDate>09/13/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Oregon Eugene</Name>
+      <CityName>Eugene</CityName>
+      <ZipCode>974035219</ZipCode>
+      <PhoneNumber>5413465131</PhoneNumber>
+      <StreetAddress>5219 UNIVERSITY OF OREGON</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8009</Code>
+      <Text>Scientifc Software Integration</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

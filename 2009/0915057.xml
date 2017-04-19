@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Treecode-Accelerated Implicit Solvent Models for Biomolecular Simulations</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>242659</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Current biomolecular simulations are unable to reach the long time scales needed to study conformation changes such as protein folding. One of the main obstacles is the high cost of computing the electrostatic forces among the solvent water molecules surrounding the protein. To address this issue, this project adopts an implicit solvent model in which the electrostatic potential satisfies the Poisson-Boltzmann (PB) equation. Numerical solution of the PB equation poses a challenge due to the geometric complexity of the molecular surface, the discontinuity in the dielectric function, and the unbounded computational domain. The investigators will overcome these difficulties by developing a boundary integral PB solver using a new Cartesian treecode algorithm for screened Coulomb interactions. The treecode-accelerated PB solver will be tested on benchmark examples such as Kirkwood's solution for a spherical surface, and the results will be compared with those obtained using other PB solvers. In addition to the electrostatic potential, the code will be extended to compute other important quantities such as the solvation free energy and solvation forces needed for dynamics. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt; One obstacle facing current biomolecular simulations is the expense of computing the self-induced electrostatic forces among the molecules in the system. Advances in computer hardware alone won't achieve the improvements necesssary for studying long time molecular dynamics. This project therefore focuses on improving the mathematical algorithms used in these computer simulations. In addition to enabling more accurate and efficient biomolecular simulations, the algorithms developed will be potentially useful in other applications where electrostatic forces play a role, for example in modeling charge transport in fuel cells. The project will contribute to training the scientific workforce by supporting the research of a postdoc who will be mentored by the PI.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/29/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915057</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Krasny</LastName>
+      <EmailAddress>krasny@umich.edu</EmailAddress>
+      <StartDate>08/26/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Weihua</FirstName>
+      <LastName>Geng</LastName>
+      <EmailAddress>wgeng@smu.edu</EmailAddress>
+      <StartDate>08/26/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

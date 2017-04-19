@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A 3D implicit immersed boundary method with application</AwardTitle>
+    <AwardEffectiveDate>07/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2010</AwardExpirationDate>
+    <AwardAmount>193484</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The investigator studies a 3D implicit immersed boundary (IB) method and its parallel implementation with applications. The IB method has been widely used to simulate problems involving interactions of an elastic structure and an incompressible viscous fluid. Because of the attractive relative simplicity of an explicit IB method numerous explicit versions of the method have been used in practice. However, an explicit IB method has a drawback: the time-step size must be small to maintain numerical stability of the immersed solid boundary which is not economical in computational cost, especially for three dimensional problems. The investigator develops a 3D implicit IB method by implementing an implicit scheme for computing forces imparted by the immersed boundary to the fluid and for updating the solid boundary configuration. Because the mixed Lagrangian and Eulerian descriptions of the fundamental variables and their complicated interconnections, a highly nonlinear algebraic system of equations has to be solved for each time step to advance the solution. In order to reduce the complexity of the 3D implicit IB method and to facilitate its parallel implementation, the lattice Boltzmann method (the D3Q19 model) is used to solve the incompressible viscous Navier-Stokes equations. In addition, The investigator studies an efficient preconditioner based on inherent properties of the problem for expediting the solution of the nonlinear algebraic system of equations. The investigator applies the new implicit IB method to investigate the drag reduction process associated with a flexible sheet of finite thickness immersed in a flowing viscous fluid. The objective is to develop scaling laws for drag with respect to oncoming flow speed, Reynolds number, dimensionless bending modulus and dimensionless mass density. More advanced applications include modeling and simulation of the primary cilia and the endothelial surface layer interacting with viscous moving fluids.&lt;br/&gt;&lt;br/&gt;Nature is very rich in problems involving interactions of a flexible body and a fluid (e.g., a flapping flag in the air). Such interactions underlie a wide range of phenomena in science and engineering which are very complicated and not yet well understood. The investigator studies a numerical method for investigating the fluid-flexible-body-interaction through large-scale scientific computing using modern supercomputers. The method is applicable to many important problems in science and biomedical engineering. One immediate application is study of drag reduction induced by body flexibility. The major energy expense for underwater propulsion is used for overcoming the resistance (drag) of ambient fluid. One aim of a hydrodynamic design is to reduce the drag experienced by an immersed body (e.g. a vehicle). Reduced drag means improved propulsion efficiency and lowered energy cost. The investigator's study may inspire genesis and development of novel designs of underwater propelling technologies with improved efficiency and increased speed. More sophisticated applications include modeling and simulations of the primary cilia of the epithelial cells interacting with the moving viscous fluid in the kidney tubules, which is related to the polycystic kidney disease, and studying the genesis of atherosclerosis (leading cause of heart attacks and stokes) in which blood flow with transport and reacting constituents interacting with a compliant vessel wall covered by an endothelial surface layer.&lt;br/&gt;Such applications may lead to greater understandings of the polycystic kidney disease and the atherosclerosis.</AbstractNarration>
+    <MinAmdLetterDate>06/22/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/22/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0713718</AwardID>
+    <Investigator>
+      <FirstName>Luoding</FirstName>
+      <LastName>Zhu</LastName>
+      <EmailAddress>luozhu@iupui.edu</EmailAddress>
+      <StartDate>06/22/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

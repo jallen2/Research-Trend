@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: F: DKA: Usable Multiple Scale Big Data Analytics through Interactive Visualization</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>998912</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Gaining big insight from big data requires big analytics, which poses big usability problems. Analyses of big data often rely on several computational and statistical models that operate on multiple levels of data scale to discover and characterize noteworthy patterns. The models work jointly or in sequence to filter, group, summarize, and visualize big data so that analysts may assess the data. As a simple example in big text analytics, massive text is first sampled for relevant or representative words, then further reduced by a complex form of modeling (e.g., topic modeling), then visualized by applying a dimension reduction algorithm. As the size of data increases, so does the number of models and, likewise, the need for human interaction in the analytical process. By interacting, humans include expert judgment into the analytical process, and efficiently explore and make sense of big data from varying perspectives. However, for a variety of reasons, interacting with any individual model is difficult, let alone a growing number of models. Thus, current human-computer-interaction research is merged with complex statistical methods and fast computation to develop a usable, multi-model analytic framework for big data. Wrapped in software, the framework will be accessible to both professional and student users alike; i.e., available to make new discoveries in current government and industrial big datasets, as well as, educate future analysts at the undergraduate and graduate levels given new teaching modules. &lt;br/&gt;&lt;br/&gt;The new analytic framework extends Visual-to-Parametric Interaction (V2PI) to Multi-scale V2PI (MV2PI). V2PI currently supports usable small-data analytics, and enables users to adjust model parameters by interacting directly with data in visualizations. That is, V2PI interprets visual interactions quantitatively to update underlying model parameters and produce new visualizations. MV2PI now links together several models that operate at multiple levels of data-scale in a unified interactive space. In MV2PI, small-scale data interactions in visualizations propagate to larger scale models (by inverting them and updating their parameters) and new visualizations are generated. In the text analytics example, if users drag several data points together to hypothesize a cluster, the inverted dimension reduction model computes updated dimension weights, queries relevant new hits at the large scale, identifies changed topics, and updates the layout to show big-data support for the new cluster. With MV2PI, users may interactively explore large-scale data and complex inter-relationships between models in real time, and in a usable fashion that directly supports their natural cognitive sensemaking process. Development of MV2PI involves: (1) formulation of an explicitly stated framework ; (2) creation of new interactive models (e.g., Interactive K-means and Interactive Latent Dirichlet Allocation) that cover different levels of scale and support MV2PI model inversion; (3) implementation of computational methods to support high-performance, real-time model updates; and (4) evaluation of MV2PI software framework for usability and effectiveness. The project web site (http://www.apps.stat.vt.edu/bava/mv2pi.html) will include information on MV2PI development, access to software, datasets, educational materials, and publications.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1447416</AwardID>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>North</LastName>
+      <EmailAddress>north@cs.vt.edu</EmailAddress>
+      <StartDate>08/25/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yong</FirstName>
+      <LastName>Cao</LastName>
+      <EmailAddress>yongcao@vt.edu</EmailAddress>
+      <StartDate>08/25/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Leanna</FirstName>
+      <LastName>House</LastName>
+      <EmailAddress>lhouse@vt.edu</EmailAddress>
+      <StartDate>08/25/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Scotland</FirstName>
+      <LastName>Leman</LastName>
+      <EmailAddress>leman@vt.edu</EmailAddress>
+      <StartDate>08/25/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Polytechnic Institute and State University</Name>
+      <CityName>BLACKSBURG</CityName>
+      <ZipCode>240610001</ZipCode>
+      <PhoneNumber>5402315281</PhoneNumber>
+      <StreetAddress>Sponsored Programs 0170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

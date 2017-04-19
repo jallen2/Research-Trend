@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Grammar Aware High-Speed Application Protocol Parsing for Deep Flow Inspection</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>466000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Brassil</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Application protocol parsing, the translation of raw packet flows into higher level flows of semantic content, is the foundation and enabler of a wide variety of current and future networking services such as network security, application-aware load balancing, content-aware networking, and vulnerability based signature checking. A key feature of application protocol parsing is the controlled extraction of specific data within such a high level flow for further processing. &lt;br/&gt;A fundamentally new framework for application protocol parsing and field extraction, FlowSifter is under development. To achieve practical application protocol parsing and efficient field extraction suitable for high speed networking devices that process millions of concurrent flows, FlowSifter performs automated selective stackless approximate parsing. &lt;br/&gt;The new formal language theory models such as counting automata are applied to achieve the research goals. Specifically, FlowSifter allows a user to specify application protocols as well as the desired fields to be extracted using a modified regular grammar. FlowSifter turns the modified regular grammar into a counting automata to perform the approximate, selective, and approximate field extraction with controlled error bounds. &lt;br/&gt;Expected results of this project include the new formal language theory models and the comprehensive FlowSifter framework. Research results are broadly disseminated through publications, open source software releases, freely available course modules, and industry interaction. The development of FlowSifter benefits society by enabling the future deployment of potentially transformative security and networking services such as vulnerability based signature checking for detecting polymorphic worms in network intrusion detection/prevention systems (IDSes/IPSes) and content-aware networking.</AbstractNarration>
+    <MinAmdLetterDate>07/01/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/07/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017588</AwardID>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Torng</LastName>
+      <EmailAddress>torng@cse.msu.edu</EmailAddress>
+      <StartDate>07/01/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alex</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>alexliu@cse.msu.edu</EmailAddress>
+      <StartDate>07/01/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

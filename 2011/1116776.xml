@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: An Empirical Study of Text-based Passwords and Their Users</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>494492</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Text-based passwords are the most commonly used mechanism for authenticating users to computer systems, but are often easy for attackers to compromise. To mitigate the danger of such attacks, system administrators use password-composition policies, which force newly created passwords to adhere to a set of requirements intended to make them harder to guess. Although it is generally believed that reasonable password-composition policies make passwords harder to guess, and hence more secure, research has not been able to precisely quantify the level of resistance to password guessing provided by different password-composition policies or the individual requirements of which they are comprised. Beyond their affect on the guessability of passwords, password-composition policies also affect users' behavior. For example, certain password-composition policies that lead to more-difficult-to-predict passwords may also lead users to write down their passwords more readily, reuse them across accounts, or forget them more often. Such behavior can both affect an adversary's ability to guess passwords, and raise the cost of administering a system.&lt;br/&gt;&lt;br/&gt;This project will substantially contribute to the understanding of the effects of password-composition policies on the security and usability of text-based passwords. The results of this research will be applicable to almost all computer systems that use text-based passwords, and will allow administrators to better select suitable password-composition policies, thus rendering them less susceptible to account compromise. More specifically, this project will involve collecting sets of passwords (or data about passwords) created under different password-composition policies and data about the associated user behaviors, and analyzing them for security and usability. Sets of up to tens of thousands of passwords or statistics about them will be collected via online studies, actual field data from two institutions, and from paper-and-pencil surveys and lab studies. This data will be analyzed using several new methods, including an approach for calculating how long it would take for various state-of-the-art password-guessing tools or algorithms to guess the passwords, and a new method for approximating the entropy of passwords from smaller datasets than was previously feasible. Based on this methodology, this research will: (1) measure the guessability of passwords generated under multiple different password-composition policies more accurately than was previously possible; (2) empirically assess the usefulness of entropy approximations (a common, but questioned, measure of password strength) as a measure of password guessability by state-of-the-art password-guessing algorithms; and (3) compare the usability of and user sentiment engendered by each password-composition policy to develop a holistic understanding of the merits of policies. This will enable the development of a set of actionable guidelines for administrators that will help them select password-composition policies appropriate for their user populations and security requirements. Two graduate students will be directly involved in this research project.</AbstractNarration>
+    <MinAmdLetterDate>07/18/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/18/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116776</AwardID>
+    <Investigator>
+      <FirstName>Ljudevit</FirstName>
+      <LastName>Bauer</LastName>
+      <EmailAddress>lbauer@cmu.edu</EmailAddress>
+      <StartDate>07/18/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nicolas</FirstName>
+      <LastName>Christin</LastName>
+      <EmailAddress>nicolasc@andrew.cmu.edu</EmailAddress>
+      <StartDate>07/18/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Lorrie</FirstName>
+      <LastName>Cranor</LastName>
+      <EmailAddress>lorrie@acm.org</EmailAddress>
+      <StartDate>07/18/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Nearly Linear-Time Algorithms for Mixed Packing and Covering Linear Programs</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>102044</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>On both practical and theoretical levels, linear programming is one of the most important optimization problems studied in Computer Science and Operations Research. But, on both levels, our current understanding of linear programming has substantial room for improvement. &lt;br/&gt;&lt;br/&gt;Theoretically, the worst-case time bounds that are known for current algorithms are far higher than what is observed in practice. Although the recent development of smoothed analysis gives polynomial-bounded running time on certain kinds of instances, the bounds are still very high-degree polynomials, much larger than what we see in practice. Our current theoretical models do not accurately model how linear-programming algorithms behave in practice. Practically, current algorithms often take time quadratic in the size of the input (even to find approximate, as opposed to optimal, solutions). An ideal algorithm should take linear, or nearly linear, time. State-of-the-art implementations (such as CPLEX) are generally commercially developed, taking research on them out of the public/academic domain. Effective implementation of Simplex and Interior-Point algorithms is difficult, as evidenced by the performance gap between free and commercial solvers and the cost of the best commercial solvers. To solve very large problems, even the most effective implementations sometimes require manual testing and tuning, and even then can be unpredictably slow. &lt;br/&gt;&lt;br/&gt;Existing algorithms leave room for improvement on several fronts, including ease of implementation, ease of use, numerical stability, public accessibility, running time, and good theoretical analyses. Given the widespread practical and commercial importance of linear programming, the development and publication of algorithms with provably good worst-case running times, provable numerical stability, and relatively simple, open-source implementations, have the potential for broad practical and commercial impact. The goal of the project is to make progress in this direction by designing provably fast (nearly linear time) and numerically robust approximation algorithms for very large linear-programming problems. The project focuses on algorithms for so-called mixed packing and covering linear programs --- an important special case in which all coefficients in the constraint matrix are non-negative. In practice, for problem instances having more than thousands of rows and columns, the goal of the project is algorithms that find solutions within 1% of optimal, and do so orders of magnitude more quickly than algorithms now used in practice (Simplex, Interior Point, and Ellipsoid). The algorithms should be numerically stable --- requiring no special treatment of instances with ill-conditioned constraint matrices. The algorithms will be made publically available via implementations and open-source publications.</AbstractNarration>
+    <MinAmdLetterDate>06/06/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/06/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117954</AwardID>
+    <Investigator>
+      <FirstName>Neal</FirstName>
+      <LastName>Young</LastName>
+      <EmailAddress>neal.young@ucr.edu</EmailAddress>
+      <StartDate>06/06/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

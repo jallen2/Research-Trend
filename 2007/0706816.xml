@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Synscenelab: A statistical analysis of feasibility and computability of scene interpretation in synthetic stochastic images</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>225170</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The introduction of statistical techniques in computer vision has yielded a number of interesting algorithms able to partially solve certain constrained recognition problems. However limitations on computing power and available training data impose certain difficult tradeoffs which are rarely quantified so that choices of parameters and models are typically done in an ad-hoc manner. These tradeoffs can only be quantified in a context where the statistical properties of the objects and their appearance in the images are well defined, yet this is far from the case in real images. The alternative, which is the goal of this project, is to perform an analysis of the same issues in a synthetic stochastic setting, using a generative model for images. Object classes are stochastically generated and instantiated in the images, together with clutter, occlusion and noise. The generative model should be rich enough to qualitatively pose the same problems as real images, yet sufficiently simple to enable quantitative analysis; hence this is not an attempt to synthesize real images. Questions regarding the limits of feasibility of various tasks such as detection and classification as a function of key parameters defining the generative model is analyzed quantitatively, in particular the analysis of the tradeoff between accuracy and computation time. The emphasis on integrating computation time in the analysis gives rise to new types of statistical questions, and new forms of asymptotic regimes as a function of the image resolution, the number of distinct classes and their variability. The hope is that the proposed framework will offer a setting in which systematic algorithmic choices can be made and contribute to the development of concrete computer vision algorithms.&lt;br/&gt;&lt;br/&gt;Computer vision algorithms have produced some partial solutions to some constrained problems such as face detection, hand written digit recognition, or face recognition in severely restricted settings. Since a proper theoretical foundation for the field is lacking, a wide variety of algorithms have been proposed based on ad-hoc choices and it is difficult to assess what components of the different approaches are the most useful, which elements should be extended further and which elements should be dropped. The first step in laying a theoretical foundation for computer vision algorithms is a statistical description of the population of images. Since this is very hard to define the investigators propose to study a synthetically generated world of images, which is much simpler but which gives rise to qualitatively similar tradeoffs and challenges. In this synthetic setting the investigators will rigorously quantify the tradeoffs and hopefully be able to draw important conclusions with respect the algorithmic applications.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0706816</AwardID>
+    <Investigator>
+      <FirstName>Yali</FirstName>
+      <LastName>Amit</LastName>
+      <EmailAddress>amit@galton.uchicago.edu</EmailAddress>
+      <StartDate>08/10/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606375418</ZipCode>
+      <PhoneNumber>7737028669</PhoneNumber>
+      <StreetAddress>5801 South Ellis Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

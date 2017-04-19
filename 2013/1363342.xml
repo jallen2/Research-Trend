@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Unraveling the nature of inter and intra-molecular interactions</AwardTitle>
+    <AwardEffectiveDate>06/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2018</AwardExpirationDate>
+    <AwardAmount>420000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03090000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Chemistry</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Evelyn M. Goldfield</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Martin Head-Gordon of the University of California, Berkeley is supported by an award from the Chemical Theory, Models and Computational Methods program in the Chemistry Division to develop computational tools that provide physical insight into the numerical results of quantum chemistry calculations. Roughly half of new research publications in chemistry today use quantum chemistry calculations as a complement to experiment, to predict chemical reaction mechanisms, structure, and diverse molecular properties. Most research on quantum chemistry methodology is focused on improvements in the numerical methods and algorithms to aid such applications. While very valuable because such research enables better predictions, the resulting predictions may yield only numbers and not physical insight. In contrast, the tools developed in this project are focused interpreting the results of the quantum chemistry calculations. For example, a computed interaction energy, such as the binding of a molecule to an active site of an enzyme, can be decomposed into additive contributions which have different physical origins, such as permanent charge-charge interactions, induced interactions, and charge-transfer effects. Seeing which contributions are dominant in a given molecular interaction can explain the origin of the binding, and thus provide a rational basis for tuning the interaction by making chemical modifications. There are many uses for these tools ranging from increased understanding of simple bonding processes, to understanding new types of bonding such as halogen bonds, to the desired goal of being able to rationally design improved catalysts or drugs. The theory of such a breakdown is called an energy decomposition analysis (EDA). There are only a few other successful existing EDA methods, which are widely used in quantum chemistry. Each of these has demonstrable limitations, which motivates this project on the development and testing of a new and improved EDA.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;At a more technical level, the objective is to develop a new generation EDA that lifts three key limitations of an existing EDA based on absolutely localized molecular orbitals (ALMO-EDA). This should yield more reliable interpretations on broader classes of molecular problems where chemists seek insight in addition to numbers. The first objective is the development of a convergent method for electrostatic polarization which does not rely on an underlying atomic orbital (AO) basis to define polarization in the overlapping regime. This method will therefore have a well-defined basis set limit. The second goal is to use the new polarization treatment together with a new non-perturbative treatment of charge-transfer to extend the EDA to bonded intra-molecular interactions. Since such interactions are very strong and yet can involve cancellation between even larger positive and negative terms (e.g. positive repulsions and geometric distortion vs negative polarization and charge-transfer), the development of an adiabatic generalization of the EDA is also a priority. This adiabatic EDA will be defined so that all contributions are negative semi-definite, such that interpretation of strong interactions is more straightforward. The third principal objective is to develop an extension of the EDA to go beyond the framework of single determinant wave functions (i.e. Hartree-Fock or density functional theory). To treat wave function methods that include correlation correctly requires developing theory for the correlation contribution to the frozen and polarization interactions, as well as a dispersion contribution that is negative semi-definite. The initial target is second order Moller-Plesset theory, but it will also be highly desirable to subsequently explore extensions to coupled cluster theory.</AbstractNarration>
+    <MinAmdLetterDate>06/12/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/12/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1363342</AwardID>
+    <Investigator>
+      <FirstName>Martin</FirstName>
+      <LastName>Head-Gordon</LastName>
+      <EmailAddress>mhg@cchem.berkeley.edu</EmailAddress>
+      <StartDate>06/12/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>6881</Code>
+      <Text>Theory, Models, Comput. Method</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

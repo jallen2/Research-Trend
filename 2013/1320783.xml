@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: BugX: In-house Debugging of Field Failures to Improve Software Quality</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>434999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A recent survey conducted among developers of the Apache, Eclipse, and&lt;br/&gt;Mozilla projects showed that the ability to recreate field&lt;br/&gt;failures--failures of the software that occur after deployment, on&lt;br/&gt;user machines--is considered of fundamental importance when&lt;br/&gt;investigating bug reports. Unfortunately, the information typically&lt;br/&gt;contained in a bug report, such as memory dumps or call stacks, is&lt;br/&gt;usually insufficient for recreating the problem. Even more advanced&lt;br/&gt;approaches for gathering field data and help in-house debugging tend&lt;br/&gt;to provide too little information to developers and to be therefore&lt;br/&gt;ineffective.&lt;br/&gt;&lt;br/&gt;The overall goal of this project is to improve the state of the art by&lt;br/&gt;allowing, supporting, and partially automating, actual in-house&lt;br/&gt;debugging of field failures. Specifically, this research will develop&lt;br/&gt;novel techniques and tools that let developers reproduce, analyze, and&lt;br/&gt;understand, in-house, failures observed in the field. Given a field&lt;br/&gt;failure, the developed techniques will (1) collect a suitable set of&lt;br/&gt;data about the failure on the user machine, (2) generate one or more&lt;br/&gt;inputs that can be executed against the failing application and result&lt;br/&gt;in a failure analogous to the one observed, and (3) provide hints on&lt;br/&gt;the root causes of the failure and possible fixes for these causes. To&lt;br/&gt;achieve this goal, the research will combine static and dynamic&lt;br/&gt;program analysis techniques and leverage and extend techniques for&lt;br/&gt;testing deployed software, input generation and anonymization, and&lt;br/&gt;software debugging. If successful, this research will provide&lt;br/&gt;unprecedented advantages to developers by allowing them to debug field&lt;br/&gt;failures in the same way in which they debug in-house ones, which will&lt;br/&gt;improve software quality and benefit all segments of society that&lt;br/&gt;depend on software. Furthermore, the project will develop and make&lt;br/&gt;available to the broader scientific community educational materials&lt;br/&gt;that incorporate research findings, tools that implement the&lt;br/&gt;techniques developed within the project, and samples of the software&lt;br/&gt;benchmarks used in empirical evaluations. The availability of&lt;br/&gt;curriculum materials, tools, infrastructure, and benchmarks will&lt;br/&gt;advance knowledge, enable additional research in the area, and&lt;br/&gt;ultimately further benefit society.</AbstractNarration>
+    <MinAmdLetterDate>06/26/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/26/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320783</AwardID>
+    <Investigator>
+      <FirstName>Alessandro</FirstName>
+      <LastName>Orso</LastName>
+      <EmailAddress>orso@cc.gatech.edu</EmailAddress>
+      <StartDate>06/26/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

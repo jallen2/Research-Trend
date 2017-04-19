@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative: CSR-AES: System Support for Auto-tuning MPI Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>311897</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Krishna Kant</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The AToMS (Automatic Tuning of MPI Software) project is investigating a software system that can automatically improve the performance of large-scale scientific applications. Scientific codes that demand more and more computing resources are critical to modern science, but too often scientists must spend time constructing programs that run fast at the expense of doing their primary research. As computers contain an increasing number of computing elements, the problem worsens. The goal of the AToMS project is to begin to address this issue by applying automatic application tuning.&lt;br/&gt;&lt;br/&gt;An optimizing compiler transforms programs into sematically equivalent ones that perform better. When dealing with any complicated architecture it is difficult to know which transformations will improve performance. Auto-tuning takes the approach of trying many transformations and empirically evaluating the resulting versions. AToMS performs this auto-tuning with a combination of a static analysis based code transformation engine (called ASPhALT) and runtime support in the OpenMPI library. The combination of compile-time and run-time support allows for code restructuring to overlap computation and communication and the creation of optimized data-packing routines. In addition, code can be generated to take advantage of multicore processor&lt;br/&gt;architectures.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: The merit of the proposed pro ject is in gaining understanding about what is required to support automatically tunable MPI programs. Broader Impacts: This project will impact the high-performance and scientific computing community and users of parallel computers by making it easier to achieve good performance.</AbstractNarration>
+    <MinAmdLetterDate>08/23/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/28/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720712</AwardID>
+    <Investigator>
+      <FirstName>Lori</FirstName>
+      <LastName>Pollock</LastName>
+      <EmailAddress>pollock@udel.edu</EmailAddress>
+      <StartDate>08/23/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Douglas</FirstName>
+      <LastName>Swany</LastName>
+      <EmailAddress>swany@iu.edu</EmailAddress>
+      <StartDate>08/23/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Delaware</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>197162553</ZipCode>
+      <PhoneNumber>3028312136</PhoneNumber>
+      <StreetAddress>210 Hullihen Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Delaware</StateName>
+      <StateCode>DE</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Scalable Performance and Power-Aware Hybrid Compilation System for Multicores</AwardTitle>
+    <AwardEffectiveDate>05/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2011</AwardExpirationDate>
+    <AwardAmount>381000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A large body of existing, sequential applications must be migrated to multicore platforms with maximum transparency. To achieve this, techniques for automatic parallelization must be pushed to their limits, and current shared memory programming paradigms must be reconsidered with respect to their ease of use and ability to support a wide range of programming needs. The potential for subtle, hard-to-find bugs such as data race conditions needs to be minimized and strategies devised to ensure that remaining errors are caught at run time. &lt;br/&gt;&lt;br/&gt;In this project, the investigator builds on top of existing compiler technology for automatic parallelization and OpenMP translation in order to facilitate application development for multicore systems. To do so, a novel translation strategy is developed for this hybrid sequential/directive-based programming model that takes characteristics of multicore platforms into account as well as dealing with power conservation constraints. The approach minimizes the likelihood of erroneous code and relies on the compilation system to reduce synchronization, improve the load balance and otherwise adapt the program to the system. The investigator develops strategies to gather both coarse-grain and fine-grain performance information for selected program regions with low overheads. The project also creates techniques to exploit this information dynamically, and to adapt and optimize based on different levels of program representation. The ideas will be implemented and deployed via an infrastructure that combines a robust, open source compiler, its run time system and the corresponding dynamic compiler into a cohesive environment to support the translation and execution of sequential and directive-based programs.</AbstractNarration>
+    <MinAmdLetterDate>05/01/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/22/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702775</AwardID>
+    <Investigator>
+      <FirstName>Barbara</FirstName>
+      <LastName>Chapman</LastName>
+      <EmailAddress>barbara.chapman@stonybrook.edu</EmailAddress>
+      <StartDate>05/01/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Houston</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>772042015</ZipCode>
+      <PhoneNumber>7137435773</PhoneNumber>
+      <StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4080</Code>
+      <Text>ADVANCED COMP RESEARCH PROGRAM</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

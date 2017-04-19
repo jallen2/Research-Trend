@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: A Node OS for High-Performance Cloud Computing</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>498299</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project encompasses design, implementation, and experimental evaluation of an operating system (OS) targeted specifically for compute nodes in "cloud" data centers. Cloud computing offers a chance to rethink OS design, as the goal is not a desktop system but rather an efficient building block for large clusters that support networked applications. The proposed OS acts as a "dumb" node in a cluster, taking commands from an external cluster manager and handing out resources to applications as appropriate. This, plus the use of relatively few devices and no graphical user interface, means it need only support a small fraction of traditional OS features. Instead the focus is on high performance with many cores, performance isolation, remote control, and tiers of service. &lt;br/&gt;&lt;br/&gt;The operating system mechanisms explored in this project have potential to improve data center efficiency, both by improving single-node efficiency, and by making it easier to leverage underutilized nodes for batch processing and large-scale data analysis without hindering latency-sensitive applications. For greater impact, the project will release the source code of the developed OS as free, open-source software. An earlier version of the operating system that focused on enabling many-core parallelism has already been released. The new OS has potential uses for education as well for exploring higher-level cluster OS ideas. In addition, the principal investigator will leverage Berkeley's SUPERB program to bring in underrepresented undergraduate students for an 8-week summer research experience.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320005</AwardID>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Brewer</LastName>
+      <EmailAddress>brewer@cs.berkeley.edu</EmailAddress>
+      <StartDate>08/26/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

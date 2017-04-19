@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPA-SEL: Practical Typestate Verification with Assume-Guarantee Reasoning</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>316000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CCF-0811592&lt;br/&gt;&lt;br/&gt;CPA-SEL: Practical Typestate Verification with Assume-Guarantee Reasoning&lt;br/&gt;&lt;br/&gt;Jonathan Aldrich&lt;br/&gt;&lt;br/&gt;One of the main difficulties in modern software development is using software libraries and frameworks correctly. This project is developing new tools to verify temporal usage properties of libraries and frameworks, capturing the permitted ordering of calls to an object and the state of that object when the calls are made.&lt;br/&gt;&lt;br/&gt;Key verification challenges addressed by this project include inheritance and subtyping, recursive callbacks from a library into the client and back, and multiple aliased pointers to a library object. The project is applying assume-guarantee reasoning to these challenges: allowing multiple clients to access an object cooperatively, with an agreement about how that object should be used so that each client can safely make assumptions about other clients? behavior, and in turn each client guarantees that it will not violate other clients? assumptions.&lt;br/&gt;&lt;br/&gt;The project is developing the underlying theory behind the approach, but is also building practical tools and evaluating them on real-world applications and libraries through scientific case studies. If successful, the project will increase the productivity of software engineers when using libraries, reduce the number of defects in software, and help students to learn about the theory and practice of lightweight software verification tools.</AbstractNarration>
+    <MinAmdLetterDate>06/06/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/23/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811592</AwardID>
+    <Investigator>
+      <FirstName>Jonathan</FirstName>
+      <LastName>Aldrich</LastName>
+      <EmailAddress>jonathan.aldrich@cs.cmu.edu</EmailAddress>
+      <StartDate>06/06/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

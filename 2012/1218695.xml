@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Making Software Transactional Memory More than a Research Toy</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Now that computer technology appears to have reached the limit of Dennard scaling (increasing clock rates), software must become more parallel, to scale with hardware that provides more instead of faster cores. However, writing correct, scalable shared-memory concurrent programs is notoriously difficult. Transactional memory (TM) offers potential improvements over conventional shared-memory systems in programmability, reliability, and scalability. However, it has not lived up to its initial promise, primarily because no one has shown how to make it practical. Hardware manufacturers are reluctant to build hardware TM (HTM) into already-complex cache and memory subsystems, and software TM (STM) suffers from poor performance and weak semantics. This project seeks to advance the state of the art dramatically by investigating new research directions for making STM truly practical, by achieving high performance with strong semantics. The project tackles STM's key cost in existing work -- detecting and handling conflicting accesses -- using a novel mechanism that avoids synchronization at non-conflicting accesses.&lt;br/&gt;&lt;br/&gt;Direct beneficial impacts of making widely available practical STM support include the ability to produce more reliable and scalable software systems, leading to advances in software for safety- and mission-critical systems. Widespread use of STM can help spur commercial development of hardware support for hybrid hardware-software TM, which requires practical STM support. The investigator's engagement with industrial researchers provides an avenue to enhance dissemination. Public distribution of STM implementations produced by this project provides a basis for further research and development. Several educational and outreach activities, including course projects, enhanced core course material, interactive presentations for a summer bridge program targeting minority undergraduate engineering majors, and recruiting events for prospective minority graduate students, aim to train a diverse group of programmers and researchers in developing future reliable, scalable software systems.</AbstractNarration>
+    <MinAmdLetterDate>08/23/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/23/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218695</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Bond</LastName>
+      <EmailAddress>mikebond@cse.ohio-state.edu</EmailAddress>
+      <StartDate>08/23/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

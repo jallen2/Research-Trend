@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Scaling Source Separation to Big Audio Data</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2020</AwardExpirationDate>
+    <AwardAmount>196052</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The world we live in is composed out of mixed signals. It is practically impossible to easily obtain a clean recording of speech, music, environmental, mechanical, underwater, or biomedical sounds. This, in turn, complicates any further processing due to the presence of unwanted elements (e.g. background noise in speech recognition). We traditionally address this issue by using source separation and denoising methods that allow us to extract only a desired signal from a mixture. Unfortunately such methods do not scale at ?big data? levels, which means that most of the audio data we gather today remains at a state unsuitable for automatic content analysis or further processing. This project addresses the use of source separation methods when confronted with very large data sets. It considers use of modern data analysis methods to efficiently process large amounts of data, and also the effects of training on large signal corpora in order to improve source separation performance. The ultimate goals are to improve source separation performance by leveraging large signal collections, and to enable large-scale signal analysis by making modern source separation algorithms more efficient.&lt;br/&gt;&lt;br/&gt;In order to enable processing at such large scales, this project takes advantage of recent developments in manifold structure analysis, deflation methods for spectral decompositions, hashing strategies, and quantization. Using a quantized manifold representation, large signal data sets can be approximated using a compact and efficiently accessible structure. Such representations can then be used as priors to a source separation algorithm and help guide it to extract signals that match them. Applying such models on large data to perform source separation is further accelerated by making use of a deflation method. Instead of performing the textbook (and computationally intensive) model matching process, this project uses a greedy approach to quickly extract target components while bypassing many unnecessary calculations. Finally, given the latest research on unifying multiple models of source separation, this project considers the application of such concepts to multiple data analysis models at once (such as HMM models, continuous dynamical systems, etc.), thereby becoming relevant to a wide range of signals and mixing situations.</AbstractNarration>
+    <MinAmdLetterDate>03/03/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1453104</AwardID>
+    <Investigator>
+      <FirstName>Paris</FirstName>
+      <LastName>Smaragdis</LastName>
+      <EmailAddress>paris@illinois.edu</EmailAddress>
+      <StartDate>03/03/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7936</Code>
+      <Text>SIGNAL PROCESSING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

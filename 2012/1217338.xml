@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF:Small:Data Structures for Dynamic Networks</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>499861</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Physical networks (such as communications networks and road networks) are dynamic objects, prone to sudden failures, congestion, and malicious attacks. Nonetheless, we must be able to compute basic functions of the current state of these networks, i.e., as network components fail and recover, we need dynamic algorithms and data structures to route along shortest paths and to calculate distances, flow/cut capacities, and point-to-point connectivity. Currently deployed systems typically deal with the problem of transient failures by periodically recomputing from scratch all the network properties of interest. Solutions of this type are insufficient in two ways. They are computationally inefficient, the extent to which depends on the given network property, and they do not respond to network component failures dynamically.&lt;br/&gt;&lt;br/&gt;The technical aims of this project are two-fold. The first is to develop abstract representations of graphs and graph properties, along the lines of cactus trees and Gomory-Hu trees. These graph representations are useful in the design of efficient algorithms and data structures, but are also of interest to the broader mathematics community. The second is to develop data structures in the dynamic subgraph model and d-failure model. These abstract models capture the situation found in many real world applications: there is a fixed substrate network, which can be processed in advance by possibly inefficient algorithms, which is subject to a sequence of node/link failures and recoveries intermixed with queries. A pervasive theme of the project is to determine what gains in efficiency can be had (in running time, space consumption) by accepting approximate solutions, e.g., approximately shortest routes or approximately minimum cuts that are guaranteed to be accurate up to some fixed multiplicative or additive error.&lt;br/&gt;&lt;br/&gt;In addition to its specific research goals, the aims of this project are to (i) train undergraduate and graduate students in the design and rigorous analysis of efficient data structures, and (ii) incorporate modern data structures into the computer science curriculum by developing course materials appropriate to students at&lt;br/&gt;the graduate or advanced undergraduate level.</AbstractNarration>
+    <MinAmdLetterDate>07/17/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/17/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217338</AwardID>
+    <Investigator>
+      <FirstName>Seth</FirstName>
+      <LastName>Pettie</LastName>
+      <EmailAddress>pettie@umich.edu</EmailAddress>
+      <StartDate>07/17/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

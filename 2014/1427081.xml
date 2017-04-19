@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NRI: Collaborative Research: Human-Supervised Perception and Grasping in Clutter</AwardTitle>
+    <AwardEffectiveDate>08/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>807978</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>One of the basic building blocks in semi-autonomous manipulation is the ability for a robot to grasp an object that a human operator indicates. There are many tasks where the natural way for a human and robot to work together is for the human to point out the approximate locations of objects to be grasped and for the robot to generate the precise motions necessary to achieve the grasp. This core "auto-grasp" functionality is critical to providing assistive manipulation for the disabled and elderly, as well as for a variety of military, police, space, or underwater applications. But implementing auto-grasp capability can be challenging in situations where the environment is cluttered, or when it is difficult to determine the grasp intention of the human. In this collaborative project that combines expertise from two institutions, the PIs will tackle situations where it is necessary for the robot to actively explore or "interrogate" the environment in order to figure out what the human intends to grasp and how the robot should do it. To these ends, the PIs will investigate a modified approach to planning under uncertainty known as belief space planning. Belief space planning is well-suited to active localization for grasping, because it is a single framework in which the algorithm can reason about perception-oriented and goal-orientation parts of the task. The PIs will use belief space planning to localize graspable geometries in the environment, known as grasp affordances, in a region indicated by the user. They will also explore different ways in which a human can interact with the system in order to control the grasping. The application focus of the work will be in assistive manipulation, where a person who is elderly or disabled operates an assistive robot arm mounted on an electric wheelchair or scooter. User studies will determine the best methods for the target population to operate the system. The project will contribute to the opportunities available for undergraduates and high school students in the PIs' institutions, and it will also be integrated as appropriate into the curricula of the courses they teach.&lt;br/&gt;&lt;br/&gt;This research contains two key innovations that the PIs expect will make robot grasping more robust. The first is to incorporate ideas from belief space planning into the reach and grasp planning process. Because belief space planning can reason about how the robot's own "state of information" is expected to change in the future, it is capable of producing plans that acquire task-relevant information in the course of performing a task. The second innovation is a new approach to perception-for-grasping that localizes grasp affordance geometries in the neighborhoods of objects of potential interest. Not only is this grasp affordance approach helpful to the belief space planner, but the PIs' preliminary work indicates that this approach can be accurate and very fast (10Hz). Finally, the connection between the user interface and uncertainty in the location of the grasp target will also be explored, the plan being to model human behavior as an uncertain system where hidden variables describe user intention.</AbstractNarration>
+    <MinAmdLetterDate>08/11/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/05/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1427081</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Platt</LastName>
+      <EmailAddress>r.platt@neu.edu</EmailAddress>
+      <StartDate>08/11/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8013</Code>
+      <Text>National Robotics Initiative</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7484</Code>
+      <Text>IIS SPECIAL PROJECTS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7298</Code>
+      <Text>COLLABORATIVE RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8086</Code>
+      <Text>Natl Robotics Initiative (NRI)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>5947</Code>
+      <Text>BELGIUM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

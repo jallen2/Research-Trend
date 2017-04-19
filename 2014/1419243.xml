@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Cross-layer HW/SW solutions towards Energy-Efficient Datacenters</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2016</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Facilitating workload consolidation and improving server utilization are critical for reducing cost and improving energy-efficiency of modern datacenters. One major challenge for improving utilization is to do so without affecting the quality of service (QoS). On modern servers, various co-located jobs may share critical resources including 1) micro-architectural resources such as last level cache, memory bandwidth, and functional units, etc., and 2) energy resources including grid power and distributed batteries that provide an additional power source especially during high load period. Multiple co-located jobs may contend for shared these resources, causing interference, threatening application QoS or even triggering the circuit breaker and resulting in costly downtime and severe QoS violations.&lt;br/&gt;This project addresses these challenges by designing a cross-layer system that effectively manages workload consolidation, quality of service (QoS) and various energy sources to optimize for energy efficient computing. Our system spans several layers, including profiler, static compiler, online lightweight monitoring and prediction, runtime execution management, hardware power state control and energy sources control. The compilation technique identifies and inserts markers in contentious code regions in low-priority applications, as well as critical regions in high-priority applications that require QoS protection. The lightweight runtime utilizes the compiler hints, monitors the QoS, power consumption, etc., and adaptively adjusts the pressure applications generate to the shared resources such as shared cache and memory bandwidth, manages battery (dis) charges and hardware power states to guarantee QoS and achieve efficient power shaving.</AbstractNarration>
+    <MinAmdLetterDate>01/17/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/17/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1419243</AwardID>
+    <Investigator>
+      <FirstName>Lingjia</FirstName>
+      <LastName>Tang</LastName>
+      <EmailAddress>lingjia@umich.edu</EmailAddress>
+      <StartDate>01/17/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

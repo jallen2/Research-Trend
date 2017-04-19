@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Quantifying and Reducing Data Bias in Object Detection Using Physics-based Image Synthesis</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2017</AwardExpirationDate>
+    <AwardAmount>55074</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project develops improved computer vision methods for automatic recognition of arbitrary objects in images from realistic environments. Object recognition is typically performed by fitting a function that maps an image to likely object locations and labels. Such a function is fitted (trained) on a database of example images along with their human-assigned object locations and labels. This research can result in more accurate visual perception for socially relevant applications, such as robots performing household tasks, assisting the elderly, responding to disasters and quickly learning new manufacturing and service skills. It can also provide a common codebase for the wider community, new dataset challenges for domain adaptation problems, the dissemination of scientific and technical results and associated courseware, and specific outreach to ensure broad participation of underrepresented groups.&lt;br/&gt;&lt;br/&gt;The specific research agenda is structured around two aims. The first aim is to establish bounds on the coverage of latent physical factors in datasets needed for human-level performance on arbitrary domains. The study involves both existing datasets and new datasets generated using graphics rendering techniques at various degrees of photorealism. The goal is to develop a theory of the physical complexity of a given dataset and how it affects generalization to real world object recognition tasks, with respect to a given image representation and learning framework. Physical parameters include but are not limited to: 3D shape, surface color, texture, background/scene, camera viewpoint, sensor noise, lighting, specularities and cast shadows. The second research aim is to learn image representations invariant to some of the physical causes of data bias. The goal is to develop model and representation learning methods that are able to learn from a combination of real and non-photorealistic synthetic data, and are resistant to common sources of data bias. The representations include simple edge-based descriptors, and more generally hierarchical representations based on layers of convolution and pooling operations.</AbstractNarration>
+    <MinAmdLetterDate>03/08/2017</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/08/2017</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1738063</AwardID>
+    <Investigator>
+      <FirstName>Kate</FirstName>
+      <LastName>Saenko</LastName>
+      <EmailAddress>saenko@bu.edu</EmailAddress>
+      <StartDate>03/08/2017</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: High Performance On-Chip Interconnects Design for Multicore Accelerators</AwardTitle>
+    <AwardEffectiveDate>07/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Advances in technology have made it possible to accommodate an increasing number of &lt;br/&gt;transistors on a die, enabling Multicore Accelerators like Graphics Processing Units&lt;br/&gt;(GPUs) by integrating diverse components on a single chip. GPUs have recently gained &lt;br/&gt;attention as a cost-effective approach for data parallel architectures, and the fast scaling of &lt;br/&gt;the GPUs increases the importance of designing an ideal on-chip interconnection network, &lt;br/&gt;which significantly impacts the overall system performance.&lt;br/&gt;In this project, we propose to develop a framework for high-performance and&lt;br/&gt;energy-efficient on-chip network mechanisms in synergy with Multicore Accelerator &lt;br/&gt;architectures. The desirable properties of a target on-chip network include re-usability&lt;br/&gt;across a wide range of Multicore Accelerator architectures, maximization of the use of&lt;br/&gt;routing resources, and support for reliable and energy-efficient data transfer.&lt;br/&gt;This project will make significant advances in understanding the interplay between &lt;br/&gt;Multicore Accelerator and Network-on-Chip (NoC) architectures, which leads us to&lt;br/&gt;scalable solutions for performance, area and energy.&lt;br/&gt;&lt;br/&gt;While the major communication of Chip Multiprocessor (CMP) systems is core-to-core&lt;br/&gt;for shared caches, major traffic of Multicore Accelerators is core-to-memory, which &lt;br/&gt;makes the memory controllers hot spots. Since Multicore Accelerators execute many&lt;br/&gt;threads in order to hide memory latency, it is critical for the underlying NoC to provide high bandwidth.&lt;br/&gt;The key contributions expected from the project are: (1) building a &lt;br/&gt;simulation testbed and analyzing the behavior of on-chip traffic workloads in Multicore&lt;br/&gt;Accelerators; (2) proposing mechanisms for a high-performance and energy-efficient &lt;br/&gt;NoC by utilizing emerging memory and NoC technologies in addition to novel topologies&lt;br/&gt;and routing mechanisms; (3) developing methodologies at the NoC level that will &lt;br/&gt;support data prefetching mechanisms in the Multicore Accelerators; and (4) providing&lt;br/&gt;multicast support and packet coalescing in the on-chip network to guarantee better&lt;br/&gt;system throughput. The results from this project are likely to foster new research directions in several&lt;br/&gt;areas of Computer Architecture and Parallel Computing. Also, high-performance and &lt;br/&gt;energy-aware computing and communication research is applicable to other areas,&lt;br/&gt;such as Embedded Systems and Cloud Computing. We will develop web-based tutorials to &lt;br/&gt;present and disseminate the results of this project, including tools and techniques, to a broad audience.</AbstractNarration>
+    <MinAmdLetterDate>07/10/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/10/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423433</AwardID>
+    <Investigator>
+      <FirstName>Eun Jung</FirstName>
+      <LastName>Kim</LastName>
+      <EmailAddress>ejkim@cs.tamu.edu</EmailAddress>
+      <StartDate>07/10/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ki Hwan</FirstName>
+      <LastName>Yum</LastName>
+      <EmailAddress>yum@cse.tamu.edu</EmailAddress>
+      <StartDate>07/10/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas A&amp;M Engineering Experiment Station</Name>
+      <CityName>College Station</CityName>
+      <ZipCode>778454645</ZipCode>
+      <PhoneNumber>9798477635</PhoneNumber>
+      <StreetAddress>TEES State Headquarters Bldg.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

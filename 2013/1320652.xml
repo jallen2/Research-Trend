@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Scalable and accurate direct solvers for integral equations on surfaces</AwardTitle>
+    <AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>219187</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of the proposed research is to develop faster and more accurate algorithms for computing approximate solutions to a broad class of equations that model physical phenomena such as heat transport, deformation of elastic bodies, scattering of electromagnetic waves, and many others. The task of solving such equations is frequently the most time consuming part of computational simulations, and is the part that determines which problems can be modeled computationally, and which cannot. Dealing with complicated shapes (e.g. scattering from complex geometry or flow through channels of complicated shape) adds difficulty to the computational task.&lt;br/&gt;&lt;br/&gt;Technically speaking, most existing large-scale numerical algorithms for solving partial differential and integral equations on complex geometries are based on so called "iterative methods" which construct a sequence of approximate solutions that gradually approach the exact solution. The proposed research seeks to develop "direct methods" for solving equations. A "direct method" computes the unknown data from the given data in one shot. When available, direct methods are often preferred to iterative ones since they are more robust, and can be used in a "black-box" way. As a result these are more suitable for incorporation in general purpose software, and in many cases work for important problems that cannot be solved with existing iterative methods. The reason that they are today typically not used is that existing direct methods for many problems are often prohibitively expensive. However, recent results by the PIs and other researchers have proven that it is possible to construct direct methods that are competitive in terms of speed with the very fastest existing iterative solvers. The new algorithms will be applied to the simulation of fluid flows and biomolecular simulations, and their performance will be demonstrated by the execution of simulations on complex geometries.</AbstractNarration>
+    <MinAmdLetterDate>07/14/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/14/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320652</AwardID>
+    <Investigator>
+      <FirstName>Per-Gunnar</FirstName>
+      <LastName>Martinsson</LastName>
+      <EmailAddress>PER-GUNNAR.MARTINSSON@COLORADO.EDU</EmailAddress>
+      <StartDate>07/14/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

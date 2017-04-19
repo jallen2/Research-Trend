@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Analysis of Markov Chain Monte Carlo Algorithms with Applications to Bayesian Generalized Linear Mixed Models</AwardTitle>
+    <AwardEffectiveDate>08/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>50000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Bayesian statistical methods have become popular and their use continues to grow in the applied sciences. This increase in popularity is largely due to the availability of Markov chain Monte Carlo (MCMC) algorithms which allow for the estimation of posterior distributions. However, in a large number of applications, MCMC-based estimates are reported without a valid measure of their quality and there is no coherent strategy for deciding when to stop the simulation. To a large extent, this is due to the fact that analyses (asymptotic and non-asymptotic) of the usual MCMC estimators are typically challenging. For example, as opposed to classical Monte Carlo methods, establishing the central limit theorems (CLTs) that allow for an asymptotic analysis of MCMC estimators is not straightforward. This is a serious practical problem that needs attention because the current valid strategies for assessing the quality of estimation and the choice of (MCMC) sample size rest upon theoretical assumptions such as the existence of CLTs. This project addresses this issue and consists of two parts. The first part consists of asymptotic and non-asymptotic analyses of MCMC estimators based on Gibbs samplers for several widely applicable Bayesian versions of the generalized linear mixed model. The investigator considers probit and identity link functions as well as popular choices of proper and improper prior densities for the parameters. In the second part of the project, the investigator attempts to generalize several results for two-variable Gibbs samplers concerning the convergence rate of the algorithm and its connection to the parametrization of the statistical model. The goal is to generalize known results to the general k-variable Gibbs sampler. Since Gibbs samplers are very popular MCMC algorithms, these results will likely have many applications. In particular, they could be used in the analyses performed in the first part of the project. &lt;br/&gt;&lt;br/&gt;This project addresses the quality of estimation in MCMC procedures used in Bayesian statistics, which is a very important issue in the applied sciences. The reason why this is so important is that misleading MCMC-based estimates can lead to incorrect conclusions, which could potentially negatively affect public policy. The main goal of this research is to find simple sufficient conditions (that the user can check) under which the considered MCMC procedures are honest; that is, there is at least one valid measure of the quality of estimation and a coherent strategy for deciding when to stop the simulation. The more ambitious goal is to provide the MCMC user with explicit (non-asymptotic) bounds on the number of iterations needed to achieve a predetermined level of accuracy. The statistical models and MCMC algorithms considered in this project have numerous applications in nearly every scientific discipline. Consequently, the results produced in this project will be used by researchers in many different fields.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1308765</AwardID>
+    <Investigator>
+      <FirstName>Jorge</FirstName>
+      <LastName>Roman Aponte</LastName>
+      <EmailAddress>jcroman@mail.sdsu.edu</EmailAddress>
+      <StartDate>08/27/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Vanderbilt University</Name>
+      <CityName>Nashville</CityName>
+      <ZipCode>372350002</ZipCode>
+      <PhoneNumber>6153222631</PhoneNumber>
+      <StreetAddress>Sponsored Programs Administratio</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

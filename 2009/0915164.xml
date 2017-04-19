@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: CoreTime: Dynamic Computation Migration for Multicore System Software</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5)&lt;br/&gt;&lt;br/&gt;This proposal develops a technique for allowing the multiple on-chip caches available in multicore processors to be utilized more effectively by systems software. CoreTime is a framework to help data-intensive software obtain good performance on multicore processors. Data-intensive software, such as operating systems and web servers, may not be able to obtain full benefit from the increasing processing power of multicore processors, instead being bottlenecked by access to off-chip Dynamic random access memory (DRAM). One example of an idea the CoreTime project is investigating is a global replacement policy among the per-core caches of a multicore chip. Such a policy has the potential to significantly increase caching effectiveness, for example by preventing waste of cache space on redundant per-core copies of popular data. A key principle in CoreTime's design is that software should control the policy for how cached data is spread over a multicore processor's on-chip caches.&lt;br/&gt;&lt;br/&gt;The long-term importance of CoreTime is that it will increase the scalability of memory-intensive software on future multicore processors by mitigating the DRAM botteneck. CoreTime software will be distributed as open source. The ideas and software will be used in MIT's undergraduate operating systems course, to give students experience with multicore processors and concurrency. Both undergraduates and graduate students will perform the research. &lt;br/&gt;&lt;br/&gt;This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).</AbstractNarration>
+    <MinAmdLetterDate>08/15/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/15/2009</MaxAmdLetterDate>
+    <ARRAAmount>500000</ARRAAmount>
+    <AwardID>0915164</AwardID>
+    <Investigator>
+      <FirstName>M. Frans</FirstName>
+      <LastName>Kaashoek</LastName>
+      <EmailAddress>kaashoek@lcs.mit.edu</EmailAddress>
+      <StartDate>08/15/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Morris</LastName>
+      <EmailAddress>rtm@csail.mit.edu</EmailAddress>
+      <StartDate>08/15/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

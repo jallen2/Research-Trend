@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Grouping Features for Object Localization and Image Search</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>74963</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Numerous images on the internet call for efficient and effective image search algorithms to help users to find images that contain the object of interest. The current state-of-the-art image-search methods usually represent an object of interest as a set of features and localize the object by searching for a rectangular window that covers the desirable features. Without considering spatial relations among the features, these methods usually suffer from a low discriminative power and a high false positive rate. Instead, this EAGER project formulates object localization as a global feature grouping problem, where detected features are grouped according to some general spatial relations, such as group convexity, the separation of boundary and internal features, and feature affinities. The optimal feature grouping is achieved by using new graph models and approaches. Within this formulation, the search window is a tighter bounding polygon rather than a rectangle.&lt;br/&gt;&lt;br/&gt;By considering spatial relations and tighter bounding polygons, the feature-grouping approach developed in this project is expected to produce a significant improvement over existing image-search methods, which can be verified by testing on a standard data set. The source code developed in this project is planned to be made publicly accessible upon completion of this project. This research is focused on object localization, which can also benefit many other computer-vision applications, such as scene matching and reconstruction, object detection and recognition, content-based video retrieval, and video surveillance.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/18/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0951754</AwardID>
+    <Investigator>
+      <FirstName>Song</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>songwang@cec.sc.edu</EmailAddress>
+      <StartDate>09/18/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University South Carolina Research Foundation</Name>
+      <CityName>COLUMBIA</CityName>
+      <ZipCode>292080001</ZipCode>
+      <PhoneNumber>8037777093</PhoneNumber>
+      <StreetAddress>1600 Hampton Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>South Carolina</StateName>
+      <StateCode>SC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

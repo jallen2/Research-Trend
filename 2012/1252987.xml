@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Memory-based learning of effective actions</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>80000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hector Munoz-Avila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project addresses the foundational question in Robust Intelligence of how an autonomous agent can learn use low-level sub-symbolic (pixel-level) sensorimotor experiences with its environment to learn higher level effective concepts, ranging from learning to use a hand to manipulate objects on a tabletop, to learning to balance and walk, to learning to move through a complex environment without collisions with walls or pedestrians. This project will develop computational models of how this learning process could take place and will implement and test these computational models on an actual robot. Understanding such autonomous concept learning has the potential to impact a range of disciplines including Cognitive Science, Psychology, AI in general, and robotics, computer vision, and machine learning in particular. Understanding how concepts come into being and evolve in the specific domain of robot navigation also has the potential to contribute to advances in systems that help persons with physical and learning disabilities.&lt;br/&gt;&lt;br/&gt;The project draws on insights from two different approaches from the PI's lab that have complementary strengths: (1) QLAP (Qualitative Learner of Action and Perception), and (2) MPEPC system (Model Predictive Equilibrium Point Control). The QLAP system exploits a qualitative abstraction of continuous sensor input in order to learn causal contingencies, DBN (Dynamic Belief Network) and MDP models of the causal world, and to build a hierarchy of action models. It uses perception with laser rangefinders and correlation peaks between changes to the motor vector and events in the sense vector -- so-called contingencies -- to discern motor signals that produce resulting perceptual events that may be more than random variation. Reliable episodes can be remembered as cases and used in learning. The MPEPC system factors the continuous navigation problem for a mobile robot into a local unconstrained control and a global optimization process that balances constraints such as progress and collision avoidance. Both methods have a local phase (learning contingencies and local control laws), and a global phase (learning a hierarchy of actions and finding extended routes that balance constraints). These two approaches will be augmented by learning methods from Case-Based Reasoning (CBR) that use features of the presenting case to retrieve related cases from case memory. Two levels of case representation will be employed. The lowest level case representation is a simple feature vector: in the case of local motion control, it specifies the target pose location in the egocentric frame of reference, along with the parameters of the motion control law that attempts to reach it, and the quality of the resulting trajectory. Retrieval will be done using Nearest Neighbor, combining information from the retrieved cases by Locally Weighted Regression or Locally Weighted Projection Regression. At the higher level of action learning, a case is to be described by identifying the critical environmental constraints that determine the global structure of the action.</AbstractNarration>
+    <MinAmdLetterDate>09/05/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/05/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1252987</AwardID>
+    <Investigator>
+      <FirstName>Benjamin</FirstName>
+      <LastName>Kuipers</LastName>
+      <EmailAddress>kuipers@umich.edu</EmailAddress>
+      <StartDate>09/05/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

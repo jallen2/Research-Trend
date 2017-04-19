@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Generalization of the Association Analysis Framework</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2012</AwardExpirationDate>
+    <AwardAmount>547996</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Association analysis finds patterns that describe the relationships among the binary attributes (variables) used to characterize a set of objects. A key strength of association pattern mining is that the potentially exponential nature of the search space can often be made tractable by using support based pruning of patterns i.e., eliminating patterns supported by too few transactions. Despite the well-developed theoretical foundation of association mining, this group of techniques is not widely used as a data analysis tool in many scientific domains. For example, in the domain of bioinformatics and computational biology, while the use of clustering and classification techniques is common, techniques from association analysis are rarely employed. This is because many of the patterns required in bioinformatics and other domains are not effectively captured by the traditional association analysis framework and its current extensions. Although such patterns can be found by techniques such as bi-clustering and co-clustering, these approaches suffer from a number of serious limitations, most notably, an inability to efficiently explore the search space without resorting to heuristic approaches that compromise the completeness of the search. To address the challenges mentioned above, the team will extend the traditional association analysis framework. They propose two novel frameworks for directly mining patterns from real-valued data that, unlike biclustering and co-clustering, are able to discover all patterns satisfying the given constraints and do not suffer from the loss of information caused by discretization and other data transformation approaches. They will also extend association analysis based approaches to work with data that has class labels by effectively using the available class label information for pruning the exponential search space and finding low-support patterns that discriminate between the two data classes. To evaluate the results of the work, they will develop robust evaluation methodologies for evaluating the patterns obtained from the proposed frameworks. The proposed work promises to extend the power of association analysis to a wide range of new applications in health and life sciences, such as the discovery of biomarkers and functional modules from single nucleotide polymorphism and gene expression data, with potential applications in personalized medicine and the development of drugs and bio-fuels.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/04/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916439</AwardID>
+    <Investigator>
+      <FirstName>Vipin</FirstName>
+      <LastName>Kumar</LastName>
+      <EmailAddress>kumar@cs.umn.edu</EmailAddress>
+      <StartDate>08/08/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Steinbach</LastName>
+      <EmailAddress>steinbac@cs.umn.edu</EmailAddress>
+      <StartDate>08/08/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

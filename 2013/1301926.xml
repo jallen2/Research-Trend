@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Collaborative Research: Transactional Software Infrastructures: Making the Most of Hardware Transactions</AwardTitle>
+    <AwardEffectiveDate>06/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2016</AwardExpirationDate>
+    <AwardAmount>599928</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern computer systems are undergoing a pervasive change. They are becoming increasingly parallel, meaning that multiple processing units, or cores, work together to carry out tasks. To facilitate the kinds of synchronization and coordination needed to exploit these new architectures, leading hardware vendors have developed a new generation of processor architectures that provide hardware transactional memory, a synchronization structure that promises to avoid many of the well-known pitfalls and limitations of conventional approaches to synchronization. The move to hardware transactions will bring about a fundamental positive change in the way multicore machines are programmed.&lt;br/&gt;&lt;br/&gt;This project will redesign basic synchronization structures such as locks, memory management, and a range of concurrent data structures such as heaps, hash tables, and skip lists. These new structures will be embodied in an open-source C++ library. The project's goal is to create better performing, more reliable, and less expensive parallel software, scalable to larger systems, while at the same time making code simpler and more reliable. Moreover, this project will enhance understanding of how hardware transactional memory can be used effectively, a benefit to both users and manufacturers of future processors.</AbstractNarration>
+    <MinAmdLetterDate>05/16/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/30/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1301926</AwardID>
+    <Investigator>
+      <FirstName>Nir</FirstName>
+      <LastName>Shavit</LastName>
+      <EmailAddress>shanir@csail.mit.edu</EmailAddress>
+      <StartDate>05/16/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

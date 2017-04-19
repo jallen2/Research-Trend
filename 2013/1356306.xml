@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: ABI Innovation: Algorithms And Tools For Modeling Macromolecular Assemblies</AwardTitle>
+    <AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>288315</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jennifer Weller</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research seeks to develop novel methods and software tools for mining structures of large molecular assemblies from imaging data. Macromolecular assemblies, such as ribosomes and viruses, are responsible for driving nearly all cellular events. How these assemblies function, in turn, is closely related with their 3D&lt;br/&gt;structures, which are analogous to interlocking puzzles consisting of tens to hundreds of proteins, each having its own unique shape. The ability to model the structure of individual proteins as well as their architecture in an assembly is therefore critically important for understanding how the cell, and more broadly the biological system, function. While state-of-art imaging methods have been developed to capture macromolecular assemblies as 3D density volumes, such as X-ray crystallography and electron cryo-microscopy, creating structural models from such imagery remains a time-consuming and highly manual process in part due to the limited resolution of the data. The goal of the project is to streamline the image-to-structure pipeline by designing novel computational algorithms and developing a comprehensive modeling platform. The algorithms seek to leverage the advance in computer graphics and vision while combining image data, sequence data, and expert knowledge to improve the efficiency and accuracy of common modeling tasks. The modeling platform will integrate the investigator's methods with third-party modeling packages to provide an easy-to-use one-stop-shop for creating and validating structures of macromolecular assemblies all the way from raw images and individual protein sequences. The platform will be built upon the existing Gorgon software (http://gorgon.wustl.edu) and distributed together with the popular EMAN2 software for image analysis of density maps. The outcome of the project will have a direct impact on reducing the time and effort that biologists spend on translating experimental results to knowledge, discoveries, and treatments.&lt;br/&gt;&lt;br/&gt;More specifically, the project will focus on algorithmic development on three modeling tasks that currently either rely on manual labor or are computationally expensive. These problems include detecting secondary structure elements (e.g., alpha-helices and beta-sheets) at various non-atomic resolutions, tracing protein backbones in the density volume, and flexibly fitting probe structures into the volume. The algorithms will build upon successful techniques from computer graphics and vision, including mesh deformation using differential coordinates and spectral feature matching. To transform Gorgon into a modeling "hub", the software architecture and interface of Gorgon will be redesigned in this project to improve inter-operability, scalability, and usability. Plug-ins will also be developed for third-party tools that provide complementary modeling capability such as comparative modeling and protein folding.</AbstractNarration>
+    <MinAmdLetterDate>07/08/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/08/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1356306</AwardID>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Ludtke</LastName>
+      <EmailAddress>sludtke@bcm.edu</EmailAddress>
+      <StartDate>07/08/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Matthew</FirstName>
+      <LastName>Baker</LastName>
+      <EmailAddress>mbaker@bcm.tmc.edu</EmailAddress>
+      <StartDate>07/08/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Baylor College of Medicine</Name>
+      <CityName>HOUSTON</CityName>
+      <ZipCode>770303411</ZipCode>
+      <PhoneNumber>7137981297</PhoneNumber>
+      <StreetAddress>ONE BAYLOR PLAZA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1165</Code>
+      <Text>ADVANCES IN BIO INFORMATICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

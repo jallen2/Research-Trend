@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Managing Large-scale Uncertain Data Repositories</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>498538</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frank Olken</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Increasing numbers of real-world application domains are generating data that is&lt;br/&gt;inherently noisy, incomplete, and probabilistic in nature. Examples of such&lt;br/&gt;data include measurement data collected by sensor networks, observation data in&lt;br/&gt;the context of social networks, scientific and biomedical data, and data&lt;br/&gt;collected by various online cyber-sources. The data uncertainties may be a&lt;br/&gt;result of the fundamental limitations of the underlying measurement&lt;br/&gt;infrastructures, the inherent ambiguity in the domain, or they may be a&lt;br/&gt;side-effect of the rich probabilistic modeling typically performed to extract&lt;br/&gt;high-level events from sensor and cyber data. Similarly, when attempting to&lt;br/&gt;integrate heterogeneous data sources ("data integration") or extracting&lt;br/&gt;structured information from text ("information extraction"), the results are&lt;br/&gt;approximate and uncertain at best. However, there is currently a lack of data&lt;br/&gt;management tools that can reason about large volumes of uncertain data, and&lt;br/&gt;hence the information about the uncertainty is often either discarded or&lt;br/&gt;reasoned about only superficially.&lt;br/&gt;&lt;br/&gt;In this project, we are building a complete probabilistic data management&lt;br/&gt;system, called PrDB, that can manage, store, and process large-scale&lt;br/&gt;repositories of uncertain data. PrDB unifies ideas from "large-scale structured&lt;br/&gt;graphical models" like probabilistic relational models (PRMs), developed in the&lt;br/&gt;machine learning literature, and "probabilistic query processing", studied in&lt;br/&gt;the database literature. PrDB framework is based on the notion of "shared&lt;br/&gt;factors", which not only allows us to express and manipulate uncertainties at&lt;br/&gt;various levels of abstractions, but also supports capturing rich correlations&lt;br/&gt;among the uncertain data. PrDB supports a declarative SQL-like language for&lt;br/&gt;specifying uncertain data and the correlations among them. PrDB also supports&lt;br/&gt;exact and approximate evaluation of a wide range of queries including inference&lt;br/&gt;queries, SQL queries, and decision-support queries.&lt;br/&gt;&lt;br/&gt;The cross-disciplinary research undertaken during this project will enable us to&lt;br/&gt;simultaneously address the challenges in the areas of probabilistic databases&lt;br/&gt;and machine learning, and allow us to transfer the key technologies developed&lt;br/&gt;between those areas, thus advancing the research in both areas. It will enable&lt;br/&gt;the development of a significant and high-impact new class of real-world&lt;br/&gt;applications, in a variety of domains including health informatics, social media&lt;br/&gt;management, World Wide Web, and scientific databases. The PrDB system source&lt;br/&gt;code, and the datasets generated during the project, will be released using an&lt;br/&gt;appropriate open source license, at the project web site:&lt;br/&gt;http://www.cs.umd.edu/db/PrDB.html</AbstractNarration>
+    <MinAmdLetterDate>09/09/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916736</AwardID>
+    <Investigator>
+      <FirstName>Lise</FirstName>
+      <LastName>Getoor</LastName>
+      <EmailAddress>getoor@soe.ucsc.edu</EmailAddress>
+      <StartDate>09/09/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Amol</FirstName>
+      <LastName>Deshpande</LastName>
+      <EmailAddress>amol@cs.umd.edu</EmailAddress>
+      <StartDate>09/09/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Designing Networks for High Throughput</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The combination of two inexorable trends - increasing parallelism and increasing big data analytics - means computing systems urgently need efficient high-capacity networks, capable of very rapidly delivery of data among servers. Modern warehouse-scale data centers, operated by large Internet services like Google, Amazon, Facebook, and many others, require networks connecting tens of thousands of servers. High capacity is useful to support data intensive applications such as Map-Reduce and scientific simulations. In cloud computing, a high-capacity network gives operators the freedom to place virtual machines on any physical server, without needing to worry about capacity constraints between hosts. This freedom translates into higher server utilization, lower management overhead, and thus lower operating costs.&lt;br/&gt;&lt;br/&gt;As cloud applications have demanded greater communication among servers, numerous data center network architectures have recently been proposed. In these networks, both the routing and the topology of the network - that is, the pattern of links among routers and servers - are critical in working together to obtain high capacity. However, we lack a fundamental understanding about which network topologies achieve high capacity and what the resulting systems design tradeoffs are, as well as how to build real-time routing algorithms that achieve near-optimal capacity in arbitrary topologies.&lt;br/&gt;&lt;br/&gt;The project spans theory and systems design. The principal investigators (PIs) will develop high-capacity network architectures, including routing and topologies that are efficient and flexible. They will develop a suite of software to efficiently compute capacity of network architectures in a variety of network traffic patterns, topologies, and routing protocols, as well as build a hardware testbed to test the designs. They will then tackle an ambitious goal -- developing a system which achieves near-optimal multicommodity flow in real time (e.g., tens or hundreds of milliseconds) in arbitrary network topologies. Finally, the PIs will apply these routing advances to enable new more efficient and flexibile data center network topologies.&lt;br/&gt;&lt;br/&gt;The broader impact of this project lies in expected research impact and educational impact. The data center network designs produced in this project are expected to provide significant efficiency and operational flexibility compared to today's data centers, potentially achieving 25-40% higher capacity with the same equipment as current large-scape data center networks. The PIs will also develop a course module and e-book surveying the fundamental topic of how to achieve high capacity in networks, including past work and that of this project. Finally, the project will include a free release of a software suite to facilitate open and reproducible research.</AbstractNarration>
+    <MinAmdLetterDate>09/02/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/02/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423452</AwardID>
+    <Investigator>
+      <FirstName>Philip Brighten</FirstName>
+      <LastName>Godfrey</LastName>
+      <EmailAddress>pbg@illinois.edu</EmailAddress>
+      <StartDate>09/02/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alexandra</FirstName>
+      <LastName>Kolla</LastName>
+      <EmailAddress>akolla@illinois.edu</EmailAddress>
+      <StartDate>09/02/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

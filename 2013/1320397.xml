@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Participatory Software Defined Networking</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2016</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Network configuration and management today is a complex and error-prone task, done by expert administrators, who implement policies as a brittle composition of independent control rules on heterogeneous devices. Networks become stifled, as changes to configuration have hard-to-predict consequences in the resulting policies. At the same time, there is pressure in the opposite direction for more dynamic networks, as increasingly distributed applications can benefit from network flexibility, and actually have information about the semantics of their traffic that can inform network configuration. &lt;br/&gt;&lt;br/&gt;The goal of this project is to enable end-user applications to take active part in the configuration, provisioning, and management of the network, and, in turn, have more visibility into the network state to better reconfigure themselves. The proposed approach, Participatory Software Defined Networking, aims to be a unifying and extensible framework to expose network control mechanisms and state to end-user applications. It leverages the emerging paradigm of Software Defined Networking, with its logically centralized and programmable control plane, and, in an analogy to Operating Systems, provides the "user-level system calls to the network". Applications request current and future service properties, gain visibility into network properties, and provide hints about future demands to the network. The research will combine programming languages techniques to define the semantics of policy and query language and compilation, with systems design and experiments on a real programmable network testbed, guided by real applications.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: The contributions of this project are to expose the control plane of the network to end-user applications through a unifying and extensible framework, to solve the challenges to make this safe and efficient, and ultimately to allow for radical joint optimization of applications and the network. More specifically, this work will: (1) define the semantics for the delegation of privileges necessary for the safe exposure of the control plane to end-user applications. (2) define a high level hierarchical representation of policies, with flexible semantics for policy composition from different users, across several network resources. (3) produce a sound compilation strategy from the high level combined policies to efficient sets of distributed rules on switches and (4) propose and evaluate the joint optimization of applications and the network given the flexibilities and requirements of the former, and the constraints and load of the latter.&lt;br/&gt;&lt;br/&gt;Broader Impacts: The results of the proposed research will be broadly applicable to regular network users, with direct, tangible benefits in efficiency, security, sharing, and ease of use of the networking infrastructure. Participatory networking will enable home users (or their applications, on the users' behalf), to effectively configure the network according to intuitive policies. Network queries can provide the foundation for a ubiquitous "weather service" for networks, which can have positive effects on user expectations. Heavy users on campus networks, such as physicists, will be able to safely share the network without the need for physically separate networks. Enterprise users will be able to install firewall rules deeper in the network without requiring human intervention. Co-optimization of applications and datacenter networks will enable significantly more efficient large-scale data processing, helping advance science and business at large. The PI will integrate undergraduate students in the research, and will create a course on Advanced Networking focused on SDNs and in datacenters. He will continue to speak about networking and the Internet to the 9th-grade girls at the NSF-sponsored Artemis program.</AbstractNarration>
+    <MinAmdLetterDate>08/30/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/30/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320397</AwardID>
+    <Investigator>
+      <FirstName>Rodrigo</FirstName>
+      <LastName>Fonseca</LastName>
+      <EmailAddress>rfonseca@cs.brown.edu</EmailAddress>
+      <StartDate>08/30/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

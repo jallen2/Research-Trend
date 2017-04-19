@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPA-DA-T: Design and Tools for Easy-to-Program Massively Parallel On-Chip Systems: Deriving Scalability through Asynchrony</AwardTitle>
+    <AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2014</AwardExpirationDate>
+    <AwardAmount>921686</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract&lt;br/&gt;NSF Proposal #0811504, CPA-DA-T: ?Design and Tools for Easy-to-Program Massively Parallel On-Chip Systems: Deriving Scalability Through Asynchrony? &lt;br/&gt;&lt;br/&gt;PI: Prof. S. Nowick (Columbia University), co-PI: Prof. U. Vishkin (U. of Maryland)&lt;br/&gt;Contact: Steven Nowick (Columbia University) ? nowick@cs.columbia.edu&lt;br/&gt;June 30, 2008&lt;br/&gt;&lt;br/&gt;While the current reality is that the jury is still out on how the processor-of-the-future will look, one clear certainty is that it will be parallel. All major commercial processor vendors are now committed to increasing the number of processors (i.e. ?cores?) that fit on a single chip. However, there are major obstacles of power consumption, performance and scalability in existing synchronous design methodologies. This proposal focuses on a particular existing easy-to-program and easy-to-teach multi-core architecture. It then identifies the interconnection network, connecting multiples cores and memories, as the critical bottleneck to achieving lower overall power consumption. The target is to substantially improve the power, robustness and scalability of the system by designing and fabricating a high-speed asynchronous communication mesh. The resulting parallel architecture will be globally-asynchronous locally-synchronous (i.e. GALS-style), that gracefully accommodates synchronous cores and memories operating at arbitrary unrelated clock rates, while providing robustness to timing variability and support for ?plug-and-play? (i.e. scalable) system design. Unlike most prior GALS architectures, this one will have significant performance and power requirements in a complex pipelined topology. In addition, computer-aided design (i.e. CAD) tools will be developed to support the design of this new mesh, as well as simulation, timing verification and performance analysis tools to be applied to the entire parallel architecture. This work will be performed in collaboration with a separate NSF CPA proposal under Prof. Ken Stevens (University of Utah). The two proposals will be linked together into a larger framework: the Utah group will coordinate to provide and refine their commercial-based physical design tool development and support, while the Columbia/Maryland group will provide a new substantial test case for their asynchronous tool applications.&lt;br/&gt;&lt;br/&gt;The work is expected to have broad impact. First, while it is targeted to one parallel architecture, several other architectures will benefit from this work, since the interconnection network can be applied to them as well. Second, the work is expected to demonstrate the benefits and role of asynchronous design for complex high-performance systems. Finally, the outcome of the work could make a step in the paradigm shift from serial to parallel that the field is now undergoing; the resulting first-of-its-kind partly-asynchronous high-end massively-parallel on-chip computer could push the level of scalability beyond what it currently possible and have a broad impact in supporting parallel applications in much of computer science and engineering.</AbstractNarration>
+    <MinAmdLetterDate>07/15/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811504</AwardID>
+    <Investigator>
+      <FirstName>Uzi</FirstName>
+      <LastName>Vishkin</LastName>
+      <EmailAddress>vishkin@umiacs.umd.edu</EmailAddress>
+      <StartDate>07/15/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Nowick</LastName>
+      <EmailAddress>nowick@cs.columbia.edu</EmailAddress>
+      <StartDate>07/15/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

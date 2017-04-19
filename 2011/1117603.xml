@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Reusing Debugging Knowledge</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>515988</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Developers spend most of their time debugging software. This effort&lt;br/&gt;results in perfective changes to their applications, but is otherwise&lt;br/&gt;lost. No central repository exists that stores all bug descriptions&lt;br/&gt;and fixes. The reason for this state of affairs is the belief that&lt;br/&gt;debugging is an idiosyncratic, context-specific task that does not&lt;br/&gt;generalize. In contrast, this project hypothesizes that applications&lt;br/&gt;decompose into smaller, similar problems and that limitations of the&lt;br/&gt;human mind imply that we are likely to make similar errors when&lt;br/&gt;confronted by similar problems. In practice, most developers&lt;br/&gt;agree. When fixing a bug, a developer often begins by searching for&lt;br/&gt;similar bugs that have been reported and resolved in the past, because&lt;br/&gt;a fix for a similar bug can help him understand his bug, or even&lt;br/&gt;directly fix his bug. In short, the problem is that the knowledge&lt;br/&gt;gained during debugging is wasted---either not stored or not&lt;br/&gt;searchable.&lt;br/&gt;&lt;br/&gt;This project seeks to revolutionize debugging by capturing and reusing&lt;br/&gt;debugging knowledge. Developers can leverage the knowledge of the&lt;br/&gt;community to speed up debugging. To this end, it proposes to create a&lt;br/&gt;universal bug repository capable of storing all bug information,&lt;br/&gt;indexed on bug traces. To speed debugging, this repository will&lt;br/&gt;support efficiently finding similar bugs and their fixes. It will be&lt;br/&gt;the basis of automatic debugging tools that match closed bugs to an&lt;br/&gt;open bug, then test the applicability of their fixes to that open&lt;br/&gt;bug. Programmers will consult the proposed bug repository as a matter&lt;br/&gt;of course during debugging. Monitors that compare the current&lt;br/&gt;execution against traces in the repository can also prevent bugs and&lt;br/&gt;improve software reliability. This project promises to significantly&lt;br/&gt;speed up debugging and reduce software production cost. The proposed&lt;br/&gt;educational innovations and outreach efforts can also help train more&lt;br/&gt;capable IT professionals for the workforce.</AbstractNarration>
+    <MinAmdLetterDate>07/26/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/16/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117603</AwardID>
+    <Investigator>
+      <FirstName>Earl</FirstName>
+      <LastName>Barr</LastName>
+      <EmailAddress>etbarr@ucdavis.edu</EmailAddress>
+      <StartDate>07/26/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Zhendong</FirstName>
+      <LastName>Su</LastName>
+      <EmailAddress>su@cs.ucdavis.edu</EmailAddress>
+      <StartDate>07/26/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Analysis, Computation, and Application of Completions of Constrained Dynamical Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>James Curry</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract: A differential algebraic equation (DAE) is an implicit system of differential equations in state and control variables. An integer quantity called the index is one measure of how different a DAE is from being an explicit ordinary differential equation (ODE). Many problems are most naturally initially modeled as a DAE particularly those that are analyzed and simulated using computer generated mathematical models. DAEs occur in optimization when the original problem is a DAE or because of the activation of constraints. Because of DAEs importance, a variety of numerical techniques have been developed in recent years to simulate and analyze DAEs although most of these methods only work on specific classes of problems with special structure and low index. Unfortunately many widely used software packages cannot accept DAE models, or if they can accept them, the models must be index one or have special structure. One way to address both the problem of general DAE integrators and wider use of DAE models in current software, is to embed the DAE into an ordinary differential equation (ODE) called a completion of the DAE. The idea of embedding the DAE solutions into an ODE has been around for some time. However, traditional approaches either left the new additional dynamics under determined or again only worked for special classes of systems. A more general and automated type of embedding, such as that to be investigated in the proposed project, would greatly extend the applicability of many current software packages. In this project the investigators and his colleagues and students will work on the analysis, computation, and application of completions of general DAEs. Analysis backed algorithms will be constructed to generate completions with desired extra dynamics. The proposed research represents a major extension and modification of this idea to general nonlinear DAEs and the development of new results on controlling the nature of these additional dynamics. The obtained results will be of considerable independent interest but the proposal will focus on first applying the new results to simulation and control. The proposed research will result in improved algorithms and new theoretical understanding of numerical methods for differential algebraic equations and their use in control and simulation.&lt;br/&gt;&lt;br/&gt;Increasingly in many problems in science and industry the process or machine is described in terms of what are called differential equations. This mathematical model is then used to simulate the process on a computer and to predict what the real system would do, to design more efficient processes, and to improve performance. However, the problems of interest in science and engineering today are becoming increasingly complex so that today mathematical models are often formed by combining together several different mathematical models. A mathematical model of a biotechnological system, for example, might include equations describing fluid flow, chemical reactions, and mechanics. These composite mathematical models are often very complex and are sometimes not in a form that is ready to be solved with current computer software. It can then take considerable human effort, and sometimes a loss of accuracy, to convert these complex mathematical models to a form that can be readily used. The conversion process not only takes time but can lead to errors. The investigators of this project will develop theory backed mathematical procedures and algorithms that will facilitate and automate the conversion of the original complex mathematical models to models that can be used with existing software and algorithms. This will reduce the time between model development and being able to use the model, improve the accuracy of the models, reduce the introduction of errors, and thereby speed up the design of industrial processes, and the analysis of many physical systems. While the differential equations studied in this project occur widely, in the testing of the algorithms the investigators will initially draw primarily on problems from the mechanical engineering and aerospace communities and the development of more efficient and reliable manufacturing processes.</AbstractNarration>
+    <MinAmdLetterDate>09/01/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/31/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0907832</AwardID>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Campbell</LastName>
+      <EmailAddress>slc@math.ncsu.edu</EmailAddress>
+      <StartDate>09/01/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

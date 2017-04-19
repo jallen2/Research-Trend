@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: SaTC: Lockdown: Guarded Control-Flow and Data Privacy for Sensitive Data</AwardTitle>
+    <AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>175000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software systems are under constant attack: extracting sensitive data from running computer systems is a prime and highly lucrative target for attackers. Yet, current defense mechanisms fail to protect confidential or private data along with the integrity and availability of the underlying system. While it is important to find and fix vulnerabilities, it is unlikely that all vulnerabilities will ever be discovered. Therefore, there is an argument to be had for stronger defense mechanisms that protect software systems even in the presence of vulnerabilities. The research in this project will improve the security of legacy and newly developed source code by enforcing both integrity and confidentiality for a well-defined sub-set of identified sensitive data. The project proposes new security policies that increase the resilience of legacy software against attacks, protecting running programs against attacker-imposed deviations and and protecting a subset of important data even if the application is compromised.&lt;br/&gt;&lt;br/&gt;The majority of software that runs on today's systems is written in memory unsafe languages. Memory safety vulnerabilities are abundant and are often used to compromise systems. Existing techniques that retrofit memory safety on top of C/C++ often result in prohibitive overhead, are not compatible with legacy code, or only provide partial protection. Building on Code-Pointer Integrity (CPI), a compiler-based technique that enforces memory safety for code pointers, this project proposes to guard the control-flow and to enforce data confidentiality for sensitive data. Both techniques will be implemented as compiler-passes. Guarded control-flow will leverage a compiler-based static analysis to identify all data that may be used in conditional control-flow decisions. In a second step, the compiler instruments the program with guards to protect this data alongside code pointers, thereby protecting from any attacker-induced control-flow deviation. Data confidentiality will introduce a static compiler-based analysis that identifies and tags sensitive data like passwords, cryptographic keys, or authentication tokens. An instrumentation pass will then add guards to enforce confidentiality guarantees at runtime. These guards keep the subset of sensitive data private and secure from attackers. Data confidentiality enforces integrity and confidentiality even if the attacker has full memory read access. In addition, this project will develop metrics and benchmarks to evaluate the effectiveness of these security policies in the context of different programs.</AbstractNarration>
+    <MinAmdLetterDate>05/13/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/13/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1464155</AwardID>
+    <Investigator>
+      <FirstName>Mathias</FirstName>
+      <LastName>Payer</LastName>
+      <EmailAddress>mpayer@purdue.edu</EmailAddress>
+      <StartDate>05/13/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RUI: A Bayesian Approach to Sequential Change Point Detection</AwardTitle>
+    <AwardEffectiveDate>07/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>135490</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will develop an efficient change point algorithm that not only will indicate when change points occur, but also provide uncertainty estimates as to the number and exact timing of these changes. Applications of this model are widespread and include any field where long sequences of data are collected such as medicine (e.g. EEG readings), economics (e.g. stock market data, coal mining disasters), and climate (e.g. temperature readings, glacial records). More specifically, a 5 million year record of global ice volume shows at least two distinct changes. The first, around 2.7 million years ago, represents an increase in the amount of ice volume on the Earth as permanent glaciers began to form in the northern hemisphere, whereas a more recent change around 0.8 million years ago represents a gradual change in the frequency of major glacial melting events from every 40,000 to every 100,000 years. A more prominent example concerns NCDC's global temperature anomalies data set that many have cited as evidence of global warming. This record indicates three changes in the rate of temperature increases on the Earth over the last 133 years - in 1906, 1945, and either 1963 or 1976. The algorithm will be able to handle sequential data, giving it the ability to quickly update itself as each new observation is recorded, and will be able to accurately predict where in the data set a change point has occurred. &lt;br/&gt;&lt;br/&gt;It is well known that long time series are often heterogeneous in nature, any attempt to model these data sets may have to account for parameters that change through time. The difference can be as simple as a change in the mean, slope, or frequency of the underlying signal. However, the identification of ?change points? is not always a trivial task as the number of potential solutions grows exponentially with the length of the data set, rendering brute force attempts to solve the problem infeasible. Previous work on a Bayesian change point algorithm has produced an efficient and exact probabilistic solution to the multiple change point problem by using dynamic programming-like recursions to reduce the computational complexity from exponential to quadratic. Samples drawn from the joint posterior distribution of the change point locations quantify the uncertainty in both the number and timing of changes in the data set. In this project, the existing change point model will be modified to handle sequential data. Once this initial objective is complete, research will turn towards further modifications that include the ability to handle correlated error terms and an approximate algorithm that has linear complexity, bringing the computational complexity down to a point where a time series of any length can be analyzed. The project fits naturally with undergraduate education and will serve as the basis of summer research projects, senior theses, and a potential seminar course for a new statistics program. The software developed through this project will be made publicly available so as to make this cutting-edge statistical methodology accessible to researchers in a wide variety of fields.</AbstractNarration>
+    <MinAmdLetterDate>07/03/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/03/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1407670</AwardID>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Ruggieri</LastName>
+      <EmailAddress>eruggier@holycross.edu</EmailAddress>
+      <StartDate>07/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>College of the Holy Cross</Name>
+      <CityName>Worcester</CityName>
+      <ZipCode>016102395</ZipCode>
+      <PhoneNumber>5087932741</PhoneNumber>
+      <StreetAddress>1 College Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9229</Code>
+      <Text>RES IN UNDERGRAD INST-RESEARCH</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

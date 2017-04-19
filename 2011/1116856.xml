@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Lifetime Aware System Architecture Design of Single-Chip Embedded Multiprocessors</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>385959</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The improvements in manufacturing processes for silicon integrated circuits, through the reduction in transistor and interconnect sizes, also give rise to integrated circuits that will wear out if not designed and used properly. That is, they will fail to continue to work over a long period due to factors such as increased operating power and temperature, and un-ideal scaling effects as the sizes are reduced. The number of failures, when left uncompensated, is expected to grow exponentially. Thus, the increasing wear-out failure rates will require design-for-lifetime reliability methodologies for all systems, not just those with safety critical missions. &lt;br/&gt;&lt;br/&gt;A novel design-for-reliability methodology to aid in the design of cost-effective lifetime-enhanced systems is being developed for embedded computing applications. The systems being designed are multiprocessors that are interconnected with a network on the chip. Network switches in the network are used to route information among the processors. The design methodology includes choosing the number of switches and their interconnection, choosing the types of processors and memories to be connected to the switches, selecting which processors the software programs will run on, and selecting the voltage and clock rate that each of the processors will operate at. Each of these design decisions can have a major impact on the lifetime of an integrated circuit. &lt;br/&gt;&lt;br/&gt;The design methodology requires searching through an enormously large set of design alternatives, each requiring a computationally expensive calculation of the mean-time-to-failure for the system being designed. An ant colony based optimization technique is used to explore this large design space and hardware acceleration techniques, such as graphics processing units and field programmable gate arrays, are used to speed the mean-time-to-failure calculations. &lt;br/&gt;&lt;br/&gt;The application of embedded single-chip multiprocessing systems will continue to grow across a broad spectrum of applications from personal computing devices, to biological monitoring systems, to consumer electronics. This continued growth in embedded computing applications is a major driver in the economy as it improves personal productivity. This research enables deeper scaling in the manufacturing process, and thus more capable systems, since these new integrated circuits will continue to be implementable even when individual components within them are expected to fail early or possibly are not fully working when manufactured. The research results will be disseminated through graduate courses and research articles, with some topics being introduced into a Junior/Senior level course.</AbstractNarration>
+    <MinAmdLetterDate>07/07/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/16/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116856</AwardID>
+    <Investigator>
+      <FirstName>Donald</FirstName>
+      <LastName>Thomas</LastName>
+      <EmailAddress>thomas@ece.cmu.edu</EmailAddress>
+      <StartDate>07/07/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

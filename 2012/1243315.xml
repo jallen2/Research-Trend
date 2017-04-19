@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Duke ON-RAMPS: OpenFlow-Enabled Network Resource Access that is Manageable, Programmatic, and Safe</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Joseph Lyles</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will deploy a pilot Software-Defined Science Network (SDSN) to interconnect research computing resources on the Duke campus and link them to national WAN circuit fabrics. This pilot deployment will support both Computer Science applications such as GENI and domain sciences such as Duke's Institute for Genome Sciences and Policy (IGSP) and Duke's high-energy physics group (HEP). Additionally, the SDSN will connect to the Duke Shared Cluster Resource (DSCR), a 4300-core shared batch job service used by domain scientists all over the Duke campus. The key goal is to enable domain scientists to request virtual networks that are 'simple and scalable enclaves' for science networking, and that link selected resources on campus with selected resources outside, while excluding unrelated traffic.&lt;br/&gt;&lt;br/&gt;The project will experiment with OpenFlow controllers on a trial basis within isolated flowspace slices of the SDSN, including OpenFlow-enabled traffic engineering policies that offload science traffic onto the SDSN. The project plan is that initial trial demos will exercise cloudbursting capability to expand computing service into a cloud site, and (potentially) to support virtual machine migration among the OpenStack cloud testbeds on campus. The PIs will report on their experience in technical papers. Travel budget is included for presentation of learnings to other university CIO/CTOs. Although software-defined networking (SDN) technologies are currently being widely discussed and are key elements in the GENI architecture, there is little operational or campus-level architectural experience with using them. The project will advance the state of the art in integrating SDN technologies into campus networks, and in enabling safe, controlled interconnection of science resources and GENI resources within and across campuses. The project seeks to devise and implement practical solutions that are easily reproducible beyond the initial prototype, scalable to wider use, and grounded in technologies that are (or soon will be) solid, manageable, and commercially available for deployment throughout production campus networks. The project outcomes include reporting of results and lessons to other campus network operators and to SDN researchers and industry&lt;br/&gt;&lt;br/&gt;Broader Impact:&lt;br/&gt;The pilot will provide an opportunity to gain experience with architectural, deployment, administrative and operational issues of OpenFlow in campus settings to serve research and education needs beyond the Computer Science domain. The Duke campus OpenFlow model (GENI-derived technology) offers domain sciences on-demand access to ultra-high-speed networks without performance limiting firewalls. As such it will provide direct benefit to the domain sciences. The PIs will report on issues and operational experience associated with the deployment. These reports and the PI's willingness to share their experience with other universities will reduce barriers to use of GENI from campuses, establish GENI technologies and OpenFlow as building blocks for science networking, enhance support for computational science on the Duke campus, and facilitate sharing of resources and data among science researchers and their collaborators on and off campus.</AbstractNarration>
+    <MinAmdLetterDate>06/14/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/14/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1243315</AwardID>
+    <Investigator>
+      <FirstName>Jeffrey</FirstName>
+      <LastName>Chase</LastName>
+      <EmailAddress>chase@cs.duke.edu</EmailAddress>
+      <StartDate>06/14/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Tracy</FirstName>
+      <LastName>Futhey</LastName>
+      <EmailAddress>futhey@duke.edu</EmailAddress>
+      <StartDate>06/14/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>023F</Code>
+      <Text>GENI PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

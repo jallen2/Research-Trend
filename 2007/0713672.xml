@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III:Next Generation XML Mediators</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Vijayalakshmi Atluri</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Prior research on data integration led&lt;br/&gt;to XML mediators, which provide to applications a&lt;br/&gt;virtual integrated XML view&lt;br/&gt;that allows a single point of access to the data of&lt;br/&gt;multiple distributed and heterogeneous information sources.&lt;br/&gt;Consequent industrial products address &lt;br/&gt;Enterprise Information Integration&lt;br/&gt;and follow the Global-As-View paradigm,&lt;br/&gt;where the owner specifies the integrated&lt;br/&gt;view as an XQuery function of the source views.&lt;br/&gt;&lt;br/&gt;The emergence of Service-Oriented Architectures&lt;br/&gt;and large scale Internet-based data integration, which&lt;br/&gt;is often needed in the science domains,&lt;br/&gt;renders Global-As-View-based information insufficient to benefit from&lt;br/&gt;the emerging opportunities and inefficient in large scale environments.&lt;br/&gt;Service-Oriented Architectures provide live data access&lt;br/&gt;at data sets by offering a set of web service calls to them,&lt;br/&gt;as opposed to (the studied in prior works) &lt;br/&gt;full query access to the data sets.&lt;br/&gt;Large scale data integration highlights the deployment, development&lt;br/&gt;and maintenance bottleneck that the Global-As-View paradigm&lt;br/&gt;creates by requiring the integrated view owner to have knowledge&lt;br/&gt;of the schema, data formats and semantics of all sources.&lt;br/&gt;&lt;br/&gt;The proposed mediator provides a scalable solution&lt;br/&gt;by employing a new Global-Local-As-View paradigm in an XML setting:&lt;br/&gt;Each source owner can become responsible for fitting her source&lt;br/&gt;data and web services to the integrated view.&lt;br/&gt;&lt;br/&gt;Fundamental algorithmic and system innovations &lt;br/&gt;are needed for the implementation of the paradigm.&lt;br/&gt;First, queries over the integrated view must be rewritten to use the &lt;br/&gt;source services and data. Existing algorithms for rewriting&lt;br/&gt;relational queries over relational views &lt;br/&gt;are not sufficient, as they do not address services and&lt;br/&gt;the rich structure of XML queries. Second, the source owner needs&lt;br/&gt;an appropriate language and visual tools to export interfaces in&lt;br/&gt;a way that can range from full access to the&lt;br/&gt;underlying database to a few parameterized queries and anywhere&lt;br/&gt;inbetween. Finally, the client needs corresponding systems&lt;br/&gt;to comprehend which XQueries can be asked on the integrated view.&lt;br/&gt;&lt;br/&gt;The resolution of the above fundamental contributions will enable&lt;br/&gt;the development of the rewriting module of the UCSD-XMED XQuery&lt;br/&gt;mediator, which can become a valuable information sharing &lt;br/&gt;and publishing component, especially for science portals where &lt;br/&gt;scientists will connect their databases &lt;br/&gt;of experimental data to XML-based portals for integrated access&lt;br/&gt;to scientific information. The UCSD-XMED query processor will be&lt;br/&gt;used by graduate and undergraduate students in database and&lt;br/&gt;middleware technologies.&lt;br/&gt;&lt;br/&gt;Updates about the project, including its people, software &lt;br/&gt;distributions and publications are available at &lt;br/&gt;http://db.ucsd.edu/NSF07xmlMed/</AbstractNarration>
+    <MinAmdLetterDate>09/06/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0713672</AwardID>
+    <Investigator>
+      <FirstName>Yannis</FirstName>
+      <LastName>Papakonstantinou</LastName>
+      <EmailAddress>yannis@cs.ucsd.edu</EmailAddress>
+      <StartDate>09/06/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0116000</Code>
+      <Name>Human Subjects</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

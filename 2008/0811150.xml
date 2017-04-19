@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Numerical methods for transport problems on networks</AwardTitle>
+    <AwardEffectiveDate>07/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2013</AwardExpirationDate>
+    <AwardAmount>207225</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of this research is to develop efficient numerical methods for the simulation of networked systems of hyperbolic balance laws. In such networks, each edge is a quasi one-dimensional domain interacting with the rest of the system through junctions at each of its ends. The character of those interactions depends on the applications at hand; ideally, they are&lt;br/&gt;modeled to mitigate the effects of dimension reduction. Mathematically, the presence of junctions complicates the selection process of proper solutions. The naive use of existing numerical methods in the present context may be inefficient, unstable and lead to nonphysical solutions. Numerical methods specifically optimized for network problems will be designed, analyzed and implemented. This involves not only discretization issues but also and more importantly the construction of new solvers. Those solvers will be designed by building on recent progress in both numerical methods for differential algebraic equations and in domain decomposition methods. Some phenomena are &lt;br/&gt;essentially one-dimensional in most of the computational domain and only "locally multidimensional". Being able to reliably switch to one-dimensional approximations represents significant savings; how to do this efficiently will be investigated. Transport phenomena in trees, which play an essential role in many organisms (breathing, blood circulation,etc...), lead to other types of couplings for which new numerical approaches are also proposed. Two applications are considered as test beds for various aspects of the research. They respectively involve blood flows in arteries and gas flows.&lt;br/&gt;&lt;br/&gt;Networks of roads, pipelines or arteries play a fundamental role in many aspects of our lives. They allow the efficient transport and distribution of, for instance, cars, raw sewage, gas or blood in respectively cities, countries, organisms, etc... Related practical problems range from business &lt;br/&gt;(optimization of natural gas pipeline networks) and public safety (emergency evacuation schedules in specific geographic areas) to health (likelihood of stroke based on patients' vasculature). While the tools of scientific computing have been applied very successfully to many types of transport &lt;br/&gt;phenomena such as problems in aerodynamics, the numerical simulation of transport on networks faces several specific challenges that have yet to resolved. Three main issues will be studied. (i) Efficiency: the methods have to be nimble enough to allow the simulation of entire networks as opposed to only some of their parts. (ii) Accuracy: flows are more involved near junctions or crossroads than they are away from them. Different models may have to be used at different locations of a same network. The project will study efficient implementation of such multi-physics models for network flows. (iii) Finally, the various theoretical and numerical aspects of the project will be testedon two specific applications, arterial blood flow and gas flow in rigid pipes.</AbstractNarration>
+    <MinAmdLetterDate>07/09/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/09/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811150</AwardID>
+    <Investigator>
+      <FirstName>Pierre</FirstName>
+      <LastName>Gremaud</LastName>
+      <EmailAddress>gremaud@math.ncsu.edu</EmailAddress>
+      <StartDate>07/09/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>PIF: Quantum Monte Carlo Methods for Non-Equilibrium Dynamics of Interacting Quantum Many-Body Systems</AwardTitle>
+    <AwardEffectiveDate>08/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>10/31/2015</AwardExpirationDate>
+    <AwardAmount>345000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03010000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Physics</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Bogdan Mihaila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In this project, novel computational and theoretical approaches to the dynamics of quantum many-body systems are investigated. The central idea is that quantum quenches using essentially arbitrary evolution protocols in imaginary time can be carried out numerically using modified versions of existing quantum Monte Carlo (QMC) algorithms. We develop two algorithms: (i) In non-equilibrium QMC (NEQMC) simulations, the final state of a system after a Hamiltonian evolution in imaginary time is computed. (ii) In the quasi-adiabatic QMC (QAQMC) method, expectation values along a full time-path are obtained simultaneously, using a product of a large number of evolving Hamiltonians (instead of the standard exponential time evolution operator). Key to the utility of these approaches are theoretical insights into how the imaginary-time information is related to real-times dynamics. Specifically, scaling behaviors as a function of a quench velocity (or a generalized velocity in the case of nonlinear protocols) in the neighborhood of a quantum-critical point are investigated. Susceptibilities characterizing non-equilibrium dynamics are also obtained, including the geometric tensor characterizing the state space. These theoretical ideas are developed in parallel with the QMC algorithms. Several applications to test the methods and demonstrate their uses are considered, including quantum phase transitions in transverse-field Ising models and Heisenberg-type spin models, as well as quantum spin glasses and other disordered systems. Quantum annealing protocols of interest in the context of quantum computations and other applications of adiabatic or quasi-adiabatic evolution of quantum systems are also investigated. In addition, some of the ideas developed within the context of quantum systems are also applied to classical many-body dynamics, e.g., to obtain improved ways of computing the dynamic critical exponent.&lt;br/&gt;&lt;br/&gt;One of the greatest challenges of contemporary theoretical physics is how to compute (predict) the dynamical evolution of systems of a large (macroscopic) number of interacting microscopical particles. Examples of such systems include the electrons in a solid or confined "clouds" of atoms cooled to ultra-cold temperature. These particles obey the laws of quantum mechanics, which makes computations of their behaviors extremely difficult, especially as regards their evolution in time (quantum dynamics). Even with today's supercomputers, there are no generally applicable numerical algorithms useful for solving this class of problems within reasonable time (the computation time typically scaling exponentially with the number of particles in the system). This project is centered around an idea to partially circumvent these problems for some classes of important quantum systems. Using a mathematical trick of "rotating" the time dimension in the complex plane to the imaginary-time axis, certain well known simulation algorithms for quantum systems in equilibrium can be modified to solve the evolution as a function of imaginary time. In parallel with the development of these computational tools, related theoretical work is conducted in order to obtain precise relationships between real and imaginary time dynamics. The systems under investigation are of interest, e.g., in the fields of quantum magnetism (magnetism at the electronic scale) and ultra-cold atoms, and it can be expected that the results can have impact also broadly beyond these systems (as the quantum dynamics problem is of very general interest in physics), e.g., in quantum computation (currently researched computers based on quantum-mechanical principles). The graduate students involved in the project receive training in cutting-edge scientific computation and theoretical physics.</AbstractNarration>
+    <MinAmdLetterDate>08/09/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/01/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1211284</AwardID>
+    <Investigator>
+      <FirstName>Anatoli</FirstName>
+      <LastName>Polkovnikov</LastName>
+      <EmailAddress>asp@bu.edu</EmailAddress>
+      <StartDate>08/09/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anders</FirstName>
+      <LastName>Sandvik</LastName>
+      <EmailAddress>sandvik@bu.edu</EmailAddress>
+      <StartDate>08/09/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7244</Code>
+      <Text>COMPUTATIONAL PHYSICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7569</Code>
+      <Text>CYBERINFRASTRUCTURE/SCIENCE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

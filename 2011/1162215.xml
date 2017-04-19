@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Title: Idempotent Processing and Architectures</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2017</AwardExpirationDate>
+    <AwardAmount>600000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>For many decades, Moore's Law has allowed exponential growth in computing capability while simultaneously reducing the power consumed by digital devices. Due to fundamental material properties and engineering challenges, in the future the power and energy efficiency of transistors that are the building blocks of digital devices will not improve significantly. Thus to continue providing performance improvements without increasing power consumption, new techniques to design microprocessors are required. This research project looks at a new approach to build microprocessors to make them more energy efficient. The main idea in this research project is to develop techniques allowing microprocessors to efficiently predict without having to expend power-hungry resources to recover in case the prediction is wrong. The research leverages the mathematical principle of idempotence (doing something multiple times producing the same result) in a novel way. In this project, this principle is applied to microprocessor design to develop a class of processors called Idempotent Processors. The research addresses formal theoretical analysis of the technique, ways to build software compilers, and microprocessor designs spanning CPUs to GPUs to exploit this principle. &lt;br/&gt;&lt;br/&gt;The core idea of this project is to use the property of idempotence: performing an idempotent operation many times produces the same result. The research builds upon the following insight: applications naturally decompose into a continuous series of idempotent regions; i.e., their execution can be broken down into a set of regions, where each region is idempotent - re-execution has no side-effects. The research develops the idea of Idempotent Processors, whose fundamental abstraction is executing idempotent regions of code. This allows novel modifications to the microprocessor pipeline and allows many forms of speculation without the need to restore any state prior to re-execution. This design approach unifies speculation for performance, reliability, and energy efficient execution under one principled approach. The static analysis research formalizes the notion of idempotence and investigates mechanisms for determining idempotent regions. The compiler implementation for various ISAs (instruction set architectures), CPUs (central processing units), and GPUs (grahics processing units) evaluates the approach quantitatively. &lt;br/&gt;&lt;br/&gt;The project's end-to-end solutions across multiple synergistic directions have potential for disruptive impact. The project involves collaborative work between UW-Madison and UT-San Antonio and involves under-graduate researchers, exchanges visits between institutions, and explores integrated curriculum enhancement and outreach across UW and UTSA. The project's multi-disciplinary and multi-institution collaboration provides distributed impact.</AbstractNarration>
+    <MinAmdLetterDate>07/10/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/10/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1162215</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Jimenez</LastName>
+      <EmailAddress>djimenez@cse.tamu.edu</EmailAddress>
+      <StartDate>07/10/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Somesh</FirstName>
+      <LastName>Jha</LastName>
+      <EmailAddress>jha@cs.wisc.edu</EmailAddress>
+      <StartDate>07/10/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Karthikeyan</FirstName>
+      <LastName>Sankaralingam</LastName>
+      <EmailAddress>karu@cs.wisc.edu</EmailAddress>
+      <StartDate>07/10/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

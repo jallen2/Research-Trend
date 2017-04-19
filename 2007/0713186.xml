@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III-COR: Deductive Framework for Programming Sensor Networks</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>449687</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frank Olken</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Programming a sensor network is quite hard, since it forces the programmer&lt;br/&gt;to program in low-level languages that exposes details of the hardware, &lt;br/&gt;make low-level optimization decisions, and build a great deal of network&lt;br/&gt;machinery. A programming methodology is sorely needed that will allow&lt;br/&gt;a user to specify the overall functionality of the application at a&lt;br/&gt; high-level using a suitable programming framework.&lt;br/&gt;Ideally, the specified user program would be automatically translated &lt;br/&gt;to optimized distributed code that runs on individual nodes.&lt;br/&gt;&lt;br/&gt;This project attempts to realize the above vision by viewing the sensor&lt;br/&gt;network as a distributed database of facts gathered from the environment. &lt;br/&gt;The belief is that the collaborative behavior of a sensor network&lt;br/&gt;application can be easily abstracted in terms of deductive rules&lt;br/&gt;that manipulate the facts, while the non-collaborative behavior can be&lt;br/&gt; embedded in built-in functions.&lt;br/&gt;&lt;br/&gt;The main goal of the project is to develop a query engine for efficient&lt;br/&gt; in-network evaluation of deductive queries in sensor networks. &lt;br/&gt;The query processing plan includes translation of the user program &lt;br/&gt;into optimized virtual memory code, which is downloaded into the sensor &lt;br/&gt;nodes for distributed execution. The research results would be prototyped&lt;br/&gt;in networking simulators (TOSSIM and ns2) and in real sensor network &lt;br/&gt;platforms based on Berkeley motes and Gumstix-like boards.&lt;br/&gt;&lt;br/&gt;The above research plan has the potential of greatly simplifying the &lt;br/&gt;design and use of sensor networks, by bundling all the low-level &lt;br/&gt;complexities of design choices and optimizations in the query engine.&lt;br/&gt;Examples of domains that will benefit from our contributions include &lt;br/&gt;ground traffic, emergency response and disaster relief operations,&lt;br/&gt;physical phenomenon such as weather and storm tracking, &lt;br/&gt;forest fire tracking, migration patterns of animals/birds, etc.&lt;br/&gt;&lt;br/&gt;The project web site (http://www.cs.sunysb.edu/~hgupta/logicSense)&lt;br/&gt;will be used for dissemination of all course materials, publications, &lt;br/&gt;and software that result from our project.</AbstractNarration>
+    <MinAmdLetterDate>09/06/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0713186</AwardID>
+    <Investigator>
+      <FirstName>Samir</FirstName>
+      <LastName>Das</LastName>
+      <EmailAddress>samir@cs.stonybrook.edu</EmailAddress>
+      <StartDate>09/06/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Himanshu</FirstName>
+      <LastName>Gupta</LastName>
+      <EmailAddress>hgupta@cs.stonybrook.edu</EmailAddress>
+      <StartDate>09/06/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Warren</LastName>
+      <EmailAddress>warren@cs.sunysb.edu</EmailAddress>
+      <StartDate>09/06/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

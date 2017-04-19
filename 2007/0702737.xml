@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPA: A Hybrid Fault Tolerant Approach for High-End Computing</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Virtually all fields of science and engineering depend on fundamental advances in computing. High- End Computing (HEC) simulations in various areas of science enable to understand the world around us. Unfortunately, HEC is known for lack of sustained performance and reliability. Its system-wide failure rate increases significantly with the growing number of components. The conventional method for fault tolerance in HEC, checkpointing, is costly and triggers a cycle of deterioration. This deterioration is fueled by ever-increasing HEC complexity. A new fault tolerant approach is a must for next generation HEC. &lt;br/&gt;In this research, the PIs propose a novel Hybrid Fault Tolerant (HFT) approach for HEC that combines long-term and short-term techniques to improve fault management. Long-term prediction models the possibility of faults based on historical data, and consequently facilitates failure-aware scheduling by intelligently mapping jobs to available resources. Short-term prediction diagnoses the root causes of unusual runtime events, and triggers job rescheduling on-the-fly to move running jobs away from these troublesome resources. The long-term support and the short-term support complement each other, where failure-aware scheduling prevents inactive jobs (i.e. the jobs that are not scheduled yet) from the failures that are well captured in the long-term failure models and failure-aware rescheduling enables active jobs (i.e. the jobs that are already scheduled and running) to avoid irregular failures that may not follow any long-term pattern but can be discovered at runtime (e.g. sudden hardware and software errors). The integrated long-term and short-term approach promotes a better understanding of failure trends and modes and consequently improves system productivity in HEC.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/12/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702737</AwardID>
+    <Investigator>
+      <FirstName>Zhiling</FirstName>
+      <LastName>Lan</LastName>
+      <EmailAddress>lan@iit.edu</EmailAddress>
+      <StartDate>09/12/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Xian-He</FirstName>
+      <LastName>Sun</LastName>
+      <EmailAddress>sun@iit.edu</EmailAddress>
+      <StartDate>09/12/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Illinois Institute of Technology</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606163717</ZipCode>
+      <PhoneNumber>3125673035</PhoneNumber>
+      <StreetAddress>10 West 35th Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

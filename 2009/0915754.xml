@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Modeling Coarticulation for Automatic Speech Recognition</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>466001</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project focuses on applying a model used in text-to-speech synthesis (TTS) to the task of automatic speech recognition (ASR). The standard method in ASR for addressing variability due to phonemic context, or ?coarticulation,? requires a large amount of training data and is sensitive to differences between training and testing conditions. Despite the effective use of stochastic models, current ASR systems are often unable to sufficiently account for the large degree of variability observed in speech. In many cases, this variability is not due to random factors, but is due to predictable changes in the speech signal. These factors are currently modeled in order to generate speech via TTS, but they are not yet modeled in order to recognize speech, largely because of non-local dependencies. We apply the Asynchronous Interpolation Model (AIM) used in TTS to the task of speech recognition, by decomposing the speech signal into target vectors and weight trajectories, and then searching weight-trajectory and stochastic target-vector models for the highest-probability match to the input signal. &lt;br/&gt;&lt;br/&gt;The goal of this research is improve the robustness of ASR to variability that is due to phonemic and lexical context. This improvement will increase the use of ASR technology in automated information access by telephone, educational software, and universal access for individuals with visual, auditory, or speech-production challenges. More effective models of coarticulation may increase our understanding of both human speech perception and speech production. Results from this project are disseminated through technical papers and the CSLU Toolkit software package.</AbstractNarration>
+    <MinAmdLetterDate>07/13/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/17/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915754</AwardID>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Kain</LastName>
+      <EmailAddress>kaina@ohsu.edu</EmailAddress>
+      <StartDate>08/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John-Paul</FirstName>
+      <LastName>Hosom</LastName>
+      <EmailAddress>jphosom.cslu@gmail.com</EmailAddress>
+      <StartDate>07/13/2009</StartDate>
+      <EndDate>08/10/2011</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Oregon Health and Science University</Name>
+      <CityName>Portland</CityName>
+      <ZipCode>972393098</ZipCode>
+      <PhoneNumber>5034947784</PhoneNumber>
+      <StreetAddress>3181 S W Sam Jackson Park Rd</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

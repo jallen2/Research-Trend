@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR: A Computational Framework for Observational Science: Data Assimilation Methods and their Application for Understanding North Atlantic Zooplankton Dynamics.</AwardTitle>
+    <AwardEffectiveDate>02/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2009</AwardExpirationDate>
+    <AwardAmount>207164</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06040200</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Ocean Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eric C. Itsweire</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will develop a modular data assimilation system, investigate several algorithms to make data assimilation more efficient, and will apply this system to investigate zooplankton dynamics in the North Atlantic. The goal of data assimilation is to find the value of the control variables (typically, the initial conditions or boundary conditions or model parameters) producing the best agreement between the model and the data. A data assimilation system consists of a forward model representing known dynamics. This model is integrated and the deviation between its predictions and available observations are quantified by a cost function. An adjoint model, representing the inverse of the known dynamics, is then run to determine the dependence of the cost function on the control variables. From the results of the adjoint model, the control variables are adjusted and the entire procedure repeats until the system converges on an answer. Because of the many iterations of the forward/adjoint system are required to find an answer, data assimilation is a computationally intensive process. The proposed data assimilation system will attempt to improve the effciency through parallelization and algorithmic improvements. Specifically, this project will evaluate three standard minimization algorithms and a new algorithm based on multigrid techniques. Using this system, data from the Continous Plankton Recorder survey, the only ongoing basin-wide plankton survey, will be assimilated to provide an accurate, quantitative description of the seasonal and interannual changes of North Atlantic zooplankton populations (especially, Calanus finmarchicus) in the Gulf of Maine and across the entire North Atlantic. This description will provide a better mechanistic understanding of the processes responsible for observed patterns in these populations. Such an understanding is prerequisite for predicting the impact of climate variability and change on zooplankton populations and the ecosystems they support.&lt;br/&gt;&lt;br/&gt;Broader Impacts: The proposed data assimilation system is a general model for many data assimilation problems including operational oceanography and numerical weather prediction. This project's association with the Cornell Theory Center (CTC) allows a unique opportunity to share its data assimilation system to a wide audience. With the help of CTC staff, a web interface to the system running on CTC's .NET cluster will be built. This interface will allow researchers and students across the world to access a high-performance data assimilation system. The development of the data assimilation system will be integrated into a series of computational tools courses offered at Cornell. This project will also provide research opportunities for both graduate students and undergraduates.</AbstractNarration>
+    <MinAmdLetterDate>03/29/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0732317</AwardID>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Pershing</LastName>
+      <EmailAddress>andrew.pershing@maine.edu</EmailAddress>
+      <StartDate>03/29/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maine</Name>
+      <CityName>ORONO</CityName>
+      <ZipCode>044695717</ZipCode>
+      <PhoneNumber>2075811484</PhoneNumber>
+      <StreetAddress>5717 Corbett Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maine</StateName>
+      <StateCode>ME</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

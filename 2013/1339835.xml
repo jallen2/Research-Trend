@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: E-SDMS: Energy Simulation Data Management System Software</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>499699</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The building sector was responsible for nearly half of CO2 emissions in US in 2009. According to the US Energy Information Administration, buildings consume more energy than any other sector, with 48.7% of the overall energy consumption, and building energy consumption is projected to grow faster than the consumptions of industry and transportation sectors. As a response to this, by 2030 only 18% of the US building stock is expected to be relying on the current energy management technologies, with the rest either having been retrofitted or designed from the ground up using smart and cleaner energy technologies. These building energy management systems (BEMSs) need to integrate large volumes of data, including (a) continuously collected heating, ventilation, and air conditioning (HVAC) sensor and actuation data, (b) other sensory data, such as occupancy, humidity, lighting levels, air speed and quality, (c) architectural, mechanical, and building automation system configuration data for these buildings, (d) local whether and GIS data that provide contextual information, as well as (e) energy price, consumption, and cost data from electricity (such as smart grid) and gas utilities. In theory, these data can be leveraged from the initial design and/or retrofitting of buildings with data driven building optimization (including the evaluation of the building location, orientation, and alternative energy-saving strategies) to total cost of ownership (TCOs) simulation tools and day-to-day operation decisions. In practice, however, because of the size and complexity of the data, the varying spatial and temporal scales at which the key processes operate, (a) creating models to support such simulations, (b) executing simulations that involve 100s of inter-dependent parameters spanning multiple spatio-temporal frames, affected by complex dynamic processes operating at different resolutions, and (c) analyzing simulation results are extremely costly. The energy simulation data management system (e-SDMS) software will address challenges that arise from the need to model, index, search, visualize, and analyze, in a scalable manner, large volumes of multi-variate series resulting from observations and simulations. e-SDMS will, therefore, fill an important hole in data-driven building design and clean-energy (an area of national priority) and will enable applications and services with significant economic and environmental impact.&lt;br/&gt;&lt;br/&gt;The key observations driving the research is that many data sets of urgent interest to energy simulations include the following: (a) voluminous, (b) heterogeneous, (c) multi-variate, (d) temporal, (e) inter-related (meaning that the parameters of interest are dependent on each other and constrained with the structure of the building), and (f) multi-resolution (meaning that simulations and observations cover days to months of data and may be considered at different granularities of space, time, and parameters). Moreover, generating an appropriate ensemble of simulations for decision making often requires multiple simulations, each with different parameters settings corresponding to slightly different, but plausible, scenarios. Therefore, significant savings in modeling and analysis can be obtained through data management software supporting modular re-use of existing simulation results in new settings, such as re-contextualization and modular recomposition (or "sketching") of building models and if-then analysis of simulation traces under new parameters, new building floorplans, and new contexts. In developing the energy simulation data management system (e-SDMS), the research addresses the key data challenges that render data-driven energy simulations, today, difficult. This requires (a) a novel building models, simulation traces, and sensor/actuation traces (BSS) data model to accommodate energy simulation data and models, (b) feature analysis and indexing of sensory data and simulation traces along with the corresponding building models, and (c) algorithms for analysis and exploration of simulation traces and re-contextualization of models for new building plans and contextual metadata. This research will therefore, impact computational challenges that arise from the need to model, analyze, index, visualize, search, and recompose, in a scalable manner, large volumes of multi-variate series resulting from energy observations and simulations. E-SDMS consists of an (a) eViz server, which works as a frontend to e-SDMS, an (b) eDMS middleware for feature extraction, indexing, simulation analysis, and sketching, and an (c) eStore backend for data storage. To avoid waste and achieve scalabilities needed for managing large data sets, e-SDMS employs novel multi-resolution data partitioning and resource allocation strategies. The multi-resolution data encoding, partitioning, and analysis algorithms are efficiently computable, leverage massive parallelism, and result in high quality, compact data descriptions.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1339835</AwardID>
+    <Investigator>
+      <FirstName>K. Selcuk</FirstName>
+      <LastName>Candan</LastName>
+      <EmailAddress>candan@asu.edu</EmailAddress>
+      <StartDate>09/11/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Maria Luisa</FirstName>
+      <LastName>Sapino</LastName>
+      <EmailAddress>Marialuisa.Sapino@asu.edu</EmailAddress>
+      <StartDate>09/11/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Arizona State University</Name>
+      <CityName>TEMPE</CityName>
+      <ZipCode>852816011</ZipCode>
+      <PhoneNumber>4809655479</PhoneNumber>
+      <StreetAddress>ORSPA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CGV: Small: Scalable high-quality surface parameterization and resampling</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Processing geometry efficiently is crucial for many domains including computer-aided design, scientific computing, urban planning, and cultural heritage preservation, to name just a few. As a consequence, the amount of geometric data generated and stored is rapidly increasing. Raw geometric data comes in a variety of forms (e.g., range images, LIDAR data, and volumetric data), and most commonly is converted to unstructured meshes which enjoy many attractive features but inherently limit efficiency and accuracy of algorithms for geometric processing, processing data on surfaces and physical simulation. Conversion of geometry to an image-like, regularly sampled form has been demonstrated to have significant advantages in these contexts. Mesh parameterization is the fundamental technique used both for resampling surfaces on structured grids and for mapping data to surfaces. Global parameterization algorithms can generate seamless tilings of arbitrary surfaces with quadrilateral domains enabling regular resampling everywhere excluding isolated points. The continuing progress in this area has led to increasingly reliable and high-quality algorithms, yet no fully robust automatic method is available yet. The PI's goal in this project is to tackle this problem and to develop fundamental algorithms for global parameterization supported by rigorous analysis, as well as robust and scalable implementations of these algorithms. Specifically, he aims to address the following closely interconnected problems: Quality (optimization of suitably chosen distortion measures, and explicit guarantees on local distortion); Robustness (direct parameterization and resampling of possibly noisy geometric data avoiding intermediate mesh representations, with guarantees on the resulting parameterization structure); and Scalability and Efficiency (to enable meshes with hundreds of millions of sample points to be processed on a desktop computer). Although the PI will build on the substantial recent advances in the area, achieving the stated goals will require rethinking some of the core aspects of the problem. &lt;br/&gt;&lt;br/&gt;Broader Impacts: This research will lead not only to the development of practical and efficient algorithms, but also to advances in our fundamental understanding of related geometric problems (for example, intrinsic limitations on distortion and geometric resampling). The software the PI plans to develop has the potential to enable new approaches to a variety of tasks in geometric processing, which can be performed on structured grids and in the parametric domain if a robust tool for parameterization can be assumed to be available. The interest in robust and scalable parameterization techniques extends far beyond the domain of geometric processing, to many domains of science and engineering where complex geometric models are used (e.g., large-scale fluid flow simulation in complex geometry, which requires high-order approximation of surfaces extracted from different sources).</AbstractNarration>
+    <MinAmdLetterDate>08/08/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320635</AwardID>
+    <Investigator>
+      <FirstName>Denis</FirstName>
+      <LastName>Zorin</LastName>
+      <EmailAddress>dzorin@mrl.nyu.edu</EmailAddress>
+      <StartDate>08/08/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Embedded Graph Software-Hardware Models and Maps for Scalable Sparse Computations</AwardTitle>
+    <AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2017</AwardExpirationDate>
+    <AwardAmount>424999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A large number of "big data" and "big simulation" applications, such as those for determining network models or simulations of partial differential equation models, concern high dimensional data that are sparse. Sparse data structures and algorithms present significant advantages in terms of storage and computational costs. However, with only a few operations per data element, efficient and scalable implementations are difficult to achieve on current and emerging high performance computing systems with very high degrees of core level parallelism, complex node interconnect topology and multicore/manycore nodes with non-uniform memory architectures (NUMA). This proposal develops and evaluates á-embedded graph hardware-software models and attendant data locality-preserving and NUMA-aware application to core/thread mappings to enhance performance and parallel scalability. &lt;br/&gt;Consider an application task graph A, weighted with measures of work and data sharing that is approximately embedded in two or three dimensions, to obtain an á-embedded graph A. Additionally, consider a weighted graph of a HPC system that is naturally assigned coordinates to obtain an á-embedded host graph model H. This proposal develops parallel algorithms to compute interconnect topology-aware mappings of A to H in order to optimize performance measures such as congestion and dilation while preserving load balance. Additionally, at a multicore node in H that is assigned a subgraph of A, (i) sparse data are reordered to enhance parallelism and locality, and (ii) a dynamic fine-grain NUMA-aware task scheduling is applied to respond through work-stealing to core variations in performance from resource conflicts, throttling etc. Finally, through insights gained from á-embedded graph models, sparse matrix algorithms are reformulated to enhance communication avoidance, soft error resilience and data preconditioning. Outcomes include enabling weak scaling to a very large number of cores by extracting parallelism at fine, medium and large-grains, and significantly enhanced fixed and scaled problem efficiencies through locality preservation. &lt;br/&gt;The interconnect topology-aware models and maps hold the potential for impact on very large scale HPC workloads through potential incorporation into the Message Passing Interface for enhanced sparse communications. Additionally, the proposed locality-aware mappings and NUMA-aware scheduling can potentially benefit the very large base of modeling and simulation applications that run on small multicore clusters. Graduate student training is enhanced through a "scale-up" challenge component in an interdisciplinary course on computational science and engineering. High school students are introduced to parallel computing through summer in-residence programs seeking to broaden participation in science and engineering from underrepresented communities.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319448</AwardID>
+    <Investigator>
+      <FirstName>Padma</FirstName>
+      <LastName>Raghavan</LastName>
+      <EmailAddress>padma.raghavan@vanderbilt.edu</EmailAddress>
+      <StartDate>08/06/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

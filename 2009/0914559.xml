@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Stable and efficient computation of the CS decomposition</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>107951</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;The CS decomposition is a matrix decomposition related to the eigenvalue and singular value decompositions. It applies to any unitary matrix partitioned into a 2-by-2 block structure, and the effect is to simultaneously diagonalize all four blocks. By orthogonality, the entries of the resulting diagonal blocks must be the cosines and sines of some angles, leading Stewart to coin the term CS (cosine-sine) decomposition for his 1977 discovery. The decomposition can reveal the canonical angles between linear subspaces, studied as early as 1875 by Jordan, and the canonical correlations between two sets of observed variables, introduced by Hotelling in 1936. The current proposal focuses on computational aspects of this matrix decomposition. The first goal is the stable computation of the full form of the decomposition, as originally formulated by Stewart. As described above, this may be called a 2-by-2 CSD. Prior methods compute a reduced form, the 2-by-1 CSD, which in a sense is half of the full 2-by-2 form. Attempts at extending existing methods for the 2-by-1 CSD to the full 2-by-2 CSD have not been successful. A proof of stability for a recent algorithm described by the investigator, designed from the ground up to compute the full 2-by-2 CSD, is sought. Another goal of the project is to analyze the stability and efficiency of the algorithm when specialized to the 2-by-1 CSD and the GSVD, comparing with existing methods. A third goal is the investigation of an alternative algorithm based on a divide-and-conquer scheme, in addition to the QR iteration-approach of the investigator's first algorithm. Finally, possible applications enabled by the stable computation of the 2-by-2 CSD will be explored.&lt;br/&gt;&lt;br/&gt;A matrix decomposition is a mathematical tool for breaking a matrix, a rectangular array of numbers, into a product of simpler matrices. These simpler matrices often reveal important structure. The eigenvalue matrix decomposition can distinguish between stability and instability in engineering applications and can reveal the prominence of web pages when performing Internet searches. The singular value matrix decomposition can infer the roles of genes from indirect observations and provides a key component in facial recognition. The subject of this project is another matrix decomposition, the CS (cosine-sine) decomposition. This decomposition can be used to compare and contrast underlying factors present in two data sets. An example is provided by Hotelling, who proposes the analysis of heritable traits by comparing and contrasting mother rat and daughter rat. The computation of the CS decomposition has proved more difficult than that of the eigenvalue and singular value decompositions. This project seeks to improve the accuracy and speed of computation. In addition, this project will consider a more general form of the CS decomposition than earlier studies, opening the possibility of new applications.</AbstractNarration>
+    <MinAmdLetterDate>08/17/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/17/2009</MaxAmdLetterDate>
+    <ARRAAmount>107951</ARRAAmount>
+    <AwardID>0914559</AwardID>
+    <Investigator>
+      <FirstName>Brian</FirstName>
+      <LastName>Sutton</LastName>
+      <EmailAddress>bsutton@rmc.edu</EmailAddress>
+      <StartDate>08/17/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Randolph-Macon College</Name>
+      <CityName>Ashland</CityName>
+      <ZipCode>230051502</ZipCode>
+      <PhoneNumber>8047527268</PhoneNumber>
+      <StreetAddress>310 N. Center Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

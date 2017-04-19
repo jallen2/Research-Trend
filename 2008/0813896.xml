@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Optimization of Intensity Modulated Radiation Therapy with Time Varying Delivery Plans and Fraction Constraints</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>121213</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Russell Barton</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Radiation therapy is prescribed for over half of cancer cases. Modern intensity modulated radiotherapy (IMRT) uses multiple non-homogeneous beams to tailor the dose distribution delivered over 30-60 daily sessions called fractions. Fractionation exploits relative differences in the sensitivities of tumor and normal tissues to the dose per session. This research extends IMRT planning methods which optimize only over constraints on dose accumulated over the entire treatment, to include also desired limits on dose per fraction. The challenge is to do this in a computationally efficient way given planning over one entire period already taxes modern optimization tools. The strategy is to divide treatment into a series of epochs of identical fractions. Methods will either compute all plans assuming static conditions or step through epochs with a rolling horizon that can incorporate changing circumstances and beam angle sets.&lt;br/&gt;&lt;br/&gt;Each one percent rise in tumor dose can improve local control by about 1.5 percent, potentially offering meaningful gains to thousands of patients if organ tolerance limits can be satisfied. An obstacle is satisfying rules on total dose and dose per fraction simultaneously. Substantial dose shortfalls in tumor or violations of fraction size limits can appear if plans are optimized with respect only to cumulative dose and then evenly divided into daily sessions. Time varying solutions are required to meet fractionation constraints and respond to changing conditions over the treatment course. Success with time-varying optimization opens the door to emerging methods of image guided radiotherapy recording changes in tissue geometry throughout the treatment course.</AbstractNarration>
+    <MinAmdLetterDate>02/06/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/06/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0813896</AwardID>
+    <Investigator>
+      <FirstName>Ronald</FirstName>
+      <LastName>Rardin</LastName>
+      <EmailAddress>rrardin@uark.edu</EmailAddress>
+      <StartDate>02/06/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Arkansas</Name>
+      <CityName>FAYETTEVILLE</CityName>
+      <ZipCode>727011201</ZipCode>
+      <PhoneNumber>4795753845</PhoneNumber>
+      <StreetAddress>210 Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arkansas</StateName>
+      <StateCode>AR</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1787</Code>
+      <Text>SERVICE ENTERPRISE SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9146</Code>
+      <Text>MANUFACTURING BASE RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>MANU</Code>
+      <Text>MANUFACTURING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

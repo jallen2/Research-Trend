@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Automated Event Classification and Decision Making in Massive Data Streams</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>499982</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As the exponential growth of data volumes and complexity continues in all sciences (and indeed all other fields of the modern society, economy, commerce, security, etc.), there is a growing need for powerful new tools and methodologies which can help us extract knowledge and understanding from these massive data sets and data streams. The newly gained knowledge is often used to guide our actions, and in science that typically means follow-up studies and measurements, as the research cycle continues. As the data rates and volume increase, it becomes necessary to take humans out of the loop, and develop automated methods for time-critical knowledge extraction and optimized response to anomalous or interesting events found by the data processing pipelines. This proposal is to develop a system that will be an example of a new generation of scientific experiments and methods that involve real-time mining of massive data streams, and dynamical follow-up strategies. The system would be developed and validated in the context of real scientific situations from the emerging field of time-domain astronomy. A new generation of synoptic sky surveys covers the sky repeatedly, detecting variable or transient phenomena, over a broad range of astrophysics, from the Solar system and stellar evolution, to cosmology and extreme relativistic objects; from extrasolar planets to gamma-ray bursts and supernovae as probes of the dark energy. As we explore the observable parameter space, there is a real possibility of discovery of new types of objects and phenomena. &lt;br/&gt;&lt;br/&gt;The system will enable exciting new astrophysics, and facilitate discovery. The key to this is a fully automated classification and prioritization of the transient events, and their follow-up observations. This poses some interesting challenges for applied computer science, especially in the area of Machine Learning, including an automated classification where only a sparse, incomplete, and heterogeneous data are available, and contextual information and domain expertise must be folded in the process. The process must be dynamic, incorporating new data as they become available, and revising the classifications accordingly. The system would then generate automatically decisions for an optimal follow-up of the most interesting events, given the available limited assets and resources. This project will aid the entire astronomical community in developing new scientific strategies and procedures in the era of large synoptic sky surveys, facilitate data sharing and re-use, and stimulate further development of Virtual Observatory capabilities. The methods and experiences gained here will be described in the open literature, so that they may find a broader use outside astronomy, wherever similar time-critical situations occur, thus fostering constructive new synergies between applied computer science and other domains. The proposers will train undergraduate and graduate students and postdocs, in the methods of scientific computing and computational thinking, and develop effective EPO materials, touching on both the new science and computation.&lt;br/&gt;&lt;br/&gt;The challenges posed by the knowledge extraction in the era of data abundance become even sharper in the time-critical situations where we mine the information from massive data streams, especially when the phenomena under study are short-lived, and/or a rapid follow-up reaction is needed. Potentially interesting phenomena and events must be identified, classified, and prioritized in real time, typically using some combination of the new measurements, and existing archival data and models. Then an optimal decision has to be made as to what is the best follow-up that will provide the essential new information in any given individual case; this can be critical if the follow-up assets are scarce or costly. If the time scales are short, and data rates large, the implication is that humans should be taken out of the loop, and that the classification, prioritization, and follow-up decision process must be fully automated. Machine learning (ML) and machine intelligence tools become a necessity. This proposal is to develop a novel, ML-based system for a real-time classification and prioritization of transient events, using the newly emerging field of time-domain astronomy and synoptic sky surveys as a scientific testbed. The classification problem here is different from the usual situations: the data are sparse and/or incomplete, heterogeneous, and evolving as the new measurements come in; the decision process has to take into account the uncertainties of the classification process, and the available assets; and so on. While the sky surveys detect transient cosmic events, the scientific returns come from their directed follow-up. It is essential to be able to classify and prioritize interesting events, especially as we move from the present Terascale data streams and tens of candidate events per night, to the future Petascale data regime, with literally millions of candidates, only a handful of which can be followed. Given the problem of data incompleteness and sparsity, the proposers will explore the use of Bayesian techniques that can operate on a set of expert-developed and ML-based priors, using the currently best available data. Some of the methodological challenges include incorporation of the contextual information and human expertise and optimal combination of separate classifier outputs, as well as new methods developed in this project. All of the algorithmic developments will be done keeping the robustness and scalability in mind, and tested on real scientific use cases.</AbstractNarration>
+    <MinAmdLetterDate>07/22/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1118041</AwardID>
+    <Investigator>
+      <FirstName>Stanislav</FirstName>
+      <LastName>Djorgovski</LastName>
+      <EmailAddress>george@astro.caltech.edu</EmailAddress>
+      <StartDate>07/22/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>California Institute of Technology</Name>
+      <CityName>PASADENA</CityName>
+      <ZipCode>911250600</ZipCode>
+      <PhoneNumber>6263956219</PhoneNumber>
+      <StreetAddress>1200 E California Blvd</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

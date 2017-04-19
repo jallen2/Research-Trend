@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Economic optimization of chemical processes with feedback control</AwardTitle>
+    <AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>324937</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Burka</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>James Rawlings &lt;br/&gt;0828306&lt;br/&gt;&lt;br/&gt;The current paradigm in advanced process control systems is to decompose a plant's economic optimization into two levels. The first level performs a steady-state optimization. This level is sometimes referred to as real-time optimization or RTO. The RTO uses a steady-state model and optimizes the plant's steady-state operating point based on current operating costs, raw material costs, and product prices. The RTO determines the economically optimal plant operating conditions (setpoints) and sends these setpoints to the second level, which performs a dynamic optimization. The dynamic optimization is usually referred to as the advanced control system. Almost all advanced process control systems use some form of model predictive control or MPC. The MPC uses a dynamic model and regulates the plant dynamic behavior to meet the setpoints determined by the RTO.&lt;br/&gt;&lt;br/&gt;In this project, we will explore the PI will depart from this paradigm for two reasons:&lt;br/&gt;1. The steady-state model and the dynamic model used by the two levels often conflict. Methods to resolve conflicts between the steady-state models and dynamic models require significant maintenance and have not met with industrial acceptance and widespread use.&lt;br/&gt;2. The time-scale separation between the two levels is shrinking.&lt;br/&gt;&lt;br/&gt;The goal of this project is to develop a new MPC regulation/estimation problem formulation that optimizes dynamic economic performance in real time. This new formulation changes the classical setpoint regulation approach that has been used in this layer of the chemical process plant automation systems. Because of the increasing speed and memory, and decreasing cost of computational hardware, one is able to address for the first time the dynamic economic optimization of industrially relevant process models in real time.&lt;br/&gt;&lt;br/&gt;Intellectual Merit &lt;br/&gt;&lt;br/&gt;The intellectual merit in lies in the development of new systems theory, to complement and extend MPC theory of constrained systems. The approach admits unbounded cost functions and establishes the asymptotic stability (convergence) of the closed-loop system to the optimal steady state under this new type of feedback control. This extensions will enable model predictive control to address dynamic optimization of process economics subject to settling at the optimally constrained steady state. The theory will be implemented in the high-level, freely available computational language Octave, thus enabling industrial practitioners to evaluate the new theory with low costs and technical risks associated with software installation, maintenance, and future development.&lt;br/&gt;&lt;br/&gt;Broader Impact&lt;br/&gt;&lt;br/&gt;This project offers an improvement for optimizing the economic performance of large scale manufacturing in the process industries. Rather than optimizing distance from an optimal steady state, the method enables direct, dynamic optimization of the process economics. The systems theory and algorithms developed are completely general and can be applied to any dynamic manufacturing process instrumented with sensors and actuators. Using feedback control to directly optimize economic performance rather than simply maintaining steady operation has broad implications across all automated manufacturing sectors of the economy.</AbstractNarration>
+    <MinAmdLetterDate>07/08/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/24/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0825306</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Rawlings</LastName>
+      <EmailAddress>rawlings@engr.wisc.edu</EmailAddress>
+      <StartDate>07/08/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Eaton</LastName>
+      <EmailAddress>JWE@BEVO.CHE.WISC.EDU</EmailAddress>
+      <StartDate>07/08/2008</StartDate>
+      <EndDate>02/24/2010</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

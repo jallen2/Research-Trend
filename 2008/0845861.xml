@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: From Incidental Algorithms to Reusable Components: Managing the Emergent Complexity of Large-Scale Software Systems</AwardTitle>
+    <AwardEffectiveDate>07/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2014</AwardExpirationDate>
+    <AwardAmount>426579</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009&lt;br/&gt;(Public Law 111-5).&lt;br/&gt;&lt;br/&gt;Real-world software systems are large, complex artifacts built up over multiple layers of abstraction using diverse collections of components. Though individual components are often reusable, code that manages interactions between components seldom is. Such code is large-scale itself, and encodes significant amounts of application logic. A potential for communication between components, typically effected by message passing between objects, forms incidental structures in a program. Though such structures are real data structures, they lack an explicit representation in program code and at run time, and are thus difficult to reuse, manipulate programmatically, and reason about. This project focuses on identifying incidental structures that arise in important domains of mainstream programming---human interfaces in particular---and modeling them as declaratively specified explicit software artifacts. The hypothesis is that large amounts of ad-hoc code can be obsoleted, and replaced by reusable algorithms and components.&lt;br/&gt;&lt;br/&gt;The particular source of incidental data structures in user interfaces is the event handling code, implementing propagation of values, validation logic, interface element enabling logic, scripting support, etc. The project seeks to demonstrate that these functionalities, typically implemented with application-specific non-reusable code, are not specific to a particular user interface; they can be realized with reusable generic algorithms, parameterized over a (declaratively specified) model that captures the relations, as a system of constraints, between values manipulated by the user interface.&lt;br/&gt;&lt;br/&gt;The proposed work will impact future large-scale software development, aiming to realize substantially increased productivity and software that is more reliable, efficient, and predictable.</AbstractNarration>
+    <MinAmdLetterDate>06/12/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/14/2014</MaxAmdLetterDate>
+    <ARRAAmount>426579</ARRAAmount>
+    <AwardID>0845861</AwardID>
+    <Investigator>
+      <FirstName>Jaakko</FirstName>
+      <LastName>Jarvi</LastName>
+      <EmailAddress>jarvi@cse.tamu.edu</EmailAddress>
+      <StartDate>06/12/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas A&amp;M Engineering Experiment Station</Name>
+      <CityName>College Station</CityName>
+      <ZipCode>778454645</ZipCode>
+      <PhoneNumber>9798477635</PhoneNumber>
+      <StreetAddress>TEES State Headquarters Bldg.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Towards Petascale Simulation of Urban Earthquake Impacts</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2013</AwardExpirationDate>
+    <AwardAmount>1606000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daniel Katz</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is an outcome of the NSF 07-559 program solicitation, "accelerating Discovery in Science and Engineering through Petascale Simulations and Analysis" competition. The lead institution is Carnegie Mellon University, with subawards to the Universities of California at Berkeley, Davis, and San Diego. This award will develop methodologies, capability, and software for high-fidelity, physics-based petascale simulations of an entire high seismicity urban region, the Greater Los Angeles Basin (GLAB), to assess the engineering impacts of large magnitude earthquakes on buildings, transportation system components, and the underground civil infrastructure. Earthquakes are one of the most severe natural hazards facing the United States. Simulating their effects on the built environment is a unique science driver for petascale high-performance computing (HPC) systems because of the multiple length scales with different physics, large data volumes, and need for highly scalable parallel visualization and data querying. Current three-dimensional earthquake simulations have been limited to linear soil behavior and isolated, individual structures. Advancing beyond current approaches, this project will develop simulation capability that includes the interaction between the soil, foundations, and large inventories of structures; the interaction between structures in densely built areas; and the effect of the structures on the free-field motion; as well as the nonlinear soil behavior and the effect of the pore water pressure in saturated soils leading to liquefaction. Current HPC capability is inadequate for these complex simulations. This project will use emerging petascale systems to perform and integrate (1) ground motion simulation of large sedimentary basins, (2) simulation of the nonlinear behavior of soil, (3) simulation of large inventories of buildings, bridges, and other infrastructure systems, (4) computational databases, and (5) scalable visualization techniques. The project will make new advances in a hierarchical, multi-scale methodology for petascale simulation. Going from a large regional, broadband earthquake simulation to multiple subregions will allow detailed modeling in a highly scalable manner to capture site response and structural response accurately for entire inventories. The Domain Reduction Method will be applied for the first time using ground motion from a regional simulation as input for multiple highly populated subregions. These subregions include models of highly nonlinear soil and detailed models of hundreds of buildings and bridges along with embedded foundations. A new scalable implicit-explicit time integration method will be developed to provide optimal computational performance for the complex earthquake simulations for a subregion. Data analysis and visualization capability will be developed to run on the same parallel processors as the simulation, drastically reducing the need to move data. Using this approach for data-intensive supercomputing, in-situ visualization and a new computational database system will allow unprecedented ability to understand earthquake impacts. The new capability will present information that facilitates understanding and decision-making by drilling down to the detail of interest while maintaining the global context. The GLAB was selected because of the high seismic risk, important public policy need, and the wealth of information that it provides for verification and validation. The annual milestones for the GLAB test bed are calibrated to take early advantage of HPC resources, with scaling of the simulations to take place as petascale systems are brought online. The methodology, applications, and the results of the simulations will be useful for disaster planning and management, since it is the detailed knowledge of how an urban system performs in a large earthquake that is needed for improving disaster preparedness and mitigation. Graduate students working on the project will have the opportunity to create new knowledge through multidisciplinary research in civil engineering, computational engineering, and computer science.</AbstractNarration>
+    <MinAmdLetterDate>09/24/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/23/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0749227</AwardID>
+    <Investigator>
+      <FirstName>Jacobo</FirstName>
+      <LastName>Bielak</LastName>
+      <EmailAddress>jbielak@cmu.edu</EmailAddress>
+      <StartDate>09/24/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gregory</FirstName>
+      <LastName>Fenves</LastName>
+      <EmailAddress>fenves@ce.berkeley.edu</EmailAddress>
+      <StartDate>09/24/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ahmed</FirstName>
+      <LastName>Elgamal</LastName>
+      <EmailAddress>elgamal@ucsd.edu</EmailAddress>
+      <StartDate>09/24/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>O'Hallaron</LastName>
+      <EmailAddress>droh@cs.cmu.edu</EmailAddress>
+      <StartDate>09/24/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kwan-Liu</FirstName>
+      <LastName>Ma</LastName>
+      <EmailAddress>ma@cs.ucdavis.edu</EmailAddress>
+      <StartDate>09/24/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7231</Code>
+      <Text>CYBERINFRASTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7417</Code>
+      <Text>S AND T HIGH-END COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7691</Code>
+      <Text>PetaApps</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7691</Code>
+      <Text>PetaApps</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

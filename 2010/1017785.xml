@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Operating System Abstractions for GPU-Accelerated Interactive Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Corman</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The most dramatic gains in compute density in the last decade have come from graphics processing units (GPUs) rather than central processing units (CPUs). Unfortunately, current operating systems (OSes) do not provide the same kind of high-level programming abstractions for GPUs that applications expect for other resources like CPUs, input devices, and file systems. OSes hide GPUs behind an awkward ioctl interface, shifting the burden of abstraction onto user libraries and run-times.&lt;br/&gt;&lt;br/&gt;New technologies require new abstractions. Rich interfaces like recognizing gestures, brain-computer interfaces, and audio/visual interfaces are highly compute-intensive. Because they process voluminous data under real-time constraints, they are beyond the capabilities of modern CPUs. These workloads rely on data-parallel algorithms, making GPUs an ideal resource to accelerate these tasks, but some form of OS support is required to ensure safe interaction with the user.&lt;br/&gt;&lt;br/&gt;The SymbiOS model is a fundamental reorganization of kernel abstractions for managing interactive, massively parallel devices. The kernel must expose enough of the hardware detail of GPUs to allow programmers to take advantage of their enormous processing capabilities, but must hide programmer inconveniences like memory that is incoherent between the CPU and GPU. Under the SymbiOS model, GPUs are promoted to first-class computing resources, with traditional OS guarantees such as fairness and isolation.&lt;br/&gt;&lt;br/&gt;The goal of this project is the design and development of OS abstractions for GPUs, and implementation of several case-studies including a gesture-driven UI that leverages the SymbiOS Model to deliver real-time performance on commodity GPU hardware.</AbstractNarration>
+    <MinAmdLetterDate>07/19/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017785</AwardID>
+    <Investigator>
+      <FirstName>Emmett</FirstName>
+      <LastName>Witchel</LastName>
+      <EmailAddress>witchel@cs.utexas.edu</EmailAddress>
+      <StartDate>07/19/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>Rossbach</LastName>
+      <EmailAddress>rossbach@cs.utexas.edu</EmailAddress>
+      <StartDate>07/19/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

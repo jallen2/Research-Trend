@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: CSR: Small: Assisted Partitioning and Automated Synthesis of Hybrid Manycore Simulators</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2015</AwardExpirationDate>
+    <AwardAmount>388749</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Microprocessor designers wish to predict the performance of future microprocessors, evaluate new ideas, and validate new systems. The primary technique they use is software-based simulation. Unfortunately, software-based simulators for manycore microprocessors are slow and will become even slower as the number of cores increases. Slow simulators imply that little exploration of the design space can be done -- few design alternatives are considered and those that are considered are not evaluated thoroughly. Hybrid simulators, which use reconfigurable hardware devices such as Field Programmable Gate Arrays (FPGAs), could accelerate simulators by orders of magnitude, but are themselves very difficult and time-consuming to create; this difficulty arises from the need to first partition the simulator between hardware and software and then design the hardware portions.&lt;br/&gt;&lt;br/&gt;The goal of this project is to provide tools which allow a designer to easily and quickly create a hybrid simulator from a software-based simulator. The tools will assist the designer to partition the design and then automatically synthesize the hardware portions based upon the selected partitioning. Three different software simulation frameworks -- SystemC, Unisim, and the Liberty Simulation Environment -- will be supported. We target a 100x simulation speed improvement relative to software-based simulators. Achieving this target will require the development of new means to exploit parallel communication and execution between the hardware and software and new means to virtualize the hardware resources. The resulting tools will enable researchers and practitioners to better explore the manycore design space, evaluate new ideas, and validate designs.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017004</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Penry</LastName>
+      <EmailAddress>dpenry@ee.byu.edu</EmailAddress>
+      <StartDate>07/28/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brigham Young University</Name>
+      <CityName>Provo</CityName>
+      <ZipCode>846021231</ZipCode>
+      <PhoneNumber>8014226177</PhoneNumber>
+      <StreetAddress>A-285 ASB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

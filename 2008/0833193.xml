@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: A Study and Implementation of Semantic Constructs for Highly Scalable Leading-edge Scientific Computing</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2010</AwardExpirationDate>
+    <AwardAmount>70000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Scaling scientific problems to 10,000,000 processors for the next generation HEC systems is today severely challenged by conventional practices of programming models, languages, and their supporting compilation systems. To achieve this goal one must expose greater degree of parallelism and improve parallel computing efficiency than is otherwise feasible with conventional methods such as MPI. &lt;br/&gt;The goal of this collaborative research project is to dramatically enhance the scalability of challenging physics problems, through the application of an innovative programming model. The strategy is to replace static message-passing course grained processes using global barrier synchronization in a distributed memory space with a model using dynamic message-driven multiple threads using lightweight synchronization objects in a partitioned global address space. Parallelism is to be extracted directly from the large irregular sparse and time varying data structures. Ephemeral user-threads will permit many simultaneous tasks over the data structures, exposing the intrinsic near-fine grain parallelism. System-wide latency will be hidden by overlapping computation with communication through the advanced communication strategy of asynchronous message-driven processing. Consequently this will enable a class of physics problems that cannot currently be done using conventional methods.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0833193</AwardID>
+    <Investigator>
+      <FirstName>Joel</FirstName>
+      <LastName>Tohline</LastName>
+      <EmailAddress>tohline@lsu.edu</EmailAddress>
+      <StartDate>07/31/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Sterling</LastName>
+      <EmailAddress>tron@indiana.edu</EmailAddress>
+      <StartDate>07/31/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Luis</FirstName>
+      <LastName>Lehner</LastName>
+      <EmailAddress>lehner@lsu.edu</EmailAddress>
+      <StartDate>07/31/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Louisiana State University &amp; Agricultural and Mechanical College</Name>
+      <CityName>Baton Rouge</CityName>
+      <ZipCode>708032701</ZipCode>
+      <PhoneNumber>2255782760</PhoneNumber>
+      <StreetAddress>202 Himes Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7583</Code>
+      <Text>ITR-HECURA</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: CPA-CSA: CMP Architectures with Global Communication</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>107421</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The focus of this proposal is to evaluate the use of instantaneous, chip-wide global information for increasing performance and reducing power and cost in large-scale, chip multi-processors (CMPs). Using global information contradicts conventional thinking because it has been assumed that traversing the entire chip requires many clock periods. Recently developed circuits, however, enable single-cycle, chip-wide signaling, suggesting new possibilities of combining global and local information simultaneously. Further, similar ideas have not been previously implemented in large, traditional multi-chip systems because design flexibility, interconnect configurability, and transistor performance improvements exist only on chip. &lt;br/&gt;&lt;br/&gt;Preliminary exploration has identified both the required interconnect circuits and opportunities for hardware and software to take advantage of up-to-date global information. The research plans to exploit new circuit techniques that will enable the proposed network-on-chip (NOC)with hybrid interconnect (NOCHI) architecture, which has both a data plane using conventional interconnect techniques and an ultra low-latency control plane with a global interconnect. Because NOCHI ignores established design patterns, understanding the circuit properties is essential for the architectural studies, which include: new algorithms that can better control and regulate power consumption within the network and across cores; improved interaction of the cores with the off-chip memory system to reduce demands on on-chip network resources; the ramifications of global information on cache coherence and management; and software controlled, ultra low-latency efficient synchronization for multicores.</AbstractNarration>
+    <MinAmdLetterDate>01/15/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/15/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1008325</AwardID>
+    <Investigator>
+      <FirstName>Li-Shiuan</FirstName>
+      <LastName>Peh</LastName>
+      <EmailAddress>peh@mit.edu</EmailAddress>
+      <StartDate>01/15/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

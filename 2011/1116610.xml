@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Integrating Compiler and Architecture Design to Boost Timing Speculation</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>501349</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project examines the art and science of co-designing compilers and hardware for circuit-level timing speculation thereby enabling reliable, high-performance computer systems. Timing speculation, an exciting, forward-looking hardware design alternative, allows designers to abandon pessimistic design guidelines and consequently extract more performance from the silicon. Unfortunately, timing speculation has been under-served by contemporary compiler technologies. This research develops novel design paradigms that allow the compiler and architecture to be jointly optimized to build highly effective timing speculative systems, a significant industrial and societal benefit. Outreach efforts motivate students to pursue graduate study in computer science and engineering. &lt;br/&gt;&lt;br/&gt;Given the promise of timing speculation but the prevailing downward focus of existing work, targeted code generation addresses neglected portions of the system stack and offers enticing possibilities. This research develops timing-aware compilation that applies instruction-level error rate models to analyze and optimize instruction sequences. By generating binaries specifically targeted for timing speculation, the compiler aims to significantly reduce incidence of timing errors which demand dynamic correction. This extends the reach of timing speculation by reducing recovery cost. This allows systems to operate at higher clock frequencies or enables better energy-efficiency through lower supply voltages. The research develops compact timing error rate models through machine learning techniques and determines how existing flow analysis present in modern compilers could be used to drive these error rate models. The compiler extends existing code optimizations to include the estimated impact of timing errors generated during analysis phases. The compiler technology is being used to examine new design paradigms for integrated timing speculative systems which include co-designed and co-optimized architectures and compilers.</AbstractNarration>
+    <MinAmdLetterDate>07/13/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/17/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116610</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Findler</LastName>
+      <EmailAddress>robby@northwestern.edu</EmailAddress>
+      <StartDate>07/13/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Russell</FirstName>
+      <LastName>Joseph</LastName>
+      <EmailAddress>rjoseph@eecs.northwestern.edu</EmailAddress>
+      <StartDate>07/13/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northwestern University</Name>
+      <CityName>Evanston</CityName>
+      <ZipCode>602013149</ZipCode>
+      <PhoneNumber>8474913003</PhoneNumber>
+      <StreetAddress>1801 Maple Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

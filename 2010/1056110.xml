@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Multi-scale modeling of short-term forecasting and grid integration of wind energy over complex terrain</AwardTitle>
+    <AwardEffectiveDate>01/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2016</AwardExpirationDate>
+    <AwardAmount>400011</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Carole Read</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>PI: Inanc Senocak&lt;br/&gt;Proposal Number: 1056110&lt;br/&gt;Institution: Boise State University&lt;br/&gt;Title: CAREER: Multi-scale modeling of short-term forecasting and grid integration of wind energy over complex terrain&lt;br/&gt;&lt;br/&gt;There is a growing interest to increase the utilization of wind energy resources for electricity production. But increasing the percentage of wind energy in overall energy production is much more complex than simply installing wind farms in windy areas with flat terrains. The overall goal of this research is to better understand the characteristics of turbulent flows in complex terrain with canyons under different atmospheric stability conditions using a multi-scale modeling approach, so that these wind energy resources can be reliably harnessed for the production of electricity. &lt;br/&gt;&lt;br/&gt;Intellectual Merit&lt;br/&gt;&lt;br/&gt;A multi-scale modeling approach that connects atmospheric processes at the meso-scale down to the micro scale where complex terrain features can be resolved is proposed. Specifically, a computationally fast wind simulation capability is proposed to forecast winds at the turbine level for the short-term (e.g. 0-6 hours), using accelerated computational fluid dynamics (CFD) simulations on graphics processing units (GPU) clusters. The large eddy simulation (LES) technique with the dynamic procedure will be applied to study atmospheric flows in complex terrain with high resolution. A simulation engine is proposed to support multi-scale coupled computations on emerging GPU clusters. In this engine, a meso-scale atmospheric model (e.g. the Weather Research and Forecasting model) will be executed on central-processing units (CPU). A microscale terrain-resolving CFD model will be executed on the GPU concurrently with the meso-scale model to provide high resolution simulations at the turbine level. The micro-scale simulations will also be used to improve the surface layer parameterizations in the meso-scale model to establish a one-and -a-half-way coupling between the simulation models. &lt;br/&gt;&lt;br/&gt;The meso and micro scale models will be executed concurrently to forecast winds over complex terrain for wind energy production. Simulation results will be used to perform turbulent kinetic energy budget analysis, which will help identify and understand the primary source of turbulence production in complex terrain environment under different stability conditions. Standard deviations of the wind velocity will be examined and compared against existing correlations. Simulations will be validated against measurements obtained from a test area in the state of Idaho in a complex terrain area instrumented with weather stations. Both experimental and computational data will be studied to find appropriate scaling parameters to characterize the flow structure within canyons and along ridges. &lt;br/&gt;&lt;br/&gt;Broader Impacts&lt;br/&gt;&lt;br/&gt;Substantial technology gaps exist in short-term wind power forecasting and grid integration. Improving the accuracy of short-term forecasts for all types of terrain is of great importance to wind energy industry. A better understanding of complex terrain flows used to develop short-term forecasts in these wind environments is expected at the end of the project. &lt;br/&gt;&lt;br/&gt;The proposed education and outreach activities are centered on supercomputing and scientific visualization applied to wind energy as a means to motivate student interest in the computational sciences. A computational modeling laboratory equipped with a tiled-display visualization cluster will be used for research and education. A GPU-accelerated educational CFD model with a tutorial set to support thermal and fluid sciences education will be set up in this laboratory for use in fluid mechanics courses. The accelerated computational platform will enable both undergraduate and graduate students to finish compute-intensive simulations quickly to investigate the underlying physics. A free version of GPU-accelerated educational CFD model will also be made publically available. A supercomputing booth will be developed for use at on-going K-12 outreach programs at Boise State University (e.g. e-Girls, e-Camp, e-Day). The simulation booth will include hands-on exercises for modeling and simulation of winds in complex terrain and visualization of scientific data and high resolution imagery from earth and space sciences.</AbstractNarration>
+    <MinAmdLetterDate>01/14/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/14/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1056110</AwardID>
+    <Investigator>
+      <FirstName>Inanc</FirstName>
+      <LastName>Senocak</LastName>
+      <EmailAddress>senocak@boisestate.edu</EmailAddress>
+      <StartDate>01/14/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Boise State University</Name>
+      <CityName>Boise</CityName>
+      <ZipCode>837250001</ZipCode>
+      <PhoneNumber>2084261574</PhoneNumber>
+      <StreetAddress>1910 University Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Idaho</StateName>
+      <StateCode>ID</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7644</Code>
+      <Text>ENERGY FOR SUSTAINABILITY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>147E</Code>
+      <Text>Wind&amp;Misc. sustainable energy</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

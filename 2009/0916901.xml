@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: SMALL: Ant: Automatic and Manual Debugging Support for Massively Parallel Programs</AwardTitle>
+    <AwardEffectiveDate>08/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>493235</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 &lt;br/&gt;(Public Law 111-5). &lt;br/&gt;The research funded by this award targets the difficult problem of how to debug programs running on large parallel systems. The state &lt;br/&gt;of hundreds to hundreds of thousands of parallel tasks that form a single &lt;br/&gt;computation are too complicated for a programmer to usefully analyze. &lt;br/&gt;This project will develop tools to find similarities between the state of &lt;br/&gt;different processes, simplifying the task of the programmer. The challenge &lt;br/&gt;in finding these similar tasks is to do it efficiently, without imposing an&lt;br/&gt;overhead so hight that the tool is useless. A naive implementation would &lt;br/&gt;compare the state of all processors against one another, and would introduce &lt;br/&gt;overheads increasing as the square of the number of processors. Our approach &lt;br/&gt;will successively refine sets of similar processes, will use key attributes &lt;br/&gt;of program behavior (e.g. communication patterns) to perform this grouping. &lt;br/&gt;We will also investigate the use these groups of similar processes to allow &lt;br/&gt;invariance and statistically based techniques developed for sequential &lt;br/&gt;programs (such as value and PC invariance) to be effectively adapted to &lt;br/&gt;parallel programs. Because these techniques look for rarely occurring program&lt;br/&gt;activities, applying them to disparate processes together will introduce&lt;br/&gt;noise into the analysis, severely diminishing their accuracy. The use of &lt;br/&gt;our grouping strategy will allow effective parallelization of the &lt;br/&gt;techniques, allowing them to be applied with significantly less overhead &lt;br/&gt;than when used with sequential applications.</AbstractNarration>
+    <MinAmdLetterDate>08/03/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/03/2009</MaxAmdLetterDate>
+    <ARRAAmount>493235</ARRAAmount>
+    <AwardID>0916901</AwardID>
+    <Investigator>
+      <FirstName>Samuel</FirstName>
+      <LastName>Midkiff</LastName>
+      <EmailAddress>smidkiff@purdue.edu</EmailAddress>
+      <StartDate>08/03/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Y. Charlie</FirstName>
+      <LastName>Hu</LastName>
+      <EmailAddress>ychu@purdue.edu</EmailAddress>
+      <StartDate>08/03/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

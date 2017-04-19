@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>DMTCP: Checkpoint-Restart on the Desktop</AwardTitle>
+    <AwardEffectiveDate>05/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2014</AwardExpirationDate>
+    <AwardAmount>376870</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kevin L. Thompson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: DMTCP: Checkpoint-Restart on the Desktop&lt;br/&gt;PI: Gene Cooperman&lt;br/&gt;NSF Proposal Number: 0960978&lt;br/&gt;&lt;br/&gt;ABSTRACT: &lt;br/&gt;&lt;br/&gt;This work builds upon the existing open source, user-space DMTCP package&lt;br/&gt;for transparent, distributed checkpointing. Three goals will be accomplished:&lt;br/&gt;(i) checkpoint-restart of long-running computations on the desktop;&lt;br/&gt;(ii) save-restore of interactive software packages; and (iii) a universal&lt;br/&gt;reversible debugger. The first two goals will allow software development&lt;br/&gt;teams to add to their package a reliable "save workspace" feature --- with&lt;br/&gt;no requirement for a kernel module or other privileged operations.&lt;br/&gt;The third goal is to enhance any debugger with reversibility (e.g. a&lt;br/&gt;back-step command), and with a reverse expression watchpoint command to&lt;br/&gt;move backwards from a software error to the original software fault.&lt;br/&gt;&lt;br/&gt;INTELLECTUAL MERIT:&lt;br/&gt;While checkpointing has existed for over 20 years, earlier packages&lt;br/&gt;were difficult to maintain. The unprivileged, user-space design of&lt;br/&gt;DMTCP has a five-year track record. It is ideal for integration into&lt;br/&gt;other software, where any end-user requirement for installation of a&lt;br/&gt;kernel module or other administrative privilege is incompatible with&lt;br/&gt;widespread distribution. Finally, DMTCP is the first package able to&lt;br/&gt;directly checkpoint a gdb session (the gdb process and its target process)&lt;br/&gt;-- a key feature for the envisioned new type of reversible debugger.&lt;br/&gt;&lt;br/&gt;BROADER IMPACT:&lt;br/&gt;Checkpointing and process migration have long been of interest for science&lt;br/&gt;and engineering, but too often suffered from software fragility or special&lt;br/&gt;requirements. The DMTCP approach removes these obstacles. Further,&lt;br/&gt;the wider use of ``time-traveling (reversible) debuggers'' will greatly&lt;br/&gt;accelerate software development due to the greater ease of finding bugs.&lt;br/&gt;A NIST report estimates the cost of software bugs to the economy at&lt;br/&gt;$59.5 billion per year. Finally, the excitement factor of checkpoint-restart&lt;br/&gt;on the desktop helps attract and motivate students toward the learning&lt;br/&gt;of sometimes arcane systems issues in this critical technology.</AbstractNarration>
+    <MinAmdLetterDate>05/10/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/21/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0960978</AwardID>
+    <Investigator>
+      <FirstName>Gene</FirstName>
+      <LastName>Cooperman</LastName>
+      <EmailAddress>gene@ccs.neu.edu</EmailAddress>
+      <StartDate>05/10/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

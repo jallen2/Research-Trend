@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Analysis and Automation of Systematic Software Modifications</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>437285</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software systems evolve. Developers must add features, fix bugs, and rewrite software systems to provide better functionality and higher performance. Existing systems also need to migrate to new hardware, computing environments, programming models, and libraries. There exist redundancies, inefficiencies, and error-proneness in the way that we evolve software systems today. In particular, recent empirical studies indicate that developers often apply similar but not identical changes to similar contexts. Making such systematic, repetitive program modifications is a tedious, manual, error-prone process.&lt;br/&gt;&lt;br/&gt;This project will investigate the extent and nature of repetitive program modifications and will design, build, and evaluate a novel approach, called SYDIT, which improves developer productivity in applying systematic changes. In this approach, developers no longer apply similar changes manually. Instead, developers provide the old and new version of selected code as an example change, and SYDIT will generalize a reusable, abstract, context-aware program transformation from it.&lt;br/&gt;(1) SYDIT will compute program differences between the old and new version of selected code and create a reusable edit script by identifying relevant data and control flow context and by abstracting the edits' content and position.&lt;br/&gt;(2) SYDIT will then automatically identify related candidate change locations and produce concrete, customized edits to each candidate.&lt;br/&gt;Incorporation with testing and change impact analysis will help developers validate suggested changes. SYDIT's new differential delta analysis will help developers understand the effect of ported changes in each target context.&lt;br/&gt;(3) Using a large corpus of project histories, this project will investigate the frequency and types of repetitive changes. The resulting data set will be used to evaluate SYDIT's accuracy and capability and to assess a productivity gain that can be achieved by SYDIT.&lt;br/&gt;The impact of this research will be substantially improved developer productivity in evolving large software systems. By helping developers apply changes to similar contexts exhaustively and inspect the effect of suggested changes, SYDIT will reduce errors of omission and relieve developers from tedious, error-prone hand editing. The empirical studies will expand our understanding of repetitive program changes during software evolution.</AbstractNarration>
+    <MinAmdLetterDate>09/19/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/05/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1460325</AwardID>
+    <Investigator>
+      <FirstName>Miryung</FirstName>
+      <LastName>Kim</LastName>
+      <EmailAddress>miryung@cs.ucla.edu</EmailAddress>
+      <StartDate>09/19/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9103</Code>
+      <Text>CLB-Career</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>CL10</Code>
+      <Text>Career-Life Balance Supports</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

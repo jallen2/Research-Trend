@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Maximum Entropy Closure of Boltzmann-Equation Moment-Hierarchy</AwardTitle>
+    <AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>268897</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The numerical simulation, using advanced computational platforms, of both high and low-speed flows of gases where the distance that molecules travel between molecular collisions is comparable with a body dimension remains a challenging discipline in both aerodynamics and gas-fluid mechanics in general. Important practical examples are the motion of low-earth orbit satellites, space-vehicle re-entry into both earth and extra-terrestrial atmospheres, gas-flows that occur in inertial-confinement fusion and the fluid-dynamical behavior of nano-devices, particularly where either or both molecule-surface interactions and fluid/gas mixing are active. The present project develops a novel methodology for the computational simulation of gas-dynamic flows of engineering interest. This is based on consideration of generalized, aggregated gas properties known as moments, combined with ideas from the theory of probability and statistics. It is expected that this research will provide a new and viable approach to the numerical simulation of real-gas flows with improved predictive power over presently available methods. &lt;br/&gt;&lt;br/&gt;The research proposes a methodology for the numerical solution of the Boltzmann equation describing the kinetic theory of gases at the mean-free path level. This is based on a new approach to the moment-closure problem, cast in terms of the Grad 13+9N-moment expansion of the Boltzmann equation, where N is an arbitrary integer. For any specific N =1,2.., a set of time-space, differential-integral equations for moments can be formulated. These are not closed because each equation contains both moments that lie outside the set of retained time derivatives, and also collision-integral terms contain the distribution function itself. The new approach is to close the system at each time step by constructing an analytic form of the local distribution function that maximizes a standard measure of the single-particle entropy, while satisfying the known moments as a given set of constraints. This can be done numerically as a constrained optimization problem. The result is a local analytic form for the local distribution function that satisfies positivity, and which then allows numerical evaluation of unclosed moments and collision terms, implementation of boundary conditions followed by an update of the retained moment equations in time. The proposed method has been tested by comparison with a known exact solution of the relaxation in time of a given initial distribution function towards an equilibrium state. It is proposed to apply the method to a sequence of flows with increasing space dimensionality, including rarefied and transition Couette flow, the internal structure of shock waves and free-molecule to continuum transition flows about bodies in two and three space dimensions.</AbstractNarration>
+    <MinAmdLetterDate>06/29/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1418903</AwardID>
+    <Investigator>
+      <FirstName>Dale</FirstName>
+      <LastName>Pullin</LastName>
+      <EmailAddress>dpullin@caltech.edu</EmailAddress>
+      <StartDate>06/29/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>California Institute of Technology</Name>
+      <CityName>PASADENA</CityName>
+      <ZipCode>911250600</ZipCode>
+      <PhoneNumber>6263956219</PhoneNumber>
+      <StreetAddress>1200 E California Blvd</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8396</Code>
+      <Text>Clean Energy Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8609</Code>
+      <Text>Other Energy Research</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

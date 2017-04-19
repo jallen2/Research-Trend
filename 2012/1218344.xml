@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Next-Generation, Dependent Type-based Software Model Checking for C</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Static formal verification is a crucial last line of defense at the lowest levels of the systems software stack, as at those levels we cannot fall back on dynamic mechanisms to shield against bugs, crashes, or malicious attacks. The last decade saw significant advances in formal verification research but progress has been hindered by the vexing challenge of precisely inferring invariants of data values that are stored within unbounded heap data structures and manipulated by function pointers, callbacks, and other higher-order constructs. These problems have been elegantly addressed by the machinery of dependent types which exploit a syntactic programming discipline, to compositionally propagate correctness invariants through data structures and higher-order functions, thereby facilitating precise formal verification. However, mainstream adoption of dependent types is blocked as the machinery has been largely developed in the context of interactive proof assistants or purely functional languages.&lt;br/&gt;&lt;br/&gt;This research will develop the theory, algorithms, and tools required to bring the transformative software engineering benefits of dependent type based software verification to mainstream, systems programming languages like C. To this end the PI will use the framework of Liquid Types which demonstrates how the powerful machinery of abstract interpretation and software model checking can be used to automatically infer dependent types, thereby automating their use in formal verification. If successful, this research will directly benefit software developers, by incorporating verification smoothly within a familiar technology (types), and by providing rich API specifications that will simplify code review and component reuse; program analysis designers, by providing a general framework that can be instantiated to obtain multiple domain- and application- specific verification engines; and ultimately, end users, by providing static guarantees for a variety of critical safety and security and reliability properties.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218344</AwardID>
+    <Investigator>
+      <FirstName>Ranjit</FirstName>
+      <LastName>Jhala</LastName>
+      <EmailAddress>jhala@cs.ucsd.edu</EmailAddress>
+      <StartDate>07/30/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

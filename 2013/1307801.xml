@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>The Dark Reaction Project: A Machine Learning Approach to Materials Discovery</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>299998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03070000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Materials Research</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daryl W. Hess</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Technical Summary:&lt;br/&gt;&lt;br/&gt;Hydrothermal synthesis reactions of organically-templated inorganic solids are an ideal test case for data-driven materials chemistry, as just a few reactants (one or two inorganic components, one or two organic components and solvent) and a few reaction conditions (pH, temperature, reaction time) yield a diversity of products with numerous applications. Despite this simplicity, the formation of crystalline products depends sensitively on the quantities of reagents used and the reaction conditions, which makes this a demanding test case for predicting success or failure of the reaction. Moreover, unlike other systems such as metal organic frameworks (MOFs), the many different types of intermolecular interactions that are present result in highly diverse crystal structures which cannot be predicted a priori. &lt;br/&gt;Rather than predicting a final crystal structure, we aim to address the simpler problem of whether a reaction will yield any crystalline product or not. Our project will address this with three strategies: We propose constructing a searchable online repository for "dark reactions", the chemical reactions that have been performed and recorded in laboratory notebooks, but never reported in the literature. This begins with putting our own reactions online, then the reactions of selected experimental collaborators, and finally creating a web-accessible public repository for depositing, retrieving, and utilizing reaction information. Using this data, we propose using machine learning to derive predictions to increase the success rate of performing novel reactions. From the experimental reaction data, we use cheminformatics calculations to predict &gt;200 computed properties of the individual reagents (e.g., van der Waals surface areas, polar surface areas as a function of pH, number of hydrogen bond donors and acceptors, etc.) and compute 50 stoichiometric descriptors (e.g., ratios of organic and inorganic components, weighted by hydrogen bond donor/acceptors as a function of pH, etc.). Based on a preliminary dataset of 506 reactions, we have been able to train a decision tree model to achieve an 87% success rate in predicting whether a crystalline product is formed or not. During this project, we will make the improved model publicly available (via the web), address weaknesses in the physicochemical model, and integrate this with databases of commercially available starting materials. Finally, we will perform experimental validation to demonstrate a proof-of-principle synthesis of new compounds, address structural holes in the dataset, and engage with the broader research community to guide experiments in other laboratories for the synthesis of new materials and addressing limitations in the chemical space of our model. Besides the impact on this specific area of materials synthesis, the software architecture that we develop will serve as a starting point for others to begin similar projects and we commit to freely distributing our work to others by open-sourcing our code under a license that will allow its free use in academic settings. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Non-technical Summary: &lt;br/&gt;&lt;br/&gt;Organically-templated metal oxide framework compounds have outstanding structural and chemical diversity, which lends them to applications for industrial catalysis, gas separation, and optical engineering. Yet, despite several decades of experimental effort, making new examples of these materials is a time-consuming trial-and-error process. Most of the chemical reactions that have been performed are deemed "unsuccessful" because they do not result in a crystalline product, and are never reported in the literature. There is no forum for collecting these experiments, nor a means for deriving value from them. Nevertheless, these "dark reactions" are valuable because they define the bounds on the reaction conditions needed to successfully produce a product. By providing a searchable online repository for reaction data, we will enable better management and sharing of these dark reactions. Moreover, we will use this data as a resource to train machine learning (aka statistical learning or data-mining) algorithms that predict the success of reactions ahead of time. Based on the machine learning predictions, we will perform experimental validation to test the predictions of the model.&lt;br/&gt;Our project will provide a mechanism for collecting the dark reactions and then using them to guide future reactions to be more successful, reducing the researcher time and cost of reagents needed to synthesize new materials. This will accelerate and lower the cost (in researcher time and materials) of discovering new materials. This directly addresses the call of the White House Office of Science and Technology Policy's 2011 Materials Genome Initiative, specifically finding ways to use computation to bring functional materials to market more quickly. Second, this project will serve as a model for collaboration between chemists and computer scientists that can be directly transferred to a wide range of other disciplines and avenues of investigation. Third, we will provide a cohesive, comprehensive, interdisciplinary and sustained research experience for undergraduate students, thus contributing to the scientific workforce. Fourth, our outreach activities will foster interest in data-driven techniques, create a network of collaborating laboratories and provide the software infrastructure to others wishing to initiate related projects.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/28/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1307801</AwardID>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Norquist</LastName>
+      <EmailAddress>anorquis@haverford.edu</EmailAddress>
+      <StartDate>08/28/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Joshua</FirstName>
+      <LastName>Schrier</LastName>
+      <EmailAddress>jschrier@haverford.edu</EmailAddress>
+      <StartDate>08/28/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sorelle</FirstName>
+      <LastName>Friedler</LastName>
+      <EmailAddress>sfriedle@haverford.edu</EmailAddress>
+      <StartDate>08/28/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Haverford College</Name>
+      <CityName>Haverford</CityName>
+      <ZipCode>190411336</ZipCode>
+      <PhoneNumber>6108961000</PhoneNumber>
+      <StreetAddress>370 Lancaster Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8029</Code>
+      <Text>Comp&amp;Data Driven Mat Res(CDMR)</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9177</Code>
+      <Text>ELEMENTARY/SECONDARY EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

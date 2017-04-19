@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>IDBR: Super-Resolution Made Super-Easy via (Transient-)PhILM</AwardTitle>
+    <AwardEffectiveDate>05/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2016</AwardExpirationDate>
+    <AwardAmount>722465</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Christopher Sanford</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Project Abstract&lt;br/&gt;Recently the biological imaging community has seen tremendous improvements in imaging resolution. Super-resolution fluorescence microscopy techniques, such as photo-activated localization microscopy (PALM) and stochastic optical reconstruction microscopy (STORM), have enabled imaging at resolutions approaching 20 nm on fixed cells, much below the typical ~200-nm resolution of conventional microscopy. Furthermore, microscope companies, including Nikon, Zeiss, and Leica, have each introduced super-resolution microscopes. However, these techniques require a number of specialized optics, specialized dyes, and generally have difficulty with living cells. What would be incredibly valuable to the biological community would be a "simple" technique such that they could use a microscope?possibly their own, perhaps with a little "tweaking"--and use their own labels, not necessarily at the strictly single-molecule level, but still achieve "super-resolution". In addition, the PI's group has recently shown another super-accuracy technique--it is possible to get &lt;3-nm accuracy in all three dimensions by two-photon microscopy of quantum dots. In this project, both the "simple" 1-photon and more challenging 2-photon super-resolution microscopy methods will be exploited. &lt;br/&gt;Intellectual Merit: Two related microscopy techniques, one called Photobleaching and Intermittency Localization Microscopy (PhILM) and a close cousin, Transient-PhILM, will be developed using commercially available high-resolution cameras and fluorophores. For initial testing, a special Nikon microscope, built for the PI while he was a Nikon Fellow at the Marine Biological Laboratory in Summer 2010, will be used. Methods to transfer the technology to common microscopes will then be undertaken.&lt;br/&gt;The idea behind PhILM is to label a molecular structure--for example, a microtubule--with many dyes and then photobleach them one at a time. The images are recorded sequentially and then played backwards. For example, if an image with n-1 fluorophores is taken and subtracted from the image with n fluorophores, the image of a single dye molecule is obtained. Using fluorescence imaging with one-nanometer accuracy (FIONA) fitting, the centroid can be obtained with nanometer accuracy. The analysis is then repeated with the image having n-2 fluorophores subtracted from the n-1 fluorophore image, yielding nanometer accuracy again. Thus, a super-resolution image of many fluorophores is achieved. If too many fluorophores are present, a discrete step may not be observable. However, by simply exciting until a sufficient number of fluorophores have photobleached, subsequent individual events may be observed. Because the subtraction scheme introduces extra photon noise (due to surrounding fluorophores), it will likely be less sensitive than PALM or STORM. However, the wide applicability with existing microscopes makes the technique attractive. Improvements to the technology--dealing with microscope drift, chromatic aberrations of the objective, testing with GFPs and blinking quantum dots, making soft-ware to automate the procedure, and testing the technique on nucleic acids, will be undertaken in this project. &lt;br/&gt;The second technique to be developed is Transient PhILM. Here, a biomolecule of interest is labeled with a fluorophore, such that the dye is attached for only a "brief" period of time. During this time, the fluorophore is stationary and emits intensely at one spot. The spot can be localized via FIONA to give its centroid to a sub-diffraction limited size, usually a few nanometers. When the fluorophore is not attached, it floats freely and contributes a haze, which has been shown to be insignificant in most cases. Then the dye, whether photobleached or not, floats away and another dye binds, and the procedure is repeated. This method could potentially have better resolution than PALM or STORM, which are limited by the number of times a dye-pair can be turned on and off. The trick is to have the dye remain bound for a "brief" period of time. In preliminary results, this technique is shown to be feasible. &lt;br/&gt;Broader Impacts: The potential for commercialization of this technology is significant. The PI has two patent applications submitted, and Nikon has expressed interest in commercializing the technology. Two companies have expressed interest in modifying their reagents for Transient PhILM. &lt;br/&gt;The PI is a principal with the NSF-funded Physics Frontiers Center, Center for the Physics of Living Cells (CPLC) at Illinois. In addition to the students being trained directly on this project, the PI participates in the annual CPLC summer school, which typically trains 40 to 50 advanced graduate students and postdocs in single-molecule techniques. Nanohub.org, an NSF-funded web-site, will disseminate the software produced in this project. Finally, the work will be done by graduate students, including four women currently supervised by the PI.</AbstractNarration>
+    <MinAmdLetterDate>04/25/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/28/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1063188</AwardID>
+    <Investigator>
+      <FirstName>Paul</FirstName>
+      <LastName>Selvin</LastName>
+      <EmailAddress>selvin@illinois.edu</EmailAddress>
+      <StartDate>04/25/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1108</Code>
+      <Text>INSTRUMENTAT &amp; INSTRUMENT DEVP</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7275</Code>
+      <Text>CROSS-EF ACTIVITIES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1114</Code>
+      <Text>CELLULAR SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9179</Code>
+      <Text>GRADUATE INVOLVEMENT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1228</Code>
+      <Text>MINORITY INVOLVEMENT -- BIO</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Mapping Fragmentation and Topology Optimization Concepts to GPUs</AwardTitle>
+    <AwardEffectiveDate>06/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2016</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Fyhrie</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of this Early-concept Grant for Exploratory Research (EAGER) is to create an effective algorithmic mapping of extrinsic cohesive fragmentation and topology optimization concepts to GPUs. The extrinsic cohesive fracture framework will be used for detailed investigation of dynamic fracture instability of brittle and quasi-brittle materials to properly explain the limiting crack speed in these materials as well as increased fracture resistance with crack speed. This framework will also allow multiscale investigations of heterogeneous materials at the mesoscale, accounting for large deformation behavior of a soft matrix with hard particles, including details of the graded interphasial zones with interfacial cracking. The GPU framework for topology optimization will consider realistic ground structures that can impact material design, such as the design of extreme materials (e.g. auxetic), which are globally homogenized but may locally (microstructurally) display a functionally graded material architecture. The mapping and parallelization techniques will be performed using NVIDIA's CUDA (Computer Unified Device Architecture) framework, however, other emerging architectures such as the Intel's MIC (many-integrated-core) can also be used and/or explored. To be able to fully utilize GPU hardware is an art that relies on the effectiveness of the algorithmic mapping associating software and hardware at various levels. To this effect, a tailored topological data structure will be created to support mesh modification and adjacency searches on the GPU. To circumvent race conditions, proper algorithms (e.g. mesh coloring) will be investigated together their impact on parallelization performance and concurrency issues. The research will make use of the National Center for Supercomputing Applications (NCSA) through collaboration with Dr. Volodymyr Kindratenko (Research Scientist, NCSA).&lt;br/&gt;&lt;br/&gt;The broader outcomes of this interdisciplinary research derive from the fact that GPUs have been a disruptive technology with great potential for non-graphics applications, such as in computational mechanics. This investigation will contribute to the understanding of both explicit and implicit algorithms by adopting surrogate problems for each case, namely, fragmentation and topology optimization, respectively. The scale of the problems to be addressed has the potential to lead to computational discovery through new physical understanding and insight. Concepts developed from this research will be adapted into the curriculum at the University of Illinois at Urbana-Champaign (UIUC). Educational and research findings will be disseminated broadly through the internet. Moreover, outreach activities will be conducted to motivate high-school students to pursue careers in engineering research and education.</AbstractNarration>
+    <MinAmdLetterDate>02/19/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/19/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1321661</AwardID>
+    <Investigator>
+      <FirstName>Glaucio</FirstName>
+      <LastName>Paulino</LastName>
+      <EmailAddress>glaucio.paulino@ce.gatech.edu</EmailAddress>
+      <StartDate>02/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1464</Code>
+      <Text>ENGINEERING DESIGN AND INNOVAT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1630</Code>
+      <Text>Mechanics of Materials and Str</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>022E</Code>
+      <Text>SOLID MECHANICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>024E</Code>
+      <Text>MATERIALS DESIGN</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>067E</Code>
+      <Text>DESIGN TOOLS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>068E</Code>
+      <Text>DESIGN THEORY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9161</Code>
+      <Text>SINGLE DIVISION/UNIVERSITY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>AMPP</Code>
+      <Text>ADVANCED MATERIALS &amp; PROCESSING PROGRAM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

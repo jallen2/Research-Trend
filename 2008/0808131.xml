@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Idempotent Analysis and Curse-of-Dimensionality-Free Methods in Nonlinear Control</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>190000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mary Ann Horn</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project has two components. The first is the development of max-plus based curse-of-dimensionality-free algorithms for solution of nonlinear deterministic optimal control problems, and the second is determination of fundamental solutions for ordinary and partial differential equations with quadratic nonlinearities. In the former, we rely on the max-plus linearity of the semigroup associated to the Hamilton-Jacobi-Bellman partial differential equation associated with the control problem. In the latter, we develop new fundamental solutions and associated exponentially fast numerical methods for such equations, which are obtained through an exponentiation operation on an idempotent semiring.&lt;br/&gt;&lt;br/&gt;This project is concerned with nonlinear optimal control, of which auto-pilots for air and space vehicles, stock portfolio management, and manufacturing control are examples. Mathematical models of optimal control problems typically involve partial differential equations, whose solution must be obtained computationally. The difficulty is that the dimension of the space over which one must solve the equations is the dimension of the state of the system. For example, the absolutely simplest model of the motion of an object relies on a six-dimensional state vector, with three components describing position and three describing velocity. Thus one would solve the partial differential equation over six-dimensional space. Realistic models typically have say ten or more dimensions. When one begins putting a grid over space, the number of points needed per dimension is on the order of 100. Consequently, to solve a partial differential equation in two dimensions one would need 10,000 grid points, and for three dimensions, 1,000,000 grid points. For a six-dimensional problem one requires a trillion grid points; this is the "curse-of-dimensionality" and it has been a severe obstacle to nonlinear control for over a half-century. We are developing methods for solution of such problems, and these methods are not subject to the curse-of-dimensionality. There is no free lunch, and there are other prices to be paid. Nonetheless, we are already solving problems which would have been intractable for many decades, even if Moore's law were to continue indefinitely. Further, this is just the beginning, and more major advances should follow.</AbstractNarration>
+    <MinAmdLetterDate>08/22/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/22/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0808131</AwardID>
+    <Investigator>
+      <FirstName>William</FirstName>
+      <LastName>McEneaney</LastName>
+      <EmailAddress>wmceneaney@ucsd.edu</EmailAddress>
+      <StartDate>08/22/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

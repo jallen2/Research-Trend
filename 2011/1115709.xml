@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Temporal Multi-Scale Simulation Tools Kinetic Plasma Equations</AwardTitle>
+    <AwardEffectiveDate>10/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2015</AwardExpirationDate>
+    <AwardAmount>200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In this work the PI and his student consider the development of novel methods for problems in kinetic transport. The goal is to develop methods that are capable of bridging multiple time scales. For instance, many problems in plasma physics, such as modeling edge plasma problems in fusion systems, can exhibit behavior which is consistent with both diffusion dominated transport as well as collisionless flow in the same problem at the same time. Generally speaking, this class of problems can be summarized as hyperbolic systems with stiff relaxation terms. Typically the stiff relaxation term can be nondimensionalized, leading to a scaling constant out in front of the relaxation term of the form 1/d. In the problems of interest, as d approaches zero, the system transitions from hyperbolic to parabolic. One approach to such problems is to use domain decomposition methods coupled with appropriate models for the various physical behaviors. However, a major difficulty with this approach is defining the boundary conditions for the two way coupling between the domains. The approach taken in this work is to develop numerical methods for the kinetic systems which can recover the correct limiting behavior in the limit of the system becoming collision dominated. The particular class of methods we focus on here are referred to as Asymptotic Preserving (AP) methods. The goal in designing an AP method is to develop time stepping strategies that maintain their order of accuracy for any d. In particular, as d approaches zero, the AP method should recover a consistent discretization for the limiting behavior. However, developing AP methods which are high order have proven difficult to construct. Further, for a range of important test problems, the CFL for the AP method is restricted to time steps less than the square of the spatial discretization. In this work, the PI and his student investigate a new method based on a pseudo upwinding method inside of the AP framework, which gives rise to a method which has a convergence rate independent of d with an apparent CFL of the time step proportional to the spatial discretization. Further, the PI proposes a novel method for lifting low order AP methods to high order based on integral deferred correction, a defect correction methodology developed by the PI and his collaborators. The approach is generalizable to a wide class of kinetic equations with stiff relaxation terms. &lt;br/&gt;&lt;br/&gt;A large number of important problems in science are characterized by multiple length scales. This includes studying the aerodynamics of spacecraft launch and reentry, the characterization of micro/nano mechanical systems and the study of charge particle transport, such as disassociated electrons and ions, in plasma lighting, micro chip design, and clean energy systems of the future, such as fusion, to name a few. In these examples, on the smallest scales, the individual atoms which make up the gas can be thought of as billiard balls bouncing around, each billiard ball having its own speed and direction. The gas molecules collide with each other, as well as the boundaries of obstacles in the flow, exchanging energy and momentum with each other as well as the environment. On this scale the system is well characterized by models know as kinetic equations, which describe the behavior of the gas from a probabilistic perspective. Kinetic equations account for time scales of individual atoms colliding with each other. On the largest length scales, the gas exhibits collective behavior such as wind, which we think of as having a single speed. As the density of a gas changes from low density to high density, the system behavior changes from individual particles to a collective average behavior. This transition happens in many systems, one interesting example is the reentry of a spacecraft, where at high altitude the atmosphere is a very low density gas and at ground level the atmosphere is 20 orders of magnitude higher in density. At low densities, these systems exhibit effects only described by kinetic models. At high densities, the systems exhibit collective behavior described my much simpler models. The critical kinetic time scale, described by inter-particle collisions, scales as one over the density. The importance of this work is to develop a new class of simulation tools that can handle the very stiff time scales associated with systems that undergo this very sharp transition in densities that can efficiently simulate both the rarified and dense gas regimes, as well as the transition in density. This framework will allow for the simulation of problems previously outside the scope of standard kinetic solvers, allowing the solvers to recover the correct limiting behavior with orders of magnitude increase in efficiency over existing methods.</AbstractNarration>
+    <MinAmdLetterDate>09/19/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115709</AwardID>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Christlieb</LastName>
+      <EmailAddress>christlieb@math.msu.edu</EmailAddress>
+      <StartDate>09/19/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Assertion-based Verification: From Compile-time Checking to Runtime Error Recovery</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2009</AwardExpirationDate>
+    <AwardAmount>110000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proposal Number&lt;br/&gt;CCF-0702680&lt;br/&gt;&lt;br/&gt;TITLE&lt;br/&gt;Assertion-based Verification: From Compile-time Checking to Runtime Error Recovery&lt;br/&gt;&lt;br/&gt;PI&lt;br/&gt;Sarfraz Khurshid&lt;br/&gt;&lt;br/&gt;Abstract&lt;br/&gt;This project investigates assertion-based repair---a novel methodology for enabling software systems to recover from errors before they manifest into failures. Traditional approaches to error recovery use assertion evaluations to detect erroneous states and specialized routines to repair them. Most of these routines are ad hoc, ill-understood, and unable to handle a variety of errors.&lt;br/&gt;&lt;br/&gt;The key insight of this project is to turn a violated assertion into a repair routine by using the assertion as a basis of performing repair. This project will develop systematic approaches that enable efficient repair using assertions written in common programming languages, such as Java. The repair approaches will be evaluated using a variety of complex data structures.&lt;br/&gt;&lt;br/&gt;Realization of the proposed methodology enables a unified framework for compile-time checking and runtime error recovery -- two software reliability methodologies that traditionally have deployed very different algorithms. The unification has the potential to significantly increase the quality of software. Any program that is annotated with assertions, which programmers already write comfortably, can be: (1) systematically checked before deployment using existing techniques; and (2) guaranteed to continue to execute without failure, once deployed, using the proposed methodology.</AbstractNarration>
+    <MinAmdLetterDate>09/19/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702680</AwardID>
+    <Investigator>
+      <FirstName>Sarfraz</FirstName>
+      <LastName>Khurshid</LastName>
+      <EmailAddress>khurshid@ece.utexas.edu</EmailAddress>
+      <StartDate>09/19/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

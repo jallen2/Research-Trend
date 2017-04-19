@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Lattice Lighting</AwardTitle>
+    <AwardEffectiveDate>07/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2011</AwardExpirationDate>
+    <AwardAmount>375000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Lawrence Rosenblum</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research involves an innovative lattice for computation and rendering, called hexagonal closed packing (HCP) lattice, for a variety of 3D and 4D wave phenomena simulations, such as lighting, acoustics and tomography. The HCP lattice is used to trace photons reflected, refracted and scattered for rendering participating media, subsurface scattering, and other global illumination effects in computer graphics. It can trace the wavefront for simulating optical effects currently unavailable in graphics, such as continuous refraction in inhomogeneous media, diffraction in complex objects, interference of light waves, and Doppler effects. It can also be extended to trace other kinds of waves besides light and electromagnetic waves, such as sound and ultrasound. The HCP lattice has the potential for a broad impact on these applications and a variety of other applications, such as in particle physics.&lt;br/&gt;&lt;br/&gt;The HCP lattice traces and interacts with a variety of small particles, enabling it to simulate many wave phenomena. It has unique advantages over Cartesian and other lattices, including: (1) The HCP lattice provides optimal sampling of a continuous function in 3D and 4D. In 3D, it requires only 29.3% of Cartesian lattice samples; yet, it distributes them most uniformly. The HCP/HCP pair is optimal in both frequency and space (or spacetime) co-domains. (2) It provides better accuracy in angular discretization, since its sites have 12 nearest neighbors. (3) Any two neighboring voxels of a 3D HCP lattice share a 2D rhombic face; thus, there is no ambiguity in neighbor-connectivity, greatly simplifing object voxelization. (4) The site links are radially symmetric, and all distances between two neighboring sites are identical. This makes simple radial filters and accurate interpolation. (5) Its supports flexible, hierarchical and adaptive HCP lattices. (6) The computations accelerate well on graphics processing units (GPUs) and GPU clusters, tracing thousands of particles simultaneously.</AbstractNarration>
+    <MinAmdLetterDate>06/14/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/14/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702699</AwardID>
+    <Investigator>
+      <FirstName>Klaus</FirstName>
+      <LastName>Mueller</LastName>
+      <EmailAddress>mueller@cs.sunysb.edu</EmailAddress>
+      <StartDate>06/14/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Arie</FirstName>
+      <LastName>Kaufman</LastName>
+      <EmailAddress>ari@cs.sunysb.edu</EmailAddress>
+      <StartDate>06/14/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

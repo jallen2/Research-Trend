@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>HCC: Small: New Infrastructure Concepts for Robust Handling of Inputs with Uncertainty</AwardTitle>
+    <AwardEffectiveDate>08/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>535119</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The conventional software currently used to handle input in nearly all modern graphical user interfaces (GUIs) is effective and highly evolved. This has the advantages of promoting reuse rather than reinvention of interaction techniques, and making it easy to create GUis, even for those with limited programming ability. However, these successful software abstractions assume the inputs reported to the system accurately reflect the actions of the user - that input is certain rather than uncertain. Unfortunately, this does not hold for some of the most interesting new input technologies including naturalistic inputs such as free space gestures (e.g., as sensed by the Kinect depth camera), pen input (including handwriting, gestures, and free hand drawing), touch input, sensors for context, and voice input. Some of these new technologies contain inherent uncertainty, such as when a finger touch area (that the user cannot see) is much larger than the pixels of a display. Others make use of recognizers for input and typically produce estimates of what might have occurred. Since conventional methods of input handling have no way to manage uncertainty in input, many of them force uncertainty to be resolved before input processing even starts. For example, the location of input from a touch screen may be represented as certain using a single point (its centroid). But when uncertainty information is thrown away, interfaces can quickly become brittle; small recognition errors can derail the interaction and destroy the user experience. As a result, these new and very promising forms of input have often proven difficult to use to their full potential. The PI's goal in this project is to overcome this problem by creating a redesigned input-handling infrastructure, which will robustly model, and make use of, inputs with uncertainty. It will do this by treating all input, and all UI actions stemming from that input, on a probabilistic basis, entertaining multiple possible interpretations of input (and all its consequences over time), along with estimates of the likelihood of each interpretation. As a result, when decisions need to be made and irreversible actions undertaken, systems will have a sound basis for choosing among interpretations. Rather than starting with completely new input concepts, the PI's approach is to extend conventional input abstractions with support for uncertainty. Normally, a single certain input event is dispatched to a single interactor, which interprets its meaning to track its own interactive state and eventually request actions. Now, each of these parts of the input process will be done probabilistically. An estimated probability distribution will be tracked over input alternatives that might have occurred, interactors which might have received that input, states that interactors might be in, and actions that interactors might request as a result. These probability distributions can then be used to make informed decisions about when, whether, and which actions to actually undertake. To hide the complexity of maintaining each of these distributions over time from the UI programmer, the PI will employ a Monte Carlo representation of a probability distribution (i.e., a weighted set of samples each indicating the probability of one definite value). Crucially, this representation will allow the code to simply execute traditional (certain) input processing steps multiple times - once for each sample in the relevant probability distribution(s). This hides nearly all the complexity associated with uncertainty, and allows programmers to use their current conceptual models, and even code nearly identical to their current practices, for most aspects of input handling.&lt;br/&gt;&lt;br/&gt;Broader Impacts: Project outcomes will radically change the ease with which readily available new input technologies can be incorporated into interactive systems, and thus will have wide impact in expanding our ability to build and deploy interfaces with new forms of input. As part of this research, the PI will develop working solutions for both graphical user interfaces and context-aware applications. He will also create and widely distribute a full teaching toolkit which embodies these concepts (where the term "teaching" is used in the same spirit that Pascal was a teaching programming language - it used good concepts and the best practices of the time; it was conceptually clean, yet suitable for real work). This teaching toolkit will be integrated into educational activities at the PI's institution, and curricular modules will be developed which should allow this to be carried to other universities.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/07/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217929</AwardID>
+    <Investigator>
+      <FirstName>Scott</FirstName>
+      <LastName>Hudson</LastName>
+      <EmailAddress>hudson@cs.cmu.edu</EmailAddress>
+      <StartDate>08/14/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jennifer</FirstName>
+      <LastName>Mankoff</LastName>
+      <EmailAddress>jmankoff@cs.cmu.edu</EmailAddress>
+      <StartDate>08/14/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems (CHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

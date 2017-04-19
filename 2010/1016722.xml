@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Collaborative: Protocols for Privacy-Preserving Scalable Record Matching and Ontology Alignment</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>240000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many application domains, such as intelligence, counter-terrorism,&lt;br/&gt;forensics, disease control, often need to cross-match multiple very&lt;br/&gt;large datasets, such as watch lists. Because those datasets may &lt;br/&gt;contain privacy-sensitive or confidential information, the use of efficient&lt;br/&gt;privacy-preserving protocols for cross-matching different datasets is&lt;br/&gt;crucial. The problem of privacy-preserving record matching has been&lt;br/&gt;addressed by the use of Secure Multi-party Computation (SMC) protocols.&lt;br/&gt;Under these protocols, the data are converted to series of functions&lt;br/&gt;with private inputs. However a major drawback of SMC-based protocols&lt;br/&gt;is that they involve extensive cryptographic primitives such as&lt;br/&gt;homomorphic encryption which do not scale to the size of practical&lt;br/&gt;problems. As a result, SMC-based protocols cannot be used for resource&lt;br/&gt;constrained data-intensive privacy-preserving record matching approaches &lt;br/&gt;directly. This project develops a novel approach based on the observation&lt;br/&gt;that to apply SMC to practical applications, one needs to bridge the gap &lt;br/&gt;between the size of the datasets that can efficiently be matched using &lt;br/&gt;SMC protocols and the size of the datasets seen in practice. The approach &lt;br/&gt;taken by the project tackles the problem from a novel angle by developing &lt;br/&gt;techniques to reduce the size of practical problems by employing &lt;br/&gt;privacy-preserving data sanitization methods. The project thus solves &lt;br/&gt;the privacy-preserving data matching problems through the following&lt;br/&gt;steps. First, to protect the privacy of data subjects, useful statistics &lt;br/&gt;about data is gathered using differential privacy. Second, differentially &lt;br/&gt;private statistics are shared among the parties involved in data matching. &lt;br/&gt;These parties then identify potential matching pairs where fruitful matching &lt;br/&gt;may occur. Such a step is referred to as data blocking. Finally, SMC &lt;br/&gt;techniques are applied to these candidates to accurately cross-match&lt;br/&gt;information. In addition to syntactic matching, semantic matching is supported &lt;br/&gt;by which records are compared according to some semantic similarity functions.&lt;br/&gt;The semantic matching protocols includes techniques for matching and&lt;br/&gt;aligning ontologies, as the use of ontologies is crucial for an effective&lt;br/&gt;semantic matching. This project is the first to use differential privacy for&lt;br/&gt;efficient privacy-preserving record matching that also leverages semantics-based&lt;br/&gt;approach and a privacy-preserving approach to ontology alignment. The techniques&lt;br/&gt;developed in the project are the first to achieve efficient privacy-preserving&lt;br/&gt;matching of large scale data sets using differential privacy, thus overcoming &lt;br/&gt;the scalability problems of conventional SMC techniques. The approach developed &lt;br/&gt;in this project expands the opportunities and contexts for data use by enabling &lt;br/&gt;the cross-match of multiple data archives, possibly owned by different parties, &lt;br/&gt;without violating the privacy of the data. Many applications, of interest &lt;br/&gt;for our society, will benefit by such opportunities.&lt;br/&gt;For further information see the project web site at the URL:&lt;br/&gt;http://www.cs.purdue.edu/homes/bertino/prirelink</AbstractNarration>
+    <MinAmdLetterDate>07/14/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/14/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016722</AwardID>
+    <Investigator>
+      <FirstName>Elisa</FirstName>
+      <LastName>Bertino</LastName>
+      <EmailAddress>bertino@cs.purdue.edu</EmailAddress>
+      <StartDate>07/14/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

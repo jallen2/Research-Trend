@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Compiler and Chip Multiprocessor Co-Design for Scalable Efficient Data Access and Communication</AwardTitle>
+    <AwardEffectiveDate>03/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2017</AwardExpirationDate>
+    <AwardAmount>809600</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Multi-core computing, where several processor cores are combined together into a single chip, has become&lt;br/&gt;the standard in computer processor design. In effect, each chip has become a small parallel computer&lt;br/&gt;and leveraging the processing power of parallel computing efficiently is a difficult challenge. Parallel&lt;br/&gt;computing attempts to accelerate computational tasks by separating the work into segments that can be&lt;br/&gt;calculated independently using different processors. Unfortunately, these processors need to communicate&lt;br/&gt;with each other to complete the computational tasks correctly. This communication and the resulting&lt;br/&gt;access to data are major limiting factors to how much a computational task can be accelerated with&lt;br/&gt;multiple processors.&lt;br/&gt;This research proposes a cooperatively designed system that considers the method for storing and accessing&lt;br/&gt;data (memory), the method for communication between processors (network), the software that&lt;br/&gt;controls how programs are executed (operating system), and the design of the program executables themselves&lt;br/&gt;(compilation) to maximize the program execution speed. The key observation is that while each&lt;br/&gt;component of the system can be improved independently, each component contains information that can&lt;br/&gt;help the other components to realize even greater benefits. Just as a transportation infrastructure requires&lt;br/&gt;information about traffic patterns; for example, if traffic patterns were ignored and if highways connect&lt;br/&gt;rural areas and only side streets connect major cities, traffic would reach a standstill while highways are&lt;br/&gt;inefficiently used. Likewise, the communication network cannot be efficiently designed without information&lt;br/&gt;from programs on communication patterns.&lt;br/&gt;The outcomes from this project will be the development of ?cross-layer? design concepts for multi-core&lt;br/&gt;computer architectures that will result in performance improvements and effective use of more processor&lt;br/&gt;cores within a single chip.</AbstractNarration>
+    <MinAmdLetterDate>03/10/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/16/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1064976</AwardID>
+    <Investigator>
+      <FirstName>Sangyeun</FirstName>
+      <LastName>Cho</LastName>
+      <EmailAddress>cho@cs.pitt.edu</EmailAddress>
+      <StartDate>03/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alex</FirstName>
+      <LastName>Jones</LastName>
+      <EmailAddress>akjones@engr.pitt.edu</EmailAddress>
+      <StartDate>03/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Rami</FirstName>
+      <LastName>Melhem</LastName>
+      <EmailAddress>melhem@cs.pitt.edu</EmailAddress>
+      <StartDate>03/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pittsburgh</Name>
+      <CityName>Pittsburgh</CityName>
+      <ZipCode>152132303</ZipCode>
+      <PhoneNumber>4126247400</PhoneNumber>
+      <StreetAddress>University Club</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

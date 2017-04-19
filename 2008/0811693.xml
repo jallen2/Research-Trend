@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPA-CSA-T: Low Cost and Comprehensive Hardware Reliability</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Hardware reliability is becoming an increasing concern in the late CMOS era. Components in shipped chips will fail for many reasons, requiring mechanisms to detect, diagnose, recover from, and repair/reconfigure around these failed components so that the system can provide reliable operation. The pervasiveness of the problem across a broad market demands low-cost and general reliability solutions that can be deployed in general-purpose, commodity systems running applications with varying reliability requirements. Traditional reliability solutions involving excessive redundancy are too expensive, as are piecemeal solutions that address individual failure modes. This work proposes a full system solution that aims to provide a common framework for error detection, diagnosis, recovery, and repair/reconfiguration for a variety of hardware failure modes, with a customizable reliability vs. overhead tradeoff.&lt;br/&gt;&lt;br/&gt;Two key high-level observations motivate the approach. First, the hardware reliability solutions need handle only the device faults that propagate through higher levels of the system and become observable to software. Second, in spite of the reliability threat, fault-free operation remains the common case and must be optimized, possibly at the cost of increased overhead once a fault is detected. The proposed system therefore detects faults by watching for anomalous software behavior (or symptoms of faults), using novel zero to low-cost hardware and software monitors. After a fault is detected, it invokes an innovative, but potentially expensive, procedure for diagnosing the fault source to enable reconfiguration/repair (in the case of hard faults). For recovery, it relies on a checkpoint/replay mechanism, including pure hardware and hybrid software assisted recovery depending on detection latency. Coordinating all of the above is a thin firmware layer that provides flexibility and customizability. A major component of the work is a much needed formulation and validation of microarchitecture level fault models, required to drive high-level reliability solutions.</AbstractNarration>
+    <MinAmdLetterDate>08/09/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/22/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811693</AwardID>
+    <Investigator>
+      <FirstName>Sarita</FirstName>
+      <LastName>Adve</LastName>
+      <EmailAddress>sadve@cs.uiuc.edu</EmailAddress>
+      <StartDate>08/09/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vikram</FirstName>
+      <LastName>Adve</LastName>
+      <EmailAddress>vadve@cs.uiuc.edu</EmailAddress>
+      <StartDate>08/09/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yuanyuan</FirstName>
+      <LastName>Zhou</LastName>
+      <EmailAddress>yyzhou@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/09/2008</StartDate>
+      <EndDate>12/22/2009</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

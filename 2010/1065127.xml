@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Medium: Collaborative Research: Facets: Exploring Semantic Equivalence of Files to Improve Storage Systems</AwardTitle>
+    <AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>349994</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Intellectual Merit:&lt;br/&gt;The focus of the proposal is on finding semantically equivalent files in an efficient and scalable manner. If two files are identical, they are candidates for optimizations to reduce storage costs, increase performance, and generally improve the system. Traditionally, two files are only considered equivalent if they are byte-by-byte identical - i.e., byte equivalence. However, this team's preliminary research shows that there are many other files that are essentially equivalent, even though the bytes they contain are not the same. This proposal will investigate how to find such cases and perform optimizations that make use of semantic equivalence, rather than byte equivalence.&lt;br/&gt;&lt;br/&gt;This project will design and implement a framework, Facets, which explores new capabilities by applying optimizations to files that are essentially transformed versions of each other. Many optimizations and improvements can be applied to semantically equivalent files, including:&lt;br/&gt;&lt;br/&gt; -Ensuring that the security of semantically equivalent files is preserved&lt;br/&gt; -Easing backup and maintenance of semantically equivalent files in various formats, fidelities, and versions&lt;br/&gt; -Using semantically equivalent files to improve performance, reliability, and availability&lt;br/&gt; -Regenerating semantically equivalent files to speed up recovery and network transfer&lt;br/&gt; -Selecting which semantically equivalent files to access according to performance or energy constraints&lt;br/&gt;&lt;br/&gt;This team's preliminary research shows that 5% of files on a typical user's machine are original content. The rest are copies of files from elsewhere or various derivatives of original content. While leveraging this observation to achieve advantages is not trivial, many significant improvements are possible if one can find these relationships and make proper use of them. These improvements include enhanced security, more efficient backup and restoration, better file caching, more intelligent tradeoffs in performance versus power use, and a host of other possibilities. &lt;br/&gt;&lt;br/&gt;Broader Impacts: &lt;br/&gt;The code and techniques developed will be released in open source form. The team will take steps (such as applying for supplemental REU grants) to involve undergraduates in the research. They will give talks and recruit at Hispanic-serving institutions. Materials and concepts from the research will be incorporated into classes taught by the principal investigators at their institutions.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/29/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1065127</AwardID>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Reiher</LastName>
+      <EmailAddress>reiher@cs.ucla.edu</EmailAddress>
+      <StartDate>08/07/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Analytics-driven Efficient Indexing and Query Processing of Extreme Scale AMR Data</AwardTitle>
+    <AwardEffectiveDate>05/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2015</AwardExpirationDate>
+    <AwardAmount>149999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>High-fidelity scientific simulations of natural phenomena, such as massive star explosion, hurricane movement, or fusion energy production increasingly become not only compute-intensive but also data-intensive. "Big" data produced by large-scale simulations calls for sustainable data management solutions that increase energy efficiency, enable predictive data analytics, and reduce time-to-discovery. In response to this critical need, Adaptive Mesh Refinement (AMR) has emerged as a promising technology to achieve considerable savings in memory, computation, and storage resources, while maintaining or even increasing simulation accuracy. With AMR, scientists can adaptively balance between high-resolution look into "the unusual" areas and low-precision glance at "the usual" areas of the simulated phenomena.&lt;br/&gt;&lt;br/&gt;The strength of AMR selective fine-grain refinement of salient areas of the simulationis also becoming its weakness. The non-uniform structure of its underlying mesh leads to inefficient post-simulation access to the "Big" data along the path from data analytics to scientific discovery. The data generation process of space-time simulation proceeds from one time step to the next and requires the context of only two time steps, while storing data for only one time step on the disk. In contrast, visual data analytics often requires the full context of the available data, not just a single time step. In fact, simulations that are driven by local space-time relationships are largely performed with the purpose of discovering or explaining non-local and large-scale space-time relationships through interactive "what-if" data exploration. Thus, the fundamental differences in data context and heterogeneity of access patterns call for analytics-driven scientific data management solutions.&lt;br/&gt;&lt;br/&gt;To close this gap, this project aims to significantly advance database management for "Big" AMR data by making data analytics and data reduction the first class citizens of the database design and query processing. To support analytics-driven efficient query processing, it offers a transformative shift from the traditional indexing of data to the proposed indexing of information about data compression and hierarchical data layout in storage. The former incurs substantial storage overhead, while the latter is anticipated to be storage-friendly with significantly faster data retrieval in response to user queries. &lt;br/&gt;&lt;br/&gt;To realize this ambitious goal, innovations are proposed in three broad areas of data-intensive computer science: semantic modeling, scientific database management, and high performance storage. Specifically, the scientific database management is going to be cognizant of rich data access-and-query semantics specific to AMR data, capable of in situ data compression and indexing during data generation by the simulation, and optimized for heterogeneous access patterns through novel data layout methodologies. &lt;br/&gt;&lt;br/&gt;This research is being conducted in a close partnership with the three national labs' research teams with pioneering technologies in high performance storage, AMR, and high-fidelity climate change simulations. The approaches and formalisms developed in this research are expected to be applicable to a broad range of scientific and engineering problems that utilize simulation models for predictive understanding of physical processes through "Big" data analytics. The techniques developed under this project are expected to accelerate the crucial process of data-driven exploration and knowledge discovery in the scientific workflow. This project also plans significant efforts in "Big" data education, diversity, community engagement, and the dissemination of results through academic publications and open-source software.</AbstractNarration>
+    <MinAmdLetterDate>05/04/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/25/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1240682</AwardID>
+    <Investigator>
+      <FirstName>Nagiza</FirstName>
+      <LastName>Samatova</LastName>
+      <EmailAddress>samatova@csc.ncsu.edu</EmailAddress>
+      <StartDate>05/04/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

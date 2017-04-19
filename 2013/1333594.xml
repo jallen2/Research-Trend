@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS:CLCCA:Collaborative Research:Harnessing Highly Threaded Hardware for Server Workloads</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>341617</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Data centers provide the computational and storage infrastructure required to meet today's ever increasing demand for Internet-based services. Web servers deliver a vast range of information on demand, ranging from static content such as files, images, video and audio streaming services, to dynamic content created via scripting languages (e.g,. PHP) or stand alone C/C++ applications (e.g., search results). Server performance, scaling and energy efficiency (throughput/Watt) are crucial factors in reducing total cost of ownership (TCO) in today's server-based industries. Unfortunately, current system designs based on commodity multicore processors may not be the most power/energy efficient for all server workloads. &lt;br/&gt;&lt;br/&gt;Today?s massively parallel accelerators (e.g., GPUs) provide exceptional performance per Watt for certain workloads versus conventional many core CPUs. Unfortunately, these devices have not found wide-spread general purpose use outside the high-performance computing domain. This project expands the use of massively parallel accelerators to server and operating system-intensive workloads by innovating across the application, runtime, operating system, and architecture layers.&lt;br/&gt;&lt;br/&gt;This research builds on the observation that server workload execution patterns are not completely unique across multiple requests. The goal of this project is to develop computer systems (software and hardware) that exploit similarity across requests to improve server performance and power/energy efficiency by launching data parallel executions for request cohorts. The three primary aspects of this research are 1) mapping traditional thread/task parallel workloads onto data parallel hardware, 2) developing a new accelerator-centric operating system architecture, and 3) developing new architectural mechanisms to support this new class of accelerator workloads and operating system software.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/09/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1333594</AwardID>
+    <Investigator>
+      <FirstName>Emmett</FirstName>
+      <LastName>Witchel</LastName>
+      <EmailAddress>witchel@cs.utexas.edu</EmailAddress>
+      <StartDate>09/11/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Silberstein</LastName>
+      <EmailAddress>marks@cs.utexas.edu</EmailAddress>
+      <StartDate>09/11/2013</StartDate>
+      <EndDate>05/05/2014</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

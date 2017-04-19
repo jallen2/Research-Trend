@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Understanding Fudnamental Data Structures</AwardTitle>
+    <AwardEffectiveDate>07/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2014</AwardExpirationDate>
+    <AwardAmount>393443</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The need to efficiently store and access data is central to modern computing, and the design and analysis of methods to store and access data constitutes the field of data structures. This project will investigate the discovery of provably best data structures for several fundamental problems, including the dictionary and the priority queue. The dictionary supports the efficient insertion, deletion, and search of ordered data. The priority queue supports insertion and the removal of the minimum element.&lt;br/&gt;&lt;br/&gt;Data structures will be designed and analyzed under the paradigm of instance-based optimality. In this model, a data structure's performance on a sequence of operations is evaluated based on how well it compares to the speed of the best structure for that sequence among a naturally-defined class of structures. The classes of structures that will be examined include binary search trees and heaps. Binary search trees and heaps are arguably the most fundamental nontrivial classes of data structures in computer science. Despite their origins at the dawn of computing, a complete understanding of these classes of structures has remained elusive to this day.&lt;br/&gt;&lt;br/&gt;Other operations on fundamental data structures will be investigated. The ability to decrease the value of an item in a heap is vital to some algorithms, notably Dijkstra's algorithm for finding single-source shortest paths in a graph. Yet, it is not completely understood what types of structures can support this operation efficiently. Also, there is no known efficient method to support the splitting and merging of dictionaries; one goal of this project is to design a comparison-based dictionary do this in amortized logarithmic time.</AbstractNarration>
+    <MinAmdLetterDate>06/28/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/28/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018370</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Iacono</LastName>
+      <EmailAddress>iacono@nyu.edu</EmailAddress>
+      <StartDate>06/28/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

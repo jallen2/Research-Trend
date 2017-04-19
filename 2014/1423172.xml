@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Effective Data Compression for Modern Memory Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>497618</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many areas of science and technology have experienced transformational changes in recent years due to the increased ability to collect and analyze extremely large data sets. As a result, computers are often limited by their ability to move data in and out of their processors (or CPUs). One attractive approach to reducing this performance bottleneck would be to compress the data throughout the computer's memory system. Although data compression has been successful in certain areas of computing (e.g., shrinking the size of files), it has not been widely adopted within modern memory systems. This research is to develop a new memory compression technique that is fast enough, simple enough, and effective enough (in saving space) to make memory compression practical and attractive.&lt;br/&gt;&lt;br/&gt;The key insight to the proposed approach is that decompression latency and simplicity of design are far more critical than compression ratio when designing a compression scheme that is effective for modern memory. Preliminary work has identified simple and effective mechanisms for compressing data in on-chip caches and in main memory that achieve significant compression ratios while adding minimal access latency overhead. The simplicity of the proposed mechanisms also enables elegant solutions for dealing with the practical challenges of how on-chip caches and main memories are organized in modern systems. The anticipated data compression framework will help improve the performance, cost, and energy efficiency of a wide spectrum of computer systems, ranging from high-end servers (including Cloud Computing, high-performance computing, and other distributed systems) down to mobile and embedded devices.&lt;br/&gt;&lt;br/&gt;The planned compression framework should relieve pressure on both the capacity of the various layers of the memory hierarchy (including caches, DRAM, non-volatile memory technologies, etc.) as well as the bandwidth of the interconnects that transfer data between these layers. This in turn would allow systems designers to avoid over-provisioning these resources. As a result, future computer systems should be better suited to the increasingly data-intensive workloads of the future.</AbstractNarration>
+    <MinAmdLetterDate>09/05/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/05/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423172</AwardID>
+    <Investigator>
+      <FirstName>Todd</FirstName>
+      <LastName>Mowry</LastName>
+      <EmailAddress>tcm@cs.cmu.edu</EmailAddress>
+      <StartDate>09/05/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Onur</FirstName>
+      <LastName>Mutlu</LastName>
+      <EmailAddress>onur@cmu.edu</EmailAddress>
+      <StartDate>09/05/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

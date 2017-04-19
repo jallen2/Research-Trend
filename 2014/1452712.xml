@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Understanding the Performance of Distributed Systems through Causal Tracing</AwardTitle>
+    <AwardEffectiveDate>03/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>02/29/2020</AwardExpirationDate>
+    <AwardAmount>220834</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gurdip Singh</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CAREER: Understanding the Performance of Distributed Systems through Causal Tracing&lt;br/&gt;&lt;br/&gt;Society increasingly depends on shared software systems that are large, decentralized, with many components that interact in complex and subtle ways. These systems include financial and banking services, Web and cloud resources, airline reservations, and big data and scientific computing, to name a few. Despite their unquestionable reach and success, in these systems it is very hard to answer questions about the causes of failures, to uncover dependency issues among their components, to determine the impact of one operation on the rest of the system, or to provide guarantees about their performance to users. By developing and applying techniques to enable deep and real-time understanding of the performance characteristics of large-scale distributed systems, this project?s goal is to develop techniques that will enable users and providers of these systems to better express their needs and their guarantees in terms of performance, and better plan for and mitigate the effects of failures. &lt;br/&gt;&lt;br/&gt;The main insight in this project is that because of the many components in distributed systems, the context of an operation initiated in one component gets lost as the operation involves other components. This makes it hard for a component deep in the system to discern with which client it is working, making it also hard to apply consistent policies or account for the cost of operations across component boundaries. This research will create the abstraction of a Tracing Plane that preserves this context throughout the entire execution of the system, allowing for debugging and diagnosis of performance problems, and for real-time provisioning of performance guarantees. This Tracing Plane will be a pervasive infrastructure to collect causal information from the execution of a distributed system and facilitate the efficient deployment of analytics and diagnostic tasks. Further, by aggregating information about tasks in the system across all components in a coherent way, the Tracing Plane enables the implementation of resource management policies that can act locally, in real-time, and with global knowledge - which is presently not possible. &lt;br/&gt;&lt;br/&gt;We are better today at building large-scale distributed systems than we are at understanding precisely how they work, and how they fail and this will provide a core educational aspect, as the Tracing Plane is a strong pedagogical tool for the understanding of distributed systems structure and execution. This work will engage undergraduate and graduate students, as well as industry partners that operate such large-scale distributed systems. By starting from increased visibility into these systems, the ultimate goal of this project is to provide tools and methods to allow building, operation, and management of large-scale, shared distributed systems that are efficient, reliable, and predictable. As society increasingly depends on systems of this kind, this research has a large and long lasting potential impact.</AbstractNarration>
+    <MinAmdLetterDate>03/03/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/03/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1452712</AwardID>
+    <Investigator>
+      <FirstName>Rodrigo</FirstName>
+      <LastName>Fonseca</LastName>
+      <EmailAddress>rfonseca@cs.brown.edu</EmailAddress>
+      <StartDate>03/03/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

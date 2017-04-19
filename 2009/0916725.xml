@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Managing Non-Determinism in Multithreaded Software and Hardware</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>499998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>"This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5)."&lt;br/&gt;&lt;br/&gt;In the 21st century, the dominant computing platform has shifted to multicore chips that implement cache-coherent shared memory and run multi-threaded applications. Unfortunately, these chips do not provide a deterministic model to either software or hardware developers. Reasoning about and testing for multiple possible executions is much harder than reasoning about and testing for a single correct sequential execution, as was possible under the von Neumann model that dominated in the 20th century. Easing the burden of programming multicore chips is critical to provide society with the rapid, cost-effective performance gains that we have all come to expect. Moreover, broad impact requires practical solutions that do not ask industry to discard or rewrite billions of lines of existing general-purpose thread-based software.&lt;br/&gt;&lt;br/&gt;To this end, research under this proposal will develop solutions for managing non-determinism with alterative implementation approaches that provide complementary benefits and opportunities. (1) Work will expand techniques of recording executions for deterministic replay to improve replay parallelism and extend the scope of record/replay to hardware debugging and fault-tolerance. (2) Work will develop and advance a deterministic coherence model that eliminates a major source of non-determinism in shared-memory multiprocessor systems: memory races. (3) Work will develop both all-software and hardware-accelerated implementations of deterministic coherence, in part, through extensions to the Wisconsin GEMS simulation infrastructure. (4) Finally, work will explore rebuilding coherence upon a formal deterministic foundation. Broader impacts will include embodying the proposed work in public software releases (e.g., GEMS) as well as dissemination to students and through courses, talks, industrial affiliates, and commercial influence.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2009</MaxAmdLetterDate>
+    <ARRAAmount>499998</ARRAAmount>
+    <AwardID>0916725</AwardID>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Hill</LastName>
+      <EmailAddress>markhill@cs.wisc.edu</EmailAddress>
+      <StartDate>07/30/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Wood</LastName>
+      <EmailAddress>david@cs.wisc.edu</EmailAddress>
+      <StartDate>07/30/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Software Infrastructure for Online Analytics</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>468727</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Complex analytics frameworks -- distributed systems that continuously extract information from large, often dynamic data sources -- sit at the core of a large class of increasingly important applications, ranging from information retrieval and search, to large-scale scientific data analyses. A common feature of many of these frameworks is their offline nature -- the underlying models are only periodically updated, typically through expensive computations, in an offline manner (e.g., update their recommender system models weekly to monthly). In contrast, many emerging applications (e.g., sentiment analysis and personalization) require online analytics, often relying on expensive computational methods. These applications are constantly running (i.e., they do not start and stop at prescribed times), they are required to respond to real-time queries even if the answer is approximate, they operate on currently available data as opposed to collecting all possible data, and they must adapt to available computational resources. A coherent software system targeted specifically to this important class of online learning applications would significantly enhance the state-of-the-art. This project aims to develop a software infrastructure comprising application programming interfaces (APIs), runtime systems, and domain-specific optimizations for scalable online analytics. This work has broad and deep impact on applications in domains ranging from commercial to scientific data analyses. In commercial domains, such systems would be used to analyze real time data feeds from social networks, economic transactions, and other dynamic information sources. In scientific domains, such systems could be used to analyze data from astrophysical observations, high-throughput instrumentation, and densely sensed environments.&lt;br/&gt;&lt;br/&gt;Scalable analytics are among the most important current challenges facing large-scale distributed systems. To address these challenges, the project has the following specific aims: (i) development of suitable domain-specific abstractions, along with an API for specification of analytics dataflows; (ii) support for dynamic updates and user-interaction geared towards scalable analytics applications; (iii) development of a runtime system infrastructure for scheduling, resource management, performance, and fault tolerance; (iv) development of a kernel library of online versions of important analytics operations; and (v) validation through exemplar applications. Each of these goals represent significant intellectual challenges from theoretical and systems-building viewpoints.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422338</AwardID>
+    <Investigator>
+      <FirstName>Ananth</FirstName>
+      <LastName>Grama</LastName>
+      <EmailAddress>ayg@cs.purdue.edu</EmailAddress>
+      <StartDate>08/07/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

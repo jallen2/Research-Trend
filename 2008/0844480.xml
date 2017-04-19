@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: A Comparative Study of Approaches to Cluster-Based Large Scale Data Analysis</AwardTitle>
+    <AwardEffectiveDate>02/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2012</AwardExpirationDate>
+    <AwardAmount>239281</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Vijayalakshmi Atluri</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This goal of this research project is to understand the tradeoffs between the MapReduce and parallel DBMS approaches to performing large-scale data analysis over large clusters of computers, and to bring together ideas from both communities. Both MapReduce and parallel database systems provide scalable data processing over hundreds to thousands of nodes. Both provide a stylized, high-level programming environment that allows users to efficiently filter and combine datasets while masking much of the complexity of parallelizing computation over a cluster. But they differ in substantial ways as well, such as their approaches to dealing with fault tolerance, their data modeling requirements, their query flexibility, and their ability to function in a heterogeneous processing environment.&lt;br/&gt;&lt;br/&gt;This multi-university team of researchers is investigating the effect of these differences on the performance and scalability of these two approaches. The research team is running a set of experiments that compare an open source MapReduce implementation (Hadoop) to two commercial parallel database systems (DB2 and Vertica) on a benchmark that includes a range of tasks designed to assess the tradeoffs between both approaches. The research team is seeking to understand which differences between the two approaches to performing large scale data analysis are fundamental tradeoffs, and which differences are possible to combine inside a single solution, so that ideas from one community can benefit the other.</AbstractNarration>
+    <MinAmdLetterDate>02/11/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/11/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0844480</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Abadi</LastName>
+      <EmailAddress>daniel.abadi@yale.edu</EmailAddress>
+      <StartDate>02/11/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Yale University</Name>
+      <CityName>New Haven</CityName>
+      <ZipCode>065208327</ZipCode>
+      <PhoneNumber>2037854689</PhoneNumber>
+      <StreetAddress>Office of Sponsored Projects</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7782</Code>
+      <Text>CLUSTER EXPLORATORY (CLuE)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7782</Code>
+      <Text>CLUSTER EXPLORATORY (CLuE)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

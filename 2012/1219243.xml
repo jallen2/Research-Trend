@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF:Small:RUI: Observationally Cooperative Multithreading</AwardTitle>
+    <AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2016</AwardExpirationDate>
+    <AwardAmount>375395</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Today's multicore processors are often underutilized because programmers lack tools and techniques to program them effectively. To understand the problem, imagine that a microprocessor is like a restaurant kitchen. For years, processor designers improved execution speed, replacing the chef with one who can work even faster. Because this strategy has physical limits, hardware vendors are turning to multicore CPUs, akin to multiple chefs. Some problems adapt easily to multiple cores; if you need to bake 16 identical cakes, it's easy to use 16 chefs in separate kitchens (i.e., symmetric parallelism). But if you need to prepare a complex banquet (i.e., irregular parallelism), the many tasks can require significant coordination. One mistake (e.g., two chefs using the same bowl at the same time) and the results may be disastrously wrong. Experience has shown that few programmers can foresee and avoid all possible coordination issues ahead of time. This project develops the approach Observationally Cooperative Multithreading (OCM) for solving problems on parallel machines. OCM makes it easier to write correct code, while allowing speedup on from multiple processing cores. Because of its simplicity, OCM could make parallelism and concurrency more accessible to a broad audience, including introductory students.&lt;br/&gt;&lt;br/&gt;Specifically, in programs written for the well-understood cooperative multithreading (CM) model, subtasks take turns and execute one at a time. This approach rules out conflicts between subtasks and simplifies programming and debugging. OCM takes these same programs but runs them on modern multicore machines, executing subtasks simultaneously (and hence more efficiently) when there are no conflicts. This research, extending preliminary work on OCM, will involve 18 undergraduate students over three years. They will help design, develop and evaluate practical OCM implementations using techniques such as Transactional Memory and Lock Inference, addressing the concerns both of the parallel-programming community (who value demonstrated performance) and of the CS education community (who value ease of use and desperately need a simpler introduction to concurrency and parallelism).</AbstractNarration>
+    <MinAmdLetterDate>09/06/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/06/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1219243</AwardID>
+    <Investigator>
+      <FirstName>Melissa</FirstName>
+      <LastName>O'Neill</LastName>
+      <EmailAddress>melissa_oneill@hmc.edu</EmailAddress>
+      <StartDate>09/06/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>Stone</LastName>
+      <EmailAddress>stone@cs.hmc.edu</EmailAddress>
+      <StartDate>09/06/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Harvey Mudd College</Name>
+      <CityName>CLAREMONT</CityName>
+      <ZipCode>917115901</ZipCode>
+      <PhoneNumber>9096218121</PhoneNumber>
+      <StreetAddress>301 Platt Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

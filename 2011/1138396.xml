@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Methodologies for Tight Integration of Physical and Cyber Models in Power Aware Wearable Computers</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>52551</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Wearable computers are gaining significant attention due to their capability to enable a wide variety of new applications in domains such as wellness and health care. Despite their tremendous potential to impact our lives, wearable health monitoring systems face a number of hurdles before becoming a reality. The enabling processors and architectures demand a large amount of energy, requiring sizable batteries. This creates challenges for further miniaturization of the wearable units. This EAGER award is pursuing preliminary research in tiered, model based signal processing that can exploit pre-determined signal templates to enable extreme power optimization. In this approach, signal processing can be performed at several levels, where in each level, only the hardware for a specific template is active. If the template of interest is present, the next level of signal processing will be activated, otherwise hardware components corresponding to the next and the remaining levels will remain inactive. This approach, however, highly depends on the effectiveness of templates. In monitoring human movements, if templates do not accurately represent the physical activity of interest, the system will not exhibit acceptable accuracy. The goal is to develop effective techniques and methodologies to ensure templates adapt to remain valid throughout the operation of the system, accurately representing the corresponding physical movements.&lt;br/&gt;&lt;br/&gt;The research focuses on speed-insensitive template matching architectures that can reduce the effects of movement variations on signal processing. Timing models for movements and user activity profiles are exploited to monitor the correctness of the signal processing, and tunable parameters decrease or increase the sensitivity of the signal processing. For example, if the user is expected to perform sit to stand at least once every two hours in the day time, and the tiered signal processing has not detected the movement in the past few hours, the sensitivity will be increased, or user interaction and template retraining can be initiated. When performing a movement that has been determined to be of interest, the user can initiate (re)training if the system does not recognize the movement. Effective template generation and on-line retraining are expected to open opportunities to individualize systems and signal processing and to reduce the complexity of storage and processing architectures. This research is expected to provide the groundwork for ongoing design and development of practical ultra low power signal processing architectures, reduce costs of computing platforms for medical sensing, and to enable future progress in areas such as gait and balance monitoring for fall prevention, and in-home movement monitoring for Parkinson?s disease.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1138396</AwardID>
+    <Investigator>
+      <FirstName>Roozbeh</FirstName>
+      <LastName>Jafari</LastName>
+      <EmailAddress>rjafari@tamu.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Dallas</Name>
+      <CityName>Richardson</CityName>
+      <ZipCode>750803021</ZipCode>
+      <PhoneNumber>9728832313</PhoneNumber>
+      <StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

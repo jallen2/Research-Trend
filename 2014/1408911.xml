@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Energy Efficient Memory Systems</AwardTitle>
+    <AwardEffectiveDate>06/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2017</AwardExpirationDate>
+    <AwardAmount>800000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this project is to develop energy efficient systems. Improving energy efficiency is a defining challenge for information technology and the prerequisite to increasing the capabilities of all computing systems, from smartphones to warehouse-scale data-centers. Most research in this area has focused on energy efficient computing, using specialized cores or near-threshold voltage circuits. To achieve end-to-end energy efficiency, the on-chip and off-chip memory system that feeds cores with data and instructions must also be optimized. The memory system includes large, leaking structures and communication operations that introduce energy overheads orders of magnitude higher than the overheads of compute operations.&lt;br/&gt;&lt;br/&gt;This project proposes a holistic approach towards energy efficient memory systems that rethinks memory system architecture, dynamic runtime management, and circuit design. At the architecture level, it will optimize for emerging, data-centric applications with limited temporal locality by placing computing close to the memory structures so that energy intensive communication is minimized. It will also explore architectural support for specialization in the memory system, such as engines for specialized prefetch, data transformations, and data distribution. At the runtime management level, it will investigate scalable scheduling algorithms that minimize energy usage in the memory system by maximizing temporal and spatial locality and the use of on-chip and memory-side accelerators. At the circuit design level, it will aggressively optimize the energy consumption of the internal structures of memory chips and memory stacks for the dominant access patterns after efficient runtime management. Finally, this project will create tools for joint exploration of the architecture-management-scheduling space in order to identify Pareto optimal memory systems for different levels of performance.</AbstractNarration>
+    <MinAmdLetterDate>06/03/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/03/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1408911</AwardID>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Horowitz</LastName>
+      <EmailAddress>horowitz@stanford.edu</EmailAddress>
+      <StartDate>06/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christoforos</FirstName>
+      <LastName>Kozyrakis</LastName>
+      <EmailAddress>kozyraki@stanford.edu</EmailAddress>
+      <StartDate>06/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Collaborative Research: Automatic Locality Management for Dynamically Scheduled Parallelism</AwardTitle>
+    <AwardEffectiveDate>06/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2018</AwardExpirationDate>
+    <AwardAmount>962951</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: Automatic Locality Management for Dynamically Scheduled Parallelism&lt;br/&gt;&lt;br/&gt;Today's multicore and manycore computers provide increasing amounts of computational power in the form of parallel processing coupled with a complex memory organization with many levels of hierarchy and orders of magnitude difference in cost between accessing different levels. When software exhibits spatial and temporal locality, meaning that it reads and writes memory addresses that are close to one another in relatively small time span, it is able to primarily access data in fast caches, rather than in slow main memory, and deliver good sequential and parallel performance. Unfortunately, with software written in high-level managed programming languages it is difficult to ensure or to predict the amount of spatial and temporal locality, due to the lack of low-level programmer control and the complexities of and interactions between the specific hardware platform and the thread scheduler and the memory manager. This project explores techniques for automatic management of locality in high-level managed programming languages executing on parallel computers with sophisticated memory hierarchies. Using the theoretical models, efficient algorithms, and practical implementations being developed in the project, programmers are able to reason about the expected locality of their programs independent of the target hardware, while a runtime system, including thread scheduler and memory manager, maps the program onto specific hardware to achieve the established performance bounds.&lt;br/&gt;&lt;br/&gt;In particular, this project addresses the problem of automatically managing locality via the runtime system of a high-level garbage-collected parallel functional programming language. A comprehensive approach that considers scheduling, memory allocation, and memory reclamation together is used, allowing the thread scheduler to influence the memory manager and vice versa. A key insight of this research program is to view the allocated data of a program as a hierarchical collection of task- and scheduler-mapped heaps. This view guides the theoretical cost model that enables a programmer to reason about locality at a high-level, the efficient algorithms that control when to create and to garbage collect a heap with provable bounds, and the practical implementation that delivers automatic locality management in a parallel functional programming language. The intellectual merits are advances in understanding the interaction of thread scheduling and memory management with locality on modern parallel hardware, the development of high-level, machine-independent cost model, and a synthesis of programming languages, algorithmic theory, and system design to address the challenges of automatic locality management. The broader impacts are improvements in software quality and programmer productivity, the creation of a parallel functional programming language usable in both education and research, and the integration of results into courses and outreach activities.</AbstractNarration>
+    <MinAmdLetterDate>06/03/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/03/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1408940</AwardID>
+    <Investigator>
+      <FirstName>Umut</FirstName>
+      <LastName>Acar</LastName>
+      <EmailAddress>umut@cs.cmu.edu</EmailAddress>
+      <StartDate>06/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Guy</FirstName>
+      <LastName>Blelloch</LastName>
+      <EmailAddress>blelloch@cs.cmu.edu</EmailAddress>
+      <StartDate>06/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

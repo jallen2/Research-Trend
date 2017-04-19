@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Reliable In-place Execution for Multicore Processors</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>499916</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The microprocessor industry has transitioned to chip-multiprocessor designs, where additional on-chip resources provided by continued process scaling are dedicated to providing more and more processor cores per die. Since power for a single die is capped, each core is allotted a shrinking fraction of the overall power budget, making it difficult or impossible to design a core that provides the performance improvements that end users expect. At the same time, ever smaller devices are more vulnerable to transient errors caused by cosmic rays. For these reasons, there is an urgent industry demand for novel microarchitectural approaches that deliver high levels of single-thread performance (execution latency) and increased resilience to soft errors (reliability), while dramatically reducing power consumption. Without dramatic innovations in the design of power-efficient, high-performance multicore building blocks, the continued device scaling of future nanometer technologies may no longer provide substantial returns in utility or performance. As a result, the microprocessor industry, and by extension, the computer industry as a whole, face a serious challenge in maintaining the growth-based business model that has sustained them for four decades. This research has broad industry- and economy-wide impact since it helps to address or avert these challenges. &lt;br/&gt;&lt;br/&gt;The Reliable In-Place Execution (RIPE) project investigates microarchitectural approaches based on the concept of in-place execution of instructions. In contrast to conventional designs where instructions traverse deep processing pipelines at high frequency, RIPE assigns an instruction to a fixed execution station where it is evaluated in place. This approach dramatically improves power efficiency by minimizing device activity and avoiding pipelining, complex control logic, multiported storage structures, and other power-hungry components of traditional out-of-order processor cores. RIPE also inherently reduces vulnerability to single-event upsets (SEUs), while forming an attractive substrate for low-cost detection of and recovery from single-event transients (SETs). RIPE is also uniquely suited for streamlining instruction fetch, since the in-place instructions can be reactivated for multiple loop iterations or to resolve conditional control flow, avoiding the power and performance costs of fetching instructions from the memory hierarchy, and eliminating performance penalties due to mispredicted branches. RIPE cores can also be clustered and interconnected to provide very high levels of performance in a scalable and power-efficient manner. The proposed research, if successful, will lead to processor core designs that meet the seemingly contradictory objectives of modest area, low power consumption, high instruction-level parallelism (ILP), competitive frequency, and reliable operation even in inherently unreliable future technologies.</AbstractNarration>
+    <MinAmdLetterDate>06/28/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/28/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318298</AwardID>
+    <Investigator>
+      <FirstName>Mikko</FirstName>
+      <LastName>Lipasti</LastName>
+      <EmailAddress>mikko@engr.wisc.edu</EmailAddress>
+      <StartDate>06/28/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

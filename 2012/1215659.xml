@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Numerical Improvements, Mesh Adaptation and Parameter Identification for Parallel Finite Element Stokes Ice Sheet Modeling</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>157618</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The numerical modeling of land ice evolution has been a subject of growing interest because of the crucial role land ice plays in global sea level and other parts of the climate system. Nonlinear 3D Stokes flow is the gold standard among conceptual models for ice sheet dynamics. The current widely-used shallow-ice, shallow-shelf, L1L2, and higher-order approximations are all obtained as reduced forms of the 3D Stokes model by means of scaling analysis, but in many situations, with an attendant loss of fidelity. The PI has closely collaborated with a team of collaborators on the preliminary development of a parallel finite element nonlinear 3D Stokes dynamical core for ice sheet modeling. The goal of the proposed project is to advance the current finite element Stokes ice sheet model by further studying and enhancing its efficiency, accuracy, usability, and robustness. The PI will first investigate some issues related to the finite element Stokes ice sheet dynamics solver, including analysis and implementation of Newton-based fast iterative methods for treating both rheological and basal boundary condition nonlinearities and an adaptive hybrid discretization scheme for enhancing the local conservation properties in our numerical model. In the ice-sheet model we consider, the Stokes ice sheet dynamics equations are fully coupled to the equation for temperature evolution, thus stable and accurate finite element temperature solver with accuracy commensurate with that of the Stokes solver is desired and will also be developed. It is well-known that the adjoint equation approach allows one to directly obtain accurate solutions for the quantity of interests. The PI will also investigate and develop adjoint equation-based methods for adaptive mesh refinement and identification of basal boundary sliding parameter using goal-oriented optimization approaches.&lt;br/&gt;&lt;br/&gt;Although numerical ice sheet models have steadily improved in recent years, much work is needed to make them more reliable, efficient and usable at long time and whole ice sheet scales. The enhanced numerical Stokes ice sheet model will achieve high degrees of efficiency and accuracy through the use of high-order accurate adaptive finite element discretization schemes, highly scalable parallel linear and nonlinear system solvers, goal-oriented variable resolution meshing strategies, and effective inverse design for model parameters. The proposed investigation would offer new insights through numerical simulations to the understanding of land ice evolution. The PI will actively disseminate his research results and tested software not only toresearchers in the area but also to much broader communities with interests in numerical methods and computational geophysics through publications, attending meetings, maintaining an informative web-site. The potential impact of the project is very substantial. Direct and transformative innovations resulting from the proposed project will greatly improve computational ice sheet model capabilities in the climate system modeling. In addition, this project will also offer a unique educational opportunity for graduate students with interests in computational and applied mathematics by having them participate in an interdisciplinary research program that combines mathematics, computer science and geological sciences.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1215659</AwardID>
+    <Investigator>
+      <FirstName>Lili</FirstName>
+      <LastName>Ju</LastName>
+      <EmailAddress>ju@math.sc.edu</EmailAddress>
+      <StartDate>07/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University South Carolina Research Foundation</Name>
+      <CityName>COLUMBIA</CityName>
+      <ZipCode>292080001</ZipCode>
+      <PhoneNumber>8037777093</PhoneNumber>
+      <StreetAddress>1600 Hampton Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>South Carolina</StateName>
+      <StateCode>SC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>5280</Code>
+      <Text>ARCTIC NATURAL SCIENCES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7215</Code>
+      <Text>OPPORTUNITIES FOR RESEARCH CMG</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1079</Code>
+      <Text>ARCTIC RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7215</Code>
+      <Text>OPPORTUNITIES FOR RESEARCH CMG</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

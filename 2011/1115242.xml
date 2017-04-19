@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CGV: Small: Collaborative Research: Sparse Reconstruction and Frequency Analysis for Computer Graphics Rendering and Imaging</AwardTitle>
+    <AwardEffectiveDate>10/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2015</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A broad range of problems in computer graphics rendering, appearance acquisition, and imaging, involve sampling, reconstruction, and integration of high-dimensional (4D-8D) signals. Real-time rendering of glossy materials and intricate lighting effects like caustics, for example, can require pre-computing the response of the scene to different light and viewing directions, which is often a 6D dataset. Similarly, image-based appearance acquisition of facial details, car paint, or glazed wood requires us to take images from different light and view directions. Even offline rendering of visual effects like motion blur from a fast-moving car, or depth of field, involves high-dimensional sampling across time and lens aperture. The same problems are also common in computational imaging applications such as light field cameras. While the PIs and others have made significant progress in subsequent analysis and compact representation for some of these problems, the initial full dataset must almost always still be acquired or computed by brute force which is prohibitively expensive, taking hours to days of computation and acquisition time, as well as being a challenge for memory usage and storage.&lt;br/&gt;&lt;br/&gt;The PIs' goal in this project is to make fundamental contributions that enable dramatically sparser sampling and reconstruction of these signals, before the full dataset is acquired or simulated. The key idea is to exploit the structure of the data that often lies in lower-frequency, sparse, or low-dimensional spaces. Their recent collaboration on a Fourier analysis of motion blur has shown that the frequency spectrum of dynamic scenes is sheared into a narrow wedge in the space-time domain. This enables novel sheared (not axis-aligned) filters and a sparse sampling. The PIs will build upon these preliminary results to develop a unified framework for frequency analysis and sparse data reconstruction of visual appearance in computer graphics. To these ends, they will first lay the theoretical foundations, including a novel frequency analysis of Monte Carlo integration and 5D space-time analysis of light fields. They will then develop efficient practical algorithms for a variety of problem domains, including sparse reconstruction of light transport matrices for relighting, sheared sampling and denoising for offline shadow rendering, time-coherent compressive sampling for appearance acquisition, and new approaches to computational photography and imaging.&lt;br/&gt;&lt;br/&gt;Broader Impacts: From a theoretical perspective, this project will develop a fundamental signal-processing analysis of light transport and appearance and imaging datasets, which will provide the foundation for further work not just in computer graphics but in signal-processing, computer vision, and image analysis as well. Project outcomes will apply to diverse sets of problems and will lead to transformative advances across the spectrum of rendering and imaging applications. The PIs will leverage existing collaborations with industry to transition the new technologies to practical production use. Outreach to K-12 students and the public will be enabled by a new science popularization blog that will leverage the public's excitement for advances in digital photography to introduce novel technical concepts, as well as by events such as the Computer Science Education Day for high school students at UC-Berkeley. The new algorithms and datasets resulting from this work will be made available to the research community; moreover, imaging algorithms will be released in open-source format to work with consumer digital and cell-phone cameras.</AbstractNarration>
+    <MinAmdLetterDate>06/27/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/27/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115242</AwardID>
+    <Investigator>
+      <FirstName>Ravi</FirstName>
+      <LastName>Ramamoorthi</LastName>
+      <EmailAddress>ravir@cs.ucsd.edu</EmailAddress>
+      <StartDate>06/27/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

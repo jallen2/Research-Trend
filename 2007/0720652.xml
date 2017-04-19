@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-EHS: High-throughput Real-time Stream Processing in Java</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2012</AwardExpirationDate>
+    <AwardAmount>242000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Stream processing is a programming paradigm suitable for the class of data driven applications that must manipulate high-volumes of data in a timely and responsive fashion. Example applications include video processing, digital signal processing, and monitoring of business processes. The appeal of stream programming comes from its conceptual simplicity. A program is a set of independent filters that communicate exclusively by the means of unidirectional data channels. The output behavior of any filter is completely determined by the value on its input channels, thus reducing the chances of data races. Interestingly, the abstractions provided by stream processing languages are surprisingly close to event-driven real-time systems. Previous research has shown that stream programs can be implemented very efficiently on modern multiprocessors. The goal of this project is to integrate stream-based programming with real-time systems. The project extends Java to combine streams with objects and allow programmers to integrate stream computations with traditional object-oriented components in the same Java virtual machine. The work relies on the facilities provided by the Real-time Specification for Java to ensure that streaming codes meet real-time constraints of their target application. The broader impact of this project is to introduce a new programming paradigm that can be used by real-time and traditional developers. The choice of Java is expected to ease adoption, as programmers can use mainstream development environments, libraries and development methodologies for writing stream processing code.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/04/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720652</AwardID>
+    <Investigator>
+      <FirstName>Jan</FirstName>
+      <LastName>Vitek</LastName>
+      <EmailAddress>j.vitek@neu.edu</EmailAddress>
+      <StartDate>09/12/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

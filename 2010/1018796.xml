@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: DeNovo: Rethinking Hardware for Disciplined Parallelism</AwardTitle>
+    <AwardEffectiveDate>09/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Designing parallel systems that are scalable, low-cost, and power efficient, and yet easily programmable, is arguably one of the biggest challenges facing the computing industry today. This proposal describes DeNovo, a hardware architecture and framework that rethinks shared memory system design from the ground up to take advantage of long term trends in disciplined parallel software. It takes the stance that, if shared memory multicore systems with hundreds of cores are to become widely used, programming languages and environments must evolve to enforce highly disciplined programming practices that greatly simplify the programmer's view of shared memory. Such languages must restrict shared memory interactions, enforcing data-race-freedom and determinism-by-default. Moreover, disciplined programming models communicate extensive information about shared memory access patterns (so the discipline can be enforced). Exploiting the parallelism discipline and the communicated information can enable far simpler and more efficient hardware design than possible today.&lt;br/&gt;&lt;br/&gt;DeNovo proposes an extensive redesign of the memory hierarchy based on three ideas. First, the coherence protocol can be vastly simplified by taking advantage of the absence of software races to virtually eliminate races from the protocol and greatly reduce the number of hidden protocol states. Second, DeNovo uses application-level data sharing granularity (rather than software-oblivious cache lines) as the organizing principle for addressing, communication, and coherence granularities. Third, DeNovo uses more efficient, point-to-point communication (close to explicit message passing) even for shared memory programs, by minimizing indirections through the directory and exploiting information about sharing granularity for bulk data transfers. These changes will simultaneously simplify the hardware design, reduce power consumption, and improve performance. Such a solution is highly unlikely without a fundamental rethinking of the memory system design, but is required to continue to reap the benefits of Moore's law.</AbstractNarration>
+    <MinAmdLetterDate>09/20/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/25/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018796</AwardID>
+    <Investigator>
+      <FirstName>Sarita</FirstName>
+      <LastName>Adve</LastName>
+      <EmailAddress>sadve@cs.uiuc.edu</EmailAddress>
+      <StartDate>09/20/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vikram</FirstName>
+      <LastName>Adve</LastName>
+      <EmailAddress>vadve@cs.uiuc.edu</EmailAddress>
+      <StartDate>09/20/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

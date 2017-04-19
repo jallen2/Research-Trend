@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER-DynamicData: Subspace Learning From Binary Sensing</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chengshan Xiao</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Decentralized sensing systems play an increasingly critical role in everyday life, including wireless sensor networks, mobile crowd-sensing with internet-of-things, and crowdsourcing with human workers, with applications in network analysis, distributed wideband spectrum sensing, target tracking, environmental monitoring, and advertisement prediction. Despite the promise, however, efficient inference is extremely challenging due to processing large amounts of data at the typically resource-starved sensor nodes. This project develops efficient feature extraction and dimensionality reduction tools for decentralized sensing systems with minimal computation, storage and communication requirements of each sensor node to make sense of the surrounding dynamic environments. Students on this program will develop multi-disciplinary expertise in signal processing, machine learning, optimization, and statistics. New graduate-level courses on high-dimensional data analysis will be developed by the PI at Ohio State University. &lt;br/&gt;&lt;br/&gt;More specifically, this project offers an integrated approach for subspace learning from bits, where the sampling strategy explicitly accounts for the communication burden by only requesting a single bit from each sensor node. This project opens up opportunities to develop a theory of principal component analysis (or subspace learning) based on binary sensing, where noisy data samples are synthesized into coarse yet high-fidelity binary measurements that are more amenable for communication and inference. The consideration of binary measurements is well-motivated, as in practice, measurements are either mapped to bits from a finite alphabet before computation, or available naturally in the quantized form, such as comparison outcomes from human as sensors; constraints in storage and communication are often expressed in terms of the number of bits rather than the number of real measurements; finally, binary measurements are also more robust against unknown, nonlinear and heterogeneous distortions from different sensors compared with real measurements. Unfortunately, none of the existing subspace learning frameworks is tailored to acquire and process quantized measurements, and will yield highly sub-optimal results if naive quantization is applied. This project addresses the above challenge and highlights a novel interplay between the quantity, precision, and fidelity of measurements in sensing for estimating and tracking a low-dimensional subspace in a dynamic environment. Decentralized and online inference algorithms for subspace learning are developed together with adaptive sensing schemes to speed up convergence.</AbstractNarration>
+    <MinAmdLetterDate>09/01/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/01/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1462191</AwardID>
+    <Investigator>
+      <FirstName>Yuejie</FirstName>
+      <LastName>Chi</LastName>
+      <EmailAddress>chi.97@osu.edu</EmailAddress>
+      <StartDate>09/01/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>O395</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>153E</Code>
+      <Text>Wireless comm &amp; sig processing</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS-NECO: Collaborative Research: Fixing the Reliability Problem in Network Software From its Root</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most of the Internet's complexity resides in software running on Internet routers. Bugs in this software are a highly critical problem, leading to a number of recent high-profile attacks and outages, and are increasingly becoming a bottleneck in building highly reliable networks. The PIs are designing and evaluating techniques to make the Internet resilient to software bugs. Their approach consists of two key components. First, they are building a highly reliable single instance of a network router. This involves performing a characteristic study of bugs in router software, by using static and dynamic code analysis and by taxonomizing publicly disclosed vulnerabilities. They also apply and extend techniques such as rollback, reordering inputs, microreboots, and automated debugging to construct a software router resilient to implementation bugs. Second, the PIs are developing and building an architecture for highly-available bug-resistant networks. Their design leverages the principle of "control and data diversity", which simultaneously runs multiple functionally-equivalent instances of a piece of software or data. Each instance is changed from the others in a way that makes it unlikely multiple copies will simultaneously undergo the same bug, for example by randomizing the execution environment, having each instance be responsible for a subset of routes, or by having different programmers implement each instance. In addition to producing designs and algorithms that enable these networks, the PIs will also make available tools and implementations to enable their use. &lt;br/&gt;Successful completion of this project will significantly improve the Internet's ability to avoid and recover from failures.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/05/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0831646</AwardID>
+    <Investigator>
+      <FirstName>Jennifer</FirstName>
+      <LastName>Rexford</LastName>
+      <EmailAddress>jrex@cs.princeton.edu</EmailAddress>
+      <StartDate>08/21/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Princeton University</Name>
+      <CityName>Princeton</CityName>
+      <ZipCode>085442020</ZipCode>
+      <PhoneNumber>6092583090</PhoneNumber>
+      <StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

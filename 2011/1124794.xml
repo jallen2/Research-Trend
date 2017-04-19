@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CDI-Type I: A Unified Probabilistic Model of Astronomical Imaging</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>675000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Overview: The astrophysics community has produced a Petabyte of of imaging data in a wide range of wavelength channels in the last decade, and is planning to produce a thousand times more in the next.&lt;br/&gt;At the same time, the computer science machine learning community has developed powerful methods for extracting knowledge scalably from large, heterogenous data sets. This project is to construct a model--a detailed quantitative explanation--for every pixel of every digital astronomical image ever taken by any telescope in the world, including those from amateurs and hobbyists.&lt;br/&gt;&lt;br/&gt;Technical description: The proposed model is a justified approximate probabilistic model, making extensive use of non-parametric Bayesian methods. The model will be hierarchical in nature, with the higher layers capturing regularities among stars and galaxies, and the lower layers will accurately model the image formation process, incorporating all the various noise processes. The internal parameters of the model will contain the best possible astronomical catalog given the input data; no current astronomical catalog is built using either hierarchical probabilistic inference, or built from the union of all available data. Science will be enabled by this catalog as it has been enabled by all previous astronomical catalogs: it will contain the position, brightness, temperature, parallax, and proper motion of every star and position, intensity, and morphology of every galaxy, even for sources for which there is evidence in the collection of data but not (sufficiently) in any individual image. Other internal parameters of the model will contain a quantitative description of calibration properties for all the image-generating hardware. All these products will help to refine and extend an existing astrophysics software and services for calibration and automated data processing.&lt;br/&gt;&lt;br/&gt;Broader impacts: This project provides unique opportunities in citizen science since it leverages images taken by amateur and hobbyist astronomers in creating astronomical knowledge by offering them opportunities to contribute in exactly the same fashion as professional astronomers. The project draws together two disparate fields: machine learning and astronomy, and thus has the potential to create a new sub-area of "inferential astronomy". The project offers enhanced opportunities for research-based advanced interdisciplinary training for postdoctoral, graduate and undergraduate researchers. All code created for this project will be released under the open-source license and all model components, parameters, and other internals will be freely disseminated to the wider research community through the project websites at: &lt;br/&gt;http://Astrometry.net/ and http://thetractor.org/ .</AbstractNarration>
+    <MinAmdLetterDate>09/01/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/01/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1124794</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Hogg</LastName>
+      <EmailAddress>david.hogg@nyu.edu</EmailAddress>
+      <StartDate>09/01/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Fergus</LastName>
+      <EmailAddress>fergus@cs.nyu.edu</EmailAddress>
+      <StartDate>09/01/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7750</Code>
+      <Text>CDI TYPE I</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7721</Code>
+      <Text>FROM DATA TO KNOWLEDGE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

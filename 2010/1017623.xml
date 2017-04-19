@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: DC: Collaborative Research: Pattern Matching for Massive Data Sets</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Pattern matching is a fundamental research field with applications in domains such as biological sequence alignment, web search engines and network intrusion detection. Given a pattern P and a text string T, the central problem is to find occurrences of P in T. When data becomes massive, we cannot assume that text can be stored in RAM. Pattern matching problems must now be considered with more appropriate models like external memory model, cache-oblivious model, streaming models, MapReduce paradigm and multi-core models. In many cases, a blend of models or newer, more appropriate models need to be developed keeping the practical aspects of the application in sight.&lt;br/&gt;&lt;br/&gt;The focus of this project is to develop efficient search algorithms and indexes when a data set resides on disks, on network storage, or is accessible only as an online stream. The data must be efficiently searchable even though it may be in compressed format. The project considers traditional pattern matching problem, as well as variants such as (i) approximate matching -- where the pattern may not exactly match a substring in T, (ii) online matching -- where the pattern(s) are known in advance and text comes as a stream, and (iii) string retrieval -- where instead of finding all the occurrences, the focus is on retrieving high ranking documents which contain one or more occurences of the query pattern. Issues of I/O efficiency and space utilization are central to this project. This involves developing suitable massive data set models, deriving optimal theoretical bounds and implementing practical tools. Methodologies include combinatorial and randomized methods in pattern matching, succinct data structures, top-k query processing and I/O efficient indexes.&lt;br/&gt;&lt;br/&gt;The project will build new, solid theoretical foundations in pattern matching, with direct applications to fields like databases and information retrieval. It will significantly drive forward current state of the art in web search engine technology (by impacting the way inverted indexes are used) and genome sequence alignment tools (e.g., BLAST). Tools and software developed during this project will be widely distributed to the research community. Some components will be incorporated into undergraduate and graduate algorithms course curricula as implementation projects.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017623</AwardID>
+    <Investigator>
+      <FirstName>Rahul</FirstName>
+      <LastName>Shah</LastName>
+      <EmailAddress>rahul@csc.lsu.edu</EmailAddress>
+      <StartDate>07/30/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Louisiana State University &amp; Agricultural and Mechanical College</Name>
+      <CityName>Baton Rouge</CityName>
+      <ZipCode>708032701</ZipCode>
+      <PhoneNumber>2255782760</PhoneNumber>
+      <StreetAddress>202 Himes Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

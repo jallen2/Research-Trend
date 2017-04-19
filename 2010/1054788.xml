@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Towards a High-Fidelity Knowledge Plane for Data-Center Networks</AwardTitle>
+    <AwardEffectiveDate>02/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>10/31/2014</AwardExpirationDate>
+    <AwardAmount>259282</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The increased computational and data analysis demands of many enterprises are increasingly being met through parallel and distributed processing in corporate data centers (DCs), or more recently in `cloud'-based DCs. The performance of many DC applications (e.g, high-performance computing applications) directly depends on the underlying network performance; managing data center network (DCN) performance efficiently is therefore of utmost importance. Managing DCN performance is challenging because many DCN applications such as cloud-based Web services, storage applications, high performance computing, and financial trading applications require latencies of the order of 10s of microseconds, in contrast with ISP network applications that require latency guarantees within few 100s of milliseconds. Thus, tools and techniques developed for monitoring ISP networks alone are insufficient for high-fidelity measurements in the DCN context. &lt;br/&gt;&lt;br/&gt;Intellectual Merit: The goal of this project is to investigate novel tools and techniques that will help build a high-fidelity knowledge plane for data centers. Specifically, the knowledge plane will collect high-fidelity measurements by equipping DCN switches with low-cost primitives for direct measurement of latency and loss properties. The knowledge plane will allow operators to perform fault diagnosis, service level agreement (SLA) monitoring, traffic engineering, network provisioning and other such management tasks in modern data center networks in an accurate and automated fashion. The up-to-date knowledge of the data center network performance will also help in building effective scheduling and performance-aware job placement algorithms to improve the performance of various DC applications.&lt;br/&gt;&lt;br/&gt;The project will investigate the following key building blocks for the construction of the knowledge plane: (1) It will develop novel scalable primitives for latency and loss measurements that can be implemented in switches at high speed. It will focus on measurements across interfaces pairs within a switch as well as across switches that may have multiple paths between them. (2) It will explore novel per-flow or per-class differentiated latency measurements in multi-tenant environments that require SLA guarantees on a per-customer basis. It will also investigate scalable primitives for obtaining per-packet measurements in switches; together these primitives will be transformational in debugging and measurement support in managing mission-critical DCNs. (3) To ensure scalability of the knowledge plane; the project will also investigate mechanisms for scalable export of measurement information, including primitives for querying network devices for information as opposed to a `push'-based approach.&lt;br/&gt;&lt;br/&gt;Broader Impact: The research outcomes of this project will help ease the management of data center applications significantly, thereby reducing cost and increasing the reliability and performance of data center services. The results of this project are timely as well as cloud computing is poised to bring about a renaissance in distributed and parallel computing in large-scale multi-tenant clouds. While this proposal itself is focused on the DCN context, the techniques developed are quite general and will also help debugging performance in ISP networks. The results from this research will be incorporated into undergraduate and graduate course work. All education materials and research prototypes (both software and hardware) developed as part of this project will be shared publicly for other researchers to use. The project will also involve participation of minorities and women.</AbstractNarration>
+    <MinAmdLetterDate>01/28/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/21/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1054788</AwardID>
+    <Investigator>
+      <FirstName>Ramana</FirstName>
+      <LastName>Kompella</LastName>
+      <EmailAddress>Kompella@cs.purdue.edu</EmailAddress>
+      <StartDate>01/28/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

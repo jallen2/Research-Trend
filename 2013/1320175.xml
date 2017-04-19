@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Inverse Problems from Cascades: Structure, Causation and Opinions</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>499687</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Brassil</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Cascades, also known as epidemic processes, are network phenomena where the activation of one node increases the likelihood of activation of its neighbors; this results in an event starting at one node eventually affecting a much larger part of the network via successive spread. Cascade processes serve as flexible yet coherent models for several phenomena: spread of viruses and malware in mobile phones, diseases in human society, opinions and actions in online social networks. This project focuses on using cascades as an inference and learning tool; the aim is to ascertain important network structure and properties, from partial and very noisy observations of cascade progressions on it. This runs counter to the vast majority of work on cascades, which is focused on the "forward" problem (of predicting how a cascade will spread given network properties). &lt;br/&gt;&lt;br/&gt;The project will develop an analytical and algorithmic framework that achieves the following three aims: &lt;br/&gt;&lt;br/&gt;1. Inferring Graph Structure: What graph best explains observed cascades? From noisy samples of multiple cascade progressions, the project will formulate graph-learning as non-parametric statistical inference, and propose an algorithmic approach that leverages recent break-throughs in regularized convex optimization and iterative (forward-backward) methods. Conversely, the project will develop lower-bounds on sample complexity using statistical minimax theory. Applications abound - for instance, learning the true Twitter interest graph from observation of cascades over the follower network. &lt;br/&gt; 2. Detecting and Identifying the Causative Network: Is it possible to detect if a cascade is progressing; if so which network is it evolving on? Interactions occur over multiple possible networks in many different domains (mobile forensics, epidemiology, online social networks), pointing to the broad applicability of this thrust. &lt;br/&gt;3. Learning Node Opinions: Users often need to be active participate for cascades to progress (e.g., retweet on social media). By correlating user decisions with user actions, is it possible to learn individual user opinions? &lt;br/&gt;&lt;br/&gt;For validation the project will test the algorithms both on both synthetic data and real data. Public data sets to be leveraged include Texas hospital records along with online blog and search records (Spinn3r, Twitter, Google Flu Trends, infochimps).&lt;br/&gt;&lt;br/&gt;Cascade processes are widely prevalent in modern networks. The project's algorithms and understanding of inverse problems will further the state of the art in diverse fields including biological and human disease networks, societal networks of self-interested agents, and mobile and malware networks. In addition, this project will continue and broaden the PI's emphasis on recruiting and mentoring students from under-represented communities. The industrial affiliates program of the Wireless Networking and Communications Group at The University of Texas at Austin will facilitate technology transfer to industry.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/19/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320175</AwardID>
+    <Investigator>
+      <FirstName>Sanjay</FirstName>
+      <LastName>Shakkottai</LastName>
+      <EmailAddress>shakkott@austin.utexas.edu</EmailAddress>
+      <StartDate>08/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sujay</FirstName>
+      <LastName>Sanghavi</LastName>
+      <EmailAddress>sanghavi@mail.utexas.edu</EmailAddress>
+      <StartDate>08/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

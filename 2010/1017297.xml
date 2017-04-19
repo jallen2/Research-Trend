@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: A Unified Many-Core Architecture for Enabling Speculative Multithreading and Transactional Memory</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>351831</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As multi-core and many-core processors are consensually becoming the de facto standard for all types of computing platforms, two techniques, Speculative Multithreading (SpecMT) and Transactional Memory (TM), have been intensively investigated on such platforms to enhance single-thread performance and to simplify the parallel programming model. These two computing models, proposed separately, share many common features in their underlying implementations. In this research, we give a holistic view and investigate a unified many-core architecture to support both technologies under one implementation. We first map SpecMT onto a hardware-based TM architecture and develop enabling techniques to showcase the performance potential while maintaining the benefit of a TM programming model. Each thread spawned speculatively or non-speculatively is transactified into a transaction. Compilers are used to determine when and where to initiate SpecMT with hardware to dynamically shepherd the decisions and throttle the extent of SpecMT. These transactions, executing different code regions, can be launched out of the sequential program order but must be committed in the original order with hardware support. This research focuses on (1) architectural support for enabling both SpecMT and TM, (2) compiler's support for SpecMT and thread transactification, (3) quantifying the benefits of different types of transactions, and (4) economical and feasible mechanisms to support SpecMT on heterogeneous many-core platforms such as the incoming integrated CPU-GPU systems. The success of such a unified many-core architecture will provide a foundation for delivering high performance for single-thread applications while improving the productivity for software developers substantially.</AbstractNarration>
+    <MinAmdLetterDate>08/02/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/02/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017297</AwardID>
+    <Investigator>
+      <FirstName>Hsien-Hsin</FirstName>
+      <LastName>Lee</LastName>
+      <EmailAddress>leehs@gatech.edu</EmailAddress>
+      <StartDate>08/02/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

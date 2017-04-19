@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SDCI Net: UD* - A UDT-Based Application Suite for High Performance Data Transport</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>1499533</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kevin L. Thompson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>UDP-based Data Transfer (UDT) is a data transport protocol that is available as an open source software library. UDT was designed to support transferring large datasets over wide area high performance networks. TCP is often times ineffective in these situations. With UDT, users can send data from disk-to-disk at over 9Gb/s over a 10Gb/s wide area network. In addition, UDT has also been used for moving data across firewalls with UPD hole punching and for maintaining a very large number of connections. The latter is useful for applications such as data intensive computing. TCP does not work well in either of these situations. UDT is also configurable so that users can plug in customized control algorithms appropriate for specialized network topologies or applications.&lt;br/&gt;The goal of the UD* Project is to make UDT a standard protocol for scientific data transfer and to facilitate the use of UDT by the scientific research community. Although there have been many proposed solutions to address the TCP inefficiency problem, many users today still experience trouble when moving large datasets. The UD* project has three components.&lt;br/&gt;&lt;br/&gt;The first component is to make UDT more accessible by developing a web-based front end to UDT and by integrating UDT into standard utilities that are used for moving datasets, such as rsync. The second component is to provide network and software engineering support to the UDT Community, including providing technical assistance to interested users, improving documentation, responding to queries in mailing lists and blogs, creating tutorial materials, running workshops, and related activities. The UD* Project also provides direct technical support to three communities of NSF-supported scientists: i) the various scientists making use of the Open Cloud Consortium?s Open Science Data Cloud; ii) biologists using Bio-mirror?s various mirror sites; iii) and scientists moving large datasets over 40G and 100G networks that connect to the StarLight Facility in Chicago. The third component is to develop two new versions of UDT. UDT5 will include features to support data intensive computing applications and data center scale computing applications. UDX will be designed to scale to 40GE and 100GE wide area networks.&lt;br/&gt;&lt;br/&gt;Intellectual merit. The number and output capacity of scientific instruments, sensors and other devices are growing at the rate of Moore?s Law. Large datasets and high performance networks are becoming increasingly common, yet there are still fundamental problems transporting large datasets over wide area high performance networks. This problem can be addressed in part by building and supporting a UDT Community and enhancing UDT to provide specific support for emerging applications, such as data intensive computing applications and applications over 40G and 100G wide area networks.&lt;br/&gt;&lt;br/&gt;Broader Impact. Technology for transporting, storing, visualizing, and sharing multiple terabyte datasets is broadly important for a large number of scientific and defense applications, including climate modeling, simulation, and homeland defense applications. UD* can have a direct transformative impact on any discipline that requires working with very large datasets. The UD* Project develops tutorials, supports a UDT Users Group, and teaches one day workshops on UD* to broaden the number of users that can use UDT for transporting large datasets.</AbstractNarration>
+    <MinAmdLetterDate>08/09/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/09/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1127316</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Grossman</LastName>
+      <EmailAddress>robert.grossman@uchicago.edu</EmailAddress>
+      <StartDate>08/09/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606375418</ZipCode>
+      <PhoneNumber>7737028669</PhoneNumber>
+      <StreetAddress>5801 South Ellis Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7683</Code>
+      <Text>SOFTWARE DEVELOPEMENT FOR CI</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7683</Code>
+      <Text>SOFTWARE DEVELOPEMENT FOR CI</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

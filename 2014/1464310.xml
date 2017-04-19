@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII:AF: Scaling up Dynamic Programming for Certain Optimization Problems</AwardTitle>
+    <AwardEffectiveDate>02/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2018</AwardExpirationDate>
+    <AwardAmount>174937</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Dynamic programming is one of the most fundamental and systematic techniques for algorithm design and analysis. Pioneered by Richard Bellman in 1940s for applications in engineering control theory, this method has since been extremely popular in a huge variety of optimization problems in computer science, applied mathematics, engineering, biology and economics. However, dynamic programming algorithms typically have high polynomial time complexity--quadratic, cubic or even more--and high space requirements as well. This significantly limits the practicality of this method. Any advancement in the scalability of a generic tool like dynamic programming is likely to have a huge impact across different fields.&lt;br/&gt;&lt;br/&gt;There has been a significant effort in accelerating dynamic programming over the last several decades; however, the speedup gains have mostly been limited to only a poly-logarithmic factor improvement at best (e.g., the Four Russians Method). This limitation is primarily due to the focus on developing exact optimal algorithms. On the other hand, there are many applications where one may relax the need for optimality, and instead settle for an approximate solution. Allowing even a small suboptimality may lead to a huge benefit in time and space requirements.&lt;br/&gt;&lt;br/&gt;The principal motivation for this project is to introduce new techniques to develop highly scalable dynamic programming methodology as a generic toolkit for designing scalable algorithms. Understanding the tradeoff between approximability and time complexity remains a major goal. To achieve this goal, a new suite of mathematical tools will be required since existing methods mostly give only a poly-logarithmic improvement in time complexity, or can handle only the case when data satisfies additional local properties. Randomization will play a crucial role in this project. Various randomized sketching methods and compression techniques will be considered, incorporating fresh tools from information theory, graph theory, and the probabilistic method. While the major focus is on improving running time, the approaches developed under this project will have a direct effect in reducing space usage as well. Finally, a class of basic problems in scheduling and pattern recognition over sequences will be studied, which are not only of theoretical interest, but also have wide application in large scale data management, bioinformatics, and sustainable computing.&lt;br/&gt;&lt;br/&gt;The proposed work will significantly improve the state of the art in the design of scalable algorithms for major optimization problems arising in Big Data domains. The algorithms will be implemented and tested on a variety of publicly available data sets in bioinformatics, industrial cloud cluster usage data, dynamic network routing data, etc. The close connection of the PI with industry will result in collaborations with practitioners and possible adaptations of the developed methodologies when possible. The PI has experience in mentoring minority students and is committed to involvement of under-represented minorities, at both graduate and undergraduate levels, in cutting edge research.</AbstractNarration>
+    <MinAmdLetterDate>01/23/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/23/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1464310</AwardID>
+    <Investigator>
+      <FirstName>Barna</FirstName>
+      <LastName>Saha</LastName>
+      <EmailAddress>barna@cs.umass.edu</EmailAddress>
+      <StartDate>01/23/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>Hadley</CityName>
+      <ZipCode>010359450</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8552</Code>
+      <Text>CRII</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

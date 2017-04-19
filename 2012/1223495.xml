@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Secure Data-Intensive Computing on Hybrid Clouds</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The ongoing effort to move data intensive computation to low-cost public clouds has been impeded by privacy concerns, as today's cloud providers offer little assurance for the protection of sensitive user data. This problem cannot be addressed by existing cryptographic techniques alone, which are often too heavyweight to manage the computation involving a large amount of data. As a result, many computing tasks have to be run on individual organizations? internal systems whenever they touch even a very small amount of sensitive information.&lt;br/&gt;&lt;br/&gt;The research in this project seeks practical solutions to this critical security challenge. The PIs are working on an approach to split a computing job over a hybrid-cloud platform, delegating to a public cloud the computation over public data, while keeping the computation on sensitive data within a private cloud. &lt;br/&gt;&lt;br/&gt;Specifically, the PIs are developing a privacy-aware MapReduce system, which transparently partitions a computing job and schedules its components across the public/private clouds according to the security levels of the data involved. The system is designed to achieve high security assurance and outsource most of its workload when possible, at small computational and communication overheads. It includes support for analyzing and transforming the code for legacy jobs as well as developing new jobs. We are also working to extend these techniques to facilitate other secure work-flow processing over hybrid clouds. This research involves industry collaborators and contributes to secure processing of a wide range of computing jobs, from commercial data analysis, to DNA analysis, to intrusion detection.</AbstractNarration>
+    <MinAmdLetterDate>08/17/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/17/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1223495</AwardID>
+    <Investigator>
+      <FirstName>XiaoFeng</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>xw7@indiana.edu</EmailAddress>
+      <StartDate>08/17/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Geoffrey</FirstName>
+      <LastName>Fox</LastName>
+      <EmailAddress>gcf@indiana.edu</EmailAddress>
+      <StartDate>08/17/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

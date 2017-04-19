@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Energy parameters and novel algorithms for an extended nearest neighbor energy model of RNA</AwardTitle>
+    <AwardEffectiveDate>09/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>399998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Thermodynamics-based ab initio RNA secondary structure algorithms are used to detect microRNAs, targets of microRNAs, non-coding RNA genes, temperature-dependent riboregulators, selenoproteins, ribosomal frameshift locations, RNA-protein binding sites, etc. The importance and ubiquity of applications of RNA thermodynamics-based algorithms cannot be overemphasized; indeed, such applications include RNA design for novel cancer therapies and for synthetic biology. Free energy parameters of the nearest neighbor (NN) model, also called the Turner model, form the foundation for essentially all current thermodynamics-based RNA algorithms. Dynamic programming minimum free energy structure computation using Zuker?s algorithm yields an accuracy in base pair prediction of around 70%. In this grant, we intend to improve base pair prediction accuracy by mining databases of experimentally measured entropy and enthalpy values for various kinds of loops, fitting novel nearest neighbor parameters by applying Brown?s algorithm to compute the joint probability distribution from inferred marginals, and by implementing extensions of the&lt;br/&gt;Zuker algorithm to compute minimum free energy structure and partition function for the extended nearest neighbor model. We will then validate the extended nearest neighbor energy model and our algorithms by benchmarking predictions with the Rfam database and with secondary structures inferred from X-ray structures by using RNAview. &lt;br/&gt;&lt;br/&gt;RNA is now understood to be a biomolecule of fundamental importance to molecular biology, having potential clinical applications in cancer diagnosis, etc. In addition to its role in gene regulation (micro RNAs and riboswitches), noncoding RNA can direct which regions of the genome are transcribed (placement of epigenetic markers) and which variants of a protein will be produced in the cell of a particular organ (alternative splice variants). In medicine, the pattern of dysregulated micro RNAs forms a biomarker for certain types of cancer. Regulation by RNA depends on its structure, in fact, primarily its secondary structure, defined as the (planar) collection of hydrogen bonds formed between different RNA nucleotides of a given sequence. The prediction of RNA secondary structure, given only its nucleotide sequence, is roughly 70% accurate. By improving this accuracy, it will be possible to better predict the messenger RNA targets of micro RNAs, and more generally to better understand gene regulation by RNA. The goal of this grant proposal to improve prediction accuracy by developing a better energy model, called the extended nearest neighbor energy model, in which the formation of hydrogen bonds between two given nucleotides depends on whether additional hydrogen bonds can form as well between neighbors of the nucleotides. We will develop energy parameters for the extended nearest neighbor model by data mining existent UV absorption experimental data, using statistical fitting algorithms, and we will develop computer programs to predict RNA secondary structure using this new energy model. Prediction accuracy of our new approach will be benchmarked on databases of RNA secondary structure.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/13/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016618</AwardID>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Clote</LastName>
+      <EmailAddress>clote@bc.edu</EmailAddress>
+      <StartDate>09/13/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Boston College</Name>
+      <CityName>Chestnut Hill</CityName>
+      <ZipCode>024673800</ZipCode>
+      <PhoneNumber>6175528000</PhoneNumber>
+      <StreetAddress>140 Commonwealth Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

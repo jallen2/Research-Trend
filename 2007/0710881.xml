@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Seismological Investigation of Earthquakes and Deep Earth Structure</AwardTitle>
+    <AwardEffectiveDate>07/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2012</AwardExpirationDate>
+    <AwardAmount>525001</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06030204</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Earth Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Raffaella Montelli</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In recent years, fully 3D numerical simulations of global and regional seismic wave propagation have become feasible on parallel computers. We have developed and implemented a numerical technique, called the spectral-element method, that harnesses these powerful machines and enables us to simulate seismic wave propagation in 3D anelastic, anisotropic, rotating &amp; self-gravitating Earth models at unprecedented resolution. Our simulations incorporate effects due to topography &amp; bathymetry as well as fluid-solid boundaries, such as the ocean floor and the core-mantle boundary. Global seismologists routinely analyze seismic signals with a shortest period of 1 second. The simulation of such signals requires access to a petaflop machine, and as part of this proposal we are positioning ourselves to take advantage of such hardware as soon as it becomes available.&lt;br/&gt;&lt;br/&gt;The purpose of this proposal is to harness these new found capabilities to enhance the quality of models of Earth's interior, in conjunction with improving models of the rupture process during an earthquake. On the face of it, this seems like a Herculean task because hundreds or even thousands of model parameters are involved in such inversions. In principle, the sensitivity of a seismogram with respect to the model parameters may be calculated numerically, but this would require a number of forward calculations equal to the number of model parameters (typically thousands). By drawing connections between seismic tomography, adjoint methods popular in climate and ocean dynamics, and time-reversal imaging, we have demonstrated that one iteration in tomographic and source inversions may be performed based upon just two calculations for each earthquake: one calculation for the current model and a second, adjoint, calculation that uses time-reversed signals at the receivers as simultaneous, fictitious sources. This has finally opened the door to solving the full 3D inverse problem, i.e., the problem of using the remaining differences between the data and the predictions to improve source and Earth models. We have demonstrated how this may be accomplished in 2D, and one of the main goals of this proposal is to extend these capabilities to fully 3D inverse problems. Broader impacts of the project include continuing the development of code that is useful to the seismic community and the support and training of a graduate student and a postdoc.</AbstractNarration>
+    <MinAmdLetterDate>06/04/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/05/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0710881</AwardID>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Shearer</LastName>
+      <EmailAddress>pshearer@ucsd.edu</EmailAddress>
+      <StartDate>06/04/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego Scripps Inst of Oceanography</Name>
+      <CityName>LA JOLLA</CityName>
+      <ZipCode>920930210</ZipCode>
+      <PhoneNumber>8585341293</PhoneNumber>
+      <StreetAddress>8602 La Jolla Shores Dr</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1574</Code>
+      <Text>GEOPHYSICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7699</Code>
+      <Text>ICER</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>4444</Code>
+      <Text>INTERDISCIPLINARY PROPOSALS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

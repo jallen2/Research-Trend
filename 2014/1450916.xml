@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: How does deep learning improve speech recognition accuracy?</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>150000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Pervasive and accurate automatic speech recognition has the potential to transform society in many positive ways, not the least of which is providing better access to information for those who find it difficult or even impossible to interact with computers using a keyboard: e.g. the elderly, the physically disabled, or the vision impaired. Every day millions of people use applications based on this technology to solve problems that are most naturally accomplished by interacting with machines via voice. However, the most successful of these applications have always been rather limited in scope, because, although useful, speech recognition can be frustratingly unreliable. For example, human beings are easily able to understand one another despite loud background noise in a crowded room, severe distortion over a telephone channel, or wide variation in accents within their common language, but even much milder examples of these problems will completely derail a speech recognition system. This EArly Grant for Exploratory Research (EAGER) supports a project whose short term goal is to understand in a deep, quantitative way why methodology used in nearly all speech recognizers is so brittle. The long term goal is to leverage this understanding by developing less brittle methodology that will enable more accurate speech recognition with a wider scope of applicability. &lt;br/&gt;&lt;br/&gt;This exploratory study will, first, discover why multilayer perceptrons (MLPs) can sometimes improve speech recognition accuracy, second, use these diagnostic insights to select better MLP architectures, and, third, release software so that others can leverage the developed methods. The use of MLPs has staged a remarkable resurgence in the last decade, in particular the "deep" architectures developed recently. In the field of speech recognition, there are two applications of MLPs that have significantly improved large vocabulary speech recognition accuracy. Each of these applications work within the standard speech recognition machinery, which uses hidden Markov models (HMMs) to model the acoustics, mel-frequency cepstral coefficients (MFCCs) for the models' inputs (features), and multivariate normals for the hidden states' marginal distributions. The first application makes a relatively minor adjustment to the standard machinery by augmenting the standard model inputs with new features learned from data using a MLP. The second application makes a more substantial change to the standard machinery by replacing the collection of hidden states' marginal distributions with a single MLP that models the marginal state posteriors. The research in the exploratory study will discover the basic mechanisms that the MLP-based features use to substantially improve HMM-based speech recognition accuracy. This research builds upon the previous work in the ICSI lab that used simulation and a novel sampling process to quantify the impacts that the major HMM assumptions have on speech recognition accuracy.&lt;br/&gt;&lt;br/&gt;Other recent research on MLPs for speech recognition has either concentrated on implementation, i.e., how to actually improve speech recognition accuracy, or on theoretical asymptotic results. While this research is obviously important, it has proceeded largely by trial and error and, in particular, it has not addressed the interesting scientific questions surrounding how these applications of MLPs actually improve speech recognition accuracy. A deeper understanding of this latter question should, in the short term, lead to further improvements in speech recognition accuracy and, in the long term, enable the development of more suitable and successful models for speech recognition than the HMM, which would be a transformative advance in the field.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1450916</AwardID>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Wegmann</LastName>
+      <EmailAddress>swegmann@icsi.berkeley.edu</EmailAddress>
+      <StartDate>08/25/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>International Computer Science Institute</Name>
+      <CityName>Berkeley</CityName>
+      <ZipCode>947044115</ZipCode>
+      <PhoneNumber>5106662900</PhoneNumber>
+      <StreetAddress>1947 CENTER ST STE 600</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

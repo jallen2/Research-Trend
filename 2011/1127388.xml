@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SDCI Sec: Traffic modeling and generation with custom fidelity for cyber security experimentation</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>971095</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita Nikolich</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Traffic generation plays an integral part of cyber-security defense testing in &lt;br/&gt;network testbeds. Generating just any traffic is easy, but generating realistic traffic &lt;br/&gt;is hard. The key reason for this is that "realistic" means different things to different &lt;br/&gt;people. The definition of realism depends on the use of the traffic in testing, but &lt;br/&gt;all existing traffic generators have a fixed definition of realism that users cannot &lt;br/&gt;change. &lt;br/&gt;&lt;br/&gt;This project will build a traffic generator whose definition of realism can be fully &lt;br/&gt;specified by a user. The generator will consist of three modules: (1) a module that mines values for &lt;br/&gt;user-specified dimensions from traffic logs, (2) a module that generates random &lt;br/&gt;traffic that fits the model mined in the previous step, (3) a module that replays &lt;br/&gt;traffic from a log so that it exactly matches the logged traffic along the user-&lt;br/&gt;specified dimensions.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: The key novelty of this approach lies in the customizable &lt;br/&gt;definition of realism that the generator will support. By allowing users to specify &lt;br/&gt;their own reality dimensions this project's traffic generation tool will be generic &lt;br/&gt;enough to meet the evaluation needs of any cyber security researcher. Further, &lt;br/&gt;integration of the traffic generation from models and traffic replay in a single &lt;br/&gt;tool is novel; existing tools support only one of these generation approaches. &lt;br/&gt;Finally, the tool will support traffic generation at application, transport or &lt;br/&gt;network level while existing tools support it only at one select level.&lt;br/&gt;&lt;br/&gt;Broader Impact: The proposed work will advance cyber-security defense &lt;br/&gt;research by supporting rigorous and realistic evaluation of its products. It will do &lt;br/&gt;that by both fitting researchers' needs and by being extremely portable and &lt;br/&gt;easy to deploy and use. Because users will be able to customize the definition of &lt;br/&gt;realism as they desire, the evaluation will properly stress the cyber-security &lt;br/&gt;defenses and its results will be predictive of the defenses performance in real &lt;br/&gt;deployment. The traffic generator's capabilities to both generate traffic from &lt;br/&gt;learned models and to replay it from network logs enable a wide range of &lt;br/&gt;testing strategies and support thorough exploration of problem space. Better &lt;br/&gt;evaluation strategies will lead to better cyber-security defenses. The project will &lt;br/&gt;integrate our traffic generator with the DETER testbed for cyber security &lt;br/&gt;experimentation. All software will also be released as open-source under the &lt;br/&gt;GNU GPL v3 license.</AbstractNarration>
+    <MinAmdLetterDate>07/18/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/05/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1127388</AwardID>
+    <Investigator>
+      <FirstName>Jelena</FirstName>
+      <LastName>Mirkovic</LastName>
+      <EmailAddress>mirkovic@isi.edu</EmailAddress>
+      <StartDate>07/18/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7231</Code>
+      <Text>CYBERINFRASTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8027</Code>
+      <Text>Cyber Secur - Cyberinfrastruc</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7477</Code>
+      <Text>CI-TEAM</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1668</Code>
+      <Text>CYBERCORPS: SCHLAR FOR SER</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>SMET</Code>
+      <Text>SCIENCE, MATH, ENG &amp; TECH EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7683</Code>
+      <Text>SOFTWARE DEVELOPEMENT FOR CI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8027</Code>
+      <Text>Cyber Secur - Cyberinfrastruc</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1668</Code>
+      <Text>CYBERCORPS: SCHLAR FOR SER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7477</Code>
+      <Text>CI-TEAM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

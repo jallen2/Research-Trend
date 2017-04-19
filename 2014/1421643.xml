@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Collaborative Research: Adaptive Memory Resource Management in a Data Center - A Transfer Learning Approach</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>112000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Cloud computing has become a dominant scalable computing platform for both online services and conventional data-intensive computing (examples include Amazon's EC2, Microsoft's Azure, IBM's SmartCloud, etc.). Cloud computing data centers share computing resources among a large set of users, providing a cost effective means to allow users access to computational power and data storage not practical for an individual. A data center often has to over-commit its resources to meet Quality of Service contracts. The data center software needs to effectively manage its resources to meet the demands of users submitting a variety of applications, without any prior knowledge of these applications. &lt;br/&gt;&lt;br/&gt;This work is focused on the issue of management of memory resources in a data center. Recent progress in transfer learning methods inspires this work in the creation of dynamic models to predict the cache and memory requirements of an application. The project has four main tasks: (i) an investigation into how recent advancements in transfer learning can help solve data center resource management problems, (ii) development of a dynamic cache predictor using on-the-fly virtual machine measurements, (iii) creation of a dynamic memory predictor using runtime characteristics of a virtual machine, and (iv) development of a unified resource management scheme creating a set of heuristics that dynamically adjust cache and memory allocation to fulfill Quality of Service goals. In tasks (i)-(iii), transfer learning methods are employed and explored to facilitate the transfer of knowledge and models to new system environments and applications based on extensive training on existing systems and benchmark applications. The prediction models and management scheme will be evaluated on common benchmarks including SPEC WEB and CloudSuite 2.0. The results of this research will have broad impact on the design and implementation of cloud computing data centers. The results will help improve resource utilization, boost system throughput, and improve predication performance in a cloud computing virtualization system. Additionally, the methods designed and knowledge they impart will advance understanding in both systems research and machine learning.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1421643</AwardID>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Carr</LastName>
+      <EmailAddress>steve.carr@wmich.edu</EmailAddress>
+      <StartDate>09/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Western Michigan University</Name>
+      <CityName>Kalamazoo</CityName>
+      <ZipCode>490085200</ZipCode>
+      <PhoneNumber>2693878298</PhoneNumber>
+      <StreetAddress>1903 West Michigan Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

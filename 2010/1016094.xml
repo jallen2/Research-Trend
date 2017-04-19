@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Adaptive FEM for elliptic and parabolic problems</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>152361</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this project is the development and analysis of adaptive finite element methods (AFEM) for various elliptic and parabolic partial differential equations. The project has three main parts. The first involves theoretical investigation of convergence properties of AFEM for controlling non-standard norms and related applications. It is only in the past few years that quasi-optimality results for adaptive methods for controlling global energy norms have appeared. The investigator has developed techniques for similarly analyzing AFEM designed to control other norms. He will apply these techniques to prove optimality of an AFEM for controlling local energy norms and use them to analyze convergence of parallel adaptive algorithms of Bank-Holst type. In the second set of projects the investigator will develop AFEM for efficiently controlling local and global maximum errors in several classes of parabolic problems where such error control is desirable. These efforts will result in sharp new a posteriori error estimates and adaptive finite element methods for controlling local pointwise errors in linear parabolic problems and maximum-norm a posteriori error analyses of semilinear parabolic problems for which such estimates are of practical interest. The third project involves development of AFEM for solving elliptic and parabolic PDE on surfaces. The investigator will develop a surface AFEM for stationary problems which will be useful for problems in which surface and bulk effects are coupled. He will also study linear parabolic surface PDE in order to provide foundational knowledge about AFEM on evolving surfaces.&lt;br/&gt;&lt;br/&gt;Partial differential equations are widely used in science and engineering in order to model various physical phenomena. In order to gain usable information from these mathematical models, it is necessary to approximate their solutions using numerical (computer) algorithms. Adaptive finite element methods are numerical algorithms that use available information in order to automatically and efficiently improve the quality of the approximation to the solution. The investigator's research concerns the mathematical theory of such adaptive algorithms. This project has three main goals. The first is to investigate basic theoretical questions concerning convergence of these algorithms, that is, to prove that they work correctly. The second part of the project involves controlling maximum errors in certain adaptive calculations, that is, ensuring that the computation is correct everywhere and not just "on the average" as is standard. Finally, many important physical models involve partial differential equations on surfaces. Examples include oil dispersion on a rotating brake drum and the effects of surface tension in fluid flows with multiple phases, such as oil and water. The investigator will also develop adaptive algorithms for solving such equations.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016094</AwardID>
+    <Investigator>
+      <FirstName>Alan</FirstName>
+      <LastName>Demlow</LastName>
+      <EmailAddress>demlow@math.tamu.edu</EmailAddress>
+      <StartDate>08/05/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Kentucky Research Foundation</Name>
+      <CityName>Lexington</CityName>
+      <ZipCode>405260001</ZipCode>
+      <PhoneNumber>8592579420</PhoneNumber>
+      <StreetAddress>109 Kinkead Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Kentucky</StateName>
+      <StateCode>KY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>6863</Code>
+      <Text>SEBML-MOORE'S LAW</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

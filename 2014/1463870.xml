@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: SaTC: Comprehensive and Automated Techniques for Evaluating Defenses Against Code Reuse Attacks</AwardTitle>
+    <AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>189501</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern society relies on computers to manage and transmit sensitive data. These computers run our banks, provide our telecommunications services (such as phone, TV, and Internet), and operate critical systems found in automobiles and power grids. The software on these systems is vulnerable to automated attacks and, if attacked successfully, can be used to cause the loss of money, property, and life. While researchers have developed automated, easy-to-use countermeasures to thwart such attacks, it is unclear whether these countermeasures work. Existing evaluations of such countermeasures are typically expensive because they are done by hand. They are also often wrong; attackers are able to defeat such countermeasures by increasing the sophistication of their attacks. If we do not know how well our defenses work, we do not know if we are safe.&lt;br/&gt;&lt;br/&gt;One common type of automated attack is the code reuse attack. This research investigates techniques and develops a tool that automatically determines whether a given countermeasure prevents code reuse attacks from working. This tool uses comprehensive static analysis to automatically determine which program instructions a code reuse attack may employ, whether the malicious computations of an attack can be mapped to those instructions, and whether the defense being analyzed prevents those instructions from being executed in the required order. The tool is automated and its static analysis is designed to aggressively consider all potential ways in which an attacker can reuse code in an attack. With this tool, users can determine whether existing defenses suffice to protect our computers or whether additional defenses are necessary. The project is developing metrics to enable tool users to compare defenses and state the level of security that a defense provides to a given program.</AbstractNarration>
+    <MinAmdLetterDate>05/07/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1463870</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Criswell</LastName>
+      <EmailAddress>criswell@cs.rochester.edu</EmailAddress>
+      <StartDate>05/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Rochester</Name>
+      <CityName>Rochester</CityName>
+      <ZipCode>146270140</ZipCode>
+      <PhoneNumber>5852754031</PhoneNumber>
+      <StreetAddress>518 HYLAN, RC BOX 270140</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

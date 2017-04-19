@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>INT2-Medium: Understanding the meaning of images</AwardTitle>
+    <AwardEffectiveDate>08/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2012</AwardExpirationDate>
+    <AwardAmount>566000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The ability to recognize objects in images is a core problem in computer vision. The last decade has seen astonishing advances in our methods to build object detectors. However, images convey richer information about the objects depicted in them: objects may form a scene ("A view of mountains and meadows"); objects are in relations with one another ("The cat sits on the mat"); different instances may look different ("The tabby cat sits on the blue mat"); objects may acting on others ("The cat is chasing the mouse"). This task of identifying the entities depicted in images, their attributes and relations is image understanding. This poses a number of new research questions: What objects should one remark on? What attributes of and relations between the objects depicted the image are important? That is, what is the visually salient information conveyed in an image?&lt;br/&gt;&lt;br/&gt;Many images (e.g. a large fraction of those on the web) are accompanied by text which describes or gives additional information about the entities depicted in them. The entities referred to in this text are typically visually salient ones. This correspondence between the information conveyed in the text and the image can be used in the creation of image understanding systems. Much current work treats image annotations that consist of individual words. The richer representations of meaning required to train image understanding systems can be obtained if annotating text is treated as sentences (rather than just bags of words). Sentences provide cues to: what is salient in an image; what salient objects likely look like (e.g. color, texture and form); and what relations might appear between them. Exposing this information will provide a rich body of training data for the next generation of computer vision systems.&lt;br/&gt;&lt;br/&gt;Research in natural language processing has created statistical wide- coverage parsers that can recover the semantic interpretation of sentences. These parsers differ from purely syntactic parsers in that they are based on linguistically expressive grammars that allow such interpretations to be built directly from the syntactic analysis. However, linking sentences with accompanying images requires a level of representation that goes beyond lists of the entities, states and events mentioned in a sentence. The writer of an image caption will typically assume that the reader sees the image, and can therefore refer to the entities depicted in it as known to the reader. There is a need parsers that are able to uncover the information structure of sentences -- what information is assumed to be shared knowledge between speaker and hearer, and what is new information asserted by the sentence. How information structure is encoded in natural language is well understood, and can be modeled with the same kinds of grammars that are used by those parsers that return semantic interpretations. Although there are currently no large corpora annotated with information structure, we will exploit the correspondence between images and their captions to develop novel, partially supervised, training regimes for parsers. These training regimes could also enable the bootstrapping of parsers for languages with no or little annotated training data.&lt;br/&gt;&lt;br/&gt;This project will build a novel parser that recovers richer linguistic representations, including information structure. It will build a novel image understanding system that recovers the salient entities depicted in an image together with their attributes and relations. The project will train these systems both separately on datasets consisting of sentences marked up with correct parses and images marked up with labels attached to objects, and jointly on a dataset of captioned images.&lt;br/&gt;&lt;br/&gt;Intellectual merits: The project goals are ambitious, but within reach, because both object recognition and parsing technology has advanced significantly. The project presents the vision and parsing communities with new goals, which are practically important and technically demanding. The aim of integrating natural language processing and computer vision creates a novel impetus to develop parsers that return richer linguistic representations, which will in turn have a deep impact on research within the natural language processing community itself. It will open up key directions in computer vision and natural language processing by demanding and enabling the recovery of richer representations of linguistic and visual information, and by studying how linguistic descriptions are grounded in the visual world.&lt;br/&gt;&lt;br/&gt;Broader impact: The project has significant practical implications in a number of areas such as image search, natural language interfaces for robotics, and will ultimately pave the way for new applications such as automatic captioning systems. The resulting advances in object recognition offer possibilities for the creation of safer autonomous vehicles, safer homes for better home care, and efficient management of surveillance data.&lt;br/&gt;&lt;br/&gt;URL: http://luthuli.cs.uiuc.edu/~daf/meaningofimages.html</AbstractNarration>
+    <MinAmdLetterDate>08/01/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/19/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0803603</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Forsyth</LastName>
+      <EmailAddress>daf@cs.uiuc.edu</EmailAddress>
+      <StartDate>08/01/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Julia</FirstName>
+      <LastName>Hockenmaier</LastName>
+      <EmailAddress>juliahmr@illinois.edu</EmailAddress>
+      <StartDate>08/01/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7717</Code>
+      <Text>INTEGRATIVE INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI:Small Time-Based Language Modeling</AwardTitle>
+    <AwardEffectiveDate>10/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>505999</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Speech recognizers all include a component for predicting, based on the past context, what words are likely to appear next. Today these components, known as language models, operate at the symbol level, abstracted away from the details of how and when the words are spoken. Spoken language, however, is not just a symbolic or mathematical object, but is produced and understood by human brains, with specific processing constraints, and these can directly affect what happens when in dialog.&lt;br/&gt;&lt;br/&gt;This project is developing language models and ``dialog models'' that explicitly use the information in the timings of words. Inspired by psychological research suggesting that dialog and language behaviors are the result of multiple simultaneously active cognitive processes, the working assumption is that the words likely to be spoken at a given time depend, probabilistically, on the elapsed time since various reference points: for example since the speaker began talking, since the speaker's last disfluency, since the listener's last back-channel, etc. Statistical analyses of large corpora of human-human spoken dialogs, with machine learning methods, are revealing patterns and regularities which are being used to build language models with improved predictive power.&lt;br/&gt;&lt;br/&gt;These language models implicitly represent some aspects of dialog dynamics, with the potential to lead to an integrated understanding of the nature of dialog as a human ability. These improved language models are also likely to improve speech recognition accuracy, enabling the development of spoken language systems that are more accurate, more efficient, and more useful.</AbstractNarration>
+    <MinAmdLetterDate>09/25/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/18/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0914868</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Novick</LastName>
+      <EmailAddress>novick@utep.edu</EmailAddress>
+      <StartDate>09/25/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nigel</FirstName>
+      <LastName>Ward</LastName>
+      <EmailAddress>nigel@utep.edu</EmailAddress>
+      <StartDate>09/25/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Olac</FirstName>
+      <LastName>Fuentes</LastName>
+      <EmailAddress>ofuentes@utep.edu</EmailAddress>
+      <StartDate>09/25/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at El Paso</Name>
+      <CityName>El Paso</CityName>
+      <ZipCode>799680001</ZipCode>
+      <PhoneNumber>9157475680</PhoneNumber>
+      <StreetAddress>ADMIN BLDG RM 209</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

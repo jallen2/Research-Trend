@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Scaling a CFD Code for Ocean Processes to 1000s of Processors</AwardTitle>
+    <AwardEffectiveDate>07/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2008</AwardExpirationDate>
+    <AwardAmount>82963</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06040303</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Ocean Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eric C. Itsweire</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Intellectual Merit&lt;br/&gt;This exploratory project is to modify an existing fluid dynamics code to make it suitable for parallel execution on thousands of processors and to quantify the resulting scalability using performance analysis tools. The code is designed for high-resolution, three-dimensional simulations of stratified fluid flow and is typically used for process oriented studies in small-scale physical oceanography, atmospheric science and fluid dynamics. The code uses MPI and has been run on laptops, single and dual processor workstations, workstation clusters with various interconnect technologies, several high performance comptuers. The maximum number of processors on which it has been run is 768 on the National Center for Atmospheric Research (NCAR) Blue Ice machine. The primary activities for which support is requested are to incorporate a two-dimensional data decomposition and to utilize performance analysis tools to assess performance and document scalability.&lt;br/&gt;&lt;br/&gt;Broader Impacts&lt;br/&gt;The primary goal of this effort is to produce a well-tested, flexible fluid dynamics code based on high order numerical techniques that scales well to new high performance architectures. The source code and related tools will be made freely available and will be useful to researchers in oceanography, mathematics, fluid dynamics, physics and engineering. This effort will also enhance the capabilities of the open-source parallel, 3D FFT library distributed by SDSC by incorporating additional globally-based differentiation schemes.</AbstractNarration>
+    <MinAmdLetterDate>07/11/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/27/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0738004</AwardID>
+    <Investigator>
+      <FirstName>Kraig</FirstName>
+      <LastName>Winters</LastName>
+      <EmailAddress>kraig@coast.ucsd.edu</EmailAddress>
+      <StartDate>07/11/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dmitry</FirstName>
+      <LastName>Pekurovsky</LastName>
+      <EmailAddress>dmitry@sdsc.edu</EmailAddress>
+      <StartDate>07/11/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego Scripps Inst of Oceanography</Name>
+      <CityName>LA JOLLA</CityName>
+      <ZipCode>920930210</ZipCode>
+      <PhoneNumber>8585341293</PhoneNumber>
+      <StreetAddress>8602 La Jolla Shores Dr</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0204000</Code>
+      <Name>Oceanography</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7314</Code>
+      <Text>ITR FOR NATIONAL PRIORITIES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9237</Code>
+      <Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Medium: Resource-Efficient Implementation of Mixed-Criticality Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>812543</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In safety-critical embedded systems, functionalities with different criticalities are often supported upon shared hardware platforms, to enable size, weight, and power (SWaP) reductions. For example, in an automotive system, highly critical vehicle-control functions and less critical driver-alert functions might be hosted on the same hardware platform. While such platform integration may be essential to make more efficient use of platform resources, care must be taken to isolate failures of less-critical components so that more-critical components are not affected. This project is directed at developing new tools, techniques, and methodologies for deriving mixed-criticality system designs that ensure such isolation, particularly on platforms that utilize multicore processors.&lt;br/&gt;&lt;br/&gt;The thesis explored in this project is that ensuring both correctness and resource-efficiency in mixed-criticality systems requires the development of fundamentally new perspectives on the modeling of these systems, and different approaches to resource allocation and scheduling. Specific goals include devising new models for representing mixed-criticality systems, new metrics for quantifying the effectiveness of techniques for designing such systems, and new methods for performing resource allocation and scheduling upon integrated architectures that support mixed-criticality systems. These new models, metrics, and methods inform the development of new tools and methodologies for deriving mixed-criticality system designs that are both correct by construction and implementable in a resource-efficient manner. Continuing collaborations with partners in the avionics and automotive industries enable these results to push research on mixed-criticality systems forward to address national industrial needs. This project is also expected to produce new open-source software and tools, new course content, and public outreach through participation in UNC's demo program (which is aimed at K-12 students, college students, and school teachers) and lectures and seminars by the investigators at national and international forums.</AbstractNarration>
+    <MinAmdLetterDate>09/02/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1409175</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Anderson</LastName>
+      <EmailAddress>anderson@cs.unc.edu</EmailAddress>
+      <StartDate>09/02/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sanjoy</FirstName>
+      <LastName>Baruah</LastName>
+      <EmailAddress>baruah@cs.unc.edu</EmailAddress>
+      <StartDate>09/02/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Chapel Hill</Name>
+      <CityName>CHAPEL HILL</CityName>
+      <ZipCode>275991350</ZipCode>
+      <PhoneNumber>9199663411</PhoneNumber>
+      <StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

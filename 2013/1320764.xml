@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Detecting and Mitigating Smartphone Energy Bugs using Compiler and Runtime Analysis</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>499978</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Smartphones are becoming the predominant computing device throughout the world. Because of their lower cost relative to laptops and desktops, they have become an important device for bringing computing to disadvantaged people in both the developed and undeveloped worlds. Smartphones differ from traditional computing devices in that their primary power source is a battery, and they are expected to operate for a day or more on a single charge. This has forced the abandonment of traditional, automatic power management techniques and adoption of manual programmer management of power and power-consuming hardware, i.e., "power-encumbered programming." This in turn has led to "energy bugs," which cause apps to fail and to reduce battery life. The proposed work will develop tools to automatically detect energy bugs resulting from power-encumbered programming, increasing reliability and battery life, and bringing a better user experience to hundreds of millions of users.&lt;br/&gt;&lt;br/&gt;To increase battery life, a smartphone OS constantly attempts to turn off a phone. Apps contain time-critical sections, i.e., program regions where the phone must stay on to function correctly. Power-encumbered programming requires the programmer use wakelocks to keep the phone hardware on during a time-critical section (to ensure an app functions correctly), but no longer (to minimize battery drain.) A correct app has a perfect correspondence between regions where wakelocks keep the phone awake and time-critical sections. The proposed research focuses on runtime and compile-time techniques to automatically identify time-critical sections and regions protected by wakelocks, and to use that information to automatically identify and prevent energy bugs in apps. Because smartphone apps are event-driven programs, techniques to analyze event-driven code will be developed, and these techniques should be broadly applicable to the compile-time analysis of general event-driven programs. Successful completion of this work will lead to automatic techniques for detecting an ameliorating energy bugs, which in turn will maximize the available battery life, increase the reliability of smartphones, and lead to significant advances in the compiler analysis of event-driven programs.</AbstractNarration>
+    <MinAmdLetterDate>06/28/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/28/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320764</AwardID>
+    <Investigator>
+      <FirstName>Samuel</FirstName>
+      <LastName>Midkiff</LastName>
+      <EmailAddress>smidkiff@purdue.edu</EmailAddress>
+      <StartDate>06/28/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Y. Charlie</FirstName>
+      <LastName>Hu</LastName>
+      <EmailAddress>ychu@purdue.edu</EmailAddress>
+      <StartDate>06/28/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

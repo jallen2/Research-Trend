@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>GOALI: Monitoring and Reconfiguration for Fault-Tolerance of Embedded Control Software with Automotive Applications</AwardTitle>
+    <AwardEffectiveDate>06/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2013</AwardExpirationDate>
+    <AwardAmount>360000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>GOALI: Monitoring and Reconfiguration for Fault-Tolerance of Embedded Software&lt;br/&gt;with Automotive Applications&lt;br/&gt;Ratnesh Kumar (ISU) and Shengbing Jiang (GM R&amp;D)&lt;br/&gt;&lt;br/&gt;Project Summary&lt;br/&gt;&lt;br/&gt;Objectives:&lt;br/&gt;&lt;br/&gt;The objective of the proposed research is to develop an approach for fault detection prediction, isolation and recovery, and is motivated from fault-tolerance of embedded control software in automotive applications. Software is present in virtually all complex systems, including safety-critical systems such as automobiles, aircrafts, nuclear plants, medical devices, etc., and&lt;br/&gt;there are many documented cases of failures of such systems due to software errors. The existing simulation/testing/verification practices cannot guarantee that a deployed software will be errorfree.&lt;br/&gt;(The problem is in general undecidable.) So it is important that measures be built-in for providing tolerance against any software-bugs that can compromise the safety of the users or the surrounding environment. The proposed research is motivated from the safety-critical application of automotive systems, and is proposed in collaboration with General Motors (GM). Modern vehicles&lt;br/&gt;will be equipped with advanced features such as collision avoidance, adaptive cruise control, lane centering/changing, all of which will be implemented in software. New cost-effective approaches are needed for fault tolerance of automotive applications that will ensure safety even in the presence of errors in newly deployed software.&lt;br/&gt;&lt;br/&gt;Intellectual Merits:&lt;br/&gt;&lt;br/&gt;It includes the development of an approach for fault-tolerance of embedded&lt;br/&gt;software that are present in automotive applications. We will develop scalable fault diagnosis and prognosis techniques for (i) embedded control software (modeled as extended finite automata) by monitoring their behavior against their own properties, and (ii) overall controlled system (modeled&lt;br/&gt;as hybrid automata) by monitoring its behavior against its own properties. Monitoring the system level properties safeguards against any possible incompleteness of the controller level properties.&lt;br/&gt;We propose an abstraction based approach to detect and isolate a faulty controller component by monitoring of system-level properties. Abstraction based technique for prognosis of system-level property violations (i.e., prediction of such violations prior to their occurrence) is also proposed.&lt;br/&gt;The notions of detection, isolation, and prognostic indices have been proposed in this regard. Techniques will also be developed for control reconfiguration to enable fault recovery, and will rely on the reachability over the stability regions of various discrete modes, and also on computations based on model-prediction and trajectory-sensitivities. The collision avoidance software will be used as a case-study. Besides modeling, monitoring, diagnosability/prognosability verification, and reconfiguration, research will also be carried out to determine the computational resources for allocation and real-time scheduling of the proposed fault-tolerance strategies.&lt;br/&gt;&lt;br/&gt;Broader Impacts: &lt;br/&gt;&lt;br/&gt;Fault-tolerance against unanticipated software-errors is of growing interest,&lt;br/&gt;specially for safety- or security-critical applications and infrastructure, and our research will contribute to this topic. Further it is a collaborative research with GM, and an impact in automotive industry is likely for the fact that practical, scalable, and cost-effective solution will be developed.&lt;br/&gt;The proposed approach is general enough to be applicable to other embedded applications. Two PhD students and a post-doc involved in the project will get trained in a problem of industrial need. They will get practical exposure to industry through invitation to summer internships at GM. The research findings will be made available via PIs homepages and public-domain publications,&lt;br/&gt;and will be integrated into graduate courses in discrete-event controls, fault-tolerant computing, and embedded systems at ISU. PIs are committed to recruiting minority students (one third of PI's students are minority.)</AbstractNarration>
+    <MinAmdLetterDate>04/16/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/16/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0801763</AwardID>
+    <Investigator>
+      <FirstName>Ratnesh</FirstName>
+      <LastName>Kumar</LastName>
+      <EmailAddress>rkumar@iastate.edu</EmailAddress>
+      <StartDate>04/16/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Shengbing</FirstName>
+      <LastName>Jiang</LastName>
+      <EmailAddress>Shengbing.Jiang@gm.com</EmailAddress>
+      <StartDate>04/16/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0112000</Code>
+      <Name>System Theory</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: EAGER-DynamicData: Probabilistic Analysis of Dynamic X-ray Diffraction Data: Toward Validated Computational Models for Polycrystalline Plasticity</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>10000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chengshan Xiao</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The past two decades have witnessed the development of accurate and efficient computational methods for a wide range of physical processes and the transition of these models into regularly used tools for product design and development within all sectors of the US economy. One important exception to this trend is in the field of material science where progress in creating new classes of materials and advancing the use of existing systems is hampered by the lack of validated computational models. Of particular interest in this proposal are structural polycrystalline metals, of central importance in the automotive, aircraft, and energy industries, where the processes of fatigue and fracture pose significant modeling and computational challenges. To resolve these issues, dynamic high-energy X-ray diffraction (HEXD) experiments have recently come on line that are capable of probing the internal evolution of samples of these materials in real time as they are subject to processing or service conditions. The resulting data sets are both large (up to 10Tb for a single experiment) and complex thereby complicating their analysis and integration within the material design process. Even with extensive human interaction, state-of-the-art computational tools can extract only a tiny fraction of the full information contained in these data sets. Realizing the potential offered by these data and models requires fundamentally new Big Data-type of computational methods. The work in this project is aimed at developing such a tool set. &lt;br/&gt;&lt;br/&gt;Of specific concern in this project are the use and extension of sophisticated, probabilistic, video processing methods as the basis for addressing a pressing problem in the analysis of dynamic HEXD data. The physics of X-ray diffraction from polycrystalline samples gives rise to data sets comprised of temporally evolving collections of localized structures, referred to as "spots," in a three-dimensional data space. Use of these data in conjunction with computational plasticity codes requires that these spots be associated with individual grains in the polycrystal and that these sets of evolving structures be tracked over time. To date, the only tools for addressing this indexing problem are static in nature and function best for cases where the material sample is in a pristine state. Similarities between this dynamic indexing problem and the problem of identifying and tracking objects moving in a video scene motivate the adaptation and further development of a multi-hypothesis tracking approach developed by the PI team to the analysis of HEXD data. The method is based on the construction of a conditional random field over a large set of hypotheses capturing ways in which spots can be associated with one. Estimation of the optimal tracks and association is carried out using efficient graph cut methods making the overall approach well suited to near real time implementation. The existing work in this field will be extended through the construction of dynamic models for the evolution of features associated with the spots (e.g., centroid location, low order moments) based on existing plasticity codes and incorporation of these models into the random field to achieve a multiple model, multi-hypothesis tracking approach for dynamic HEXD data.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/04/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1462352</AwardID>
+    <Investigator>
+      <FirstName>Armand</FirstName>
+      <LastName>Beaudoin</LastName>
+      <EmailAddress>abeaudoi@uiuc.edu</EmailAddress>
+      <StartDate>09/04/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>O395</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>153E</Code>
+      <Text>Wireless comm &amp; sig processing</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>5384</Code>
+      <Text>DATA AND DATA SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Action in Information Processing</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2012</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many communication and compression scenarios involve the presence of Side Information (SI) on the state of the channel through which communication is to take place, or on the information source which is to be communicated. The role and potential benefit of such SI is a central theme in information theory.&lt;br/&gt;In ways that are well understood for various source and channel coding systems, SI can be a valuable resource, resulting in significant performance boosts relative to the case where it is absent. In the problems studied thus far, however, the lack or availability of the SI, and its quality, are a given. This research is geared towards characterizing fundamental limits ?and devising guidelines for the construction of practical schemes? in scenarios involving systems that can take actions affecting the availability, quality, or nature of the SI. A central component of this research is the study of control theoretic notions such as action and actuation from an information theoretic perspective.&lt;br/&gt;Specifically, we study source coding scenarios involving the presence of side information, when the system can take actions that affect the availability, quality, or nature of the SI. We begin by extending the Wyner-Ziv problem of source coding with decoder side information to the case where the decoder is allowed to choose actions affecting the SI. We consider also settings where actions are taken by the encoder(s). In a parallel vein, we study channels with action-dependent states: Given the messages to be communicated, the transmitter chooses an action sequence that affects the formation of the channel states, and then creates the channel input sequence based on the state sequence. We characterize the capacity of such a channel both for the case where the channel inputs are allowed to depend non-causally on the state sequence and the case where they are restricted to causal dependence. Actions may have costs that are commensurate with the quality of the SI they yield, and an overall per-symbol cost constraint may be imposed. We characterize the achievable tradeoffs between rate, distortion, power and cost in such source and channel coding systems, in both point-to-point and multi-terminal settings. Our models cover various new information processing scenarios ranging from sensing and data acquisition to coding for computer memories with a ?rewrite? option.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1049413</AwardID>
+    <Investigator>
+      <FirstName>Itschak(Tsachy)</FirstName>
+      <LastName>Weissman</LastName>
+      <EmailAddress>tsachy@stanford.edu</EmailAddress>
+      <StartDate>08/24/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

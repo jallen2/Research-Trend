@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Fast Subset Scan for Anomalous Pattern Detection</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>499991</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frank Olken</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This work will develop new methods for fast and scalable detection of anomalous patterns (subsets of the data that are interesting or unexpected) in massive, multivariate datasets. There will be a focus on real-world applications such as an emerging disease outbreak or a pattern of smuggling activity with complex, subtle, and probabilistic patterns that are difficult to spot with existing techniques. The research is based on two key insights. First, the pattern detection problem can be framed as a search over all subsets of the data, in which can be defined a measure of the "anomalousness" of a subset and then maximize this measure over all potentially relevant subsets. &lt;br/&gt;&lt;br/&gt;Second, it has been discovered that, for many spatial detection methods (including Kulldor's spatial scan statistic and many recently proposed variants), one can perform an exact search which efficiently maximizes the measure of anomalousness over all subsets of the data. The research team will explore this new combinatorial optimization method, investigate how it can be extended to constrained subset scans and to more general multivariate pattern detection problems, and examine how it can be incorporated into a subset scan framework, enabling the creation a variety of fast, scalable, and useful methods for anomalous pattern detection. &lt;br/&gt;&lt;br/&gt;Intellectual Merit&lt;br/&gt;The research team will develop, implement, and evaluate a general probabilistic framework for efficient detection of anomalous patterns in both spatial and non-spatial datasets. The proposed work will address these challenging and important research questions:&lt;br/&gt;1)How can one define a useful measure of the "anomalousness" of a subset of the data, and efficiently optimize this measure over all subsets to find the most anomalous patterns?&lt;br/&gt;2) What are the necessary and sufficient conditions for a set function F (S ) to satisfy the "linear- time subset scanning" (LTSS) property, enabling exact unconstrained optimization of F (S ) over all 2 N subsets of N records while only requiring O(N ) subsets to be evaluated?&lt;br/&gt;3) How can one extend fast subset scanning methods to general multivariate datasets, and incorporate search constraints such as proximity, connectivity, and self-similarity?&lt;br/&gt;4) How can one deal with uncertainty about the effects of an anomalous pattern by searching over subsets of "input" and "output" attributes as well as subsets of records? &lt;br/&gt;&lt;br/&gt;Broader Impact&lt;br/&gt;Development and testing will be prioritized in three areas: 1) early detection of disease outbreaks, 2) detecting illicit container shipments, and 3) identifying anomalous trends in social networks. These applications will allow the demonstration the value of these methods across a wide spectrum of domains. Through existing collaborations, the algorithms will be incorporated into deployed systems for health and crime surveillance that contribute directly to the public good. The Principle Investigator's lab has over 5 years of history offering free machine learning software, and the software implementations of all algorithms developed through this grant will be made publicly available. The bulk of the funding will go to training graduate students who will become the next generation of researchers to explore new methods for anomalous pattern detection. &lt;br/&gt;&lt;br/&gt;Key Words: anomalous patterns; pattern detection; fast subset scan; scan statistics; optimization.</AbstractNarration>
+    <MinAmdLetterDate>08/03/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/03/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916345</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Neill</LastName>
+      <EmailAddress>neill@cs.cmu.edu</EmailAddress>
+      <StartDate>08/03/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

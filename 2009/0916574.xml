@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: A Theory of Cryptography and the Physical World</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The traditional goal of cryptography is to design cryptographic algorithms for well-defined tasks, such as public-key encryption. We propose to study the following conceptually intriguing question: when can we embed a cryptographic function into a function which was not designed for this purpose, say a function created by nature?&lt;br/&gt;&lt;br/&gt;In a more abstract setting, the collection of possible concepts or ?objects? is represented by a function class {f_c}, where c is a description of the (unknown) object. We do not have control over the function class {f_c}, but rather it is given by ?nature?. We assume that an object c is chosen (by ?nature?) from a distribution which has a sufficiently large entropy. Each input x represents a different measurement, or ?query?, that can be made to the object. The goal is to design an algorithm for learning c (or a ?good approximation? of c) by making queries x and observing the answers y = f_c(x). The algorithm should have the following nontrivial hiding property. Any computationally bounded eavesdropper who only observes the sequence of queries and responses (x,y) cannot learn any ?useful information? about c.</AbstractNarration>
+    <MinAmdLetterDate>09/10/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/10/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916574</AwardID>
+    <Investigator>
+      <FirstName>Amit</FirstName>
+      <LastName>Sahai</LastName>
+      <EmailAddress>sahai@cs.ucla.edu</EmailAddress>
+      <StartDate>09/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Rafail</FirstName>
+      <LastName>Ostrovsky</LastName>
+      <EmailAddress>rafail@cs.ucla.edu</EmailAddress>
+      <StartDate>09/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7927</Code>
+      <Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

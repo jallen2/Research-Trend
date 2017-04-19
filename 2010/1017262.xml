@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Collaborative Research: Balancing Expressiveness and Modular Reasoning for Aspect-Oriented Programming</AwardTitle>
+    <AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>241029</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software systems are poised to keep growing in complexity and permeate deeper into the critical infrastructures of society. The complexity of these systems is exceeding the limits of existing modularization mechanisms and reliability requirements are becoming stringent. Development of new separation of concerns (SoC) techniques is thus vital to make software more reliable and maintainable. Implicit invocation (II) and aspect-oriented (AO) programming languages provide related but distinct mechanisms for separation of concerns. The proposed work encompasses fundamental and practical efforts to improve modularization and reasoning mechanisms for II and AO languages, which is a long standing challenge for both kinds of languages. Addressing these challenges has the potential to significantly improve the quality of software by easing the adoption of new separation of concerns techniques.&lt;br/&gt;&lt;br/&gt;The project will proceed using the experimental language, Ptolemy, which blends both II and AO ideas. Ptolemy has explicitly announced events, which are defined in interfaces called "event types". Event types help separate concerns and decouple advice from the code it advises. Event type declarations also offer a place to specify advice. The explicit announcement of events allows the possibility of careful reasoning about correctness of Ptolemy programs, since it is possible to reason about parts of the program where there are no events in a conventional manner. The project aims to investigate reasoning by developing a formal specification language and verification technique. The approach is based on the idea of greybox ("model program'') specifications, as found in JML and the refinement calculus. There are known techniques for reasoning about uses of abstractions that have model program specifications, and the project will apply these to Ptolemy. The intellectual merit is in the treatment of expressions in Ptolemy that announce events and those that cause an advice to proceed. A straightforward adaptation of existing reasoning techniques to these cases appears to require a whole program analysis, which is generally not desirable for modular and scalable verification. The project also aims to investigate the utility and effectiveness of Ptolemy and its specification system. A software evolution analysis will be conducted to study the ability of competing aspect-oriented, implicit invocation, and Ptolemy implementations of open source projects to withstand change. Showing Ptolemy's benefits over II and AO languages will help software designers in deciding on advanced mechanisms for separation of concerns.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/19/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017262</AwardID>
+    <Investigator>
+      <FirstName>Gary</FirstName>
+      <LastName>Leavens</LastName>
+      <EmailAddress>leavens@eecs.ucf.edu</EmailAddress>
+      <StartDate>08/04/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Central Florida</Name>
+      <CityName>ORLANDO</CityName>
+      <ZipCode>328168005</ZipCode>
+      <PhoneNumber>4078230387</PhoneNumber>
+      <StreetAddress>4000 CNTRL FLORIDA BLVD</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Algorithms and Numerical Analysis for Partial Differential Equations</AwardTitle>
+    <AwardEffectiveDate>09/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>244407</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>It is a well established fact that in solving many of the complex problems that arise in industry and science, it is cost-effective to first model the problem mathematically and then run simulations under various design conditions. This is to determine whether a design criteria is achieved. If the design does not meet specifications it is usually easier to change the mathematical model and test it again rather than build a new machine. An example of this is that an entire commercial airplane has been designed using this procedure. Very often the solution of the problem is the solution of an elliptic parabolic and hyperbolic partial differential equations, and thus it is important to devise accurate methods of solution that are efficient as possible. This proposal seeks to examine various fundamental aspects of the finite element method. This is a method for solving partial differential equations, which has shown itself to be very flexible. The proposed research can be separated into three parts. In it we shall restrict ourselves to the study of elliptic equations.&lt;br/&gt;&lt;br/&gt;(1) L-infinity estimates on polygonal domains allowing highly refined grids. This type of estimate of the accuracy of the finite element method would be very useful in analyzing many problems. Consider poissons equation on a plain polygomal domain. This problem is often used as a typical problem where the solution may be singular at points. For a convex polygon the derivatives are bounded and we have proved that the error in the derivates as the best proximation property in W1/infinity. Estimates of this kind in L/infinity are more difficult to obtain and we have succeeded in obtaining almost optimal results on nonconvex domains. These are under the conditions that the mesh is only locally quasi uniform. Results of this type are very useful in analyzing self-adaptive finite element codes.&lt;br/&gt;&lt;br/&gt;(2) A posteriori error estimates. This study will address the general question of a posteriori of error estimators, which predict errors with precision on a single element. To get a firm theory is often necessary to isolate model problems, which contain basic difficulty found in more involved problems. As an example, the study will investigate the general problem in the context of problems on nonconvex polygomal domains. As in number 1, there are corner singularities, which tax estimators. Special attention will be paid to situations in which known estimators do not work.&lt;br/&gt;&lt;br/&gt;(3) Discrete finite element potential theory. This part of the proposal deals with trying to find analogs of potential theory for finite elements that could be useful in solving nonlinear problems. A great deal of effort has recently gone into solving second order nonlinear elliptic problems. The numerical schemes that are known depend to a great extent on the knowledge of discrete versions of maximum principles and Harnack inequalities. Some of these do not seem to hold strictly for finite elements. We will search for versions of these theorems, which are valid to finite elements and useful to obtain approximate solutions of non linear equations.&lt;br/&gt;&lt;br/&gt;The intellectual merit of the proposed project is that it addresses fundamental and basic questions in computational science. The broader impact of the proposed activity will be better understanding of existing algorithms, leading to improved methods.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/03/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016595</AwardID>
+    <Investigator>
+      <FirstName>Alfred</FirstName>
+      <LastName>Schatz</LastName>
+      <EmailAddress>schatz@math.cornell.edu</EmailAddress>
+      <StartDate>09/13/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cornell University</Name>
+      <CityName>Ithaca</CityName>
+      <ZipCode>148502820</ZipCode>
+      <PhoneNumber>6072555014</PhoneNumber>
+      <StreetAddress>373 Pine Tree Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

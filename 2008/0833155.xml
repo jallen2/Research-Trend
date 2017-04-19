@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Extending One-Sided Communication in MPI Programming Model for Next-Generation Ultra-Scale HEC</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>199000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most of the traditional HEC applications and current petascale applications are written using the Message Passing Interface (MPI) programming model. The MPI-1 standard provides communication semantics for two-sided operations. The MPI-2 standard added new one-sided communication semantics. However, most of the current candidate petascale applications continue to use the MPI-1 semantics.&lt;br/&gt;These applications find the available MPI one-sided communication semantics and their implementations in existing MPI-2 libraries very restrictive to exploit performance, scalability and fault-tolerance. The investigators, involving computer scientists from Ohio State University (OSU) and computational scientists from Texas Advanced Computing Center (TACC) and San Diego Supercomputer Center (SDSC), will study and analyze the current restrictions in the MPI one-sided communication semantics, their implementations and usages. Novel solutions will be proposed to alleviate these restrictions so that the next generation ultra-scale systems and applications can be scaled to hundreds of thousands of cores.&lt;br/&gt;&lt;br/&gt;The investigators will specifically address the following challenges: 1) What are the limitations of using MPI one-sided operations in petascale applications? 2) What extensions are possible to the current MPI one-sided operations to alleviate such limitations? 3) How to design and implement these extensions in an MPI library for emerging ultra-scale HEC systems? 4) How to redesign petascale applications to take advantage of proposed one-sided extensions and their implementations? and 5) What kind of benefits (performance, scalability and fault tolerance) can be achieved by the proposed extensions for petascale applications on the next generation ultra-scale systems? The research will be driven by a set of petascale applications (ENZO, AWM-Olsen, PSDNS and MPCUGLES) from established NSF computational science researchers running large scale simulations on the TACC Ranger and other NSF HEC systems.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0833155</AwardID>
+    <Investigator>
+      <FirstName>Amitava</FirstName>
+      <LastName>Majumdar</LastName>
+      <EmailAddress>majumdar@sdsc.edu</EmailAddress>
+      <StartDate>07/31/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7583</Code>
+      <Text>ITR-HECURA</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

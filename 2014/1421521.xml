@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Recovering Object 3D Shape and Material from Isolated Images</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>476569</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project improves a computer's ability to interpret the shape and material of objects from visual sensors. The research hypothesizes that full 3D object shape can be estimated by matching visual features from an observed object to an object of known shape from a dataset, transferring the known shape, and deforming the 3D shape to better account for spatial correspondences of matched features. The research represents materials at multiple scales, separately encoding little bumps and grooves from the patterns of material categories. Because image properties arise from the combination of shape, material, and illumination, the research also involves developing algorithms to jointly estimate. The developed technologies can be applied to automated systems, personal and industrial robotics, surveillance and security, transportation, image retrieval, image editing and manipulation, and content creation. The project contributes to education through student projects, course development, and workshops and tutorials involving a broader audience. &lt;br/&gt;&lt;br/&gt;The research investigates improved representations of 3D shape and material and methods to recover them from one image. Rather than aiming for veridical models, such as precise surface normals or BRDF parameters, the research team recovers approximate models that are useful for object recognition, content creation, and other tasks. The work on 3D object shape focuses on labeling object boundaries as occlusions, folds, or texture/albedo and using these boundaries as part of a data-driven approach to recover full 3D models of the objects. The research involves studying methods to recover rich, multiscale representations of the materials that compose objects. These methods exploit approximate shape representations and approximate representations of the illumination to recover estimates of radiometric properties of the object at a point. The algorithms build maps of these material properties to model spatial variation in albedo and complex phenomena like veins in marble. The research also involves extending these methods to report spatially varying normal maps that capture shape textures like the bark of trees. Finally, the research investigates how to incorporate image-centered maps to capture more random, spatially localized phenomena like the pits in orange peel.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/31/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1421521</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Forsyth</LastName>
+      <EmailAddress>daf@cs.uiuc.edu</EmailAddress>
+      <StartDate>08/06/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Derek</FirstName>
+      <LastName>Hoiem</LastName>
+      <EmailAddress>dhoiem@illinois.edu</EmailAddress>
+      <StartDate>08/06/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

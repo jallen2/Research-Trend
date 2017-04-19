@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: CT-T: Towards an Accountable Internet Architecture</AwardTitle>
+    <AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proposal Number: 0716342&lt;br/&gt;PI: Scott Shenker&lt;br/&gt;Institution: International Computer Science Institute, University of California Berkeley&lt;br/&gt;Lead&lt;br/&gt;&lt;br/&gt;Proposal Number: 0716278&lt;br/&gt;PI: Nicholas Feamster&lt;br/&gt;Institution: Georgia Institute of Technology&lt;br/&gt;Sub&lt;br/&gt;&lt;br/&gt;Proposal Number: 0716287&lt;br/&gt;PI: David Andersen&lt;br/&gt;Institution: Carnegie Mellon University&lt;br/&gt;Sub&lt;br/&gt;&lt;br/&gt;Proposal Number 0716273&lt;br/&gt;PI: Hari Balakrishnan&lt;br/&gt;Institution: Massachusetts Institute of Technology&lt;br/&gt;Sub&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Title: Collaborative Research CT-T: Towards a More Accountable Internet&lt;br/&gt;&lt;br/&gt;Abstract&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The goal of this project is to design, implement, and &lt;br/&gt;test an internetwork architecture called the Accountable Internet &lt;br/&gt;Protocol (AIP). AIP retains much of the elegance and simplicity of &lt;br/&gt;IP, but is far better equipped to thwart malicious adversaries. To &lt;br/&gt;provide this protection, AIP incorporates three kinds of &lt;br/&gt;accountability: source accountability, control-plane accountability, &lt;br/&gt;and dataplane accountability. Together, these three forms of &lt;br/&gt;accountability ensure that any host, router, and autonomous network &lt;br/&gt;can identify misbehaving components.&lt;br/&gt;&lt;br/&gt;Operationally, this results in: an Internet in which any spoofing or &lt;br/&gt;forgery of source addresses is detectable (from source &lt;br/&gt;accountability); a partial defense against flooding attacks from &lt;br/&gt;compromised hosts (also from source accountability); an Internet &lt;br/&gt;where route hijacking and other security compromises to inter-domain &lt;br/&gt;routing are impossible (from control-plane accountability); and the &lt;br/&gt;ability for end hosts and operators to pinpoint locations where &lt;br/&gt;packets are being lost or excessively delayed even when the problems &lt;br/&gt;are in other networks (from data-plane accountability).&lt;br/&gt;&lt;br/&gt;The cornerstone of AIP is its use of a self-certifying address &lt;br/&gt;format. All AIP addresses are of the form AD:EID, where AD is the &lt;br/&gt;identifier for the autonomous domain that the host belongs to, and &lt;br/&gt;EID is a globally unique host identifier. Both address components are &lt;br/&gt;derived from public keys held by the domain and host, respectively, &lt;br/&gt;allowing other entities to verify the authenticity and provenance of &lt;br/&gt;packets and messages. AIP's self-certifying addressing allows simple &lt;br/&gt;protocols to realize the above benefits.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/12/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0716278</AwardID>
+    <Investigator>
+      <FirstName>Nicholas</FirstName>
+      <LastName>Feamster</LastName>
+      <EmailAddress>feamster@cs.princeton.edu</EmailAddress>
+      <StartDate>08/01/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7371</Code>
+      <Text>CYBER TRUST</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: SMALL: The Linear Information Coupling Problem</AwardTitle>
+    <AwardEffectiveDate>07/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>phillip regalia</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In this research, we study a new problem setting in transmitting information over networks, which we call the linear information coupling problem. Instead of asking how many information bits can be conveyed through a given channel, we ask how can one efficiently send a thin layer of information. Aside from its operational implications, and the new applications it addresses, we point out that this new formulation is a generic and fundamental simplification to the network capacity problem, which has remained open for decades. We observe that the main difficulties in many network information theory problems are essentially the same: the high dimensional optimization problems over probability distributions do not have sufficient structure. The key step of the linear coupling problems is a local quadratic approximation of the Kullback-Leibler divergence, from where a geometric structure for the space of probability distributions is defined. This helps us to visualize the information transitions as simpler geometric operations such as projections and expansion with respect to orthonormal bases, and thus identify efficient ways to convey information.&lt;br/&gt;&lt;br/&gt;Equipped with this new analysis tool, this project studies two classes of problems. First, as demonstrated with our preliminary results, the local approximation is particularly powerful in solving some open network communication problems. We generalize these results to construct a new network model, where each connection is linearized and characterized by the corresponding singular value decomposition (SVD) structure. With this model, the optimal network operations and the corresponding performance can often be solved explicitly. Secondly, we extend this approach to study more general information exchanges including real-time, dynamic, and error-prone systems. This allows us extend the principle of information theory to a much broader context than conventional coded digital applications.</AbstractNarration>
+    <MinAmdLetterDate>06/20/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/20/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1216476</AwardID>
+    <Investigator>
+      <FirstName>Lizhong</FirstName>
+      <LastName>Zheng</LastName>
+      <EmailAddress>lizhong@mit.edu</EmailAddress>
+      <StartDate>06/20/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7935</Code>
+      <Text>COMM &amp; INFORMATION THEORY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

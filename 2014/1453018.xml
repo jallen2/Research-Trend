@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Direct Manipulation of Numerical Optimization for Structured Geometry Creation</AwardTitle>
+    <AwardEffectiveDate>02/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2020</AwardExpirationDate>
+    <AwardAmount>406945</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The physical world surrounds us with geometric and spatial information. A large variety of sensors and scanning equipment can readily turn this physical data into unstructured digital geometry, such as point clouds and triangle meshes. However, next generation digital geometry processing applications (say, for computer-aided design or for medical image analysis) require structured data in which an object is organized into meaningful parts and relationships. People have no trouble perceiving the structure of a sketch, MRI, or scanned car miniature, easily identifying which organs or machine parts are present and the approximate location of each. Whether due to our learned expertise or innate skill, such human perceptual abilities are extremely challenging to automate; resolving ambiguities in the input (e.g., a dark region in an MRI that could be a malignant tumor or an innocuous shadow) typically necessitates human involvement. On the other hand, we struggle with tedious low-level geometric tasks such as precisely delineating a bone fracture or the surface of a car door. While nonlinear optimization algorithms excel at improving approximate input, they are often too slow to integrate into interactive applications. Thus, a problem arises in situations where new user input is provided continuously; if an in-progress nonlinear optimization is repeatedly canceled and restarted no solution will ever be found, but if allowed to continue it will compute an outdated solution. &lt;br/&gt;&lt;br/&gt;The PI's objective in the current research is to resolve this fundamental conflict between interactivity and nonlinear optimization, and to explore minimal interactive approaches for creating structured geometry in medical and design applications. His approach merges direct manipulation interfaces, which are powerful and easily learned, with nonlinear optimization, which is capable of solving precise geometric problems given approximate input from a human. The PI will synthesize techniques from human-computer interaction, perceptual psychology, and numerical optimization to exploit the fact that people typically interact with computers in a low-dimensional manner (e.g., by moving a mouse), which allows one to predict both human input and whether parallel optimization processes will converge to the same solution. He will evaluate these approaches with interfaces for creating high-quality, structured 3D models from noisy and inconsistent partial data as is commonly found in scans of physical models for computer-aided design and anatomical scans for medical imaging. Project outcomes will vastly increase the computational resources available to numerical optimization in interactive systems while greatly reducing expensive operator time, and will also help unify physical and digital design. The PI will seek to widely disseminate project outcomes, by open-sourcing broadly-reusable algorithms and by technology transfer to industry. He will also engage in a variety of educational and outreach activities, including a "reverse science fair" at a local high school during which guest speakers deliver accessible introductions to state-of-the-art research and students practice science journalism.</AbstractNarration>
+    <MinAmdLetterDate>02/04/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/11/2017</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1453018</AwardID>
+    <Investigator>
+      <FirstName>Yotam</FirstName>
+      <LastName>Gingold</LastName>
+      <EmailAddress>ygingold@gmu.edu</EmailAddress>
+      <StartDate>02/04/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>George Mason University</Name>
+      <CityName>FAIRFAX</CityName>
+      <ZipCode>220304422</ZipCode>
+      <PhoneNumber>7039932295</PhoneNumber>
+      <StreetAddress>4400 UNIVERSITY DR</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems (CHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

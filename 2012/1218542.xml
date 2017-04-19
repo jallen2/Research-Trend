@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Multi-Agent (Multi-Robot) Task Allocation with Formal Guarantees in Dynamic Environments under Realistic Constraints</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Weng-keen Wong</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal aims to develop algorithms for decentralized task allocation among multiple intelligent agents in uncertain environments with a focus on provable performance bounds. Four task settings and their combinations are to be considered: (1) constraints among tasks (e.g., disjoint task groups, precedence relations among tasks); (2) constraints among agents (e.g., maintenance of a communication network); (3) constraints among groups of agents (e.g., requiring a group to include agents with specialized skills); (4) on-line arrival of additional tasks. Existing algorithms for task allocation that have provable performance bounds usually do not consider the realistic constraints stated above. On the other hand, approaches that consider some of the constraints above do not have performance bounds. Furthermore, current algorithms often assume the existence of a centralized coordinator (e.g., an auctioneer in market-based approaches) and may not be scalable. Thus, there is a gap between the existing literature and the practical requirements in multi-robot applications. Hence, there is a need to design distributed task allocation methods that take into consideration practical constraints and have formal performance guarantees. The evaluation plan will use simulated and real robots in search and rescue contexts. The project will use the USARSim environment with approximately 50 simulated robots.&lt;br/&gt;&lt;br/&gt;The mathematical techniques upon which this project will rely to develop algorithms for task allocation will depend on the problem characteristics. When there are constraints among tasks, the project will use techniques from combinatorial optimization and linear programming. For tasks where each task can be performed by multiple agents, the project will use concepts from cooperative game theory and coalition formation in conjunction with integer optimization techniques. For dynamically arising tasks, the project will explore the use of stochastic programming techniques with the key idea being use of the dual of the integer program model of the task allocation problem to design "bidding rules" for agents that ensure a performance guarantee for the overall system.&lt;br/&gt;&lt;br/&gt;A wide range of application domains -- including emergency response, homeland security, environmental monitoring, hazardous waste cleanup and manufacturing -- stand to benefit from the task allocation techniques proposed in this project. Results from this project will enable application domains to more fully reap the benefits of emerging robotic technology by providing techniques that allow robots to autonomously and efficiently coordinate and allocate tasks among themselves. Graduate students will play a major role in conducting the proposed research. Additionally, this project will provide research opportunities to undergraduate students both within Carnegie Mellon University and from other institutions through the Robotics Institute Summer Scholar program.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218542</AwardID>
+    <Investigator>
+      <FirstName>Katia</FirstName>
+      <LastName>Sycara</LastName>
+      <EmailAddress>sycara@cs.cmu.edu</EmailAddress>
+      <StartDate>07/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

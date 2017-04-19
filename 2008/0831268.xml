@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CT-ISG: Advanced Techniques to Detect Kernel-Level Rootkits</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>450001</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The integrity of commodity operating system kernels is threatened by rootkits&lt;br/&gt;that modify key kernel data structures to achieve a variety of malicious goals.&lt;br/&gt;While rootkits have historically been known to affect control data in the&lt;br/&gt;kernel, recent work demonstrates rootkits that affect system security by&lt;br/&gt;modifying non-control data, such as linked lists used to manage bookkeeping&lt;br/&gt;information and metadata used for memory management. Existing techniques fail&lt;br/&gt;to detect such rootkits effectively.&lt;br/&gt;&lt;br/&gt;This project is developing techniques to provide real-time protection against&lt;br/&gt;rootkits by detecting anomalies in both control and non-control kernel data&lt;br/&gt;behavior using automatically-generated integrity specifications. This goal is&lt;br/&gt;being achieved in two steps. First, a technique to mine specifications of&lt;br/&gt;kernel data structure integrity is being developed. These specifications are be&lt;br/&gt;mined automatically as data structure invariants. Second, these techniques are&lt;br/&gt;being extended using operating system support to provide real-time detection.&lt;br/&gt;&lt;br/&gt;Impacts and Results: The techniques developed in this project will defend&lt;br/&gt;against the next generation of rootkits, and will enable real-time detection of&lt;br/&gt;such rootkits. In addition, techniques to infer kernel invariants &lt;br/&gt;may also find applications in operating system reliability, fault tolerance and&lt;br/&gt;software engineering. The PIs will disseminate the results by releasing the &lt;br/&gt;tools developed. The results of this project will equip the workforce with an&lt;br/&gt;inter-disciplinary toolkit, that combines operating systems, computer security,&lt;br/&gt;and software engineering, to address the challenges posed by the next&lt;br/&gt;generation of stealth malware.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/15/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0831268</AwardID>
+    <Investigator>
+      <FirstName>Liviu</FirstName>
+      <LastName>Iftode</LastName>
+      <EmailAddress>iftode@cs.rutgers.edu</EmailAddress>
+      <StartDate>08/18/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vinod</FirstName>
+      <LastName>Ganapathy</LastName>
+      <EmailAddress>vinodg@cs.rutgers.edu</EmailAddress>
+      <StartDate>08/18/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7371</Code>
+      <Text>CYBER TRUST</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

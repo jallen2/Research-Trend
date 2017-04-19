@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Quest: A Real-Time Operating System for Multicore Processors</AwardTitle>
+    <AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>399999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Multicore processors are becoming ubiquitous among high-end servers, personal computers, mobile phones and embedded devices. While these processors can provide higher performance at lower power than single-core architectures, they pose significant challenges for system designers. This is particularly true in real-time embedded systems, such as in avionic and automotive control, manufacturing, and healthcare. In these systems, tasks often have critical timing requirements, with deadlines that must be met to avoid potentially catastrophic outcomes. Providing timing guarantees on multicore processors is made difficult by contention for shared on-chip caches and memory bus bandwidth, and other factors such as hardware interrupts, instruction pipelines and simultaneous multithreading that affect predictability.&lt;br/&gt;&lt;br/&gt;This project focuses on the design of a real-time operating system that addresses micro-architectural resource contention and enforces predictable behavior on multicore processors. This system called ?Quest? is centered around time as a first class resource, guaranteeing real-time shares of computational resources among all tasks, including interrupts and application threads. Using hardware performance counters available on modern processors, this project implements a real-time performance monitoring subsystem to influence resource management.&lt;br/&gt;&lt;br/&gt;An additional aspect of this work focuses on the use of hardware sandboxing techniques to guarantee the system is not compromised by ill-written software, such as drivers or services implemented by third party developers. This is especially relevant given the complexity of modern software systems that cannot easily be verified to behave correctly using only static methods. As part of the development of Quest, hardware virtualization capabilities are investigated to enforce heightened software reliability, in particular, techniques for isolating software components of a system, while ensuring predictability, &lt;br/&gt;&lt;br/&gt;The outcomes of this work will impact the design of systems software on multicore processors. A greater understanding of hardware features to improve or ease the construction of software systems is gained, especially those with safety-critical requirements. Investigations into system predictability and safety will help prevent potentially disastrous outcomes for mission-critical tasks. This work could lead to more robust systems that avoid costs of failure in terms of loss of lives, equipment, or money. The Quest software will be shared among the research community and used in courses involving operating systems.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117025</AwardID>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>West</LastName>
+      <EmailAddress>richwest@cs.bu.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

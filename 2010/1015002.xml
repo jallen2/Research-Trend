@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A New Finite Element Formulation of the Level Set Method for Free Boundary Problems</AwardTitle>
+    <AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>157039</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many problems in mathematical biology and medical research are characterized by the presence of moving interfaces that may have a complex shape and undergo topological changes. The goal of this project is the development of an adaptive variational level set method for numerical simulation of such problems. A major challenge is the need to maintain the signed distance property of the convected level set function and guarantee mass conservation for incompressible flows. In existing level set methods, these constraints are commonly enforced at a postprocessing step when an irrecoverable damage has already been done. In the proposed finite element formulation, numerical solutions are constrained using Lagrange multipliers in the variational formulation for the Galerkin finite element method. This eliminates the need for postprocessing and the associated numerical errors. Algebraic flux correction is performed to satisfy the discrete maximum principle and secure nonlinear stability of the constrained problem. The result is a high-resolution finite element scheme that preserves all important properties of the exact solution. A further gain of accuracy is achieved with a new mesh adaptation strategy that combines local mesh refinement/coarsening with Arbitrary Lagrangian Eulerian (ALE) displacement of nodes.&lt;br/&gt;&lt;br/&gt;This interdisciplinary research will help scientists and medical doctors to gain a better understanding of fluid flows that take place in human body. Computer simulations are feasible for almost every part of the cardiovascular system, and multiple experiments can be performed without causing any hazard to the patient. However, the usefulness of information obtained in this way depends on the accuracy of the employed numerical methods. It is easy to develop a code that produces beautiful colorful pictures but it is difficult to guarantee that the results are quantitatively correct, especially for the class of free boundary problems considered in this project. It is not unusual that numerical solutions exhibit spurious oscillations, or a spontaneous loss of mass is observed. To make matters worse, other departures from physical reality may remain unnoticed and lead to wrong decisions regarding the appropriate medical treatment. The proposed methodology is designed to rule out such situations. The revised level set method is backed by mathematical theory and has a number of unique features which make it possible to capture the deformation and motion of evolving interfaces with high precision. This research paves the way to reliable simulation of drug delivery, tumor growth, and other biological processes.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/10/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1015002</AwardID>
+    <Investigator>
+      <FirstName>Suncica</FirstName>
+      <LastName>Canic</LastName>
+      <EmailAddress>canic@math.uh.edu</EmailAddress>
+      <StartDate>06/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dmitri</FirstName>
+      <LastName>Kuzmin</LastName>
+      <EmailAddress>kuzmin@math.uh.edu</EmailAddress>
+      <StartDate>06/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dmitri</FirstName>
+      <LastName>Kuzmin</LastName>
+      <EmailAddress>kuzmin@math.uh.edu</EmailAddress>
+      <StartDate>08/05/2010</StartDate>
+      <EndDate>06/10/2011</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Houston</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>772042015</ZipCode>
+      <PhoneNumber>7137435773</PhoneNumber>
+      <StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Design and Implementation of New Scalable Algorithms in Nano-Scale Materials Science</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>131349</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Clark V. Cooper</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Large scale eigenvalue-related problems constitute the computational bottlenecks in a wide range of science and engineering disciplines. The central goal of this project is to design and implement novel,&lt;br/&gt;scalable algorithms for one of these bottleneck problems: the nonlinear eigenvalue problems from first principles density functional theory (DFT) calculations. DFT is one of the most significant&lt;br/&gt;scientific achievements, it has revolutionized approaches used in studying electronic structures of atoms and molecules and has been an indispensable tool in fields such as condensed matter physics and&lt;br/&gt;materials science. Tremendous progress has been made in DFT applications/calculations. However, the full power of DFT is still severely limited by computational constraints. One major bottleneck is&lt;br/&gt;the repeated solution of large scale eigenvalue problems that can be of unprecedented dimension in the self-consistent-field (SCF) loop. By exploiting adaptive polynomial filters, we recently developed the&lt;br/&gt;nonlinear Chebyshev filtered subspace iteration (CheFSI) method which is almost eigenvector-free. This method significantly alleviates the computational burden for SCF calculations. The proposed research will&lt;br/&gt;(1) further improve the efficiency of the CheFSI method, especially the algorithm used for the initial diagonalization at the first SCF step; (2) continue improving and utilizing our own DFT package called&lt;br/&gt;PARSEC, which uses CheFSI, to perform challenging DFT simulations on materials of scientific and technological significance; (3) extend the filtering ideas used in CheFSI to significantly improve the&lt;br/&gt;diagonalization methods in the plane-wave package called PWscf; (4) explore and develop novel filtering and preconditioning techniques for the nonlinear eigenvalues in DFT calculations.&lt;br/&gt;&lt;br/&gt;DFT is of fundamental importance because it describes the law of the fundamental building blocks of materials. Advances in making DFT more computationally feasible for complex materials will have far-reaching intellectual impact. The two targeted packages PARSEC and PWscf are&lt;br/&gt;both open source software with large user group, being able to improve the solver efficiency for the bottleneck eigenproblems will benefit a large number of researchers and facilitate applying DFT to explore&lt;br/&gt;properties of larger and more complex materials that have not been studied before. Furthermore, the filtering and preconditioning techniques to be explored are closely related to calculating principal&lt;br/&gt;eigensubspaces, they have potentially broad range of applications in areas such as model reduction, data mining and information retrieval of massive data sets.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/07/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0727194</AwardID>
+    <Investigator>
+      <FirstName>Yunkai</FirstName>
+      <LastName>Zhou</LastName>
+      <EmailAddress>yzhou@smu.edu</EmailAddress>
+      <StartDate>08/27/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Southern Methodist University</Name>
+      <CityName>Dallas</CityName>
+      <ZipCode>752750302</ZipCode>
+      <PhoneNumber>2147682030</PhoneNumber>
+      <StreetAddress>6425 BOAZ</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

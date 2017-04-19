@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR---PDOS: Log-Based Architectures: Extending Chip Multiprocessors to Help Software Behave Correctly</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>1026532</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Krishna Kant</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software misbehaves too frequently due to bugs, security attacks, and intermittent hardware errors. While powerful tools?called ?lifeguards??have been developed in the past to monitor a program as it executes for the sake of detecting and sometimes even fixing problems as they happen, these tools have historically run so slowly (often an order of magnitude slowdown) that it was impractical to run them continuously in the field. To address this problem, this project is developing a new general-purpose framework that harnesses idle processor cores in a chip multiprocessor to enable powerful lifeguards to run continuously on deployed code in order to detect, diagnose, and fix incorrect behaviors with no perceived cost to the user. A key technology in this new lifeguard framework is a novel mechanism for efficient dynamic program inspection and rewind via a log that is captured by the hardware, managed by the operating system, and exposed to the lifeguard software. This project is expected to have impact in the following ways. First and foremost, it should make software more robust, not only by allowing existing lifeguards to be run continuously in the field, but also by hopefully spawning the creation of new lifeguards that are even more sophisticated and useful than what we have today. These tools will be especially important for programmers as they try to avoid correctness and performance bugs when they write parallel programs for chip multiprocessors. This new service will provide a new type of end-user value from a parallel machine beyond raw speedup (i.e. improved robustness against software bugs, security attacks, and other errors). The existence of a hardware-generated log may also lead to new ways to write software (e.g., by inspecting its past behavior or exploiting the log as a recovery mechanism).</AbstractNarration>
+    <MinAmdLetterDate>08/27/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720790</AwardID>
+    <Investigator>
+      <FirstName>Babak</FirstName>
+      <LastName>Falsafi</LastName>
+      <EmailAddress>babak@ece.cmu.edu</EmailAddress>
+      <StartDate>08/27/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Todd</FirstName>
+      <LastName>Mowry</LastName>
+      <EmailAddress>tcm@cs.cmu.edu</EmailAddress>
+      <StartDate>08/27/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anastassia</FirstName>
+      <LastName>Ailamaki</LastName>
+      <EmailAddress>natassa@epfl.ch</EmailAddress>
+      <StartDate>08/27/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

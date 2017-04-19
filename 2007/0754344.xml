@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A computational tool for particle-fluid flows</AwardTitle>
+    <AwardEffectiveDate>04/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2010</AwardExpirationDate>
+    <AwardAmount>160000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ashok S. Sangani</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CBET-0754344&lt;br/&gt;Prosperetti&lt;br/&gt;&lt;br/&gt;Intellectual merit of the proposed activity. Flows with suspended particles arise frequently in Nature (e.g., dust storms, sediment transport, biological fluids), technology (e.g., pollutant transport, fluidized bed combustors, catalytic reactors, suspensions), and manufacturing (e.g. pharmaceutics, food processing, spray painting). Some of these flows are laminar (e.g. suspensions, slurries, monodisperse polymeric microspheres for diagnostic kit applications), but the particle volume fraction is large. More often they are turbulent and turbulence has a strong effect on the distribution and dispersion of the particles and, depending on conditions, the particles themselves can deeply change the turbulence character with respect to single-phase flow.&lt;br/&gt; Much effort has been devoted to the understanding of the nature of this so-called {\em two-way coupling} between fluid and particles by analysis, computation and experiment. Numerical simulation has proven particularly valuable in spite of many simplifications rendered necessary by the inherent complexity of these systems. Powerful techniques exist for dense suspensions in the Stokes flow regime. Turbulent flow simulations, on the other hand, have been conducted in conditions of exceedingly small particle concentration (particle volume fractions of the order of 10-4 or less) with the particles approximated as mass points moving under the action of approximately parameterized fluid forces. The action of the particles on the fluid has also mostly been approximated by superposing point forces. This procedure may be justified when the particle size is smaller than all the fluid length scales, including the Kolmogorov length. However, even in this case, the results are somewhat unsatisfactory as they rest on parameterized forces rather than forces obtained from first-principles calculations. More significantly, there are very many very important situations which cannot be studied by these means: particles suspended in a liquid, rather than a gas (e.g. sediments, chemical systems), non-dilute systems (e.g. fluidized beds), and many others.&lt;br/&gt; In recent NSF-supported work, a very efficient and accurate numerical method for the simulation of viscous incompressible fluid flows with thousands of suspended particles was developed by the proposer and his collaborators. The procedure fully accounts for the finite size of the particles, does not approximate their shape, and exactly satisfies the no-slip condition at the particle surface. The maximum particle Reynolds number depends on the grid resolution; with a very manageable resolution of 10 nodes per particle radius, Reynolds numbers up to a few tens can be handled. A particularly strong point of the method is the weak dependence of the computational time upon the number of particles suspended in the flow. This circumstance has permitted so far the simulation of flows with up to about 1000 suspended particles.&lt;br/&gt; In order to improve the resolution, be able to simulate a larger number of particles and more intense turbulence, it is necessary to develop new computational strategies: adaptive grids, algorithms with better scalability properties, efficient preconditioning etc.&lt;br/&gt; The work proposed here consists in: (1) The development of this enhanced code, its validation and some preliminary simulations (e.g., particles falling in an otherwise quiescent fluid, particles in decaying homogeneous isotropic turbulence), and (2) The use of modern software development methods and tools to permit the code to be readily used by others, making it freely available to the research community via a maintained web site with proper documentation, test cases, tutorials, detailed explanations etc.&lt;br/&gt;&lt;br/&gt;Broader impacts resulting from the proposed activity. As noted in the body of the proposal, the flow of fluids with suspended particles is one of the most active areas in contemporary fluid mechanics, with the relevant papers cited hundreds of times a year even many years after their publication. The code to be developed therefore meets a widely felt need in the research community which is ready to move away from simple models (point particles, Stokes flow, etc.) to finite particle Reynolds numbers, larger volume fractions and many particles. The availability of this computational tool will be a first step in the simulation of practical situations which lie at the heart of many problems of contemporary society such as energy (e.g.&lt;br/&gt;the oil industry, power generation, pollution), the environment (e.g. coastal erosion, precipitation) and life (e.g. pollen, grains, pharmaceuticals).</AbstractNarration>
+    <MinAmdLetterDate>03/20/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/11/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0754344</AwardID>
+    <Investigator>
+      <FirstName>Andrea</FirstName>
+      <LastName>Prosperetti</LastName>
+      <EmailAddress>aprosperetti@uh.edu</EmailAddress>
+      <StartDate>03/20/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Johns Hopkins University</Name>
+      <CityName>Baltimore</CityName>
+      <ZipCode>212182608</ZipCode>
+      <PhoneNumber>4105168668</PhoneNumber>
+      <StreetAddress>3400 N CHARLES ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1415</Code>
+      <Text>PARTICULATE &amp;MULTIPHASE PROCES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>055E</Code>
+      <Text>Particle science and technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

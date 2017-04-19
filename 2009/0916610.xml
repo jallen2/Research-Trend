@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Organizing recognition: the uses of perceptual organization</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>376685</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Recognizing objects in images is the central problem of computer vision. One approach (``bag of words'') compiles simple statistics on the image brightness patterns and recognizes by correlating these statistics, via learning, with the imaged objects. It cannot exploit important information on the image's spatial layout. Another approach, perceptual organization (PO), computes a distinctive, structural description of the image contents and recognizes based on this. Researchers agree that PO is a crucial early stage of recognition--and that its results are unreliable. (Images compress the 3D world and are ambiguous; PO cannot eliminate the ambiguity since it has no high-level knowledge of what the image is ``about.'') This leads to a fundamental dilemma: How can a recognition system use the result of PO if it cannot be trusted?&lt;br/&gt;&lt;br/&gt;To exploit perceptual organizations without succumbing to their unreliability, this project uses a strategy that averages over all possible organizations weighted by their probability, instead of computing a single, ``most likely'' image description. This strategy is applied to diverse tasks such as matching images by the shapes of the objects within; recognizing articulated objects such as people and animals; tracking objects through video; and computing stable perceptual organizations. The project also studies the integration of this approach with older ones into a flexible and capable recognition system. The result will be new techniques for the analysis, manipulation, and search of images. The methods developed will be integrated in the curriculum and disseminated to researchers, and the software will be made publicly available.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916610</AwardID>
+    <Investigator>
+      <FirstName>George</FirstName>
+      <LastName>Kamberov</LastName>
+      <EmailAddress>gkamberov@uaa.alaska.edu</EmailAddress>
+      <StartDate>03/14/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Oliensis</LastName>
+      <EmailAddress>oliensis@cs.stevens-tech.edu</EmailAddress>
+      <StartDate>09/16/2009</StartDate>
+      <EndDate>03/14/2012</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Philippos</FirstName>
+      <LastName>Mordohai</LastName>
+      <EmailAddress>Philippos.Mordohai@stevens.edu</EmailAddress>
+      <StartDate>09/16/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stevens Institute of Technology</Name>
+      <CityName>HOBOKEN</CityName>
+      <ZipCode>070305991</ZipCode>
+      <PhoneNumber>2012168762</PhoneNumber>
+      <StreetAddress>CASTLE POINT ON HUDSON</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>
