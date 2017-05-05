@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Discrete Volumetric Curvature Flow for Graphics Applications</AwardTitle>
+    <AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2009</AwardExpirationDate>
+    <AwardAmount>78999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>SGER: Discrete Volumetric Curvature Flow for Engineering Applications&lt;br/&gt;&lt;br/&gt;Given a surface in the three dimensional Euclidean space, the surface can be deformed to one of the three canonical shapes, the unit sphere, the plane and the hyperbolic disk. Furthermore, the deformation is angle preserving. The Poincare's conjecture and Thurton's geometrization conjecture generalize the fact to three dimensional manifolds. Basically, a three manifold can be decomposed to pieces in a canonical way, with each piece admitting one of eight geometries. The canonical Riemannian metric plays important roles in many engineering applications, such as hexahedral meshing, volumetric parameterization and volumetric spline construction. The proof of Poincare's conjecture offers a powerful tool to compute such metrics, Ricci flow. The Ricci flow is the process to deform the Riemannian metric proportional to the curvature, such that the curvature evolves according to heat diffusion. Eventually, the curvature is constant everywhere, and the canonical metric is achieved. The proposal aims at designing and implementing discrete curvature flow for volumes, and apply it in graphics, geometric modeling, medical imaging and many other engineering fields. &lt;br/&gt;&lt;br/&gt;The 3-manifolds are represented as tetrahedral meshes. The edge lengths and dihedral angles encode the Riemannian metric and curvatures of the mesh. Discrete curvature flow deforms the edge lengths according to the curvatures, such that at the steady state, the curvature is constant everywhere. Discrete curvature flow can be formulated as the gradient flow of special energy forms. The energies can be optimized using Newton's method; the critical point gives the desired metric. Furthermore, the proposal also uses volumetric harmonic differential forms to compute the geometric structures based on Hodge theory. The discrete curvature flow method is proposed to tackle several important engineering applications. Hexahedral meshing has been the Holy Grail in meshing research field for years. By deforming the volume to simpler shapes and tessellating the deformed volume, hex-remeshing can be obtained straightforwardly. Volumetric parameterization is the foundation for texture mapping, shape matching, registration and comparison. Curvature flow maps general volumes to canonical shapes, which induces natural parameterizations. Constructing volumetric splines, which is consistent with the boundary surface spline, is a long lasting open problem in geometric modeling field. The curvature flow method can offer new insights and tools to tackle the problem.</AbstractNarration>
+    <MinAmdLetterDate>07/22/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0841514</AwardID>
+    <Investigator>
+      <FirstName>Xianfeng</FirstName>
+      <LastName>Gu</LastName>
+      <EmailAddress>gu@cs.sunysb.edu</EmailAddress>
+      <StartDate>07/22/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9237</Code>
+      <Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

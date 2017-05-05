@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Many-body Ab initio Potentials and Quantum Dynamics Methods for "First Principles" Simulations in Solution: Hydration, Vibrational Spectroscopy, &amp; Proton Transfer/Transport</AwardTitle>
+    <AwardEffectiveDate>04/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2020</AwardExpirationDate>
+    <AwardAmount>625000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03090000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Chemistry</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Evelyn M. Goldfield</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Francesco Paesani of the University of California San Diego is supported by a CAREER award from the Chemical Theory, Models, and Computational Methods program in the Chemistry Division and the Division of Advanced Cyberinfrastructure to develop new theoretical and computational approaches for molecular-level computer simulations. Such simulations have become a powerful tool in chemistry, often providing fundamental insights into complex phenomena which are otherwise difficult to obtain. However, achieving the necessary accuracy for realistic and predictive simulations remains challenging. Paesani and his research group are meeting this challenge by combining a variety of approaches to generate very accurate models of many systems including ions in solution. The new methodology enables computer simulations of aqueous systems with unprecedented accuracy, providing information on fundamental molecular processes from ion hydration in bulk and at interfaces to proton transfer and transport in solution. The new methodology will be available to the community through its implementation in the open and free OpenMM software toolkit for molecular simulations. This "reference implementation" aims to provide the community with a completely open computational tool which may be used by other researchers interested in implementing it in their own simulation codes. In addition, this initial implementation is a starting point for future developments of unique software elements specifically designed for high-performance computing which will enable many-body simulations with unprecedented accuracy on both multicore CPU and GPU architectures.&lt;br/&gt;&lt;br/&gt;In parallel with the proposed research activities, Paesani has established an innovative education and outreach plan focusing on the development of an entry level course that introduces undergraduate students in their freshman and sophomore years to the use of computational methods in chemistry, as well as on mentoring activities specifically designed to promote study in the STEM disciplines among students from underprivileged and traditionally underrepresented groups through the development of a summer exchange program at UC-San Diego.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Both the realism and the predicting power of a computer simulation strongly depend on the accuracy with which the molecular interactions and the overall system dynamics are described. Although ab initio methods can, in principle, enable the characterization of physicochemical processes without resorting to ad hoc simplifications, the associated computational cost effectively prevents the use of these methods to model realistic condensed-phase systems. Furthermore, a rigorous description of the actual molecular dynamics often requires a quantum-mechanical treatment of the nuclear motion, which further increases the computational cost associated with ab initio computer simulations. The methods developed by Paesani and coworkers seeks to overcome these limitations by combining machine-learning many-body potential energy surfaces derived entirely from highly-correlated electronic structure data with novel quantum-dynamical approaches based on path-integral molecular dynamics and centroid molecular dynamics. The efficient integration of these components pushes the boundaries of current molecular dynamics techniques and provides new opportunities for realistic simulations of condensed-phase systems in direct connection with corresponding spectroscopic measurements. Although much broader in scope, the initial application of the methodology is to modeling physicochemical processes in solution, with a specific focus on ion hydration, linear and nonlinear vibrational spectroscopy, and proton transfer/transport. The new methodology will be made available to the community through its implementation in the C++ "reference platform" of the open and free OpenMM software toolkit for molecular simulations. Specifically, implementation will consist of an independent plug-in to provide the community with a completely open implementation of these many-body potentials. This plug-in will include a complete suite of unit tests that cover all energy and force components as well as the inner functions of our many-body potentials. A number of test cases will also be made available for comparing output energies and forces obtained with OpenMM with the reference values calculated with the PI's in house implementation. To facilitate the use of the new many-body potentials, the plug-in will also offer a Python wrapper that will simplify both setting up and running many-body molecular simulations to the point where all simulation parameters will be entirely defined in an XML file. This plug-in will thus provide other researchers with a comprehensive implementation of our many-body potentials for aqueous simulations, which can be used as a reference for the implementation in other software. In addition, this reference implementation will serve as a starting point for future developments of unique software elements for the OpenMM toolkit, specifically designed for high-performance computing on both multicore CPU and GPU architectures. The development and application of the new simulation methodology will involve the training and education of undergraduate and graduate students as well as postdoctoral fellows, who will acquire a solid foundation in theoretical, physical, and computational chemistry. The interdisciplinary nature of the proposed project will provide an opportunity for students and postdocs to establish bridges and inter-connections between the fundamental laws of physical chemistry at a molecular level and the properties of condensed-phase systems. The possibility to work at the interface of different disciplines will prepare both students and postdocs for a wide range of scientific careers.</AbstractNarration>
+    <MinAmdLetterDate>02/19/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/19/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1453204</AwardID>
+    <Investigator>
+      <FirstName>Francesco</FirstName>
+      <LastName>Paesani</LastName>
+      <EmailAddress>fpaesani@ucsd.edu</EmailAddress>
+      <StartDate>02/19/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>6881</Code>
+      <Text>Theory, Models, Comput. Method</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

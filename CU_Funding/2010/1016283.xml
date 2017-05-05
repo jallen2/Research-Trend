@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A Posteriori Analysis of Multirate Numerical Methods</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>188159</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research project is concerned with a posteriori analysis of a class of multirate numerical methods whose natural application appears in multiscale differential systems. A common trait in the multirate numerical methods is the decomposition of the original governing equations into collection of subsystems with different scales. Each subsystem can use a different discretization parameter pertaining to its characteristic scale. This is in contrast to using a single discretization parameter dictated by the dominating scale in the original governing equations if standard fully coupling numerical procedure is to be used. The multirate numerical methods, however, introduces a set of errors which directly affect the accuracy and stability of the approximate solutions in both obvious and subtle ways that are difficult to quantify accurately. These issues are addressed by conducting a posteriori analysis of the multirate numerical methods based on variational adjoint techniques. These techniques are desired because of their suitability for error prediction in the specified quantities of interest expressed in terms of functional of the approximate solutions. Being able to focus directly on application-based quantities of interest has strong consequences for computational efficiency in error estimation and adaptive error control. The goal is to formulate accurate estimation techniques that have the capability to distinguish and quantify the error components, such as the multirate discretization, incomplete iteration in the nonlinear solution, and numerical errors in the solution of each subsystem This can then be used to gain better insights of the effects of the errors on issues such as accuracy, stability, and adaptivity of the methods.&lt;br/&gt;&lt;br/&gt;Multirate numerical methods are widely used in many applications. The main indicator of the successful completion of this project will be a better understanding of these methods and a capability to quantify their errors. This will have a broad impact on areas of engineering and science such as power system technology, nuclear engineering, petroleum production, and biology. Applications of multirate numerical methods arising in several of these areas are used as benchmark problems for developing the error estimation techniques. The project design allows for addressing fundamental issues in employing multirate numerical methods, such as accuracy and stability, adaptivity, and efficiency. This in turn will significantly contribute to developing efficient and accurate multirate numerical methods. Activities within this project are expected to strengthen ongoing collaborations, especially with investigators in the Rocky Mountain region. The project involves training of a graduate student in the area of a posteriori analysis and their application to multirate numerical methods.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016283</AwardID>
+    <Investigator>
+      <FirstName>Victor</FirstName>
+      <LastName>Ginting</LastName>
+      <EmailAddress>vginting@uwyo.edu</EmailAddress>
+      <StartDate>08/26/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wyoming</Name>
+      <CityName>Laramie</CityName>
+      <ZipCode>820712000</ZipCode>
+      <PhoneNumber>3077665320</PhoneNumber>
+      <StreetAddress>1000 E. University Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wyoming</StateName>
+      <StateCode>WY</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

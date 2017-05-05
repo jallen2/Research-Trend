@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Medium: Collaborative Research: Spatial Data and Trajectory Data Management on GPUs</AwardTitle>
+    <AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>449847</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Although locating and navigation devices embedded in smartphones have already generated large volumes of location and trajectory data, the next generation of consumer electronics are likely to generate even larger volumes of location-dependent data where spatial and trajectory data management techniques will play critical roles in understanding the data to facilitate decision making. Modern Graphics Processing Units (GPUs) are capable of general computing. Current generation of commodity GPUs have large numbers of processing cores, support even larger numbers of current threads and provide high memory bandwidth, yet are available at affordable prices. The massively data parallel computing power of GPUs makes the hardware ideal for spatial and trajectory data management which is both data and computing intensive.&lt;br/&gt;&lt;br/&gt;This project develops parallel indexing structures and query processing algorithms for spatial and trajectory data on GPUs to provide high performance which is crucial in speeding up existing applications and enabling new scientific and business inquiries. The project achieves its goals by developing: 1) novel spatial indexing techniques on GPUs; 2) novel spatial joins on GPUs; 3) novel trajectory segmentation and indexing techniques and trajectory similarity query processing techniques on GPUs; and 4) an end-to-end prototype system incorporated with open source database and GIS systems for performance evaluations and real world applications. Compared with existing spatial and trajectory data management systems that are mostly disk-resident and adopt a serial CPU computing model, the performance of GPU accelerated main-memory based systems is expected to achieve several orders of magnitude speedup and brings the performance of spatial and trajectory queries to a new level. The research results are beneficial to many applications, such as transportation, urban planning, wild bird ecology, and epidemiology of infectious diseases. Collaboration is carried out with transportation engineers at the University Transportation Research Center in New York City and ecology scientists at the University of Oklahoma?s Earth Observing and Modelling Facility. The project also makes important impacts on education as it provides training for students in the areas of national critical needs: database research, high performance computing, GPU programming, GIS, transportation, mobile and ecology applications. The developed algorithms and prototype system, real datasets and performance evaluation results are made available to the public at the Website: http://www.cs.ou.edu/~database.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/23/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1302423</AwardID>
+    <Investigator>
+      <FirstName>Jianting</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>jzhang@cs.ccny.cuny.edu</EmailAddress>
+      <StartDate>07/29/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Camille</FirstName>
+      <LastName>Kamga</LastName>
+      <EmailAddress>ckamga@utrc2.org</EmailAddress>
+      <StartDate>07/29/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>CUNY City College</Name>
+      <CityName>New York</CityName>
+      <ZipCode>100319101</ZipCode>
+      <PhoneNumber>2126505418</PhoneNumber>
+      <StreetAddress>Convent Ave at 138th St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

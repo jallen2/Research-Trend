@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: EDS: Small: Energy-Aware Redundancy Management</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>494075</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Yan Solihin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Redundancy is a fundamental system characteristic that improves productivity and resilience. Each such system has multiple, redundant configuration options with their specific resource requirements and cost/quality tradeoffs. This project targets applications with three types of redundancies, namely approximation, replication, and implementation. Applications are expressed as collections of interdependent services that operate under varying resource availabilities, particularly energy. Each service may offer outcomes/answers of different quality at different costs, potentially using different hardware/software resources. The key insight is that (1) quality and cost requirements have to be balanced across all application services, and that (2) users need to be able to specify and explore application cost/quality tradeoffs. The project implements a new programming architecture that effectively manages the three types of redundancies to produce the best application outcomes under limited energy/cost budgets and possible service failure conditions. The project targets battery-operated smart phones and autonomous robotic systems, but extends to cloud, enterprise and high-performance computing domains.&lt;br/&gt;&lt;br/&gt; Applications are modeled as dual-weighted, directed graphs where nodes represent different services and their quality levels, and edges represent resource or input/output dependencies between these services and their levels. Dual weights model the energy/cost of a service and the importance of the service and its levels for the user. The optimal solution of the service selection problem picks services and their levels such that the importance metric is maximized under a given energy/cost budget. This NP-complete problem is solved using a 0-1 integer programming formulation and state-of-the-art integer programming tools.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617551</AwardID>
+    <Investigator>
+      <FirstName>Ulrich</FirstName>
+      <LastName>Kremer</LastName>
+      <EmailAddress>uli@cs.rutgers.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

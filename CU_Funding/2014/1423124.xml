@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: DBMS+: Management System for the Next-Generation Database</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A large number of data processing systems---including NoSQL systems, column-stores, MapReduce, data stream managers, complex event processors, in-memory databases, and others---have been developed in recent years. It can be hard for an application developer to pick one system when the needs of her application match the features of multiple of these systems. The choice becomes considerably harder when different components of an application fit the features of different systems. Considerable manual effort goes into creating and tuning such multi-system applications. Current applications are coupled tightly with individual systems, which makes dealing with changes to application execution requirements or workload characteristics nontrivial. Moreover, an application's data and workload properties may change over time, often in unpredictable and bursty ways. Consequently, the system that is best for an application can change over time. Adapting to change can be hard when application development is coupled tightly with any individual system.&lt;br/&gt;&lt;br/&gt;This project will design, implement, and evaluate a new breed of Database Management Systems that is termed DBMS+. While conventional Database Management Systems (DBMS) support applications with a single execution engine and a storage engine, a DBMS+ integrates and manages multiple compute and storage systems. An application specifies its execution requirements on aspects like performance, availability, consistency, change, and cost to the DBMS+ declaratively. For all requests (e.g., queries) made by the application, the DBMS+ will select the execution plan that meets the application's requirements best. A novel aspect of the execution plan in a DBMS+ is that the plan includes the selection of one or more specialized systems. The optimizer in the DBMS+ is responsible for determining the most suitable execution plan, which includes choosing the most suitable compute and storage systems for a given application and its requirements. The DBMS+ approach has the potential to address the hurdles that application developers and system administrators face from the vast and growing number of specialized systems.&lt;br/&gt;&lt;br/&gt;For further information, see the project web site at: http://www.cs.duke.edu/starfish/cyclops/</AbstractNarration>
+    <MinAmdLetterDate>08/13/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/12/2017</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423124</AwardID>
+    <Investigator>
+      <FirstName>Jun</FirstName>
+      <LastName>Yang</LastName>
+      <EmailAddress>yang@math.duke.edu</EmailAddress>
+      <StartDate>01/12/2017</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Shivnath</FirstName>
+      <LastName>Babu</LastName>
+      <EmailAddress>shivnath@cs.duke.edu</EmailAddress>
+      <StartDate>08/13/2014</StartDate>
+      <EndDate>01/12/2017</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

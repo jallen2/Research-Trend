@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: HAWKEYE: A Cross-Layer Resilient Architecture to Tradeoff Program Accuracy and Resilience Overheads</AwardTitle>
+    <AwardEffectiveDate>08/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With semiconductor technology scaling to sub-nanometer scales, minute perturbations in lithography patterns and manufacturing processes make the computing hardware vulnerable to unpredictable deviations in functionality. Further, with increasingly strict power constraints, hardware designs are now reliant on dynamic voltage scaling between nominal and near-threshold regions, which exacerbates the reliability problem. These trends motivate the need for system resiliency without increasing power consumption. This project proposes a new method to achieve efficient resiliency, where hardware's coverage is bounded with certain guarantees, while computational efficiency is traded off at the cost of affecting program accuracy. The strategy focuses on data analytic applications since they naturally offer tradeoffs in program accuracy due to the unstructured nature of inputs, and the approximate algorithms used to solve these otherwise intractable problems. At the software level, the project is developing methods to classify crucial versus non-crucial code regions in a program: the crucial code affects program correctness and outcome, its functionality cannot be altered in any way; non-crucial code affects program accuracy, therefore it could tolerate errors. The hardware subsequently implements stronger resiliency methods (e.g., redundant execution) only for crucial code. For the non-crucial code, lightweight resiliency schemes ensure program correctness. If successful, this project will be a major step towards a new rigorous framework to reason and guarantee system resiliency alongside a program's performance, power, and accuracy of computation. &lt;br/&gt;&lt;br/&gt;The proposed research provides for significant broader impacts related to curriculum development and student training through integration of modules in existing computer architecture and system design courses, and outreach through established REU sites and enrichment programs. The project promises transparent resiliency guarantees and this will have a major societal impact: enterprises and mission agencies will be able to reason in a quantifiable way about the resiliency versus efficiency tradeoffs in their software and hardware infrastructure. This is a crucial step forward given the increased awareness of system reliability in many application domains, such as healthcare, defense, finance, transportation, and automotive.</AbstractNarration>
+    <MinAmdLetterDate>08/11/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/11/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1550470</AwardID>
+    <Investigator>
+      <FirstName>Omer</FirstName>
+      <LastName>Khan</LastName>
+      <EmailAddress>khan@uconn.edu</EmailAddress>
+      <StartDate>08/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Henry</FirstName>
+      <LastName>Hoffmann</LastName>
+      <EmailAddress>hankhoffmann@cs.uchicago.edu</EmailAddress>
+      <StartDate>08/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Connecticut</Name>
+      <CityName>Storrs</CityName>
+      <ZipCode>062691133</ZipCode>
+      <PhoneNumber>8604863622</PhoneNumber>
+      <StreetAddress>438 Whitney Road Ext.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

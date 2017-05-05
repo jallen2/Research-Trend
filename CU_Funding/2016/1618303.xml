@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Collaborative Research: Coupling Computation and Communication in FPGA-Enhanced Clouds and Clusters</AwardTitle>
+    <AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>224992</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The introduction of Field Programmable Gate Arrays (FPGAs) to accelerate clusters of servers in datacenters and clouds provides a great, immediate opportunity to leverage a new technology in high-end computing. With their flexible logic and native massive communication capability, FPGAs are ideal for high-performance computing in the post-Moore?s Law world. Since the hardware adapts to the application higher efficiency can be achieved, and since FPGAs are hybrid communication/computation processors, they can be interconnected directly chip-to-chip. Large-scale communication can consequently proceed with both higher bandwidth, lower latency, and less processor impact. These features are crucial to enhancing performance beyond current levels. The proposed design allows for useful processing while data is in flight in the network resulting in reduced software overhead in parallel middleware and reduced network congestion. The key tenets of the research are to achieve programmable, intelligent acceleration of applications while emphasizing overlap of communication and computation at low latency, while also cutting substantially software overhead. &lt;br/&gt;The research project, FC5 (an FPGA framework for coupling communication and computation in clouds and clusters) has several thrusts. First, hardware support for FC5 and investigation of methods of configurability in FC5 to reduce communication latency and support computing in the network are studied. A second outcome is a prototype version of the Open MPI open source version of MPI-3.1 parallel middleware that utilizes FC5 to deliver the features and performance enhancements involving data movement between and within servers, mathematical data reductions, and bulk data reorganizations. Third, proof-of-concept versions of multiple FC5 software models, including direct hardware access, a transparent MPI-in-OpenCL, and an API-based mechanism that exposes essential functionality. Finally, because FC5 is evolving rapidly with major new announcements expected imminently, continued refinement is essential. At least two model applications, Molecular Dynamics and Map-Reduce, will be used as test cases. &lt;br/&gt;With the continued consolidation of computing services into the cloud, the potential broader impact is to increase both the scale and availability of parallel applications. The broad range of uses of cloud and cluster computing for commercial, government, and academic applications means that acceleration offered will have a widespread impact applicable across many sectors. The growing acceptance of high performance computing in industry (e.g., fast machine learning) is one particular potential commercial sector that will be enhanced by this project.</AbstractNarration>
+    <MinAmdLetterDate>06/03/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/03/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618303</AwardID>
+    <Investigator>
+      <FirstName>Martin</FirstName>
+      <LastName>Herbordt</LastName>
+      <EmailAddress>herbordt@bu.edu</EmailAddress>
+      <StartDate>06/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

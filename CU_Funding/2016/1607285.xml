@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>GOALI: Extreme Environment Microcontrollers</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>349198</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mona Zaghloul</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract&lt;br/&gt;GOALI: Extreme Environment Microcontrollers&lt;br/&gt;Project Objectives:&lt;br/&gt;&lt;br/&gt;The market needs of extreme environment electronics encompass many commercial applications such as integrated gate drivers in power industry, in-engine sensing and control in automobile industry, well condition monitoring and drilling assistance in oil/gas exploration, cryogenic high-field magnet creation in medical imaging instrumentation, and many others like superconducting computing and energy storage systems, laser industry, space exploration, in-field distributed sensors, magnetic levitation transport systems, and infrared systems.&lt;br/&gt;&lt;br/&gt;Non-Technical Abstract:&lt;br/&gt;The extreme environments pose significant challenges to electronics, especially for digital integrated circuits: for extreme temperature environments, since the circuit speed is a strong function of temperature, timing control becomes very difficult across wide temperature ranges; for unstable energy source environment, the unstable or low power supply causes large variations in circuit speed as well. In the prevailing clocked synchronous digital integrated circuits, synchronized clocks are used to control and coordinate the circuit operation, along with a set of timing constraints such as setup and hold times. These critical timing constraints can be easily broken in extreme environments due to the circuit speed changes, thereby inducing system malfunction. Therefore, innovations are needed to solve these problems and develop extreme environment electronics in order to make contributions to the commercial industry discussed above in efficient and reliable sensing, communication, control, and data processing subsystems.&lt;br/&gt;Technical Abstract&lt;br/&gt;&lt;br/&gt;This GOALI project is a collaborative effort between the University of Arkansas and Radiance Technologies to develop quasi-delay insensitive asynchronous microcontrollers capable of operating reliably under extreme environments without extra protection or control/adjustment. Quasi-delay insensitive asynchronous logic like the NULL Convention Logic (NCL) uses local handshaking protocols in lieu of global clocks to control the circuit behavior. Individual gate delay has no impact on the correctness of the circuit's outputs. This feature guarantees robust circuit operation under extreme environments, making NCL a promising candidate for designing microcontrollers for such applications. However, innovations in microcontroller architecture and NCL circuit design are needed to improve performance, reduce overhead, and enhance the robustness: at the architecture-level, the prevailing bus architecture is unsuitable for NCL and needs to be replaced; the distributed storage mechanism is the weakest link of circuit operation and needs to be reorganized; and the external interrupt handling needs to redesigned as fully asynchronous. At the circuit-level, transistors need to be resized to improve the reliability under extreme environments; NCL logic gate design needs to be modified for low supply voltages; and NCL logic transformation needs to be investigated to improve the performance. With the industry-standard guidance, experience, and assistance from Radiance Technologies, a prototype NCL microcontroller incorporating the above innovations will be designed, fabricated, and tested. The results will be analyzed for further improvements, dissemination, and technology transfer for potential commercialization.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1607285</AwardID>
+    <Investigator>
+      <FirstName>Heath</FirstName>
+      <LastName>Berry</LastName>
+      <EmailAddress>heath.berry@radiancetech.com</EmailAddress>
+      <StartDate>08/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jia</FirstName>
+      <LastName>Di</LastName>
+      <EmailAddress>jdi@uark.edu</EmailAddress>
+      <StartDate>08/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Arkansas</Name>
+      <CityName>FAYETTEVILLE</CityName>
+      <ZipCode>727011201</ZipCode>
+      <PhoneNumber>4795753845</PhoneNumber>
+      <StreetAddress>210 Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arkansas</StateName>
+      <StateCode>AR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1504</Code>
+      <Text>GRANT OPP FOR ACAD LIA W/INDUS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7564</Code>
+      <Text>COMMS, CIRCUITS &amp; SENS SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>104E</Code>
+      <Text>MEMS/NEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1504</Code>
+      <Text>GRANT OPP FOR ACAD LIA W/INDUS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

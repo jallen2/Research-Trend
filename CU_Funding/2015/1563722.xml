@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Medium: Collaborative: New Protocols and Systems for RAM-Based Secure Computation</AwardTitle>
+    <AwardEffectiveDate>05/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2019</AwardExpirationDate>
+    <AwardAmount>464196</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Secure computation allows users to collaboratively compute any program on their private data, while ensuring that they learn nothing beyond the output of the computation. Existing protocols for secure computation primarily rely on a boolean-circuit representation for the program being evaluated, which can be highly inefficient. This project focuses on developing secure-computation protocols in the RAM model of computation. Particularly challenging here is the need to ensure that memory accesses are oblivious, and do not leak information about private data. We are designing efficient oblivious data structures that can be used as general-purpose building blocks for secure protocols in the RAM model of computation. &lt;br/&gt;&lt;br/&gt;This project develops a framework that enables programmers to write high-level code that can then be compiled by a back-end algorithm that analyzes the code and makes use of the oblivious data structures we provide. This work is influenced by the needs of real applications, and the techniques to analyze the exact requirements of the program will evaluated and to tailor the resulting protocol to those requirements. This project aims to develop tools making secure computation more accessible to non-specialists, so it can be more broadly used to perform computations on private data. The PIs on this project mentor both graduate and undergraduate students and actively encourage involvement of minority students. The project develops new course materials and interact with the broader community through involvement in the IEEE cybersecurity initiative and the Maryland Cybersecurity Council.</AbstractNarration>
+    <MinAmdLetterDate>05/17/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/17/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1563722</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Hicks</LastName>
+      <EmailAddress>mwh@cs.umd.edu</EmailAddress>
+      <StartDate>05/17/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jonathan</FirstName>
+      <LastName>Katz</LastName>
+      <EmailAddress>jkatz@cs.umd.edu</EmailAddress>
+      <StartDate>05/17/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

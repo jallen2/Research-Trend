@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Flash Memory for Ubiquitous Hardware Security Functions</AwardTitle>
+    <AwardEffectiveDate>07/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Performing financial transactions on a smartphone raises a number of security concerns. How can a bank be certain that a request is authentic? How do we prevent the same transaction to be unintentionally repeated? How can we ensure your sensitive information cannot be copied even if a phone is lost? Strong hardware security functions such as device fingerprints and true random number generators are essential in addressing these questions. However, traditional hardware security functions are difficult and expensive to build. This project investigates using off-the-shelf Flash memory, which is already in most digital systems today, to provide security functions like device fingerprints, random number generators, and secure information storage. These security functions will be extracted in a plug-and-play fashion from today's Flash without any customized modification, enabling hardware-based security in virtually all electronic devices. Therefore, this project will greatly enhance security and privacy in an era where computing devices are everywhere. Also, the project will train and educate a new generation of interdisciplinary engineers who can understand both security and semiconductor device.&lt;br/&gt;&lt;br/&gt;To enable the proposed security functions, this project taps into inherent analog behaviors of Flash memory such as hidden variations, noises, aging, etc. For example, random numbers can be generated from thermal or quantum noise in Flash memory. The device fingerprints can be extracted from program/erase timing variations of each memory cell, which cannot be predicted or controlled even by the Flash memory manufacturer. Information hiding can be achieved through selective stressing of bits to create probabilistic differences. Such hidden information will be very difficult to copy or even detect unless a specific secret key is known. These analog behaviors can be observed through the standard Flash memory interface without interfering with normal memory functions. Therefore, the proposed security functions will be broadly applicable to electronic systems with Flash memory.</AbstractNarration>
+    <MinAmdLetterDate>08/02/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/02/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1223955</AwardID>
+    <Investigator>
+      <FirstName>Edwin</FirstName>
+      <LastName>Kan</LastName>
+      <EmailAddress>kan@ece.cornell.edu</EmailAddress>
+      <StartDate>08/02/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gookwon</FirstName>
+      <LastName>Suh</LastName>
+      <EmailAddress>gs272@cornell.edu</EmailAddress>
+      <StartDate>08/02/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cornell University</Name>
+      <CityName>Ithaca</CityName>
+      <ZipCode>148502820</ZipCode>
+      <PhoneNumber>6072555014</PhoneNumber>
+      <StreetAddress>373 Pine Tree Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

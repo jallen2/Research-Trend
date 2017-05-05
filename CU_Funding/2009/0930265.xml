@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: CMG--Ensemble Data Assimilation for Nonlinear and Nondifferentiable Problems in Geosciences</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>399056</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06020106</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Atmospheric &amp; Geospace Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eric T. DeWeaver</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Data assimilation is an essential component of attempts to observe and predict the state of the atmosphere, defined as the values of temperature, pressure, humidity, wind speed, and other variables at specific locations. A data assimilation system typically has two components:1) a set of observations which are imperfect, unevenly distributed in space and time, and related to the state in complex ways (e.g. satellites sense radiation which is indirectly related to temperature and moisture, radar returns are indirectly related to precipitation); and 2) a complex and imperfect forecast model, which provides a "first guess" of the atmospheric state. The goal of data assimilation is to optimally combine the model first guess and the observations to produce the best possible representation of the state, accompanied by an estimate of the state uncertainty caused by the limitations of the observations and the forecast model. Ensemble data assimilation (EnsDA) is a data assimilation method in which an ensemble of forecasts is used in each assimilation cycle, so that differences among the forecast ensemble members provide a means of expressing the probabilistic nature of the model-generated first guess. For example, a single forecast will predict either rain or no rain at a given location, whereas an ensemble of forecasts can estimate the probability of rainfall. &lt;br/&gt;&lt;br/&gt;Due to the complexity of atmospheric variability and the indirect ways in which observations are related to the state, EnsDA methods usually require simplifying assumptions in order to be practically useful. Among the common simplifying assumptions are 1) that the observations can be related to the state through simple linear functions; and 2) that the atmosphere evolves smoothly, so that the atmospheric state can be treated as varying in space and time in a smooth, differentiable way. While convenient, these assumptions are not physically justifiable, and the research in this proposal is an attempt to find new EnsDA methods which do not rely on these assumptions. &lt;br/&gt;&lt;br/&gt;The work begins by quantifying the error in the estimated atmospheric state using a "cost function", which is minimized to produce the assimilated state. Nonlinearity and nondifferentiability in the evolution of the atmospheric state and in state-observation relationships leads to nonlinearity and nondifferentiability in the cost function. This research addresses the lack of smoothness in the cost function by 1) evaluating nondifferentiable cost function minimization methods suitable for EnsDA; 2) examining the value of hybrid ensemble data assimilation methods for nonlinear and nondifferentiable applications; and 3) developing and evaluating a nonlinear and nondifferentiable EnsDA method designed to quantify uncertainty in realistic high-dimensional geosciences applications. &lt;br/&gt;&lt;br/&gt;The research is intended to find better ways to use existing data and models to understand and predict the behavior of the atmosphere. These efforts will ultimately lead to better forecasts of severe weather which will benefit society. In addition, EnsDA techniques developed for the atmosphere will be applicable to the ocean and to coupled atmosphere-ocean models used to anticipate climate change. The grant will also contribute to the training of the next generation of scientists, by funding the education and training of a graduate student.</AbstractNarration>
+    <MinAmdLetterDate>09/01/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/01/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0930265</AwardID>
+    <Investigator>
+      <FirstName>Milija</FirstName>
+      <LastName>Zupanski</LastName>
+      <EmailAddress>Milija.Zupanski@colostate.edu</EmailAddress>
+      <StartDate>09/01/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dusanka</FirstName>
+      <LastName>Zupanski</LastName>
+      <EmailAddress>Zupanski@cira.colostate.edu</EmailAddress>
+      <StartDate>09/01/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Colorado State University</Name>
+      <CityName>Fort Collins</CityName>
+      <ZipCode>805232002</ZipCode>
+      <PhoneNumber>9704916355</PhoneNumber>
+      <StreetAddress>601 S Howes St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7215</Code>
+      <Text>OPPORTUNITIES FOR RESEARCH CMG</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7232</Code>
+      <Text>MATHEMATICAL GEOSCIENCES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>4444</Code>
+      <Text>INTERDISCIPLINARY PROPOSALS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7215</Code>
+      <Text>OPPORTUNITIES FOR RESEARCH CMG</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7232</Code>
+      <Text>MATHEMATICAL GEOSCIENCES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7303</Code>
+      <Text>MATH SCI PRIORITY AREA: INTERDISCIPLINAR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

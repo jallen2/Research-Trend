@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Runtime System Support for Automated Object Recycling</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2016</AwardExpirationDate>
+    <AwardAmount>381599</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project seeks to improve the performance of a wide verity of memory-constrained object-oriented applications by automatically recycling objects. Large-scale, object-oriented software commonly suffers from systemic performance problems, due to inefficiencies inherent in an object-oriented language as well as commonly-adopted design and implementation principles. These problems are becoming increasingly critical as object-oriented languages are used in systems that typically have small memory space and computation power, such as mobile devices. In such systems, memory inefficiencies inherent in an object-oriented language can lead to severe performance degradation and reduced scalability. Evidence suggests that excessive object creation is a major source of inefficiencies in memory-constrained object-oriented applications. Object recycling reduces this object creation overhead. Recycling is achieved by designing and implementing runtime system support that can cache objects upon their creation, detect unreachable objects from the cache, and reuse both instances and data content of dead objects.&lt;br/&gt;&lt;br/&gt;Modern life relies increasingly on memory-constrained systems such as smartphones, tablets, and data-analytical tools. This project provides an immediate performance benefit for such memory-constrained systems, thereby leading to improved quality, usability, and user satisfaction. In addition, the research represents a first step in a new direction for the research community to explore, and may provoke further interests in automating, other important (currently manually-enforced) optimizations. The impact of the research is extended by a strategy of open-source licensing and distribution of the resulting software through the OpenJDK and Android communities. The educational component of this project includes creation of new course materials, recruitment of undergraduate students and students from under-represented groups, and education of local programmers on how to develop highly-efficient memory-constrained applications.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/11/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1321179</AwardID>
+    <Investigator>
+      <FirstName>Guoqing</FirstName>
+      <LastName>Xu</LastName>
+      <EmailAddress>harry.g.xu@uci.edu</EmailAddress>
+      <StartDate>08/21/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173213</ZipCode>
+      <PhoneNumber>9498247295</PhoneNumber>
+      <StreetAddress>141 Innovation Drive, Ste 250</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

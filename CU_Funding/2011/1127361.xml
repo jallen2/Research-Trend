@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SDCI Sec: New Software Platforms for Supporting Network-wide Detection of Code Injection Attacks</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2017</AwardExpirationDate>
+    <AwardAmount>1148611</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita Nikolich</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In recent years, code-injection attacks have become one of the most&lt;br/&gt;common forms of attack on modern computer systems. At a high level,&lt;br/&gt;code-injection attacks on network services (e.g. file sharing and&lt;br/&gt;webservers) and client-based programs (e.g., browsers and document&lt;br/&gt;viewers) enable redirection of the flow of execution in the vulnerable&lt;br/&gt;program to arbitrary code, called shellcode, which is provided as part&lt;br/&gt;of the attack. The injected code often enables unauthorized control of&lt;br/&gt;system resources, applications, and data. The key to detecting these&lt;br/&gt;attacks lies in accurately discovering the presence of the shellcode&lt;br/&gt;being injected into the vulnerable program.&lt;br/&gt;&lt;br/&gt;The intent of this research is to design, implement, and deploy a new&lt;br/&gt;framework, called ShellOS, that continuously analyzes network streams&lt;br/&gt;or program buffers to detect the presence of executable code that may&lt;br/&gt;be harmful. The proposed approach addresses the shortcomings of&lt;br/&gt;current dynamic analysis techniques that use software-based CPU&lt;br/&gt;emulation for detecting shellcode. Unlike previous approaches, this approach takes&lt;br/&gt;advantage of hardware virtualization to allow for more efficient and&lt;br/&gt;accurate inspection of buffers by directly executing instruction&lt;br/&gt;sequences on the CPU. In doing so, this project enables more scalable&lt;br/&gt;techniques for protecting cyberinfrastructure against code injection&lt;br/&gt;attacks. Where possible, the project also plans to release anonymized forms of&lt;br/&gt;detected attacks. The availability of such data can play a significant&lt;br/&gt;role in fostering collaboration and ensuring U.S. technical leadership&lt;br/&gt;in network security research. The tools created as part of this&lt;br/&gt;project will be made available to the broader research community under&lt;br/&gt;an open source license.</AbstractNarration>
+    <MinAmdLetterDate>07/25/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/27/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1127361</AwardID>
+    <Investigator>
+      <FirstName>Scott</FirstName>
+      <LastName>Coull</LastName>
+      <EmailAddress>scott.coull@redjack.com</EmailAddress>
+      <StartDate>07/25/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Montek</FirstName>
+      <LastName>Singh</LastName>
+      <EmailAddress>montek@cs.unc.edu</EmailAddress>
+      <StartDate>07/25/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Fabian</FirstName>
+      <LastName>Monrose</LastName>
+      <EmailAddress>fabian@cs.unc.edu</EmailAddress>
+      <StartDate>07/25/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Chapel Hill</Name>
+      <CityName>CHAPEL HILL</CityName>
+      <ZipCode>275991350</ZipCode>
+      <PhoneNumber>9199663411</PhoneNumber>
+      <StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8027</Code>
+      <Text>Cyber Secur - Cyberinfrastruc</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>N618</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>O232</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

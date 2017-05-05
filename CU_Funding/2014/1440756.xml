@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: An Active File System for Processing and Sharing Petascale Multi-Dimentional Datasets</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Data sets in diverse areas such as biology, engineering, or astronomy routinely reach terabyte scales and are expected to grow to petabytes within the next few years. Typical examples include time series measurement or multidimensional volumetric data sets. Due to their rapidly increasing size, these data present severe limitations for data storage, transmission, and processing, and will thus become serious bottlenecks for analysis pipelines and collaborative data analysis. New approaches and frameworks are needed to enable the timely and cost effictive analyses at next generation data scales. The Active Data Processing and Transformation File System (ADAPT FS) combines efficient storage of original data with on-the-fly processing to enable collaborative processing and sharing of scientific datasets at the largest scales with minimal data duplication and latency. The remote access will leverage PSC's SLASH2 distributed filesystem and be extended to provide visualization. ADAPT-FS processing will enable easy access to leading-edge scientific datasets for teaching and training at institutions of all sizes.&lt;br/&gt;&lt;br/&gt;ADAPT-FS provides a FUSE based file system interface allowing seamless use from programs or web servers. The guiding principles behind ADAPT-FS are to: 1) eliminate unwanted data duplication; 2) minimize data transfer by working directly from original data when possible; 3) minimize delays between data capture and end-user analyses; and 4) provide a flexible workflow which incorporates active computation. The latter aspect enables improved parallel I/O performance by exploiting untapped CPU and GPU power on the nodes of large data servers. We will provide ADAPT-FS as open source, including a flexible and well-documented API and a plug-in framework enabling users to insert their own GPU and CPU codes into the data pipeline to extend and customize its data processing capabilities. Thus, ADAPT-FS will provide a critical technology to tackle the next generation of massive data intensive processing, allowing efficient and rapid analysis of petabytes size data sets with minimal data duplication in a collaborative multi-site framework.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1440756</AwardID>
+    <Investigator>
+      <FirstName>Arthur</FirstName>
+      <LastName>Wetzel</LastName>
+      <EmailAddress>awetzel@psc.edu</EmailAddress>
+      <StartDate>08/08/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1165</Code>
+      <Text>ADVANCES IN BIO INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1165</Code>
+      <Text>ADVANCES IN BIO INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

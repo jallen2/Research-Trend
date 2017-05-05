@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ICES: Small: Heuristic Mechanism Design</AwardTitle>
+    <AwardEffectiveDate>05/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>10/31/2015</AwardExpirationDate>
+    <AwardAmount>359920</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computational mechanism design (CMD) seeks to understand how to promote desirable outcomes in multi-agent systems, despite private information, self-interest and limited computational resources. CMD finds application in many settings; e.g., in the public sector for wireless spectrum and airport landing rights, in Internet advertising, in expressive sourcing in the supply chain, in allocating resources in computational systems. A key concept is strategyproofness: the mechanism's outcome should be robust against manipulations through misreports of private information held by participants.&lt;br/&gt;&lt;br/&gt;In meeting the demands for CMD in these rich domains, we often need to bridge from the theory of economic mechanism design to the practice of deployable, computational mechanisms. The broad goal of this project is to leverage scalable, heuristic optimization algorithms, making them applicable in settings with self-interest. Rather than seeking provably optimal but possibly inapplicable mechanisms (either without complexity considerations, as in economic theory, or with worst-case complexity considerations, as is commonplace in theoretical computer science), we propose a new computational agenda.&lt;br/&gt;&lt;br/&gt;Provable guarantees are often unavailable when search algorithms are applied to real-world optimization problems. Still, heuristic search algorithms are widely employed, and find good empirical success. We seek something analogous to this for settings in which inputs are distributed to participants, each self-interested and willing to misreport inputs in order to improve the outcome in their favor. Rather than looking for optimal mechanisms amongst the class of polynomial-time algorithms, we seek to employ search algorithms with excellent empirical performance despite worst-case exponential run-time (if run-to-completion.)&lt;br/&gt;&lt;br/&gt;Specific topics of interest include: (a) automatic self-correction, to apply online sensitivity analysis to automatically correct the outcome of an algorithm, allowing the algorithm to be coupled with payments and made strategyproof; (b) metrics for approximate strategyproofness, to enable design without solving for equilibrium; and (c) automatic generation of payment rules through the use of machine learning, by imposing appropriate structure on the hypothesis space.&lt;br/&gt;&lt;br/&gt;Successful progress will provide new and fundamental methodologies with which to develop incentive-aligned mechanisms (e.g., for resource and task allocation) that enjoy excellent empirical properties and are able to scale to real-world domains. The theory of mechanism design has already provided broad societal impact, in enabling the auctioning of public resources such as wireless spectrum and power generation capacity, and in driving revenue to internet businesses by enabling efficient advertising. A new framework for heuristic mechanism design will enable a new generation of mechanisms for large-scale coordination and resource allocation amongst people, firms and organizations, with the promise of broad applications to electronic commerce (including mobile commerce), cloud computing, and across the supply chain.</AbstractNarration>
+    <MinAmdLetterDate>04/27/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/27/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1101570</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Parkes</LastName>
+      <EmailAddress>parkes@eecs.harvard.edu</EmailAddress>
+      <StartDate>04/27/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Harvard University</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021385366</ZipCode>
+      <PhoneNumber>6174955501</PhoneNumber>
+      <StreetAddress>1033 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8052</Code>
+      <Text>Inter Com Sci Econ Soc S (ICE)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

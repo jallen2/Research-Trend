@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Core: Monotonic Retargeting: A Scalable Learning Framework for Determining Order</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>496167</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Aidong Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Determining preferences, or identifying and ordering items of most interest or relevance based on very limited information, is a fundamental problem in many disciplines. While perhaps most obvious in search, the problem shows up in areas as diverse as economics and health informatics. This project is developing a broad methodology to address challenging learning problems that involve ordering, including determining top choices for recommendation, multi-label classification, and learning to rank-order a set of query results. The key insight is that if the objects to be ordered are given numeric scores, only the relative values of these scores affect their ranking, and not the actual values. This project is using this insight to develop new and better learning algorithms for ranking.&lt;br/&gt;&lt;br/&gt;Specifically, the project is developing methods that can efficiently optimize over all possible monotonic (that is, order preserving) transformations of scores. Since these scores become the target values for regression, this class of approaches is being called monotonic retargeting. A systematic way of alternating between readjusting scores and updating the regression model is being developed, with nice properties for scalability and distributed implementation, as well as strong convergence guarantees. Themes common to different types of preference learning or ranking studies are being identified to help bring together the diverse communities, including students, that work on this topic. This wide coverage is possible as it easy to relate to the need to determine priorities and make choices in various walks of life. The applications and impacts of the project are expected to be wide and diverse as well.</AbstractNarration>
+    <MinAmdLetterDate>07/23/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1421729</AwardID>
+    <Investigator>
+      <FirstName>Joydeep</FirstName>
+      <LastName>Ghosh</LastName>
+      <EmailAddress>ghosh@ece.utexas.edu</EmailAddress>
+      <StartDate>07/23/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

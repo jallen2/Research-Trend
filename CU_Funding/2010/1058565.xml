@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SBIR Phase II: A Multithreaded Storage Engine Using Highly-Concurrent Fractal Trees</AwardTitle>
+    <AwardEffectiveDate>02/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>425000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07070000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Glenn H. Larsen</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This Small Business Innovation Research (SBIR) Phase II project will apply multithreading techniques to provide multi-terabyte (and larger) high-performance databases in MySQL. The company has developed a highperformance storage engine for MySQL, which maintains indexes on live data 100 times faster than current commonly-used structures. The technology solves the problem of maintaining indexes on large databases in the face of high trickle-load indexing rates. In Phase I, the company developed a multithreaded bulk loader to solve the problem of how to load data quickly. The next significant research problems for large MySQL databases are to allow online, or "hot", schema changes in which, for example, an index can be added without taking the database down, and to use multithreading to speed up joins and reductions so that the large data sets can be queried quickly. In this project, the researchers will investigate the use of multithreading to support hot indexing and parallel joins reductions.&lt;br/&gt;&lt;br/&gt;If successful, multi-terabyte and larger databases will be manageable and fast on modest hardware, and the hardware will be scalable both with CPU cores and disks. The broader impact of this work is driven by faster, cheaper, lower-power on-disk storage. Organizations that have very large databases will be able to use much less hardware, both saving money and reducing power consumption significantly. Currently many application areas do not employ databases because their performance is too slow. Speeding up databases by two orders-of-magnitude can help grow the market. Currently, many organizations fail to make good use of the data they have collected because they cannot manage it, index it, or query it fast enough to be useful. Applications in finance, retail, homeland security, telecommunications, and scientific computing will benefit from improved manageability and performance. As users' appetite for data continues to outstrip the availability of fast memory, organizing multithreaded queries on disk-based data for performance will continue to grow in importance.</AbstractNarration>
+    <MinAmdLetterDate>01/31/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1058565</AwardID>
+    <Investigator>
+      <FirstName>Bradley</FirstName>
+      <LastName>Kuszmaul</LastName>
+      <EmailAddress>bradley@mit.edu</EmailAddress>
+      <StartDate>01/31/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Tokutek, Inc.</Name>
+      <CityName>Lexington</CityName>
+      <ZipCode>024214703</ZipCode>
+      <PhoneNumber>3392230680</PhoneNumber>
+      <StreetAddress>1 Militia Drive, Suite 11</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>5373</Code>
+      <Text>SMALL BUSINESS PHASE II</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>5373</Code>
+      <Text>SMALL BUSINESS PHASE II</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6850</Code>
+      <Text>DIGITAL SOCIETY&amp;TECHNOLOGIES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9139</Code>
+      <Text>INFORMATION INFRASTRUCTURE &amp; TECH APPL</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

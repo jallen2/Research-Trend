@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Algorithms for Genome Assembly of Ultra-Deep Sequencing Data</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>499000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will investigate the computational challenges that will brought upon by the analysis of ultra-deep sequencing data (i.e., coverage 1000x or higher), specifically in the context of de novo genome assembly. As sequencing cost continues to decrease, ultra-deep sequencing data will become more common, but the problem of de novo genome assembly remains computationally challenging, in particular for large, repetitive genomes. Since the sequencing of H. influenzae in 1995, the assembly problem has been characterized by limited depth of sequencing coverage mostly due to the high cost of generating the data. This project will investigate for the first time the opposite problem, that is, the challenge of dealing with excessive depth of sequencing. Deliverables will include novel software tools for genome assembly which will benefit researchers and the public worldwide, and potentially lead to new international and industrial collaborations. This project will directly support two graduate students in a highly interdisciplinary environment, building on UCR's strengths in Computer Science and Agricultural Sciences. Undergraduates will have opportunities to participate in research through a Research Experiences for Undergraduates (REU) site at UCR, a collaboration with a nearby community college, and a new US Department of Education Title V Hispanic Serving Institution grant (UCR is an accredited HSI).&lt;br/&gt;&lt;br/&gt;The research plan is aimed at de novo assembly problem under the assumption that the input sequencing data is ultra-deep. The study will demonstrate that when the depth of sequencing increases over a certain threshold, sequencing errors make the genome assembly problem harder and harder, and as a consequence the quality of the solution degrades with more and more data. The project will show that modern de novo assemblers like SPAdes, IDBA-ud, and Velvet are unable take advantage of ultra-deep sequencing data. The research plan will deal with ultra-deep sequencing data using a divide-and-conquer approach. In this proposed meta-assembler, the input data will be partitioned into optimal-sized "slices" and a standard assembly tool (e.g., Velvet, SPAdes, IDBA, Ray) will be used to assemble each slice individually. For the de novo assembler, a set of de Bruijn graphs will be created, each one built form the sequencing data of a slice. In both cases, a majority voting strategy among the individual assemblies/graphs will be used to generate a high-quality consensus assembly.&lt;br/&gt;&lt;br/&gt;Updates and additional information about this project will be made available at http://www.cs.ucr.edu/~stelo/iis15.htm</AbstractNarration>
+    <MinAmdLetterDate>08/11/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/11/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526742</AwardID>
+    <Investigator>
+      <FirstName>Stefano</FirstName>
+      <LastName>Lonardi</LastName>
+      <EmailAddress>stelo@cs.ucr.edu</EmailAddress>
+      <StartDate>08/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

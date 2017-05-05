@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Host-Assisted, Software-Defined Solid-State Disk</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>299960</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Over the past two decades flash-based storage has crept up from a niche and relatively unknown storage technology to the mobile and embedded medium of choice, and made significant in-roads in the laptop and server arenas in the incarnation of Solid State Disk (SSD). Increasingly, many applications use SSDs and trends indicate that SSD usage will grow significantly. However, SSDs are no silver bullet - in reality, the flash firmware in all commercial SSDs is very rigid and highly unadaptable across input/output (I/O) workloads creating sincere challenges which include the added cost of firmware per SSD, firmware inflexibility, and assisting SSD hardware limitations. This work will address these key issues. &lt;br/&gt;&lt;br/&gt;The research will investigate how SSDs should achieve the flexibility they need to perform best for a variety of I/O workloads by being software-defined. This manages the repeating cost of a copy of inflexible firmware for each SSD, and will push the current firmware into the more general and malleable software space. Another area of exploration will be to investigate how SSDs could be made capable of collaborating with the host such that resources on both sides can be shared towards a more flexible and higher-performing I/O device. This will prevent on-board SSD assisting hardware from being vastly over/under utilized, enabling the host to take advantage of workload-specific optimizations on the SSD itself instead of pushing the data back to the host. Increased flexibility in the mechanisms that drive flash-based SSDs will provide system administrators the ability to tune their flash storage for workloads in use. Increased cooperation and transparency between the host and the flash device should enable improved application/library/device-level optimizations that are impossible under the current rigid and protocol-obfuscated regime. Intelligent sharing of assisting hardware (mainly compute and memory) across the host and SSD will enable more expensive SSD optimizations to be performed given the host's compute and memory power, and more clever I/O optimizations to be performed given the SSD's locality to the underlying data. Further, bringing SSD related tasks to the host side can enable co-optimization of application threads and I/O threads, improving potentially computation, communication, and I/O, and similarly, SSD tasks can be co-optimized with application threads on the SSD side, leading to a more efficient active flash system.</AbstractNarration>
+    <MinAmdLetterDate>09/10/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/09/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422923</AwardID>
+    <Investigator>
+      <FirstName>Carl</FirstName>
+      <LastName>Sechen</LastName>
+      <EmailAddress>cms057000@utdallas.edu</EmailAddress>
+      <StartDate>05/09/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Myoungsoo</FirstName>
+      <LastName>Jung</LastName>
+      <EmailAddress>jung@utdallas.edu</EmailAddress>
+      <StartDate>09/10/2014</StartDate>
+      <EndDate>05/09/2016</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Dallas</Name>
+      <CityName>Richardson</CityName>
+      <ZipCode>750803021</ZipCode>
+      <PhoneNumber>9728832313</PhoneNumber>
+      <StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

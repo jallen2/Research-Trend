@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: NeTS: Towards the Design of a Large-Scale Wireless Sensor Network</AwardTitle>
+    <AwardEffectiveDate>05/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2018</AwardExpirationDate>
+    <AwardAmount>175000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Thyagarajan Nandagopal</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of this project is to design highly scalable wireless sensor networks (WSNs) for sensing and control applications over wide areas. WSNs face significant scalability challenges due to the proliferation of emerging wide-area wireless monitoring and control systems (e.g., urban sensing, large civil infrastructure monitoring, oil field management) that require thousands of sensors be connected over long distances. Due to their short communication range, existing WSN technologies face critical challenges in terms of energy, cost, and complexity to achieve scalability in wide-area deployments. To address this limitation, this project proposes a scalable sensor network architecture - called Sensor Network Over White Spaces (SNOW) - by designing sensor networks to operate over the TV white spaces, which refer to the allocated but unused TV channels. This project will lead to a new generation of WSN that will operate over white spaces, enabling a broad range of applications that involve wide-area monitoring and control. Besides its scientific impact across multiple subareas of computer science, it will impact education, outreach, and diversity. The scientific contributions of the project will be incorporated in various computer science courses. The interdisciplinary nature of the proposed research and hands-on experimental opportunities will attract diverse students to participate in the project including women and under-represented students. The principal investigator (PI) will leverage collaborations with industrial partners to transfer the technology to industries for future WSN mote design and also will work with standards bodies to standardize the technology to be developed in this project. &lt;br/&gt;&lt;br/&gt;Since the TV transmissions are in lower frequencies (50-698 MHz), white spaces have excellent propagation characteristics over long distances. Compared to the ISM band, they are less crowded. Long range will reduce most WSNs to a single-hop structure that has potential to reduce the complexity, overhead, and latency that existing WSN technologies operating in 2.4GHz face due to multi-hop. SNOW hence can support large-scale sensor deployments over wide areas. However, most WSN applications need low data rate, low power nodes, and require scalability and energy efficiency. The SNOW architecture achieves scalability and energy efficiency through channel splitting and enabling simultaneous packet receptions with single radio. The base station is power-rich and has a single transceiver that uses available wide spectrum from white spaces. The spectrum is split into narrow subcarriers that have longer range and that consume less power. The sensor nodes transmit using their assigned sub-carriers asynchronously. The base station is able to process multiple sub-carriers simultaneously. Enabling such simultaneous receptions at a node is challenging as it requires a novel decoder design. In the SNOW architecture, this is done through Orthogonal Frequency Division Multiplexing (OFDM) that provides distinct orthogonal signals. The contributions of this project will include: (1) the design of the physical layer of SNOW that includes white space spectrum splitting into narrow band subcarriers and a demodulator design that can decode simultaneous packet receptions; (2) the design of the media access control protocol for SNOW that handles subcarrier allocation among the nodes and their transmission scheduling; (3) the implementation of the SNOW architecture on a prototype hardware, and evaluation through realistic experiments.</AbstractNarration>
+    <MinAmdLetterDate>04/14/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/14/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1565751</AwardID>
+    <Investigator>
+      <FirstName>Abusayeed</FirstName>
+      <LastName>Saifullah</LastName>
+      <EmailAddress>saifullaha@mst.edu</EmailAddress>
+      <StartDate>04/14/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Missouri University of Science and Technology</Name>
+      <CityName>Rolla</CityName>
+      <ZipCode>654096506</ZipCode>
+      <PhoneNumber>5733414134</PhoneNumber>
+      <StreetAddress>300 W 12th Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Missouri</StateName>
+      <StateCode>MO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>026Y</Code>
+      <Text>CRII CISE Research Initiation</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

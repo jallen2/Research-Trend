@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: FIREFLY - Rich Explanations for Database Queries</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2021</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Aidong Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With the recent popularity of Big Data, a range of people including data analysts, scientists, decision makers, and ordinary Internet users are increasingly seeking high level explanations for trends and anomalies in available datasets. Such a user typically runs queries on the datasets, computes aggregates, plots the answers on a graph, and looks for explanations for what she observes. For example, she may ask: "Why are two graphs similar or different?", "Why is a sequence of points increasing or decreasing?", "Why is there a sudden spike or dip in a graph?", and so on. Existing data analysis systems focus on large-scale statistical analytics, multi-dimensional data aggregation, interactive data exploration, and sophisticated visualization support. However, there are no tools currently available that offer semantic explanations to users. This project develops a toolkit named FIREFLY (Formal Interactive Rich Explanations On-The-Fly) that provides fast, rich, insightful explanations in response to such 'why' questions asked by users. The automatic explanations provided by this tool will help users harness Big Data more effectively, and the research findings of the project will enrich Big Data analytics techniques. Furthermore, the courses developed in conjunction with this project and the research experience that it will provide students at various levels will help train them to be future researchers. Special attention will be paid to supporting diversity in this process.&lt;br/&gt;&lt;br/&gt;This project introduces a new perspective in data analysis principled upon the notions of causality, counterfactuals, and interventions. FIREFLY aims to find synopses of properties on input tuples as explanations, such that by restricting the database to tuples that entail a different value of these synopses, the answer to the query and the observation of the user changes, thereby explaining the observation. In order to efficiently return meaningful synopses as explanations, this project will develop theory, algorithms, and optimizations along three main research directions: (1) a rich framework will be established to support meaningful explanations, large classes of database queries, and a variety of questions asked by the users, (2) an interactive tool with a graphical user interface will be built to help users run queries, ask questions, and explore the explanations returned by the tool, and (3) new techniques will be developed to handle uncertainty in the input data and in the explanations themselves.</AbstractNarration>
+    <MinAmdLetterDate>07/05/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/05/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1552538</AwardID>
+    <Investigator>
+      <FirstName>Sudeepa</FirstName>
+      <LastName>Roy</LastName>
+      <EmailAddress>roy.sudeepa@gmail.com</EmailAddress>
+      <StartDate>07/05/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

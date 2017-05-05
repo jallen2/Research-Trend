@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Addressing Visual Analogy Problems on the Raven's Intelligence Test</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hector Munoz-Avila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal aims to create purely image-based reasoning methods for solving visual analogy problems, particularly so-called Raven's Progressive Matrices (RPM) problems. The project draws on recent results from the study of human cognition as well computer science and mathematics. Raven's Progressive Matrices consist wholly of visual analogy problems in which a matrix of geometric figures is presented with one entry missing, and the correct missing entry must be selected from a set of answer choices. Recent analysis of RPM data suggests that although in general the performance of individuals with autism on most intelligence tests is significantly inferior to that of typically developing individuals, on the Raven's test the performance of the two groups is comparable. This data is consistent with the "Thinking in Pictures" hypothesis that has been proposed as a potential, partial cognitive explanation of autism. In both artificial intelligence and psychology, current theories of solving RPM problems first convert the visual inputs into verbal representations and then process the verbal representations. In contrast, this project explores the hypothesis that many RPM problems can be solved using only visual representations, without extracting any verbal representations from the input images. This project will develop and analyze computational techniques for addressing RPM problems with only visual representations. &lt;br/&gt;&lt;br/&gt;In particular, this project will develop a novel algorithm based on affine transformations for addressing RPM problems as well as a second algorithm that makes use of fractal encodings. With both approaches -- affine and fractal -- the project seeks to achieve human-level performance on RPM in terms of percentages of problems solved correctly. The two algorithms will also be tested on the "odd-man-out" corpus that contains thousands of visual analogy problems. The project will formally characterize the set of visual analogy problems for which the affine and fractal algorithms are applicable, analyze the computational properties of the algorithms, construct proofs of their correctness for specific classes of problems, and compare the errors made by the two algorithms with those made by two groups of humans -- typically developing individuals and individuals with autism. The project will parameterize the visual algorithms to detect the settings under which the patterns of errors made by an algorithm on RPM problems most closely match the error patterns of the two human groupings. &lt;br/&gt;&lt;br/&gt;Autism is an important problem of growing social concern. While the thinking-in-pictures hypothesis has long been a significant insight into cognition in autism, and empirical evidence -- both behavioral and neuroimaging -- in its favor is increasing, there have been no computational models for it. The proposed research would help provide a computational form to this hypothesis and may help establish a disposition towards visual thinking with autism. RPM is considered one of the core tests of intelligence, and although there have been several suggestions about the visuospatial nature of RPM problems, all current computational models addressing such visual analogy problems use sequential processing on propositional representations of the input images. The algorithms from this project that rely on visual representations for RPM could provide new insights into intelligence testing. Lastly, while fractal encodings have been used in computer graphics for generating images and in computer vision for texture analysis in image processing, this project's use of fractal encodings for visual analogies on intelligence tests will contribute to knowledge of fractal computing.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116541</AwardID>
+    <Investigator>
+      <FirstName>Ashok</FirstName>
+      <LastName>Goel</LastName>
+      <EmailAddress>ashok.goel@cc.gatech.edu</EmailAddress>
+      <StartDate>07/29/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

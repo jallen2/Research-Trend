@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: Breaking the Scalability Wall of Shared Memory through Fast On-Chip Wireless Communication</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2020</AwardExpirationDate>
+    <AwardAmount>879180</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As transistor sizes continue to scale, we are about to witness stunning levels of chip integration, with 1,000 cores on a single die. At these processor counts, it has been an accepted tenet among many researchers that shared memory does not scale. The reason is the high hardware overhead of supporting fine-grain synchronization and communication between so many cores. This research seeks to disprove this. It shows that fine-grain data sharing is scalable with the use of fast on-chip wireless communication. The Principal Investigators (PIs) augment each core with a transceiver that enables on-chip broadcast in 5-7 nanoseconds, and design a multicore architecture that supports it. Then, the PIs implement synchronization and communication primitives and libraries that support fine-grain data sharing with an unprecendented low overhead. With these primitives, the PIs redesign popular runtimes such as OpenMP or Cilk, and rethink algorithms and applications. This effort contributes to multidisciplinary research and education on scalable parallel computing at the University of Illinois. The PIs will enhance the courses that they teach in parallel computer architecture, parallel compilation techniques, and parallel programming. They are also working with the department to broaden the course offerings with multidisciplinary undergraduate courses in the general area of parallel computing --- as part of Illinois' CS+X major structure, where X can be a large number of other disciplines. The work will also have an impact on industry, since it addresses a real, very timely technical problem: extraordinary on-chip integration coupled with unscalable fine-grain data sharing. The ability to work closely with IBM Research and Microsoft Research will be crucial.&lt;br/&gt;&lt;br/&gt;This is a cross-disciplinary effort that cuts across three areas: architecture, programming systems, and algorithms and applications. The architecture work focuses on supporting on-chip wireless communication by extending cache coherence transactions, trading-off wireless power for error rate, and supporting multiple wireless channels. The programming systems work focuses on redesigning the MPI communication primitives, making shared memory scalable for OpenMP and Cilk, and designing a best-effort API for application resiliency. The algorithms and applications work focuses on studying and developing algorithms and applications  that can take advantage of the architecture. The PIs study problems in the areas of graphs, numerics, dynamic programming, recognition-mining-synthesis, and MapReduce.</AbstractNarration>
+    <MinAmdLetterDate>06/28/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/28/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1629431</AwardID>
+    <Investigator>
+      <FirstName>Josep</FirstName>
+      <LastName>Torrellas</LastName>
+      <EmailAddress>torrellas@cs.uiuc.edu</EmailAddress>
+      <StartDate>06/28/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Padua</LastName>
+      <EmailAddress>padua@uiuc.edu</EmailAddress>
+      <StartDate>06/28/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sasa</FirstName>
+      <LastName>Misailovic</LastName>
+      <EmailAddress>misailo@illinois.edu</EmailAddress>
+      <StartDate>06/28/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

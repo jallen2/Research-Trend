@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Subgrid-scale Models for Large-eddy Simulation of Cloud Formation and Evolution</AwardTitle>
+    <AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>85340</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06020105</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Atmospheric &amp; Geospace Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chungu Lu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Clouds are important to the earth's energy balance and a regulator of both climate and weather. The estimation of cloud formation, cloud cover, precipitation, etc., for both climate and weather prediction is accomplished with numerical simulations. Despite computational advances and for the foreseeable future, simulations of the real atmosphere for weather and climate prediction will feature results in which a significant fraction of the energy, heat and vapor fluxes, etc., will not be resolved and must be modeled. This project's goal is to develop, validate and make available to the community improved and more physically realistic turbulence models for the subgrid- and subfilter-scales in moist-atmosphere large-eddy simulation (LES) simulation codes, in collaboration between UC Berkeley, Stanford University, and NCAR scientists. &lt;br/&gt;&lt;br/&gt;Two new subgrid-scale (SGS) model sets (one using dynamic methods and one using a linear, algebraic model) will be developed for all elements of a cloud simulation, i.e., momentum, heat, water's liquid and vapor phases, graupel, the prognostic equations in the microphysics, etc. These SGS closures have improved mean fields and higher-order statistics in previous boundary layer simulations, but have yet to be applied to clouds. The SGS models will be constructed within the explicit filtering and reconstruction framework, which reduces numerical errors and provides a more physical representation of turbulent stresses.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: &lt;br/&gt;The project aims to provide significantly improved models for the unresolved fields (including momentum, heat, water vapor, liquid, and other scalar fluxes), to yield deeper understanding of the physical processes being modeled, and to validate those models in test case simulations of realistic clouds. The other goal is to clarify the validity of using such subroutines in the Terra Incognita [TI] / Gray Zone of atmospheric simulations, i.e., the zone of grid resolution in which flow features such as convective thermals are partly resolved and partly sub-grid. This zone is becoming an ever greater challenge as numerical simulations cover more and more length scales. The role of SGS closures in the Terra Incognita is still largely unexplored, particularly in the case of clouds. Building upon prior research on SGS modeling, the research will (1) create new SGS equation sets for the moist atmosphere, (2) apply them in a priori tests and then (3) carry out simulations of field-scale situations covering clear convective boundary layers, trade-wind cumulus with and without precipitation, shallow cumulus, and deep convection. These simulations will be set up to assess the performance of the equation sets for their accuracy and efficiency and to assess model performance in the TI (or Gray Zone).&lt;br/&gt;&lt;br/&gt;Broader Impacts: &lt;br/&gt;There are two domains of broader impacts. First, successful completion of this work will yield improved predictions of cloud generation and evolution in the simulations. Because the code on which the work is based is widely used internationally, this will be a major benefit to the community. Given that accurate prediction of cloud formation and behavior is a critical element in weather and climate prediction and, in particular, rainfall, the work has the potential for significant impact across the weather domain. Previous experience suggests that the new SGS models will be easily transported to other codes as well, which will further broaden the impact of this work. Second, this project aims through its collaboration with NCAR to give broad and high quality training to a postdoctoral researcher, who will benefit from the exposure to the modeling expertise at Berkeley and Stanford and the modeling and microphysics expertise at NCAR. In addition, a Stanford undergraduate student will work on the project to complement the work of the postdoctoral researcher.</AbstractNarration>
+    <MinAmdLetterDate>06/23/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/02/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1503885</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Street</LastName>
+      <EmailAddress>street@stanford.edu</EmailAddress>
+      <StartDate>06/23/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1525</Code>
+      <Text>PHYSICAL &amp; DYNAMIC METEOROLOGY</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

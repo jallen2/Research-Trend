@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Non-blocking Writes</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>513367</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In current operating systems, writes to pages that are not in core memory require the process to block until the page can be fetched from the backing store. This project investigates buffering the write to a temporary page in core memory, so as to unblock the process to continue computation, and applying the write asynchronously. Research tasks include study and experimentation with implementation techniques for deferring out-of-core page writes, analysis of how scheduling and other aspects of the operating system may need to be modified in order to realize the full benefits of write deferral, and empirical studies to assess the performance impact of write deferral on a variety of applications.&lt;br/&gt;&lt;br/&gt;By incorporating non-blocking writes within the operating system, applications can transparently benefit from a performance improvement, without any modification to the application. The potential performance benefits apply to a broad spectrum of computer systems and applications. The project promotes transition of the technology to practice through open source distribution of Linux operating system code implementing the innovations. Educational activities include involvement of undergraduate students and incorporation of project research into courses taught by the PI. Outreach includes recruitment of under-represented minority students for participation in the project.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/17/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320426</AwardID>
+    <Investigator>
+      <FirstName>Raju</FirstName>
+      <LastName>Rangaswami</LastName>
+      <EmailAddress>raju@cs.fiu.edu</EmailAddress>
+      <StartDate>08/26/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Florida International University</Name>
+      <CityName>Miami</CityName>
+      <ZipCode>331990001</ZipCode>
+      <PhoneNumber>3053482494</PhoneNumber>
+      <StreetAddress>11200 SW 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1139</Code>
+      <Text>RSCH EXPER FOR UNDERGRAD SITES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

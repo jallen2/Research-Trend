@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Highly efficient and accurate numerical schemes for nonlinear gradient flows with energy stability</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>189998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this project is to study efficient and robust tools to numerically simulate certain nonlinear gradient flows. These numerical schemes will yield highly efficient solvers to study the complicated long-time dynamics of different models in physics, materials engineering, and biological sciences. This work is expected to have a direct and immediate impact on many scientific disciplines. The large time scale simulation of these nonlinear gradient flows is vital for understanding phase transformations of materials at the atomic and nanometer scales, the complex processes in biological growth and development, and the complicated topological change involved in two-phase flows, etc. Some numerical schemes developed by the PI have been efficiently applied in large scale, multi-discipline scientific projects; a collaborative part of the project will leverage expertise in angiogenesis analysis of tumor growth simulation and is expected to lead to significant impact in the medical sciences community. The PI will make the computational tools available in the public domain so that researchers will have direct access to some of the developed algorithms. Through work in the project, a graduate student will receive extensive training in high-performance scientific computing, numerical mathematics, and modeling. &lt;br/&gt;&lt;br/&gt;In the proposed gradient flow models, the physical energy can be decomposed into purely convex and concave parts. The PI considers convex splitting (CS) numerical schemes, including both the 1st and 2nd order accurate splittings in time, and finite difference, finite element and pseudospectral approximations in space. A major challenge is designing truly efficient solvers for these highly nonlinear CS schemes. For example, a direct nonlinear multigrid solver can be applied. As an alternate approach, linear iterative algorithms are proposed in this work, and a contraction mapping property is expected for these linear iteration based solvers. In other words, although the formulated CS scheme is nonlinear, a linear iteration based algorithm can be used to approximate solutions of this highly nonlinear system with a geometric convergence rate. A detailed comparison between a nonlinear solver and linear iteration algorithm will also be conducted.</AbstractNarration>
+    <MinAmdLetterDate>07/22/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1418689</AwardID>
+    <Investigator>
+      <FirstName>Cheng</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>cwang1@umassd.edu</EmailAddress>
+      <StartDate>07/22/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts, Dartmouth</Name>
+      <CityName>North Dartmouth</CityName>
+      <ZipCode>027472300</ZipCode>
+      <PhoneNumber>5089998953</PhoneNumber>
+      <StreetAddress>285 Old Westport Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8396</Code>
+      <Text>Clean Energy Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8609</Code>
+      <Text>Other Energy Research</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

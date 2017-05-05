@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: A Formal Verification Platform Focused on Programmer Productivity</AwardTitle>
+    <AwardEffectiveDate>06/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2018</AwardExpirationDate>
+    <AwardAmount>420000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Billions of people depend daily on software systems built on top of slowly changing operating systems, programming languages, and library interfaces. A unifying theme of this infrastructure, from operating systems to Web browsers, is the use of nested sandboxes, involving multiple levels of abstraction, with complete mediation of resource accesses within and across levels. That is, as a program runs, several layers of abstraction are checking all resource accesses for conformance to security and isolation policies. This run-time checking imposes substantial overhead and is also quite inflexible. Often some sandbox layer is fundamentally incompatible with a new programming technique that could bring improved performance, security, etc. We will study how the Bedrock system may be used to replace restrictive run-time policy enforcement with open-ended compile-time policy enforcement, by requiring programmers to distribute code with formal mathematical proofs of policy conformance. As a concrete case study, we will implement a platform to replace today's common combinations of cloud hosting and Web browsers, providing a similar application experience to end users while giving programmers much more flexibility. To educate the future users of our tools, we will also develop an online tutor program suitable for use in introductory discrete math and logic classes, giving students instant feedback on the validity of their rigorous proofs.&lt;br/&gt;&lt;br/&gt;The theoretical foundation of Bedrock, a Coq library, is higher-order separation logic for assembly languages. Several past projects have demonstrated how proofs in such logics may be carried out using proof assistants. Bedrock is distinguished by providing tools for mostly automated proofs, where the programmer provides help to the verifier through loop invariants and a few other types of annotation. We will continue improving this automation support to lower the human cost of verification further, while also investigating ways to broaden Bedrock's domain, such as to multi-core programs. We also intend to investigate the new semantic idea of phantom monitors, which allow Bedrock programs to spawn arbitrary automata (defined with their transition relations in Coq) that watch all program behavior and may veto actions that violate some policy. This is a compile time-only feature to support effective specifications, and we hope to use it as a unifying framework for specifying the interfaces between components in our proof-of-concept distributed application platform.</AbstractNarration>
+    <MinAmdLetterDate>02/06/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/31/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1253229</AwardID>
+    <Investigator>
+      <FirstName>Adam</FirstName>
+      <LastName>Chlipala</LastName>
+      <EmailAddress>adamc@csail.mit.edu</EmailAddress>
+      <StartDate>02/06/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Compositional End-to-End Security for Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>499995</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Compositional security is a recognized central scientific challenge for trustworthy computing. Contemporary systems are built up from smaller components. However, even if each component is secure in isolation, the composed system may not achieve the desired end-to-end security property: an adversary may exploit complex interactions between components to compromise security. &lt;br/&gt;&lt;br/&gt;This project addresses this important problem by developing a general model of systems and adversaries and techniques for modular reasoning and design. A central idea is to view a trusted system in terms of the interfaces that the various components expose: larger trusted components are built by combining interface calls in known ways; the adversary is constrained to the interfaces it has access to, but may combine interface calls without restriction. At a technical level, we are developing an expressive concurrent programming language with recursive functions for modeling interfaces and higher-order data for modeling code obtained at run time, and a logic of programs to capture reasoning principles for compositional security. We are using this framework to develop a systematic basis for web security, to formalize attacker models for web browsers proposed in literature and develop new ones, and to build an understanding of relevant security policies, end-to-end security properties, attacks in the wild, and ways to defend and prove web applications secure against these attacks. This study could have impact on security mechanisms and policies used in web applications in practice. The reasoning methods developed in the project will be mechanized in a tool.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018061</AwardID>
+    <Investigator>
+      <FirstName>Limin</FirstName>
+      <LastName>Jia</LastName>
+      <EmailAddress>liminjia@cmu.edu</EmailAddress>
+      <StartDate>07/30/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Deepak</FirstName>
+      <LastName>Garg</LastName>
+      <EmailAddress>dg@cs.cmu.edu</EmailAddress>
+      <StartDate>07/30/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anupam</FirstName>
+      <LastName>Datta</LastName>
+      <EmailAddress>danupam@andrew.cmu.edu</EmailAddress>
+      <StartDate>07/30/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

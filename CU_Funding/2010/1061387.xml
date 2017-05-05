@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Doctoral Dissertation Research: A Realtime Statistical Approach To The Inverse Problem In Magnetoencephalography By CUDA Computing</AwardTitle>
+    <AwardEffectiveDate>05/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2012</AwardExpirationDate>
+    <AwardAmount>11975</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>04050000</Code>
+      <Directorate>
+        <LongName>Direct For Social, Behav &amp; Economic Scie</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Divn Of Social and Economic Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Cheryl L. Eavey</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Brain imaging techniques have been developing over the past few decades. Scientists now are able to measure brain activity (magnetic fields) under a temporal resolution of 1 millisecond by magnetoencephalography (MEG), but the problem of localizing the brain source is not satisfactorily solved. This doctoral dissertation research project will further develop a source localization algorithm in MEG to estimate time varying brain sources. The temporal dependence of brain sources, as well as spatial information, will be investigated by Bayesian modeling. A spatial distribution of possible brain source at each time will be presented. To implement the analysis, the newest compute unified device architecture (CUDA) graphic processor unit (GPU) computing scheme will be utilized to obtain real-time brain imaging. An existing parallel virtual machine program will be rewritten into a CUDA program. Through a massive parallel computing scheme on GPU, it becomes possible to take advantage of the high temporal resolution that MEG offers, thus permitting real-time investigation of brain activity on a personal supercomputer at a very low cost.&lt;br/&gt;&lt;br/&gt;In addition to its contribution to brain imaging, the state-of-the-art parallel computing environment that will be used to develop the brain-imaging algorithm has many advantages in the real-time analysis of other large-scale problems. In many scientific areas, computational algorithms currently lag behind theoretical developments and especially data collection capability. A well-designed program in GPU can speed up operations in scientific computing, such as three-dimensional Fourier transformations applied to extremely large datasets or finding solutions of massive sets of differential equations. In addition, CUDA provides a very affordable package that works in a high degree of parallelism on desktop computers. It therefore becomes possible for experimenters to test their experimental designs in advance of experimentation without having to leave their laboratories. The results of this project, besides adding to tools available to scientists interested in brain imaging, may help stimulate a change in how complicated scientific experiments are run. The CUDA program will be available on the co-investigator's website at the end of the award period. As a Doctoral Dissertation Research Improvement award, support is provided to enable a promising student to establish a strong, independent research career.</AbstractNarration>
+    <MinAmdLetterDate>05/13/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/13/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1061387</AwardID>
+    <Investigator>
+      <FirstName>Leon</FirstName>
+      <LastName>Gleser</LastName>
+      <EmailAddress>gleser@pitt.edu</EmailAddress>
+      <StartDate>05/13/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Zhigang</FirstName>
+      <LastName>Yao</LastName>
+      <EmailAddress>zhy16@pitt.edu</EmailAddress>
+      <StartDate>05/13/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pittsburgh</Name>
+      <CityName>Pittsburgh</CityName>
+      <ZipCode>152132303</ZipCode>
+      <PhoneNumber>4126247400</PhoneNumber>
+      <StreetAddress>University Club</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

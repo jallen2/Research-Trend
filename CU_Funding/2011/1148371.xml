@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: SI2-SSI: A Comprehensive Performance Tuning Framework for the MPI Stack</AwardTitle>
+    <AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2016</AwardExpirationDate>
+    <AwardAmount>1251644</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Patricia Knezek</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Message Passing Interface (MPI) is a very widely used parallel programming model on modern High-End Computing (HEC) systems. Many performance aspects of MPI libraries, such as latency, bandwidth, scalability, memory footprint, cache pollution, overlap of computation and communication etc. are highly dependent on system configuration and application requirements. Additionally, modern clusters are changing rapidly with the growth of multi-core processors and commodity networking technologies such as InfiniBand and 10GigE/iWARP. They are becoming diverse and heterogeneous with varying number of processor cores, processor speed, memory speed, multi-generation network adapters/switches, I/O interface technologies, and accelerators (GPGPUs), etc. Typically, any MPI library deals with the above kind of diversity in platforms and sensitivity of applications by employing various runtime parameters. These parameters are tuned during its release, or by&lt;br/&gt;system administrators, or by end-users. These default parameters may or may not be optimal for all system configurations and applications.&lt;br/&gt;&lt;br/&gt;The MPI library of a typical proprietary system goes through heavy performance tuning for a range of applications. Since commodity clusters provide greater flexibility in their configurations (processor, memory and network), it is very hard to achieve optimal tuning using released version of any MPI library, with its default settings. This leads to the following broad challenge: "Can a comprehensive performance tuning framework be designed for MPI library so that the next generation InfiniBand, 10GigE/iWARP and RoCE clusters and applications will be able to extract `bare-metal' performance and maximum scalability?" The investigators, involving computer&lt;br/&gt;scientists from The Ohio State University (OSU) and Ohio Supercomputer Center (OSC) as well as computational scientists from the Texas Advanced Computing Center (TACC) and San Diego Supercomputer Center (SDSC), University of California San Diego (UCSD), will be addressing the above challenge with innovative solutions.&lt;br/&gt;&lt;br/&gt;The investigators will specifically address the following challenges: 1) Can a set of static tools be designed to optimize performance of an MPI library during installation time? 2) Can a set of dynamic tools with low overhead be designed to optimize performance on a per-user and per-application basis during production runs? 3) How to incorporate the proposed performance tuning framework with the upcoming MPIT interface? 4) How to configure MPI libraries on a given system to deliver different optimizations to a set of driving applications? and 5) What kind of benefits (in terms of performance, scalability, memory efficiency and reduction in cache pollution) can be achieved by the proposed tuning framework? The research will be driven by a set of applications from established NSF computational science researchers running large scale simulations on the TACC Ranger and other systems at OSC, SDSC and OSU. The proposed designs will be integrated into the open-source MVAPICH2 library.</AbstractNarration>
+    <MinAmdLetterDate>06/04/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/04/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1148371</AwardID>
+    <Investigator>
+      <FirstName>Karen</FirstName>
+      <LastName>Tomko</LastName>
+      <EmailAddress>ktomko@osc.edu</EmailAddress>
+      <StartDate>06/04/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dhabaleswar</FirstName>
+      <LastName>Panda</LastName>
+      <EmailAddress>panda@cse.ohio-state.edu</EmailAddress>
+      <StartDate>06/04/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8009</Code>
+      <Text>Scientifc Software Integration</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

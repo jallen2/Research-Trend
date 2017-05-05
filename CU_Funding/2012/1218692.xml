@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Learning Open Domain Semantic Parsers</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>425821</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Supervised semantic parsers, which learn to map language to relational data, perform poorly on texts that differ in vocabulary or style from the training text, and on databases that differ from the database used in training. Today's semantic parsers have only been tested on narrowly-circumscribed domains like geography, but the ideal semantic parser would generalize to the many and incredibly diverse relational databases available on the Web. &lt;br/&gt;&lt;br/&gt;This project develops semantic parsers that approach this ideal system. The project divides the overall task into two parts: mapping named-entities in text to database constants in any domain, and mapping full sentences and questions to logical forms written in a variant of the lambda calculus. Techniques for resolving named-entities make use of domain-independent contextual information around the named-entity for disambiguation. To connect words like "directed" with a database relation listing directors of movies, the project relies on schema-matching techniques from database integration. The system extracts a relational view of a corpus, and then generates alignments between these extracted alignments and the fixed relational structure of existing databases. The project uses transfer-learning and co-training approaches to estimate parameters for statistical models for named-entity disambiguation and schema matching across domains and databases.&lt;br/&gt;&lt;br/&gt;The project is expected to produce new methods and software systems for connecting human language with relational data. It enables language-based queries to the broad array of structured data available on the Web, making it easier to find information than ever before.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218692</AwardID>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Yates</LastName>
+      <EmailAddress>yates@temple.edu</EmailAddress>
+      <StartDate>07/30/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Temple University</Name>
+      <CityName>PHILADELPHIA</CityName>
+      <ZipCode>191405104</ZipCode>
+      <PhoneNumber>2157077379</PhoneNumber>
+      <StreetAddress>3340 N. Broad Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

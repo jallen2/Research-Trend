@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Methods for Stochastic and Nonlinear Optimization</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The projects described in this proposal are designed to advance the capabilities of optimization methods for a class of stochastic and deterministic optimization problems. The first project focuses on problems where the objective function is given by an expectation or a loss function. We propose dynamic sample algorithms that attempt to bridge the gap between stochastic and batch methods. Their essential characteristic is that they adapt the sample size during the progression of the optimization in a manner that leads to low computational effort and high accuracy in the solution, when so desired. The second project deals with the design of new active-set methods for solving constrained optimization and convex regularized L1 problems. Our work builds on two algorithms recently proposed in the literature: the block active-set method (also called the primal-dual active-set method), and the orthant-wise method for solving L1 regularized problems. Our new algorithms are provably convergent and applicable to a wider class of applications. The third project addresses the need to improve the robustness of nonlinear optimization methods in the presence of infeasibility. Our first goal is to design an interior point method endowed with infeasibility detection capabilities, and to show how its main mechanism can be extended to other interior point methods. The second goal is to develop a convergence theory that is applicable to both active set and interior point methods consisting of three components: an optimization phase, a feasibility phase, and a mechanism for transitioning between the two phases.&lt;br/&gt;&lt;br/&gt;The methods developed in this project are useful in big data analysis, which is playing a vital role in genomics, materials science, meteorology, climate modeling and information science. In all these disciplines, vast amounts of data have become available in the last decade, with the rate of generation accelerating exponentially. The challenge is to process this large amount of information to make inferences and predictions, thereby accelerating our basic understanding of physical and social systems. For example, the complex physics simulations employed in the design of advanced materials, meteorology and climate modeling, require the use of detailed information obtained over a large set of scenarios. The optimization and machine learning methods developed in this project can be integrated in support of such simulations, thereby obviating the need for extremely complex models that are difficult to study and generalize. Our work has direct impact in genomics and other areas of biology. For example, we plan to investigate its use in metagenomics, specifically de novo assembly of next generation DNA sequencing data. Sequences can be tagged with markers, or found in reference data sets like transcriptomes. A goal is to use this new information to enable faster and more accurate de novo assembly. In computer science and information technology, our new algorithms will be useful in the development of a new generation of speech recognition and computer vision systems. Speech recognition, which will play an increasingly important role in many technological applications, can only advance by incorporating more data more intelligently, and the algorithms described in this proposal are designed precisely for that purpose.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1216567</AwardID>
+    <Investigator>
+      <FirstName>Jorge</FirstName>
+      <LastName>Nocedal</LastName>
+      <EmailAddress>nocedal@eecs.northwestern.edu</EmailAddress>
+      <StartDate>07/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northwestern University</Name>
+      <CityName>Evanston</CityName>
+      <ZipCode>602013149</ZipCode>
+      <PhoneNumber>8474913003</PhoneNumber>
+      <StreetAddress>1801 Maple Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

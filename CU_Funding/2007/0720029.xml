@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-PDOS: ISG: Collaborative Research: Building distributed, wide-area applications using WheelFS</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mohamed G. Gouda</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Large-scale applications distributed across thousands of machines over the wide area network are difficult to build and maintain. To enable sharing &lt;br/&gt;of data across machines, many applications use specialized storage and data transfer tools such as a DHT, scp or GridFTP. Although file systems are &lt;br/&gt;successful in becoming a common building block for cluster applications, it remains unclear if file systems could provide similar benefits to wide area distributed applications. This research describes a novel wide-area file system, WheelFS, that allows distributed application developers to use a generic file system interface to store and share application data easily among wide-area machines. &lt;br/&gt;&lt;br/&gt;Two new approaches make WheelFS attractive for use by distributed applications. First, WheelFS provides semantic cues for application developers &lt;br/&gt;to express desired tradeoffs among failure resilience, data consistency and file system performance at the granularity of individual files and directories.&lt;br/&gt;Second, WheelFS optimizes wide area data transfer by writing application data &lt;br/&gt;to local disks and reading a cached copy from a nearby machine whenever possible.&lt;br/&gt;&lt;br/&gt;This project demonstrates the uselessness of WheelFS via the experience of building a number of distributed applications, such as a cooperative web cache, a data-intensive Grid application, a distributed digital library and a&lt;br/&gt;PlanetLab measurement utility.</AbstractNarration>
+    <MinAmdLetterDate>08/22/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/17/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720029</AwardID>
+    <Investigator>
+      <FirstName>M. Frans</FirstName>
+      <LastName>Kaashoek</LastName>
+      <EmailAddress>kaashoek@lcs.mit.edu</EmailAddress>
+      <StartDate>08/22/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Morris</LastName>
+      <EmailAddress>rtm@csail.mit.edu</EmailAddress>
+      <StartDate>08/22/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

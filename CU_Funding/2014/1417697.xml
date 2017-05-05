@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SCH: INT: Collaborative Research: High-throughput Phenotyping on Electronic Health Records using Multi-Tensor Factorization</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>663557</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As the adoption of electronic health records (EHRs) has grown, EHRs are now composed of a diverse array of data, including structured information (e.g., diagnoses, medications, and lab results), molecular sequences, unstructured clinical progress notes, and social network information. There is mounting evidence that EHRs are a rich resource for clinical research, but they are notoriously difficult to leverage because of their orientation to healthcare business operations, heterogeneity across commercial systems, and high levels of missing or erroneous entries. Moreover, the interactions among different data sources within an EHR are challenging to model, hampering our ability to leverage traditional analytic frameworks. In recognition of this problem, various efforts have been undertaken to transform EHR data into concise and meaningful concepts, or phenotypes. Yet, to date, these efforts have been ad hoc and labor intensive, resulting in specific phenotypes for specific environments; e.g., type 2 diabetes in the EHR system at Vanderbilt University Medical Center (VUMC). There is an urgent need for scalable phenotyping methods, but several major challenges must be addressed, including: a) patient representation, b) high-throughput phenotype generation from EHRs, c) expert-guided phenotype refinement, and d) phenotype adaptation across institutions. The goal of this project is to address these challenges by developing a general computational framework for transforming EHR data into meaningful phenotypes with only modest levels of expert guidance. The PIs will develop novel courses on Healthcare Analytics as a Massive Open Online Course (MOOC) that covers cross-disciplinary topics at the confluence of computer science and medical informatics, while embellishing existing graduate courses on biomedical informatics. The PIs plan to deliver tutorials and organize workshops at relevant computer science and medical informatics conferences with the goal of sharing research results and developing a community. The PIs will develop outreach modules that focus on freshmen and under-represented students, as well as educational sessions for clinical researchers who are currently performing phenotyping in academic medical centers. Thus, the project has a significant component the integrates research and education as well as providing for new scientific insights.&lt;br/&gt;&lt;br/&gt;In support of this goal, the team plans to represent and analyze EHR data as inter-connected high-order relations i.e. tensors (e.g. tuples of patient-medication-diagnosis, patient-lab, and patient-symptoms). The proposed analytic framework generalizes several existing data mining methodologies, including dimensionality reduction, topic modeling and co-clustering, which all arise as limited special cases of analyzing second order tensors. It will also enable flexible refinement of candidates to adapt phenotypes from one healthcare institution to another, and will incorporate feedback from domain experts. The accompanying suite of algorithms and methods will enable the automation of high-throughput phenotype generation, refinement, adaptation and applications, in a broad range of health informatics settings and across multiple institutions. This project will integrate biomedical informaticists, computer scientists, and clinical experts. The significance of the resulting phenotypes in diverse clinical applications, including: a) cohort construction, where case and control patients are identified with respect to specific phenotype combinations; b) genome wide association studies (GWAS), where target phenotypes of patients are tested against DNA sequence variation for significant statistical associations; and c) clinical predictive modeling, where a model is developed to predict target phenotypes or diseases will be demonstrated. The framework will be developed with public accessible data from MIMIC-II and CMS and validate in real clinical environments at Northwestern Memorial Hospital and VUMC through several high-impact disease targets (including hypertension, type 2 diabetes, hypothyroidism, atrial fibrillation, rheumatoid arthritis, and multiple sclerosis). Additionally, the methodologies developed through this project will be integrated into existing software platforms that support the representation of EHR-derived phenotypes, but lack a data-driven component for the generation and refinement of candidates. Overall, the proposed framework is expected to have a major impact on translational clinical research including clinical trial design, predictive modeling, epidemiology studies and clinical decision support.</AbstractNarration>
+    <MinAmdLetterDate>07/18/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/18/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1417697</AwardID>
+    <Investigator>
+      <FirstName>Joydeep</FirstName>
+      <LastName>Ghosh</LastName>
+      <EmailAddress>ghosh@ece.utexas.edu</EmailAddress>
+      <StartDate>07/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8018</Code>
+      <Text>Smart and Connected Health</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8018</Code>
+      <Text>Smart and Connected Health</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8062</Code>
+      <Text>SCH Type II: INT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

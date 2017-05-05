@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: A Next-Generation Open-Source Computational Fluid Dynamic Code for Polydisperse Multiphase Flows in Science and Engineering</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>499551</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many processes for the production of drugs, fuels and plastic materials, as well as energy from coal or biomasses, involve multiphase flows, which are composed by a combination of a fluid, either liquid or gas, and particles, droplets or bubbles. This type of flow is also naturally present in the environment. Examples are the formation of a mixture of air and solid particles due to volcanic eruptions, and particles of sand and other materials transported by the wind. Scientists and engineers use software to study how these flows behave in order to improve the yield of industrial processes, reduce their environmental impact, and energy consumption. The computer programs used to perform these studies solve complex mathematical problems, and require powerful computers to be able to obtain the results in a useful time. This project focuses on developing the next generation of computer software for the simulation of multiphase flows, enabling it to use the latest generation of computers which combine traditional and graphical processors for improved performance. This software will be released to the public and will enable, scientists and engineers from different research areas to tackle real-world problems by taking advantage of the latest developments in multiphase flow science, combined with the benefit of being able to use the software on powerful computer infrastructures. Students and educators will be able to use the software and learn about multiphase flows through the examples and the documentation that will be provided.&lt;br/&gt;&lt;br/&gt;The objectives of the project will be achieved by first developing computational models to describe turbulent flows in the framework of quadrature-based moment methods, an efficient and accurate approach to describe this type of flows. These computational models will then be implemented, together with appropriate numerical methods that will ensure the accuracy of the computational codes, in the open-source framework OpenFOAM. Three representative problems of typical multiphase flows will be considered: a population balance equation for particles with negligible inertia, such as in the formation of nanoparticles in a fluid flow; the description of gas-liquid flows, where the bubble inertia is small but not zero; and the most complex case of gas-solid flows, where particle inertia is large. The possibility of using graphical processing units will be added to the OpenFOAM framework, to enable it to run on hybrid computational systems involving traditional processors and graphical processing units. The source code and its documentation will be made available to the public at an early stage of their development, under the GNU GPL 3 license, in order to disseminate the results of the research and gather feedback. Detailed code documentation, verification and validation cases, and tutorials will also be created to favor external contributions to the software.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/21/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1440443</AwardID>
+    <Investigator>
+      <FirstName>Simanta</FirstName>
+      <LastName>Mitra</LastName>
+      <EmailAddress>smitra@iastate.edu</EmailAddress>
+      <StartDate>08/21/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Rodney</FirstName>
+      <LastName>Fox</LastName>
+      <EmailAddress>rofox@iastate.edu</EmailAddress>
+      <StartDate>08/21/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alberto</FirstName>
+      <LastName>Passalacqua</LastName>
+      <EmailAddress>albertop@iastate.edu</EmailAddress>
+      <StartDate>08/21/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1443</Code>
+      <Text>FLUID DYNAMICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>058E</Code>
+      <Text>Newtonian fluids</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1443</Code>
+      <Text>FLUID DYNAMICS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

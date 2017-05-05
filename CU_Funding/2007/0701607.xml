@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>System Level Architecture for Practical and Efficient Security Analysis</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2012</AwardExpirationDate>
+    <AwardAmount>295593</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will develop a system infrastructure that protects existing software from low-level and high-level vulnerabilities. The goal is to synergistically combine hardware and software features in a manner that provides robustness (no false positives or false negatives), flexibility (can evolve to cover future threats), end-to-end coverage (handles user and system code), practicality (works will all types of real world binaries), simplicity (can be easily verified), and good performance (no significant runtime impact). At the hardware level, the system will combine two novel features: support for dynamic information flow tracking (DIFT) and support for isolated execution. DIFT allows the system to track the propagation of untrusted data and code during the execution of a program and prevent any unsafe uses. The goal is to develop hardware support for DIFT that reduces its overhead while allowing software to control and extend its policies. Isolated execution has been used to improve the performance by allowing optimistic parallelization. The goal is to extend isolated execution to support the use of untrusted data and code until their safety is verified. At the software level, the system will provide a runtime environment that will manage and virtualize the hardware security features based on the active security policies. It will also define the interfaces that allow software security tools (static and dynamic) to program, use, and collaborate with the hardware mechanisms. Finally, it will define a domain-specific language for security policies that abstracts out the division of labor between hardware and software security features. To demonstrate this approach, the project will develop a full-system prototype based on an open-source Sparc processor and the open-source Linux operating system. Such a prototype will facilitate an extensive security evaluation using real-world server and client software in an on-line setting.</AbstractNarration>
+    <MinAmdLetterDate>09/20/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/17/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0701607</AwardID>
+    <Investigator>
+      <FirstName>Mendel</FirstName>
+      <LastName>Rosenblum</LastName>
+      <EmailAddress>mendel@cs.stanford.edu</EmailAddress>
+      <StartDate>12/17/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christoforos</FirstName>
+      <LastName>Kozyrakis</LastName>
+      <EmailAddress>kozyraki@stanford.edu</EmailAddress>
+      <StartDate>09/20/2007</StartDate>
+      <EndDate>12/17/2010</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

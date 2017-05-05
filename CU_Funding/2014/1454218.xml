@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Optimization Based Methods for Robust Pattern Recognition in Time-Series Data</AwardTitle>
+    <AwardEffectiveDate>05/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2020</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chengshan Xiao</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research proposes new mathematical and algorithmic tools for identifying patterns in and effectively &lt;br/&gt;mining time-series data, i.e. a sequence of data points, measured typically at successive time instants&lt;br/&gt;spaced at uniform time intervals. A large variety of real-world data sources such as speech and audio,&lt;br/&gt;biomedical signals, health care records, network-traffic and stock market data etc. manifest as time-series&lt;br/&gt;and their analysis is of significant interest to both government and industry. The explosion of such &lt;br/&gt;data sources has only been exacerbated by the digital revolution, viz. the generous amount of audio-video&lt;br/&gt;streams on the internet, the storage of large amounts of chronological health care records in electronic&lt;br/&gt;databases and the continuous generation of new time-series data from advances in sensing. Automated software&lt;br/&gt;tools that can find patterns in a large time-series sequence, help in fast and scalable retrieval, and&lt;br/&gt;categorize large time-series collections are hence highly desirable. The proposed research is in developing &lt;br/&gt;such software (algorithmic)tools with a particular focus on robustness and scalability. The problem of &lt;br/&gt;robustness refers to the fact that time-series that may have the "same appeal" to a human consumer, e.g. &lt;br/&gt;different versions of the same song/video, may not necessarily be digitally identical. Hence, robust &lt;br/&gt;techniques are needed that can withstand distortions which do not change the essence of the time-series &lt;br/&gt;content. Scalability requires that the pattern-matching techniques be fast and easy to implement, so that&lt;br/&gt;the solutions can be deployed to mine large collections. Further, to prepare the next generation of&lt;br/&gt;engineers in electrical engineering and computer science, the project includes a strong educational&lt;br/&gt;component. At the heart of this educational component is an edutainment game where a human player, i.e.&lt;br/&gt;students with varying levels of academic preparation (high-school, undergraduate and graduate), compete &lt;br/&gt;against a computer algorithm in a video piracy challenge. The game is aimed at making the learning &lt;br/&gt;process more interactive, particularly for undergraduate students.&lt;br/&gt;&lt;br/&gt;A serious practical challenge in mining time-series data for emerging applications is the ability to&lt;br/&gt;withstand distortions - that is often instances of the "same underlying" time series are observed&lt;br/&gt;under noise, amplitude and/or time scaling and other miscellaneous operations. Many existing&lt;br/&gt;techniques for time-series comparisons do not enable distortion robustness and the ones that do,&lt;br/&gt;often come at a substantial computational cost. Further, existing algorithmic techniques enable&lt;br/&gt;control of key properties of time-series features such as robustness and uniqueness only at an&lt;br/&gt;intuitive, often heuristic level. The proposed research advocates judicious selection of time-series&lt;br/&gt;extrema and aims to break the classical trade-off between computational efficiency in time-series&lt;br/&gt;feature extraction and comparison vs. enabling robustness to distortions. Unlike existing methods,&lt;br/&gt;which employ pre-processing time-series filters "inspired" from intuition, explicit optimization of the&lt;br/&gt;filter is proposed in the sense of cost functions that capture key feature attributes such as robustness&lt;br/&gt;and uniqueness of the extracted extrema. Optimal extrema extraction will be investigated in two&lt;br/&gt;different setups: a.) a deterministic framework where example training time-series are used in the&lt;br/&gt;optimization, and b.) a statistical framework where stochastic models on time-series are used. A&lt;br/&gt;variety of related sub-problems also emerge, namely: a.) connections to edge detection problems&lt;br/&gt;in image processing and vision, b.) encoding and comparisons of time-series extrema, and c.)&lt;br/&gt;extensions to finding robust extrema under non-linear operations on the time-series. The research&lt;br/&gt;plan is to juxtapose the development of the algorithmic tools with two real-world applications: 1.)&lt;br/&gt;multimedia fingerprinting, and 2.) bio-medical time series analysis. Additionally, software tools&lt;br/&gt;namely edutainment games will be developed based on these applications which will play a crucial&lt;br/&gt;role in enhancing the PI's research and classroom teaching. Dissemination of research results will be&lt;br/&gt;done via articles in leading Journals and conferences, and via online MATLAB software toolboxes.</AbstractNarration>
+    <MinAmdLetterDate>01/30/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/30/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1454218</AwardID>
+    <Investigator>
+      <FirstName>Vishal</FirstName>
+      <LastName>Monga</LastName>
+      <EmailAddress>vmonga@engr.psu.edu</EmailAddress>
+      <StartDate>01/30/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7564</Code>
+      <Text>COMMS, CIRCUITS &amp; SENS SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>153E</Code>
+      <Text>Wireless comm &amp; sig processing</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>154E</Code>
+      <Text>Computat systems &amp; security</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

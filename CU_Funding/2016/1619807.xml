@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Meshfree Finite Difference Methods for Nonlinear Elliptic Equations</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>149974</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Nonlinear elliptic equations describe problems as varied as the design of lenses and reflectors, mapping the subsurface of the earth, interpretation of medical images, and modelling complex weather phenomena. However, existing tools for solving these equations are practical only in very simple settings, and can fail when faced with realistic data. This project will introduce a new class of methods for solving nonlinear elliptic equations when the data is unstructured and non-smooth. The new mathematical and computational techniques developed in this project will lead to fast, reliable methods for solving equations in the realistic settings required for further progress in current applications.&lt;br/&gt;&lt;br/&gt;This project will introduce a new class of meshfree finite difference methods for solving nonlinear degenerate elliptic equations in two- and three-dimensions. Whereas existing convergent methods for fully nonlinear equations often require computations to be performed on a uniform grid in a rectangular domain, this framework will allow equations to be posed on unstructured point clouds. Methods will rely on unusually large search neighborhoods in order to construct approximations that align with the structure of the underlying PDE operator. The resulting schemes will correctly approximate weak (viscosity) solutions, while allowing for adaptivity and complicated geometries. This project will also introduce new formulations of several non-classical boundary conditions, which will be used to produce meshfree implementations. Fast solution techniques for the resulting algebraic systems will be developed.</AbstractNarration>
+    <MinAmdLetterDate>09/02/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/02/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1619807</AwardID>
+    <Investigator>
+      <FirstName>Brittany</FirstName>
+      <LastName>Froese</LastName>
+      <EmailAddress>bdfroese@njit.edu</EmailAddress>
+      <StartDate>09/02/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New Jersey Institute of Technology</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>071021982</ZipCode>
+      <PhoneNumber>9735965275</PhoneNumber>
+      <StreetAddress>323 DOCTOR MARTIN LUTHER</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: EXPL: CCA: Collaborative Research: Nixing Scale Bugs in HPC Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>166128</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Large-scale simulation is a fundamental component of modern science and engineering. Unfortunately, programs written to perform simulations on large-scale parallel computers frequently suffer from software defects that result from the sheer scale and the variety of parallelization approaches employed. Especially egregious are software bugs that occur when large resource allocations (e.g., memory requests) are made. Formally based active-testing techniques are essential to locate such defects. However, these testing tools are themselves seldom run on parallel machines, let alone at large scale, making it difficult and very time consuming to find scale bugs with high assurance. &lt;br/&gt;&lt;br/&gt;Efforts to parallelize verification tools should reuse existing technology for easy parallelization, result collection, and fault handling. Key innovations of this project include the insight that large-scale verification runs can be described through work-flows, which makes it possible to take advantage of already available distributed computing platforms, in particular Swift/T from Argonne. The complementary backgrounds of the PIs are well matched with the need to push both formal aspects and distributed verification in the context of three widely-used concurrency models, namely MPI, OpenMP, and CUDA. &lt;br/&gt;&lt;br/&gt;This work will help create a public distributed formal active testing framework. The tools and case-study software driving this research will be maintained by the PIs and released freely under open-source licenses through websites and repositories. They will facilitate large-scale debugging of scientific simulation codes by researchers and software developers in academia, government labs, and industry. &lt;br/&gt;&lt;br/&gt;The project will also generate pedagogical material and best practices, helping educate students in the use of existing work-flow based problem solving approaches. It will help train present and future scientists, engineers, and programmers, thus assisting in maintaining our nation's leadership in computing, homeland and energy security, and STEM education.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/12/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1438963</AwardID>
+    <Investigator>
+      <FirstName>Martin</FirstName>
+      <LastName>Burtscher</LastName>
+      <EmailAddress>burtscher@txstate.edu</EmailAddress>
+      <StartDate>08/06/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas State University - San Marcos</Name>
+      <CityName>San Marcos</CityName>
+      <ZipCode>786664616</ZipCode>
+      <PhoneNumber>5122452314</PhoneNumber>
+      <StreetAddress>601 University Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

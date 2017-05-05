@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Computerized Search for Combinatorial Objects</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>220000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;The goal of this proposal is to develop a means for using integer programming efficiently to search for combinatorial objects. Integer programming is one of the most powerful techniques developed by the computer science and operations research communities for computationally solving combinatorial optimization problems. However, solving integer programs using linear programming relaxations does not perform well when searching for a combinatorial object with a specified isomorph-invariant property. Every isomorphic copy of the desired object also has the specified property, and, counter-intuitively, the presence of many objects with the desired property significantly slows the standard solving techniques of branch-and-bound and cutting planes. &lt;br/&gt;Additionally, the integrality condition often means the rational relaxation is not a good approximation to the integer program. The proposed work focuses on two new methods to address the difficulties caused by symmetry and divisibility conditions: rejecting isomorphic nodes from the branch-and-bound search tree through the use of symmetry-breaking orbital cuts, and using modular relaxations where the linear constraints are considered modulo a prime.&lt;br/&gt;&lt;br/&gt;Combinatorial objects such as graphs, codes, and designs are important mathematical structures that appear in many disciplines, including computer science, operations research, and information technology. The proposed work includes searching for combinatorial objects using the powerful and well-known computational technique of integer programming. The PI proposes new methods for increasing the effectiveness of integer programming when used for combinatorial search. The resulting framework and computer code are intended to be used as a general tool for exploration and experimentation of a wide range of combinatorial objects.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2009</MaxAmdLetterDate>
+    <ARRAAmount>220000</ARRAAmount>
+    <AwardID>0914815</AwardID>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Hartke</LastName>
+      <EmailAddress>stephen.hartke@ucdenver.edu</EmailAddress>
+      <StartDate>07/31/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Nebraska-Lincoln</Name>
+      <CityName>Lincoln</CityName>
+      <ZipCode>685031435</ZipCode>
+      <PhoneNumber>4024723171</PhoneNumber>
+      <StreetAddress>151 Prem S. Paul Research Center</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Nebraska</StateName>
+      <StateCode>NE</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

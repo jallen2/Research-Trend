@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Parallel Pattern Driven Adaptive Manycore Computer Architectures</AwardTitle>
+    <AwardEffectiveDate>07/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>400002</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The past decade has redefined the path of computer design in all aspects of computing. Whether the application is high-performance or general-purpose processors, the push is for improved performance through parallelism in the face of device constraints, bandwidth constraints, and power constraints. Area on chip is now "virtually free," while power and bandwidth are precious commodities. Recent research has proposed many approaches to tackling this problem, including heterogeneous architectures, specialized function units, reconfigurable cores and 3D-integration. However, this decade, computer designers must work within the design constraints wherein not all of the chip can be turned on simultaneously. Computer designers must find a way to classify programs by their architectural needs, and find the best configurations for each classification. This need, combined with the increased diversity in parallel algorithms, presents a challenge: finding "shapes" of computation that are meaningful both to the programmer and architect. It also presents the challenge of designing architectures for each computational classification. &lt;br/&gt;&lt;br/&gt;This project will tackle this important problem by detecting algorithmic level parallel programming patterns, exploring a classification system using these patterns, and proposing computer features that are beneficial for each pattern. We will design a pattern-based dynamic architecture that includes pattern-specific hardware optimizations that are in turn enabled only when needed. For detection, we will investigate both programmer supplied inference detection as well as online dynamic detection. &lt;br/&gt;&lt;br/&gt;This activity will promote teaching, training, and learning. It will be a goal of this project to involve the participation of underrepresented groups both through REU activities and through the selection of the graduate student involved in this project. The results of this research will be disseminated broadly via high-profile conference proceedings, scientific journals and via the Internet. Since we believe strongly that parallel patterns will drive computer design in the future, we propose developing PatternBench, a benchmark suite that encapsulates the space of all possible parallel patterns. Our plan is to make this benchmark suite available to aid in dissemination of this research. The broader impact to society of this work is to make future computers more power-efficient and to allow for continued performance scaling in the new era.</AbstractNarration>
+    <MinAmdLetterDate>06/25/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/25/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217434</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Conte</LastName>
+      <EmailAddress>conte@cc.gatech.edu</EmailAddress>
+      <StartDate>06/25/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

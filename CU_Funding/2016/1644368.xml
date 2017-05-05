@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: An Analog Hardware System for Solving Boolean Satisfiability</AwardTitle>
+    <AwardEffectiveDate>07/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>299612</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal explores the design of a low-power and high-performance analog hardware system capable of solving Boolean Satisfiability (SAT) problem which is at the heart of many decision, scheduling, error-correction and cyber security applications. Since SAT belongs to a well-known family of hard decision problems in computer science, an efficient solution would have a profound impact in all of computational sciences, engineering, and societal applications. The project builds on close collaborations among theoreticians and hardware designers to create opportunities to cross-pollinate research areas that traditionally have had little intersection in this context. The project will allow the PIs to incorporate new research discoveries into relevant coursework, and offer research opportunities for undergraduate and graduate students, including those from underrepresented groups. &lt;br/&gt;&lt;br/&gt;This proposed effort will study the potential of analog hardware based on some related deterministic Continuous Time Dynamical System (CTDS) in the form of coupled ordinary differential equations, which have been recently introduced for the study of the SAT problem. The CTDS performs gradient descent on an energy function, which itself changes in time, coupled to the performance of the dynamics through exponentially driven auxiliary variables. The project will study systematically the question of whether and by how much a CTDS based analog hardware SAT solver can outperform digital SAT solvers in terms of performance and energy efficiency. It will also advance the understanding of the impact of hardware induced noises on analog SAT solvers. In summary, the project attempts to provide insights into the relationship between the nonlinear dynamical system properties of the analog solver and the computational hardness of constraint satisfaction problems, and thus lay the foundation for analog hardware designs for CTDS solvers, as well as that for SAT solvers.</AbstractNarration>
+    <MinAmdLetterDate>07/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1644368</AwardID>
+    <Investigator>
+      <FirstName>Zoltan</FirstName>
+      <LastName>Toroczkai</LastName>
+      <EmailAddress>toro@nd.edu</EmailAddress>
+      <StartDate>07/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Xiaobo</FirstName>
+      <LastName>Hu</LastName>
+      <EmailAddress>shu@cse.nd.edu</EmailAddress>
+      <StartDate>07/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Notre Dame</Name>
+      <CityName>NOTRE DAME</CityName>
+      <ZipCode>465565708</ZipCode>
+      <PhoneNumber>5746317432</PhoneNumber>
+      <StreetAddress>940 Grace Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

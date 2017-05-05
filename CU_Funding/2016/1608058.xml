@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Automated Computational Design of Composite Li-ion Battery Electrodes Microstructures</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>319995</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dimitrios Papavassiliou</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>PI: Soghrati, Soheil&lt;br/&gt;Proposal Number: 1608058&lt;br/&gt;&lt;br/&gt;The goal of the proposed research is to develop an integrated computational approach to model and predict the performance of electrodes in Li-ion batteries. The value of understanding and developing models for Li-ion batteries is very significant, since these are very commonly used for energy storage. The proposed research could lead to improved performance for applications in hybrid and electric vehicles, by replacing the currently applied trial and error approach to electrode design. &lt;br/&gt;&lt;br/&gt;This research will quantify the optimal microstructural features of composite electrodes used in lithium-ion batteries (LIBs) via an integrated computational materials engineering (ICME) approach. While LIBs are the primary technology for secondary energy storage, significant advancements are still needed to improve their power and energy densities for application in the transportation sector. Remarkable improvement in the LIBs performance can be achieved by optimizing the electrode design to maximize the conductivity and surface areas. However, due to inability to realistically model the intricate heterostructure of this composite material, design processes are currently dominated by trial-and-error practices, often leading to sub-optimal designs and significant development time and cost. This proposal aims at overcoming this barrier by developing a new design optimization framework consisting of: (i) extracting hierarchical multiscale imaging data of the electrode microstructure; (ii) developing the ability to automatically create realistic virtual models of the electrode heterostructure based on imaging data; (iii) simulating the multiphysics response of the electrode using an advanced finite element method; (iv) validating the models via experimental testing of coin-cell prototypes; (v) identifying the optimal microstructures that yield highest power and energy densities via a multi-objective genetic algorithm. A hierarchical interface-enriched finite element method (HIFEM) will serve as the main computational engine for simulating the multiphysics behavior of the electrode during charge/discharge cycles. The HIFEM yields the same precision and convergence rate as those of the standard FEM using simple structured meshes that are completely independent of the problem morphology. The HIFEM will be integrated with a virtual prototyping algorithm relying on Non-Uniform Rational Basis Splines (NURBS) to create realistic 3D microstructural models of the composite electrode based on hierarchical imaging data involving x-ray microtomography, focused ion beam tomography, and electron microscopy. To accurately predict the power and energy densities associated with various designs of the electrode, a high fidelity computational model will be implemented to simulate the electro-chemo-mechanical response of the LIB. Furthermore, a fully parallel computing module will be deployed for this automated computational pipeline to both create virtual microstructural models of the electrode and simulate its multiphysics behavior. If successful, the proposed project will lead to the development of a computational framework for the virtual design of composite electrodes. The fundamental knowledge generated through this research will benefit several industries heavily using LIBs in their products, such as the automotive, aerospace, and portable electronics. Moreover, the modeling capabilities that will be developed during the term of this project can be employed for the treatment of a broader range of ICME problems with similar microstructural complexities. To integrate the research, outreach, and education in this project, these tasks will be pursued: (i) strong www and social media presence to facilitate outreach to the public and scientific communities; (ii) participating in K-12 outreach programs organized by Ohio State University (OSU); (iii) training and mentoring of graduate and undergraduate students and integrating research outcomes into the curriculum; (iv) outreach to middle school students via Translating Engineering Research to K-8 program, which will also engage OSU's undergraduate research assistants as career ambassadors.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1608058</AwardID>
+    <Investigator>
+      <FirstName>Marcello</FirstName>
+      <LastName>Canova</LastName>
+      <EmailAddress>canova.1@osu.edu</EmailAddress>
+      <StartDate>08/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>McComb</LastName>
+      <EmailAddress>mccomb.29@osu.edu</EmailAddress>
+      <StartDate>08/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Soheil</FirstName>
+      <LastName>Soghrati</LastName>
+      <EmailAddress>soghrati.1@osu.edu</EmailAddress>
+      <StartDate>08/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>026Z</Code>
+      <Text>NSCI: National Strategic Computing Initi</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Active Statistical Learning: Ensembles, Manifolds, and Optimal Experimental Design</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>175000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Georgia-Ann Klutke</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In numerous industries such as manufacturing, health care or energy production, current sensor technology can generate enormous quantities of measurements of an object at low cost. Each measurement consists of several instances of interrelated variables, and the goal is to use the data to build a computer model that permits one to predict the class of an object (such as the health condition of a patient or the quality of a manufactured part). Along with the sensor data, the class labels for some objects are needed to train the computer model. While the sensor variables can frequently be obtained rapidly and inexpensively (e.g., medical images or chemical analyses) the class label associated with each object might require human effort that is time-consuming and expensive. Therefore, care should be taken to select the objects to label that are most informative for building the predictive computer model. Often one selects objects iteratively, where the class labels from the previously selected batch guides the next batch of objects to label. This is the purpose of a so-called active learning strategy. The purpose of this research is to find new active learning methods that accelerate model building and provide better predictions in systems where large datasets of attribute measurements are available. This will result in more efficient and productive systems that will benefit the U.S. economy and society.&lt;br/&gt;&lt;br/&gt;Existing active learning methods are often based on strong assumptions for the joint input/output distribution or use a distance-based approach. These methods are susceptible to noise in the input space, assume numerical inputs only, and often work poorly in high dimensions. In applications, data sets are often large, noisy, contain missing values and mixed variable types. In this research, a non-parametric approach to the active learning problem is planned to address these challenges. The algorithm is based on a batch diversification strategy applied to an ensemble of decision trees. A novel active learning strategy that considers the geometric structure of the manifold where the unlabeled data resides will also be considered. The geometric properties of the data space may result in more informative active learning solutions. This is a collaborative effort between Arizona State University, Pennsylvania State University, and Intel Corporation with complementary expertise in machine learning and optimal design. The participation of Intel will help ensure the successful dissemination and broad applicability of the results.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1537987</AwardID>
+    <Investigator>
+      <FirstName>Enrique</FirstName>
+      <LastName>Del Castillo</LastName>
+      <EmailAddress>exd13@psu.edu</EmailAddress>
+      <StartDate>08/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>006Y</Code>
+      <Text>Service, Manufacturing, and Op</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>071E</Code>
+      <Text>MFG ENTERPRISE OPERATIONS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>078E</Code>
+      <Text>ENTERPRISE DESIGN &amp; LOGISTICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

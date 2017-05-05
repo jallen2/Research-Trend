@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: CSR: Small: Collaborative Research: Automated Model Synthesis of Library and System Functions for Program-Environment Co-Analysis</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>44845</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Program analysis provides solid foundations for a broad range of applications, such as detecting security vulnerabilities, localizing program faults, proving program correctness, and optimizing performance. A pervasive and critical challenge in program analysis is to handle library functions and system calls, which provide an essential execution environment for a program and would be ideal to be co-analyzed with the program itself. Despite its importance, achieving program-environment co-analysis in practice is challenging. First, the difficulty to acquire the source code of some environmental functions precludes source code based analysis. Moreover, even if source code is available, the code base is often prohibitively large and complex, making analysis difficult. Existing solutions are to provide program analysis with either manually-constructed models, which do not scale, or imprecise models, which are overly conservative.&lt;br/&gt;&lt;br/&gt;In this project, the goal is to apply program synthesis technique to construct models for environmental functions from their binary implementation and a set of initial inputs. The models are essentially programs that provide the same functionality of the functions being modeled, yet substantially simplified. Such programs can be included as part of the application, enabling program-environment co-analysis. The proposed technique will lead to an automated solution that will offload the onus of manually crafting models from program analysis developers' shoulders. Moreover, it will demonstrate the feasibility of precise program-environment co-analysis through applications.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218993</AwardID>
+    <Investigator>
+      <FirstName>Xiangyu</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>xyzhang@cs.purdue.edu</EmailAddress>
+      <StartDate>08/25/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Quantifying Uncertainties in Computational Fluid Dynamics Predictions for Wind Loads on Buildings</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2020</AwardExpirationDate>
+    <AwardAmount>362455</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Joy Pauschke</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Windstorms are among the costliest natural hazards in the United States, and using more advanced resilient design methods could significantly reduce wind-induced damage. One of the first challenges when analyzing the impact of wind on a structure is to determine the resulting pressure load on the surface. Advanced computational fluid dynamics (CFD) simulations are very valuable tools to perform this analysis, but their frequent use in design practice is hindered by a lack of confidence in the accuracy of the predictions. This originates from the fact that several simulation parameters, such as the local wind characteristics, are uncertain and can have a strong influence on the model outcome. In addition, the simulations require the use of imperfect models to represent the turbulence in the wind flow. To enable using the models for resilient design, it is crucial to quantify the effect of these uncertainties on the predicted pressure loads. This research will establish an uncertainty quantification framework that provides CFD predictions for wind loads on buildings with quantified confidence intervals, thereby enabling a more accurate evaluation of resilient design solutions. This framework will benefit modeling tools that require input regarding the pressure loads on structures, such as performance-based design and wind-induced vibration models. The framework also can be leveraged to investigate other flow phenomena relevant to sustainable urban design that are governed by similar uncertainties, such as outdoor air quality and the harvesting of renewable energy resources. Thus, the framework has significant potential to advance the design of optimized buildings and cities, and to support the realization of effective policies for creating resilient and sustainable urban environments.&lt;br/&gt;&lt;br/&gt;The uncertainty quantification framework will be applicable for use with either low-fidelity, computationally inexpensive, Reynolds-averaged Navier-Stokes simulations, or with high-fidelity, more costly, large-eddy simulations. In both types of simulations, the uncertainty in the prediction of the wind pressure on buildings primarily arises from two sources: aleatoric uncertainty in the inflow boundary conditions representing the incoming atmospheric boundary layer and epistemic uncertainty related to model choices such as the turbulence or subgrid model and wall model. The objectives of the research are therefore to first establish methods to quantify both these types of uncertainties in the large-eddy and Reynolds-averaged simulations, and to subsequently establish a framework that can quantify the combined effect of the inflow and turbulence model uncertainties. The results of this framework will be validated with available test data for two different test cases: a low-rise and a high-rise rectangular building. The research outcomes will advance knowledge in three ways: (1) it will improve understanding of the importance of the definition of the different atmospheric boundary layer inflow parameters, thereby identifying which parameters should be most accurately reproduced to obtain reliable results; (2) it will develop a method to quantify turbulence or subgrid model errors in predictions for pressure loads, and the corresponding analysis will increase fundamental understanding of the physics and modeling of turbulent bluff body flows; and (3) by evaluating both inflow and model uncertainties, the dominant contribution to the uncertainty can be identified, which will enable prioritizing further research to reduce the uncertainty in the predictions. Taking into account the considerable difference in computational cost between large-eddy and Reynolds-averaged simulations, the comparison of the respective confidence intervals will also provide essential information on the fitness-for-purpose of both models.</AbstractNarration>
+    <MinAmdLetterDate>07/20/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/20/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1635137</AwardID>
+    <Investigator>
+      <FirstName>Catherine</FirstName>
+      <LastName>Gorle</LastName>
+      <EmailAddress>gorle@stanford.edu</EmailAddress>
+      <StartDate>07/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>014Y</Code>
+      <Text>Engineering for Natural Hazard</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>036E</Code>
+      <Text>CIVIL INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>039E</Code>
+      <Text>STRUCTURAL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>040E</Code>
+      <Text>Haz mitigation of structural sys</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1057</Code>
+      <Text>CIS BASE RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>CVIS</Code>
+      <Text>CIVIL INFRASTRUCTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

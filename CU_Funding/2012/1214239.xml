@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: An Efficient Reachability Analysis Method for Large Dynamic Networks and Its Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Brassil</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Enterprise and campus networks are often large with many having hundreds of routers and thousands of switches which interconnect tens of thousands of hosts and servers. The IP network for an enterprise is not only charged with delivering IP packets but also blocking packets based on security and policy considerations. The set of packets that can travel from one node to another node (reachability set) is controlled by router configurations and by packet filters that guard the outgoing and incoming interfaces of routers and switches. The ability to compute reachability sets is valuable not only for troubleshooting reachability problems but also for debugging and redesigning access control lists (ACLs) in case of link/router failures or before new links/routers are deployed. At present, there is no method fast enough for online computation of reachability sets for large dynamic networks. This project will leverage a novel idea for very fast computation of reachability sets as the basis for developing a theoretical foundation for both transforming network design and configuration into a science and for developing software tools for monitoring, diagnosing, and configuring of large dynamic networks. &lt;br/&gt;&lt;br/&gt;The objectives and activities in the project include the following: (i) Design and implementation of algorithms fast enough to compute reachability sets and answer an online reachability query in milliseconds; (ii) design and implementation of methods and algorithms to update reachability sets of large networks with dynamic changes in topology, packet filters, and forwarding tables at a frequency of once every few seconds; (iii) analysis of ?atomic packet sets? computed from configuration files of operational networks for knowledge discovery and identifying network reachability structure; (iv) design and implementation of a network-wide reachability policy language such that automated tools can be used to check that a network configuration satisfies stated policies; (v) investigation of a top-down design approach for configuring new networks with software tools used by network designers to generate packet filters from network-wide reachability policies, with ACLs generated automatically to implement the packet filters.&lt;br/&gt;&lt;br/&gt;Broader Impact:&lt;br/&gt;The results of this project will contribute towards a scientific foundation for network design and management and the creation of a top-down design approach for configuring networks, which are key aspects of building more secure and reliable networks. It will also educate undergraduate and graduate students on new concepts, formal analysis methods, and software tools for network design and configuration. In particular, the results of this project will be incorporated into the undergraduate and graduate classes being taught by the principal investigator at the University of Texas at Austin. The investigators will actively seek out involvement by high school, undergraduate, and graduate students, especially students from under-represented minorities. The software tools to be created from the project?s research findings will be made available to other researchers under a license of the Free Software Foundation.</AbstractNarration>
+    <MinAmdLetterDate>08/17/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/17/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1214239</AwardID>
+    <Investigator>
+      <FirstName>Simon</FirstName>
+      <LastName>Lam</LastName>
+      <EmailAddress>lam@cs.utexas.edu</EmailAddress>
+      <StartDate>08/17/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

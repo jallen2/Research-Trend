@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Low-rank Diagonally Compensated Matrix Decompositions in the Design of Solvers and Partitioners</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>159998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The computational simulation of many problems in science and engineering requires the use of black-box matrix solvers. The main challenge in the development of reliable black-box solver lies on the unknown origin of the problems that need to be solved. This project will provide a new approach to identify the nature and the origin of the problems and then develop efficient black-box matrix tools. The results will enable researchers to make their computational simulators more feasible at large scale. In particular, problems formulated on large-scale graphs such as those arising from social and information network sciences will be more successfully approached. &lt;br/&gt;&lt;br/&gt;This project offers a unifying step towards building black-box solvers and preconditioners for sparse symmetric positive definite matrices at large scale that have the potential to have desired optimal complexity and be efficient in practice. More specifically, this project proposes the use of a general matrix decomposition into a sum of an easily invertible matrix minus a sum of low-rank symmetric positive semi-definite matrices. The decomposition offers several directions for research. In the case of sparse symmetric positive definite matrices the decomposition naturally defines components for genuine black-box sparse matrix solvers including alternatives to previously studied support graph preconditioners as well as natural components for algebraic multigrid (or AMG) methods, such as convergent smoothers and tools for creating accurate coarse vector spaces. Also, the project offers new algorithms for partitioning (of graphs and finite element meshes), which are dependent on the given matrix entries. For example, if the matrix represents a discrete analog of some physical phenomenon (such as subsurface flow, electromagnetic field, elastic body), the resulting mesh partitioners will reflect the underlined physical process. The broader impact of the project is that its results can have the potential to enable researchers, including ones outside the area of numerical PDEs that are at the interface of discrete mathematics and informatics, to make their simulations more feasible at large scale. In particular, problems formulated on large-scale graphs (arising in sciences and social and information networks) could be more successfully approached. By providing the (algorithmic) tools with rigorous theoretical foundation developed by the project, it will have the potential for solid impact in practice, both in education and research.</AbstractNarration>
+    <MinAmdLetterDate>08/30/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/30/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1619640</AwardID>
+    <Investigator>
+      <FirstName>Panayot</FirstName>
+      <LastName>Vassilevski</LastName>
+      <EmailAddress>panayot@pdx.edu</EmailAddress>
+      <StartDate>08/30/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Portland State University</Name>
+      <CityName>Portland</CityName>
+      <ZipCode>972070751</ZipCode>
+      <PhoneNumber>5037259900</PhoneNumber>
+      <StreetAddress>1600 SW 4th Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

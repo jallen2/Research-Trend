@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>INCA: An Integrated Cluster Computing Architecture for Machine Translation</AwardTitle>
+    <AwardEffectiveDate>02/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2012</AwardExpirationDate>
+    <AwardAmount>465089</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Vasant G. Honavar</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Progress in the field of machine translation (MT) has come to depend heavily on open-source toolkits, which make it easier for new research groups to tackle the problem at lower cost, broadening participation. Unfortunately, toolkits have not kept up with modern computing infrastructure (e.g., the MapReduce framework) required for modern "big data" approaches to MT, the "primitives" in most toolkits are hardly extensible to new models since they focus on pipeline components rather than algorithmic concepts, and experiment management has been all but ignored.&lt;br/&gt;&lt;br/&gt;This project is developing the Integrated Cluster Computing Architecture (INCA) for translation to overcome these challenges, by implementing an extensible, open-source toolkit that can leverage MapReduce clusters and flexibly implement many types of MT systems. MT is not a perfect fit for MapReduce (it has massive memory footprints and requires iterative algorithms); new algorithms are being developed to take advantage of the framework without being limited by it. Experiment management, evaluation, and advice about "best practices" are also part of the toolkit, to make it as widely accessible as possible.&lt;br/&gt;&lt;br/&gt;This project is expected to have broad impact in MT research through the open-source toolkit to be made available to the research community. A course project suitable for undergraduates will be developed and shared openly using the toolkit. Technical solutions to problems in large-scale, parallelized MT will be applicable in areas of data-intensive natural language processing and machine learning, and elements of the toolkit are expected to be useful in such research efforts as well.</AbstractNarration>
+    <MinAmdLetterDate>02/12/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/19/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0844507</AwardID>
+    <Investigator>
+      <FirstName>Stephan</FirstName>
+      <LastName>Vogel</LastName>
+      <EmailAddress>stephan.vogel@cs.cmu.edu</EmailAddress>
+      <StartDate>02/12/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Noah</FirstName>
+      <LastName>Smith</LastName>
+      <EmailAddress>nasmith@cs.cmu.edu</EmailAddress>
+      <StartDate>02/12/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

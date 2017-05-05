@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Fundamental Geometry Processing</AwardTitle>
+    <AwardEffectiveDate>08/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In this project new discrete geometry processing algorithms based on simple and intuitive discretizations of low order differential forms will be developed, along with the supporting theoretical foundations, and it will be shown that the proposed approach unifies and extends a number of existing mesh relaxation algorithms used for denoising, subdivision, and interactive shape deformation. In the classical theory of surfaces, a surface patch is defined by a smooth 3D-valued parameterization function of two parameters, which in the language of differential forms is referred to as a 3D-valued differential 0-form. The two partial derivatives of one of these 0-forms are three dimensional vector fields which define a 3D-valued differential 1-form. A simple approach to surface deformations is to modify this 1-form by locally stretching and rotating its two component vector fields, and then solve for a parameterization function whose partial derivatives match the component vector fields of the modified 1-form. The discrete analog of this approach for deformations of graph embeddings and polygon meshes will be developed. The first fundamental form measures distances and angles on a smooth surface, and the second fundamental form measures how the surface normal varies, i.e., curvature. The two fundamental forms are invariant to rigid body transformations of the surface, and satisfy the Gauss-Codazzi-Mainardi (CDM) equations. Conversely, given two second order symmetric tensor fields satisfying together the CDM equations, the Fundamental Theorem of Surface Theory asserts that: 1) there exists a surface immersed in three-dimensional Euclidean space with these fields as its first and second fundamental forms; and 2) the surface is unique modulo rigid body transformations. The analog theorem for polygon meshes will be formulated and proven, including extensions to manifold meshes of arbitrary topology, meshes with border, and even non-manifold meshes. New contributions to the mesh compression literature will be made by exploiting the relationship between reconstruction algorithms and connectivity-preserving mesh compression schemes.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/20/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915661</AwardID>
+    <Investigator>
+      <FirstName>Gabriel</FirstName>
+      <LastName>Taubin</LastName>
+      <EmailAddress>taubin@brown.edu</EmailAddress>
+      <StartDate>08/20/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7929</Code>
+      <Text>COMPUTATIONAL GEOMETRY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

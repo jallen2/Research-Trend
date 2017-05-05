@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: System-level Run-time Management Techniques for Energy-efficient Silicon-Photonic Manycore Systems</AwardTitle>
+    <AwardEffectiveDate>04/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2018</AwardExpirationDate>
+    <AwardAmount>469305</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The general purpose computing capacity of the world has been increasing at an annual rate of more than 50% over the past few decades, and this trend is expected to continue in the future. However, this increasing compute capacity directly translates to increasing power dissipation. In fact, the server farms and data centers in US consumed 1.5% of the nation's total electricity in 2006, and this number has been steadily growing every year making it absolutely critical to develop energy-efficient solutions for computing systems. Computer scientists and engineers migrated towards designing systems with dozens of low power cores on a single die to address the power problem while improving the compute capacity through parallelism. However, the deployment of these manycore systems has been impeded by the lack of energy-efficient high-bandwidth density (on-chip and off-chip) link solutions in current and projected electrical technology. Silicon-photonic link technology can potentially solve this problem as it provides an order of magnitude higher bandwidth density than equivalent electrical links. However, the power consumed in these silicon-photonic links more than offsets any bandwidth advantages, in turn limiting their widespread adoption for designing manycore systems.&lt;br/&gt;&lt;br/&gt;This project explores system-level techniques (both reactive and proactive) to minimize power dissipation and maximize bandwidth of the silicon-photonic networks (inter-chip and intra-chip), and in turn improve the energy efficiency of manycore systems. In particular, the project focuses on the two largest sources of power consumption in silicon-photonic links - the laser sources and the active tuning of modulator/filter rings (required to maintain resonance under thermal variations). Four techniques - run-time assignment of photonic resources, workload scheduling/migration, memory mapping, and dynamic voltage and frequency scaling (DVFS), that use run-time system dynamics to reconfigure the system for improving its energy efficiency are being investigated. A vertically integrated approach where these system-level techniques are explored while being cognizant of the underlying silicon-photonic link circuits and silicon-photonic devices is adopted.&lt;br/&gt;&lt;br/&gt;At a broader level, this project paves the way for the rapid adoption of silicon-photonic link technology to enable the design of energy-efficient manycore systems. This can provide energy-efficient computing solutions in turn reducing the cost of operation and carbon footprint of the nation?s computing server farms and data centers. On the educational front, the project leverages the numerous outreach programs run by Boston University to engage students with various backgrounds and levels of education in the different research activities associated with the project.</AbstractNarration>
+    <MinAmdLetterDate>03/14/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/14/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1149549</AwardID>
+    <Investigator>
+      <FirstName>Ajay</FirstName>
+      <LastName>Joshi</LastName>
+      <EmailAddress>joshi@bu.edu</EmailAddress>
+      <StartDate>03/14/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

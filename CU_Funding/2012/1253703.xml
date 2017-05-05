@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Practical Language and System Support for Reliable Concurrent Software</AwardTitle>
+    <AwardEffectiveDate>03/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2018</AwardExpirationDate>
+    <AwardAmount>455205</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Over the past several decades, computer system performance has grown exponentially, enabling progress on key problems in science, engineering, health, and other areas. Owing to power, heat, and wire length limitations, however, microprocessors are now adding more, instead of faster, cores with each successive generation. As a result, general-purpose software must become more concurrent to see continued performance gains. Unfortunately, writing and debugging shared-memory concurrent software is notoriously difficult. A key problem is that most shared-memory programming languages and software systems do not provide good support for correct concurrent execution. They lack such support because all known approaches are impractical. This project aims to provide practical support for concurrency correctness in commodity systems. It develops low-overhead, software-only approaches that execute on existing commodity hardware. These approaches help programmers write and debug more reliable, scalable software, and to make software more reliable automatically by eliminating whole classes of errors. These benefits have the potential to enable society to continue to rely on software systems for increasingly complex, critical tasks. Furthermore, the project includes educational and outreach activities that help educate students in concurrent software systems, enhance dissemination of the ideas and outcomes, and broaden participation in computer science.&lt;br/&gt;&lt;br/&gt;The project develops practical, always-on dynamic checking and enforcement of key concurrency correctness properties: atomicity, sequential consistency, and multithreaded determinism. Existing approaches are impractical because custom hardware-based approaches are unrealistic, and software-based approaches slow programs unacceptably. The project builds on preliminary work on an efficient concurrency control mechanism that elides expensive synchronization from non-conflicting accesses, which are the vast majority of accesses. Developing new analyses and systems presents significant new challenges, both to apply the novel concurrency control mechanism and to make other aspects of these analyses and systems efficient enough for production systems. For example, precise conflict detection must track prior accesses and contend with imprecision inherent to the concurrency control mechanism. The project aims to make the analyses and systems both practical and flexible, which requires systematically investigating how to reduce the costs of conflicting and non-conflicting accesses. Expected contributions are the first practical always-on atomicity checker, the first practical multithreaded record &amp; replay system, the first practical sequential consistency checker, and the first practical system providing multithreaded system determinism. In addition to broader impacts, the contributions have the potential to enable new research on efficient software-based analyses and systems that support concurrency correctness.</AbstractNarration>
+    <MinAmdLetterDate>03/07/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/07/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1253703</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Bond</LastName>
+      <EmailAddress>mikebond@cse.ohio-state.edu</EmailAddress>
+      <StartDate>03/07/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

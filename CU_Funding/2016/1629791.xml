@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CI-P: Planning for a Community Infrastructure to Enable Pocket-Scale Data Management Research</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2018</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The world's 2 billion smartphones and 4 million apps have become a large part of most people's communication and computing experiences. Most apps need to store structured data like contacts, address book entries, or even your top scores in Candy Crush. Most smartphones include a piece of software called an embedded database that helps apps save and access this information. For example, both Android phones and iPhones include a popular embedded database called SQLite. SQLite is used a lot -- the project team measured nearly 180 thousand SQLite requests per day on an average Android phone in real-world use. The team also found that lots of these requests use SQLite inefficiently, resulting in shorter battery life, slower performance, and potentially wasted plan data. To do better, research is need to understand what is the problems are. As part of this project, the team is gathering the real-world data and building the infrastructure that researchers will need to make better embedded databases, leading to longer battery life, more responsive phones, and longer-lasting plan data.&lt;br/&gt;&lt;br/&gt;This is the planning stage of an overarching project that aims to make it easier for researchers to explore the challenges of "Pocket-Scale" data. While server-class database systems are frequently tested and tuned for continuous high-throughput query processing, embedded databases experience lower-volume but bursty workloads produced by interactive use. These workloads are far more dynamic, making them much harder to reproduce, which in turn make it hard to evaluate new techniques and systems in realistic settings. The ultimate goal for this community infrastructure (CI) project is to establish a self-sustaining community of researchers and industrial partners who create and share workload traces, benchmarks, instrumentation, and visualization tools, making it easier to evaluate innovations in embedded database technology. In this CI planning stage, the project team is building up the community by reaching out to potential partners from multiple areas including databases, mobile systems, programming languages, and internet-of-things. As a hub for this community, the team is developing a toolchain for benchmarking embedded database, as well as a community website hosted at the University at Buffalo (http://pocketdata.info). The project also involves outreach efforts including tutorials, workshops, and seminar series. With the interest and support from the community, the embedded database benchmark CI is expected to spark a new wave of research interest on pocket-scale data management.</AbstractNarration>
+    <MinAmdLetterDate>08/11/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/11/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1629791</AwardID>
+    <Investigator>
+      <FirstName>Lukasz</FirstName>
+      <LastName>Ziarek</LastName>
+      <EmailAddress>lziarek@buffalo.edu</EmailAddress>
+      <StartDate>08/11/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Oliver</FirstName>
+      <LastName>Kennedy</LastName>
+      <EmailAddress>okennedy@buffalo.edu</EmailAddress>
+      <StartDate>08/11/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Geoffrey</FirstName>
+      <LastName>Challen</LastName>
+      <EmailAddress>challen@buffalo.edu</EmailAddress>
+      <StartDate>08/11/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Buffalo</Name>
+      <CityName>Amherst</CityName>
+      <ZipCode>142282567</ZipCode>
+      <PhoneNumber>7166452634</PhoneNumber>
+      <StreetAddress>520 Lee Entrance</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

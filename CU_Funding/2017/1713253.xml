@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: CPS: Safe Cyber-Physical Systems Upgrades</AwardTitle>
+    <AwardEffectiveDate>08/16/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>124061</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Corman</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Cyber-physical systems (CPS) encompass the next generation of computerized control for countless aspects of the physical world and interactions thereof. The typical engineering process for CPS reuses existing designs, models, components, and software from one version to the next. For example, in automotive engineering, it is common to reuse significant portions of existing model-year vehicle designs when developing the next model-year vehicle, and such practices are common across CPS industries, from aerospace to biomedical. While reuse drastically enhances efficiency and productivity, it leads to the possibility of introducing unintended mismatches between subcomponents' specifications. For example, a 2011 US National Highway Traffic Safety Administration (NHTSA) recall of over 1.5 million model-year 2005-2010 vehicles was due to the upgrade of a physical transmission component that was not appropriately addressed in software. A mismatch between cyber and physical specifications may occur when a software or hardware upgrade (in effect, a cyber or physical specification change) is not addressed by an update (in effect, a matching specification change) in the other domain. This research will develop new techniques and software tools to detect automatically if cyber-physical specification mismatches exist, and then mitigate the effects of such mismatches at runtime, with the overall goal to yield more reliable and safer CPS upon which society increasingly depends. The detection and mitigation methods developed will be evaluated in an energy CPS testbed. While the evaluation testbed is in the energy domain, the methods are applicable to other CPS domains such as automotive, aerospace, and biomedical. The educational goals will bridge gaps between computer science and electrical engineering, preparing a diverse set of next-generation CPS engineers by developing education platforms to enhance CPS engineering design and verification skills.&lt;br/&gt;&lt;br/&gt;The proposed research is to develop new techniques and tools to automatically identify and mitigate the effects of cyber-physical specification mismatches. There are three major research objectives. The first objective is to identify cyber-physical specification mismatches. To identify mismatches, a detection problem will be formalized using the framework of hybrid input/output automata (HIOA). Offline algorithms will be designed to find candidate specifications from models and implementations using static and dynamic analyses, and then identify candidate mismatches. The second objective is to monitor and assure safe CPS upgrades. As modern CPS designs are complex, it may be infeasible to determine all specifications and mismatches between all subcomponents at design time. Runtime monitoring and verification methods will be developed for inferred specifications to detect mismatches at runtime. When they are identified, a runtime assurance framework building on supervisory control and the Simplex architecture will assure safe CPS runtime operation. The third objective is to evaluate safe CPS upgrades in an example CPS. The results of the other objectives and their ability to ensure safe CPS upgrades will be evaluated in an energy CPS testbed, namely an AC electrical distribution microgrid that interfaces DC-producing renewables like photovoltaics to AC.</AbstractNarration>
+    <MinAmdLetterDate>11/18/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/18/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1713253</AwardID>
+    <Investigator>
+      <FirstName>Taylor</FirstName>
+      <LastName>Johnson</LastName>
+      <EmailAddress>taylor.johnson@gmail.com</EmailAddress>
+      <StartDate>11/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Vanderbilt University</Name>
+      <CityName>Nashville</CityName>
+      <ZipCode>372350002</ZipCode>
+      <PhoneNumber>6153222631</PhoneNumber>
+      <StreetAddress>Sponsored Programs Administratio</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

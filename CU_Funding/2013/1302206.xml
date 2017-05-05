@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Medium: Selective Search of Large-Scale Text Collections</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>1083395</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project develops an alternative architecture for large-scale text search in which the document corpus is decomposed into index shards that are expected to have skewed utility distributions, thus enabling most index partitions to be ignored for most queries. This selective search architecture is as effective as conventional search engine architectures, but has far lower computational costs and reveals new challenges and opportunities in large-scale search. The decomposition process creates text collections, thus inviting research on what characteristics are desired or to be avoided in a text collection to enable accurate search. New resource selection algorithms are developed to address efficiency problems in existing algorithms and dynamically adjust search costs based on query difficulty. The project includes collaboration with three research groups at other universities, to help their research, leverage their expertise in designing new approaches to problems, and investigate the effectiveness of our research in more varied situations. The result is an "off-the-shelf" method that provides an order of magnitude reduction in search costs over the current state-of-the-art, especially on corpora of more than a billion documents, and that can be easily customized or extended to support varied needs.&lt;br/&gt;&lt;br/&gt;Selective search is significant in part because it provides a new perspective on how to organize a very large collection of documents so that it can be searched accurately and efficiently. This new understanding reveals new research problems and undiscovered weaknesses in existing algorithms that will have impact within the scientific community. Text search is one of the most widely used computer science technologies; hence selective search is of practical significance. The state-of-the-art in many areas of industry and science is increasingly associated with large-scale datasets, which makes it difficult for organizations with modest computational resources to compete. This project reduces the computational costs of searching large-scale text collections by an order of magnitude or more. It has the potential to reduce the energy and other costs associated with the data centers of large search providers, which has important economic and societal benefits. Research results from this project are disseminated via project web site (http://www.cs.cmu.edu/~callan/Projects/IIS-1302206/); in research publications; in the Lemur Project's open-source search engines, which are used by a broad international scientific community; and in the Lemur Project's ClueWeb public search services, which integrate research and education by enabling scientists and classroom students to do experiments on large, state-of-the-art text corpora.</AbstractNarration>
+    <MinAmdLetterDate>09/07/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/07/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1302206</AwardID>
+    <Investigator>
+      <FirstName>Jamie</FirstName>
+      <LastName>Callan</LastName>
+      <EmailAddress>callan@cs.cmu.edu</EmailAddress>
+      <StartDate>09/07/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

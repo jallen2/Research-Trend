@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CDS&amp;E: Compiler/Runtime Support for Developing Scalable Parallel Multi-Scale Multi-Physics</AwardTitle>
+    <AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>544347</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Patricia Knezek</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The dramatic strides in computer speed and performance over the last few decades make it feasible to accurately model increasingly complex phenomena. However, achieving high performance on massively parallel supercomputers is an extremely challenging task. With deepening memory hierarchies, significantly higher degrees of per-chip multi-core parallelism, the task of programming compute-intensive engineering applications to attain high performance on a large scale cluster system has become increasingly difficult. It is often the case that the time and effort required to develop effective and efficient software has become the bottleneck in advancing many areas of science and engineering. This challenge can be overcome by advances in compile-time/runtime systems that can ease the burden on the programmer while delivering a high performance portable instantiation of the particular application on modern and emerging high performance platforms.&lt;br/&gt;&lt;br/&gt;To address this challenge, this project is developing a novel framework for transforming irregular scientific/engineering applications in a global address space framework. The research is grounded in a very different and complementary research direction to most current efforts in addressing the challenge of enhancing programmer productivity, maintaining portability, and achieving good performance on scalable distributed-memory parallel systems. The project will advance compiler/runtime techniques so that users can develop annotated sequential programs, to be automatically transformed by our system for efficient execution on distributed-memory parallel systems. This approach is motivated by the success of the popular OpenMP and OpenACC pragma based approaches to transforming annotated sequential programs for parallel execution on multicore and GPU/accelerator systems, respectively. An annotation based OpenAPP (APP - Asynchronous Partitioned Parallelism) framework is proposed for source-to-source transformation of an important class of scientific/engineering programs using the inspector/executor paradigm for execution on distributed-memory parallel systems. The proposed framework will be validated using several medium to large scale applications.&lt;br/&gt;&lt;br/&gt;The project seeks to significantly lower the entry barrier associated with effective use of scalable distributed-memory computers, which are essential if more than 100x performance improvement over sequential codes is sought. A successful outcome of this project will be transformative for computational and domain scientists and engineers who seek to use next generation parallel systems for their simulation and modeling. The developed tools will be made publicly available to the community under an open source license. The project will also organize workshops that bring together compiler/runtime experts and computational scientists developing massively parallel scientific/engineering applications.</AbstractNarration>
+    <MinAmdLetterDate>06/26/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1404995</AwardID>
+    <Investigator>
+      <FirstName>Atanas</FirstName>
+      <LastName>Rountev</LastName>
+      <EmailAddress>rountev@cse.ohio-state.edu</EmailAddress>
+      <StartDate>07/31/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ponnuswamy</FirstName>
+      <LastName>Sadayappan</LastName>
+      <EmailAddress>sadayappan.1@osu.edu</EmailAddress>
+      <StartDate>06/26/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

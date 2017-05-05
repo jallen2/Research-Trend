@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Co-Designing Distributed Coordination Systems and the Datacenter Network</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>428214</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Datacenter applications must remain continuously available and keep data consistent despite the fact that individual servers may fail. This is one of the fundamental challenges of distributed systems design: coordinating accesses to distributed services. Today's systems solve these problems with sophisticated distributed algorithms like Paxos and two-phase commit, yet these are frequently considered too expensive for practical use. This is because these algorithms are designed independently from -- and must make worst-case assumptions about -- the underlying network.&lt;br/&gt;&lt;br/&gt;This project will explore a new approach to designing distributed systems for the datacenter: co-designing distributed protocols with the network layer. This includes designing new network-level primitives to enable datacenter networks to provide stronger semantics, e.g., an approximately synchronous mode of execution. Then these primitives will be used to design high-performance distributed systems, including state machine replication protocols and transactional storage systems.&lt;br/&gt;&lt;br/&gt;This work will improve the ability of distributed systems to provide fault tolerance with high performance, increasing the robustness of critical datacenter infrastructure. It will also reduce the cost of strongly-consistent transactional storage, making it easier for application developers to reason about concurrent accesses to shared data, and thereby encourage innovation.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1615102</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Ports</LastName>
+      <EmailAddress>drkp@cs.washington.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TTP: Small: A Kit for Exploring Databases under the Hood for Security, Forensics and Data Recovery</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>264838</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita Nikolich</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Database Management Systems (DBMS) have been used to store and process data in organizations for decades. Larger organizations use a variety of databases (commercial, open-source or custom-built) for different departments. However, neither users nor Database Administrators (DBAs) know exactly where the data is stored on the system or how it is processed. Most relational databases store internal data using universal principles that can be inferred and captured. This project will build tools that draw on these principles to offer x-ray vision into storage of many DBMS, illustrating exactly what is happening inside. This research benefits users from a variety of backgrounds: students, teachers, database users, DBAs and forensic analysts. Tools developed by the research team enable DBAs to inspect storage and observe any leaking data, thereby helping forensic analysts discover what happened in a database during an attack. Users are given the power to restore data that was deleted in the face of a critical corruption event and recover it. The same tools help students understand concepts of database operations by their use in introductory courses during which students observe security vulnerabilities. &lt;br/&gt;&lt;br/&gt;Some DBMS's provide profiling and recovery tools, but the functionality is always database-specific and varies wildly across different platforms. This research project standardizes basic profiling and data recovery capabilities and delivers a universal solution for most major relational DBMS. This solution includes recovery against corruption events that can cause data loss or incapacitate any modern DBMS; reconstruction of "unrecoverable" (i.e., discarded or deleted) data; and visualizing artifacts that offer insight to forensic analysts. The tools built in this project focus on providing easy-to-use and intuitive visualization of all deconstructed DBMS content from disk and RAM and recommend strategies for minimizing data leaks. Development and evaluation is done in collaboration with Information Technology (IT) professionals and academic DBAs as well as industry partners. This project also produces a suite of standard benchmarks that can quantify data leakage and recovery rates for different databases. Finally, the visualization tools and benchmarks are combined into training tutorials and student lessons both for database and security curriculums.</AbstractNarration>
+    <MinAmdLetterDate>09/07/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/07/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1656268</AwardID>
+    <Investigator>
+      <FirstName>Jacob</FirstName>
+      <LastName>Furst</LastName>
+      <EmailAddress>jfurst@cdm.depaul.edu</EmailAddress>
+      <StartDate>09/07/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Rasin</LastName>
+      <EmailAddress>arasin@cdm.depaul.edu</EmailAddress>
+      <StartDate>09/07/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>DePaul University</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606042287</ZipCode>
+      <PhoneNumber>3123627595</PhoneNumber>
+      <StreetAddress>1 East Jackson Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

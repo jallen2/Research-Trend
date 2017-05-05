@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: BCSP: Methods for analyzing sequencing data from repetitive genomes</AwardTitle>
+    <AwardEffectiveDate>05/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2019</AwardExpirationDate>
+    <AwardAmount>545881</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Our understanding of how biological systems work is increasingly fueled by data from DNA sequencers. Sequencing has improved dramatically over the past several years, but the datasets produced by sequencers are unwieldy and difficult to interpret. This is especially true when the genome being studied contains many repeated stretches of DNA, as is the case for most mammals and plants. The goal of this project is to develop improved computational and statistical methods for analyzing DNA sequencing data, providing faster, more accurate, and more interpretable results to scientists studying organisms with repetitive genomes. These methods will be implemented as open source software tools made freely available to the research community. A successful project will result in these tools being widely adopted in the biological research community. Repetitive sequences are implicated in cellular regulation processes and associated with human disease. The integrated education plan also seeks to improve software for analyzing sequencing data by teaching computer science students the complete set of skills needed to make usable genomics software in the era of big data genomics. The PI will develop an undergraduate minor in computational biology, a graduate class covering methods for analyzing large sequencing datasets, and a competitive class project. A successful effort will result in more trained computer scientists joining and contributing to the study of computational biology and genomics.&lt;br/&gt;&lt;br/&gt;The genomes of plants, mammals and other higher eukaryotes contain many repeated DNA sequences. 80% of the maize genome, for example, is covered by repetitive stretches of DNA. At the same time, computational tools typically model DNA as a string. This has advantages; it allows these tools to borrow methods developed for other strings, such as books and web pages, and apply them to DNA. But for repetitive genomes, the string abstraction fails to capture the prevalence of repeated DNA sequences related to each other through evolution. The PI proposes a broad research agenda based on the idea that analyzing sequencing data derived from repetitive genomes requires special, repeat-aware computational methods. The first project explores accurate and efficient methods for aligning sequence reads to repeat families. The PI proposes methods that exploit similarities between alignment problems to yield solutions that are more accurate than current approaches. The second project explores novel methods for predicting the probability that an alignment reported by a read aligner is correct, i.e., that the aligner correctly identified the read's point of origin. Downstream analysis tools use this quantity to weigh their confidence in evidence derived from the alignment. But estimating this quantity accurately is difficult, and there are no widely applicable approaches available now. The PI proposes a tandem simulation approach, whereby a simulator mimicking properties of a real dataset can provide training examples that in turn allows us to accurately predict these probabilities for real data. These methods address major deficiencies in everyday common genomics analyses, which are made slower and less accurate by repetitive DNA.&lt;br/&gt;&lt;br/&gt;The PI will also conduct an integrated set of curriculum building and outreach efforts. These have the goal of bringing computational biology to the attention of more students earlier in their training, and to provide graduate and upper undergraduate students with a strong computational biology curriculum. Specifically, the PI will develop and implement an undergraduate minor in computational biology at Johns Hopkins University. Second, the PI will design a new graduate-level course covering contemporary methods for analyzing very large collections of sequence data. Finally, the PI will develop a competitive project called the Big Sequence Data Pentathlon that tests students' ability to design scalable, usable genomics analysis tools on a parallel computer system.</AbstractNarration>
+    <MinAmdLetterDate>05/19/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/04/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1349906</AwardID>
+    <Investigator>
+      <FirstName>Benjamin</FirstName>
+      <LastName>Langmead</LastName>
+      <EmailAddress>langmea@cs.jhu.edu</EmailAddress>
+      <StartDate>05/19/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Johns Hopkins University</Name>
+      <CityName>Baltimore</CityName>
+      <ZipCode>212182608</ZipCode>
+      <PhoneNumber>4105168668</PhoneNumber>
+      <StreetAddress>3400 N CHARLES ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

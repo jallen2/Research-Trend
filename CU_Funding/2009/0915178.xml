@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Development of fast and high-order accurate time-domain PDE solvers for complex geometries</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2012</AwardExpirationDate>
+    <AwardAmount>47003</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5). &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The project develops fast and high-order accurate time-domain Partial Differential Equation (PDE) solvers for complex geometries, in particular focusing on unconditionally stable methods that utilize advanced Fourier series techniques for boundary conditions involving normal derivatives. A recently developed methodology uses a fast Fourier continuation method which effectively extends a non-periodic function to a periodic function over a larger domain. This high-order accurate approximation allows for the fast evaluation of the function and its derivatives by means of Fast Fourier Transforms. This Fourier Continuation is utilized within an Alternating Direction scheme in the new methodology for PDE solution, FC-AD, which is high-order accurate, is unconditionally stable, and can be directly applied to complex domains without prohibitive domain mappings or coordinate transformations. These FC-AD techniques have the potential to be transformative and produce solutions to problems that would otherwise be intractable, in particular, for any type of wave propagation problem (Radar/Sonar, Ultrasound, Communications ...) where traditional techniques are limited by ?pollution? type errors. Due to the alternating directions though, the application of the FC-AD techniques to problems with normal derivatives provides a significant challenge that this project seeks to overcome. The boundary conditions will be incorporated using fast boundary integral equation methods at each time step on a sub-problem and then incorporated back into the full solution. The resulting coupled methods will represent a broad class of general high-order solvers that are applicable to a range of PDEs including non-linear problems, where boundary integral methods alone will not work. The development will include the consideration of several important applications, including the computation of stress concentrations.&lt;br/&gt;&lt;br/&gt;Significant problems remain unsolved because current algorithms are not yet efficient enough to obtain sufficiently accurate solutions. The new computational tools being developed in this project provide a new more efficient means to solve some of the basic equations used in scientific models and to be able to solve them efficiently on the complex geometries encountered in real life. Due to the FC-AD?s ability to solve PDEs directly on complex geometries without domain mappings or the costly mesh generation of standard techniques, it has the significant potential to make a contributions in many scientific fields. By providing numerical solutions with better accuracies, a greater understanding of the underlying physical processes can be developed, better predictions can be made from the models, and engineering designs can be further optimized to provide greater safety or reduce costs. Potential application areas include: Radar/Sonar, Biomedical applications including cancer treatments, Communications, Stress and Failure analysis, and Fluid Dynamics applications including pollution transport and aspects of climate change.</AbstractNarration>
+    <MinAmdLetterDate>08/02/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/02/2009</MaxAmdLetterDate>
+    <ARRAAmount>47003</ARRAAmount>
+    <AwardID>0915178</AwardID>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Lyon</LastName>
+      <EmailAddress>mark.lyon@unh.edu</EmailAddress>
+      <StartDate>08/02/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of New Hampshire</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>038243585</ZipCode>
+      <PhoneNumber>6038622172</PhoneNumber>
+      <StreetAddress>51 COLLEGE RD SERVICE BLDG 107</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Hampshire</StateName>
+      <StateCode>NH</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

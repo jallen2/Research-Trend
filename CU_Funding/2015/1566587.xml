@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: CIF: Multi-version Distributed Storage - from Instantaneous to Evolving Information</AwardTitle>
+    <AwardEffectiveDate>05/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2018</AwardExpirationDate>
+    <AwardAmount>175000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Brown</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The research objective of this project is to study the fundamental problem of storing evolving information in distributed networks through coding-based distributed computing. When multiple versions of a message are to be written to a storage network, the project studies how to use erasure codes and distributed algorithms to tolerate communication and storage node failures and obtain consistent storage, while maintaining a low cost in terms of storage and communication sizes. Storing evolving information in a consistent way is one of the critical problems in multi-processor programming, sensor networks, distributed databases, and cloud storage. Schemes produced in this project seek solutions to reduce storage and communication cost, both in theory and in practical distributed systems. The project leverages coding theory and distributed computing, combined with information-theoretic and algorithmic arguments, of use in understanding other distributed algorithms as well. The project will educate students through research and graduate course development, and will provide online materials for a non-expert audience.&lt;br/&gt;&lt;br/&gt;Under standard assumptions of coding for distributed storage, a static message is to be written and read, with the operations completed instantaneously. As a result, temporal aspects of the information access processes are not considered. On the other hand, shared memory in an asynchronous and unreliable message-passing network results in many read and write operations with delays that are not known a priori, and each write operation has a potentially different version of the dynamic message. An information-theoretic assessment of this setting is presently lacking. This project addresses several basic problems in storing evolving information in distributed networks. First, multi-version coding with a changing message is proposed. This is a new framework of error-correcting codes, which allows multiple versions of a message to be present in the storage network, and different subsets of versions to be written at different storage nodes, such that the newest possible version can be decoded despite node failures. Second, multi-version storage with synchronous communication is studied, where a possibly infinite series of write and read operations communicates to the storage nodes in synchronous rounds, such that every read can recover the newest possible message version. Third, multi-version storage in asynchronous networks is studied, such that a write or a read can access the nodes many times and the decoded message version satisfy a given consistency condition. The project will study these different settings, construct achievable coding and algorithmic schemes, and prove information-theoretic outer bounds for the storage and communication cost.</AbstractNarration>
+    <MinAmdLetterDate>05/12/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/12/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1566587</AwardID>
+    <Investigator>
+      <FirstName>Zhiying</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>zhiying@uci.edu</EmailAddress>
+      <StartDate>05/12/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173067</ZipCode>
+      <PhoneNumber>9498244768</PhoneNumber>
+      <StreetAddress>5171 California Avenue, Ste 150</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>026y</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7935</Code>
+      <Text>COMM &amp; INFORMATION THEORY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Computational and theoretical study of parameter scaling in particle systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>142420</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Agent-based models are used to simulate the behavior of many interacting agents, such as insects, fish, robots, or humans. Generally, agents are taken to have common interaction rules. With these agent-based models, there is always the question of how to choose parameters in order to best predict the behavior of the population being modeled. Some models, such as the Czirok-Vicsek model, are originally formulated in discrete time, while others, such as the Cucker-Smale model, are formulated in continuous time. Many agent-based models in biology and the social sciences use the Forward Euler Method to simulate the model. Hence, even if the model is originally formulated in continuous time, the choice of timestep often becomes a parameter in the simulations. In addition to the timestep, the number of agents, particle density, and any applicable ranges of interaction must be chosen. But what happens as these parameters are changed? Should the other parameters change as the particle density changes in order to maintain the same dynamics? The goal of this project is to understand how the parameters in discrete-time agent-based models, including the number of particles, the timestep, and parameters such as the interaction range, should scale with one another in order exhibit the same large-scale dynamics with different parameter values. Another question of interest is what happens in the continuum limit, i.e. when the timestep is taken to zero and the number of agents is taken to infinity. How do such limits affect the dynamics of the model? A further goal of this project, if time permits, is to explore the impacts of this investigation on applications of these models and on the derivation of associated PDE models.&lt;br/&gt;&lt;br/&gt;This research stands to have a broad impact on many research areas which currently employ agent-based models. These models are often applied in biology, physics, and social science. In these fields, the system being modeled generally includes a prohibitively large number of organisms, such as people, fish, insects, birds, or robots, interacting among themselves. As such, it is often necessary to approximate the behavior of the population by an agent-based model where each agent represents a group of individuals, even though rules of interaction are derived with interactions among individual organisms in mind. Thus, the question of how to scale the parameters as the number of agents in the simulation changes is central to the successful application of these models. Furthermore, where these agent-based models are being applied, discrete-time versions are often employed in place of continuous dynamical systems, and it is easy to ignore the question of how the timestep should scale with other parameters. Hence, it is imperative that the effect of these scalings be understood and disseminated, since they can significantly change the dynamics of the model. In this way, mathematics, physics, biology, and social science all stand to gain essential information from the investigations of the PI and her collaborators.</AbstractNarration>
+    <MinAmdLetterDate>07/22/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319462</AwardID>
+    <Investigator>
+      <FirstName>Alethea</FirstName>
+      <LastName>Barbaro</LastName>
+      <EmailAddress>alethea.barbaro@case.edu</EmailAddress>
+      <StartDate>07/22/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Case Western Reserve University</Name>
+      <CityName>CLEVELAND</CityName>
+      <ZipCode>441064901</ZipCode>
+      <PhoneNumber>2163684510</PhoneNumber>
+      <StreetAddress>Nord Hall, Suite 615</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

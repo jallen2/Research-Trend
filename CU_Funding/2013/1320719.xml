@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Massive Graph Analysis via Linear Measurements: Towards a Theory of Homomorphic Co</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>456640</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Massive graphs arise in any application where there is data about both basic entities and the relationships between these entities, e.g., web-pages and hyperlinks; neurons and synapses; papers and citations; IP addresses and network flows; people and their friendships. Graphs have become the de facto standard for representing many types of highly structured data. However, the size of these massive graphs is such that existing graph algorithms in traditional computational models are typically not applicable. &lt;br/&gt;&lt;br/&gt;In this project, the PI investigates the utility of random linear projections that compress massive graphs into a lower-dimensional space where computation becomes more tractable. An advantage of this approach is its widespread applicability; the linearity of the projection leads to algorithms appropriate for parallel and distributed computation, online processing, and various compressed sensing models. A rich body of analytic and empirical work exists on using linear projections in the context of numerical data such as feature vectors and frequency counts. For example, such projections have been studied in the context of research on locality sensitive hashing and nearest neighbors, fingerprinting, sparse signal recovery, metric embeddings, spatial partition trees, and low-rank matrix approximation. The goal of this project is to extend this powerful technique to highly structured graph data.&lt;br/&gt;&lt;br/&gt;The main research components are: A) Investigating the types of graph structure that can be measured linearly. This includes designing new projections and proving bounds on the dimensionality required to preserve graph properties such as distances, eigenvalues, the size of cuts and matchings, and the frequency of induced subgraphs. B) Developing new applications of the framework including fast algorithms for processing dynamic graphs, graph sampling and property testing, graph fingerprinting, and MapReduce-style distributed computing. C) Taking steps towards a theory of homomorphic compression. Linear projections are homomorphic with respect to linear operations and the main challenge in designing projections for graph compression is recasting the relevant graph operations as linear operations. The PI will develop this idea further and explore compression schemes where it is possible to compute directly on the compressed data without the need to first uncompress the data.&lt;br/&gt;&lt;br/&gt;In conjunction with these research goals, the project includes educational and broader impact initiatives that are designed to ensure a wide dissemination of research results and to train graduate and undergraduate students.</AbstractNarration>
+    <MinAmdLetterDate>06/25/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/25/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320719</AwardID>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>McGregor</LastName>
+      <EmailAddress>mcgregor@cs.umass.edu</EmailAddress>
+      <StartDate>06/25/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>Hadley</CityName>
+      <ZipCode>010359450</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

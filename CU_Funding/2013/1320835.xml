@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF:Small: Foundations of Transactional Memory Scheduling</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>365897</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Multi-core computer architectures offer unprecedented performance benefits and present new challenges for the efficient synchronization of concurrent computations. Transactional memory is a prominent programming model that simplifies the synchronization of shared memory accesses, and avoids the complications of fine-grained locking mechanisms. A memory transaction represents a sequence of (read/write) shared memory operations that need to be performed atomically by a computation thread. A transaction either commits, or aborts in case of conflicts with other transactions that concurrently access the same shared resources. This project aims to design, develop, and analyze contention managers that schedule efficiently memory transactions in a variety of systems. The goal is to provide schedulers that have provable formal performance guarantees and at the same time are practically efficient; thus, bridging the gap between theory and practice that currently appears in the literature.&lt;br/&gt;&lt;br/&gt;The project considers a wide range of distributed systems, including tightly-coupled systems such as multi-core processors, and larger scale systems such as distributed networked processors. One of the main objectives is to provide scheduling algorithms which scale gracefully with the various system sizes and complexities. In order to fulfill this objective, this work proposes new analytical techniques to obtain good formal bounds with appropriate performance metrics, and also conducts experimental evaluations in real world workloads to obtain good performance in practical scenarios. The project establishes foundations for investigating the performance of transactional memory systems, and also provides analytical tools to the research community for exploring transactional memory to its full potential. The proposed research impacts the larger computing community because it affects the efficiency of distributed and parallel programs running on widely used distributed and multi-core systems.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320835</AwardID>
+    <Investigator>
+      <FirstName>Konstantin</FirstName>
+      <LastName>Busch</LastName>
+      <EmailAddress>busch@csc.lsu.edu</EmailAddress>
+      <StartDate>07/29/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Louisiana State University &amp; Agricultural and Mechanical College</Name>
+      <CityName>Baton Rouge</CityName>
+      <ZipCode>708032701</ZipCode>
+      <PhoneNumber>2255782760</PhoneNumber>
+      <StreetAddress>202 Himes Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

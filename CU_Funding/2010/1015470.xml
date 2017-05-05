@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Practical Data Confinement</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>499646</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In today's information-driven economy, organizations are finding it increasingly difficult to control the flow of sensitive information. &lt;br/&gt;This project is building a system called PDC (for Practical Data Confinement), a novel information security architecture built around coarse-grained isolation, fine-grained dynamic information flow tracking (DIFT), and informed policy enforcement. In broad terms, PDC provides mechanisms for tracking the movement of confidential data and enforcing dissemination restrictions that specify how, when, and to whom the data may be externalized. PDC requires no changes to applications or the operating system, and is thus readily deployable in existing IT environments. PDC makes use of an augmented hypervisor that enforces inter-VM isolation and carefully tracks the movement of sensitive data between the virtual CPU registers, memory, and disk within each VM. The hypervisor also intercepts all externally observable output actions (e.g., network communication, writing data to a mobile storage medium, sending data to a printer) and enforces security policies, allowing or denying specific application requests to externalize sensitive data. The main focus of the current work is to overcome the performance barriers that have hindered similar approaches in the past.</AbstractNarration>
+    <MinAmdLetterDate>07/19/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1015470</AwardID>
+    <Investigator>
+      <FirstName>Scott</FirstName>
+      <LastName>Shenker</LastName>
+      <EmailAddress>shenker@berkeley.edu</EmailAddress>
+      <StartDate>07/19/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>International Computer Science Institute</Name>
+      <CityName>Berkeley</CityName>
+      <ZipCode>947044115</ZipCode>
+      <PhoneNumber>5106662900</PhoneNumber>
+      <StreetAddress>1947 CENTER ST STE 600</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

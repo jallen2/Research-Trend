@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Dynamic Routing, Distributed Hash Tables and Location Services</AwardTitle>
+    <AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>108999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project addresses the problem of efficient and scalable routing in dynamic distributed networks. The goal is to design compact routing schemes (that is, schemes with low memory overhead) with locality-sensitive node join, leave and move operations (that is, the cost of a node move operation should be proportional to the distance the node moves). An important application of routing is the design of object location services and distributed hash tables. The novel features of this research include improved bounds on the quality of routing paths, the ability to efficiently deal with highly dynamic node operations, and fault tolerance. Further, an important goal is to provide graceful degradation: if the assumptions under which the routing and location scheme works are violated or relaxed, the failure should not be abrupt, but instead the performance should worsen only as a function of the degree to which the assumptions were relaxed.&lt;br/&gt;&lt;br/&gt;New paradigms of computation motivated by the development of the Internet lead to viewing the computer network itself as a computer and require an understanding of computation distributed across a large-scale and unstructured networks, whose many nodes are capable of performing computations independently. A basic operation in such a system is routing: nodes should be able to send each other messages without necessarily having complete information about the network. The messages should be sent along efficient routes, and individual nodes should not be required to store too much information about the network structure. Further, the network may change over time, with nodes joining or leaving, or moving within the network. An additional complication arises when fault tolerance is considered, since the system must be able to continue working correctly even in the presence of faults. This project will advance our understanding of the structure of networks that we rely on in everyday life, improve the efficiency and reduce the vulnerability of computer networks and applications, thus contributing to the development and deployment of secure network applications and infrastructure. The PIs' earlier work on distributed object location has been integrated in real-world systems. Since the focus of this project is on more realistic scenarios but problems just as important, it is likely that it will lead to further implementations and systems of wide applicability.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/09/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0830791</AwardID>
+    <Investigator>
+      <FirstName>Andrea</FirstName>
+      <LastName>Richa</LastName>
+      <EmailAddress>aricha@asu.edu</EmailAddress>
+      <StartDate>12/09/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andrea</FirstName>
+      <LastName>Richa</LastName>
+      <EmailAddress>aricha@asu.edu</EmailAddress>
+      <StartDate>08/01/2008</StartDate>
+      <EndDate>12/09/2010</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Goran</FirstName>
+      <LastName>Konjevod</LastName>
+      <EmailAddress>goran.konjevod@gmail.com</EmailAddress>
+      <StartDate>08/01/2008</StartDate>
+      <EndDate>12/09/2010</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Arizona State University</Name>
+      <CityName>TEMPE</CityName>
+      <ZipCode>852816011</ZipCode>
+      <PhoneNumber>4809655479</PhoneNumber>
+      <StreetAddress>ORSPA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

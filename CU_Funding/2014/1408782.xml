@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Medium: Collaborative Research: FTFS: A Read/Write-Optimized Fractal Tree File System</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>240000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern, general-purpose file systems offer poor performance on microdata operations, such as file creation and destruction, small writes to large files, and metadata updates, yet these operations are pervasive on today's computer systems. Underlying this problem are fundamental limitations of the data structures used to organize data on disk. This project will explore the practical efficacy of a recently-discovered category of data structures, called write-read-optimized (WRO) data structures, which have the potential to improve microdata performance dramatically without sacrificing good performance on other types of operations. This project will bring together a team of experts from theory and systems who can bring cutting-edge algorithmic advances into operating system (OS) designs. To this end, the team will build a general-purpose file system for Linux, called FTFS, that uses WRO data structures.&lt;br/&gt;&lt;br/&gt;Work of this nature has the potential to eliminate the current trade-off between data locality on disk and small-write performance. This project observes that WRO data structures, such as B^epsilon trees and fractal tree indexes, can give comparable asymptotic behavior to a B-tree for queries and bulk updates, as well as support small updates with performance close to logging. Preliminary work demonstrates that these asymptotic benefits translate to real performance improvements - up to two orders of magnitude faster than a traditional B-tree for some operations. Modern operating systems have certain assumptions about how file systems are designed, such as inducing extra lookups during update operations (called cryptoreads). Cryptoreads cause update operations to block on lookups, thus throttling the faster updates that WRO data structures provide. The project will investigate OS support for WRO data structures, as well as redesigning WRO data structures to support the operations of a fully-featured file system.&lt;br/&gt;&lt;br/&gt;The ultimate goal is technology transfer and practical adoption. The effort will advance the current state of the art in file system and operating system design. Computers are a fundamental part of our society, with desktops and laptops permeating schools and workplaces, individuals carrying at least one mobile device, and scientists driving new discovery with supercomputers. File systems are the backbone of these computing platforms, and improvements to the efficiency of a general-purpose file system can improve the efficiency of our national cyber-infrastructure, as well as reintroduce flexibility into the storage stack needed to adapt to rapidly evolving devices.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1408782</AwardID>
+    <Investigator>
+      <FirstName>Martin</FirstName>
+      <LastName>Farach-Colton</LastName>
+      <EmailAddress>farach@cs.rutgers.edu</EmailAddress>
+      <StartDate>08/26/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

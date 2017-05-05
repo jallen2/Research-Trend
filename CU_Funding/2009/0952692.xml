@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Foundations and Extensions of Public Key Cryptography</AwardTitle>
+    <AwardEffectiveDate>03/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>02/29/2016</AwardExpirationDate>
+    <AwardAmount>446600</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Increasingly, both personal and enterprise data are being stored at third-party locations, outside of the data owner's control. A company might directly outsource its data storage by using a backup service such as Amazon's S3 application. In other cases, outsourcing is a by-product of a larger service; for example, several corporations use Salesforce to manage their customer relations and sales data. Outsourcing data storage offers several benefits: storage costs can be amortized by a third-party over several customers, a third party can store data at different geographic locations for robustness, and integration with larger application services becomes easier. One can imagine a not too distant future where most computation and storage is realized in a network "cloud". In order to protect data stored at third party services we will need to encrypt it.&lt;br/&gt;&lt;br/&gt;Unfortunately, traditional encryption systems are insufficient for these applications. Solving this problem requires an entirely new way of encrypting data. To see this, recall that in traditional public key encryption a party encrypts data to a single known user. While this functionality is useful for applications such as encrypted email and establishing secure web sessions, it lacks the expressiveness needed for more advanced data sharing. In enterprise settings, a party will want to share data with groups of users based on their credentials. Often a party sharing data will not know which individual users will need to have access to it; moreover, some users will not even exist in the system at the time the data is encrypted. For example, a traveling sales representative might want to encrypt records so that any current or future manager in the personal electronics division can access them.&lt;br/&gt;&lt;br/&gt;The proposed research is laying the foundations for an entirely different vision for encryption called Functional Encryption. Instead of encrypting to individual users, in a functional encryption system, one can embed any access predicate f() into the ciphertext itself. Functional encryption simultaneously renders completely general functionality and its data access is self-enforcing --- requiring no trusted mediator. The PI aims to create a system where the encrypting party can specify any access predicate over a recipient's credentials (i.e. f can be any Turing Machine). Functional encryption for any predicate opens up a world of possibilities for data sharing; one could encrypt an image such that the access function f encoded an image recognition program allowing only people in the picture to view it.&lt;br/&gt;&lt;br/&gt;In addition to broadening our view of public key cryptography, the PI will explore fundamental problems in public key encryption. One direction is to attempt to build chosen ciphertext secure encryption from standard public key encryption. Finally, the PI will explore the foundations of building public key cryptography.</AbstractNarration>
+    <MinAmdLetterDate>02/16/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/14/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0952692</AwardID>
+    <Investigator>
+      <FirstName>Brent</FirstName>
+      <LastName>Waters</LastName>
+      <EmailAddress>bwaters@cs.utexas.edu</EmailAddress>
+      <StartDate>02/16/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7927</Code>
+      <Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7927</Code>
+      <Text>COMPLEXITY &amp; CRYPTOGRAPHY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

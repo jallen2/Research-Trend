@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>First-Principles Molecular Dynamics for Petascale Computers</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2012</AwardExpirationDate>
+    <AwardAmount>1700000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daniel Katz</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>TECHNICAL SUMMARY:&lt;br/&gt;&lt;br/&gt;This award is made on a proposal submitted to the PetaApps Solicitation. The Office of Cyberinfrastructure, the Computer and Information Science and Engineering Directorate, and the Divisions of Materials Research, Physics, and Chemistry and the Office of Multidisciplinary Activities within the Mathematical and Physical Sciences Directorate contribute funds to this award. &lt;br/&gt;&lt;br/&gt;This award supports developing a high-performance software implementation of First-Principles Molecular Dynamics (FPMD) for petascale computers. FPMD is an atomic-scale simulation method that combines molecular dynamics with a quantum mechanical description of electronic structure, thus leading to a very versatile and predictive simulation approach. It is increasingly used in several areas of Materials Science, Physics, Chemistry and Nanotechnology.&lt;br/&gt;&lt;br/&gt;Scalability will be achieved by developing i) scalable parallel linear algebra algorithms specialized for the FPMD problem, ii) visualization tools for code performance analysis that will be used to analyze message traffic patterns and optimize the software for specific network architectures, iii) data compression algorithms to handle large datasets resulting from petascale simulations. The capability to compute electronic structure using new hybrid exchange-correlation density functionals will also be included in the implementation in order to improve the accuracy of the simulations.&lt;br/&gt;&lt;br/&gt;When deployed on petascale platforms, the new software will considerably enhance the range of FPMD applications in the areas of i) simulation of large samples, ii) long simulation times, and iii) accurate simulations using hybrid density functionals. The resulting software will be made available to the research community and will be ported to major computational facilities including the TeraGrid. A dedicated web server will be setup and maintained for the dissemination of the software and its associated documentation, tutorial material, and reference results. The implementation will build on the expertise acquired with an existing parallel implementation of FPMD, ?Qbox,? that has demonstrated high performance and scalability on up to 128,000 CPUs of a BlueGene/L platform. A modular design using C++ and XML data formats will be adopted in order to facilitate future software development and integration with modern database tools.&lt;br/&gt;&lt;br/&gt;The infrastructure developed in this project will provide a powerful atomistic simulation tool to the Materials Science, Physics and Chemistry research communities and will extend the range of applications of first-principles simulations in terms of size, duration and accuracy. By focusing early on issues of scalability at the petascale, this project will ensure that a high-performance implementation of FPMD will be available as soon as petascale platforms are built, which will maximize the efficient utilization of petascale cyberinfrastructure. More generally, this project will help identifying successful strategies for software development and application programming on petascale architectures.&lt;br/&gt;This project also supports training for students in the area of application programming for large-scale parallel computers, and in the area of first principles molecular simulation. The software developed in the project will be used as a tool for teaching first-principles molecular simulation courses. It will also serve as a validation tool for the evaluation of new simulation methods developed by other groups (e.g. linear-scaling algorithms or multiscale methods). Due to the general nature of the simulation method developed, this project will facilitate the creation of electronic databases of validated results for use by other researchers in Chemistry, Physics and Nanoscience. Students from underrepresented groups will be recruited to participate in this project through existing programs at University of California, Davis.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;NON-TECHNICAL SUMMARY:&lt;br/&gt;&lt;br/&gt;This award is made on a proposal submitted to the PetaApps Solicitation. The Office of Cyberinfrastructure, the Computer and Information Science and Engineering Directorate, and the Divisions of Materials Research, Physics, and Chemistry and the Office of Multidisciplinary Activities within the Mathematical and Physical Sciences Directorate contribute funds to this award. &lt;br/&gt;&lt;br/&gt;This award supports the development of software for the most advanced, ?petascale,? high performance supercomputers that will enable high accuracy simulations of the motion of atoms. The resulting software can be used by a broad community of researchers in a variety of disciplinary and multidiscplinary research involving materials research, chemistry, physics, and nanotechnology. The accurate calculation of the forces on atoms requires a lot of computational resources. The resulting code together with the high performance of petascale supercomputers will allow simulations involving larger numbers of atoms and for longer times than in the past. This opens the door to unprecedented quantitative comparison of theoretical calculations with wide range of experiments, including those involving nanoscale structures, solids, liquids and molecules, and biomolecules.&lt;br/&gt;&lt;br/&gt;Software developed under this award contributes to the cyberinfrastucture of the science and engineering community and will be broadly distributed and made available at supercomputing facilities.&lt;br/&gt;&lt;br/&gt;This project also supports training for students and postdoctoral researchers in the area of high performance computing and in the area of computational nanoscience and technology. The software developed in the project will be used as a tool for teaching. Students from underrepresented groups will be recruited to participate in this project through existing programs at University of California, Davis.</AbstractNarration>
+    <MinAmdLetterDate>09/25/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/21/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0749217</AwardID>
+    <Investigator>
+      <FirstName>Giulia</FirstName>
+      <LastName>Galli</LastName>
+      <EmailAddress>gagalli@ucdavis.edu</EmailAddress>
+      <StartDate>09/25/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kwan-Liu</FirstName>
+      <LastName>Ma</LastName>
+      <EmailAddress>ma@cs.ucdavis.edu</EmailAddress>
+      <StartDate>09/25/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Zhaojun</FirstName>
+      <LastName>Bai</LastName>
+      <EmailAddress>bai@cs.ucdavis.edu</EmailAddress>
+      <StartDate>09/25/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Francois</FirstName>
+      <LastName>Gygi</LastName>
+      <EmailAddress>fgygi@ucdavis.edu</EmailAddress>
+      <StartDate>09/25/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1712</Code>
+      <Text>DMR SHORT TERM SUPPORT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1978</Code>
+      <Text>PROJECTS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7553</Code>
+      <Text>PHYSICS AT THE INFO FRONTIER</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7583</Code>
+      <Text>ITR-HECURA</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7691</Code>
+      <Text>PetaApps</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

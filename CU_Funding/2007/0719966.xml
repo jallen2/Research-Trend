@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-AES: Optimizations for Optimistic Parallelization Systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2012</AwardExpirationDate>
+    <AwardAmount>600000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most current general-purpose processors have two to four cores, and &lt;br/&gt;the number of cores on processor chips is expected to double every &lt;br/&gt;one and half years. Applications run efficiently on such processors &lt;br/&gt;only if they exploit coarse-grain parallelism. However, parallel programming&lt;br/&gt;has so far been successful only for applications that deal with structured data&lt;br/&gt;such as arrays and relations; unfortunately, most general-purpose applications deal with unstructured data such as graphs and trees. This project is focused&lt;br/&gt;on the exploitation of a particular kind of data parallelism in irregular&lt;br/&gt;applications that arises from the use of unordered and ordered worklists. Optimistic parallelization is the key mechanism for obtaining parallelism in such applications. A runtime system is used to manage the optimistic parallelism, and compiler analyses are used to optimize parallel execution. Finally, programs are further optimized using dynamic code specialization as the program executes. To investigate the scalability of this approach, the project uses multicore hardware prototypes based on field-programmable gate-arrays. If successful, the project will go a long way towards solving the pressing problem of writing software for multicore processors.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0719966</AwardID>
+    <Investigator>
+      <FirstName>Keshav</FirstName>
+      <LastName>Pingali</LastName>
+      <EmailAddress>pingali@cs.utexas.edu</EmailAddress>
+      <StartDate>08/21/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kathryn</FirstName>
+      <LastName>McKinley</LastName>
+      <EmailAddress>mckinley@cs.utexas.edu</EmailAddress>
+      <StartDate>08/21/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

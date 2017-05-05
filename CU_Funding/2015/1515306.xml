@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Large-scale, long-time molecular dynamics simulation of crystal growth: From close-packing to clathrates and quasicrystals</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>14803</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rudolf Eigenmann</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>How crystals form from liquids is important in fields ranging from biology, medicine, and food to the synthesis of materials with desired properties. Yet little is understood about how crystals form in a way that would allow one to predictably control and optimize crystal growth to obtain structures with targeted properties. For example, complex crystals known as clathrates are important for hydrocarbon extraction and storage, and can cause blockage of oil and natural gas pipelines. Another complex crystal structure, called a quasicrystal, is predicted to have unique optical properties important for telecommunications and novel coatings. This project will use fast computers based on graphics processors to study how crystals form in clathrates, quasicrystals, and related crystal structures. Such simulations are challenging because large system sizes and long time scales must be achieved simultaneously, and thus very large computing resources such as those offered by Blue Waters are required. For the first time, the invetigators expect to obtain data on crystallization that will complement - and surpass - what can be obtained by experiments, enabling a detailed atomistic view of how crystallization occurs, and whether the process is different for different types of crystals.&lt;br/&gt;&lt;br/&gt;Classical theories hypothesize that crystals grow from liquids atom-by-atom, layer-by-layer. How, then, can one explain the formation of crystals with dozens, hundreds, even thousands of atoms in a unit cell or aperiodic solids with no unit cell? The investigators will conduct large-scale, long-run-time molecular dynamics computer simulations of crystal growth to investigate the relationship between crystal complexity and the growth mechanism. The planned simulations will neither approach the largest molecular dynamics simulations nor the longest molecular dynamics simulations, but the combination of large system size and long run-time (time steps times number of atoms = 10^16) requires a petascale resource of the leading-edge capability that Blue Water represents. Preliminary estimates suggest that the project might achieve or surpass the dynamical range of experimental scattering data for the first time. The computer simulations will mimic standard experimental crystal growth protocols (Czochralski and Bridgman-Stockbarger) as closely as possible. The investigators will employ a computationally inexpensive atomistic model that they recently developed for the study of icosahedral quasicrystals, clathrates, and other crystal structures (Nature Materials 14, 109 (2015)). The model is similar to a united-atom force field model. The project will use HOOMD-Blue for the entirety of the planned studies, an open source, publicly available code that the investigators develop for the community, and which has been already ported to and optimized for Blue Waters. HOOMD-Blue is currently the fastest available simulation code for carrying out the proposed studies. With the acquired simulation data the project will investigate the role of unit cell symmetry on crystal growth and relate the Wulff shape to the space group symmetry of the dominant clathrate type. Furthermore, the team will conduct a phason strain analysis of the icosahedral quasicrystal and will compare the diffraction patterns of the grown crystals with experimental data.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1515306</AwardID>
+    <Investigator>
+      <FirstName>Sharon</FirstName>
+      <LastName>Glotzer</LastName>
+      <EmailAddress>sglotzer@umich.edu</EmailAddress>
+      <StartDate>07/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Engel</LastName>
+      <EmailAddress>engeimm@umich.edu</EmailAddress>
+      <StartDate>07/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Joshua</FirstName>
+      <LastName>Anderson</LastName>
+      <EmailAddress>joaander@umich.edu</EmailAddress>
+      <StartDate>07/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7781</Code>
+      <Text>PETASCALE - TRACK 1</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

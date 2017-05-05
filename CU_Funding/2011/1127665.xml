@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A New Posterior Simulation Toolkit for Estimation of a Multitude of Economic Models</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>117039</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>04050000</Code>
+      <Directorate>
+        <LongName>Direct For Social, Behav &amp; Economic Scie</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Divn Of Social and Economic Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Georgia Kosmopoulou</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In this project, the investigator provides a new Bayesian simulation toolkit that allows economists to study a variety of economic models which are difficult to quantify due to their computational complexity. Major technical difficulties include intractable likelihoods full of multiple peaks and thin winding ridges, separated by wide zero-probability regions.&lt;br/&gt;&lt;br/&gt;An important reason for providing a completely new set of simulation tools relates to the estimation of the two regime-switching general equilibrium models proposed here. In the process of estimating these models the investigator identifies several puzzling results. It is tempting to infer that such undesirable results are a reflection of some fundamental defects of the kind of macroeconomic models studied in the literature. This inference turns out to be incorrect. The investigator's discovery is that the likelihood functions and the posterior distributions are far more complicated than what existing Monte Carlo Markov Chain (MCMC) techniques can handle. The puzzling estimates are not a reflection of the model's property itself, but rather are predominantly a consequence of the inadequacy of the current computational techniques available to macroeconomists.&lt;br/&gt;&lt;br/&gt;To meet this challenge the investigator develops a more complete treatment of estimation techniques. The proposed research is designed to avoid the aforementioned problems inherent in economic models. In particular, it consists of three main components.&lt;br/&gt;(1) The investigator develops two structural models that explicitly address the impact of the recent turmoil in housing and financial markets on the macroeconomy and the effect of subsequent policy interventions.&lt;br/&gt;(2) To obtain accurate estimation techniques for these models the investigator develops a new set of MCMC techniques, addressing a combination of multiple local peaks, thin winding ridges, and a high-dimensional parameter pace which often makes it very difficult and frequently infeasible to utilize existing MCMC algorithms.&lt;br/&gt;(3) To make the new methods accessible to the general public the investigator develops a toolkit that comprises a dynamic scheduler that allows exploitation of parallel computation required by many modern quantitative economic applications. This general toolkit can be applied to a wide range of economic problems beyond the new models discussed in this proposal.&lt;br/&gt;&lt;br/&gt;Macroeconomic models that can be utilized to address the current economic problems and the relevant policy recipes are, inevitably, complicated. It is well-known that the accurate estimation of such models poses an extraordinarily challenging task since the standard methods used in the macroeconomic literature can fail when the model becomes almost intractable. To avoid distortion of the economic implications from the model itself, the proposed new computational techniques are needed. This will permit researchers to achieve a high level of inferential accuracy so that computational inaccuracy does not contaminate or compromise the model's economic meaning and subsequent policy recommendations.&lt;br/&gt;&lt;br/&gt;The ultimate goal of the proposal is to make the toolkit available to academic and government researchers, as well as graduate students, and to allow researchers to estimate various structural models to address pertinent and pressing policy questions with relatively simple resources. Writing a parallelized computer program for each economic application is a challenging and time-consuming task even to a seasoned programmer; many economists simply do not have the time or the computer skills to write the source code that takes advantage of parallel computing and general grid usability. The proposed toolkit will eliminate the need to invest time on writing a sophisticated program for each and every economic application.&lt;br/&gt;&lt;br/&gt;The architecture of the proposed toolkit is designed to be general enough to have a significant broader impact. The final product, once completed, allows researchers to estimate a multitude of macroeconomic models beyond the two models studied in the proposal and beyond current linear models whose breadth and depth are often comprised by computational difficulties. Examples of more challenging economic models usable for policy analysis in the current economic environment are nonlinear structural economic models, large nonlinear econometric models, dynamic learning models, and robustness analysis that allows for model misspecification.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1127665</AwardID>
+    <Investigator>
+      <FirstName>Tao</FirstName>
+      <LastName>Zha</LastName>
+      <EmailAddress>tzha@emory.edu</EmailAddress>
+      <StartDate>08/04/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Emory University</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303224250</ZipCode>
+      <PhoneNumber>4047272503</PhoneNumber>
+      <StreetAddress>1599 Clifton Rd NE, 4th Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

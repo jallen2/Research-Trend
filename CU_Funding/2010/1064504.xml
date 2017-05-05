@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Medium: Full Duplex Wireless</AwardTitle>
+    <AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2014</AwardExpirationDate>
+    <AwardAmount>399000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Thyagarajan Nandagopal</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Wireless networking assumes that radios are half-duplex. On a given frequency, a half-duplex radio can either transmit or receive, but not both at the same time. The project disproves this long-held assumption; it shows how a radio that can transmit and receive simultaneously on the same frequency can be built using commodity off-the-shelf components. The design is based on two key ideas. First, is the design of analog circuits that can perform adaptive signal inversion, i.e. take an input RF signal and produce its exact inverse, and programmatically adapt the attenuation and delay on the inverted signal to match the self-interference experienced by the received signal. This enables the design of wideband full duplex radios that can handle transmit powers upto 20dBm. Second, the project exploits the full duplex primitive to design a real-time bidirectional channel for control and data, as well as more complex patterns such as chains. By interspersing control and data information in a message, nodes can dynamically react to channel changes in real-time.&lt;br/&gt;&lt;br/&gt;The above two primitives - full-duplex operation and a real-time bidirectional control channel - can help solve many long-standing fundamental problems in wireless networks, including hidden terminals, bitrate adaptation, network congestion, resource allocation and unfairness. The project will produce a prototype full duplex radio for WiFi style networks and show experimentally how it can improve their performance, further all designs will also be made public through research publications and open-source hardware designs.</AbstractNarration>
+    <MinAmdLetterDate>06/30/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1064504</AwardID>
+    <Investigator>
+      <FirstName>Philip</FirstName>
+      <LastName>Levis</LastName>
+      <EmailAddress>pal@cs.stanford.edu</EmailAddress>
+      <StartDate>06/30/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sachin</FirstName>
+      <LastName>Katti</LastName>
+      <EmailAddress>sachin.katti@gmail.com</EmailAddress>
+      <StartDate>06/30/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

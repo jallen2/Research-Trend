@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Automatic Storage and Network Contention Management for Large-scale High-performance Computing Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>High performance computing is essential to science, industry, and the environment, from resource exploration to the design of the next generation of consumer electronics. These high performance computer systems are among the most complex and expensive computer systems and require that their resources be used in the most efficient manner. Many of the applications that utilize high performance computing are data-intensive, and storage system performance is a crucial aspect of system performance. However, storage systems are notoriously sensitive to contention caused by competition among storage clients for limited bandwidth and disk access. This is a significant problem for shared storage systems. &lt;br/&gt;&lt;br/&gt;This project provides an automatic storage contention alleviation and reduction system (ASCAR) for large-scale high-performance storage to increase bandwidth utilization and fairness of resource allocation. ASCAR uses machine learning methods combined with several heuristics to discover the fittest control strategy. It is a highly scalable and fully automatic storage contention and congestion management system, which can improve the efficiency of both legacy and new systems, with no need to change either server hardware/software or existing applications. ASCAR regulates I/O traffic from the client side using a rule based algorithm. It employs a shared-nothing design and requires no runtime coordination between clients or with a central coordinator whatsoever, because runtime coordination is slow and unscalable. The effectiveness of ASCAR relies on the quality of traffic control. The research team has designed a prototype algorithm, the SHAred-nothing Rule Producer (SHARP), which produces rules in an unsupervised manner by systematically exploring the solution space of possible designs. Starting from one initial rule, SHARP uses heuristics similar to random-restart hill climbing to find the optimal parameters without the need for an exhaustive search. ASCAR monitors the workloads running on the system and uses several heuristics to pick up the fittest rules. &lt;br/&gt;&lt;br/&gt;It is clear that computer systems are getting ever more sophisticated, and human-lead empirical-based approach towards system optimization is not the most efficient way to realize the full potential of these modern, complex, high performance computing systems. This research brings machine learning, artificial intelligence, and big data methods to systems research and could lead to a very low cost I/O performance increase for a wide range of systems.</AbstractNarration>
+    <MinAmdLetterDate>08/12/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/12/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1528179</AwardID>
+    <Investigator>
+      <FirstName>Darrell</FirstName>
+      <LastName>Long</LastName>
+      <EmailAddress>darrell@cse.ucsc.edu</EmailAddress>
+      <StartDate>08/12/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Cruz</Name>
+      <CityName>Santa Cruz</CityName>
+      <ZipCode>950641077</ZipCode>
+      <PhoneNumber>8314595278</PhoneNumber>
+      <StreetAddress>1156 High Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

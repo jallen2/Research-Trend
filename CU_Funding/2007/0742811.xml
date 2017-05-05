@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Blind Evaluation of Spatial Queries with Hilbert Curves to Preserve Location Privacy</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2009</AwardExpirationDate>
+    <AwardAmount>77685</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>James French</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project develops a fundamentally new model for preserving location privacy in spatial query evaluation. The main novelty is that unlike the current approaches for location privacy, this model does not require an intermediate party between the client and server during the regular mode of communication. This feature is consistent with the typical encryption models where two parties, Alice and Bob, can communicate privately without sending their messages through a third party intermediator. &lt;br/&gt;&lt;br/&gt;This is a high-risk research because devising an encryption scheme that maintains distance properties of space is hard. That is, with conventional encryption approaches, nearby objects in the original space are no longer close in the encrypted space. The idea is to devise a one-way transformation on the space such that the transformed space maintains the distance properties of the original space and hence spatial queries can be resolved efficiently in the transformed space. This transformation can be viewed as encryption of the space with a one-way transformation function that allows fast computation of its inverse given some extra knowledge, termed transformation-key.&lt;br/&gt;&lt;br/&gt;The broader impact of this study is to enable many users with privacy concerns to utilize customized location services in their mobile devices without compromising their location privacy. This in turn would increase the customer base for many industries and government agencies in the areas of geospatial information systems, online maps, car navigation systems, Location-Based Services, and military/intelligence operations. One PhD student is supported by this project. The encryption tools and the technical papers describing them will be disseminated through the project's web site: http://infolab.usc.edu/projects/LocationPrivacy/.</AbstractNarration>
+    <MinAmdLetterDate>08/31/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/07/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0742811</AwardID>
+    <Investigator>
+      <FirstName>Cyrus</FirstName>
+      <LastName>Shahabi</LastName>
+      <EmailAddress>shahabi@usc.edu</EmailAddress>
+      <StartDate>08/31/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

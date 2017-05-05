@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: SHF: An Operating System and Programming Model for Deterministic Parallel Computation</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>472130</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The ability to run programs deterministically, so that re-execution always yields identical results, is useful for many purposes: e.g., replay debugging, intrusion analysis, fault tolerance, byzantine accountability, and timing channel control. Running parallel programs deterministically is traditionally difficult and costly, however, especially if we wish to guarantee precise repeatability even of arbitrarily buggy or malicious software.&lt;br/&gt;&lt;br/&gt;Determinator is a novel operating system that enforces determinism on multithreaded and multi-process computations, parallelized both across cores in one machine and across nodes in a cluster. The kernel provides only single-threaded, ``shared-nothing'' address spaces, interacting via synchronization primitives that enforce deterministic behavior on all user-level code. Nondeterministic inputs and observable notions of time - including clocks, timers, cycle counters, and timing-dependent internal communication channels - are accessible only via controlled I/O mechanisms, giving supervisory software precise control over how and when nondeterministic information may affect a supervised computation. Atop this constrained kernel API, an untrusted runtime uses distributed computing techniques to emulate familiar abstractions such as Unix processes, file systems, and shared memory multithreading.&lt;br/&gt;&lt;br/&gt;By building and evaluating this experimental OS architecture, we hope to discover: (1) whether OS-enforced deterministic execution can be made practical and performance-competitive with conventional OS environments, even for massively parallel applications; (2) how to emulate conventional nondeterministic APIs and run legacy software deterministically with few modifications; and (3) how to create new, "naturally determinisic" parallel programming APIs, offering powerful but easy-to-use abstractions for expressing parallelism, while guaranteeing predictable and precisely repeatable results that are independent of execution scheduling.</AbstractNarration>
+    <MinAmdLetterDate>07/15/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017206</AwardID>
+    <Investigator>
+      <FirstName>Bryan</FirstName>
+      <LastName>Ford</LastName>
+      <EmailAddress>bryan.ford@yale.edu</EmailAddress>
+      <StartDate>07/15/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Yale University</Name>
+      <CityName>New Haven</CityName>
+      <ZipCode>065208327</ZipCode>
+      <PhoneNumber>2037854689</PhoneNumber>
+      <StreetAddress>Office of Sponsored Projects</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

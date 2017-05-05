@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Positive definiteness preserving approaches for viscoelastic flow of Oldroyd-B and FENE-CR types: Applications to particulate flow</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>234212</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The motion of particles in fluids is not only of fundamental theoretical interest, but is also of importance in many applications to industrial processes involving particle-laden materials. While numerical methods for simulating particle motion in Newtonian fluids have been very successful, numerically simulating particle motion in viscoelastic fluids is quite complicated and challenging. Through the computational methodologies explored in this project, efficient simulations will be performed to investigate and understand the complex fluid-particle and particle-particle dynamics in viscoelastic fluids, especially the sedimentation, migration, lift-off and resuspension of particles in three dimensional channels. The simulation tools developed in this project will have significant engineering and biomedical applications, such as proppant transport in hydraulic fracturing operations used in oil and gas wells and the elasto-inertial particle focusing for developing cost-effective labs-on-a-chip such as cell counting devices.&lt;br/&gt;&lt;br/&gt;Numerical methods for simulating particle motion in viscoelastic fluids is quite complicated and challenging. One of the difficulties for simulating viscoelastic flows is the breakdown of the numerical methods. It has been widely believed that the lack of positive definiteness preserving property of the conformation tensor at the discrete level during the entire time integration is one of the reasons for the breakdown. To preserve the positive definiteness property of the conformation tensor, the constitutive equation can be reformulated as equations for the matrix logarithm of the conformation tensor to preserve the property of the positive definiteness as Fattal and Kupferman did. Another approach is to factorize the conformation tensor and then to write down the new associated equations at the discrete level, and hence the positive definiteness of the conformation tensor is forced as Lozinski and Owens did. In this project, we aim to extend and combine fictitious domain based distributed Lagrange multiplier methods, which is for simulating particle motion in fluid, with either the Lozinski and Owens' factorization approach or the log-conformation tensor approach via an operator splitting technique to preserve the positive definiteness property of the conformation tensor for simulating particle motion in viscoelastic fluids of Oldroyd-B and FENE-P types. Through the computational methodologies proposed in this project, efficient simulations will be performed to investigate and understand the complex fluid-particle and particle-particle dynamics in viscoelastic fluids, especially the sedimentation, migration, lift-off and resuspension of particles in two and three dimensional channels.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1418308</AwardID>
+    <Investigator>
+      <FirstName>Roland</FirstName>
+      <LastName>Glowinski</LastName>
+      <EmailAddress>roland@math.uh.edu</EmailAddress>
+      <StartDate>07/27/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Tsorng-Whay</FirstName>
+      <LastName>Pan</LastName>
+      <EmailAddress>pan@math.uh.edu</EmailAddress>
+      <StartDate>07/27/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Houston</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>772042015</ZipCode>
+      <PhoneNumber>7137435773</PhoneNumber>
+      <StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8396</Code>
+      <Text>Clean Energy Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8609</Code>
+      <Text>Other Energy Research</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: RDMA over Ethernet: A Control Theoretic Approach</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>499882</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Brassil</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Datacenter applications -- be it cloud storage, big data processing, or desktop virtualization -- need high bandwidth (40 Gigabits/second or more) to meet rising demand in support of national needs. Traditional Internet Protocol stacks don't scale at such speeds, since they have very high processing demands. This project will analyze new protocols being deployed in the field from the point of view of control theory. The topic is of great interest to industry and standards bodies; the investigator is collaborating with industry and will be leveraging their resources for implementation and testbed evaluations. &lt;br/&gt;&lt;br/&gt;Remote Direct Memory Access (RDMA) over Converged Ethernet technology is being deployed in datacenters to provide ultra-low latency and high throughput to applications, with very low CPU overhead. However, initial designs lack any formal control theoretic analysis. The mechanisms are prone to oscillations in the queue size and fluctuating flow rates. It is not immediately obvious how to choose the various parameters for the algorithms, and how the parameter choices change with the number of flows or link capacities. While existing deployments operate with 40 Gigabit/second Ethernet links, simulations on 100Gigabit/second Ethernet links show instability of the queue, oscillations and loss of utilization. This project aims to provide a formal control theoretic analysis of congestion control in RDMA protocols over converged ethernet in the datacenter. The main intellectual merit of the proposal is to develop formal, control theoretic models of Congestion Control Protocols to transport RDMA over Converged Ethernet. &lt;br/&gt; The investigator will leverage the research efforts to deliver entrepreneurship training to Columbia University students, and is developing a pilot program to extend entrepreneurship training to high school students.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618911</AwardID>
+    <Investigator>
+      <FirstName>Vishal</FirstName>
+      <LastName>Misra</LastName>
+      <EmailAddress>misra@cs.columbia.edu</EmailAddress>
+      <StartDate>08/25/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

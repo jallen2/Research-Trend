@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Integrating Imaging Detectors</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>297101</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The ubiquity of integrating detectors in scientific and engineering applications suggests that a variety of real-world measurements are high-dimensional count data. Count data, however, is usually an indirect means of measuring the underlying vector-valued signal of interest - whether it be light intensity in a pixel sensor, energy in charged gas particles, or energy in inelastic scattering detected by scanning electron microscope - that cannot be measured directly. The two dominating sources of heteroskedastic noise in an integrating detector are the Poisson process that describes the stochasticity in photon arrival and the Fano noise stemming from particle-to-electron conversion. As such, the estimation of this signal from the observed count data therefore plays a prominent role across diverse applications. &lt;br/&gt;&lt;br/&gt;This research is comprised of four investigations. First is the classical task of estimating the raw signal value from the Poisson count data, for which an optimal wavelet transform-based denoising method is being developed. Second, the noise model is extended from the cannonical Poisson corruption to Fano noise - a challenging task since the distribution of Fano noise is not known exactly. Third is a study aimed at objectively valuating the visual information loss in noisy image sensor data, where the problems of image signal recovery and visual image quality are reasoned jointly. Fourth is an effort to make precise the trade offs between integrating detector resolution and noise, where the goal is to quantify the discernibility of information in signal rather than the raw signal values.</AbstractNarration>
+    <MinAmdLetterDate>06/18/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/18/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422104</AwardID>
+    <Investigator>
+      <FirstName>Keigo</FirstName>
+      <LastName>Hirakawa</LastName>
+      <EmailAddress>khirakawa1@udayton.edu</EmailAddress>
+      <StartDate>06/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Dayton</Name>
+      <CityName>DAYTON</CityName>
+      <ZipCode>454690104</ZipCode>
+      <PhoneNumber>9372292919</PhoneNumber>
+      <StreetAddress>300 COLLEGE PARK AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7936</Code>
+      <Text>SIGNAL PROCESSING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

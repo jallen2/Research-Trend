@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Optimization Algorithms for Decision Problems with Many Variables</AwardTitle>
+    <AwardEffectiveDate>08/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2019</AwardExpirationDate>
+    <AwardAmount>278817</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Diwakar Gupta</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Decision-makers often strive to minimize the cost or maximize the performance of a system that depends on many decision variables. If the decision-maker can quantify the cost as a function of the decision variables, then computational methods can be used to obtain or approximate the optimal decision. For complicated cost functions arising in practice it may not be possible to know for sure that a proposed solution is optimal and one must settle for an approximate solution. Typical examples of such problems include choosing well sites and pumping rates for ground water pollution remediation, aligning medical images taken at different times, and determining the configuration of a collection of atoms that minimizes the potential energy. This award supports research into methods for solving such optimization problems and characterizing their inherent difficulty as the number of decision variables increases. These methods will be applicable to a broad range of problems in engineering, science, and industry.&lt;br/&gt;&lt;br/&gt;The optimization problems described above are called global optimization problems. It is well-known that global optimization is intractable in high dimensions in the worst-case complexity setting. The investigator will determine if continuous optimization is tractable in an asymptotic or average-case setting by establishing both upper and lower complexity bounds. The investigator will obtain upper complexity bounds by devising new optimization algorithms and proving their convergence rates. The project will use two approaches to algorithm design. One approach is to subdivide the domain into polytopes, and choose new function evaluation points within the polytope that maximize a criterion based on the size of the polytope and the observed function values at its vertices. The other approach is to use randomized point selection schemes that aim to obtain comparable results to the first approach, on average, but without the computational cost of maintaining the polyhedral subdivisions. The lower complexity bounds will establish the smallest error that can be obtained with any algorithm that uses a given average number of function evaluations. A key question that this research will attempt to answer is whether the lower complexity bounds grow exponentially with the dimension.</AbstractNarration>
+    <MinAmdLetterDate>03/27/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/27/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1562466</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Calvin</LastName>
+      <EmailAddress>calvin@njit.edu</EmailAddress>
+      <StartDate>03/27/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New Jersey Institute of Technology</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>071021982</ZipCode>
+      <PhoneNumber>9735965275</PhoneNumber>
+      <StreetAddress>323 DOCTOR MARTIN LUTHER</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>006Y</Code>
+      <Text>Service, Manufacturing, and Op</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>071E</Code>
+      <Text>MFG ENTERPRISE OPERATIONS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>072E</Code>
+      <Text>NETWORKS &amp; QUEUING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>077E</Code>
+      <Text>SIMULATION MODELS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>078E</Code>
+      <Text>ENTERPRISE DESIGN &amp; LOGISTICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

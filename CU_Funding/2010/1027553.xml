@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Design and Monitoring of Cooperative, Distributed Control Systems for Nonlinear Processes</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2015</AwardExpirationDate>
+    <AwardAmount>353497</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Triantafillos Mountziaris</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>1027553&lt;br/&gt;Christofides&lt;br/&gt;&lt;br/&gt;Optimal operation and management of abnormal situations are major challenges in the process industries since, for example, abnormal situations account for at least $10 billion in annual lost revenue in the US alone. This realization has motivated significant research in the area of process control to ensure safe and efficient process operation. Traditionally, control systems rely on centralized control architectures utilizing dedicated, wired links to measurement sensors and control actuators to regulate appropriate process variables at desired values. While this paradigm to process control has been successful, when the number of the process state variables, manipulated inputs and measurements in a chemical plant becomes large - a common occurrence in modern plants -, the computational time needed for the solution of the centralized control problem may increase significantly and may impede the ability of centralized control systems (particularly when nonlinear constrained optimization-based control systems like model predictive control-MPC are used), to carry out real-time calculations within the limits set by process dynamics and operating conditions. One feasible alternative to overcome this problem is to utilize cooperative, distributed control architectures in which the manipulated inputs are computed by solving more than one control (optimization) problem in separate processors in a coordinated fashion. However, the rigorous design of cooperative, distributed control architectures for nonlinear processes is a challenging task that cannot be addressed with traditional process control methods dealing with the design of centralized control systems. To design cooperative, distributed control systems, key fundamental issues that need to be addressed include the design of the individual control systems and of their communication strategy so that they efficiently cooperate in achieving the closed-loop plant objectives, as well as the development of efficient strategies for fault detection, isolation and management.&lt;br/&gt;&lt;br/&gt;Intellectual Merit &lt;br/&gt;&lt;br/&gt;Motivated by the above considerations, the objective of this research program is to develop the theory and methods needed for the design and monitoring of cooperative, distributed control systems for large-scale nonlinear processes and demonstrate their application and effectiveness in the context of process systems of industrial importance. Rigorous methods and architectures will be developed for the design of cooperative, distributed control systems accounting explicitly for the effect of asynchronous and delayed measurements, and novel monitoring and reconfigurable fault-tolerant control strategies will be developed to deal with actuator/sensor/controller failures. Specifically, the research projects include: &lt;br/&gt;1) Design of cooperative, distributed control systems for nonlinear processes using Lyapunov-based model predictive control techniques; control system architecture, model uncertainty and state estimation issues will be explicitly addressed, &lt;br/&gt;2) Design of fault-detection and isolation systems for cooperative, distributed control systems, &lt;br/&gt;3) Development of reconfigurable fault-tolerant control strategies accounting explicitly for stability, performance and robustness considerations, and &lt;br/&gt;4) Applications to simulated and lab-scale process systems of importance to chemical and water industries.&lt;br/&gt;&lt;br/&gt;Broader Impact &lt;br/&gt;&lt;br/&gt;The development of cooperative, distributed control system design and monitoring methods for large-scale nonlinear processes is expected to significantly improve the operation and performance of chemical processes, increase process safety and reliability, and minimize the negative economic impact of process failures, thereby impacting directly the US economy. The integration of the research results into advanced-level classes in process control and operations and the writing of a new book on ?Fault-Tolerant Process Control? will benefit students and researchers in the field. The development of software, short courses and workshops and the on-going participation in the Abnormal Situation Management (ASM) Consortium will be the means for transferring the results of this research into the industrial sector. Furthermore, the involvement of a diverse group of undergraduate and graduate students in the research through participation in the Center for Engineering Education and Diversity (CEED) at UCLA, and outreach to the California State Polytechnic University in Pomona by offering summer internships to highly-qualified students, will be pursued. Finally, the research will benefit from and contribute to educational initiatives and innovations on the UCLA campus in the area of information technology directed by the co-PI.</AbstractNarration>
+    <MinAmdLetterDate>06/30/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/09/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1027553</AwardID>
+    <Investigator>
+      <FirstName>Panagiotis</FirstName>
+      <LastName>Christofides</LastName>
+      <EmailAddress>pdc@seas.ucla.edu</EmailAddress>
+      <StartDate>06/30/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Davis</LastName>
+      <EmailAddress>jdavis@oit.ucla.edu</EmailAddress>
+      <StartDate>06/30/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1403</Code>
+      <Text>PROCESS &amp; REACTION ENGINEERING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>049E</Code>
+      <Text>CHEMICAL PROCESS CONTROL</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7752</Code>
+      <Text>CDI NON SOLICITED RESEARCH</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

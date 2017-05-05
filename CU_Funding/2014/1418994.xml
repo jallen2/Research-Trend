@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Numerical Analysis and Methods for Simulating Moving Interfaces and Controlling Shape</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>153520</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Understanding physical laws and developing mathematical models to make predictions enables advancement of modern technology and industrial processes. Moreover, optimization of these processes allows for better and more efficient designs. The direct impacts to society are in general cost savings, more robust infrastructure, and better quality of life. The goal of this research project (see technical description) is to target a specific set of physical/industrial processes that involve moving boundaries or interfaces (e.g. the surface of a melting ice-cube in water is an interface between the solid "ice" phase and the liquid "water" phase). Examples include growing solid phases in a desired shape from a liquid melt (controlled crystal growth), modeling liquid crystals (display technology), micro-fluidics that control small droplets of liquid by electric fields (useful in the bio-medical field), and self-assembly of particles and polymer chains on deformable membrane surfaces (design of materials). The research will enable better design, optimization, and control of these systems. In addition, the project will create new methods for creating computer models of complex shapes that efficiently capture moving boundaries. This is known as grid generation, which is a basic tool used in many areas, from computer graphics (for creating life-like animations) all the way to commercial product design (engineering design of structures such as bridges). Grid generation is still an expensive task in terms of man-hours and money. Any computational tools developed by this research will be made available to the public through online resources. Furthermore, undergraduate and graduate students will benefit from a special course developed by the PI on computational free boundary problems. Lastly, the PI is guiding middle school students in science fair projects motivated by this research. &lt;br/&gt;&lt;br/&gt;The proposed research will develop numerical analysis tools and methods for simulating moving interface and multi-physics problems and for optimal control of free boundaries. We will take advantage of variational/finite element methods, stability/energy estimates, shape differentiation, and automatic meshing technology in the following projects: (A) develop and analyze new discrete formulations of the Stefan problem (phase change/solidification) in 2-D and 3-D and explore well posedness questions of the time-dependent interface motion (in a finite element method (FEM) setting); (B) develop a new FEM for liquid crystals with provable stability/convergence properties and explore dynamics and equilibrium configurations; (C) develop PDE-based optimal control techniques and numerics for directing and controlling shape; (D) develop stable and accurate numerical methods (FEM) for simulating geometric objects that obey the no self-penetration condition; and (E) create new mesh generation methods to handle 3-D problems in a robust and automatic way with attention given to parallel implementation issues. This project will advance the fundamental theory of free boundary problems by investigating well-posedness of time dependent domain-deforming problems and optimal control of shape. It will further the development of methods for multi-physics problems with coupling to non-linear interfacial physics, such as anisotropic surface tension. It will create novel numerical analysis and efficient methods for simulating dynamic curves and surfaces that respect *no self-penetration*, i.e. that enforce the excluded volume constraint.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1418994</AwardID>
+    <Investigator>
+      <FirstName>Shawn</FirstName>
+      <LastName>Walker</LastName>
+      <EmailAddress>walker@math.lsu.edu</EmailAddress>
+      <StartDate>07/31/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Louisiana State University &amp; Agricultural and Mechanical College</Name>
+      <CityName>Baton Rouge</CityName>
+      <ZipCode>708032701</ZipCode>
+      <PhoneNumber>2255782760</PhoneNumber>
+      <StreetAddress>202 Himes Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8396</Code>
+      <Text>Clean Energy Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8609</Code>
+      <Text>Other Energy Research</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

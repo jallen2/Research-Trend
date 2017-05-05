@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Usable Verification using Rewriting and Matching Logic</AwardTitle>
+    <AwardEffectiveDate>08/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computers, and implicitly programming languages, are used in many&lt;br/&gt;critical applications these days, where correct behavior is necessary.&lt;br/&gt;Rigorous, formal semantic definitions of the employed programming&lt;br/&gt;languages are therefore necessary in order to verify computing systems.&lt;br/&gt;Unfortunately, in spite of more than forty years of research in&lt;br/&gt;programming language semantics, most program verifiers are not directly&lt;br/&gt;based on a formal semantics, but rather on complex and ad-hoc hardwired&lt;br/&gt;models of their target programming languages. This has at least two&lt;br/&gt;negative consequences: first, it makes the development and maintenance&lt;br/&gt;of program verifiers hard and uneconomical, particularly for new&lt;br/&gt;programming languages or languages which evolve fast; second, it allows&lt;br/&gt;room for subtle bugs in program verifiers themselves. This research&lt;br/&gt;project aims at developing a generic program verification framework&lt;br/&gt;that takes a programming language given through its formal semantics as&lt;br/&gt;input, and yields a program verifier for that language as output.&lt;br/&gt;Moreover, the language semantics will be executable, so testable,&lt;br/&gt;and public, so will serve as a reference implementation for the language&lt;br/&gt;and as a formal basis for language understanding.&lt;br/&gt;&lt;br/&gt;Specifically, this projects builds upon recent advances in matching logic&lt;br/&gt;and its use for verifying reachability properties. A language-independent&lt;br/&gt;sound and relatively complete proof system takes a programming language&lt;br/&gt;operational semantics as a set of axioms, and can be used to derive&lt;br/&gt;any reachability property about any program in the given language. This&lt;br/&gt;is in sharp contrast to the existing verification approaches based on&lt;br/&gt;Hoare logic and on dynamic logic, since these approaches are&lt;br/&gt;language-specific. This research will therefore lead to the development&lt;br/&gt;of semantic and verification techniques and algorithms that will work for&lt;br/&gt;any language, provided a formal semantics of the language is given.&lt;br/&gt;Consequently, the broader impact of this research is that it will increase&lt;br/&gt;the quality and robustness of software systems, and will narrow the gap&lt;br/&gt;between the specification and the implementation of computer systems.</AbstractNarration>
+    <MinAmdLetterDate>07/03/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/03/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218605</AwardID>
+    <Investigator>
+      <FirstName>Grigore</FirstName>
+      <LastName>Rosu</LastName>
+      <EmailAddress>grosu@illinois.edu</EmailAddress>
+      <StartDate>07/03/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

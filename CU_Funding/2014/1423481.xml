@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Attribute Based Access Control for Cloud Infrastructure as a Service</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>When an organization moves its hardware resources to a cloud infrastructure as a service (IaaS) provider, it faces 2 major issues: (1) cumbersome abstractions of access control facilities provided by the cloud service provider over its virtual assets (compute, storage, networking, etc.), and (2) multi-tenancy and availability concerns arising due to lack of control of virtual resource placement in the physical infrastructure. This project develops a foundational, formal theory of attribute-based access control (ABAC) and constraints specification, and associated enforcement and implementation as means to address these problems. The ABAC models are designed in such a way so as to provide each customer of the cloud service provider autonomy over access control design and specification, and administrative functions involving the customer's virtual resources and users. The constraints specification framework allows for customers to express resource scheduling preferences to mitigate multi-tenancy and availability issues (e.g. do not co-locate virtual machines tagged as sensitive with those of other customers) which are then algorithmically enforced by the service provider. Rigorous evaluation is performed by augmenting OpenStack, widely-deployed open-source cloud IaaS software, with ABAC and studying its expressiveness, user-friendliness and performance on large-scale physical infrastructure. The expected outcome of this research is to gain consensus in the research and practitioner community that ABAC would be a standard and viable approach for effective access control in the multi-billion dollar cloud IaaS industry.</AbstractNarration>
+    <MinAmdLetterDate>07/22/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423481</AwardID>
+    <Investigator>
+      <FirstName>Ravinderpal</FirstName>
+      <LastName>Sandhu</LastName>
+      <EmailAddress>ravi.sandhu@utsa.edu</EmailAddress>
+      <StartDate>07/22/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>RAM</FirstName>
+      <LastName>KRISHNAN</LastName>
+      <EmailAddress>ram.krishnan@utsa.edu</EmailAddress>
+      <StartDate>07/22/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at San Antonio</Name>
+      <CityName>San Antonio</CityName>
+      <ZipCode>782491644</ZipCode>
+      <PhoneNumber>2104584340</PhoneNumber>
+      <StreetAddress>One UTSA Circle</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

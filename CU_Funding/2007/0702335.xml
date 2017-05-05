@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Structural Preserving Numerical Methods for Eigenvalue Problems</AwardTitle>
+    <AwardEffectiveDate>07/01/2006</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2009</AwardExpirationDate>
+    <AwardAmount>219790</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040100</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Large and sparse matrix computational problems are often solved by certain&lt;br/&gt;subspace projection methods -- most commonly Krylov subspace type projections.&lt;br/&gt;The basic idea is to project the original problems (matrices) of high dimensions&lt;br/&gt;onto certain subspaces to arrive at smaller and manageable ones, and the smaller&lt;br/&gt;reduced problems can then be solved by one of the dense matrix algorithms such as&lt;br/&gt;those in LAPACK. Existing projection techniques often do not preserve structural&lt;br/&gt;properties enjoyed by eigenproblems from various engineering applications, and&lt;br/&gt;therefore the reduced problems do not necessarily reflect their practical&lt;br/&gt;backgrounds in any meaningful ways. It is conceivable, as it is often the case,&lt;br/&gt;that approximating a problem by one of its own kind would do better. Indeed there&lt;br/&gt;are cases where structural preserving methods are far superior to those that are&lt;br/&gt;blind to the inherent structures. The objective of this proposal is to exploit&lt;br/&gt;in depth structural properties of matrices from the standpoint of their application&lt;br/&gt;backgrounds and to develop accurate and efficient structural preserving numerical&lt;br/&gt;methods for eigenvalue and related problems of practical significance. A number of&lt;br/&gt;interesting ideas will be pursued here, including a general framework for carrying&lt;br/&gt;out structural preserving subspace projections, an unifying convergence analysis&lt;br/&gt;for all Krylov subspace type projections that connects moment matching properties&lt;br/&gt;in reduced order modeling and eigenvalue and eigenvector convergence theory, and a&lt;br/&gt;sub-orthogonalization process that will serve as the basis to devise efficient&lt;br/&gt;projections.&lt;br/&gt;&lt;br/&gt;Eigenproblems appear ubiquitously all across applied science and engineering,&lt;br/&gt;and their solutions are routinely sought and are critical in one way or another&lt;br/&gt;to various scientific computational tasks. Examples includes computational&lt;br/&gt;problems from structural dynamics, control systems, circuit simulations,&lt;br/&gt;computational electromagnetics and microelectromechanical systems, data mining,&lt;br/&gt;and web search engine design, etc. This investigation shall advance significantly&lt;br/&gt;the underlying engineering applications by making the involved matrix computations&lt;br/&gt;much less expensive, more accurate, and most importantly result in scientific&lt;br/&gt;simulations that reflect better the underlying physics. Graduate students with&lt;br/&gt;emerging expertise in numerical eigenvalue computations will be involved.</AbstractNarration>
+    <MinAmdLetterDate>04/26/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/06/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702335</AwardID>
+    <Investigator>
+      <FirstName>Ren-Cang</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>rcli@uta.edu</EmailAddress>
+      <StartDate>04/26/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Arlington</Name>
+      <CityName>Arlington</CityName>
+      <ZipCode>760190145</ZipCode>
+      <PhoneNumber>8172722105</PhoneNumber>
+      <StreetAddress>1 UNIVERSITY OF TEXAS AT</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

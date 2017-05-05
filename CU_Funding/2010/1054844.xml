@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Trustworthy Hardware from Untrustworthy Components</AwardTitle>
+    <AwardEffectiveDate>03/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Hardware components can contain malicious, illegal modifications that can siphon sensitive information to transmit to adversaries or shutdown critical operations. Such modifications to the hardware - the root of trust in computing - can compromise trustworthiness of systems. A malicious modification (backdoor) can find its way into a design through a core component implemented by a malicious insider on the team, or through a third-party intellectual property (IP). This research investigates techniques to build trustworthy hardware systems even with such untrustworthy, malicious hardware components.&lt;br/&gt;&lt;br/&gt;A key insight used in this study is that while a large number of digital backdoor implementations are feasible they can be all classified into four simple categories with unique behavioral characteristics that can be leveraged to thwart backdoors. Digital backdoors can only be triggered in two ways: they must turn-on after certain amount of time or by specially crafted inputs. This classification is complete because time and data are the only two ways a digital system can change. After a backdoor is woken up it can impact the infested hardware component in only two ways: it can cause the hardware component to produce extraneous outputs or corrupt existing outputs. Backdoor detection techniques monitor the outputs of hardware units for anomalous behavior while protection techniques scramble inputs making it infeasible for the backdoor to be triggered at runtime. Hardening both the inputs and outputs of a hardware module against backdoors provides comprehensive protection and provides a strong basis, for the first time, to certify digital hardware to be free of backdoors. Such certification can significantly enhance the state of trustworthy computing</AbstractNarration>
+    <MinAmdLetterDate>03/14/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/20/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1054844</AwardID>
+    <Investigator>
+      <FirstName>L</FirstName>
+      <LastName>Sethumadhavan</LastName>
+      <EmailAddress>simha@cs.columbia.edu</EmailAddress>
+      <StartDate>03/14/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Simultaneous Contour Grouping and Medial Axis Estimation</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>162000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Last Modified Date: 07/21/08 Last Modified By: Daniel F. DeMenthon &lt;br/&gt;&lt;br/&gt;Abstract &lt;br/&gt;With the ever faster growing number of images and videos, the main bottleneck in extracting the information contained in them is their analysis (indexing) and retrieval. Nowadays image and video search engines are based on textual descriptions, since visual cues are at too low level to provide useful retrieval results when dealing with a large variety of images and videos. For example, if a human submits a query image with the request to find similar images, she focuses on a certain object or a group of objects in the query image. Thus, the meaning of similarity is given by the images that contain similar objects. Therefore, extraction of objects in images (and videos) is a key factor for true progress in content based image/video retrieval (CBIR). However, object extraction belongs to unsolved problems in Computer Vision (CV). This fact led to the development of a huge number of approaches that try to do CBIR without object extraction. However, although such approaches may be successful in some restricted application domains, in which case low level features may be sufficient to replace object extraction, they have not been successful in general purpose CBIR. The PIs believe solving the object extraction problem will lead to a breakthrough in CBIR. Therefore, the PIs propose to work on object extraction in images. There have been a large number of attempts to solve the object extraction problem in CV, and none provided a satisfactory solution. Why will our approach provide a good solution? A new methodology and a computation framework proposed by the PIs provide solid evidence that the breakthrough in object extraction is possible. &lt;br/&gt;On the cognitive and geometric modeling side, the PIs propose to use a higher level knowledge of shape similarity and a mid level knowledge of local and global symmetry as cognitively motivated constraints for object extraction. Constraints are essential because object extraction is known to be an ill-posed inverse problem. The human visual system solves this problem very well and we are getting close to a full understanding of how this is done. &lt;br/&gt;On the computational side, the PIs propose a new framework for a simultaneous estimation of medial axes and the contours. The proposed approach is inspired by the SLAM (Simultaneous Localization and Mapping) approaches in the field of robot mapping. Recent breakthrough solutions in robot mapping are based on the SLAM computation with particle filters. SLAM computation iterates over the processes of localization of the robot in the existing partial map (trajectory estimation), followed by a map update based on new observations and the estimated trajectory. The PIs treat the medial axis as trajectory of a virtual robot and the partial boundary as the map that is composed of edge segments associated with the medial axis. A first successful application of this framework is demonstrated by the PIs in the preliminary results. &lt;br/&gt;&lt;br/&gt;Project URL: http://knight.cis.temple.edu/~shape/</AbstractNarration>
+    <MinAmdLetterDate>08/20/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/04/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0812167</AwardID>
+    <Investigator>
+      <FirstName>Zygmunt</FirstName>
+      <LastName>Pizlo</LastName>
+      <EmailAddress>pizlo@psych.purdue.edu</EmailAddress>
+      <StartDate>08/20/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0116000</Code>
+      <Name>Human Subjects</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

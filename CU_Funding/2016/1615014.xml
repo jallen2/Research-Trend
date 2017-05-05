@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: SlackTrack: Efficiently Exploiting Circuit Slack in Multi-Cycle Datapaths</AwardTitle>
+    <AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>449936</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The microprocessor and system-on-chip industry is increasingly focused on mobile platforms, where maximizing battery life is paramount. As a result, static and dynamic power consumption are now primary design constraints for general-purpose microprocessors. In response, chip designers are integrating a plethora of customized on-die accelerators, which reduce energy consumption because their control logic, datapaths, interconnect, and memory are tailored for a specific task. This project tackles the main remaining source of power consumption in accelerators clocked storage elements and investigates the design of novel accelerators with very few such elements. Without these kinds of dramatic innovations in the design of power-efficient, high-performance chips, the continued device scaling of future nanometer technologies may no longer provide substantial returns in utility or performance. As a result, the microprocessor industry, and by extension, the computer industry as a whole, faces a serious challenge in maintaining the growth-based business model that has sustained it for four decades. This research has broad industry- and economy-wide impact since it helps to address or avert these challenges. The findings from this project will be integrated into graduate level courses which will help students get a more in depth understanding of the power wall issue which is a big challenge for architects in the near future.&lt;br/&gt;&lt;br/&gt;Removing the overheads imposed by clocked elements will enable accelerator designs to approach a true energy lower bound for the cost of computation. Furthermore, pipeline latch removal also exposes additional opportunities for improvement to the power efficiency and performance of datapath circuits. Most importantly, since the critical delay paths in a multi-cycle datapath span multiple clock cycles and traverse many more levels of logic than the base naive pipeline, the likelihood that random and within-die variations will slow down a critical path is substantially lower. In other words, since critical paths are two, four, or even more times longer than in the base case, random and within-die process variations are amortized over a longer total delay path and are more likely to cancel each others' effects, leading to a smaller net effect on achievable cycle time. This tightened variance can be exploited to reduce design-time margins, allowing the datapath to be operated at a lower voltage for a given frequency. Furthermore, novel run-time approaches for measuring and controlling available slack in the circuit's operation enable aggressive timing speculation, allowing the datapath to run at nearly nominal frequencies while minimizing operating voltage.</AbstractNarration>
+    <MinAmdLetterDate>06/16/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/16/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1615014</AwardID>
+    <Investigator>
+      <FirstName>Mikko</FirstName>
+      <LastName>Lipasti</LastName>
+      <EmailAddress>mikko@engr.wisc.edu</EmailAddress>
+      <StartDate>06/16/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

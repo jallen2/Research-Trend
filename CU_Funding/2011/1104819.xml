@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Development of Cello/Enzo-P: An Extremely Scalable Adaptive Mesh Refinement Framework and Code for Astrophysics and Cosmology</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2015</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03010000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Physics</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Bogdan Mihaila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award supports the development of Cello, a new parallel adaptive mesh refinement (AMR) software framework. The purpose of Cello is to enable researchers to write multi-physics AMR applications that can harness the enormous computing power of current and future world-class high- performance computing (HPC) platforms. The distinguishing characteristic relative to existing AMR frameworks is the aggressive pursuit at the onset of extreme scalability, both in terms of software data structures and hardware parallelism. Integral to developing Cello will be developing Enzo-P, a petascale astrophysics and cosmology application built on top of the Cello framework. Enzo-P will not only help drive development of the underlying Cello framework, but it will serve as a highly scalable variant of the Enzo terascale astrophysics and cosmology community code. Both the Enzo-P science application, and the underlying independent Cello parallel AMR software framework, will be released and supported as community software.&lt;br/&gt;&lt;br/&gt;Software sustainability will be realized under the dual support of the Laboratory for Computational Astrophysics (LCA) at the University of California San Diego, and the San Diego Supercomputer Center, organizations devoted to the long-term maintenance of---and user support for---community scientific codes and HPC cyberinfrastructure. Software self-management will be an integral component of the Cello software design, with software resilience a high priority. The Cello framework will be designed to detect hardware and software faults, identify performance and numerical issues, and dynamically reconfigure to always perform with the highest possible efficiency on currently available hardware components. Energy efficiency can be considered implicit in the underlying adaptive mesh refinement approach, which dynamically targets computational resources where they are required, and avoids expending resources where they are not. The adaptivity of AMR translates directly to energy savings. This project synthesizes the best practices of existing parallel AMR frameworks and adds several innovations that improve the quality of the mesh for various types of simulations. A hierarchical approach to parallelism and load balancing is taken while enforcing locality to the maximum while relaxing global synchronization to a minimum. This will enable the construction of AMR applications of unprecedented spatial and temporal dynamic range on tomorrow's hierarchical HPC architectures. Adaptive mesh refinement has proven to be a powerful numerical technique in a wide variety of disciplines in the pure and applied sciences and engineering. Existing frameworks will probably not be scalable to tens and hundreds of millions of cores, meaning that existing applications built on them will need to move to more scalable and fault tolerant frameworks. Cello is being built with these applications in mind. The broader impacts of this software development will come through the science and engineering applications that Cello supports, as well as novel design principles it embodies.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1104819</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Norman</LastName>
+      <EmailAddress>mlnorman@ucsd.edu</EmailAddress>
+      <StartDate>07/29/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1217</Code>
+      <Text>EXTRAGALACTIC ASTRON &amp; COSMOLO</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>6892</Code>
+      <Text>CI REUSE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7244</Code>
+      <Text>COMPUTATIONAL PHYSICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1206</Code>
+      <Text>THEORETICAL &amp; COMPUTATIONAL ASTROPHYSICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7483</Code>
+      <Text>PHYSICS OF THE UNIVERSE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7569</Code>
+      <Text>CYBERINFRASTRUCTURE/SCIENCE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

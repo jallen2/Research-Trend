@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SBIR Phase I: A New Class of Fast Fourier Transforms</AwardTitle>
+    <AwardEffectiveDate>07/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2007</AwardExpirationDate>
+    <AwardAmount>99818</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07070000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ian M. Bennett</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This Small Business Innovation Research (SBIR) Phase I research project is directed at development of a high performance, parameterized fast Fourier transform (FFT) circuit that will be sold as an intellectual property product to be used in ASIC and FPGA embedded signal processing applications. For the past 40 years parallel FFT implementations have remained relatively unchanged, being based essentially on different permutations of the signal flow graph and mappings thereof. Consequently, the inherent irregularities of the signal flow graph are reflected in the complex commutators or permutation circuits, large butterfly units, global interconnections, and stage-to-stage differences seen in today's FFTs and result in an inherent inflexibility and lack of performance. A radically different approach to parallel FFT implementation is proposed here based on a new matrix formulation of the discreet Fourier transform (DFT) which decomposes it into structured sets of multiplication-free 4-point DFTs. As a result, (1) implementations are simple, locally connected and structured, thereby allowing lower power and higher performance mappings to modern FPGAs and ASICs; (2) significant added functionality and flexibility accrues from the inherent scalability; and (3) good arithmetic efficiency is retained. The proposed research plan will validate these claims by appropriate analysis, modeling, circuit designs, and FPGA implementations.&lt;br/&gt;&lt;br/&gt;The DFT appears throughout a large number of real-time signal processing, communications, radar, acoustics, and electromagnetic applications and is arguably the most prominent of all signal processing algorithms. Consequently, the availability of more functional, flexible, and higher performance FFTs will significantly improve the efficacy of a host of electronic products. The benefits of this new FFT technology would be best suited to wireless devices, the largest and fastest growing market for electronic products. Future 4G protocols will be based on orthogonal frequency division multiplexing (OFDM) and scalable orthogonal frequency division multiple access (OFDMA), which are digital modulation schemes that make use of the FFT. Consequently, most wireless communication devices of the future will use embedded FFT circuitry. However, today's FFT technology does not possess the combined throughput, functionality, flexibility and low power necessary to meet the needs of future wireless protocols. The proposed Phase I research will demonstrate an FFT circuit architecture that can meet all the computational demands of future wireless protocols.</AbstractNarration>
+    <MinAmdLetterDate>05/25/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/25/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0711638</AwardID>
+    <Investigator>
+      <FirstName>J Greg</FirstName>
+      <LastName>Nash</LastName>
+      <EmailAddress>jgregnash@centar.net</EmailAddress>
+      <StartDate>05/25/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Centar</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900771406</ZipCode>
+      <PhoneNumber>3104718478</PhoneNumber>
+      <StreetAddress>2027 Linda Flora Dr</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

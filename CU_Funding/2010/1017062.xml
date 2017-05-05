@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Wave Computations in Phase-Space</AwardTitle>
+    <AwardEffectiveDate>10/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>8287</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Henry A. Warchall</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Lead Proposal: DMS - 0707921&lt;br/&gt;PI: Demanet, Laurent &lt;br/&gt;Institution: Stanford University&lt;br/&gt;&lt;br/&gt;Non-Lead Proposal: DMS-0708014&lt;br/&gt;PI: Ying, Lexing &lt;br/&gt;Institution: University of Texas at Austin&lt;br/&gt;&lt;br/&gt;Title: Collaborative Research: Wave Computations in Phase-Space&lt;br/&gt;&lt;br/&gt;ABSTRACT&lt;br/&gt;&lt;br/&gt;The field of seismic imaging is currently facing a major computational challenge, because the capabilities of inversion algorithms grow at a slower pace than the volume of acquired data. Success of inversion typically hinges on the practicality of solving wave or hyperbolic equations, or proper approximations thereof, on a massive computational scale. To this end, the PIs propose to revisit computational wave propagation in smooth media, in two and three space dimensions, in order to bring the complexity down to asymptotically linear in the size of the initial data, up to log factors and reasonable constants. In this low-complexity regime, precomputations involving the Green's function become the main focus of the numerical effort. To this end, the PIs propose to design, implement, test and analyze the following numerical methods: (1) an efficient algorithm for Fourier Integral Operators (FIO), using techniques such as phase-space partitionings, geometric downsamplings, directional interpolation, and low rank matrix approximations via random sampling, (2) an efficient algorithm for linear hyperbolic PDE with smooth coefficients, based on the above algorithm for FIO, and also using techniques such as the phase-flow method for travel times, separation and random samplings of pseudodifferential symbols, and special&lt;br/&gt;quadratures that exploit the microlocal geometry of wave propagation, and (3) an efficient algorithm for Kirchhoff migration in seismic imaging, based on the above algorithm for FIO, and also on a high-dimensional compression technique for the kinematics of the imaging operator. In a separate effort, the PIs will explore more general situations of physical interest such as phase blowups and multipathing, for which new ideas will be required.&lt;br/&gt;&lt;br/&gt;The proposed research is directly motivated by the need for new, efficient inversion methods in reflection seismology. In turn, improved seismic imaging techniques (1) could help discover new physics and settle existing debates in geophysics (for instance concerning convection phenomena in the Earth's mantle), and (2) could provide a better map of the Earth's upper crust, for industrial exploration purposes. The PIs plan on working closely with seismologists in the later phases of the project, to deliver operational codes and disseminate ideas in the geophysics community. Alternatively, transmission electron microscopy is another curvilinear tomography imaging problem for which the proposed algorithms will provide a fresh outlook towards novel, accurate inversion methods, with applications in biology and medical imaging.</AbstractNarration>
+    <MinAmdLetterDate>01/14/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/08/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017062</AwardID>
+    <Investigator>
+      <FirstName>Laurent</FirstName>
+      <LastName>Demanet</LastName>
+      <EmailAddress>laurent@math.mit.edu</EmailAddress>
+      <StartDate>01/14/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

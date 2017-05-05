@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Run-Time Prediction and Preemption of Stuxnet-Like Attacks in Embedded Process Controllers</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ralph Wachter</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Perimeter security and air gap approaches to preventing malware disruption of industrial and infrastructure processes are challenged by the complexity of modern control systems incorporating networked heterogeneous and software-updatable components such as personal computers and programmable logic controllers. Global supply chains and proprietary third-party hardware components, tools, and software limit the reach of static design verification techniques. As a consequence, attacks such as Stuxnet have demonstrated that these systems can be surreptitiously compromised. We are developing a run-time method for process control violation prediction to enhance system resilience against configuration attacks on embedded controllers. This approach copes with either malicious or unintentional errors in any software layer of any programmable component. The run-time system includes a second instance of the active controller connected to a model of the plant, giving a short-term projection of future controller actions and process state. To maintain convergence with the physical system, the model's state is periodically synchronized with the plant's state. The predictor is combined with run-time guards implemented in a configurable hardware-anchored root-of-trust to quickly detect when the projected process state violates specifications. Aberrant event- or time-triggered controller behavior is anticipated before it affects the physical process, allowing preemptive switchover to a minimal and static stability-preserving controller. A productive model-based design flow is being extended to synthesize the active and backup controllers, prediction module, and specification guards into a single commercially-available chip. The root-of-trust can be formally verified due to its hardware implementation and independence.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1222656</AwardID>
+    <Investigator>
+      <FirstName>Cameron</FirstName>
+      <LastName>Patterson</LastName>
+      <EmailAddress>cdp@vt.edu</EmailAddress>
+      <StartDate>08/27/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>William</FirstName>
+      <LastName>Baumann</LastName>
+      <EmailAddress>baumann@vt.edu</EmailAddress>
+      <StartDate>08/27/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Polytechnic Institute and State University</Name>
+      <CityName>BLACKSBURG</CityName>
+      <ZipCode>240610001</ZipCode>
+      <PhoneNumber>5402315281</PhoneNumber>
+      <StreetAddress>Sponsored Programs 0170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

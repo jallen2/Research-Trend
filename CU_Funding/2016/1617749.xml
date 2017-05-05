@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Virtualization of Heterogeneous and Non-Uniform Memory Hierarchy</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2019</AwardExpirationDate>
+    <AwardAmount>297664</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Hardware memory devices are hierarchically structured and increasingly heterogeneous (in terms of volatility, energy efficiency, and reliability) and non-uniform (in terms of latency and bandwidth). However, existing memory virtualization technology only provides each virtual machine with a flat, homogeneous, and uniform memory space, which is an opaque and distorted abstraction of hardware memory resources. This abstraction poses great challenges for applications in virtual machines to make efficient utilization of memory resources. Cloud computing platforms and other virtualized platforms form the backbone of the modern computing infrastructures used by industry, military, academia, and the wider population. The project substantially improves memory virtualization technology, so that applications on these platforms can fully leverage the heterogeneity, non-uniformity, and other features of hardware memory resources to improve performance, energy efficiency, and reliability. The project involves undergraduate and graduate students to work with virtualization and the cloud. This will provide them with strong programming and system capabilities to work in the cloud computing industry.&lt;br/&gt;&lt;br/&gt;The project explores novel memory virtualization techniques to provide each virtual machine with a complete virtual memory hierarchy that consists of virtual cache devices and heterogeneous virtual memory devices. The virtual memory hierarchy effectively serves as an expressive interface between a virtual machine and the virtual machine monitor. For a virtual machine, it faithfully reflects the features and architectures of underlying hardware memory resources, based on which memory-aware and cache-aware optimization techniques can be effectively applied. For the virtual machine monitor, the usage of virtual devices reflects the demand of the workload on a virtual machine for different types of memory resources, based on which the sharing of memory resources can be well coordinated. The investigation focuses on 1) the software framework and critical hardware support that can build virtual devices in virtual memory hierarchy on top of diverse types of hardware memory devices and maintain their features and structures with low cost; 2) the techniques to efficiently share different types of memory resources between virtual machines; and 3) validating existing cache-aware and memory-aware techniques on virtual memory hierarchy. To spur the dissemination of results, the expected framework and techniques will be built into Linux OS and virtual machine monitor such as Kernel-based Virtual Machine (KVM), and be open to the community for sharing.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617749</AwardID>
+    <Investigator>
+      <FirstName>Xiaoning</FirstName>
+      <LastName>Ding</LastName>
+      <EmailAddress>xiaoning.ding@njit.edu</EmailAddress>
+      <StartDate>07/27/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New Jersey Institute of Technology</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>071021982</ZipCode>
+      <PhoneNumber>9735965275</PhoneNumber>
+      <StreetAddress>323 DOCTOR MARTIN LUTHER</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Sparse Modeling Driven by Large-Scale Genomic Data</AwardTitle>
+    <AwardEffectiveDate>06/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2017</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Massive and high-dimensional data arise frequently in biology and genomics. Regularization and sparsity are critical components for modeling such data and extracting information. Broad success of sparse modeling methods, such as the Lasso, has encouraged fast development in this area. However, most existing methods were developed under the frameworks of linear models and generalized linear models. The complex structures in genomic data require further development beyond existing methods. To this end, proposed are three novel sparse modeling methods with sophisticated model structures driven by large-scale gene expression data, protein binding data and DNA sequence data. The first method, motivated by modeling the relationship between protein binding and gene expression, constructs linear regression models on the terminal nodes of a decision tree. The decision tree partitions the population into subgroups according to the predictors. Each subgroup has its own sparse linear regression model between the response and the predictors. Two types of regularization, one on the regression coefficients and the other on the size of the tree, are used to encourage sparsity. The second method concerns the construction of tight clusters for gene expression data by penalizing the difference in grouped parameters between two tight clusters and between a tight cluster and the null cluster. Block-wise coordinate descent in conjunction with majorization is developed to maximize the regularized likelihood function. The third method, motivated by the motif finding problem, aims at sequence pattern discovery. A dictionary model is used to partition a sentence into words, which represent sequence patterns, and single letters. A novel regularization through the Kullback-Leibler divergence is developed for the product-multinomial model for words, which can achieve sparsity in estimating the cell probabilities. This regularization is used to construct a sparse dictionary that contains only a small number of words. A generalized EM algorithm is proposed for parameter estimation and solution path construction.&lt;br/&gt;&lt;br/&gt;As efficient analysis of large-scale high-dimensional data is critical in many fields of science and engineering, the proposed research is of great current interest. Particularly, the proposed methods are ready for applications to front-edge research areas in genomics and molecular biology, where massive data sets have been continuously generated. To accelerate such applications, free computer packages and self-contained software are being developed for users to analyze their own data. On the other hand, this proposal contains many innovative statistical methodologies that may contribute significantly to statistics and computational sciences. Finally, the proposed research is integrated with educational activities by developing new and improving existing courses at both undergraduate and graduate levels.</AbstractNarration>
+    <MinAmdLetterDate>02/07/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/28/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1055286</AwardID>
+    <Investigator>
+      <FirstName>Qing</FirstName>
+      <LastName>Zhou</LastName>
+      <EmailAddress>zhou@stat.ucla.edu</EmailAddress>
+      <StartDate>02/07/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

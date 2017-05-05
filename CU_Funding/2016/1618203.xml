@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF:SMALL:Certified cost recurrences for higher-order functional programs</AwardTitle>
+    <AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>461830</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>One of the main jobs of a computer scientist is inventing new solutions to computational problems. There are often many different ways of solving the same problem, and running these different solutions on a computer can cost drastically different amounts of time, memory, power, money, or other resources. Given limited resources, it is often the case that one solution will accomplish a desired goal, while another solution will fail to do so -- not because the solution is wrong in principle, but because it would cost too much. Therefore, programmers need to be able to predict how much a solution will cost before actually running it, in order to predict whether a proposed solution will successfully accomplish the desired goals. In this project, the principal investigators, along with a postdoctoral fellow and students, are investigating new techniques for predicting the resources used by programs. The intellectual merits of the project are advancing the state of the art in interactive reasoning about program cost, building on several different areas of computer science research. The project is investigating methods that can be implemented in interactive tools, so that a computer can help with making these cost predictions and checking that programmers' predictions are correct. The project's broader significance and importance are improving the quality of software, by making it easier for programmers to both code in a high-level language and reason precisely and formally about the cost of their programs, leading to faster and more maintainable code. The project is training undergraduate, graduate, and postdoctoral researchers for scientific careers. Finally, the techniques developed by this project may inform the development of pedagogical tools for computer science students.&lt;br/&gt;&lt;br/&gt;More technically, this project is developing the foundations of a tool that programmers can use to semi-automatically analyze the execution cost of programs, in the style of an interactive theorem prover or proof assistant. The main topic of investigation is formally certified methods for the extraction and solution of cost recurrences from source code -- a method of cost analysis that allows a smooth transition between automated and manual verification methods, and is applicable to a wide class of programs. The investigators' prior work in this area shows that the process of extracting recurrences from higher-order functional programs on programmer-defined inductive datatypes can be viewed as a translation from the source language to a complexity language, followed by a semantic interpretation of the complexity language. This method is certified by a bounding theorem, proved by logical relations, which implies that the cost predicted by the recurrences bounds the execution cost of the program on all inputs. This project is extending these techniques to more fully-featured source languages (e.g., supporting general recursion and coinductive datatypes); to other forms of cost analyses (e.g., parallel cost and amortized analysis); and to deeper analysis of extracted recurrences (e.g., methods for solving higher-order recurrences; a syntactic logic for manipulating recurrences). The project is developing formalizations and implementations of the proposed techniques, and applying the techniques to verifying compiler optimizations.</AbstractNarration>
+    <MinAmdLetterDate>05/31/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/31/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618203</AwardID>
+    <Investigator>
+      <FirstName>Norman</FirstName>
+      <LastName>Danner</LastName>
+      <EmailAddress>ndanner@wesleyan.edu</EmailAddress>
+      <StartDate>05/31/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Licata</LastName>
+      <EmailAddress>dlicata@wesleyan.edu</EmailAddress>
+      <StartDate>05/31/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Wesleyan University</Name>
+      <CityName>Middletown</CityName>
+      <ZipCode>064593208</ZipCode>
+      <PhoneNumber>8606853683</PhoneNumber>
+      <StreetAddress>237 HIGH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

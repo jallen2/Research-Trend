@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Bench-testing Environment for Automated Software Tuning (BEAST)</AwardTitle>
+    <AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>499995</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In the world of high-performance scientific computing, the rapid emergence of hybrid processors that make heavy use of accelerator technologies, such as Graphics Processing Units (GPUs) or the Intel Xeon Phi (a.k.a., Many Integrated Cores, MIC), raises critical new challenges for computational scientists. Their research applications typically depend on computational kernels (i.e., software implementations of one or more of the basic patterns of scientific computing) that are optimized for speed. Such programs spend most of their computing time executing one or more of these kernels, and long experience has taught developers that tuning their kernels for the architecture of a given processor is absolutely essential to achieving excellent performance at the level of the individual computing node. Since scientists want to run these applications on supercomputers with thousands of such nodes, high performance at the node level is essential to high productivity for the application at large. Unfortunately, for the vast majority of computational kernels, the three classic approaches to performance tuning?compiler-driven code transformations, low-level manual programming, or empirical autotuning?have always been very difficult, often producing mixed results; and the emerging era of hybrid processors makes all three techniques less effective still. The Bench-testing Environment for Automated Software Tuning (BEAST) makes a substantial contribution to solving this important problem. &lt;br/&gt;BEAST creates a framework for exploring and optimizing the performance of computational kernels on hybrid processors that 1) applies to a diverse range of computational kernels, 2) (semi)automatically generates better performing implementations on various hybrid processor architectures, and 3) increases developer insight into why given kernel/processor combinations have the performance profiles they do. To achieve this three-fold goal, it applies the model used for traditional application benchmarking in a completely novel way: it combines an abstract kernel specification and corresponding verification test, similar to standard benchmarking, with an automated testing engine and data analysis and machine learning tools, called the BEAST workbench. Using a new method for specifying language-neutral code stencils and a prototype BEAST workbench, the project explores alternative tuning methods and strategies for a diverse range of computational kernels. &lt;br/&gt;Experiments carried out under this project are expected to show that the BEAST framework can dramatically improve the performance of many computational kernels that are of fundamental importance to scientific computing. As this software and the techniques for using it are made widely available to the science and engineering community, they will help to ensure the timely delivery of performance- optimized kernels for many domains and many types of hybrid processors, making the impact of the BEAST bench-tuning software infrastructure very broad indeed. Scientists and engineers, across a vast array of intellectually, economically and socially important domains, will be able to rapidly tune the underlying kernels in their applications to the characteristics of the latest platform, and thereby quickly gain the productivity benefits of each successive generation of accelerator technology.</AbstractNarration>
+    <MinAmdLetterDate>07/26/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/26/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320603</AwardID>
+    <Investigator>
+      <FirstName>Jack</FirstName>
+      <LastName>Dongarra</LastName>
+      <EmailAddress>dongarra@icl.utk.edu</EmailAddress>
+      <StartDate>07/26/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Tennessee Knoxville</Name>
+      <CityName>KNOXVILLE</CityName>
+      <ZipCode>379960003</ZipCode>
+      <PhoneNumber>8659743466</PhoneNumber>
+      <StreetAddress>1 CIRCLE PARK</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>6892</Code>
+      <Text>CI REUSE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6892</Code>
+      <Text>CI REUSE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

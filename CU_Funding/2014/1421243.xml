@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Random Testing for Language Design</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: SHF:Small:Random Testing for Language Design&lt;br/&gt;&lt;br/&gt;PROPERTY-BASED RANDOM TESTING (PBRT) is a form of black-box testing in which executable partial specifications of a software artifact are used to check its behavior with respect to large numbers of randomly generated test cases. PBRT offers a range of benefits that complement the traditional strengths of full, formal verification; in particular, it (1) allows much more rapid iteration on designs, (2) encourages early focus on stating correct specifications, and (3) supports later proof efforts by allowing invariants to be debugged quickly. Popularized by the QuickCheck tool in Haskell, PBRT is now widely used in both research and industry. However, one area where current PBRT methodology has been less successful is where the data values used in testing come with have complex internal structure or intricate invariants. In particular, this is the case in testing of language designs and related artifacts such as compilers, where the test data are programs. Despite some promising preliminary efforts, random testing has proved difficult to apply to full-scale language designs. Many of the interesting properties of programming languages are "conditional," leading to a large number of discarded test cases when random testing is applied naively. This places a premium on the ability to construct good custom generation strategies, but generation strategies for ``interesting programs'' are neither well understood nor well supported by existing tools: better techniques are needed for writing and debugging test-data generators. &lt;br/&gt;&lt;br/&gt;This project aims to significantly advance the state of the art in property-based random testing, with specific applications to testing fundamental properties of language definitions and related artifacts---properties such as type safety, security (e.g., ``secret inputs cannot influence public outputs''), and compiler correctness. The intellectual merits are: (1) developing new methodology for writing and debugging random generators for complex data, in particular a framework based on generating ``mutants'' of an artifact under test; (2) designing a domain-specific language for writing generators for random test data with complex invariants (3) distributing polished implementations, both as a compatible extension to the standard QuickCheck library and as a native random-testing tool for the Coq proof assistant; and (4) evaluating the usefulness of these tools by applying them to several significant case studies. The broader impacts of the project are twofold. First, better understood, more secure language designs will lead to better and more secure software, and hence to fewer bugs and vulnerabilities in everyday applications and in critical infrastructure. In particular, the project's main case studies aim to show how random testing can improve the design process for new languages with built-in support for guaranteeing fundamental security properties such as confidentiality, integrity, authorization, and access control. Second, beyond language design, random testing has proven extremely effective for improving software quality. The envisaged tools will significantly increase the power of random testing by offering new tools for writing and testing random data generators that can be used with QuickCheck, an existing industry-standard platform, and by offering native support for random testing within Coq, a popular specification and verification tool. Project results will be incorporated into the "Advanced Programming" course at Penn (which already emphasizes random testing) and will form the basis for a module on random testing of language properties at the Oregon Programming Languages Summer School.</AbstractNarration>
+    <MinAmdLetterDate>06/13/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/13/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1421243</AwardID>
+    <Investigator>
+      <FirstName>Benjamin</FirstName>
+      <LastName>Pierce</LastName>
+      <EmailAddress>bcpierce@cis.upenn.edu</EmailAddress>
+      <StartDate>06/13/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

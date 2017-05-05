@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: Fast Dynamic Load Balancing Tools for Extreme Scale Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Massively parallel computing combined with scalable simulation workflows that can reliably model systems of interest are central to the continued quest of scientists, engineers, and other practitioners to address advances in scientific discovery, engineering design, and medical treatment. However, to meet their potential, these methods must be able to operate efficiently and scale on massively parallel computers executing millions of processes. Reaching the goal of millions of parallel processes requires new methods in which the computational workload is extremely well balanced and interprocessor communications overheads are minimized. Attaining such parallel performance is greatly complicated in realistic simulation workflows where the models and their discrete computer representation must evolve to ensure simulation reliability, or to account for changing input streams. To address the need to obtain workload balance with controlled communications, various algorithms and associated software, referred to as load balancing procedures, have been, and continue to be, developed. To be effective in the execution of simulation workflows in which the workload evolves, the load balancing procedures must be applied dynamically at multiple points in the simulation. Current load balancing techniques demonstrate two deficiencies when applied as dynamic load balancing procedures at very large numbers of compute cores (e.g., greater than 100,000 cores): They become a major fraction of the total parallel computation (in some cases never finishing within an allocation) and they do not maintain good load balance for simulation steps that must balance based on multiple criteria. Building on initial efforts to improve dynamic load balancing methods for adaptive unstructured mesh applications, the goal of the proposed research is to develop fast multicriteria dynamic load balancing methods that are capable of quickly producing well balanced computations, with well controlled communications, for a wide variety of applications. &lt;br/&gt;&lt;br/&gt;An important characteristic of the dynamic load balancing procedures to be developed is generalizing the graph to account for multiple types of computational entities and interactions. The initial ideas for supporting multiple entity types came from consideration balancing finite element calculations that must consider multiple orders of mesh entities. These concepts will be refined and generalized to support multiple applications areas. An additional development will be fast hybrid dynamic load balancing methods that are combinations of "geometric", standard graph, and multicriteria graph methods in which the individual methods can be executed globally of at a more local level (such as at the node level). The dynamic load balancing method to be developed will be demonstrated on three applications in which the workload, and its distribution, is changing as the simulation proceeds. The applications will be adaptive mesh simulations, adaptive multiscale modeling, and massive scale free graphs. These applications will be carried out on available massively parallel computers where examples on &gt;1 million cores will be demonstrated. A goal of the dynamic load balancing methods to be developed will be to attain scalability, and do so with controlled data movement such that the wall clock time and energy used is substantially less than that required for an equivalent accuracy non-adaptive calculation.&lt;br/&gt;&lt;br/&gt;The software produced by this project will be made available as open source components. These developments coupled with efforts to support users in applying them in the development of new simulation tools will impact many research communities. Based on past and present efforts, the PIs fully expect that technologies developed in this project will also be integrated into future industrial software systems.</AbstractNarration>
+    <MinAmdLetterDate>07/08/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/08/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1533581</AwardID>
+    <Investigator>
+      <FirstName>Cameron</FirstName>
+      <LastName>Smith</LastName>
+      <EmailAddress>smithc11@rpi.edu</EmailAddress>
+      <StartDate>07/08/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Shephard</LastName>
+      <EmailAddress>shephard@rpi.edu</EmailAddress>
+      <StartDate>07/08/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rensselaer Polytechnic Institute</Name>
+      <CityName>Troy</CityName>
+      <ZipCode>121803522</ZipCode>
+      <PhoneNumber>5182766000</PhoneNumber>
+      <StreetAddress>110 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

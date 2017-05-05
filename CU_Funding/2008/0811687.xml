@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPA-CPL-T: Collaborative Research: REEact: A Robust Execution Environment for Fragile Multicore Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>550000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With the emergence of the multicore architecture comes the promise of integrating enormous computing power in a single chip, thereby enabling parallel computing in all types of platforms including handheld computers and desktop machines. Providing proper software support for applications is critical to harness the true power of this architecture. An inherent characteristic of multicores that presents a significant obstacle is runtime variation: reliability, energy/thermal behavior and process variation will vary across identically designed components of a multicore, producing a negative impact on application power consumption and performance. Runtime variation has been identified as one of the key problems that could block further scaling of circuits if not properly addressed. &lt;br/&gt;&lt;br/&gt;This research project is developing an advanced execution system, called a Robust Execution Environment (REEact), that dynamically mediates, controls and adapts an application's execution to the runtime resource landscape originating from runtime variations. It employs a combination of techniques in adapting both the hardware resources and the application software code to overcome the impact of runtime variations. At the hardware level, it adapts the resources, such as setting the speed/voltage of a node on the multicore. At the software level, REEact dynamically optimizes code, taking into account performance and power consumption due to runtime variations. It elicits the help of the OS in determining what resources to use in running the application. REEact informs the OS about information it dynamically discovers about latency, power, and application behavior. REEact is built as multi-layer hierarchical runtime system that interacts with the parallel application, the OS, and the underlying multicore architecture to ensure that maximum performance is achieved.</AbstractNarration>
+    <MinAmdLetterDate>08/16/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/17/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811687</AwardID>
+    <Investigator>
+      <FirstName>Mary</FirstName>
+      <LastName>Irwin</LastName>
+      <EmailAddress>mji@cse.psu.edu</EmailAddress>
+      <StartDate>08/16/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mahmut</FirstName>
+      <LastName>Kandemir</LastName>
+      <EmailAddress>kandemir@cse.psu.edu</EmailAddress>
+      <StartDate>08/16/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Model-Parallel Collaborative Filtering in Apache Spark</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>68790</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sushil Prasad</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With data rapidly growing in size and complexity, many organizations are eager to train collaborative filtering methods on massive datasets using distributed computing environments. For instance, Netflix has hundreds of thousands of online programs to recommend to its millions of users, and Facebook has millions of users who could potentially form new links between one another. However, leading methods introduce significant algorithmic challenges in the distributed setting. The PI proposes to study a novel algorithm designed to be efficient for large-scale data science applications. Preliminary studies demonstrate the promise of this method, and the PI proposes to formally characterize the algorithm's behavior, perform an extensive empirical evaluation, and incorporate ideas inspired by this proposal into an upcoming online course PI will be teaching.&lt;br/&gt;&lt;br/&gt;Collaborative filtering, and in particular matrix factorization, is a widely used method for devising recommender systems. However, the size of these models grows linearly with the number of users and items, and leading methods for matrix factorization introduce significant challenges in the distributed setting due to their high communication costs. The PI proposes to study a novel model-parallel algorithm designed for Apache Spark that leverages the sparsity of the underlying data to drastically reduce this communication burden. Preliminary studies demonstrate the promise of this method, and the PI proposes to formally characterize the algorithm's behavior, perform an extensive empirical evaluation, and explore the paradigm of model-parallelism in Spark more generally for other learning settings. The PI will also incorporate ideas related to model-parallelism inspired by this proposal into an upcoming MOOC that be taught on the edX platform.</AbstractNarration>
+    <MinAmdLetterDate>09/03/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/03/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1555772</AwardID>
+    <Investigator>
+      <FirstName>Ameet</FirstName>
+      <LastName>Talwalkar</LastName>
+      <EmailAddress>ameet@cs.ucla.edu</EmailAddress>
+      <StartDate>09/03/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900952000</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>11000 Kinross Avenue, Suite 211</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: A posteriori error analysis and adaptivity for discontinuous interface problems</AwardTitle>
+    <AwardEffectiveDate>10/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2013</AwardExpirationDate>
+    <AwardAmount>0</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>There are many practical physical situations that can be modeled by partial differential equations in which some of the coefficients in the problem, e.g. those describing material properties, are discontinuous across an interface. Such problems arise in a very broad range of scientific and engineering disciplines, including computational biology, ground water flow and reservoir simulation, environmental remediation studies, crystal growth, wave propagation, sedimentation phenomena, and the preparation of nuclear fuel rods. Such problems cause notorious difficulties for classic numerical methods as a direct result of the lack of smoothness. At the same time, numerical methods for efficiently solving interface problems using a fixed Cartesian grid have attracted considerable attention because they offer a number of computational advantages and a number of approaches have been pursued. Unfortunately, regular-shape discretizations are generally problematic because the interface ?cuts? through the cells without respecting the regular geometry of the discretization, which has a strongly negative impact on the accuracy of the resulting approximations. Consequently, it is critically important to provide computational error estimates that quantify the accuracy of a computed quantity of interest in terms of various sources of discretization and modeling error. &lt;br/&gt;&lt;br/&gt;This project will develop variational finite element frameworks for several discrete interface methods that identify both a discretization and a modeling component to the model and use the variational framework to derive accurate a posteriori error estimates for specified quantities of interest. Both stationary and evolutionary problems in two and three space dimensions will be considered. The development of efficient adaptive discretization methods for both stationary and evolution problems will be addressed. The methodology and analytic tools to be developed in this proposal will provide a powerful tool for the systematic treatment of problems in which interfaces have complex geometry and the material properties vary considerably on a scale smaller than the overall scale of the discretization. The project will yield a systematic approach to deriving computable and accurate error estimates for quantities of interest and further, provide detailed information about the relative contributions to the error arising from discretization and modeling.</AbstractNarration>
+    <MinAmdLetterDate>09/20/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/20/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016232</AwardID>
+    <Investigator>
+      <FirstName>Haiying</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>haiyingw@mtu.edu</EmailAddress>
+      <StartDate>09/20/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan Technological University</Name>
+      <CityName>Houghton</CityName>
+      <ZipCode>499311295</ZipCode>
+      <PhoneNumber>9064871885</PhoneNumber>
+      <StreetAddress>1400 Townsend Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

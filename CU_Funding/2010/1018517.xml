@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: AnyCore: A Universal Superscalar Core</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Future microprocessors will contain many processing cores. This future presents a unique opportunity to increase performance and decrease power consumption by providing different core types, each optimized for different instruction-level behavior within and across applications. The questions of how many core types, how many of each type, and what should each type look like, are perplexing in the face of arbitrary run-time scenarios. This is because (1) Instruction-level behavior is infinitely diverse whereas the number of core designs that can be practically included is limited; (2) Parallel applications tend to favor homogeneous cores for their uniform tasks. Yet, the optimal homogeneous multi-core processor differs for different parallel applications, which are not static; (3) Multiprogrammed workloads tend to favor heterogeneous cores to match their diverse tasks. Yet, the optimal heterogeneous multi-core processor depends on the mixture of tasks and their arrival rates to the system, factors which vary over time; and (4) Even if we consider a fixed run-time scenario, the optimal configuration of core designs depends on latency, throughput, and power preferences. All of these factors vary over time. Thus, while the multi-core era makes it possible and desirable to provide many core types, it is nearly impossible to determine which ones and how many of each. &lt;br/&gt;&lt;br/&gt;This project proposes AnyCore, a comprehensively reconfigurable superscalar processing core. AnyCore has a unique and ambitious objective: each one of its hundreds of configurations, called "virtually fabricated cores", should achieve the same frequency, cycle-level performance, and power as explicitly designing and fabricating just that core. A novel multi-core architecture comprised of many replicated AnyCores can be configured into arbitrary heterogeneous and homogeneous multi-core designs, each having the performance and power of a fixed design. This will enable achieving optimal latency, throughput, and power targets for arbitrary workload types and arbitrary instruction-level behavior within their constituent tasks. The research could have potentially significant impact on the design process of future commercial processors, as well as on education and research as a rapid simulation platform.</AbstractNarration>
+    <MinAmdLetterDate>08/23/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/11/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018517</AwardID>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Rotenberg</LastName>
+      <EmailAddress>ericro@ncsu.edu</EmailAddress>
+      <StartDate>08/23/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

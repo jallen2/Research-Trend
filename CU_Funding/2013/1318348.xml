@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>High Order in Time and Space Numerical Methods for Solving the Miscible Displacement Problem</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>229830</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>High order numerical methods in time and space are proposed to solve the incompressible miscible displacement problem in heterogeneous porous media. A mixture of solvent and resident fluids moves as a single phase with a velocity that follows Darcy's law. The solvent concentration satisfies a convection-dominated parabolic problem, with a diffusion-dispersion matrix that depends on the fluid velocity in a non-linear fashion. The fluid pressure equation is coupled with the concentration equation. Under certain conditions, the miscible displacement becomes physically unstable and the phenomenon of viscous fingering occurs. Accurate prediction of the number and location of the viscous fingers is important in the development of a numerical model. Additional numerical challenges include the nonlinear coupling between the pressure and concentration equations, and the unboundedness of the diffusion-dispersion matrix. The investigator and her team propose to use a discontinuous Galerkin method for the time integration. For the spatial discretizations, locally mass conservative methods such as mixed finite element methods and interior penalty discontinuous Galerkin methods are utilized. Several algorithms, based on solving the pressure and concentration equations consecutively, are formulated. Their cost and accuracy are compared. Convergence of the numerical solution is obtained under low regularity assumptions on the data and exact solution using a new generalization of the Aubin-Lions compactness theorem. The effects of randomness in the permeability of the porous media are taken into account by sampling the coefficients and combining the Monte Carlo technique with temporal and spatial discretizations. The algorithms developed in this project are also used to predict the onset and growth of viscous fingers. Two factors contributing to fingering are investigated: the increase of the ratio of the displaced fluid viscosity to the solvent fluid viscosity, and the variation of longitudinal and transverse dispersions.&lt;br/&gt;&lt;br/&gt;The miscible displacement problem occurs in several applications, including environment and energy. For instance, a large amount of the oil reserve in the U.S. is deemed unrecoverable by current technology. Enhanced Oil Recovery (EOR), by changing the properties of the reservoir and the hydrocarbons, will help produce some of this trapped oil. Miscible displacement is one important technique used in EOR. The main goal of this project is to provide accurate and robust numerical solutions to the miscible displacement problem for incompressible fluids. In EOR, this numerical approximation can be used to efficiently harvest the remaining trapped oil. This project advances discovery and understanding while promoting learning through the training of at least one Ph.D. student and two undergraduate students. In addition, the principal investigator organizes a Summer program in which participating high school students learn about computational mathematics and its applications to complex flow and transport in porous media.</AbstractNarration>
+    <MinAmdLetterDate>07/02/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318348</AwardID>
+    <Investigator>
+      <FirstName>Beatrice</FirstName>
+      <LastName>Riviere</LastName>
+      <EmailAddress>Beatrice.Riviere@rice.edu</EmailAddress>
+      <StartDate>07/02/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

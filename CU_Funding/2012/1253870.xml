@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Infrastructure for Secure Cloud Computing</AwardTitle>
+    <AwardEffectiveDate>06/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>10/31/2015</AwardExpirationDate>
+    <AwardAmount>280009</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Infrastructure-as-a-service (IaaS) cloud computing systems are revolutionizing business, government, and science by providing easy access to scalable computing. These public services, as offered by Amazon, Google, Microsoft, and others, allow an arbitrary customer to rent, by the hour, the resources needed to run their applications within virtual machines (VMs) hosted on the provider?s compute infrastructure. With these new services, however, comes subtle new security issues. Prior work by the PI uncovered attacks that abuse two aspects unique to cloud computing: resource sharing among mutually distrustful customers and pricing that incentivizes malicious behavior. &lt;br/&gt;&lt;br/&gt;The proposed research is organized along the two themes of resource sharing and pricing. In the first theme, the work explores whether cryptographic side channel attacks and resource-freeing attacks pose serious threats to cloud customers and then develops new placement and CPU scheduling algorithms that realize the security principle of soft isolation: minimization of potentially dangerous cross-user scheduling interactions (e.g., sharing a server or CPU core). Within the second theme, the work explores the implications of fine-grained pricing mechanisms on security. This includes developing pricemarks (mechanisms for accurately determining the true costs of a cloud service), understanding customer-controlled placement gaming that exploits cloud performance heterogeneity, and explores pricing-based security mechanisms that, in conjunction with the aforementioned scheduling mechanisms, will degrade fiscal incentivizes for adversarial behavior. &lt;br/&gt;&lt;br/&gt;The impact of the proposed work will be deeper understanding of threats in cloud IaaS systems, new security design principles, deployable security technologies, and improvements in security education.</AbstractNarration>
+    <MinAmdLetterDate>04/03/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1253870</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Ristenpart</LastName>
+      <EmailAddress>ristenpart@cornell.edu</EmailAddress>
+      <StartDate>04/03/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

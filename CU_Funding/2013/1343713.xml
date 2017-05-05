@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: SeaCat: An SDN End-to-End Application Containment ArchitecTure to Enable Secure Role Based Network Access in Healthcare</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>298717</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Brassil</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Healthcare is being transformed by information technology. However, with the promises of the technology have come concerns about the privacy, confidentiality and operational integrity of healthcare information and systems. Physicians and other healthcare professionals increasingly rely on networked applications for tasks as diverse as accessing patient records, remote diagnoses and consultations, in-home patient monitoring, healthcare related analytics and even remote surgical procedures. In addition to these domain specific applications, healthcare professionals use all the other more typical vocational applications, often from the same device. This diversity of applications and in particular the fact that the same individual, possibly using the same device, might be concurrently using these different applications, presents a particular challenge to healthcare information technology (IT) operations. Ideally, the role an individual is playing by using a specific networked application, should determine both the security and the performance context associated with that role. This project develops, integrates, and tests a prototype system for end-to-end isolation and containment of healthcare data and applications based on Software Defined Networking (SDN) technology. Health care applications are generally trusted, but need to operate securely and protect the data they access, in a host and network environment that might contain untrusted applications and entities. The project addresses these concerns by developing and prototyping an SDN End-to-end Application Containment ArchitecTure (SeaCat), and demonstrating its utility with electronic health record (EHR) and medical imaging applications. The project will combine software defined networking (SDN) primitives with application containment mechanisms to realize end-to-end application containment in a health care IT environment. After a EHR application user has authenticated with SeaCat, an EHR specific context is dynamically created from the EHR Server, through the network and extending into the endpoint. The EHR application and any temporary local data it is using are contained within this context and protected from data leakage and malicious actors in both the network and the endpoint. Once the user application ends, the complete end-to-end context, including any data temporarily stored within the endpoint or network devices, is removed and the environment reverts to a clean state.&lt;br/&gt;&lt;br/&gt;The importance of safeguarding healthcare data is well known. The HIPAA privacy and security rules reflect legislated mandates for such safeguards. Yet at the same time healthcare IT applications are being extended over a larger geographic region beyond healthcare campuses, and applications are making use of high-bandwidth, low-latency networks linking to the new locations, often with smartphones and tablets. The application containment architecture in this project will support isolation and privacy concerns for healthcare and facilitate the deployment of future gigabit healthcare applications.</AbstractNarration>
+    <MinAmdLetterDate>09/05/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/05/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1343713</AwardID>
+    <Investigator>
+      <FirstName>Jacobus</FirstName>
+      <LastName>VAN DER MERWE</LastName>
+      <EmailAddress>kobus@cs.utah.edu</EmailAddress>
+      <StartDate>09/05/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

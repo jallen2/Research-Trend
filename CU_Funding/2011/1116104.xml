@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Footprint Models and Techniques for Multi-core Cache Management</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>386360</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research aims at developing new theories and techniques to&lt;br/&gt;better understand and manage shared memory cache in multi-core architectures. &lt;br/&gt;The core concept is program footprint, which is the amount of memory access in a period of&lt;br/&gt;execution. Complete measurement requires counting data access in all&lt;br/&gt;execution windows, which is too costly. This&lt;br/&gt;research develops computational methods to first make all-window&lt;br/&gt;analysis feasible through a set of new profiling algorithms and then&lt;br/&gt;make this analysis cost-effective by reducing the cost through statistical&lt;br/&gt;inference, sampling, and parallel profiling and effectively obtaining&lt;br/&gt;this information in real time as a program executes. Footprint&lt;br/&gt;information is essential in analyzing cache sharing between programs&lt;br/&gt;and program tasks. It enables the second part of the project, a set&lt;br/&gt;of tools that predict the performance of parallel workloads without&lt;br/&gt;parallel testing. In addition, the footprint information enables a&lt;br/&gt;fundamentally different approach to common techniques. In the third&lt;br/&gt;part, the project develops a new cache-hint insertion tool to&lt;br/&gt;approximate optimal caching and a&lt;br/&gt;memory-performance tuning tool to be used by software developer.&lt;br/&gt;&lt;br/&gt;As multi-core processors become commonplace and cloud computing is&lt;br/&gt;gaining acceptance, more applications are run in a shared environment.&lt;br/&gt;The outcome of this research will fundamentally alter the way&lt;br/&gt;programmers understand and improve memory performance on multi-core&lt;br/&gt;systems. Software developers and hardware engineers will have a new&lt;br/&gt;tool set to tackle the complex problem of managing on-chip memory for&lt;br/&gt;not just sequential but also parallel code and for not just achieving&lt;br/&gt;good performance but also for ensuring stable performance in a dynamic&lt;br/&gt;environment. The broader impacts of this research will include&lt;br/&gt;deeper understanding and more precise characterization of locality&lt;br/&gt;in computational processes, which has implications in other&lt;br/&gt;computing-related disciplines, and memory efficient software and&lt;br/&gt;hardware design, which saves energy and cost and has broad economical&lt;br/&gt;and social benefits.</AbstractNarration>
+    <MinAmdLetterDate>07/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/07/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116104</AwardID>
+    <Investigator>
+      <FirstName>Chen</FirstName>
+      <LastName>Ding</LastName>
+      <EmailAddress>cding@cs.rochester.edu</EmailAddress>
+      <StartDate>07/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Rochester</Name>
+      <CityName>Rochester</CityName>
+      <ZipCode>146270140</ZipCode>
+      <PhoneNumber>5852754031</PhoneNumber>
+      <StreetAddress>518 HYLAN, RC BOX 270140</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

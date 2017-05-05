@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CT-ISG: Memory Safety for Legacy Software, A Quantitative Approach</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The inability of programmers to write vulnerability free code is the most pressing problem in practical computer systems security. The most serious class of vulnerabilities is memory vulnerabilities, which generally allow an attacker to subvert the program's control flow. In response to this problem, generic mitigations have been widely deployed that, through changes to the operating system and processor, seek to make it impossible for attackers to exploit errors in programs.&lt;br/&gt;&lt;br/&gt;Implementers considering deploying such mitigations must know how much (if at all) a generic mitigation improves security and what its costs are if they are to allocate R&amp;D resources wisely.&lt;br/&gt;Unfortunately, until recently, the benefits of generic mitigations were studied only superficially. Recent first steps have already shed some light, showing, e.g., that the widely deployed "W-xor-X"&lt;br/&gt;mitigation provides no security benefit whatsoever.&lt;br/&gt;&lt;br/&gt;This project puts imperfect, ad-hoc mitigation on a scientific footing. It provides a formal, comprehensive analysis to determine the cost-benefit equation is for generic mitigations.&lt;br/&gt;&lt;br/&gt;The project begins by producing quantitative analyses of current mitigation techniques and of attacks; these analyses facilitate the creation of new mitigations that resist attacks that foil current mitigations; these new mitigations are implemented, evaluated, and disseminated. In addition, the project develops a sandboxed environment for experimenting with software vulnerabilities and malicious code, and a curriculum for teaching systems security.&lt;br/&gt;&lt;br/&gt;The results will be better use of implementation resources for vendors; a more secure legacy software environment for users; and better security education for the next generation of programmers, so they will not make the mistakes earlier ones did.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/19/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0831532</AwardID>
+    <Investigator>
+      <FirstName>Hovav</FirstName>
+      <LastName>Shacham</LastName>
+      <EmailAddress>hovav@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/19/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7371</Code>
+      <Text>CYBER TRUST</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Medium: Collaborative Research: From Answering Questions to Questioning Answers (and Questions)---Perturbation Analysis of Database Queries</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>69864</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Aidong Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In the age of data ubiquity, decision making is increasingly driven by data. Oftentimes, database queries are used to identify issues, debate trategies, make choices, and explain decisions. How these database queries are formulated can significantly influence the decision making process. A poor choice of query parameters---be it intentionally or accidentally---may give a biased view of the underlying data, and lead to decisions that are wrong, misguided, or "brittle" when reality deviates from assumptions. Database research has in the past focused on how to answer queries, but has not devoted much attention to how queries impact decision making, or how to formulate "good" queries from the outset. This project aims to fill this void. The key insight is perturbation analysis of database queries---i.e., studying how perturbations of the query form and parameters affect the query result. For example, slight query perturbations leading to very different results help identify potential pitfalls in decision making. In general, perturbation analysis reveals how queries affect the robustness and objectivity of decisions, and helps decision makers identify "good" queries that will influence their decisions.&lt;br/&gt;&lt;br/&gt;This project plans to carry out a systematic study of perturbation analysis of database queries. On the modeling front, the project proposes query response surface (QRS) over the parametric space as a framework for perturbation analysis. Intuitive notions of query "goodness" (for the purpose of supporting decisions), such as fairness and robustness, can be formulated as statistical, geometric, and topological properties of the QRS. The framework also allows practical problems to be formulated in terms of the QRS. For example, a brittle decision can be illustrated by identifying its pitfalls, which can be cast as an optimization problem of searching the QRS for slight perturbations with large result deviations; the problem of finding "good" queries that will influence a decision can be cast as that of finding points with desired properties in the relevant region of the QRS. On the algorithmic front, fundamental research problems arise in coping with the complexity of QRS and the vast space of perturbations. While there has been much study on perturbations of data, considering perturbations of queries poses novel challenges and compounds existing ones. The project will develop both efficient representations of QRS and fast algorithms for exploring and analyzing the QRS, using scalable techniques for indexing, optimization, and incremental evaluation that rely on sampling, approximation, and geometric insights. On the systems and applications front, this project plans to deliver the core features of perturbation analysis as a web service with a public API, and address the design and scalability challenges. The project will produce a general-purpose website for applying perturbation analysis of database queries, as well as websites customized for several domains of public interest. The websites will include a facet-driven interface and features that help collaboration and dissemination. In today's data-driven society, there is increasing demand for the proposed research in many application domains such as public policy, urban planning, business intelligence, and health care This project will significantly expand the functionality of database systems, making them easier to use (and harder to misuse) for a new generation of data-driven decision makers, especially those outside the traditional "data-heavy" disciplines such as computer science and statistics. This project will develop courses, seminars, and workshops targeting this much broader population of data-driven decision makers, to help train them in data and quantitative analysis, and in interpreting results critically.&lt;br/&gt;&lt;br/&gt;For further information see the project web site at: http://db.cs.duke.edu/projects/pq</AbstractNarration>
+    <MinAmdLetterDate>08/04/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1408915</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Hamilton</LastName>
+      <EmailAddress>jayth@stanford.edu</EmailAddress>
+      <StartDate>08/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

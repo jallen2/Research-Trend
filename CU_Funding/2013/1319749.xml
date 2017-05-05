@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Effective Convex Solvers for Machine Learning</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>453466</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many large scale machine learning problems are formulated as optimization problems, in which some measure of error or loss is to be minimized over a suitable training corpus. Real problems have too many data points to fit in a single computer. Hence the data and/or computation must be distributed over a network of computers. Often the only practical methods for extremely large problems are so-called splitting methods, but their convergence properties are extremely variable: sometimes very fast, sometimes very slow, in ways that can be hard to predict. The goal of this project is to gain a better understanding of the convergence behavior and to use this understanding to construct accelerated algorithms with more consistent convergence properties. This will allow the application of machine learning techniques to a much wider class of problems.&lt;br/&gt;&lt;br/&gt;Splitting methods (or more precisely alternating direction methods) are based on the idea that a general convex optimization problem can be split into two or more parts, each of which can be solved much more easily compared to the problem as a whole. The methods cycle through all the variables in turn, optimizing over each subset of variables leaving the rest fixed. The proposed work builds on a preliminary analysis of a simple model problem using the eigen-structure of certain matrix operators. The project is devoted to extending this analysis to more general problems, as well as developing faster solvers using well-established computational technologies for the matrix eigenvalue problem. Success will be measured in terms of the generality of the theory developed and the improvements in the observed convergence behavior on real problems.&lt;br/&gt;&lt;br/&gt;With faster solvers, discovery of major regions of influence in a global-scale social network (e.g. Facebook or Twitter) could become practical on modest computer platforms. The same holds for tracking disease propagation and people in video sequences. With efficient solvers, tracking software could be deployed on local hardware without the need for high-powered central servers. This will lead to advances in countless areas such data mining, compressive sensing, recommender systems, signal processing, missing data imputation, analysis of large scale social, biological or computer networks, image reconstruction, denoising and classification.&lt;br/&gt;&lt;br/&gt;The results of this research are to be disseminated in papers in the principal journals and conferences in machine learning, data mining, and optimization as well as in the form of software packages via the WWW (http://www-users.cs.umn.edu/~boley/ML-Optimization).&lt;br/&gt;&lt;br/&gt;The project depends on the interaction between different disciplines and applications areas, which will attract students from a variety of backgrounds at both the graduate and undergraduate level. Some research tasks are suitable as projects in classes on linear algebra, optimization, data mining, machine learning and are to be developed for both undergraduate and graduate students. Undergraduate students, including women and members of underrepresented groups, will see the value of mathematical algorithms to solve real problems of interest to them.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/08/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319749</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Boley</LastName>
+      <EmailAddress>boley@cs.umn.edu</EmailAddress>
+      <StartDate>08/24/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

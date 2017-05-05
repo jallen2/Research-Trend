@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>The Space of Shapes: A mathematical approach with applications to computer vision</AwardTitle>
+    <AwardEffectiveDate>08/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2010</AwardExpirationDate>
+    <AwardAmount>247657</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Christopher W. Stark</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Object recognition tasks in computer vision and particularly medical imaging, require a theory of shape. There are many mathematical theories of geometry- Euclid's theory of triangles, Gauss's theory of the obstructions to flattening a surface, Poincare's theory of the most abstract properties unique to a sphere. But none of these seem to have captured what humans mean when they say this object is heart-shaped but that one is kidney-shaped. Automated analysis of medical scans requires that these issues be addressed. Humans have no difficulty answering questions about how similar two shapes are. This suggests two types of mathematical models. On the one hand, one might define precisely a measure of dissimilarity of two shapes, a so-called metric on the set of all shapes. On the other, one might define a probability distribution whose values represent the probability that one shape is likely to belong to the same category as the first. Both constructions are, however, not simple extensions of known mathematics because the set of all shapes is infinite dimensional: this means that any given shape can be wiggled or stretched in infinitely many distinct ways, that no finite set of numbers can fully describe any given shape. Thus new mathematics is needed to create the tools to work with shapes. It is hoped that the ideas behind this study may impact work in recognizing, identifying and comparing the objects present in any type of imaging such as MRI's and CAT-scans.&lt;br/&gt;&lt;br/&gt;More precisely, this study starts from the observation that a shape (a closed surface in 3-space or a curve in the plane) can be viewed as a point in an infinite dimensional manifold. Even though the space of shapes is not linear, i.e. two shapes cannot, in any natural way, be added, the set of small deformations of a shape does form a vector space, namely the vector space of normal vector fields along the shape. Having a manifold, differential geometry can be used to define and study metrics on the space of shapes. Recent work has shown that a rich family of Riemannian metrics exists on this space with many different properties. Each one has its own geodesic equations and curvature tensor which have strikingly different properties. This project proposes to study two questions in particular: (a) the curvature for the Riemannian metric inherited from Sobolev norms on the diffeomorphism group of the ambient space and (b) the relationship between the features of the plane curve and its representation in the arguably most natural metric, the Weil-Petersson metric. We also seek to study the probability distributions on the space of shapes obtained as the marginals of diffusion processes associated to these metrics. We finally propose to make a database of scanned 2D shapes on which to compare the many metrics which have been proposed and to study clustering and the fitting of probability models to data. At present, there seem to be several good candidate metrics for applications so a comparative study is very important.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/09/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0704213</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Mumford</LastName>
+      <EmailAddress>mumford@dam.brown.edu</EmailAddress>
+      <StartDate>08/10/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1265</Code>
+      <Text>GEOMETRIC ANALYSIS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

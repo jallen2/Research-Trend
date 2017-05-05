@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Co-Processors for High-Performance Genome Analysis</AwardTitle>
+    <AwardEffectiveDate>08/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>155004</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5). &lt;br/&gt;&lt;br/&gt;This research develops novel techniques for applying the heterogeneous execution model, where a general-purpose processor is accelerated by a special-purpose co-processor, to optimization-based scientific computations. The result of this research is a library of computational building blocks that perform fundamental operations used in genome analysis, as well as a new design tool that uses this library to systematically synthesize complete co-processor architectures that are optimized for the characteristics of the input dataset of interest.&lt;br/&gt;&lt;br/&gt;Traditional development methodologies for heterogeneous computing have focused on computations that are based on data-parallelized O(n) algorithms. This project demonstrates the use of heterogeneous computing for non-O(n) algorithms, which have complex behavior, internal state, temporal locality, and a high ratio of computation versus communication. Adapting this class of computation to heterogeneous platforms provides high-performance computing without the need for maintenance-intensive and power-inefficient traditional shared-memory and cluster-based supercomputers.&lt;br/&gt;&lt;br/&gt;This project targets optimization-based phylogeny reconstruction as a application case study. This application uses combinatorial optimization for its search for optimal phylogenetic (evolutionary) trees, as well as for its procedure for scoring candidate trees.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2009</MaxAmdLetterDate>
+    <ARRAAmount>155004</ARRAAmount>
+    <AwardID>0915608</AwardID>
+    <Investigator>
+      <FirstName>Jason</FirstName>
+      <LastName>Bakos</LastName>
+      <EmailAddress>jbakos@cse.sc.edu</EmailAddress>
+      <StartDate>08/07/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University South Carolina Research Foundation</Name>
+      <CityName>COLUMBIA</CityName>
+      <ZipCode>292080001</ZipCode>
+      <PhoneNumber>8037777093</PhoneNumber>
+      <StreetAddress>1600 Hampton Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>South Carolina</StateName>
+      <StateCode>SC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Combating Counterfeit Analog and Mixed Signal ICs with Lightweight Embedded Mechanisms and Innovative Electrical Tests</AwardTitle>
+    <AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mona Zaghloul</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proposal Title: Combating Counterfeit Analog and Mixed Signal ICs with Lightweight Embedded Mechanisms and Innovative Electrical Tests&lt;br/&gt;&lt;br/&gt;Brief description of project Goals: A comprehensive framework for detecting and avoiding analog and mixed signal counterfeit ICs centered on targeted electrical tests and design structures.&lt;br/&gt;&lt;br/&gt;Nontechnical Abstract:&lt;br/&gt;Globalization has resulted in a substantial rise in all types of counterfeit electronic components reported throughout the supply chain. Aside from the billions lost from IP infringement, counterfeit parts are often of substandard quality, thereby creating risks for the critical systems and infrastructures that incorporate them. Among integrated circuits (ICs), analog and mixed signal (AMS) ICs are the best targets for counterfeiting due to their long product life cycles, high profit margins, prevalence across major markets (industrial, automotive, intelligence, consumer, wireless, compute, etc.), lower complexity, and (v) ease of reverse engineering and cloning older process technology nodes. Given the large number of systems and sectors using AMS electronics, counterfeits have significant impacts on major component manufacturers, original equipment manufacturers, governments, and society. While there exist counterfeit detection approaches based on physical inspection and electrical tests that could be applied to AMS ICs, they are time consuming, destructive, and often require golden (known authentic) information. In addition, new design techniques have been developed to detect counterfeit digital ICs, but these are not well-suited for AMS ICs due to the fundamental differences between analog and digital design. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Technical Abstract:&lt;br/&gt;This project explores, for the first time, a holistic framework to detect and prevent all types of analog and mixed-signal (AMS) counterfeit ICs. Fundamental challenges to this goal include lack of aging models (needed to detect recycled/used ICs), lack of digital IC features (e.g., test structures, traditional cryptographic modules, etc.), and strict resource constraints of AMS ICs. In this work, these challenges are addressed through the development of innovative electrical tests for detecting recycled and remarked ICs as well as development of lightweight embedded mechanisms for detection/prevention of cloned, overproduced, and recycled ICs. To eliminate the need for golden information and remain applicable to a wide range of ICs, the electrical tests target differences in behavior of general power management circuitry, which are accessible in many large analog, mixed signal, and digital ICs, such as Low Drop-Out Regulators (LDOs) Embedded mechanisms for passive IC counterfeit detection are developed based on fully analog physically unclonable functions (PUFs) and new recycling\aging sensors. While existing mechanisms require digital control logic and an additional pin for access to PUF and sensor output, new low cost-interfaces are developed to make all the proposed approaches easier to adopt. For active prevention, chaotic cryptography (which can be implemented in analog ICs) is exploited for novel IC locking\unlocking mechanisms that prevent overproduced ICs from entering the market. All approaches will be tested in simulation and silicon. Authentic ICs will be acquired and tested against counterfeits available in the PI's lab from industry collaborators. The embedded mechanisms will be incorporated into test ICs and fabricated using standard CMOS processes for validation.</AbstractNarration>
+    <MinAmdLetterDate>06/03/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/03/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1610075</AwardID>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Tehranipoor</LastName>
+      <EmailAddress>tehranipoor@ece.ufl.edu</EmailAddress>
+      <StartDate>06/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nima</FirstName>
+      <LastName>Maghari</LastName>
+      <EmailAddress>maghari@ece.ufl.edu</EmailAddress>
+      <StartDate>06/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Domenic</FirstName>
+      <LastName>Forte</LastName>
+      <EmailAddress>dforte@ece.ufl.edu</EmailAddress>
+      <StartDate>06/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Florida</Name>
+      <CityName>GAINESVILLE</CityName>
+      <ZipCode>326112002</ZipCode>
+      <PhoneNumber>3523923516</PhoneNumber>
+      <StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7564</Code>
+      <Text>COMMS, CIRCUITS &amp; SENS SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>104E</Code>
+      <Text>MEMS/NEMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Grounding Probabilistic Event Logic in a Hierarchy of Video Segmentation Tubes</AwardTitle>
+    <AwardEffectiveDate>09/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>465984</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The project addresses the fundamental challenge of grounding high-level semantic concepts about events into low-level video data. The key innovations include: (1) Representing events via probabilistic event logic (PEL) along with corresponding inference and learning algorithms, (2) Video segmentation into a hierarchy of space-time tubes, and (3) Robustly grounding PEL into space-time tubes via AND-OR grammars. Space-time tubes are extracted by tracking candidate object boundaries across frames, where both boundary detection and tracking are learned from training videos. PEL allows for arbitrary, probabilistic, spatiotemporal constraints among events, including the traditional compositional rules, Allen relations between time intervals, and correlations among different events. Unlike existing work, the logical nature of PEL allows humans, even non-experts, to easily inject their own knowledge into the system. PEL conducts joint, holistic inference to find the globally best parse over all events, which is grounded in an AND-OR grammar of primitive events. The AND-OR grammar uses robust graph matching of video tubes for handling uncertainty in low-level visual processing. &lt;br/&gt;For evaluation, two video datasets of American football and a building?s atrium are compiled, with fully annotated event labels, object tracks, and spatiotemporal segmentations. &lt;br/&gt;&lt;br/&gt;Training is provided for graduate and undergraduate students, including those from under-represented groups. The project is expected to: (a) advance the state of the art which typically focuses only on video classification; (b) make the two datasets public; (c) generate workshops/tutorials on the related topics; and (d) produce publications in the highest-impact journals/conferences.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/13/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018490</AwardID>
+    <Investigator>
+      <FirstName>Alan</FirstName>
+      <LastName>Fern</LastName>
+      <EmailAddress>afern@eecs.oregonstate.edu</EmailAddress>
+      <StartDate>08/18/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sinisa</FirstName>
+      <LastName>Todorovic</LastName>
+      <EmailAddress>sinisa@eecs.oregonstate.edu</EmailAddress>
+      <StartDate>08/18/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Oregon State University</Name>
+      <CityName>Corvallis</CityName>
+      <ZipCode>973318507</ZipCode>
+      <PhoneNumber>5417374933</PhoneNumber>
+      <StreetAddress>OREGON STATE UNIVERSITY</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

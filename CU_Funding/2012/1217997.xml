@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Random key predistribution in wireless sensor networks -- The impact of partial visibility</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>413066</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Brown</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With wireless sensor networks deployed in hostile environments, there is a need for cryptographic protection to enable secure communications services. Unfortunately, many approaches developed for general networking environments do not take into account the unique features of such wireless networks. Starting with the original scheme of Eschenauer and Gligor, random key predistribution schemes have been proposed to address this challenge. Much of the work on these schemes has been carried out under the full visibility assumption whereby sensor nodes are all within communication range of each other. However, the question remains whether randomized key predistribution schemes can indeed deliver the needed security guarantees under wireless communication constraints. To explore how this partial visibility affects two basic issues, namely secure connectivity and resiliency, we study random graph models which are obtained by intersecting two random graphs, namely a communication graph (to model the communications constraints of the wireless medium) and a cryptographic graph (to capture the given predistribution scheme). Our goal is to better understand performance trade-offs and to develop guidelines for dimensioning available cryptographic, communication and computing resources. &lt;br/&gt;&lt;br/&gt;Intersecting two (or more) random graphs constitutes a modular approach for building graph models of greater complexity. Generally speaking, the structural properties of the random graph obtained by such intersection operations are determined by those of the intersecting random graphs. Since some of the component random graphs have been studied in the literature, existing results can be leveraged, and this makes the modeling paradigm quite appealing for dealing with the multi-dimensional applications encountered in wireless networking (and other areas). Technically, many of the questions of interest are asymptotic in nature (with the numbers of nodes becoming large). The project aims to make contributions on three fronts: (i) Advance the study of random graphs in new directions through probabilistic techniques; (ii) Develop a better understanding of new classes of random graphs which thus far seem to have received little attention in the literature; and (iii) Enhance one's understanding of security issues in some large-scale wireless networking environments.&lt;br/&gt;&lt;br/&gt;Such issues are inherent to the many critical infrastructures which are monitored by wireless sensor networks, and random key predistribution techniques have a role to play in making these environments more secure. Some of these ideas are likely to be of use in less challenged wireless environments as well.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217997</AwardID>
+    <Investigator>
+      <FirstName>Armand</FirstName>
+      <LastName>Makowski</LastName>
+      <EmailAddress>armand@isr.umd.edu</EmailAddress>
+      <StartDate>07/30/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7935</Code>
+      <Text>COMM &amp; INFORMATION THEORY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

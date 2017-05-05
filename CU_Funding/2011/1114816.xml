@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>An Integrated Framework for High-Order Aeroacoustics of Complex Configurations</AwardTitle>
+    <AwardEffectiveDate>10/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>425354</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Direct numerical simulation of noise production and propagation remains prohibitively expensive for engineering problems due to resolution requirements. Consequently, hybrid approaches are adopted, which consist of predicting near-field flow quantities via a suitable computational fluid dynamics simulation, and far-field sound radiation by aero-acoustic integral methods, or acoustic analogy formulations. It is critical that the complex flow physics associated with sound generation in the near field is accurately captured by the computational fluid dynamics simulation. Therefore, it is necessary to use a high-order numerical scheme with very low dispersion/dissipation errors. Also, the most significant airframe noise sources are landing gear and high-lift components, such as slats and flaps. The geometric complexity of these components calls for use of numerical methods that can perform well on unstructured grids. The high-order Vincent-Castonguay-Jameson-Huynh (VCJH) schemes recently developed by the principal investigator and colleagues at Stanford University with National Science Foundation funding satisfy both of the aforementioned requirements. In the present work, a state-of-the-art computational framework will be developed for performing aero-acoustics simulations by integrating advanced sub-grid scale (SGS) models for large-eddy simulations (LES) of turbulent flow, and a new Ffowcs Williams-Hawkings (FWH) acoustic analogy formulation for sound propagation, with a graphical processing unit (GPU) enabled high-order VCJH flow solver for unstructured grids. The resulting software will enable the principal investigator and colleagues to undertake high-fidelity large scale aero-acoustics simulations over complex configurations at an affordable cost. The ability to perform such simulations will greatly facilitate design of new aircraft with reduced noise signatures.&lt;br/&gt;&lt;br/&gt;The future growth of commercial air transportation (currently predicted to triple by the year 2030) may be severely limited by its adverse environmental impacts (both emissions and noise). Noise regulations have become, and will continue to become, increasingly stringent, and noise reduction is now a major consideration in the design of transport aircraft. Although computer simulations currently play a major role in airplane design, their ability to predict noise, and in particular airframe noise (which is the largest component of noise during landing) remains very limited. The principal investigator and his colleagues aim to combine new mathematical and computational techniques to advance the state-of-the-art in noise prediction, and thereby enable design of new, quieter aircraft, with the ultimate target of restricting their noise footprint to within airport perimeters. A successful outcome is significant to the United States economy because commercial aircraft continue to be the largest single export sector.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/13/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1114816</AwardID>
+    <Investigator>
+      <FirstName>Antony</FirstName>
+      <LastName>Jameson</LastName>
+      <EmailAddress>jameson@baboon.stanford.edu</EmailAddress>
+      <StartDate>09/13/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

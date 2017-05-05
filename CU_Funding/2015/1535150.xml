@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: Development of a Software Framework for Formalizing Forcefield Atom-Typing for Molecular Simulation</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>501836</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Molecular simulation plays a key role in understanding the atomistic and molecular level interactions that underlie many natural and man-made materials and processes. Classical molecular simulations rely upon forcefields to describe the various interactions that exist between atoms and/or groups of atoms. The availability of forcefields for molecular simulation has reduced the effort researchers must devote to the difficult and costly task of determining the interactions between species, allowing them to instead focus on the motivating scientific questions. However, determining which parameters in a forcefield to use is still often a tedious and error prone task. This difficulty is related to the strong dependence of the parameters on the chemical context of the atoms; the chemical context may depend on the local bonded environment of an atom in a molecule, the local environment of neighboring atoms, the type of molecule(s) being considered, the phase of the molecule(s), etc. Forcefields can contain tens or hundreds of different types of the same element, where each type represents the element in a different chemical context. Atom typing can be challenging, often requiring the user to consult textual comments scattered in parameter files or the scientific literature where the parameters were published. Unfortunately, as of today, the documentation of a typical forcefield tends to be scarce and unstructured, commonly expressed in plain English or in an ad-hoc shorthand notation, leading to ambiguities and increasing the likelihood of incorrect usage. While there are freely available tools to aid in atom-typing, these are typically specific to a particular forcefield or simulator and capture the atom-typing and parameterization rules in ways that are hard to maintain, debug, and evolve. The central tenet of this project is that there is an imminent need in the research community for a forcefield agnostic formalism to express atom-typing and parameterization rules in a way that is expressive enough for human consumption, while being machine readable to enable automation in complex scientific workflows.&lt;br/&gt;&lt;br/&gt;This work proposes to establish a formalism to express the chemical context for which a particular forcefield parameter is applicable (i.e., forcefield usage semantics) and an atom-typing tool that interprets this formalism to generate forcefield parameterizations that are provably correct. Annotating forcefields with this formalism will serve as clear, unambiguous documentation of the atom-types and parameter usage, and also allows ambiguities or inconsistencies in forcefield specifications to be programmatically pinpointed during development. Successfully developing this framework will simplify the rules needed for atom-typing, which is crucial as forcefields continue to grow, specialize, and become more complex. The machine-readable annotations of forcefield usage semantics will enable automating tedious and error prone tasks and have the potential to enable new application areas, ranging from automated forcefield comparison and cross-validation, to complex simulation workflows integrating multiple forcefields and simulator tools.   An open online forcefield repository containing the annotated forcefields, associated open source software, and documentation on how to use, annotate, and develop forcefields within the proposed framework will be developed to disseminate results and foster community involvement.  </AbstractNarration>
+    <MinAmdLetterDate>08/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1535150</AwardID>
+    <Investigator>
+      <FirstName>Janos</FirstName>
+      <LastName>Sallai</LastName>
+      <EmailAddress>janos.sallai@vanderbilt.edu</EmailAddress>
+      <StartDate>08/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>Iacovella</LastName>
+      <EmailAddress>christopher.r.iacovella@vanderbilt.edu</EmailAddress>
+      <StartDate>08/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Vanderbilt University</Name>
+      <CityName>Nashville</CityName>
+      <ZipCode>372350002</ZipCode>
+      <PhoneNumber>6153222631</PhoneNumber>
+      <StreetAddress>Sponsored Programs Administratio</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1712</Code>
+      <Text>DMR SHORT TERM SUPPORT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8292</Code>
+      <Text>DMREF</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8400</Code>
+      <Text>DMREF</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

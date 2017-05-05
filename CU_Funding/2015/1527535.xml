@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Optimizing Consolidation Efficiency of Emerging Virtualized Cloud Applications on Contemporary Server Architecture</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>460000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Optimizing Virtual Machine (VM) consolidation performance has been one of the most critical tasks faced by the cloud provider community. Nevertheless, when scaling virtual platforms to handle the proliferation of cloud applications, challenges arise due to constraints on performance degradation, especially in those environments where VM consolidation density continues to grow. Worse, the consolidated workloads are shifting from conventional single-task computation-oriented applications to large-scale and complex workloads. They generate many diverse interactions and communication patterns and some of these applications have a large irregular memory footprint and high memory consumption, which presents a significant challenge to optimizing the efficiency of virtual machine consolidation. Currently, there emerge some new techniques for contemporary server architecture. Server manufacturers are replacing traditional Uniform Memory Access (UMA) machines with Non-Uniform Memory Access (NUMA) ones due to the latter's higher memory bandwidth and better system scalability. On the other hand, the throughput-oriented graphics processing units (GPUs) are being increasingly deployed to cloud data center servers to meet computation demands. Modern hypervisors begin to virtualize GPU resources and deliver efficient and reliable performance to hosted virtual machines. &lt;br/&gt;&lt;br/&gt;To embrace the opportunities and address the associated challenges, this research project will develop techniques to improve the consolidation efficiency of emerging virtualized cloud applications as the advancement of the underlying server architecture continues. The project objectives include: (1) System-wide consolidation performance profiling and optimization for NUMA architecture; (2) Graphic-as-a-Service (GaaS) workload consolidation overhead characterization and minimization; and (3) Collective workload consolidation optimizations in terms of both NUMA and GPU server configurations. This project, which synergistically integrates emerging server architecture features and virtual machine hypervisor resource management, will open the door for a new class of efficient scale-out computing platforms for cloud and big data computing. It will contribute to enabling computing systems to stay on track with its historic scaling and hence benefit numerous real-life applications. This project will also contribute to society through engaging under-represented groups, and research infrastructure dissemination for education and training.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527535</AwardID>
+    <Investigator>
+      <FirstName>Renato</FirstName>
+      <LastName>Figueiredo</LastName>
+      <EmailAddress>renato@acis.ufl.edu</EmailAddress>
+      <StartDate>08/10/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Tao</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>taoli@ece.ufl.edu</EmailAddress>
+      <StartDate>07/27/2015</StartDate>
+      <EndDate>08/10/2015</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Florida</Name>
+      <CityName>GAINESVILLE</CityName>
+      <ZipCode>326112002</ZipCode>
+      <PhoneNumber>3523923516</PhoneNumber>
+      <StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

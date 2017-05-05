@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Medium: Cortex: Rateless Wireless Networking Using Spinal Codes</AwardTitle>
+    <AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2015</AwardExpirationDate>
+    <AwardAmount>600000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Thyagarajan Nandagopal</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Worldwide demand for wireless network access is increasing at a tremendous rate, thanks to the emergence of powerful mobile devices and a large, growing number of network-intensive mobile applications. To cope with this demand and provide high throughput and low latency to applications, wireless network protocols need to solve a fundamental problem: they need combat noise, interference from other nodes as well as exogenous sources, and channel fading. These factors cause wireless channel conditions to vary with time, making it&lt;br/&gt;challenging to achieve high performance. This proposal posits that an ideal solution to this problem is to design a network architecture over a rateless code. In a rateless wireless network, the sender encodes data without any explicit estimation or adaptation, implicitly adapting to the vagaries introduced by noise, interference, or fading. The receiver processes data (symbols or bits) as it arrives, decoding it, until the message is received successfully.&lt;br/&gt;&lt;br/&gt;The building block for any rateless network is a strong coding scheme, without which such a vision remains purely conceptual. This proposal introduces a novel rateless code for wireless channels, the spinal code, which uses a pseudorandom hash function over the message bits to produce pseudorandom bits that in turn can be mapped directly to a dense constellation for transmission or can be used along with the traditional physical layer. Effectively, the use of a hash function allows for low-complexity code design without loss of performance. The proposal develops Cortex, a rateless wireless network built atop spinal codes. The proposed work will lead to contributions in the following areas: protocols using spinal codes and algorithms for encoding and decoding them, theoretical results investigating the rates achievable using these algorithms, and an implementation and experimental evaluation of spinal codes and higher-layer protocols.&lt;br/&gt;&lt;br/&gt;A good rateless system has the potential to achieve high performance under challenging conditions while also reducing the complexity of wireless architectures. Over the duration of this proposal, the PIs plan to interact closely with a few companies that have the ability to influence standards and build commercial systems using the proposed ideas. The education plan includes the introduction of rateless ideas into the undergraduate curriculum, particularly MIT's "Introduction to EECS-II" course (\url{http://mit.edu/6.02}), which introduces the excitement of CS/EE by cutting across the layers, going from packets to bits to signals. The graduate-level education goals are to teach the ideas of rateless wireless architectures and coding techniques by way of hands-on projects using Airblue, which will complement the teaching of the theoretical ideas, protocol design, and architectural thinking. The impact will be felt in courses on networking as well as hardware design (MIT courses 6.829, 6.263, 6.266, and 6.375). The course material will be made widely available through MIT OpenCourseWare (OCW).</AbstractNarration>
+    <MinAmdLetterDate>09/11/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1161964</AwardID>
+    <Investigator>
+      <FirstName>Hari</FirstName>
+      <LastName>Balakrishnan</LastName>
+      <EmailAddress>hari@csail.mit.edu</EmailAddress>
+      <StartDate>09/11/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Devavrat</FirstName>
+      <LastName>Shah</LastName>
+      <EmailAddress>devavrat@mit.edu</EmailAddress>
+      <StartDate>09/11/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

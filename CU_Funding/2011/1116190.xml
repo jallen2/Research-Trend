@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Nested Distributed Software Transactional Memory: Protocols, Mechanisms, and Java Package</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2015</AwardExpirationDate>
+    <AwardAmount>481600</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In this project, protocols, mechanisms, and a Java implementation of &lt;br/&gt;nested distributed transactional memory (TM) are developed. Distributed TM promises &lt;br/&gt;to alleviate the programmability, scalability, and performance challenges of lock-based &lt;br/&gt;distributed concurrency control. Emerging distributed TM implementations export &lt;br/&gt;a simple programming interface that precludes locks and are yielding performance &lt;br/&gt;comparable to, or better than lock-based distributed concurrency control. Nesting is &lt;br/&gt;essential to distributed TM for composability, functionality, fault-management, and &lt;br/&gt;performance. &lt;br/&gt;&lt;br/&gt;The project is developing protocols and mechanisms to support closed and open &lt;br/&gt;nesting in distributed TM. Closed nesting allows a nested transaction to be aborted &lt;br/&gt;without aborting the parent transaction, but not vice versa. Open nesting allows a &lt;br/&gt;parent transaction to be aborted without aborting the nested transaction, and vice &lt;br/&gt;versa, permitting greater concurrency. To support these nesting models, the project &lt;br/&gt;is developing distributed transactional conflict resolution protocols, distributed &lt;br/&gt;cache coherence protocols, and mechanisms for transparently executing &lt;br/&gt;compensating transactions to undo the effects of committed transactions. The &lt;br/&gt;project is implementing these techniques in the open-source, HyFlow distributed &lt;br/&gt;TM Java package (hyflow.org). &lt;br/&gt;&lt;br/&gt;The project is also transitioning this technology (techniques and HyFlow &lt;br/&gt;implementation) to US Navy's Aegis Combat System, which uses distributed &lt;br/&gt;concurrency control. Additionally, the project's results are being incorporated into &lt;br/&gt;advanced graduate courses at Virginia Tech that includes students at Blacksburg, &lt;br/&gt;VA, scientists and engineers at US Naval Surface Warfare Center Dahlgren Division &lt;br/&gt;(NSWCDD), VA (through Virginia Tech's graduate outreach program at NSWCDD), &lt;br/&gt;and students in the Middle East and North Africa through Virginia Tech's VT-MENA &lt;br/&gt;program at Egypt.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/31/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116190</AwardID>
+    <Investigator>
+      <FirstName>Binoy</FirstName>
+      <LastName>Ravindran</LastName>
+      <EmailAddress>binoy@vt.edu</EmailAddress>
+      <StartDate>08/01/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Polytechnic Institute and State University</Name>
+      <CityName>BLACKSBURG</CityName>
+      <ZipCode>240610001</ZipCode>
+      <PhoneNumber>5402315281</PhoneNumber>
+      <StreetAddress>Sponsored Programs 0170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

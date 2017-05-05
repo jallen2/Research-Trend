@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Hierarchical Planning for Robots in Complex Uncertain Domains</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hector Munoz-Avila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>For a robot to operate in a complex environment over a period of hours or days, it must be able to plan actions involving large numbers of objects and long time horizons. Furthermore it must be able to plan and carry out actions in the presence of uncertainty, both in the outcome of its actions and in the actual state of the world. Thus, key challenges are hedging against bad outcomes, dealing with exogenous dynamics, performing efficient re-planning, and determining conditions for correctness and completeness. &lt;br/&gt;&lt;br/&gt;This project will develop an approach to robot planning that addresses these challenges by integrating several key ideas: (1) Planning in belief space, that is, the space of probability distributions over the underlying state space, to enable a principled approach to planning in the presence of state uncertainty; (2) Planning with simplified models and re-planning as necessary to enable planning efficiently with outcome uncertainty while still enabling action choices based on looking ahead into likely outcomes; (3) Combining logical and geometric reasoning to enable detailed planning in large state spaces involving many objects; and (4) Hierarchical planning with interleaved execution to enable plans with very long time horizons by breaking up the planning problem into a sequence of smaller problems.&lt;br/&gt;&lt;br/&gt;The methods developed will be tested in a system that combines planning, perception and execution for real physical robots navigating and manipulating objects in real, complex environments. The software developed in this project will be freely available as a collection of ROS (Robot Operating System) modules for easy porting to a wide variety of robots. The research in this project will contribute materials for two courses that the PIs are developing: (1) a lab-based introduction to electrical engineering and computer science based on mobile robots (currently taken by around 500 MIT students per year) and (2) a new project-based senior-level subject on robot planning and perception. All of the materials for these subjects will be available freely through MIT's OpenCourseWare site.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117325</AwardID>
+    <Investigator>
+      <FirstName>Tomas</FirstName>
+      <LastName>Lozano-Perez</LastName>
+      <EmailAddress>tlp@csail.mit.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Leslie</FirstName>
+      <LastName>Kaelbling</LastName>
+      <EmailAddress>lpk@csail.mit.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

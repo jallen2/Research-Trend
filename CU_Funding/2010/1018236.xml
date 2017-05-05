@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Integrated Infrastructures for On-Chip Communication and Power Management in Message-Passing Multicore Processors</AwardTitle>
+    <AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>532000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>While the continued scaling of transistor dimensions enables the integration of an increasing number of processing cores on a single chip, the performance of future multicore processors will be limited by power dissipation and peak temperature constraints. High-performance computing systems will be achievable only through energy-efficient design and energy-aware programming methods. Each core will require dedicated active power and frequency management to make sure that at any given instant it does not waste any energy by operating at a speed higher than what is required by the given task that is executing. Such management requires the introduction of novel on-chip voltage regulation modules, real-time monitoring of the current usage for each voltage domain, as well as detailed awareness of the extent of parallelism achievable for each running application. &lt;br/&gt;&lt;br/&gt;The PIs will investigate the design and fabrication of a scalable on-chip infrastructure for message-passing multicore processors that integrates support for efficient inter-core communication with programmable fine-grain control mechanisms to regulate independently the processing speed and power dissipation of each core. The proposed infrastructure will consist of a heterogeneous network-on-chip (NoC), a set of voltage and frequency control modules that are distributed on the chip, each next to the controlled core, and a new application programming interface (API). The NoC will be dynamically configured to sustain multiple traffic classes with different quality-of-service requirements. The fine-grained power management will rely on high-Q on-chip magnetic energy storage through the use of magnetic materials in a CMOS post-process fabrication step combined with high-efficiency Buck converters based on pulse-width modulation with hysteric control for fast response times. The API will expose both the inter-core message-passing communication and the voltage/frequency control of each core to the application software programmers. &lt;br/&gt;&lt;br/&gt;This proposal will allow the PIs to train graduate and undergraduate students in integrated circuit design employing a leading edge CMOS technology and exploiting new magnetic materials as well as in hardware/software co-design of on-chip infrastructures for dynamic power management. Ongoing industrial interactions with leading information-technology and semiconductor companies promise continual relevance of the project and avenues for dissemination.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/16/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018236</AwardID>
+    <Investigator>
+      <FirstName>Luca</FirstName>
+      <LastName>Carloni</LastName>
+      <EmailAddress>luca@cs.columbia.edu</EmailAddress>
+      <StartDate>08/19/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kenneth</FirstName>
+      <LastName>Shepard</LastName>
+      <EmailAddress>shepard@ee.columbia.edu</EmailAddress>
+      <StartDate>08/19/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>6863</Code>
+      <Text>SEBML-MOORE'S LAW</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

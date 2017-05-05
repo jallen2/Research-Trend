@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Interactive Construction of Complex Query Models</AwardTitle>
+    <AwardEffectiveDate>07/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>515994</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>James French</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research program will investigate and implement SearchIE, a search-based approach to information "extraction." SearchIE will allow rapid, personalized, situational identification of types of objects or actions in text, where those types are likely to be useful for a complex search task. Modern search engines often provide some mechanism to indicate that a query keyword matches a document only if it occurs in the name of a person or in a location. To make that possible, annotators found and marked a large number of people names (for example) in text, a machine learning algorithm was applied to learn which low-level features are indicative of the name type, and then a resulting classifier for that type is run across the collection of documents. It is then possible to write a query that means "paris used as a person's name rather than a location." Unfortunately, the existing approaches do not serve searchers interested in novel, unanticipated types - for example, names of whaling ships, officers in Queen Victoria's navy, local watering holes. Such examples cannot be handled currently because the classifiers need to be trained and run ahead of time, an expensive data labeling process that is too daunting for many search tasks. Since on-line information gathering almost always starts with search and frequently involves identifying items of interest in the found text, bringing these two together has the potential to change both substantially. The SearchIE approach makes it possible for someone to build personalized extractors contextualized by their topical interests. The result is that the technology can radically improve online searching for lay persons as well as professionals by significantly reducing the time needed to focus queries into relevant information. &lt;br/&gt;&lt;br/&gt;It does not appear that the information extraction task has ever been approached directly as a search task. SearchIE is unique in bringing an information retrieval (search) mindset to the extraction problem, providing new capabilities that are either impossible or extremely difficult in the traditional "annotate then detect" model of the problem. This project will investigate the fundamental issues raised by the SearchIE approach. What models can best integrate extraction and search in new settings where they can truly happen simultaneously? How can a searcher describe and edit a model for the types of interest? Can an interactively developed model be a springboard into a machine learned model and when is there enough information to do that? Does using topical context to limit the scope of extraction provide the expected accuracy gains using SearchIE's approach? What data structure modifications are needed to fully implement SearchIE so that it is efficient as well as effective? How well does this approach fare on additional standard test collections? Addressing the systems and algorithmic issues are fundamental problems that have the potential to greatly impact both search and extraction. For further information, see the project's web site at http://ciir.cs.umass.edu/research/searchie.</AbstractNarration>
+    <MinAmdLetterDate>07/21/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/21/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617408</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Allan</LastName>
+      <EmailAddress>allan@cs.umass.edu</EmailAddress>
+      <StartDate>07/21/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>AMHERST</CityName>
+      <ZipCode>010039242</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

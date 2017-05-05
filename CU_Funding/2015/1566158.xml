@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: SHF CSR: A High Performance and Reliable Non-Volatile Memory Framework for Handheld Platforms</AwardTitle>
+    <AwardEffectiveDate>03/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2018</AwardExpirationDate>
+    <AwardAmount>174371</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Handheld platforms, such as smartphones, tablets, and wearable devices, nowadays dominate the semiconductor market. Increasingly demanding programs are run by users on handheld platforms powered by batteries. Therefore, specialized hardware components, i.e., IP cores, are introduced to improve handhelds? energy efficiency. However, the memory access patterns of CPUs and IPs are dramatically different, making main memory a critical bottleneck for a handheld system. Non-volatile memories, particularly STT-MRAM, are emerging as replacements for the existing DRAM-based main memory, achieving a wide variety of advantages. Nevertheless, substituting DRAM with STT-MRAM in handhelds also results in new design challenges such as read disturbance. Consequently, two read disturbance mitigation schemes are proposed in this project, constructing a high performance and reliable memory framework for handheld platforms.&lt;br/&gt;&lt;br/&gt;In this research, a flexible STT-MRAM read scheme, namely FlexRead, is proposed to optimize handheld platform performance and energy efficiency under read disturbance. FlexRead combines the advantages of two existing data sensing schemes, dynamically issuing the best sensing scheme based on the runtime system state. Furthermore, an application flow pattern prediction scheme, namely FlowPaP, is proposed to identify and remove unnecessary memory restores originally required for preventing read disturbance. FlowPaP analyzes the data flow behavior in the applications running on handhelds, recognizing that the memory is in a consistent loop of being alternately written and read. These two proposed schemes optimize multiple handheld platform design aspects, thus having a transformational impact on the handheld research community, industrial products, and even society. The discovered read disturbance issue is an important and realistic design challenge for future handheld platform generations. Moreover, the proposed research can benefit the courses and research seminar taught by the PI, also advancing the education of students from highly diverse backgrounds, e.g., those from under-represented groups in the STEM field.</AbstractNarration>
+    <MinAmdLetterDate>02/16/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/16/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1566158</AwardID>
+    <Investigator>
+      <FirstName>Lide</FirstName>
+      <LastName>Duan</LastName>
+      <EmailAddress>lide.duan@utsa.edu</EmailAddress>
+      <StartDate>02/16/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at San Antonio</Name>
+      <CityName>San Antonio</CityName>
+      <ZipCode>782499113</ZipCode>
+      <PhoneNumber>2104584340</PhoneNumber>
+      <StreetAddress>One UTSA Circle</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>026Y</Code>
+      <Text>CRII CISE Research Initiation</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

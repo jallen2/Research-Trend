@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: ACI: Accelerating In-Situ Scientific Data Analysis Using Software-Defined Storage Resource Enclaves</AwardTitle>
+    <AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2018</AwardExpirationDate>
+    <AwardAmount>173999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sushil Prasad</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Data intensive knowledge discovery requires scientific applications to run concurrently with analytics and visualization codes, executing in situ for timely output inspection and knowledge extraction. Consequently, the Input/Output (I/O) pipelines for large scientific data analysis can be long and complex because they comprise many "stages" of analytics across different layers of the I/O stack of high-performance computing systems. Performance limitations at any I/O layer can cause an I/O bottleneck resulting in longer than expected end-to-end I/O latency. In this project, PI aims to implement a novel data management infrastructure called Software-defined Storage Resource Enclaves (SIREN) at system levels to enforce end-to-end policies that dictate an I/O pipeline's performance. The cross-cutting nature of the technologies developed in the project can help large scientific data analytics leverage the full capability of memory and storage devices on supercomputers. The project will facilitate the development of a graduate level data-intensive computing course at Washington State University Vancouver, and contribute to the education of undergraduate, female, and under-representative students. Therefore, this research aligns with the NSF mission to promote the progress of science and to advance the national prosperity and welfare.&lt;br/&gt;&lt;br/&gt;The technical objectives of the project are three-fold. First, SIREN aims to allow administrators to set allocations for enclaves to manage a group of applications that belong to the same I/O pipeline. Second, it intends to enforce I/O policies (e.g., proportional sharing) at more than one layer of I/O stacks simultaneously considering characteristics of storage devices (e.g., disparity of read/write capacity for SSDs and performance sensitivity to data locality for disks) to achieve optimal performance. Third, PI aims to solve storage-specific implementation issues, including design of user-friendly interfaces, enclave naming and resolution, metadata management, failure handling, and admission control. The introduction of SIREN can fundamentally change the execution model of data staging services widely used on supercomputers. It will also contribute to the understanding of performance characteristics of I/O pipelines under external I/O interference during data staging.</AbstractNarration>
+    <MinAmdLetterDate>05/27/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/27/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1565338</AwardID>
+    <Investigator>
+      <FirstName>Xuechen</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>xuechen.zhang@wsu.edu</EmailAddress>
+      <StartDate>05/27/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Washington State University</Name>
+      <CityName>PULLMAN</CityName>
+      <ZipCode>991641060</ZipCode>
+      <PhoneNumber>5093359661</PhoneNumber>
+      <StreetAddress>280 Lighty</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>026Y</Code>
+      <Text>CRII CISE Research Initiation</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

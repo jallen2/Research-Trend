@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Medium: Collaborative Research: The Role of Order in Search</AwardTitle>
+    <AwardEffectiveDate>10/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>304000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Balasubramanian Kalyanasundaram</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Searching for a string in a digital library is a fundamental operation. One may seek a phrase in a file that is being manipulated by a text editor, a sentence on the web via a search engine, or a genome in the human DNA sequence. This basic tool has been well researched and, indeed, is ubiquitous in data processing.&lt;br/&gt;&lt;br/&gt;However, string matching and motif discovery algorithms ("Stringology") that have dealt with searches in general databases, have always assumed that the sought string is ordered. The research thrusts were in directions such as exact matching, approximate matching, or grappling with the challenge of coping with errors in the data. But always the order of the data was assumed to be iron-clad.&lt;br/&gt;&lt;br/&gt;Nevertheless, some non-conforming problems have been gnawing at the walls of this assumption. Some of the areas where applications assume erroneous order of the data are: Text Editing, where errors such as swaps or transpositions, assume that the data has not been changed -- it has rather been rearranged; Computational Biology, where reversals or transpositions of genome subsequences are part of the evolutionary process; and Linguistics, where the task of lexical categorization is aided by considering sets of parts-of-speech in various orders.&lt;br/&gt;&lt;br/&gt;The above application areas suggest that the wonderfully ordered world of pattern matching may be too rigid to handle new challenges. This project introduces a fundamentally new model of string matching, where the order of symbols in the input pattern may be perturbed, but the content remains unchanged. This model studies unordered pattern matching universes in order to supply the above mentioned application areas with appropriate computational tools. A theory of unordered matching will give a general framework for all the above problems.&lt;br/&gt;&lt;br/&gt;This project considers permuted Stringology as a line leading from fully ordered data all the way to data with no order at all. The ordered side has been historically amply researched. The specific technical goals of the project are:&lt;br/&gt;&lt;br/&gt;1. To develop a theory and framework for permuted Stringology.&lt;br/&gt;2. To identify the types of unordered problems that are more difficult than ordered Stringology, the conditions that make them harder, and the reason why.&lt;br/&gt;3. To define the term ``Similarity'' in unordered clusters.&lt;br/&gt;4. To define the world of ``almost ordered sequences'', and to compare it with unordered and ordered sequences.&lt;br/&gt;5. To design tools that will be key elements in the solution for the proposed problems, and will be shared by more than one algorithm. The list of problems includes Indexing, Dictionary and Approximations.&lt;br/&gt;&lt;br/&gt;This project's aim is to study the fundamental problems arising from a model of pattern matching with rearrangement. The immediate benefit to the field is a totally new, yet very basic, research direction that seems to defy the state-of-the-art toolkit. The historical tools of pattern matching, such as dynamic programming, FFT, sub-word trees, renaming, encodings, and embeddings do not seem suitable to handle these problems. New algorithmic tools and data structures are required. In fact, this direction already bore unexpected interesting fruits -- the solution of an open problem in graph theory posed by the mathematician Cayley in 1849! Techniques such as non-standard convolutions, group testing, and graph theoretic algorithms, have been necessary to solve some of the problems thus far.&lt;br/&gt;&lt;br/&gt;Since this project defines a new model, there are many directions to explore. It is expected that this project will mark the beginning of intensive research in a new paradigm.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/16/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0904581</AwardID>
+    <Investigator>
+      <FirstName>Amihood</FirstName>
+      <LastName>Amir</LastName>
+      <EmailAddress>amir@cs.jhu.edu</EmailAddress>
+      <StartDate>09/16/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Johns Hopkins University</Name>
+      <CityName>Baltimore</CityName>
+      <ZipCode>212182608</ZipCode>
+      <PhoneNumber>4105168668</PhoneNumber>
+      <StreetAddress>3400 N CHARLES ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

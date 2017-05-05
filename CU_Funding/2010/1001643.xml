@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Statistical Tools for Post-Genomic Personalized Medicine and Health Care</AwardTitle>
+    <AwardEffectiveDate>06/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2015</AwardExpirationDate>
+    <AwardAmount>310503</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of the proposed research is to develop some statistical tools for systems biology that will accelerate the development of personalized medicine and health care in the post-genomic era. Those aspects of the drug discovery process that are particularly suited to a systems biology&lt;br/&gt;approach will be studied, namely: target and lead identication, and patient selection for clinical trials. The associated statistical problems are: detecting similarity in sequences, and subsampling enormous-sized data while retaining its statistical properties. For detecting sequence similarity, it&lt;br/&gt;is proposed to extend the widely-used BLAST (Basic Local Alignment Search Technique) algorithm to the case where the sequences being compared are sample paths of Markov chains; the existing BLAST theory assumes that they are sample paths of i.i.d. processes. For subsampling while retaining statistical properties, it is proposed to use Vapnik-Chervonenkis (VC-) theory and VC-&lt;br/&gt;dimension. At some future date, this project will be followed by a more ambitious multi-PI project that will apply the methods developed here to specific therapeutic areas.&lt;br/&gt;&lt;br/&gt;Technical Merit&lt;br/&gt;Personal medicine is a worthy goal for systems biology research. Within personalized medicine, the problems of identifying suitable targets for drugs, and candidate drugs (known as leads) are quite amenable to a systems biology approach, as is the problem of genotype-phenotype correla-tion (correlating a person's genetic variation with his/her propensity to disease, responsiveness to drugs, etc.). Thus the problems chosen here are the most natural problems in drug discovery to be addressed via a systems biology approach. Target and lead identification proceeds via sequence comparison, so it is natural to seek methods that take into account the possible Markovian interdependence amongst the symbols. The widely-used BLAST algorithm is based on a modification of&lt;br/&gt;large deviation theory, so it is proposed to use the PI's recent simplified extension of large deviation theory for Markov chains to obtain an extension of BLAST theory to Markov-dependent sample paths. Vapnik-Chervonenkis (VC-) theory is the only theory of sampling that is `distribution-free' ;&lt;br/&gt;that is, the size of the subsample needed to retain the statistical properties of the original data does not depend on the distribution of the original data. Hence this theory is ideally suited to the problem of subsampling. Indeed some preliminary results have already been obtained.&lt;br/&gt;&lt;br/&gt;Broader Impact&lt;br/&gt;The proposed research will have impact on other areas of science such as Internet computing,speaker recognition etc., because problems of detecting sequence similarity and reducing data sizes by subsampling arise in a variety of contexts, and not just in systems biology. To promote education&lt;br/&gt;outreach, the PI will continue his past practice of disseminating knowledge through widely-used textbooks and monographs. A contract has already been signed with Princeton University Press to publish the outcomes of the proposed research in a graduate level monograph. Once the theoretical&lt;br/&gt;research is completed, the extension of BLAST to Markov chains will be implemented in a user-friendly software package that has the same GUI as the original BLAST, and be made freely downloadable. The extended BLAST implementation will also be hosted on a bio-computing cluster at UT Dallas. The PI will continue to teach introductory computational biology to first-&lt;br/&gt;year undergraduates as he has done in the past. The PI will participate in the UTeach program of UTD to generate educational materials for computational biology at the High School level. He will also actively recruit women and minorities by visiting area schools and speaking about the social&lt;br/&gt;relevance of his research.</AbstractNarration>
+    <MinAmdLetterDate>05/17/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/26/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1001643</AwardID>
+    <Investigator>
+      <FirstName>Mathukumalli</FirstName>
+      <LastName>Vidyasagar</LastName>
+      <EmailAddress>m.vidyasagar@utdallas.edu</EmailAddress>
+      <StartDate>05/17/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Dallas</Name>
+      <CityName>Richardson</CityName>
+      <ZipCode>750803021</ZipCode>
+      <PhoneNumber>9728832313</PhoneNumber>
+      <StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

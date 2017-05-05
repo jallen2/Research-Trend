@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Managing Inconsistency in Logical Spreadsheets</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>96519</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In traditional spreadsheet systems, such as Excel, cells are &lt;br/&gt;partitioned into "directly specified" cells&lt;br/&gt;and "computed" cells and the formulas used to specify the values of &lt;br/&gt;computed cells are "functional",&lt;br/&gt;i.e. for every combination of values of the directly specified cells, &lt;br/&gt;the formulas specify unique values&lt;br/&gt;for the computed cells. Logical Spreadsheets expand the utility of &lt;br/&gt;traditional spreadsheets by&lt;br/&gt;dispensing with the distinction between directly specified cells and &lt;br/&gt;computed cells and generalizing&lt;br/&gt;from functional definitions to logical constraints.&lt;br/&gt;&lt;br/&gt;One problem with logical spreadsheets is the potential for &lt;br/&gt;inconsistency. In using logical spreadsheets,&lt;br/&gt;users can select values for cells that are inconsistent with the &lt;br/&gt;values of other cells, given the constraint&lt;br/&gt;defining the spreadsheet. Simply eliminating inconsistent values is &lt;br/&gt;not the answer - (1) rejecting new&lt;br/&gt;values that are inconsistent with past values limits the user's &lt;br/&gt;freedom and (2) dropping past values that&lt;br/&gt;are inconsistent with new values restores consistency but loses &lt;br/&gt;information. On the other hand, retaining&lt;br/&gt;inconsistencies is problematic when the spreadsheet tries to derive &lt;br/&gt;consequences of updates, since&lt;br/&gt;inconsistent logical theories entail everything!&lt;br/&gt;&lt;br/&gt;Unlike logical entailment, existential entailment behaves well in the &lt;br/&gt;face of inconsistencies and, therefore,&lt;br/&gt;is more useful in this setting. Work in this project includes (1) a &lt;br/&gt;study of the behavioral properties of existential entailment in the &lt;br/&gt;context of logical spreadsheets, (2) the development of efficient &lt;br/&gt;algorithms&lt;br/&gt;for computing existential entailment (with special attention to rule &lt;br/&gt;transformation, reformulation, and&lt;br/&gt;differential logic), (3) the development of an open-source Javascript &lt;br/&gt;implementation incorporating these&lt;br/&gt;algorithms, and (4) an evaluation of this technology in the form of &lt;br/&gt;user surveys, comparative studies, and&lt;br/&gt;ablation studies.&lt;br/&gt;&lt;br/&gt;Further information on the project can be found at the project web &lt;br/&gt;site at http://logicalc.stanford.edu.</AbstractNarration>
+    <MinAmdLetterDate>09/02/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/02/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0841152</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Genesereth</LastName>
+      <EmailAddress>genesereth@stanford.edu</EmailAddress>
+      <StartDate>09/02/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0116000</Code>
+      <Name>Human Subjects</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9237</Code>
+      <Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

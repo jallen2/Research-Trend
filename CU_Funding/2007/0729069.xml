@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Compressing Unordered Data: Theory, Algorithms, and Applications</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>285000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Systems for information storage, gathering, or communication should be designed with careful attention to how the information will eventually be used. Often data are used without regard to their ordering; e.g., most databases are accessed by searching, and order is irrelevant to statistics like means, medians, etc. The observation that order can be irrelevant is powerful because sometimes ignoring order dramatically improves compression. Remarkably, in some situations the reduction in bits can approach 100%. This project seeks to develop theory, algorithms, and applications for communication when ordering is fully or partially irrelevant. The theoretical aspect includes establishing performance bounds when very little is known about the information source prior to encoding and when ordering is partially maintained. The algorithmic focus is on computationally-efficient algorithms with limited buffering requirements. Lowering the required communication rates in networked data gathering could enable cheaper, smaller and&lt;br/&gt;lower-power devices and thus hasten the deployment of large-scale and battery-operated sensing systems. &lt;br/&gt;&lt;br/&gt;The genesis of this project is the following order reduction: Communicating any nontrivial sequence of n (ordered) symbols requires a number of bits that is linear in n; however, disregarding order&lt;br/&gt;lowers the rate to O(log n) when the source alphabet is finite. Results for universal coding over countable alphabets and rate-distortion problems also show large differences between the&lt;br/&gt;ordered and unordered communication problems. The project aims to establish fundamental bounds on compressing unordered data (discrete-and continuous-valued sources, with or without full distributional knowledge); develop compression techniques (scalar and vector quantizers, indexing, refinement); and apply data set (as opposed to sequence) compression in practice. Extending the results to partial preservation of order could have important consequences for conventional compression.</AbstractNarration>
+    <MinAmdLetterDate>09/14/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/14/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0729069</AwardID>
+    <Investigator>
+      <FirstName>Vivek</FirstName>
+      <LastName>Goyal</LastName>
+      <EmailAddress>vgoyal@mit.edu</EmailAddress>
+      <StartDate>09/14/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4720</Code>
+      <Text>SIGNAL PROCESSING SYS PROGRAM</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

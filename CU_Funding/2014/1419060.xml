@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Hierarchical model reduction techniques for incompressible fluid dynamics and fluid-structure interaction problems</AwardTitle>
+    <AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>248384</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Networks perfused by fluids are found in several engineering applications, ranging from hydrogeology, oil distribution, and internal combustion engines to hemodynamics. A quantitative analysis of these problems is of utmost interest for understanding fluid dynamics in the network, for predicting effects of local changes on the network (for instance, the effects of a surgical operation over the fluid dynamics in the arterial tree), and for optimizing flow distribution. Mathematical description and numerical approximation of these problems are challenging when coupling the accurate description of local dynamics with the large scale of the network. This proposal investigates a novel numerical method to undertake the quantitative analysis of fluid dynamics in complex networks called HiMod (Hierarchical Model Reduction). The primary (but not exclusive) application is the physiopathology of the arterial system, including in the mathematical model up to almost 2000 segments of the network. Several specific properties of this method need to be investigated for its development and engineering. The research provides a graduate student the opportunity of working on advanced mathematical and numerical techniques - including theoretical as well as practical aspects - in a truly interdisciplinary framework with frequent contacts with engineers and doctors expected to be the end users of these methodologies.&lt;br/&gt;&lt;br/&gt;Network of pipes are often modeled by assembling simplified equations describing each segment, like the well known Euler equations. Originally proposed for blood flow (incompressible fluid in compliant pipes) they have been extensively used in gas dynamics - for instance - in internal combustion engines (compressible fluid in rigid pipes). These equations are the result of several approximations to reduce the fully 3D mathematical model to a 1D set of hyperbolic equations. Unfortunately, this model reduction prevents proper capture the local features of the network that affects the global dynamics. The HiMod approach moves from a different perspective. We couple different numerical approximation techniques along the mainstream and the transversal directions. We use a finite element approximation for the mainstream and a spectral or modal approximation transversally. The number of modes can be locally and adaptively tuned to get the best possible trade-off between accuracy and computational efficiency. The rationale is that a relatively small number of modes is enough to guarantee good accuracy for the transversal dynamics, leading to a system of 1D problems (called a "psychologically 1D" model). Moving from preliminary promising studies for advection-diffusion problems, in this proposal we aim at developing the method for the 3D incompressible Navier-Stokes equations and fluid-structure interaction problems. Inf-sup stability and accuracy of the HiMod discretization as well as its role as preconditioner of the full problem will be investigated, together with adaptive techniques for the appropriate (automatic) selection of the transversal modes.</AbstractNarration>
+    <MinAmdLetterDate>06/29/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1419060</AwardID>
+    <Investigator>
+      <FirstName>Alessandro</FirstName>
+      <LastName>Veneziani</LastName>
+      <EmailAddress>ale@mathcs.emory.edu</EmailAddress>
+      <StartDate>06/29/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Emory University</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303224250</ZipCode>
+      <PhoneNumber>4047272503</PhoneNumber>
+      <StreetAddress>1599 Clifton Rd NE, 4th Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8396</Code>
+      <Text>Clean Energy Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8609</Code>
+      <Text>Other Energy Research</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

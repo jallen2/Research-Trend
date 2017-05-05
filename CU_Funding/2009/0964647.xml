@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: MEDITA - Multi-Layer Enterprise-Wide Dynamic Information-Flow Tracking and Assurance</AwardTitle>
+    <AwardEffectiveDate>06/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2014</AwardExpirationDate>
+    <AwardAmount>900000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Enterprise Information Systems (EIS) continually face attacks ranging from data leaks to the spread of malware; these attacks cost companies billions of dollars annually and can result in critical loss or leakage of data. Existing defenses typically either attempt to secure the hosts within the enterprise or add a security perimeter to the network. These conventional defenses are ineffective in the face of compromised hosts, mobile devices, and insider threats. Dynamic Information-Flow Tracking (DIFT) techniques maintain data provenance information about objects within the system and control information flow by defining and implementing policies that dictate how that information should be allowed to flow. Although powerful, existing DIFT approaches are limited by the fact of targeting only a single layer on a single physical host, which limits their effectiveness and practical applicability.&lt;br/&gt;&lt;br/&gt;This research will develop MEDITA, a multi-layer DIFT mechanism that can precisely, securely, and efficiently track data flowing within a networked EIS and across layers, and control the flow of such data based on the data provenance and the security policy in place. Multi-layer DIFT holds great promise for controlling information flow within an enterprise in many real-world scenarios. Despite its appeal, however, realizing a system that could implement such DIFT policies in practice is extremely challenging because of the wide variety of attacks that can be mounted, ranging from copying and pasting the sensitive data to writing the document to removable storage or a mobile device. To address these and other challenges, this research will (1) refine existing techniques for performing DIFT within the individual layers of an EIS, (2) design and implement the integration and inter-operation of DIFT techniques between layers, (3) define a language that can be used to express multi-layer security policies for the EIS and mechanisms for translating those policies to tainting and enforcement mechanisms; and (4) Develop a prototype implementation of MEDITA and perform experiments by using the prototype to apply MEDITA to realistic information-flow tracking control scenarios.</AbstractNarration>
+    <MinAmdLetterDate>06/10/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/10/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0964647</AwardID>
+    <Investigator>
+      <FirstName>Alessandro</FirstName>
+      <LastName>Orso</LastName>
+      <EmailAddress>orso@cc.gatech.edu</EmailAddress>
+      <StartDate>06/10/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Milos</FirstName>
+      <LastName>Prvulovic</LastName>
+      <EmailAddress>milos@cc.gatech.edu</EmailAddress>
+      <StartDate>06/10/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nicholas</FirstName>
+      <LastName>Feamster</LastName>
+      <EmailAddress>feamster@cs.princeton.edu</EmailAddress>
+      <StartDate>06/10/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

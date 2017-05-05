@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Reduced Order Model Approaches for Time Dependent Nonlinear PDE Constrained Optimization</AwardTitle>
+    <AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2015</AwardExpirationDate>
+    <AwardAmount>149925</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project develops, analyses and implements projection based reduced order models (ROMs) for optimization problems associated with nonlinear evolution partial differential equations (PDEs). These ROMs determine a subspace that contains the essential (for the optimization) dynamics of the nonlinear evolution PDEs and project these PDEs onto the subspace. If the subspace is small, the original nonlinear PDEs in the optimization problem can be replaced by a small system of ordinary differential equations and the resulting approximate optimization problem can be solved efficiently. The efficient generation of ROMs together with error estimates that can monitor the quality of the ROMs is challenging. This project expands and integrates ideas from goal oriented adaptive mesh refinement, proper orthogonal decomposition (POD), and model management approaches in optimization to overcome these challenges. Specifically, model management ideas from optimization are used determine at which optimization parameters the nonlinear evolution PDE needs to be solved to generate snapshots for the ROM. Furthermore, for the numerical solution of the PDE and generation of snapshots a combination of goal-oriented dual weighted based adaptive space-time finite element approximations of the PDE and discrete Galerkin-POD will be used. In particular, local-in-time and local-in-space dual weighted residuals for the control of the error in time and the error in space will be obtained that also provide a prediction of appropriate time steps at which snapshots are taken. The goal is the derivation of an a posteriori error estimator for the ROM error that gives us information about the number of reduced basis functions that need to be included. This novel approach will result in an Adaptive Discrete Galerkin-POD (ADGPOD) algorithm for an efficient and reliable ROM-based numerical solution of PDE constrained optimization. In addition the resulting ROMs will be demonstrated on several applications, including flow control/design problems and the optimal control of Asymmetrical-Flow Field-Flow-Fractionation processes for the fast separation of nanoparticles, proteins, and other macromolecules.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The optimal design of processes and systems in engineering and life science applications often requires the optimal control/optimization of systems of nonlinear partial differential equations (PDE). The numerical solution of such problems typically amounts to the solution of large nonlinear algebraic systems requiring extensive storage and computational time. On the other hand, the design engineers are interested to run optimal designs on their PCs within a couple of minutes. This can be achieved only by a dramatic reduction of the dimension of the problem, i.e., by developing a reduced model for the underlying PDE system that captures the essential dynamics of the expensive high fidelity simulation. Although reduced order models have been shown to work well for a wide spectrum of applications, they not yet well understood from a theoretical point of view, especially for nonlinear problems. This project will provide a better theoretical foundation of reduced order models for nonlinear problems, it will develop novel algorithmic tools for the efficient generation of reliable reduced order models, and it will demonstrate the algorithms on important science and engineering applications.</AbstractNarration>
+    <MinAmdLetterDate>07/01/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/01/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115658</AwardID>
+    <Investigator>
+      <FirstName>Ronald</FirstName>
+      <LastName>Hoppe</LastName>
+      <EmailAddress>rohop@math.uh.edu</EmailAddress>
+      <StartDate>07/01/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Houston</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>772042015</ZipCode>
+      <PhoneNumber>7137435773</PhoneNumber>
+      <StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

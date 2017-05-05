@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CompBio: Reality-based Data-driven Computer Models for Surgical Simulation</AwardTitle>
+    <AwardEffectiveDate>10/01/2006</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>275000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mitra Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Current computational models for deformable tissue simulation in interactive surgical training applications make enormous sacrifices in physical accuracy to achieve real-time performance. This is particularly true of challenging real-time, haptic force-feedback rendering of tool-tissue interactions, where simulations must be ideally performed at near kilohertz rates. Furthermore, even if real-time demands are met, such as by faster processors in coming decades, we must still address our fundamental lack of accurate computational models for (a) force response of realistic, variable, nonlinear, soft tissues, and (b) many nontrivial physical processes associated with realistic tool-tissue interaction that are central to surgical intervention, such as, needle insertion, for example. Consequently, the scientific community can help surgical simulation practitioners improve patient safety by providing both accurate and real-time computer models of soft tissues interactions.&lt;br/&gt;&lt;br/&gt;INTELLECTUAL MERITS: At the very fundamental level, this project seeks to bridge the apparent gap between efficient computer simulation algorithms, and the realistic surgical tissues and interactions they seek to mimic. Specifically, we propose a multi-disciplinary research program on reality-based measurement and computer simulation that leverages our unique strengths to address three key areas:&lt;br/&gt;1. Reality-based modeling: Accurate, realistic mathematical models that describe nonlinear soft-tissue response and calibrated interaction models for performing needle insertion. We will develop a range of experimental apparatuses for measuring soft-tissue responses during needle insertion. All measurements will be accompanied by a rigorous empirical modeling process to arrive at accurate parametric tissue and interaction models.&lt;br/&gt;2. Data-driven, real-time, simulation algorithms: Given accurate mathematical models of needle-tissue interaction, very efficient simulation algorithms will be devised for real-time haptics and graphics display. Novel computer models based on data-driven, pre-computed, reduced-coordinate, deformation algorithms will be used to accelerate accurate nonlinear deformation, and needle-tissue contact interactions. To support adaptation, and allow runtime modification, we will combine hierarchical domain decomposition using fast reduced domain models, with direct and data-driven simulation models.&lt;br/&gt;3. Closing the loop: Quantitative evaluation of experimental and computer simulation models will help refine and validate our reality-based modeling processes throughout the project. In our final year, we will also develop a simulator-based training system for sample needle insertion tasks.&lt;br/&gt;&lt;br/&gt;BROADER IMPACTS: The proposed research will make fundamental advances in our ability to simulate and reason about soft-tissue interactions accurately, and will lead to several exciting scientific and clinical possibilities. Scientifically, we will be able to develop accurate and reality-based soft-tissue models based on actual experimental trials, which have wide application in medicine. Optimized numerical algorithms can then build on these accurate nonlinear material and contact interaction models for real-time graphical and haptic force-feedback display of soft tissues. Clinically, this will allow a more widespread use of surgical simulators for resident training (for both minimally invasive and direct procedures), whereby residents will be able to experience more realistic soft-tissue interaction response in surgical tasks. Advancement in this area will also open avenues for modeling any other organ or soft-tissue for which training is desired, after the core reality-based simulation issues are resolved.</AbstractNarration>
+    <MinAmdLetterDate>01/26/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/01/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0704138</AwardID>
+    <Investigator>
+      <FirstName>Jaydev</FirstName>
+      <LastName>Desai</LastName>
+      <EmailAddress>jaydev@gatech.edu</EmailAddress>
+      <StartDate>01/26/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1705</Code>
+      <Text>BIOLOGY &amp; INFORMATION TECHNOLO</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

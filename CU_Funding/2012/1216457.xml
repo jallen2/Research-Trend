@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF:Small: Fine-grain Dynamically Reconfigurable FPGA Architecture Aimed at Reducing the ASIC-FPGA Gaps</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Field-programmable gate arrays (FPGAs) and application-specific integrated circuits (ASICs) are two very important processing elements for computation. FPGAs are very attractive because of their lower design cost and shorter time-to-market compared to ASICs. Still, the marketshare of FPGAs remains less than a fifth of that of ASICs because ASICs enjoy an advantage over FPGAs in terms of circuit area, power consumption, and delay. The objective of the proposed work is to significantly reduce these area/power/delay gaps through a new dynamically reconfigurable FPGA design and thus enable FPGAs to become much more competitive with ASICs. Continued scaling of bulk CMOS technology faces significant hurdles. To alleviate these problems, Intel and TSMC have already announced a switch to multi-gate field-effect transistors, e.g., Trigate and FinFETs, at the upcoming semiconductor technology nodes. Another important trend is towards 3D integrated circuits (ICs), in which multiple die layers are stacked on top of each other. 3D ICs promise a revolution in so called ``More than Moore" computing. The proposed work aims to take advantage of the multi-gate and 3D IC technologies to further reduce the gaps mentioned above.&lt;br/&gt;&lt;br/&gt;The proposed FPGA architecture significantly deviates from the conventional island-style FPGA architecture by enabling the logic element to either perform computation or local communication or both. It is aided by the key concept of temporal logic folding that allows a circuit to be drastically folded, aided by on-chip reconfiguration memory, before being mapped to the FPGA. It attacks the main reason for the area/power/delay gaps -- the vast amount of chip resources allocated to reconfigurable interconnects in FPGAs. Logic folding makes the communication local, thus making it possible to reduce the amount of resources devoted to interconnects very significantly. The work entails design space exploration of the different components of the architecture, investigation of novel multi-gate computation/communication structures, and algorithms and design automation tools to map arbitrary circuits to the FPGA architecture. It is expected to yield a well-characterized and highly versatile family of 3D multi-gate transistor based FPGAs that are competitive with ASICs. Work on various design methodologies and tools developed in this research will be disseminated through conference and journal articles. Technology transfer will be done through companies interested in using such FPGAs as accelerators. The material will be included in a senior-level course on Design with Nanotechnologies and a graduate-level course on Low Power IC and System Design introduced by the PI. Female and minority students will be attracted to this research through Princeton's Presidential Fellowship Program.</AbstractNarration>
+    <MinAmdLetterDate>08/31/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/31/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1216457</AwardID>
+    <Investigator>
+      <FirstName>Niraj</FirstName>
+      <LastName>Jha</LastName>
+      <EmailAddress>jha@princeton.edu</EmailAddress>
+      <StartDate>08/31/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Princeton University</Name>
+      <CityName>Princeton</CityName>
+      <ZipCode>085442020</ZipCode>
+      <PhoneNumber>6092583090</PhoneNumber>
+      <StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

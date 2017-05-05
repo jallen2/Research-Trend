@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Large-Scale Fork-Join Networks with Synchronization Constraints</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Georgia-Ann Klutke</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Fork-join networks with synchronization constraints can be widely used to model patient flows in hospitals (e.g., emergency department treatment and patient discharge process) and data centers (e.g., parallelized Web search), among many other applications. In such networks, jobs are forked into parallel tasks to be served at service stations with parallel servers, and tasks are then joined for job completion or further processing provided that certain synchronization constraints are satisfied, for example, only completed tasks from the same job can be joined (non-exchangeable). However, very little is known about the performance, reliability and control of these networks, and existing methods in stochastic networks cannot be applied to study them. This award supports development of new methodology to better understand important performance measures (e.g., congestions and response times) of fork-join networks with non-exchangeable synchronization constraints, to design reliable fork-join networks with synchronization constraints operating in dynamic random environments, and to manage them in a cost-effective way. The research findings will have a broad impact on the society by improving the efficiency and quality of services in healthcare and data centers. The research will result in young STEM-trained graduates and underrepresented groups with new mathematical tools that help understand and improve the delivered services. &lt;br/&gt;&lt;br/&gt;The main mathematical challenge to study fork-join networks of multi-server service stations with non-exchangeable synchronization lies in the resequencing of arrival orders after service completion at each station due to randomness of service times. Unlike classical queueing networks, delay for synchronization is a key performance measure affecting system congestion, while resequencing is its determining factor. No analytical methods and results are known for such networks. This research will develop a new framework to solve the resequencing problem in fork-join networks, and thus, result in effective approximations for the synchronization dynamics as well as the service dynamics. The approach will use multi-parameter stochastic processes to study the service, queueing and synchronization dynamics, including sequential empirical processes driven by random vectors and their limits, and two-parameter processes tracking elapsed and residual service and wait times. Coordination and information sharing among parallel tasks of each job during their services will be exploited to develop optimal control policies for fork-join networks with synchronization constraints in order to minimize delay for synchronization as well as delay for service. Preventive strategies will be provided on the design and management of reliable fork-join networks with synchronization constraints operating in dynamic random environments.</AbstractNarration>
+    <MinAmdLetterDate>07/23/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/23/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1538149</AwardID>
+    <Investigator>
+      <FirstName>Guodong</FirstName>
+      <LastName>Pang</LastName>
+      <EmailAddress>gup3@psu.edu</EmailAddress>
+      <StartDate>07/23/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>006Y</Code>
+      <Text>Service, Manufacturing, and Op</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>072E</Code>
+      <Text>NETWORKS &amp; QUEUING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>077E</Code>
+      <Text>SIMULATION MODELS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

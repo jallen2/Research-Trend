@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Medium: Guanyin: a Thousand hands with a Thousand eyes for Distributed Software Checking</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>1028000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software reliability affects virtually everyone. Thorough software checking is unquestionably crucial to improve software reliability, but the checking coverage of most existing techniques is severely hampered by where they are applied: a software product is typically checked only at the site where it is developed, thus the number of different states checked is throttled by those sites' resources (e.g., machines, testers/users, software/hardware configurations).&lt;br/&gt;To address this fundamental problem, we will investigate mechanisms that will enable software vendors to continue checking for bugs after a product is deployed, thus checking a drastically more diverse set of states. Our research contributions will include the investigation, development, and deployment of: (1) a wide-area autonomic software checking infrastructure to support continuous checking of deployed software in a transparent, efficient, and scalable manner; (2) a simple yet general and powerful checking interface to facilitate creation of new checking techniques and combination of existing techniques into more powerful means to find subtle bugs that are often not found during conventional pre-deployment testing; (3) lightweight isolation, checkpoint, migration, and deterministic replay mechanisms that enable replication of application processes as checking launch points, isolation of replicas from users, migration of replicas across hosts, and replay of identified bugs without need for the original execution environment; and (4) distributed computing mechanisms for efficiently and scalably leveraging geographically dispersed idle resources to determine where and when replicas should be executed to improve the speed and coverage of software checking, thereby converting available hardware cycles into improved software reliability.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/31/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0905246</AwardID>
+    <Investigator>
+      <FirstName>Gail</FirstName>
+      <LastName>Kaiser</LastName>
+      <EmailAddress>kaiser@cs.columbia.edu</EmailAddress>
+      <StartDate>08/05/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jason</FirstName>
+      <LastName>Nieh</LastName>
+      <EmailAddress>nieh@cs.columbia.edu</EmailAddress>
+      <StartDate>08/05/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Junfeng</FirstName>
+      <LastName>Yang</LastName>
+      <EmailAddress>junfeng@cs.columbia.edu</EmailAddress>
+      <StartDate>08/05/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Collaborative Research: Learning Causal Structure from Complex Time Series Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>217497</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kenneth C. Whang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In many important domains, one must learn the causal structure of a dynamical system in order to design appropriate interventions, policies, and experiments. This project develops a well founded theory and practical algorithms for such learning when scientists cannot measure the system quickly enough and/or omit causally important variables. Moreover, the theory and algorithms will focus on the most challenging case, when scientists do not know how much information is missing because of lack of either speed or breadth. For example, fMRI measurements in cognitive neuroscience experiments occur roughly every two seconds, but communication between neural regions happens much more quickly (though exactly how much more quickly is unknown). In addition, neuroscientists are almost certainly unable to record all causally significant variables, such as other bodily states. Similarly, many climatological studies omit important variables (e.g., land use) and yield only monthly (or slower) measurements, even though the underlying phenomena presumably proceed on a faster timescale.&lt;br/&gt;&lt;br/&gt;This project will first focus on the challenge of learning from an undersampled time series (with unknown undersample rate), which will require (a) extending the formal framework of causal graphical models to represent such possibilities; (b) providing a set of theorems characterizing how causal structures change under undersampling; (c) developing algorithms that infer constraints on the "true" timescale causal structure from the causal structure learned from the undersampled data; (d) implementing these algorithms in a pre-existing, open-source causal learning environment; (e) testing these algorithms in silico through extensive simulations; and (f) applying them to real world datasets, including large-scale neuroimaging data. This last step is particularly important as it will enable real-world validation of the theory and algorithms developed earlier. In parallel, the project will address the same six challenges for situations in which data are correctly sampled, but causally significant variables are missing. Finally, these two pieces will be merged into an integrated framework and algorithms for situations in which both challenges arise simultaneously. The resulting set of theorems, algorithms, and applications will both extend the current theory of causal modeling and causal structure learning, and also address the practical needs of researchers engaged in causal learning from complex, real-world time series data.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318815</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Danks</LastName>
+      <EmailAddress>ddanks@cmu.edu</EmailAddress>
+      <StartDate>08/26/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

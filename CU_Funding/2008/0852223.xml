@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Surface modeling, approximation theory, and coding theory</AwardTitle>
+    <AwardEffectiveDate>06/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>65799</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Henry A. Warchall</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal is focused on problems in applied mathematics which may be attacked using algebraic methods. There are three themes: (1) Information transmission and coding theory, (2) Rational surface modeling and implicitization, and (3) Approximation theory and multidimensional splines. The main goal of the project is to bring the full power of abstract machinery to bear on these themes; frequently the key to solving an applied problem is to view it from a different perspective. For example, in past work, the PI has used spectral sequences and local cohomology to study splines; in coding theory the PI has used toric geometry and Cayley-Bacharach theory to obtain good bounds on certain codes obtained from algebraic geometry. The coding theory portion of the project will focus on finding optimal codes from toric varieties of dimension three or more; on the spline front the PI will investigate splines on polyhedral complexes, as well as the efficacy of the Groebner basis algorithm as a symbolic algebra front end for spline computations. Finally, an exciting new interaction between computer science (specifically, computer vision and animation) and algebra involves rational surface modeling: if a map is defined from the plane to three-space by three rational functions, what is the (unique) polynomial vanishing on the image? Here there is again a fruitful interplay with commutative algebra; the most efficient way to determine the polynomial involves syzygies (relations among the functions which define the map); the aim is to obtain fast algorithms to determine the polynomial vanishing on the image.&lt;br/&gt;&lt;br/&gt;One of the fundamental problems in information theory is that of signal transmission; applications range from CD systems to space communication. In a perfect world, the signal sent from point A and the signal which arrives at point B are identical. In the real world, the medium over which the signal is transmitted is not perfect (there is noise), and so errors are introduced into the signal. In signal processing jargon, the transmitted signal consists of code words, and the study of how to clean up the signal is called ``coding theory''. So the problem is simple: how does one catch the errors? The solution is to introduce some additional information into the transmission, so that the receiver at point B can strip off the errors and recover the original signal. It turns out that codes which are obtained from certain geometric objects can sometimes be optimal (that is, not too much redundant information needs to be added). One aim of this proposal is to discover more such codes. A second theme of the proposal involves computer vision and animation. Given a surface and a point in space, the goal is to decide if the point lies on the surface (this arises, for example, in plotting the image of a character in an animated movie). This is easy to do if the surface is given by an equation f(x,y,z)=0 and the point p=(a,b,c); simply check if f(a,b,c)=0. The goal is to find efficient algorithms to determine f(x,y,z), which is typically unknown. The final theme of the proposal is to study ``splines'', which are objects used by companies like Boeing to model surfaces. The PI will work to determine theoretical bounds on the number of splines on certain objects and will also analyze the complexity of a symbolic algebra algorithm (not currently used in the area) for computing splines. Accomplishing either of these goals could lead to an actual speed up in the software used to generate splines.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/18/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0852223</AwardID>
+    <Investigator>
+      <FirstName>Henry</FirstName>
+      <LastName>Schenck</LastName>
+      <EmailAddress>schenck@math.uiuc.edu</EmailAddress>
+      <StartDate>09/18/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

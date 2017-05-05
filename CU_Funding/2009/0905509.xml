@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Hardware/Software Partitioning for Hybrid Shared Memory Multiprocessors</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>800000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Hybrid multiprocessor architectures present an unprecedented opportunity for high performance computing through the seamless integration of large number of processors and hardware accelerators. This project addresses the research challenges in the design and exploitation of hybrid multiprocessors through innovations that span across the areas of architectures, compilers, and high-performance computing. A hybrid cache coherent non-uniform memory access (CC-NUMA) architecture is designed that clusters CPUs, hardware accelerators, and memories to preserve locality and reduce memory latency. Partitioning models are developed to enable optimal partitioning of data among CPUs and hardware accelerators. Compiler techniques are developed for detection of parallelism, its partitioning, and assignment across CPUs and hardware accelerators. The project enables coexistence of data streaming (push data) and data fetching (pull data) mechanisms. The research benefits from detailed measurements using a 64-processor SGI Altix 4700 CC-NUMA machine with FPGAs, the Intel FSB-FPGA architecture accelerator, and Niveus 4000 workstation with NVIDIA GPUs.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The research has impact on large-scale scientific computing. The hybrid multiprocessor technology is likely to be transferred to industry while the developed software (compilers, simulators and Hybrid SPLASH-2 benchmarks) will be distributed to researchers. The project also has impact on education and research. The SGI Altix machine is already being used in our graduate classes and further projects on hybrid parallel computing are introduced in architecture, parallel processing, and compiler classes. The project contributes to minority undergraduate education in Computer Science since UCR is recognized for its large undergraduate Hispanic population.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/17/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0905509</AwardID>
+    <Investigator>
+      <FirstName>Walid</FirstName>
+      <LastName>Najjar</LastName>
+      <EmailAddress>najjar@cs.ucr.edu</EmailAddress>
+      <StartDate>08/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Laxmi</FirstName>
+      <LastName>Bhuyan</LastName>
+      <EmailAddress>bhuyan@cs.ucr.edu</EmailAddress>
+      <StartDate>08/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Rajiv</FirstName>
+      <LastName>Gupta</LastName>
+      <EmailAddress>gupta@cs.ucr.edu</EmailAddress>
+      <StartDate>08/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

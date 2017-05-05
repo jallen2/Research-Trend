@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Optimizing Compiler and Runtime for Concurrency-Oriented Execution Model</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>410141</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: SHF:Small:Optimizing Compiler and Runtime for Concurrency-Oriented Execution Model&lt;br/&gt;&lt;br/&gt;The "dark silicon" effect, where an increasing fraction of cores will have to be kept powered off (or, "dark"), at every generation of transistor downsizing, has made it difficult to sustain further efficiency gains via the scaling of semiconductor technology. However, the demands of applications and their data on storage and processing capabilities are rapidly growing, thus increasing the gap between the efficiency of the system stack and the needs of modern applications. This research project aims to redesign the system stack based on a novel paradigm that combines throughput-processing architecture and a concurrency-centric compilation framework. The system stack used in this research project consists of architecture specialized for throughput, which trades single-thread instruction level parallelism (ILP) exploitation units for throughput units. The compiler is specialized for concurrency, which minimizes single thread latency by interleaved execution of a tremendous number of concurrent threads.&lt;br/&gt;&lt;br/&gt;This research project reveals the implications of concurrent execution on throughput processors and how these implications affect compile-time decisions and the corresponding runtime optimization. The intellectual merits are two-fold: 1) it reveals that the existing mainstream CPU compilation techniques are concurrency-oblivious, which leaves both many challenging problems unanswered and many opportunities for performance improvement to be explored, and 2) it tackles these problems by addressing both the resource allocation and instruction/thread scheduling aspects of compile-time decision making, which is where the fundamental difference between the concurrent execution model and the traditional CPU execution model arises. The broader impacts of this project are that the research results will drive innovation in business, education, and computing applications by reinventing the system stack to enhance efficiency and to help achieve the next supercomputing milestone, namely, exascale-computing.</AbstractNarration>
+    <MinAmdLetterDate>06/11/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/11/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1421505</AwardID>
+    <Investigator>
+      <FirstName>Zheng</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>eddy.zhengzhang@cs.rutgers.edu</EmailAddress>
+      <StartDate>06/11/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

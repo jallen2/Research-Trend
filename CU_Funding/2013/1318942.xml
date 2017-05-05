@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Gradient-augmented level set methods and jet schemes</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>176768</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project focuses on high-order generalizations of semi-Lagrangian approaches, called jet schemes (in the context of the transport of field quantities), and the gradient-augmented level set method (GALSM, in the context of interface tracking). These numerical methods achieve high-order of accuracy by tracking certain derivatives of the solution along characteristics. They are optimally local, in the sense that the data used to update the solution at a grid point is located only in a single grid cell, independent of the scheme's order. Moreover, the use of cell-based Hermite interpolations yields a certain level of subgrid resolution, which allows the GALSM to capture structures smaller than the grid resolution. The research in this project focuses on the numerical analysis and parallel performance of the new approaches, as well as their combination with adaptive mesh refinement and with Lagrangian particles. In addition, jet schemes are applied to kinetic equations, and the GALSM is applied to Hamilton-Jacobi equations. The latter results in the introduction of limiters, and provides a path to gradient-augmented re-initialization.&lt;br/&gt;&lt;br/&gt;The accurate detection, tracking, and computation of interfaces (curves and surfaces) is an important problem in many areas of science and technology, such as: gas-liquid interfaces in computational fluid dynamics, phase transitions in materials, weather fronts, the motion of biological membranes, edge detection in medical imaging, flame fronts, and shock fronts in supersonic flows. The methods developed in this project allow the computational tracking of interfaces, as well as the evolution of field quantities, with high accuracy. At the same time, they are computationally efficient and very modular. Moreover, they are advantageous for the capture of small structures. This project involves an international collaboration, as well as the training of graduate and undergraduate students.</AbstractNarration>
+    <MinAmdLetterDate>07/12/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/03/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318942</AwardID>
+    <Investigator>
+      <FirstName>Rodolfo</FirstName>
+      <LastName>Rosales</LastName>
+      <EmailAddress>rrr@math.mit.edu</EmailAddress>
+      <StartDate>07/12/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

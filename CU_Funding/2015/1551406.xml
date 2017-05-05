@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Large-Scale Bidirectional Search</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>139966</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hector Munoz-Avila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A large variety of real-world problems are combinatorial in nature: doubling the length of the best solution doesn't double the problem difficulty, it makes it exponentially harder. A classic approach to reducing this complexity is to look for solutions in a bidirectional manner - beginning both from the start and the goal and meeting in the middle. In theory this approach can result in an exponential reduction in the time required to find the best solution, because the two searches are each half the length of the full solution. But, in practice, bidirectional methods haven't been able to compete with the best heuristic approaches. Our work, suggests, however, that scaling the difficulty of problems solved will give the advantage back to bidirectional search approaches. The proposed exploratory research could lead to a new wave of applications of search algorithms to tasks ranging from weather prediction to robotics.&lt;br/&gt;&lt;br/&gt;This project studies how current computational resources can be used to scale the performance of bidirectional search. This includes the full use of parallel computation and external memory, such as solid state drives. Almost all current devices support parallel computation, so high performance algorithms must exploit parallel computation. Solid state drives have different performance characteristics than traditional hard disk drives with lower latency reads, but a limited number of writes before they wear out. Large-scale heuristics, stored in external memory, can also be used to improve the performance of search. But, in external-memory bidirectional search algorithms there is a tension in how internal memory is allocated: Using it to store large heuristics can prune states and improve the quality of the search, but performance is degraded if memory is not used for other tasks like duplicate detection. Taken together, there is significant room for new research on large-scale bidirectional search algorithms. To improve the applicability and performance of large-scale bidirectional search we will (1) design and implement efficient parallel and external memory search algorithms that (2) are designed to maximize the performance and lifetime of external memory resources and (3) efficiently use external-memory resources such as large-scale heuristics to maximize performance.</AbstractNarration>
+    <MinAmdLetterDate>08/12/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/12/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1551406</AwardID>
+    <Investigator>
+      <FirstName>Nathan</FirstName>
+      <LastName>Sturtevant</LastName>
+      <EmailAddress>sturtevant@cs.du.edu</EmailAddress>
+      <StartDate>08/12/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Denver</Name>
+      <CityName>Denver</CityName>
+      <ZipCode>802104711</ZipCode>
+      <PhoneNumber>3038712000</PhoneNumber>
+      <StreetAddress>2199 S. University Blvd.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

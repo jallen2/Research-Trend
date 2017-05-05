@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Data Model Verification for Web Applications</AwardTitle>
+    <AwardEffectiveDate>07/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>499888</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A typical web application is a complicated distributed system&lt;br/&gt;that consists of multiple components that run concurrently on multiple&lt;br/&gt;machines and interact with each other in complex ways via the Internet.&lt;br/&gt;As one would expect, developing such software systems is an error-prone&lt;br/&gt;task, and existing software development processes are not robust enough&lt;br/&gt;to produce dependable web applications. The tools developed as part of this&lt;br/&gt;project could have a broad impact by enable software developers to eliminate &lt;br/&gt;programming errors in web applications before they are deployed to end users.&lt;br/&gt;&lt;br/&gt;The fundamental building block of a web application is the data model that&lt;br/&gt;specifies the types of objects and the relations among the objects stored by&lt;br/&gt;the application, the constraints on the relations, and the actions that update &lt;br/&gt;the data by sending queries to the back-end datastore based on the user input. &lt;br/&gt;The project develops techniques that automatically extract a formal &lt;br/&gt;model from a given web application that characterizes how its data is stored&lt;br/&gt;and modified based on user actions, and infers properties about the formal data&lt;br/&gt;model. It is then possible to check the inferred properties by converting correctness &lt;br/&gt;queries about the data model to queries about satisfiability of logical formulas,&lt;br/&gt;and repair the data model to enforce the properties that are expected&lt;br/&gt;to hold.</AbstractNarration>
+    <MinAmdLetterDate>07/09/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/09/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423623</AwardID>
+    <Investigator>
+      <FirstName>Tevfik</FirstName>
+      <LastName>Bultan</LastName>
+      <EmailAddress>bultan@cs.ucsb.edu</EmailAddress>
+      <StartDate>07/09/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Barbara</Name>
+      <CityName>Santa Barbara</CityName>
+      <ZipCode>931062050</ZipCode>
+      <PhoneNumber>8058934188</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8206</Code>
+      <Text>Formal Methods and Verification</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

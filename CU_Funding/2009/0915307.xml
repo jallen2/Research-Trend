@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small:Compressive-Projection Principal Component Analysis</AwardTitle>
+    <AwardEffectiveDate>07/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2013</AwardExpirationDate>
+    <AwardAmount>423119</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>"This award is funded under the American Recovery and Reinvestment Act of 2009&lt;br/&gt;(Public Law 111-5)."&lt;br/&gt;&lt;br/&gt;Principal component analysis (PCA) has long played a central role in dimensionality reduction and compression. However, the fact that PCA is a data-dependent transform that is traditionally determined via a computationally expensive eigendecomposition often hinders its use in severely resource-constrained settings. Hyperspectral imagery is a prime example---although PCA offers excellent decorrelation and dimensionality reduction when applied spectrally to hyperspectral image volumes, the fact that many hyperspectral sensors are airborne or spaceborne devices limits wider use of PCA. In such applications, it would be greatly beneficial if PCA-based dimensionality reduction and compression could be accomplished without the heavy encoder-side cost entailed by traditional PCA. This research investigates a process that effectively shifts the computational burden of PCA from the resource-constrained encoder to a more capable base-station decoder.&lt;br/&gt;&lt;br/&gt;The studied approach, compressive-projection PCA (CPPCA), is driven by projections at the sensor onto lower-dimensional subspaces chosen at random, while the CPPCA decoder, given only these random projections, recovers not only the coefficients associated with the PCA transform, but also an approximation to the PCA transform basis itself. By using encoder-side random projections, CPPCA permits dimensionality reduction to be integrated directly with signal acquisition such that explicit computation of dimensionality reduction at the encoder is eliminated. &lt;br/&gt;Computation and memory burdens are instead shifted to the CPPCA decoder which consists of a novel eigenvector-reconstruction process based on a convex-set optimization driven by Ritz vectors within the projected subspaces. Research activities are aimed at further understanding CPPCA both analytically and practically, including the exploration of CPPCA in data arising in geospatial applications, and the development of adaptations to the basic CPPCA process so as to improve performance on anomalous data.</AbstractNarration>
+    <MinAmdLetterDate>06/01/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/01/2009</MaxAmdLetterDate>
+    <ARRAAmount>423119</ARRAAmount>
+    <AwardID>0915307</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Fowler</LastName>
+      <EmailAddress>fowler@ece.msstate.edu</EmailAddress>
+      <StartDate>06/01/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Mississippi State University</Name>
+      <CityName>MISSISSIPPI STATE</CityName>
+      <ZipCode>397629662</ZipCode>
+      <PhoneNumber>6623257404</PhoneNumber>
+      <StreetAddress>PO Box 6156</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Mississippi</StateName>
+      <StateCode>MS</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

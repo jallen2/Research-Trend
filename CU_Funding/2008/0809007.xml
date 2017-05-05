@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Scalable Parallel Algorithms for Partial Differential Equations</AwardTitle>
+    <AwardEffectiveDate>08/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2010</AwardExpirationDate>
+    <AwardAmount>25000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Scalable Parallel Algorithms for Partial Differential Equations&lt;br/&gt;Abstract&lt;br/&gt;Scalable algorithms for partial differential equations play a key role in Computational Science and Engineering. As the number of processors in today's supercomputers grows rapidly, scalability becomes one of the most important issues in algorithm design. Tremendous progress has been made in this research area in the past few years. The conference brings together experts in this field from all over the world to discuss the latest development of scalable algorithms, and to introduce junior researchers to this exciting research field. The conference also supports the participation of graduate students and provides them with a unique opportunity for exposing their research to a large audience and for learning from experts.&lt;br/&gt;The primary focus is on domain decomposition METHODS which COMPRISE by far the most common scalable paradigm for large-scale simulation on massively parallel distributed, hierarchical memory computers. In domain decomposition, a large problem is reduced to a collection of smaller problems, each of which is easier to solve computationally than the un-decomposed problem, and most or all of which can be solved independently and concurrently. Typically, it is necessary to iterate over the collection of smaller problems, and much of the theoretical interest in domain decomposition algorithms lies in ensuring that the number of iterations required is very small. Indeed, the best domain decomposition methods share with their cousins, multigrid methods, the property that the total computational work is linearly proportional to the size of the input data, or that the number of iterations required is at most logarithmic in the number of degrees of freedom of individual subdomains. Algorithms whose work requirements are linear in the size of the input data in this context are said to be optimal. Optimal domain decomposition algorithms are now known for many, but certainly not all, important classes of problems that arise in science and engineering. Much of the current research interest in domain decomposition algorithms lies in extending the classes of problems for which optimal algorithms are known. Domain decomposition algorithms can be tailored to the properties of the physical system as reflected in the mathematical operators, the number of processors available, and even to specific architectural parameters, such as cache size and the ratio of memory bandwidth to floating point processing rate.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0809007</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Overton</LastName>
+      <EmailAddress>overton@cs.nyu.edu</EmailAddress>
+      <StartDate>08/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Keyes</LastName>
+      <EmailAddress>david.keyes@columbia.edu</EmailAddress>
+      <StartDate>08/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Szyld</LastName>
+      <EmailAddress>szyld@temple.edu</EmailAddress>
+      <StartDate>08/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Xiao-Chuan</FirstName>
+      <LastName>Cai</LastName>
+      <EmailAddress>cai@cs.colorado.edu</EmailAddress>
+      <StartDate>08/04/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2865</Code>
+      <Text>NUMERIC, SYMBOLIC &amp; GEO COMPUT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

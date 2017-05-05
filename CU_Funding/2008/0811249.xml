@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPA-CSA: Algorithms and Implementations for Scalable Transactional Memory</AwardTitle>
+    <AwardEffectiveDate>07/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2012</AwardExpirationDate>
+    <AwardAmount>275000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ahmed Louri</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Within a few years, every laptop/desktop/server processor will be a&lt;br/&gt;multi-core machine. For an application to perform well, it must be&lt;br/&gt;efficiently parallelized to execute on all the cores on the machine.&lt;br/&gt;Chip manufacturers must therefore provide architectures that&lt;br/&gt;make it convenient for programmers to partition an application into&lt;br/&gt;multiple parallel threads. The Transactional Memory (TM) programming&lt;br/&gt;model is widely acknowledged to be the best known model for&lt;br/&gt;concurrency: it eliminates deadlocks, provides high performance in&lt;br/&gt;the common case, and greatly simplifies programming. It is receiving&lt;br/&gt;great attention in research conferences and is also being incorporated&lt;br/&gt;in commercial processors. One of the biggest overheads for such a&lt;br/&gt;system is the communication required between cores to implement&lt;br/&gt;transactional semantics. This overhead significantly impacts&lt;br/&gt;performance and power consumption of future processors. &lt;br/&gt;&lt;br/&gt;The project explores algorithms to not only reduce the required amount of&lt;br/&gt;communication, but also explores mechanisms to reduce the overheads&lt;br/&gt;of communication. The key insight behind the proposed work is that an&lt;br/&gt;optimal on-chip network and transactional memory implementation will&lt;br/&gt;emerge by closely studying the interaction between the two. The&lt;br/&gt;insight developed during this work will lead to better methodologies&lt;br/&gt;to compute an optimal on-chip network. The simulators and tools&lt;br/&gt;developed during the research efforts will also support projects in&lt;br/&gt;graduate and undergraduate courses at the University of Utah.</AbstractNarration>
+    <MinAmdLetterDate>06/16/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/16/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811249</AwardID>
+    <Investigator>
+      <FirstName>Rajeev</FirstName>
+      <LastName>Balasubramonian</LastName>
+      <EmailAddress>rajeev@cs.utah.edu</EmailAddress>
+      <StartDate>06/16/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

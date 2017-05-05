@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Advanced Numberical Techniques for the Simulation of Magnetohydrodynamics</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>30544</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The overall objective of this research is to develop numerical models and efficient energy-consistent methods for simulation of complex fluid systems and to obtain physically-accurate solutions for magnetohydrodynamic (MHD) systems, in particular. This work focuses on minimizing the computational cost of approximating solutions to these systems in order to develop practical simulations for this type of problem. The bottom line is to further develop discretization and solution algorithms that yield the most accuracy per computational cost. This is achieved by deriving discrete energy laws for MHD systems and proving that they are consistent with the continuous mathematical model. The investigators accomplish this by using the Energetic-Variational Approach (EVA) to further investigate the MHD model itself and determining which "flavor" of the MHD equations is the simplest model that captures the relevant physics. One of the main issues with using finite-element methods for solving complex fluid and electromagnetic problems has been the precise preservation of divergence-free solutions. Here, the investigators analyze discretization methods that satisfy these quantities accurately, while remaining amenable to efficient solution. Finally, the main bottleneck in the discretization methods used so far is the slow convergence of the linear solvers. By further developing multigrid methods for systems of partial differential equations, the investigators create a robust and efficient algorithm for these complex systems.&lt;br/&gt;&lt;br/&gt;The development of an efficient simulation framework for MHD systems has a major impact on the study of fusion energy, as this model is used to describe various phenomena that occur in fusion reactors, including tearing mode and sawtooth instabilities. With projects such as the International Thermonuclear Experimental Reactor (ITER) in France and the National Ignition Facility (NIF) at Lawrence Livermore National Lab attempting to obtain sustainable fusion energy, scientific computing in fields related to these projects is critical. In addition, the numerical tools being developed, such as energy-preserving finite-element discretizations and optimal multigrid solvers for systems of PDEs, are applicable to a wide variety of other problems in multi-physics and multi-scale systems. Finally, the project supports a graduate student, training and exposing them to the latest scientific findings and tools related to modeling, discretization, and solution of problems in the computational modeling of plasma physics and complex fluids.</AbstractNarration>
+    <MinAmdLetterDate>08/13/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/13/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1216938</AwardID>
+    <Investigator>
+      <FirstName>Chun</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>liu@math.psu.edu</EmailAddress>
+      <StartDate>08/13/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

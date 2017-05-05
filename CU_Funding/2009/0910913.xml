@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Large: A Formal Platform for Analyzing Internet Routing</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>799943</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Samuel M. Weber</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Trustworthy Reactive Routing Systems&lt;br/&gt;&lt;br/&gt; Warren A. Hunt, Jr. and Sandip Ray&lt;br/&gt; Department of Computer Sciences&lt;br/&gt; University of Texas at Austin&lt;br/&gt;&lt;br/&gt; {hunt,sandip}@cs.utexas.edu&lt;br/&gt;&lt;br/&gt;Reactive concurrent systems, such as routers, consist of a number of&lt;br/&gt;interacting processes that perform non-terminating computations&lt;br/&gt;while receiving and transmitting messages. The design of such&lt;br/&gt;routing systems is error-prone, and non-determinism inherent in&lt;br/&gt;concurrent communications makes it hard to detect or diagnose such&lt;br/&gt;errors. Our effort will develop ACL2-based tools for ensuring&lt;br/&gt;trustworthy execution of large-scale reactive routing systems.&lt;br/&gt;&lt;br/&gt;We aim to develop a scalable, mechanized infrastructure for&lt;br/&gt;certifying correct and secure execution of reactive routing system&lt;br/&gt;implementations through: a generic framework for modeling and&lt;br/&gt;specifying systems at a number of abstraction layers; a&lt;br/&gt;compositional methodology for mathematically analyzing such models;&lt;br/&gt;and developing a suite of tools and techniques to mechanize and&lt;br/&gt;automate such analysis within a unified logical foundation. Our&lt;br/&gt;research exploits ACL2's general-purpose reasoning engine while&lt;br/&gt;augmenting the tool suite with a streamlined modeling and&lt;br/&gt;specification methodology. We will develop a collection of targeted&lt;br/&gt;tools for verifying safety, liveness, and security properties of&lt;br/&gt;such systems while staying within a single logic and proof system.&lt;br/&gt;&lt;br/&gt;To facilitate verification of correspondence between protocol&lt;br/&gt;layers, we propose to enhance ACL2's reasoning engine with automated&lt;br/&gt;verification tools based on advances in BDD- and SAT-based&lt;br/&gt;techniques. The invention and proof of inductive invariants is one&lt;br/&gt;of the most time-consuming activities in reactive system&lt;br/&gt;verification, and we will integrate into ACL2 a general-purpose&lt;br/&gt;symbolic simulation capability; this technique can symbolically&lt;br/&gt;simulate system models over a large number of computation steps,&lt;br/&gt;thereby often obviating the construction of single-step inductive&lt;br/&gt;invariants. The expected results will help automate the mechanical&lt;br/&gt;verification of reactive systems such as routers and CPSs.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/27/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0910913</AwardID>
+    <Investigator>
+      <FirstName>Warren</FirstName>
+      <LastName>Hunt, Jr.</LastName>
+      <EmailAddress>hunt@cs.utexas.edu</EmailAddress>
+      <StartDate>02/27/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Warren</FirstName>
+      <LastName>Hunt, Jr.</LastName>
+      <EmailAddress>hunt@cs.utexas.edu</EmailAddress>
+      <StartDate>08/28/2009</StartDate>
+      <EndDate>02/27/2012</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yin</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>yzhang@cs.utexas.edu</EmailAddress>
+      <StartDate>08/28/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sandip</FirstName>
+      <LastName>Ray</LastName>
+      <EmailAddress>sandip@cs.utexas.edu</EmailAddress>
+      <StartDate>08/28/2009</StartDate>
+      <EndDate>02/27/2012</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

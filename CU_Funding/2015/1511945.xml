@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Development of New Approaches for Analysis of Markov Chain Monte Carlo Algorithms to Facilitate Principled Use of MCMC in Practice</AwardTitle>
+    <AwardEffectiveDate>07/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>199977</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Markov Chain Monte Carlo (MCMC) is a probability-based simulation technique that is used to approximate high-dimensional intractable integrals. MCMC has revolutionized scientific computing in the last two decades by enabling the use of intricate statistical models in a vast array of disciplines as diverse as genetics, agricultural science, computer science, physics, and economics. Any new methodology that leads to more effective ways to employ MCMC algorithms has countless potential applications in myriad scientific fields. It is vital for users of MCMC to have principled methods for constructing error bounds for the resulting estimates, and to have theoretical guarantees of convergence for the underlying Markov chains. Unfortunately, such methods and guarantees are currently lacking. This research project aims to address this problem by developing new methodology that will allow for more principled application of MCMC. Because the use of MCMC has become so widespread, there is great potential for the methods developed in this project to contribute to the improvement of society from many different corners of science.&lt;br/&gt;&lt;br/&gt;It is typically straightforward to construct an MCMC algorithm for sampling from a given intractable posterior probability distribution. However, a long-standing difficulty with MCMC is in determining how long an algorithm should be run to produce useful results. The principled approaches to making such a determination are all predicated on the asymptotic normality of the MCMC estimators. Unfortunately, establishing the existence of the requisite central limit theorems (CLTs) requires a detailed analysis of the underlying Markov chain. Worse yet, the methods that are currently available for analyzing Monte Carlo Markov chains are extremely difficult to apply in practice. In fact, for the vast majority of MCMC algorithms that are used in practice, it is unknown whether these CLTs exist. This project concerns the development of new techniques for analyzing complex Markov chains, like those that underlie MCMC algorithms, with an eye towards making it easier to establish the existence of CLTs. The are two main ideas that will be pursued: (1) The standard techniques for analyzing Monte Carlo Markov chains were developed using the total variation (TV) metric (between probability distributions), but it is now becoming clear that the Wasserstein metric is actually much more natural than TV for analyzing the types of Markov chains that arise in statistical applications of MCMC. This suggests that going "back to the drawing board'' with Wasserstein distance in place of TV distance may lead to new methods that are far more useful in practice than those based on TV. (2) Markov chains with countable state spaces are routinely analyzed with great success via spectral techniques, but this approach is not often used for the Markov chains that underlie statistical applications of MCMC (which usually have uncountable state spaces). This is (at least) partly due to a general perception in the MCMC community that very few of the Markov operators associated with practically relevant Monte Carlo Markov chains are compact. However, recent work suggests that many Gibbs samplers and data augmentation (DA) algorithms do, in fact, have compact Markov operators. Furthermore, application of the spectral techniques to these operators is often much simpler than the standard analysis. This calls for the development of new, general, spectral techniques for the analysis of Markov operators associated with Gibbs samplers and DA algorithms.</AbstractNarration>
+    <MinAmdLetterDate>06/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1511945</AwardID>
+    <Investigator>
+      <FirstName>Kshitij</FirstName>
+      <LastName>Khare</LastName>
+      <EmailAddress>kdkhare@stat.ufl.edu</EmailAddress>
+      <StartDate>06/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Hobert</LastName>
+      <EmailAddress>jhobert@stat.ufl.edu</EmailAddress>
+      <StartDate>06/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Florida</Name>
+      <CityName>GAINESVILLE</CityName>
+      <ZipCode>326112002</ZipCode>
+      <PhoneNumber>3523923516</PhoneNumber>
+      <StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

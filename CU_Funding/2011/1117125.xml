@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Recursive Robust Principal Components' Analyis (PCA)</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>396659</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>We develop novel and provably stable polynomial time solutions for solving the recursive robust principal component analysis (PCA) problem. Here, "robust" refers to robustness to both independent and correlated sparse outliers. The goal of PCA is to find the principal component (PC) space, which is the minimum-dimension subspace that spans (or, in practice, approximately spans) a given dataset. Computing the PCs in the presence of outliers is called robust PCA. If the PC space changes over time, there is a need to update the PCs. Doing this recursively is referred to as recursive robust PCA. Key potential applications include automatic foreground extraction from similar-looking backgrounds in video; sensor-network-based detection and tracking of abnormal events such as forest fires; online detection of brain activation patterns from functional MRI sequences; and speech/audio extraction from large but correlated background noise.&lt;br/&gt;&lt;br/&gt;The key idea is to reformulate this as a problem of recursively recovering a time sequence of sparse signals in the presence of large but correlated noise. The noise must be correlated enough to have an approximately low rank covariance matrix that is either constant or changes slowly. The change in the support of the sparse signal sequences may or may not be slow, but it is highly correlated; e.g. the support can move, expand or deform over time. We ask the following practically relevant questions about performance guarantees of the proposed algorithms. (a) Under what conditions can we prove exact recovery? (b) When can be obtain time-invariant and small error bounds (i.e., show stability)? &lt;br/&gt;&lt;br/&gt;The research will be included in the curriculum at various levels and in undergraduate senior design and summer research projects.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117125</AwardID>
+    <Investigator>
+      <FirstName>Fritz</FirstName>
+      <LastName>Keinert</LastName>
+      <EmailAddress>keinert@iastate.edu</EmailAddress>
+      <StartDate>08/24/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Namrata</FirstName>
+      <LastName>Vaswani</LastName>
+      <EmailAddress>namrata@iastate.edu</EmailAddress>
+      <StartDate>08/24/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7936</Code>
+      <Text>SIGNAL PROCESSING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

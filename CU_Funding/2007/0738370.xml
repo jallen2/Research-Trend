@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Assimilating Doppler Radar Data for Storm-Scale Numerical Prediction Using an Ensemble-based Variational Method</AwardTitle>
+    <AwardEffectiveDate>06/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2011</AwardExpirationDate>
+    <AwardAmount>199990</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06020105</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Atmospheric &amp; Geospace Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chungu Lu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Three dimensional variational (3DVAR) data assimilation (DA) is being used at most operational numerical weather prediction (NWP) centers but mainly in the context of large-scale hydrostatic flows. Such a technique cannot be directly extended to convective-scale, non-hydrostatic flows because no simple balance relations exist at such scales to interlink different state variables so as to arrive at analyses that are consistent with model dynamics and physics. Furthermore, the high spatial and temporal intermittency of convective-scale flows renders the static background error statistics typically used in large-scale 3DVAR systems invalid. At the convective scale, Doppler radar is the only operational instrument capable of providing observations of sufficiently high spatial and temporal resolution for dynamic prediction. Recently, the ensemble Kalman filter (EnKF) technique has shown great promise for convective-scale radar data assimilation. The method is, however, not as mature as variational techniques and still requires much research. The standard implementation of EnKF is also computationally expensive. &lt;br/&gt;&lt;br/&gt;In this research, the Principal Investigator will develop new efficient methods that seek to combine the strengths of 3DVAR and EnKF for application at the convective scale. Specifically, the Principal Investigator will: (i) Continue to develop 3DVAR data assimilation strategies suitable for the convective scale and examine appropriate equation constraints which couple the three wind components with the thermodynamic fields and simultaneously determine consistent microphysical variables; (ii) Apply the ensemble-derived background error statistics to 3DVAR to create an efficient dual-resolution EnKF-3DVAR hybrid framework which incorporates advanced features of both methods. The Principal Investigator will evaluate the performance of the resulting techniques using data from the operational WSR-88D radars as well as complementary data from the four-radar testbed of the NSF Engineering Research Center for Collaborative Adaptive Sensing of the Atmosphere. &lt;br/&gt;&lt;br/&gt;Intellectual Merit The project builds on the achievements of previous NSF-funded projects of the PIs and focuses on a new data assimilation strategy which combines the advantages of 3DVAR and EnKF and is particularly suitable for convective-scale flows and assimilation of radar data. The research results can be used to provide initial conditions for high-resolution storm-scale NWP models which now are being tested at coarser grid spacing at operational forecast centers. The research will potentially improve the understanding of storm-scale data assimilation and dynamics, and lead to better detection of thunderstorm hazards and improved quantitative precipitation forecasting.&lt;br/&gt;&lt;br/&gt;Broader Impact The research will help draw maximum benefit from the Nation's investment in the WSR-88D radars. It also will accelerate the use of the WSR-88D radar data in operational and research NWP. This research will produce educational benefits through the support and mentoring of graduate and undergraduate students.</AbstractNarration>
+    <MinAmdLetterDate>05/29/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/29/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0738370</AwardID>
+    <Investigator>
+      <FirstName>Kelvin</FirstName>
+      <LastName>Droegemeier</LastName>
+      <EmailAddress>kkd@ou.edu</EmailAddress>
+      <StartDate>05/29/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ming</FirstName>
+      <LastName>Xue</LastName>
+      <EmailAddress>mxue@ou.edu</EmailAddress>
+      <StartDate>05/29/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Keith</FirstName>
+      <LastName>Brewster</LastName>
+      <EmailAddress>kbrewster@ou.edu</EmailAddress>
+      <StartDate>05/29/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jidong</FirstName>
+      <LastName>Gao</LastName>
+      <EmailAddress>jdgao@ou.edu</EmailAddress>
+      <StartDate>05/29/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Oklahoma Norman Campus</Name>
+      <CityName>NORMAN</CityName>
+      <ZipCode>730199705</ZipCode>
+      <PhoneNumber>4053254757</PhoneNumber>
+      <StreetAddress>201 Stephenson Parkway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oklahoma</StateName>
+      <StateCode>OK</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1525</Code>
+      <Text>PHYSICAL &amp; DYNAMIC METEOROLOGY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

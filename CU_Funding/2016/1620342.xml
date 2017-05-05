@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Prediction, Optimization and Control for Information Propagation on Networks: A Differential Equation and Mass Transportation Based Approach</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>99770</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Have you ever been wondering how fast news spreads or a topic becomes trendy in online social networks? It is actually very challenging to answer such questions quantitatively and accurately. The difficulty, in mathematical language, is that the process takes place in extremely large heterogeneous networks, and the spreads exhibit pervasive randomness. For example, a Twitter user may retweet a post at literally any time, or just ignore it. Therefore, understanding and predicting the spread of trendy topics are among the most emerging problems in social networking. The study also has applications in smartphone/computer malware outbreak and epidemiology of infectious disease since the spreads share similar mathematical underpinning. Therefore, we use a general notion of information propagation on networks to describe the dynamic nature of those problems. The 'information' being propagated on networks can be a trendy topic, a new computer malware, or an infectious disease; the nodes can be users of social networking sites, computers on the internet, or human hosts; and links in the networks can be the followee and follower relationships, the network connections of computers, or the proximity or physical contact between people. In this project, we aim at developing new theory and efficient computational methods for several important problems about information propagation in networks. We advocate a new approach to model the propagation as continuous-time discrete-space stochastic processes, and propose to address these problems by novel theory and algorithms rooted in modern optimal transport theory and Fokker-Plank equations on graphs. In particular, we focus on three closely related problems which are fundamental in information propagation: influence prediction, propagation optimization, and propagation control. We will develop efficient numerical methods based on the novel approach to tackle these problems, and expect the results can greatly advance our ability to understand and control information propagation.&lt;br/&gt;&lt;br/&gt;The focus of this project is on theoretical analysis and computations of information propagation on large-scale heterogeneous networks. The research has extensive applications in the real-world including social networking, cyber security and epidemics of infectious diseases. We concentrate on the investigation of three key problems on prediction and decision-making related to information propagation on networks. 1) Influence prediction: for a given source set of active nodes in the network, predict the influence, i.e. expected number of activated nodes (nodes which receive the information) in the future. 2) Optimal source distribution: select an optimal source set of nodes to achieve maximal influence. 3) Network control: change and manipulate resource distribution and network topology dynamically to achieve the desirable outcomes for information propagation on networks. These problems are difficult to solve due to many factors, such as large scale and heterogeneous structure of networks, uncertainties in propagation, incomplete knowledge of propagation dynamics, and noise in datasets. To overcome these difficulties, we take a novel and effective approach which is different from any existing method. In particular, we establish systems of differential equations, based on recently developed Fokker-Planck equations on graphs, to describe and compute the time evolution of the probability density functions for the activation states of the network and estimate the influence. We design graph-based stochastic optimization methods, which are closely related to the recent advancements on optimal transport theory, to effectively find optimal source distribution and propagation control strategy. The proposed methods are efficient, accurate, and can tackle those problems on large-scale real-world networks.</AbstractNarration>
+    <MinAmdLetterDate>09/05/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/05/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1620342</AwardID>
+    <Investigator>
+      <FirstName>Xiaojing</FirstName>
+      <LastName>Ye</LastName>
+      <EmailAddress>xye@gsu.edu</EmailAddress>
+      <StartDate>09/05/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia State University Research Foundation, Inc.</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303023999</ZipCode>
+      <PhoneNumber>4044133500</PhoneNumber>
+      <StreetAddress>G76Dahlberg Hall 30 Courtland St</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

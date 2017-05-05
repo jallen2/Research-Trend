@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF:Medium:A Common Stream Processing Platform</AwardTitle>
+    <AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2015</AwardExpirationDate>
+    <AwardAmount>61572</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>More and more applications in entertainment, commerce, and government need to process continuous streams of data, and handle ever increasing data volumes at that. For instance, Netflix video streams account for almost 30% of internet traffic during peak hours in North America. High-frequency trading systems already execute over 50% of all trades in the United Sates. And New York City is networking 3,000 video cameras and an unspecified number of license plate readers and radiological detectors to prevent terrorist attacks. But building and running such streaming applications with existing software tools is hard; they only support some applications or do not meet performance requirements. This research is developing reusable software artifacts that make it possible to more easily build and run high-performance streaming applications in general. Thereby, it is directly addressing critical data processing needs of our society.&lt;br/&gt;&lt;br/&gt;More technically, this research is exploring how to componentize monolithic streaming systems by decoupling streaming languages, in which applications are written; streaming optimizations, which maximize performance and scalability; and streaming runtimes, which manage the low-level aspects of application execution. (1) The investigator is developing an intermediate language for stream processing that serves as the glue for composing language, optimization, and runtime components with each other. (2) The investigator is exploring how to refactor language front-ends and optimizations and then building a library of reusable front-end and optimization components. (3) The investigator is designing a common runtime API and then developing implementations for both multi-processors and clusters, thereby enabling the seamless scaling of streaming systems. If successful, the three research thrusts result in a stream processing platform that simplifies the development of state-of-the-art streaming applications while also facilitating future innovation in stream processing.</AbstractNarration>
+    <MinAmdLetterDate>05/16/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/09/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1162444</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Grimm</LastName>
+      <EmailAddress>rgrimm@cs.nyu.edu</EmailAddress>
+      <StartDate>05/16/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

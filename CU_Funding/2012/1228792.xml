@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Phase: Medium: Collaborative Proposal: Understanding and Exploiting Parallelism in Deep Packet Inspection on Concurrent Architectures</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>577998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ralph Wachter</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Deep packet inspection (DPI) is a crucial tool for protecting networks from emerging and sophisticated attacks. However, it is becoming increasingly difficult to implement DPI effectively due to the rising need for more complex analysis, combined with the relentless growth in the volume of network traffic that these systems must inspect. To address this challenge, future DPI technologies must exploit the power of emerging highly concurrent multi- and many-core platforms. Unfortunately, however, current DPI systems severely limit their use of parallelism by either resorting to coarse-grained load-balancing or restricting their analysis to very simple, hard-coded detectors.&lt;br/&gt;&lt;br/&gt;In order to fully exploit parallel hardware platforms, in this project we develop a comprehensive approach that introduces parallelism across all stages of the complex DPI pipeline. We investigate application-independent scheduling strategies that take existing DPI analyses and automatically parallelize their processing. We do so by mapping them into a domain-specific intermediary representation that abstracts from specifics of the underlying hardware architecture while providing low-level consistency guarantees. Conceptually, the project's goal is to virtualize and abstract parallelism as a fundamental primitive, just like how virtual memory abstracts away physical memory size limitations from programmers.</AbstractNarration>
+    <MinAmdLetterDate>08/13/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/13/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1228792</AwardID>
+    <Investigator>
+      <FirstName>Robin</FirstName>
+      <LastName>Sommer</LastName>
+      <EmailAddress>robin@icsi.berkeley.edu</EmailAddress>
+      <StartDate>08/13/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>International Computer Science Institute</Name>
+      <CityName>Berkeley</CityName>
+      <ZipCode>947044115</ZipCode>
+      <PhoneNumber>5106662900</PhoneNumber>
+      <StreetAddress>1947 CENTER ST STE 600</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

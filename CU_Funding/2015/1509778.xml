@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Contributing to the Mathematical Rigor of Approximate Dynamic Programming</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>312928</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eyad Abed</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Adaptive/approximate dynamic programming (ADP) is a methodology for control of dynamical systems that is motivated by the ways in which humans learn to control mechanisms or to operate machinery. ADP has shown great promise in practice. The methodology provides suitable sets of commands that maximize the performance of the system while minimizing energy consumption under different challenging circumstances, including the presence of nonlinearities, constraints, and/or modeling uncertainties. Aerospace vehicles, autonomous robots, power generators and grids, chemical processes, bioengineering systems, and economic processes are sample applications in which ADP has provided numerous benefits for society through its superior performance compared with alternative methods. However, the utilization of the scheme for sensitive systems requires ironclad guarantees of suitable performance, the lack of which is typically a shortcoming of ADP. This project is aimed at contributing to alleviating this weakness by providing performance guarantees for delicate and sensitive systems, where undesirable performance can have catastrophic consequences. Besides the research objectives, the PI will pursue educational objectives including promoting undergraduate research and involving underrepresented minorities in science and engineering.&lt;br/&gt;&lt;br/&gt;The project addresses optimal control problems with discrete-time dynamics, continuous state spaces, continuous or discrete action spaces, undiscounted finite horizon or infinite horizon cost functions, and possibly unknown dynamics. Analysis of convergence of the learning iterations, stability of the results, and continuity of the functions subject to approximation (which guarantees the possibility of their uniform approximation), comprise the initial stage the project. Analyzing the ramifications of the presence of approximation errors on the optimality and stability of the resulting controllers is another task of the project along with investigating the implications of ceasing learning after a finite number of iterations. Moreover, firm estimates of the domain of attraction for several variations of ADP will be sought in order to guarantee that the states of the system starting in the domain in which the solution is learned will never exit it; hence, ensuring the solution will remain valid and reliable. The main idea of the project is utilizing the uniform approximation capability of parametric function approximators to investigate their consequences on the learning iterations and the reliability of the result. Various learning schemes, including value iteration, policy iteration, multi-step look-ahead policy iteration, and optimistic policy iteration, will be investigated for both model-based and model-free settings.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1509778</AwardID>
+    <Investigator>
+      <FirstName>Ali</FirstName>
+      <LastName>Heydari</LastName>
+      <EmailAddress>aheydari@smu.edu</EmailAddress>
+      <StartDate>08/05/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>South Dakota School of Mines and Technology</Name>
+      <CityName>Rapid City</CityName>
+      <ZipCode>577013995</ZipCode>
+      <PhoneNumber>6053941218</PhoneNumber>
+      <StreetAddress>501 East Saint Joseph Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>South Dakota</StateName>
+      <StateCode>SD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>030E</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1653</Code>
+      <Text>Adaptive &amp; intelligent systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

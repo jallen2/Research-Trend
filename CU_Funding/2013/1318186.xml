@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Developing Energy-Conserving Deterministic Solvers for Kinetic Electromagnetic Plasma Simulations</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2016</AwardExpirationDate>
+    <AwardAmount>142650</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In this proposal, the investigator plans to develop and analyze a class of energy-conserving deterministic solvers for kinetic electromagnetic plasma simulations. The proposed methods have several features that overcome the difficulties of many traditional solvers: it conserves the total particle number and energy of the system; it has a systematic way to incorporate explicit or implicit time stepping depending on the stiffness of the equations; and it is designed for implementations on unstructured grids for complex geometries in the physical space. To achieve the objective, the research topics include a range of analytical and computational subjects. The investigator proposes to design a new energy-conserving splitting for the coupled Vlasov-Maxwell system, so that the splitted equations still maintain energy conservation and can be computed in reduced dimensions. The investigator plans to set up a general framework to incorporate various type of energy-conserving temporal and spatial discretizations. Methods to further improve computational efficiency by using various local basis, local time stepping and hybrid solvers will be explored. Issues on how to enforce charge continuity and positivity will be addressed. Analytical aspects such as the numerical dispersion relation, stability and error estimates will be considered.&lt;br/&gt;&lt;br/&gt;The proposed activity lies between algorithm development, analysis and applications. The resulting numerical schemes can be applied to a wide range of plasma simulations. The theoretical studies will provide foundation and guidance to the design of such numerical methods. The broader impacts of the proposed activity will be its interdisciplinary outreach and educational components. The proposed research is multidisciplinary in its nature. The investigator actively interacts and consults with faculty members in physics, electrical engineering departments. Training opportunities for students and postdocs will be provided. Computational math curriculum development will be incorporated.</AbstractNarration>
+    <MinAmdLetterDate>06/25/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/25/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318186</AwardID>
+    <Investigator>
+      <FirstName>Yingda</FirstName>
+      <LastName>Cheng</LastName>
+      <EmailAddress>ycheng@math.msu.edu</EmailAddress>
+      <StartDate>06/25/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

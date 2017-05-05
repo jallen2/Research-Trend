@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EPCN: Strong Diagnoses from Weak Signals: Leveraging Network Effects for Epidemic Detection</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>360000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Interconnection is at the core of the functionality of our modern infrastructure, spreading ideas, technology and information. Future critical infrastructure, from self-driving cars to everything cloud computing promises to enable, exploit and depend on this interconnection and spreading capability. But as recent history shows, from denial of service attacks to state-driven cyberwarfare they will also suffer from it if vulnerabilities allow. The potential for broad destructive impact of malware is clear, particularly as the importance of mobile devices is on the rise. As more of our critical infrastructure becomes linked to devices end-users (consumers) control, and not merely a computer backbone whose hardware and software are centrally managed and controlled, the importance of maintaining the cyber-health of our devices will become increasingly critical, and much more difficult. The central theme of this proposal is its motto, if it spreads, it cannot hide. The motivation is to build a theory and accompanying algorithms that do not depend on the specifics of the network or devices, or on the specifics of what is spreading. If our defenses depend on detecting specific characteristics, by definition they miss any threat that does not share those. Rather, the high level idea is that if something spreads through a network, the spread itself will leave a signature independent of the design of the malware, or of the devices it is infecting. Moreover, the proposal is built on the idea that this can be done, even if locally it leaves no trace -- that is, even if looking at a single device over time, its behavior is statistically indistinguishable from normal behavior. &lt;br/&gt;&lt;br/&gt;This work proposes to do this by developing a new paradigm for network inverse problems: use plentiful but extremely weak or noisy signals as network forensics tools, to uncover hidden structure, properties, and phenomena spreading on the network. This requires using and developing new tools from high dimensional statistics and concentration, Markov chain coupling, graph dynamics and graph theory, to obtain a statistical theory that delineates the landscape of when global phenomena are statistically detectable, from local signals indistinguishable from noise. An equal part of the proposed work is then to develop efficient, scalable algorithms to do the detection. Building on this, the proposal tackles two fundamental challenges: developing efficient parallelizable and distributed algorithms with information requirements that do not scale in the size of the network, and second, using a notion of aggregate network feedback extracted through noisy signals, to enable network learning.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1609279</AwardID>
+    <Investigator>
+      <FirstName>Constantine</FirstName>
+      <LastName>Caramanis</LastName>
+      <EmailAddress>constantine@utexas.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

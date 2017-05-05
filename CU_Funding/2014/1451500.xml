@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: New Optimization Methods for Machine Learning</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Weng-keen Wong</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal explores the optimization of complicated nonlinear equations that underlie machine learning problems by reducing them to simpler easy-to-solve update rules. The learning problems include classification, regression, unsupervised learning and more. Through a method known as majorization, complicated optimization problems are handled by iteratively solving simpler problems like least-squares and traditional linear algebra operations. The proposal focuses on how to parallelize this method so that it can efficiently leverage many CPUs/GPUs simultaneously and in a distributed manner. Furthermore, by making the method stochastic, faster convergence on large or streaming data-sets becomes possible. Other variations are explored such as sparse learning where the recovered solution is forced to be compact which also leads to further efficiency. &lt;br/&gt;&lt;br/&gt;Increasingly, the vast majority of machine learning problems in the literature are optimized by using generic first- and second-order methods. The approach in this proposal is designed specifically for machine learning optimization problems and uses majorization and bounding to guarantee monotonic convergence. In preliminary work, majorization has produced faster convergence in practice as well as novel theoretical guarantees. To make the method truly viable in practice, this proposal puts forward distributed, parallel, stochastic and sparse extensions. Since such extensions may violate monotonic convergence guarantees, the proposal explores additional algorithmic and theoretical efforts to preserve guarantees while also obtaining fast algorithms. In particular, parallelization and distributed computation is performed by wrapping current state-of-the-art least squares solvers with bound majorization steps. Stochastic computation is explored using singleton, small-batch and variable-sized batch methods. Sparsity is achieved by iterating current large-scale sparse solvers like FISTA and QUIC within the bound majorization technique. In terms of broader impact, one graduate student will be supported and will help produce downloadable tools for machine learning experts as well as practitioners. Modules will be developed to add to the PI's existing courses in machine learning. The PI will organize a one-day workshop on majorization methods. The proposal also provides a public project website with access to research publications, software/data downloads and schedules of upcoming events.</AbstractNarration>
+    <MinAmdLetterDate>08/22/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/22/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1451500</AwardID>
+    <Investigator>
+      <FirstName>Tony</FirstName>
+      <LastName>Jebara</LastName>
+      <EmailAddress>jebara@cs.columbia.edu</EmailAddress>
+      <StartDate>08/22/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

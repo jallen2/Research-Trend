@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: A New Three-Dimensional Parallel Immersed Boundary Method with Application to Hemodialysis</AwardTitle>
+    <AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>209314</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Fluid-structure interaction problems involving thin-walled structures are ubiquitous in biological and engineering applications. However, to date an efficient and effective technique, and a computational capability, for modeling and simulating the interactions between fluids and thin-walled structures are still sorely lacking. The investigators aim to design a new three-dimensional parallel immersed boundary method for computational simulation of fluid-thin-walled-structure interactions in a generic setting and apply it to blood flow past patient-specific distal anastomosis of arteriovenous grafts (AVG), which are essential to blood access of hemodialysis for numerous patients with end-stage renal disease. The new method, which will significantly broaden the applicability of immersed boundary methods, will be particularly valuable to the mathematical biology community for computational studies of vascular diseases such as vascular intimal hyperplasia, aneurysm, and atherosclerosis. Compared to existing models, the proposed computational model is more physiologically realistic: the simulation accommodates deformation of the vein/graft with the pulsatile blood flow, and it incorporates the small yet finite thickness of the vein/graft walls into the model. New computational results will clarify existing contradictory results in the literature regarding the force/flow characteristics near the distal AVG anastomosis and thus lead to a greater understanding of AVG-associated vascular intimal hyperplasia. The new method under development in this project will be generic and applicable to numerous significant problems in engineering, including parachute opening and novel design for street/highway signs. The studies will also enhance the understanding of vascular intimal hyperplasia due to dialysis, which may inspire the creation and development of novel vascular devices to prolong the patency rate of AVGs. This will not only improve quality of life for patients, but also offer savings in dialysis-related healthcare costs. The associated research and education activities will provide multidisciplinary training and research opportunities in mathematics, biology, scientific computing, fluid/solid mechanics, blood flows, and vascular disease for graduate students and undergraduates. The open source implementation of the new method will enable the fluid-structure-interaction community to dramatically increase their research productivity. &lt;br/&gt;&lt;br/&gt;The investigators will develop numerical methods to improve computational capability for fluid-thin-walled-structure interaction in three dimensions. They approach this type of problem by integrating several components: a structural component based on the high-order spectral/hp element technique, a fluid component based on the lattice Boltzmann method, and the coupling of the fluid and structure through the framework of the immersed boundary method. The goal of this project is three-fold: 1) Develop a three-dimensional IB-based method for fluid and thin-walled structure interactions in a general setting. The method will account for Newtonian and non-Newtonian fluids, material nonlinearity, and geometric nonlinearity. 2)Design, develop, and implement novel parallel algorithms for the new 3D method on hybrid CPU-GPU linux clusters. 3) Apply the new parallel method to model and simulate blood flow past the distal anastomosis of arteriovenous graft for hemodialysis using patient-specific data. The investigators' outreach activities will inspire high school students to consider careers in mathematical and computational sciences and raise public awareness for the dire consequences of end-stage renal disease, its associated healthcare costs, and the important roles mathematics and scientific computing play in studying disease and promoting health.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1522554</AwardID>
+    <Investigator>
+      <FirstName>Luoding</FirstName>
+      <LastName>Zhu</LastName>
+      <EmailAddress>luozhu@iupui.edu</EmailAddress>
+      <StartDate>09/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Fengguang</FirstName>
+      <LastName>Song</LastName>
+      <EmailAddress>fgsong@iupui.edu</EmailAddress>
+      <StartDate>09/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

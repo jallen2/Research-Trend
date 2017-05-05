@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Flow-Sensitive Program Analysis for Speculative Parallelization</AwardTitle>
+    <AwardEffectiveDate>05/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2011</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The rise of chip multiprocessors (CMP) featuring tens to hundreds of processing units on a single chip promises to significantly boost the performance of desktop systems, rivaling the performance of yesterday's supercomputers. Supercomputing applications typically exploit a high degree of parallelism present in the application's computational tasks, which allows multiple processing units to work on solving the problem simultaneously to obtain a solution fast. &lt;br/&gt;However, common software applications are not written for specialized supercomputer architectures and lack sufficient explicit exposure of parallelism to gain speedups from CMPs automatically. Therefore, a successful exploitation of CMPs requires a rethinking of design, coding, and debugging by application developers. Programming languages and program annotations that natively support parallel concepts will be increasingly more successful, as well as programming languages in which sequential code can be more easily converted into parallel code.&lt;br/&gt;&lt;br/&gt;This research investigates the combination and enhancements of several successful approaches to expose more parallelism in program code automatically. Firstly, the investigators will merge flow- sensitive loop-variant variable detection and optimization with the chains of recurrences (CR) algebra together with the NLVI (nonlinear variable interval) test that is based on interval theory. This aims to reduce the number of false positives prohibiting parallelization of loops with array dependences. Secondly, techniques for speculative parallelization of loops will be enhanced with a new run-time dependence analysis algorithm based on the CR algebra, NLVI test, and the theory of axiomatic semantics. Thirdly, a set of program annotations will be introduced to support speculative parallelization. This benefits source-to-source compilers and programmers who can leverage these annotations to extract more parallelism from loops by exercising application-specific knowledge.</AbstractNarration>
+    <MinAmdLetterDate>05/08/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/08/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702435</AwardID>
+    <Investigator>
+      <FirstName>Kyle</FirstName>
+      <LastName>Gallivan</LastName>
+      <EmailAddress>kgallivan@fsu.edu</EmailAddress>
+      <StartDate>05/08/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>van Engelen</LastName>
+      <EmailAddress>engelen@cs.fsu.edu</EmailAddress>
+      <StartDate>05/08/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Florida State University</Name>
+      <CityName>TALLAHASSEE</CityName>
+      <ZipCode>323064166</ZipCode>
+      <PhoneNumber>8506445260</PhoneNumber>
+      <StreetAddress>874 Traditions Way, 3rd Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

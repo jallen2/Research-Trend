@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Extending Dislocation Dynamics with FFT to Address Dislocation Patterning and Slip Band Formation</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03070000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Materials Research</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daryl W. Hess</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Technical Summary&lt;br/&gt;&lt;br/&gt;The goal of this project is to replace the use of empirical constitutive descriptions of plastic deformation in three-dimensional simulations of polycrystal plasticity with direct dislocation-based modeling. We will base the work on a previously-developed fast-Fourier transform (FFT) formulation of polycrystal plasticity introduced by Lebensohn and colleagues. The key feature to the FFT approach is that any eigenstrain can be included with no real change in the calculational procedure. From a dislocation perspective, the eigenstrains are just the plastic distortion tensor, which reflects the slip caused by the dislocation. Thus, replacing a constitutive model for plasticity with a more direct calculation of dislocation microstructure evolution is straightforward, given a way to model the dislocations. We will base the initial work on polycrystalline plasticity on the use of a continuum-level model based on dislocation density evolution, which will be based in part on results from discrete dislocation simulations. Our goal is thus to bridge the gap between the behavior of discrete dislocations and macroscopic-level descriptions of the behavior of polycrystalline materials, enabling a better understanding of, and new predictive capabilities for, such fundamental materials properties as plastic deformation, creep, fatigue, etc.&lt;br/&gt;&lt;br/&gt;Successful completion of this project will lead to a new methodology that couples coarse-grained and discrete dislocation modeling within a polycrystal plasticity framework. The method will allow for simulation of the heterogeneity of plastic deformation at the grain scale that includes the effects of dislocation flow. We thus expect to improve on the ability of polycrystal plasticity calculations to model local, intragrain orientation changes and strain, which currently are not well captured. More specifically, this new capability will be an advance for discrete dislocation simulations by including the ability to include anisotropic elasticity and local lattice rotations. The new capabilities for polycrystal plasticity will enable the modeling of the coupling of dislocation motion with grain structure and orientation and the accumulation of localized dislocation content. Application of the method will be made to a series of specific problems, comparing results with both experiments and existing modeling capabilities. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Non-technical summary:&lt;br/&gt;&lt;br/&gt;In most technological applications based on metallic systems, the metals are not single crystals, but rather are made up of randomly-oriented crystallites, called grains. These polycrystalline materials serve as the basis for much of our current technology and will undoubtedly serve a similar role in the future. Their mechanical properties depend not only on the properties of the single-crystal grains that make up the polycrystal, but also on the distribution of size and orientation of those grains. New experimental methods are providing a detailed look at the three-dimensional distribution of local crystallographic orientations, with an emerging ability to do so non-destructively and as a function of time, yielding unprecedented views of the evolving structure of polycrystals under various loading conditions.&lt;br/&gt;&lt;br/&gt;Computational modeling of the mechanical behavior of polycrystals has become a standard part the study of deformation, used, for example, in the design of the crash-worthiness of automobiles. Currently, most models treat the deformation individual grains within the polycrystal as being uniform, which we know from experiment is not accurate. The goal of this project is to incorporate within the modeling a better description of the deformation of the material within each grain. Success of this project will enable us to more accurately model numerous important problems in deformation, including fatigue, an important phenomenon that can lead to the failure (breaking) of the material over time.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1308430</AwardID>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>LeSar</LastName>
+      <EmailAddress>lesar@iastate.edu</EmailAddress>
+      <StartDate>08/26/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anthony</FirstName>
+      <LastName>Rollett</LastName>
+      <EmailAddress>rollett@andrew.cmu.edu</EmailAddress>
+      <StartDate>08/26/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1771</Code>
+      <Text>METAL &amp; METALLIC NANOSTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8029</Code>
+      <Text>Comp&amp;Data Driven Mat Res(CDMR)</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9177</Code>
+      <Text>ELEMENTARY/SECONDARY EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

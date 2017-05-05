@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CDS&amp;E: Fast, Accurate Molecular Solvation Theory for Multiscale Modeling</AwardTitle>
+    <AwardEffectiveDate>07/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>374867</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03090000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Chemistry</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Evelyn M. Goldfield</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Tyler Luchko of California State University, Northridge, is supported by an award from the Chemical Theory, Models and Computational methods program in the Chemistry division to develop methods for large-scale molecular simulations. The Computational and Data-Enabled Science and Engineering (CDS&amp;E) Program in the Division of Advanced Cyber Infrastructure contributes to the award. Computational modeling is frequently used to understand interactions between proteins, DNA, and a wide variety of small molecules at the molecular level. The use of computational methods has lead to advances in our understanding of fundamental biology and to the design of new molecules, such as anti-viral medications. However, realistic computer simulations require accurate models of the water environment that supports these interactions. Models that consider the position of every molecule of water are physically accurate but the computation time required quickly becomes prohibitive as the number of molecules grows. Other methods replace the molecular detail of water and are much faster, but at the cost of accuracy. The 3D reference interaction site model (3D-RISM) is a third approach that avoids following the atomic positions of water by calculating the density distribution of water molecules. 3D-RISM has already been successfully used to study biological problems, such as the salt and water distribution around DNA and the binding of small molecules to proteins. This project aims to improve 3D-RISM by further developing the theory to better capture the pressure and density distribution of molecular water and apply advanced numerical methods to make these calculations faster. Luchko and co-workers target problems that cover multiple length scales, such as the self-assembly of structures within the cell. Advances in 3D-RISM theory are distributed with the AmberTools molecular modeling suite, allowing free access to these methods for the broader research community. Undergraduates and Master's level students are involved in this research. &lt;br/&gt;&lt;br/&gt;The focus of this project is to develop three independent but complementary approaches to increase the detail and accuracy of large-scale simulations to enable molecular simulations that are not currently possible. Improving the underlying theory of 3D-RISM provides the accuracy of atomistic solvent models without explicitly simulating them. This allows crystal structure refinement and solvent distributions around DNA to be determined using atomistic solvent models at a fraction of the computational cost presently required. Increasing computational efficiency one to two orders of magnitude brings the existing atomistic detail of 3D-RISM to biomolecules consisting of millions of atoms for the first time. The new end-state free energy method capitalizes on recent developments for and unique features of 3D-RISM, bringing faster, easier and more accurate free energy calculations to systems of multiple scales. Combined, these advances improve the accuracy of all solvent properties, decrease calculation time by one to two orders of magnitude and improve binding free energy predictions for large systems. These improvements are significant because they drastically increase the scope and scale of biophysical problems that atomistic molecular modeling can address.</AbstractNarration>
+    <MinAmdLetterDate>07/14/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/14/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1566638</AwardID>
+    <Investigator>
+      <FirstName>Tyler</FirstName>
+      <LastName>Luchko</LastName>
+      <EmailAddress>tluchko@csun.edu</EmailAddress>
+      <StartDate>07/14/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>The University Corporation, Northridge</Name>
+      <CityName>Northridge</CityName>
+      <ZipCode>913308309</ZipCode>
+      <PhoneNumber>8186772901</PhoneNumber>
+      <StreetAddress>18111 Nordhoff Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>6881</Code>
+      <Text>Theory, Models, Comput. Method</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

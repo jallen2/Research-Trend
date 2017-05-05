@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Discovering Hidden Semantics from Spatio-temporal Sensed Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The increasing ubiquity of Global Positioning System devices and the widespread deployment of monitoring and tracking mechanisms, including video cameras, cellular phones, activity trackers and roadside sensors are creating very large spatio-temporal datasets that are extremely rich in semantics. Such data embed a great deal of high-level information on the behavior of moving objects as well their interactions with objects in the environment and with each other. Standard queries such as range queries and joins may be adequate for extracting the semantics of spatial data, but do scant justice to the inherent richness of spatio-temporal semantics. This project will develop approaches aimed specifically at extracting semantic and behavioral information from trajectory datasets. For instance, a moving object conducting surveillance on a region will remain in the vicinity of the region for the duration of surveillance. Detecting this behavior is difficult with standard approaches: a range query would require the user to specify the spatial and temporal ranges of surveillance, when the intent is, in fact, to determine both. The proposed work has many national security applications, including law enforcement, surveillance and security monitoring as well as social and commercial applications, such as in social networks, link analysis and epidemiology. The solutions developed will increase the utility of spatio-temporal data, specifically for tasks that require investigative exploration.&lt;br/&gt;&lt;br/&gt;This project addresses a novel class of problems in the spatio-temporal domain, which raise a novel set of technical challenges: First, it studies queries that elicit the semantics of interactions between moving objects and their environment. Second, it studies queries eliciting the semantics of interactions, such as potential meetings between moving objects themselves. Third, it explores such queries in the real-world contexts, where the available data is incomplete and imprecise. Examples of the first class of query include "dwell regions" queries, which explore spatio-temporal proximity between moving objects and objects in the environment, with applications to detection of surveillance of regions by moving objects. The project will also address "conclave" queries that illustrate the second and third challenges above. Such queries return possible meeting points between moving objects when their trajectories are not known fully or precisely. The proposed work also explores complex spatio-temporal "reachability" queries, which elicit possible interactions between objects via intermediaries. Finally, given the sheer magnitude of spatio-temporal datasets, this project aims to provide solutions that scale. A basic question is then how to efficiently index trajectory data. While there have been various past works in this domain, this project proposes a fourth challenge: can Hilbert Curves been used to index trajectories? Space filling curves (SFCs) have been shown to be advantageous in indexing spatial objects since they can reduce the space dimensionality. In past research, SFCs have been mainly used to index multidimensional points or order arbitrary objects; they have not though been directly used for indexing trajectories due to various challenges that this project aims to overcome. The project web site (http://www.cs.ucr.edu/~tsotras/semtraj/index.html) will provide access to the project results, including source code of the developed algorithms and relevant data.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527984</AwardID>
+    <Investigator>
+      <FirstName>Chinya</FirstName>
+      <LastName>Ravishankar</LastName>
+      <EmailAddress>ravi@cs.ucr.edu</EmailAddress>
+      <StartDate>08/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vassilis</FirstName>
+      <LastName>Tsotras</LastName>
+      <EmailAddress>tsotras@cs.ucr.edu</EmailAddress>
+      <StartDate>08/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

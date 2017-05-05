@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: F: DeepWalking Graphs for Feature Extraction</AwardTitle>
+    <AwardEffectiveDate>01/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2018</AwardExpirationDate>
+    <AwardAmount>731260</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>James French</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The sparsity of large networks makes it difficult to efficiently extract features for machine learning algorithms. Recent work on network embeddings (DeepWalk) has revealed how neural language modeling can be applied to a very general class of graph analysis problems in data mining and information retrieval. This project will improve training algorithms and data representation for large-scale networks, creating better, more powerful graph embeddings for weighted and attributed networks. It will also enable meaningful comparison of the relative performance of network connectivity features vs. more text-oriented features. It is possible that there might be more usable information in links than in the readable content itself.&lt;br/&gt;&lt;br/&gt;This project will develop these methods in several new directions, including extensions to new graph classes and speed/scale enhancements. The original DeepWalk induced latent representations only from unweighted, undirected, and connected graphs. But there is considerable interest in applying it to more general graphs arising in data analysis. Doing the right thing on such natural networks as bipartite and disconnected graphs presents surprisingly subtle issues of theoretical and practical significance. This project will also explore several ideas to increase training performance of network embeddings, including more efficient gradient updates and improved graph sampling methods and particularly the power of self-avoiding random walks to oversample otherwise rare nodes. This project seeks to extend the effective range of DeepWalk by several orders of magnitude, from the 10 million vertex graphs we routinely handle today to web-scale networks on billions of nodes. The broader impacts of this work are far reaching across data mining and information retrieval, including user profiling/demographic inference, online advertising, and fraud detection. The software and data resources developed under this research project will be released as open source. They will be directly applicable to the biomedical and social sciences, and serve as both an educational and scholarly resource. For further information, see the project website at http://www.cs.stonybrook.edu/~skiena/deepwalking.</AbstractNarration>
+    <MinAmdLetterDate>09/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/14/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1546113</AwardID>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Skiena</LastName>
+      <EmailAddress>skiena@cs.sunysb.edu</EmailAddress>
+      <StartDate>09/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

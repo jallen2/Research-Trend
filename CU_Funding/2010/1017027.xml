@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: SMALL: Practical Linear Types for Safe Protocols</AwardTitle>
+    <AwardEffectiveDate>09/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software errors frequently arise because a component of the program does&lt;br/&gt;not correctly follow a well-defined protocol for accessing some stateful&lt;br/&gt;resource. Common examples include programs that misuse resource handles&lt;br/&gt;provided by the operating system, incorrectly deallocate the same memory&lt;br/&gt;or other resource multiple times, or fail to properly sequence calls to&lt;br/&gt;a complex program module. Such protocol violations lead to software&lt;br/&gt;crashes or unintended behavior, potentially with disastrous&lt;br/&gt;consequences.&lt;br/&gt;&lt;br/&gt;The project objective is to develop programming language technology to&lt;br/&gt;allows software developers to conveniently describe protocols over&lt;br/&gt;stateful resources. This technology will uncover such bugs at design&lt;br/&gt;time by statically checking whether the program is appropriately&lt;br/&gt;following the desired protocols, thereby ruling out the wide class of&lt;br/&gt;software flaws. The new language mechanisms will be general purpose,&lt;br/&gt;practical, and suitable for use in a wide variety of applications&lt;br/&gt;ranging from memory management to traditional protocol implementation.&lt;br/&gt;The researchers will create a compiler infrastructure prototype and&lt;br/&gt;establish the correctness of the approach by a machine-checked proof of&lt;br/&gt;type soundness. The primary broader impact of the project is the&lt;br/&gt;development of technology to help eliminate such programming errors&lt;br/&gt;early in the software-design life cycle to decrease the cost of building&lt;br/&gt;correct, reliable software.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/16/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017027</AwardID>
+    <Investigator>
+      <FirstName>Stephan</FirstName>
+      <LastName>Zdancewic</LastName>
+      <EmailAddress>stevez@cis.upenn.edu</EmailAddress>
+      <StartDate>09/16/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

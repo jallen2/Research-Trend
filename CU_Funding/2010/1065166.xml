@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CCF: Medium: Validating Program Transformations in a Mechanized LLVM</AwardTitle>
+    <AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2016</AwardExpirationDate>
+    <AwardAmount>806961</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Because the safety, reliability, and performance of our computing infrastructure rests on the quality of its software, improving software quality is of prime importance for continuing the technological and social advances made possible by computers. Compilers, the primary tools used in constructing software, are therefore crucial--their correctness is essential if developers are to create new, usable software that is free from flaws that lead to crashes and susceptibility to malware. This goal of this project is to provide a methodology for verifying the correctness of compiler transformations for modern computing platforms, emphasizing software designed to work on multicore architectures.&lt;br/&gt;&lt;br/&gt;This research investigates techniques for building program transformation validators for the LLVM (Low-Level Virtual Machine) infrastructure, an open-source intermediate language used in industrial compilers. The researchers will define denotational semantics for symbolic evaluation of LLVM programs, and prove (in the interactive theorem prover Coq) that the interpretations of symbolic evaluation results are consistent with operational semantics. To account for multi-core, shared-memory computer architectures, the project will define a concurrent memory model, parameterized by target architecture configurations, which promises sequential consistency for data race free programs. This model's semantics will be expressive enough to represent program behaviors, and suitable for mechanized proofs. If successful, this research will decrease the cost of developing and testing compilers, and improve our understanding of the programming language implementations, particularly on multi-core processors, thereby leading to a more reliable, secure, and cost-effective computing ecosystem.</AbstractNarration>
+    <MinAmdLetterDate>03/25/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/25/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1065166</AwardID>
+    <Investigator>
+      <FirstName>Stephan</FirstName>
+      <LastName>Zdancewic</LastName>
+      <EmailAddress>stevez@cis.upenn.edu</EmailAddress>
+      <StartDate>03/25/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

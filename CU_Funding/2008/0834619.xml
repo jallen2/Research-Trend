@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-PSCE, SM: Memory Management Innovations for Next-Generation SMP</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>308000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Krishna Kant</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The underlying paradigm shift to parallel programming brought on by the introduction of multicore computing and the resulting challenges posed by this shift are just beginning to be experienced by consumers and programmers alike. A foremost challenge is scalability, especially in increasingly widespread automated memory management techniques such as garbage collection. As architectures move to 80 cores and beyond, new algorithms are needed that require almost zero synchronization and shared state. So-called "lock-free" algorithms leverage atomic low-level hardware instructions which are either quite expensive or exhibit sub-linear scalability due to cache coherency and memory-model constraints.&lt;br/&gt;&lt;br/&gt;To pave the way for exploiting the potential of future scalable symmetric multiprocessing (SMP) this project proposes three contributions that simplify the inherent complexity within parallel systems for programmers and at the same time offering protection from deadlocks, livelocks, data races, as well as from security threats such as zero-day exploits. These contributions include (1) Ribbons - a new, more flexible, shared-memory programming model, where sharing constraints can be specified in a pair-wise fashion between restricted threads. Ribbons protect against inadvertent or malicious access to data and mitigate unbounded heap corruption in unsafe runtime environments, and subsume the familiar thread model. (2) Automated memory management techniques that exhibit near linear speedups on 32 cores and beyond. These techniques primarily consist of a garbage collection scheme that exploits thread-local data to avoid costly atomic instructions in the fast path. (3). Integrated support at the OS level. The two previous goals can be implemented in isolation, but exhibit many synergies when combined into a single system at all levels. Integrated support at the OS will lead to more scalable, energy-aware task scheduling algorithms and will provide the systemic-wide support required for the new fundamental execution model of ribbons to be viable in industry and become widely adopted.&lt;br/&gt;&lt;br/&gt;This project proposes cooperation with the community to enhance existing memory management benchmarks to suitably test scalability across 32+ cores. The evaluation stage will also involve a case study where undergraduate students implement a project using either ribbons or normal threads and processes. All software implemented in this project will be made available under open source licenses.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0834619</AwardID>
+    <Investigator>
+      <FirstName>Patrick</FirstName>
+      <LastName>Eugster</LastName>
+      <EmailAddress>peugster@cs.purdue.edu</EmailAddress>
+      <StartDate>08/14/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

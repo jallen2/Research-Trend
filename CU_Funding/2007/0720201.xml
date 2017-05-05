@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NSWP: Space Weather Prediction Using Hybrid Physics/Black-Box Methods</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2009</AwardExpirationDate>
+    <AwardAmount>159145</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06020202</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Atmospheric &amp; Geospace Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>kile baker</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will combine a relatively low-order (N=8), physics-based dynamical model of the Earth's magnetosphere (WINDMI) with a nonlinear black box model based on multiresolution wavelet decomposition. The goal is to have the hybrid model take into account physics that is missing from the low-dimension analytic model. Three different approaches will be investigated. The first suggested configuration involves replacing significant portions of the low-order model that are already dedicated to calculating plasma pressure with a single black box model. The second proposed configuration would replace only a relatively small nonlinear unloading function embedded in the previously mentioned pressure calculation with a black box model. The last configuration will assume the physics in WINDMI are mostly correct, and use a nonlinear black box model to correct for residual errors. This hybrid model will be trained using a genetic nonlinear optimization algorithm to predict the AL and Dst indices using ACE solar wind data as input. The result will be a model of the magnetosphere that can predict the Dst and AL magnetic indices with high accuracy.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/01/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720201</AwardID>
+    <Investigator>
+      <FirstName>Edmund</FirstName>
+      <LastName>Spencer</LastName>
+      <EmailAddress>espencer@southalabama.edu</EmailAddress>
+      <StartDate>08/07/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Utah State University</Name>
+      <CityName>Logan</CityName>
+      <ZipCode>843221415</ZipCode>
+      <PhoneNumber>4357971226</PhoneNumber>
+      <StreetAddress>Sponsored Programs Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0205000</Code>
+      <Name>Space</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>5750</Code>
+      <Text>MAGNETOSPHERIC PHYSICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9196</Code>
+      <Text>NATURAL DISASTERS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>EGCH</Code>
+      <Text>ENVIRONMENT AND GLOBAL CHANGE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

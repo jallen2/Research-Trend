@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Lifecycle Management of Collaborative Analysis Workflows through Provenance Capture and Analysis</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>256913</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Data-driven methods and products have shown tremendous promise and are becoming increasingly common in a variety of communities, including science, education, economics, government, and social and web analytics. This trend, popularly referred to as "big data" or "data science", has resulted in a pressing need for sustainable and scalable tools that facilitate the end-to-end collaborative data analysis process; this process is often ad hoc, typically featuring highly unstructured datasets, an amalgamation of different tools and techniques, significant back-and-forth among the members of a team, and trial-and-error to identify the right analysis tools, algorithms, models, and parameters. Although there is much prior and ongoing work on developing tools to perform specific data analysis tasks, there is no easy way to capture and reason about ad hoc data science pipelines, many of which are often spread across a collection of analysis scripts. Metadata or provenance information about how datasets were generated, including the programs or scripts used for generating them and/or values of any crucial parameters, is often lost. Similarly, it is hard to keep track of any dependencies between the datasets, or information about how they evolved over time. &lt;br/&gt;&lt;br/&gt;This project is building a unified provenance and metadata management system to support end-to-end lifecycle management of complex collaborative "data science workflows" that arise in big data applications. The system features a flexible and intuitive data model that can capture a variety of different types of data and metadata, including versioning and provenance information, derivation information, parameters used during experiments or modeling, statistics gathered to make decisions, analysis scripts, notes or tags, etc. It provides novel mechanisms for making it easy to capture such information with minimal burden on the users. The system also features a rich, high-level domain-specific query language that enables unified querying over such data, as well as a web browser-based visualization tool for formulating queries, and for exploring the search results. By continuously analyzing and exploiting such provenance information, the system also enables a host of new features including: searching for relevant data science workflows or analysis scripts for a given task, comparing end results of multiple pipelines to identify key similarities and differences, and quickly and automatically detecting problems or anomalies during model development and/or deployment. The system will transform the way in which data scientists manage provenance information and metadata while performing data analysis, and will allow them to more quickly derive actionable and useful insights or knowledge from the data. By lowering the barrier to sharing and reusing the work done by others, the system will lead to new insights that may not have been achievable beforehand. This project provides research opportunities for graduate and undergraduate students, and is aligned with several undergraduate and graduate courses offered by the PI.</AbstractNarration>
+    <MinAmdLetterDate>08/31/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/31/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1650755</AwardID>
+    <Investigator>
+      <FirstName>Amol</FirstName>
+      <LastName>Deshpande</LastName>
+      <EmailAddress>amol@cs.umd.edu</EmailAddress>
+      <StartDate>08/31/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

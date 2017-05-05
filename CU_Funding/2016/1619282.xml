@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Collaborative Research: Online Verification-Validation</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>309990</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Increasingly, modern software on the web is richly extensible, accelerating its evolution and dramatically reducing the time between development and deployment. The intellectual merit of this research consists of challenging the false choice between creating software that is extensible (easy to reuse and extend) and software that is correct (meets its specifications). The new approach advanced by this work, Incremental Verification-Validation, enables programmers to bring domain-specific safely disciplines to extensible systems, by providing a framework where these disciplines are communicated both precisely and usefully, as executable code. The project's broader significance and importance consist in changing the way programmers approach building correct extensible software for the web. The research targets ECMAScript (JavaScript), enabling this research to have a direct impact on the vast number of languages and systems that create and use JavaScript. Further, the project represents a new collaboration across the University of Colorado and University of Maryland, bringing together experts across verification, incremental computing, and runtime systems. Finally, this project benefits the graduate and undergraduate teaching mission at the participating universities, as aspects of the project enriches the program analysis and programming language courses.&lt;br/&gt;&lt;br/&gt;Incremental Verification-Validation encourages programmers to co-design their systems with executable specifications that check these systems dynamically, as they execute. Moreover, unlike typical assertions, which execute dynamically and non-incrementally, the proposed are subject to novel patterns that enhance their performance: In regressive validation, verification partially discharges some checks, dynamically rewriting the program with residual versions; in progressive verification, online verification occurs in passes that each cache and reuse work, to avoid from-scratch verification of facts that still hold from earlier passes. Finally, to avoid forcing analysis programmers to reason about incremental changes explicitly in each analysis that they create, the meta layer expresses incremental computations implicitly, using an implicitly-incremental meta language whose abstractions hide reasoning on a per-change basis.</AbstractNarration>
+    <MinAmdLetterDate>05/13/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/13/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1619282</AwardID>
+    <Investigator>
+      <FirstName>Bor-Yuh Evan</FirstName>
+      <LastName>Chang</LastName>
+      <EmailAddress>evan.chang@colorado.edu</EmailAddress>
+      <StartDate>05/13/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Matthew</FirstName>
+      <LastName>Hammer</LastName>
+      <EmailAddress>Matthew.Hammer@colorado.edu</EmailAddress>
+      <StartDate>05/13/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Partitioning Static and Dynamic Dependences Across Versions</AwardTitle>
+    <AwardEffectiveDate>08/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Programmers usually modify a program intending to fix a bug or to add a new feature. While they often have a strong understanding of the actual changes they are making to a program, the dynamic effects of these changes on the run-time behavior of the program can be harder to comprehend. The approach helps developers identify when their changes to the source code and the changes in the consequent executable behavior are inconsistent: that is, the change in the source is not apparent in the behavior, or vice versa. &lt;br/&gt;&lt;br/&gt;The approach identifies specific program elements and dependencies that likely account for the inconsistent nature of the change. Using a static and a dynamic dependence graph from each of two program versions, the dependences are partitioned according to their presence or absence in each of the four graphs. Particular partitions contain dependencies that are likely to represent inconsistent parts of a change; these partitions provide insight into the change that would be otherwise difficult to obtain.&lt;br/&gt;The partitions allow distinctions to be made that cannot be made using the static dependence graphs alone, the dynamic dependence graphs alone, nor using a static and dynamic graph pair from a given version; much of the power of the approach arises because the cross-version variations in the dependence graphs are small, reducing information provided to the programmer. The intellectual merit includes empirical assessment over a broad set of programs and changes, ?value propositions? for using this information, applications of the approach, and use of the partitioning to augment conventional approaches to assessing software complexity. &lt;br/&gt;&lt;br/&gt;The project addresses two categories of broader impacts: the people directly involved in the research, and the potential for the research to positively affect society through increased programmer productivity.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/26/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016490</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Notkin</LastName>
+      <EmailAddress>notkin@cs.washington.edu</EmailAddress>
+      <StartDate>07/31/2010</StartDate>
+      <EndDate>07/26/2013</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gaetano</FirstName>
+      <LastName>Borriello</LastName>
+      <EmailAddress>gaetano@cs.washington.edu</EmailAddress>
+      <StartDate>07/26/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9215</Code>
+      <Text>HIGH PERFORMANCE COMPUTING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

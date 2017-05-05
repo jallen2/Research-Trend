@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Inferring Mechanical Explanations from Manipulation Demonstrations</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>225000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jeffrey Trinkle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Robots are fast, accurate, reliable, and tireless, which make them great assets for factories. However, robots lack intuition - at which humans excel. Current robots have a hard time when tasked with imagining ways to manufacture new products. In an effective human-robot collaboration, humans conceive new products and feasible ways to manufacture them, and robots follow human guidelines with excellent precision and reliability. The scenario of interest is where a human operator demonstrates an execution of a task, such as mating two parts, and a robot understands how to replicate it. This proposal is concerned with improving the current robot understanding of those demonstrations. In particular, it is concerned with recovering information that is not directly observable with cameras, such as contacts between parts, and the forcefulness of the motions, both important for the ability of the robot to replicate the demonstration.&lt;br/&gt;&lt;br/&gt;This proposal aims to automate the inference of contact events and contact forces from noisy kinematic observations of the interaction between two known parts. The central idea is to use trajectory optimization and complementarity based models of contact to project noisy kinematic trajectories into dynamically-sound and environment-compatible motions, contacts, and forces. The problem is naturally under-constrained. There are many possible explanations for a given demonstration, and this proposal will investigate different ways to provide the optimizer with prior information to converge to a "reasonable" explanation. The first phase will conduct experiments instrumented with motion capture and force sensing to capture ground truth, and evaluate the ability of the algorithms to explain it, and overcome degradations such as noise and occlusions. A second phase will focus on un-instrumented scenarios and free-from demonstrations. The technical merit of the proposal will be demonstrated in the context of two high impact applications: automated assembly and shelf-picking/shelf-restocking in a warehouse scenario.</AbstractNarration>
+    <MinAmdLetterDate>08/12/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/12/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1551535</AwardID>
+    <Investigator>
+      <FirstName>Alberto</FirstName>
+      <LastName>Rodriguez Garcia</LastName>
+      <EmailAddress>albertor@mit.edu</EmailAddress>
+      <StartDate>08/12/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8013</Code>
+      <Text>National Robotics Initiative</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8086</Code>
+      <Text>Natl Robotics Initiative (NRI)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

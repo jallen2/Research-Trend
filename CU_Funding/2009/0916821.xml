@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Dynamic Power Redistribution in Failure-Prone CMPs</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>280000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Future multi-core microprocessors will be capable of deconfiguring faulty units in order to permit continued operation in the presence of wear-out failures. However, the unforeseen downside is pipeline imbalance in which other portions of the pipeline are now overprovisioned with respect to the deconfigured functionality. Such an imbalance leads to sub-optimal chip-wide power provisioning, since power is now allocated to pipeline functions that no longer provide the benefit they did with a fully functioning chip.&lt;br/&gt;&lt;br/&gt;This research proposes to dynamically redistribute the chip power under pipeline imbalances that arise from deconfiguring faulty units. Through rebalancing -- achieved by temporary, symbiotic deconfiguration of additional functionality within the degraded core -- power is harnessed for use elsewhere on the chip. This additional power is dynamically transferred to portions of the multi-core chip that can realize a performance boost from turning on previously dormant microarchitectural features. The technical deliverables of this project will be: (1) a novel resilient multi-core system architecture -- including dynamic power redistribution management algorithms -- that achieves much higher performance than one that is oblivious to pipeline imbalances; and (2) detailed simulations that quantify this performance advantage for various multi-core workloads.&lt;br/&gt;&lt;br/&gt;The broader impacts of this project relate to integrated research and education, enhanced infrastructure for research, broad dissemination of results, and potential societal impact. Furthermore, the PI will recruit women and underrepresented minority students to work on the project.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/20/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916821</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Albonesi</LastName>
+      <EmailAddress>albonesi@csl.cornell.edu</EmailAddress>
+      <StartDate>08/20/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cornell University</Name>
+      <CityName>Ithaca</CityName>
+      <ZipCode>148502820</ZipCode>
+      <PhoneNumber>6072555014</PhoneNumber>
+      <StreetAddress>373 Pine Tree Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9217</Code>
+      <Text>NATNL RESERCH &amp; EDUCAT NETWORK</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

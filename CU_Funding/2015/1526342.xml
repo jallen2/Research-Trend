@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: SHF: Small: Programming Language, Runtime System, and Architecture Support for Reliability in Intermittent, Energy-Harvesting Computing Devices</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>499999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Emerging energy-harvesting computing devices (EHDs) run on energy extracted from their environment and are poised to be the key enabler of next-generation wearables, implantable medical devices, and the Internet of Things (IoT) applications. However, software on an EHD can only execute intermittently, as energy is available. When power fails (10 to 100 times per second) the EHD turns off and reboots, requiring software on EHDs to span multiple periods of execution interrupted by power failures. Unfortunately, today's software development tools and practices do not address intermittence, and frequent interruptions cause unexpected and incorrect system behavior. Intermittence is a barrier to the widespread adoption of EHDs for many high-value applications and limits EHDs to use by experts only.&lt;br/&gt;&lt;br/&gt;This proposal addresses the fundamental challenges of intermittence by introducing the Persistent- Channel-Based (PCB) programming and execution model. PCB provides a new, simpler way to write software that is robust to intermittence. PCB also describes a new way to execute that software with high reliability, despite intermittence. By simplifying the process of writing software for EHDs and making intermittent execution reliable, PCB makes EHDs accessible to all potential system builders and developers.&lt;br/&gt;&lt;br/&gt;Just as the maturation of programming and execution models for embedded computer systems spawned industries around new embedded applications (e.g., the quantified-self project and in-home sensing), the development of the ideas in this project propels the same transformation for EHDs. PCB will enable researchers, individuals, and commercial players to create novel EHD-based applications that in the past could only be tediously purpose-built by expert researchers. The impact of this work is expected to transcend the technical outcomes of the research.&lt;br/&gt;&lt;br/&gt;The primary technical outcomes in PCB are novel approaches to writing and executing software. Programs are composed of tasks using a novel task-graph control-flow model that eliminates control-flow discontinuities due to intermittence. PCB's novel channel-based memory model together with channel access control, ensures that memory remains consistent. PCB simplifies a program?s reasoning progress because it persistently tracks the execution through the task graph and channel access control prevents a task from modifying its inputs, ensuring correctness as the task repeatedly executes to completion. PCB cuts across layers of the system stack, with language, compiler, runtime, and architecture support using a language that enables programmers to use simple expressions. The compiler maps programs to operations in PCB's runtime system which in turn implements tasks and channels, providing the guarantees relied on by the PCB language. Hardware and architecture support for channels and tasks, provides similar guarantees with novel hardware support, eliminating the overhead of the software runtime system. Encouraging preliminary findings support the idea that PCB's tasks and channels makes reasoning about intermittent computation simpler and that PCB eliminates correctness issues in several actual EHD applications.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526342</AwardID>
+    <Investigator>
+      <FirstName>Brandon</FirstName>
+      <LastName>Lucia</LastName>
+      <EmailAddress>blucia@andrew.cmu.edu</EmailAddress>
+      <StartDate>08/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

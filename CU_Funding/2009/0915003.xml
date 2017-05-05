@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>MCS: Research on Detection and Classification of 2D and 3D Shapes in Cluttered Point Clouds</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tie Luo</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Images form the largest source of data and information in our digital society. Many application domains, such as medical diagnostics, homeland security, military surveillance, and Internet communication, can benefit from automated techniques for analyzing images and, in particular, for detection, classification, and analysis of objects in images. Fast techniques for object detection in images often work in two steps: (1) Extract certain basic primitives (prominent points, edges, arcs, etc) from images using fast techniques and, (2) glean objects of interest in these extracted primitives. This second step -- a statistical framework for shape-based discovery of objects in 2D and 3D point clouds -- is the focus of this research. Since the extracted primitives may belong either to objects or backgrounds, the given data is both noisy and cluttered. In simple terms, this problem is akin to finding the big dipper in the sky on a starry night. A simple combinatorial search is impossible, as the computational cost of organizing points into polygonal shapes are prohibitive. The framework proposed here is analysis by synthesis: one starts by synthesizing continuous shapes Ð contours for 2D and surfaces for 3D -- for the shape classes of interest and samples these shapes into sets of points. These synthesized point sets are then (probabilistically) compared with the given point cloud to decide if a shape class is present in the image. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;This research will take a Bayesian approach to shape classification where one estimates the posterior probabilities of different shape classes being present in the given point cloud. This involves a fundamental step of integrating out certain nuisance variables: (i) the unknown shape of object present in the data, (ii) the unknown pose and scale at which it appears in the scene, and (iii) the unknown sampling of a continuous shape into discrete points. The investigators will develop class-specific statistical models to capture variability of these nuisance variables, and will use a Monte Carlo approach that simulates from these models to approximate the desired posterior. This framework relies on the following ingredients: (1) Statistical shape models: Firstly, the investigators will derive mathematical representations of shapes (of curves and surfaces), impose Riemannian metrics on their shape spaces and develop algorithms for computing geodesics. Secondly, they will define and estimate probability models on the resulting shape spaces and simulate shapes from those models for use in generating stochastic inferences. Since shape spaces are typically infinite-dimensional, nonlinear manifolds, the prospect of efficient statistical inferences of shapes is both novel and challenging. (2) Shape Sampling: To synthesize a hypothesized point set, one takes a continuous shape and samples it with a finite number of points. The researchers will develop mathematical representations and stochastic models for this sampling process. (3) Likelihood Evaluation: Lastly, one needs to calculate the likelihood of the given point cloud. This involves optimally registering and transforming (rotating, translating, and scaling) the synthetic point set to match the given data. The cost function is based on probability models for the observation noise and the background clutter. This project will research, develop, and implement these fundamental ingredients for finding shapes in point clouds. The proposed framework will be tested for performance and efficiency in detecting and classifying objects in images.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/13/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915003</AwardID>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Klassen</LastName>
+      <EmailAddress>klassen@math.fsu.edu</EmailAddress>
+      <StartDate>09/13/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anuj</FirstName>
+      <LastName>Srivastava</LastName>
+      <EmailAddress>anuj@stat.fsu.edu</EmailAddress>
+      <StartDate>09/13/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Adrian</FirstName>
+      <LastName>Barbu</LastName>
+      <EmailAddress>abarbu@stat.fsu.edu</EmailAddress>
+      <StartDate>09/13/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Florida State University</Name>
+      <CityName>TALLAHASSEE</CityName>
+      <ZipCode>323064166</ZipCode>
+      <PhoneNumber>8506445260</PhoneNumber>
+      <StreetAddress>874 Traditions Way, 3rd Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7454</Code>
+      <Text>MSPA-INTERDISCIPLINARY</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

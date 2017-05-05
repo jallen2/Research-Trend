@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR---EHS: Collaborative: Directed Real-Time Testing</AwardTitle>
+    <AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>225000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is developing new methods for coverage-driven directed automatic test generation for real-time embedded systems. The research addresses both, the theoretical foundations of automatic test generation, and practical test and coverage tools for real-time embedded systems. Many signals affecting system behavior may not be observable, or may be difficult to measure online without affecting system behavior, and the system itself may not be easily reset to an initial state to drive different tests. In this research, tasks in the system are modeled as event automata, and the joint event automaton represents the composition of event automata for all tasks in the system. The research is exploring game and control-theoretic techniques to synthesize, from an automatically constructed abstract interaction graph of the implementation, a test director. The test director introduces variable delays in the execution of the system such that a maximal number of coverage goals are met. A testing tool, DIRECT, implements directed real-time testing for embedded systems, combining static analysis (interaction graph construction), control theory (test director construction) and dynamic analysis (online system monitoring in the presence of the test director) to achieve high interaction coverage. In particular, these problems would be studied in a resource-constrained setting, where both online measurements and test director implementation must be optimized for time and space. The tools and techniques would be evaluated on two testbeds available to us: an embedded development platform on top of Lego Mindstorm robots developed by one of the PIs at UC Santa Cruz and a sensor board for marine tracking developed at UC Santa Cruz.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/30/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720881</AwardID>
+    <Investigator>
+      <FirstName>Rupak</FirstName>
+      <LastName>Majumdar</LastName>
+      <EmailAddress>rupak@cs.ucla.edu</EmailAddress>
+      <StartDate>08/06/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Integrated Biological Sequence Data Management</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2011</AwardExpirationDate>
+    <AwardAmount>406613</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Julie Dickerson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The University of Michigan is awarded funds to develop a comprehensive system that can support complex declarative and efficient querying on biological sequences, called SEQ. The approach is to extend a relational database engine with sophisticated and powerful methods for querying on sequences. Extending a relational database engine, rather than build a stand-alone sequence query processing tool, is a much more challenging task, but is essential as it allows the end-user to combine the power of analytical facilities already provided by SQL engines with the added ability to query sequences. A crucial aspect of this approach is to have a clean query algebra that provides a powerful set of biological sequence querying features, and can be accommodated within the framework of an extended relational model. SEQ will be implemented by extending the existing Postgres database engine. The collaboration between the investigators (computer scientists and biomedical researchers) will also facilitate actual deployment of the SEQ system in a project that will analyze various genomes for transcriptional regulatory elements related to genes essential for eye development and visual function. The key intellectual contribution of this proposal is in the development of a declarative querying tool for managing biological sequence data sets in a relational framework. This effort naturally requires designing and implementing methods that span most of the layers of a relational database engine, including query algebra, query language, query processing algorithms, data storage methods, and query optimization methods. The SEQ project will lead to new computer science methods for sequence query processing in each of these database management aspects. A current preliminary prototype clearly demonstrates the tremendous functionality and performance benefits of these aspects in the SEQ approach. In addition to the contributions that SEQ will make to computer science research, the project will also directly assist in the analysis of downstream targets for a transcription factor critical for rod photoreceptor development and function. The broader impacts of this proposal are in enabling life scientists to query and manage sequence data using declarative and efficient querying methods, and to enable the processing of complex sequence queries with traditional relational querying. The project will result in a free open-source OSI-certified release of the SEQ system using the ECL license. This release will allow the entire life sciences community to leverage these powerful querying methods. We note that a number of model organism databases are starting to use relational databases (often Postgres) for managing sequence data; as an example see the Chado schema used by GMOD. Sequence analysis tools are very applicable to this broader range of users as the system will essentially add complex sequence querying functionality (with efficient performance) to Postgres. The broader impacts of this proposal include enhancing the nascent bioinformatics curriculum at the University of Michigan. The project will result in cross-training computer science PhD students in life sciences research, and include the training of at least one women PhD. This project will allow undergraduate and graduate students, post-doctoral staff, and faculty in the EECS department and the Kellogg's Eye Center at the University of Michigan to foster a close interaction in the methods that span the disciplines of computer science and genetics.</AbstractNarration>
+    <MinAmdLetterDate>05/14/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/14/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0926269</AwardID>
+    <Investigator>
+      <FirstName>Jignesh</FirstName>
+      <LastName>Patel</LastName>
+      <EmailAddress>jignesh@cs.wisc.edu</EmailAddress>
+      <StartDate>05/14/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

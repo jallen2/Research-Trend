@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Novel Algorithms for Separated Representations in Functional Form for the Adaptive Solution of Quantum Chemistry Problems and Other Applications</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>330000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal develops a new approach for solving partial differential and integral equations based on novel algorithms for separated representations in functional form. Separated representations, a natural extension of separation of variables, is a nonlinear method to approximate multidimensional functions as sums of separable functions. In this representation functions in a high-dimensional space are described with a small number of parameters, making possible to bypass the so-called curse of dimensionality, that is, to avoid the exponential growth of computational cost in the underlying dimension of the problem. The term in functional form refers to the handling of the components of separated representations in each dimension; they are obtained via a nonlinear approximation rather than via a representation through bases. This approach not only provides a greater efficiency by reducing the number of parameters but also expands the current paradigm for solving equations. By seeking solutions via a self-correcting iterative process, a new efficient algorithm keeps a manageable number of terms in the representation while maintaining the functional form of the components and the desired accuracy. The goal of this project is to design, test and implement such a reduction algorithm and apply it to solve several multidimensional problems that cannot be addressed by current methods. Many problems in modern science require computing multivariate solutions and a major challenge is to develop representations and algorithms to obtain them while avoiding the curse of dimensionality. The proposed effort develops a functional calculus for solving high dimensional problems via a self-correcting iterative process based on a combination of three types of novel algorithms: (1) Separated representations in functional form as a tool to circumvent the curse of dimensionality; (2) Highly efficient nonlinear approximations of univariate functions to achieve adaptivity of the components of the separated representations; (3) Randomized projections to reduce the number of terms in the separated representation while maintaining the functional form of the components and the desired accuracy. These adaptive algorithms should yield accurate solutions with guaranteed error bounds while requiring a computational time that scales linearly in the dimension of the problem. A particular emphasis of this proposal is on a fundamental problem of Quantum Chemistry to accurately compute the electronic structure of molecules. &lt;br/&gt;&lt;br/&gt;Accurate modeling in modern science and engineering requires computations with multivariate functions and any progress toward making such computations feasible will either significantly accelerate existing numerical methods or lead to the solution of many problems that are currently out of reach. Scientific areas to benefit from proposed algorithms are not limited to Quantum Chemistry and material sciences where the ability to understand chemical reactions and properties of materials relies heavily on efficient numerical algorithms, but also include robotics and the design of multicomponent structures, just to name a few. This proposal provides numerical tools to address the multivariate nature of many challenging scientific problems. As a result, topics of the proposal are expected to give raise to interdisciplinary collaborations as well as become part of graduate dissertations.</AbstractNarration>
+    <MinAmdLetterDate>09/17/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/17/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320919</AwardID>
+    <Investigator>
+      <FirstName>Lucas</FirstName>
+      <LastName>Monzon</LastName>
+      <EmailAddress>lucas.monzon@colorado.edu</EmailAddress>
+      <StartDate>09/17/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gregory</FirstName>
+      <LastName>Beylkin</LastName>
+      <EmailAddress>gregory.beylkin@colorado.edu</EmailAddress>
+      <StartDate>09/17/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

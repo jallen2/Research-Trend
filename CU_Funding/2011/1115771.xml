@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: De-optimizing Compilation for Many-Simple-Core Processors</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>259238</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Existing compilation techniques are unlikely to release the full potentials of the new many-simple-core architectures, where a processor consists of tens, hundreds or more cores that do not have fine grain instruction-level-parallelism. The fundamental reason is that traditional compilation technology is largely designed to maximize single-thread performance while the same strategy will likely hinder the realization of the best overall performance when programs on many-simple-core processors routinely run hundreds or even more threads. A many-simple-core processor usually delivers the highest performance when its resource is fully utilized. However, a thread compiled in the traditional way has all resources at its disposal to maximize its own performance. When applied to hundreds of threads, the resource requirement adds up and will create a resource bottleneck that is much more likely than the performance of single thread to be the main performance issue. More generally speaking, the question of what is compiler optimization needs to be redefined in the new context of many-simple-core processors.&lt;br/&gt;&lt;br/&gt;This research improves the tradeoff between single-thread performance and overall resource utilization. The project includes a systematical study of techniques and strategies that are needed to adapt existing compiler and code optimization techniques to the new many-simple-core processors, and the development of new optimization techniques and strategies that are oriented specifically to improve resource utilization on the new architecture. Specifically, the investigators study the modeling of shared resource utilization in compiler, compiler optimizations and code transformations that redefine the profitability analysis of existing techniques, and optimization strategy that orchestrates the selection of compiler transformations and their parameter values to "de-optimize" or "optimize" single thread to improve overall performance.</AbstractNarration>
+    <MinAmdLetterDate>06/24/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/24/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115771</AwardID>
+    <Investigator>
+      <FirstName>Xiaoming</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>xli@udel.edu</EmailAddress>
+      <StartDate>06/24/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Delaware</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>197162553</ZipCode>
+      <PhoneNumber>3028312136</PhoneNumber>
+      <StreetAddress>210 Hullihen Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Delaware</StateName>
+      <StateCode>DE</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Medium: Collaborative Research: Algorithms and Cyberinfrastructure for High-Precision Automated Quality Control of Hydro-Meteo Sensor Networks</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>635476</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Advances in sensor technology are greatly expanding the range of quantities that can be measured while simultaneously reducing the cost. However, deployed sensors drift out of calibration and fail, so every sensor network requires quality control (QC) procedures to promptly detect these failures. Existing QC methods rely on human experts to carefully examine the data, which means that when the number of sensors in a network doubles, the number of experts must double too. This project will develop algorithms and software to increase the level of automation in sensor QC so that a smaller number of experts can manage a much larger network of sensors. The methods will be tested on weather data from Oklahoma (the Oklahoma Mesonet), Oregon (the Andrews Long-Term Ecological Network site), the US (the Earth Networks "WeatherBug" network), and sub-Saharan Africa (the TAHMO project), and if the methods are found to work well, they will be deployed in these networks at at the CUAHSI Water Data Center. Accurate weather data could significantly increase the productivity of farms and improve food security, particularly in Africa.&lt;br/&gt;&lt;br/&gt;The project will develop an open-source standards-compliant system, SENSOR-DX, that implements automated data QC. Existing probabilistic QC methods assume that correct sensor readings are jointly Gaussian and readings from broken sensors obey a uniform distribution. These assumptions lead to many QC mistakes. This project will develop a new approach in which novel nonparametric anomaly detection algorithms analyze the sensor data. Correct sensor readings have low anomaly scores, while broken sensor readings have high scores; both follow parametric distributions. Probabilistic methods can therefore model the distribution of the resulting anomaly scores instead of the joint distribution of the original sensor readings and infer (probabilistically) whether each sensor is working correctly. To enhance the fault-detection capability of the anomaly detection algorithms, the raw sensor data will be detrended and assembled into multiple views that highlight various correlations among sensor values. The project will develop a novel View-Anomaly-Diagnosis (VAD) framework in which anomaly detection algorithms are applied to the tuples in each view, and then the anomaly scores are combined via a probabilistic diagnostic model to infer which sensors are broken and which are functioning correctly. The project will study how good the detrending models need to be in order to enhance the accuracy of anomaly detection. The new anomaly detection algorithms are based on a new anomaly detection principle: "anomaly detection by overfitting". Existing methods fit a statistical model to "normal" behavior and then identify data points that do not fit well ("are underfit") and mark them as anomalies. The new principle measures how easy it is to "overfit" a statistical model that separates candidate anomalies from the rest of the data. The project will develop new algorithms based on this principle and understand how they relate to existing methods of anomaly detection by underfitting. The VAD framework will be implemented in the SENSOR-DX system: a series of Kepler workflows that provide support for connecting a new sensor network, training the detrending and anomaly detection models, performing real-time anomaly detection, and repairing bad sensor readings using predictive models. SENSOR-DX will also support semantic matching of new sensor data streams by extending the EnvThs controlled vocabulary thesaurus.&lt;br/&gt;&lt;br/&gt;For further information see the project web site at http://tahmo.org/sensor-dx</AbstractNarration>
+    <MinAmdLetterDate>08/21/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/19/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1514550</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Dietterich</LastName>
+      <EmailAddress>tgd@cs.orst.edu</EmailAddress>
+      <StartDate>08/21/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Selker</LastName>
+      <EmailAddress>selkerj@engr.orst.edu</EmailAddress>
+      <StartDate>08/21/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Oregon State University</Name>
+      <CityName>Corvallis</CityName>
+      <ZipCode>973318507</ZipCode>
+      <PhoneNumber>5417374933</PhoneNumber>
+      <StreetAddress>OREGON STATE UNIVERSITY</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

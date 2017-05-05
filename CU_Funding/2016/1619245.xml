@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Hardware-Software Co-Designed Coherence: A Complete Coherence Solution for Performance-, Energy-, and Complexity-Efficiency</AwardTitle>
+    <AwardEffectiveDate>06/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As the benefits from transistor scaling slow down, future performance increases in computing systems will increasingly rely on architectural advances. Today processors use parallelism and increasing amounts of specialization to provide this performance growth. An efficient memory hierarchy is key to achieving the full potential of both of these techniques. The coherence protocol and memory consistency model are at the heart of the complexity-, performance-, and energy-efficiency of the memory hierarchy. Unfortunately, across a variety of systems, coherence protocols and consistency models continue to struggle to obtain an appropriate balance between complexity, performance, and energy consumption. Recently, there has been work on hybrid hardware-software co-designed protocols, exemplified by the DeNovo protocol, which takes a different approach, combining the best of pure hardware and pure software protocols. The key insight is that if software is disciplined, then it is possible to design more efficient hardware. Multiple versions of the DeNovo system have successively relaxed the software restrictions. Introducing such a new technology in classrooms to both graduate and undergraduate students will better prepare them for future memory trend and challenges. Disseminating the results of this research via publications, seminars, tutorials etc. will bring new technology awareness to the community and create more synergy among academia and industry.&lt;br/&gt; &lt;br/&gt;Prior work has established the potential for DeNovo as a general-purpose system with significant advantages over the state-of-the-art. However, this work of necessity has been limited to simple workloads. Consideration of DeNovo as a viable system for widespread industrial adoption requires demonstrating an integrated system that can run complex workloads (e.g., operating systems) and legacy binaries. This project addresses the remaining research issues to achieve this goal. Although this work is driven by considerations for hybrid hardware-software coherence protocols, the intellectual contributions extend beyond those protocols as well; e.g., integrated support for efficient, coherent data accesses using a variety of disciplines ranging from completely unstructured to highly structured, statically analyzable accesses; a systematic exploration of relaxed atomics, a widely accepted difficulty in current memory consistency models; and understanding concurrent data structures and system code in a coherence neutral way.</AbstractNarration>
+    <MinAmdLetterDate>06/17/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/17/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1619245</AwardID>
+    <Investigator>
+      <FirstName>Sarita</FirstName>
+      <LastName>Adve</LastName>
+      <EmailAddress>sadve@cs.uiuc.edu</EmailAddress>
+      <StartDate>06/17/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

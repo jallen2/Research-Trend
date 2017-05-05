@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Toward Software Tools for Memory-Efficient Matrix Algebra</AwardTitle>
+    <AwardEffectiveDate>09/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>130000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A scientific program is a mathematical one so there are two factors&lt;br/&gt;contributing to its performance. One is the time required to perform&lt;br/&gt;arithmetic. The other is the time needed to move data through the&lt;br/&gt;memory hierarchy of the computer. In today's large applications, the&lt;br/&gt;latter cost often dominates. The work funded by this grant focuses on&lt;br/&gt;efficient computational methods for solving the problems in matrix algebra&lt;br/&gt;that arise in a wide variety of science and engineering applications.&lt;br/&gt;Codes for such problems are typically constructed as sequences of calls to&lt;br/&gt;the routines known as the Basic Linear Algebra Subprograms (BLAS). Writing&lt;br/&gt;programs in this way promotes readability and maintainability but can&lt;br/&gt;be costly in terms of memory efficiency especially for matrices of&lt;br/&gt;large order.&lt;br/&gt;&lt;br/&gt;The grant will be used primarily to support a Ph.D. student who will&lt;br/&gt;study ways to combine multiple BLAS routines into a single routine that&lt;br/&gt;performs the functions of more than one BLAS. He will examine ways to&lt;br/&gt;create composed BLAS via novel algorithms and performance programming&lt;br/&gt;techniques, developing a general methodology for their creation in the&lt;br/&gt;process. His work will ultimately form the basis for a tool that creates&lt;br/&gt;composed BLAS automatically. Composed routines can significantly reduce&lt;br/&gt;the amount of data read from main memory. Preliminary results include&lt;br/&gt;speedups as large as 90\%.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/14/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0830458</AwardID>
+    <Investigator>
+      <FirstName>Elizabeth</FirstName>
+      <LastName>Jessup</LastName>
+      <EmailAddress>jessup@cs.colorado.edu</EmailAddress>
+      <StartDate>08/05/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2865</Code>
+      <Text>NUMERIC, SYMBOLIC &amp; GEO COMPUT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7934</Code>
+      <Text>PARAL/DISTRIBUTED ALGORITHMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7934</Code>
+      <Text>PARAL/DISTRIBUTED ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

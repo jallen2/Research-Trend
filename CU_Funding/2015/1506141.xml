@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>UNS: Real-Time Economic Model Predictive Control of Nonlinear Processes</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Triantafillos Mountziaris</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>1506141 - Christofides&lt;br/&gt;&lt;br/&gt;The development of next-generation advanced manufacturing (e.g., Smart Manufacturing, market-driven manufacturing, and real-time energy management) is of paramount importance to sustaining the future competitiveness of the U.S. chemical industry, a vital sector of the U.S. economy. The core of next-generation manufacturing objectives involves tightly integrating the components of the manufacturing processes to deliver increased safety, profitability, efficiency, variability, capacity and sustainability. Within the context of chemical process operations, process control systems should account for economic process considerations such as variable demand, changing energy prices, variable feedstock, and product transitions in the computation of the control actions and should be able to operate a process in a dynamic fashion to account for the volatile market conditions. Most of the existing control infrastructure has been designed to achieve the best possible performance with respect to steady-state (time-invariant) operation. Transitioning from steady-state operation to dynamic or time-varying operation represents a significant paradigm shift in chemical process operations and chemical process control. &lt;br/&gt;&lt;br/&gt;Economic optimization of chemical processes has traditionally been addressed through a two- layer architecture. In the upper layer, economic process optimization is completed by computing optimal process operation set-points using steady-state process models. These optimal set-points are used by the feedback control systems in the lower layer to force the process to operate on these steady-states. In the lower layer, model predictive control (MPC) has been widely adopted in the chemical process industry because of its ability to optimally control multivariable systems subject to input and state constraints. The conventional formulations of MPC use a quadratic performance index along a finite prediction horizon to steer the system to the optimal (economically) steady- state. While this strategy (steady-state optimization and operation) has been traditionally used in chemical process industries, steady-state operation may not necessarily be the economically best operation strategy. Recently, economic MPC (EMPC), an MPC scheme that uses a cost function that directly accounts for the process economics, has been introduced as an alternative approach to the two-layer economic process optimization and control. EMPC operates systems in a possibly time-varying fashion to optimize the process economics. However, the rigorous design of real-time EMPC systems, which address key practical considerations (time needed to compute control actions, guaranteed performance improvement over steady-state operation, time-varying cost functions, and monitoring and safety) poses significant fundamental and implementation challenges. Motivated by these considerations, the main objective of this research program is to develop the theory and methodology needed for the design and implementation of real-time economic model predictive control systems for chemical processes described by nonlinear dynamic models and to demonstrate the effectiveness of the proposed methods in the context of chemical processes of industrial importance. Specifically, this research will address: a) the development of real-time EMPC systems capable of handling real-time im- plementation issues and practical considerations including real-time calculation time and explicitly time-dependent cost functions accounting for variable energy price and demand, b) the development of monitoring schemes for evaluating the performance of EMPC systems accounting for time-varying operation and the design of EMPC systems that explicitly account for process safety constraints and deal with operational limitations due to possible malfunction of control system components, and c) applications of the real-time EMPC schemes to large-scale chemical plant simulators us- ing high-fidelity process models and a state-of-the-art experimental ultra-filtration/reserve osmosis water desalination system to demonstrate that EMPC can significantly reduce energy consumption. The development of real-time EMPC system methods is expected to signifi- cantly improve the operation and performance of nonlinear processes, thereby enhancing the com- petitiveness of the US economy. The integration of the research results into graduate and senior undergraduate courses and the writing of a new book on "Economic Model Predictive Control" will benefit students and researchers in the field.</AbstractNarration>
+    <MinAmdLetterDate>03/13/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/13/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1506141</AwardID>
+    <Investigator>
+      <FirstName>Panagiotis</FirstName>
+      <LastName>Christofides</LastName>
+      <EmailAddress>pdc@seas.ucla.edu</EmailAddress>
+      <StartDate>03/13/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900952000</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>11000 Kinross Avenue, Suite 211</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1403</Code>
+      <Text>PROCESS &amp; REACTION ENGINEERING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>049E</Code>
+      <Text>CHEMICAL PROCESS CONTROL</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7752</Code>
+      <Text>CDI NON SOLICITED RESEARCH</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

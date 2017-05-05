@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: F: Statistical Approaches to Big Data Analytics</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nandini Kannan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goals of this project include developing new Big Data analytical methods, providing an insightful understanding of their properties, and demonstrating major improvements over existing methods. While the driving application is cancer research, the lessons learned will be broadly applicable to a wide array of Big Data contexts. The major challenges addressed here include Data Integration, Data Heterogeneity and Parallelization. Data Integration is a recently understood need for combining widely differing types of measurements made on a common set of subjects. For example, in cancer research, common measurements in modern Big Data sets include gene expression, copy number, mutations, methylation and protein expression. The development of deep new statistical methods is proposed which focus on central scientific issues such as how the various measurements interact with each other, and simultaneously on which aspects operate in an independent manner. Data Heterogeneity addresses a different issue which is also critical in cancer research. In this case, current efforts to boost sample sizes (essential to deeper scientific insights) involve multiple laboratories combining their data. A whole new conceptual model for understanding the bias-oriented challenges presented by this scenario, plus the foundations for the development of new analytical methods that are robust against such effects, will be developed here. Parallelization is the computational concept of doing large scale numerical analysis through the simultaneous use of multiple computer processors. The proposed research will provide new foundational understanding of several important issues in this area.&lt;br/&gt;&lt;br/&gt;Data Integration will center on the Joint and Individual Variation Explained methodology. Early versions have already provided scientific insights not available from previous data analytic approaches. The basic idea will be first extended in the direction of more insightful groupings of data blocks, essential for understanding the full breadth of relationships between the available measurement types. The second extension will be in the direction of divergent groups of subjects, very important to the study of subtypes in cancer research and to the rest of precision medicine. In addition to new methodology, new methods of validation are proposed, and an asymptotic study of the properties will be conducted. The key new concept behind Data Heterogeneity is to replace the usual Gaussian conceptual model with a Gaussian mixture model, which makes intuitive sense but creates challenges, for example when using likelihood approaches as the mixture distributions are not an exponential family. An even bigger challenge is that mere scale issues usually entail that full estimation of the distributional parameters is completely intractable. Yet many standard statistical methods can be negatively impacted by such structure in data, so the invention of a new class of statistical methods that are robust against this effect, without requiring full parameter estimation, are proposed. Validation and development of mathematical statistical insights will again be an important part of the research. Parallelization is an essential component of all modern computing environments. The proposed research takes a Fiducial Inference viewpoint, which gives new insights into how the needed numerical calculations can be farmed out to a variety of processors, and then the results combined into a useful analysis for complicated statistical tasks including hypothesis testing and construction of confidence intervals.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1633074</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Marron</LastName>
+      <EmailAddress>marron@unc.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jan</FirstName>
+      <LastName>Hannig</LastName>
+      <EmailAddress>jan.hannig@unc.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Chapel Hill</Name>
+      <CityName>CHAPEL HILL</CityName>
+      <ZipCode>275991350</ZipCode>
+      <PhoneNumber>9199663411</PhoneNumber>
+      <StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

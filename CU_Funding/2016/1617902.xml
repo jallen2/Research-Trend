@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Combating Environment-aware Malware</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>498036</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Tools for dynamic detection of malicious software ("malware"), such as antivirus software, often create a protected "analysis environment" (or "sandbox") in which to test suspicious software without risk to the computer system. Malware authors have responded by developing environment-awareness techniques, to enable their malware to recognize and behave differently in a sandbox environment, thereby evading detection. Authors of defense software are endeavoring to ensure that analysis environments exhibit realistic characteristics. This project focuses on examining "wear-and-tear" or "aging" artifacts, whose absence could enable malware to distinguish a pristine, new analysis environment from a real environment that has been seen normal use.&lt;br/&gt;&lt;br/&gt;This project is assessing the potential for a new class of environment-aware malware that exploits usage-related artifacts that inevitably occur on real systems as a result of normal use, and which are absent in existing malware analysis environments. The project is first investigating techniques for recognizing artifacts related to past user activity and studying how malware might query or probe to acquire such information. Second, the researchers are evaluating the effectiveness of these techniques against current dynamic malware analysis systems and how such defense systems might detect that queries or probes of environmental information indicate the presence of malware. Finally, the project is studying whether artificially created "wear and tear" artifacts might be injected into analysis environments to counter next-generation, environment-aware malware.</AbstractNarration>
+    <MinAmdLetterDate>07/20/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/20/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617902</AwardID>
+    <Investigator>
+      <FirstName>Nick</FirstName>
+      <LastName>Nikiforakis</LastName>
+      <EmailAddress>nick@cs.stonybrook.edu</EmailAddress>
+      <StartDate>07/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michail</FirstName>
+      <LastName>Polychronakis</LastName>
+      <EmailAddress>mikepo@cs.stonybrook.edu</EmailAddress>
+      <StartDate>07/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

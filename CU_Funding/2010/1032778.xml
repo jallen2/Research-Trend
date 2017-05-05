@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SDCI NMI Improvement: Maintenance of the Rocks Cluster Toolkit and Enhancements for Scalable, Reliable, and Resilient Clustered Data Storage</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>499999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Office of Advanced Cyberinfrastructure (OAC)</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daniel Katz</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Today an increasing number of scientists need reliable, extensible, large-scale and high-performance storage to be tightly integrated into their computing/analysis workflows. These researchers often require their data to be available not only on remote computational clusters but also on their specialized, in-laboratory, equipment, workstations and displays. Unfortunately, many are being hindered because they do not have, but need in their labs, the fundamental storage capacity and bandwidth this is often available only in specialized data centers. For example, leaders in biological research are revolutionizing their science to be data intensive by developing and using instruments like high field-strength electron microscopes that generate terabytes of data weekly. While the specialized parallel storage systems can be built today by experts to meet both the capacity and throughput needs of a computationally-intensive analysis on clusters, the level of administrative effort is enormous for both initial deployment and ongoing operation. For many scientists, their needs are rapidly entering the realm of data intensive but their access to capable and reliable storage is limited either because of the complexity or expense (or both) of existing solutions. This same limit, which the Rocks cluster toolkit has successfully addressed, existed in computational clusters a decade ago. &lt;br/&gt;&lt;br/&gt;In this award, the established and widely-used Rocks clustering software toolkit will be expanded to include not only ongoing production support and engineering enhancements for computational clusters but also to progressively address a litany of issues directly related to clustered storage provisioning, monitoring, and event generation. In particular, the impact of this award will be to bring the the current simplicity of compute cluster deployment to also include (1) farms of network-attached file servers and (2) dedicated parallel, high-performance storage clusters through the standard Rocks extension mechanism called Rolls. In addtion, the development of a monitoring architecture targeted specifically at storage subsystems to include per-disk metrics, file-system metrics, and aggregated network utilization for both Lustre Parallel and NFS-based server farms use will be started. The investigators will start the design and development of mechanisms that will enable correlation of file server utilization with jobs running on clients and remote workstations.</AbstractNarration>
+    <MinAmdLetterDate>08/29/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/01/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1032778</AwardID>
+    <Investigator>
+      <FirstName>Philip</FirstName>
+      <LastName>Papadopoulos</LastName>
+      <EmailAddress>phil@sdsc.edu</EmailAddress>
+      <StartDate>08/29/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mason</FirstName>
+      <LastName>Katz</LastName>
+      <EmailAddress>mjkatz@ucsd.edu</EmailAddress>
+      <StartDate>08/29/2010</StartDate>
+      <EndDate>03/01/2011</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gregory</FirstName>
+      <LastName>Bruno</LastName>
+      <EmailAddress>bruno@sdsc.edu</EmailAddress>
+      <StartDate>08/29/2010</StartDate>
+      <EndDate>03/01/2011</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7683</Code>
+      <Text>SOFTWARE DEVELOPEMENT FOR CI</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

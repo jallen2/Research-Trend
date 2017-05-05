@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: SI2-SSI: ELSI-Infrastructure for Scalable Electronic Structure Theory</AwardTitle>
+    <AwardEffectiveDate>06/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>1358608</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Predictive, so-called ab initio electronic structure calculations, particularly those based on the Kohn-Sham density functional theory (DFT) are now a widely used scientific workhorse with applications in virtually all sciences, and increasingly in engineering and industry. In materials science, they enable the computational ("in silico") design of new materials with improved properties. In biological or pharmacological research, they provide molecular-level insights into the function of macromolecules or drugs. In the search for new energy solutions, they give molecular-level insights into new solar cell designs, catalytic processes, and many others. A key bottleneck in many applications and calculations is the "cubic scaling wall" of the so-called Kohn-Sham eigenvalue problem with system size (i.e., the effort increases by a factor of 1,000 if the model size increases by a factor of 10). This project will establish an open source software infrastructure "ELSI" that offers a common, practical interface to initially three complementary solution strategies to alleviate or overcome the difficulty associated with solving the Kohn-Sham eigenvalue problem. ELSI will enable a broad range of end user communities, centered around different codes with, often, unique features that tie a specialized group of scientists to that particular solution, to easily incorporate state-of-the-art solution strategies for a key problem they all share. By providing these effective, accessible solution strategies, we will open up major areas for electronic structure theory where DFT based predictive methodologies are not applicable today. This will in turn open doors for new development in materials science, chemistry, and all related areas. Commitments to support ELSI exist from some of the most important electronic structure developer communities, as well as from industry and government leaders in high-performance computing. Thus, we will create a strong U.S. based infrastructure that leverages the large user and developer base from a globally active community developing DFT methods for materials research.&lt;br/&gt;&lt;br/&gt;ELSI will support and enhance three state-of-the-art approaches, each best suited for a specific problem range: (i) The ELPA (EigensoLvers for Petascale Applications) library, a leading library for efficient, massively parallel solution of eigenvalue problems (for small- and mid-sized problems up to several 1,000s of atoms), (ii) the OMM (Orbital Minimization Method) in a recent re-implementation, which circumvents the eigenvalue problem by focusing on a reduced, auxiliary problem (for systems in the several 1,000s of atoms range), and (iii) the PEXSI (Pole EXpansion and Selective Inversion) library, a proven reduced scaling (at most quadratic scaling) solution for general systems (for problems with 1,000s of atoms and beyond). By establishing standardized interfaces in a style already familiar to many electronic structure developers, ELSI will enable production electronic structure codes that use it to significantly reduce the "scaling wall" of the eigenvalue problem. First, ELSI will help them make efficient use of the most powerful computational platforms available. The target platforms are current massively parallel computers and multicore architectures, GPU based systems and future manycore processors. Second, the project will make targeted methodological improvements to ELPA, OMM, and PEXSI, e.g., a more effective use of matrix sparsity towards very large systems. The focus on similar computational architectures and similar methodological enhancements will lead to significant cross-fertilization and synergy between these approaches.</AbstractNarration>
+    <MinAmdLetterDate>06/11/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/11/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1450280</AwardID>
+    <Investigator>
+      <FirstName>Volker</FirstName>
+      <LastName>Blum</LastName>
+      <EmailAddress>volker.blum@duke.edu</EmailAddress>
+      <StartDate>06/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jianfeng</FirstName>
+      <LastName>Lu</LastName>
+      <EmailAddress>jianfeng@math.duke.edu</EmailAddress>
+      <StartDate>06/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1712</Code>
+      <Text>DMR SHORT TERM SUPPORT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8009</Code>
+      <Text>Scientifc Software Integration</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Putting the Clouds in Context: Statistical Machine Translation with MapReduce</AwardTitle>
+    <AwardEffectiveDate>07/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2011</AwardExpirationDate>
+    <AwardAmount>200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gia-Loi Le Gruenwald</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Statistical machine translation (SMT) promises to bridge the language divide in today's multi-cultural and multi-faceted society. Systems capable of converting text from one language into another have the potential to transform how diverse individuals and organizations communicate. Despite recent successes, we see two critical impediments to continued progress in translation technology: (1) the development of systems depends on access to large amounts of data, and the growth of available resources has far outpaced increases in the performance of individual computers; and (2) current systems for the most part do not take the context of what they are translating into account. With few exceptions, systems translate sentence by sentence, and do not differentiate whether the input text is a newswire article or a children's book. This project advances the state of the art in SMT by addressing both issues. Since divide-and-conquer techniques running on multiple processors are currently the only practical solutions to large-data problems, we must develop scalable algorithms that can exploit large computer clusters. MapReduce is an attractive framework for tackling these challenges since it hides low-level distributed processing issues such as synchronization, fault tolerance, etc., allowing the researcher to focus on actually solving the problem. By coupling network analysis with cross-language information retrieval techniques, we can build rich, multilingual contextual models that will guide an SMT system in translating different types of text. We focus on cross-language enrichment of Wikipedia as an application for demonstrating this technology. Although Wikipedia has emerged as a valuable repository of human knowledge, it has yet to transcend the language barrier. For the most part, contributors work in silos defined by languages, without the benefit of knowledge that is being accumulated elsewhere. The potential broader impact of this project is no less than knowledge dissemination across language boundaries, which will serve to enrich the lives of all the world's citizens.</AbstractNarration>
+    <MinAmdLetterDate>06/18/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/18/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0836560</AwardID>
+    <Investigator>
+      <FirstName>Philip</FirstName>
+      <LastName>Resnik</LastName>
+      <EmailAddress>resnik@umiacs.umd.edu</EmailAddress>
+      <StartDate>06/18/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jimmy</FirstName>
+      <LastName>Lin</LastName>
+      <EmailAddress>jimmylin@umd.edu</EmailAddress>
+      <StartDate>06/18/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

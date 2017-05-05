@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPA-CSA: Virtualization-Aware Architectures to Accelerate Network I/O Processing</AwardTitle>
+    <AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proposal ID: 0811834 &lt;br/&gt;Title: Virtualization-Aware Architectures to Accelerate Network I/O Processing &lt;br/&gt;PI name: Bhuyan, Laxmi N. &lt;br/&gt;Institution: University of California-Riverside &lt;br/&gt;&lt;br/&gt;ABSTRACT&lt;br/&gt;&lt;br/&gt;The current application servers consist of high-performance computing, web and e-commerce servers, proxies, database servers, and multimedia servers, all of which need high rates of network I/O processing. The protocol-processing overhead in these servers dominates the CPU execution time. Power and thermal constraints have forced CPU vendors to turn to core multi-processing (CMP) instead of frequency scaling to increase performance. Complimentary with CMP is surging industry interest in virtualization for diverse uses including server consolidation and sharing of various resources. However, several studies have shown that virtualization brings significant extra overhead to network I/O.&lt;br/&gt;&lt;br/&gt; The project explores new architectural techniques in virtualized environment that reduces the network I/O overhead through the following approaches:&lt;br/&gt;? Measurement techniques are developed to trace the life of a packet in a virtualized environment with multi-core server and 10 Gigabit Ethernet. Architectural statistics like instruction types, IPC, and cache misses, etc. are measured and compared with the results of the guest O/S protocol. The study reveals architectural bottleneck points in network I/O processing.&lt;br/&gt;? Techniques are developed for intelligent interrupt scheduling, TCP onloading, affinity-based core scheduling, and domain-to-core-mapping to show that the performance is enhanced to a great extent.&lt;br/&gt;? The project implements several architectural techniques, such as ISA optimization for protocol stack, incorporation of network cache and direct cache access, memory copy engines, and CPU+NIC integration; and proves their superiority in performance of a virtualized I/O system. &lt;br/&gt;? In order to evaluate new architectural ideas, a cycle-accurate full system simulator is designed that can evaluate virtualized IO operations. The simulation software is made available to researchers.</AbstractNarration>
+    <MinAmdLetterDate>07/15/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811834</AwardID>
+    <Investigator>
+      <FirstName>Laxmi</FirstName>
+      <LastName>Bhuyan</LastName>
+      <EmailAddress>bhuyan@cs.ucr.edu</EmailAddress>
+      <StartDate>07/15/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7352</Code>
+      <Text>COMPUTING PROCESSES &amp; ARTIFACT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

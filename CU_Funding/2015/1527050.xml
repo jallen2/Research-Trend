@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: A Separation Kernel for Mixed Criticality Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will develop a new operating system for mixed criticality embedded systems, such as those found in avionics, automotive, robotics, factory automation and healthcare domains. In mixed criticality systems, there is a combination of application and system components with different safety, importance and timing requirements. For example, in an avionics system, the in-flight entertainment system is considered less critical than that of the flight control system. Security is also a key factor in the design of mixed criticality systems. Security measures should be taken to enforce data confidentiality and system integrity even in the presence of untrusted users. Preventing malicious attacks from compromising the behavior or accessing the data of highly-critical services is an important security concern. &lt;br/&gt;&lt;br/&gt;A major challenge to mixed criticality systems is the safe, predictable and secure isolation of separate components with different levels of criticality. Less critical tasks should not be allowed to interfere with the timing and otherwise correct operation of mission critical tasks. &lt;br/&gt;Safety guarantees should be met to ensure software and hardware failures do not compromise highly critical task operation. Failure of highly critical tasks or services can have devastating consequences.&lt;br/&gt;&lt;br/&gt;Multi- and many-core processors are being increasingly used in mixed criticality embedded systems, due in part to their power, performance and price benefits. Many such processors also support hardware virtualization, including Intel VT-x, AMD-V and certain ARM Cortex processors. This research project will leverage the combination of multiple cores and hardware virtualization features on emerging processors, to develop a separation kernel for mixed criticality systems. Tasks and services of different criticality levels will be separated into different isolated "sandboxes", each responsible for a collection of hardware processing cores, memory and I/O devices. This work builds on an earlier prototype system, called "Quest-V". Quest-V allows sandboxed services to directly access available resources without involving a heavyweight hypervisor, as is the case in traditional virtual machine systems. Most existing virtual machine systems have been designed for server class computing. So, investigating techniques to build safe, secure and predictable mixed criticality systems on emerging hardware platforms suitable for low-cost embedded computing applications will be an important component of this project.&lt;br/&gt;&lt;br/&gt;This award will extend Quest-V to support novel real-time fault detection and recovery strategies not be possible with traditional system approaches. We also hope to gain a greater understanding of the hardware features needed to support secure and predictable partitioning of machine resources in mixed criticality systems. The outcomes of this work will lead to a new system design with the potential to have impact on many areas of computing where lives, money and security concerns are at stake.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527050</AwardID>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>West</LastName>
+      <EmailAddress>richwest@cs.bu.edu</EmailAddress>
+      <StartDate>08/18/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

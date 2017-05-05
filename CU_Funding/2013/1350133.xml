@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Scaling up Modeling and Statistical Inference for Massive Collections of Time Series</AwardTitle>
+    <AwardEffectiveDate>06/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>313074</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Consider the task of predicting influenza rates at a very large set of spatial locations. Modeling each region independently does not leverage the information from related regions and can lead to poor predictions, especially in the presence of missing observations. Likewise, imagine estimating the value of every house in the United States. Capturing trends within a neighborhood is key; however, each neighborhood only has a few recent house sales. The challenges presented by these increasingly prevalent massive time series are endemic to a wide range of applications, from crime modeling for police resource allocation to forecasting consumer trends and social networks: the individual data streams often include only infrequent observations such that each alone does not provide sufficient data for accurate inferences. However, the structured relationships between them offer an opportunity to share information. A key question is how to discover these relationships. &lt;br/&gt;&lt;br/&gt;This project takes a computationally-driven Bayesian nonparametric approach, trading off flexibility and scalability, to address the challenges of massive collections of infrequently observed time series. Our approaches exploit correlation among the data streams, e.g., among related regions, while enabling data-driven discovery of sparse dependencies. The multi-resolution and modular forms also allow incorporation of heterogeneous side information. Key to the success of the proposed methods is scalable Bayesian posterior inference. We focus on (i) parallel computations exploiting sparse graph dependencies, (ii) multi-resolution inference, and (iii) online algorithms for dependent data.&lt;br/&gt;&lt;br/&gt;This project represents an ambitious cross-disciplinary effort, integrating ideas from machine learning, systems, engineering, and statistics. The work addresses a largely ignored question in the discussion on big data: How to cope with modeling and computational issues when the data has crucial structure across time, especially arising from individually sparse and disparate measurement sources. The tools developed will significantly broaden the scope of scientific questions that can be addressed. Results from this work will be publicly disseminated, including through open source software, and our industry partners aim to transition the technology into real-world systems. This project also involves developing (i) exciting and intensive programs harnessing existing infrastructure, UW DawgBytes, to increase the exposure of K-12 students, and especially girls, to machine learning; and (ii) curriculum training students in both statistical and computational thinking.&lt;br/&gt;&lt;br/&gt;For further information, see the project website at http://www.stat.washington.edu/~ebfox/CAREER.html.</AbstractNarration>
+    <MinAmdLetterDate>06/10/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/03/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1350133</AwardID>
+    <Investigator>
+      <FirstName>Emily</FirstName>
+      <LastName>Fox</LastName>
+      <EmailAddress>ebfox@uw.edu</EmailAddress>
+      <StartDate>06/10/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

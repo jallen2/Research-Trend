@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Approximate Computing on Real World Data Using Representation and Coding</AwardTitle>
+    <AwardEffectiveDate>08/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2019</AwardExpirationDate>
+    <AwardAmount>383000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chengshan Xiao</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The diminishing benefits from traditional transistor scaling has coincided with an overwhelming increase in the rate of data generation. Expert analyses show that in 2011, the amount of generated data surpassed 1.8 zeta bytes and will increase by a factor of 50 until 2020. To overcome these challenges, both the semiconductor industry and the research community are exploring new avenues in computing. Two of the promising approaches are acceleration and approximation. Among accelerators, Graphic Processing Units provide significant compute capabilities. Graphic Processing Units, originally designed to accelerate graphics functions, now are processing large amounts of real-world data that are collected from sensors, radar, environment, financial markets, and medical devices. As Graphic Processing Units play a major role in accelerating many classes of applications, improving their performance and energy efficiency has become imperative. This project leverages the fact that many applications that benefit from Graphic Processing Units are amenable to imprecise computation. This characteristic provides an opportunity to devise approximation techniques that trade small losses in the output quality for significant gains in performance and energy efficiency. This project aims to exploit this opportunity and develop a comprehensive framework for approximation in Graphic Processing Units along with effective quality control mechanisms based on coding theory. Energy efficiency is arguably the biggest challenge of the computing industry. To maintain the nation's economic leadership in this industry, it is vital to develop solutions, such as this project, that address the fundamental challenges of energy-efficient computing. The computing industry has reached an era in which many of the innovative techniques, such as this work, crosses the boundary of multiple disciplines, including computer architecture, information theory, and signal processing. Thus, it is imperative to educate a workforce that not only deeply understands multiple disciples, but also can innovate across their boundaries. This project provides a foundation for such education and research. This project will produce benchmarks, tools and general infrastructure. These artifacts will be made publicly available and will be integrated in the Georgia Tech and Harvard curricula. To transfer these technologies, the principle investigators have established close contacts with several companies. Besides the customary routes academics use to disseminate results, the principle investigator will continue organizing workshops on approximate computing. The principle investigator is also coauthoring a book on approximate computing, which will include results from this project. The investigators are committed to diversity and inclusion of undergraduate, underrepresented, and high school students and are currently mentoring students from all groups that will continue throughout this project. &lt;br/&gt;&lt;br/&gt;This project will first develop an accelerated architecture for Graphic Processing Units, which leverage an approximate algorithmic transformation for faster and more energy efficient execution. The core idea is to use neural models to learn how a region of code behaves and replace the region with a hardware accelerator that is tightly integrated within the many cores of the Graphic Processing Units. Second, inspired by Shannon's work and the success of random codes in providing reliable communication over noisy channels, this work will devise quality control solutions that utilize coding techniques to reduce the imprecision. The code is implicit in a sense that whenever an approximate output must be improved, its correlation with available exact outputs is exploited for constructing and decoding the code. Third, the project will study mechanisms that leverage the inherent similarity and predictability in the real-world data to address the memory bottlenecks in Graphic Processing Units. The main idea is to predict the values of a data load operation when it misses in the local on-chip cache and continue the computation without waiting for the long-latency response from the off-chip memory. To perform effective prediction, this project will develop multi-regime adaptive nonlinear time-varying dynamical models for the input data using our new theories of model matching.</AbstractNarration>
+    <MinAmdLetterDate>07/14/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/14/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1609823</AwardID>
+    <Investigator>
+      <FirstName>Hadi</FirstName>
+      <LastName>Esmaeilzadeh</LastName>
+      <EmailAddress>hadi@cc.gatech.edu</EmailAddress>
+      <StartDate>07/14/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Faramarz</FirstName>
+      <LastName>Fekri</LastName>
+      <EmailAddress>fekri@ece.gatech.edu</EmailAddress>
+      <StartDate>07/14/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7564</Code>
+      <Text>COMMS, CIRCUITS &amp; SENS SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>153E</Code>
+      <Text>Wireless comm &amp; sig processing</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>154E</Code>
+      <Text>Computat systems &amp; security</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

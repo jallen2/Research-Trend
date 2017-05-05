@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER-DynamicData: Dynamic Data-Driven Avionics Systems for Flight Decision Support in Emergency Conditions</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chengshan Xiao</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Dynamic Data Driven Avionics Systems (DDDAS) have the potential to endow aircraft with the ability to dynamically use sensor data to detect failure conditions and accurately simulate flight plans in order to support pilot decisions in emergency scenarios. PI Varela will investigate how to dynamically detect data errors and equipment failures by matching measured data to pre-computed error signatures and damage performance profiles. Once a failure type is detected, redundant data will be used to correct for instrument errors when possible and to increase the fidelity of an onboard self flight simulator. This research will enable virtual failure enhanced flight simulations to predict the outcome of different flight plans before they are executed. DDDAS will thus support better-informed decision making for pilots in emergency conditions and it will also be applicable to autonomous unmanned air and space vehicles. Furthermore, new mathematical techniques and associated software for data streaming analytics will likely be applicable to other domains, including health monitoring and spacesuit technologies. The PI intends to make all developed programming technology, run-time middleware, and flight data available to the community in open-source form.&lt;br/&gt;&lt;br/&gt;This research project will investigate methodologies and develop new techniques in several fundamental research directions as they pertain to the proposed DDDAS model: (1) This project will enhance dataflow concurrent programming to make it fault-cognizant and fault-tolerant. In particular, this work will extend the unbound and bound states of dataflow variables with a new dataflow variable state: correlated uncertainly bound. This enhancement will allow software developers to explicitly model distributed redundant data streams to be able to recognize and tolerate failures with quantified uncertainty. The project will also study the impact of this enhancement on the heterogeneity and asynchrony tolerance already afforded by the dataflow concurrent programming model. (2) This project will investigate extensions to logic programming to support stochastic reasoning. In particular, the PI will create language extensions to standard Horn clause-based knowledge bases to incorporate probabilities. Additional extensions will specifically support spatial and temporal data streams. Furthermore, the PI will create incremental reasoning algorithms to be able to recompute queries efficiently as applications dynamically receive new data. (3) Finally, this project will investigate cloud-based techniques for scalable data analytics. The PI will explore the use of hybrid (private and public) clouds for online (real-time) data analytics as well as for offline data storage and processing. Elasticity and scalability of data streaming, storage, and processing techniques on hybrid clouds will enable multi-criteria optimization. Policies will include optimizing for analytics performance, aircraft-to-cloud communication, and/or cost. &amp;#8232;The DDDAS model will be applied to flight decision support systems in emergency conditions. Specific activities will include: i) creating multi-fidelity models and incremental algorithms that will allow DDDAS to inject data from aircraft sensors dynamically, ii) formalizing the notion of aircraft damage/failure profiles, and iii) evaluating the new mathematical and computational techniques with actual flight accident data.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/04/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1462342</AwardID>
+    <Investigator>
+      <FirstName>Carlos</FirstName>
+      <LastName>Varela</LastName>
+      <EmailAddress>cvarela@cs.rpi.edu</EmailAddress>
+      <StartDate>09/04/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rensselaer Polytechnic Institute</Name>
+      <CityName>Troy</CityName>
+      <ZipCode>121803522</ZipCode>
+      <PhoneNumber>5182766000</PhoneNumber>
+      <StreetAddress>110 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>O395</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>153E</Code>
+      <Text>Wireless comm &amp; sig processing</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>5384</Code>
+      <Text>DATA AND DATA SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

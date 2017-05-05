@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Probabilistic Planning with Reduced Models</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>499987</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hector Munoz-Avila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Probabilistic planning is essential for the construction of autonomous systems that can operate robustly in the face of uncertainty---from simple household products to space exploration vehicles. As the range of the tasks performed by such systems grows, so does the complexity of planning. This project studies the foundations of automated planning with reduced models---models that include less detail on the problem at hand and thereby facilitate the development of faster planning algorithms. Renewed interest in planning with reduced models was prompted by the surprising success of determinization, which employs classical planning techniques that ignore uncertainty and creates new plans online whenever the exiting plan fails. The success of such methods at the first international probabilistic planning competition indicated their great potential, but recent works have also revealed significant drawbacks.&lt;br/&gt;&lt;br/&gt;The main goal of this project is to exploit the insights offered by successful methods for planning with reduced models, while exposing and addressing their inherent drawbacks. In particular, the project addresses four key challenges: (1) how to plan with a reduced model, yet factor in, to some limited extent, the complete model; (2) how to execute plans constructed for a reduced model, while minimizing the change of reaching a state for which no valid action is available; (3) how to perform planning and execution concurrently, exploiting all the available time to improve the plan; and (4) how to formulate this continual planning paradigm in a way that is amenable to a formal analysis, so that guarantees can be established on the overall performance. The project offers a comprehensive treatment of these challenges by introducing a new planning paradigm that generalizes the concept of determinization and creates a whole spectrum of reduced models that differ from each other along two key dimensions: the number of outcomes per state-action pair that are fully accounted for in the reduced model, and the number of occurrences of the remaining outcomes that are planned for in advance. The project offers fundamental contributions to planning and execution under uncertainty, placing previous works on reduced models in a broader context and shedding light on their effective use in practice. Project outcomes include new planning and plan execution algorithms, training undergraduate and graduate students in this area, and a range of outreach activities.</AbstractNarration>
+    <MinAmdLetterDate>08/03/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/03/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1524797</AwardID>
+    <Investigator>
+      <FirstName>Shlomo</FirstName>
+      <LastName>Zilberstein</LastName>
+      <EmailAddress>shlomo@cs.umass.edu</EmailAddress>
+      <StartDate>08/03/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>AMHERST</CityName>
+      <ZipCode>010039242</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: SDA: Collaborative Research: RUI: SCORE: Scalability-Oriented Optimization</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>252000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: XPS: FULL: SDA: Collaborative Research: SCORE: Scalability-Oriented Optimization&lt;br/&gt;&lt;br/&gt;Modern CPUs, which contain an increasingly large number of processing units or "cores", offer the promise of continued increases in performance as the number of cores increases. Unfortunately, it is notoriously difficult for programmers to fully take advantage of this processing power. Computations can be viewed as cars on a network of highways: we want traffic to flow as fast as possible without any crashes. Programming languages offer "synchronization operations"---the programmer equivalent of traffic lights---which improve safety but reduce speed. For large programs, managing the tension between the twin goals of safety (more lights) and performance (fewer lights) can be out of reach for all but expert programmers. This project, SCORE (scalability-oriented optimization), lifts this burden by automatically maximizing program performance while maintaining correctness. The intellectual merits of this work are the development of a suite of techniques to identify bottlenecks in programs, and transform their code or execution environment to eliminate those bottlenecks. The project's broader significance and importance are to enable non-expert programmers to achieve high performance on modern, multicore platforms, and thus dramatically increase the performance and efficiency of existing and new software; contributing to the national software research infrastructure; and increasing access to science research opportunities and training for students.&lt;br/&gt;&lt;br/&gt;As with optimizing compilation for sequential code, SCORE lifts the burden of concurrency optimization from programmers, letting them focus exclusively on getting the logic of their program right. By handling architectural and synchronization optimizations without programmer involvement, SCORE lets programmers deliver applications that portably and effectively harness a wide range of multicore architectures. SCORE comprises a suite of new dynamic analyses, static analyses, and runtime systems to enable scalability-oriented optimization. It uncovers bottlenecks and ranks them by the performance impact of removing them. This information guides a bottleneck-remediation dynamic analysis to identify a range of opportunities for concurrency optimizations. Finally, a code robustification phase augments the optimized code with lightweight checking and recovery code to ensure correct execution.</AbstractNarration>
+    <MinAmdLetterDate>07/17/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/17/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1439042</AwardID>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Freund</LastName>
+      <EmailAddress>freund@cs.williams.edu</EmailAddress>
+      <StartDate>07/17/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Williams College</Name>
+      <CityName>Williamstown</CityName>
+      <ZipCode>012672600</ZipCode>
+      <PhoneNumber>4135974352</PhoneNumber>
+      <StreetAddress>880 Main St.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

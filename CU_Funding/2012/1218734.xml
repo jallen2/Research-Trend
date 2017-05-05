@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Collaborative Research: Adaptive Automatic Parallelization</AwardTitle>
+    <AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2015</AwardExpirationDate>
+    <AwardAmount>249998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>To effectively exploit the power of multi-core processors, programs must be structured as a collection of independent tasks, where separate tasks execute on independent cores. The complexity of modern software makes it difficult for programmers to express their algorithms within this model, both due to the amount of program analysis needed to identify regions of code that can run in parallel, and the likelihood that different regions of code will be best suited by distinct, and possibly incompatible, models of parallel computing. In particular, some codes are best parallelized through speculative techniques, while others favor regular analysis, such as that provided by the polyhedral approach.&lt;br/&gt;&lt;br/&gt;The proposed research addresses fundamental issues in the creation of parallel programs through a novel combination of automatic and profile-driven techniques. The heart of the research is a robust system based on machine learning, through which a compilation tool can analyze a program, assess the suitability of a variety of parallelization techniques to that program, and then apply the most promising techniques automatically. At run-time, the program will also employ learning to adapt its behavior according to inputs and environment. Furthermore, the programmer will be given a profile-driven feedback mechanism, in order to guide the tool to refine its parallelization of the program, and guide the program's self-tuning behavior. In conjunction with the creation of this system, new algorithms and tools for speculative parallelization and large-scale program analysis will be invented. Prototypes and source code will be distributed as open-source software.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/04/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218734</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Cavazos</LastName>
+      <EmailAddress>cavazos@cis.udel.edu</EmailAddress>
+      <StartDate>09/04/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Delaware</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>197162553</ZipCode>
+      <PhoneNumber>3028312136</PhoneNumber>
+      <StreetAddress>210 Hullihen Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Delaware</StateName>
+      <StateCode>DE</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

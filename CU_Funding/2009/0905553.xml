@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Medium: Longview: Querying the Future Now</AwardTitle>
+    <AwardEffectiveDate>08/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>1200001</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frank Olken</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;Traditional database systems are designed to provide the user with a&lt;br/&gt;clear picture of past states of the world as is represented in the&lt;br/&gt;database. Recently, stream processing systems are introduced to&lt;br/&gt;produce near real-time answers for those applications applications&lt;br/&gt;that require up-to-date information. Thus, we see a trend toward&lt;br/&gt;shrinking the ?reality gap? to zero. But for some applications, even&lt;br/&gt;real-time is not good enough. There is often a desire to get out in&lt;br/&gt;front of the present by delivering predictions of future events to&lt;br/&gt;take advantage of opportunities or to avert calamity. Security&lt;br/&gt;applications are a good example since they are typically interested in&lt;br/&gt;preventing a breach rather than simply reporting that one has&lt;br/&gt;happened. There is currently no database system that can effectively&lt;br/&gt;serve as a generic platform to support such predictive applications.&lt;br/&gt;&lt;br/&gt;This project aims to fill this gap by designing and building a&lt;br/&gt;prototype database system called "Longview" to enable data-centric&lt;br/&gt;predictive analytics. Longview facilitates the use of statistical&lt;br/&gt;models to analyze historical and current data and make predictions&lt;br/&gt;about future data values and events. Users can plug new predictive&lt;br/&gt;models into the system along with a modest amount of meta-data, and&lt;br/&gt;the system uses those models to efficiently evaluate predictive&lt;br/&gt;queries.&lt;br/&gt;&lt;br/&gt;Longview treats predictive models as first-class citizens by&lt;br/&gt;intelligently managing them in the process of data management and&lt;br/&gt;query optimization. This involves automatically building models and&lt;br/&gt;determining when and which model(s) to apply to answer predictive&lt;br/&gt;queries. This also involves creating and using the proper physical&lt;br/&gt;data structures to facilitate efficient model building, selection, and&lt;br/&gt;execution. Longview handles both streaming and historical queries. In&lt;br/&gt;fact, many streaming queries need efficient access to an archive of&lt;br/&gt;past values, making it necessary to seamlessly combine both stream and&lt;br/&gt;historical processing. Finally, Longview investigates "white-box"&lt;br/&gt;model support, in which the database leverages the operational&lt;br/&gt;semantics and representation of models to improve performance.&lt;br/&gt;&lt;br/&gt;Longview's goal is to make it much easier to build predictive&lt;br/&gt;analytics applications in data intensive situations. Seamlessly&lt;br/&gt;combining data and model management is key to make the process of&lt;br/&gt;computing with predictions far easier to express and more efficient&lt;br/&gt;than the current ad-hoc application-level approaches. The resulting&lt;br/&gt;technology also allows for a better understanding and support for&lt;br/&gt;user-defined functions in database systems.&lt;br/&gt;&lt;br/&gt;Longview is initially used for a real-world sensor-based tracking&lt;br/&gt;application and a predictive web portal for easy experimentation with&lt;br/&gt;different models and data sets. Further information on the project can&lt;br/&gt;be found on the project web page: &lt;br/&gt;http://database.cs.brown.edu/projects/longview/</AbstractNarration>
+    <MinAmdLetterDate>07/10/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/10/2009</MaxAmdLetterDate>
+    <ARRAAmount>1200001</ARRAAmount>
+    <AwardID>0905553</AwardID>
+    <Investigator>
+      <FirstName>Eli</FirstName>
+      <LastName>Upfal</LastName>
+      <EmailAddress>eli@cs.brown.edu</EmailAddress>
+      <StartDate>07/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ugur</FirstName>
+      <LastName>Cetintemel</LastName>
+      <EmailAddress>ugur@cs.brown.edu</EmailAddress>
+      <StartDate>07/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Stanley</FirstName>
+      <LastName>Zdonik</LastName>
+      <EmailAddress>sbz@cs.brown.edu</EmailAddress>
+      <StartDate>07/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7429</Code>
+      <Text>CCLI-NATIONAL DISSEMINATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

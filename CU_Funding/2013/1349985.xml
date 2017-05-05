@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Infrastructure for Research Data Registration and Interpretation</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>99986</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Robert Chadduck</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CNRI is proposing to develop a framework and a related set of infrastructural tools that will greatly improve the ability of research organizations to register scientific data sets, either those they hold directly or those which they have funded and which are held elsewhere, and expose them for discovery, analysis, and further processing. The project will build the tools and low-level APIs to be suitable for use by data producers as well as organizations that are expert in metadata and data organization.&lt;br/&gt;&lt;br/&gt;There is no widely adopted infrastructure currently in place for sharing research data. Individual pieces certainly exist, especially within given domains, but transparent and seamless sharing of scientific data requires a level of standardization and acceptance that simply doesn't exist today. To realize the potential of widely available scientific data, it must be discoverable, reference-able, and understandable, and it must be so without the investment of enormous amounts of time and effort on the part of those who are providing the data or those consuming the data. Research institutions currently expose their data through institution-specific web sites and APIs. The PI propose to build a pair of registries that will enable the use of a common API as well as the ability to federate registries across institutions when it makes sense, without requiring the existing underlying storage and management systems to change. We also propose to design basic metadata schemas to be used in those registries. &lt;br/&gt;&lt;br/&gt;The first of the two registries is a metadata registry in which data sets can be registered and described. A common API will be built both for the registration process as well as for access to the resulting metadata objects. Each metadata object and, if required, each data set, will be given a unique, persistent identifier. These identifiers will resolve to the metadata objects and data sets respectively and their assignment will be part of the deposit API. We will also enable related objects to be associated with each other through the registry and through identifier resolution, depending on the specific cases in hand. This will be transparent to users of the access API. &lt;br/&gt;&lt;br/&gt;The second of the two registries is a type registry. The metadata objects and data sets will each be typed and the type registry will provide the information needed to decipher those types. The goal is to be able to answer the question of, given a specific identifier or piece of data, what does it represent and how should I interpret it. This interaction will be made as transparent as possible to the access API. The interaction between these two registries is key to the proposed framework. &lt;br/&gt;&lt;br/&gt;The proposed deliverables will include an open source release of the metadata registry and the type registry software, the basic metadata schemas applicable for those registries, and a prototype service that demonstrates the infrastructure capability by federating research data from at least two sources.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/04/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1349985</AwardID>
+    <Investigator>
+      <FirstName>Laurence</FirstName>
+      <LastName>Lannom</LastName>
+      <EmailAddress>llannom@cnri.reston.va.us</EmailAddress>
+      <StartDate>09/04/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Giridhar</FirstName>
+      <LastName>Manepalli</LastName>
+      <EmailAddress>gmanepalli@cnri.reston.va.us</EmailAddress>
+      <StartDate>09/04/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Corporation for National Research Initiatives (NRI)</Name>
+      <CityName>Reston</CityName>
+      <ZipCode>201915434</ZipCode>
+      <PhoneNumber>7036208990</PhoneNumber>
+      <StreetAddress>1895 Preston White Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

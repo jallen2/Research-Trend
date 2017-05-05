@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Reducing The Graphical User Interface's Consumption of Power on Mobile Devices</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>384297</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gurdip Singh</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Mobile devices have increased their energy demand as they have acquired new capabilities. A decade ago, users might have had to re-charge their mobile devices once a week; now it is common to have to re-charge them daily. This increased energy demand is in part due to the constant polling that a mobile device performs to determine whether an input, such as a gesture, an email message, or a cellular call, has been received. The polling, even when the device is idle and in the user's pocket, constantly rouses the CPU and prevents it from being put into low power, energy-conserving states. This energy inefficient 'pull' model has been necessitated by the fact that input devices traditionally have been 'mute' when they receive an input. Thus in order to ensure that an input is promptly processed, the CPU is forced to query each input device multiple times per second to determine if the device is holding an input. Recent technological advances now enable input devices to immediately notify the CPU when an input has arrived. This advance allows us to investigate an alternative 'push' model that puts the CPU to sleep while no inputs are present and awakens the CPU only when an input is actually received. Hence the CPU no longer needs to consume power while the mobile device sits idle in the user's pocket. Additionally, newer mobile devices have multiple CPU cores, some of which are slower, lower power consuming cores that awaken faster when the CPU has been asleep. We can place the software that directs inputs to apps on one of these lower power consuming cores and the apps themselves on the faster, higher power consuming cores. This placement has two benefits. First, some inputs can be ignored, and if an input can be handled and discarded on the lower power core, then the higher power consuming cores do not need to be awakened. Second, if the input must be handled by an app, the higher power core can be warmed up while information about the input is gathered and staged for the app on the lower power core.&lt;br/&gt;&lt;br/&gt;In order to realize this push model, the locus of control for event handling will move from the application into the kernel. This new placement will necessitate 1) the development of kernel routines for event dispatching, 2) the development of a kernel-level display server that allows the process scheduler to know which processes are input driven, and 3) the modification of the process scheduler so that it can de-schedule input-driven processes as needed. We will first develop a push model for inputs received by graphical user interfaces and then extend it to generic system I/O such as sensors and GPS signals. We plan to modify the Android runtime (ART) to work with the push model in order to profile actual apps to determine how much power savings, and potentially reduced latency, can be achieved with our proposed model. Our research should have the desirable broader impact of both reducing the frequency with which mobile devices need to be recharged and reducing the environmental impact of mobile devices by reducing the amount of energy they consume. Another broader impact is that the proposed techniques should work for cellular and Wi-Fi handling apps and for desktop computers as well.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617198</AwardID>
+    <Investigator>
+      <FirstName>Wei</FirstName>
+      <LastName>Gao</LastName>
+      <EmailAddress>weigao@utk.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Bradley</FirstName>
+      <LastName>Vander Zanden</LastName>
+      <EmailAddress>bvz@eecs.utk.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Tennessee Knoxville</Name>
+      <CityName>KNOXVILLE</CityName>
+      <ZipCode>379960003</ZipCode>
+      <PhoneNumber>8659743466</PhoneNumber>
+      <StreetAddress>1 CIRCLE PARK</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

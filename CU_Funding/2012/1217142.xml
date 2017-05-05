@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Single-grid Multi-level Solvers for Coupled PDE Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>450415</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this project is to develop and study a special class of multilevel methods that combine techniques from the Geometric Multigrid (GMG) and Algebraic Multigrid (AMG) methodologies, which we refer to as the "single-grid multilevel method" (SGML). The focus is discretized partial differential equations, for which detailed information on the underlying geometric grid is generally available to the user. The research team is designing solvers that use information from the finest grid (hence termed the single-grid method) to select a simple and fixed coarsening that allows for explicit control of the overall grid and operator complexities of the multilevel solver. The central new idea that we are investigating concerns the design and analysis of algorithms for adaptive construction of the MG relaxation scheme when used as a smoother. In contrast to existing AMG methods, in which the smoother is fixed and coarsening is the key component in the setup phase, SGML will construct the smoother in the setup phase to complement its simple geometry-based coarsening process. It should be noted that the algebraic construction of the smoother can also benefit from using properties of the geometric grid, for example, to obtain a suitable partitioning of the unknowns in parallel. The SGML approach (together with the many of the promising algebraic techniques for constructing the MG interpolations developed over the last decade) is also under consideration. The PI and co-PIs, though, are focusing on the SGML method because of its ability to explicitly control complexity, which in turn allows for (nearly) optimal load balancing and predictable communication patterns, such that the method is well suited for parallel computing. &lt;br/&gt;&lt;br/&gt;Overall, the iterative solvers under development are designed to be implemented in open source parallel codes and made available to the scientific computing community. This will provide a computational framework for future algorithm research and development in related areas as well as powerful tools for simulation. In summary, the proposed methodology constructs solvers using all the information available to increase the efficiency of numerical modeling and simulation of physical phenomena on parallel multi-core computing architectures. Educational activities include the training of graduate students.</AbstractNarration>
+    <MinAmdLetterDate>07/12/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217142</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Brannick</LastName>
+      <EmailAddress>brannick@psu.edu</EmailAddress>
+      <StartDate>07/12/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jinchao</FirstName>
+      <LastName>Xu</LastName>
+      <EmailAddress>xu@math.psu.edu</EmailAddress>
+      <StartDate>07/12/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ludmil</FirstName>
+      <LastName>Zikatanov</LastName>
+      <EmailAddress>ltz1@psu.edu</EmailAddress>
+      <StartDate>07/12/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

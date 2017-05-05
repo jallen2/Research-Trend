@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Medium:Collaborative Research:Holistic, Cross-Site, Hybrid System Anomaly Debugging for Large Scale Hosting Infrastructures</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2019</AwardExpirationDate>
+    <AwardAmount>250789</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Large-scale shared hosting infrastructures such as multi-tenant cloud computing systems have become increasingly popular by allowing users to lease resources on-demand in a cost-effective way. As multiple tenants may share computing resources, hosting infrastructures are complex systems and prone to various system anomalies. Although software developers often perform rigorous offline testing, many subtle bugs only manifest themselves during large-scale production run. Many anomalies such as those where the system does not crash but fails to behave as expected are hard to reproduce and diagnose using existing techniques. Existing system anomaly diagnosis work can be broadly classified into two categories: 1) the black-box schemes which do not require source code and are suitable for online production-site diagnosis, and 2) the white-box schemes which require source code and expensive code instrumentation and are suitable for development site, offline diagnosis. Although white-box schemes provide fine-grained diagnosis, large-scale production hosting infrastructures are reluctant to adopt them due to their high-overhead and intrusive system recording approaches.&lt;br/&gt;&lt;br/&gt;The overarching objective of this project is to explore an innovative cross-site system anomaly debugging approach that intelligently integrates production-site black-box diagnosis with development-site white-box debugging into a more powerful hosting infrastructure debugging framework. This project will develop techniques for development-site, offline white-box debugging that takes the production-site fault inference results as guidance to find the exact anomaly causes. The project will focus on diagnosing non-crashing system anomalies (e.g., performance degradation, service outage, software hang, unexpected halt) that are common in real world hosting infrastructures but are difficult to debug using existing techniques. &lt;br/&gt;&lt;br/&gt;Techniques developed in this project will generate significant impact on improving the robustness of real world hosting infrastructures. The PIs will develop new course modules on the hosting infrastructure debugging for both graduate and undergraduate classes they regularly teaches. This project will develop programming courseware based on the research prototypes developed in this project. The PIs will use their power of role model and a set of outreach activities to recruit more female students to pursue systems research. The PIs will disseminate their results and collected data broadly through publication and technology transfer. Developed software artifacts and experimental datasets will be released for public use.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/16/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1513942</AwardID>
+    <Investigator>
+      <FirstName>Xiaohui</FirstName>
+      <LastName>Gu</LastName>
+      <EmailAddress>gu@csc.ncsu.edu</EmailAddress>
+      <StartDate>08/16/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Guoliang</FirstName>
+      <LastName>Jin</LastName>
+      <EmailAddress>gjin2@ncsu.edu</EmailAddress>
+      <StartDate>12/18/2015</StartDate>
+      <EndDate>08/16/2016</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

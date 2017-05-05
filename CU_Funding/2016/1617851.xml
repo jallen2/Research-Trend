@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Sublinear Algorithms for Graph Optimization Problems</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Very-large scale graphs routinely arise in applications where the data describes pairwise relationships among a set of objects. Some standard examples include the Web graph, social networks, and biological networks. The prevalence of such large data sets has led to a rapidly growing interest in the design of sublinear algorithms, that is, algorithms whose computational resource requirements are substantially smaller than the input size. As vast amounts of networked data is being collected and processed in diverse application domains, sublinear algorithms that accurately compute and describe relevant properties of the data will increasingly play an important role in computing on such data. The goal of this project is to develop sublinear algorithms for several fundamental graph optimization problems. The specific graph problems studied in this project are of both theoretical and practical interest, and are among the most well-studied problems in combinatorial optimization. Additionally, a study of these problems through the lens of sublinear algorithms is likely to yield new insights into computational aspects of these fundamental problems. The research proposed here will go hand-in-hand with educational and student-training initiatives, including mentoring and training of undergraduate and graduate students, and teaching in programs that introduce high-school students to exciting ideas in theoretical computer science.&lt;br/&gt;&lt;br/&gt;The research focus of this project is broadly divided into three parts. In the first part, the PIs consider streaming algorithms for graph problems where an input graph is revealed as a sequence of edge insertions and deletions. Some representative problems studied in this part include matching and cut problems in graphs. While both cuts and matchings have received considerable attention in the streaming literature, several important questions concerning their computability in the streaming model remain unresolved. In the second part, they consider communication-efficient protocols in a distributed setting when the input graph is partitioned across multiple sites. This model offers a natural abstraction for distributed computation and is closely related to the streaming model. A representative problem here is to understand the communication complexity of the maximum matching problem. The third part of this project investigates a new model for sketching graphs that consist of a (large) static part and a (small) dynamic part. The goal here is to understand if there exist compact sketches for several fundamental graph problems whose size is proportional to the size of the dynamic part of the input graph such that any updates to the dynamic part can be applied directly to the sketch.</AbstractNarration>
+    <MinAmdLetterDate>05/20/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/20/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617851</AwardID>
+    <Investigator>
+      <FirstName>Sanjeev</FirstName>
+      <LastName>Khanna</LastName>
+      <EmailAddress>sanjeev@cis.upenn.edu</EmailAddress>
+      <StartDate>05/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

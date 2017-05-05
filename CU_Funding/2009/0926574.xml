@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Topology-Aware MPI Communication and Scheduling for Petascale Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2013</AwardExpirationDate>
+    <AwardAmount>459940</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daniel Katz</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract &lt;br/&gt;This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5). &lt;br/&gt;&lt;br/&gt;Modern networks (like InfiniBand and 10GigE) have capability to provide topology, routing and also network status information at run-time. This leads to the following broad challenge: Can the next generation petascale systems provide topology-aware MPI communication, mapping and scheduling which can improve performance and scalability for a range of applications? This challenge leads to the following research questions: 1) What are the topology- aware communication and scheduling requirements of petascale applications? 2) How to design a network topology and state management framework with static and dynamic network information? 3) How to design topology-aware point-to-point and collective communication schemes (such as broadcast, all-to-all, all-reduce) in an MPI library? 4) How to design topology-aware task mapping and scheduling schemes? and 5) How to define and design a flexible topology information interface? A synergistic and comprehensive research plan, involving computer scientists from The Ohio State University (OSU) and computational scientists from the Texas Advanced Computing Center (TACC) and The Univ. of Calif., San Diego, San Diego Supercomputer Center (SDSC), is proposed to address the above challenges. The research will be driven by a set of applications (PSDNS, UCSDH3D, AWM-Olsen and MPCUGLES) from established NSF computational science researchers running large scale simulations on the Ranger system and other NSF HEC systems. The transformative impact of the proposed research is to develop topology-aware MPI software and a framework for using derived topology information for scheduling integration in order to maximize petascale application performance. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The proposed research is a collaborative and synergistic activity between computer scientists and computational scientists and thus, will have significant impact in deriving guidelines for designing, deploying and using next generation petascale systems. The proposed research directions and their solutions will be used in curriculum of the investigators to train graduate and undergraduate students. The established national-scale training and outreach programs at TACC and SDSC will be used to disseminate the results of this research to HEC users and developers. Research results will also be disseminated to the multiple collaborating organizations of the investigators (national laboratories and industry) to enable impact on their software products and applications. The modified MVAPICH2 library (currently being used by more than 840 organizations) and SGE scheduler plug-in will be available to the HEC community in an open-source manner. Case-studies from this research will be presented at the MPI Forum (OSU is a member of this forum) to in&amp;#64258;uence the design of the upcoming MPI-3 standard and other MPI libraries.</AbstractNarration>
+    <MinAmdLetterDate>08/13/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/13/2009</MaxAmdLetterDate>
+    <ARRAAmount>459940</ARRAAmount>
+    <AwardID>0926574</AwardID>
+    <Investigator>
+      <FirstName>William</FirstName>
+      <LastName>Barth</LastName>
+      <EmailAddress>bbarth@tacc.utexas.edu</EmailAddress>
+      <StartDate>08/13/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Karl</FirstName>
+      <LastName>Schulz</LastName>
+      <EmailAddress>karl@tacc.utexas.edu</EmailAddress>
+      <StartDate>08/13/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

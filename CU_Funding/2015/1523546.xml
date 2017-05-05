@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Low Latency Scheduling for Data Centers</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A data center is the backbone of any modern computational infrastructure. Therefore, it is of utmost importance to operate data center at high resource utilization and low latency to build a high-performance computation system. The primary goal of this project is to develop such a data center.&lt;br/&gt;&lt;br/&gt;Historically, the data center architecture has been inspired by congestion control in the Internet, where decisions are made at the end-points in a distributed manner. This has led to robust, scalable architecture for data center, but suffers from high latency and low resource utilization. In contrast to the Internet congestion control, scheduling in a switch ? core of modern high-bandwidth Internet router ? fundamentally relies on the ability to exercise centralized control. Over the past two decades, much progress has been made in the context of switch scheduling resulting into algorithm with high resource utilization and extremely low latency. Therefore, by applying design principles from switch scheduling, there is a potential to achieve data center architecture that has high resource utilization and low latency. In summary, there is a massive opportunity for developing extremely low-latency, high-performance scheduling architecture for data center by deriving design principles from Internet routers rather than Internet congestion control. This is precisely the focal point of this project. &lt;br/&gt;&lt;br/&gt;There are two major challenges in achieving this goal. First, developing an implementable and high-performance solution for switch scheduling. The existing theoretically optimal solutions, recently developed by PI, are too complex to implement. Therefore, developing a simple implementation of such a solution is required. This project will achieve this goal by utilizing randomization (a la Markov Chain Monte Carlo) and mean-field approximations from spin glass theory in Statistical Physics. Second, transforming a scheduling algorithm for a switch to a scheduling algorithm for data center is challenging. This project shall develop an emulation framework that will allow for such a transformation in a seamless manner. This will be achieved by utilizing connections between flow-level scheduling with packet-level scheduling inspired by reversible queuing networks.&lt;br/&gt;&lt;br/&gt;Intellectual Merit: This project will advance the design and analysis of implementable scheduling algorithms for communication networks. Intellectually, this will advance theory of randomized approximation algorithm, approximation techniques from statistical physics and emulation approaches from queuing network. The successful outcome of this project will suggest that it is better to architect a data center using principles behind the design of classical telephone network and ATM network rather than that of Internet congestion control. &lt;br/&gt;&lt;br/&gt;Broader Impacts: The successful outcome of this project will pave way for the development of low latency and efficient data centers. This, in turn, will allow for developing computational infrastructures that were not feasible before. Given the central importance of high-performance computational infrastructure across disciplines, successful outcome of this project will have a broad impact. This work will be of interest to currently vibrant networking industry where start-ups and big organizations alike are trying to develop the next generation data center riding on the software defined networking philosophy. In a sense, this work will provide a path to achieve their end goal. The proposed research will be disseminated to the community via publications in journals, conferences and workshops. The research outcome is also likely to be integrated in the graduate networking course that PI regularly teaches at MIT.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1523546</AwardID>
+    <Investigator>
+      <FirstName>Devavrat</FirstName>
+      <LastName>Shah</LastName>
+      <EmailAddress>devavrat@mit.edu</EmailAddress>
+      <StartDate>08/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Resilient Decentralized Estimation and Control for Cooperative Rigid Body Multivehicle Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jordan Berg</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This collaborative research program will significantly advance autonomous navigation and control capabilities for cooperative multivehicle systems, by incorporating realistic vehicle and communication models, and resilient decentralized estimation and control strategies. The results will be applicable, for example, to swarms of micro air vehicles and formations of spacecraft. Powerful analytic techniques exist to control individual vehicles, to represent the interactions of networked systems, to accommodate communication delays, and to account for uncertainty. This project will address the substantial technical obstacles that stand in the way of integrating these various results in a unified framework. The ability to exploit large numbers of interconnected vehicles to perform practical operations is increasingly useful -- even necessary -- in applications including exploration, search and rescue, agriculture, weather monitoring, surveillance, satellite geodesy, and environmental monitoring. Integrated educational efforts include demonstrations to high school students of robotic vehicles and multi-agent network control simulations.&lt;br/&gt;&lt;br/&gt;Current approaches to multi-vehicle estimation and control designs invoke strong simplifying assumptions, such as modeling individual vehicle dynamics by a point mass or by a single- or double-integrator; assuming that all vehicles have identical dynamics and uncertainty characterization; and neglecting communication delays, or assuming that they are known or constant. The resulting idealized controllers have limited functionality under real-world conditions. This project strives to overcome these limitations by using diverse techniques from robust, nonlinear, and hybrid control theory, graph theory, and geometric mechanics. The multivehicle system is described by a unique, global, and singularity-free representation, as a network of heterogeneous rigid bodies evolving on separate copies of the special Euclidean group SE(3) -- that is, on the space of rigid translations and rotations in three dimensions. The inter-vehicle communication topology is specified by a time-varying graph with heterogeneous, connection-dependent time delay. Global, robust and resilient estimation and control schemes will be based on a Lyapunov-Morse-Krasovskii functional approach, and implemented using decentralized algorithms, that is, each vehicle will require only local information to compute its control action. The results will be validated with laboratory-scale experiments, and will advance the system-theoretical foundations of decentralized estimation and control, and enable more capable, robust, and autonomous multi-vehicle systems.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1561836</AwardID>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Butcher</LastName>
+      <EmailAddress>ebutcher@email.arizona.edu</EmailAddress>
+      <StartDate>07/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Arizona</Name>
+      <CityName>Tucson</CityName>
+      <ZipCode>857194824</ZipCode>
+      <PhoneNumber>5206266000</PhoneNumber>
+      <StreetAddress>888 N Euclid Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7569</Code>
+      <Text>Dynamics, Control and System D</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>030E</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>034E</Code>
+      <Text>Dynamical systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8024</Code>
+      <Text>Complex Systems</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

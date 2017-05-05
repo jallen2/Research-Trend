@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Smal: k-Greedy Drawing of Graphs and Their Applications</AwardTitle>
+    <AwardEffectiveDate>10/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>104694</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Routing is one of the most important algorithmic problems in networking. Traditional routing is done by constructing routing tables via routing protocols. Such a solution is space inefficient and it requires considerable setup overhead, which makes it infeasible for some networks such as wireless sensor networks. Recently, geometric routing has been proposed as an alternative approach. Geometric routing often uses virtual coordinates of the nodes to compute routing paths. The virtual coordinates of the vertices are computed by running graph drawing algorithms on them. The simplest geometric routing is greedy routing, in which a vertex simply forwards messages to a neighbor that is closer to the destination. The first problem for greedy routing is its theoretical applicability. In order for greedy routing to always succeed, for every pair of vertices u and v in the network, there must be a distance-decreasing path from u to v. Unfortunately, not every graph can be drawn so that distance-decreasing paths exist between every pair of vertices. The second problem for greedy routing is its practical feasibility: the virtual coordinates in a greedy drawing have to be succinct. The combination of the two problems is a significant hurdle for the applicability of greedy routing. The aim of this project is to tackle these greedy routing problems by introducing and studying a new notion of graph drawing: k-geometric embedding, in which each node of a network can be mapped into up to k virtual locations in the target metric space. For two nodes u and v in the network, the smallest distance among all their virtual locations is defined as the distance of these two nodes. In particular, this project will study k-greedy drawing, which is defined to be a k-geometric embedding in which distance-decreasing paths always exist.&lt;br/&gt;&lt;br/&gt;The intellectual merits of this research include the following: (i) the new concepts will open a new area of graph drawing and strengthen the connection between graph drawing and network routing; (ii) the theory developed will make greedy routing feasible for more kinds of networks. Consequently, greedy routing may become a truly practical alternative. The broader impacts of this research include the following: (i) the results obtained from this research will have impact on graph theory, graph drawing, and geometric routing, especially greedy routing; (ii) the research results will be incorporated into computer science education.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017366</AwardID>
+    <Investigator>
+      <FirstName>Huaming</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>hzhang@cs.uah.edu</EmailAddress>
+      <StartDate>07/30/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Alabama in Huntsville</Name>
+      <CityName>Huntsville</CityName>
+      <ZipCode>358051911</ZipCode>
+      <PhoneNumber>2568246120</PhoneNumber>
+      <StreetAddress>301 Sparkman Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Alabama</StateName>
+      <StateCode>AL</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

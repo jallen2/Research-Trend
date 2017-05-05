@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Fluid-structure interaction with multi-layered structures: a new class of partitioned schemes</AwardTitle>
+    <AwardEffectiveDate>08/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>280858</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Fluid-structure interaction (FSI) problems arise in many applications. They include multi-physics problems in engineering such as aeroelasticity and propeller turbines, as well as biofluidic application such as self-propulsion organisms, fluid-cell interactions, and the interaction between blood flow and cardiovascular tissue. A comprehensive study of these problems remains to be a challenge due to their strong nonlinearity and multi-physics nature. To make things worse, in many biological applications the structure is composed of several layers, each with different mechanical characteristics. This is, for example, the case with arterial walls. A FSI solver that simulates the interaction between an incompressible, viscous fluid and a multi-layered structure would be an indispensable tool for the computational studies of this class of problems. To date, there are no such FSI solvers for hemodynamics, and the work proposed here makes a first step in this direction. The investigators are developing a set of stable loosely-coupled partitioned schemes for solving a class of nonlinear moving boundary, fluid-multi-structure interaction problems. The proposed schemes are based on a novel implementation of the Lie operator splitting, which is designed in such a way that the energy of the discretized problem mimics the energy of the continuous problem. The proposed program opens up a new field within the area of FSI problems, bringing to light several new features that have not been studied before, such as the study of the regularizing effects of fluid-structure interfaces with mass. The proposed class of schemes will be implemented and optimized for high performance computing using an open source library of solvers called LifeV. This will make the products of this research accessible to a large set of users involving a broad range of applications.&lt;br/&gt;&lt;br/&gt;This is an exciting, novel study requiring the development of original mathematical and computational techniques motivated by important applications in cardiovascular flow. The investigators are developing a computational software that will, for the first time, capture the interaction between different layers of the human arterial walls as they interact with pulsating blood flow. This study is motivated by the most recent advances in ultrasound speckle tracking methods, which reveal that in high adrenaline situations, there is significant strain between different layers within arterial walls. It has been noted that the role of this phenomenon in the development of cardiovascular disease has not been explored yet. The computational models developed in this study will provide an indispensable tool for the study of the influence of this phenomenon on the physiology and pathophysiology of the human cardiovascular system. The results from this research will have impact across different scientific disciplines through an open source code, which will be freely available to users. The work proposed here promises to develop a strong partnership between the University of Houston, the University of Pittsburgh, Emory University, and the Texas Medical Center in Houston. The broader impacts will be further achieved through student education, mentoring of students and junior faculty, and organization of interdisciplinary conferences/workshops. Both investigators are women with a track record in education and mentoring women and minorities, and this practice will continue throughout this project.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318763</AwardID>
+    <Investigator>
+      <FirstName>Martina</FirstName>
+      <LastName>Bukac</LastName>
+      <EmailAddress>mbukac@nd.edu</EmailAddress>
+      <StartDate>07/29/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Suncica</FirstName>
+      <LastName>Canic</LastName>
+      <EmailAddress>canic@math.uh.edu</EmailAddress>
+      <StartDate>07/29/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Houston</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>772042015</ZipCode>
+      <PhoneNumber>7137435773</PhoneNumber>
+      <StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

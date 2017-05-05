@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: A Complementarity-Free Contact Model for Robotics Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>86600</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Massimo Ruzzene</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The main goal in this collaborative research project is to advance the state of the art in realistic robot simulation by developing reasonably accurate contact models for rigid body dynamics that are both robustly and efficiently solvable. Since the times of Newton and Leibniz, the modeling of rigid body dynamics has been a tremendous success story. However, when rigid bodies come into contact and when that contact includes Coulomb friction, standard force-acceleration models sometimes fail. In such cases, a smooth solution is theoretically not even possible. A set of contact models that address this problem has been developed, derived from the well-established Signorini-Fichera (S-F) complementarity conditions. However, there is some evidence that these conditions are not accurate for impacting (rather than smoothly contacting) rigid bodies. This project will investigate situations in which the complementarity conditions are called into question, and will develop a new approach to address three critical shortcomings, present in varying degrees in state of the art contact models: (i.) their exponential worst-case solution times; (ii.) their inability to find solutions even though one exists; (iii.) their numerical brittleness. This project will investigate and evaluate new contact models that, by virtue of eliminating complementarity conditions, may not suffer from these shortcomings; in tandem, the project will use elastodynamic finite element analysis and physical experimentation in order to evaluate model accuracy for impacting rigid bodies.&lt;br/&gt;&lt;br/&gt;This project will impact a broad range of technologies, including aerospace, manufacturing, and civil engineering. In the near term, the project will enable the simulation of complex robot environments that help roboticists fine-tune both mechanical design and control algorithms. The computational models developed will be made public via the open-source Moby dynamics library. Additionally, participation in STEM is broadened through mentoring of students.</AbstractNarration>
+    <MinAmdLetterDate>09/01/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/01/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1100579</AwardID>
+    <Investigator>
+      <FirstName>Dylan</FirstName>
+      <LastName>Shell</LastName>
+      <EmailAddress>dshell@cs.tamu.edu</EmailAddress>
+      <StartDate>09/01/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas A&amp;M Engineering Experiment Station</Name>
+      <CityName>College Station</CityName>
+      <ZipCode>778454645</ZipCode>
+      <PhoneNumber>9798477635</PhoneNumber>
+      <StreetAddress>TEES State Headquarters Bldg.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7478</Code>
+      <Text>DYNAMICAL SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>034E</Code>
+      <Text>Dynamical systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>036E</Code>
+      <Text>CIVIL INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1057</Code>
+      <Text>CIS BASE RESEARCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>CVIS</Code>
+      <Text>CIVIL INFRASTRUCTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

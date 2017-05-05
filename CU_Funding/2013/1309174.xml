@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Advancing Theory and Computation in Statistical Learning Problems</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>150000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research is composed of four related statistical learning projects. The first two projects are theoretical. In the first, the investigator will study of degrees of freedom (i.e., the effective number of parameters) of adaptive modeling techniques. It has been shown that variable selection procedures based on the L1 norm, such as the lasso, exhibit control over their effective number of parameters, since adaptivity here is counterbalanced by shrinkage in coefficient estimation. This project instead considers adaptive procedures that do not employ shrinkage, such as best subset selection, in which the effective number of parameters is (comparatively) greatly inflated. In the second project, the investigator will examine trend filtering, a recently proposed nonparametric regression estimator fit by penalizing the L1 norm of discrete derivatives. Trend filtering estimates can be computed efficiently (e.g., using the work of the third project), but their theoretical properties are not well-understood. The goal is to study the rate of convergence of trend filtering estimates over broad function classes, and make detailed comparisons to existing nonparametric regression estimators (such as smoothing splines, locally adaptive regression splines, etc.). The last two projects are computational. The third project is focused on efficient computations for the generalized lasso path algorithm. The generalized lasso is an estimator that encourages specific structural properties, as opposed to pure sparsity itself, using the L1 norm; one such example is the trend filtering estimator mentioned above. The fourth and final project is an extension of the idea behind stagewise regression to general convex regularization problems. Forward stagewise regression is a simple, scalable algorithm whose estimates can be seen as an approximation to the lasso regularization path. The stagewise extension to general problems produces efficient approximation algorithms for the group lasso, matrix completion, and more; approximation guarantees are unknown and will be studied. &lt;br/&gt;&lt;br/&gt;Statistical modeling, estimation, and inference are becoming integral aspects of problems in many scientific disciplines. As a result, the field of statistical learning---which broadly encapsulates these three statistical tasks---has witnessed a recent explosion of research. Arguably, current research in this field focuses on creating new methods or extending methods to new domains, and much less so on understanding existing methods. Instead, the investigator will pursue four projects aimed at (i) deepening our understanding of a few well-known (but not as well-understood) statistical learning techniques, and (ii) developing algorithms so that we can employ these techniques efficiently at a larger scale, and hence evaluate their performance. Code for such algorithms will be made freely available through open-source software. Potential applications of this work include the forecasting of medical diagnoses, the modeling of brain signals in neuroscience, and the development of recommender systems.</AbstractNarration>
+    <MinAmdLetterDate>06/27/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/19/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1309174</AwardID>
+    <Investigator>
+      <FirstName>Ryan</FirstName>
+      <LastName>Tibshirani</LastName>
+      <EmailAddress>ryantibs@cmu.edu</EmailAddress>
+      <StartDate>06/27/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

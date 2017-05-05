@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AitF: FULL: Collaborative Research: Practical Foundations for Software-Defined Network Optimization</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>372041</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Thyagarajan Nandagopal</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Society today critically depends on Internet services. The safety and performance of these Internet services in turn depends on the ability of individual networks to successfully&amp;#8203; manage and optimize their network configurations in reaction to a changing operating environment (e.g., sudden increases in traffic or attacks or changes in policy compliance requirements). Today, network operators often resort to ad hoc and brittle solutions that affect the safety and performance of the networks. The goal of this project is combine theory and practice to develop foundational mechanisms enabling network administrators to implement diverse network operations tasks. This project will develop abstractions for expressing a broad spectrum of network optimization tasks and algorithmic foundations to reason about and achieve optimal (or near-­optimal) solutions that will be better than current state-of-the-art. &amp;#8203;The project will develop and release open­-source toolkits that will dramatically reduce the time to prototype and deploy novel network management applications, and democratize these benefits for a larger audience. The project will lead to educational advances that help create a well­-rounded workforce capable of handling future technology challenges by applying transformational research that couples theory and practice. The project will actively encourage participation from underrepresented groups as part of the proposed work and mentor them to be future technology leaders.&lt;br/&gt;&lt;br/&gt;Software-­defined networking (SDN) is an emerging paradigm to simplify network management by moving policies embedded in the configurations of the network hardware to software running in centralized controllers. Realizing the potential benefits of SDN, however, currently requires significant theoretical and practical effort. Specifically, at the core of many SDN applications are complex optimization problems to tackle goals and requirements that arise in practice. These problems are ones for which good theoretical solutions are unknown.The goal of this project is to design and implement a novel framework that enables SDN application developers to express new application goals and constraints in a high-­level language, using a sound algorithmic approach to generate near­-optimal solutions, and then to generate compliant configurations that can be deployed to SDN control platforms directly. There are two requirements for this vision to be successful in practice: (i) the ability to express the requirements of a broad spectrum of applications and (ii)­­ generating provably optimal (or close ­to ­optimal) configurations, on a timescale that is responsive to application needs. The proposed research will investigate theoretical foundations and practical implementations to simultaneously achieve both goals. The project's contributions will include: (1) investigating the robustness of path-­based optimizations for a wide spectrum of SDN applications and developing algorithms for ensuring that such path­-based reformulations do not sacrifice efficiency; (2) designing richer abstractions for applications that require more dynamic network processing features and developing near­-optimal and practical algorithms for these applications; (3) designing efficient optimization-­preserving translations of solutions from such theoretical frameworks into practical network configurations; and (4) implementing these techniques in an end­-to-­end open-­source tool integrated with state­-of­-the-­art network management platforms.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/11/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1536002</AwardID>
+    <Investigator>
+      <FirstName>Anupam</FirstName>
+      <LastName>Gupta</LastName>
+      <EmailAddress>anupamg@cs.cmu.edu</EmailAddress>
+      <StartDate>08/26/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vyas</FirstName>
+      <LastName>Sekar</LastName>
+      <EmailAddress>vsekar@andrew.cmu.edu</EmailAddress>
+      <StartDate>08/26/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7239</Code>
+      <Text>Algorithms in the Field</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>012Z</Code>
+      <Text>AitF FULL Projects</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7556</Code>
+      <Text>CONFERENCE AND WORKSHOPS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

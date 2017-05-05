@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS:Small: Making Online Network Functions Fast and Compact</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The line speed of modern routers is reaching beyond OC-768 (40Gb/s) to 100Gb/s or even terabits per second. In order to keep up with such high throughput, online network functions for traffic measurement, packet scheduling, access control, and quality of service will have to be implemented using on-chip SRAM. However, fitting these network functions in fast but small on-chip memory represents a major technical challenge today. Many online functions rely heavily on several fundamental building blocks called online primitives for data processing and storage. Three fundamental online primitives are of particular importance: (1) spread estimators for measuring the number of distinct elements in each flow, (2) size estimators for measuring the size of each flow, and (3) high-performance Bloom filters for membership check against large data sets. They have numerous applications in service provision, capacity planning, billing, routing-table lookup, traffic measurement, firewall design, and intrusion detection. A key technical challenge is how to make online primitives both fast and compact. Being fast, the requirement is that they should make only one memory access or update one counter in the worst case when processing each packet. Being compact, the requirement is that they should use a minimum amount of SRAM memory and be able to handle a large, unpredictable number of flows. This project strives to fulfill the above requirements with new methodologies, called virtual bit vectors and virtual counting vectors, for online data storage and retrieval. The project consists of four research components: (1) one-memory-access compact spread estimators, (2) one-counter-update compact size estimators, (3) one-memory-access fast Bloom filters, and (4) architecture-aware online primitive designs.&lt;br/&gt;&lt;br/&gt;Broader Impact: The proposed research will advance our knowledge for designing large-scale online operations in a very tight on-chip memory space. New design approaches developed by this project are expected to improve the performance of modern routers and firewalls. In addition, because the basic data structures embodied in these fundamental online primitives are widely applicable in Computer Science, improvement in their performance can potentially have broad impact in other research areas. Research outcome will be disseminated through conference and journal publications. New educational materials will be developed to incorporate online network functions and research results from this project into graduate courses.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115548</AwardID>
+    <Investigator>
+      <FirstName>Jih-Kwon</FirstName>
+      <LastName>Peir</LastName>
+      <EmailAddress>peir@cise.ufl.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Shigang</FirstName>
+      <LastName>Chen</LastName>
+      <EmailAddress>sgchen@cise.ufl.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Florida</Name>
+      <CityName>GAINESVILLE</CityName>
+      <ZipCode>326112002</ZipCode>
+      <PhoneNumber>3523923516</PhoneNumber>
+      <StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

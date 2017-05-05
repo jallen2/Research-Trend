@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: An Optimization Framework for Understanding Deep Networks</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hector Munoz-Avila</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The past few years have seen a dramatic increase in the performance of pattern recognition systems due to the introduction of deep neural networks. However, the mathematical reasons for this success remain elusive. A key challenge is that the problem of learning the parameters of a neural network is a non-convex optimization problem, which makes finding the globally optimal parameters extremely difficult. Another challenge is that there is currently very limited theory about how the network architecture should be constructed (i.e., number of layers, number of neurons per layer, connectivity patterns, etc.). The goal of this project is to develop an optimization framework that provides theoretical insights for the success of current network architectures and guides the design of novel architectures with guarantees of global optimality.&lt;br/&gt;&lt;br/&gt;This project will develop a mathematical framework for the analysis of a broad class of non-convex optimization problems, including matrix factorization, tensor factorization, and deep learning. In particular, this project will study the problem of minimizing the sum of a loss function and a regularization function, both of which can be non-convex, but should satisfy a certain "positive homogeneity" property. By properly designing positively homogeneous regularizers that constrain the "network size," this project aims to show that, under certain conditions, all local minima are globally optimal, and one can find a global minimum from any initialization using a local descent strategy. A deeper understanding of the mathematical properties of deep networks will impact not only machine learning and optimization, where our understanding of non-convex problems continues to be very limited, but also application areas such as computer vision, speech and natural language processing, where deep networks currently give state-of-the-art results.</AbstractNarration>
+    <MinAmdLetterDate>06/07/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/07/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618485</AwardID>
+    <Investigator>
+      <FirstName>Rene</FirstName>
+      <LastName>Vidal</LastName>
+      <EmailAddress>rvidal@cis.jhu.edu</EmailAddress>
+      <StartDate>06/07/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Johns Hopkins University</Name>
+      <CityName>Baltimore</CityName>
+      <ZipCode>212182608</ZipCode>
+      <PhoneNumber>4105168668</PhoneNumber>
+      <StreetAddress>3400 N CHARLES ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

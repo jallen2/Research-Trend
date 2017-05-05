@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Algorithmic DNA Self-Assembly</AwardTitle>
+    <AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>166000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mitra Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Project Summary&lt;br/&gt;&lt;br/&gt;Self-assembly is a process by which simple objects assemble into complex structures under minimal or no external control. It is believed that self-assembly technology will ultimately permit precise and efficient fabrications of nanostructures. Self-assembly is common in nature but is not yet well understood from mathematical and programming (i.e., algorithmic) perspectives. There are many kinds of self-assembly. This project will focus on self-assembly of DNA molecules.&lt;br/&gt;&lt;br/&gt;Small molecules consisting of multiple DNA strands have been designed to act as four-sided building blocks (which are called tiles) for DNA self-assembly. Experimental work has demonstrated that these building blocks can effectively perform computation as well as assemble crystals. Some key aspects of the self-assembly process of such building blocks have been used to formulate a preliminary mathematical model called the abstract tile assembly model. This model extends Wang's mathematical theory of two-dimensional tilling by adding a natural mechanism for growth. The model consists of a set of square tiles. The four sides of a tile are each associated with a glue (which is implemented as a DNA strand). A special tile in the tile set is designated as the seed. Self-assembly proceeds by starting with the seed and then attaching copies of tiles from the tile set one by one to the growing seed whenever the total binding strength between a tile and the seed is no less than a threshold (which is implemented as the temperature in the tube).&lt;br/&gt;&lt;br/&gt;Intellectual Merit: This project is in the intersection of nanotechnology and computer science with a focus on exploring the potential and limitation of DNA self-assembly from the perspective of algorithms. &lt;br/&gt;The project will build on the PI's prior results and insights in this emerging field to explore theories of encoding algorithms into the glues of DNA tiles to guide the self-assembly process. Specifically, the project will investigate three interconnected research directions. These directions together will explore new ways to minimize the number of tiles with distinct glues (which is called the tile complexity) used to assemble a structure, to minimize the amount of time needed to assemble a structure, and to impose desirable structural properties on the assembly process as well as on the assembled structures. A common theme across these directions is to seek ways to automate the design of DNA self-assembly systems. Our approaches in this project will be theoretical, and we will design algorithms and prove complexity bounds for these directions. &lt;br/&gt;&lt;br/&gt;Broader Impacts: Algorithmic DNA self-assembly is both a form of nanotechnology and a model of computation. As a computational model, algorithmic DNA self-assembly first encodes a computer program for a given computational problem into the glues of DNA tiles. The tiles then bind with each other to execute the program to produce a DNA nanostructure, which in turn encodes the desired output of the computational problem. As a nanotechnology, the goal of algorithmic DNA self-assembly is to design glues to program a set of tiles to assemble into the desired nanostructure. The PI has taught a new course this past spring quarter (spring 2010) on Algorithmic DNA Self-Assembly at the level of advanced undergraduate students and first-year graduate students. The PI will continue to teach this course on a regular basis in the next few years either as a lecture-based course or as a seminar-based course. The results which the PI will obtain from this project will be incorporated into the course. This course introduces students to research opportunities in the intersection of algorithms and nanotechnology and more generally uses science-fiction-like research in DNA self-assembly to promote multidisciplinary research and thinking by students.&lt;br/&gt;&lt;br/&gt;Key Words: DNA self-assembly; algorithms; complexity theory; models of computation; nature-inspired computing; nanotechnology.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/12/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1049899</AwardID>
+    <Investigator>
+      <FirstName>Ming-Yang</FirstName>
+      <LastName>Kao</LastName>
+      <EmailAddress>kao@northwestern.edu</EmailAddress>
+      <StartDate>08/08/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northwestern University</Name>
+      <CityName>Evanston</CityName>
+      <ZipCode>602013149</ZipCode>
+      <PhoneNumber>8474913003</PhoneNumber>
+      <StreetAddress>1801 Maple Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7946</Code>
+      <Text>BIO COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7931</Code>
+      <Text>COMPUTATIONAL BIOLOGY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

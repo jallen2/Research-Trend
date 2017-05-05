@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Predicting protein structures with physical petascale molecular simulations</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>30000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rudolf Eigenmann</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>We have a new computational method (MELD) for predicting protein structures. Unlike others, it is based on physics of atomic interactions. The power of physical methods is that they help us understand how proteins perform their biological actions as catalysts, motors, pumps, transporters and transducers of energy and light. With such algorithms, computers can work hand-in-hand with experiments to provide narratives of the microscopic mechanisms of biology. In the past, physics-based structure prediction was much too computationally costly. The power of MELD is in harnessing weak external knowledge in a way that preserves the power of physical methods (satisfies Boltzmann's Law), and scales up to tackle larger problems of biology than before. &lt;br/&gt;&lt;br/&gt;Our work with MELD so far has shown that we can use atomistic molecular dynamics to fold 15 out of 20 small proteins to their correct native structures, and to fold 3 small proteins with very high accuracy in the blind test called CASP11 (last summer). No MD simulation can yet fold a protein larger than around 120 amino acids. But, most biologically important proteins are bigger. We have shown that MELD should scale well to larger systems. With this Blue Water allocation we hope to achieve the computational folding of larger proteins. The code we use and the way to implement it is already available in the public GitHub repositories as a plugin to the popular OpenMM molecular dynamics package. With Blue Waters' GPU resources, we hope to bring the power of atomistic MD to folding and mechanisms that can tell some of biology's most interesting stories.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1514873</AwardID>
+    <Investigator>
+      <FirstName>Alberto</FirstName>
+      <LastName>Perez</LastName>
+      <EmailAddress>alberto.perez17@gmail.com</EmailAddress>
+      <StartDate>08/05/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ken</FirstName>
+      <LastName>Dill</LastName>
+      <EmailAddress>dill@laufercenter.org</EmailAddress>
+      <StartDate>08/05/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7781</Code>
+      <Text>PETASCALE - TRACK 1</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

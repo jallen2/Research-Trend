@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Renewables: A New Framework in Power System Protection with High Levels of Renewable Generation</AwardTitle>
+    <AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>295024</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eyad Abed</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>High penetration of wind and photovoltaic (PV) generation in transmission and distribution systems poses a threat to maintaining security and dependability of the protection system using existing approaches. Historically, several major cascading outages have involved mis-operation or mis-coordination of protective relays. Such outages demonstrate that relay mis-coordination during stressed system conditions---concurrent high load demand, changes in circuit topology, equipment outages, and short-circuit fault conditions---can result in a fragile distribution network. In the past, variable generation was at a significantly lower level than at present and thus did not contribute to relay mis-coordination. With levels of wind and PV projected only to increase in the future, large-scale variable generation can present an additional point of vulnerability to the existing protection system. The objective of this project is to pursue the development of new tools for the fundamental understanding of how protection and control systems should operate in the presence of highly variable renewable energy sources. The project aims to develop a radically different framework and potential solutions built upon on model-based distributed relay intelligence, real-time dynamic relay settings, and stochastic optimization.&lt;br/&gt;&lt;br/&gt;In the envisioned framework, the calculation of relay operating settings is formulated as a stochastic optimization problem with real-time inputs from local relay intelligence, i.e., the predictive circuit model. The data collected by a relay is input to circuit simulations in order to accurately predict real-time fault currents at the relay location. Settings can then be adapted in real time based on updated generation profiles. Methods proposed in the literature for optimal relay settings have been limited and did not account for the stochastic nature of renewable energy sources. This project will develop a probabilistic formulation of optimal relay settings that naturally adapts to the randomness introduced by the high penetration of renewable generation. Input is provided from the predictive circuit models in the form of estimated remote system parameters for each individual relay. The optimization allows each relay to make the best possible decision based on known information (system structure and local measurements) and estimated values (non-local conditions) to update the optimal relay response in real time. The work will provide insight for protection methodologies that incorporate randomness introduced by renewable energy sources. The work will contribute to allowing increased penetration of renewable generation sources to the grid, which contributes to reduction of carbon emissions. The developed methods will be implemented in hardware, facilitating discussions with and technology transfer to industry.</AbstractNarration>
+    <MinAmdLetterDate>09/03/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/03/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1549769</AwardID>
+    <Investigator>
+      <FirstName>Surya</FirstName>
+      <LastName>Santoso</LastName>
+      <EmailAddress>ssantoso@ece.utexas.edu</EmailAddress>
+      <StartDate>09/03/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ned</FirstName>
+      <LastName>Dimitrov</LastName>
+      <EmailAddress>ned@austin.utexas.edu</EmailAddress>
+      <StartDate>09/03/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>155E</Code>
+      <Text>Electric power networks</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

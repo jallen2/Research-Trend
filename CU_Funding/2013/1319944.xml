@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CGV: Small: Collaborative Research: Theories, algorithms, and applications of medial forms for shape analysis</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>127123</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Shape analysis is a fundamental problem in computer graphics and vision. A significant body of research over the past few decades has centered around the medial axis, a classical geometric structure introduced by Blum in 1967. Not only does the medial axis provide a low-dimensional representation that captures both the shape and topology of the object, it also creates derivative shape descriptors that measure useful shape properties, such as thickness. This collaborative project that involves two partner institutions builds on that body of research and extends it in two important and related directions. First, the PIs will generalize the definition of medial axis to systemically define a sequence of medial representations of successively lower dimensionality (e.g., medial curve and medial point of a 3D object) that all inherit the essential properties of the medial axis. These representations, called medial forms, are useful in various applications such as shape matching and decomposition. While algorithms for computing low-dimensional skeletal structures are abundant, sound mathematical definitions have not yet been developed. Second, based on the medial forms, the PIs will introduce a set of shape descriptors that can characterize non-uniform (or anisotropic) expansion of shape. These descriptors will not only be able to differentiate plate-like and tubular parts, but also to measure the amount of plate-like stretching and tube-like elongation. Shape anisotropy is common in 3D objects, and is important for deriving knowledge from digital models, particularly in biological research. However, none of the existing descriptors can characterize this important aspect of 3D shape. The PIs will build on their recent study of 2D objects to develop the mathematical foundation and computational algorithms of medial forms of 3D objects, and will explore their use in analyzing shape anisotropy through several derivative shape descriptors. They will formalize the definitions of medial forms of a 3D object, and will examine their properties including their dimensionality, topology, and sensitivity to boundary perturbations. Based on the definitions, the PIs will develop efficient algorithms that create provably good approximations of the medial forms given discrete samples of an object. The PIs will explore how a variety of derivative anisotropy-aware descriptors, in the forms of either geometric skeletons or surface signature functions, complement existing descriptors in shape modeling applications (e.g., segmentation and matching) and in biological shape analysis.&lt;br/&gt;&lt;br/&gt;Broader Impacts: The new mathematical formulations and shape descriptors will contribute significantly to both the theoretical and applied side of computer graphics. The ability to characterize shape anisotropy will directly translate to more accurate and efficient analysis of shapes in various application domains, and the PIs will particularly explore their use in understanding biological shapes. The team will develop and distributable online software that implements the new algorithms. Students, both at the undergraduate and graduate level, will be actively recruited with an emphasis on diversity, and in addition project outcomes will be used in outreach programs at local middle- and high-schools.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/02/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319944</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Letscher</LastName>
+      <EmailAddress>letscher@slu.edu</EmailAddress>
+      <StartDate>08/06/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Erin</FirstName>
+      <LastName>Chambers</LastName>
+      <EmailAddress>echambe5@slu.edu</EmailAddress>
+      <StartDate>08/06/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Saint Louis University</Name>
+      <CityName>St Louis</CityName>
+      <ZipCode>631032006</ZipCode>
+      <PhoneNumber>3149773925</PhoneNumber>
+      <StreetAddress>221 N. Grand Blvd.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Missouri</StateName>
+      <StateCode>MO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

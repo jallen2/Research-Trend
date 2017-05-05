@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Statistical Methods for Prediction of Individual Sequences</AwardTitle>
+    <AwardEffectiveDate>07/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2011</AwardExpirationDate>
+    <AwardAmount>237237</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In many prediction problems that arise, for example, in computer security and computational finance, the process generating the data is best modeled as an adversary with whom the predictor competes. The broad goal of this research project is the analysis and design of statistical methods for complex prediction problems in an adversarial setting: a prediction strategy must predict any individual sequence almost as accurately as the best strategy in some comparison class. The research focuses on statistical methods, which are based on probabilistic models of the data, since (a) these methods are commonly used in practice; (b) there is evidence that these methods perform well in adversarial settings; (c) there are good prospects of exploiting the computationally efficient approaches that have been developed for probabilistic settings, which is especially important for high-dimensional problems; and (d) positive results in adversarial settings should provide better understanding of the robustness of statistical methods in probabilistic settings. The research aims are: to develop techniques for analyzing the performance of statistical methods, such as Bayesian methods, for the prediction of individual sequences; to improve the understanding of appropriate ways to measure the complexity of a probability model used by these methods; to elucidate the impact of computational simplifications (such as empirical Bayes approaches and MAP estimates) on the performance of these prediction strategies; and hence to develop design methodologies for computationally efficient statistical methods for complex adversarial prediction problems.&lt;br/&gt;&lt;br/&gt;There are many estimation and prediction problems for which it is appropriate to model the process generating the data as an adversary with whom the predictor competes. Such problems are common in information technology. For instance, in the problem of spam filtering, the aim is to label incoming email as either legitimate or spam, but at the same time, spammers try to design email messages that slip past these spam filters. Thus, the prediction problem is a two-player repeated game. Similar decision problems arise in computer network security (for instance, the problem of deciding whether network traffic is normal or the result of a denial-of-service attack) and in internet search (for instance, deciding if a highly linked web page is genuinely authoritative and should have a high page rank). In these problems, some fraction of the data seen by the prediction strategy is chosen by an adversary who aims to fool the prediction strategy. These adversarial problems are also common in financial applications. Suppose that the predictions that emerge from a financial time series analysis are used to optimize the allocation of capital across a portfolio. Then, in the short term, it is in the interests of other market players to act so as to diminish the returns of the portfolio, and thus render the predictions inaccurate. It is common for statistical methods, such as Bayesian methods, to be applied to these adversarial prediction problems, despite the fact that they are designed for probabilistic, rather than adversarial, models of the data. This research project aims to develop techniques to understand the inherent limitations on the performance of these prediction methods, and hence inform the design of more powerful prediction methods. It focuses on the predictive accuracy and computational efficiency of methods that are suitable for the complex and high-dimensional prediction problems that arise in practise.</AbstractNarration>
+    <MinAmdLetterDate>06/22/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/08/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0707060</AwardID>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Bartlett</LastName>
+      <EmailAddress>bartlett@stat.berkeley.edu</EmailAddress>
+      <StartDate>06/22/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

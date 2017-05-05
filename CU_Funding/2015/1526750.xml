@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Virtualizing Coordinated Resource Management of Flows on Handhelds with VIADUCT</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>499998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Handheld devices such as cell phones, tablets and wearables, are gaining&lt;br/&gt;rapid adoption in a ubiquitous world. Correspondingly, there is an&lt;br/&gt;explosion of very demanding and interactive applications such as media&lt;br/&gt;streaming, interactive games, video conferencing and social networking,&lt;br/&gt;that users are deploying on such devices. Despite tremendous&lt;br/&gt;improvements in the energy efficiencies of individual components found&lt;br/&gt;in these devices, piece-meal optimizations of hardware components are&lt;br/&gt;inadequate to accommodate the demanding needs of these applications that&lt;br/&gt;employ multiple CPU cores, accelerators, memory systems, system&lt;br/&gt;peripherals and sensors, concurrently in very sophisticated ways. Lack&lt;br/&gt;of coordination among system resources leads to low resource utilization&lt;br/&gt;and poor system-level energy efficiencies when running such&lt;br/&gt;applications. Rather than throw more hardware at this problem, this&lt;br/&gt;project proposes VIADUCT, which allocates and orchestrates system-level&lt;br/&gt;resources to boost parallelism and resource utilization for these&lt;br/&gt;platforms in a more energy-efficient fashion.&lt;br/&gt;&lt;br/&gt;Recognizing that many of these applications periodically process frames&lt;br/&gt;of data that need to flow in a pipelined manner through several hardware&lt;br/&gt;components within soft real-time bounds, VIADUCT creates a virtual&lt;br/&gt;channel per flow of such frames in an application. The channel holds&lt;br/&gt;resources allocated across all the hardware components, with runtime&lt;br/&gt;coordination to ensure seamless frame movements without the conventional&lt;br/&gt;interface inefficiencies across the components. Fine-grain scheduling&lt;br/&gt;and resource management leverages knowledge of high level semantics to&lt;br/&gt;provide Quality-of-Service (QoS) for each flow in the most&lt;br/&gt;energy-efficient fashion. The specific research contributions are in&lt;br/&gt;hardware interfaces, mechanisms and policies to chain the hardware&lt;br/&gt;components for creating a virtual channel for a flow, architecting the&lt;br/&gt;memory system as an efficient conduit to sustain this flow, and&lt;br/&gt;designing the system to sustain several concurrent flows. The project&lt;br/&gt;aims to provide a holistic evaluation testbed for such platforms amongst&lt;br/&gt;the broader research community, and also aims to involve&lt;br/&gt;under-represented groups in the research and enhance Penn State?s&lt;br/&gt;curriculum in related topics.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526750</AwardID>
+    <Investigator>
+      <FirstName>Chitaranjan</FirstName>
+      <LastName>Das</LastName>
+      <EmailAddress>das@cse.psu.edu</EmailAddress>
+      <StartDate>07/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anand</FirstName>
+      <LastName>Sivasubramaniam</LastName>
+      <EmailAddress>anand@cse.psu.edu</EmailAddress>
+      <StartDate>07/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mahmut</FirstName>
+      <LastName>Kandemir</LastName>
+      <EmailAddress>kandemir@cse.psu.edu</EmailAddress>
+      <StartDate>07/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Three-Dimensional Generalized Parallel Delaunay Mesh Generation for the Numerical Solution of Partial Differential Equations</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2009</AwardExpirationDate>
+    <AwardAmount>103823</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Lenore M. Mullin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this proposal is to study the development of new and&lt;br/&gt;efficient class of parallel guaranteed quality and three-dimensional&lt;br/&gt;(3D) mesh generation methods for real-time finite element computations&lt;br/&gt;on current and emerging parallel architectures. Specifically, we&lt;br/&gt;will: (1) generalize the point insertion theory for 3D guaranteed&lt;br/&gt;quality Delaunay mesh generation, (2) develop a parallel theoretical&lt;br/&gt;framework that can deploy this method with limited additional effort&lt;br/&gt;from sequential to multicore/multithreaded processors and eventually&lt;br/&gt;on clusters of multiprocessor nodes with multicore/multithreaded&lt;br/&gt;processors, (3) perform complexity analysis using the practical LogP&lt;br/&gt;model and (4) finally implement the first ever 3D parallel guaranteed&lt;br/&gt;quality mesh generation method using existing state-of-the-art fully&lt;br/&gt;functional sequential software and the parallel framework we will&lt;br/&gt;develop.&lt;br/&gt;&lt;br/&gt;The intellectual merit of this proposal is to derive an entire 3D&lt;br/&gt;region inside the circumscribed sphere, for the selection of Steiner&lt;br/&gt;point insertion. The novelty of the approach is that we have the&lt;br/&gt;flexibility to use many new positions for point insertion of Delaunay&lt;br/&gt;methods rather than one or two choices were used in the past; the&lt;br/&gt;additional choices create more opportunities to improve size&lt;br/&gt;optimality along with other application-centric criteria (multiple&lt;br/&gt;tissues/materials). In addition, for the first time ever, we can&lt;br/&gt;achieve code re-use for 3D geometries. The project will have broader&lt;br/&gt;impact on several scientific computing and engineering communities &lt;br/&gt;like mesh generation and bioengineering.</AbstractNarration>
+    <MinAmdLetterDate>09/13/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0750901</AwardID>
+    <Investigator>
+      <FirstName>Nikos</FirstName>
+      <LastName>Chrisochoides</LastName>
+      <EmailAddress>nikos@cs.odu.edu</EmailAddress>
+      <StartDate>09/13/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>College of William and Mary</Name>
+      <CityName>Williamsburg</CityName>
+      <ZipCode>231878795</ZipCode>
+      <PhoneNumber>7572213966</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2865</Code>
+      <Text>NUMERIC, SYMBOLIC &amp; GEO COMPUT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>2865</Code>
+      <Text>NUMERIC, SYMBOLIC &amp; GEO COMPUT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9237</Code>
+      <Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

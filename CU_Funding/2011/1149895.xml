@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Flexible Networks with Source Control</AwardTitle>
+    <AwardEffectiveDate>01/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2016</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Novel technologies such as software defined networking are changing the networking landscape by giving individual domains (such as ISPs) flexible control over their routers' behavior. Yet the Internet's interdomain routing architecture, which requires coordination among domains, remains mired in inflexibility. Indeed, many of the key shortcomings of the Internet's architecture --- including unreliability, inefficient resource allocation, and insecurity --- can be attributed in large part to inflexible routing. The Internet's BGP and IP protocols offer only a single path to each destination, and this path may be broken, inefficient, or insecure.&lt;br/&gt;&lt;br/&gt;This project is developing an approach to bring flexibility to the Internet's routing and forwarding architecture. To break through the current logjam of inflexible routing, the project is advancing source-controlled routing (SCR) as an architectural approach to enable fundamentally more flexible routing. Rather than embedding the routing decisions within the network, routing decisions are a parameter to the network chosen at the source, i.e., the user's device or one acting on its behalf. That flexibility yields solutions to multiple problems, including reliability, performance, and protection from certain traffic attraction attacks.&lt;br/&gt;&lt;br/&gt;To achieve a viable SCR architecture, the project is solving three key challenges: policy flexibility of the core architecture; security; and scalability. First, while past SCR architectures gave route control to users, they took away control from network owners and operators. The key need is "policy flexibility" in the architecture, to enable SCR without limiting network owners' control. The project is developing a formal theory of policy flexibility and designing an architecture which achieves high policy flexibility. Second, the project is quantifying the vulnerability of SCR architectures to denial-of-service attacks and developing techniques to limit the worst-case damage attackers can inflict. Third, the project is developing techniques for sources to utilize flexible routing in a scalable way, improving latency and reliability of Internet communications.&lt;br/&gt;&lt;br/&gt;Broader Impact.The result of this project will be the theoretical foundations, design, and implementation of an Internet architecture that offers significant gains to areas which are the most critical challenges for the Internet today --- including reliability, performance, and security. The project's theoretically-grounded research methodology, including a novel theory of protocol flexibility, will be integrated with education via development of material for a graduate-level "Theory of Computer Networks" course and survey papers. Results will be disseminated through publications, presentations, and a public software release.</AbstractNarration>
+    <MinAmdLetterDate>01/30/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/25/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1149895</AwardID>
+    <Investigator>
+      <FirstName>Philip Brighten</FirstName>
+      <LastName>Godfrey</LastName>
+      <EmailAddress>pbg@illinois.edu</EmailAddress>
+      <StartDate>01/30/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

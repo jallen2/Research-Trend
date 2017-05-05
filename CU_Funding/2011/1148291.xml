@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: A GPU-Enabled Toolbox for Solving Hamilton-Jacobi and Level Set Equations on Unstructured Meshes</AwardTitle>
+    <AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2016</AwardExpirationDate>
+    <AwardAmount>531999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A variety of application domains from geophysics to biomedicine employ some form of Hamilton-Jacobi (H-J) mathematical models. These models are a natural way to express conservation properties, and the two most prevalent H-J models seen in the literature are the Eikonal equation (a static H-J model based upon Fermat's Principle for determining minimal paths) and the Level-Set equations (a time-dependent H-J model used for addressing moving interface problems). The goal of this&lt;br/&gt;effort is to develop, test, document and distribute a collection of software tools for efficiently solving several classes of equations of H-J type -- in particular, Eikonal (minimal path) equations and Level-set equations -- on unstructured (triangular and tetrahedral) meshes using commodity streaming architectures. The PIs have previously demonstrated the feasibility of efficiently solving H-J equations on GPUs; this effort seeks to both scientific extend previous work as well as solidify the software into a publicly available tool suite.&lt;br/&gt;&lt;br/&gt;The intellectual merit of this effort is the development of efficient algorithmic strategies for mapping numerical methods for solving H-J equations on unstructured meshes to commodity streaming architectures. The proposed work will tackle several important technical challenges. One challenge is maintaining sufficient computational density on the parallel computational units (blocks), especially as we move to 3D unstructured meshes. A second technical challenge is the loss in efficiency that comes with communication between blocks. The solutions to these challenges will allow us to exploit currently available commodity streaming architectures that promising to provide teraflop performance on the desktop, which will be a boon for a variety of communities that rely on computationally expensive, simulation-based experiments. By overcoming the tedious and non-trivial step of developing and distributing software for solving H-J equations on unstructured meshes using commodity streaming architectures, the impact of this work has both longevity and ubiquity in a wide range of applications in diverse fields such as basic science, medicine, and engineering.</AbstractNarration>
+    <MinAmdLetterDate>06/25/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/31/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1148291</AwardID>
+    <Investigator>
+      <FirstName>Ross</FirstName>
+      <LastName>Whitaker</LastName>
+      <EmailAddress>whitaker@cs.utah.edu</EmailAddress>
+      <StartDate>06/25/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Kirby</LastName>
+      <EmailAddress>kirby@cs.utah.edu</EmailAddress>
+      <StartDate>06/25/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7478</Code>
+      <Text>DYNAMICAL SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8069</Code>
+      <Text>CDS&amp;E-MSS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7478</Code>
+      <Text>DYNAMICAL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

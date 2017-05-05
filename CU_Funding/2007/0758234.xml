@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Integer Programming Under Uncertainty</AwardTitle>
+    <AwardEffectiveDate>05/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2012</AwardExpirationDate>
+    <AwardAmount>380000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sheldon Jacobson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>PROJECT ABSTRACT &lt;br/&gt;Integer Programming under Uncertainty &lt;br/&gt;&lt;br/&gt;This grant provides funding to develop effective solution schemes for various dynamic integer programming (IP) models under uncertainty, and to apply these schemes to optimize models that deal with time dependent, on-demand networks. The models of uncertainty to be studied are: stochastic IP, chance-constrained IP, and robust IP. These are three of the fundamental approaches for dealing with uncertain data in optimization models. The first two approaches require probability distributions while robust optimization only requires uncertainty intervals on the data. However, in each of the three approaches, the resulting discrete optimization models cannot be solved efficiently by existing methodology. Stochastic, time-dependent IP models are extremely large-scale even when the underlying deterministic counterpart is of reasonable size. Chance-constrained and robust IP models are highly nonlinear and typically non-convex. The challenge is to develop theory and algorithms to overcome these difficulties. Our approach is to apply polyhedral integer programming, specifically mixing theory, to develop cutting plane strategies for the integer programming structures that arise under uncertainty. These results will be integrated with novel decomposition and branch-and-cut approaches to develop computationally effective algorithms. &lt;br/&gt;&lt;br/&gt;If successful, the results of this project will significantly advance the state of the art in cutting plane theory and in solving integer programming problems under uncertainty. Consequently, the results of this research project could lead to the use of integer programming under uncertainty in a variety of engineering applications. Currently, the commercial software used for discrete optimization in practice is essentially limited to solving deterministic problems. This research will be a significant step in making it possible to develop commercial software for the optimization of discrete, dynamic, stochastic systems. There is a great need for such decision support tools in optimizing on-demand networks that arise in transportation, supply chain, communication and power networks.</AbstractNarration>
+    <MinAmdLetterDate>05/12/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/12/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0758234</AwardID>
+    <Investigator>
+      <FirstName>George</FirstName>
+      <LastName>Nemhauser</LastName>
+      <EmailAddress>george.nemhauser@isye.gatech.edu</EmailAddress>
+      <StartDate>05/12/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Shabbir</FirstName>
+      <LastName>Ahmed</LastName>
+      <EmailAddress>sahmed@isye.gatech.edu</EmailAddress>
+      <StartDate>05/12/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

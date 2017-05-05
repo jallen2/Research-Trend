@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Medium: Collaborative: The Theory and Practice of Key Derivation</AwardTitle>
+    <AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>668764</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ralph Wachter</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most cryptographic applications crucially rely on secret keys that are chosen randomly and are unknown to an attacker. Unfortunately, the process of deriving secret keys in practice is often difficult, error-prone and riddled with security vulnerabilities. Badly generated keys offer a prevalent source of attacks that render complex cryptographic applications completely insecure, despite their sophisticated design and rigorous mathematical analysis. Even though key derivation plays a central role in the security landscape, it has received surprisingly little formal study within the cryptographic community, leading to a large disconnect between the theory and practice.&lt;br/&gt;&lt;br/&gt;In this project, several important scenarios for key derivation are examined for their capability to improve security with provable guarantees, including the use of random number generators (RNGs), passwords, and biometrics. In particular:&lt;br/&gt;&lt;br/&gt;- How RNGs are designed to properly combine the entropy gathering, randomness extraction and pseudorandom generation modules, while achieving the best possible subset of clearly defined security properties against a variety of adversarial scenarios.&lt;br/&gt;&lt;br/&gt;- How to reduce the effectiveness of ?offline dictionary attacks? when generating keys from passwords.&lt;br/&gt;&lt;br/&gt;- How biometrics can be safely reused to generate many secret keys across many applications raises several interesting questions, combining cryptographic security properties with those of error-correcting codes.</AbstractNarration>
+    <MinAmdLetterDate>06/21/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/21/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1314568</AwardID>
+    <Investigator>
+      <FirstName>Yevgeniy</FirstName>
+      <LastName>Dodis</LastName>
+      <EmailAddress>dodis@cs.nyu.edu</EmailAddress>
+      <StartDate>06/21/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

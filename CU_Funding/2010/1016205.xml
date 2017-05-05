@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Using Empirical Generalization to Develop Predictive Models of DBMS Processing</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2015</AwardExpirationDate>
+    <AwardAmount>505541</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Database management systems (DBMSes) are now an essential component of a vibrant information technology industry. Despite research and development efforts over several decades, DBMSes are not well understood. There is surprisingly little known about quite basic questions such as, how often does the optimizer pick the wrong plan for a query? does adding a physical operator for an algebraic operation always improve the effectiveness of query optimization, or is there a limit to the number of operators that can be practically accommodated? how do throughput and disk utilization depend on multiprogramming level? or when does thrashing occur?&lt;br/&gt;&lt;br/&gt;This project extends an existing laboratory information management system to develop and thoroughly test predictive models of centralized DBMSes. These models concern the role of schema complexity, effective operator set, and cardinality estimation errors on the plan chosen by the optimizer, the structure of the optimizer search space, and the interaction of multiprogramming level on throughput, disk utilization, and response time in predicting thrashing. These models predict important characteristics of DBMSes that share a common architecture, quantify the relative contributions of identified causal factors, and determine fundamental limits of that architecture.&lt;br/&gt;&lt;br/&gt;These models can be used to further improve DBMSes through engineering efforts that benefit from the fundamental understanding that this perspective can provide. Additionally, this novel research infrastructure, being made available to the community and to students via a web portal, encourages a culture of empirical generalization and the sharing of experimental results: http://www.cs.arizona.edu/projects/soc/sodb/</AbstractNarration>
+    <MinAmdLetterDate>08/01/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/21/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016205</AwardID>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>Snodgrass</LastName>
+      <EmailAddress>rts@cs.arizona.edu</EmailAddress>
+      <StartDate>08/01/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Arizona</Name>
+      <CityName>Tucson</CityName>
+      <ZipCode>857194824</ZipCode>
+      <PhoneNumber>5206266000</PhoneNumber>
+      <StreetAddress>888 N Euclid Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

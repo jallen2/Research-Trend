@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Collaborative Research: Exploration and Validation of Hardware Primitives for Security and Trust</AwardTitle>
+    <AwardEffectiveDate>07/31/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>136611</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Hardware-level security and trust in many of society's microelectronic-based infrastructures, e.g., transportation, energy, etc., is inadequate. This project investigates chip-level hardware primitives that are designed to improve the security and trust in such systems. In particular, many security mechanisms depend on a secret, unique identifier that is associated with the chip or board in the system. An embedded digital signature inserted by the manufacturer is not secure because it can be extracted by adversaries. A physical unclonable function (PUF) is a recent approach for providing an entire set of secure, unique identifiers for each chip. PUFs are chip-level primitives that leverage the intrinsic and random manufacturing variations of the process technology. A PUF that measures the resistance variations in the chip's power grid is investigated as a hardware primitive for providing secure, unique identifiers. Similarly, integrated circuit trust relates to the degree of confidence one has that a fabricated instance of a chip implements only those functions described in the original specification -- nothing more and nothing less. &lt;br/&gt;There are increasing opportunities for adversaries to secretly change a chip's function given the trend of the industry to disseminate the chip fabrication process over many organizations. "Trust but verify" is likely the only approach to dealing with this threat. To support this verification process, a set of hardware primitives are investigated that are designed to measure the parametric, analog characteristics of chip as a means of detecting any malicious logic that might have been inserted by an adversary. A chip built in an advanced technology is used to experimentally validate the PUF and hardware Trojan detection methods.</AbstractNarration>
+    <MinAmdLetterDate>01/04/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/28/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1114189</AwardID>
+    <Investigator>
+      <FirstName>Reza</FirstName>
+      <LastName>Mohammadpourrad</LastName>
+      <EmailAddress>reza2@umbc.edu</EmailAddress>
+      <StartDate>01/04/2011</StartDate>
+      <EndDate>03/28/2014</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Plusquellic</LastName>
+      <EmailAddress>jimp@ece.unm.edu</EmailAddress>
+      <StartDate>03/28/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of New Mexico</Name>
+      <CityName>Albuquerque</CityName>
+      <ZipCode>871310001</ZipCode>
+      <PhoneNumber>5052774186</PhoneNumber>
+      <StreetAddress>1700 Lomas Blvd. NE, Suite 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Mexico</StateName>
+      <StateCode>NM</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

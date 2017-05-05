@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Adaptive Brink-of-Failure Memory Architectures for Future Technologies and Workloads</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>499096</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computer systems are expected to provide correct outputs at all times, and are therefore operated very conservatively. Unfortunately, this conservativeness leaves significant performance untapped. The objective of this project is to capture this untapped performance by selectively relaxing the operating conditions while recovering from any resulting errors. The project will investigate if such a system is especially well suited for workloads that can tolerate occasional errors. If successful, the project will yield technologies that can boost performance and lay the foundations for new kinds of algorithms.&lt;br/&gt;&lt;br/&gt;Computer systems have generous timing margins so they can behave correctly in spite of parameter variations, voltage noise, temperature fluctuations, etc. The project attempts to shave these timing margins in the memory system to safely push its performance to its limits. The memory controller can handle different parts of the memory system differently, depending on the parameter variation that is observed. Such a capability will be even more vital in future technologies where parameter variations will mandate generous timing margins. When a memory controller operates on the brink of failure, some errors are inevitable. To cope with such errors, the memory system will be augmented with a tailor-made error correction system. The proposed memory system will be an excellent fit for emerging "approximate computing" workloads. In addition to simulation-based studies, the project will develop an FPGA prototype of the adaptive memory controller and will carry out an empirical analysis of timing margins in off-the-shelf commodity memory chips. The project spans multiple layers of the system stack, with key innovations to the hardware, operating system, programming models, and applications. The proposed work will increase the community's understanding of parameter variation and the merits of different approaches to exploit these variations. It will help create a new class of promising applications. The project will also support the educational mission at the University of Utah and various outreach efforts.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423583</AwardID>
+    <Investigator>
+      <FirstName>Rajeev</FirstName>
+      <LastName>Balasubramonian</LastName>
+      <EmailAddress>rajeev@cs.utah.edu</EmailAddress>
+      <StartDate>08/14/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

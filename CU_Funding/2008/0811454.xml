@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Silicon Calibrated Scan Based Timing Tests for Delay Defect Detection</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Project ID: CCF - 0811454&lt;br/&gt;Title: eSilicon Calibrated Scan Based Timing Tests for Delay Defect Detection&lt;br/&gt;PI name: Singh, Adit D. &lt;br/&gt;Institution: Auburn University, Alabama&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Abstract&lt;br/&gt;Microscopic manufacturing flaws, such as the localized narrowing of interconnection lines, via voids, and pin holes in insulating gate oxide, are a major reliability concern in nanometer digital integrated circuit technologies. Such defects are difficult to detect during production testing because they often do not cause catastrophic malfunction in the circuit; instead, circuit switching delays may be marginally increased along the signal paths containing the defect. Since a complex chip contains billions of circuit paths of varying lengths, and circuit clock timing is designed to accommodate the longest path delay, small delay defects on short paths can remain hidden within circuit timing slacks during post manufacturing testing. However, such defects can often cause errors under worse case operating conditions or degrade further under the stress of field operation to cause early life reliability failure. These small delay defects can potentially be detected through more aggressive timing tests, using faster than rated clock frequencies, to capture and expose any erroneous response due to the excessive delays along short paths. This requires the use of the scan design-for-test methodology which provides full access to the internal flip-flops in sequential designs, and can thereby allow circuit timing to be observed for single cycle operation. Scan delay tests check if signal propagation delays along the targeted paths in the circuit, activated by two vector delay test patterns, fall within the applied ?launch? to ?capture? clock period. However, because single cycle scan tests operate the circuit in a manner which is different from normal multi-cycle sequential operation, there is increasing evidence that the observed circuit timing may not reflect true circuit delays in normal continuous functional operation. Factors such as power supply noise, coupling and cross talk from abnormal switching activity, variations in die thermal profile, and ?clock stretching? can all significantly impact scan test timing. Normal manufacturing process variations further add to these test timing uncertainties, making the detection of small delay defects extremely challenging. This research takes the view that it may be impractical to observe true circuit functional timing with sufficient accuracy using a surrogate scan based timing test to reliably detect small delay defects. Instead, such defects are better detected by identifying abnormal switching delays (timing anomalies) through a comparison of timing test results from a matched population of parts. Here the scan tests are not used to test circuit timing against a fixed rated clock (e.g. as required for speed binning), but only to identify anomalous parts that display abnormal delays relative to the statistical norm for the population. Critically, this relative rather than absolute timing evaluation eliminates the need for the scan timing tests to accurately match functional timing. The impact of common mode factors such as power supply and coupling noise, clock stretching, etc. is factored out by the comparison test. Non-functional test inputs can also be used by the test, with multiple fast clocks, to achieve high coverage of small delay defects, even on short paths. Preliminary research has experimentally shown that if test responses from adjacent die are compared, delay defects of size less than 5% of the critical path can be reliably detected. This research is developing and evaluating a number of new methodologies to make such silicon ?calibrated? scan delay testing practical and commercially attractive. The new delay test methodologies will be evaluated using specially designed test chips. A longer term goal of the proposed research is to carry out experimental studies, in partnership with industry, to validate the methodologies developed on volume production parts. &lt;br/&gt;&lt;br/&gt;This research project will help improve the research capabilities of Alabama, an EPSCoR state. Results from the research will also be incorporated in advanced courses taught by the PI, both at Auburn and off campus, through the IEEE Test Technology Education Program. The PI works closely with the Historically Black Tuskegee University located near Auburn, including cooperating on an ongoing joint NSF Computing Research Infrastructure (CRI) grant in the VLSI testing area. Tuskegee students take graduate courses at Auburn University, and some are jointly advised by Auburn faculty. Tuskegee Ph.D. students, who have taken graduate courses with the PI, will be encouraged to participate in this research. This will further strengthen the research interaction between Auburn and Tuskegee, which is helping to attract minority U.S. citizens to graduate studies the computing field.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0811454</AwardID>
+    <Investigator>
+      <FirstName>Adit</FirstName>
+      <LastName>Singh</LastName>
+      <EmailAddress>adsingh@eng.auburn.edu</EmailAddress>
+      <StartDate>08/05/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Auburn University</Name>
+      <CityName>Auburn University</CityName>
+      <ZipCode>368490001</ZipCode>
+      <PhoneNumber>3348444438</PhoneNumber>
+      <StreetAddress>310 Samford Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Alabama</StateName>
+      <StateCode>AL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4710</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

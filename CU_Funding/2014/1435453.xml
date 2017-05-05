@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Optimization in an Uncertain World: A Unified Framework for Optimization Models Involving Adversaries</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>308469</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Georgia-Ann Klutke</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project involves the modeling and optimization of decision processes that unfold in stages over time. The explicit incorporation of time stages into models of complex systems is one approach to accounting for an important feature of real-world systems---the presence of adversarial entities whose potentially detrimental actions in the future may disrupt plans being made in the present. Such adversaries' can take the form of either difficult-to-predict random processes (such as the weather or economic conditions) or direct competitors who are actively seeking to disrupt operation of the system. Accounting for such adversaries is challenging from a computational standpoint because it involves implicit knowledge of all the ways in which the future might unfold as a result of a given action. This work is to understand and mitigate the impact of this complexity by developing techniques for compactly representing the effects of uncertainty using sophisticated mathematical techniques, with which, for example, one can intelligently determine a small set of "important'' scenarios whose consideration will still allow for determination of an optimal decision in the present that implicitly takes into account all possible future scenarios.&lt;br/&gt;&lt;br/&gt;The general class of optimization problems that will be studied in this project are those in which the variables can be partitioned into subsets whose values must be fixed in stages. The constraints of later stages depend both on the values of variables fixed in earlier stages and on the realized values of certain random variables. A key feature of the general framework is that the variables in each stage may be controlled by different decions-makers with different objective functions. This class includes two important and challenging special cases - multistage stochastic programming with recourse and multilevel programming. The features of these two classes are complimentary and there is much to be gained by development of a unified approach. The overall goal of this research is to develop computational methods for such models, focusing in particular on the case in which there are discrete variables.</AbstractNarration>
+    <MinAmdLetterDate>06/15/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/15/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1435453</AwardID>
+    <Investigator>
+      <FirstName>Theodore</FirstName>
+      <LastName>Ralphs</LastName>
+      <EmailAddress>tkr2@lehigh.edu</EmailAddress>
+      <StartDate>06/15/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Lehigh University</Name>
+      <CityName>Bethlehem</CityName>
+      <ZipCode>180153005</ZipCode>
+      <PhoneNumber>6107583021</PhoneNumber>
+      <StreetAddress>Alumni Building 27</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>072E</Code>
+      <Text>NETWORKS &amp; QUEUING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>077E</Code>
+      <Text>SIMULATION MODELS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

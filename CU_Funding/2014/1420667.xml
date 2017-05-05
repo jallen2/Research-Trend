@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Improving Crowd-Sourced Annotation by Autonomous Intelligent Agents</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>460000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Weng-keen Wong</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Supervised machine learning methods are arguably the greatest success story for Artificial Intellitence with a deep underlying theory and applications ranging from medical diagnosis and scientific data analysis to ecommerce recommender systems and credit-card fraud detection. Unfortunately, all these methods require labeled training data, which has been annotated by a human --- a time consuming and extremely expensive process. This project will use automated decision theory to control the annotation process, saving significant amounts of human labor and extending the practical use of machine learning to a much broader array of societal problems. &lt;br/&gt;&lt;br/&gt;Specifically, the methods address the case where labeled data is crowd-sourced by a large number of human annotators whose skill and error rates are variable. The project develops new control algorithms that let the learner efficiently ask specific workers to label (or redundantly re-label) specific examples. To test the practicality of their methods, the PIs build and conduct studies with the Information Omnivore, a fully autonomous agent that optimizes the annotation of natural language processing (NLP) training data. By continuously posing questions to paid workers and volunteer citizen-scientists, the Omnivore 1) will learn which problems are hard and which are easy, 2) will learn about the skills of the various workers, 3) and will decide questions to ask which workers in order to maximize the accuracy of the learned model given scare human help. Besides contributing to the science of automated control, the Omnivore will generate labeled training data for two important NLP problems: named entity linking (NEL) and information extraction (IE), greatly helping the community of NLP researchers. Furthermore, the researchers plan a number of outreach efforts, including curriculum development, participation in the K12 Paws on Science program at the Pacific Science Center and interaction with the diverse students comprising the Washington STate Academic RedShirt (STARS) in Engineering program. The specific algorithms proposed by the PIs are notable in several respects. Their decision-theoretic optimization framework operationalizes intuitions like (1) one should assign more or better workers to hard problems and (2) one should redirect effort away from easy questions or from tasks that are too hard to solve. Automating this reasoning is hard because problem difficulty and worker skill are latent variables and thus the agent must confront an exploration / exploitation tradeoff as it balances actions that enable it to learn about the capabilities of workers with the ultimate goal of producing quality annotations. The PIs consider two cases: Task Allocation for Annotation Accuracy tries to maximize the overall annotation accuracy of a fixed size data set through batch assignment of workers to tasks. Re-Active Learning seeks instead to directly construct an accurate ML classifier through a balanced mix of annotator requests to re-label old or label new examples. In both cases they propose a model based on decision-theoretic methods (e.g., partially-observable Markov decision processes (POMDPs) and multi-armed bandits). The PIs propose to integrate their methods in the Information Omnivore, a long-lived software agent that integrates planning and execution, acts in the real world, and learns a model of its environment. The Omnivore will allow large-scale latitudinal studies of their algorithms, and as a byproduct will generate NLP training data that will greatly assist a large community of other researchers.</AbstractNarration>
+    <MinAmdLetterDate>07/22/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/22/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1420667</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Weld</LastName>
+      <EmailAddress>weld@cs.washington.edu</EmailAddress>
+      <StartDate>07/22/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

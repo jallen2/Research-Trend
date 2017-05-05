@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Representation and Learning of Musical Expression in Melody</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2009</AwardExpirationDate>
+    <AwardAmount>50000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Douglas H. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proposal 0739563&lt;br/&gt;""Representation and Learning of Musical expression in Melody""&lt;br/&gt;PI: Christopher S. Raphael&lt;br/&gt;Indiana University&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;ABSTRACT&lt;br/&gt;&lt;br/&gt;Music exists on several levels. One view is in terms of the directly observable attributes of a musical score, such as notes and rhythms written in traditional symbolic music notation by a composer. Another view is in terms of the audio stream corresponding to an expressive rendering of the score. Between these two extremes--the atomic sub-components and an expressive performance--there are many levels. Only some of these have well-developed representations and analyses. The goal of this project is to develop a representation of an intermediate layer that can explain the association between the lowest note level and the top expressive level and to develop a system for expressive rendering of continuously controlled music that will begin with melody represented as a note list with an analysis of the harmonic structure and produce an expressive audio corresponding to a performance of it. To achieve this goal, the project aims to develop a representation for capturing the expressive elements of the notes--their prosodic function--for instance, their implicit musical direction and stress. The project will also study the relationship between this mid-level representation and continuous audio in an actual rendition of the music. For this aspect, the project will employ a ""Theramin"" model for audio that continuously modulates the pitch and amplitude of a sinusoidal tone. Such a model is capable of representing a variety of expressive musical elements including dynamics and vibrato.&lt;br/&gt;&lt;br/&gt;This project will pursue the following specific tasks: (1) development of a small corpus of expression-annotated music; (2) development of a system for automatically computing the prosodic annotation from the symbolic melody and harmony representations; and (3) development of a system for automatically generating the Theramin representations from prosodically annotated melody and harmony. The use of machine learning methods will be employed in this project to predict Theramin representations that resemble those of a training corpus; these will also be used in evaluation.</AbstractNarration>
+    <MinAmdLetterDate>08/31/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/03/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0739563</AwardID>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>Raphael</LastName>
+      <EmailAddress>craphael@indiana.edu</EmailAddress>
+      <StartDate>08/31/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9237</Code>
+      <Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

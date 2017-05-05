@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CHS: Small: Collaborative Research: Detailed Shape and Reflectance Capture with Light Field Cameras</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A major transformation is occurring in the way we sense the visual world. Traditional 2D photography is increasingly being replaced with light-field sensors that capture the full spatial and angular variation of the incoming light field, rather than simply pixels that integrate over incoming directions. This development opens up the possibility of ubiquitous 3D imaging of our visual world. Light-field sensors are particularly attractive as a depth acquisition device, since they are completely passive without needing to project light into the scene, and they do not experience a reduction in performance outdoors. Moreover, the rich ray-space of light fields provides significant cues for recovering fine-scale depth. However, current RGBD and light-field systems produce only coarse depth; while useful for tasks like refocusing images, the depth channel offers little benefit for photography beyond conventional 2D RGB images. This research seeks to address these challenges, by developing practical algorithms for detailed 3D shape and reflectance capture with light-field cameras, coupled with a theoretical and experimental analysis of the achievable accuracy. Project outcomes will have broad impact on diverse fields including computer graphics and virtual/augmented reality, enabling acquisition of high-quality detailed 3D shape and the subsequent use of the 3D geometry with computer-generated synthetic objects. Methods to acquire 3D images, including on mobile sensors, will transform the photographic process from 2D to 3D, with immense industrial and societal impact.&lt;br/&gt;&lt;br/&gt;The PIs will address four important problems in light-field shape acquisition. First, they will exploit the rich nature of light-field data, combining multiple cues (defocus, correspondence, shading, specularity) in a unified way to obtain the overall global 3D shape. Moreover, they will seek to go beyond the common Lambertian reflectance assumption, developing a novel BRDF-invariant framework for surface reconstruction with general glossy materials like metals, plastics, or ceramics, while supporting textures and spatially-varying reflectance. Another key objective will be to ground the practical results in a theoretical framework that can establish the limits of light-field camera shape resolution, and the signal-to-noise accuracy, and how this relates to novel designs for light-field cameras to obtain the best achievable resolution in 3D shape capture. Finally, the PIs will move from overall shape to fine-scale surface detail, proposing new methods for shape/reflectance capture for fine-scale geometry like hair. The ultimate goal is to enable a full 3D processing pipeline for photography, computer graphics and applications like virtual and augmented reality.</AbstractNarration>
+    <MinAmdLetterDate>07/18/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/18/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617234</AwardID>
+    <Investigator>
+      <FirstName>Ravi</FirstName>
+      <LastName>Ramamoorthi</LastName>
+      <EmailAddress>ravir@cs.ucsd.edu</EmailAddress>
+      <StartDate>07/18/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930934</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems (CHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

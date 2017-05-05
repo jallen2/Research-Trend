@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Programming with Non-Coherent Memory</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The preponderance of language design and program analysis efforts in the study of multicore systems has implicitly assumed the presence of an underlying coherent memory that ensures global visibility of updates performed on processor-local caches. Because all threads witness a consistent view of data, concurrency bugs manifest purely as a consequence of unintended non-determinism introduced by scheduler-driven thread interleavings and inadequate synchronization. As new architectural advances lead to multicore or manycore platforms supporting hundreds of (potentially heterogenous) cores, automatically enforcing memory coherence becomes an increasingly complex and expensive proposition. Indeed, new architectural designs are likely to sacrifice local coherence guarantees in exchange for a simple commodity-based scalable design, equipped with a limited degree of global shared memory. Applications that target such platforms must be carefully written not to make assumptions about the consistency of the contents of memory locations accessed and modified locally. In the absence of coherence, new techniques are needed to recover the abstraction benefits that are now lost; these issues become exacerbated at scale. The broader impacts of the proposal have obvious positive interaction with industry efforts to promote multicore and manycore processor platforms.&lt;br/&gt;&lt;br/&gt;This project will consider novel ways to map consistency models expressed in the context of high-level managed languages onto non-coherent architectural platforms. In doing so, it will consider new programming models, abstractions, analyses, and implementations to enable (a) avoidance of coherency enforcement whenever possible, (b) reduction of coherency demands based on application logic, (c) specification of complex consistency requirements that can be used to inform the implementation of specialized software-based coherence protocols, and (d) integration of language-level memory models with weakly-coherent architectures. The project will subsume formal, rigorous development of different abstractions, analyses, and implementations that enable the automatic construction of new protocol families that express complex aggregates of communication and computation actions with sensible consistency semantics even when executed on non-coherent platforms.</AbstractNarration>
+    <MinAmdLetterDate>06/25/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/22/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1216613</AwardID>
+    <Investigator>
+      <FirstName>Sunil</FirstName>
+      <LastName>Prabhakar</LastName>
+      <EmailAddress>sunil@purdue.edu</EmailAddress>
+      <StartDate>09/14/2015</StartDate>
+      <EndDate>11/22/2016</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Suresh</FirstName>
+      <LastName>Jagannathan</LastName>
+      <EmailAddress>suresh@cs.purdue.edu</EmailAddress>
+      <StartDate>11/22/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gustavo</FirstName>
+      <LastName>Petri</LastName>
+      <EmailAddress>gpetri@purdue.edu</EmailAddress>
+      <StartDate>09/30/2013</StartDate>
+      <EndDate>09/14/2015</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

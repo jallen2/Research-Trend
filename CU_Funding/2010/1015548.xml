@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Theory and Structure of Quasi-Cyclic LDPC Codes and Algorithms to Lower the Error Floor and Decode Non-Binary LDPC Codes</AwardTitle>
+    <AwardEffectiveDate>10/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2015</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>phillip regalia</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Low-density parity-check (LDPC) codes are currently recognized as the most promising coding technique to achieve the ultimate limits of robust communications over noisy channels. LDPC codes devised by the PIs have been selected by NASA for various applications and adopted for the 10G Base-T Ethernet. However, there are many challenges before LDPC codes become universal in applications. In particular, there is a need for a mathematical framework to determine the properties of the constructed codes for easy encoder and decoder implementations. Furthermore, it has been observed that the dramatic improvement in code performance as the channel improves comes to a sudden halt at some point. This phenomenon, known as error-floor, may preclude LDPC codes from applications requiring very low error rates, such as high-speed satellite communication and high-density data storage systems. Another challenge is the computational complexity needed to retrieve the correct data after being corrupted with noise. This research addresses these three challenges.&lt;br/&gt;&lt;br/&gt;The research develops methods to study the relevant properties of efficiently encodable and decodable LDPC codes that ensure good performance when decoding using iterative algorithms. The research also develops an efficient decoding algorithm using a backtracking technique to lower the error-floors of LDPC codes due to trapping sets. This decoding technique removes the obstacles for applications of LDPC codes in communication and storage systems where very low error rates are required. Furthermore, the research also proposes a novel and computationally efficient reliability-based iterative algorithm for decoding non-binary LDPC codes for correcting combinations of random and bursts of errors. This decoding technique requires only integer and finite field operations and offers an effective trade-off between performance and decoding complexity.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1015548</AwardID>
+    <Investigator>
+      <FirstName>Shu</FirstName>
+      <LastName>Lin</LastName>
+      <EmailAddress>shulin@ece.ucdavis.edu</EmailAddress>
+      <StartDate>07/28/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Khaled A.</FirstName>
+      <LastName>Abdel-Ghaffar</LastName>
+      <EmailAddress>ghaffar@ece.ucdavis.edu</EmailAddress>
+      <StartDate>07/28/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7935</Code>
+      <Text>COMM &amp; INFORMATION THEORY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

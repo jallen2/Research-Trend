@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Large: Collaborative Research: Design Principles for a Future-Proof Internet Control Plane</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2020</AwardExpirationDate>
+    <AwardAmount>407432</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>One of the big challenges faced in the Internet today is the ever growing complexity associated with the increasingly diverse usage models and growing user expectations about quality of service. The core technology used in the Internet, IPv4 and BGP, is based on technology developed in the 1970's and early 1980's, when the focus of the Internet was providing connectivity between unsophisticated edge networks and applications. In contrast, today's users and service providers want high Quality of Experience, e.g., smooth HD video, responsive e-commerce stores, interactive social networks, etc. Addressing these challenges is hard because both IP and BGP have proven to be very rigid and hard to modify. While there has been much research on clean slate proposals for the Internet data plane, research in the control plane has mostly focused on specific protocols. This project fills this void by using a holistic approach to the design of the Internet control plane that can adapt to efficiently meet the growing demands placed on the Internet.&lt;br/&gt;&lt;br/&gt;Based on our experience with the XIA future Internet architecture project, we define three separate but related requirements. First, control protocols must be evolvable so they can adapt to future emerging requirements. Second Internet routing protocols must be resource aware. Finally, the Internet control plane must support coordination with the control planes of increasingly sophisticated edge networks such as content delivery networks (CDNs) and cloud infrastructure. The project has a broad research agenda that includes research in protocol support for evolvability and resource-awareness in the Internet, the definition of interfaces and techniques for coordination across edge and transit domains, and a control plane architecture that provides support for common control protocol functions such as discovery and control communication. This research uses several real-world drivers including traffic engineering, cloud computing and a large-scale distributed denial of service (DDoS) defense service. Finally, the project will includes an end-to-end experimental evaluation effort using large-scale testbeds such CloudLab, GENI, and PEERING.&lt;br/&gt;&lt;br/&gt;Intellectual merit: The main intellectual merit of the project is that it addresses three fundamental challenges in for Internet control protocols (evolvability, resource-awareness, and interfaces for coordination across heterogeneous control planes) in an integrated fashion. The results in these three areas will be integrated in a novel control plane architecture for the Internet.&lt;br/&gt;&lt;br/&gt;Broader Impact: The project will also have significant broader impact. First, tools to run large scale networking experiments across testbeds such as Cloudlab, GENI and PEERING will be made available to the research community. Second, the project will engage undergrad and MS students in the project and integrate results in courses at CMU and UW-Madison, and will organize a DIMACS workshop to engage the community in discussion on the important topic of control plane design for the future Internet. Finally, the holistic approach to rethinking the network control plane can have tremendous impact on the networking research community and industry.</AbstractNarration>
+    <MinAmdLetterDate>08/03/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/03/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1565343</AwardID>
+    <Investigator>
+      <FirstName>Srinivasan</FirstName>
+      <LastName>Seshan</LastName>
+      <EmailAddress>srini@cmu.edu</EmailAddress>
+      <StartDate>08/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Steenkiste</LastName>
+      <EmailAddress>prs@cs.cmu.edu</EmailAddress>
+      <StartDate>08/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vyas</FirstName>
+      <LastName>Sekar</LastName>
+      <EmailAddress>vsekar@andrew.cmu.edu</EmailAddress>
+      <StartDate>08/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7925</Code>
+      <Text>LARGE PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Nonlinear and Nonstationary Time Series</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>220497</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nandini Kannan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project focuses on two problems in analyzing complex data collected over time such as daily stock market returns. Such irregular time series data occur in many diverse fields such as biology and medicine, ecology, genetics, geoscience, speech recognition, econometrics and finance, and computer vision to mention a few. Because the data are irregular, problems such as predicting highly volatile periods are difficult. In general, rather than using explicit mathematical formulas, one must rely on numerical or computer-based optimization. However, for such data, existing methods have poor properties. The goal of this project is to vastly improve on the existing computational methods. The second project focuses on the fast detection of genes in long DNA sequences. While many methods have been developed for a thorough micro-analysis of short sequences, there is a shortage of powerful procedures for the macro-analysis of long DNA sequences.&lt;br/&gt;&lt;br/&gt;The project focuses on two problems in nonlinear and nonstationary time series analysis. First, there has been an intense focus on the analysis of nonlinear and non-Gaussian time series models via numerical methods. Particle samplers are a promising approach for classical and Bayesian estimation, but they are plagued by particle degeneration and by poor mixing. However, there is no need to abandon particle methods; they can be improved, and this is the goal of this project. For example, particle Gibbs methods can be fashioned to be fast and efficient while improving the mixing property of the sampler. The basic idea is to build a particle-filter-like procedure that avoids path degeneracy by conditioning on particles. This conditioning implies an invariance property, which is key to its applicability as a particle sampler. The invariance property is also key to providing the asymptotic accuracy of the sampler. It is not enough to be asymptotically accurate because of the curse of dimensionality, which we try to avoid. Moreover, while the technique is not perfect, the methodology can be used as a basis from which to explore faster methods while avoiding poor mixing. The method can also be used in classical inference to perform derivative free maximum likelihood estimation (e.g., EM algorithm) when the likelihood can only be evaluated numerically. The main interest of the second project is on the detection of coding (genes) and other interesting features in very long DNA sequences. In particular, the focus is on fast detection of change points in long DNA sequences based on the concept of spectral envelope using a wavelet basis. Rapid accumulation of genomic sequences has increased demand for methods to decipher the genetic information gathered in data banks. Combining statistical analysis with modern computer power makes it feasible to search, at high speeds, for diagnostic patterns within long sequences. This combination provides an automated approach to evaluating similarities and differences among patterns in very long sequences and aids in the discovery of the biochemical information hidden in these organic molecules.</AbstractNarration>
+    <MinAmdLetterDate>07/25/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/02/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1506882</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Stoffer</LastName>
+      <EmailAddress>stoffer@pitt.edu</EmailAddress>
+      <StartDate>07/25/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pittsburgh</Name>
+      <CityName>Pittsburgh</CityName>
+      <ZipCode>152132303</ZipCode>
+      <PhoneNumber>4126247400</PhoneNumber>
+      <StreetAddress>University Club</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

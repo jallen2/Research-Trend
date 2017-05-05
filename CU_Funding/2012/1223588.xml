@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Caging Libraries To Control Software Faults</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>515879</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The vast majority of the code in most applications comes from the libraries it imports, rather than the program itself. As a result, hackers often exploit flaws in libraries like glibc or openssl that are used across multiple applications instead of attacking individual flaws in code specific to the application. This makes it easier for an attacker to compromise many applications at once with a single exploit. This work isolates the impact of flaws in a deployed program into the smallest area possible. This will dramatically increase the security of applications in the cloud, on mobile phones, and everything in between.&lt;br/&gt;&lt;br/&gt;To achieve this goal, this research develops a new abstraction that acts as a lightweight and extremely efficient intra-process isolation mechanism that builds on recent advances from operating system virtualization and memory-safe code execution (such as SFI). This abstraction, called a cage, allows different pieces of code that execute in the same process to be isolated from each other. This means that a flaw within a piece of code can only be used to exploit the code within that cage. Each cage also conceptually is its own process from an resource accounting standpoint. In addition, calls between cages are extremely lightweight and do not require a context switch or OS intervention. The cage abstraction provides an isolation mechanism that is high-performance and with very low overhead while improving application security.</AbstractNarration>
+    <MinAmdLetterDate>08/13/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/30/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1223588</AwardID>
+    <Investigator>
+      <FirstName>Justin</FirstName>
+      <LastName>Cappos</LastName>
+      <EmailAddress>jcappos@nyu.edu</EmailAddress>
+      <StartDate>08/13/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Hardware-Software Co-Design for Next Generation Packet Forwarding Engines</AwardTitle>
+    <AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>399914</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The Internet backbone, including both core and edge routers, is becoming more flexible, scalable and programmable to enable future innovations in the next generation Internet. While the functionality of Internet routers evolves, the performance remains a major concern for real-life deployment. Traditionally, core routers have been designed using throughput as a key performance metric. While the throughput requirements continue to grow, peak power and total energy dissipated have emerged as additional critical considerations in the design of core routers as well as in other network equipment. Although ternary content addressable memories (TCAMs) have been widely used for packet forwarding, they have poor power performance. This work studies the use of low-power memory technology such as the static random access memory (SRAM) combined with field-programmable gate arrays (FPGAs) / application-specific integrated circuits (ASICs) to develop high-throughput and power-efficient solutions for various packet forwarding&lt;br/&gt;engines including IP lookup, router virtualization, packet classification and flexible flow processing (e.g., OpenFlow). Packet forwarding engines in next generation routers and switches are designed using a hardware-software co-design framework. Based on this framework, novel architectures and algorithms are developed using power (including energy) as a key performance metric in addition to throughput. Specifically, to bridge the gap between software and hardware development, high-level power-performance models for hardware implementations of packet forwarding engines are developed and validated. These models facilitate design of various heuristics for power-efficient algorithms and architectures for virtualized IP lookup, multi-field packet classification and flexible flow processing. Instead of the highly popular TCAM based solutions, this work focuses on SRAM-based parallel and pipeline architectures. Novel techniques including partitioning, clock gating, power-aware data structure design and power-aware load balancing are studied to simultaneously increase throughput and reduce power and/or energy dissipation</AbstractNarration>
+    <MinAmdLetterDate>06/30/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116781</AwardID>
+    <Investigator>
+      <FirstName>Viktor</FirstName>
+      <LastName>Prasanna</LastName>
+      <EmailAddress>prasanna@usc.edu</EmailAddress>
+      <StartDate>06/30/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

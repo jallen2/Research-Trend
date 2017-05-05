@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Collaborative Research: Extending Declarative Parallel Programming with State and Nondeterminism</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>420261</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project addresses parallelism in applications with the goal of improving the efficiency of those applications.&lt;br/&gt;&lt;br/&gt;Today's multicore and manycore computers provide increasing amounts of computational power in the form of parallel processing. But, before a software application can take advantage of such parallel hardware and exhibit speedups in execution, a software developer must (re)write the program to indicate which portions may be executed in parallel and which portions must be executed sequentially. The Manticore research project designed and implemented the Parallel ML programming language, a functional programming language with a rich collection of explicitly- and implicitly-parallel programming features. To date, this team built an implementation of PML that is efficient and scalable. However, PML lacks some features present in other languages, such as shared state, which grants the ability to freely modify data shared between parallel threads, and nondeterminism, which grants the ability to return results that may depend upon the order of parallel execution. These features are generally considered difficult to use correctly and difficult to implement efficiently in a parallel setting; yet, they have the potential to make greater portions of an application amenable to parallel execution.&lt;br/&gt;&lt;br/&gt;Therefore, this project focuses on the significant problem of increasing the amount of parallelism exposed by applications by extending Parallel ML with mechanisms like shared state and nondeterminism in a safe and efficient manner. A key feature of the design is that it provides ways to isolate the stateful and nondeterministic components of a program; this isolation makes these mechanisms easier and safer to use by software developers. Another key feature of the design is that it captures common programming idioms, such as caching to avoid redundant computations and make independent writes to a shared sparse data structure in a manner that ensures safe and efficient program execution. Thus, this proejct frees the software developer from the difficult and error-prone task of explicitly programming the low-level details that manage the parallel execution of an application; instead, the software developer focuses on the high-level application logic, while the compiler and runtime system allocates the parallel execution over the available computational resources. This research is helping guide future language design efforts and transforming programming practice toward higher-level and more declarative models, yielding improved productivity, correctness, performance, and scalability.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/20/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1065099</AwardID>
+    <Investigator>
+      <FirstName>Matthew</FirstName>
+      <LastName>Fluet</LastName>
+      <EmailAddress>mtf@cs.rit.edu</EmailAddress>
+      <StartDate>07/28/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rochester Institute of Tech</Name>
+      <CityName>ROCHESTER</CityName>
+      <ZipCode>146235603</ZipCode>
+      <PhoneNumber>5854757987</PhoneNumber>
+      <StreetAddress>1 LOMB MEMORIAL DR</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

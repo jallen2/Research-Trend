@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Moving MapReduce into the Cloud: Flexibility, Efficiency, and Elasticity</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>MapReduce, a parallel and distributed programming model on clusters of commodity hardware, has emerged as the de facto standard for processing large data sets. Although MapReduce provides a simple and generic interface for parallel programming, it incurs several problems when running in the cloud including low cluster resource utilization, suboptimal scalability and poor multi-tenancy support. This project explores and designs new techniques that let MapReduce fully exploit the benefits of flexible and elastic resource allocations in the cloud while addressing the overhead and issues caused by server virtualization. It broadens impact by allowing a flexible and cost-effective way to perform big data analytics. This project also involves industry collaboration, curriculum development, and provides more avenues to bring women, minority, and underrepresented students into research and graduate programs.&lt;br/&gt;&lt;br/&gt;Running MapReduce in the cloud offers many benefits, including rapid deployment, high availability, on-demand elasticity and secure multi-tenancy. However, a simple migration of MapReduce to the cloud environment does not fully exploit these benefits. The semantic gap between MapReduce runtime and cloud resource management, and the lack of optimizations of MapReduce workloads in cloud hypervisors, together make it difficult to attain flexibility, efficiency and elasticity. This project develops a synergistic approach for coordinating MapReduce and the cloud. This research centers on two key designs: 1) para-virtualized MapReduce, an enhancement of MapReduce to actively adapt job execution to the cloud dynamics, including interference and hardware heterogeneity; 2) MapReduce cloud, a collection of optimizations for MapReduce-aware cloud resource allocation and scheduling. This project combines computer system experimentations with rigorous system design to improve the flexibility, efficiency and elasticity of MapReduce in the cloud. It emphasizes the adaptability of MapReduce in a heterogeneous and dynamic cloud environment, proposes cross-layer optimizations to unlock the potential of cloud systems, and ensures that optimizations for MapReduce workloads do not compromise the requirements for high resource utilization and multi-tenant fairness.</AbstractNarration>
+    <MinAmdLetterDate>09/05/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/20/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422119</AwardID>
+    <Investigator>
+      <FirstName>Xiaobo</FirstName>
+      <LastName>Zhou</LastName>
+      <EmailAddress>xzhou@uccs.edu</EmailAddress>
+      <StartDate>09/05/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jia</FirstName>
+      <LastName>Rao</LastName>
+      <EmailAddress>jia.rao@uta.edu</EmailAddress>
+      <StartDate>09/05/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Colorado Springs</Name>
+      <CityName>Colorado Springs</CityName>
+      <ZipCode>809183733</ZipCode>
+      <PhoneNumber>7192553153</PhoneNumber>
+      <StreetAddress>1420, Austin Bluffs Parkway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

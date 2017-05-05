@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Collaborative Research: Static and Dynamic Analysis for Cooperative Concurrency</AwardTitle>
+    <AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>359509</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The widespread adoption of multicore processors requires multithreaded&lt;br/&gt;software to exploit these hardware resources. Unfortunately, the&lt;br/&gt;construction and validation of reliable concurrent software currently&lt;br/&gt;requires extraordinary effort, due to unanticipated interactions&lt;br/&gt;between concurrent threads. Thus, developing better programming&lt;br/&gt;techniques and tools for concurrent programming is essential. This&lt;br/&gt;research develops a cooperative programming methodology for&lt;br/&gt;multithreaded software, based on the philosophy that all thread&lt;br/&gt;interference must be explicitly documented via source-level "yield"&lt;br/&gt;annotations by the programmer.&lt;br/&gt;&lt;br/&gt;The project will investigate both static and dynamic checking&lt;br/&gt;techniques to verify the correctness of yield annotations. Once&lt;br/&gt;verified, these annotations guarantee that code executed between&lt;br/&gt;successive yields is serializable and thus amenable to sequential&lt;br/&gt;reasoning. Moreover, yield-free code is deterministic. Despite&lt;br/&gt;provided these strong safety guarantees, this methodology does not&lt;br/&gt;impact program performance. The cooperative methodology provides a&lt;br/&gt;robust foundation for multithreaded software and can potentially&lt;br/&gt;transform the principles and practices of multithreaded software&lt;br/&gt;engineering. This work on cooperability will also provide research&lt;br/&gt;opportunities for graduate and undergraduate students, and it will&lt;br/&gt;support endeavors to provide access to science education for all&lt;br/&gt;students.</AbstractNarration>
+    <MinAmdLetterDate>06/27/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/27/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116883</AwardID>
+    <Investigator>
+      <FirstName>Cormac</FirstName>
+      <LastName>Flanagan</LastName>
+      <EmailAddress>cormac@ucsc.edu</EmailAddress>
+      <StartDate>06/27/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Cruz</Name>
+      <CityName>Santa Cruz</CityName>
+      <ZipCode>950641077</ZipCode>
+      <PhoneNumber>8314595278</PhoneNumber>
+      <StreetAddress>1156 High Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

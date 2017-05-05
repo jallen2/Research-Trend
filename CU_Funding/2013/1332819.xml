@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Enabling Multidisciplinary Design Optimization: Inexact-Newton-Krylov and the Individual-Discipline-Feasible Formulation</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>303037</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Richard Malak</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is investigating matrix-free Newton-Krylov algorithms as a means of solving multidisciplinary design optimization problems. More precisely, we are exploring the use of matrix-free algorithms to solve simulation-based design optimization problems in a modular way. Modularity is attractive for these problems because many legacy software libraries already exist that can analyze and optimize problems involving a single discipline, for example fluid dynamics. In contrast, few libraries are available that can analyze complex multidisciplinary systems, let alone optimize them. To achieve a modular approach, we have adopted the so-called individual-discipline-feasible (IDF) formulation. Historically, the IDF formulation has been limited by the need to form computationally expensive matrices demanded by conventional optimization algorithms. This motivates our investigation of Newton-Krylov algorithms, which will enable a scalable and matrix-free implementation of IDF.&lt;br/&gt;&lt;br/&gt;Engineering systems governed by complex multi-physics are challenging to design, because they often exhibit subtle tradeoffs and defy our intuition. When the physics are modeled accurately with high-fidelity simulations, numerical optimization can help guide and inform the design of complex engineering systems. By showing that matrix-free Newton-Krylov methods can be used to efficiently solve IDF-formulated problems, this project promises to make high-fidelity design optimization more tractable and easier to implement for industrial practitioners. This makes powerful optimization tools more useful to designers, leading to improved products and processes that benefit society; examples include aircraft with lower emissions, more efficient power plants, and better artificial hearts. Such tools can also streamline the design process, which would improve the economic competitiveness of domestic industries.</AbstractNarration>
+    <MinAmdLetterDate>07/18/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/18/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1332819</AwardID>
+    <Investigator>
+      <FirstName>Jason</FirstName>
+      <LastName>Hicken</LastName>
+      <EmailAddress>hickej2@rpi.edu</EmailAddress>
+      <StartDate>07/18/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rensselaer Polytechnic Institute</Name>
+      <CityName>Troy</CityName>
+      <ZipCode>121803522</ZipCode>
+      <PhoneNumber>5182766000</PhoneNumber>
+      <StreetAddress>110 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1464</Code>
+      <Text>ENGINEERING DESIGN AND INNOVAT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>067E</Code>
+      <Text>DESIGN TOOLS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>068E</Code>
+      <Text>DESIGN THEORY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

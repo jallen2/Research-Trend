@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Improving Protocol Vulnerability Discovery via Semantic Interpretation of Textual Specifications</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>160000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Wenjing Lou</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Two methods used for vulnerability discovery in network protocols are testing and a semi-automated technique called model checking. Testing and model checking implementations of network protocols is a tedious and time-consuming task, where significant manual effort goes into designing test cases and protocol property specifications. Both approaches require detailed and structured information about the tested protocols, in the form of messages, state machine, invariants, etc. Most of the time this information is derived manually by people with different levels of expertise. The process can be made more effective and less expensive by leveraging documentation and specification about these protocols and available in text format. Automatically analyzing the information available in documentations in the form of textual specification will open new avenues not only for improving vulnerability finding for network protocols, but for software design in general. &lt;br/&gt;&lt;br/&gt;This project combines expertise from natural language processing and network security to create and build a framework for vulnerability discovery in network protocols, by leveraging semantic interpretation of textual specification, automated attack generation and injection, and property model checking for software implementations. The framework consists of two phases, a knowledge building phase and a vulnerability finding phase. In the knowledge building phase, semantic interpretation natural language processing techniques is applied to structured text (protocol specifications and documentation) and unstructured text (blogs, forums, and bug reports) to learn structured information about protocols such as: message formats, protocol state machine, constraints, etc. In the second phase, the information learned in the knowledge phase is applied to two mechanisms for vulnerability finding, the first uses the structured protocol information to create and inject attacks, and the second uses the same information to derive protocol requirements and use them to model check finite state machines extracted from protocol implementations.</AbstractNarration>
+    <MinAmdLetterDate>08/16/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/16/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1654137</AwardID>
+    <Investigator>
+      <FirstName>Dan</FirstName>
+      <LastName>Goldwasser</LastName>
+      <EmailAddress>dgoldwas@purdue.edu</EmailAddress>
+      <StartDate>08/16/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Cristina</FirstName>
+      <LastName>Nita-Rotaru</LastName>
+      <EmailAddress>c.nitarotaru@neu.edu</EmailAddress>
+      <StartDate>08/16/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

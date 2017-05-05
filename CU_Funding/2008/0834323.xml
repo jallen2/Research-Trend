@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: CSR-PSCE, SM: Adaptive Memory Management in Shared Environments</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>134657</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Krishna Kant</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Program performance is highly dependent on the amount of memory available to the&lt;br/&gt;program. In traditional computing systems, the memory working set of an application&lt;br/&gt;has a bounded size - providing more memory to an application improves performance&lt;br/&gt;until its working set is met. Once the working set is met, additional memory yields little&lt;br/&gt;or no benefit. However, in the presence of garbage collection (a technique for memory&lt;br/&gt;management where space that is unlikely to be reused by an application is&lt;br/&gt;automatically reclaimed), the relationship between program performance and memory&lt;br/&gt;allocation is more complex. Data is managed at three levels: the compiler manages&lt;br/&gt;data objects at the program level, the garbage collector manages the heap at the virtual&lt;br/&gt;machine level, and the virtual memory manager manages virtual memory at the&lt;br/&gt;operating system level. The middle layer plays a critical role. Increasing an application's&lt;br/&gt;heap size can reduce the frequency of garbage collections and improve performance,&lt;br/&gt;but too large a heap may trigger paging and degrade performance.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/24/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0834323</AwardID>
+    <Investigator>
+      <FirstName>Matthew</FirstName>
+      <LastName>Hertz</LastName>
+      <EmailAddress>mhertz@buffalo.edu</EmailAddress>
+      <StartDate>08/19/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Canisius College</Name>
+      <CityName>Buffalo</CityName>
+      <ZipCode>142081098</ZipCode>
+      <PhoneNumber>7168882103</PhoneNumber>
+      <StreetAddress>2001 Main Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

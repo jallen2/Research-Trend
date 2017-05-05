@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III-COR-Small: Capturing Data Uncertainty in High-Volume Stream Processing</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>457594</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frank Olken</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this project is to develop a stream processing system that captures data uncertainty from data collection to query processing to final result generation. This project focuses on data that is naturally modeled as continuous random variables. For such data, it employs a principled approach grounded in probability and statistical theory to capture data uncertainty and integrates this approach into high-volume stream processing. The first contribution of the project is to capture uncertainty of raw data streams from sensing devices. Since the raw streams may not present data in a format suitable for query processing and can be highly noisy, this project employs probabilistic models of the underlying data generation process and machine learning techniques to efficiently transform raw data into a desired representation with an uncertainty metric. The second contribution is to capture uncertainty as data propagates through various query operators. To efficiently quantify result uncertainty of a query operator, this project explores various techniques based on probability and statistical theory to reduce statistics that input streams need to carry and to expedite the computation of result distributions. This project integrates research and education through curriculum development and enables broader participation of women in research through college outreach and CRA's distributed mentor program. This project also includes software release and real-world deployments in domains such as object tracking and monitoring and hazardous weather monitoring, resulting in significant scientific and social impacts. Results of this project are disseminated at the project web site (http://avid.cs.umass.edu/projects/uncertain-streams/).</AbstractNarration>
+    <MinAmdLetterDate>08/14/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/24/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0812347</AwardID>
+    <Investigator>
+      <FirstName>Yanlei</FirstName>
+      <LastName>Diao</LastName>
+      <EmailAddress>yanlei@cs.umass.edu</EmailAddress>
+      <StartDate>08/14/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anna</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>anna@math.umass.edu</EmailAddress>
+      <StartDate>08/14/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>Hadley</CityName>
+      <ZipCode>010359450</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

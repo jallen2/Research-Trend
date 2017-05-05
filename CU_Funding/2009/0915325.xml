@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Materialized Views over Heterogeneous Structured Data Sources in a Distributed Event Stream Processing Environment</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>390086</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: CSR: Small: Materialized Views over Heterogeneous Structured Data Sources in a Distributed Event Stream Processing Environment&lt;br/&gt;Investigator: Suzanne W. Dietrich&lt;br/&gt;Institution: Arizona State University&lt;br/&gt;Proposal #: 0915325&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Project Abstract: Software systems are becoming increasingly complex, requiring the coordination of heterogeneous structured data sources in a loosely-coupled distributed environment with support for handling events and streaming data. Some sample systems include homeland security, criminal justice, supply chain management, health care, and consumer monitoring. Such software systems involve numerous query expressions for detecting events, monitoring conditions, handling streams, and querying data. This research analyzes the dependencies among these query expressions over structured data sources defined in different language components over relational or data-centric XML to detect common subexpressions as candidates for materialized views. When views are materialized, the results of the computed view are stored so that subsequent references efficiently access the materialized view, avoiding the cost of recomputation. This performance improvement is even more critical with distributed data sources. However, the materialized view must be updated if any data source that it depends on has changed. To avoid costly recomputation, an incremental view maintenance algorithm uses the change to incrementally compute updates to the materialized view. A unique aspect of this research is the efficient maintenance of the materialized views while respecting the native format of the underlying loosely-coupled, heterogeneous data sources. Using state-of-the-art commercial and open-source components, a prototype environment that supports a distributed event stream processing framework provides a research and evaluation platform for the exploration of the identification, specification, and incremental evaluation of materialized views over heterogeneous, distributed structured data. This environment also provides a shared infrastructure for undergraduate research and curriculum enhancement.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/30/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915325</AwardID>
+    <Investigator>
+      <FirstName>Suzanne</FirstName>
+      <LastName>Dietrich</LastName>
+      <EmailAddress>dietrich@asu.edu</EmailAddress>
+      <StartDate>08/01/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Arizona State University</Name>
+      <CityName>TEMPE</CityName>
+      <ZipCode>852816011</ZipCode>
+      <PhoneNumber>4809655479</PhoneNumber>
+      <StreetAddress>ORSPA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

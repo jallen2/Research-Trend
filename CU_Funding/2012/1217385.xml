@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Fault-Tolerant Distributed Software Transactional Memory: Theory, Protocols, and Java Package</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2016</AwardExpirationDate>
+    <AwardAmount>416000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The project is to develop protocols, mechanisms, and a Java implementation of fault-tolerant distributed transactional memory (DTM). DTM promises to alleviate the programmability, scalability, and performance challenges of lock-based distributed concurrency control. Fault-tolerance is essential to DTM to cope with node/network failures, and object replication is central toward achieving this. Replication protocols must be scalable and ensure transactional correctness and progress properties. The expected outcome is a novel replicated DTM framework, whose key idea is to split transactions into two independent phases with orthogonal responsibilities: 1) regular read/write phases, which quickly look-up and fetch latest copies of required objects without concurrency control, and 2) a request-commit phase, which does (distributed) concurrency control. The project investigates the use of quorum-based replication protocols, which maintain transactional metadata in read/write quorums, and do scalable concurrency control by exploiting the quorum intersection property. The replicated DTM framework and protocols are implemented in the open-source HyFlow DTM Java package (hyflow.org). &lt;br/&gt;&lt;br/&gt;Fault tolerant DTM has potential to improve both reliability and performance of a broad range of advanced distributed computing applications, including defense systems. The project has plans to transitioning this technology (techniques and HyFlow implementation) to a production system of the US Department of Defense, to leverage the benefits of fault-tolerant DTM. This is a direct potential economic and social benefit of the research. Additionally, the project's results are being incorporated into a graduate course at Virginia Tech that includes students at Blacksburg, VA, scientists and engineers at US Naval Surface Warfare Center Dahlgren Division (NSWCDD), VA through Virginia Tech's graduate outreach program at NSWCDD, and students in the Middle East and North Africa through Virginia Tech's VT-MENA program at Egypt.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/03/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217385</AwardID>
+    <Investigator>
+      <FirstName>Binoy</FirstName>
+      <LastName>Ravindran</LastName>
+      <EmailAddress>binoy@vt.edu</EmailAddress>
+      <StartDate>08/20/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Polytechnic Institute and State University</Name>
+      <CityName>BLACKSBURG</CityName>
+      <ZipCode>240610001</ZipCode>
+      <PhoneNumber>5402315281</PhoneNumber>
+      <StreetAddress>Sponsored Programs 0170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

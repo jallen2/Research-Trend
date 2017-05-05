@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Learning Mixed Membership Models with a Separable Latent Structure: theory, provably efficient algorithms, and applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In a wide spectrum of problems in science and engineering that includes hyperspectral imaging, gene expression analysis, and metabolic networks, the observed data is high-dimensional and arises from an unknown random mixture of a small set of unknown shared latent (hidden) causes. Being able to successfully and efficiently identify the latent causes from the observed data is important not only for scientific understanding, but also for efficient data representation and decision making. Popular algorithms for such problems make use of approximations and heuristics for computational tractability. As a consequence, consistency or efficiency guarantees for such algorithms are either very weak or nonexistent. This research involves the development of algorithms for learning latent-cause models from high-dimensional data with provable statistical and computational efficiency guarantees.&lt;br/&gt;&lt;br/&gt;The linchpin of this research is a natural separability property of the shared latent factors ? the presence of a signature component for each latent factor ? that is approximately satisfied by the estimates produced by popular approaches. This research aims to establish that approximate separability is not only a natural and convenient structural property of mixed-membership latent-factor models, but is, in fact, an inevitable consequence of high-dimensionality. This research also involves the development of a suite of provably consistent and statistically and computationally efficient algorithms for a diverse set of mixed-membership latent-factor problems by suitably leveraging the geometry induced by the signature components. The key insight is to identify the signature parts of each latent factor as extreme points in a suitable space. This can be done efficiently through appropriately defined random projections. The random-projections-based algorithm is naturally amenable to a low-communication-cost distributed implementation that is attractive for web-scale distributed data-mining applications.</AbstractNarration>
+    <MinAmdLetterDate>07/09/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/09/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527618</AwardID>
+    <Investigator>
+      <FirstName>Prakash</FirstName>
+      <LastName>Ishwar</LastName>
+      <EmailAddress>pi@bu.edu</EmailAddress>
+      <StartDate>07/09/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Venkatesh</FirstName>
+      <LastName>Saligrama</LastName>
+      <EmailAddress>srv@bu.edu</EmailAddress>
+      <StartDate>07/09/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7936</Code>
+      <Text>SIGNAL PROCESSING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

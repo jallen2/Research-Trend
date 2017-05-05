@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Algorithmic Foundations of Hybrid Stochastic Modeling and Simulation Methods with Applications to Cell Cycle Models</AwardTitle>
+    <AwardEffectiveDate>07/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>199999</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mitra Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Complex systems emerging from many biochemical applications often exhibit multiscale features: the systems incorporate a variety of physical processes or subsystems across a broad range of scales. A typical multiscale system may require scales with macroscopic, mesoscopic, and microscopic kinetics, deterministic and stochastic dynamics, continuous and discrete state space, fast-scale and slow-scale reactions, and species of large and small populations. These complex features present great challenges for the modeling and simulation of biochemical systems. The goal of this project is to face these challenges by developing rigorous mathematical theories and innovative numerical algorithms for hybrid modeling methods. Mathematical foundations for error analysis of hybrid methods and algorithms for partitioning a biochemical system into subsystems will be developed and applied to chemical systems in different scales. The proposed work will advance the frontier of computational methods for the simulation of complex biochemical systems and enable automatic regime switching among multiple scales in complex biochemical systems. The numerical analysis will also contribute to general understanding of errors in discrete stochastic simulation methods. The project will support education and training of graduate and undergraduate students. The simulation methods developed in this project will be incorporated in the modeling and simulation packages JigCell and CoPaSi, all are open for public access. The curriculum material and source code modules will also be available on the university website.&lt;br/&gt;&lt;br/&gt;This project is motivated by realistic modeling and simulation of a complex biological control system: the cycle of growth and division in yeast cells. The project focuses on three specific aims. The primary aim is to develop mathematical foundations for error analysis of hybrid methods. Errors will be analyzed in two ways: one approach is based on approximation of chemical master equations for linear systems, and the other is based on a Poisson-process formulation of stochastic simulation trajectories. Errors caused by different partitioning strategies and hybrid solvers will be studied corresponding to different scale regions and interactions among them. Error analysis will also help to determine parameters in partitioning strategies. The second aim is to develop algorithms for hybrid stochastic simulation of biochemical systems, mechanisms to automatically partition reactions and state variables into different scale regions, and software to efficiently simulate multiscale systems. Reactions in a biochemical system are partitioned into four regions according to reactant population and reaction propensity scales. The partitioning strategy is based on analysis of these four regions and actual scale differences. Implementation details of hybrid methods will be carefully studied to achieve high efficiency. The third aim of this project is to develop a realistic stochastic model of the budding yeast cell cycle, which will include protein interactions as well as gene and mRNA dynamics and which will be judged with respect to the phenotypes of wild-type budding yeast cells and ~120 mutant strains. Simulation results of the developed model will be compared with wet-lab experimental data. The ambitious goal is to have a detailed cell cycle model that reflects dynamics at gene and mRNA levels, accounts accurately for known probabilistic features of cell proliferation in yeast cells, and accurately predicts the aberrant behaviors of mutant strains. Algorithms, theories, and software of hybrid methods developed in this project will be applied and tested in the modeling and simulation of this complex cell cycle model.</AbstractNarration>
+    <MinAmdLetterDate>07/07/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/07/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526666</AwardID>
+    <Investigator>
+      <FirstName>Yang</FirstName>
+      <LastName>Cao</LastName>
+      <EmailAddress>ycao@cs.vt.edu</EmailAddress>
+      <StartDate>07/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Tyson</LastName>
+      <EmailAddress>tyson@vt.edu</EmailAddress>
+      <StartDate>07/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Polytechnic Institute and State University</Name>
+      <CityName>BLACKSBURG</CityName>
+      <ZipCode>240610001</ZipCode>
+      <PhoneNumber>5402315281</PhoneNumber>
+      <StreetAddress>Sponsored Programs 0170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7931</Code>
+      <Text>COMPUTATIONAL BIOLOGY</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

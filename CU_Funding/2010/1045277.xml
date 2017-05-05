@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Development and Application of Turbulence Models in Numerical Geodynamo Simulations</AwardTitle>
+    <AwardEffectiveDate>01/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2012</AwardExpirationDate>
+    <AwardAmount>266586</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06030204</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Earth Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Raffaella Montelli</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Fluid motion in the liquid iron core of the Earth generates a magnetic field, which protects the surface environment from the harmful effects of solar wind and cosmic rays. The low viscosity of liquid iron (comparable to that of liquid water) ensures that the fluid motion is highly turbulent and time dependent. Accurate numerical simulations of the fluid motion and field generation are beyond the limit of current computational power, so modelers are forced to use values for the fluid viscosity and other physical parameters that are very far from Earth-like values. As a consequence, the nature of the dynamics is altered and our ability to address important scientific questions is limited. Only modest improvements in the models are expected through brute-force improvements in resolution, so there is a pressing need to develop better models for dealing with turbulence in the core.&lt;br/&gt;&lt;br/&gt;We propose to develop a second generation of geodynamo model that advances the current models in two ways. First, the new model will employ a method of solution that is better suited to parallel computing. Second, the new model will include a more sophisticated treatment of small-scale turbulence. To achieve these goals we will use the finite-element method to solve the governing equations and implement an adaptive, scale-similarity model to account for the effects of turbulence. The finite-element method reduces the amount of communication on a parallel computer and allows us to locally refine the resolution of the calculation, but only where it is needed. The scale-similarity method is a proven technique that has been successfully implemented in a plane-layer dynamo model to account for complex interactions between the flow and the magnetic field at small scales. We conservatively estimate that the introduction of the scale-similarity model in the geodynamo model will allow us to lower the fluid viscosity by two orders of magnitude, relative to current capabilities. This may be sufficient to reach the dynamical regime (e.g. a Taylor state) where the Earth's geodynamo is thought to operate. The new model will also allow us to probe the geophysically relevant behavior of dynamos at low magnetic Prandtl number Pm, which represents the ratio of fluid viscosity to magnetic diffusivity. Current state-of-the-art numerical simulations assume Pm &gt; 1, whereas the expected value for the Earth's core is Pm ~ 1.0e-6 . The operation of dynamos at low Pm raises a number of important scientific questions and poses a substantial computational challenge.</AbstractNarration>
+    <MinAmdLetterDate>01/14/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/21/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1045277</AwardID>
+    <Investigator>
+      <FirstName>Bruce</FirstName>
+      <LastName>Buffett</LastName>
+      <EmailAddress>bbuffett@berkeley.edu</EmailAddress>
+      <StartDate>01/14/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1574</Code>
+      <Text>GEOPHYSICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1031</Code>
+      <Text>STUDIES OF THE EARTH'S DEEP INTERIOR</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>GPU-based matrix condensation with sparse matrix techniques for power system simulation</AwardTitle>
+    <AwardEffectiveDate>10/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2015</AwardExpirationDate>
+    <AwardAmount>263254</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>GPU-based matrix condensation with sparse matrix techniques for power system simulation&lt;br/&gt;&lt;br/&gt;The objective of this research is to efficiently solve a fundamental linear algebraic problem, Ax=b, using graphics processing unit (GPU) in combination with matrix condensation (MC) and sparse matrix techniques for fundamental power system analyses. The approach is based on the GPU architecture with the MC method, which has a potential to achieve dimensionally higher performance speedup than the conventional LU factorization method on the GPU architecture, although MC is slower than LU factorization in sequential computing. Further, sparse matrix techniques such as bus re-ordering will be explored in this project and applied to power system simulation.&lt;br/&gt;The intellectual merit includes: investigation of the GPU-based MC algorithm to solve a linear system Ax=b; re-ordering techniques based on GPU and MC to address sparse matrices; combination of GPU, MC and sparsity techniques to give a new solution to power system simulation problems such as power flow, optimal power flow, and stability analysis.&lt;br/&gt;The broader impacts may penetrate into numerous research communities since the solution to Ax=b can be essential to almost every engineering and science discipline. Also, the sparsity techniques combined with the GPU-based MC algorithm can lead to practical applications for power system simulation with significant speedup, such that faster-than-real-time simulation may be easily achieved for post-fault real-time analysis. Thus, it can be highly possible to develop real-time corrective controls with precision, and power systems can be operated closer to security margins. This will provide significant technology advancement towards a smarter power grid.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/09/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1128381</AwardID>
+    <Investigator>
+      <FirstName>Fangxing</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>fli6@utk.edu</EmailAddress>
+      <StartDate>07/27/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Tennessee Knoxville</Name>
+      <CityName>KNOXVILLE</CityName>
+      <ZipCode>379960003</ZipCode>
+      <PhoneNumber>8659743466</PhoneNumber>
+      <StreetAddress>1 CIRCLE PARK</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>155E</Code>
+      <Text>Electric power networks</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1653</Code>
+      <Text>Adaptive &amp; intelligent systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9153</Code>
+      <Text>ENVIRON CONSCIOUS DESIGN AND MANUFACTURI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

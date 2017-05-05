@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Routing for the Emerging Topologies of Modern Internet Services</AwardTitle>
+    <AwardEffectiveDate>04/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2019</AwardExpirationDate>
+    <AwardAmount>382246</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The rise of streaming video, interactive applications, and smart phones has transformed how we use the Internet. Providers such as Google, Netflix, Akamai, and Amazon now supply much of the traffic, and they have adapted their serving infrastructures and networks in an attempt to serve clients everywhere over fast, reliable, high-bandwidth paths. To avoid relying on transit providers, these content providers connect directly to client networks around the world and, in some cases, even host servers in client or third-party networks. &lt;br/&gt;&lt;br/&gt;Despite these changes, Internet traffic often follows geographically circuitous routes, even though more direct ones exist. Partial outages lasting hours-sometimes even days-occur with disturbing frequency. The Internet's interdomain routing architecture makes it difficult to address these problems, yet it has remained essentially unchanged for two decades, even in the face of massive changes in the Internet's topology and how we use it. The design gives poor visibility into what other ISPs are doing, provides no way to coordinate routing decisions past immediate neighbors, and provides only limited means for communication even between neighbors. Complicating matters, the strategies pursued by content providers render their infrastructures, interconnectivity, and routing largely invisible to traditional measurement techniques.&lt;br/&gt;&lt;br/&gt;Intellectual merit: This research project will develop deployable approaches to improve routing by improving inter-ISP coordination. So that the approaches suit actual content providers, much of the work will involve developing measurement techniques and conducting measurement studies to discover providers serving infrastructures and topologies. This project will make the following contributions: (1) Techniques to map the distributed serving infrastructures of large content providers, and, using these techniques, longitudinal studies of expansion and evolving serving strategies. (2) Measurement platforms capable of uncovering the rich interconnections and routing between content providers and other networks. (3) A testbed capable of emulating an arbitrary ISP and connecting it to real ISPs around the world to exchange routes and traffic. This testbed will enable realistic experiments that can help overcome the current impasse. (4) Measurement studies to quantify inefficiencies in current routing and characterize opportunities for improvement made available by the distributed infrastructures and rich peering of the large providers. (5) Methods for inter-ISP routing collaboration, focusing on what visibility and control a content provider should give to client ISPs, while balancing the dueling concerns of autonomy and optimality.&lt;br/&gt;&lt;br/&gt;Broader impact: With the project's focus on deployable solutions grounded in real measurements, providers will be able to benefit from the approaches in order to understand problems affecting them and realize opportunities for improvement. The measurements and measurement platforms will be available to researchers, providing a novel view of important aspects of today's Internet, spurring research. The ISP emulation testbed will enable a new class of experiments. The project also has a significant education component, including the design of graduate courses and course material on Internet measurement and on Internet routing/content delivery, as well as undergraduate projects that use the project's testbeds.</AbstractNarration>
+    <MinAmdLetterDate>04/18/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/19/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1351100</AwardID>
+    <Investigator>
+      <FirstName>Ethan</FirstName>
+      <LastName>Katz-Bassett</LastName>
+      <EmailAddress>katzbass@usc.edu</EmailAddress>
+      <StartDate>04/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

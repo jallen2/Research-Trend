@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Three dimensional deep wavelet scattering for quantum energy interpolation</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>191775</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Physical quantities are often computed as solutions to a system of complex mathematical equations, which may require huge computations for intricate physical states. Quantum chemistry calculations of molecular energies is such an example. Indeed, computing the energy of a molecule, given the charges and positions of its nuclei, is a central issue in computational chemistry with important applications in molecular dynamics, materials science, and drug discovery. Machine learning algorithms do not simulate the physical system but estimate solutions by learning from a training set of known examples. However, such learning algorithms may require a number of examples that is exponential in the system dimension, and are thus intractable; this phenomena is referred to as the "curse of dimensionality." This proposal will develop a novel approach for the estimation of molecular energies based on the "scattering transform." The scattering transform estimates molecular energies, and circumvents the curse of dimensionality, by utilizing a multiscale, multilevel architecture that takes advantage of physical invariants. The resulting algorithms have the potential to significantly speed up the computation of highly accurate molecular energy estimates, leading to large scale atomistic simulations with greatly improved accuracy, speed, and adaptability, thus shifting the paradigm of multiscale modeling. The PI will additionally mentor an undergraduate student and train a graduate student in this field, thus setting up the potential for dissemination of the core ideas to a broader audience.&lt;br/&gt;&lt;br/&gt;The scattering transform has the structure of a deep convolutional network, but is composed of iterated wavelet transforms and complex modulus operators. Such networks have been used in computer vision for the analysis and classification of two dimensional images and audio tasks involving one dimensional signals. A multiscale three dimensional scattering transform network is novel both in practice (multiscale 3D) and design (for quantum chemistry), and has the chance to influence these types of architectures moving forward. A systematic approach will attack the primary object on several fronts: (1) development of efficient 3D filters with the appropriate symmetry and stability properties; (2) rigorous error analysis of the scattering regression algorithm for various components of the molecular energy functional; (3) deeper understanding of the scattering network via provable relations with fast multipole methods. The methods used to carry out these objectives will include: (i) wavelet filter design and efficient signal processing algorithms; (ii) utilization of Littlewood-Paley Theory in conjunction with polynomial (Taylor) approximation theory; (iii) multiscale analysis; (iv) numerical experiments to validate methods. By rigorously linking deep learning architectures with physical chemistry, the research in this proposal will take place at the interface of data science and scientific computation, for the mutual gain of both.</AbstractNarration>
+    <MinAmdLetterDate>09/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1620216</AwardID>
+    <Investigator>
+      <FirstName>Matthew</FirstName>
+      <LastName>Hirn</LastName>
+      <EmailAddress>mhirn@msu.edu</EmailAddress>
+      <StartDate>09/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

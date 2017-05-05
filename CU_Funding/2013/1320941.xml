@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Software-Driven Hardware Resiliency</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Moore's law continues to provide abundant devices on chip, but they are increasingly subject to failures from many sources. The hardware reliability problem is expected to be pervasive, affecting markets from embedded systems to high performance computing. There is an urgent need for research to address this problem with extremely low overheads in area, performance, and power (precluding traditional redundancy based solutions). Recently, researchers have proposed a software-driven hardware reliability solution that handles only the device faults that become visible to software and cause anomalous software behavior. This line of work has been quite successful in detecting most faults at extremely low cost. Unfortunately, some hardware faults escape detection by the proposed anomaly monitors, resulting in silent data corruption or SDC. These remaining few SDCs have been the Achilles heel of the software-driven hardware resiliency approach and a hindrance to widespread adoption. The proposed research seeks to overcome this obstacle. &lt;br/&gt;&lt;br/&gt;The research includes methodological innovations that can determine application sites vulnerable to SDCs within a practical workflow and resiliency solution that uses this information to develop low cost detection and recovery techniques to mitigate the impact of SDCs. It builds on a recent resiliency analysis tool developed by the Principle Investigator's group called Relyzer. The key insight is that instead of trying to determine the outcome of each fault site, Relyzer can seek to determine which application sites will produce equivalent outcomes. This enables pruning a large number of sites and focusing on fault injections for just one site per equivalence class, resulting in significant reduction in resiliency evaluation time. In addition to providing a list of SDC vulnerable instructions, Relyzer also provides a wealth of information on why they are vulnerable. This motivates the use of inexpensive application-specific detectors that exploit this information. However, Relyzer has several limitations in speed, accuracy, and generality, precluding its use in a practical workflow. This research will first develop new techniques to address these limitations and to implement them in a tool. Second, this research will explore systematic techniques to develop practical resiliency solutions that exploit the wealth of fault-propagation information exposed by Relyzer. It will develop systematic low-cost detection and recovery techniques, with quantifiable tradeoffs between resiliency and performance overheads, that can be incorporated in a practical workflow for real applications. If successful, this work will address a key challenge in meeting the expectations of Moore's law performance for a wide variety of societal advances. Besides the research benefits, it will provide a concrete tool for practical full application resiliency analysis and will also train graduate students.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320941</AwardID>
+    <Investigator>
+      <FirstName>Sarita</FirstName>
+      <LastName>Adve</LastName>
+      <EmailAddress>sadve@cs.uiuc.edu</EmailAddress>
+      <StartDate>07/30/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

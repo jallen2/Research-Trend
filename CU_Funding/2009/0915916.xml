@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF:Small:Collaborative Research: Algorithmic Problems in Protein Structure Studies</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2010</AwardExpirationDate>
+    <AwardAmount>225001</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mitra Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The research involves the design and analysis of efficient algorithms for fundamental problems that arise in studies of the three-dimensional structures of proteins. Graph-theoretic problems underlie these studies, since protein structures are naturally (and sufficiently) represented by graphs that have vertices for the individual amino acid residues and edges between close pairs. However, graph-theoretic formalisms lead to computationally hard optimization problems, further complicated by extensive amounts of noise in experimental data. Motivated by specific challenges in nuclear magnetic resonance spectroscopy and other protein structure studies, the project addresses two significant algorithmic problems: identifying correspondences between a pair of graphs where one is a significantly corrupted version of the other, and determining three-dimensional coordinates for the vertices of a graph, given approximate, noisy distance measurements for its edges.&lt;br/&gt;&lt;br/&gt;The first algorithmic problem is a form of graph matching, and the project focuses on developing efficient search algorithms to uncover correspondences, with random graph models to rigorously analyze the algorithms and study threshold phenomena characterizing robustness to noise. In an application to analysis of NMR data, one of the graphs represents the protein and the other the data, a noisy, ambiguous set of atomic interactions; the goal is to match the NMR-identified interactions with specific atomic interactions in the protein. The second algorithmic problem is Euclidean embedding for sparse geometric graphs, and the research involves development of algorithms to render such graphs amenable to low rank distance matrix reconstruction methods, generalizing the reconstruction methods to exploit the underlying geometric structure and account for the confounding noise structure. In the NMR setting, the graph represents NMR-probed through-space atomic interactions, and the goal is to compute structures consistent with the experimental data and biophysical constraints. Both problems are fundamental to numerous other significant applications in protein structure studies.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915916</AwardID>
+    <Investigator>
+      <FirstName>Gopal</FirstName>
+      <LastName>Pandurangan</LastName>
+      <EmailAddress>gopalpandurangan@gmail.com</EmailAddress>
+      <StartDate>08/25/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7946</Code>
+      <Text>BIO COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9217</Code>
+      <Text>NATNL RESERCH &amp; EDUCAT NETWORK</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CCF AF:EAGER:ASSESSING PRACTICALITY OF A NEW FRAMEWORK FOR SOLVING CONIC OPTIMIZATION PROBLEMS BY FIRST-ORDER METHODS</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2017</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A key component of Analytics, the scientific process of transforming data into insight for better decisions, is Optimization, which produces the best solution satisfying given constraints -- the solution that maximizes a chosen "objective" function. &lt;br/&gt;&lt;br/&gt;The objective and constraints together form "an optimization model." The difficulty of solving a model depends on the types of objective and constraint functions, and on the number of variables in the functions. Since huge, complicated, real-world models can have many variables, the amount of computer memory needed becomes the bottleneck for solutions by classical algorithms. Modern algorithms avoid this bottleneck by calculating fewer structures that have to be stored in memory. For example, some modern algorithms evaluate only first derivatives of functions, whereas older algorithms also stored second derivatives in memory. These modern algorithms are known as "first-order methods" (meaning, roughly, "algorithms using only first derivatives"). &lt;br/&gt;&lt;br/&gt;First-order methods can handle complicated objective functions, but it has been unknown how to handle complicated constraint functions. The focus of the project is a new framework that allows many optimization models with complicated constraints to be easily transformed into equivalent models with only simple constraints, so that existing first-order methods can be applied. The goal of the project is to thoroughly test whether, using the new framework, important huge models that were previously unsolvable can now be solved routinely. If so, entities relying on Analytics could benefit, in that their huge models involving complicated constraints might actually become solvable by existing first-order methods. &lt;br/&gt;&lt;br/&gt;The new framework transforms any convex, conic optimization problem into an equivalent optimization problem whose only constraints are linear equations, one more equation than for the original problem. Virtually any subgradient method can be applied to the equivalent problem. Moreover, for a wide class of conic optimization problems (hyperbolic programs), the objective function for the equivalent problem can be "smoothed," thus allowing for application of accelerated gradient methods. The goal of the project is to thoroughly test practicality of the new approach in applying first-order methods to solve large, general, conic optimization problems.&lt;br/&gt;&lt;br/&gt;PhD students will test this framework as part of their careers formation, in consultation with optimization experts from both academia and industry. The result should be better analytics in business, government, healthcare and education for making decisions based on data.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1552518</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Renegar</LastName>
+      <EmailAddress>renegar@orie.cornell.edu</EmailAddress>
+      <StartDate>08/25/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cornell University</Name>
+      <CityName>Ithaca</CityName>
+      <ZipCode>148502820</ZipCode>
+      <PhoneNumber>6072555014</PhoneNumber>
+      <StreetAddress>373 Pine Tree Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

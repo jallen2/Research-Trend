@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Phase-Based Tuning for Better Utilization of Performance-Asymmetric Multicores</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>416000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project focuses on the problem of making it easier to program performance-asymmetric multicore processors (AMP). A multicore processor is called performance-asymmetric when its constituent cores may have different characteristics such as frequency, functional units, etc. High-performance Computing (HPC) community has demonstrated significant interest in the AMPs as they are shown to provide nice trade-off between the performance and power. On the other hand, asymmetry makes programming these platforms hard. The programmers targeting these hardware platforms must ensure that tasks of a software system are well matched with the characteristics of the processor intended to run it. To make matters even more complicated, a wide range of AMPs exist in practice with varying configurations. To efficiently utilize such platforms, the programmer must account for their asymmetry and optimize their software for each configuration. This manual, costly, tedious, and error prone process significantly complicates software engineering for AMP platforms and leads to version maintenance nightmare. To approach this problem, this project is developing a novel program analysis technique, phase-based tuning. Phase-based tuning adapts an application to effectively utilize performance asymmetric multicores. Main goals are to create a technique that can be deployed without changes in the compiler or operating system, does not require significant inputs from programmer, and is largely independent of the performance-asymmetry of the target processor. The broader impacts are to help realize the potential of emerging AMPs and other novel extreme-scale computing architectures, which in turn will enable researchers in the scientific disciplines to analyze, model, simulate, and predict complex phenomena important to society.</AbstractNarration>
+    <MinAmdLetterDate>06/10/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/16/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117937</AwardID>
+    <Investigator>
+      <FirstName>Hridesh</FirstName>
+      <LastName>Rajan</LastName>
+      <EmailAddress>hridesh@iastate.edu</EmailAddress>
+      <StartDate>06/10/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

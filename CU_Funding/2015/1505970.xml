@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Medium: Collaborative research: Advanced algorithms and high-performance software for large scale eigenvalue problems</AwardTitle>
+    <AwardEffectiveDate>07/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Scientists and engineers in areas ranging from physics, chemistry, computer science, to economics, and statistics focus considerable attention on computing "eigenvalues" and "eigenvectors" of matrices. They are central to the study of vibrations when building earthquake-resistant structures, to energy computation in solid-state physics, and to ranking web search results. In spite of the enormous progress that has been made in the last few decades in solution methods for large eigenvalue problems, the current state-of-the-art methods remains unsatisfactory when dealing with the new generation of problems that need tens of thousands of eigenvectors for matrices that can have sizes in the tens of millions.&lt;br/&gt;&lt;br/&gt;In recent years a new class of techniques has emerged that can compute wanted eigenpairs of large matrices by parts. In these methods, 'windows' or 'slices' of the spectrum can be computed independently of one another and orthogonalization between eigenvectors in different slices is no longer necessary. When the number of eigenpairs to be computed is very large this divide-and-conquer approach becomes mandatory because orthogonalizing very large bases is prohibitive. The resulting interior eigenvalue problems arise in a number of other situations and are now considered by the linear algebra community to be among the most challenging numerical problems to solve, and solution methods for handling them are still lagging.&lt;br/&gt;&lt;br/&gt;The goal of this project is to advance the state of the art in solution methods for interior eigenvalue problems. The main thrust of the project is the development of novel algorithms based on a combination of Krylov or block-Krylov projection techniques and complex rational filters. A starting point in this investigation is the FEAST approach. This project addresses many interesting questions in several areas, starting with methodologies for solving eigenvalue problems, to approximation theory questions for designing rational filter functions, and ending with effective parallel implementations. Methods based on a domain decomposition framework will also be considered to deal with the common situation where the matrix (or pair of matrices in the generalized case) is (are) distributed.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The broader impacts of this project highlight the impact on training, the dissemination of new efficient software, and the use of the software by-products in specific applications. All general-purpose codes that are developed under this project will be freely distributed into the public domain. This project will have an impact on the training of graduate and undergraduate students in a field that is vital to the needs of academia, industry, and government laboratories.</AbstractNarration>
+    <MinAmdLetterDate>07/08/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/08/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1505970</AwardID>
+    <Investigator>
+      <FirstName>Yousef</FirstName>
+      <LastName>Saad</LastName>
+      <EmailAddress>saad@cs.umn.edu</EmailAddress>
+      <StartDate>07/08/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

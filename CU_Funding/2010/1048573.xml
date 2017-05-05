@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: IIS (G&amp;V):Scalable High-Fidelity Solids Simulation</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Lawrence Rosenblum</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Abstract&lt;br/&gt;&lt;br/&gt;Fundamental changes in the underlying algorithms of physical simulation are needed to bring about the orders of magnitude improvement in performance required to bring physical simulation to resource-constrained applications such as real-time games or surgical training. This research is investigating three issues: frame-rate simulation, asynchronous evolution, and multilevel solvers. The approach to frame-rate simulation consists of ensuring stability by careful energy management principles to address both stability and damping. Paying special attention to the amount of artificial damping in the system enables one to avoid excessively damped simulations, a problem that limits the time step size possible with existing techniques. Such a frame-rate simulator enables the next step: developing an asynchronous evolution scheme that allows small time steps to be taken in regions of high-frequency motion and large time steps to be taken elsewhere. Other attempts at developing asynchronous schemes have difficulty with excessive damping when taking large time-steps. This research is investigating an asynchronous method around the proposed frame-rate simulator in order to alleviate this problem, as the amount of damping can be explicitly controlled. Finally, to reduce the cost of a single time step, we are using multilevel methods to reduce the time spent solving large linear systems typical of physical simulation. &lt;br/&gt;&lt;br/&gt;Multilevel methods have a long history, but they are new to the physical simulation community. Finding suitable coarsening and refinement operators are key to multilevel methods and, although difficult to formulate, have the potential to create asymptotic improvements in the convergence rates of solving these systems. The methods being investigated represent a radically different approach from current techniques and this exploratory research is seeking to demonstrate the feasibility of this potentially transformative change.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1048573</AwardID>
+    <Investigator>
+      <FirstName>Ronald</FirstName>
+      <LastName>Fedkiw</LastName>
+      <EmailAddress>fedkiw@cs.stanford.edu</EmailAddress>
+      <StartDate>08/06/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Stanford University</Name>
+      <CityName>Palo Alto</CityName>
+      <ZipCode>943041212</ZipCode>
+      <PhoneNumber>6507232300</PhoneNumber>
+      <StreetAddress>3160 Porter Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

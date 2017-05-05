@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSI: Collaborative: The XScala Project: A Community Repository for Model-Driven Design and Tuning of Data-Intensive Applications for Extreme-Scale Accelerator-Based Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>1188710</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The increasing gap between processor and memory performance -- referred to as the memory wall -- has led high-performance computing vendors to design and incorporate new accelerators into their next-generation systems. Representative accelerators include recon&amp;#64257;gurable hardware such as FPGAs, heterogeneous processors such as CPU+GPU processors, highly multicore and multithreaded processors, and manycore co-processors and general-purpose graphics processing units, among others. These accelerators contain myriad innovative architectural features, including explicit control of data motion, large-scale SIMD/vector processing, and multithreaded stream processing. Such features provide abundant opportunities for developers to achieve high-performance for applications that were previously deemed hard to optimize. This project aims to develop tools that will assist developers in using hardware accelerators (co-processors) productively and effectively.&lt;br/&gt;&lt;br/&gt;This project's specific technical focus is on data-intensive kernels including large dictionary string matching, dynamic programming, graph theory, and sparse matrix computations that arise in the domains of biology, network security, and the social sciences. The project is developing XScala, a software framework for designing efficient accelerator kernels. The framework contains a variety of design time and run-time performance optimization tools. The project concentrates on data-intensive kernels, bound by data movement. It proposes optimization techniques including (a) enhancing and exploiting maximal concurrency to hide data movement; (b) algorithmic reorganization to improve spatial and/or temporal locality; (c) data structure transformations to improve locality or reduce the size of the data (compressed structures); and (d) prefetching, among others. The project is also developing a public software repository and forum, called the XBazaar, for community-developed accelerator kernels. This project includes workshops, tutorials, and the PIs class and summer projects as various means by which to increase community involvement. The broader impacts include productive use of emerging classes of accelerator-augmented computer systems; creation of an open and accessible community repository, the XBazaar, for distributing accelerator-tuned computational kernels, software, and models; training of graduate and undergraduate students; and dissemination through publications, presentations at scientific meetings, lectures, workshops, and tutorials. The framework itself will be released as open-source code and as precompiled binaries for several common platforms, through the XBazaar, as an initial step toward building a community around accelerator kernels.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/16/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1339745</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Bader</LastName>
+      <EmailAddress>bader@cc.gatech.edu</EmailAddress>
+      <StartDate>09/16/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>Vuduc</LastName>
+      <EmailAddress>richie@cc.gatech.edu</EmailAddress>
+      <StartDate>09/16/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Edward</FirstName>
+      <LastName>Riedy</LastName>
+      <EmailAddress>jason.riedy@cc.gatech.edu</EmailAddress>
+      <StartDate>09/16/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7231</Code>
+      <Text>CYBERINFRASTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8009</Code>
+      <Text>Scientifc Software Integration</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9145</Code>
+      <Text>SPECIAL PROGRAMS-RESERVE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

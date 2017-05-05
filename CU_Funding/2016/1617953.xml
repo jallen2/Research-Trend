@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Supervised Descent Method and its Applications to Computer Vision (and Beyond)</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>449715</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project develops a fast optimization strategy for continuous and possibly combinatorial optimization problems. Optimization is a fundamental problem in many scientific disciplines from biology, physics and statistics to computer graphics and computer vision. This project focuses on solving 2 dimensional (2D) and 3 dimensional (3D) image alignment problems in computer vision. Solving the correspondence between 2D and 3D images is an open research problem and it is a fundamental component in most computer vision systems for medical imaging, surveillance, advanced driver assistance systems, mobile robots, augmented reality, object recognition and aerial video exploration, among other applications. The project integrates the research with education, and involves undergraduate/graduate students in the research.&lt;br/&gt;&lt;br/&gt;This research addresses two main issues with second order descent methods in optimization: (1) the objective function to optimize might not be analytically differentiable and numerical approximations are impractical, and (2) the Hessian might be large and not positive definite. The research team advocates the concept of learning generic descent maps (i.e., average "descent directions") in a supervised manner. Using generic descent maps, the research team derives a practical algorithm, Supervised Descent Method (SDM), for minimizing Nonlinear Least Squares (NLS) problems with continuous parameters. During training, SDM learns a sequence of decent maps that minimize the NLS objective. During testing, these learned descent maps are used to minimize the NLS objective without requiring computation of the expensive Jacobian or Hessian. Beyond NLS, the research team explores the use of SDM to optimize combinatorial optimization problems such as finding 2D and 3D correspondences in images and point-clouds.</AbstractNarration>
+    <MinAmdLetterDate>06/07/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/07/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617953</AwardID>
+    <Investigator>
+      <FirstName>Fernando</FirstName>
+      <LastName>De la Torre</LastName>
+      <EmailAddress>ftorre@cs.cmu.edu</EmailAddress>
+      <StartDate>06/07/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

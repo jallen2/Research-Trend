@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Medium: Limiting Manipulation in Data Centers and the Cloud</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>299459</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Datacenters and clouds have become the main compute platform for many large scale corporations. Petabyte-scale datasets are stored throughout the datacenter and hundreds to thousands of different users submit jobs to collect business intelligence, gather statistics, or to compute essential data, such as a large scale index or a list of top users or their message posts. However, a significant challenge to these centers arises from user manipulation by some or all of the many tenants (both intentional and unintentional) of the underlying resource allocation mechanisms through misreporting of true job characteristics.&lt;br/&gt;&lt;br/&gt;This project is designing and testing new algorithms combining ideas from computer science and economics which will make datacenters and clouds more robust to user manipulations. It is initially focusing on two important abstractions. The first allocates the total amount of resources and the second allocates individual machines (or virtual machines). The former is the standard abstraction for datacenters and the latter for many clouds, such as Facebook's internal cluster and Amazon's public EC2. For the former, where there are existing non-manipulable algorithms, the PIs are developing extensions to support new requirements, such as jobs with constraints. For the latter, the PIs are inventing new non-manipulable algorithms based on their preliminary studies. In addition, this project is applying recent results from algorithmic mechanism design and game theory to develop general procedures for converting existing manipulable protocols into non-manipulable ones.&lt;br/&gt;&lt;br/&gt;This project will lead to more robust mechanisms for datacenters and clouds, reducing costs and energy usage.</AbstractNarration>
+    <MinAmdLetterDate>08/13/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1161813</AwardID>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Friedman</LastName>
+      <EmailAddress>ejf@icsi.berkeley.edu</EmailAddress>
+      <StartDate>08/13/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ion</FirstName>
+      <LastName>Stoica</LastName>
+      <EmailAddress>istoica@eecs.berkeley.edu</EmailAddress>
+      <StartDate>08/13/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ali</FirstName>
+      <LastName>Ghodsi</LastName>
+      <EmailAddress>alig@cs.berkeley.edu</EmailAddress>
+      <StartDate>08/13/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>International Computer Science Institute</Name>
+      <CityName>Berkeley</CityName>
+      <ZipCode>947044115</ZipCode>
+      <PhoneNumber>5106662900</PhoneNumber>
+      <StreetAddress>1947 CENTER ST STE 600</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

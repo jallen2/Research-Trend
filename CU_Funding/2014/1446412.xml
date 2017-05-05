@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Exploring the Foundations of High-Level Programming Models for GPUs</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>274660</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern Graphics-Processor Units (GPUs) are capable of performance that, just a few years ago, would have been classified as supercomputer-level. With the trend of integrating GPU cores into heterogeneous multicore processors, GPUs are becoming an important source of future performance growth in mainstream processors. Unfortunately, GPUs are notoriously hard to program. The standard languages for programming GPUs expose low-level architectural details, such as an explicit memory hierarchy, which the programmer must exploit to maximize performance. Furthermore, GPU hardware evolves rapidly, with successive generations of hardware having different performance characteristics, which means that application code must be constantly revised to achieve optimal performance.&lt;br/&gt;&lt;br/&gt;To make the power of GPUs, accelerators, and heterogeneous architectures more widely applicable, programming models need to lift the level of abstraction away from the details of the hardware threading and memory models. This EAGER project identifies common abstractions and implementation techniques that can provide a foundation for supporting irregular computations on accelerator and heterogeneous architectures. A key focus of the project is the design of a core calculus of heterogeneity that can model programs that run on heterogeneous systems, such as CPU/GPU combinations, and provide a foundation for future work in both the semantics and implementation of parallel programming languages for GPUs. The results of the project broaden the applicability of GPUs to a wider range of computational problems and, in turn, will help make GPUs useful to a broader community of users by supporting higher-level programming models for GPUs that are easier to use than existing languages.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1446412</AwardID>
+    <Investigator>
+      <FirstName>Todd</FirstName>
+      <LastName>Dupont</LastName>
+      <EmailAddress>dupont@cs.uchicago.edu</EmailAddress>
+      <StartDate>08/26/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Reppy</LastName>
+      <EmailAddress>jhr@cs.uchicago.edu</EmailAddress>
+      <StartDate>08/26/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606375418</ZipCode>
+      <PhoneNumber>7737028669</PhoneNumber>
+      <StreetAddress>5801 South Ellis Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

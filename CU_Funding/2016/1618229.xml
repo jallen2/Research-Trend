@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Benchmarking Testing Methods for Access Control Policies</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>497121</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Access control policies specify which users may perform which actions on which resources within which environments. Defective policies may have serious impacts, allowing unintended access (e.g., bank account withdrawals by a stranger) or preventing critical legitimate access (e.g., a doctor cannot view her patient's x-ray). As computer systems become more complex, policy defects have become more common. However, existing testing methods for detecting faults in access control policies have not been very successful and there is no explanation for why they are unable to detect a majority of faults. This project is investigating the inherent strengths, limitations, and cost-effectiveness of existing testing methods for access control policies. The results of this project will provide essential guidelines for planning testing efforts and selecting appropriate testing methods.&lt;br/&gt;&lt;br/&gt;The project focuses on access control policies expressed in the XACML language. The project is formalizing fault detection conditions that test cases must satisfy in order to detect specific types of access control faults. These conditions consist of reachability constraints, necessity constraints, and propagation constraints of various faults in XACML policies. They are used to determine the fault detection ability of a given testing method by evaluating whether or not its test cases satisfy the fault detection conditions. Based on the collective fault detection conditions of fault groups, the project is developing a method for generating optimal test suites using an efficient constraint solver. The optimal test suites are used to quantitatively measure cost-effectiveness levels of other testing methods in terms of the ratio between the number of faults detected (i.e., effectiveness) and the size of test suite generated (i.e., cost). Thus, the project is a study of benchmarking testing methods for access control policies.</AbstractNarration>
+    <MinAmdLetterDate>07/25/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/25/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618229</AwardID>
+    <Investigator>
+      <FirstName>Dianxiang</FirstName>
+      <LastName>Xu</LastName>
+      <EmailAddress>dianxiangxu@boisestate.edu</EmailAddress>
+      <StartDate>07/25/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Boise State University</Name>
+      <CityName>boise</CityName>
+      <ZipCode>837251135</ZipCode>
+      <PhoneNumber>2084261574</PhoneNumber>
+      <StreetAddress>1910 University Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Idaho</StateName>
+      <StateCode>ID</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

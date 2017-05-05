@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Fast and Memory-Efficient Dimensionality Reduction for Massive Networks</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>360000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many systems take the form of massive networks, i.e., a set of nodes joined together in pairs by links. Examples include social, communication and biological networks. Research on such complex networks has attracted broad scientific disciplines. While many sophisticated mathematical tools for network analysis have been developed, many such tools are not directly applicable due to the sheer size of modern-day networks. In addition, these networks may be dynamically evolving and may have extra node information and/or auxiliary links between the same group of nodes obtained from heterogeneous data sources. Our proposed research aims to develop mathematical ideas novel to the analysis of massive networks. In particular, we plan to develop a novel dimensionality reduction method that proceeds by conducting a very fast clustering of the graph, extracting local latent subspaces of the graph, and then "gluing" together these subspaces to get a dimensionality reduction scheme for the entire network. Building on our new method, we plan to develop methods for handling time-evolving networks, multiple sources of information, supervised dimensionality reduction of networks and hierarchical schemes for dimensionality reduction as well as prediction. Our methods are eminently suitable for parallel computation, and we propose to further address the scalability problem by developing parallel versions of our methods on modern multi-core architectures.&lt;br/&gt;&lt;br/&gt;The proposed research will enable important inference tasks, such as link prediction, collaborative filtering and semi-supervised classification to be efficiently carried out on massive networks. We expect the resulting algorithms to have the following properties: (1) computationally faster than current state-of-the-art methods for dimensionality reduction; (2) much more memory-efficient than the globally and rank-wise optimal SVD method; (3) scalable to extremely large data sets, such as online social networks, e.g., MySpace and Facebook, communication networks and virtual networks; (4) flexible enough to integrate auxiliary information of various types and different levels of uncertainty; and (5) effective enough to discover the task-oriented low-dimensional structure of the network. The proposed project will have broad impact on research in a variety of disciplines, including applied mathematics, computer science and social sciences. We plan to share the software developed under the project with the scientific community via a public web site, as well as the data and results that arise from our studies. The project will make a conscious effort to involve students in inter-disciplinary research.</AbstractNarration>
+    <MinAmdLetterDate>06/02/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/02/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117055</AwardID>
+    <Investigator>
+      <FirstName>Inderjit</FirstName>
+      <LastName>Dhillon</LastName>
+      <EmailAddress>inderjit@cs.utexas.edu</EmailAddress>
+      <StartDate>06/02/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Theory and Practice of Tweakable-Blockcipher-Based Cryptography</AwardTitle>
+    <AwardEffectiveDate>07/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2015</AwardExpirationDate>
+    <AwardAmount>433769</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Blockciphers are the basic building block of shared-key cryptography. However, for certain important cryptographic goals, like building encryption schemes, the interface presented by blockciphers is limiting. A more modern primitive, the tweakable blockcipher (TBC), is often a better fit. Like a blockcipher, a TBC takes as input a secret key, a block of data and the tweak which is an additional input which provides variability to the TBC's input-output behavior without having to change the secret key. TBC-based cryptography has the potential to deliver efficient constructions with better security than analogous blockcipher-based designs, as well natural support for associated data inputs, key reuse, and other practical considerations.&lt;br/&gt;&lt;br/&gt;Despite its clear promise, TBC-based cryptography has not received a sustained and coherent examination. This project provides such an examination, in an effort to better understand the potential of TBCs to impact future cryptographic practice. It explores the construction of TBCs, both from scratch and leveraging off-the-shelf primitives. It reconsiders existing blockcipher-based constructions starting from the question, "what happens if we replace the blockcipher with a TBC?", and leading to new designs with increased security, and greater resilience to certain implementation and usage mistakes. It also considers foundational matters concerning definitions of security for TBCs, and connections to idealized models of ciphers.</AbstractNarration>
+    <MinAmdLetterDate>06/24/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/24/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319061</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Shrimpton</LastName>
+      <EmailAddress>teshrim@cise.ufl.edu</EmailAddress>
+      <StartDate>06/24/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Portland State University</Name>
+      <CityName>Portland</CityName>
+      <ZipCode>972070751</ZipCode>
+      <PhoneNumber>5037259900</PhoneNumber>
+      <StreetAddress>1600 SW 4th Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

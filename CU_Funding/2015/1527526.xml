@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Deker: Decomposing Commodity Kernels for Verification</AwardTitle>
+    <AwardEffectiveDate>08/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>499999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The problem of insecure computing environments has large impacts on society: security breaches lead to violations of privacy, financial frauds, espionage, sabotage, lost productivity, and more. These, in turn, result in vast economic damage. A major reason for the severity of these consequences is that many systems run on top of an insecure operating system kernel. The Linux kernel, a de facto industry standard for embedded, mobile, cloud, and supercomputing environments, is often a target for security attacks. By providing a secure, verified kernel, the project has the potential to mitigate many of the worst problems associated with insecure software, thereby benefiting society and reducing economic damage. &lt;br/&gt;&lt;br/&gt;The project will verify the security of a commodity operating system kernel (in particular, linux). The essence of the approach is to factor the source code of a commodity kernel into separated modules with no shared state, and to express this decomposition in an interface "glue" language, Deker. The methodology uses an interface language to explicitly restructure the kernel with the consequence that the verification task is made modular. Aside from the verification and security related research, there is a novel communication/protection mechanism for better performance on multicore computations. The project will develop software under an open source license, and distribute and advertise it widely in the Linux and operating system research communities. The system will form a solid foundation for future research in this area by lowering the amount of development required to enter the field. Finally, innovative research, which is critical for advancing science, requires a diverse research team. Hence, the plan is to involve traditionally underrepresented students in the security and verification communities.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527526</AwardID>
+    <Investigator>
+      <FirstName>Zvonimir</FirstName>
+      <LastName>Rakamaric</LastName>
+      <EmailAddress>zvonimir@cs.utah.edu</EmailAddress>
+      <StartDate>08/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anton</FirstName>
+      <LastName>Burtsev</LastName>
+      <EmailAddress>aburtsev@flux.utah.edu</EmailAddress>
+      <StartDate>08/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

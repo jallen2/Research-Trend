@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: AF: Principled Divide-and-Conquer for Topological Algorithms</AwardTitle>
+    <AwardEffectiveDate>02/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2018</AwardExpirationDate>
+    <AwardAmount>173034</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many data sets undergo transformations either before, after, during the collection process which are most often corrected by smoothing, de-noising, or registration. Topological Data Analysis (TDA) makes it possible to extract robust signatures from data that are invariant to these transformations. However, in TDA, even a relatively small data set can easily blow up to fill memory when considering the space needed for edges, triangles, and other simplices that represent (or estimate) the connectivity of the underlying data. There is a need for fast, parallel, and distributed algorithms that partition the input in a principled way that leads to both strong theoretical guarantees and also practical performance. This project aims to fill this need by combining nested dissection, a well-studied theory from numerical analysis (NA) with persistent homology, the main technique of TDA, with the expectation that both fields will benefit. A potential broader impact of the project is to improve communication between researchers in TDA and NA. The PI will train both undergraduate and graduate researchers and incorporate advanced concepts in combinatorial topology in undergraduate and graduate curricula.&lt;br/&gt;&lt;br/&gt;The specific aim is to develop a theory of nested dissection on simplicial complexes that allows for fast, parallel computation of persistent homology. A second specific aim is to develop and analyze new efficient data representations for the partially reduced simplicial complexes that appear in the course of persistent homology computation. This will involve a topological generalization of the Union-Find problem, a new approach to combining persistent homology and discrete Morse theory, an extension of the theory of nested dissection to work directly over quotient vector spaces (such as homology groups over fields), and also a separator theory that applies to filtrations or other situations where the underlying graph or complex is changing in time. Preliminary examples indicate that these extensions may produce significantly better theoretical guarantees. A third specific aim is to implement this approach, compare it with, and possibly integrate it with existing open source codes.</AbstractNarration>
+    <MinAmdLetterDate>01/23/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/23/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1464379</AwardID>
+    <Investigator>
+      <FirstName>Donald</FirstName>
+      <LastName>Sheehy</LastName>
+      <EmailAddress>donald@engr.uconn.edu</EmailAddress>
+      <StartDate>01/23/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Connecticut</Name>
+      <CityName>Storrs</CityName>
+      <ZipCode>062691133</ZipCode>
+      <PhoneNumber>8604863622</PhoneNumber>
+      <StreetAddress>438 Whitney Road Ext.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7929</Code>
+      <Text>COMPUTATIONAL GEOMETRY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7934</Code>
+      <Text>PARAL/DISTRIBUTED ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8552</Code>
+      <Text>CRII</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

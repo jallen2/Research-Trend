@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NECO: Protocol Design for Distributed Delaunay Triangulation and Its Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Joseph Lyles</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>NSF NeTS-NECO Proposal 0830939: Protocol Design for Distributed Delaunay Triangulation and Its Applications&lt;br/&gt;&lt;br/&gt;Award Abstract&lt;br/&gt;&lt;br/&gt;Delaunay triangulation (DT) of a set of points in Euclidean space has many applications in different fields of science and engineering. A distributed DT can be used to improve performance for a variety of networks (e.g., P2P, overlay, sensor, and wireless networks) as well as simulation-type applications, including distributed virtual reality systems and multiplayer online games. The discovery of a necessary and sufficient condition for a correct distributed DT is the basis of protocol design in this project for a dynamically changing system of nodes (in d-dimensional space, d &gt; 1) to construct and maintain a distributed DT. In addition to correctness and efficiency, accuracy is used as a performance metric because it is impossible to maintain a correct distributed DT continually (correctness of a distributed DT is broken as soon as a join, leave or failure occurs). A suite of protocols is designed that recovers quickly from incorrect system states such that a system that has been under ?churn? converges to 100% accuracy quickly after churning stops. Expected results include (i) the design of an improved protocol suite that is an order of magnitude more efficient than existing protocols and still satisfies requirements of correctness and accuracy, and (ii) protocols to construct a distributed Euclidean minimum spanning tree for systems under churn. Network application protocols are also designed for greedy routing, finding the closest node, broadcast, multicast, geocast, and clustering. The performance of these protocols for network nodes with inaccurate (or virtual) coordinates is being investigated.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Investigator: Simon S. Lam&lt;br/&gt;&lt;br/&gt;List of Active Grant Awards&lt;br/&gt;&lt;br/&gt;1. NSF NeTS-NECO Proposal 0830939: Protocol Design for Distributed Delaunay Triangulation and Its Applications, 9/1/08 to 8/31/11&lt;br/&gt; Support for Simon Lam from this grant: 1 summer month (2009, 2010, 2011)&lt;br/&gt;&lt;br/&gt;2. NSF CNS-0434515: NeTS-NR: A Novel Technique to Detect Shared Congestion and Applications, 10/01/04 to 9/30/08.&lt;br/&gt; Support for Simon Lam from this grant: none (grant expires on 9/30/08)&lt;br/&gt;&lt;br/&gt;3. NSF CNS-0627020: Collaborative Research: NeTS-NBD: Traffic Engineering in an Uncertain World, 9/1/06 to 8/31/09.&lt;br/&gt; Support for Simon Lam from this grant: 1 summer month (2009)</AbstractNarration>
+    <MinAmdLetterDate>08/08/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0830939</AwardID>
+    <Investigator>
+      <FirstName>Simon</FirstName>
+      <LastName>Lam</LastName>
+      <EmailAddress>lam@cs.utexas.edu</EmailAddress>
+      <StartDate>08/08/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

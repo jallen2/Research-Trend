@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Optimization without Round-off Errors</AwardTitle>
+    <AwardEffectiveDate>09/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>124750</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Georgia-Ann Klutke</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This Early-concept Grant for Exploratory Research (EAGER) provides funding to further develop an algorithm to solve systems of linear equations with a specific advantage over Gaussian Elimination in that the algorithm does not have round-off errors. The algorithm will be tailored and adapted to be used within existing optimization algorithms. The key property of the algorithm being further developed is that it maintains the integrality of the numbers throughout its execution. In particular, although the algorithm does contain divisions (which is crucial for the polynomial-time complexity of the&lt;br/&gt;algorithm) all the divisions have a remainder of zero. A detailed complexity analysis of the algorithm will be performed; specifically, both its running time and the number of bits required to represent the numbers throughout the algorithm's execution will be investigated. A modification of the algorithm to perform LU factorizations will also be studied. Finally, the algorithm will be adapted to enable its use for the basis updates performed in state-of-the-art implementations of the revised simplex method.&lt;br/&gt;&lt;br/&gt;If successful, the outcomes of this research will lead to a deeper understanding of computational linear algebra free of round-off errors and the associated applications within optimization algorithms. In the linear programming (LP) context, this research will enable us to solve large-scale LPs exactly; this, in turn, will significantly improve the accuracy and speed of integer programming solvers. In addition, since solving systems of linear equations is a critical subroutine of many numerical algorithms, this research will impact many application areas where linear systems frequently arise, including economics, physics, chemistry, and engineering.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/27/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1252456</AwardID>
+    <Investigator>
+      <FirstName>Erick</FirstName>
+      <LastName>Moreno-Centeno</LastName>
+      <EmailAddress>emc@tamu.edu</EmailAddress>
+      <StartDate>09/11/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas A&amp;M Engineering Experiment Station</Name>
+      <CityName>College Station</CityName>
+      <ZipCode>778454645</ZipCode>
+      <PhoneNumber>9798477635</PhoneNumber>
+      <StreetAddress>TEES State Headquarters Bldg.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1787</Code>
+      <Text>SERVICE ENTERPRISE SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>072E</Code>
+      <Text>NETWORKS &amp; QUEUING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>077E</Code>
+      <Text>SIMULATION MODELS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>116E</Code>
+      <Text>RESEARCH EXP FOR UNDERGRADS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1786</Code>
+      <Text>MANFG ENTERPRISE SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9231</Code>
+      <Text>SUPPL FOR UNDERGRAD RES ASSIST</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

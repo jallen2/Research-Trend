@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: Parallel and Adaptive Simulation Infrastructure for Biological Fluid-Structure Interaction</AwardTitle>
+    <AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2015</AwardExpirationDate>
+    <AwardAmount>75361</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The immersed boundary (IB) method is both a mathematical formulation and a numerical approach to problems of fluid-structure interaction, treating the specific case in which an elastic structure is immersed in a viscous incompressible fluid. The IB method was introduced to describe the fluid dynamics of heart valves, but this methodology has also been applied to a wide range of problems in biological and non-biological fluid dynamics. The IB method typically requires high spatial resolution to resolve the viscous boundary layers at fluid-structure interfaces and, at higher Reynolds numbers, to resolve vortices shed from such interfaces. To improve the efficiency of the IB method, the principal investigator has developed an adaptive version of the IB method that employs block-structured adaptive mesh refinement (AMR) to deploy high spatial resolution only where it is needed. IBAMR software is a distributed-memory parallel implementation of this adaptive scheme. The key goal of this project is to make IBAMR the unifying software framework for users of the IB method, thereby establishing a community of researchers who employ a common software infrastructure for biofluids model development and simulation. The project aims to enhance IBAMR substantially by (1) developing and implementing implicit IB schemes that will allow for the efficient use of large numerical timesteps; (2) developing and implementing extensions of the basic IB methodology, including a new variable-viscosity version of the IB method, and an existing stochastic version for microscale and nanoscale problems in which Brownian motion is important; (3) optimizing IBAMR for use with modern as well as projected-future high performance computing systems comprised of multi-core compute nodes interconnected by a high-speed network; and (4) developing front-end tools for model construction, validation, and execution, thereby facilitating the adoption and use of IBAMR, especially by students and researchers with limited computational experience.&lt;br/&gt;&lt;br/&gt;From the writhing and coiling of DNA, to the beating and pumping motions of cilia and flagella, to the flow of blood in the heart and throughout the circulation, coupled fluid-structure systems are ubiquitous in biology and physiology. This project aims to enhance significantly the IBAMR software developed by the principal investigator. IBAMR is a framework for performing computer simulations of biological fluid mechanics, and this project seeks to establish IBAMR as a unifying software infrastructure that will serve as a common "language" for developing and exchanging such models. IBAMR is already being actively used within several independent research projects that aim to model different aspects of cardiovascular dynamics, such as platelet aggregation and the fluid dynamics of natural and prosthetic heart valves. Such simulations promise ultimately to improve the efficacy of devices and procedures for treating cardiovascular disease. This software also is being used within projects that study other problems in biofluid mechanics, including insect flight, aquatic locomotion, and the dynamics of phytoplankton. By enhancing IBAMR, this project will also enhance significantly the ability of these and other research groups to construct detailed biofluids models without requiring those researchers to develop the significant software infrastructure needed to perform such simulations. This project will enhance the IBAMR software substantially, extending the range of problems to which it may be applied, and improving the methods implemented within the software as well as the efficiency of the implementation. The work of this project will extend greatly the community of students and researchers who are able to use IBAMR to model biological fluid-structure interaction, in part by implementing graphical software tools for building IB models and running IB simulations.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1460334</AwardID>
+    <Investigator>
+      <FirstName>Boyce</FirstName>
+      <LastName>Griffith</LastName>
+      <EmailAddress>boyceg@email.unc.edu</EmailAddress>
+      <StartDate>09/11/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Chapel Hill</Name>
+      <CityName>CHAPEL HILL</CityName>
+      <ZipCode>275991350</ZipCode>
+      <PhoneNumber>9199663411</PhoneNumber>
+      <StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1414</Code>
+      <Text>INTERFAC PROCESSES &amp; THERMODYN</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1630</Code>
+      <Text>Mechanics of Materials and Str</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7478</Code>
+      <Text>DYNAMICAL SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

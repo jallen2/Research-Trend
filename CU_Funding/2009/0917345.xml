@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: RUI: Observationally Cooperative Multithreading</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2013</AwardExpirationDate>
+    <AwardAmount>308875</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern processors are designed to perform more tasks simultaneously, rather than to perform single tasks more quickly. These new multicore processors are powerful, but using that power is challenging; interesting problems often divide irregularly, requiring difficult and error-prone coordination among subtasks. Consequently, parallel programming is considered hard to learn and harder to do. Observationally Cooperative Multithreading (OCM) is a new approach. In programs written for cooperative multithreading (CM), subtasks take turns and execute one at a time. The CM model is well-known to rule out conflicts and to simplify programming. OCM takes these same programs but runs them on modern multicore machines, executing subtasks simultaneously when there are no conflicts. The result can be a speed and resource-utilization benefit with no extra complexity for programmers. Potentially, OCM could make concurrency more accessible to a broad audience, including introductory students. The research will develop OCM implementations using techniques such as Transactional Memory and Lock Inference, with the aim of fostering adoption of OCM by a large user community. Realistic benchmarks will be constructed to analyze the speed and scalability of OCM implementations, and to verify ease of programming in the OCM model.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0917345</AwardID>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>Stone</LastName>
+      <EmailAddress>stone@cs.hmc.edu</EmailAddress>
+      <StartDate>07/29/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Melissa</FirstName>
+      <LastName>O'Neill</LastName>
+      <EmailAddress>melissa_oneill@hmc.edu</EmailAddress>
+      <StartDate>07/29/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Harvey Mudd College</Name>
+      <CityName>CLAREMONT</CityName>
+      <ZipCode>917115901</ZipCode>
+      <PhoneNumber>9096218121</PhoneNumber>
+      <StreetAddress>301 Platt Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

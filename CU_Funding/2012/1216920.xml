@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Novel Algorithms for Nonlinear Optimization</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>252000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The two research objectives of this project concern the development, analysis, and implementation of novel numerical methods for the solution of nonlinear optimization problems. The first thrust addresses the design of nonlinear programming (NLP) methods that can, in contrast to existing algorithms, reuse the factorization of derivative matrices for the solution of closely related problem instances. Such hot-started methods are expected to lead to significant speedup of branch-and-bound algorithms for mixed-integer nonlinear optimization. The second focus is the development of efficient parallel algorithms based on Generalized Benders Decomposition for the solution of decomposable NLPs, as they arise in design under uncertainty or two-stage stochastic optimization problems. The emphasis lies in the fast computation of local solutions of nonconvex problems, whereas existing approaches are restricted to convex instances or limited to the much more time-consuming search for global optima.&lt;br/&gt;&lt;br/&gt;Numerical optimization has become an indispensable tool in many areas of industry, economy and science, answering questions such as "what is the best way to design and operate this plant" or "how should the electrical power grid be operated in order to be able to sustain failure of network components." While powerful computational methods are available for the optimization of systems that can be described by models that are either linear or restricted to non-discrete decisions, the solution of problems that are both nonlinear and discrete, as they frequently appear in practice, is often too time-consuming with current technology. Therefore, the first part of the proposed research project aims at significantly accelerating a crucial key component in algorithms for nonlinear discrete optimization. The second research objective of this project deals with the efficient exploitation of increasingly pervasive parallel computing power for the optimization of problems that consider many potential scenarios as a way of addressing the uncertainty of future circumstances.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1216920</AwardID>
+    <Investigator>
+      <FirstName>Andreas</FirstName>
+      <LastName>Waechter</LastName>
+      <EmailAddress>waechter@iems.northwestern.edu</EmailAddress>
+      <StartDate>07/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northwestern University</Name>
+      <CityName>Evanston</CityName>
+      <ZipCode>602013149</ZipCode>
+      <PhoneNumber>8474913003</PhoneNumber>
+      <StreetAddress>1801 Maple Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

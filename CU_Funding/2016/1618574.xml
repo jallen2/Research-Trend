@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Mechanical Verification of QBF Results</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2019</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many important industrial applications, such as verification and synthesis problems, can be efficiently solved by satisfiability (SAT) solvers. However, this approach involves translating the original problem into SAT that typically results in generating dozens to thousands of nearly identical copies of subproblems. The quantified Boolean formula (QBF) formalism provides a convenient framework to compactly translate many of these interesting problems. For example, software verification and hardware synthesis problems can be translated into QBF, while avoiding generating these nearly identical copies. Hence, QBF facilities a compact representation of crucial problems in computer science.&lt;br/&gt;&lt;br/&gt;The expressiveness of QBF comes at a price: it is hard validate the results produced by these solvers. The existing approaches for addressing this problem all have disadvantages. Prevalent approaches involve costly validation algorithms and limit the used techniques. A recent technological advancement, known as clausal proofs, takes care of most problems. However, efficiently checking clausal proofs is complicated, thus trusting the results of one complex program (a QBF solver) depends on the correctness of another complex program (the checker). To boost confidence in the results of QBF solvers, a mechanically-verified checker is required. This research develops a uniform, complete, and trustworthy framework for QBF solving which is urgently needed for the scientific and industrial application of QBF solvers.</AbstractNarration>
+    <MinAmdLetterDate>07/19/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/19/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618574</AwardID>
+    <Investigator>
+      <FirstName>Marienus</FirstName>
+      <LastName>Heule</LastName>
+      <EmailAddress>marijn@cs.utexas.edu</EmailAddress>
+      <StartDate>07/19/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8206</Code>
+      <Text>Formal Methods and Verification</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>HECURA: Collaborative Research: QoS-driven Storage Management for High-end Computing Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>456343</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In today's high-end computing (HEC) systems, the parallel file system (PFS) is at the core of the storage infrastructure. PFS deployments are shared by many users and applications, but currently there are no provisions for differentiation of service - data access is provided in a best-effort manner. As systems scale, this limitation can prevent applications from efficiently utilizing the HEC resources while achieving their desired performance and it presents a hurdle to support a large number of data-intensive applications concurrently. This NSF HECURA project tackles the challenges in quality of service (QoS) driven HEC storage management, aiming to support I/O bandwidth guarantees in PFSs by addressing the following four research aspects: 1. Per-application I/O bandwidth allocation based on PFS virtualization, where each application gets its specific I/O bandwidth share through its dynamically created virtual PFS. 2. PFS management services that control the lifecycle and configuration of per-application virtual PFSs as well as support application I/O monitoring and storage resource reservation. 3. Efficient I/O bandwidth allocation through autonomic, fine-grained resource scheduling across applications that incorporate coordinated scheduling and optimizations based on profiling and prediction. 4. Scalable application checkpointing based on performance isolation and optimization on virtual PFSs customized for checkpointing I/Os.</AbstractNarration>
+    <MinAmdLetterDate>08/31/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/26/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0938045</AwardID>
+    <Investigator>
+      <FirstName>Ming</FirstName>
+      <LastName>Zhao</LastName>
+      <EmailAddress>mingzhao@asu.edu</EmailAddress>
+      <StartDate>08/31/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Florida International University</Name>
+      <CityName>Miami</CityName>
+      <ZipCode>331990001</ZipCode>
+      <PhoneNumber>3053482494</PhoneNumber>
+      <StreetAddress>11200 SW 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: SaTC: Analyzing and verifying the security of TCP stacks under multi-entity interactions</AwardTitle>
+    <AwardEffectiveDate>06/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2017</AwardExpirationDate>
+    <AwardAmount>172477</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of this project is to strengthen the Transmission Control Protocol (TCP), a ubiquitous core Internet protocol, under emerging threat models to make it robust and secure enough to serve the needs of 'smart' technologies in communications, automobiles, medical devices, and other devices that touch our lives every day. It is terrifying to imagine that a smart car could fail to report an accident automatically due to a denial of service attack on its TCP connections, or a smart medical device could fail to report a patient's change in condition. This is not to mention the ever growing cyber attacks that leverage the global and powerful Internet. This project will systematically analyze the root causes of recent security vulnerabilities and generalize them. The results will offer valuable insights on how to avoid the problems. Further, the research is expected to lead to changes to the TCP implementations in major operating systems.&lt;br/&gt;&lt;br/&gt;Specifically, the research is motivated by the following observations. First, more subtle problems such as side channels have been overlooked in TCP stacks. Second, new threat models have merged, e.g., co-located entities that do not trust each other. Third, the end-to-end assumption of TCP is broken due to the prevalence of network middleboxes, host-based firewalls, and censorship firewalls. The research will leverage model checking to systematically search for vulnerabilities under a variety of threat models and network settings. The models will be constructed from popular operating systems (with recent and representative versions) as well as network middleboxes. They can serve as the basis for testing and verifying future TCP stack implementations.</AbstractNarration>
+    <MinAmdLetterDate>05/11/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/11/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1464410</AwardID>
+    <Investigator>
+      <FirstName>Zhiyun</FirstName>
+      <LastName>Qian</LastName>
+      <EmailAddress>zhiyun.qian@ucr.edu</EmailAddress>
+      <StartDate>05/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

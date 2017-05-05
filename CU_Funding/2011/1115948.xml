@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Server-side Verification of Client Behavior in Distributed Applications</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>472502</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research will develop techniques that enable a server to verify the behavior of a client with which it is communicating as being consistent with the sanctioned client software. A client's behavior might deviate from the sanctioned client software due to manipulation of the client software or its data structures by an adversary with physical access to the client computer or by malware that has infected the client. This manipulation may yield incorrect state at the client; examples might include modifications to shared state in a collaborative application that should not have been possible, or an input to an imminent server-side invocation containing content that the sanctioned client software would not have allowed. If this state is authoritative within a larger distributed application or otherwise dangerous to the server or other clients, then this incorrect state may compromise the integrity of the application. The techniques developed in this proposed work will detect client behaviors arising from such modifications or, more specifically, any client-to-server messages that are inconsistent with the sanctioned client software.&lt;br/&gt;&lt;br/&gt;A central challenge in validating client behavior is that this behavior is the result of client processing with inputs that are potentially unknown to the server. These unknown inputs can include environmental inputs at the client (e.g., values sensed at the client location), user inputs (e.g., the user's keystrokes), and even which server messages were processed by the client at the point at which it sent the message being verified. To permit verification despite this obstacle, this project will investigate the use of symbolic execution of the sanctioned client software and constraint solving to enable the server to determine whether there are any inputs that could have given rise to this client message. If it finds that no inputs could have given rise to this message, then it detects the client behavior as being inconsistent with the sanctioned client software. The project will produce new research results and tools to enable this analysis to be performed efficiently. Moreover, the use of computer games as one vehicle to demonstrate this research makes this project ideal for outreach to high-school students and undergraduates, with whom computer games are immensely popular.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115948</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Reiter</LastName>
+      <EmailAddress>reiter@cs.unc.edu</EmailAddress>
+      <StartDate>08/07/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Chapel Hill</Name>
+      <CityName>CHAPEL HILL</CityName>
+      <ZipCode>275991350</ZipCode>
+      <PhoneNumber>9199663411</PhoneNumber>
+      <StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

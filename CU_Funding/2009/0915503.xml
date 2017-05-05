@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR:Small:Efficient and Predictable Memory Hierarchies for High-Performance Embedded Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>685727</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>0915503&lt;br/&gt;CSR:Small:Efficient and Predictable Memory Hierarchies for High-Performance Embedded Systems&lt;br/&gt;&lt;br/&gt;Abstract&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;High-end embedded systems are increasingly used for complex computation, such as advanced image processing and speech processing. Such complex tasks often involve irregular data structures such as linked data structures, or exhibit irregular access patterns even with regular data structures. Managing scratchpad memory for such tasks becomes increasingly challenging due to the difficulty of determining addresses that will be accessed in the future. For such complex applications, hardware-managed storage (caches) can perform relatively well without much programming effort. However,caches do not offer predictability required to derive a tight worst case execution time (WCET) bound in real-time systems, due to their dynamic behavior that is difficult to predict at compile time. &lt;br/&gt;&lt;br/&gt;The goal of the project is to explore a new intelligent real-time cache, which offers ease of storage management as well as allows programs to control caching behavior with low overheads, providing predictability that supports real time analysis. The work consists of: (1) Instruction and architecture support that provides primitives to control cache behavior with low overheads, (2)Development compile-time analysis and run-time support to support the new cache, and (3)Proof-of-concept of the proposed system. &lt;br/&gt;&lt;br/&gt;Improved memory performance and predictability will be to make computer systems more efficient, enable more challenging problems to be solved, and improve energy-efficiency of existing applications. This project will also extend outreach to undergraduate and high-school students about the value of engineering to society and attract more students into the field. It will also benefit the public by disseminating research results through publications and tool releases.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/14/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915503</AwardID>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Dean</LastName>
+      <EmailAddress>alex_dean@ncsu.edu</EmailAddress>
+      <StartDate>08/06/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yan</FirstName>
+      <LastName>Solihin</LastName>
+      <EmailAddress>solihin@ncsu.edu</EmailAddress>
+      <StartDate>08/06/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>J138</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>K555</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>170E</Code>
+      <Text>Interagency Agreements</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

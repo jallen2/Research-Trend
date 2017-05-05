@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ABI Development: Global Names Discovery, Indexing and Reconciliation Services</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>410293</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Peter H. McCartney</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In the mid-18th century biology as a science was revolutionized by Carl Linneaus and the use of binomial scientific names. Such names consist of two words in Latin - genus name and specific epithet - for example, Homo sapiens for humans. For higher classifications Linneaus adopted names consisting of a single Latin word. This nomenclatural system dramatically simplified handling species information, and gave scientists from different countries a standard way of communication. This system has been so successful it has persisted for over 250 years and is still in very active use today. An enormous amount of scientific and popular science literature uses scientific names. In the electronic age scientific names enable the effective organization of biodiversity information from various sources, as demonstrated by the Encyclopedia of Life (http://eol.org) and Biodiversity Heritage Library (http://bhl.org). However the naming system introduced by Linnaeus is far from perfect. For example, if scholars decide to move a particular species to different genus - the name changes, and finding information about it becomes much more difficult. For example, a very prominent model organism of modern science Drosophila melanogaster (fruit fly) is now recommended to be placed in the genus Sophophora, changing its name to Sophophora melanogaster. Such changes are inevitable in Linnaean nomenclature, and they create a significant amount of confusion. The project aims to create a system which would allow a user to enter a name, and find out if it is a known scientific name, if another name should be used instead, if there are other historical synonyms, and if this name is a misspelling of a known scientific name. The system will also display which data sources contain information related to a name, and will provide a list of relevant web-pages (URLs). This project aims to make significant strides in removing ambiguity and confusion from biodiversity data. Teaching activities are planned with college students at Arizona State and there are opportunities for participation in Google Summer of Code and Biodiversity informatics training courses developed at MBL.&lt;br/&gt;&lt;br/&gt;The first stage of the research was also funded by NSF and it allowed the development of a prototype and 'proof of concept' algorithms for finding and verifying scientific names in texts, images, species lists. This second phase aims to make production version of the algorithms, make them precise, fast, and scale them up to serve the global biological community. The task of scientific name disambiguation is not a simple one. It requires cooperation of many researchers. Discovery of scientific names in texts uses natural language processing algorithms which we plan to improve. The project aims to collect all known spellings and renderings of scientific names (20 million are currently collected) and organizes them into groups belonging to the same sets of organisms. It also catalogues where each spelling was used and stores information as a global name index. The database is powered by a search engine which uses fuzzy matching algorithms, and name parsing algorithms to find that names like 'Carek scirpoidea Michx. var. convoluta Kük.' and 'Carex scirpoidea subsp. convoluta (Kukenth) D. A. Dunlop' refer to the same&lt;br/&gt;subspecies. The project's URL is: http://globalnames.org/</AbstractNarration>
+    <MinAmdLetterDate>07/28/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/19/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1356347</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Mark Welch</LastName>
+      <EmailAddress>dmarkwelch@mbl.edu</EmailAddress>
+      <StartDate>09/29/2014</StartDate>
+      <EndDate>10/19/2015</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Richard</FirstName>
+      <LastName>Pyle</LastName>
+      <EmailAddress>deepreef@hawaii.rr.com</EmailAddress>
+      <StartDate>07/28/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nathan</FirstName>
+      <LastName>Wilson</LastName>
+      <EmailAddress>nwilson@mbl.edu</EmailAddress>
+      <StartDate>07/28/2014</StartDate>
+      <EndDate>09/29/2014</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Patterson</LastName>
+      <EmailAddress>david.j.patterson@asu.edu</EmailAddress>
+      <StartDate>07/28/2014</StartDate>
+      <EndDate>07/29/2015</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dmitry</FirstName>
+      <LastName>Mozzherin</LastName>
+      <EmailAddress>dmozzherin@gmail.com</EmailAddress>
+      <StartDate>10/19/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dmitry</FirstName>
+      <LastName>Mozzherin</LastName>
+      <EmailAddress>dmozzherin@gmail.com</EmailAddress>
+      <StartDate>07/28/2014</StartDate>
+      <EndDate>10/19/2015</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Marine Biological Laboratory</Name>
+      <CityName>WOODS HOLE</CityName>
+      <ZipCode>025431015</ZipCode>
+      <PhoneNumber>5085483705</PhoneNumber>
+      <StreetAddress>7 M B L ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1165</Code>
+      <Text>ADVANCES IN BIO INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

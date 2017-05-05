@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: Scalable Big Data Clustering by Random Projection Hashing</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>498127</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project plans to develop a distributed algorithm for secure clustering of high dimensional data sets. Fields in health and biology are significantly benefited by data clustering scalability. Bioinformatic problems such as Micro Array clustering, Protein-Protein interaction clustering, medical resource decision making, medical image processing, and clustering of epidemiological events all serve to benefit from larger dataset sizes. The algorithm under development, called Random Projection Hash or RPHash, utilizes aspects of locality sensitive hashing (LSH) and multi-probe random projection for computational scalability and linear achievable gains from parallel speed. Furthermore, RPHash provides data anonymization through destructive manipulation of the data preventing de-anonymization attacks beyond standard best practices database security methods. RPHash will be deployable on commercially available cloud resources running the Hadoop (MRv2) implementation of MapReduce. The exploitation of general purpose cloud processing solutions allows researchers to scale their processing needs using virtually limitless commercial processing resources.&lt;br/&gt;&lt;br/&gt;The RPHash algorithm uses various recent techniques in data mining along with a new approach toward achieving algorithmic scalability on distributed systems. The basic intuition of RPHash is to combine multi-probe random projection with discrete space quantization. Regions of high density are then regarded as centroid candidates. To follow common parameterized, k-means methods, the top k regions will be selected. The focus on a randomized, and thus non-deterministic, clustering algorithm is somewhat uncommon in computing, but common for ill-posed, combinatorially restrictive problems such as clustering and partitioning. Despite theoretical results showing that k-means has an exponential worst case complexity, many real world problems tend to fair much better under k-means and other similar algorithms.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1440420</AwardID>
+    <Investigator>
+      <FirstName>Philip</FirstName>
+      <LastName>Wilsey</LastName>
+      <EmailAddress>philip.wilsey@uc.edu</EmailAddress>
+      <StartDate>08/08/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Cincinnati Main Campus</Name>
+      <CityName>Cincinnati</CityName>
+      <ZipCode>452210222</ZipCode>
+      <PhoneNumber>5135564358</PhoneNumber>
+      <StreetAddress>University Hall, Suite 530</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

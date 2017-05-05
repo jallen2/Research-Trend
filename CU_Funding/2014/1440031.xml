@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>PRAC - Ensembles of molecular dynamics engines for assessing force fields, conformational change, and free energies of proteins and nucleic acids</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>14006</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Edward Walker</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project uses computer simulation methods within the AMBER suite of programs to simulate the atomic motions of proteins and nucleic acids in their native environment to better understand the structure, dynamics and interactions among various bio-molecules. Through analysis of the resulting data, the simulations provide insight into biomolecular function and how to modulate function. Critical to success is adequate sampling of the complex conformational distributions of the biomolecules and also use of an accurate representation of the underlying atomic interactions or "force field". To facilitate sampling, the project couples together ensembles of independent simulations, optimized in parallel on CPU and GPU resources, that exchange information to increase sampling efficiency. Preliminary work on the Blue Waters Supercomputer has demonstrated reproducible and complete sampling of the conformational distributions of RNA tetranucleotides, tetraloop RNA structures, and also the internal portion of a B-DNA helix. With complete sampling, it is now possible to reliably assess, validate, and improve the applied force fields. Broader impacts center on the improvements in both the simulation methods and force fields, in wide use by a broad community of researchers in applications ranging from drug design to deciphering structure-function relationships.&lt;br/&gt;&lt;br/&gt;Increases in the efficiency of conformational sampling are realized by developing, optimizing and applying multi-dimensional replica exchange methods in temperature and Hamiltonian space. The AMBER molecular dynamics simulation codes are extremely well optimized and suited to the GPU resources on Blue Waters. Preliminary simulations on Blue Waters, reducing times to solution from months-years to days-weeks, show that although it is possible to converge the conformational distributions of nucleic acids like RNA tetranucleotides and tetraloops, one does not find conformational distributions that completely agree with experiments. In other words, there are still serious deficiencies in the force fields for nucleic acids that are being uncovered and overcome to improve the models. To further the exploration of nucleic acid and protein structures beyond solution conditions, simulations are additionally being performed on room temperature crystals which provide an additional means to assess and validate the simulation approaches. Larger and more representative protein and nucleic acid structures are also being investigated.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1440031</AwardID>
+    <Investigator>
+      <FirstName>Adrian</FirstName>
+      <LastName>Roitberg</LastName>
+      <EmailAddress>roitberg@ufl.edu</EmailAddress>
+      <StartDate>08/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Darrin</FirstName>
+      <LastName>York</LastName>
+      <EmailAddress>Darrin.York@rutgers.edu</EmailAddress>
+      <StartDate>08/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Case</LastName>
+      <EmailAddress>case@biomaps.rutgers.edu</EmailAddress>
+      <StartDate>08/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Carlos</FirstName>
+      <LastName>Simmerling</LastName>
+      <EmailAddress>carlos.simmerling@stonybrook.edu</EmailAddress>
+      <StartDate>08/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Cheatham</LastName>
+      <EmailAddress>tec3@utah.edu</EmailAddress>
+      <StartDate>08/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7781</Code>
+      <Text>PETASCALE - TRACK 1</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

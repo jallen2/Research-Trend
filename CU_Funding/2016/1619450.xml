@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Cache-based Side Channel Attacks on Smartphone Graphics Buffers: New Vulnerabilities and Defenses</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>516000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Touch screens on smart mobile devices such as cell phones or tablets allow both user input (touch events) and display output. For a touch screen to function, the mobile device stores input and display data in a graphics buffer internal to the device. The researchers have discovered that a malicious application running on the mobile device could silently monitor characteristics of the graphics buffer to identify the alphanumeric characters that the user types into the touch keyboard or information displayed on the screen. The malicious application could then send that information to a third party, violating the confidentiality of the user's input or output. This project is assessing the feasibility of attacks on the graphics buffer and studying characteristics of graphics buffer vulnerabilities. The researchers are developing software- and hardware-based defenses to mitigate such vulnerabilities.&lt;br/&gt;&lt;br/&gt;The researchers are studying attacks that use a CPU cache-based side channel, a technique for deriving the access pattern of a process from another process, to identify which locations on the screen are being modified, allowing the attacker to gain information about user I/O activity such as data being typed on a keyboard. Prior work on cache-based side channel attacks and defenses has focused on cryptographic algorithms where the critical data has a small memory footprint, and is read-only. In contrast, graphics buffers are extremely large (on the order of MBytes), and are both read and written to, requiring new approaches for attacks and defenses. The project is studying how such attacks might be generalized, as well as the extent of feasible resolution and precision. Finally, the researchers are designing countermeasures, considering security, performance overhead, complexity, and impact on the core process pipeline and caches.</AbstractNarration>
+    <MinAmdLetterDate>07/20/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/20/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1619450</AwardID>
+    <Investigator>
+      <FirstName>Zhiyun</FirstName>
+      <LastName>Qian</LastName>
+      <EmailAddress>zhiyun.qian@ucr.edu</EmailAddress>
+      <StartDate>07/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nael</FirstName>
+      <LastName>Abu-Ghazaleh</LastName>
+      <EmailAddress>nael@cs.ucr.edu</EmailAddress>
+      <StartDate>07/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

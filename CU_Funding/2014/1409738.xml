@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Medium: Collaborative: Automated Reverse Engineering of Commodity Software</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software, including common examples such as commercial applications or embedded device firmware, is often delivered as closed-source binaries. While prior academic work has examined how to automatically discover vulnerabilities in binary software, and even how to automatically craft exploits for these vulnerabilities, the ability to answer basic security-relevant questions about closed-source software remains elusive.&lt;br/&gt;&lt;br/&gt;This project aims to provide algorithms and tools for answering these questions. Leveraging prior work on emulator-based dynamic analyses, we propose techniques for scaling this high-fidelity analysis to capture and extract whole-system behavior in the context of embedded device firmware and closed-source applications. Using a combination of dynamic execution traces collected from this analysis platform and binary code analysis techniques, we propose techniques for automated structural analysis of binary program artifacts, decomposing system and user-level programs into logical modules through inference of high-level semantic behavior. This decomposition provides as output an automatically learned description of the interfaces and information flows between each module at a sub-program granularity. Specific activities include: (a) developing software-guided whole-system emulator for supporting sophisticated dynamic analyses for real embedded systems; (b) developing advanced, automated techniques for structurally decomposing closed-source software into its constituent modules; (c) developing automated techniques for producing high-level summaries of whole system executions and software components; and (d) developing techniques for automating the reverse engineering and fuzz testing of encrypted network protocols. The research proposed herein will have a significant impact outside of the security research community. We will incorporate the research findings of our program into our undergraduate and graduate teaching curricula, as well as in extracurricular educational efforts such as Capture-the-Flag that have broad outreach in the greater Boston and Atlanta metropolitan areas.&lt;br/&gt;The close ties to industry that the collective PIs possess will facilitate transitioning the research into practical defensive tools that can be deployed into real-world systems and networks.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1409738</AwardID>
+    <Investigator>
+      <FirstName>Engin</FirstName>
+      <LastName>Kirda</LastName>
+      <EmailAddress>ek@ccs.neu.edu</EmailAddress>
+      <StartDate>08/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>William</FirstName>
+      <LastName>Robertson</LastName>
+      <EmailAddress>wkr@ccs.neu.edu</EmailAddress>
+      <StartDate>08/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

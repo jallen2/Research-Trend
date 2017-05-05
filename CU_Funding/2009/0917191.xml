@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Scalable Applications Start with Scalable Virtual Machine Services</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>499996</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;The goal of this proposal is to devise and implement a scalable virtual machine that includes scalable garbage collectors, profilers and just-in-time (JIT) compilers.&lt;br/&gt;&lt;br/&gt;As hardware vendors deliver chip multiprocessors (CMPs) as the next-generation general-purpose computing substrate, programmers are increasingly choosing managed languages for their next generation applications. The virtual machine (VM) stands between the two, integrating them together. However, VMs are not yet capable of providing scalable performance to applications on parallel systems composed of CMPs. VMs are limited in part because key features, such as dynamic profiling, compilation, and garbage collection, are often not themselves scalable. This VM scalability bottleneck is an impediment to application scaling. For example, because VMs are oblivious to application data partitioning, they can introduce unnecessary communication such as false sharing. &lt;br/&gt;&lt;br/&gt;This project seeks to solve this problem by designing and implementing scalable virtual machine (SVM) services. SVM includes novel dynamic profilers, just-in-time (JIT) compilers, and garbage collectors that are themselves scalable and support parallel applications. The project explores how to design and build a framework for parallel dynamic analysis, JIT compilation, and garbage collection that uses novel cost models of the application, analysis, JIT, and collector work to optimize for scalable high-performance. In particular, analysis, JIT, and garbage collector work is divided and scheduled in novel ways to mirror application partitions and threads.&lt;br/&gt;&lt;br/&gt;SVM will be developed within a Java Virtual Machine, but the algorithms will apply to other managed languages such as C\#, JavaScript, Python, and Ruby. The investigators will make both SVM and parallel applications publicly available, adding to the national research infrastructure.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2009</MaxAmdLetterDate>
+    <ARRAAmount>499996</ARRAAmount>
+    <AwardID>0917191</AwardID>
+    <Investigator>
+      <FirstName>Kathryn</FirstName>
+      <LastName>McKinley</LastName>
+      <EmailAddress>mckinley@cs.utexas.edu</EmailAddress>
+      <StartDate>07/27/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

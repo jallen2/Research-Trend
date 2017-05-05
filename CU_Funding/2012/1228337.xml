@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Real-time Processing Algorithms for LiDAR Point Cloud Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>205459</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Yong Zeng</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The project will develop a real-time processing system for geospatial survey data acquired by light detection and ranging (LiDAR) technology. Surface reconstruction and attribute detection for LiDAR point cloud data are challenging due to natural surface roughness, diverse noises, and huge data sizes. In the existing literature and commercial software, surface reconstruction has been carried out by various methods such as the inverse-distance weighting, kriging, splines, and wavelets. However, the problem is ill-posed and the conventional reconstruction methods either introduce observable interpolation artifacts or become too computationally expensive when the number of data points increases. The investigator will develop and analyze an effective partial differential equation (PDE)-based surface reconstruction algorithm, called the recursive curvature interpolation method (R-CIM), which produces a smooth image surface of a minimum oscillation, and of which the computational cost is in the order of the image size.&lt;br/&gt;&lt;br/&gt;This project will develop an optimal image reconstruction algorithm for LiDAR point cloud data via collaboration between the Department of Mathematics and Statistics, Mississippi State University, and Agriculture Research Service, United States Department of Agriculture. The proposed algorithm (R-CIM) is optimal in the sense that it possesses a minimum oscillatory behavior and its computational cost is in the order of the image size, independent of the data size. It will contribute to research on image reconstruction and advance various real-time applications towards the real world which involve nonuniformly sampled data. At the same time, the proposed researh includes the development and implementation of the state-of-the-art algorithms for various LiDAR data processing tasks. The project nurtures collaborations between an agricultural engineer and mathematicians having backgrounds on PDEs, numerical analysis, and image processing; it would support a graduate student and an undergraduate student for three years. All the newly-developed software will be freely shared with the community.</AbstractNarration>
+    <MinAmdLetterDate>08/29/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/29/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1228337</AwardID>
+    <Investigator>
+      <FirstName>Seongjai</FirstName>
+      <LastName>Kim</LastName>
+      <EmailAddress>skim@math.msstate.edu</EmailAddress>
+      <StartDate>08/29/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Mississippi State University</Name>
+      <CityName>MISSISSIPPI STATE</CityName>
+      <ZipCode>397629662</ZipCode>
+      <PhoneNumber>6623257404</PhoneNumber>
+      <StreetAddress>PO Box 6156</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Mississippi</StateName>
+      <StateCode>MS</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8069</Code>
+      <Text>CDS&amp;E-MSS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

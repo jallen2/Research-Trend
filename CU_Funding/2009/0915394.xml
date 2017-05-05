@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: Collaborative Research: Protecting Commodity Operating Systems from Vulnerable Device Drivers</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Device drivers constitute a large fraction of the code in commodity operating systems. Over 35,000 drivers with over 112,000 versions exist for Windows XP, while over 3.1 million lines out of 5.4 million lines of the Linux kernel is device driver code. As several recent exploits against device drivers show, drivers are rife with bugs that compromise system security.&lt;br/&gt;&lt;br/&gt;Exploits against device drivers are dangerous because commodity operating systems execute drivers in kernel address space. A compromised driver can modify kernel data structures or execute arbitrary code with kernel privilege. Prior techniques that protect commodity OS kernels from device drivers either suffer from low performance or are limited to specific classes of vulnerabilities, such as memory errors.&lt;br/&gt;Inspired by user-mode driver frameworks, this project applies a three-pronged approach to the problem of protecting kernel data from vulnerabilities in device drivers. First, this project will develop techniques to monitor kernel data structure updates initiated by device drivers and ensure that they do not compromise the integrity of these data structures. Second, it will develop techniques to limit driver access to kernel memory via DMA without requiring hardware support yet taking advantage of it if available. Third, it will develop new techniques for recovering from compromised drivers.&lt;br/&gt;&lt;br/&gt;These techniques are applicable to legacy device drivers on standalone commodity operating systems and require minimal changes to the operating system. In addition, they impose negligible overheads on common-case performance of device drivers and are thus practical for use even with high-throughput devices.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915394</AwardID>
+    <Investigator>
+      <FirstName>Vinod</FirstName>
+      <LastName>Ganapathy</LastName>
+      <EmailAddress>vinodg@cs.rutgers.edu</EmailAddress>
+      <StartDate>08/27/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

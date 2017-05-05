@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Realizing Full-System Dynamic Information Flow Tracking via Relaxed Static Stability</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>455428</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Information flow is a central concept in computer security, yet it is still an open problem to tag information in a running system and track how the information flows throughout the system in an accurate manner. We are developing the fundamental concepts in control theory, information theory, and systems to solve this problem using what we call a relaxed static stability approach.&lt;br/&gt;&lt;br/&gt;In a running system, as information is cut-and-pasted by users or processed, it flows in unexpected ways. Two major challenges are address dependencies and control dependencies. Overtagging these dependencies causes the entire system to quickly become tagged, while undertagging them means that important flows of information are not tracked. Modern fighter jets and stealth aircraft are designed without inherent stability, then advanced digital "fly-by-wire" systems are incorporated into the design to create a stable system that can actually fly. By applying this same kind of "relaxed static stability" approach, we are designing an accurate dynamic information flow tracking system that makes the right tradeoffs between overtagging and undertagging. This will enable whole new classes of applications based on dynamic information flow tracking, ranging from digital forensics and malware analysis to data provenance. By addressing a fundamental need in security and privacy research, we expect our work to have impact in any field where the flow of information in a computer is important to understand.</AbstractNarration>
+    <MinAmdLetterDate>07/15/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017602</AwardID>
+    <Investigator>
+      <FirstName>Rafael</FirstName>
+      <LastName>Fierro</LastName>
+      <EmailAddress>rfierro@unm.edu</EmailAddress>
+      <StartDate>07/15/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jedidiah</FirstName>
+      <LastName>Crandall</LastName>
+      <EmailAddress>crandall@cs.unm.edu</EmailAddress>
+      <StartDate>07/15/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of New Mexico</Name>
+      <CityName>Albuquerque</CityName>
+      <ZipCode>871310001</ZipCode>
+      <PhoneNumber>5052774186</PhoneNumber>
+      <StreetAddress>1700 Lomas Blvd. NE, Suite 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Mexico</StateName>
+      <StateCode>NM</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

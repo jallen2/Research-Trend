@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>STARSS: Small: Defending Against Hardware Covert Timing Channels</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>299564</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Yan Solihin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Safeguarding sensitive user information stored in computer systems is a fast growing concern, especially as computers are universally used everywhere from national defense to mobile phones. Malicious hackers have found unscrupulous ways to steal sensitive information largely by exploiting the vulnerabilities in existing hardware and software. Among the many forms of information leakage, covert timing channels exfiltrate secrets from a trojan process with higher security credentials to a spy process with lesser credentials by exploiting the access timing of system resources. Such covert timing channels are elusive since they communicate indirectly through timing modulation without leaving any physical trace in memory. By detecting the presence of covert timing channels and defending against them, our project offers significant benefits to society through preventing undesired sensitive data leakage to malicious parties. &lt;br/&gt;&lt;br/&gt;The three central objectives of this project are to: 1. Investigate the science behind the construction and operation of hardware covert timing channels, 2. Devise mechanisms to detect hardware timing channels, 3. Mount cost-effective, runtime defense strategies to undermine the reliability of covert timing channels. We investigate scientific ways to identify key indicator events, and analyze their roles in the operation of covert timing channels. We design mechanisms to capture the runtime system behavior, and detect the presence of a covert timing channel. Finally, to prevent information leakage, we use hierarchical, multi-level defense strategy where we estimate the agility of the adversary by measuring the defense?s effectiveness after deployment, and automatically recalibrate our defense to decimate the timing channel activity.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618786</AwardID>
+    <Investigator>
+      <FirstName>Milos</FirstName>
+      <LastName>Doroslovacki</LastName>
+      <EmailAddress>doroslov@gwu.edu</EmailAddress>
+      <StartDate>08/24/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Guru Prasadh</FirstName>
+      <LastName>Venkataramani</LastName>
+      <EmailAddress>guruv@gwu.edu</EmailAddress>
+      <StartDate>08/24/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>George Washington University</Name>
+      <CityName>Washington</CityName>
+      <ZipCode>200522000</ZipCode>
+      <PhoneNumber>2029946255</PhoneNumber>
+      <StreetAddress>2121 Eye Street NW</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>District of Columbia</StateName>
+      <StateCode>DC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>021Z</Code>
+      <Text>Industry Partnerships</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8225</Code>
+      <Text>SaTC Special Projects</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Scalable Electronic Structure Calculations</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>240000</AwardAmount>
+    <AwardInstrument>
+      <Value>Fellowship</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sushil Prasad</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The efficient simulation of nanoscale systems with quantum mechanical precision is vital for many disciplines including physics, chemistry, biology and materials. Density functional theory (DFT) has been very successful in the accurate description of material properties with moderate computational effort. Traditional DFT calculations with full diagonalization of the Hamiltonian have long been recognized as too computationally expensive and as a result improvements have been sought. Recently, efforts have been focused on developing order-N methods, where computational time increases linearly with the number of atoms in the system, and on parallel algorithms that scale to thousands of processors. Current state-of-the-art software scales to around 10, 000 CPU cores. However, next-generation systems currently under construction have an order of magnitude more CPU cores or contain a very large number of GPU co-processors. For example, the Titan project at Oak Ridge National Lab will contain 299,008 CPU cores and may additionally have GPUs when completed in late 2012. The primary goal of this project is to research and develop an open-source DFT package based on the "Lagrange function" family of basis functions with parallel scalability a priority from the beginning. Concurrent with code development, studies of large bio-molecules and nanoscale devices will be performed with the dual purpose of advancing scientific knowledge in those areas and providing suitable test cases for the method and software capabilities. Research problems to be investigated include molecular electronics, electronic transport in multi terminal nanodevices, carbon based device design (graphene and nanotubes) and predition of properties of nanowires with varying dopant and defect distributions.&lt;br/&gt;&lt;br/&gt;The work is expected to have significant broader impact. Release of the code with an open source license will allow contribution to and application of the method by diverse research groups. The lack of fees or onerous restrictions will encourage adoption by many groups, particularly those in smaller institutions lacking the budget for currently available codes. In contrast to other open source packages such ABINIT and GPAW the method will be able to simulate systems containing many atoms (of order 10,000) with very modest computational resources such as a few multi-core workstations. The open nature of the website and project is intended to foster collaboration and build partnerships.</AbstractNarration>
+    <MinAmdLetterDate>07/27/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/27/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1226258</AwardID>
+    <Investigator>
+      <FirstName>Brandon</FirstName>
+      <LastName>Cook</LastName>
+      <EmailAddress/>
+      <StartDate>07/27/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cook Brandon</Name>
+      <CityName>Nashville</CityName>
+      <ZipCode>372043320</ZipCode>
+      <PhoneNumber/>
+      <StreetAddress/>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7696</Code>
+      <Text>CI Fellowships</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

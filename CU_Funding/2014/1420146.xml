@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CHS: Small: Collaborative Research: Sampling and Reconstruction for Computer Graphics Rendering and Imaging</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Sampling of high-dimensional signals is at the heart of graphical rendering and computational photography, but current approaches unfortunately still tend to be brute-force and require large numbers of samples, which is time-consuming and costly. In this project, which involves researchers at two institutions, the Principal Investigators will build on their prior work to develop a comprehensive theoretical, algorithmic and systems foundation for sampling and reconstruction in computer graphics rendering and imaging. A key goal is a unified sampling theory that considers the type of coherence in the visual signal (such as low rank, locally low rank, low frequency, sparsity) and the type of measurement (such as point samples in rendering or projection of generic patterns for light transport acquisition, or acquisition of full light field imagery). This will provide a unified framework for choosing the best sampling strategy, and for comparing different approaches. It will also enable the establishment of rigorous lower bounds and optimality results. The work has immediate connections to signal-processing, applied mathematics and photography, and will have broad impact in connecting these domains with computer graphics. The Principal Investigators will disseminate project outcomes in part by incorporating the findings into their online courses that have large enrolments. They will also make datasets and software available, and will work to include them in industrial applications by exploiting their strong ties with a number of high-tech companies. &lt;br/&gt;&lt;br/&gt;Physically-based rendering algorithms are now widespread in production, but photorealistic rendering is still inefficient since it involves the evaluation of a high-dimensional 4D-8D Monte Carlo integral for each pixel considering antialiasing, lens effects, motion blur, soft shadows and global illumination. Typically, each pixel is treated separately, with many samples needed for each integral dimension. Similar challenges arise in other areas of computer graphics, such as precomputed rendering (explicit tabulation of a 4D-8D light transport operator), light transport acquisition (measurement of high-dimensional 4D-8D functions like the BRDF or BSSRDF), and computational photography or imaging that acquires higher-dimensional 4D functions in consumer light field cameras. The traditional approach is to (pre)compute or measure the data by brute force, followed by compression. However, this incurs unacceptable costs given the size and dimensionality of current visual appearance datasets. In this work the Principal Investigators will leverage the sparsity in the continuous (rather than discrete Fourier) domain, coherence and structure of light transport to sample, reconstruct and integrate, reducing the amount of data needed by orders of magnitude, while developing new reconstruction schemes for computational imaging. Within rendering, the PIs will explore a novel method that combines motion blur, depth of field, and global illumination in a single algorithm for real-time rendering based on adaptive Monte Carlo sampling and filtering of different effects. A key challenge in such approaches is robust sampling of difficult paths; the Principal Investigators will address this issue with conservative adaptive sampling and Graduated Metropolis. Finally, new systems-level software will be developed that enables easy integration and implementation of light transport simulation methods for rendering and imaging.</AbstractNarration>
+    <MinAmdLetterDate>06/25/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/25/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1420146</AwardID>
+    <Investigator>
+      <FirstName>Ravi</FirstName>
+      <LastName>Ramamoorthi</LastName>
+      <EmailAddress>ravir@cs.ucsd.edu</EmailAddress>
+      <StartDate>06/25/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

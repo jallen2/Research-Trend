@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR---PDOS: A Relativistic Programming Model for Scalable Multi-Core Architectures</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>499867</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Krishna Kant</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Multi-core technology promises an inexorable increase in hardware-level&lt;br/&gt;parallelism and leaves software developers with two challenges: (1) How&lt;br/&gt;to utilize large numbers of processors in order to achieve higher performance,&lt;br/&gt;and (2) How to verify the correctness of scalable concurrent programs. This&lt;br/&gt;project explores these challenges through the development of a new programming&lt;br/&gt;model called "relativistic programming".&lt;br/&gt;&lt;br/&gt;Relativistic programming targets shared-memory architectures, but rather than&lt;br/&gt;present a consistent global view of memory it allows each processor to have&lt;br/&gt;its own relativistic view of memory, containing fresher or staler values than&lt;br/&gt;other views. By imposing minimal constraints on each processor's execution,&lt;br/&gt;relativistic programming is intended to achieve the scalability characteristics&lt;br/&gt;of message passing while embracing the shared memory architecture of modern&lt;br/&gt;multi-core hardware. Relativistic programming primitives enable fine-grain&lt;br/&gt;control over the visibility of events in the execution of a concurrent program&lt;br/&gt;and negate the need to switch among two different programming models for local&lt;br/&gt;and remote parts of a computation.&lt;br/&gt;&lt;br/&gt;This research involves formally defining the relativistic programming&lt;br/&gt;model, exploring its support for formal verification, static and run-time&lt;br/&gt;analysis, and developing tools and techniques to facilitate and promote its&lt;br/&gt;wide-spread use in operating system kernel development.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0719851</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Hook</LastName>
+      <EmailAddress>james.hook@pdx.edu</EmailAddress>
+      <StartDate>08/21/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jonathan</FirstName>
+      <LastName>Walpole</LastName>
+      <EmailAddress>walpole@cs.pdx.edu</EmailAddress>
+      <StartDate>08/21/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Portland State University</Name>
+      <CityName>Portland</CityName>
+      <ZipCode>972070751</ZipCode>
+      <PhoneNumber>5037259900</PhoneNumber>
+      <StreetAddress>1600 SW 4th Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

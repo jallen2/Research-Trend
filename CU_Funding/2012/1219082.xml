@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Real-Time Scheduling and Analysis of Functional Reactive Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>463999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The use of sophisticated digital systems to control complex physical components in real-time has grown at a rapid pace. Examples include automobile adaptive braking, industrial robotic assembly, medical pacemakers, autonomous vehicular travel, remote surgery, physical manipulation of nano-structures, and space exploration. Since all these applications interact directly with the physical world and often have humans in the loop, their physical safety must be ensured. The correctness of these safety-critical systems depends not only on the actions they generate, but also on the time at which these actions occur. This project develops response time analysis techniques and scheduling algorithms for embedded control systems implemented as functional reactive programs (FRP's), which are mathematical functions. The controller may consist of a single control component or a network of distributed control components, each running on single or multi-core processors. The response time of the embedded controller has a direct impact on the safety of the entire physical system, but accurate response time analysis of FRP's remains a largely unexplored problem. While there are limited domain-specific studies that provide basic schedulability analysis using approximate bounds on the response time of the transactional model used in implementing functional reactive systems, they do not provide the exact timing characterization needed to guarantee satisfaction of the timing constraints imposed on the execution of the embedded controller. Thus this work develops a framework for accurate response time analysis, scheduling, and thermal-aware/power-conserving methods for these FRP-implemented controllers to improve their performance and enhance their safety.&lt;br/&gt;&lt;br/&gt;This project evaluates the impact of this framework on physical system safety and performance using two applications that will require integrating the results of all the research activities: automotive systems and avionics. Determining actual response times of embedded controllers implemented as FRP's will be a technical milestone. Verifiably showing how these scheduling techniques enhance physical system safety and performance will be another. By improving the safety and performance of embedded control systems while reducing the cost of their implementation in domains such as aerospace, medicine, communication, automotive, nano-fabrication, industrial processing, and space exploration, the project has broad societal impact. This project educates diverse undergraduate and graduate students to perform research in a top-tier urban university whose graduates often join local energy-related/high-tech industries, NASA's Johnson Space Center, and the world-renowned Texas Medical Center. Novel techniques discovered will be incorporated into the undergraduate and graduate courses in embedded/real-time systems and operating systems. Project results will be included in the next edition of the PI's popular textbook titled "Real-Time Systems: Scheduling, Analysis, and Verification" (Wiley) and in a new textbook titled "Embedded Programming." The planned research activities will generate a variety of research papers and hardware/software tools addressing the aspects of the project. Implemented tools will be readily available for download.</AbstractNarration>
+    <MinAmdLetterDate>08/30/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/24/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1219082</AwardID>
+    <Investigator>
+      <FirstName>Albert</FirstName>
+      <LastName>Cheng</LastName>
+      <EmailAddress>cheng@cs.uh.edu</EmailAddress>
+      <StartDate>08/30/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Houston</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>772042015</ZipCode>
+      <PhoneNumber>7137435773</PhoneNumber>
+      <StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

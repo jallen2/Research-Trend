@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: A Comprehensive Framework for Real-Time Multiprocessor Synchronization</AwardTitle>
+    <AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The advent of multicore technologies has fueled much recent work on methods for designing, deploying, and verifying multiprocessor implementations of real-time applications. Such methods must necessarily be rooted in resource allocation techniques that facilitate predictable system designs. In work on such techniques, scheduling algorithms, which allocate processor time, have received the greatest attention. Synchronization algorithms, which coordinate access to other resources, have received much less attention.&lt;br/&gt;&lt;br/&gt;The current state-of-the-art regarding real-time multiprocessor synchronization is that simple locking protocols can be supported, but not much else. This is a serious impediment that is limiting the evolution of real-time applications to "multicore-ready" versions. Driven by this, a rich set of multiprocessor real-time synchronization mechanisms is being developed in this project. These mechanisms are motivated by real application needs, as have arisen in joint work involving the investigators and industry colleagues at AT&amp;T and Northrop Grumman. Such mechanisms are being designed for use within several system models, also motivated by real needs. These include models wherein various complexities exist, such as having tasks of differing criticalities, multiple subsystems that must be "isolated" from one another, heterogeneous hardware components, dynamic task behaviors, etc. In all of this work, the design of optimal synchronization protocols is being emphasized. These protocols are being prototyped and evaluated within a open-source UNC-produced real-time Linux extension called LITMUS^RT. Broader impacts will include continued joint research with industry colleagues, and the development of publicly-available open-source software that can be used by other institutions for research and teaching purposes.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/20/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115284</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Anderson</LastName>
+      <EmailAddress>anderson@cs.unc.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sanjoy</FirstName>
+      <LastName>Baruah</LastName>
+      <EmailAddress>baruah@cs.unc.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Chapel Hill</Name>
+      <CityName>CHAPEL HILL</CityName>
+      <ZipCode>275991350</ZipCode>
+      <PhoneNumber>9199663411</PhoneNumber>
+      <StreetAddress>104 AIRPORT DR STE 2200</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

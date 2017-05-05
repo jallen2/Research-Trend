@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Communication and Synchronization Mechanisms for Emerging Multi-Core Processors</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>337000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ahmed Louri</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CCF-CPA: Communication and Synchronization Mechanisms for Emerging &lt;br/&gt;Multi-Core Processors&lt;br/&gt;Sandhya Dwarkadas and Michael L. Scott&lt;br/&gt;March 2007&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;As a result of increasing chip density and power limitations, explicit hardware parallelism will soon dominate the computing spectrum, with multicore chips replacing uniprocessors throughout the desktop and&lt;br/&gt;laptop markets. If these chips are to be used effectively, new programming models must ease the task of writing multithreaded code. These models must in turn be supported by architectural mechanisms that&lt;br/&gt;minimize the cost of data communication and synchronization.&lt;br/&gt;&lt;br/&gt;The sponsored research addresses the challenge of mainstream parallelism using a combined hardware-software approach. The key idea is to identify common time-critical operations, across a variety of applications and programming models, that might be accelerated or simplified by new architectural mechanisms, and then to design those mechanisms in as general a fashion as possible. By leaving policy to&lt;br/&gt;software whenever possible, this strategy aims to maximize opportunities for adaptive and application-specific protocols that increase scalability. Candidate hardware mechanisms include alert-on-update, which leverages cache coherence for fast event-based communication; programmable data isolation, which allows a processor to hide local writes for speculation and transactions; and adaptive cooperative caching, which re-engineers the on-chip coherence protocol to accommodate different patterns of data sharing and to communicate values efficiently between cores. These mechanisms will be studied mainly at the hardware level, but system software will also be developed to support new programming models (transactions, speculation) and to enable detailed evaluation of performance and programmability.&lt;br/&gt;&lt;br/&gt;Through better parallel programming models and efficient implementations, the sponsored research aims to continue the computing revolution over the course of the coming decade. By enabling the effective use of larger numbers of simpler cores, it also addresses the critical need to reduce energy consumption in mainstream processors. Driving applications will be drawn from multiple sources, including collaborative efforts with University colleagues in Biology, Astrophysics, and Chemistry; department colleagues in Artificial Intelligence and Internet services; and local and remote colleagues in data mining. Programming models and tasks will include transactional computing, speculative execution, and performance and correctness debugging.</AbstractNarration>
+    <MinAmdLetterDate>05/01/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/15/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702505</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Scott</LastName>
+      <EmailAddress>scott@cs.rochester.edu</EmailAddress>
+      <StartDate>05/01/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sandhya</FirstName>
+      <LastName>Dwarkadas</LastName>
+      <EmailAddress>sandhya@cs.rochester.edu</EmailAddress>
+      <StartDate>05/01/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Rochester</Name>
+      <CityName>Rochester</CityName>
+      <ZipCode>146270140</ZipCode>
+      <PhoneNumber>5852754031</PhoneNumber>
+      <StreetAddress>518 HYLAN, RC BOX 270140</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4715</Code>
+      <Text>COMPUTER SYSTEMS ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: Mid-Scale: DCM: Collaborative Research: Eliminating the Data Ingestion Bottleneck in Big-Data Applications</AwardTitle>
+    <AwardEffectiveDate>02/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2017</AwardExpirationDate>
+    <AwardAmount>406000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Big-data practice suggests that there is a tradeoff between the speed of data ingestion, the ability to answer queries quickly (e.g., via indexing), and the freshness of data. This perceived tradeoff lies, for example, at the heart of the historic division between OLTP (online transaction processing) and OLAP (online analytical processing). In an OLTP database, data gets ingested quickly and the data available for querying is fresh, but analytical queries run prohibitively slowly. In an OLAP data warehouse, data is buffered for off-line indexing so that analytical queries run quickly, but by the time the data gets indexed, it is stale. &lt;br/&gt;&lt;br/&gt;This tradeoff has manifestations in the design of all types of storage systems. For example, some file-systems are optimized for reads and others for writes, but workloads generally involve a mixture of reads and writes. &lt;br/&gt;&lt;br/&gt;In this project the PIs show that this is not a fundamental tradeoff, but rather a tradeoff imposed by the choice of data structure. The PIs use write-optimized structures, an alternative to traditional indexing methodologies, to build storage systems in which this tradeoff is significantly mitigated or alleviated altogether. The performance promise of such indexing schemes follows from the PIs previous work establishing that write-optimized data structures can speed up both inserts and queries.&lt;br/&gt;&lt;br/&gt;This project addresses the remaining obstacles in the deployment of write-optimized indexes within big-data file-systems and databases. Big data imposes a new set of constraints on any storage system, and the PIs will show how write-optimized indexing can yield order-of-magnitude performance improvements at scale. In particular, this project will show that such techniques are not only applicable today but that they will scale with hardware trends, including the widespread adoption of solid-state disks (SSDs).</AbstractNarration>
+    <MinAmdLetterDate>09/20/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1247750</AwardID>
+    <Investigator>
+      <FirstName>Martin</FirstName>
+      <LastName>Farach-Colton</LastName>
+      <EmailAddress>farach@cs.rutgers.edu</EmailAddress>
+      <StartDate>09/20/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

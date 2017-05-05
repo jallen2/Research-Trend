@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Large: Collaborative Research: Unified Runtime for Supporting Hybrid Programming Models on Heterogeneous Architecture.</AwardTitle>
+    <AwardEffectiveDate>07/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2016</AwardExpirationDate>
+    <AwardAmount>382204</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most of the traditional High-End Computing (HEC) applications and&lt;br/&gt;current petascale applications are written using the Message Passing&lt;br/&gt;Interface (MPI) programming model. Some of these applications are run&lt;br/&gt;in MPI+OpenMP mode. However, it can be very difficult to use MPI or&lt;br/&gt;MPI+OpenMP and maintain performance for applications which demonstrate&lt;br/&gt;irregular and dynamic communication patterns. The Partitioned Global&lt;br/&gt;Address Space (PGAS) programming model presents a flexible way for&lt;br/&gt;these applications to express parallelism. Accelerators introduce&lt;br/&gt;additional programming models: CUDA, OpenCL or OpenACC. Thus, the&lt;br/&gt;emerging heterogeneous architectures require support for various&lt;br/&gt;hybrid programming models: MPI+OpenMP, MPI+PGAS, and MPI+PGAS+OpenMP&lt;br/&gt;with extended APIs for multiple levels of parallelism. Unfortunately,&lt;br/&gt;there is no unified runtime which delivers the best performance and&lt;br/&gt;scalability for all of these hybrid programming models for a range of&lt;br/&gt;applications on current and next-generation HEC systems. This leads&lt;br/&gt;to the following broad challenge: "Can a unified runtime for hybrid&lt;br/&gt;programming model be designed which can provide benefits that are&lt;br/&gt;greater than the sum of its parts?"&lt;br/&gt;&lt;br/&gt;A synergistic and comprehensive research plan, involving computer&lt;br/&gt;scientists from The Ohio State University (OSU) and Ohio Supercomputer&lt;br/&gt;Center (OSC) and computational scientists from the Texas Advanced&lt;br/&gt;Computing Center (TACC) and San Diego Supercomputer Center (SDSC),&lt;br/&gt;University of California San Diego (UCSD), is proposed to address the&lt;br/&gt;above broad challenge with innovative solutions. The investigators&lt;br/&gt;will specifically address the following challenges: 1) What are the&lt;br/&gt;requirements and limitations of using hybrid programming models for a&lt;br/&gt;set of petascale applications? 2) What features and mechanisms are&lt;br/&gt;needed in a unified runtime? 3) How can the unified runtime and&lt;br/&gt;associated extension to programming model APIs be designed and&lt;br/&gt;implemented? 4) How can candidate petascale applications be&lt;br/&gt;redesigned to take advantage of proposed unified runtime? and 5) What&lt;br/&gt;kind of benefits (in terms of performance, scalability and&lt;br/&gt;productivity) can be achieved by the proposed approach? The research&lt;br/&gt;will be driven by a set of applications from established NSF&lt;br/&gt;computational science researchers running large scale simulations on&lt;br/&gt;Ranger and other systems at OSC, SDSC and OSU. The proposed designs&lt;br/&gt;will be integrated into the open-source MVAPICH2 library. The&lt;br/&gt;established national-scale training and outreach programs at TACC,&lt;br/&gt;SDSC and OSC will be used to disseminate the results of this research.</AbstractNarration>
+    <MinAmdLetterDate>05/16/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/16/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1213056</AwardID>
+    <Investigator>
+      <FirstName>Yifeng</FirstName>
+      <LastName>Cui</LastName>
+      <EmailAddress>yfcui@ucsd.edu</EmailAddress>
+      <StartDate>05/16/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Amitava</FirstName>
+      <LastName>Majumdar</LastName>
+      <EmailAddress>majumdar@sdsc.edu</EmailAddress>
+      <StartDate>05/16/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7925</Code>
+      <Text>LARGE PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ITR Collaborative Research: A Reusable, Extensible, Optimizing Back End</AwardTitle>
+    <AwardEffectiveDate>06/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2010</AwardExpirationDate>
+    <AwardAmount>139089</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A computer program is written in a high-level *programming* *language*,&lt;br/&gt;but to be run, it must be translated into a *machine* *language*.&lt;br/&gt;A translator is difficult and expensive to build, and using today's&lt;br/&gt;techniques, each programming language needs its own translator. For&lt;br/&gt;example, it is nearly impossible to use the same translator for both Java&lt;br/&gt;and C++. The project is developing techniques by which a ``back end,''&lt;br/&gt;which understands machine language, can serve many different ``front&lt;br/&gt;ends,'' each of which understands a different programming language.&lt;br/&gt;Combining such front and back ends can produce a translator much more&lt;br/&gt;cheaply than is possible at present. The major new idea is to use&lt;br/&gt;*three* interfaces. The C-- language is an interface that enables&lt;br/&gt;the front end to tell the back end what a program should do. The C--&lt;br/&gt;run-time interface reveals decisions made by the back end so that the&lt;br/&gt;front end can support such services as garbage collection and threads.&lt;br/&gt;The Cobalt language is an interface that enables the front end to tell the&lt;br/&gt;back end what special translation techniques are needed for efficiency in&lt;br/&gt;a particular language. These interfaces are supported by new, automatic&lt;br/&gt;techniques for eliminating potential errors in translation.</AbstractNarration>
+    <MinAmdLetterDate>07/08/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/06/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0838899</AwardID>
+    <Investigator>
+      <FirstName>Norman</FirstName>
+      <LastName>Ramsey</LastName>
+      <EmailAddress>nr@cs.tufts.edu</EmailAddress>
+      <StartDate>07/08/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Tufts University</Name>
+      <CityName>Medford</CityName>
+      <ZipCode>021555807</ZipCode>
+      <PhoneNumber>6176273417</PhoneNumber>
+      <StreetAddress>20 Professors Row</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

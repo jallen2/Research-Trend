@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BRAIN EAGER: Building reliable high-throughput consensus for neuronal morphologies</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>299990</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Peter H. McCartney</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This EAGER project will provide all neuroscientists and computer scientists with much needed reliable, repeatable, high-throughput, quantitative data to begin piecing together the complex puzzle of the neural structure-activity-function relationship. Recent breakthroughs in genetic labeling and microscopic imaging have energized the research community with unprecedented optimism in the ability to collect the enormous amount of data that is necessary to quantify statistically representative samples of neurons in multiple species, developmental stages, and conditions, across the overwhelming variety of cell types throughout the nervous system. Due to the sheer extent and branching complexity of axonal and dendritic arbors, however, the bottleneck in the advancement of progress in this endeavor is no longer raw data acquisition, but the digital reconstruction of the corresponding morphology. The BigNeuron initiative (bigneuron.org) promises to consolidate and further advance the gains in automated tracing, and the ongoing development of multiple algorithms provides a strong insurance of robustness. Now, formulating a consensus from these alternative results is critical to prevent dispersive fragmentation and thrust the field into a new era of discovery.&lt;br/&gt;&lt;br/&gt;BigNeuron is porting all available algorithms for automated reconstruction of neuronal morphology under a unified open source framework. Each of the multiple BigNeuron algorithms will create non-identical digital tracings from every neuronal image stack. A remaining unsolved step is to morph these multiple variants into a single optimal consensus reconstruction that would de facto become a community standard. While human expertise is currently the gold standard (and the ground truth may not be known), even the reconstructions of the exact same neuron by two trained human operators will not be identical and need to be reconciled. Thus, to ensure scalable to whole-brain throughput, an automated method is needed to transform a collection of non-identical tracing versions into a consensus reconstruction, ideally with a confidence (or variance) associated with each branch. The specific aims of this project are to design, implement, test, refine, and deploy a method to generate a consensus neuronal reconstruction from the multiple digital tracings produced by each of the available algorithms. Specifically, the team will first create a draft working algorithm by synergistically combining two recently introduced complementary approaches. The resulting initial procedure for morphological consensus production will serve as straw man for community discussion in several meetings and workshops. After expert feedback and new ideas have been incorporated, the consensus generation process will be finalized for incorporation into the BigNeuron pipeline. Results from this project will be available to researchers and science educational users through the NeuroMorpho.Org website.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1546335</AwardID>
+    <Investigator>
+      <FirstName>Giorgio</FirstName>
+      <LastName>Ascoli</LastName>
+      <EmailAddress>ascoli@gmu.edu</EmailAddress>
+      <StartDate>08/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>George Mason University</Name>
+      <CityName>FAIRFAX</CityName>
+      <ZipCode>220304422</ZipCode>
+      <PhoneNumber>7039932295</PhoneNumber>
+      <StreetAddress>4400 UNIVERSITY DR</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1165</Code>
+      <Text>ADVANCES IN BIO INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7275</Code>
+      <Text>CROSS-EF ACTIVITIES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8091</Code>
+      <Text>BRAIN Initiative Res Support</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: CRI: IAD: Developing a Novel Infrastructure for Underwater Acoustic Sensor Networks</AwardTitle>
+    <AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>335998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rita V. Rodriguez</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proposal #: CNS 07-08498 07-09946 07-08420&lt;br/&gt;PI(s): Preisig, James C Ye,Wei Stojanovic, Milica&lt;br/&gt;Lee, Freitag Heidenmann, John S.&lt;br/&gt;Institution: Woods Hole Oceanographic Inst U Southern California Mass Inst Tech&lt;br/&gt;Woods Hole, MA 02543-1041 Los Angeles, CA 90089-1147 Cambridge, MA&lt;br/&gt;02139-4307&lt;br/&gt;Proposal #: CNS 07-09005 07-08938 07-08467&lt;br/&gt;PI(s): Cui, Jun-Hong (June) Levine, Brian; Kurose,James F. Freitag, Lee&lt;br/&gt;Rajasekaran,Sanguthevar;Shi, Zhijie;Willett,Peter K.;Zhou,Shengli&lt;br/&gt;Institution: University of Connecticut U of Massachusetts WHOI&lt;br/&gt;Storrs, CT 06269-1133 Amherst, MA 01003-9242 Woods Hole, MA 02543-1041&lt;br/&gt;Title: Collab Rsch:CRD/IAD:Open Research Testbed for Underwater Ad Hoc and&lt;br/&gt;Sensor Networks (ORTUN)&lt;br/&gt;&lt;br/&gt;This collaborative project, developing the first open testbed infrastructure for the&lt;br/&gt;underwater networking community, enables open access with the capability to conduct&lt;br/&gt;experiments remotely. The infrastructure, based on open research platforms, consists of&lt;br/&gt;a testbed that enables wide and systematic experimental evaluation and comparison of&lt;br/&gt;underwater acoustic networks. The work, involving this rapidly deployable testbed that&lt;br/&gt;can be shared by the underwater networking community, aims to demonstrate the ability&lt;br/&gt;of the facility to facilitate field experiments. The project represents a higher-level&lt;br/&gt;collaborative that arose from two collaborative groups. One group developing the&lt;br/&gt;facility, the other working mainly on the experiments utilizing the facility. The testbed is&lt;br/&gt;expected to be a buoy-based system that can be easily taken to different environments.&lt;br/&gt;When operational, these systems will be deployed 5 or 6 times a year. The&lt;br/&gt;infrastructure will consist of two types of nodes with different capabilities. The first type&lt;br/&gt;of node of the rapidly deployable testbed will offer a fixed physical layer capability using&lt;br/&gt;acoustic modems such as the WHOI micromodem or the ISI S-modem to implement a&lt;br/&gt;physical layer with limited reconfigurability interfaced to a reconfigurable network&lt;br/&gt;processor. This network processor will support algorithm/protocol implementation and&lt;br/&gt;testing at higher network layers. The Network functions on the Fixed Physical Layer&lt;br/&gt;testbed will be hosted by a Gumstix processor which will then communicate with&lt;br/&gt;physical layer modems such as the WHOI Micromodem or USC/ISI S-modem via a&lt;br/&gt;serial port. Ten to fifteen fixed physical layer nodes will be built including up to 3&lt;br/&gt;gateway nodes. Each gateway node of the testbed will be equipped with wireless RF&lt;br/&gt;communication enabling real-time monitoring and control of network performance. The&lt;br/&gt;fixed physical layer nodes will be smaller and more easily deployed than the second&lt;br/&gt;type of node which is the all-layer node. The all-layer node is a more capable node that&lt;br/&gt;will ultimately support algorithm/protocol implementation and acoustic data collection at&lt;br/&gt;all networking layers. In addition to the equipment included in the fixed physical layer&lt;br/&gt;nodes (i.e., a gumstix network processor and the ability to support relatively fixed&lt;br/&gt;physical layer modems such as the WHOI Micromodem and the ISI S-modem), the&lt;br/&gt;all-layer nodes will also include a general purpose data acquisition system (D/A and&lt;br/&gt;A/D) with substantial disk storage and in-situ processing capability. The MIT r-modem&lt;br/&gt;software will be implemented on this general purpose hardware and, along with&lt;br/&gt;MATLAB, will enable user implementation and testing of algorithms and the gathering of&lt;br/&gt;acoustics data at the physical layer in addition to the testing at higher network layers&lt;br/&gt;that it will share in common with the fixed physical layer nodes. Three to five all-layer&lt;br/&gt;nodes will be built. The rapidly deployable testbed, using two types of nodes with&lt;br/&gt;varying capabilities, should significantly enhance research at all network layers while&lt;br/&gt;setting the stage for future infrastructure improvements.&lt;br/&gt;&lt;br/&gt;Many research groups investigating fundamental questions about how to design such&lt;br/&gt;networked systems that utilize acoustic communications in complex underwater&lt;br/&gt;environments have had their overall effort significantly slowed by the lack of common&lt;br/&gt;means to test and compare protocols under realistic environmental conditions. This&lt;br/&gt;infrastructure responds to the need for consensus on analytic or simulation models for&lt;br/&gt;underwater networks where researchers need the ability to gather experimental data&lt;br/&gt;under real world conditions in order to make progress.&lt;br/&gt;&lt;br/&gt;The network stack will be modular by design with sockets used to enable cross layer&lt;br/&gt;control and communication. The physical, MAC, Network and Application layers will be&lt;br/&gt;populated with sample components to enable users test their own algorithms or&lt;br/&gt;protocols without having to populate the entire stack. Users will be able to write modules&lt;br/&gt;to test their own algorithms or protocols at different layers and selectively replace the&lt;br/&gt;sample modules with their own. While the development of the modular architecture and&lt;br/&gt;sample modules for the network stack will be done with close coordination between all&lt;br/&gt;participating institutions, the lead institution for the layers that will be provided are&lt;br/&gt;Physical Layer (MIT for the all-layer system, WHOI for the Fixed-PHY system), MAC&lt;br/&gt;Layer (USC/ISI), Network Layer (UConn, a geo-routing protocol), and Application Layer&lt;br/&gt;(UMass, a DTN routine service). The open characteristic of the testbeds and their&lt;br/&gt;usefulness for conducting research will be demonstrated by the members of the team&lt;br/&gt;(primarily UConn and UMass as described above) and a few selected outside&lt;br/&gt;participants. In addition, acoustic receptions suitable for physical layer research will be&lt;br/&gt;made available to the general research community via the Internet.&lt;br/&gt;&lt;br/&gt;Broader Impacts: This work enables the essential capability of research groups to&lt;br/&gt;examine fundamental research questions and their potential solutions in the real world.&lt;br/&gt;The infrastructure will directly benefit many on-going research projects in this field A&lt;br/&gt;large number of potential users in the community may benefit from this testbed&lt;br/&gt;infrastructure. In addition to the significant research impact, the infrastructure is&lt;br/&gt;expected to make a very strong educational impact as well, supporting classes bringing&lt;br/&gt;remote access to field experiments to students for whom traditional experiments would&lt;br/&gt;have been too costly. The infrastructure can accelerate research and education in the&lt;br/&gt;underwater networking field.</AbstractNarration>
+    <MinAmdLetterDate>08/09/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0709005</AwardID>
+    <Investigator>
+      <FirstName>Peter</FirstName>
+      <LastName>Willett</LastName>
+      <EmailAddress>willett@engr.uconn.edu</EmailAddress>
+      <StartDate>08/09/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sanguthevar</FirstName>
+      <LastName>Rajasekaran</LastName>
+      <EmailAddress>rajasek@engr.uconn.edu</EmailAddress>
+      <StartDate>08/09/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Shengli</FirstName>
+      <LastName>Zhou</LastName>
+      <EmailAddress>shengli@engr.uconn.edu</EmailAddress>
+      <StartDate>08/09/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jun-Hong (June)</FirstName>
+      <LastName>Cui</LastName>
+      <EmailAddress>jcui@cse.uconn.edu</EmailAddress>
+      <StartDate>08/09/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Zhijie</FirstName>
+      <LastName>Shi</LastName>
+      <EmailAddress>zshi@engr.uconn.edu</EmailAddress>
+      <StartDate>08/09/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Connecticut</Name>
+      <CityName>Storrs</CityName>
+      <ZipCode>062691133</ZipCode>
+      <PhoneNumber>8604863622</PhoneNumber>
+      <StreetAddress>438 Whitney Road Ext.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>024F</Code>
+      <Text>GENI CONCEPT/DEVELOPMENT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>023F</Code>
+      <Text>GENI PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

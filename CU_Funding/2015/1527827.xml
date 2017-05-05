@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: New Machine Learning Approaches for Modeling Time-to-Event Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>310542</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Aidong Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Due to the advancements in recent data collection technologies, different disciplines have attained the ability to not only accumulate a wide variety of data but also to monitor observations over longer periods of time. In many real-world applications, the primary goal of monitoring these observations is to better estimate the time for a particular event of interest to occur. Examples of these events include disease recurrence in healthcare, time to default in finance, device failure in engineering, etc. A major challenge with such time-to-event data is that it is often incomplete; some data instances are either removed or become unobservable over a period of time before the event occurs. Due to this missing piece of information, standard statistical and machine learning tools cannot readily be applied to analyze such data. Survival analysis methods, primarily developed by the statistics community, aim to model time-to-event data and are usually more effective compared to the standard prediction algorithms as they directly model the probability of occurrence of an event in contrast to assigning a nominal label to the data instance. More importantly, they can implicitly handle missing data. However, in many practical scenarios, the missing data challenges are compounded by several other related complexities such as the presence of correlations within the data, temporal dependencies across multiple instances (collected over a period of time), lack of available information from a single source, and difficulty in acquiring sufficient event data in a reasonable amount of time. Such data poses unique challenges to the field of predictive analytics and thus creates opportunities to develop new algorithms to tackle these issues. This project provides innovative computational methods to assist novel scientific discoveries and bring practical transformational impact to the analysis and exploration of various time-to-event datasets and applications. The proposed methods are primarily being evaluated in the context of biomedical data, but are applicable to various other forms of time-to-event data that is often seen in other disciplines such as social science, engineering, finance, and economics.&lt;br/&gt;&lt;br/&gt;This project builds novel computational and analytical algorithms that can efficiently and accurately capture the underlying predictive patterns in time-to-event data. The project aims at building new algorithms for longitudinal data analysis, integrate multiple sources while building time-to-event models, and predict temporal events with limited amount of training data. Specifically, the research objectives are to develop the following: (i) Latent feature models that can capture the longitudinal dependencies underlying multiple outcomes over a period of time. Multiple independent regression models for various missing data time windows are learned and then unified into a multi-output regression model over the diverse output space using sparsity regularizers. (ii) Multi-source time-to-event models that can effectively integrate multiple sources of information and make predictions by incorporating prior knowledge about the instances and their relationships. (iii) Bayesian methods for early-stage event prediction to tackle the problem of lack of sufficient training data on events at early stages of studies (which is a common problem in such time-to-event data). All the methods proposed in this project are evaluated using real-world biomedical data including high-dimensional genomic data and heterogeneous electronic health records. In addition, the algorithms developed in this project will also be used to tackle the problem of student retention.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/19/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527827</AwardID>
+    <Investigator>
+      <FirstName>Chandan</FirstName>
+      <LastName>Reddy</LastName>
+      <EmailAddress>reddy@cs.vt.edu</EmailAddress>
+      <StartDate>08/19/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Wayne State University</Name>
+      <CityName>Detroit</CityName>
+      <ZipCode>482023622</ZipCode>
+      <PhoneNumber>3135772424</PhoneNumber>
+      <StreetAddress>5057 Woodward</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

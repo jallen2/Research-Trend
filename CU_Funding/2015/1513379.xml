@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>INSPIRE: Adaptive Multi-Scale Modeling of Plasmas</AwardTitle>
+    <AwardEffectiveDate>08/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2020</AwardExpirationDate>
+    <AwardAmount>948970</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03010000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Physics</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Vyacheslav S. Lukin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This INSPIRE project is jointly funded by the Plasma Physics and Computational Physics programs in the Physics Division in the Mathematical and Physical Sciences Directorate, the Magnetospheric Physics program in the Atmospheric and Geospace Sciences Division in the Directorate for Geosciences, and the Office of Integrative Activities. Ionized gas, or in scientific terms plasma, is the most common state of matter in the Universe. In the solar system, for example, the solar corona where solar eruptions occur, the solar wind that carries the erupted plasma and magnetic field from the Sun to the Earth, the magnetosphere surrounding the Earth and protecting us from the harmful effects of the eruption, and the ionosphere through which radio communications and GPS signals propagate and get disturbed, all consist of plasma. Understanding plasma is crucial for predicting and mitigating the effects of space weather. Plasmas also play an important role in engineering, for example in the design of fusion type reactors that promise to provide an inexhaustible source of clean energy for humanity. Computational modeling of plasma dynamics is very challenging due to the different spatial and temporal scales and the complex behavior of the system. The project is aimed at improving the efficiency of present plasma simulation models by a factor of 1000 or even more. If successful, the new model will provide accurate and affordable simulations for systems that currently cannot be modeled even on the largest supercomputers.&lt;br/&gt;&lt;br/&gt;There are different approaches for plasma modeling that all have advantages and drawbacks. The most accurate kinetic methods describe all the important effects of plasma by describing the full distribution function in a six dimensional phase space, but they have tremendous computational cost. Even on today's supercomputers, modeling a large three-dimensional system with kinetic methods is far out of reach. Alternative fluid-type methods describe the plasma distribution function with a handful of moments, such as density, velocity and pressure. Solving for these quantities in addition to the magnetic field can be done quite efficiently, and in fact one can model the solar corona, the solar wind, and the magnetosphere with global fluid models with reasonable computational resources. Unfortunately, in most systems there are some parts of the domain where the fluid description is not sufficient, and this can have consequences for the global solution. The project aims at combining the kinetic and fluid type methods in an adaptive and dynamic fashion. The expensive kinetic model will be restricted to the small parts of the domain where the fluid description is not accurate enough, while the efficient fluid methods will be employed in the vast majority of the domain. This hybrid approach promises to provide accurate solutions at a tiny fraction of the cost of the fully kinetic models. A speed up of factor of 1000 or even more is expected. This will allow modeling global plasma systems with unprecedented accuracy and vastly improve our understanding and predictive capabilities.</AbstractNarration>
+    <MinAmdLetterDate>08/09/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1513379</AwardID>
+    <Investigator>
+      <FirstName>Gabor</FirstName>
+      <LastName>Toth</LastName>
+      <EmailAddress>gtoth@umich.edu</EmailAddress>
+      <StartDate>08/09/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1242</Code>
+      <Text>PLASMA PHYSICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>5750</Code>
+      <Text>MAGNETOSPHERIC PHYSICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7244</Code>
+      <Text>COMPUTATIONAL PHYSICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8078</Code>
+      <Text>INSPIRE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7259</Code>
+      <Text>INFORMAL SCIENCE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8653</Code>
+      <Text>INSPIRE Track-1 (Creativ)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

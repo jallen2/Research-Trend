@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Bounded-Contention Coding for Wireless Networks</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Interference in wireless networks often prevents nodes from receiving messages that are within transmission range. This is because communication occurs through broadcast channels rather than point-to-point links -- a node that is close to more than one transmitter receives a signal that is a mixture of the signals originally transmitted. Avoiding collisions basically requires some type of symmetry breaking among the nodes that want to transmit, to prevent them from transmitting at the same time, and has been the subject of many important studies.&lt;br/&gt;&lt;br/&gt;This project will focus on wireless network scenarios in which the contention is bounded and introduce a framework for coping with collisions rather than avoiding them. It will consist of two main contributions. First, the PI will introduce a new coding framework for additive networks called Bounded-Contention Coding (BCC), which allows a receiver to uniquely decode colliding transmissions, and the PI will devise efficient codes within this framework. Second, the PI will design algorithms that use these codes for communicating in wireless networks, in order to solve many fundamental distributed problems. The PI will complement this study with corresponding lower bounds in order to understand the limitations on communicating and computing in such an environment. The PI will also consider several extensions and modifications of the basic model, determine their impact on the algorithms, and propose new solutions for problems in these models as well.&lt;br/&gt;&lt;br/&gt;The results of this project can have impact on the design of real wireless networks, in which bounded-contention scenarios are common. For example, in a large-scale system of phones, only a few calls are typically active at one time. Another example is when nodes in a wireless sensor network receive measurement data from the environment periodically and send it to a central location in the network. The times at which the sensor nodes transmit their measurements could be scheduled in a way that bounds the number of concurrently active transmissions. In both of these examples, although the contention is limited, interference may still occur, implying the necessity to resolve colliding transmissions. For examples such as these, our coding methods and algorithms can lead to new, efficient implementations, and our lower bound results can lead to a better understanding of the inherent limitations.</AbstractNarration>
+    <MinAmdLetterDate>07/23/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/23/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217506</AwardID>
+    <Investigator>
+      <FirstName>Nancy</FirstName>
+      <LastName>Lynch</LastName>
+      <EmailAddress>lynch@csail.mit.edu</EmailAddress>
+      <StartDate>07/23/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Adaptive and high order PDF methods for nonlinear filtering problems</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>160000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Padmanabhan Seshaiyer</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research project investigates efficient and fast numerical algorithms of nonlinear filtering problems. The goal of nonlinear filtering is to obtain best statistical estimate of the state, which can be the trajectory of an unmanned aerial vehicle, of a stochastic dynamical system based on noisy partial observations of the state. As a key tool for data assimilation, nonlinear filtering has applications in vastly diverse research areas including biology, mathematical finance, signal processing and target tracking. A particular example of target tracking is the guidance and surveillance of unmanned aerial vehicles (UAV) which have been playing an essential role in national security and defense. Through nonlinear estimates of target location based on the observations from multiple sensors, nonlinear filtering forms a core component in unmanned aerial vehicle targeting and navigation systems. Because of vast amount data at an increasing rate of availability, traditional nonlinear filtering methods such as Kalman filter and particle filter are often inadequate to handle high dimensional and highly nonlinear problems. This research project aims to develop fast and adaptive numerical algorithms to attack such nonlinear filtering problems. Several graduate students will participate in this project. &lt;br/&gt;&lt;br/&gt;This project is to conduct research in developing high order and adaptive numerical algorithms and the corresponding numerical analysis on nonlinear filtering problems. The focus is on the PDF filter, which solves the nonlinear filtering problem by solving the conditional probability density function (PDF) for the optimal filter through a stochastic partial differential equation or a backward stochastic differential equation. We will develop two classes of algorithms: the first solves the Zakai equation on adaptively constructed computational domains and on sparse grids; and the second solves a class of backward stochastic differential equations. Both algorithms overcome three difficulties for the PDF filter: i) high dimensionality; ii) low regularity; iii) unbounded domains. The overarching objective of this proposal is to make the PDF filter a highly competitive numerical method for nonlinear filtering problems. In particular, the novel BSDE based PDF filter studied in this proposal achieves a high order of convergence, which is much faster than all other existing nonlinear filtering methods.</AbstractNarration>
+    <MinAmdLetterDate>06/16/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/16/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1620150</AwardID>
+    <Investigator>
+      <FirstName>Yanzhao</FirstName>
+      <LastName>Cao</LastName>
+      <EmailAddress>yzc0009@auburn.edu</EmailAddress>
+      <StartDate>06/16/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Auburn University</Name>
+      <CityName>Auburn University</CityName>
+      <ZipCode>368490001</ZipCode>
+      <PhoneNumber>3348444438</PhoneNumber>
+      <StreetAddress>310 Samford Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Alabama</StateName>
+      <StateCode>AL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1263</Code>
+      <Text>PROBABILITY</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

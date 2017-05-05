@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: CHS: Scalable Webcam Eyetracking by Learning from User Interactions</AwardTitle>
+    <AwardEffectiveDate>04/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2018</AwardExpirationDate>
+    <AwardAmount>175000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Eye tracking technology is very useful for a variety of applications including human-computer interaction studies, usability testing, medical research, and experiments in psychology, to name just a few. But the devices are highly specialized and costly equipment that is difficult to calibrate and use, so they remain available for the most part in the lab only. In this project the PI will build on his prior work to establish a research program to investigate a new approach to eye tracking based on the webcams commonly present in today's laptops and mobile devices, with the goal of making the technology viable for a broader range of applications as part of the natural experience of everyday users and so no longer restricted to laboratories and highly controlled studies. Of course, webcams are less accurate than specialized eye tracking equipment for estimating where a user is looking on the screen. The PI's approach to overcoming this drawback is to improve the accuracy by exploiting user interactions to continuously calibrate the webcam-as-eye tracker during regular usage, and to do this online without the need to install additional software. Project outcomes will ultimately include a real-time online eye tracking system using the typical webcam available in laptops and mobile devices, along with an evaluation of its performance. The PI will also conduct research into how user interactions such as cursor clicks and text entry and touches can be used to automatically train the eye tracking algorithms. The new technology will democratize eye tracking, releasing it from the confines of the lab; the PI will disseminate source code along with eye tracking demos to allow other researchers and developers to apply his technology in their work.&lt;br/&gt;&lt;br/&gt;The PI's prior work has shown that when a user clicks on a web page, they will first look where they intend to click. Furthermore, psychology studies have shown that the eye is likely to be 2-4 characters to the right of the last typed character on the screen. Webcam images during these user interactions can be collected by the website to use as cues to what a given user's pupil looks like when s/he is interacting with a particular location. Future observations of the pupil can then be matched to past instances with similar-looking pupils as the system collects mappings of pupil features to eye-gaze locations on the page, allowing the model to infer the eye-gaze location even when the user is not interacting. The pupil data can be collected during the entire time that a user interacts with a website and without disrupting the user experience, including at the beginning of a computer usage session to provide model training data that better matches the local environment in terms of ambient lighting, user sitting position, and background environment. By enabling eye tracking to be accessible from a typical web browser and by continuously improving the tracking accuracy as a user visits a website, eye tracking becomes a reality for many potential applications such as large-scale naturalistic user studies, online gaming, or enabling people to perform hands-free navigation of websites. This eye tracking procedure is opt-in as browsers request access to the webcam, and the website is able to capture this data if the user agrees.</AbstractNarration>
+    <MinAmdLetterDate>03/06/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/18/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1464061</AwardID>
+    <Investigator>
+      <FirstName>Jeff</FirstName>
+      <LastName>Huang</LastName>
+      <EmailAddress>Jeff_Huang@brown.edu</EmailAddress>
+      <StartDate>03/06/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Brown University</Name>
+      <CityName>Providence</CityName>
+      <ZipCode>029129002</ZipCode>
+      <PhoneNumber>4018632777</PhoneNumber>
+      <StreetAddress>BOX 1929</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Rhode Island</StateName>
+      <StateCode>RI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems (CHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

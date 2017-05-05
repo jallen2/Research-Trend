@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Programmability, Portability, Performance and Energy Efficiency for Heterogeneous Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>899786</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>To maximize energy efficiency, future mobile devices will include a diverse range of hardware, such as large and small general-purpose processor cores, vector units, graphics processing units (GPUs), digital signal processors (DSPs), and semi-custom and custom accelerator cores. This "heterogeneity" could power a new wave of innovation in mobile computing but is blocked by several fundamental challenges. Some of the biggest challenges are that such heterogeneous systems are highly challenging to program; that it is very difficult for software applications that use the diverse hardware to be portable across different mobile devices; that the memory systems in these devices are inflexible and inefficient; and that the semi-custom and custom accelerators are poorly integrated with the rest of the memory system and the programming environments.&lt;br/&gt;&lt;br/&gt;A key insight behind this project is that a carefully designed hardware abstraction layer --- a "Virtual Instruction Set" --- that abstracts away the differences in parallelism and memory subsystems across the different compute units can provide a framework in which all of the above interrelated problems can be solved extremely effectively. The project is developing a framework called Virtual Instruction Set Computing that uses this approach to address the above challenges. The framework uses just two or three models of parallelism and a uniform, rich model of communication to capture the full spectrum of heterogeneous hardware. The hardware memory architecture supports specialized memory sub-systems and novel memory optimizations customized for those sub-systems, while compilers partition the memory used by applications to make use of these partitions; together, these specialization techniques will provide an order of magnitude improvement in memory efficiency. Semi-custom accelerators for the key domain of Machine Learning are driving new programming and memory system design techniques to integrate and use semi-custom accelerators in such systems. The overall research builds on the widely used LLVM virtual instruction set and compiler infrastructure (previously developed by members of this research team), which are already widely used in industry, enhancing the potential for technology transfer from this work. If this project is successful, it can enable far more powerful mobile phones, tablets, and other such devices, and far more advanced software applications that can make full use of the rich capabilities of these devices.</AbstractNarration>
+    <MinAmdLetterDate>08/13/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/13/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1302641</AwardID>
+    <Investigator>
+      <FirstName>Sarita</FirstName>
+      <LastName>Adve</LastName>
+      <EmailAddress>sadve@cs.uiuc.edu</EmailAddress>
+      <StartDate>08/13/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vikram</FirstName>
+      <LastName>Adve</LastName>
+      <EmailAddress>vadve@cs.uiuc.edu</EmailAddress>
+      <StartDate>08/13/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robin</FirstName>
+      <LastName>Rutenbar</LastName>
+      <EmailAddress>rutenbar@illinois.edu</EmailAddress>
+      <StartDate>08/13/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

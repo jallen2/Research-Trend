@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Detection and Tracking of Multiple Dynamic Targets with Cooperating Networked Agents</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In the multi-agent framework, a team of autonomous agents cooperates in carrying out complex tasks in an environment that is potentially dynamic, hazardous, and even adversarial. In general, the team must seek out and then monitor targets that may also be moving while balancing the monitoring task with continued exploration. This setting, broadly termed persistent monitoring, typically arises in mobile robotic applications and sensor networks, but it is surprisingly rich and encompasses a number of other, less obvious, domains. In this project we will develop mathematical techniques for the optimal, or at least near-optimal, behavior of a team of autonomous agents performing persistent monitoring and deploy the theory in the context of tracking multiple biological macromolecules moving inside living cells. In additional to foundational mathematical research with a broad scope, the project aims to construct a new tracking fluorescence microscope that will leverage the mathematical framework to provide significantly better speed, accuracy, and throughput than existing instruments for following the dynamics of single molecules. Both undergraduate and graduate students will be trained in a variety of disciplines, including optimization, control theory, robotics, and microscopy. In addition, the project involves outreach to low-income, first-generation-to-college students in the Boston metro area through the development of one-day modules in single molecule imaging that will be used as part of Nanocamp, a six-week residential summer program for rising high school sophomores and juniors in the target demographic.&lt;br/&gt;&lt;br/&gt;The control and coordination of agents in dynamic, hazardous, and possibly adversarial environments is highly challenging since it involves multiple objectives and a considerable amount of information exchange with often severe communication limitations. Since the use of ad hoc control policies frequently leads to poorly performing systems, the approach proposed in this project is the use of optimization methods to create well-designed, rational policies that can guarantee satisfactory, if not optimal, behavior. Because such optimization problems rapidly get computationally intractable and their solution is rarely amenable to on-line scalable, distributed implementations, one of the specific aims is to develop near-optimal, efficient, and uncertainty-robust schemes that use a parametric family of control policies that can be optimized on-line. While the primary project goal is a mathematically rigorous and broadly applicable framework, it will be developed with the primary motivating application in mind, namely tracking of multiple single biological macromolecules. In this setting, the agents are individual confocal volumes, each independently addressed and controlled using a programmable array microscope, and the targets are fluorescently-labeled biological macromolecules. While a decentralized implementation is in general desirable, the single molecule tracking application supports a centralized solution since all implementation is done on a single controller and thus the project will focus on the centralized approach. The mathematical algorithms developed will be implemented on field programmable gate array (FPGA) devices and tested through experiment by tracking freely diffusing quantum dots.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1509084</AwardID>
+    <Investigator>
+      <FirstName>Sean</FirstName>
+      <LastName>Andersson</LastName>
+      <EmailAddress>sanderss@bu.edu</EmailAddress>
+      <StartDate>07/29/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christos</FirstName>
+      <LastName>Cassandras</LastName>
+      <EmailAddress>cgc@bu.edu</EmailAddress>
+      <StartDate>07/29/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

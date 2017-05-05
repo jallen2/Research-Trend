@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: CSR: Automatic Cross-Layer Memory Management to Achieve Power and Performance Goals</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>150296</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project focuses on developing a framework that will allow users to control and manage memory resources more effectively than conventional approaches, and has the potential to significantly improve both computing performance and energy efficiency in a wide range of computing domains. This project addresses the following technology gaps as it translates from research discovery toward commercial application: (1) It will develop the system tools and software necessary to effectively communicate and incorporate memory usage information across layers during memory management, (2) It will generate new knowledge in the areas of static analysis, profiling, and machine learning for the purposes of predicting and classifying memory usage behavior, (3) It will allow researchers to create and explore new collaborative memory management algorithms and techniques, and (4) It will investigate and evaluate the potential of various collaborative memory management schemes for achieving different power and performance goals using a variety of realistic workloads and usage scenarios. In addition, one graduate student will receive innovation and technology translation experiences through the development of the cross-layer memory management framework, and its release into the open source community.&lt;br/&gt;&lt;br/&gt;Specifically, the project will exploring and assess the utility of cross-layer collaboration during memory management. It is difficult to control and optimize memory power and bandwidth because these effects depend upon activity across multiple layers of the vertical execution stack. However, current systems make no attempt to coordinate memory usage in the upper-level software with placement and management in the operating system and hardware. This project will develop a full system implementation of cross-layer memory management, where (a) the application-layer determines data object usage patterns, assigns objects to appropriate locations/pages in the virtual address space, and conveys corresponding page-level memory usage information to the OS, and (b) the OS-layer organizes its physical memory structures according to architectural information from the memory hardware, and incorporates the application guidance when deciding which physical page to use to back a particular virtual page.</AbstractNarration>
+    <MinAmdLetterDate>03/03/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/03/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1464288</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Jantz</LastName>
+      <EmailAddress>mrjantz@utk.edu</EmailAddress>
+      <StartDate>03/03/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Tennessee Knoxville</Name>
+      <CityName>KNOXVILLE</CityName>
+      <ZipCode>379960003</ZipCode>
+      <PhoneNumber>8659743466</PhoneNumber>
+      <StreetAddress>1 CIRCLE PARK</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

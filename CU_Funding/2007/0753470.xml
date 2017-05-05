@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ST-CRTS: Dynamic Unmasking of Compiler Optimizations and Obfuscations</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2010</AwardExpirationDate>
+    <AwardAmount>246016</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Background&lt;br/&gt;&lt;br/&gt;In this project the PI argues that many applications, related to software reliability and software protection, require automated comparison of original and the transformed versions of the program.&lt;br/&gt;The goal of this comparison is to match instructions from two versions that correspond to each other. The PI refers to this process of automatically unmasking the effects of program transformations as matching.&lt;br/&gt;&lt;br/&gt;Intellectual Merit:&lt;br/&gt;&lt;br/&gt;-The PI propose to develop nearly accurate dynamic matching algorithms which are designed to &lt;br/&gt;-Use execution histories to find mapping between code that appears to be different but&lt;br/&gt; behaves the same during an execution. &lt;br/&gt;-Perform matching at binary level.&lt;br/&gt;-Use matching to compare execution histories of the two versions at regular&lt;br/&gt; intervals and report the set of unmatched statements. &lt;br/&gt;-Combination of techniques that use Diablo to produce a static program representation and runtime algorithms that process Valgrind generated traces for compression are being implemented to produce Whole Execution Traces (WETs). &lt;br/&gt;-Deposit in a WET database and accessed by the Dynamic Matching module to carry out matching.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Broader Impact&lt;br/&gt;&lt;br/&gt;The PI has involved 2 PhD students in the preliminary work carried out for the proposed research.&lt;br/&gt;These students are expected to finish their degrees by the end of the proposed project. In addition, other graduate and undergraduate students in Programming Languages classes taught by the PI will use the infrastructure in their class projects.&lt;br/&gt;&lt;br/&gt;Initially the research results produced by this project will be incorporated into the above courses taught by the PI. Later PI will develop a dedicated course on Dynamic Techniques. The labs and lectures prepared will be freely made available through the project website. &lt;br/&gt;&lt;br/&gt;Once such a course is ready, the PI will also undertake a book writing project to produce a formal text in the broader area of dynamic analysis.&lt;br/&gt;&lt;br/&gt;Although the initial goal of this research is to develop dynamic unmasking techniques for optimized and obfuscated code, the dynamic information analysis infrastructure that is being developed will also be useful in other areas of research such as performance analysis and debugging. Therefore, the infrastructure produced will be have a broader impact by being useful to other researchers as well.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/18/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0753470</AwardID>
+    <Investigator>
+      <FirstName>Rajiv</FirstName>
+      <LastName>Gupta</LastName>
+      <EmailAddress>gupta@cs.ucr.edu</EmailAddress>
+      <StartDate>09/18/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CIF: Small: Digital Background Calibration of Digital-to-Analog Converters in CMOS Technologies</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>472057</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Communications systems often transfer digital data because digital systems are reliable, programmable, and testable. The digital data are converted to analog form by a digital-to-analog converter (DAC), which produces the input to a channel that makes a physical connection between the transmitter and receiver. Channel nonidealities cause the raw received signals to be continuously variable (analog). In practice, each location has a transmitter and a receiver operating together. Therefore, the raw received signal at any location consists of an analog signal related to the remote digital data plus a filtered copy of the local transmitter signal (an "echo"). An analog-to-digital converter (ADC) converts this combined signal into digital form. An echo canceler adaptively removes the echo but usually cannot remove noise or distortion. Therefore, ADCs and DACs used in digital communication systems must have high resolution (for low noise) and high linearity (for low distortion). Inside the ADCs and DACs, unintentional mismatch between elements causes distortion, which is commonly reduced by calibration. However, calibration is often done in the foreground, which means that it interrupts the conversion and reduces the communications rate. To overcome this problem, background calibration can be used. Background calibration operates during normal conversion and has been much less thoroughly studied in DACs than in ADCs. &lt;br/&gt;&lt;br/&gt;This project involves investigating the digital background calibration of high-speed, high-linearity DACs used for data-communication systems. Unlike in previously reported work, the calibration architecture considered here senses and corrects for signal-dependent output resistance effects. Also, it can improve not only the static (or low output frequency) DAC performance, but also the dynamic (or high output frequency) performance, which is the main limitation in state-of-the art DACs.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016704</AwardID>
+    <Investigator>
+      <FirstName>Bernard</FirstName>
+      <LastName>Levy</LastName>
+      <EmailAddress>levy@ece.ucdavis.edu</EmailAddress>
+      <StartDate>08/18/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Lewis</LastName>
+      <EmailAddress>lewis@ece.ucdavis.edu</EmailAddress>
+      <StartDate>08/18/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7936</Code>
+      <Text>SIGNAL PROCESSING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR---AES: Collaborative Research: Novel Programming Models and Architectures to Simplify Parallel Programming</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2011</AwardExpirationDate>
+    <AwardAmount>889895</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mohamed G. Gouda</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The focus of this project is on the programming of multi-core chips. &lt;br/&gt;&lt;br/&gt;The goal of the project is to find a comprehensive parallel programming environment that can substantially simplify parallel programming for multi-cores.&lt;br/&gt;&lt;br/&gt;Current parallel programming approaches are typically too complicated for most programmers or do not deliver adequate performance. A major breakthrough is needed to simplify parallel programming to effectively utilize multi-core hardware. Reducing the complexity of parallel programming and enabling its widespread use has emerged as a Grand Research Challenge for the systems community. It is fundamental to the computer industry''s ability to continue innovating. &lt;br/&gt;&lt;br/&gt;The scope of this project is to study two novel parallel programming models that either separately or in combination have the potential to provide dramatic improvements in programmer productivity. The two novel parallel programming models that may have the potential to simplify parallel programming and be accepted by large numbers of programmers are Colorama and IPOT.&lt;br/&gt;&lt;br/&gt;Colorama is an architecture-supported Data Centric Synchronization (DCS) approach, and is used in explicitly parallel programs. In DCS, the programmer specifies concurrency control by associating synchronization constraints with the program data structures, typically when they are declared or allocated. These constraints determine which sets of data structures are in the same data consistency domain and, therefore, should be kept consistent with each other. At run time, when one data structure is being modified by a thread, the system automatically protects all the other data structures in the same domain from access by other threads. Compared to programming with locks and transactions, where the programmer reasons non-locally, Colorama has a significant programmability advantage: the programmer reasons locally, focusing only on what data structures should be consistent with each other; the system will automatically infer the critical sections.&lt;br/&gt;&lt;br/&gt;Implicit Parallelism with Ordered Transactions (IPOT) supports speculative threads in a sequential thread of execution. The key idea is that the programmer is allowed to specify opportunities for parallelization within the sequential thread using a set of simple yet very powerful annotations. Unlike explicit parallelism, IPOT annotations do not require the programmer or the compiler to prove the absence of data or control dependences. There is runtime architectural support to detect violations, and squash and restart threads. Unlike conventional TLS, the system can extract much more parallelism because it leverages user information. &lt;br/&gt;&lt;br/&gt;It is possible to use these models separately or, since they are complementary, in combination for example, by using Colorama on explicitly-parallel code where each thread is implicitly parallelized with IPOT. Both models require special hardware support in the multi-core chip.&lt;br/&gt;&lt;br/&gt;The project teams activities address several layers of multi-core programming/architectural frameworks:&lt;br/&gt;&lt;br/&gt;1. Programming Models -- The project team will study the design issues in the specification of the Colorama, IPOT, and Unified programming models (Unified is the combination of Colorama and IPOT).&lt;br/&gt;2. Compilation -- The team will develop compiler technology to improve the performance and guarantee the correctness of their programming models.&lt;br/&gt;3. Runtime System -- Libraries and a runtime system will be developed for these models.&lt;br/&gt;4. Computer Architecture -- Different levels of architectural support for these models will be explored.&lt;br/&gt;5. Performance Monitoring and Debugging Tools -- A set of tools will be developed that allow programmers to debug, test, and tune programs written for the programming models.&lt;br/&gt;6. Applications -- A suite of applications will be developed that use the programming models.&lt;br/&gt;7. Empirical Productivity Studies -- A set of empirical programmer productivity experiments will be carried out in a course at the University of Illinois.&lt;br/&gt;&lt;br/&gt;This work involves a collaboration between the University of Illinois and IBM Research, leveraging a large amount of existing IBM-sponsored infrastructure to release the complete software infrastructure of the programming environment that is developed by the project team.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720593</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Padua</LastName>
+      <EmailAddress>padua@uiuc.edu</EmailAddress>
+      <StartDate>09/18/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Josep</FirstName>
+      <LastName>Torrellas</LastName>
+      <EmailAddress>torrellas@cs.uiuc.edu</EmailAddress>
+      <StartDate>09/18/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Maria</FirstName>
+      <LastName>Garzaran</LastName>
+      <EmailAddress>garzaran@cs.uiuc.edu</EmailAddress>
+      <StartDate>09/18/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

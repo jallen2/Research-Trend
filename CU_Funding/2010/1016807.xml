@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC-Small-Virtual Machine Introspection-based Live Forensics for Detection of Malicious Software</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2015</AwardExpirationDate>
+    <AwardAmount>598664</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern malware is used extensively in computer crime and cyber-warfare&lt;br/&gt;and poses a serious threat to the cyber-infrastructure of the United&lt;br/&gt;States, at the military, civil, and corporate levels. Malware can&lt;br/&gt;employ a number of techniques to gain access to needed resources and&lt;br/&gt;to prevent detection, including hooking or modifying system calls,&lt;br/&gt;adding new system calls, inserting new kernel modules, and directly&lt;br/&gt;patching kernel code. Furthermore, malware is increasingly stealthy,&lt;br/&gt;being both difficult to detect and to analyze, and current-generation&lt;br/&gt;schemes for detection, analysis, and mitigation will become&lt;br/&gt;increasingly ineffective as the trend toward additional stealth&lt;br/&gt;increases, with more esoteric infection vectors, complex packing&lt;br/&gt;schemes, polymorphism, and metamorphism being employed.&lt;br/&gt;&lt;br/&gt;This proposal leverages emerging live digital forensics techniques, to&lt;br/&gt;create powerful techniques for malware detection and mitigation. These&lt;br/&gt;live forensics techniques deeply analyze memory dumps and build&lt;br/&gt;accurate models of kernel and application structures that reflect the&lt;br/&gt;state of the machine at the time of an investigation. By integrating&lt;br/&gt;live forensics techniques into a virtual machine monitor (VMM) and&lt;br/&gt;developing hardware-supported introspection techniques to analyze&lt;br/&gt;system state, malware detection facilities can be created that prevent&lt;br/&gt;malware from interfering with detection and mitigation strategies.&lt;br/&gt;The proposal discusses a number of necessary tasks to support this&lt;br/&gt;research agenda, including the design of and development of a&lt;br/&gt;hardware-assisted VMM introspection architecture and deep, portable&lt;br/&gt;modeling of kernel data structures and other guest VM state, including&lt;br/&gt;the filesystem. These modeling techniques can then be used for&lt;br/&gt;real-time verification of critical kernel code, cross-verification of&lt;br/&gt;kernel structures, application state analysis, and protection of&lt;br/&gt;critical system files. A novel aspect of the proposed research is the&lt;br/&gt;use of commodity Graphics Processing Units (GPUs), protected by&lt;br/&gt;hardware directed-I/O virtualization, as malware detection&lt;br/&gt;accelerators.&lt;br/&gt;&lt;br/&gt;The intellectual merit of the proposed research is to increase the&lt;br/&gt;depth, flexibility, and capabilities of introspected live forensics&lt;br/&gt;analysis and to expand the scope of live forensics to the detection of&lt;br/&gt;sophisticated malware. The proposed techniques expand&lt;br/&gt;state-of-the-art in live forensics techniques, virtual machine&lt;br/&gt;introspection, and kernel-level malware detection and will provide a&lt;br/&gt;foundation on which to build even more powerful techniques. The&lt;br/&gt;broader impacts of the proposed work touch all sectors of society,&lt;br/&gt;since individual citizens, as well as the law enforcement, military,&lt;br/&gt;and corporate communities all benefit from the deployment of more&lt;br/&gt;sophisticated malware detection mechanisms. The proposed work also&lt;br/&gt;enhances the existing curriculum in information assurance at the&lt;br/&gt;University of New Orleans, since research results from this effort&lt;br/&gt;will be incorporated into both undergraduate and graduate courses,&lt;br/&gt;exposing students to an important area of study in which the supply of&lt;br/&gt;practitioners falls far short of the demand.&lt;br/&gt;&lt;br/&gt;For further information see the project web site at the URL&lt;br/&gt;http://www.cs.uno.edu/~golden/live-forensics.html.</AbstractNarration>
+    <MinAmdLetterDate>07/15/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/29/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016807</AwardID>
+    <Investigator>
+      <FirstName>Golden</FirstName>
+      <LastName>Richard</LastName>
+      <EmailAddress>golden@cct.lsu.edu</EmailAddress>
+      <StartDate>07/15/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of New Orleans</Name>
+      <CityName>New Orleans</CityName>
+      <ZipCode>701480001</ZipCode>
+      <PhoneNumber>5042806836</PhoneNumber>
+      <StreetAddress>2000 Lakeshore Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1668</Code>
+      <Text>CYBERCORPS: SCHLAR FOR SER</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7254</Code>
+      <Text>CYBER SECURITY ACT PROPOSALS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>SMET</Code>
+      <Text>SCIENCE, MATH, ENG &amp; TECH EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

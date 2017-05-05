@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: CDSChecker: Model-Checking Concurrent Data Structures under the C11/C++11 Memory Model</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>399997</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Society has long relied on increasing computing power to drive&lt;br/&gt;technological development. Continuing this trend in the multi-core era&lt;br/&gt;will require a large scale migration to parallel software. As an&lt;br/&gt;acknowledgment of the new importance of parallelism in software&lt;br/&gt;development, the 2011 C and C++ standards extended C and C++ with&lt;br/&gt;language support for low-level atomic operations to allow developers&lt;br/&gt;to write portable efficient concurrent data structures.&lt;br/&gt;Unfortunately, implementing concurrent data structures is extremely&lt;br/&gt;difficult to do correctly. Despite the difficulties, we expect that&lt;br/&gt;the potential performance benefits will lure many developers, both&lt;br/&gt;experts and others, to attempt to develop customized concurrent data&lt;br/&gt;structures. Without tool support, this will inevitably lead to&lt;br/&gt;potentially costly failures in deployed software.&lt;br/&gt;&lt;br/&gt;This project will explore techniques for efficiently model checking&lt;br/&gt;concurrent data structures under the C/C++ memory model and support&lt;br/&gt;for developers to effectively use a model checker for testing and&lt;br/&gt;debugging code. These techniques will be implemented in the form of a&lt;br/&gt;concurrent data structure checking tool, CDSChecker, that will be&lt;br/&gt;developed by the this project. The project will develop efficient&lt;br/&gt;model-checking techniques for the C/C++ memory model, explore how to&lt;br/&gt;specify the correct behavior of concurrent data structures, explore&lt;br/&gt;how to support testing and debugging of concurrent code, and explore&lt;br/&gt;how to effectively communicate information about concurrency bugs to&lt;br/&gt;developers.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319786</AwardID>
+    <Investigator>
+      <FirstName>Brian</FirstName>
+      <LastName>Demsky</LastName>
+      <EmailAddress>bdemsky@uci.edu</EmailAddress>
+      <StartDate>07/31/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173213</ZipCode>
+      <PhoneNumber>9498247295</PhoneNumber>
+      <StreetAddress>141 Innovation Drive, Ste 250</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

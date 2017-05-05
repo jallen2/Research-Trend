@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Highly efficient numerical solution of the Boltzmann equation for practical applications</AwardTitle>
+    <AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>316371</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ronald Joslin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>PI: Varghese, Philip L.&lt;br/&gt;Proposal Number: 1438530&lt;br/&gt;&lt;br/&gt;The goal of the proposed research is to develop an improved method to compute flows under conditions where the conventional continuum equations are invalid. If successful, the work would result in solution strategies for a broad range of applications where continuum equations fail. The work proposed will advance the state-of-the-art for hybrid flow simulations that are important in design and simulation of wafer fabrication machines, plasma processing equipment, and micro-sensors.&lt;br/&gt;&lt;br/&gt;The continuum approach to fluid mechanics reaches its limitations in rarefied flows and in micro- and nanoflows. A commonly used approach for computing non-continuum flows is the direct simulation Monte Carlo (DSMC) method, which can be thought of as providing a statistical representation of solutions of the Boltzmann equation by modeling the behavior of a large number of the molecules in the flow. This proposal is about a novel scheme to solve the Boltzmann equation numerically that has the potential to alleviate many of the limitations of DSMC, including feasibility for large scales. The proposed work is based on a new idea on how to compute the collisional integral, which appears in the Boltzmann equation and has been the reason for inefficient solutions and approximations to-date, using a projection into a discrete yet conservative velocity space. This approach can be viewed as a variation of DSMC that uses variable-mass fixed-velocity quasi-particles, rather than fixed-mass variable-velocity particles. Preliminary results show good agreement with theoretical predictions. The software developed during this project will be given to other academic and government laboratory users on request. The research center within the Institute for Computational Engineering and Sciences at UT Austin will be utilized for dissemination - it has established high standards for software documentation and code verification and validation. &lt;br/&gt;&lt;br/&gt;This award by the Fluid Dynamics Program of the CBET Division is co-funded by CIF 21 Software Reuse Venture Fund Program of the CISE/ACI Division.</AbstractNarration>
+    <MinAmdLetterDate>06/30/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1438530</AwardID>
+    <Investigator>
+      <FirstName>Philip</FirstName>
+      <LastName>Varghese</LastName>
+      <EmailAddress>varghese@mail.utexas.edu</EmailAddress>
+      <StartDate>06/30/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Goldstein</LastName>
+      <EmailAddress>david@cfdlab.ae.utexas.edu</EmailAddress>
+      <StartDate>06/30/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1443</Code>
+      <Text>FLUID DYNAMICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>6892</Code>
+      <Text>CI REUSE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>058E</Code>
+      <Text>Newtonian fluids</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Learning and Testing Classes of Distributions</AwardTitle>
+    <AwardEffectiveDate>06/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2016</AwardExpirationDate>
+    <AwardAmount>471875</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A long and successful line of research in machine learning deals with algorithms that learn from "labeled" data, where a target function is assumed to provide a label for each data point. A major focus of theoretical work has been to develop efficient algorithms for learning different classes of target functions. Recent years have witnessed a data explosion across many domains of science and society, but much of this newly available data consists simply of example points (DNA sequences, sensor readings, smartphone user locations, etc) without any labels. A natural model of such scenarios is that data points are generated according to some unknown probability distribution (typically over an extremely large domain). The goal of the proposed work is to study the learnability of different classes of probability distributions given access to samples drawn from the distributions. This is closely analogous to the framework of learning from labeled data sketched above, but with probability distributions playing the role of functions as the objects to be learned.&lt;br/&gt;&lt;br/&gt;In this project, the PI will perform theoretical research on developing computationally efficient algorithms for learning and testing various natural types of probability distributions over extremely large domains. (Testing algorithms are algorithms which, instead of trying to accurately model an unknown distribution, have the more modest goal of testing whether or not the distribution has some property of interest.) Specific problems the PI will address include: (1) Developing efficient algorithms to learn and test univariate probability distributions that satisfy various natural kinds of "shape constraints" on the underlying probability density function. Preliminary results suggest that dramatic improvements in efficiency may be possible for algorithms that are designed to exploit this type of structure. (2) Developing efficient algorithms for learning and testing complex distributions that result from the aggregation of many independent simple sources of randomness.&lt;br/&gt;&lt;br/&gt;The algorithms that the PI will work to develop can provide useful modelling tools in data-rich environments and may serve as a "computational substrate" on which large-scale machine learning applications can be developed for real-world problems spanning a broad range of application areas. Other important focuses of the grant are to train graduate students through research collaboration, disseminate research results through seminar talks, survey articles and other publications, and to continue ongoing outreach activities aimed at increasing interest in theoretical computer science topics in elementary school students.</AbstractNarration>
+    <MinAmdLetterDate>06/03/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/03/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319788</AwardID>
+    <Investigator>
+      <FirstName>Rocco</FirstName>
+      <LastName>Servedio</LastName>
+      <EmailAddress>rocco@cs.columbia.edu</EmailAddress>
+      <StartDate>06/03/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

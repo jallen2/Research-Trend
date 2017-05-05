@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Extending Sparse Optimization</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>240999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Rather than solving an optimization problem exactly, sparse optimization seeks approximate solutions that satisfy certain structural properties, such as few nonzeros in the solution vector. Sparse optimization problems and formulations are now recognized across a wide range of applications, and techniques for solving these problems draw on a large variety of algorithmic tools, old and new. This project aims to extend sparse optimization in two respects. First, work is proposed in application areas that can benefit from the sparse optimization perspective: machine learning and data mining at extreme scale, contact dynamics, object packing, medical image reconstruction, and derivative-free optimization. Algorithmic developments will target key problem formulations in these areas, paying particular attention to methods that can exploit parallel computer architectures and specialized hardware. Algorithmic techniques to be considered include stochastic approximation, randomized directions, augmented Lagrangian, and reduced-space search using higher-order information. Second, the project will use general frameworks to analyze such algorithmic ideas as manifold identification, continuation, first-order algorithms, inexactness, and convergence and complexity results. The general nature of these investigations will enable innovations to be spread across a wide range of formulations and applications. &lt;br/&gt;&lt;br/&gt;The field of optimization provides a vital framework for formulating, modeling, and solving problems in many application areas. In sparse optimization, we note that many applications require solutions with a special structure that is easy to specify, but hard to incorporate in traditional algorithms and models. Sparse optimization arises, for example, in reconstruction of signals and images, where we know that the signal should contain only a few frequencies, or that the image should look like a natural image rather than white noise. Important developments of the past few years have shown that the requirement of structure in solutions, rather than being a hindrance to efficient solution, can actually lead to more efficient formulations and faster methods. Notable successes have been achieved in such areas as compressed sensing and image denoising. This project will build on these successes by developing algorithms that can be leveraged in many new and existing applications of sparse optimization. In keeping with modern optimization research, a bevy of algorithmic techniques will be considered. Theory will be developed to support the use of these techniques in a wide range of contexts.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1216318</AwardID>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Wright</LastName>
+      <EmailAddress>swright@cs.wisc.edu</EmailAddress>
+      <StartDate>07/24/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

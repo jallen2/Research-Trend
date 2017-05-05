@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: PACE - Parallel Accelerated Cartesian Expansions with Application to Molecular Dynamics</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2010</AwardExpirationDate>
+    <AwardAmount>102600</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computation of pairwise potential functions is crucial, albeit computationally expensive, to simulating the underlying physics in many fields. To mitigate this cost, fast and approximate potential computation methods have been developed for several potential functions; for example, particle-mesh methods, Fast Fourier Transforms, Fast Multipole Method (FMM), and limiting computation to neighborhoods. These methods differ in efficiency, accuracy, and applicability. Recent work by one of the PIs provides the foundation for the development of unified, robust, accurate and parallel methods for fast computation of non-oscillatory potentials using the Accelerated Cartesian Expansion framework. &lt;br/&gt;&lt;br/&gt;A two pronged approach undertaken herein involves the development of (i) translation operators to enable FMM based computation for different pairwise potentials, including Yukawa, Lennard Jones, Gauss, Morse, and Buckingham potentials, and (ii) parallel framework for computing individual and multiple potentials simultaneously. These techniques are to be applied to a set of practical systems involving the Poisson, diffusion, retarded and Helmholtz (sub-wavelength), and Klein-Gordon equations, and to computing van-der Waals (in mesoscopic systems). The underlying methodology requires that only translation operators change from potential to potential, and provides a mathematically exact formulation for traversal up and down the FMM tree. The unifying treatment for computing multiple potentials simplifies parallel code development, especially with regard to scalability. To ensure broad impact, portions of this research will be available as part of LAMMPS software package to ensure widespread dissemination. Graduate students will be trained across multiple disciplines, and will visit each other's institutions. Existing channels are utilized to recruit women and minorities and undergraduate students are involved through senior design projects and potential REU supplements.</AbstractNarration>
+    <MinAmdLetterDate>09/24/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/24/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0729189</AwardID>
+    <Investigator>
+      <FirstName>Srinivas</FirstName>
+      <LastName>Aluru</LastName>
+      <EmailAddress>aluru@cc.gatech.edu</EmailAddress>
+      <StartDate>09/24/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

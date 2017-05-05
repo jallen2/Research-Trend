@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Formal Synthesis of Low-Energy Signal Processing Systems Relying on Controlled Timing-Error Acceptance</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>449676</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Improving energy efficiency of embedded and mobile systems is a major design challenge. Such systems involve complex algorithms for audiovisual processing, recognition, and communication that heavily utilize digital signal processing (DSP) architectures. This proposal advances a systematic strategy to reduce energy consumption of DSP sub-systems and thereby make major strides towards a new generation of low-energy embedded applications. The main premise behind the proposal is that signal processing algorithms may accept, in a finely controlled manner, some amount of timing errors in return for significant energy savings. Signal processing algorithms have an intrinsic quality floor, set by quantization and roundoff noise. A traditional design paradigm of worst-case margining is highly suboptimal, and by accepting a small amount of low-probability timing errors, significant energy savings of more than 50% are possible.&lt;br/&gt;&lt;br/&gt;Research under this proposal will result in the development of a formal analysis and synthesis framework for integration into a hardware synthesis flow that supports systematic design of ultra low-energy error-permissive DSP systems. A flow for controlled acceptance of timing errors must fundamentally be based on a new formal notion of quality-energy (Q-E) tradeoff, which is unique to error-permissive signal processing, and which will allow treatment of other Q-E techniques, such as approximate signal processing, consistently within the same framework. To this end, the goals of this project are two-fold: (i) to formally develop models and analysis techniques for controlled timing-error acceptance under given input statistics and quality-energy budgets, and (ii) to develop a comprehensive synthesis flow that allows multiple Q-E techniques to be applied to the co-optimization of quality, energy, area and performance objectives for a large class of algorithms that can generally tolerate a small amount of errors. Results of this work will enable automatic exploration of joint algorithm and architecture tradeoffs for implementation of general quality- and energy-tuned error-permissive systems. The new controlled timing error paradigm will facilitate sustained improvement in the energy efficiency of integrated circuits and digital systems, where ultra low-energy operation will enable use of hitherto infeasible portable, implantable, wireless and autonomous systems.</AbstractNarration>
+    <MinAmdLetterDate>09/08/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/17/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018075</AwardID>
+    <Investigator>
+      <FirstName>Andreas</FirstName>
+      <LastName>Gerstlauer</LastName>
+      <EmailAddress>gerstl@ece.utexas.edu</EmailAddress>
+      <StartDate>09/08/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Orshansky</LastName>
+      <EmailAddress>orshansky@mail.utexas.edu</EmailAddress>
+      <StartDate>09/08/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Austin</Name>
+      <CityName>Austin</CityName>
+      <ZipCode>787121532</ZipCode>
+      <PhoneNumber>5124716424</PhoneNumber>
+      <StreetAddress>101 E. 27th Street, Suite 5.300</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: EAGER: Robust Opportunistic Fitting of Partial Body Models</AwardTitle>
+    <AwardEffectiveDate>09/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>125125</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project addresses the problem of fitting an articulated body model to a person in an image. The task is challenging due to large variation in appearance caused by body pose, clothing, illumination, viewpoint and background clutter. Unlike current methods that try to fit a full body model to every image, this approach uses opportunistic search within a space of partial body models to find only those body parts that are currently visible and detected with high confidence. Not trying to fit occluded or poorly visible parts reduces the chances of making a mistake, so subsequent processes can rely on receiving a high-quality partial model solution. A stochastic search technique employing high-level subroutines to propose candidate body configurations searches for the globally optimal solution in terms of number and configuration of visible body parts, removing the need for a close initial estimate and allowing more thorough exploration of the solution space. The proposed partial body configurations also provide top-down guidance for image segmentation of individual body parts, yielding better delineation of body shape than simple parameterized models or bottom-up segmentation. An implementation of the approach is being compared against existing work using publicly available datasets. Robust segmentation of torso and limbs from still images provides a natural representation of the human body that can have broad impact on tasks such as human activity recognition and markerless body tracking within interactive smart spaces.</AbstractNarration>
+    <MinAmdLetterDate>09/16/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/16/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0951386</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Collins</LastName>
+      <EmailAddress>rcollins@cse.psu.edu</EmailAddress>
+      <StartDate>09/16/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

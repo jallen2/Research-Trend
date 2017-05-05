@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: A Novel Multi-Scoring Functions Sampling Approach to Impove Protein Modeling Resolution and It's Applications in Protein Loop Structure Prediction</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2010</AwardExpirationDate>
+    <AwardAmount>90000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mitra Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The value of computer-generated protein structural models in biological research and practice relies critically on their accuracy. However, development of high-resolution computational approaches that can reliably produce protein structural models with or close to experimental quality remains an unsolved problem, though significant advances have been made in the past ten years. The main difficulties include the tremendously large and complex protein conformation space and, more importantly, the absence of scoring functions with satisfactory accuracy as well as sensitivity. &lt;br/&gt;&lt;br/&gt;In this project, the research seeks to answer a challenging question ? can one still model protein structures with high accuracy using the existing scoring functions which are potentially insensitive and inaccurate? Different from the common approaches of globally optimizing a scoring function describing the conformational energy, the investigators explore a new direction to model protein structures via efficiently sampling the common low score regions in multiple carefully-selected knowledge-based, physics-based, or regression-based scoring functions. This new approach addresses the scoring function insensitivity problem based on the assumption that the native or native-like conformations should satisfy most of the existing good scoring functions by yielding low score values. Sampling multiple scoring functions allows toleration of insensitivity and deficiency in individual scoring functions and identification of conformations that can best satisfy most scoring functions, which will eventually lead to significant resolution improvement. The investigators verify this sampling strategy by applying it to a proof-of-concept ab initio protein loop structure prediction problem. The work involves integrating multiple scoring functions, including triplet torsion angle score, physical energy, distance-based potential, loop closure score, and others, into the sampling scheme with the goal of reliably predicting loop backbone structures with near experimental resolution. The computational tools for loop structure prediction are being made available as a software package to the protein modeling research community.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/17/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0829382</AwardID>
+    <Investigator>
+      <FirstName>Yaohang</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>yaohang@cs.odu.edu</EmailAddress>
+      <StartDate>08/20/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina Agricultural &amp; Technical State University</Name>
+      <CityName>Greensboro</CityName>
+      <ZipCode>274110001</ZipCode>
+      <PhoneNumber>3363347995</PhoneNumber>
+      <StreetAddress>1601 E. Market Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7353</Code>
+      <Text>EMERGING MODELS &amp; TECHNOLOGIES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9237</Code>
+      <Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

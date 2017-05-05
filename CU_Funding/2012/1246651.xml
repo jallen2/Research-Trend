@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>I-Corps: An Ultra Low Power Multi-Constraint Physical Synthesis Tool for Chip Design</AwardTitle>
+    <AwardEffectiveDate>07/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2012</AwardExpirationDate>
+    <AwardAmount>9015</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07070000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Errol Arkilic</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern digital chips that are used in a myriad of commercial and consumer electronic products, are very complex and currently consume significant amounts of power. According to the International Energy Agency, energy consumed by information and communications technologies as well as consumer electronics will double by 2022 and triple by 2030 to 1,700 terawatt hours. It is thus imperative to devise effective new CAD tools based on new algorithmic paradigms to design digital chips so that they consume as little power as possible (without degrading performance). The benefits of this will include lowering the power consumed off the power grid (environmentally friendlier products), smaller energy costs for cooling high end systems like high-performance servers, and longer battery lives for portable devices (e.g., smart phones, laptops) and implantable medical devices. In the crucial physical synthesis (PS) stage, of the chip design flow (the sequence of stages that the chip design goes through), certain transformations are applied to the circuit so that the metric of interest (e.g., power) is optimized subject to constraints on several other metrics (e.g., speed, yield, chip area/cost, temperature). In conventional industry design methodology, these transforms are applied sequentially, and each transform is applied sequentially across circuit components, which result in sub-optimal designs (e.g., higher power consumption). The team has developed a novel PS tool called DNF-PS which simultaneously applies any desired set of transforms accurately and also does so simultaneously across the entire circuit in order to optimize power, while satisfying multiple constraints. DNF-PS is thus much more effective than current industry and academic tools. &lt;br/&gt;&lt;br/&gt;The goal of this project is to explore and strengthen opportunities for commercializing DNF-PS via: 1) Learning about and refining the commercial aspects of the plan. 2) Further strengthening the performance and quality of DNF via a few more technological advances, part of which could be spurred by the customer discovery and interaction aspect of the I-Corps program. The commercial area of the DNF-PS tool is the well-established market of Electronic Design Automation (EDA), and the potential customers of the proposed product are well known: chip design / semiconductor companies. The merit of this activity will have the following components: a) Design of enhanced algorithms to improve the near-optimality properties of DNF-PS (thereby resulting in reducing power consumption even further), thus making it even more attractive for industry use. b) Developing divide-and-conquer strategies in DNF-PS that can intelligently partition very large designs into more manageable chunks, and optimize each separately (thus being more runtime efficient) without compromising power optimization. c) Getting customer feedback on DNF-PS and gathering market intelligence on the value of such a tool and its market requirements. The broader impact of this proposal will include: a) Highly power optimal chips can be designed efficiently with DNF-PS, with the obvious attendant improvements in the battery life and/or energy footprint of many thousands of electronic products. b) Furthermore, due to the significant efficacy of the underlying DNF optimization technology, DNF-PS can lead to a significant jump in chip design quality in other metrics besides power, like speed, reliability and chip yield. This can benefit various applications areas in which these metrics are paramount (e.g., reliability is very important in automotive, airplane and space electronics) and also reduce chip cost (due to increased chip yield).</AbstractNarration>
+    <MinAmdLetterDate>06/19/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/09/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1246651</AwardID>
+    <Investigator>
+      <FirstName>Shantanu</FirstName>
+      <LastName>Dutt</LastName>
+      <EmailAddress>dutt@ece.uic.edu</EmailAddress>
+      <StartDate>06/19/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606124305</ZipCode>
+      <PhoneNumber>3129962862</PhoneNumber>
+      <StreetAddress>809 S MARSHFIELD</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8023</Code>
+      <Text>I-Corps</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Mathematical Programming for Streaming Data</AwardTitle>
+    <AwardEffectiveDate>06/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>169851</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Michael C. Fu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A large amount of data is now easily accessible in real-time in a streaming fashion: news, traffic, temperature or other physical measurements sent by sensors on cell phones. Applying statistical and machine learning methods to these streaming data sets represents tremendous opportunities for a better real-time understanding of complex physical, social or economic phenomena. These algorithms could be used, for example, to understand trends in how news media cover certain topics, and how these trends evolve over time, or to track incidents in transportation networks.&lt;br/&gt;&lt;br/&gt;Unfortunately, most algorithms for large-scale data analysis are not designed for streaming data; typically, adding data points (representing, say, today's batch of news articles from the Associated Press) requires re-solving the entire problem. In addition, many of these algorithms require the whole data set under consideration to be stored in one place. These constraints make classical methods impractical for modern, live data sets.&lt;br/&gt;&lt;br/&gt;This project's focus is on optimization algorithms designed to work in online mode, allowing for faster, possibly real-time, updating of solutions when new data or constraints are added to the problem. Efficient online algorithms are currently known for just a few special cases. Using homotopy methods and related ideas, this work will seek to allow online updating for a host of modern data analysis problems. A special emphasis will be put on problems involving sparsity or grouping constraints; such constraints are important for example to understand how a few key features in the data set that explain most of the changes in the data. These new online algorithms will be amenable to distributed implementations to allow for parts of the data to be stored on different servers.&lt;br/&gt;&lt;br/&gt;These methods will be applied to streaming news data coming from major US media, and also to the problem of online detection, which arises when tracking some important signal over, say, a communication network, in an online fashion.</AbstractNarration>
+    <MinAmdLetterDate>05/05/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/26/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0968842</AwardID>
+    <Investigator>
+      <FirstName>Laurent</FirstName>
+      <LastName>El Ghaoui</LastName>
+      <EmailAddress>elghaoui@eecs.berkeley.edu</EmailAddress>
+      <StartDate>06/26/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alexandre</FirstName>
+      <LastName>d'Aspremont</LastName>
+      <EmailAddress>aspremon@princeton.edu</EmailAddress>
+      <StartDate>05/05/2010</StartDate>
+      <EndDate>06/26/2012</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Princeton University</Name>
+      <CityName>Princeton</CityName>
+      <ZipCode>085442020</ZipCode>
+      <PhoneNumber>6092583090</PhoneNumber>
+      <StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0107000</Code>
+      <Name>Operations Research</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9147</Code>
+      <Text>GENERIC TECHNOL FOR MANUFACTURING CELLS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>MANU</Code>
+      <Text>MANUFACTURING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

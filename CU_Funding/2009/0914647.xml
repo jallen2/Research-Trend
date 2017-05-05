@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Radial Basis Functions</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>318923</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Most phenomena in nature are either entirely or to some significant extent described by partial differential equations. Although finite differences had been used earlier for the numerical solution of ordinary differential equations, the proposal in 1910 by L.F. Richardson to use them also for partial differential equations (PDEs) is now recognized as a landmark event in the history of computing. In the nearly 100 years that has followed, there has been vast progress on many fronts in this area of numerically solving PDEs, including faster algorithms, higher accuracies, easier implementations, greater robustness, improved geometric flexibility, better scaling for massively parallel computer architectures, etc. No single method excels in all these respects, and the best choice of method varies between application areas. In cases requiring very high accuracy over long times (such as many convection-dominated equations, for example arising from weather, climate, or turbulence modeling), pseudospectral (PS) methods have been found to perform especially well, as long as local refinement is not needed, and the overall geometry is quite simple. Radial basis functions (RBFs) were first proposed by Rolland Hardy (in the different context of multivariate scattered node interpolation) in the early 1970's, and were tested for solving PDEs by Ed Kansa in 1990. Much subsequent development on using RBFs for solving PDEs have come from earlier NSF-supported works by the present investigator and his research group at University of Colorado. In particular, RBFs were found to reduce to PS methods in a certain limit, and it has also become clear that this limit is less than optimal in several respects. A particularly important aspect is that RBFs can maintain spectral accuracy also in meshfree settings, allowing both general domain shapes and easy-to-implement local node refinements. The presently proposed research aims towards still unexplored new opportunities in the RBF area, both with regard to algorithmic aspects, such as numerical stability and speed, as well as extending the method to new applications. For example, there now appears to be excellent chances of achieving spectral accuracy also for a wide range of free boundary problems.&lt;br/&gt;&lt;br/&gt;While the rapid advances in computational hardware during the last decades are well known, the similar and equally favorable trend in terms of numerical algorithms might be less widely appreciated. Both aspects combine to make numerical computations an increasingly important approach for exploring a wide range of issues with great societal impact, such as weather and climate modeling, tsunami early warning calculations, etc. The main topic of the present work is a numerical methodology known as Radial Basis Functions (or RBFs for short). It has been found to be either very promising or already competitive with the best previous alternatives in all of the areas just mentioned. When formulated in mathematical terms, the key challenge becomes how to most effectively solve something known as partial differential equations. RBFs offer here numerous new opportunities, which are increasingly pursued also by other research groups. The long term goal of the present research to advance the RBF methodology to the point that it becomes still more readily applicable for tasks such as those outlined above.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/25/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0914647</AwardID>
+    <Investigator>
+      <FirstName>Bengt</FirstName>
+      <LastName>Fornberg</LastName>
+      <EmailAddress>fornberg@colorado.edu</EmailAddress>
+      <StartDate>08/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6863</Code>
+      <Text>SEBML-MOORE'S LAW</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

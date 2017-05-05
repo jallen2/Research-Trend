@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Dynamic Run-Time Optimization of Parallel, Adaptive and Hybrid Applications</AwardTitle>
+    <AwardEffectiveDate>02/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2016</AwardExpirationDate>
+    <AwardAmount>409576</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CAREER: Dynamic Run-Time Tuning of Parallel, Adaptive and Hybrid Applications&lt;br/&gt;&lt;br/&gt;The complexity of today?s High Performance Computing systems mandate significant efforts by end users and application developers to tune their code for each platform. Processor and node architecture, network interconnect and the software stack all expose a significant number of parameters which influence the performance of an application. These parameters are furthermore often correlated, which further complicates the predictability of the performance of any application. The most popular tuning approach as of today applies a static tuning for the most time consuming operations of the code, i.e. the performance of different versions of the same operation is evaluated for certain problem sizes and the best performing version is chosen for the subsequent executions of the application. However, this approach is not practical for adaptive applications. These applications vary the problem sizes at run-time, e.g. by locally refining the computational mesh based on certain error criteria. Thus, the problem sizes are typically unknown in advance and therefore expensive operations cannot be tuned for the relevant problem sizes.&lt;br/&gt;&lt;br/&gt;This project focuses on run-time tuning of parallel, adaptive applications utilizing either a distributed memory parallel programming model such as MPI or a hybrid shared memory/distributed memory parallelization strategy using OpenMP and MPI. The focus of the project is on introducing novel run-time selection algorithms which incorporate knowledge gathered from previous executions, algorithms from factorial design theory for very large parameter spaces and advanced algorithms from machine learning. The project also targets the development of a recommendation system, which presents a human readable form of experiences gathered from an optimization run in order to reuse them in other applications. &lt;br/&gt;&lt;br/&gt;This proposal tackles one of the most pressing and fundamental problems in High Performance Computing. Code portability and maintainability on one side and performance on the other side often seem to be contradicting goals. The project develops the fundamental knowledge required to develop performance portable parallel code and thus avoid the necessity to maintain multiple versions of the same code for different platforms.</AbstractNarration>
+    <MinAmdLetterDate>02/05/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/20/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0846002</AwardID>
+    <Investigator>
+      <FirstName>Edgar</FirstName>
+      <LastName>Gabriel</LastName>
+      <EmailAddress>gabriel@cs.uh.edu</EmailAddress>
+      <StartDate>02/05/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Houston</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>772042015</ZipCode>
+      <PhoneNumber>7137435773</PhoneNumber>
+      <StreetAddress>4800 Calhoun Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>4090</Code>
+      <Text>ADVANCED NET INFRA &amp; RSCH</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

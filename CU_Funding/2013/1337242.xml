@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: DSD: Adaptive Stream-Processing Compilers for a Messy World</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>745594</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Stream processing is an increasingly important application domain; a significant portion of the data-deluge beleaguering society takes the form of real-time data, ranging from scientific data to tweets. Fortunately, in the last decade, a variety of stream-processing languages have sprung up, including WaveScope, StreamIt, Feldspar, and others. While these languages enable stream-processing programs (which take the form of flow-graphs of stream operators) to execute automatically and efficiently on multicores and small clusters of machines, they optimize assuming an unchanging streaming workload and cannot handle dynamic conditions found in many realistic streaming situations, such as inside modern networks.&lt;br/&gt;&lt;br/&gt;This proposal pursues a more adaptive approach: fast, incremental compilation and recompilation of subgraphs of a stream-processing flow-graph to support dynamic placement and optimization policies while retaining high performance. The goal is to allow streaming applications to start instantly and in parallel, or restart if the program changes, while adapting to predictable features of the environment over time including streams of constant rate. Existing just-in-time (JIT) compilers for languages such as JavaScript are a mature technology, but a new body of techniques are needed to apply the more radical optimizations of stream compilers in a dynamic context. This project aims to develop these techniques and evaluate them in a specific application domain: high-speed in-network processing.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/12/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1337242</AwardID>
+    <Investigator>
+      <FirstName>Douglas</FirstName>
+      <LastName>Swany</LastName>
+      <EmailAddress>swany@iu.edu</EmailAddress>
+      <StartDate>09/12/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ryan</FirstName>
+      <LastName>Newton</LastName>
+      <EmailAddress>rrnewton@indiana.edu</EmailAddress>
+      <StartDate>09/12/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

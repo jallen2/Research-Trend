@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Application-driven Data Precision Selection Methods</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>299970</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Numerical algorithms used in Cyber Physical Systems, decision-making systems, financial processing, and other HPC applications that use real numbers are prone to introduce computational errors because of a well-known reason: real numbers do not exist in computers, and we must use floating-point data types to approximate such computations. As data movement costs energy, the lowest precision of floating-point data must be allocated without compromising the computational integrity. This project implements methods to reduce the amount of energy consumed by numerical computations running on computing devices at all scales including supercomputers for scientific research all the way to embedded and mobile devices finding uses in many walks of real life including medical devices and robots. A key thrust of the work is to perform energy reduction through reduced transfers between computing units. The project studies how the number of bits used to represent data introduce errors in computations, and whether these errors affect the correctness of results.&lt;br/&gt;&lt;br/&gt;The PIs propose to develop new formal methods tools to automatically estimate error bounds, develop auto-tuning compilers to carefully select precision, and build new superoptimizers to generate more efficient code. These new technologies will be applied to improve software in the domains of machine learning and high-performance computing. The PIs shall develop suitable criteria for errors in high performance computing systems and machine learning systems. They will develop tools that allocate precision optimally while staying within the bounds of acceptable answers. Their tools will be released to a community of researchers interested in working toward exascale computing, and deploying machine learning applications in safety-critical devices. This work represents a synergistic combination of PI skills ranging through high performance computing, machine learning, formal methods, and compiler technologies.</AbstractNarration>
+    <MinAmdLetterDate>07/21/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/21/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1643056</AwardID>
+    <Investigator>
+      <FirstName>Mary</FirstName>
+      <LastName>Hall</LastName>
+      <EmailAddress>mhall@cs.utah.edu</EmailAddress>
+      <StartDate>07/21/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Hari</FirstName>
+      <LastName>Sundar</LastName>
+      <EmailAddress>hari@cs.utah.edu</EmailAddress>
+      <StartDate>07/21/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vivek</FirstName>
+      <LastName>Srikumar</LastName>
+      <EmailAddress>svivek@cs.utah.edu</EmailAddress>
+      <StartDate>07/21/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Zvonimir</FirstName>
+      <LastName>Rakamaric</LastName>
+      <EmailAddress>zvonimir@cs.utah.edu</EmailAddress>
+      <StartDate>07/21/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ganesh</FirstName>
+      <LastName>Gopalakrishnan</LastName>
+      <EmailAddress>ganesh@cs.utah.edu</EmailAddress>
+      <StartDate>07/21/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8206</Code>
+      <Text>Formal Methods and Verification</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

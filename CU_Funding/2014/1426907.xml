@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NRI: Formal Methods for Motion Planning and Control with Human-in-the-Loop</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>488644</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Reid Simmons</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>How much autonomy should a robotic system have in a safety critical application? The proposed project addresses this fundamental question. Consider a disaster relief scenario in which an autonomous aerial vehicle (a robot) is required to monitor some areas of interest, while fighting fires and searching for survivors. The survivors should be provided medical assistance and the fires should be extinguished, with priority given to stabilizing and extracting survivors. During the mission, the aerial vehicle should stay away from areas where explosions are likely, so it can continue to do its job. An emergency medical technician (EMT) and firefighter specify the robot?s mission in a way that can be easily understood by the robot. During the execution, depending on what is discovered, the robot makes decisions on its own as long as the high-level specification is not violated. If this is not the case (e.g., there is an obstacle blocking the access to a survivor), the system initiates a dialog with the firefighter and EMT, who provide instructions to help the robot safely cope with the unexpected situation. The research plan of this project is integrated with an education and outreach plan that includes a rich spectrum of robotic-related activities for university and high-school students. &lt;br/&gt;&lt;br/&gt;This research project combines ideas and techniques from robot motion planning, formal verification, and control theory to provide a rigorous answer to the question of how much autonomy a robot should be given. A specification language inspired by temporal logics is used to communicate the mission to the robot, whose motions are directed by a hierarchical controller. At the top level, automata game techniques and two discretization schemes, one based on cellular decomposition and the other one on randomized sampling, are used. At the low level, input-output linearization combined with path and vector field following are used to implement the high level plans in quadrotors and differential drive ground vehicles. The human-robot negotiation process is based on the internal representation of temporal logic formulas and their quantitative semantics. While directed at robotics, the project impacts a number of safety critical areas, such as cyber physical systems (construction of correct-by-design systems), air traffic control (design of safe minimum-energy paths for airplanes taking off and landing in a crowded airport), etc.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1426907</AwardID>
+    <Investigator>
+      <FirstName>Calin</FirstName>
+      <LastName>Belta</LastName>
+      <EmailAddress>cbelta@bu.edu</EmailAddress>
+      <StartDate>08/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8013</Code>
+      <Text>National Robotics Initiative</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8086</Code>
+      <Text>Natl Robotics Initiative (NRI)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

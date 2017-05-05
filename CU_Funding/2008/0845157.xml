@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Programming Interfaces and Hardware Designs for a Polymorphic Multicore Cache Architecture</AwardTitle>
+    <AwardEffectiveDate>02/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2015</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Hong Jiang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The semiconductor industry has hit a wall - chip-level power and cooling constraints have slowed the march of clock frequency, forcing industry to instead bet on multicore to provide energy-efficient performance scalability. Although the multicore trend poses daunting challenges for application developers, it also creates new opportunities unavailable in traditional multi-chip multiprocessors: the drastic change in the relative costs of on-chip communication and computation enable application designs with tightly-coupled threads and frequent sharing that would prove latency- and bandwidth-prohibitive in traditional multiprocessors. Unfortunately, current multicore memory systems are inflexible and poorly-suited to support coordinated execution, as they provide no direct means for core-to-core communication or to optimize data placement on chip. Moreover, intra-chip access patterns vary drastically across applications - there is no one-size-fits-all static cache architecture. &lt;br/&gt;&lt;br/&gt;To address these deficiencies, this project seeks to develop a Polymorphic Multicore Cache Architecture (PMCA) - a modular on-chip cache design where software configures primitive hardware mechanisms to provide a cache architecture suited to a specific workload. The PMCA concept will be pursued along three fronts: First, PMCA?s architectural interface and behavioral design through a full system, cycle accurate simulation will be conducted. Second,language level constructs, software management policies, and virtualization of PMCA through FPGA based functional emulation will be investigated. Third, trade-offs in performance, area, and power for various designs will be examined.</AbstractNarration>
+    <MinAmdLetterDate>02/06/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/17/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0845157</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Wenisch</LastName>
+      <EmailAddress>twenisch@umich.edu</EmailAddress>
+      <StartDate>02/06/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

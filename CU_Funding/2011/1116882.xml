@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Variational and Bound Performance Analysis of Nanometer Mixed-Signal/Analog Circuits</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>287800</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Analog and mixed-signal circuits are very sensitive to the process variations as many matching and regularities of the layout are required. This situation becomes worse as technology continues to scale to sub-40nm owning to the increasing process-induced variability. Transistor level mismatch due to process variation is the primary barrier to reach a high-yield rate for analog designs in sub-90nm technologies. Analog circuit designers usually perform a Monte-Carlo (MC) analysis to analyze the statistical mismatch and predict the variational responses of their designs under variations. As MC analysis requires a large number of repeated circuit simulations, its computational cost is expensive. Efficient variational performance analysis of mixed-signal/analog circuits such as worst-case, bounding case and statistical analysis will become imperative for nanometer analog/mixed-signal designs. &lt;br/&gt;&lt;br/&gt;This research seeks to develop novel and efficient non-Monte-Carlo techniques for worst-case and statistical analysis of analog/mixed-signal circuits. The PIs propose to develop novel worst-case analysis methods for analog/mixed-signal circuits based on graph-based symbolic analysis technique, affine-like interval arithmetic and a control-theoretic method. The new method will first build variational transfer functions from linearized analog circuit by determinant decision diagram (DDD) based symbolic analysis and affine-like interval arithmetic. Then the performance bounds will be computed by control-theoretic theory based on the variational transfer functions. More conservative affine-like interval arithmetic to reduce conservation will also be investigated. The performance bounds in the time domains given frequency domain bounds will be investigated as well. The PIs plan to develop fast non-Monte-Carlo stochastic analysis methods to calculate statistical responses such as mismatch due to process variations. The problem is to be modeled as solving nonlinear stochastic differential-algebra-equations. Nonlinear stochastic methods (Galerkin or collocation methods) and new nonlinear macromodeling method will be investigated to solve the resulting problems.&lt;br/&gt;&lt;br/&gt;The outcome of this research will add significantly to the core knowledge of variational and statistical analysis techniques for analog/mixed-signal circuits, which will enable more efficient statistical optimization and design of analog/mixed-signal systems. By working with the industry partner, the PI expects that the developed techniques will bring immediate impacts on the design community to improve the design productivity for nanometer integrated analog/mixed-signal systems. The interdisciplinary nature of proposed research and relevant training will allow students to gain critical skills in the highly competitive high-tech job market. This grant will enable the PI to hire more female and underrepresented minority students to further contribute to the diversity in America's science and technology workforce.</AbstractNarration>
+    <MinAmdLetterDate>06/15/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/07/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116882</AwardID>
+    <Investigator>
+      <FirstName>Sheldon</FirstName>
+      <LastName>Tan</LastName>
+      <EmailAddress>stan@ece.ucr.edu</EmailAddress>
+      <StartDate>06/15/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7945</Code>
+      <Text>DES AUTO FOR MICRO &amp; NANO SYST</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7947</Code>
+      <Text>NANOCOMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

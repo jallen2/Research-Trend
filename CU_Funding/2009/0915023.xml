@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Adaptive Kernel-free Boundary Integral Method for Elliptic PDEs</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>10/31/2010</AwardExpirationDate>
+    <AwardAmount>51324</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;This project is motivated by the principal investigator's research on modeling the electrical wave propagation in the heart, for which a system of variable coefficient and anisotropic elliptic-parabolic partial differential equations (PDEs) must be solved. A major challenge in the research is to take into account the moving boundary of the geometrically complicated domain (beating heart) during the simulation. With the standard finite element or finite volume method to solve the moving boundary problems, the need to frequently regenerate body-fitted unstructured volume grids as the domain boundary evolves usually makes the simulation very expensive. This project aims to develop an efficient and second-order accurate algorithm for solving the general variable coefficient and anisotropic elliptic PDEs on complex domains with moving boundaries. Recently, the principal investigator developed a kernel-free boundary integral (KFBI) method for solving elliptic PDEs in two space dimensions (2D). The KFBI method is a structured grid based boundary integral method. The structured grids involved are not required to be aligned with the domain boundary. The KFBI method does not need the analytical expression for the kernel of the integral operator. It is applicable for solving general elliptic PDEs on complex domains with moving boundaries. This project will further develop the KFBI method for solving variable coefficient and anisotropic elliptic PDEs on complex domains in both 2D and three space dimensions (3D). To further improve the efficiency, an adaptive version of the KFBI method will be developed as part of the project. During his doctoral and post-doctoral studies, the principal investigator has also developed an adaptive mesh refinement (AMR) algorithm with body-fitted grids for elliptic/parabolic PDEs on complex but stationary domains in both 2D and 3D. The body-fitted grid based AMR algorithm, however, is not suitable for moving boundary problems. The combination and further development of the KFBI method and the AMR technique will overcome this issue and significantly improve both the efficiency and the robustness of the algorithm. &lt;br/&gt;&lt;br/&gt;The kernel-free boundary integral method is a second-order accurate sharp interface method. The proposed research is a pioneering effort in applying the second-order accurate sharp interface method in combination with an adaptive mesh refinement technique to solve general elliptic partial differential equations, whose coefficients are spatially variable and anisotropic, on complex domains with moving boundaries. In addition, the proposed research has clear broad impacts to engineering applications. The outcome of the project will make it possible to perform more efficient and accurate modeling and simulation of clinically important phenomena, such as the cardiac electrical dynamics for heart diseases, tumor generation, tumor-induced angiogenesis and the intra-tumoral infusion of drugs, just to name a few.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/14/2010</MaxAmdLetterDate>
+    <ARRAAmount>183444</ARRAAmount>
+    <AwardID>0915023</AwardID>
+    <Investigator>
+      <FirstName>Wenjun</FirstName>
+      <LastName>Ying</LastName>
+      <EmailAddress>wjying@mtu.edu</EmailAddress>
+      <StartDate>07/31/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan Technological University</Name>
+      <CityName>Houghton</CityName>
+      <ZipCode>499311295</ZipCode>
+      <PhoneNumber>9064871885</PhoneNumber>
+      <StreetAddress>1400 Townsend Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

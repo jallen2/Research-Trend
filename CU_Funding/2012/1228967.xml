@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Medium: Towards a Formally Verified Web Browser</AwardTitle>
+    <AwardEffectiveDate>10/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>1110000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ralph Wachter</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The web browser is ubiquitous and indispensable. It runs applications&lt;br/&gt;like social networking, business productivity, and online banking, and&lt;br/&gt;promises isolation policies that keep these applications secure when&lt;br/&gt;run side-by-side. Because of its crucial role, we would like the&lt;br/&gt;browser to be robust and secure against attack; but in fact browsers&lt;br/&gt;are fragile. They are complex pieces of software with rich features&lt;br/&gt;that allow for flexibility and programmability, and even small bugs&lt;br/&gt;can make the browser vulnerable to attack. Indeed, browser&lt;br/&gt;vulnerabilities have been used to infiltrate the internal networks of&lt;br/&gt;American defense contractors and leading tech firms. Attempts to&lt;br/&gt;improve browser security are often ad-hoc engineering efforts; and&lt;br/&gt;even when formal guarantees are provided, they come in the form of&lt;br/&gt;proofs over a model or idealization of the browser, not the browser&lt;br/&gt;itself. A buggy implementation can invalidate intended guarantees and&lt;br/&gt;leave users open to attack.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The goal of this project is to build a browser inside the Coq proof&lt;br/&gt;assistant, along with a proof of its correctness. Unlike previous&lt;br/&gt;research efforts, the proof covers the actual browser implementation&lt;br/&gt;rather than a model or abstraction. This provides extremely strong,&lt;br/&gt;precise guarantees about the security properties of the browser. The&lt;br/&gt;proof is made tractable by focusing the verification effort to a small&lt;br/&gt;browser kernel, and running legacy code in a sandbox to render&lt;br/&gt;web pages. In this way, the browser can provide meaningful isolation&lt;br/&gt;guarantees even when the legacy code that renders web pages is&lt;br/&gt;untrusted and potentially buggy.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;This project will provide:&lt;br/&gt;* For users of the web, browsers that are more reliable and secure;&lt;br/&gt;* For software developers, a new approach for developing high-assurance systems;&lt;br/&gt;* For researchers, a framework for formally reasoning about security policies;&lt;br/&gt;* For students, security and formal methods education.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1228967</AwardID>
+    <Investigator>
+      <FirstName>Hovav</FirstName>
+      <LastName>Shacham</LastName>
+      <EmailAddress>hovav@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/25/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sorin</FirstName>
+      <LastName>Lerner</LastName>
+      <EmailAddress>lerner@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/25/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

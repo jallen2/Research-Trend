@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>The immersed interface method (IIM) for interfaces immersed in fluids</AwardTitle>
+    <AwardEffectiveDate>07/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2012</AwardExpirationDate>
+    <AwardAmount>191774</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;The key objective of this research is to combine the strength of the immersed interface method (IIM), hierarchical grids, and the level set method for accurate and and efficient simulation of interface problems.&lt;br/&gt;In particular, the investigator and his students develop the hierarchical-grid IIM for fluid-solid interfaces and the level set IIM for fluid-fluid interfaces. Hierarchical grids provide fine resolution for resolving flow and geometry at a solid and allow a large domain for treating open far-field boundary conditions. The hierarchical-grid IIM is particularly suitable for simulating nature's flyers or swimmers in moving frames. In the level set method, a fluid-fluid interface is captured as a level set of a scalar function which is evolved by a partial differential equation (PDE).&lt;br/&gt;The level set method is very robust for capturing interfaces subject to topological changes. Jump conditions occur at a fluid-fluid interface. They also appear at a fluid-solid interface when the solid is represented as a (singular) force concentrating at the interface through the delta function. The main idea of the IIM is to directly incorporate necessary jump conditions into a numerical scheme. How to achieve high accuracy if available jump conditions are limited?&lt;br/&gt;How to incorporate jump conditions if they are coupled? How to determine the force to enforce the motion of a moving rigid solid?&lt;br/&gt;In this research, the investigator and his students answer these questions. In particular, they apply generalized Taylor expansions to construct high-order finite differences with limited jump conditions, use augmented-variable approaches to implement coupled jump conditions, and develop a boundary condition capturing approach to model free-moving rigid objects. The intellectual merit of this research is reflected in three aspects: the comprehensive development and implementation of various numerical methods, the generation of new approaches for computational modeling of interfaces in fluids, and the extensibility of the ideas produced in this research to a broad range of other interface problems.&lt;br/&gt;&lt;br/&gt;Fluid-solid and fluid-fluid interface problems are very rich in nature and technological applications. Insect flight is a beautiful example of fluid-solid interface problems. Insect flight is fascinating not only because it is beautiful to human eyes but also because its unconventional aerodynamics has great technical importance, especially in helping design flapping-wing micro air vehicles (MAVs). One well-known example of fluid-fluid interface problems is in oil recovery. The idea is to push out the oil trapped in the ground by flooding with water. A technical problem for oil recovery is to find means to suppress the fingering instability at water-oil interfaces. To study such interface problems, computational fluid dynamics&lt;br/&gt;(CFD) has become a very important role. CFD can provide very detailed flow data, which are difficult or impossible to obtain experimentally. The CFD data help understand flow physics and help construct and validate reduced analytical models.&lt;br/&gt;Because of the variety of flows and associated complexity, development and improvement of CFD techniques is still in high demand. In this research, the investigator and his students develop CFD techniques to achieve high-fidelity simulation of various interface problems. They improve some existing CFD methods, combine the strength of each, and develop new ones.&lt;br/&gt;This research has impact on unveiling unconventional aerodynamics and hydrodynamics of nature's flyers and swimmers. It also has impact on lubricated transport, air-driven liquid cooling, and laser welding. Its educational impact includes: (1) blending research-related topics into existing and new curricula; (2) training graduate students for simulation-based research; and (3) engaging undergraduate students in the research. In particular, building a user input module for simulating nature's flyers and swimmers is a nice summer research opportunity for undergraduate students.</AbstractNarration>
+    <MinAmdLetterDate>07/04/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/04/2009</MaxAmdLetterDate>
+    <ARRAAmount>191774</ARRAAmount>
+    <AwardID>0915237</AwardID>
+    <Investigator>
+      <FirstName>Sheng</FirstName>
+      <LastName>Xu</LastName>
+      <EmailAddress>sxu@smu.edu</EmailAddress>
+      <StartDate>07/04/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Southern Methodist University</Name>
+      <CityName>Dallas</CityName>
+      <ZipCode>752750302</ZipCode>
+      <PhoneNumber>2147682030</PhoneNumber>
+      <StreetAddress>6425 BOAZ</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

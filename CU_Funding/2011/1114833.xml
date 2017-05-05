@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Temporal and Spatiotemporal Processing in Recurrent Neural Networks with Unsupervised Learning</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>249616</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kenneth C. Whang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The brain's ability to perform complex forms of pattern recognition, such as speech discrimination, far exceeds that of the best computer programs. One of the strengths of human pattern recognition is its seamless processing of the temporal structure and temporal features of stimuli. For example, the phrase "he gave her cat food" can convey two different meanings depending on whether the speaker emphasizes the pause between "her" and "cat," or "cat" and "food." Attempts to emulate the brain's ability to discriminate such patterns using artificial neural networks have had only limited success. These models, however, have traditionally not captured how the brain processes temporal information. Indeed most of these models have treated time as equivalent to a spatial dimension, in essence assuming that the same input is buffered and played at different delays. Similarly, more traditional approaches to pattern recognition, which generally rely on discrete time bins, also do not capture how the brain processes temporal information. The goal of the current research is to use a framework, referred to as state-dependent networks or reservoir computing, to simulate the brain's ability to process both the spatial and temporal features of stimuli. A critical component of this framework is that temporal information is automatically encoded in the state of the network as a result of the interaction between incoming stimuli and internal states of recurrent networks.&lt;br/&gt;&lt;br/&gt;This project will develop a general model of spatiotemporal pattern recognition focusing on speech discrimination. The model will incorporate plasticity, a critical characteristic of the brain that has eluded previous state-dependent network models. Plasticity is a cardinal feature of the brain's computational power. For example, in the context of speech recognition, even at the age of 6 months, the brains of babies are tuned to recognize sounds of their native language. This ability is an example of experience-dependent cortical plasticity and it relies in part on synaptic plasticity and cortical reorganization. Incorporating synaptic plasticity into recurrent networks has proven to be a very challenging problem as a result of the inherent nonlinear and feedback dynamics of recurrent networks. The current project will use a novel unsupervised form of synaptic plasticity--based on empirically observed forms of plasticity referred to as homeostatic synaptic plasticity--to endow state-dependent networks with the ability to adapt and self-tune to the stimulus set the network is exposed to. This project interfaces recent advances in theoretical neuroscience and novel approaches in machine learning. The results will help develop artificial neural networks that capture the brain's ability to process temporal information and reorganize in response to experience.</AbstractNarration>
+    <MinAmdLetterDate>09/09/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/09/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1114833</AwardID>
+    <Investigator>
+      <FirstName>Dean</FirstName>
+      <LastName>Buonomano</LastName>
+      <EmailAddress>dbuono@ucla.edu</EmailAddress>
+      <StartDate>09/09/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

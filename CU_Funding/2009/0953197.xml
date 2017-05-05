@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Towards Scalable Datacenter Services with Strong Robustness Guarantees</AwardTitle>
+    <AwardEffectiveDate>07/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>529306</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern datacenters have reached hundreds of thousands of servers, and modern distributed services can be spread over multiple or even dozens of datacenters worldwide. For scalability, availability, and performance, these services have increasingly embraced a weakened model of data consistency. This trade-off proved highly successful for applications such as web crawling, search, and content distribution. On the other hand, the recent trend to move ever-more dynamic applications to the "cloud" portends a shift in service requirements---in which losing data or applying operations out-of-order may not be acceptable---as does far-flung demand for concurrent access to data and services.&lt;br/&gt;&lt;br/&gt;To meet these changing needs, this research project reconsiders the challenge of building storage and replicated systems with strong robustness guarantees and at scale. Recognizing that large-scale, complex systems are typically built-up from smaller groups---which either provide different functionality or partition some larger state-space into smaller, more manageable parts---it leverages a group compositional approach to tackle the problem. First, the research develops novel protocols for smaller groups of nodes that offer strong properties at minimal overhead. Second, it proposes a coordination service and a suite of management algorithms that adaptively organizes these groups and composes them together. These algorithms explore problems of dynamic load balancing, topological control, and security. The research includes substantial systems building, including the incorporation of its core services into several other distributed systems (e.g., a scalable virtual world and a istributed name resolution service).&lt;br/&gt;&lt;br/&gt;The remarkably rich and varied Internet services run out of datacenters form the core of people's online experiences today. The algorithms and software systems developed by this research may lower the barrier to developing datacenter services that are scalable, reliable, secure, efficient, and easy to manage. And by reducing the technical difficulty of building robust, large-scale applications---by providing them with a firm foundation---this research may enable further innovation in Internet services.</AbstractNarration>
+    <MinAmdLetterDate>02/17/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/25/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0953197</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Freedman</LastName>
+      <EmailAddress>mfreed@cs.princeton.edu</EmailAddress>
+      <StartDate>02/17/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Princeton University</Name>
+      <CityName>Princeton</CityName>
+      <ZipCode>085442020</ZipCode>
+      <PhoneNumber>6092583090</PhoneNumber>
+      <StreetAddress>Off. of Research &amp; Proj. Admin.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>4090</Code>
+      <Text>ADVANCED NET INFRA &amp; RSCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

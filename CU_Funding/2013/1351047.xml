@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Towards a Big Data Application Server Stack</AwardTitle>
+    <AwardEffectiveDate>02/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2019</AwardExpirationDate>
+    <AwardAmount>370488</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Google's MapReduce inspired much of the Big Data Analytics work and has served as a template for open source systems like Apache Hadoop. The MapReduce programming model has wide applicability, but widespread adoption has exposed some limitations, such as the lack of support for iteration (which is common in machine learning algorithms), stream processing, graph analytics, real-time and interactive queries. Beyond the programming framework, the underlying implementation offers a template for how to scale-out massively distributed computations: break them up into small tasks that can be carried out in parallel by partitioning the underlying data, and save intermediate state to mitigate the impact of partial failures (which must be planned for when running on large clusters). The challenge then, is to build implementations of other programming frameworks (e.g., SQL and machine learning) that share the same scale-out and fault-tolerance runtime characteristics of MapReduce without imposing its limitations. &lt;br/&gt;&lt;br/&gt;Resource managers such as Apache Hadoop YARN, Google Omega and Berkeley Mesos take a first step in this direction by separating resource allocation from the details of higher-level programming models and languages. Resource managers multiplex several jobs on the same underlying machine cluster, thereby increasing utilization and fostering clean-slate software stacks. When the task executing in a container a slice of a single machine's resources (CPU/GPU, memory, disk) is finished, the container is returned to the resource manager, where it is made available to other jobs. Unlike in higher-level stacks, a container is a blank-slate process, designed to host arbitrary computations. This project prescribes further reusable software layers that capture issues like how many resources should I dedicate to a job?; what are the redundant code-pathways and can I provide them in a reusable library?; what are the right language and runtime abstractions? Exploring these questions in the context of systems like MapReduce and related SQL implementations, ML toolkits, storage systems, and messaging systems, on next generation resource managers, is the primary focus of our work.&lt;br/&gt;&lt;br/&gt;The goal is to unify a suite of large-scale data processing tasks on a single runtime layer, built on modern resource managers (the cloud operating systems). Our results will factor out commonalities in specialized systems and provide them in a single underlying runtime system, shortening the time to ?market? for the next ready-to-use Big Data toolkit, which in turn would increase the availability of such tools to the broader community. Experience gained by implementing and deploying applications at scale, over next generation resource managers, could help inform critical design choices in the development of future cloud computing platforms, and hence impact a broad range of scientific, engineering, national security, healthcare and business applications. The project offers enhanced opportunities for research-based advanced training of graduate and undergraduate students, including members of groups that are currently under-represented in computer science, in databases, machine learning, and cloud computing.</AbstractNarration>
+    <MinAmdLetterDate>02/03/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/14/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1351047</AwardID>
+    <Investigator>
+      <FirstName>Tyson</FirstName>
+      <LastName>Condie</LastName>
+      <EmailAddress>tconde@cs.ucla.edu</EmailAddress>
+      <StartDate>02/03/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

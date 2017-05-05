@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Exploring Data-Parallel Techniques for Mega-Scale Agent Based Model Simulations on Graphics Processing Units</AwardTitle>
+    <AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2010</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Xiaoyang Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This SGER award is investigating the feasibility of executing large-scale Agent-Based Models (ABMs) on Graphics Processing Units (GPUs). Agent-based modeling is a method of simulating discrete dynamic systems from the bottom up. It is a computational representation where the population behaviors result from the local interactions of the constituent entities (agents) of the system. In modeling biological systems in particular, these populations can range into the hundreds of millions. Current generation ABM simulation toolkits are designed to execute serially on the CPU. Large scale models are intractable on such systems. We are exploring newer data-parallel architectures, in particular GPUs, to execute ABMs. The challenge that we are addressing in this project is to develop novel methods for agent state representation and manipulation that align well with the computing model of the GPUs. These methods include techniques for handling collision-free motion, fast parallel memory allocation for agent replication, and efficient statistic gathering for studying asymptotic behaviors, all computed in parallel on the GPU. We are applying these methods to two problems in biomedical engineering, namely, Systemic Inflammatory Response and Hepatic Drug Disposition and comparing the results of our implementations for statistical similarity with results from implementations on CPU-based ABM toolkits such as NetLogo and SWARM. &lt;br/&gt;&lt;br/&gt;This research, if successful, will revolutionize agent-based modeling with significant impact on disciplines such as ecology, medicine, economics, and homeland security. Our techniques will effectively democratize super-computing for ABM researchers by providing tools powerful enough to simulate realistic models on inexpensive desktop computers. With the improved scalability and speed, scientists will be able to investigate entirely new emergent phenomena. Previously intractable problems such as simulating the social behavior of entire countries or simulating complete ecosystems will be possible.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/21/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0840666</AwardID>
+    <Investigator>
+      <FirstName>William</FirstName>
+      <LastName>Predebon</LastName>
+      <EmailAddress>wwpredeb@mtu.edu</EmailAddress>
+      <StartDate>10/21/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Roshan</FirstName>
+      <LastName>D'souza</LastName>
+      <EmailAddress>dsouza@uwm.edu</EmailAddress>
+      <StartDate>07/31/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan Technological University</Name>
+      <CityName>Houghton</CityName>
+      <ZipCode>499311295</ZipCode>
+      <PhoneNumber>9064871885</PhoneNumber>
+      <StreetAddress>1400 Townsend Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: Broad-Purpose, Aggressively Asynchronous and Theoretically Sound Parallel Large-scale Machine Learning</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2020</AwardExpirationDate>
+    <AwardAmount>625379</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Aidong Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many artificial intelligence (AI) applications such as image understanding and natural language processing rely on Machine Learning (ML) methods to automatically extract valuable knowledge from Big Data (Big Learning). Efficient ML requires not only expertise in advanced mathematical models and algorithms, but also experiences with large computer clusters where issues such as machine failures, memory/network bottlenecks, inter-machine latencies must be properly handled through complex system programming. Such demand on "dual skill" often prevents democratizing large-scale AI to wide user communities, and necessitates a new framework that bridges ML and the distributed computing environment of a cluster with a single-machine-like simple interface, allowing ML practitioners to be agnostic about the backend details, and able to quickly prototype or deploy ML programs on clusters. Solutions to such a need remain rare. In this project the PIs develop a new general purpose framework for ML on distributed systems, offering highly efficient and theoretically justified protocols (e.g. communication, scheduling, and partitioning functions) to orchestrate a heterogeneous computer cluster to become programmable and act like a single big computer, and execute distributed ML programs correctly and at a speed orders of magnitude faster than current systems such as Hadoop and Spark. With this new framework, data scientists will be able to conduct ML analytics with complex models on massive data without the need for dedicated engineering and infrastructure teams, allowing Big Learning more readily accessible to society.&lt;br/&gt;&lt;br/&gt;Specifically, over a four year span, the proposed research focuses on three technical aims: (1) Building a System Framework for Big Learning, by developing a new architecture that supports both data- and model-parallel execution of large ML programs, using intelligent scheduler, parameter server, and consistency controller that are configurable to provide flexible options for model/data parallelization, synchronization schemes, load balance, fault tolerance, and multi-instance tenancy; (2) Building a Multi-Level-Abstraction Programming Interface, which supports easy parallel programming of both basic and advanced ML algorithms for large-scale applications; and (3)Conducting theoretical analysis of distributed ML algorithms on the proposed system, based on unique insights such as block consistency and error-tolerance under bounded synchronism. The goal is to develop a system framework to achieve general, automatic, and effective parallelization of ML programs.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1629559</AwardID>
+    <Investigator>
+      <FirstName>Garth</FirstName>
+      <LastName>Gibson</LastName>
+      <EmailAddress>garth@cs.cmu.edu</EmailAddress>
+      <StartDate>08/24/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Xing</LastName>
+      <EmailAddress>epxing@cs.cmu.edu</EmailAddress>
+      <StartDate>08/24/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

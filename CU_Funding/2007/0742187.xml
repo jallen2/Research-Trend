@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BUD: A Buffer-Disk Architecture for Energy Conservation in Parallel Disk Systems</AwardTitle>
+    <AwardEffectiveDate>07/16/2007</AwardEffectiveDate>
+    <AwardExpirationDate>03/31/2011</AwardExpirationDate>
+    <AwardAmount>335999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Parallel disks consisting of multiple disks with high-speed switched interconnect are ideal for data-intensive applications running in high-performance computing systems. Improving the energy efficiency of parallel disks is an intrinsic requirement of next generation high-performance computing systems, because a storage subsystem can represent 27% of the energy consumed in a data center. However, it is a major challenge to conserve energy for parallel disks and energy efficiently coordinate I/Os of hundreds or thousands of concurrent disk devices to meet high-performance and energy-saving requirements. This research investigates novel energy conservation techniques to provide significant energy savings while achieving low-cost and high-performance for parallel disks. In this research project, the investigators take an organized approach to implementing energy-saving techniques for parallel disks, simulating energy-efficient parallel disk systems, and conducting a physical demonstration. This research involves four tasks: (1) design and develop a buffer-disk (BUD) architecture to reduce energy dissipation in parallel disk systems; (2) develop innovative energy-saving techniques, including an energy-related reliability model, energy-aware data partitioning, disk request processing, data movement, data placement, prefetching strategies, and power management for buffer disks; (3) implement a simulation toolkit (BUDSIM) used to develop a variety of energy-saving techniques and their integration in the BUD architecture; and (4) validate the BUD architecture along with our innovative energy-conservation techniques using real data-intensive applications running on high-performance clusters. This research can benefit society by developing economically attractive and environmentally friendly parallel disk systems, which are able to lower electricity bills and reduce emissions of air pollutants. Furthermore, the BUD architecture and the energy-conservation techniques can be transferable to embedded disk systems, where power constraints are more severe than conventional disk systems.</AbstractNarration>
+    <MinAmdLetterDate>08/29/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/16/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0742187</AwardID>
+    <Investigator>
+      <FirstName>Xiao</FirstName>
+      <LastName>Qin</LastName>
+      <EmailAddress>xqin@auburn.edu</EmailAddress>
+      <StartDate>08/29/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Tao</FirstName>
+      <LastName>Xie</LastName>
+      <EmailAddress>txie@mail.sdsu.edu</EmailAddress>
+      <StartDate>02/16/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Auburn University</Name>
+      <CityName>Auburn University</CityName>
+      <ZipCode>368490001</ZipCode>
+      <PhoneNumber>3348444438</PhoneNumber>
+      <StreetAddress>310 Samford Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Alabama</StateName>
+      <StateCode>AL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>4080</Code>
+      <Text>ADVANCED COMP RESEARCH PROGRAM</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7329</Code>
+      <Text>COMPILERS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

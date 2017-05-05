@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SGER: Modeling Memory Access Patterns of Geometry Processing Algorithms</AwardTitle>
+    <AwardEffectiveDate>10/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2008</AwardExpirationDate>
+    <AwardAmount>63129</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Current graphics and visualization systems have to be built such that they can handle gigantic data sets. Such data sets include large scientific simulations such as nuclear and power simulations, data relevant to national priority and homeland security, and digital models of defense and commercial equipments such as tanks, aircraft, ships, and power plants. Such large data sets cannot fit into the main memory of the machines. Hence, the performance of the visualization systems depends on how efficiently they can process this data segments and still provide a holistic visualization for efficient and correct decision making. This project involves fundamental research in the analysis of methods that process these large geometry data sets for computer graphics and visualization applications. Using this analysis we model the data access pattern of common geometry processing algorithms. Such models can be used to organize data coherently in the secondary storage so that the access time of the data can be reduced. This will improve the performance of the graphics and visualization systems. &lt;br/&gt;&lt;br/&gt;The coarse data analysis systems derive aggregate information from the data and hence are useful in streaming applications and out-of-core implementations; fine data analysis systems are interested in individual data points and their performance is dictated by data access patterns. In this research, we investigate if there is any natural grouping or partitioning of primitives that describes the data access patterns of most common geometry processing algorithms. We explore the existence of a function that would optimize the grouping of primitives and thus benefit a large class of geometry processing algorithms. This study will enable us to suggest an optimal layout for geometric data that would work best for common geometric algorithms.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0738401</AwardID>
+    <Investigator>
+      <FirstName>Gopi</FirstName>
+      <LastName>Meenakshisundaram</LastName>
+      <EmailAddress>gopi@ics.uci.edu</EmailAddress>
+      <StartDate>08/07/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173213</ZipCode>
+      <PhoneNumber>9498247295</PhoneNumber>
+      <StreetAddress>141 Innovation Drive, Ste 250</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7453</Code>
+      <Text>GRAPHICS &amp; VISUALIZATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9237</Code>
+      <Text>SMALL GRANTS-EXPLORATORY RSRCH</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

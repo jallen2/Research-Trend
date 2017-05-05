@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSI: Collaborative Research: STORM: A Scalable Toolkit for an Open Community Supporting Near Realtime High Resolution Coastal Modeling</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>730000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The ADCIRC coastal circulation and storm surge model has a long standing track record of extremely high societal impact. It has been used to define risk (e.g., 100-yr, 500-yr coastal flood levels) for the FEMA National Flood Insurance Program in coastal states from New York to Texas, it has been used to design the multi-billion dollar Hurricane and Storm Damage Risk Reduction System around greater New Orleans and southern Louisiana by the Army Corps of Engineers, it is currently run operationally by NOAA/NWS National Center for Environmental Prediction to forecast storm surge, to name just a few of its current and recent applications. Thus there is a well-established user network in place to convert improvements in ADCIRC into significant broader impacts. The proposed research provides transformative intellectual contributions that focus on applying new parallelization schemes to enable major advances in the algorithms, implementation and utilization of the ADCIRC model. The broadening of ADCIRC to a multi-algorithmic framework and the resulting performance gains that are anticipated will help ensure ADCIRC's sustainability as a core community model for at least the next 20 years. In addition, the proposed collaboration will impact computer science by serving as a high impact use case to inform the design of new approaches to efficient scalable computing. Together, the advancements in coastal modeling and parallelization technology will make a significant contribution to the science of modeling and HPC. The results of the proposed research will be disseminated to a wider community through ongoing educational outreach activities at the participating organizations as well as through refereed conference and journal papers, and invited presentations. The involvement of graduate students and post-doctoral fellows will be crucial towards the success of this project. The PIs have a long history of training and mentoring students and post-docs in computational science and engineering, coastal engineering and marine science. The recruitment and involvement of underrepresented groups in these efforts has always been a high priority. In addition, aspects of the proposed research will be incorporated into the curricula of several courses taught by the PIs in the areas of finite element methods, scientific computation, hydrology and oceanography.&lt;br/&gt;The aim of this project is to broaden the ADCIRC coastal circulation and storm surge model from a successful, but somewhat static coastal modeling tool that is tied to a single solution algorithm and the MPI parallelization paradigm, to a dynamic computational platform that is comprised of multiple solution algorithms, that readily admits new solution algorithms and that is built on a transformational new parallelization scheme that will allow us to scale to at least 256k compute cores on modern high performance computing (HPC) systems. We will do this by creating a living, evolving coastal modeling framework that will continue to lead the community in merging physical science / engineering and high performance computing and we will make the framework available to the broader community as a sustainable long term solution for its coastal modeling needs. In addition we will utilize these advancements in the highly demanding coastal storm surge forecasting system that we presently operate to demonstrate both improved robustness and speed of the model solution. We expect this effort will shorten the time required to provide reliable forecasting results and improve our ability to provide highly resolved, accurate, and physically complete predictions on an unprecedented scale. Concurrently, it should enable the use of smaller resources for simulations of increased scale which improves the usability and widens the applicability of ADCIRC in a broader community. The development of tightly integrated web-oriented products like CERA (www.coastalemergency.org) will enable the wide and timely dissemination of forecast modeling results to reach a broad audience.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/20/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1339738</AwardID>
+    <Investigator>
+      <FirstName>Damrongsak</FirstName>
+      <LastName>Wirasaet</LastName>
+      <EmailAddress>dwirasae@nd.edu</EmailAddress>
+      <StartDate>10/20/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Joannes</FirstName>
+      <LastName>Westerink</LastName>
+      <EmailAddress>jjw@nd.edu</EmailAddress>
+      <StartDate>08/26/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Tim</FirstName>
+      <LastName>Stitt</LastName>
+      <EmailAddress>tstitt@nd.edu</EmailAddress>
+      <StartDate>08/26/2014</StartDate>
+      <EndDate>10/20/2014</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Notre Dame</Name>
+      <CityName>NOTRE DAME</CityName>
+      <ZipCode>465565708</ZipCode>
+      <PhoneNumber>5746317432</PhoneNumber>
+      <StreetAddress>940 Grace Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1610</Code>
+      <Text>PHYSICAL OCEANOGRAPHY</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8074</Code>
+      <Text>EarthCube</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8009</Code>
+      <Text>Scientifc Software Integration</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

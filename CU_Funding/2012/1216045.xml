@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Efficient Bayesian Learning from Stochastic Gradients</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The total volume of data was estimated to be 0.8 Zettabytes in 2009 (1 Zettabyte = 1 trillion gigabytes) and predicted to grow to a staggering 35 Zettabytes in 2020, doubling every two years. Therefore, one of the primary challenges for machine learning is to develop statistically principled methods that will scale up to very large datasets. Moreover, we would like to (efficiently) learn highly complex models without the worry of overfitting and with confidence levels on our predictions. While Bayesian methods satisfy these latter desiderata, the current state-of-the-art inference procedures based on Markov Chain Monte Carlo (MCMC) posterior sampling do not meet the "big-data" challenge.&lt;br/&gt;&lt;br/&gt;We propose a new family of MCMC procedures that typically requires only a few hundred data-cases per update. These "stochastic gradient MCMC samplers" inherit the efficiencies of stochastic approximation methods, but will asymptotically sample from the correct posterior distribution. This endows this family of methods with an "anytime" property, namely that one can sample cheaply from a rough approximation of the posterior but can obtain more accurate samples in exchange for more computation.&lt;br/&gt;&lt;br/&gt;We believe this new class of methods will for the first time unlock the full strength of Bayesian methods for very large datasets. Due to their highly practical nature, the techniques developed under this grant are likely to gain widespread acceptance across a broad spectrum of academic disciplines as well as in industry. To expedite the transfer process we will publish open source software on our webpages and collaborate with a company (ID Analytics) to work on realistic, large scale inference problems. Two students at the University of California, Irvine (UCI) will be employed on this grant who will collaborate with a number of students and postdocs in the UK (University of Oxford and University of Bristol). UCI and UK students will also be exchanged for a few weeks a year to cross-fertilize research and to gain international experience. Research results from this grant will be integrated into artificial intelligence and machine learning courses at UCI through class projects.</AbstractNarration>
+    <MinAmdLetterDate>08/30/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/30/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1216045</AwardID>
+    <Investigator>
+      <FirstName>Max</FirstName>
+      <LastName>Welling</LastName>
+      <EmailAddress>welling@ics.uci.edu</EmailAddress>
+      <StartDate>08/30/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Babak</FirstName>
+      <LastName>Shahbaba</LastName>
+      <EmailAddress>babaks@uci.edu</EmailAddress>
+      <StartDate>08/30/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173213</ZipCode>
+      <PhoneNumber>9498247295</PhoneNumber>
+      <StreetAddress>141 Innovation Drive, Ste 250</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Running the Kernel Continuously with Simultaneous Multi-Threading</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Since 2002, many commodity computer processors include a feature called simultaneous multi-threading (SMT), marketed by Intel as Hyperthreading (tm). SMT enables a single processor core to perform two or more tasks in parallel. Until now, operating systems researchers have focused on accommodating SMT in existing operating system designs, investigating topics such as SMT-aware resource allocation, scheduling and synchronization methods. In this project, rather than merely accommodate SMT, we investigate a new low-level operating system design that is enabled by SMT hardware. In modern operating systems, the processor switches between the safe but quite limited 'user mode' which is used to run applications, and the unsafe but all-powerful 'supervisor mode' which is available only to the operating system. Sometimes, these switches occur millions of times per second, providing an illusion of parallel operation. In our new design, the user and supervisor modes are actually active simultaneously, but on separate SMT threads. This avoids the often high cost of frequent mode switches, and enables new efficiency and design improvements throughout the operating system. &lt;br/&gt;&lt;br/&gt;Based on preliminary measurements, we find that the throughput gains provided by conventional SMT diminishes rapidly with the number of processor cores in a system, as a result of sub-linear scalability in the application. To counter this, and to make better use of existing hardware, we propose the "cokernel" operating system design principle, where one hardware thread per CPU is dedicated to continuously executing the kernel. By offloading kernel duties from the other hardware thread(s), a cokernel operating system enables higher per-thread application throughput, avoiding scalability concerns. In addition, having a continuously executing kernel thread on each core enables a wide range of improvements to other aspects of the kernel, such as replacing most system calls with message passing, hybrid cooperative-preemptive process scheduling, kernel-assisted asynchronous inter-core and inter-socket communication and true kernel background tasks.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617992</AwardID>
+    <Investigator>
+      <FirstName>Jakob</FirstName>
+      <LastName>Eriksson</LastName>
+      <EmailAddress>jakob@uic.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606124305</ZipCode>
+      <PhoneNumber>3129962862</PhoneNumber>
+      <StreetAddress>809 S MARSHFIELD</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

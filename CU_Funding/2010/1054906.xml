@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Making Threads More Deterministic by Memoizing Schedules</AwardTitle>
+    <AwardEffectiveDate>02/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2017</AwardExpirationDate>
+    <AwardAmount>350702</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Multithreaded programs are becoming increasingly critical driven by the&lt;br/&gt;rise of multicore hardware and the coming storm of cloud computing.&lt;br/&gt;Unfortunately, these programs remain difficult to write, test, and debug.&lt;br/&gt;A key reason for this difficulty is nondeterminism: different runs of a&lt;br/&gt;multithreaded program may show different behaviors depending on how the&lt;br/&gt;threads interleave. Nondeterminism complicates almost every development&lt;br/&gt;step of multithreaded programs. For instance, it weakens testing because&lt;br/&gt;the schedules tested may not be the ones run in the field; it complicates&lt;br/&gt;debugging because reproducing a buggy schedule is hard.&lt;br/&gt;&lt;br/&gt;In the past three decades, researchers have developed many techniques to&lt;br/&gt;address nondeterminism. Despite these efforts, it remains an open&lt;br/&gt;challenge to achieve both efficiency and determinism for general&lt;br/&gt;multithreaded programs on commodity multiprocessors.&lt;br/&gt;&lt;br/&gt;This project aims to address this fundamental challenge. Its key insight&lt;br/&gt;is that one can reuse a small number of schedules to process a large&lt;br/&gt;number of inputs. Based on this insight, it takes an approach called&lt;br/&gt;schedule memoization that memoizes past schedules and, when possible,&lt;br/&gt;reuses them for future runs. This approach amortizes the high overhead of&lt;br/&gt;making one schedule deterministic over many reuses and makes a program&lt;br/&gt;repeat familiar behaviors whenever possible. A real-world analogy to this&lt;br/&gt;approach is animals' natural tendencies to follow familiar routes to avoid&lt;br/&gt;hazards and discovery overhead of unknown routes.&lt;br/&gt;&lt;br/&gt;The greatest impact of this project will be a novel approach and new,&lt;br/&gt;effective systems and technologies to improving software reliability, thus&lt;br/&gt;benefiting every business, government, and individual.</AbstractNarration>
+    <MinAmdLetterDate>01/21/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/14/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1054906</AwardID>
+    <Investigator>
+      <FirstName>Junfeng</FirstName>
+      <LastName>Yang</LastName>
+      <EmailAddress>junfeng@cs.columbia.edu</EmailAddress>
+      <StartDate>01/21/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

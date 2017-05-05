@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Dynamic Prediction of Time to Next Failure Event</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>64419</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nandini Kannan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In manufacturing and industrial applications, it is critical to regularly inspect all the components of a working system, record data during the inspection, use these data to predict the next potential failure event, and take preventive actions. In medical practice and research, the health status of patients is measured repeatedly over time during post-treatment follow-up visits. During each visit, new information is obtained and physicians use that information to predict a patient's prognosis and design an appropriate treatment plan. These applications involve the use of current information to predict the time until the next failure event (such as disease progression). These continuously updated predictions, called dynamic predictions, are critical for patients with non-curable diseases such as cancer or AIDS. This project will develop and apply modern statistical techniques to extract useful features from massive data sets collected over time, and then use these features to conduct predictions as accurately as possible. When these statistical methods are built into a computer software program, they can be used online to conduct predictions. Patients and physicians can use such programs to evaluate disease progression and to make early decisions about treatment and prevention. Industrial engineers can use such programs to forecast a potential system failure and initiate maintenance. Commercial web sites can collect customers' reaction data online and then apply such methods to better predict customers' needs and improve sales and customer satisfaction.&lt;br/&gt;&lt;br/&gt;Many statistical methods assume that longitudinal data trajectories follow parametric models, linear or nonlinear. However, the pattern of longitudinal data trajectories differs in each specific setting, making it difficult to identify a satisfactory parametric family that is suitable for all situations. Based on this consideration, a functional principal component analysis (FPCA) approach is used to capture the longitudinal data structures and functional patterns. The first goal of this project is to decompose biomarker trajectories into some feature functions, and then incorporate these features as covariates in the Cox proportional hazards model to make dynamic predictions. Given that the proportional hazards assumption may be too restrictive in some cases, the second goal of this project is to conduct dynamic prediction for the quantile functions of the residual event time under a flexible framework. The residual lifetime quantile regression model facilitates a meaningful interpretation and offers more direct answers than the Cox model. The third goal of this project is to develop analytic and visualization tools for identifying longitudinal data trajectory patterns prior to a failure event by looking at them backwards in time and aligning them with the failure events. Discerning these patterns can greatly facilitate dynamic prediction of the imminent failure event. The proposed methods are specially designed to handle the complications of censored data, irregular follow-up times and dynamically collected data to facilitate prediction over a range of time points.</AbstractNarration>
+    <MinAmdLetterDate>08/31/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/31/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1612965</AwardID>
+    <Investigator>
+      <FirstName>Ruosha</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>ruosha.li@uth.tmc.edu</EmailAddress>
+      <StartDate>08/31/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Xuelin</FirstName>
+      <LastName>Huang</LastName>
+      <EmailAddress>xlhuang@mdanderson.org</EmailAddress>
+      <StartDate>08/31/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas, M.D. Anderson Cancer Center</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770304009</ZipCode>
+      <PhoneNumber>7137923220</PhoneNumber>
+      <StreetAddress>1515 Holcombe, Unit 176</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1269</Code>
+      <Text>STATISTICS</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

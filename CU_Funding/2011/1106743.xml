@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Martingale Control of mFDR in Variable Selection</AwardTitle>
+    <AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2014</AwardExpirationDate>
+    <AwardAmount>320000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Gabor J. Szekely</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The investigators in this project develop methods that control the selection of predictive features from multiple sources when building statistical models. A martingale representation of the number of spurious variables provides the underlying theoretic support. This martingale defines a framework for testing a possibly infinite sequence of hypotheses. This representation leads to methods for streaming feature selection that control the expected number of false discoveries (mFDR). Extensions to be developed in this project generalize prior work of the investigators, extending their results to multiple streams of potential features while maintaining the martingale representation. Whereas the previous work of the authors was in the high-noise, low-signal setting in which few features are predictive (the nearly black setting), advances in this proposal push their methods into problems characterized by many predictive features with higher signal-to-noise ratios. This proposal envisions replacing the original martingale by one directly related to the goodness of fit of the model. The investigators plan to use this revised martingale to show that an auction-based system that combines several sources of features satisfies the mFDR condition.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;The investigators develop novel methods for building predictive statistical models that combine and learn from multiple sources of information. A predictive statistical model is an empirical rule constructed from data that predicts a specific characteristic of observations, the response, based on the values of other characteristics. The challenge of building these models is to identify characteristics that yield predictive insights. While ever larger amounts of data are an essential input to a statistical model, the presence of vast numbers of characteristics lead to the problem of over-fitting. Over-fitting occurs when one confuses a random coincidence among characteristics with a reproducible pattern. Modern data mining produces such a plethora of characteristics that it becomes difficult to distinguish real from imaginary associations. The investigators propose a system that makes these distinctions in the context of a common modeling paradigm. As a practical testbed, the investigators will analyze classic computational linguistic problems using regression analysis, the workhorse method of applied statistics. Given the extent of experience in linguistics, any deficiencies of a regression model will stand out. This will encourage innovations in regression that maintain their simplicity while competing with handcrafted methods in linguistics. These innovations should extend to other applications including fMRI, genetics, and more general data mining.</AbstractNarration>
+    <MinAmdLetterDate>05/19/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/19/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1106743</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Stine</LastName>
+      <EmailAddress>stine@wharton.upenn.edu</EmailAddress>
+      <StartDate>05/19/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Dean</FirstName>
+      <LastName>Foster</LastName>
+      <EmailAddress>dean@foster.net</EmailAddress>
+      <StartDate>05/19/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

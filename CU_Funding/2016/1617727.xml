@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF: Small: Collaborative Research: Maintaining order</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>239703</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rahul Shah</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project investigates "order structures," that is, data structures for maintaining total orders on dynamic data sets. Order structures are applicable in surprisingly diverse settings. The PIs aim to answer fundamental theoretical questions relating to order structures. The investigation takes place in the context of two high-impact application areas: (1) tools for debugging parallel programs and (2) data structures used in databases and file systems to organize data on disk or SSDs. As part of the project, the PIs will develop publicly available educational materials and reference implementations on order structures to be incorporated into courses at their institutions and shared openly on the web.&lt;br/&gt;&lt;br/&gt;The order structures addressed in this project are order-maintenance data structures, sparse tables, and data structures for incremental topological ordering. The investigation comprises (1) new algorithms with good worst-case guarantees, (2) algorithms with strong common-case guarantees, i.e., optimized for common input distributions, (3) provably good concurrent algorithms, (4) algorithms that leverage randomization in surprising ways (e.g., to achieve history independence), and (5) robust lower bounds that also apply to the randomized setting. In the context of the target applications, the PIs will design and use order structures to implement race detectors, which uncover determinacy races in parallel programs. The PIs will also use orders structures to build external-memory key-value stores to make databases and file systems run faster.</AbstractNarration>
+    <MinAmdLetterDate>05/20/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/20/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617727</AwardID>
+    <Investigator>
+      <FirstName>Jeremy</FirstName>
+      <LastName>Fineman</LastName>
+      <EmailAddress>jfineman@cs.georgetown.edu</EmailAddress>
+      <StartDate>05/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgetown University</Name>
+      <CityName>Washington</CityName>
+      <ZipCode>200571789</ZipCode>
+      <PhoneNumber>2026250100</PhoneNumber>
+      <StreetAddress>37th &amp; O St N W</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>District of Columbia</StateName>
+      <StateCode>DC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7926</Code>
+      <Text>ALGORITHMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

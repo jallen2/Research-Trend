@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Higher-Order Methods for Interface Problems with Non-Aligned Meshes</AwardTitle>
+    <AwardEffectiveDate>09/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>189344</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Interface problems arise in several applications including heart models, cochlea models, aquatic animal locomotion, blood cell motion, front-tracking in porous media flows and material science, to name a few. One of the difficulties in these problems is that solutions are normally not smooth across interfaces, and therefore standard numerical methods will lose accuracy near the interface unless the meshes align to it. However, it is advantageous to have meshes that do not align with the interface, especially for time dependent problems where the interface moves with time. Re-meshing at every time step can be prohibitively costly, can destroy the structure of the grid, can deteriorate the well-conditioning of the stiffness matrix, and affect the stability of the problem. The first problem studied will involve new stable and higher-order accurate Finite Element - Immersed Boundary Methods (FE-IBM) for evolution problems where the interface moves with time. The second problem studied is the design and analysis of robust higher-order discretizations for interface problems with high-contrast discontinuous diffusion coefficients. Benefits of the project include the strengthening of connections between numerical analysis and other areas of science and engineering, particularly bioengineering, porous media flows, material sciences and parallel computing. This project will impact the development of numerical algorithms used in the fluid-structure interaction communities. A broader impact will be the training of graduate and undergraduate students of mathematics and related disciplines by exposing them to interdisciplinary problems and collaborations addressing questions of great technological importance.&lt;br/&gt;&lt;br/&gt;One of the drawbacks of the finite element and finite difference immersed boundary methods is that they are only first-order accurate due to the non-smoothness of the solution across the interface. Furthermore, very few mathematical analyses of these methods exist for time dependent problems and for fluid-structure interaction problems. The first part of the project involves the construction of higher-order FE-IBM algorithms and establishing a corresponding mathematical foundation to obtain rigorous time stability and a priori and a posteriori error estimates. The second part of the project deals with new finite element methods which are able to accurately capture solutions of elliptic interface problems with high-contrast coefficients in the case that the finite element mesh is not necessarily aligned with the interface. The goal here is to develop finite element methods with optimal convergence rates, where the constants hidden in these estimates are independent of the contrast and on how the mesh crosses the interface.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1522663</AwardID>
+    <Investigator>
+      <FirstName>Marcus</FirstName>
+      <LastName>Sarkis</LastName>
+      <EmailAddress>msarkis@wpi.edu</EmailAddress>
+      <StartDate>09/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Worcester Polytechnic Institute</Name>
+      <CityName>WORCESTER</CityName>
+      <ZipCode>016092247</ZipCode>
+      <PhoneNumber>5088315000</PhoneNumber>
+      <StreetAddress>100 INSTITUTE RD</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

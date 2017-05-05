@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CMG Research: Analysis and Application of XFEM to dynamic rupture processes in Earthquake physics</AwardTitle>
+    <AwardEffectiveDate>10/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2012</AwardExpirationDate>
+    <AwardAmount>317000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06030204</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Earth Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Robin Reichlin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will provide both analysis and functioning open-source&lt;br/&gt;software to evaluate the utility and applicability of the Extended&lt;br/&gt;Finite Element Method (XFEM) to the problem of dynamic Earthquake&lt;br/&gt;rupture on complex non-planar faults. While standard finite element&lt;br/&gt;methods are applicable to many earthquake physics problems, the&lt;br/&gt;requirement that the mesh be conformal to a complex, non-volume&lt;br/&gt;forming network of faults is a fundamental difficulty, particularly in&lt;br/&gt;3-dimensions. The XFEM, provides a potentially powerful alternative&lt;br/&gt;by encoding discontinuous basis functions into the approximation space&lt;br/&gt;without requiring faults to coincide with mesh edges, an approach that&lt;br/&gt;naturally fits the earthquake rupture problem.&lt;br/&gt;&lt;br/&gt;Preliminary work, however, demonstrates several complications that&lt;br/&gt;arise in this application. Standard techniques for frictional failure&lt;br/&gt;do not work with the XFEM, so new weak formulations of failure must be&lt;br/&gt;developed. In addition, discrete singularities, which are effectively&lt;br/&gt;removed in quasi-static engineering rupture problems, become crucial&lt;br/&gt;in dynamic repeated rupture. These discrete problems can&lt;br/&gt;fundamentally affect event statistics, and must be avoided.&lt;br/&gt;&lt;br/&gt;The investigators will address these complications via analysis,&lt;br/&gt;computation, and physical intuition. Specifically, they propose two&lt;br/&gt;possibilities for weak failure criteria, and plan to test them with a&lt;br/&gt;series of benchmark problems. Additionally, they propose analysis of&lt;br/&gt;numerical accuracy of the weak frictional criteria, with the goal of&lt;br/&gt;better understanding error in rupture propagation in these discrete&lt;br/&gt;systems. In a second component, they plan to derive bounds for the&lt;br/&gt;existence of mesh-fault interaction artifacts. Using these bounds, they&lt;br/&gt;will either determine enrichment schemes that eliminate the artifacts&lt;br/&gt;or develop meshing schemes to avoid them. Finally, the above work&lt;br/&gt;will culminate in a proof of concept for the XFEM in repeated rupture&lt;br/&gt;problems, and they will work to better understand event complexity in&lt;br/&gt;complex fault systems. These problems provide an excellent&lt;br/&gt;opportunity for collaboration between computational and applied&lt;br/&gt;mathematicians and earthquake physicists.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Broader Significance: &lt;br/&gt;Understanding the dynamics and probability of&lt;br/&gt;Earthquakes on realistically complex fault networks is a fundamental&lt;br/&gt;science and engineering problem that has direct consequences for&lt;br/&gt;improved estimates of Earthquake hazards. Advanced computational&lt;br/&gt;models, combined with observations, provide an important tool for&lt;br/&gt;exploring and understanding these systems. A critical component of&lt;br/&gt;such models, however is the geometric description and accurate&lt;br/&gt;modeling of failure on non-planar faults which poses significant&lt;br/&gt;challenges for traditional finite-element methods. This project will&lt;br/&gt;investigate an alternative method that allows the description of the&lt;br/&gt;fault network to be only loosely coupled to the computational mesh.&lt;br/&gt;If this method is successful, it promises to significantly increase&lt;br/&gt;the ease of describing and composing these problems and is better&lt;br/&gt;suited to exploring the dynamics of fault networks, particularly under&lt;br/&gt;the uncertainty of fault location. The proposed research will also&lt;br/&gt;contribute to the computational infrastructure for modeling the&lt;br/&gt;dynamics of brittle systems and earthquake genesis. The resulting open&lt;br/&gt;source software will be distributed through the Computational&lt;br/&gt;Infrastructure for Geodynamics (CIG: www.geodynamics.org), and be&lt;br/&gt;accessible to a broad community of researchers with impact beyond the&lt;br/&gt;immediate realm of Earthquake physics.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/18/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0934736</AwardID>
+    <Investigator>
+      <FirstName>Marc</FirstName>
+      <LastName>Spiegelman</LastName>
+      <EmailAddress>mspieg@ldeo.columbia.edu</EmailAddress>
+      <StartDate>09/18/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Bruce</FirstName>
+      <LastName>Shaw</LastName>
+      <EmailAddress>shaw@ldeo.columbia.edu</EmailAddress>
+      <StartDate>09/18/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

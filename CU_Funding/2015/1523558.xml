@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Scalable Transactional Replication: Theory, Protocols, and Middleware Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With the exponentially increasing popularity of web-based networked applications, their back-end IT systems must process an ever growing volume of data and service requests. Obtaining high scalability is challenging when application workloads generate concurrent accesses on shared data that is replicated to ensure data survival and service availability in the presence of failures. The classical transactional technology for solving this problem -- State Machine Replication -- does not scale: regulating the commits of distributed transactions requires solving consensus, whose leader is a significant scalability bottleneck. Leaderless consensus protocols unfruitfully pay the cost of large quorums for providing fast decisions only whenever possible. &lt;br/&gt;&lt;br/&gt;To overcome these limitations, the project is developing two complimentary techniques for building scalable consensus protocols for transactional systems. In the first technique, called the Caesar approach, consensus decisions are always made in two communication delays, i.e., fast decisions, using a scheme based on proposed positions: a transaction activated on a node, i.e., the transaction's coordinator, is executed on all nodes at a position proposed by the transaction's coordinator, and after the execution of any other conflicting transaction that was chosen at a lesser position. To achieve that, the transaction's coordinator only needs to know that the proposed position is not rejected by a fast quorum of nodes. However, by exploiting network delays and clock drift estimates, the positions are adjusted in a way such that they are never rejected. Thus, the cost of using fast quorums larger than the ones necessary to solve consensus in order to exploit a fast decision is amortized by the ability of always deciding in that way. In the second technique, called the M^2Paxos approach, the order of transactions is generally decided in only two communication delays by relying on the classical quorum size that is strictly necessary to solve consensus, i.e., a majority of nodes. This is achieved by exploiting application's data access locality. In particular, in case of low contention, M^2Paxos inspects the data to be accessed by a submitted transaction and determines the node responsible for ordering the transaction. This allows all transactions accessing the same data to be implicitly ordered by the same node.&lt;br/&gt;&lt;br/&gt;The project is transitioning Caesar and M^2Paxos into the experimental, open-source HyFlow transactional middleware system, which enables adoption of the techniques by the research community at large. Additionally, the project is transitioning the techniques into Red Hat/JBoss's production transactional middleware, Infinispan, which enables adoption of the techniques by J2EE developers at large.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1523558</AwardID>
+    <Investigator>
+      <FirstName>Binoy</FirstName>
+      <LastName>Ravindran</LastName>
+      <EmailAddress>binoy@vt.edu</EmailAddress>
+      <StartDate>08/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sebastiano</FirstName>
+      <LastName>Peluso</LastName>
+      <EmailAddress>peluso@vt.edu</EmailAddress>
+      <StartDate>08/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Polytechnic Institute and State University</Name>
+      <CityName>BLACKSBURG</CityName>
+      <ZipCode>240610001</ZipCode>
+      <PhoneNumber>5402315281</PhoneNumber>
+      <StreetAddress>Sponsored Programs 0170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

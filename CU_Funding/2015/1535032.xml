@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: Scalable Multifaceted Graphical Processing Unit (GPU) Program Debugging</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>435482</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern scientific research crucially depends on software simulations that help model scientific phenomena, and accelerate the process of discoveries, and communal result sharing. With the availability of affordable computational accelerators known as GPUs, the scientific community has begun migrating their existing CPU codes as well as creating new codes targeting GPUs. Unfortunately, this has resulted in a situation where the generated scientific results do not often agree across CPUs and GPUs. This exacerbates the danger of drawing wrong conclusions in crucial areas such as physics, weather simulations, drug discovery, and engineering computations. This project offers a combination of existing and new techniques in dissecting scientific experiments conducted through simulations, obtaining believable results, finding the root causes of varying results, and developing best practices to ensure higher result fidelity. Its techniques have special emphasis on GPUs, given their often poorly specified and evolving nature.&lt;br/&gt;&lt;br/&gt;Result variability has many causes, including evolving, incorrect, or ambiguous specifications of computer hardware and software, racing data accesses, varying floating point precision standards, and incorrect result association within compound computational steps. This project develops methods that help a scientist systematically search through and eliminate these causes, thus accelerating the process of debugging result variability. The produced tools and exemplars of known erroneous behaviors allow a scientist to avoid the use of incorrect specifications, isolate and eliminate data races, and isolate and eliminate unreliable numerical steps. It also develops methods that help a scientist maintain focus on their basic scientific pursuits while still keeping up with technology evolution. It trains students in critical software engineering techniques that help the nation build the talent pool necessary for the extreme scale computing era.&lt;br/&gt;&lt;br/&gt;The project will combine six research thrusts (GPU concurrency; challenge problems and develop user interfaces; pedagogy for domain scientists; improved GPU concurrency debugging tool support; more reproducible simulation results; and evolving and scaling tools with standards) to build and deliver open source software that incorporates proven stress-testing methods into tools; builds challenge problems, supports formalization support, and designs the user interface; delivers demos, books, and tutorials that help illustrate concurrency nuances; exploits symbolic analysis for input generation in mixed formal and GPU runs; develops stress testing inputs for round-off errors and separable verification to root-cause roundoff; and componentizes the symbolic verifier to enable parallelism, targeting from new APIs.</AbstractNarration>
+    <MinAmdLetterDate>06/15/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/14/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1535032</AwardID>
+    <Investigator>
+      <FirstName>Ganesh</FirstName>
+      <LastName>Gopalakrishnan</LastName>
+      <EmailAddress>ganesh@cs.utah.edu</EmailAddress>
+      <StartDate>06/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>019Z</Code>
+      <Text>Grad Prep APG:Enhan. Experience</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9179</Code>
+      <Text>GRADUATE INVOLVEMENT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

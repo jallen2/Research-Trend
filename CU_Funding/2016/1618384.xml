@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Effective Sampling-based Miss Ratio Curves: Theory and Practice</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>375000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Yan Solihin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Caches, such as distributed in-memory cache for key-value store, often play a key role in overall system performance. Miss ratio curves (MRCs) that relate cache miss ratio to cache size are an effective tool for cache management. This project develops a new cache locality theory that can significantly reduce the time and space overhead of MRC construction and thus makes it suitable for online profiling. The research will influence system design in both software and hardware, as nearly every system involves multiple types of cache. The results can thus benefit a wide range of systems from personal desktops to large scale data centers. We will integrate our results into existing open source infrastructure for the industry to adopt. In addition, this project will offer new course materials that motivate core computer science research and practice.&lt;br/&gt;&lt;br/&gt;The project investigates a new cache locality theory, applies it to several caching or memory management systems, and examines the impact of different online random sampling techniques. The theory introduces a concept of average eviction time that facilitates modeling data movement in cache. The new model constructs MRCs with data reuse distribution that can be effectively sampled. This model yields a constant space overhead and linear time complexity. The research is focused on theoretical properties and limitations of this model when compared with other recent MRC models. With this lightweight model, the project seeks to guide hardware cache partitioning, improve memory demand prediction and management in a virtualized system, and optimize key-value memory cache allocation.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618384</AwardID>
+    <Investigator>
+      <FirstName>Zhenlin</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>zlwang@mtu.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan Technological University</Name>
+      <CityName>Houghton</CityName>
+      <ZipCode>499311295</ZipCode>
+      <PhoneNumber>9064871885</PhoneNumber>
+      <StreetAddress>1400 Townsend Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

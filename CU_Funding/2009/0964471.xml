@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>DC: Medium: Tackling and Understanding Intermediate Data in Cloud Applications as a First-Class Citizen</AwardTitle>
+    <AwardEffectiveDate>07/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>600000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Cloud computing infrastructures involve thousands of servers, petabytes of storage, and hundreds of users running various applications that involve gigabytes to terabytes of data. This project focuses on intermediate data that is generated during the execution of parallelized dataflow programs in clouds. Such cloud intermediate data brings forth several unique characteristics: they are massive-scale, distributed, subjected to computational barriers, and prolong job run-times when subjected to server failures. Further, the size of intermediate data in a cloud application is often comparable to or larger than input or output data size, and it can thus range in terabytes. Thus, in spite of extensive existing work on traditional storage problems, there is a critical need for new algorithms and systems that target cloud intermediate data.&lt;br/&gt; This project is the first to treat cloud intermediate data as a first-class citizen. The project will involve new algorithm design and analysis, original systems building and implementation, deployment in real world testbeds, and performance of measurement studies. Concretely, this project will build a new system that explicitly manages intermediate data in cloud dataflow programs in order to improve their fault-tolerance, and design and realize barrier relaxation strategies to improve performance of cloud programs. We will implement using open software, deploy, and experimentally evaluate our systems atop the NSF infrastructure called the Cloud Computing Testbed (CCT) that is hosted at the University of Illinois. Finally, we will perform measurement studies of workload characteristics of cloud intermediate data. &lt;br/&gt; A fuller understanding of intermediate data in clouds can spawn research in managing cloud infrastructures, improve run-time performance of cloud applications, and lead to new cloud programming paradigms. Our contributions will directly improve the performance and fault-tolerance of applications that are run on the community infrastructure CCT, and positively impact design and deployment of existing and emerging industry clouds. Our results will be published and released in open software and datasets.</AbstractNarration>
+    <MinAmdLetterDate>06/28/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/28/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0964471</AwardID>
+    <Investigator>
+      <FirstName>Roy</FirstName>
+      <LastName>Campbell</LastName>
+      <EmailAddress>rhc@illinois.edu</EmailAddress>
+      <StartDate>06/28/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Indranil</FirstName>
+      <LastName>Gupta</LastName>
+      <EmailAddress>indy@illinois.edu</EmailAddress>
+      <StartDate>06/28/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7793</Code>
+      <Text>DATA-INTENSIVE COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7793</Code>
+      <Text>DATA-INTENSIVE COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

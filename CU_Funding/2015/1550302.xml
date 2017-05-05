@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Practical Graph Sparsification on GPUs</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>111168</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A large number of real-world problems can be concisely abstracted and modeled as a graph or a network. A fundamental challenge with processing and analyzing such graphs is the issue of scale, millions or billions of nodes and billions and trillions of edges. While advances in technology have led to the development of faster and better architectures, simply porting existing codes to such architectures will not suffice -- performance gains are typically not commensurate with advances in technology in part due to the inherent data movement costs associated with such algorithms. This project seeks to investigate two complementary strategies (graph sparsification and architecture-aware algorithm designs) to address this challenge head on. The key outcomes of this research will be algorithmic and systemic innovations that can radically impact next generation graph analytic systems. This effort is expected to provide a model for the research, education and training of both undergraduate and graduate students including those from under-represented groups.&lt;br/&gt;&lt;br/&gt;With respect to innovation, practical graph sparsification strategies as a generic strategy to scaling down the data movement requirements of modern graph and network analysis algorithms will be investigated. Specifically, innovative hashing-based approaches to accommodate edge directionality, weighted graphs, and heterogeneous content will be developed. Additionally, radically new ways to implement and re-architect such analysis algorithms on current and next generation Graphics Processor Unit (GPU)-based systems while expicitly accounting for data movement costs within the architecture will be designed. Specifically, a novel sketching strategy will be employed for this purpose. In terms of impact, the sparsification-based approach can be significant in terms of the wide use and application of such strategies for scaling up tasks such as link prediction, community discovery, and collective classification and deploying them on modern GPUs. Exemplar outcomes are expected to include a high performance GPU-based network analysis tools for data scientists, and the interdisciplinary training of students in data mining, network science and high performance computing leveraging research in pedagogy, in conjunction with Ohio State University's new undergraduate major in data analytics. &lt;br/&gt;&lt;br/&gt;For further information see the project web site at: http://www.cse.ohio-state.edu/~srini/GraphSpar/</AbstractNarration>
+    <MinAmdLetterDate>08/18/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1550302</AwardID>
+    <Investigator>
+      <FirstName>Srinivasan</FirstName>
+      <LastName>Parthasarathy</LastName>
+      <EmailAddress>srini@cse.ohio-state.edu</EmailAddress>
+      <StartDate>08/18/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

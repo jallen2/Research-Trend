@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>ABI Innovation: Algorithms and Models for Distributed Computation of Bayesian Phylogenetics</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>1150888</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Peter H. McCartney</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Given a set of molecular (DNA, RNA, or amino acid) sequences obtained from a number of organisms, phylogenetic inference is the task of reconstructing the evolutionary relationships among the sequences. These relationships are represented as an evolutionary tree, or, more generally, a directed, acyclic graph (DAG) when horizontal or vertical transmission of genetic material is modeled. The proposed project investigates the popular Bayesian approach to phylogenetic inference. Currently, all popular software packages for Bayesian inference utilize Markov Chain Monte Carlo (MCMC) algorithms. The problem is that these algorithms can take months to converge on large inference problems.The project's aim is to develop parallel algorithms for MCMC that are suitable for use in a modern cluster compute environment, such as Amazon.com's EC2 service. To ensure broader impacts of this work, the software, along with a user's manual and tutorial, will be open-sourced and the PIs will make special effort in recruiting students from underrepresented groups&lt;br/&gt;&lt;br/&gt;For a phylogenetic inference algorithm to scale to thousands of organisms, parallelization is mandatory. For example, one idea that the project will expore is the so-called Bayesian Forest (BF) approach. In the BF approach, the MCMC algorithm maintains not one tree or DAG, but dozens, hundreds, or thousands of trees or DAGs at the same time, where all of them work together and share information with one another as the algorithm runs. This tends to avoid problems associated with converging to poor, locally optimal solutions because as long as one tree/DAG has avoided a problem configuration, over time, that tree/DAG can pull the entire forest away from the poor solution. Crucially, since the most expensive computations over the individual trees/DAGs are independent of one another, it is easy to send them to different machines. The project will also consider distributed algorithms for challenging variants of the problem, such as multi-loci data sets and vertical and horizontal transmission of genetic material, as well as co-estimation of gene and species trees. All software, along with a user's manual and tutorial, will be open-sourced. The project web page will be available at http://cmj4.web.rice.edu/phylogenetics.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/03/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1355998</AwardID>
+    <Investigator>
+      <FirstName>Luay</FirstName>
+      <LastName>Nakhleh</LastName>
+      <EmailAddress>nakhleh@rice.edu</EmailAddress>
+      <StartDate>07/28/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>Jermaine</LastName>
+      <EmailAddress>Christopher.m.jermaine@rice.edu</EmailAddress>
+      <StartDate>07/28/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1165</Code>
+      <Text>ADVANCES IN BIO INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9179</Code>
+      <Text>GRADUATE INVOLVEMENT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Medium: Collaborative: Efficient Repair of Learning Systems via Machine Unlearning</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2020</AwardExpirationDate>
+    <AwardAmount>600068</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Deborah Shands</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Today individuals and organizations leverage machine learning systems to adjust room temperature, provide recommendations, detect malware, predict earthquakes, forecast weather, maneuver vehicles, and turn Big Data into insights. Unfortunately, these systems are prone to a variety of malicious attacks with potentially disastrous consequences. For example, an attacker might trick an Intrusion Detection System into ignoring the warning signs of a future attack by injecting carefully crafted samples into the training set for the machine learning model (i.e., "polluting" the model). This project is creating an approach to machine unlearning and the necessary algorithms, techniques, and systems to efficiently and effectively repair a learning system after it has been compromised. Machine unlearning provides a last resort against various attacks on learning systems, and is complementary to other existing defenses. &lt;br/&gt;&lt;br/&gt;The key insight in machine unlearning is that most learning systems can be converted into a form that can be updated incrementally without costly retraining from scratch. For instance, several common learning techniques (e.g., naive Bayesian classifier) can be converted to the non-adaptive statistical query learning form, which depends only on a constant number of summations, each of which is a sum of some efficiently computable transformation of the training data samples. To repair a compromised learning system in this form, operators add or remove the affected training sample and re-compute the trained model by updating a constant number of summations. This approach yields huge speedup -- the asymptotic speedup over retraining is equal to the size of the training set. With unlearning, operators can efficiently correct a polluted learning system by removing the injected sample from the training set, strengthen an evaded learning system by adding evasive samples to the training set, and prevent system inference attacks by forgetting samples stolen by the attacker so that no future attacks can infer anything about the samples.</AbstractNarration>
+    <MinAmdLetterDate>03/01/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/01/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1564055</AwardID>
+    <Investigator>
+      <FirstName>Junfeng</FirstName>
+      <LastName>Yang</LastName>
+      <EmailAddress>junfeng@cs.columbia.edu</EmailAddress>
+      <StartDate>03/01/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

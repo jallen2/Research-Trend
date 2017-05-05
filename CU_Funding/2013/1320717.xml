@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF:Small: Hardware/Software Support for Debugging of Scaling Limiters in Many-Core Execution</AwardTitle>
+    <AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>499848</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Until recently, a cost-effective way to make a program run faster was to buy a computer with a more recent processor, without making any changes to the program itself. However, in recent years this approach no longer works - instead of one ever-faster processor core, recent processors rely on increasing numbers of cores to provide better performance. To benefit from these new multi- and many-core processors, programs must be explicitly written to "scale," i.e., to keep getting faster as they run on more cores. Re-design for scaling is time-consuming and costly, especially considering that most programmers are not used to (nor trained for) writing programs that use more than one core. This NSF-funded project will analyze scaling problems in programs and report them to programmers with enough accuracy to help rapidly deal with the problems. An important aspect of this approach is that it also helps educate current programmers and future ones (e.g., college students) to anticipate scaling problems and avoid them in the future. Additional outreach activities are planned in middle and high schools in Atlanta (where minority students are the majority of the population) to educate both students and their teachers about key concepts in computer hardware and software. &lt;br/&gt;&lt;br/&gt;The main technical challenge in this project is that there are many types of scaling problems. Some scaling problems are related to the application itself, e.g., serial sections, lock contention, etc., and some are hardware-related, such as contention for interconnect bandwidth, serialization in directories, contention for capacity in shared caches, etc. The symptoms of these problems are often ambiguous, which makes them even more difficult for programmers to identify and correct. This project will provide hardware support for profiling that will help disambiguate some of the symptoms and attribute them to specific parts of the code, along with software tools that will analyze and report both software- and hardware-related scaling limiters. Our reporting will be specific enough to lead programmers directly to the code that should be "fixed" and help them understand why and how this code needs to be modified.</AbstractNarration>
+    <MinAmdLetterDate>07/31/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/31/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320717</AwardID>
+    <Investigator>
+      <FirstName>Milos</FirstName>
+      <LastName>Prvulovic</LastName>
+      <EmailAddress>milos@cc.gatech.edu</EmailAddress>
+      <StartDate>07/31/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

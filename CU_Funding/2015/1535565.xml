@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AitF: FULL: Query Processing with Optimal Communication Cost</AwardTitle>
+    <AwardEffectiveDate>08/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2019</AwardExpirationDate>
+    <AwardAmount>720000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Big Data analytics is changing traditional query processing in two ways. The first is a shift from single server or small-scale parallel relational databases to massively distributed architectures, where hundreds or thousands of servers are used during the computation of a single query. The second is an increased complexity in the queries being issued, from single- or star-joins, to complex graph-like structured queries. This project develops new algorithms for query processing over large distributed systems, which are optimized for the cost of communication, then implements and evaluates these algorithms in an open-source big data management system and service.&lt;br/&gt;&lt;br/&gt;The project studies a new approach to query evaluation that computes the entire query at once, replacing the traditional approach based on a query plan. The theoretical part of this project builds on a new model, called the Massively Parallel Communication model (MPC), where the communication is the only cost. The system development is performed over the Myria big data management system and service.&lt;br/&gt;&lt;br/&gt;The Intellectual Merit of the project consists in advancing the state of the art in both the theory and systems approaches to query evaluation in modern, massive-scale shared-nothing clusters. It develops new, fundamental algorithms for processing queries over massively distributed architectures, with a provably optimal communication cost. The project implements and deploys these algorithms in a system, validating and informing the theoretical model. In particular, the project makes the following contributions: it develops provably optimal, one-round algorithms for skewed data; it studies how and when multiple rounds can be used to further reduce the communication cost; it experiments with these novel algorithms on clusters with up to 1000 worker processes; and it develops a new theoretical model for the communication cost on large shared-nothing architectures with heterogeneous hardware.&lt;br/&gt;&lt;br/&gt;The Broader Impact of the project is to contribute to a new architecture for massively parallel query processing, where the traditional multi-step, single-join query evaluation approaches are replaced with novel, single-step, multi-join algorithms. This change has the potential to lead to more efficient big data analytics engines, allowing data analysts to explore large datasets more efficiently. As an immediate application, the project will impact the domain scientists who already use the Myria big data management system and service. All algorithmic discoveries in this project will be implemented in the Myria system, and will significantly improve query performance, allowing domain scientists to conduct more complex analytics and explorations over their data.</AbstractNarration>
+    <MinAmdLetterDate>08/07/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/07/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1535565</AwardID>
+    <Investigator>
+      <FirstName>Dan</FirstName>
+      <LastName>Suciu</LastName>
+      <EmailAddress>suciu@cs.washington.edu</EmailAddress>
+      <StartDate>08/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Magdalena</FirstName>
+      <LastName>Balazinska</LastName>
+      <EmailAddress>magda@cs.washington.edu</EmailAddress>
+      <StartDate>08/07/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7239</Code>
+      <Text>Algorithms in the Field</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>012Z</Code>
+      <Text>AitF FULL Projects</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

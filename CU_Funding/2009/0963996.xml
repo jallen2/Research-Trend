@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Programmable Monitoring Framework for Multicore Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>734040</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The advent of multicore processors has introduced new opportunities for achieving&lt;br/&gt;increased software performance, reliability, security, and availability. However,&lt;br/&gt;powerful dynamic execution monitoring capabilities are required to realize these&lt;br/&gt;opportunities. This project addresses the challenges of developing a Dynamic&lt;br/&gt;Binary Translation based monitoring framework for parallel applications running on&lt;br/&gt;multicore systems. The programmability of the framework will enable realization of &lt;br/&gt;benefits in achieving enhanced performance, reliability, security, and availability.&lt;br/&gt;&lt;br/&gt; Some of the instrumentation code required in context of parallel applications &lt;br/&gt;must be executed by a core in response to events that involve other cores. In particular, &lt;br/&gt;events relevant to many performance, reliability, and security related tasks correspond &lt;br/&gt;to the manifestation of interprocessor data dependences due to updates of shared &lt;br/&gt;memory locations by multiple cores. Based upon this observation programmable &lt;br/&gt;architectural mechanisms will be provided that not only enable the detection of &lt;br/&gt;interprocessor dependence events but also enable the triggering of the execution of &lt;br/&gt;application specific monitoring code. This project will then employ these mechanisms &lt;br/&gt;for improving performance via speculative parallelism, enabling debugging via a&lt;br/&gt;novel strategy of execution suppression, improving reliability via an approach that&lt;br/&gt;allows applications to automatically recover from failures, providing security via&lt;br/&gt;dynamic detection of mutating viruses, and software availability via dynamic updates.</AbstractNarration>
+    <MinAmdLetterDate>07/22/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/20/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0963996</AwardID>
+    <Investigator>
+      <FirstName>Rajiv</FirstName>
+      <LastName>Gupta</LastName>
+      <EmailAddress>gupta@cs.ucr.edu</EmailAddress>
+      <StartDate>07/22/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Iulian</FirstName>
+      <LastName>Neamtiu</LastName>
+      <EmailAddress>ineamtiu@njit.edu</EmailAddress>
+      <StartDate>07/22/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BSF:2012338:Shortest Paths: Upper and lower bounds</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2014</AwardExpirationDate>
+    <AwardAmount>44999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is funded as part of the United States-Israel Collaboration in Computer Science (USICCS) program. Through this program, NSF and the United States - Israel Binational Science Foundation (BSF) jointly support collaborations among US-based researchers and Israel-based researchers.&lt;br/&gt;&lt;br/&gt;Many important problems in the modern world can be solved by finding shortest paths in some network. Some examples include computing driving directions from one city to another in a road network, or routing internet traffic from one computer to another in a communication network such as the internet. The networks in such applications are not only complex, but can also be extremely large. The development of fast, reliable and scalable algorithms for shortest paths is thus of crucial importance. The major goal of the proposed research is to provide such algorithms in a variety of settings, providing mathematical guarantees on their performance and scalability.&lt;br/&gt;&lt;br/&gt;The research will focus on two notions of data structures maintaining shortest paths, both focusing on storing distance information using small space. The first are Distance oracles (DOs), data structures that compactly represent the path structure of a network with the ability to quickly retrieve approximate distances and shortest paths between any two given nodes. The research aims at deepening our understanding of DOs in several different ways: by obtaining DOs with improved guarantees in new (e.g. distributed) settings, by developing faster algorithms for constructing DOs, and by proving conditional, or preferably unconditional cell-probe lower bounds showing that the obtained guarantees are essentially optimal. The second type of shortest paths data structures that will be considered are Distance sensitivity oracles (DSOs). These are data structures that provide a compact representation of the distances in a graph in which edges can become unavailable. A query to a DSO consists of a failed edge and two nodes, a source and a target, and the DSO must return a shortest path from the source to the target that does not use the failed edge. The goal here is to develop faster algorithms for constructing DSOs with fast query times, and to prove relationships between DSOs and other closely related problems such as all-pairs shortest paths. In addition to their intrinsic value, DSOs may also help develop efficient dynamic shortest paths algorithms which is another objective of this project.&lt;br/&gt;&lt;br/&gt;Besides the clear practical motivation behind the project, the problems to be studied have intriguing relations to many concepts in mathematics (metric embeddings, graph and geometric spanners, etc). Thus the impact of this research goes beyond the strict boundaries of computer science. The PI is whole-heartedly committed to diversity. The PI has experience in recruiting and mentoring minority students, and will continue to take an active role in seeking and recruiting students from diverse cultures and backgrounds.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1330843</AwardID>
+    <Investigator>
+      <FirstName>Virginia</FirstName>
+      <LastName>Williams</LastName>
+      <EmailAddress>virgi@stanford.edu</EmailAddress>
+      <StartDate>09/11/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

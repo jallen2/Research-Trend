@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: SI2-SSE: High-Performance Workflow Primitives for Image Registration and Segmentation</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>390000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Image registration and segmentation are vital enabling technologies for addressing many complex, data driven problems. Examples include individualized medical treatment where disease progression is monitored by analyzing MRI, CT, or ultrasound images over time; identifying anatomical structures in medical images; recognizing objects and people in video footage; and extracting imageable biometrics such as fingerprints, faces, and the iris. Images and videos can now be easily acquired at a rate that far surpasses our capacity to perform advanced image analysis. For this reason, advanced registration and segmentation algorithms are not routinely used for many large-scale and time sensitive applications because they require more processing time than is available. This project will remedy this situation by developing a high-performance software package for image registration and segmentation, suitable to be run on massively parallel processors, and building a strong user and developer base around it. All software developed through the project will be open source and licensed under the MIT License. Improvements in processing speed achieved by the proposed platform will have significant impact in disciplines such as computer vision, digital forensics, and biomedical image analysis. Finally, the project team is committed to the diversity mission of Drexel University and will reach out to under-represented groups when recruiting graduate students for this project. Selected research tasks will be integrated within existing courses and curriculum will be developed for new experiential programs stemming from this effort.&lt;br/&gt;&lt;br/&gt;The overall goal of this project is to develop a high-performance, many-core CPU and GPU accelerated algorithmic software package for attacking classes of problems that depend on solutions to data-dense inverse problems such as registration, segmentation, tomography, and parameter estimation. The specific technical approach involves developing algorithmic primitives required by a broad class of inference and analysis based workflows. Probabilistic primitives for building generative, discriminative, and conditional random field classification models will be implemented with emphasis on object segmentation. Specialized registration operators will be developed for spline and voxel-driven algorithms. These primitives will be developed within the single instruction multiple data paradigm which utilizes many-core processing architectures via OpenMP, CUDA, and OpenCL. The workflow will be supplemented by a graphical user interface (GUI), providing a feature rich studio of tools that expose high-performance primitives to scientists visually and intuitively. The platform architecture will be designed as a distributed system service targeting locally administered scientific computing clusters where the number of compute nodes will be able to scale with load requirements. The GUI and the computational core may either run in a distributed client-server configuration or together locally on a single high performance workstation. Emphasis will be placed on documentation and video/written tutorials necessary for adoption. The project team will use an open software development model to build a strong user base comprising both novice users as well as researchers with the need to implement new algorithms on top of a stable software infrastructure. It is expected that the availability of this tool and its source code will catalyze an increase in quantitative image analysis spanning across research disciplines.</AbstractNarration>
+    <MinAmdLetterDate>09/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1642380</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Shackleford</LastName>
+      <EmailAddress>shack@drexel.edu</EmailAddress>
+      <StartDate>09/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Nagarajan</FirstName>
+      <LastName>Kandasamy</LastName>
+      <EmailAddress>kandasamy@coe.drexel.edu</EmailAddress>
+      <StartDate>09/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Drexel University</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191021119</ZipCode>
+      <PhoneNumber>2158955849</PhoneNumber>
+      <StreetAddress>1505 Race St, 8th Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>026Z</Code>
+      <Text>NSCI: National Strategic Computing Initi</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

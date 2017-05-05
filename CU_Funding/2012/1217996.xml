@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Merging Traffic for Energy Conservation in Enterprise &amp; Datacenter Networks</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>429999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Energy consumed by computing and communication devices has become a significant cost of&lt;br/&gt;conducting business today. Indeed, as we move to higher speed networks and increase the&lt;br/&gt;deployment of the Internet to all corners of the world, this cost is expected to grow dramatically.&lt;br/&gt;Major contributors to the size and energy cost of the deployed infrastructure include enterprise&lt;br/&gt;networks and data center networks. Enterprise networks are deployed in the workplace and have&lt;br/&gt;been shown to be heavily under-utilized with peak utilizations typically a fraction of capacity.&lt;br/&gt;Similarly, data center networks have also been shown to be very lightly loaded for significant&lt;br/&gt;lengths of time. In both these cases, the energy consumed by the networking infrastructure is very&lt;br/&gt;high, in relation to the actual data transmitted. The reasons for this are twofold. First, network&lt;br/&gt;switches are designed to always run at peak rates even in the absence of traffic and second, switch&lt;br/&gt;ports map one-to-one to end systems even though these systems load the ports at a tiny fraction of&lt;br/&gt;available capacity. The outcome of this research project is a fundamental re-design of the network&lt;br/&gt;switch in a way that preserves user experience but results in dramatic energy savings.&lt;br/&gt;&lt;br/&gt;The key idea in this work is the development of a hardware device called a merge network, which&lt;br/&gt;sits between the switch and connected systems. Traffic coming into the switch is merged together&lt;br/&gt;and fed to a smaller number of ports allowing either the replacement of large port-density&lt;br/&gt;switches with smaller switches or the powering off of large portions of the switch such as line&lt;br/&gt;cards and memory banks. While the benefit of this idea is evident, the challenges in realizing it&lt;br/&gt;are many. At the hardware level, the challenge is in merging traffic with minimal energy cost and&lt;br/&gt;data loss. The approach adopted in this project is to build the merge network using analog&lt;br/&gt;components with a digital control for managing Layer 2 protocol issues. Modern switches&lt;br/&gt;implement a suite of Layer 2 protocols that expect a 1-1 mapping of switch ports to end-systems.&lt;br/&gt;By breaking this mapping using a merge network, one effectively causes incorrect protocol&lt;br/&gt;behavior. This issue is addressed by utilizing port virtualization within each switch. Thus, the&lt;br/&gt;Layer 2 protocols remain unaffected while the network sees tremendous reduction in energy&lt;br/&gt;usage. The project uses prototyping, experimentation and simulation to fully characterize this new&lt;br/&gt;switch architecture in enterprise and data center networks. Experimental systems based on Click&lt;br/&gt;Modular Router will be inserted into the College network to measure the energy savings in real&lt;br/&gt;application as well as to understand side effects of such a redesign on overall network behavior.&lt;br/&gt;Traffic statistics collected at a data center network and the University-level enterprise network&lt;br/&gt;will be utilized in a simulator to analyze protocol behavior at a larger scale. This project is&lt;br/&gt;transformative in that it redesigns the basic building block of the Internet resulting in dramatic&lt;br/&gt;energy savings.&lt;br/&gt;&lt;br/&gt;The broader impact of this work ranges from fundamentally redesigning the key component of&lt;br/&gt;the Internet (the switch) to directly influencing the energy usage in the communications&lt;br/&gt;infrastructure. The impact on industry is significant in that the work here will influence the design&lt;br/&gt;of future high-speed switches where the merge network is incorporated into the architecture&lt;br/&gt;rather than as an external add on. Traffic statistics collected during this project will be made&lt;br/&gt;available to the research community and will thus provide a much-needed source of enterprise-level&lt;br/&gt;traces. The research community will also benefit by the implementation of IEEE 802.1&lt;br/&gt;protocols into the Click software base. The project will enhance the training of the future&lt;br/&gt;workforce via the development of a new class and including students in hands on measurement&lt;br/&gt;and development of the experimental platform.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217996</AwardID>
+    <Investigator>
+      <FirstName>Suresh</FirstName>
+      <LastName>Singh</LastName>
+      <EmailAddress>singh@cs.pdx.edu</EmailAddress>
+      <StartDate>08/06/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Portland State University</Name>
+      <CityName>Portland</CityName>
+      <ZipCode>972070751</ZipCode>
+      <PhoneNumber>5037259900</PhoneNumber>
+      <StreetAddress>1600 SW 4th Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Indexing, Querying, and Visualizing Big Spatial and Spatio-temporal Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>499768</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project conducts research, develops requisite knowledge, and builds software infrastructure to support data management for Big Spatial and Spatio-temporal Data. This is a response to the recent explosion in the amounts of spatial and temporal data produced by several devices that include smart phones, space telescopes, and medical devices. Applications using such data and in an urge need for the research of this project include studying climate data that deals with Terra bytes of monthly spatio-temporal satellite data, understanding the brain's architectural and functional principles through modeling brain neurons as spatial data, and analyzing billions of monthly geotagged social media contents for event detection and analysis. The project packages all its developed components into a full-fledged free open-source system, available to the research and developers communities in large. Besides its impact on industry, this project will have significant broader impact across multiple segments of society that include graduate and undergraduate student education by using this project software as a vehicle for their research, outreach to K-12 students through simple map visualization APIs, curriculum development through test labs inside the developed software of this project, and tutorial presentations in domestic and international conferences.&lt;br/&gt;&lt;br/&gt;While there is an the urge need to support big spatial data, such need is hampered by the lack of specialized systems, techniques, and algorithms. Although big data is well supported with a variety of general purpose distributed systems, none of these systems provide any special support for spatial or spatio-temporal data. The only way to support big spatial and spatio-temporal data in current systems is to either treat it as non-spatial data or to write code wrappers around existing non-spatial systems. However, doing so does not take any advantage of the properties of spatial data, hence resulting in sub-par performance. This project tackles this research gap by providing a native support for spatial and spatio-temporal data inside general current big data systems. In particular, the project exploits three main research topics, namely, indexing, querying, and visualization of big spatial and spatio-temporal data. In terms of indexing, the project builds novel, generic, and scalable spatial and spatio-temporal index structures for Hadoop Distributed File System (HDFS), which is the de facto storage layer in most nowadays big data systems. In terms of querying, the project develops novel query processing techniques for range queries, nearest-neighbor queries, and spatial join, that take advantage of the spatially indexed HDFS to support various query operations on big spatial and spatio-temporal data. In terms of visualization, the project develops new scalable techniques to visualize big spatial data as single- or multi-level images. Publications, technical reports, open-source software, and experimental data from this research are disseminated via the project web site (http://www.cs.umn.edu/~mokbel/BigSpatial).</AbstractNarration>
+    <MinAmdLetterDate>08/27/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1525953</AwardID>
+    <Investigator>
+      <FirstName>Mohamed</FirstName>
+      <LastName>Mokbel</LastName>
+      <EmailAddress>mokbel@cs.umn.edu</EmailAddress>
+      <StartDate>08/27/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

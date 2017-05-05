@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative research: Architecture and Prototype for a Programmable Lab-on-a-Chip</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>375000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ahmed Louri</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Lab-on-a-chip (LoC) technology has enabled miniaturization and integration of conventional bench-scale experiments to a single chip comprising on-chip components, such as channels, valves, and mixers. &lt;br/&gt;Currently, LoCs are designed as application-specific chips, where a new LoC is designed for every assay by creating and connecting on-chip components to match the steps of the assay. (i.e., n assays need n LoC designs). Unfortunately, this application-specific approach (1) incurs considerable design effort, turn-around time, and cost for each assay and (2) reduces productivity because it requires LoC engineers to know the assay specifics and LoC users to know the constraints of the LoC.&lt;br/&gt;&lt;br/&gt;To address these limitations, this project will design and prototype a general-purpose, programmable LoC (PLoC) which does not implement any specific assay and instead employs software to translate an assay into an equivalent "executable" which is run on the PLoC. The executable breaks down the assay into a sequence of basic steps called "fluid instructions", which are implemented in hardware. The set of fluid instructions implemented by a PLoC is called its "fluid instruction set", and any assay can be executed on the PLoC if the assay can be translated using the PLoC's fluid instruction set (i.e., n assays use 1 PLoC design instead of requiring n LoC designs). Compared to LoCs, the PLoC has significantly lower design effort and faster turn-around time due to one-time design of a single chip, and lower cost due to economy of volume. The clean separation between hardware and assay achieved by the fluid instruction set and the software translator (called "the fluidic compiler") vastly improves the productivity of LoC users and LoC engineers.</AbstractNarration>
+    <MinAmdLetterDate>09/07/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0726821</AwardID>
+    <Investigator>
+      <FirstName>T.</FirstName>
+      <LastName>Vijaykumar</LastName>
+      <EmailAddress>vijay@ecn.purdue.edu</EmailAddress>
+      <StartDate>09/07/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Steve</FirstName>
+      <LastName>Wereley</LastName>
+      <EmailAddress>wereley@purdue.edu</EmailAddress>
+      <StartDate>09/07/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mithuna</FirstName>
+      <LastName>Thottethodi</LastName>
+      <EmailAddress>mithuna@purdue.edu</EmailAddress>
+      <StartDate>09/07/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

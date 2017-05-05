@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CCSS: Programmable Mixed-Signal Vision Sensor for Continuous Mobile Vision</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chengshan Xiao</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The emergence of wearable devices has made it possible for computers to continuously interpret the user environment, or continuous mobile vision. It can extend a user's memory and attention, not only enabling previously impossible, personalized services but also assisting people with vision or attention impairment in an unprecedented way. While modern devices are capable of capturing and interpreting what their users see, they face a daunting physical barrier: energy efficiency. For example, performing continuous vision workloads drains the battery of Google Glass in about 40 minutes. While process technology and system-level optimization techniques may continue to improve the energy efficiency of digital circuits, a recent measurement study has pointed to a fundamental bottleneck to energy efficiency of computer vision: the image sensor, especially its analog readout circuitry. The goal of this project is to tackle this bottleneck by designing, prototyping and evaluating a novel vision sensor architecture along with its optimization framework. By targeting computer vision, this vision sensor architecture radically departs from existing image sensor designs that are optimized for photography. Instead of producing high-quality images, it outputs application-specific features by judiciously shifting processing into the analog domain. In doing so, it promises better efficiency by orders of magnitudes for computer vision workloads and relieves the privacy concern with continuous mobile vision.&lt;br/&gt;&lt;br/&gt;This project will pursue two complementary, interrelated directions toward the above goal: First, the mixed-signal vision sensor design must provide sufficient programmability under constrained complexity in the analog domain. The project will exploit a novel hardware architecture that cyclically reuses analog modules for a programmable dataflow. This architecture will employ a novel column-based topology that exploits data locality to reduce interconnect complexity for data access. The project will also investigate hardware mechanisms that allow programmable tradeoffs between efficiency and accuracy of processing in the analog domain. Second, vision workloads must be carefully partitioned into analog and digital stages given the sensor architecture. The project shall provide an optimization framework that leverages accurate energy models and noise tolerance of vision workload. The project will further contribute novel use cases of the proposed mixed-signal vision sensor with data privacy, energy consumption, and task performance being the possible optimization constraints.</AbstractNarration>
+    <MinAmdLetterDate>06/02/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/02/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1611295</AwardID>
+    <Investigator>
+      <FirstName>Lin</FirstName>
+      <LastName>Zhong</LastName>
+      <EmailAddress>LZhong@rice.edu</EmailAddress>
+      <StartDate>06/02/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7564</Code>
+      <Text>COMMS, CIRCUITS &amp; SENS SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>153E</Code>
+      <Text>Wireless comm &amp; sig processing</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

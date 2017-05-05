@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Reinforcement Learning with Predictive State Representations</AwardTitle>
+    <AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Weng-keen Wong</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Like animals and humans, artificial autonomous agents that are able to predict short-term and long-term consequences of their actions can then plan their behavior, act more intelligently, and achieve greater reward. Agents that can learn such predictive models from experience can be more robust in their intelligence than agents that rely on pre-built models. The PI and graduate students are focused on the particularly challenging but natural case where observations from the agent's sensors far in the past can continue to influence the predictions of consequences of actions long into the future. (For example, the observation of where you park the car in the morning will help predict where you will see the car later in the day.) There are two broad classes of approaches to learning predictive models in such 'partially observable' settings. Finite-history models use short-term history of observations to predict future observations conditioned on actions; these are fast to learn but are limited because they cannot capture the effects of long-term history. Latent-variable models can capture the effects of long-term history by positing hidden or latent variables that capture the true state of the environment (e.g., the location of the car), but such models are difficult to learn because the latent variables have to be inferred from data. &lt;br/&gt;&lt;br/&gt;This project builds on previous work by the PI and others on a third approach, called Predictive State Representations (or PSRs), in which the agent maintains predictions of future observations conditioned on future actions as a summary-representation of history; these models can both be fast to learn and capture the effect of long-term history. This project develops new PSR-based methods and algorithms for hierarchical models, rich-feature-based models, and local and modular models. The project applies the new methods to challenging applications from active perception and robotics. In addition, theoretical understanding of these richer and newer methods will be developed. Altogether the project significantly expands the applicability of PSR-methods as well as their theoretical foundations and algorithms. &lt;br/&gt;&lt;br/&gt;Broader Impacts: New methods that allow artificial agents to robustly build predictive models would advance the state of knowledge across the fields of artificial intelligence, reinforcement learning, control, operations research, psychology, and neuroscience. The PI is co-leading an effort to create a new undergraduate degree in Data Sciences at the University of Michigan to be jointly managed by Computer Science &amp; Engineering and Statistics. This future degree as well as other current undergraduate research programs will be targeted to recruit, mentor, and train students for this project.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319365</AwardID>
+    <Investigator>
+      <FirstName>Satinder</FirstName>
+      <LastName>Baveja</LastName>
+      <EmailAddress>baveja@umich.edu</EmailAddress>
+      <StartDate>08/05/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

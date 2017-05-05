@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Physical Simulation of Deformable Models Based on Geometric Mapping</AwardTitle>
+    <AwardEffectiveDate>09/15/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2011</AwardExpirationDate>
+    <AwardAmount>186000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dmitry Maslov</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Interactive physically based modeling, simulation, and analysis of digitized real-world models are extremely challenging tasks. Physically based simulation approaches, such as finite element methods based on continuum mechanics, are computationally intensive, which makes them impractical for simulating and visualizing large-scale complex data in real-time. The introduction of geometric mapping in this research provides Euclidean parametric domain and regular structure inherent to complex geometric shapes, and provides efficient tools (such as GPU-based computation) to speed up the simulation process. &lt;br/&gt;&lt;br/&gt;This research tackles the speed bottleneck of physical simulation and visualization of deformable models by exploring the relationship between conformal and harmonic geometric mapping with physically based simulation, and develops efficient algorithms that allow users to perform real-time physical simulation, collision detection, material modeling, and visualization of large-scale, complicated geometric data. In particular, efficient and robust algorithms are investigated to enable dynamic space &amp; time adaptive physical deformation of thin-shells and volumetric objects, by exploiting novel numerical methods to solve PDEs/ ODEs on graphics hardware, based on surface and volumetric mappings. The PI investigates novel GPU-based hierarchical collision detection algorithms for deformable models, using multiresolution geometry images to represent the bounding deformation trees as dynamic textures in the graphics hardware, to efficiently detect both inter-objects collision and self-collision of deformable models during simulations. This research project also develops powerful GPU-based multiresolution modeling and parallel visualization methods to efficiently represent and render heterogeneous material properties of the simulated deformable models. This investigation has broad impacts on an array of applications spanning physical science, mechanical engineering, medicine, K-12 education, training, and entertainment.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/14/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0727098</AwardID>
+    <Investigator>
+      <FirstName>Xiaohu</FirstName>
+      <LastName>Guo</LastName>
+      <EmailAddress>xguo@utdallas.edu</EmailAddress>
+      <StartDate>09/12/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas at Dallas</Name>
+      <CityName>Richardson</CityName>
+      <ZipCode>750803021</ZipCode>
+      <PhoneNumber>9728832313</PhoneNumber>
+      <StreetAddress>800 W. Campbell Rd., AD15</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>2865</Code>
+      <Text>NUMERIC, SYMBOLIC &amp; GEO COMPUT</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

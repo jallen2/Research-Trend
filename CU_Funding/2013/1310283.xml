@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Scalable Data Coupling Abstraction for Data-Intensive Simulation Workflows</AwardTitle>
+    <AwardEffectiveDate>05/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2017</AwardExpirationDate>
+    <AwardAmount>559283</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Robert Chadduck</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A Scalable Data Management Abstraction for Large-scale Coupled Simulation Workflows&lt;br/&gt;&lt;br/&gt;Coupled scientific simulation workflows, integrating multiple physics and scales and running at very large scales on high-end resources, have the potential for achieving unprecedented levels of accuracy and providing dramatic insights into complex phenomena. However, the coupled component of these simulation workflows need to interact and exchange significant amounts of data at runtime, and the data often has to be transformed as it flows from source to destination. As the volumes and generation rates of this data grow, the costs (latencies and energy) associated with extracting this data and transporting it for coupling, transformation and analysis have become the dominating overheads and are dictating the level of performance and productivity that can be achieved.&lt;br/&gt;&lt;br/&gt;The goal of this project is to address these challenges and to develop conceptual solutions as well as a software framework that can enable the large-scale data-intensive simulations. Our approach is based on the premise that given the large data volumes and associated costs, data will have to be largely processed online, ?in-situ? and ?in-transit? while it is staged using resources within the computational platform, and the programming and runtime system must provide abstractions and mechanisms that facilitate such data processing. Our effort is organized around three key research thrusts: (1) Programming abstractions for in-situ/in-transit data management; (2) Design and implementation of a scalable data staging substrate; and (3) Data-centric mapping and scheduling.&lt;br/&gt;&lt;br/&gt;Data and compute intensive simulations are becoming increasingly critical to a wide range of science and engineering domains, and as a result, this research has the potential to drive research and innovations in these domains. The developed framework and benchmarks also provide computer scientists with a substrate to experiment with and explore data-centric research. The development of human resources, including the training of students, researchers and software professions, as well as outreach to minorities and underrepresented group, is integral to all aspects of this effort.</AbstractNarration>
+    <MinAmdLetterDate>05/01/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/22/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1310283</AwardID>
+    <Investigator>
+      <FirstName>Manish</FirstName>
+      <LastName>Parashar</LastName>
+      <EmailAddress>parashar@rutgers.edu</EmailAddress>
+      <StartDate>05/01/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Ivan</FirstName>
+      <LastName>Rodero</LastName>
+      <EmailAddress>irodero@cac.rutgers.edu</EmailAddress>
+      <StartDate>05/01/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7726</Code>
+      <Text>DATANET</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7726</Code>
+      <Text>DATANET</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

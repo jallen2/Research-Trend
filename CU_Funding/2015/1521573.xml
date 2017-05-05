@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Advances in Robust Multilevel Preconditioning Methods for Sparse Linear Systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>265548</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Scientists and engineers in many disciplines, ranging from mechanical or aerospace engineering to chemistry and economics, need to solve large linear systems of equations. These systems are typically 'sparse' in that most of their entries are zeros. Linear systems that arise from three-dimensional physical systems are often exceedingly costly to solve by standard direct elimination, also called direct methods. In such cases, iterative methods, which produce a sequence of approximations to the solution, become mandatory. These methods have made important advances in recent years but their lack of robustness when dealing with a variety of real-life problems remains an issue. Recent research on so-called Preconditioned Krylov Subspace Methods has aimed at achieving a good compromise between generality and efficiency by incorporating techniques from different horizons, including multilevel concepts to improve scalability and adopting ideas from direct solution methods to improve robustness. At the same time that these improvements are being deployed, new demands from challenging applications as well as from the new computational environments are making obsolete algorithms and computational codes that often took several decades to mature. The aim of this project is to address these new demands and the challenges that have emerged for iterative methods in recent years, as well as to explore other research issues that are of great practical importance.&lt;br/&gt;&lt;br/&gt;This project will explore a class of iterative methods for solving linear systems of equations, emphasizing robustness and scalability issues. The starting point of the proposed research is to investigate a new set of Multi-Level Low-Rank (MLR) approximation techniques within Domain-Decomposition (DD) type methods. MLR preconditioners, especially within the DD framework have a great potential for a number of reasons. First, because they rely on approximate inverses, these methods tend to be far more robust than their Incomplete LU (ILU) counterparts. As such they can be much more effective than existing methods when dealing with highly indefinite linear systems, e.g., those arising from wave scattering simulations. Second, MLRs do not require factorizations and are excellent candidates for high-performance computers, e.g., ones equipped with Graphical Processing Units (GPUs). Finally, they are easy to update in that it is inexpensive to augment or refine them in order to improve their accuracy in the situation when their observed performance is not satisfactory. Different ways to define low-rank approximations will be explored that are all rooted in the Domain-Decomposition framework and Schur complement techniques. This project will also continue to explore standard multi-level preconditioners, placing a high emphasis on robustness issues. Finally, other important topics related to the impact of high-performance computing on the one hand and to the development of effective software on the other will be considered. Among the broader impacts of this research the project highlights the dissemination of computational software and the training of students in an area that is of vital and growing importance. In addition, the PI will continue the practice of freely disseminating articles, books, lecture notes, and MATLAB scripts for educational purposes.</AbstractNarration>
+    <MinAmdLetterDate>07/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/14/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1521573</AwardID>
+    <Investigator>
+      <FirstName>Yousef</FirstName>
+      <LastName>Saad</LastName>
+      <EmailAddress>saad@cs.umn.edu</EmailAddress>
+      <StartDate>07/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

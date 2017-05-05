@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Collaborative Research: Supporting Efficient Discrete Box Queries for Sequence Analysis on Large Scale Genome Databases</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>281419</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This collaborative research project, conducted jointly by the investigators from the Michigan State University (MSU) and the University of Michigan at Dearborn (UM-D), investigates the issues and techniques for storing and searching/querying large scale k-mer data sets (i.e., overlapping k-length subsequences obtained from genome sequences) for sequence analysis in bioinformatics. Efficient k-mer indexing, storage and retrieval are vital to sequence analysis tasks like error correction as sequencing data set sizes increase vastly. Most existing methods for storing and searching k-mers are optimized for exact or range queries. However, this reliance limits the types of sequence analysis that can be done efficiently. Moreover, most existing methods for storing k-mers do not support efficient storage of k-mers at multiple word lengths. For many sequence analysis problems, including error correction, variant detection, and assembly, searches with multiple word lengths enable better sensitivity and specificity. In this project, various techniques for efficiently supporting so-called (discrete) box queries and other related queries (e.g., hybrid queries) on large scale k-mer data sets for sequence analysis are investigated. The approaches to optimizing box queries in solving sequence analysis problems like the error correction are examined. The storage structure and adoption of box queries for supporting searches with multiple word lengths on k-mer data sets are explored. The results from this research will advance the state of knowledge for storage, indexing and retrieval techniques for genome sequence databases. They are expected to significantly impact current practice in bioinformatics by making available new efficient on-disk solutions for sequence analysis. They will also impact a number of other popular application areas including biometrics, image processing, social network, and E-commerce, where processing non-ordered discrete multidimentional data is crucial. &lt;br/&gt;&lt;br/&gt;This collaborative research project, conducted jointly by the investigators from the Michigan State University (MSU) and the University of Michigan at Dearborn (UM-D), investigates the issues and techniques for storing and searching/querying large scale k-mer data sets for sequence analysis in bioinformatics. Efficient k-mer indexing, storage and retrieval are vital to sequence analysis tasks like error correction as sequencing data set sizes increase vastly. Most existing methods for storing and searching k-mers are optimized for exact or range queries. However, this reliance limits the types of sequence analysis that can be done efficiently. Moreover, most existing methods for storing k-mers do not support efficient storage of k-mers at multiple word lengths. For many sequence analysis problems, searches with multiple word lengths enable better sensitivity and specificity. In this project, various techniques for efficiently supporting so-called (discrete) box queries and other related queries (e.g., hybrid queries) on large scale k-mer data sets for sequence analysis are investigated. In particular, a new index tree, named the BoND-tree, specially designed for a non-ordered discrete data space characterized by k-mer data sets is developed. The unique properties of the space are exploited to develop new node splitting heuristics for the index tree, and theoretical analysis is performed to show the optimality of the proposed heuristics. Besides the BoND-tree, which is based on data partitioning, space-partitioning based index schemes for box quieres in such a space are also developed. To support a more flexible type of query (i.e., hybrid box and range queries), hybrid index schemes integrating strengths of both box query indexes and range query indexes are studied. To facilitate an efficient index construction for large scale k-mer data sets, bulk loading techniques are also developed for the proposed index trees. In addition, the approaches to optimizing box queries in solving sequence analysis problems like the error correction are examined. The storage structure and adoption of box queries for supporting searches with multiple word lengths on k-mer data sets are also explored. The research in the project will result in the discovery of fundamental properties of the data space for sequence data in bioinformatics, the development of a number of novel storage, indexing and retrieval techniques exploiting the properties of such a data space, and the applications of the proposed techniques for solving important problems in sequence analysis. These results will advance the state of knowledge for storage, indexing and retrieval techniques for genome sequence databases. They are expected to significantly impact current practice in bioinformatics by making available new efficient on-disk solutions for sequence analysis. They will also impact a number of other popular application areas including biometrics, image processing, social network, and E-commerce, where processing non-ordered discrete multidimentional data is crucial.</AbstractNarration>
+    <MinAmdLetterDate>07/23/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/14/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1319909</AwardID>
+    <Investigator>
+      <FirstName>Charles</FirstName>
+      <LastName>Brown</LastName>
+      <EmailAddress>ctbrown@ucdavis.edu</EmailAddress>
+      <StartDate>07/23/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sakti</FirstName>
+      <LastName>Pramanik</LastName>
+      <EmailAddress>pramanik@cse.msu.edu</EmailAddress>
+      <StartDate>07/23/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: CSR: Large-scale Systems Software Atop Scale-out In-memory Storage</AwardTitle>
+    <AwardEffectiveDate>05/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>04/30/2018</AwardExpirationDate>
+    <AwardAmount>174949</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Research over the past 5 years on in-memory data center storage has resulted in systems that can provide on-demand access to billions of pieces of information per second. However, the benefits of these fast systems has not resulted in more powerful and interesting applications for users. The key problem is that these new storage systems are stripped down to provide speed and can only fulfill very basic requests for information. To compensate, applications must make many requests to these storage systems to perform the same operations they were able to perform with a single request to older database systems. The result is that applications spend most of the performance benefits they gain from these systems overcoming their limited programming model.&lt;br/&gt;&lt;br/&gt;This work seeks to understand the hidden costs of the limited interfaces of these large-scale in-memory key-value stores and to alleviate those costs with a new stored procedure model uniquely suited to these systems. To explore these costs, data-intensive applications from three different domains will be prototyped on today?s low-latency key-value stores, first with their conventional interfaces and then again with custom application logic built into the storage system. The results of this exploration will motivate and aid in the design of the main contribution of this work: a generalized model for safely collocating application logic inside of key-value stores. Application prototypes will include a scale-out database kernel, a simple scale-out graph database, and large-scale machine learning algorithms.&lt;br/&gt;&lt;br/&gt;A rich programming model for developing large-scale software systems will lower the barrier for building information-intensive applications: an art that requires specialized expertise. Low-latency systems equipped with fast stored procedures will be a powerful tool for building new, data-intensive systems in industry, science, and the military. They will enable deep real-time analysis of social and natural graphs; rich, interactive worlds where millions of users manipulate and modify a shared environment; the fine-grained coordination and routing of millions of autonomous vehicles on the highways in a metropolitan area; and real-time decision support for military intelligence. All components will be built as a practical and usable software system with all development done publicly and available as open-source.</AbstractNarration>
+    <MinAmdLetterDate>01/13/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/13/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1566175</AwardID>
+    <Investigator>
+      <FirstName>Ryan</FirstName>
+      <LastName>Stutsman</LastName>
+      <EmailAddress>stutsman@cs.utah.edu</EmailAddress>
+      <StartDate>01/13/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

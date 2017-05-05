@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Techniques and Tools for Enforcing Proximity-based Policies in Wireless Systems</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Wenjing Lou</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As wireless technologies become more pervasive, it becomes increasingly important for devices to authenticate the locations of other devices. For example, patients with implantable medical devices (IMDs) may reasonably expect that any device used to control their IMD would have to be within arm's reach, to help prevent unauthorized access to their device. In other words, IMDs should enforce policies based on the proximity, and in general the location, of wirelessly connected devices. Similar examples exist in many application areas: contactless payment terminals may require credit cards to be located in front of the terminals; wireless routers may require network users to be located in the same building; GPS devices may require signals to come from satellites (rather than from adversaries masquerading as satellites); and mobile phones may require signals to come from known, legitimate cell-tower locations. Hence, the security of many wireless devices could be improved by enforcing proximity-based policies on remote devices' locations.&lt;br/&gt;&lt;br/&gt;This project aims to address the problem that, although proximity-policy enforcement would improve the security of many wireless devices, robust techniques and tools do not yet exist for enforcing such policies. The project addresses this problem by creating such techniques and tools. The proximity-authentication techniques will allow a device to passively authenticate the location of remote device, without having to send messages to, or share secrets with, the remote device. They identify the proximity of a remote target by utilizing the multipath effect, in which a wireless signal sent by a transmitter propagates to the receiver in the air along multiple paths due to reflection, diffraction, and scattering. The proximity authentication decision is made based on amplitude ratios of wireless signal copies traveling on these prorogation paths. The proximity-policy enforcement tools will include (1) an expressive language, and a graphical interface, for specifying remote-device location policies, (2) an engine for statically analyzing specified location policies, in order to notify security engineers as to how accurately their policies can be enforced and whether their policies are unsatisfiable, and (3) a compilation module to transform valid policies into concrete enforcement code that can be inlined or otherwise hooked into a device's existing connection-establishment code.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527144</AwardID>
+    <Investigator>
+      <FirstName>Yao</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>yliu@cse.usf.edu</EmailAddress>
+      <StartDate>09/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jay</FirstName>
+      <LastName>Ligatti</LastName>
+      <EmailAddress>ligatti@cse.usf.edu</EmailAddress>
+      <StartDate>09/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of South Florida</Name>
+      <CityName>Tampa</CityName>
+      <ZipCode>336129446</ZipCode>
+      <PhoneNumber>8139742897</PhoneNumber>
+      <StreetAddress>3702 Spectrum Blvd.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

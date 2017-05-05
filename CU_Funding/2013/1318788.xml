@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Data Management for Real-Time Data Driven Epidemic Spread Simulations</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>515602</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The speed with which recent pandemics had immense global impact highlights the importance of realtime response and public health decision making, both at local and global levels. For instance, the SARS (Severe Acute Respiratory Syndrome) epidemic is estimated to have started in China in November 2002, had spread to 29 countries by August 2003, and generated a total of 916 confirmed deaths. A pandemic similar to the swine flu in 2009 is estimated to cost $360 billion in a mild scenario to the global economy and up to $4 trillion in an ultra scenario, within just the first year of the outbreak. Today, the key arsenal in the hands of decision makers who try to plan for and/or react to these outbreaks is software that enable model-driven epidemics and as well as the impacts of pharmaceutical and computer simulations for disease spreading. These software help predict geo-temporal evolution of non-pharmaceutical control measures and interventions, relying on data and models including social contact networks, local and global mobility patterns of individuals, transmission and recovery rates, and outbreak conditions. Unfortunately, because of the volume and complexity of the data and the models, the varying spatial and temporal scales at which the key transmission processes operate and relevant observations are made, today running and interpreting simulations to generate actionable plans are extremely difficult.&lt;br/&gt;&lt;br/&gt;If effectively leveraged, models reflecting past outbreaks, existing simulation traces obtained from simulation runs, and real-time observations incoming during an outbreak can be collectively used for obtaining a better understanding of the epidemic's characteristics and the underlying diffusion processes, forming and revising models, and performing exploratory, if-then type of hypothetical analyses of epidemic scenarios. More specifically, the proposed epidemic simulation data management system (epiDMS) will address computational challenges that arise from the need to acquire, model, analyze, index, visualize, search, and recompose, in a scalable manner, large volumes of data that arise from observations and simulations during a disease outbreak. Consequently, epiDMS fill an important hole in data-driven decision making during health-care emergencies and, thus, will enable applications and services with significant economic and health impact.&lt;br/&gt;&lt;br/&gt;The key observation is that the modeling and execution can be significantly reduced using a data-driven approach that supports data and simulation reuse in new settings and contexts. Relying on this observation, in order to support data-driven modeling and execution of epidemic spread simulations, this team will develop&lt;br/&gt;&lt;br/&gt;+ an epidemic data and model store (epiStore) to support acquisition and integration of relevant data and models.&lt;br/&gt;&lt;br/&gt;+ a novel networks-of-traces (NT) data model to accommodate multi-resolution, interconnected and inter-dependent, incomplete/imprecise, multi-layer (networks), and temporal (time series or traces) epidemic data.&lt;br/&gt;&lt;br/&gt;+ algorithms and data structures to support indexing of networks-of-traces (NT) data sets, including extraction of salient multi-variate temporal features from inter-dependent parameters, spanning multiple simulation layers and geo-spatial frames, driven by complex dynamic processes operating at different resolutions.&lt;br/&gt;&lt;br/&gt;+ algorithms to support the analysis of networks-of-traces (NT) datasets, including identification of unknown dependencies across the&lt;br/&gt;input parameters and output variables spanning the different layers of the observation and simulation data.&lt;br/&gt;&lt;br/&gt;The proposed NT data model and algorithms will be brought together in an epidemic simulation data management system (epiDMS). For broadest impact, the proposed epidemic simulation data management system (epiDMS) will be designed in a way that interfaces with the popular Global Epidemic and Mobility (GLEaM) simulation engine, a publicly available software suit to explore epidemic spreading scenarios at the global scale. To achieve necessary scalabilities, epiDMS will employ novel multiresolution data partitioning and resource allocation strategies and will leverage massive parallelism.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/22/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318788</AwardID>
+    <Investigator>
+      <FirstName>K. Selcuk</FirstName>
+      <LastName>Candan</LastName>
+      <EmailAddress>candan@asu.edu</EmailAddress>
+      <StartDate>08/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Gerardo</FirstName>
+      <LastName>Chowell-Puente</LastName>
+      <EmailAddress>gchowell@asu.edu</EmailAddress>
+      <StartDate>08/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Maria Luisa</FirstName>
+      <LastName>Sapino</LastName>
+      <EmailAddress>Marialuisa.Sapino@asu.edu</EmailAddress>
+      <StartDate>08/19/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Arizona State University</Name>
+      <CityName>TEMPE</CityName>
+      <ZipCode>852816011</ZipCode>
+      <PhoneNumber>4809655479</PhoneNumber>
+      <StreetAddress>ORSPA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

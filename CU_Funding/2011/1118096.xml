@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Small: New Directions in Encryption</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>495431</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ralph Wachter</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>New application scenarios (most notably arising from cloud computing) have given rise to a host of new security concerns. Unsurprisingly, classical notions of encryption leave much to be desired for dealing with these new application scenarios and concerns. Motivated by these concerns, we develop novel encryption systems that provide vastly greater functionality than classical notions of encryption. In particular, we focus on two broad research directions: Functional encryption and Efficient Secure Encodings of Computation. In functional encryption, instead of encrypting a message to an individual user, one can encrypt a general function f. If a receiving user possesses certain credentials X, then it obtains a secret key SK-X corresponding to those credentials. When this user obtains a ciphertext that is an encryption of f, by applying the decryption algorithm it obtains f(X), and no more. Efficient Secure Encodings of Computation is a totally new notion that has fundamental applications to novel expressive encryption schemes including functional encryption with public keys (recently introduced by the PI under the terminology ?Worry-Free Encryption?), and most notably controlled Homomorphic Encryption -- where expressive homomorphisms are possible on ciphertexts, but the initial encryptor can control what homomorphisms are allowed.</AbstractNarration>
+    <MinAmdLetterDate>07/23/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/23/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1118096</AwardID>
+    <Investigator>
+      <FirstName>Amit</FirstName>
+      <LastName>Sahai</LastName>
+      <EmailAddress>sahai@cs.ucla.edu</EmailAddress>
+      <StartDate>07/23/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

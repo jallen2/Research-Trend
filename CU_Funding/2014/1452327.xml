@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Locality-Aware Data Access Control for Future 1000-core Processors</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>127999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computer architectures will soon approach an era of single-chip multicore processors with hundreds or even thousands of heterogeneous cores connected via complex interconnection networks and cache hierarchies. These many-core processors will concurrently execute next generation applications, such as big data analytics, to exploit parallelism and specialization for power-performance efficiency. Furthermore, new memory technologies will be integrated to minimize energy-inefficient off-chip accesses. However, the technology trends indicate that wire scaling will slow down dramatically as compared to computation. The cost of moving data efficiently through the future many-core processors will become a major challenge. The increasing core counts with heterogeneous computation and communication capabilities, as well as applications that process massive data with varying degrees of locality and reuse, will introduce data access variations at different layers of the processor. &lt;br/&gt;&lt;br/&gt;This project proposes to dynamically exploit and co-optimize this variability in locality and reuse of data as it flows through the processor resources. The strategy is to adopt a hardware-software co-design approach, and develop fine-through-coarse-grain cross-layer mechanisms for locality-optimal data access in future many-core processors. This will be achieved using a novel locality-aware data access control utility (LDAC) that intelligently and cooperatively orchestrates data movement in the shared heterogeneous processor resources to deliver the efficiency promise. If successful, this project will be a major step forward towards a new computational model where runtime management of processor efficiency can be utilized to make tradeoffs with security, privacy, resilience, or accuracy of computation. The PI will build a holistic prototype simulation environment to demonstrate the efficacy of the proposed locality-optimal data access utility. The development of simulator infrastructure and a many-core prototype will allow the products of this research to be disseminated widely. This project will introduce practical multicore computing to graduate and undergraduate students with a focus on writing parallel software for performance and energy efficiency. The research outcomes will enable the design of future many-core processors that use low energy to execute parallel applications efficiently.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1452327</AwardID>
+    <Investigator>
+      <FirstName>Omer</FirstName>
+      <LastName>Khan</LastName>
+      <EmailAddress>khan@uconn.edu</EmailAddress>
+      <StartDate>08/06/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Connecticut</Name>
+      <CityName>Storrs</CityName>
+      <ZipCode>062691133</ZipCode>
+      <PhoneNumber>8604863622</PhoneNumber>
+      <StreetAddress>438 Whitney Road Ext.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Connecticut</StateName>
+      <StateCode>CT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: BAMM: Baseband Accelerators for Massive Multiple-Input Multiple-Output (MIMO) Technology</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>181665</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Chengshan Xiao</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Wireless communication is one of the fastest growing technologies worldwide creating ubiquitous access to mobile broadband services. The transition from one to several (typically two to four) antennas at both ends of the wireless link, known as multiple-input multiple-output (MIMO), was a key enabler for the growing data rates during the last decade. However, as the demands for data rates on the network are expected to increase by more than 1000x by 2020, novel transmission technologies beyond small-scale MIMO become necessary. This project will leverage recent theoretical results in massive MIMO, which promise that the use of hundreds of antennas at the base-station will enable orders-of-magnitude higher data rates than conventional small-scale MIMO systems. Since existing algorithms and current integrated circuit architectures are unable to sustain the excessive complexity caused by the massive amount of received data streams, this project will jointly consider algorithms and efficient (in terms of cost and power) computing architectures. The project will analyze system trade-offs to develop low-complexity algorithms and corresponding integrated circuits that will enable the capabilities of massive MIMO. Another goal of this project in terms of broader impact is to develop open-access education materials and semester-length courses on algorithms and hardware design aspects of massive MIMO. &lt;br/&gt;&lt;br/&gt;The computational complexity of existing data detection, multi-user interference suppression (pre-coding), and impairment-compensation algorithms in systems relying on massive MIMO grows super-linear in the number of base-station antennas. Thus, the associated computational complexity prevents the use of these algorithms in wireless systems having hundreds of antennas. To enable massive MIMO in future systems, the project develops a set of novel computationally efficient algorithms for detection, pre-coding, and impairment compensation that can be implemented in dedicated digital very-large scale integration (VLSI) circuits at low complexity and power. The proposed methods will rely on approximate algorithms using series expansions and convex optimization, which approaches optimal performance as the number of base-station antennas increases. Furthermore, novel antenna-selection schemes are developed with the goal of reducing the complexity and hardware costs incurred by the presence of hundreds of base-station antennas. In addition to theoretical analyses and algorithm development, experimental evaluation of the developed baseband accelerators will be conducted on early-stage academic prototype platforms. The results of this evaluation will be used to assess the performance, complexity, and power consumption of the developed algorithm accelerator designs in realistic environments and to identify both the potential capabilities and limits of massive MIMO systems.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/16/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1408370</AwardID>
+    <Investigator>
+      <FirstName>Joseph</FirstName>
+      <LastName>Cavallaro</LastName>
+      <EmailAddress>cavallar@rice.edu</EmailAddress>
+      <StartDate>08/20/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7564</Code>
+      <Text>COMMS, CIRCUITS &amp; SENS SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>106E</Code>
+      <Text>Mixed signal technologies</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>153E</Code>
+      <Text>Wireless comm &amp; sig processing</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

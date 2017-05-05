@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Efficient Traffic Analysis Resistance for Anonymity Networks</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>499795</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Wenjing Lou</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Internet users concerned about their privacy, including whistleblowers and dissident citizens of totalitarian states, depend on reliable means to access Internet services anonymously. However, recent events publicized in popular press demonstrate that these services offer little privacy and anonymity in practice. For example, recent subpoena requiring Twitter to provide connection details of suspected Wikileaks supporters showed that governments can readily discover the network identities of Web users. To restore and promote free speech on the Internet, there is a need for systems of communication that protect users from identification through their Internet activity---even from powerful adversaries such as state actors. The proposed research will enable this through design, implementation, and deployment of anonymous communication networks that prevent eavesdroppers from identifying the source, recipient, or content of Internet communication.&lt;br/&gt;&lt;br/&gt;Network anonymization services like Tor provide a higher degree of protection than direct communication with Web sites like Twitter, but are not designed to withstand traffic analysis (a technique that the British intelligence agency GCHQ is actively pursuing to deanonymize Tor users). While several researchers proposed designs for low-latency, traffic-analysis resistant anonymity networks, the performance of these systems was discouraging. This project will investigate anonymity network designs that are resilient to traffic analysis and that exhibit an acceptable benefit-cost ratio under some set of realistic assumptions. The project will leverage three key ideas: (i) combine trusted infrastructure (for mixing traffic) with untrusted P2P nodes (for scalability); (ii) incorporate the notion of zones to give users the ability to select the jurisdiction in which they trust their proxies to run; (iii) leverage empirically observed properties of communication workloads to develop optimized designs that provide acceptable performance/cost trade-offs. The goal is to produce networks that provide anonymity guarantees under a strong adversarial model for file sharing, Web traffic and real-time communication (VoIP), and that work for both fixed-line and mobile environments.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618955</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Choffnes</LastName>
+      <EmailAddress>choffnes@ccs.neu.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

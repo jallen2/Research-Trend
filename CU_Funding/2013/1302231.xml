@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Medium: Mining petabytes of data using cloud computing and a massively parallel cyberinstrument</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>1000000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>There is a growing need for effective approaches to mining very large, i.e., petabyte scale data sets in many areas of science, engineering, and business.&lt;br/&gt;&lt;br/&gt;The project aims to design, analyze, and implement a number of fundamental matrix-mining and graph-mining operations that are scalable to petabyte-sized inputs. Such efforts guarantee the continuation of the phenomenal growth in analyzing, visualizing, and extracting information from massive matrices and graphs. Project leverages Rensselaer's unique computing platform in the form of a massively parallel machine (a Blue Gene/Q) with access to approximately 1.2 petabytes of storage, as well as a data-staging layer, named the RAM Storage Accelerator (RSA) with 512 computational nodes and a a total of 8TBs of fast RAM. The platform is configurable to allow the computational nodes at the RSA level to be used to pre-process data from the secondary storage in a cloud-like fashion. The project aims design and analyze approximation algorithms for matrix and graph mining tasks that follow an iterative, two-step approach: given petabytescale data, first, using computationally inexpensive approaches to obtain compact data sketches using the RSA layer as a "cloud" in order to reduce their size from the petabyte scale to the terabyte scale. The resulting data sketches are processed using computationally demanding approaches on the Blue Gene/Q. This process is iterated using the approximate solutions in order to improve the quality of the sketches and the approximation guarantees. &lt;br/&gt;&lt;br/&gt;The research team expects to release software and libraries for matrix and graph mining algorithms that implement our two-phase approaches for PB-scale matrices and graphs. The resulting tools will be applied to the analysis of petabytes of data from computer simulations of the dynamics of biomolecular systems. The investigators plan to involve students and researchers from other institutions in the design, analysis, and development of the proposed methods through an internship program. The project also offers increased opportunities for research-based training in Data Analytics and High Performance Computing to graduate and undergraduate students at RPI. The results of the research will be made available to the academic community through the project web site.</AbstractNarration>
+    <MinAmdLetterDate>07/16/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/25/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1302231</AwardID>
+    <Investigator>
+      <FirstName>Bulent</FirstName>
+      <LastName>Yener</LastName>
+      <EmailAddress>byener@gmail.com</EmailAddress>
+      <StartDate>07/16/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>Carothers</LastName>
+      <EmailAddress>chrisc@cs.rpi.edu</EmailAddress>
+      <StartDate>10/25/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Christopher</FirstName>
+      <LastName>Carothers</LastName>
+      <EmailAddress>chrisc@cs.rpi.edu</EmailAddress>
+      <StartDate>07/16/2013</StartDate>
+      <EndDate>10/25/2016</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Mohammed</FirstName>
+      <LastName>Zaki</LastName>
+      <EmailAddress>zaki@cs.rpi.edu</EmailAddress>
+      <StartDate>07/16/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Petros</FirstName>
+      <LastName>Drineas</LastName>
+      <EmailAddress>pdrineas@purdue.edu</EmailAddress>
+      <StartDate>07/16/2013</StartDate>
+      <EndDate>10/25/2016</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Angel</FirstName>
+      <LastName>Garcia</LastName>
+      <EmailAddress>angel@rpi.edu</EmailAddress>
+      <StartDate>07/16/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rensselaer Polytechnic Institute</Name>
+      <CityName>Troy</CityName>
+      <ZipCode>121803522</ZipCode>
+      <PhoneNumber>5182766000</PhoneNumber>
+      <StreetAddress>110 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

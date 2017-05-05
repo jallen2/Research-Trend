@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Scrapple: Fast Analytical Query Evaluation via Advanced Query Recycling Techniques</AwardTitle>
+    <AwardEffectiveDate>01/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>10/31/2014</AwardExpirationDate>
+    <AwardAmount>126637</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frank Olken</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The complex analytical queries characterizing decision support applications can be very expensive to compute, and the value of such applications is directly correlated to the speed at which answers can be returned to the user. Typically, once queries have been answered, database systems simply discard the results. However, a huge optimization opportunity is missed by doing this: there is tremendous latent energy in the discarded query results, if we only knew how to recycle them to help answer subsequent related queries. The goal of the project is to develop Scrapple, a principled database management system that aggressively reuses old query results to speed up the answering of new queries, resulting in potentially dramatic performance gains for a large class of decision support applications.&lt;br/&gt;&lt;br/&gt;Scrapple's basic strategy is to view cached query results (and their intermediate subresults) as materialized views, and then employ advanced techniques for optimizing queries using materialized views to answer subsequent queries. To execute this strategy, the project develops: (1) a novel and comprehensive theory of differential reformulation strategies; (2) a set of unifying principles connecting incremental view maintenance and optimization of queries using materialized views; (3) a novel and comprehensive theory of data provenance for aggregate queries; and (4) practical implementation techniques for recycling cached results via cost-based search strategies. By using fully automated techniques, Scrapple will dramatically reduce the total cost of ownership of a typical data warehouse. Moreover, the techniques at the heart of our approach have wide application in areas such as data integration, data exchange, view maintenance, and data provenance. The research will also be used to develop lecture and project materials for new course modules. These educational materials, along the Scrapple source code and publications, will be made freely available at the project Web site, http://www.cs.ucdavis.edu/~green/scrapple.</AbstractNarration>
+    <MinAmdLetterDate>01/06/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>10/16/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1055107</AwardID>
+    <Investigator>
+      <FirstName>Todd</FirstName>
+      <LastName>Green</LastName>
+      <EmailAddress>green@cs.ucdavis.edu</EmailAddress>
+      <StartDate>01/06/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1187</Code>
+      <Text>PECASE- eligible</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

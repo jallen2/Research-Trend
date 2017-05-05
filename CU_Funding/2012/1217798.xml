@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Provisioning for Autonomous Data Analysis and Scenario Exploration</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In business intelligence and data-driven science, users often wish to consider various "what-if scenarios": hypothetical updates and query refinements. Unfortunately current techniques do not support this type of exploration when query answers have high latency, when data sources charge fees, or in mobile, disconnected settings. This project considers how, given a particular set of query aspects and updates, one can precompute a special data representation that can be stored on a client machine and can be used to directly answer queries under a variety of updates and what-if scenarios, without direct access to the data sources. The project achieves this goal by developing "provisioned representations" that capture a form of parameterized data instances, from which complex queries (even with multiple levels of aggregation) can be answered. The work develops: (1) the provisioned representation (PR) formalism, (2) means of encoding and storing PRs, (3) a query system and query processing techniques for PRs, (4) a "wizard" for generating PRs from parameterized scenarios, and (5) interactive tools for exploring changes to data and queries over PRs. The work will improve decision support systems and help enable "information foresight" - the ability to provide, given a question, answers that include additional data relevant to a user's interests. The project supports Ph.D. students, and also develops a new course on networked information management for the University of Pennsylvania's innovative Market and Social Systems Engineering undergraduate degree program on networks and markets. Data and code will be disseminated through public collaborative portals (GitHub, Google Code) and the project Web site (https://dbappserv.cis.upenn.edu/home/?q=node/173).</AbstractNarration>
+    <MinAmdLetterDate>08/27/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217798</AwardID>
+    <Investigator>
+      <FirstName>Zachary</FirstName>
+      <LastName>Ives</LastName>
+      <EmailAddress>zives@cis.upenn.edu</EmailAddress>
+      <StartDate>08/27/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Val</FirstName>
+      <LastName>Tannen</LastName>
+      <EmailAddress>val@cis.upenn.edu</EmailAddress>
+      <StartDate>08/27/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

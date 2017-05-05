@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: TTP Option: Small: A Linux ARM Hypervisor for System Security</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>635103</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita Nikolich</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Mobile devices and embedded systems have become ubiquitous in our society. Such systems use ARM processors, which differ greatly from the traditional x86 processors found in larger computing devices. As devices become smaller, there is a growing demand for virtualization, which provides benefits such as energy efficiency and the ability to use the device in multiple operational modes. Virtualization is especially important in the context of system security as many security mechanisms leverage virtualization as a core technology for fault containment and isolation, intrusion detection, malware analysis, and the detection, diagnosis, and remediation of software vulnerabilities. &lt;br/&gt;&lt;br/&gt;To address the challenges of ARM virtualization, this project designs, implements, and deploys KVM/ARM, an open-source ARM hypervisor in the Linux operating system. Since the traditional x86 architecture is vastly different from ARM, past work on x86 hardware support for virtualization cannot be carried over to ARM. In addition, ARM processors vary greatly since each licensee of the ARM technology adapts and changes the systems software to meet their needs. Successfully creating an ARM hypervisor that is adaptable across a range of ARM implementations offers rich opportunities for incorporating security into the hardware itself. Adopting this research into mainline Linux code ensures that capability is broadly available on a supported foundation for system security research.</AbstractNarration>
+    <MinAmdLetterDate>09/02/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/02/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422909</AwardID>
+    <Investigator>
+      <FirstName>Jason</FirstName>
+      <LastName>Nieh</LastName>
+      <EmailAddress>nieh@cs.columbia.edu</EmailAddress>
+      <StartDate>09/02/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

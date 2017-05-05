@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>From Frames to Events: A Statistical Approach to Activity Analysis in Multi-Camera Systems</AwardTitle>
+    <AwardEffectiveDate>07/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2013</AwardExpirationDate>
+    <AwardAmount>507364</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>John Cozzens</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>From Frames to Events: A Statistical Approach to Activity Analysis in Multi-Camera Systems&lt;br/&gt;&lt;br/&gt;Venkatesh Saligrama and Janusz Konrad, Boston University, MA 02215&lt;br/&gt;&lt;br/&gt;Unlike other sensors, cameras provide excellent resolution, long viewing range,&lt;br/&gt;wide field of view and low latency thus permitting pervasive, wide-area visual&lt;br/&gt;surveillance. However, most network cameras deployed today are simple&lt;br/&gt;capture/compression/transmission devices, at most supporting rudimentary motion&lt;br/&gt;&lt;br/&gt;detection; all higher-level processing is highly centralized. This centralized&lt;br/&gt;architecture stems from human-centric visual analytics as well as limited&lt;br/&gt;in-camera processing capacity, and is not scalable to large multi-camera&lt;br/&gt;systems. With over 30 million surveillance cameras in use in the United States&lt;br/&gt;today, that produce 4 billion hours of video footage per week, monitoring by&lt;br/&gt;human operators is obviously not sustainable. An autonomous, distributed,&lt;br/&gt;bandwidth-efficient, real-time video analytics system is needed.&lt;br/&gt;&lt;br/&gt;This project makes a step towards building such a system. At its core is a&lt;br/&gt;novel statistical framework for activity discovery and analysis that departs&lt;br/&gt;from the centralized model and leverages processing power of camera nodes.&lt;br/&gt;While traditional activity analysis operates at object level, e.g., objects are&lt;br/&gt;identified, tracked, and tested for abnormality, methods under development in&lt;br/&gt;this project employ activity analysis at pixel level. If the abnormal activity&lt;br/&gt;is reliably identified, then object extraction and tracking focus on region of&lt;br/&gt;interest and thus are relatively straightforward, on account of absence of&lt;br/&gt;clutter. In order to reliably identify pixel-level abnormalities, or more&lt;br/&gt;generally activities, a novel event-based video representation is used that&lt;br/&gt;decomposes video into iid samples lending itself to the application of&lt;br/&gt;statistical learning. In order to facilitate multi-camera collaboration,&lt;br/&gt;geometric invariance of dynamic events is exploited thus bypassing the&lt;br/&gt;difficult issues related to 3-D geometry dependent on viewing angles.</AbstractNarration>
+    <MinAmdLetterDate>07/02/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/02/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0905541</AwardID>
+    <Investigator>
+      <FirstName>Janusz</FirstName>
+      <LastName>Konrad</LastName>
+      <EmailAddress>jkonrad@bu.edu</EmailAddress>
+      <StartDate>07/02/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Venkatesh</FirstName>
+      <LastName>Saligrama</LastName>
+      <EmailAddress>srv@bu.edu</EmailAddress>
+      <StartDate>07/02/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Trustees of Boston University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>022151300</ZipCode>
+      <PhoneNumber>6173534365</PhoneNumber>
+      <StreetAddress>881 COMMONWEALTH AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

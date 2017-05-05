@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Efficient Algorithms for Uncertainty Quantification in High Dimensions</AwardTitle>
+    <AwardEffectiveDate>08/16/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>105833</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Uncertainty quantification (UQ) has become an integral part of today's scientific computing, as it is essential to the understanding of the impacts of various uncertain inputs (boundary and initial data, parameter values, geometry, etc.) to numerical predictions. UQ is thus critical to many important practical problems such as climate modeling, weather prediction, ocean dynamics, bio-chemical reactions, etc. One of the biggest challenges in UQ computations is the simulation cost, as UQ makes the traditional computations in much higher dimensional parameter spaces. For large and complex systems, the standard baseline deterministic simulations can be very time consuming, and conducing UQ simulations will further increase the simulation cost and can be prohibitively expensive. This is precisely the core issue this project intends to address and study. A novel set of highly efficient UQ algorithms will be developed to make UQ simulations amenable for large and complex systems. The new algorithms will significantly advance the current state-of-the-art of UQ methods. One prominent feature of the new algorithms is that they are designed to produce mathematically optimal UQ simulation results based on given affordable simulation capacity. While the traditional UQ methods seek to provide the smallest cost at fixed accuracy, the new methods will provide the best results at fixed affordable cost. This new feature thus makes the new algorithms ideally suited for practical UQ simulations of large and complex systems, and will have a profound impacts in various multidisciplinary fields where UQ is critical.&lt;br/&gt;&lt;br/&gt;The core group of the new algorithms will be based on stochastic collation (SC). In order to provide optimal prediction under given and limited simulation capacity, this project is to develop a set of novel and efficient stochastic collocation methods, with a focus on high dimensional problems using very few number of samples. An important and fundamental assumption is made: the number of the sample runs and the location of the samples are arbitrary and given by practitioners. The goal is then to seek the best approximation in the potentially very high dimensional parameter space, based on the given samples. The proposed research consists of three major approaches: (1) arbitrary interpolation type SC; (2) sparse regression type SC; and (3) multi-fidelity SC. In all cases, the number of high-fidelity simulations is assumed to be limited and given by the available simulation capacity, and methods are constructed to produce the best possible UQ simulations. All methods will be mathematically rigorous, as their constructions rely heavily on approximation theories in high dimensions; and also easy to implement, as they are the non-intrusive SC methods.</AbstractNarration>
+    <MinAmdLetterDate>09/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1656459</AwardID>
+    <Investigator>
+      <FirstName>Dongbin</FirstName>
+      <LastName>Xiu</LastName>
+      <EmailAddress>xiu.16@osu.edu</EmailAddress>
+      <StartDate>09/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8396</Code>
+      <Text>Clean Energy Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8609</Code>
+      <Text>Other Energy Research</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

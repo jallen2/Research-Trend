@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Development of rare-event sampling techniques for predicting structures and free energies of crystal polymorphs and oligopeptides</AwardTitle>
+    <AwardEffectiveDate>08/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2020</AwardExpirationDate>
+    <AwardAmount>290000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03090000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Chemistry</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Evelyn M. Goldfield</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Mark Tuckerman of New York University is supported by an award from the Chemical Theory, Models and Computational Methods program in the Chemistry Division to develop methods and software for the prediction of molecular crystal structure. This award is cofunded by the CISE/ACI Software Reuse Venture Fund. In the science of materials, ordered arrays of molecules forming structures known as molecular crystals play an essential role in the pharmaceutical, electronics, and defense industries. Often, the crucial question is which crystals should be made for a particular application. It is worth noting that one of the most widely used pharmaceutical molecular crystals, aspirin, was discovered essentially by accident. Typically, in crystal engineering, it is necessary to screen large databases of potential candidate compounds. Unfortunately, making and characterizing molecular crystals in the laboratory is generally time consuming and costly, rendering a trial-and-error approach through such a database impractical. How many more important molecular crystal systems might be discovered if a systematic, targeted approach could be applied? Theory and computation, which can, in principle, rapidly predict molecular crystal structures and their properties, are uniquely poised to play a key role in creating such a targeted approach. What is needed, however, are robust algorithms for making these predictions. The Tuckerman group develops computational techniques and software for predicting the crystal structures a given compound can form and ranking them according to a thermodynamic property known as free energy, which has been recognized in the scientific community as the proper figure of merit for such a ranking but has remained an elusive property to determine. The Tuckerman group also adapts these algorithms for studying the conformational preferences of short chains of amino acids known as oligopeptides in order to explore the role these important biological molecules play in immunogenicity and the design of new classes of pharmaceuticals. Tuckerman and his coworkers are engaged in many software activities including developing a computer package for crystal structure prediction, improving the efficiency of their molecular dynamics software, PINY-MD and continuing to contribute software to many community software codes. All of the software developed in this project is made available to the broader research community. &lt;br/&gt;&lt;br/&gt;The basic properties of molecular materials in the solid state are often strongly influenced by the details of their crystal structures and the existence of polymorphs. Experimental determination of these structures is costly and time-consuming, which places increased importance on the role of theory and computation. Similarly, the biochemical function of small oligopeptides, from immunogenicity to inhibition, is affected by their equilibrium conformations in different environments. Computational prediction of structure in complex systems such as these is challenging due to the so-called rare-event sampling problem on a rough potential energy landscape, which arises when attempting to study the equilibrium thermodynamics and kinetics of many complex systems. Roughness on an energy surface refers to the existence of high barriers to conformational and structural changes. The Tuckerman group has proposed to develop robust free-energy based enhanced sampling algorithms and software for overcoming the rare-event problem that arises in the crystal structure prediction and conformational sampling of oligopeptides, thereby allowing favored structures to be identified and thermodynamically ranked in an efficient manner. In the proposed methods, the free energy landscape is expressed in terms of select set of collective variables (CVs) designed to distinguish the different structural motifs in these systems. The CVs are first be subject to new surface navigation techniques in order to identify the minima and saddles points, collectively referred to as "landmarks" on the landscape, and then targeted for enhanced sampling in order to produce the free energy ranking of the landmarks. The new techniques are applied to predict the crystal structures and polymorphs of both rigid and flexible small organic molecules, to study the conformational free energy landscape of an immunogenic peptide binding to the major histocompatibility complex, and to understand the influence of mechanical force on the unfolding mechanism of â-hairpin peptide. Software creation will be accelerated via hackathons organized by the Tuckerman group. Education of students in rare-event methods is aided through workshops organized at New York University's global campus sites. Finally, the Tuckerman group reaches out to underrepresented groups via national organizations having a presence in New York City in order to help devise and participate in STEM-related educational activities.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/19/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1565980</AwardID>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Tuckerman</LastName>
+      <EmailAddress>mark.tuckerman@nyu.edu</EmailAddress>
+      <StartDate>08/19/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>6881</Code>
+      <Text>Theory, Models, Comput. Method</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>6892</Code>
+      <Text>CI REUSE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

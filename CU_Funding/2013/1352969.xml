@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER:Real-time Semantics for the ParalleX Execution Model to Enable Single-Image Multicore Embedded Computing</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2016</AwardExpirationDate>
+    <AwardAmount>255000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Two extremes of modern computing are supercomputers in the Petaflops performance regime taking up thousands of square feet and embedded computing found in cell phones, automobiles, and TV remote controls. Yet these apparently disparate classes of computing devices have many properties and requirements in common and, in fact, are converging. Power, reliability, multicore, efficiency, and programmability are among the many demands that these two historically separate forms share. The multicore challenge demands a new strategy for organizing and conducting concurrent tasks, which is referred to as a "model of computation" or alternatively an "execution model". Typically embedded computers have been programmed individually by cores to guarantee real-time operation. But as their performance requirements grow, embedded processors will have to depend on multiple cores to achieve needed response time. Supercomputers are relying on multicore components with exponentially growing number of cores per socket to deliver increased performance with technology advances. This project is producing a new version of the ParalleX execution model to support embedded real-time multicore operation while imbuing future supercomputers with the semantics of real-time for introspection, enabling dynamic adaptive resource management and task scheduling. This further advances future supercomputers, as a current trend is to replace heavyweight cores such as the IBM Power architecture or the Intel x86 architecture with lightweight cores similar to embedded processors like the IBM PowerPC architecture or the Intel Xeon Phi architecture. Other supercomputer projects are exploring the use of the ARM embedded cores for high performance systems. The availability of the ParalleX real-time execution model will unify both embedded control computers and high performance computers for mutual support and benefit. Key results of this project will be a new runtime system that can serve both embedded and high performance computing systems and a programming interface to facilitate scalable application development of both.&lt;br/&gt;&lt;br/&gt;The project's broader significance is that it will dramatically strengthen US competitiveness in both realms of computing-critical domains and enhance the nation?s economic development while addressing key challenges to the advancement of both. The field of supercomputing is facing a major challenge in how to continue to exploit technology advancement and the ParalleX execution model augmented with real-time introspection is providing the guiding principles to support co-design of architecture, programming methods, and system software and tools. Embedded control computers need to be able to use parallel processing with a single-system image for ease of programming and adaptive resource utilization. ParalleX will provide this capability. Finally, through the work of this project, future embedded processors will become the building blocks of the next generation of high performance computing to achieve exascale performance by decade's end.</AbstractNarration>
+    <MinAmdLetterDate>08/29/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/10/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1352969</AwardID>
+    <Investigator>
+      <FirstName>Maciej</FirstName>
+      <LastName>Brodowicz</LastName>
+      <EmailAddress>mbrodowi@indiana.edu</EmailAddress>
+      <StartDate>08/29/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Sterling</LastName>
+      <EmailAddress>tron@indiana.edu</EmailAddress>
+      <StartDate>08/29/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Software Abstractions for Stochastic Embedding in Predictive Simulations on Extreme-Scale Cyberinfrastructure</AwardTitle>
+    <AwardEffectiveDate>02/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2019</AwardExpirationDate>
+    <AwardAmount>499412</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sushil Prasad</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computer simulations for scientific problems are now considered as the third pillar of scientific inquiry, where simulation-based prediction for increasingly complex real-world problems has been matched with the growth in computing power. These physical problems can be described mathematically through models that encompass complex stochastic multiscale systems. In such models several terms and parameters are uncertain and not accounting for these uncertainties in the system-level prediction can lead to significant inaccuracies and futile predictions. For reliable predictions, the uncertainties must be statistically quantified to understand their effects on quantities being evaluated by the simulation. This need has given rise to several simulation tools that have been applied to tackle challenging problems. However, these simulation tools are often integrated in an ad-hoc fashion leading to under utilization of the hardware, or limited applicability in terms of the problem at hand, or both. Therefore, algorithmic and software elements and abstractions are needed that can re-use existing components, and support creation of new ones, such that they can be integrated with ease to construct effective tools for stochastic simulations.&lt;br/&gt;&lt;br/&gt;To achieve this goal, this project is investigating novel abstractions based on a rigorous and systematic approach to stochastic embedding techniques. Stochastic embedding implies insertion of uncertainty propagation loops/samples in the calculations within the physics engine. The idea of embedding is to increase the computational efficiency. With embedding, different software components become aware of the stochastic discretization and account for it not only in the underlying floating-point operations but also in parallelization and communications. The focus of this project is on generalizations that target different physics analysis codes and a broad range of stochastic discretization techniques including adaptive collocation, low-rank separated representation, and stochastic Galerkin. The ultimate goal is to achieve tremendously efficient and new levels of reliable predictive simulations on next-generation computing platforms and cyberinfrastructure, where the size of the overall stochastic problem is enormous (e.g., with many trillions of degrees-of-freedom in the joint spatiotemporal-stochastic space).&lt;br/&gt;&lt;br/&gt;The research goal is to provide remarkable improvements in our ability to reliably predict and control the performance of complex stochastic multiscale systems, which in-turn will have great scientific, economic and social impacts (e.g., in making energy generation and management systems highly efficient and reliable). The resulting techniques are expected to be applicable to other broad research areas such as large-scale parametric studies, optimization and inverse problems. This project builds on a comprehensive three-pronged education plan that includes K-12, undergraduate and graduate students as well as broader community (including industry). The idea is to educate and grow the next generation of researchers focused on advanced computing and computational science. This will be done through summer camps, courses and workshops. In order to have the maximum impact, results from this research will be disseminated via a variety of methods such as conference presentations, journal papers, software documents, and tutorials.</AbstractNarration>
+    <MinAmdLetterDate>02/04/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/04/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1350454</AwardID>
+    <Investigator>
+      <FirstName>Onkar</FirstName>
+      <LastName>Sahni</LastName>
+      <EmailAddress>sahni@rpi.edu</EmailAddress>
+      <StartDate>02/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rensselaer Polytechnic Institute</Name>
+      <CityName>Troy</CityName>
+      <ZipCode>121803522</ZipCode>
+      <PhoneNumber>5182766000</PhoneNumber>
+      <StreetAddress>110 8TH ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

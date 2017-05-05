@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Optimal Dose-Response Learning</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>287878</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Diwakar Gupta</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Medical treatment for diseases such as rheumatoid arthritis, hepatitis C, and cancer often requires the administration of doses in multiple sessions. Higher doses achieve better disease-control but have a higher risk of side effects. Lower doses have lesser side effects but may lead to inadequate disease-control. Since each patient's response to treatment is uncertain, the need to effectively balance this trade-off pervades all of medicine. Consequently, within the field of personalized medicine, there has been a recent surge of interest in the idea of response-guided dosing. The goal is to administer the right dose to the right patient at the right time, based on the observed evolution of each patient's disease condition. To attain this goal, it is crucial to better-learn patients' dose- response as treatment progresses. Expert panels and government regulatory bodies have therefore called for analytical tools to facilitate such learning-while-doing. The research objective of this award is to develop a mathematically rigorous, theoretical and computational framework for optimal dose-response learning while treating a cohort of patients in clinical trials for response-guided dosing. Millions of patients in the U.S. suffer from diseases that require multiple-session treatments. Thus, if successful, the mathematical framework in this award has the potential for a considerable societal impact.&lt;br/&gt;&lt;br/&gt;More specifically, this project plans to use Bayesian stochastic dynamic programming formulations and approximate solution methods rooted in convex programming to facilitate response-learning and dosing decisions. The state in these models equals the cohort's disease conditions and decisions equal the doses administered. Disutility functions model the cohort's aversion to doses and to the disease conditions reached at the end of the trial. The decision-maker's prior belief is assumed to be conjugate to the dose-response parameter's distribution. The information state thus equals the prior's hyperparameters and updates via a simple formula. The decision-make's goal is to minimize the total expected disutility of the doses administered and of the disease conditions reached. Exact solution of this formulation is computationally intractable. Two approximate control schemes called semi-stochastic certainty equivalent control and certainty equivalent control are therefore planned. Structural properties such as monotonicity, stationarity, and separability of the resulting dosing policies will be analyzed and exploited for efficient solution. Variations such as optimal stopping problems, model selection problems, and problems with imperfect measurements will be studied. Clinical data on rheumatoid arthritis will be employed to calibrate the models, and to validate and compare the dosing policies derived via computer simulations.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1536717</AwardID>
+    <Investigator>
+      <FirstName>Archis</FirstName>
+      <LastName>Ghate</LastName>
+      <EmailAddress>archis@u.washington.edu</EmailAddress>
+      <StartDate>07/29/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>006Y</Code>
+      <Text>Service, Manufacturing, and Op</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>076E</Code>
+      <Text>SERVICE ENTERPRISE SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>078E</Code>
+      <Text>ENTERPRISE DESIGN &amp; LOGISTICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8023</Code>
+      <Text>Health Care Enterprise Systems</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

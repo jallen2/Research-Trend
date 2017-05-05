@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Large-Scale Optimization for Biomolecular Modeling</AwardTitle>
+    <AwardEffectiveDate>08/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2012</AwardExpirationDate>
+    <AwardAmount>124594</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Project Abstract&lt;br/&gt;&lt;br/&gt;Two classes of optimization problems arising in protein modeling are investigated. The first class is for solving a generalized distance geometry problem for protein structure determination, where a large scale nonlinear constrained optimization problem needs to be solved. The second class is for solving a boundary-value problem for simulation of protein conformational transition. A geometric buildup algorithm is to be developed for the solution of the generalized distance geometry problem by determining the points (and their spheres), one at a time, using the distance bounds between the determined and undetermined points (and their spheres). The existence and uniqueness of the solution of the optimization problem, the necessary and sufficient conditions for obtaining a solution, and the convergence of the algorithm, will be analyzed. The algorithm will be tested on a large set of problems generated from existing protein structures, and be integrated into existing modeling software for practical applications. A multiple-shooting scheme is to be developed for the solution of the boundary-value problem. In particular, a constrained nonlinear least-squares problem is formulated for the implementation of the multiple-shooting scheme. The issues on the choice of the norm to be minimized, the formation of the initial trajectories, and the convergence of the algorithm, will be addressed. The algorithm will be tested on small to medium size problems (with up to several hundreds of atoms and nanoseconds of simulations) and extended to real and large scale simulation problems (with up to several thousands of atoms and milliseconds of simulations). &lt;br/&gt;Many problems in biomolecular modeling are formulated as optimization problems, such as the phase problem in X-ray crystallography, the distance geometry problem in nuclear magnetic resonance spectroscopy (NMR), and potential energy minimization problem for protein folding. These problems are typically in large scale with the number of variables or constraints ranging from tens to hundreds of thousands. They are difficult to solve as well since many of them demand a globally optimal solution and have proven to be computationally intractable in general. This project involves the development of novel algorithms for the solution of two large, difficult, yet critical classes of optimization problems arising in protein modeling. It promises a significant increase in the power of the current technologies for protein modeling, especially for NMR protein structure determination and simulation of protein conformational transition. It has potential impacts in such important biological and medical applications as structural genomics, rational drug design, and cancer and AIDS research. The problems to be investigated also represent two classes of interesting mathematical problems. But they have not been well posed, studied, and solved before. The proposed project will encourage research on these problems and help to advance the theory and algorithmic development in related mathematical areas such as distance geometry and optimization.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0914354</AwardID>
+    <Investigator>
+      <FirstName>Zhijun</FirstName>
+      <LastName>Wu</LastName>
+      <EmailAddress>zhijun@iastate.edu</EmailAddress>
+      <StartDate>08/04/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Iowa State University</Name>
+      <CityName>AMES</CityName>
+      <ZipCode>500112207</ZipCode>
+      <PhoneNumber>5152945225</PhoneNumber>
+      <StreetAddress>1138 Pearson</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Iowa</StateName>
+      <StateCode>IA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

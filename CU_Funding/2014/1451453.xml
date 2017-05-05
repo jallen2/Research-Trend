@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Machine Learning to Combat Adversarial Attacks</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>104997</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Weng-keen Wong</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In domains such as spam and fraud, adversaries actively modify their behavior to avoid being detected by a system constructed to identify attacks. For example, spammers add and remove words from their email messages in order to bypass filters, and web spammers try to deceive search engines by creating "link farms" to make a web site seem important. This project analyzes how adversaries evade classifiers and develops new algorithms, based on a novel combination of machine learning and the theory of designing actions in the face of adversaries, that are more robust. In particular, it will focus on classifiers that use data compression statistics and graph structure to make predictions. These classifiers are popular and effective in a growing number of domains, but also challenging to analyze. The analyses and algorithms developed in this project will be useful for building machine learning systems more accurate in the face of evasive adversaries. This will improve our ability to fight web spam, social network spam, online auction fraud, credit card fraud, and more. Given the high worldwide cost of cybercrime, even a small increase in accuracy could save millions of dollars per year.&lt;br/&gt;&lt;br/&gt;Most previous work on modeling adversaries in machine learning has been limited to linear classifiers with features that can be manipulated independently. These results tell us little about the vulnerabilities of widely used non-linear classifiers. Such models also ignore the relational structure necessary to identify social network spam, comment spam, fake reviews, and more. This project takes the first steps towards a much broader understanding of the weaknesses present in machine learning methods, and how best to eliminate them. Specifically, the project explores how an intelligent adversary can evade non-linear compression-based classifiers in the face of features that are highly interdependent. System designers can use these results to understand possible system vulnerabilities and intelligently choose classifiers that are less vulnerable. To learn more robust models, this project integrates a model of the adversary into learning algorithms, optimizing its performance against the adversary's best response. The work focuses on structured prediction, which can model relationships among objects, such as users in a social network, and complex adversarial actions, such as creating new accounts or buying followers. These new methods are evaluated on synthetic and real-world adversarial domains, including Twitter spam.</AbstractNarration>
+    <MinAmdLetterDate>08/20/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/20/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1451453</AwardID>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Lowd</LastName>
+      <EmailAddress>lowd@cs.uoregon.edu</EmailAddress>
+      <StartDate>08/20/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Oregon Eugene</Name>
+      <CityName>Eugene</CityName>
+      <ZipCode>974035219</ZipCode>
+      <PhoneNumber>5413465131</PhoneNumber>
+      <StreetAddress>5219 UNIVERSITY OF OREGON</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

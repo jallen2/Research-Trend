@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-EHS: Integrated Memory Allocation and Scheduling for Real-Time Embedded Systems</AwardTitle>
+    <AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2012</AwardExpirationDate>
+    <AwardAmount>180000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>D. Helen Gill</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many of the conveniences of modern life are made possible by embedded computing systems. This project is developing new methods to make such systems use their limited resources more efficiently, increasing performance, reducing costs and energy requirements. &lt;br/&gt;&lt;br/&gt;Modern general-purpose computers (PCs, servers, etc.) owe most of their high processing speed to caches. These memory system components fetch data from the slow (but inexpensive) main memory for the fast processor before it even realizes it needs it. Unfortunately the performance offered by caches is very difficult to guarantee, greatly complicating the prediction of a program's worst-case performance. This prediction is essential for a broad class of embedded and control systems ? those with real-time requirements. Such systems must respond to inputs before a deadline elapses or else something will fail. Hence such systems must be over-provisioned to cover the ?margin of ignorance?, raising costs and energy requirements.&lt;br/&gt;&lt;br/&gt;This project is developing methods to provide memory accesses as fast as with a cache, but without any of the timing uncertainty, making this technology suitable for real-time systems. The research team uses a unified approach which cuts across compilers, operating systems, and computer architecture to create a much more efficient solution than possible by considering the problems separately. The fundamental insight is that by limiting preemption among threads, one can reduce the total memory required, allowing more data to be stored in fast memory. This speeds thread execution, allowing further reduction of preemptions (and hence memory requirements) leading to a repeatable, virtuous cycle.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720797</AwardID>
+    <Investigator>
+      <FirstName>Alexander</FirstName>
+      <LastName>Dean</LastName>
+      <EmailAddress>alex_dean@ncsu.edu</EmailAddress>
+      <StartDate>08/06/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Rotenberg</LastName>
+      <EmailAddress>ericro@ncsu.edu</EmailAddress>
+      <StartDate>08/06/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

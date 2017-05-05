@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Exerting Logically Centralized Control over Legacy Switches via Incremental SDN Deployment</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The emerging software-defined networking (SDN) paradigm is rapidly shaping the field of networking, both in terms of academic research and industrial development. Thanks to its many benefits, earliest adoption of SDN occurs in data center networks; it has also been applied to wide-area networks (WANs). However, a predominant majority of networks on the Internet are enterprise networks, where deployment of SDN faces major challenges. Most enterprise networks are comprised of legacy Ethernet switches, where IP (Internet Protocol) routers are used primarily as gateways to route between IP subnets and to connected to the campus IP core networks for external Internet connectivity. These enterprises often run mission-critical applications that rely on legacy hardware devices and/or software components. It is therefore imperative to be able to incrementally deploy SDN in enterprise networks to eliminate or minimize disruptions to existing services and applications while gradually building confidence. &lt;br/&gt;&lt;br/&gt;This project puts forth a novel framework for incremental and graceful transition of legacy networks comprised primarily of layer-2 Ethernet switches to SDN-capable networks. Instead of requiring a wholesale upgrade of a legacy network to a SDN-capable network which is not only expensive but can be very disruptive or converting portions of a network into "islands of SDN networks" which only allow these SDN islands to enjoy the benefits of SDN, the principal investigator (PI) advocates that it is not only possible but in fact advantageous to migrate a network of legacy switches only to a hybrid network of mixed legacy switches and SDN-enabled switches while at the same time reaping as much benefit as a fully deployed SDN network. The key idea behind the framework -- referred to as magnetizer -- is that by replacing one or a few strategically placed layer-2 legacy switches with SDN-capable switches in the network, the magnetizer SDN controller can influence and effect changes in the forwarding behavior of legacy switches and end hosts so as to gain visibility and exert control over these devices without the need to make any modifications to existing legacy hardware devices or software components.&lt;br/&gt;&lt;br/&gt;Broader Impact: If successful, the research project will provide a cost-effective incremental deployment framework for gracefully transitioning legacy networks in stages to SDN-capable networks, which allows network operators to gradually build confidence while controlling and minimizing the potential impact of such transitions. It offers the potential to reap the benefits of a fully deployed SDN in a hybrid network with only a few SDN-capable switches deployed. Such capabilities would simplify network management tasks and reduce mistakes caused by error-prone manual management tasks, leading to a more reliable networked system. In a larger social context, the ability to better manage and secure complex networks which underpin today's and future Internet applications and services will bring significant benefits to the society. The PI will actively involve undergraduate students -- especially female students and underrepresented minorities in the research project, e.g., via NSF Research Experiences for Undergraduates (REU) grants, Undergraduate Research Opportunities Program (UROP) and senior design courses at the PI's institution. The PI will release the software in public domains for wide distribution and adoption, and engage in other outreach activities.</AbstractNarration>
+    <MinAmdLetterDate>08/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618339</AwardID>
+    <Investigator>
+      <FirstName>Zhi-Li</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>zhzhang@cs.umn.edu</EmailAddress>
+      <StartDate>08/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

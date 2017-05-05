@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EPCN - Online Optimization for the Control of Small Autonomous Vehicles</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>359838</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Radhakisan S. Baheti</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project aims at carrying out fundamental research towards taking advantage of the opportunities enabled by low-cost and low-power microprocessors, digital sensors, and communication devices for the design of feedback control systems. While the project's goal is to develop methodologies that can find application on a wide range of control systems, the control of small autonomous networked mobile agents will be used to focus the research and to validate the technologies developed. The interest in mobile agents for civilian applications is at an all-time high, motivated by a large number of applications, including mapping and surveying, infrastructure inspection, environmental monitoring, agricultural monitoring, precision agriculture, livestock management, among many others. In fact, it was foreseen that the legalization of commercial drones will create an economic impact of $82 billion until 2025 and that agriculture would provide the most substantial portion of that growth. This proposal is focused on autonomous and networked mobile agents, as autonomy and network connectivity allow groups of agents to carry out tasks faster and more reliably. The proposed activities will have a strong educational component aimed at motivating students to pursue advanced degrees in the sciences and engineering, through a combination of activities aimed attracting high-school students to the STEM disciplines through a Summer Internship program, exposing undergraduate students to research, and expanding the opportunities for mentoring and professional development for graduate students.&lt;br/&gt;&lt;br/&gt;The wide range of small, low-power, low-cost microprocessors, solid-sate sensors, and communication devices point to control architectures in which feedback loops are composed of multiple units connected through shared communication networks. These units will include controllers, sensors, and actuators, each endowed with the ability to perform some level of local computation. The use of shared networks results in architectures that are extremely flexible, easy to deploy, and highly reconfigurable, but also introduce additional challenges because the traditional unity feedback loop that operates in continuous time or at a fixed sampling rate is not adequate when sensor data arrives from multiple sources, asynchronously, delayed, and possibly corrupted. However, this challenge is mitigated by the availability of significant computational power at each node, enabling novel forms of control design. An attractive alternative to traditional forms of feedback control design relies in the use of online optimization algorithms that search directly for control actions and directly incorporate in this search all (or most of) the desired design constraints, including those constraints related to performance and robustness with respect to faults. Until a few years ago, the use of online optimization was mostly restricted to the control of slow processes, such as in chemical process control, supply chain management, or enterprise control, because of the long times required by the optimization engines. Nevertheless, when sampling was sufficiently slow, techniques like Model Predictive Control (MPC) and Moving Horizon Estimation (MHE) enjoyed an impressive success and became the de-facto standard in many domains. The technological advances in microprocessors, solid-sate sensors, and communication devices mentioned above have the potential to enable online-optimization to reach a wide range of applications with fast sampling times and limited energy budgets, including the control of small autonomous networked mobile agents. The research proposed will make significant contributions towards the development of principled approaches for control based on the integration of Model Predictive Control (MPC) and Moving Horizon Estimation (MHE) to achieve in stable and high performance feedback control systems.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1608880</AwardID>
+    <Investigator>
+      <FirstName>Joao</FirstName>
+      <LastName>Hespanha</LastName>
+      <EmailAddress>hespanha@ece.ucsb.edu</EmailAddress>
+      <StartDate>08/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Barbara</Name>
+      <CityName>SANTA BARBARA</CityName>
+      <ZipCode>931062050</ZipCode>
+      <PhoneNumber>8058934188</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>092E</Code>
+      <Text>Control systems &amp; applications</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

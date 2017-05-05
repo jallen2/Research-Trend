@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Stable and Efficient Convexity-Splitting Schemes for Bistable Gradient PDEs</AwardTitle>
+    <AwardEffectiveDate>07/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>160000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this research is to design robust, efficient, and practical numerical methods for bistable gradient equations (BGEs). These form a a special class of partial differential equations (PDEs) that describe important phenomena in materials, fluids, and biology research. For this work the PIs plan detailed investigations of the slope selection (SS), no slope selection (NSS), phase field crystal (PFC) and Cahn-Hilliard (CH) equations, which are important 4th or 6th-order BGEs that must typically be solved over large space and time scales. Numerical solution of these equations (and BGEs in general) can pose enormous challenges. In this work the PIs will develop convex splitting (CS) schemes for BGEs. CS schemes are 1st or 2nd-order accurate in time and at least 2nd-order accurate in space. They are simple, powerful, and particularly well-suited to studying large spatiotemporal morphological evolution accurately and efficiently. 1st-order (in time) CS schemes have been known for about ten years; but, up to now, the underlying theory has been incomplete and their application, somewhat limited. The proposed high-order CS schemes (2nd-order in time, 2nd-order and higher in space) are novel features of the PIs work. All CS schemes have two important properties: they are unconditionally energy stable and unconditionally uniquely solvable. The energy stability can often be exploited to prove various norm stabilities, as well as convergence. The unique solvability follows from the fact that the schemes are derived as the gradients of strictly convex functionals. As a result, practical solvers can always be crafted, since gradient descent methods will converge unconditionally. A big challenge of this work is in designing truly efficient solvers for the potentially highly nonlinear CS schemes. The PIs have had some early, important successes in this direction, having crafted nearly optimally efficient nonlinear multigrid solvers for the PFC and Cahn-Hilliard-Hele-Shaw (CHHS) equations. In this work they will extend these achievements by deriving sophisticated, efficient, and time and space adaptive solvers for a variety of BGEs. The PIs will apply their CS schemes and efficient solvers to study the complicated long-time dynamics of models for thin film coarsening, tumor growth and treatment, two-phase fluid flow, and crystal growth.&lt;br/&gt;&lt;br/&gt;BGEs allow researchers to create models of a great number of physical and biological phenomena, and hence this work will have a direct impact on many scientific disciplines. The specific equations that the PIs will focus on (SS, NSS, PFC, and CH equations) are vital for understanding phase transformations of materials at the atomic and nanometer scales, the complex processes in biological growth and development, and the complicated topological change involved in two-phase flows. For a specific example, the SS equation can be used model the formation of nano-scopic hills and valleys on the surfaces of certain materials, such as those used in semiconductor devices. Knowing how these nano-structures form and move during device processing is critical for precise manufacture. Mathematical modeling (using BGEs, for example) is often a more practical alternative to doing laboratory experiments to find ``optimal" processing procedures. However, in most practical situations, solutions to BGEs can only be approximated using computerized algorithms. The primary goal of this research is to develop 2D and 3D algorithms that approximate the solutions as accurately, efficiently, and robustly as possible. The computer algorithms and source codes created from this work will apply to even more general models than will be explored in this research and will therefore advance the field of computational science as a whole. The PIs will make their software packages available in the public domain so that researchers will have direct access to their algorithms. In addition to working toward their research goals, the PIs will help to build and reinforce the human resources pipeline in the field of computational sciences, which is one of the broader goals in STEM education in the US. Both graduate and undergraduate students will receive training in high-performance scientific computing, numerical mathematics, and modeling; and their work is expected to form the bases of peer-reviewed publications, conference talks, technical reports, and theses. As a major component of this effort, the PIs will continuously support and mentor two UMass, Dartmouth undergrads through the CSUMS program. These students will get hands-on training in algorithm and software development. This type of training is rare in the typical undergraduate curriculum. Using this research as a venue, the PIs will work to inspire students, especially undergraduates and those from traditionally underrepresented groups, to pursue careers in science and engineering.</AbstractNarration>
+    <MinAmdLetterDate>07/05/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/05/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1115390</AwardID>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Wise</LastName>
+      <EmailAddress>swise@math.utk.edu</EmailAddress>
+      <StartDate>07/05/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Tennessee Knoxville</Name>
+      <CityName>KNOXVILLE</CityName>
+      <ZipCode>379960003</ZipCode>
+      <PhoneNumber>8659743466</PhoneNumber>
+      <StreetAddress>1 CIRCLE PARK</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Tennessee</StateName>
+      <StateCode>TN</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

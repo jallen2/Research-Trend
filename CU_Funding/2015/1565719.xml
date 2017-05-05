@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: AF: Novel evolutionary models and algorithms to connect genomic sequence and phenotypic data</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>174968</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mitra Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>An organism's genome is the collection of all of its DNA, which can be written as a single string. All of the biological complexity of an organism is encoded within its genome. One of the greatest challenges in science today is understanding how the "syntax" of the genome gives rise to the "semantics" of biological function and, indeed, all life on Earth. The theory of evolution offers a way forward. These seemingly heterogeneous biological features are merely facets of the common evolutionary process by which they arose. By querying their phylogeny, or evolutionary history, we can begin to decipher the living language in which genomes are written and, ultimately, master it for our own purposes.&lt;br/&gt;&lt;br/&gt;Today, phylogenies are primarily reconstructed by computational analysis of biomolecular sequence data. Crucially, state-of-the-art algorithms treat genomes as an unordered bag of observations, not as an ordered sequence of observations. This assumption is made for pure mathematical convenience. In contrast, DNA is a linear molecule, the information encoded in the genome is understood to be sequential, and its order matters greatly. Recombination is one of the major evolutionary processes that rearranges genomes over time, ultimately shaping the sequential ordering of information. Sequence dependence due to recombination (or the lack thereof) is an essential aspect of the computational problem of phylogenetic inference, and yet the common assumption that loci (positions in the genome) are independent and identically distributed remains a major methodological gap.&lt;br/&gt;&lt;br/&gt;To address this critical need, this project will create new evolutionary models and algorithms for inferring species phylogenies from genomes while accounting for point mutations, genetic drift, and recombination. A connection is then forged to systems biology by building the new evolutionary models into a new computational method for mapping the genomic architecture of complex phenotypes (observable traits). The new methods will be validated using an extensive performance study incorporating empirical and synthetic data. Analyses of the empirical data are anticipated to result in new biological discoveries such as understanding the genetic basis of adaptive traits in house mouse, the most widely used laboratory organism.&lt;br/&gt;&lt;br/&gt;This project incorporates significant educational and outreach components. The new mathematical models, algorithms, and tools proposed in the research objectives will be the basis for two workshop series: one targeted to evolutionary computation researchers and the other to evolutionary biologists. Interdisciplinary training at the undergraduate and graduate level includes underrepresented minority students. Open implementations of all methods and data will be publicly available through a collaborative online community. &lt;br/&gt;&lt;br/&gt;This project entails three integrated research objectives. First, algorithms for inferring species phylogenies under a new combined model of point mutations, genetic drift, and recombination will be developed. The combined model unites the coalescent model of population genetics with a hidden Markov model to capture varying degrees of sequence dependence among neighboring loci due to recombination. A key challenge is scalability, which is addressed using new approximation algorithms. Second, the new evolutionary models will be fused with a linear mixed model to capture dependence between genomic loci and a trait encoded by causal loci within the genome. The new models will be the basis for new algorithms that address several related problems in functional genomics. One application is association mapping, which seeks to infer causal loci based upon significant correlation between allele frequencies and observed trait values. Third, a performance study will be conducted to validate the new computational methodologies.</AbstractNarration>
+    <MinAmdLetterDate>02/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1565719</AwardID>
+    <Investigator>
+      <FirstName>Kevin</FirstName>
+      <LastName>Liu</LastName>
+      <EmailAddress>kjl@msu.edu</EmailAddress>
+      <StartDate>02/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Michigan State University</Name>
+      <CityName>East Lansing</CityName>
+      <ZipCode>488242600</ZipCode>
+      <PhoneNumber>5173555040</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>026y</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7931</Code>
+      <Text>COMPUTATIONAL BIOLOGY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Fast Direct Solvers for Boundary Value Problems on Evolving Geometries</AwardTitle>
+    <AwardEffectiveDate>08/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>149980</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>With the ability to reduce the cost of testing theories and ideas, numerical simulations will continue to play a growing role in scientific discovery and device development. Frequently, these simulations involve the solution of problems that are prescribed by physics. In many cases, the speed and accuracy with which such problems can be solved is a key limiting factor to what can and cannot be modeled numerically. Fast direct solvers have recently shown great promise for solving a large number of problems involving the same geometry by reusing the most expensive part of the solution technique. This situation happens often in settings such as product development where each problem involving the geometry corresponds to a different physical situation. When a large number of problems are under consideration, the fast direct solvers can show hundreds of times speed up over other techniques. While this speed up is great, many engineering situations involve a large number of problems with slightly different geometries. Each different geometry requires the most expensive part of the solver to be recomputed. This project will focus on the development and application of fast direct solvers to problems with evolving geometries. The new technique will recycle information obtained in the construction of the fast direct solver for one geometry to build solvers for the evolved geometries. As a result, the cost of the most expensive step in the fast direct solution technique will be substantially reduced while retaining the benefit of being able to solve multiple problems for each geometry quickly. This work should accelerate many numerical simulations and will have a technological impact on society through applications such as solar cell design, meta-material design, sonar, radar and simulations of blood flow.&lt;br/&gt;&lt;br/&gt;The numerical simulations under consideration in the proposed work will involve the solution of linear boundary value problems. Many linear boundary value problems can be recast as integral equations. Solution techniques based on integral equations come with the cost of having to solve a dense linear system upon discretization. Fast direct solvers invert a dense system by exploiting structure in the matrix with a cost that grows linearly (or nearly linearly) with the problem size. The proposed work will adapt the fast linear algebra framework to create efficient direct solvers for a family of problems with similar geometries. The new technique will be the first to reuse the structural information obtained in the construction of a fast direct solver for a single geometry to build new direct solvers for evolved geometries. This recycling of structural information reduces the cost of the most expensive step in constructing fast direct solvers. The new technique should accelerate time-stepping for evolution equations, Stokes' flow, optimal design algorithms, model reduction methods and periodic boundary value problem simulations. The solution technique will be applied to microfluids, inverse scattering, and periodic scattering.</AbstractNarration>
+    <MinAmdLetterDate>07/28/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1522631</AwardID>
+    <Investigator>
+      <FirstName>Adrianna</FirstName>
+      <LastName>Gillman</LastName>
+      <EmailAddress>adrianna.gillman@rice.edu</EmailAddress>
+      <StartDate>07/28/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

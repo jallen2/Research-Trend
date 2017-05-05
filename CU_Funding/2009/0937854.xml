@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Performance- and Energy-Aware HEC Storage Stacks</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>652000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>High-End Computing (HEC) systems are designed for performance, not energy efficiency. In recent years, HEC users have found that as energy costs increase, network and disks have become significant bottlenecks; worse, scientific workloads vary wildly, exercising different parts of HEC clusters, making it impossible to understand where the bottlenecks are and where energy is being wasted.&lt;br/&gt;&lt;br/&gt;This project explores the impact of storage-stack configurations on power and performance, using actual cluster configurations and realistic scientific workloads. The research follows three thrusts: tracing and analysis, adaptive cluster reconfiguration, and new storage software stacks.&lt;br/&gt;(1) Traces are collected and analyzed which combine both performance and energy data on a large set of scientific workloads: I/O-, network-, memory-, and CPU-intensive. Three popular scientific cluster configurations are investigated, varying many configuration parameters. (2) Tools are being developed to dynamically adapt a cluster's configurations to a given workload, so as to optimize power and performance prior to running long-term scientific experiments or simulations. (3) New operating systems software is developed specifically to optimize power and performance for scientific workloads: a new lightweight file system and disk I/O scheduler.&lt;br/&gt;&lt;br/&gt;The long-term results of this project help society save energy in computing without unduly hurting performance.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0937854</AwardID>
+    <Investigator>
+      <FirstName>Geoff</FirstName>
+      <LastName>Kuenning</LastName>
+      <EmailAddress>geoff@cs.hmc.edu</EmailAddress>
+      <StartDate>08/27/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Erez</FirstName>
+      <LastName>Zadok</LastName>
+      <EmailAddress>ezk@cs.stonybrook.edu</EmailAddress>
+      <StartDate>08/27/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>I159</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

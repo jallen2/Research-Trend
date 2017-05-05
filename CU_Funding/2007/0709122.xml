@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRI: CRD: A Compiler-Based Virtual Machine Infrastructure for System Software</AwardTitle>
+    <AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rita V. Rodriguez</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Proposal #: CNS 07-09122&lt;br/&gt;PI(s): Adve, Vikram S.&lt;br/&gt;Institution: University of Illinois - Urbana-Champaign&lt;br/&gt; Champaign, IL 61820-7406&lt;br/&gt;Title: CRD:A Compiler-Based Virtual Machine Infrastructure for System Software &lt;br/&gt;&lt;br/&gt;Project Proposed:&lt;br/&gt;&lt;br/&gt;This project, building and distributing a compiler-based virtual monitor machine (VMM) for system software, combines virtualization and compiler techniques. This infrastructure supports safety and verifiability for both high-level applications and low-level system code and includes a compiler-based virtual machine (LLVA) that can host an entire OS and all its applications, the Linux kernel (ported to the LLVA architecture), and development tools to compile and work with LLVA code. Building on techniques developed in the SAFECode in-house project, this virtual machine will enforce a safe execution environment for applications and even for legacy systems. The flexibility of the infrastructure permits individual components to be used separately and to be integrated into other systems. Important components include the LLVA instruction set, a run-time library implementing the kernel support functions, compiler modules, development tools, a Just-in-Time (JIT) engine for managing JIT compilation and caching, and the SAFECode compiler for enforcing memory safety for C programs and the kernel. The infrastructure also includes examples of course projects pre-packaged for instructor to use. Beginning with the prototype, major developments consist of modifying the compiler and JIT engine to be able to run without system services, assembling the components into a complete usable system, improving the robustness and performance, and adding usability features such as documentation, auto-configuration, automatic testing, bug tracking, and pre-packaged course projects. The infrastructure aims to enable approaches to intrusion detection and prevention, cross-program information flow, compilation certification, and formal verification of system software.&lt;br/&gt;&lt;br/&gt;Broader Impacts: This work enables research groups to undertake prohibitively difficult research providing new solutions that tackle hard problems such as insider threats, building scalable secure systems, information provenance, and security and privacy. Moreover, in addition to contributing to train students in the area, the infrastructure facilitates development of new and/or more ambitious course projects and education topics in OS, compiler, architecture, embedded and distributed systems</AbstractNarration>
+    <MinAmdLetterDate>08/09/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/22/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0709122</AwardID>
+    <Investigator>
+      <FirstName>Vikram</FirstName>
+      <LastName>Adve</LastName>
+      <EmailAddress>vadve@cs.uiuc.edu</EmailAddress>
+      <StartDate>08/09/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

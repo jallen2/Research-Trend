@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Decomposition-Based Optimization: A New Solver Paradigm</AwardTitle>
+    <AwardEffectiveDate>10/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>275000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Elliott Francis</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The research objectives of this award are (1) to develop advanced methodologies based on decomposition for the solution of large-scale optimization problems, (2) to integrate these methodologies with current state-of-the-art techniques, and (3) to make these methodologies accessible to users through modeling languages and extensions to the standard APIs (Application Program Interfaces) provided by current state-of-the-art optimization software. Although decomposition techniques have proven very effective in certain applications, these methods have not been adopted in commercial solvers due to lack of a mathematical theory integrating other advanced techniques; difficulties in implementation; challenges associated with automatic detection of model structure; and lack of support in modeling languages for expressing decomposition strategies. This research aims to overcome these challenges and to develop practical methodologies and implementations of advanced methods, along with support for modeling by practitioners.&lt;br/&gt;&lt;br/&gt;The impact of this research will be in allowing practitioners to have access to powerful methods of optimizing large-scale systems, whose ever-increasing complexity is being driven in practice by the increased availability of data and storage. Among other things, decomposition methods are the methods of choice for the optimization of large-scale systems consisting of smaller subsystems linked by relatively few system-level constraints. One typical example of such a system is a logistics system consisting of geographically distributed warehouses, each with an associated fleet of delivery vehicles. When the system-level constraints are relaxed, the underlying optimization problem decomposes, leading to more efficient solution methods. Decomposition may provide a practical approach to parallelization and thus a means of capitalizing on the commoditization of multi-core/multi-processor architectures. All methodologies will be implemented in open source and distributed through the COIN-OR open source repository (http://www.coin-or.org), ensuring wide dissemination.</AbstractNarration>
+    <MinAmdLetterDate>07/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1130914</AwardID>
+    <Investigator>
+      <FirstName>Theodore</FirstName>
+      <LastName>Ralphs</LastName>
+      <EmailAddress>tkr2@lehigh.edu</EmailAddress>
+      <StartDate>07/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Lehigh University</Name>
+      <CityName>Bethlehem</CityName>
+      <ZipCode>180153005</ZipCode>
+      <PhoneNumber>6107583021</PhoneNumber>
+      <StreetAddress>Alumni Building 27</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>072E</Code>
+      <Text>NETWORKS &amp; QUEUING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>077E</Code>
+      <Text>SIMULATION MODELS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

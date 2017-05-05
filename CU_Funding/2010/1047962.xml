@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: A Tracing Virtual Machine for Statistical Computing</AwardTitle>
+    <AwardEffectiveDate>09/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>489084</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Scripting languages are lightweight, dynamic computer programming languages designed to maximize productivity by offering high-level abstractions and reducing syntactic overhead. Scripting languages strive to optimize programmer time, rather than machine time, which is desirable early in the software life cycle. However, they lose their appeal when requirements stabilize and projects enter their deployment phase. The compromises made to reduce development time make it hard to scale to large data sets or to get the needed speed to perform computationally intensive tasks. This is certainly the case for the R scripting language and its development environment. R is an extremely powerful tool for Biostatistics practitioners. Over the years, it has grown to become a mainstay for statistical computing in the life sciences. This project's goal is to build an execution environment for the R programming language, which we call ReactoR, with particular emphasis on improving scalability for real-world applications in the life sciences. The proposed work will yield an implementation of R which delivers performance comparable to compiled native code and lets developers write code without having to resort to low-level intrinsics. This virtual machine will include a trace-based compiler for generating native code for the most frequently executed routines and a concurrent garbage collector to decrease footprint.</AbstractNarration>
+    <MinAmdLetterDate>09/08/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/08/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1047962</AwardID>
+    <Investigator>
+      <FirstName>Jan</FirstName>
+      <LastName>Vitek</LastName>
+      <EmailAddress>j.vitek@neu.edu</EmailAddress>
+      <StartDate>09/08/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Olga</FirstName>
+      <LastName>Vitek</LastName>
+      <EmailAddress>o.vitek@neu.edu</EmailAddress>
+      <StartDate>09/08/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7552</Code>
+      <Text>COFFES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7552</Code>
+      <Text>COFFES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

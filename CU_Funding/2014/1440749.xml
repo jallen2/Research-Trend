@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: Improving Vectorization</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Patricia Knezek</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The increasing width of vector instruction sets in processors and accelerators raises the importance of effective vectorization. Although the topic of automatic vectorization by compilers has received significant attention over the last few decades, current vectorizing compilers can typically realize only a small fraction of a processor's peak performance. This project will explore several compiler optimization approaches for generating high-performance vectorized code. Advanced vectorization techniques will be incorporated in the open-source LLVM/Clang compiler through the Polly/LLVM module. A benchmark suite will also be developed, aimed at testing the effectiveness of vectorizing compilers.&lt;br/&gt;&lt;br/&gt;Production compilers limit their optimization search space in order to control the time taken to compile programs. This is because the majority of users expect rapid compile times. However, the developers of high-performance applications are generally very willing to tolerate a much longer wait for program compilation, in return for a boost in the performance of the compiled code. A significant focus of this project will be the development of vectorization approaches for such users who prioritize high application performance over short compile times. The project will investigate semantically-driven pattern-based approaches to vector optimization, a vectorization-friendly approach to tiling, and aggressive vector instruction scheduling approaches that promise higher performance at the expense of possibly high compile times.</AbstractNarration>
+    <MinAmdLetterDate>07/01/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/01/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1440749</AwardID>
+    <Investigator>
+      <FirstName>Ponnuswamy</FirstName>
+      <LastName>Sadayappan</LastName>
+      <EmailAddress>sadayappan.1@osu.edu</EmailAddress>
+      <StartDate>07/01/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Ohio State University</Name>
+      <CityName>Columbus</CityName>
+      <ZipCode>432101016</ZipCode>
+      <PhoneNumber>6146888735</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Ohio</StateName>
+      <StateCode>OH</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

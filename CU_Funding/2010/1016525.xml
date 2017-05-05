@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Subgrid Discontinuous Galerkin Approximations of Brinkman Equation with Highly Heterogeneous Coefficients</AwardTitle>
+    <AwardEffectiveDate>08/15/2010</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>339199</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>There is an abundance of challenging problems in physics and engineering, such &lt;br/&gt;as fluid flow in industrial foams and vuggy reservoirs, which are &lt;br/&gt;characterized by high porosity and complex material structure. Traditionally, &lt;br/&gt;these flows are modeled by Darcy's law relating the macroscopic pressure &lt;br/&gt;gradient to the macroscopic fluid velocity. For highly permeable media a more &lt;br/&gt;suitable model is given by Brinkman's equations, considered in this project. &lt;br/&gt;The internal structure involves multiple spatial scales and permeabilities &lt;br/&gt;varying over many orders of magnitude (high contrast). Thus, the development &lt;br/&gt;of numerical methods for Brinkman's equations that are robust with respect to &lt;br/&gt;the contrast and accurately capture the fine scales is a difficult theoretical &lt;br/&gt;problem with important applications to engineering and geosciences. There are &lt;br/&gt;numerous methods for efficiently computing multi-scale porous media flows &lt;br/&gt;governed by Darcy's law. These include in particular multi-scale finite &lt;br/&gt;element methods, subgrid approximation, multi-grid, and domain decomposition &lt;br/&gt;methods. Developing an efficient multi-scale approximation for Brinkman is a &lt;br/&gt;challenging task, which cannot be addressed using methods available in the &lt;br/&gt;Darcy case. The first objective of this project is a development and study of &lt;br/&gt;numerical subgrid method for Brinkman's system. The second goal is to &lt;br/&gt;represent accurately the fine features of the solution, which cannot be &lt;br/&gt;captured by the numerical subgrid approach alone. An extension of the &lt;br/&gt;algorithm by alternating Schwarz iterations in order to resolve these features &lt;br/&gt;will be developed, theoretically justified and practically tested. The third &lt;br/&gt;main objective is to utilize a multi-scale finite element space and an &lt;br/&gt;enrichment of the coarse space by adding basis functions resulting from the &lt;br/&gt;approximate solution of certain small local generalized eigenvalue problems. &lt;br/&gt;This will allow to devise an iterative method that converges independently of &lt;br/&gt;the contrast.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Phenomena in engineering such as heat and mass transfer, fluid flows, and &lt;br/&gt;materials, are routinely modeled by partial differential equations (PDEs). The &lt;br/&gt;solutions of the PDEs are subsequently used to design and develop new &lt;br/&gt;materials or new technologies with wide range of applications. These &lt;br/&gt;applications require complex models with multiple space scales, which in turn &lt;br/&gt;make the solution task challenging and computationally very intensive. The &lt;br/&gt;proposed work is motivated by the needs for design and manufacturing of new &lt;br/&gt;materials and/or more accurate description of oil reservoirs or aquifers. &lt;br/&gt;However, developing efficient and robust solution techniques for computing &lt;br/&gt;flows in media with complex internal structures will significantly broaden the &lt;br/&gt;areas of application for which the numerical simulation is feasible. Since &lt;br/&gt;numerical simulations are key to better understand, control, and optimize the &lt;br/&gt;modeled processes the proposed research will eventually benefit other areas in &lt;br/&gt;science and engineering.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/13/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1016525</AwardID>
+    <Investigator>
+      <FirstName>Raytcho</FirstName>
+      <LastName>Lazarov</LastName>
+      <EmailAddress>lazarov@math.tamu.edu</EmailAddress>
+      <StartDate>08/04/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Joerg</FirstName>
+      <LastName>Willems</LastName>
+      <EmailAddress>jwillems@math.tamu.edu</EmailAddress>
+      <StartDate>08/04/2010</StartDate>
+      <EndDate>03/03/2011</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Texas A&amp;M Research Foundation</Name>
+      <CityName>College Station</CityName>
+      <ZipCode>778454321</ZipCode>
+      <PhoneNumber>9798458600</PhoneNumber>
+      <StreetAddress>400 Harvey Mitchell Parkway, S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CT-ISG: High-Speed Network Defense with Massive and Diverse Vulnerability Signatures</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>jeremy epstein</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>NSF Proposal 0831508: CT-ISG High-Speed Network Defense with Massive and Diverse Vulnerability Signatures&lt;br/&gt;&lt;br/&gt;PI: Yan Chen, Northwestern University&lt;br/&gt;&lt;br/&gt;Given the ever-increasing sophisticated Internet attacks, network-based Intrusion Detection/Prevention Systems (IDS/IPS) are of critical importance. Such systems mainly have two important metrics: accuracy and throuput. Accuracy is of particular importance, especially for IPSes which are inline devices that throttle connections when they are identified as malicious via signature-matching. The latest works assume that regular expressions (RE) are the right choice for signature formatting. However, there are polymorphic and metamorphic variations that can evade the RE-based detection. The fundamental problem of RE signatures is that in many cases it cannot capture the vulnerability conditions.&lt;br/&gt;&lt;br/&gt;In this project, we design a next-generation semantic based network IDS/IPS system (called NetShield) which contains thousands of vulnerability signatures with rich diversity, including protocol, file and web semantic signatures. While offering much better accuracy, NetShield provides high throughput comparable to that of the state-of-the-art regular expression based IDS. We design algorithms for 1) efficient protocol parsing and 2) massive protocol semantic signature matching. Furthermore, we extend the parsing and matching solutions to Web and file semantic signatures.&lt;br/&gt;&lt;br/&gt;This project has the potential for significant broad impact. The research component will produce fundamental knowledge that will advance the state-of-the-art in the network IDS/IPS systems. Our wide collaboration with industry researchers will facilitate such technology transfer. In addition, we plan to disseminate our work through timely releases of software/hardware, traces, and benchmarks to the open source community for broader usage. This research agenda is complemented by a strong and tightly integrated educational and outreach component.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0831508</AwardID>
+    <Investigator>
+      <FirstName>Yan</FirstName>
+      <LastName>Chen</LastName>
+      <EmailAddress>ychen@northwestern.edu</EmailAddress>
+      <StartDate>08/18/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northwestern University</Name>
+      <CityName>Evanston</CityName>
+      <ZipCode>602013149</ZipCode>
+      <PhoneNumber>8474913003</PhoneNumber>
+      <StreetAddress>1801 Maple Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7371</Code>
+      <Text>CYBER TRUST</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

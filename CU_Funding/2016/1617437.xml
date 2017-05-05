@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Design, Management, and Optimization of Cache Networks</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>439464</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The current Internet supports a wide variety of services ranging from on-line banking and commerce to messaging and teleconferencing, and from gaming to delivery of movies. In spite of this variety, much of the data transported across the Internet corresponds to 'content' and in particular video content. Moreover, the amount of content traveling over the Internet is growing exponentially, doubling every three years. This places a tremendous burden on network and content provider infrastructures. This has stimulated a number of innovations whereby storage and processing capacity is located near the end user and content consumer. When a user requests content, say a video, the request goes to a nearby cache (storage facility coupled with server) to fetch it. If the content is present in the cache, it is immediately served; otherwise the request is passed on to the content provider, who in turn serves the content to the user. The advantages of such a system are reduced latencies to the user and decreased consumption of network and provider resources when the content is found in the cache. However, this raises substantial challenges that are the focus of this project. These include: how should the caches be managed both at the level of individual objects of content, i.e., individual movies, and among different content providers? Should there be service differentiation between contents or providers and if so, how should this be accomplished? How should third parties providing caching services price these services? The project is concerned with answering these questions.&lt;br/&gt;&lt;br/&gt;The approach of this project for addressing the questions listed above will combine techniques and results from two areas. The first is time-to-live (TTL) caches and the second is utility maximization. Using these as a foundation, the project has three thrusts. &lt;br/&gt;&lt;br/&gt;1. Management and provision of differentiated services. The project will develop a framework based on recent results on TTL caches and utility maximization, for the provision of differentiated cache services. This framework will be used to design timer-driven cache management mechanisms for providing per content differentiated services. It will also focus on the development of per content provider mechanisms, which will allow providers the flexibility of using cache management mechanism of their choice. The project will focus on both individual caches as well as collections of caches.&lt;br/&gt;&lt;br/&gt;2. Pricing cache services. Results from the above effort will be used to design and evaluate per content and per provider pricing mechanisms. &lt;br/&gt;&lt;br/&gt;3. Modeling and analysis of cache networks. The project will develop techniques and algorithms for evaluating the performance of arbitrary cache networks that account for a wide range of cache management algorithms.&lt;br/&gt;&lt;br/&gt;Broader Impacts: This project will develop new resource allocation algorithms and resource pricing mechanisms with applications to content-centric networks. The project will also develop a better understanding of how to engineer large content-based systems, which will enhance the quality of experience of the typical Internet user. Educational activities for this project will enhance undergraduate, and graduate education aiding in the training of a workforce able to use quantitative methods for the purpose of designing, analyzing, and comparing competing engineering designs.</AbstractNarration>
+    <MinAmdLetterDate>08/11/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/11/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1617437</AwardID>
+    <Investigator>
+      <FirstName>Donald</FirstName>
+      <LastName>Towsley</LastName>
+      <EmailAddress>towsley@cs.umass.edu</EmailAddress>
+      <StartDate>08/11/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>AMHERST</CityName>
+      <ZipCode>010039242</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

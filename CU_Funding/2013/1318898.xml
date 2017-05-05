@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Matched alternating direction implicit (ADI) schemes for solving the nonlinear Poisson-Boltzmann equation with complex dielectric interfaces</AwardTitle>
+    <AwardEffectiveDate>09/15/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>250000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of the proposed project is to develop second order interface methods embedded in the alternating direction implicit (ADI) framework for solving the 3D nonlinear Poisson-Boltzmann (PB) equation with complex dielectric interfaces. Efficiency and accuracy are known to be the two major difficulties for solving the nonlinear PB equation numerically. The efficiency concern stems from the needs for solving the PB equation in demanding applications, such as one-time solution to systems with large spatial degrees of freedom, and/or million-time solutions in dynamical simulations. The accuracy concern is due to various challenging features of the PB model, including piecewisely-defined dielectric constants, a strong nonlinearity, singular point charges, and complex dielectric interfaces. Without addressing these features, fine meshes have to be used for a reliable simulation, which in turn impairs efficiency. In this project, a new pseudo-transient continuation formulation will be constructed based on a suitable regularization setting so that the singular charges are represented analytically. The nonlinear term of the PB equation will be integrated exactly with time splitting techniques. To deal with piecewise dielectric constants, a tensor product decomposition of 3D interface conditions will be carried out to derive essentially 1D jump conditions so that the dielectric interface can be accommodated along each Cartesian direction in an alternating manner. Fast algebraic solvers will be developed for solving matrices of each Cartesian direction. Consequently, the proposed matched ADI approaches not only maintain both the simplicity of Cartesian grids and the efficiency of the Thomas algorithm, but also achieve spatially second order accuracy in resolving complex dielectric interfaces.&lt;br/&gt;&lt;br/&gt;The electrostatic interactions are vital not only for the study of biological and chemical systems and processes at the molecular level, but also for the design of semiconductor devices at the nanoscale. The PB model, in which the electrostatic interactions are computed implicitly via a mean force approach, can surprisingly well describe the electrostatics of a charged system. This model finds broad applications in science and engineering, such as modeling the charged polymers and surfactants in interface and colloid science, studying transistors on very large scale integration (VLSI) semiconductor devices in nanotechnology, and analyzing structure, function, and dynamics of solvated biomolecules including proteins and DNAs in molecular biology. The proposed mathematical modeling, algorithm development, and numerical computations will address key scientific challenges in interdisciplinary fields involving computational mathematics, chemistry, biology, and electrical engineering. The planned research activities will bring new advances to computational mathematics and lead to reliable simulation tools for the electrostatic analysis of various physical, chemical, and biological systems/devices. In addition, this project will provide interdisciplinary research and training opportunities for students pursing careers in science and engineering.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/18/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318898</AwardID>
+    <Investigator>
+      <FirstName>Shan</FirstName>
+      <LastName>Zhao</LastName>
+      <EmailAddress>szhao@ua.edu</EmailAddress>
+      <StartDate>09/18/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Weihua</FirstName>
+      <LastName>Geng</LastName>
+      <EmailAddress>wgeng@smu.edu</EmailAddress>
+      <StartDate>09/18/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Alabama Tuscaloosa</Name>
+      <CityName>Tuscaloosa</CityName>
+      <ZipCode>354870005</ZipCode>
+      <PhoneNumber>2053485152</PhoneNumber>
+      <StreetAddress>801 University Blvd.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Alabama</StateName>
+      <StateCode>AL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

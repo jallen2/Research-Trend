@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SCH: INT: Anesthesiology Control Tower: Forecasting Algorithms to Support Treatment (ACTFAST)</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>589998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Wendy Nilsen</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>There is a significant public health concern in the United States regarding major complications and death following surgery. Forty million Americans undergo surgery yearly. Approximately five percent die within a year of their operation, and roughly ten percent suffer major in-hospital morbidity (e.g., stroke, heart attack, pneumonia, renal failure, wound infection). Early recognition of risk and appropriate management could often prevent or modify these adverse outcomes. We believe that this represents an exciting scientific opportunity. Modern intraoperative monitoring yields a wealth of data from thousands of operating rooms across the US. Integration and real-time analysis of these data streams has the potential to revolutionize perioperative care. We propose to develop, validate and assess machine-learning, forecasting algorithms that predict adverse outcomes for individual patients. The forecasting algorithms will be based on data derived from various sources, including the patient's electronic medical record, the array of physiological monitors in the operating room, and evidence-based scientific literature. These algorithms will facilitate patient-specific clinical decision support, utilizing an innovative approach of an anesthesiology control tower. The anesthesiology control tower for the operating room will be conceptually similar to an air traffic control tower for a busy airport. We are optimistic that the ambitious goal of developing forecasting algorithms for individual surgical patients can be realized, since members of our team have already developed and validated similar forecasting algorithms for critically ill hospital patients. Modifiable risk factors for adverse events could be detected early during surgery, allowing targeted interventions and preventive measures. The ACTFAST study will provide important information on the potential utility of incorporating forecasting algorithms into routine surgical care, including in under-resourced healthcare settings. This project will also yield important educational benefits. There will be tremendous learning for the students who help to develop and validate the forecasting algorithms. Furthermore, the control tower concept is a disruptive educational innovation, which will equip anesthesiology trainees with a new ability to provide simultaneous care to multiple surgical patients. It is notoriously difficult to construct high fidelity scientific models for individual humans, as we are complex biological systems. Ultimately, the success of this ambitious project, which engages interdisciplinary perspectives and applies sophisticated forecasting algorithms to clinical decision support, will have substantial scientific and clinical impact.&lt;br/&gt;&lt;br/&gt;Modern intraoperative monitoring yields a wealth of data from thousands of operating rooms across the United States. Integration and real-time analysis of these data streams has the potential to revolutionize perioperative care. The objective for this investigation is to exploit our experience in running innovative machine learning algorithms, including filtering and outcome-related models, in order to build forecasting algorithms tailored to individual surgical patients. Our central hypothesis is that with sufficient knowledge of patient characteristics coupled with repeated, high-fidelity time series data from the intraoperative electronic medical record, advanced models can be constructed for individual patients that will forecast risk for adverse postoperative outcomes. First, using a training dataset, we will apply data mining and machine-learning methods that we have previously validated to extract useful information from electronic health records and real-time physiological variables. We will develop algorithms using hybrid-learning techniques to combine the strength of non-parametric (generative) models, such as histogram and kernel density estimation, and parametric (discriminative) models, such as support vector machines, logistic regressions, and kernel machines to improve predictions of adverse perioperative outcomes. The goal is to deliver superior prediction quality, with good interpretability and high computational efficiency, that supports fast processing of big data. Second, using a testing dataset, we will validate the predictive accuracy of the developed algorithms, by determining the reliability in forecasting adverse outcomes. The developed algorithms will be tested for accuracy of their predictive performance. These evaluation methods include hold-out sampling, cross-validation, and bootstrap sampling. After being trained and tested, the performance of the developed algorithms will be additionally validated prospectively (out-of-sample performance), using standard measures of accuracy, precision and robustness. We envision that the developed algorithms will facilitate patient-specific clinical decision support, utilizing an innovative approach of an anesthesiology control tower, which will be conceptually similar to an air traffic control tower for a busy airport. The main contributions of this project will include: (1) new machine-learning algorithms for forecasting perioperative adverse events from heterogeneous, multi-scale, and high-dimensional data streams; (2) a clinical decision support system that identifies prognostic factors and suggests interventions based on novel feature ranking algorithms; and (3) a transformative approach to the education of the anesthesiology team and the paradigm of perioperative care. Successfully advancing real-time analytic methods and modeling for individual surgical patients, using heterogeneous and sparse data, would have tremendous scientific and societal impact.</AbstractNarration>
+    <MinAmdLetterDate>08/22/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/22/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1622678</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Avidan</LastName>
+      <EmailAddress>avidanm@anest.wustl.edu</EmailAddress>
+      <StartDate>08/22/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yixin</FirstName>
+      <LastName>Chen</LastName>
+      <EmailAddress>chen@cse.wustl.edu</EmailAddress>
+      <StartDate>08/22/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Washington University</Name>
+      <CityName>SAINT LOUIS</CityName>
+      <ZipCode>631304899</ZipCode>
+      <PhoneNumber>3147474134</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 1054</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Missouri</StateName>
+      <StateCode>MO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8018</Code>
+      <Text>Smart and Connected Health</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8018</Code>
+      <Text>Smart and Connected Health</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8062</Code>
+      <Text>SCH Type II: INT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

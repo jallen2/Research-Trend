@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-PSCE, SM: An Operating System for Multi-core Processors</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>450000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Krishna Kant</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is developing a new operating system, called Corey, intended to help systems software and applications achieve high performance on multicore systems. Current multiprocessor operating system kernels typically provide abstractions whose semantics implicitly require sharing data among processors, and which are implemented with shared data structures protected by locks. This approach may cause the kernel to be a bottleneck due to contention for data and locks, even for applications that do not require sharing semantics.&lt;br/&gt;&lt;br/&gt;Corey is based on the principle that applications should control all sharing: all kernel data structures should be local to a processor core unless directed otherwise by the application. Corey exposes a new set of low-level abstractions (shares, address trees, and kernel cores) that allow applications to control all inter-core sharing. Corey takes advantage of the likely abundance of cores by allowing applications and kernel sub-systems to dedicate cores to handling specific functions and data. The intended result is that applications can tailor their use of processors and shared memory to achieve maximum performance.&lt;br/&gt;&lt;br/&gt;These ideas are being evaluated by implementing applications such Web services and MapReduce processing, and comparing both ease of implementation and performance to implementations built for more traditional operating systems such as Linux. Corey will be released as open source, and specific successful techniques will be ported to Linux when possible. The ideas and software will be used in MIT's undergraduate operating systems course, to give students experience with multicore programming. At a higher level, the work is intended to help shrink the gap between available compute power and software's ability to harness it, potentially helping many users of computers.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0834415</AwardID>
+    <Investigator>
+      <FirstName>M. Frans</FirstName>
+      <LastName>Kaashoek</LastName>
+      <EmailAddress>kaashoek@lcs.mit.edu</EmailAddress>
+      <StartDate>08/19/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Morris</LastName>
+      <EmailAddress>rtm@csail.mit.edu</EmailAddress>
+      <StartDate>08/19/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7902</Code>
+      <Text>PSCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

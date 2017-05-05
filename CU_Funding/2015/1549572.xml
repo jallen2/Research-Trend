@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Renewables: Collaborative Proposal on Stochastic Unit Commitment with Topology Control Recourse for Networks with High Penetration of Distributed Renewable Resources</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>149999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Eyad Abed</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The massive integration of wind resources into the generation mix of the electric power infrastructure poses new challenges to system operators due to the uncertainty and variability of these resources. The intermittent nature of wind and other renewable energy resources, together with limitations of storage in current power systems, poses serious challenges for integrating renewable resources into the power grid, while maintaining acceptable service reliability. Efficient deployment of conventional and flexible resources requires new methods that explicitly account for uncertainty in day-ahead unit commitment. This project proposes to use topology control as a recourse mechanism which mobilizes flexibility of the grid through transmission line switching to redirect power flow in response to prevailing renewable generation conditions, thus overcoming loss of reliability due to intermittency. However, such topology control will require new algorithmic innovations which will allow system operators to plan their day-ahead unit-commitment by incorporating topology control as a recourse action. The project pursues a novel problem formulation for transmission line switching in response to variable generation that holds promise for being computationally feasible. It is hoped that the outcomes of the project will help to facilitate growth of renewable generation while maintaining grid efficiency and reliability.&lt;br/&gt;&lt;br/&gt;Because the topology of the grid consists of a discrete set of transmission links, the choice of which links to use becomes a combinatorial optimization problem. Moreover, the presence of intermittency in renewable generation requires the transmission network to adapt to the specific generation scenario being observed. This leads to a two-stage stochastic optimization model in which the first stage choices are associated with slow-ramping generators, while the second stage model includes the fast-ramping as well as intermittent generators. The recourse action in this setup leads to a mixed-integer program (MIP) in the second stage, which violates the convexity requirements of common decomposition algorithms which have been highly successful in power system operations. This proposal shows that a new model, which is a two stage stochastic MIP (SMIP), possesses a very special structure which can be exploited so that realistic stochastic unit commitment problems can be solved, even though the general class of two-stage SMIP models are known to be extremely difficult. The proposal outlines a combined parallel-serial approximation strategy which appears promising, and could transform the commonly-held notion that high penetration of renewable energy will have an adverse effect on reliability. The project is a high-risk, high return undertaking on two levels: a) it could lead to a truly sustainable approach to reliable renewable integration, and b) the algorithmic advance of solving very large scale SMIP by decomposing into smaller pieces, without sacrificing optimality would provide a major step in the solution of these very challenging optimization problems.</AbstractNarration>
+    <MinAmdLetterDate>09/03/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/03/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1549572</AwardID>
+    <Investigator>
+      <FirstName>Shmuel</FirstName>
+      <LastName>Oren</LastName>
+      <EmailAddress>oren@ieor.berkeley.edu</EmailAddress>
+      <StartDate>09/03/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Berkeley</Name>
+      <CityName>BERKELEY</CityName>
+      <ZipCode>947045940</ZipCode>
+      <PhoneNumber>5106428109</PhoneNumber>
+      <StreetAddress>Sponsored Projects Office</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>155E</Code>
+      <Text>Electric power networks</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

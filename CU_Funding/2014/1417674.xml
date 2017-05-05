@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Extreme-scale algorithms for geometric graphical data models in imaging, social and network science</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>299999</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Big data is important right now; and extreme scale hardware, programming models and storage solutions are being developed. However the connection between transformational algorithms and the big data sets needs to be addressed. Researchers talk often about the upcoming "big data problem," yet skim over the relevant algorithms that can truly attack the problems in a concrete fashion, often because the traditional means of data analysis are not prevalent in the high-performance computing (HPC) world, and in concert, the HPC expertise is not prevalent in the data world. This project will solidify this connection, making the "big data" problem real by attacking the issues through identifiable concrete algorithmic research and by implementing the methods on the latest hardware platforms. Recently the principal investigator has developed scalable desktop algorithms that bridge that gap, leveraging fast spectral solvers to compute solutions of sparse classification problems for big data. This project will build on these scalable algorithms to implement them on several large-scale platforms and will address important application areas, for which desktop computing is insufficient. Examples of application areas for this project include high dimensional hyperspectral video data for chemical and biological agents, a problem of importance to homeland security, and statistical analysis of spatio-temporal multimodal crime data, and large-scale social network analysis.&lt;br/&gt;&lt;br/&gt;This project focuses on a new class of data-clustering algorithms that are designed to solve variants of the minimum cut problem on graphs for big data applications such as hyperspectral video data analysis, statistical analysis of spatio-temporal multimodal crime data, and large-scale social network analysis. Semi-supervised and unsupervised machine learning problems are included in the class of problems considered. The graph mincut problem is equivalent to total variation minimization on a graph and is a popular model for machine learning applications, except for its computational complexity. Building on ideas such as diffuse interfaces and dynamic thresholding, originally developed for physical sciences models and subsequently transferred to low dimensional image processing applications, this project will develop methods to solve the true graph cut problem by leveraging recent advances in scalable spectral graph algorithms. New codes for these methods will be developed for large parallel architectures. The research will advance both theoretical algorithmic issues and application areas.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1417674</AwardID>
+    <Investigator>
+      <FirstName>Andrea</FirstName>
+      <LastName>Bertozzi</LastName>
+      <EmailAddress>bertozzi@math.ucla.edu</EmailAddress>
+      <StartDate>07/24/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8069</Code>
+      <Text>CDS&amp;E-MSS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

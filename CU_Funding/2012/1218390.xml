@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Behavioral Software Contract Verification</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2015</AwardExpirationDate>
+    <AwardAmount>399992</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>It is important for many critical software components to be correct and reliable, however verifying that software meets such requirements is difficult, expensive, and error-prone. One approach is to use software contracts as a means to specify and monitor the obligations and guarantees of software components. When the agreements of such contracts are not met during the operation of a program, the program stops and signals a violation and indicates the faulty component. Software contracts have been very important for high-assurance software, since they identify faulty program components, but they offer no guarantees that a component will not fail. The goal of this research project is to investigate approaches to ahead-of-time software verification that can prove the absence of contract failures, thus giving a high level of confidence in the correctness and reliability of critical software components. The research will contribute a new understanding of the interplay between program verification, software contracts, and modern programming languages. Additionally, it will result in the development of tools for verifying software components with contracts. It is expected that by verifying software contracts ahead-of-time, the overhead of monitoring contract agreements during program operation can be eliminated, which will encourage programmers to use contracts far more extensively than they currently do. Such tools can dramatically reduce the difficulty and cost of developing high-assurance software.&lt;br/&gt;&lt;br/&gt;There are two paramount technical obstacles that must be overcome to achieve the goals of this project: (1) the expressivity of contracts, while crucial for the construction of reliable components, thwarts static reasoning about programs and incurs significant run-time monitoring costs, (2) the expressivity of higher-order programming languages, a mainstay of modern industrial software construction, thwarts static reasoning about contracts, despite the availability of mature automated tools and techniques. This research project rectifies the situation by providing foundations for modular and compositional automated reasoning about behavioral contracts in a higher-order language. Specifically, the project will provide: (1) a foundational theory in terms of a semantics for reasoning about components via their contracts, which enables automated component-based contract verification; (2) an interactive contract verification environment for exploring, testing, and refining programs and contracts; and (3) an evaluation of our approach and tools in the context of the Racket programming language implementation and standard library, which contains extensive use of contracts.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/30/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1218390</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Van Horn</LastName>
+      <EmailAddress>dvanhorn@cs.umd.edu</EmailAddress>
+      <StartDate>08/28/2012</StartDate>
+      <EndDate>04/30/2014</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Sam</FirstName>
+      <LastName>Tobin-Hochstadt</LastName>
+      <EmailAddress>samth@cs.indiana.edu</EmailAddress>
+      <StartDate>08/28/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

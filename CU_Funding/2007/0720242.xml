@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR-AES Collaborative: Encore/J: Transparently Recoverable Java for Resilient Distributed Computing</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2009</AwardExpirationDate>
+    <AwardAmount>30000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mohamed G. Gouda</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The EncoreJ project is developing tools and libraries for transparent rewriting of Java code, making distributable Java applications resilient in the face of execution node reconfiguration and failure. Developers control the system, but EncoreJ automatically rewrites compiled Java code, as packages are loaded, adding support for creating, accessing, and computing upon local and remote objects, and for resilience in the face of system failures and reconfigurations. EncoreJ further interfaces with a variety of persistence mechanisms (e.g., databases), both for providing fundamental resilience (saving/restoring information) and for coordinating recovery with the mechanisms of the external database.&lt;br/&gt;&lt;br/&gt;EncoreJ exploits resiliency support to make it easy to reconfigure applications as the host platform evolves, adding and removing resources dynamically; e.g., a virtual node might go down and be replaced by another, in order to force work to move to a newly available system. Programmers describe ""on the side"" (without modifying source code), how to place, move, and replicate objects and computations; the source code remains the primary mechanism for expressing algorithms clearly without hard-coded details of distribution or resilience.&lt;br/&gt;&lt;br/&gt;The EncoreJ tools and prototype are a platform for research by the wider community working on policies/algorithms for migration, replication, scheduling, etc., in Grid systems. The focus is a convenient and flexible platform, powerful and extensible, without over-commitment to any particular policies or strategies. EncoreJ builds on readily available and standard systems (Java virtual machines and packages) to ensure wide applicability and easy distribution and adoption.&lt;br/&gt;&lt;br/&gt;This award is seed funding for project development.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0720242</AwardID>
+    <Investigator>
+      <FirstName>J. Eliot</FirstName>
+      <LastName>Moss</LastName>
+      <EmailAddress>moss@cs.umass.edu</EmailAddress>
+      <StartDate>07/30/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>Hadley</CityName>
+      <ZipCode>010359450</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

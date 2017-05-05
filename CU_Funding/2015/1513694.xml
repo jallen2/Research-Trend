@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Medium: Distributed Differential Privacy</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>1200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>When data is controlled by diverse stake-holders, privacy concerns may limit sharing. Loose federation can be an obstacle to dependability because lack of a global view can limit large-scale coordination and stability. Lack of a global view is one of the problems that contributed to the 2008 financial collapse. Ideally, an outside party could coordinate behavior, but this is often impossible: domains may be reluctant to share their local information. Differential privacy can mitigate these concerns -- it provides a strong, attractive privacy guarantee that protects data owners from risks associated disclosure of their data, but this guarantee can be hard to achieve in distributed settings. This project is developing practical tools for distributed private data analysis that can be used by non-experts in a variety of applications, allowing for important new analyses of distributed data. The project also includes substantial outreach activities, in the form of course development and workshop organization, and will train PhD students to be future leaders in the development of privacy technologies. &lt;br/&gt;&lt;br/&gt;This project advances the practical theory of differential privacy in distributed settings. It has three main thrusts: 1) to extend the theory of differential privacy to work with relaxed guarantees, amenable to high-accuracy analyses when there are only a relatively small number of parties with limited ability to collude; 2) to develop programming languages and automatic verification tools capable of automatically certifying the differential privacy properties of distributed systems, in which each party has only partial access to the data; and 3) to develop tool chains to implement differentially private algorithms in distributed settings, using (among other technologies) secure multi-party computation as a computational substrate.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/24/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1513694</AwardID>
+    <Investigator>
+      <FirstName>AARON</FirstName>
+      <LastName>ROTH</LastName>
+      <EmailAddress>aaroth@cis.upenn.edu</EmailAddress>
+      <StartDate>07/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Andreas</FirstName>
+      <LastName>Haeberlen</LastName>
+      <EmailAddress>ahae@cis.upenn.edu</EmailAddress>
+      <StartDate>07/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Benjamin</FirstName>
+      <LastName>Pierce</LastName>
+      <EmailAddress>bcpierce@cis.upenn.edu</EmailAddress>
+      <StartDate>07/24/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Pennsylvania</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191046205</ZipCode>
+      <PhoneNumber>2158987293</PhoneNumber>
+      <StreetAddress>Research Services</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

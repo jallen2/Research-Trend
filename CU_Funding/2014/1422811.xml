@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Computational Support for Time Domain Continuous Imaging</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>358058</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Conventional digital still and video cameras mimic film cameras: the sensor integrates light during an exposure interval and then the latent image is processed, creating a snapshot or sequence of video frames. In contrast, time domain continuous imaging (TDCI) is a transformative new computational approach to imaging based on recording, for each pixel, a continuous waveform describing how the light level changes over time. The time interval to be represented by a still image or video frame can be specified after capture and the image rendered by computationally integrating the portion of the recorded pixel waveforms corresponding to that period. Further, the exposure parameters are no longer directly constrained by sensor ISO sensitivity: the waveforms provide low noise and high dynamic range (HDR) independent of the range of brightness in the scene or apparent shutter speed used. In effect, a TDCI stream is a "raw" imaging representation that allows post-processing of temporal properties in addition to the usual image characteristics. By specifying, experimentally evaluating, and disseminating the basic computational support needed for TDCI, this project lays the foundation for future development of sensor systems and new applications employing this model. Success could spawn an entirely new generation of technology that would revolutionize the fields of digital photography, video recording, and remote sensing.&lt;br/&gt;&lt;br/&gt;TDCI sensor systems have the potential to redefine the concept of a camera, but are extremely compute-intensive. Substantial computation must be done in the camera to meet tight real-time constraints for control of the sensor, capture, and compressed encoding of a waveform per pixel to create a TDCI stream. Manipulation of TDCI streams also requires new computational methods for other tasks ranging from efficient synthesis of conventional images from TDCI streams to implementation of algorithms directly transforming TDCI streams. For example, the accuracy of each waveform within a TDCI stream can be improved using analysis of waveforms for nearby pixels.&lt;br/&gt;The proposed work centers on exploring and experimentally evaluating all aspects of computation needed to support TDCI, both in-camera and post-processing. Recent advances in microchip technology suggest that these computations can be done economically in real time. While full exploitation of TDCI may ultimately make use of custom sensors integrating massively-parallel nanocontroller arrays, the exploratory research in this project avoids dependence on such new sensors by using TDCI streams synthesized and processed using conventional sensors and computer hardware. The goal of this project is to better understand the computational challenges and issues associated with TDCI, while producing reference implementations of the basic computing support and "project kits" as artifacts facilitating dissemination and further investigation.</AbstractNarration>
+    <MinAmdLetterDate>08/04/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/04/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422811</AwardID>
+    <Investigator>
+      <FirstName>Henry</FirstName>
+      <LastName>Dietz</LastName>
+      <EmailAddress>hankd@engr.uky.edu</EmailAddress>
+      <StartDate>08/04/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Kentucky Research Foundation</Name>
+      <CityName>Lexington</CityName>
+      <ZipCode>405260001</ZipCode>
+      <PhoneNumber>8592579420</PhoneNumber>
+      <StreetAddress>109 Kinkead Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Kentucky</StateName>
+      <StateCode>KY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

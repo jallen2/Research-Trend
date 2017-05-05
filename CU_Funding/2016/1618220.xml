@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: SMALL: Evolution of Self-adaptive Systems using Stochastic Search</AwardTitle>
+    <AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2019</AwardExpirationDate>
+    <AwardAmount>499948</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software systems are becoming more ubiquitous and critical to the functioning of our lives. An increasingly important requirement is to maintain high availability of these systems even in the face of changing requirements, faults, and resources. To address that concern, system developers today incorporate hand-written run-time adaptation strategies to automatically keep a system functioning effectively. However, as software systems grow in both complexity and ubiquity, and as the rate of technological change continues to increase, manual approaches cannot keep up. We must instead treat the evolution of adaptation strategies as a first-order concern. This research develops new mechanisms to automatically adapt and evolve the adaptation strategies themselves. Our high-level approach is to reuse previous domain or expert knowledge to inform the construction of flexible strategies, able to adapt to unanticipated changes and to various potential dimensions of system or environmental change.&lt;br/&gt;&lt;br/&gt;Future-generation software systems will need to automatically optimize for multiple interacting, difficult-to-measure, and evolving qualities, properties, and priorities. Existing work provides methods for constructing complex software systems that can adapt to the changing of certain circumstances such as changing environmental conditions, infrastructure availability, or user demands,&lt;br/&gt;while continuing to provide service at required quality levels. Our motivating insight is that stochastic search methods are especially promising for&lt;br/&gt;self-adaptive software systems, and in particular for tackling the evolution of self-adaptation strategies, as evidenced in part by recent work that scales such techniques to complex source-level software problems. This research develops a principled foundation for the evolution of adaptation strategies in the self-adaptive domain, using stochastic search. The resulting family of techniques reuses, recombines, and otherwise builds upon previous knowledge about a given system to adapt to four major potential change dimensions: (1) the system's architecture and deployment; (2) the tactics that can be deployed in an adaptation scenario, including mechanisms to choose between them and information regarding their applicability, costs, effects, success likelihood, etc.; (3) the system's quality goals, and their relative priorities; and (4) the environmental assumptions that control the context in which the system is deployed. The unifying factor in each of these strategies is the existence of previous domain or expert knowledge that can be leveraged for evolving adaptive strategies moving forward.</AbstractNarration>
+    <MinAmdLetterDate>05/20/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/20/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1618220</AwardID>
+    <Investigator>
+      <FirstName>Claire</FirstName>
+      <LastName>Le Goues</LastName>
+      <EmailAddress>clegoues@cs.cmu.edu</EmailAddress>
+      <StartDate>05/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Garlan</LastName>
+      <EmailAddress>garlan@cs.cmu.edu</EmailAddress>
+      <StartDate>05/20/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

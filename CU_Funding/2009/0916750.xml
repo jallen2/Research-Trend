@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>RI: Small: Statistical Modeling of Dynamic Covariance Matrices</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>455000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Todd Leen</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Suitable models for dynamic covariance matrices can be extremely useful in several application domains, such as in text mining and topic modeling, where one can study the evolving correlation between topics; in financial data ranging from stock/bond returns to interest rates and currencies, where the paramount importance of tracking evolving covariances has been widely acknowledged; in environmental informatics to study trends in dynamic covariance among disparate variables from the atmosphere as well as the biosphere. In such domains, it is not sufficient to simply compute the sample covariance at each time step; the goal is to discover any trends there may be in the evolution of the covariance structure.&lt;br/&gt;&lt;br/&gt;This project introduces and investigates a novel family of Dynamic Wishart Models (DWMs), which has the same graphical model structure as the Kalman filter, but tracks evolution of covariance matrices rather than state vectors. Similar to the use of multivariate Gaussians in Kalman filters, the models use the Wishart and inverse Wishart family of distributions on covariance matrices. Unlike Kalman filters, an analytic closed form filtering may not be possible in DWMs, but the models still have enough structure to allow efficient approximate inference algorithms. The project focuses on approximate inference for filtering, smoothing, and related problems in the context of DWMs; develop suitable numerically stable recursive updates in order to prevent numerical loss in positive definiteness; and investigate generalizations of DWMs including mixture models for tracking complex covariance dynamics. &lt;br/&gt;&lt;br/&gt;The development of effective tracking algorithms for covariances will permit the modeling of dynamic systems where the states really represent the varying relationships between multiple entities. The key contribution of the research is in leveraging the existing literature of dynamic latent state vectors to create equally powerful methods for dynamic latent covariance matrices. Such a transformation will have direct impact on applications in text analysis and topic modeling, financial data analysis, social network analysis, environmental informatics, and several other domains, and will spawn new opportunities for bringing together researchers and students across these disciplines, thereby broadening participation in computer sciences.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/21/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0916750</AwardID>
+    <Investigator>
+      <FirstName>Arindam</FirstName>
+      <LastName>Banerjee</LastName>
+      <EmailAddress>banerjee@cs.umn.edu</EmailAddress>
+      <StartDate>08/21/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Boley</LastName>
+      <EmailAddress>boley@cs.umn.edu</EmailAddress>
+      <StartDate>08/21/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

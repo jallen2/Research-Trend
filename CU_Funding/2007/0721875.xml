@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS-WN: Agile Wireless Ad Hoc Networks</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2009</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Alhussein A. Abouzeid</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of this proposal is developing advanced algorithmic theory that will lead to real-life implementation in wireless networks. In particular, we will experiment with some advanced and algorithmic ideas inspired by the past algorithmic work of the PI. &lt;br/&gt;&lt;br/&gt;We are going to leverage the practical solutions that we used in the Wave Relay system at Johns Hopkins, which combines two new components: the Pulse Protocol for scalability of routing and topology update, and the Medium Time Metric, which is a routing metric tailored for wireless networks. &lt;br/&gt;&lt;br/&gt;The Pulse protocol has optimized for large scale and mobility and is better scalability properties than AODV, DSR in simulations. In fact, simulations show Pulse protocol to scale for up to 5,000 mobile nodes. It uses a proactively-constructed tree with on-demand shortcuts on that tree. It can be viewed as combination of proactive and reactive methods.&lt;br/&gt;&lt;br/&gt;The Medium Time Metric exploits the multi-rate capability of modern wireless devices to minimize consumption of the shared wireless medium. This cross layer approach incorporates per-packet feedback from the physical and medium access control layers to dramatically increase efficiency and elasticity of both unicast and multicast routes. It is vastly superior to minimum hop routing metric, and has been shown to outperform other proposed metrics for wireless networks, such as ETX metric.&lt;br/&gt;However, it is possible to augment the quality of routing using new algorithmic ideas.&lt;br/&gt;&lt;br/&gt;First direction of improvement is to replace Medium Time Metric with load-based metric, that we call the opportunity cost, which provides incentives to users to avoid congested areas by pricing them higher compared to the un-congested areas. It is possible to prove that this yields near-optimal performance. However, this introduces the danger of oscillations. Our recent theoretical work shows how to overcome this problem in wired networks. Moreover, these methods work for the continuous case rather than for more discrete all-or-nothing setting that is necessary to accomplish QoS requirements.&lt;br/&gt;We are currently examining appropriate extensions to wireless networks to achieve best cross-layer design incorporating both routing and MAC layers.&lt;br/&gt;&lt;br/&gt;Another issue that needs to be investigated is feasibility of propagating topology updates thru the network in a proactive manner, as it may make the resulting solution non-scalable. We have significant theoretical accomplishments in the area of scalability of routing that we would like to apply in this setting such as designing the first provably memory-efficient and communication-efficient routing schemes, and peer-to-peer directories for tracking mobile users. We would like to apply these methodologies for improved scalability of routing in wireless networks. Specifically, we would like to extend the Pulse protocol to work with multiple trees and will be studying theoretically justified methods of constructing such trees</AbstractNarration>
+    <MinAmdLetterDate>09/11/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0721875</AwardID>
+    <Investigator>
+      <FirstName>Baruch</FirstName>
+      <LastName>Awerbuch</LastName>
+      <EmailAddress>baruch@cs.jhu.edu</EmailAddress>
+      <StartDate>09/11/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Cole</LastName>
+      <EmailAddress>robert.cole@jhuapl.edu</EmailAddress>
+      <StartDate>09/11/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Johns Hopkins University</Name>
+      <CityName>Baltimore</CityName>
+      <ZipCode>212182608</ZipCode>
+      <PhoneNumber>4105168668</PhoneNumber>
+      <StreetAddress>3400 N CHARLES ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

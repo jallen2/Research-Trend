@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: A Practical Data Dependence Profiler for Program Characterization and Optimization</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>400143</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Society relies on an ever broadening array of computer systems for productivity, communication, entertainment, safety, and health. Systems capable of processing at faster rates and with greater efficiency are necessary to sustain the pace of innovation. A key part of achieving this goal is the development of tools and techniques that make it easier to build sophisticated software with a desired set of requirements. One aspect of these tools, the focus of this work, is data dependence profiling. A data dependence profiler (DDP) conveys to a programmer, compiler, or other program analysis tool the likelihood of a data dependence between two arbitrary memory operations while the program is running. DDPs are critical since compilers and programmers often do not know or cannot determine all such relationships simply by analyzing the source code; hence, DDPs provide important information for further optimization and tuning.&lt;br/&gt;&lt;br/&gt;This project focuses on the design of a fast practical DDP that works effectively for a wide range of applications and for a wide range of program analysis needs. The first goal is speed: that the DDP impose only a small slowdown, the target being a factor of two. A second goal is to maintain accuracy: bounding the uncertainty and imprecision inherent in profiling, and providing information about the accuracy with the profiler feedback. The third goal is integration of the DDP into a feedback-directed optimization framework, to explore and understand its capabilities.&lt;br/&gt;&lt;br/&gt;If the goals of the project are met, DDPs are expected to become more widely integrated into program development tools in support of existing technology and enabling new technologies that ultimately will benefit society. Open source distribution of the tools developed by the project strengthens and extends the available open-source software infrastructure relied upon by both academia and industry. The project integrates education with research through involvement of graduate, undergraduate, and high school students.</AbstractNarration>
+    <MinAmdLetterDate>09/09/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/12/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1320356</AwardID>
+    <Investigator>
+      <FirstName>James</FirstName>
+      <LastName>Tuck</LastName>
+      <EmailAddress>jtuck@ncsu.edu</EmailAddress>
+      <StartDate>09/09/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

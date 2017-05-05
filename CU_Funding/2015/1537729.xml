@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Robust Distributed Average Tracking for Networked Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>238829</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jordan Berg</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many tasks performed by distributed dynamic systems can be thought of as occurring on a network of dynamic nodes interconnected by communication links. These tasks include sensing, estimation, control, and optimization by distributed mobile agents, such as vehicles. Implementation of these tasks often reduces to computation of the average, or weighted average, of some variable defined at each network node. Because communication across network links may be slow or expensive, it is important to spread the effort of computing this average across all the networked systems. This motivates the development of "distributed algorithms" that rely only on information from immediate neighbors, that is, from systems that can directly communicate with each other. While great progress has been made in distributed averaging algorithms, these rely on highly simplifying assumptions. This project will enable effective distributing averaging on a range of realistic systems, and experimentally validate the results on a network of robots. The result will apply to numerous open, physically relevant, problems.&lt;br/&gt;&lt;br/&gt;Existing distributed averaging methods rely primarily on linear local repeated averaging-type or consensus-type algorithms. These can only deal with prescribed cases, such as averaging initial conditions, or steady signals, or Laplace transformed quantities. Hence their applicability to practical applications is limited. The objective of this project is to derive a robust distributed average tracking framework based on novel nonsmooth nonlinear algorithms to enable distributed coordination of networked systems. The project will address robust distributed average tracking accounting for measurement and communication noise, different agents' varying partial observability and discrepant data quality, inherent physical dynamics, and optimization objectives. The results will fill in the gap in the distributed averaging paradigm to benefit many civilian, homeland security, and military applications involving networked systems.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1537729</AwardID>
+    <Investigator>
+      <FirstName>Wei</FirstName>
+      <LastName>Ren</LastName>
+      <EmailAddress>ren@ee.ucr.edu</EmailAddress>
+      <StartDate>08/08/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7569</Code>
+      <Text>Dynamics, Control and System D</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>030E</Code>
+      <Text>CONTROL SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>031E</Code>
+      <Text>MECHATRONICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>032E</Code>
+      <Text>SENSORS AND ACTUATORS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>033E</Code>
+      <Text>Smart and responsive structures</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>034E</Code>
+      <Text>Dynamical systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8024</Code>
+      <Text>Complex Systems</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: EAGER: Closing the gap in Controller Synthesis</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>200000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Automatic controller synthesis algorithms hold the promise of producing correct-by-construction systems, obviating the need for costly post facto verification. However, there is currently a gap between theoretical foundations of controller synthesis and their practical implementations on hardware and software platforms. This project addresses challenges in closing the gap in control synthesis. In particular, we consider two fundamental problems. First, we consider the problem of implementation complexity of controllers. While theoretical results have focused on the optimal memory requirements for controllers, in practice, a controller implementation may have several other optimality requirements such as the size of the implementing (combinational and sequential) circuit, the complexity and frequency of computing the control action, and the sensing and actuation bandwidth. Accordingly, we study algorithms for the construction of optimal controllers under these metrics. Second, we consider the problem of fault tolerance in controllers, in which we consider effects of (possibly stochastic) errors in controller implementations. While traditional fault tolerance techniques such as error-correcting codes and redundancy can be applied directly, our thesis is that a closer interaction of fault tolerance with controller synthesis algorithms can lead to fault tolerant designs at costs lower than traditional techniques. For example, by distinguishing the "importance" of signals to the control objective, the costs associated with error-correction and redundancy can be decreased while having a negligible effect on the control objective. The research performed in this project is prerequisite for a more widespread adoption of correct-by-construction techniques.&lt;br/&gt;&lt;br/&gt;The tools and techniques developed in this project have the potential to significantly enhance our ability to produce robust cyber-physical systems, thus affecting several large-scale application areas beyond the computer science and control engineering domains. Practically, the results of the research will lead to better controller synthesis tools. Theoretically, the research will bring together cross-cutting techniques, ranging from theoretical foundations in logics and algorithms for control, to optimization techniques, real-time systems, and hardware and software synthesis. In addition, by fostering collaboration between software foundations, control foundations, and hardware synthesis foundations, the project will train graduate and undergraduate students in the emerging and important domain of formal techniques for cyber-physical systems.</AbstractNarration>
+    <MinAmdLetterDate>09/12/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/12/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0953994</AwardID>
+    <Investigator>
+      <FirstName>Rupak</FirstName>
+      <LastName>Majumdar</LastName>
+      <EmailAddress>rupak@cs.ucla.edu</EmailAddress>
+      <StartDate>09/12/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Paulo</FirstName>
+      <LastName>Tabuada</LastName>
+      <EmailAddress>tabuada@ee.ucla.edu</EmailAddress>
+      <StartDate>09/12/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Los Angeles</Name>
+      <CityName>LOS ANGELES</CityName>
+      <ZipCode>900951406</ZipCode>
+      <PhoneNumber>3107940102</PhoneNumber>
+      <StreetAddress>10889 Wilshire Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

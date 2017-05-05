@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>A parallel Poisson/Helmholtz solver using local boundary integral equation and random walk methods</AwardTitle>
+    <AwardEffectiveDate>09/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>140000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of this project is to develop a new type of scalable elliptic solvers with high parallel scalability, and a fundamentally new approach in solving Poisson or modified Helmholtz equations in 3-D is proposed. The solution of these equations constitutes a major computational cost for many computational engineer problems such as incompressible flows by projection methods, electrostatic potential problems in molecular biology, and enforcing divergence free constraints of magnetic field in plasma MHD simulations, etc. The approach proposed is based on combining deterministic local boundary integral equation methods and random Brownian walk probabilistic representations of PDE solutions, resulting in straightforward parallel non-iterative solvers for the Dirichlet-to Neumann mappings of the elliptic PDEs, thus the complete solutions of the PDEs with the help of the FMM. &lt;br/&gt;&lt;br/&gt;The high performance computers nowadays use many cores in the order of hundreds of thousands designed for parallel implementations. The challenging for algorithms designers is to develop highly scalable and parallel methods to solve the mathematical equations coming from the representations of real world science and engineering problems. The development of the proposed algorithm in this project is a step toward to achieving such a degree of scalability and parallelism for problems, such as flow-structure interactions and electrostatics in computational biology and plasmas. The idea of using both random and deterministic methods in the proposed method is fundamentally different from traditional purely deterministic methods such as multi-grid and domain decomposition methods, and has the potential to produce high impact in the field of scientific and engineering computing at extreme scale.</AbstractNarration>
+    <MinAmdLetterDate>09/11/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/11/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1315128</AwardID>
+    <Investigator>
+      <FirstName>Wei</FirstName>
+      <LastName>Cai</LastName>
+      <EmailAddress>wcai@uncc.edu</EmailAddress>
+      <StartDate>09/11/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Charlotte</Name>
+      <CityName>CHARLOTTE</CityName>
+      <ZipCode>282230001</ZipCode>
+      <PhoneNumber>7046871888</PhoneNumber>
+      <StreetAddress>9201 University City Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

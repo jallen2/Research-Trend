@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Bilateral BBSRC-NSF/BIO: Bayesian Quantitative Proteomics</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>648950</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Peter H. McCartney</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The functional molecules in cells are proteins - the expression, activity and interactions of particular proteins in any given cell define its structure and what it is capable of doing. The technologies used to study proteins on a large scale are collectively called proteomics. The main method used in proteomics is mass spectrometry (MS), which can calculate the molecular weight and abundance of molecules. The majority of proteomics workflows perform a step of protein digestion prior to MS. The result of digestion is that all the proteins become broken up into small chains, called peptides. This step has become common, because peptides are easier to analyse by MS, due to their lower mass, producing simpler data to interpret. One challenge in this digestion step is that some proteins break down quickly whereas for others digestion is incomplete, producing unreliable quantification data that are not fully understood or compensated for by current analysis software. To overcome this problem, the University of Texas Anderson Cancer Center will collaborate with the University of Manchester in the United Kingdom to develop an integrated suite of analysis techniques using a powerful statistical technique called Bayesian modelling. These advances will be incorporated into a freely available software suite.&lt;br/&gt;&lt;br/&gt;Tandem Mass Spectrometry (MS/MS) coupled to Liquid Chromatography (LC) is the primary technique used in proteomics. The most common approach is LC separation of tryptic fragments derived from a proteome digestion, followed by tandem MS of the peptides. This entire workflow is conceived as a series of discrete steps, some chemical, some instrumental, some informatics and some statistical. Existing software concentrates on subcomponents of the workflow, and comprise a series of deterministic, self-contained steps. This project will translate the whole protein quantification pipeline into a rigorous statistical framework underpinned by Bayesian methodology. The new framework will integrate evidence across all experimentally acquired datasets, and borrow strength from unused structure within a proteomics workflow, including digestion dynamics. The proposed pipeline consists of three synergistic developments (1) Utilization of all unidentified (peptide) features, as well as identified features, to infer the most likely mixture of proteins present in a sample; (2) Differential quantification of complex mixtures of known proteoforms; (3) Discovery of unknown proteoforms and all modifications (PTMs) carried by their quantification signatures. These advancements will elicit a step-change in quantification sensitivity and interpretation at the proteoform level for the first time. The end-to-end analysis solution will be made available within the user-centric standards compliant ProteoSuite package, and as a Galaxy workflow for high-throughput pipelines.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1550088</AwardID>
+    <Investigator>
+      <FirstName>Jeffrey</FirstName>
+      <LastName>Morris</LastName>
+      <EmailAddress>jefmorris@mdanderson.org</EmailAddress>
+      <StartDate>08/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Texas, M.D. Anderson Cancer Center</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770304009</ZipCode>
+      <PhoneNumber>7137923220</PhoneNumber>
+      <StreetAddress>1515 Holcombe, Unit 176</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

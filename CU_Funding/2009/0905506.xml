@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>HCC: Medium: Sound Rendering for Physically Based Simulation</AwardTitle>
+    <AwardEffectiveDate>07/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>1213705</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computational physics can help us animate crashing rigid and deformable bodies, or fracturing solids, or splashing water, but the results are silent movies. Virtually no practical algorithms exist for synthesizing synchronized sounds automatically. Instead, sound recordings are edited manually for pre-produced animations or triggered automatically in interactive settings. The former is labor intensive and inflexible, while the latter produces awkward, repetitive results. This situation is a serious obstacle to building realistic, interactive simulations (whether for entertainment, training, or other applications), which require sound to be compelling,. In this research the PIs will begin filling this broad void by pursuing fundamental advances in computational methods while solving several particularly challenging sound rendering problems. The goal is to produce some of the first viable methods in this area, upon which many more can be built. Successful implementation of this program will fundamentally transform our relationship with our increasingly convincing simulated realities, because for the first time we will be able to hear them as well as see them. To these ends, the PIs will develop fundamental algorithms that address the problems of simulating the vibrations that cause sound and computing the sound field produced by those vibrations.&lt;br/&gt;&lt;br/&gt;1) Reduced-order vibration models. Simulating vibration in complex structures is expensive because of the need for both high model complexity and audio-rate temporal resolution. The PIs will develop dimensional model reduction methods to enable efficient sound rendering from complex, nonlinearly vibrating geometry, such as thin shells.&lt;br/&gt;&lt;br/&gt;2) All-frequency sound radiation. Realistic sound requires computing the radiated sound field from a vibrating surface over the very broad range of audible frequencies. But existing methods are either inaccurate for low frequencies or impractical for high frequencies. The PIs will develop hybrid algorithms based on a broad toolbox and discover which methods are most successful for which problems.&lt;br/&gt;&lt;br/&gt;Complementing the algorithmic work, the PIs will pursue solutions to a series of difficult, unsolved sound rendering problems that are of value in applications:&lt;br/&gt;&lt;br/&gt;a) Harmonic fluid sounds. Few sounds are as distinctive as pouring a glass of water or the babbling of a brook, yet no algorithms exist to compute these sounds automatically. The PIs will investigate practical algorithms for harmonic bubble-based sound radiation characteristic of splashing fluids.&lt;br/&gt;&lt;br/&gt;b) Multi-object sound. Sounds made by collections of objects in contact (think of a bin of LEGOs or a basket of blocks) involve close-proximity effects that are often ignored. The PIs will develop sound rendering methods to approximate multi-object contact sounds with object-object interactions.&lt;br/&gt;&lt;br/&gt;c) Fracture. Brittle fracture creates distinctive sounds during destructive processes like breakage of glass. The PIs will research the efficient generation and excitation of vibrating fragments, and multi-object sound radiation from vibrating debris.&lt;br/&gt;&lt;br/&gt;In all aspects of this research, the PIs will ensure that they are solving problems accurately by comparing every approximation to a reference solution, and they will also ensure they are solving the right problems by testing perceptual equivalence between approximate solutions, reference solutions, and recorded sounds.&lt;br/&gt;&lt;br/&gt;Broader Impacts: Successful implementation of this program will lead to practical innovations of immediate relevance to computer graphics, and applications of acoustic simulation. In the future, the methods developed in this project or their successors will completely transform how sound is computed in interactive virtual environments.</AbstractNarration>
+    <MinAmdLetterDate>06/26/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/20/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0905506</AwardID>
+    <Investigator>
+      <FirstName>Doug</FirstName>
+      <LastName>James</LastName>
+      <EmailAddress>djames@cs.stanford.edu</EmailAddress>
+      <StartDate>06/26/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Steve</FirstName>
+      <LastName>Marschner</LastName>
+      <EmailAddress>srm@cs.cornell.edu</EmailAddress>
+      <StartDate>06/26/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Kavita</FirstName>
+      <LastName>Bala</LastName>
+      <EmailAddress>kb@cs.cornell.edu</EmailAddress>
+      <StartDate>06/26/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Cornell University</Name>
+      <CityName>Ithaca</CityName>
+      <ZipCode>148502820</ZipCode>
+      <PhoneNumber>6072555014</PhoneNumber>
+      <StreetAddress>373 Pine Tree Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0116000</Code>
+      <Name>Human Subjects</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

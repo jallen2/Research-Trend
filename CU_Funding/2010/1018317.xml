@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Modeling and Predicting Term Mismatch for Full-Text Retrieval</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>495547</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many text search engines use probabilistic reasoning to determine how well a word represents a person?s information need. The probability that a term appears in relevant documents ? documents that satisfy the information need ? is a fundamental quantity in the theory of probabilistic information retrieval, however prior research provided few clues about how to estimate it reliably. This project uses exploratory data analysis to identify common reasons that user-specified query terms fail to match relevant documents, develops features correlated with each reason, and integrates them into a model that can be trained from data. The resulting term necessity predictions can be used in state-of-the-art retrieval models to improve retrieval accuracy substantially.&lt;br/&gt;&lt;br/&gt;Term necessity predictions are based on a two-stage approach to text retrieval. A feature-based analysis of an initial retrieval develops evidence that can be linked to a variety of common reasons that a term might not match relevant documents, for example, centrality, synonymy, and abstractness. This model-based approach can be trained from available data, making it easy to incorporate new features that test new hypotheses, or to train a corpus-specific predictive model. It also has the advantage that probability predictions are query-specific, and linked to features that can guide automatic term weighting as well as interactive or automatic query refinement. The project develops several focused interventions for interactive, automatic query expansion, and relevance feedback refinement of queries.&lt;br/&gt;&lt;br/&gt;This project makes an impact on the scientific community by providing new approaches to a central problem that affects probabilistic retrieval models, and the diagnosis and correction of problems in query formation. Improvements in search engine accuracy also affect a broad population of everyday users. The proposed research improves search accuracy for ?ordinary people? using unstructured keyword queries, as well as professional searchers who often use sophisticated structured queries to search structured documents.&lt;br/&gt;&lt;br/&gt;Research results will be disseminated in research papers and via project web site (http://www.cs.cmu.edu/~callan/Projects/IIS-1018317/). New techniques will be implemented and disseminated in periodic releases of the Lemur Project?s Indri search engine (http://www.lemurproject.org/indri/). Indri is used by a broad international research community, thus this form of dissemination makes it more likely that other researchers will study and extend the proposed research.</AbstractNarration>
+    <MinAmdLetterDate>09/02/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/02/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1018317</AwardID>
+    <Investigator>
+      <FirstName>Jamie</FirstName>
+      <LastName>Callan</LastName>
+      <EmailAddress>callan@cs.cmu.edu</EmailAddress>
+      <StartDate>09/02/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

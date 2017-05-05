@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AF EAGER: Minimum Sobolev Norm techniques for systems of elliptic PDEs</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>50000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jack Snoeyink</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Designing aircraft, skyscrapers, jet engines, medical imaging equipment, computer chips, communication equipment, etc., have one thing in common: they are expensive to prototype. It is significantly cheaper and faster to be able to simulate new designs on a computer before building them. However this requires the ability to rapidly solve the equations of physics, almost all of which are posed as partial differential equations. Unfortunately the current state of the art for the numerical solution of partial differential equations is just too slow to meet the majority of industrial needs.&lt;br/&gt;&lt;br/&gt;This project is investigating a new promising numerical technique. First it uses a clever variant of the Golomb--Weinberger principle to deal with the infinite number of unknowns. Second, it picks a finite number of equations but insists that the error be exactly zero. Since there are more unknowns than equations, there are many potential solutions, and it uses the Golomb--Weinberger principle to pick the smoothest solution. Deep mathematical techniques can be used to prove that the computed solution will be close to the true solution for a very wide class of partial differential equations, wider than that for current state of the art methods, and this is what makes the project's approach so significant. Sophisticated modern numerical techniques are needed to make this into a practical approach. The initial goal of this project is a working software system for two dimensional problems, along with a detailed mathematical analysis to increase confidence in the approach.&lt;br/&gt;&lt;br/&gt;Broader impacts of this research include software development for public use and supporting and mentoring a female graduate student in this interdisciplinary field.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/19/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1450321</AwardID>
+    <Investigator>
+      <FirstName>Shivkumar</FirstName>
+      <LastName>Chandrasekaran</LastName>
+      <EmailAddress>shiv@ece.ucsb.edu</EmailAddress>
+      <StartDate>08/19/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Barbara</Name>
+      <CityName>Santa Barbara</CityName>
+      <ZipCode>931062050</ZipCode>
+      <PhoneNumber>8058934188</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7933</Code>
+      <Text>NUM, SYMBOL, &amp; ALGEBRA COMPUT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

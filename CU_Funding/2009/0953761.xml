@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Automating Correctness Proofs of Transactionalized Data Structures</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>166000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In multi-core computing, programmers must write concurrent code to obtain&lt;br/&gt;performance, much harder than sequential code. Transactions are part of the&lt;br/&gt;solution: they reduce concurrent reasoning to sequential reasoning. But&lt;br/&gt;high-performance data structures require relaxed transactional memory&lt;br/&gt;techniques like open nesting. This places a tricky correctness burden on the&lt;br/&gt;programmer: identifying which operations on the data structure conflict&lt;br/&gt;(cannot run in simultaneous transactions), and how to undo operations to back&lt;br/&gt;out incomplete transactions.&lt;br/&gt;&lt;br/&gt;The proposed solution is to specify what a data structure ought to do, and to&lt;br/&gt;prove that the programmer's conflict and undo specifications are correct. The&lt;br/&gt;project will complete a proof-of-concept tool to demonstrate the feasibility&lt;br/&gt;of the approach.&lt;br/&gt;&lt;br/&gt;The intellectual merit includes: a language for specifying data abstractions&lt;br/&gt;as abstract models amenable to the proofs required; a way to describe&lt;br/&gt;conflicts between operations on the data type, and undos; a tool to process&lt;br/&gt;the descriptions and build proofs as satisfiability problems; and algorithms&lt;br/&gt;to prove correctness of abstract locking procotols. The project will be more&lt;br/&gt;successful than general program proving since it works with abstractions, not&lt;br/&gt;implementations, and it deals with specific properties of interest. Future&lt;br/&gt;work can address correctness of implementation.&lt;br/&gt;&lt;br/&gt;The broader impact consists in assisting programmers in building safe&lt;br/&gt;high-performance concurrent data structures for multi-core platforms. The&lt;br/&gt;tools and libraries produced will be widely available. Helping solve the&lt;br/&gt;multi-core software problem has huge implications for our economy and society.</AbstractNarration>
+    <MinAmdLetterDate>09/09/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/02/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0953761</AwardID>
+    <Investigator>
+      <FirstName>J. Eliot</FirstName>
+      <LastName>Moss</LastName>
+      <EmailAddress>moss@cs.umass.edu</EmailAddress>
+      <StartDate>09/09/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>Hadley</CityName>
+      <ZipCode>010359450</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE Collaborative Research: SPIKE-An Implementation of a Recursive Divide-and-Conquer Parallel Strategy for Solving Large Systems of Linear Equations</AwardTitle>
+    <AwardEffectiveDate>06/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2015</AwardExpirationDate>
+    <AwardAmount>251119</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rajiv Ramnath</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Drs. Negrut, Sameh, and Knepley will investigate, produce, and maintain a methodology and its software implementation that leverage emerging heterogeneous hardware architectures to solve billion-unknowns linear systems in a robust, scalable, and efficient fashion. The two classes of problems targeted under this project are banded dense and sparse general linear systems.&lt;br/&gt;&lt;br/&gt;This project is motivated by the observation that the task of solving a linear system is one of the most ubiquitous ingredients in the numerical solution of Applied Mathematics problems. It is relied upon for the implicit integration of Ordinary Differential Equation (ODE) and Differential Algebraic Equation (DAE) problems, in the numerical solution of Partial Differential Equation (PDE) problems, in interior point optimization methods, in least squares approximations, in solving eigenvalue problems, and in data analysis. In fact, the vast majority of nonlinear problems in Scientific Computing are solved iteratively by drawing on local linearizations of nonlinear operators and the solution of linear systems. Recent advances in (a) hardware architecture; i.e., the emergence of General Purpose Graphics Processing Unit (GP-GPU) cards, and (b) scalable solution algorithms, provide an opportunity to develop a new class of parallel algorithms, called SPIKE, which can robustly and efficiently solve very large linear systems of equations.&lt;br/&gt;&lt;br/&gt;Drawing on its divide-and-conquer paradigm, SPIKE builds on several algorithmic primitives: matrix reordering strategies, dense linear algebra operations, sparse direct solvers, and Krylov subspace methods. It provides a scalable solution that can be deployed in a heterogeneous hardware ecosystem and has the potential to solve billion-unknown linear systems in the cloud or on tomorrow?s exascale supercomputers. Its high degree of scalability and improved efficiency stem from (i) optimized memory access pattern owing to an aggressive pre-processing stage that reduces a generic sparse matrix to a banded one through a novel reordering strategy; (ii) good exposure of coarse and fine grain parallelism owing to a recursive, divide-and-conquer solution strategy; (iii) efficient vectorization in evaluating the coupling terms in the divide-and-conquer stage owing to a CPU+GPU heterogeneous computing approach; and (iv) algorithmic polymorphism, given that SPIKE can serve both as a direct solver or an effective preconditioner in an iterative Krylov-type method.&lt;br/&gt;&lt;br/&gt;In Engineering, SPIKE will provide the Computer Aided Engineering (CAE) community with a key component; i.e., fast solution of linear systems, required by the analysis of complex problems through computer simulation. Examples of applications that would benefit from this technology are Structural Mechanics problems (Finite Element Analysis in car crash simulation), Computational Fluid Dynamics problems (solving Navier-Stokes equations in the simulation of turbulent flow around a wing profile), and Computational Multibody Dynamics problems (solving Newton-Euler equations in large granular dynamics problems).&lt;br/&gt;&lt;br/&gt;SPIKE will also be interfaced to the Portable, Extensible Toolkit for Scientific Computation (PETSc), a two decades old flexible and scalable framework for solving Science and Engineering problems on supercomputers. Through PETSc, SPIKE will be made available to a High Performance Computing user community with more than 20,000 members worldwide. PETSc users will be able to run SPIKE without any modifications on vastly different supercomputer architectures such as the IBM BlueGene/P and BlueGene/Q, or the Cray XT5. SPIKE will thus run scalably on the largest machines in the world and will be tuned for very different network and hardware topologies while maintaining a simple code base.&lt;br/&gt;&lt;br/&gt;The experience collected and lessons learned in this project will augment a graduate level class, ?High Performance Computing for Engineering Applications? taught at the University of Wisconsin-Madison. A SPIKE tutorial and research outcomes will be presented each year at the International Conference for High Performance Computing, Networking, Storage and Analysis. A one day High Performance Computing Boot Camp will be organized each year in conjunction with the American Society of Mechanical Engineers (ASME) conference and used to disseminate the software outcomes of this effort. Finally, this project will shape the research agendas of two graduate students working on advanced degrees in Computational Science.</AbstractNarration>
+    <MinAmdLetterDate>06/20/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/20/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1147337</AwardID>
+    <Investigator>
+      <FirstName>Dan</FirstName>
+      <LastName>Negrut</LastName>
+      <EmailAddress>negrut@wisc.edu</EmailAddress>
+      <StartDate>06/20/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Wisconsin-Madison</Name>
+      <CityName>MADISON</CityName>
+      <ZipCode>537151218</ZipCode>
+      <PhoneNumber>6082623822</PhoneNumber>
+      <StreetAddress>21 North Park Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

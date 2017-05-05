@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Database Algorithms for Modern CPU Memory Hierarchies</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>499998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A modern database server typically runs on a cluster of machines with a large amount of RAM, to ensure fast query responses when the commonly accessed data (or even the whole database) can fit in main memory. Data may reside in remote or local memory, or in one of several levels of cache; each type of memory has its own characteristic size and performance properties. This project will develop query processing algorithms and a query processing system tailored to such memory hierarchies. Analytic database systems have emerged as a key technology for extracting actionable information from "big data" collections ranging from medicine to science to business. Improvements in the performance of core database operations achieved by the project will have impact on many application domains. The project will also contribute to education by contributing technology for use in teaching database system implementation techniques.&lt;br/&gt;&lt;br/&gt;The project will develop a database architecture with efficient partitioning as the core operation, using different partitioning techniques at each level of the memory hierarchy. In-place partitioning will be employed where appropriate to avoid allocating extra memory, with only a small decrease in partitioning speed. Partitioning will be used as a building block for other operators such as sorting, joins and aggregation. A variety of database algorithms will be implemented, taking advantage of the efficiency of partitioning to perform well at scale. Network transfer volumes will be reduced using specialized join algorithms, since such transfers are likely to be the bottleneck for queries involving large distributed joins. These algorithms will form the basis of a database system prototype to be developed during the course of the project. The project will provide new techniques to exploit modern machines for efficient analytic query processing. The proposed system will significantly improve the throughput of data-intensive queries.&lt;br/&gt;&lt;br/&gt;For further information see the project web site at: http://www.cs.columbia.edu/~kar/cpumem.html</AbstractNarration>
+    <MinAmdLetterDate>08/05/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422488</AwardID>
+    <Investigator>
+      <FirstName>Kenneth</FirstName>
+      <LastName>Ross</LastName>
+      <EmailAddress>kar@cs.columbia.edu</EmailAddress>
+      <StartDate>08/05/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

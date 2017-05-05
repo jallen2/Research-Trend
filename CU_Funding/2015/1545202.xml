@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Efficient Parallel Iterative Monte Carlo Methods for Statistical Analysis of Big Data</AwardTitle>
+    <AwardEffectiveDate>03/02/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>200499</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Andrew D. Pollington</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The integration of computer technology into science and daily life has enabled the collection of massive volumes of data. To analyze these data, one may have to resort to parallel and distributed architectures. While the parallel and distributed architectures present new capabilities for storage and manipulation of big data, it is unclear, from the inferential point of view, how the current statistical methodology can be transported to the paradigm of big data. Also, growing data size typically comes together with a growing complexity of data structures and of the models needed to account for the structures. Although iterative Monte Carlo algorithms, such as the Markov chain Monte Carlo (MCMC), stochastic approximation, and expectation-maximization (EM) algorithms, have proven to be very powerful and typically unique computational tools for analyzing data of complex structures, they are infeasible for big data as for which a large number of iterations and a complete scan of the full dataset for each iteration are typically required. Big data have put a great challenge on the current statistical methodology. The investigators propose a general principle for developing Monte Carlo algorithms that are feasible for big data and workable on parallel and distributed architectures; that is, using Monte Carlo averages calculated in parallel from subsamples to approximate the quantities that originally need to calculate from the full dataset. This principle avoids the requirement for repeated scans of full data in algorithm iterations, while enabling the algorithm to produce statistically sensible solutions to the problem under consideration. Under this principle, a general algorithm, the so-called subsampling approximation-based parallel stochastic approximation algorithm, is proposed for parameter estimation for big data problems. Unlike the existing algorithms, such as the bag of little bootstraps, aggregated estimation equation, and split-and-conquer algorithms, the proposed algorithm works for the problems for which the observations are generally dependent. Under the same principle, a subsampling approximation-based parallel Metropolis-Hastings algorithm is proposed for Bayesian analysis of big data, and a subsampling approximation-based parallel Monte Carlo EM algorithm is proposed for parameter estimation for the big data problems with missing observations. In addition to the subsampling approximation-based parallel iterative Monte Carlo algorithms, an embarrassingly parallel MCMC algorithm is proposed for Bayesian analysis of big data based on the popular idea of divide-and-conquer. Various schemes of dataset partition and results aggregation are proposed. The validity of the proposed parallel iterative Monte Carlo algorithms, including both the subsampling approximation-based and embarrassingly parallel ones, will be rigorously studied. The proposed algorithms will be applied to spatio-temporal modeling of satellite climate data, genome-wide association study, and stream data analysis.&lt;br/&gt;&lt;br/&gt;The intellectual merit of this project is to propose a general principle for statistical analysis of big data: Using Monte Carlo averages of subsamples to approximate the quantities that originally need to calculate from the full dataset. This principle provides a general strategy for transporting the current statistical methodology to the paradigm of big data. Under this principle, a few subsampling approximation-based parallel iterative Monte Carlo algorithms are proposed. The proposed algorithms address the core problem of big data analysis:how to make a statistically sensible analysis for big data while avoiding repeated scans of the full dataset? This project will have broader impacts because big data are ubiquitous throughout almost all fields of science and technology. A successful research program in theory and methods of parallel iterative Monte Carlo computations can have immense benefit widely throughout science and technology. The research results will be disseminated to the communities of interest, such as atmospheric science, biomedical science, engineering, and social science, via direct collaboration with researchers in these disciplines, conference presentations, books, and papers to be published in academic journals. The project will have also significant impacts on education through direct involvement of graduate students in the project and incorporation of results into undergraduate and graduate courses. In addition, the package Distributed Iterative Statistical Computing (DISC) that will be developed under this project is designed to provide a platform for Ph.D. students and researchers like the investigators with network-connected computers to experiment new ideas of developing efficient iterative Monte Carlo algorithms in parallel or, more exactly, grid computing environments.</AbstractNarration>
+    <MinAmdLetterDate>06/02/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/02/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1545202</AwardID>
+    <Investigator>
+      <FirstName>Faming</FirstName>
+      <LastName>Liang</LastName>
+      <EmailAddress>faliang@ufl.edu</EmailAddress>
+      <StartDate>06/02/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Florida</Name>
+      <CityName>GAINESVILLE</CityName>
+      <ZipCode>326112002</ZipCode>
+      <PhoneNumber>3523923516</PhoneNumber>
+      <StreetAddress>1 UNIVERSITY OF FLORIDA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Florida</StateName>
+      <StateCode>FL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8069</Code>
+      <Text>CDS&amp;E-MSS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

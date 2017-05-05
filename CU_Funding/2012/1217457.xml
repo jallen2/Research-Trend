@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Error Correction for Biomolecular Computations</AwardTitle>
+    <AwardEffectiveDate>07/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2015</AwardExpirationDate>
+    <AwardAmount>457998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mitra Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Intellectual Merit: Error-correction is a fundamental challenge for all types of computation, and it is a particularly essential challenge for molecular-scale computation. DNA computation is molecular computation using DNA as the computational hardware. Current methods for DNA computations are beset by a high error rate. Error-handling techniques are the key to achieving robust DNA computation in the laboratory. Indeed, a look at the successes in the field of DNA computation clearly demonstrates the role played by error-handling techniques. Winfree's group at Caltech recently made successful laboratory implementations of Boolean DNA circuits of impressive complexity, using a type of chemical logical gate known as a seesaw gate. Their work made use of two types of error-correction (i) inbuilt signal restoration at the circuit network level, and (ii)clamps, a method of error-suppression at the DNA gate design level. Error-correction remains the single largest challenge to further scaling these molecular computations. A particularly difficult type of error is leaks where an output signal is eventually produced even in the absence of an input signal. Due to leaks, logical gates in DNA circuits generally only correctly operate for a limited time interval, and afterwards provide erroneous outputs. The central goal of the proposed work is methods for error-correction of ?leaks? in DNA computations. Proposed work will develop novel network level designs and gate level designs that suppress leaks using a family of innovative techniques, shadow networks and error-modulation gates. A key application is to DNA amplifiers, which take as input a DNA strand at some concentration and produce an output signal DNA strand. DNA amplifiers are leaky, producing signal DNA even in the absence of input, albeit at a slower rate. The difference between signal and noise decides the sensitivity of an amplifier. Enzyme-free DNA exponential amplifiers have high leak rates that limit their sensitivity to detecting small amounts of signal. This proposal describes both network level designs and gate level designs that suppress leaks in such amplifiers. As a concrete and challenging test case, error-suppression in an exponential cross-catalytic DNA amplifier will be demonstrated as a major goal. A well-balanced combination of modeling, software simulation, and experimental tests to verify the error-correction methods will be used. Proposed error-handling techniques are modeled as chemical reaction networks and such networks are then simulated. This exponential amplifier is based on seesaw gates and is hence well modeled as a chemical reaction network.&lt;br/&gt;&lt;br/&gt;Broader Impact: The designs outlined in the proposal are modular, allowing the various error-correcting components to be used almost as black boxes. The error-suppression techniques are general and translate to a wide variety of other DNA amplifier designs and DNA computing applications involving amplification or restoration of a signal. An ability to systematically identify, at the design stage, possible errors in experimental DNA systems and methods to suppress and/or correct them is essential for designing scalable and intricate DNA nanosystems. As an educational effort, an advanced undergraduate and beginning graduate level course is planned that teaches error-handling as an integral part of designing DNA systems. The course will introduce students to modeling tools and sequence design tools. The students will develop error-correcting schemes for some common DNA systems like amplifiers, oscillators and switches. They then model their techniques and the ones that work best in simulation will be given an opportunity to implement them in the laboratory.</AbstractNarration>
+    <MinAmdLetterDate>06/22/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/27/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217457</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Reif</LastName>
+      <EmailAddress>reif@cs.duke.edu</EmailAddress>
+      <StartDate>06/22/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Duke University</Name>
+      <CityName>Durham</CityName>
+      <ZipCode>277054010</ZipCode>
+      <PhoneNumber>9196843030</PhoneNumber>
+      <StreetAddress>2200 W. Main St, Suite 710</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

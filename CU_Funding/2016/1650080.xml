@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Novel sampling algorithms for scaling up spectral methods for unsupervised learning</AwardTitle>
+    <AwardEffectiveDate>08/15/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>90000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Aude Oliva</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In the era of big data, unsupervised learning has become increasingly important. At a high-level, unsupervised learning serves to reduce the data size, while capturing its important underlying structure. For a powerful and widely-used family of unsupervised learning techniques (those based on spectral methods), scaling up to large data sets poses significant computational challenges. This research project will develop extremely simple and lightweight sampling techniques for scaling up this family of unsupervised learning methods. Since big data is ubiquitous, these research advances are likely to be transformative to a range of fields. This project will benefit society through the research team's ongoing collaborations in climate science, agriculture, and finance. The team will also continue to engage the computer science community in this endeavor, by training students, developing tutorials, and broadening the participation of women and minorities in computing.&lt;br/&gt;&lt;br/&gt;This project will advance machine learning research by scaling up spectral methods for the analysis of large data sets. While spectral methods for the unsupervised learning tasks of clustering and embedding have found wide success in a variety of practical applications, scaling them up to large data sets poses significant computational challenges. In particular, the storage and computation needed to handle the affinity matrix (a matrix of pairwise similarities between data points) can be prohibitive. An approach that has found promise is to instead approximate this matrix in some sense. The goal of this project is to provide simple approximation techniques that manage the tradeoff between their space and time complexity vs. the quality of the approximation. The proposed approach involves sampling techniques that address this goal by exploiting latent structure in a data set, in order to minimize the amount of information that needs to be stored to (approximately) represent it. This leads to techniques that speed up the computation and reduce the memory requirements of spectral methods, while simultaneously providing better approximations. The project will also continue the team's momentum on leveraging advances in machine learning for data-driven discovery.</AbstractNarration>
+    <MinAmdLetterDate>08/23/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/23/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1650080</AwardID>
+    <Investigator>
+      <FirstName>Claire</FirstName>
+      <LastName>Monteleoni</LastName>
+      <EmailAddress>cmontel@gwu.edu</EmailAddress>
+      <StartDate>08/23/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>George Washington University</Name>
+      <CityName>Washington</CityName>
+      <ZipCode>200522000</ZipCode>
+      <PhoneNumber>2029946255</PhoneNumber>
+      <StreetAddress>2121 Eye Street NW</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>District of Columbia</StateName>
+      <StateCode>DC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

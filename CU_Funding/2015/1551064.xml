@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>INSPIRE: Co-Design of Adiabatic Quantum Annealers</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>650000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This INSPIRE award is partially funded by the Algorithmic Foundations Quantum Computing in the CCF Division in the CISE Directorate; the Electronics, Photonics and Magnetic Devices program in the ECCS Division in the ENG Directorate; and Office of Integrative Activities. &lt;br/&gt;&lt;br/&gt;Quantum computing has been an object of investigation for three decades. While general-purpose quantum computers are not yet viable, open-system adiabatic quantum annealing (QA) devices are already available. In the near future, such devices could possibly address a range of nondeterministic polynomial time (NP) problems that can be very challenging for today's classical computers. Unfortunately, the designers of QA systems didn't have specific target applications in mind when designing their machines, and therefore lack clear guidelines to weigh the engineering trade-offs between such things as richer qubit connectivity versus qubit quality. The main goal of this project is to develop a set of guidelines to exploit application-specific features to improve the design of open-system, adiabatic quantum annealers, possible extendable to other quantum devices. Quantum annealers are special-purpose quantum computing devices that are now available as experimental prototypes. Building these complex and fragile systems in a scalable way requires making many engineering compromises. Currently available quantum annealers target a very broad range of problems, leading to very stringent design constraints that greatly reduce the efficient use of their resources. This project takes a specialized view, where engineering design trade-offs are guided by the features of specific applications and should lead to more efficient adiabatic quantum annealers and other quantum devices.&lt;br/&gt;&lt;br/&gt;One of the most restrictive constraints in the current implementation of quantum annealers is the limited connectivity of the underlying information processing elements (known as quantum bits or qubits). This limited connectivity is due both to the physical constraints imposed by the 2-dimensional layout of the device and the requirement for a scalable design. The resulting architecture was selected and implemented in order to represent the most general type of problem which the system is designed to solve, but this can be done only by paying a significant cost in terms of the size of the problems that can be solved. A problem in variables generally requires physical qubits to be mapped into the architecture of the quantum annealer. This project looks at two specific applications - graph partitioning and natural language processing - both of which involve solving combinatorial optimization problems. The idea is to use the specific features and structures of these problems to design quantum annealing architectures that make more efficient use of the available physical qubits. The results of this research will be widely disseminated through publications and by reaching out to other researchers actively working on building these devices. The new guidelines derived from this effort are expected to greatly improve and accelerate the development of useful quantum devices beyond quantum annealers.</AbstractNarration>
+    <MinAmdLetterDate>09/01/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/01/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1551064</AwardID>
+    <Investigator>
+      <FirstName>Kevin</FirstName>
+      <LastName>Knight</LastName>
+      <EmailAddress>knight@isi.edu</EmailAddress>
+      <StartDate>09/01/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Lucas</LastName>
+      <EmailAddress>rflucas@isi.edu</EmailAddress>
+      <StartDate>09/01/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Federico</FirstName>
+      <LastName>Spedalieri</LastName>
+      <EmailAddress>spedalie@usc.edu</EmailAddress>
+      <StartDate>09/01/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Daniel</FirstName>
+      <LastName>Lidar</LastName>
+      <EmailAddress>lidar@usc.edu</EmailAddress>
+      <StartDate>09/01/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1517</Code>
+      <Text>ELECT, PHOTONICS, &amp; MAG DEVICE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1640</Code>
+      <Text>INFORMATION TECHNOLOGY RESEARC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8078</Code>
+      <Text>INSPIRE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7928</Code>
+      <Text>QUANTUM COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8653</Code>
+      <Text>INSPIRE Track-1 (Creativ)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

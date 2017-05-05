@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Inference in temporal signaling and transcriptional data</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2021</AwardExpirationDate>
+    <AwardAmount>198311</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Peter H. McCartney</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The goal of most high-throughput biological experiments is to generate specific hypotheses about how genes, proteins, and other entities involved in a biological process control cellular functions and other aspects of cellular phenotypes. Time series algorithms have proven to be a powerful computational strategy for understanding transcriptional regulation from gene expression data by using the ordering of events to help identify regulatory interactions. However, there are limits to the quality and types of interactions that can be inferred from bulk gene expression data, which are averaged over many different cells and do not reflect protein post-translational modifications. Single-cell RNA-seq measures gene expression in individual cells, capturing diverse cellular states and fine-grained progression through biological processes. Mass spectrometry-based phosphoproteomics data reveal the rapid and widespread changes in protein phosphorylation that occur over time during cellular signaling responses. These two types of data have great potential for discovering condition-specific transcriptional regulatory and signaling mechanisms. This project will design novel time series algorithms to improve the prediction of transcriptional and signaling network interactions. These methods will be developed as open source software so that the computational approaches can be adopted in a wide variety of biological systems. Time series data analysis will also be incorporated into local public outreach programs and new training workshops designed to teach computational thinking to biology students.&lt;br/&gt;&lt;br/&gt;Biological processes are dynamic, and single-cell gene expression data can provide noisy snapshots of temporal behaviors. Existing computational techniques can estimate each cell's progression through a temporal process from single-cell data, producing cell-specific pseudo-times. These pseudo-time series data are imprecise and irregularly-spaced but contain far more time points than a traditional time series experiment. This project will use causality analysis techniques that require a large number of time points to infer causal gene-gene regulatory relationships. Kernel methods will adapt the causality algorithms to accommodate the heterogeneity of single-cell data and combinatorial nature of transcriptional regulation. To study cellular signaling, computational analysis of time series phosphorylation changes will determine not only which proteins are active in a signaling response but also the temporal intervals in which they are involved. The project will assess both non-stationary Gaussian processes and hidden Markov models for modeling temporal changes in protein phosphorylation. A novel signaling pathway reconstruction algorithm will then flexibly integrate many types of data-derived constraints (for example, early responders cannot be activated by late responders, protein-protein interaction network connectivity relationships, etc.) using statistical relational learning techniques for probabilistic reasoning. Additional information about the project will be available at https://www.biostat.wisc.edu/~gitter/.</AbstractNarration>
+    <MinAmdLetterDate>03/23/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/23/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1553206</AwardID>
+    <Investigator>
+      <FirstName>Anthony</FirstName>
+      <LastName>Gitter</LastName>
+      <EmailAddress>agitter@morgridge.org</EmailAddress>
+      <StartDate>03/23/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Morgridge Institute for Research, Inc.</Name>
+      <CityName>Madison</CityName>
+      <ZipCode>537151542</ZipCode>
+      <PhoneNumber>6083164335</PhoneNumber>
+      <StreetAddress>330 North Orchard Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Wisconsin</StateName>
+      <StateCode>WI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1165</Code>
+      <Text>ADVANCES IN BIO INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

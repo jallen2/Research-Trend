@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: A Framework for Advanced Concurrency Debugging</AwardTitle>
+    <AwardEffectiveDate>08/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2015</AwardExpirationDate>
+    <AwardAmount>430000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This work addresses the capture of concurrency bugs that can occur in parallel software, focusing on four types of concurrency bugs that are frequent, have received little attention, and are hard to fix.&lt;br/&gt;&lt;br/&gt;The first type is atomicity violations -- bugs that occurs when the programmer fails to enclose in the same critical section all of the memory accesses that should occur atomically. As a result, during execution, such accesses get interleaved with accesses from another thread that make the program state inconsistent.&lt;br/&gt;&lt;br/&gt;The second type is over-synchronization -- a defect that implies that there are redundant synchronization operations or that the synchronization operations are performed at a grain that is too coarse. As a result, the program's performance is poor.&lt;br/&gt;&lt;br/&gt;The third type is ordering violations ? these occur when there is a correct order between memory accesses from different threads and, in an execution, such order is flipped, usually due to not using the correct form of synchronization.&lt;br/&gt;&lt;br/&gt;The final type is asymmetric data races ? bugs that occur when a thread accesses shared variables inside a critical section with appropriate synchronization. However, a second thread concurrently accesses the same shared variables without synchronization, and makes the state inconsistent.&lt;br/&gt;&lt;br/&gt;The approach taken by this project involves characterizing these bugs and proposing techniques to detect and fix them. A deliverable of this work is a unified framework for bug detection.&lt;br/&gt;&lt;br/&gt;The realization of parallel programming is a Grand Research Challenge and is crucial to our computer industry's ability to continue to make progress. The University of Illinois is a leader in parallel computing and the outcomes of this proposal will be used to enhance courses on parallel computing. In addition, this project will involve close collaboration with Intel and provide students with the opportunity to engage in internships at Intel.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116237</AwardID>
+    <Investigator>
+      <FirstName>Josep</FirstName>
+      <LastName>Torrellas</LastName>
+      <EmailAddress>torrellas@cs.uiuc.edu</EmailAddress>
+      <StartDate>08/01/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Urbana-Champaign</Name>
+      <CityName>CHAMPAIGN</CityName>
+      <ZipCode>618207473</ZipCode>
+      <PhoneNumber>2173332187</PhoneNumber>
+      <StreetAddress>SUITE A</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

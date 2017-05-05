@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPS: Synergy: Collaborative Research: Foundations of Secure Cyber-Physical Systems of Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>240000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Corman</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Factories, chemical plants, automobiles, and aircraft have come to be described today as cyber-physical systems of systems--distinct systems connected to form a larger and more complex system. For many such systems, correct operation is critical to safety, making their security of paramount importance. Unfortunately, because of their heterogeneous nature and special purpose, it is very difficult to determine whether a malicious attacker can make them behave in a manner that causes harm. This type of security analysis is an essential step in building and certifying secure systems.&lt;br/&gt;&lt;br/&gt;Unfortunately, today's state of the art security analysis tools are tailored to the analysis of server, desktop, and mobile software. We currently lack the tools for analyzing the security of cyber physical systems of systems. The proposed work will develop new techniques for testing and analyzing security properties of such systems. These techniques will be used to build a new generation of tools that can handle the complexity of modern cyber-physical systems and thus make these critical systems more secure.The technical approach taken by the investigators is to applying proven dynamic analysis techniques, including dynamic information flow tracking and symbolic execution, to this problem. Existing tools, while powerful, are monolithic, designed to apply a single technique to a single system. Scaling them to multiple heterogeneous systems is the main contribution of the proposed work. To do so, the investigators will develop a common platform for cross-system dynamic analysis supporting arbitrary combinations of component execution modes (physical, simulated, and emulated), requiring new coordination mechanisms. Second, building on the platform above, they will implement cross-system dynamic information flow tracking, allowing dynamic information flow tracking across simulated, emulated, and potentially physical components. Third, they will extend existing symbolic/concrete execution techniques to execution across multiple heterogeneous systems. Fourth, they will introduce new ways of handling special-purpose hardware, a problem faced by dynamic analysis tools in general.</AbstractNarration>
+    <MinAmdLetterDate>08/15/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/15/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1646063</AwardID>
+    <Investigator>
+      <FirstName>Stephen</FirstName>
+      <LastName>Checkoway</LastName>
+      <EmailAddress>sfc@uic.edu</EmailAddress>
+      <StartDate>08/15/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Illinois at Chicago</Name>
+      <CityName>Chicago</CityName>
+      <ZipCode>606124305</ZipCode>
+      <PhoneNumber>3129962862</PhoneNumber>
+      <StreetAddress>809 S MARSHFIELD</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

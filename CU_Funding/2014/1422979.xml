@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Using a Capability-Enhanced Microkernel as a Testbed for Language-based Security (CEMLaBS)</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>324364</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ralph Wachter</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is investigating the potential for language-based security techniques in the construction of low-level systems software. The specific focus is on the development of an open, capability-enhanced microkernel whose design is based on seL4, a "security enhanced" version of the L4 microkernel that was developed, by a team in Australia, as the first fully verified, general purpose operating system.&lt;br/&gt;&lt;br/&gt;The work on seL4 is rightly celebrated as a landmark for formal verification, and provides a strong foundation for building trustworthy systems. The costs of its development and maintenance, however, are quite high. We have observed that many of the security properties established in the seL4 verification (including the absence of code injection attacks, buffer overflows, and null pointer dereferences) could have been guaranteed automatically by writing it in a language that incorporates language-based security mechanisms such as an enhanced type system. Motivated by such insights, the specific goals of this project are to evaluate: whether it is actually feasible to write software of this kind in a language with meaningful, language-based security guarantees; what practical impact this might have, particularly in reducing verification costs; and whether it is possible to meet the performance goals that are&lt;br/&gt;typically required in such applications.&lt;br/&gt;&lt;br/&gt;The primary impact of this project will be in increasing the applicability of verification and language-based security techniques for the construction of secure computer systems. It will also generate and distribute key artefacts including the microkernel implementation, with associated teaching materials, for use in education, research, and industry.</AbstractNarration>
+    <MinAmdLetterDate>07/29/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/29/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1422979</AwardID>
+    <Investigator>
+      <FirstName>Mark</FirstName>
+      <LastName>Jones</LastName>
+      <EmailAddress>mpj@pdx.edu</EmailAddress>
+      <StartDate>07/29/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Portland State University</Name>
+      <CityName>Portland</CityName>
+      <ZipCode>972070751</ZipCode>
+      <PhoneNumber>5037259900</PhoneNumber>
+      <StreetAddress>1600 SW 4th Ave</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

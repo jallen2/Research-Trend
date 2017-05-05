@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Integrated Variable Fidelity Eddy Capturing Approach for Turbulent Flow Simulations</AwardTitle>
+    <AwardEffectiveDate>08/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>240011</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Horst Henning Winter</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>CBET-0756046&lt;br/&gt;Vasilyev&lt;br/&gt;&lt;br/&gt;This study addresses the longstanding need for an integrated adaptive eddy capturing approach capable of performing variable fidelity numerical simulations of unsteady turbulent flows in complex geometries. Recent detailed comparison of numerical simulations with experiments has clearly shown the importance of capturing the dominant three-dimensional turbulent flow features. Due to prohibitive computational cost of the Direct Numerical Simulations (DNS) for highly turbulent flows, the only computationally feasible alternative to resolve all eddies that dominate flow physics is Large Eddy Simulation (LES). However, current LES methodologies rely on, at best, a zonal grid adaptation strategy to attempt to minimize computational cost in resolving large eddies. While an improvement over regular grids, these methodologies fail to resolve the high wave-number components of the spatially intermittent coherent eddies that typify turbulent flows. At the same time, the flow is over-resolved in regions between the intermittent coherent eddies. Recent improvement of the LES methodology, namely the Stochastic Coherent Adaptive Large Eddy Simulation (SCALES) approach, recently developed by PI, addresses shortcomings of traditional LES approaches by using a dynamic grid adaptation strategy that resolves the most energetic coherent structures. This novel methodology has now demonstrated the ability to dynamically resolve and ?track? the most energetic part of the coherent eddies, while using a field compression that results in a reduction in the number of degrees of freedom similar to LES. This idea is to be taken one step further by applying spatially variable wavelet thresholding strategy to ensure that only a priori specified fraction of turbulent kinetic energy, subgrid scale dissipation or other statistical quantities are resolved. With such a strategy the transition between adaptive wavelet based DNS (WDNS), Coherent Vortex Simulation (CVS), and SCALES regimes is natural: the SCALES models switch to subgrid scale model for CVS to no model for WDNS approach as the percentage of the resolved turbulent kinetic energy or subgrid scale dissipation increases. This will form a basis for the new strategy of the integrated adaptive variable fidelity (WDNS/CVS/SCALES) eddy capturing approach. Finally, to make a planned methodology a practical engineering tool, it will be combined with Brinkman penalization to enforce solid boundaries of arbitrary complexity. A unique advantage of combining this dynamic wavelet-based grid adaptation strategy with Brinkman penalization is the ability to enforce boundary conditions to a specified precision without a significant computational overhead. The combined approach will allow for a significant cost reduction in man hours (associated with tedious grid generation) and computational costs. The final aim of this project is in education and dissemination of the newly developed approach and in distribution of the software tools to be developed as a part of the project for the wide use by the scientific community including government laboratories.</AbstractNarration>
+    <MinAmdLetterDate>07/09/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/09/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0756046</AwardID>
+    <Investigator>
+      <FirstName>Oleg</FirstName>
+      <LastName>Vasilyev</LastName>
+      <EmailAddress>oleg.vasilyev@colorado.edu</EmailAddress>
+      <StartDate>07/09/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1266</Code>
+      <Text>APPLIED MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1443</Code>
+      <Text>FLUID DYNAMICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>058E</Code>
+      <Text>Newtonian fluids</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7237</Code>
+      <Text>NANO NON-SOLIC SCI &amp; ENG AWD</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

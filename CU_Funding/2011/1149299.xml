@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Deep sparse dictionary context models and their application to image parsing and neuron tracking for connectomics</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>409406</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Kenneth C. Whang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The research objective of this proposal is to create novel computational algorithms and image processing tools that will make it possible for biologists to reconstruct large-scale neural circuits from electron microscopy volumes. Electron microscopy is a key technology in reconstruction of neural circuits at the level of individual neurons and synapses, also known as connectomics. While an important motivation of connectomics is providing anatomical ground truth for neural circuit models, the ability to decipher neural wiring maps at the individual cell level is also important in studies of many neurodegenerative diseases. State-of-the-art image analysis solutions are still far from the accuracy and robustness of human vision and biologists are still limited to studying small neural circuits using mostly manual analysis. The proposed computational models will provide biologists a tool for segmenting individual neurons and detecting other structures such as synapses in very large electron microscopy volumes, and proof reading these automatically produced results in a time efficient manner.&lt;br/&gt;&lt;br/&gt;Reconstruction of a neural circuit from an electron microscopy volume involves pixel-by-pixel annotation of these images into classes such as cell membrane, mitochondria and synaptic vesicles and the segmentation of individual neurons in three dimensions. This task demands extremely high accuracy. Even with 99% pixel accuracy, an acceptable accuracy for many other applications, it is virtually certain that almost every neuron in a volume will be incorrectly segmented due to their global, tree-like structure and correspondingly large surface area. Therefore, lack of reliable automated solutions is a critical bottleneck in the field of connectomics. In this project, a novel hierarchical model will be created by combining the representation power of sparse dictionaries and their ease of learning with an inference and proof reading capability. Human experts will contribute to the process by providing ground truth for supervised learning and proof reading of automatically produced results. The combination of deep sparse dictionaries with inference using connection weights from conditional probabilities can provide a very fast way to learn hierarchical models. Several variants of the model will be studied for understanding the relative importance of feature representation, inference, symmetric connections, deep and lateral connections. The model will be applied to general object classification and image parsing problems in computer vision as well as connectomics datasets. Success will be evaluated on real datasets annotated by experts.</AbstractNarration>
+    <MinAmdLetterDate>08/30/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/30/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1149299</AwardID>
+    <Investigator>
+      <FirstName>Tolga</FirstName>
+      <LastName>Tasdizen</LastName>
+      <EmailAddress>tolga@sci.utah.edu</EmailAddress>
+      <StartDate>08/30/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

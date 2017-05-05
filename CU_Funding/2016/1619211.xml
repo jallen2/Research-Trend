@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Hydra - Hybrid Defenses for Resilient Applications: Practical Approaches Towards Defense In Depth</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2019</AwardExpirationDate>
+    <AwardAmount>499981</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>In popular culture, cyber security is characterized as a cat-and-mouse game: an attacker finds a new exploit, defenders find a corresponding countermeasure, and the game goes on and on. Unfortunately, reality isn't far removed from this fiction: most defenses are reactive to particular threats that have already been discovered, and they are often combined on top of each other, without attempting to integrate them. Combining disjoint security mechanisms in this manner often has the effect that the individual costs of the mechanisms add up, so that at some point it becomes impractical to add more. Biological immune systems in nature do much better than this, combining an innate response against general threats (such as bacteria and viruses) with a learned response against specific previously seen threats. Moreover, the adaptive system doesn't appear to get "slower" as it learns to handle new classes of pathogens. This research focuses on "hybrid" defenses inspired by biological systems.&lt;br/&gt;&lt;br/&gt;The project investigates practical "defense in depth" approaches that synthesize hybrid defenses that are greater the sum of their parts and that have lower overheads than traditional layered security solutions. This is not trivial, since one must ensure that combining multiple defenses doesn't create (possibly hidden) feature-interaction conflicts, perhaps even leading to new vulnerabilities that an attacker might exploit. The project's approach leverages dynamic diversification, which intersperses randomization with program execution. By rapidly switching between alternative versions of the program at run-time, one can ensure that the flow of control never follows the same path for two different executions of the same program, even when operating on the same inputs. This technique provides the foundation for much of the proposed research and offers probabilistic protection. The project will benefit all domains in which computer security measures have traditionally been constrained by performance considerations, including e-commerce, consumer software, and mobile computing.</AbstractNarration>
+    <MinAmdLetterDate>06/10/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/10/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1619211</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Franz</LastName>
+      <EmailAddress>franz@uci.edu</EmailAddress>
+      <StartDate>06/10/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Irvine</Name>
+      <CityName>Irvine</CityName>
+      <ZipCode>926173067</ZipCode>
+      <PhoneNumber>9498244768</PhoneNumber>
+      <StreetAddress>5171 California Avenue, Ste 150</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

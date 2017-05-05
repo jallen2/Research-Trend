@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: RI: Large-Scale Discovery and Organization of Subcategories and Parts from Image and Video Segments</AwardTitle>
+    <AwardEffectiveDate>06/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2017</AwardExpirationDate>
+    <AwardAmount>165375</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project develops a system for understanding of visual categories given limited annotations. The system automatically detects subcategories and object parts with only category-level annotations. Such detailed understanding is important for autonomous systems to perform interactions with objects or to recognize them under occlusion. For this purpose, current deep neural networks will be extended to better support objects and parts of irregular shape. Once understandings at such level have been achieved, it helps to construct new categories from just a few exemplars, which has broad applications in autonomous systems.&lt;br/&gt;&lt;br/&gt;This research generalizes previously successful approaches in semantic segmentation and unsupervised video segmentation for an efficient approach to learn subcategories and parts. The framework starts from overlapping figure-ground segment proposals, computes least squares regressors from input segments against segment overlaps, and utilizes the Sherman-Morrison-Woodbury formula and structures from the quadratic loss function for efficient optimization of thousands to hundreds of thousands of subcategories and parts simultaneously. This project then explores the training of deep convolutional networks with initializations from these subcategories and parts defined on free-form segments. This requires generalization of the neural network architecture to handle free-form segments that can deform through a video sequence. It is proposed to use the geodesic distance transform on spatial-temporal segments to define customized filters for different localities for improved performance and better interpretability.</AbstractNarration>
+    <MinAmdLetterDate>06/11/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/11/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1464371</AwardID>
+    <Investigator>
+      <FirstName>Fuxin</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>lif@eecs.oregonstate.edu</EmailAddress>
+      <StartDate>06/11/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Oregon State University</Name>
+      <CityName>Corvallis</CityName>
+      <ZipCode>973318507</ZipCode>
+      <PhoneNumber>5417374933</PhoneNumber>
+      <StreetAddress>OREGON STATE UNIVERSITY</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Oregon</StateName>
+      <StateCode>OR</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

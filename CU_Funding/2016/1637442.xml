@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>AitF: Collaborative Research: Theory and Implementation of Dynamic Data Structures for the GPU</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2020</AwardExpirationDate>
+    <AwardAmount>438876</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tracy J. Kimbrel</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Computers organize data in "data structures," which are designed to allow certain operations on data such as looking up all items that match a particular set of criteria, or adding new items to an existing data set. Computer scientists strive to build data structures that can perform these operations quickly and efficiently. One way to make data structure operations faster is to use not just one but many processors, operating in parallel, to perform a given operation. However, many of today's parallel data structures support only a limited set of operations and, notably, do not allow operations that modify these data structures instead of rebuilding an entire structure from scratch when only part of the data is updated. In this project the PIs bring together expertise in data structures and parallel computing to design, build, and evaluate dynamic data structures that allow update operations. This work targets the high-performance, highly-parallel graphics processing unit (GPU) and will significantly broaden the class of applications that the GPU can address. The PIs will release their results as freely-available open-source software and will work with industrial partner NVIDIA to incorporate the research and educational outcomes of this project into NVIDIA's broad educational efforts.&lt;br/&gt;&lt;br/&gt;In this project the PIs propose to build dynamic, high-performance data structures for manycore (GPU) computing. Today's GPU data structures are rarely constructed on the GPU but instead are built on the CPU and copied to the GPU, and today's GPU data structures cannot be updated dynamically on the GPU but instead must be rebuilt from scratch. This project targets dynamic dictionary data structures with point and range queries, lists, and approximate membership and range query structures. The PIs will implement these data structures as high-performance, flexible, open-source software and use these data structures to develop a theoretical model, targeted at the GPU, for use by theorists and practitioners in manycore computing. The project will also focus on numerous cross-cutting issues in data structure design, implementation, modeling, and evaluation that have the potential for significant practical impact on manycore computing.</AbstractNarration>
+    <MinAmdLetterDate>08/15/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/15/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1637442</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Owens</LastName>
+      <EmailAddress>jowens@ece.ucdavis.edu</EmailAddress>
+      <StartDate>08/15/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7239</Code>
+      <Text>Algorithms in the Field</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

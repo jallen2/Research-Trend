@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Re-thinking Electronic Design Automation Algorithms for Secure Outsourced Integrated Circuit Fabrication</AwardTitle>
+    <AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2021</AwardExpirationDate>
+    <AwardAmount>94930</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ralph Wachter</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Semiconductor chip fabrication is being increasingly outsourced to off-shore foundries. Outsourced fabrication reduces cost by leveraging economies-of-scale and ensures access to the most advanced manufacturing technology, but comes at the expense of trust. How can the chip designer trust that the off-shore (untrusted) foundry does not pirate its intellectual property (IP), or maliciously modify the integrated circuit (IC) by inserting a hardware Trojan in the chip? This project develops transformative new solutions for trustworthy chip fabrication at off-shore foundries. Traditionally, chips have been designed with metrics like performance and power consumption in mind; this project aims to introduce and account for security as a new and equally important metric in each step of the chip design flow. The outcome of the proposed research is a new set of algorithms for designing chips that are not only high performance and low power, but also secure against IP theft or hardware Trojan insertion by an untrusted, off-shore foundry. The project ensures that defense agencies and commercial chip design companies in the United States are able to access top-end foundries anywhere in the world without having to compromise trust, thus contributing to the US economy and enhancing national security. Furthermore, the project trains a new generation of security professionals by introducing students to fundamental security concepts at an early stage, and encourages greater participation of under-represented minorities in this critical area.&lt;br/&gt;&lt;br/&gt;The research builds upon two promising (and related) techniques that have been proposed in literature to enable secure outsourced IC fabrication, logic encryption and split fabrication. Both approaches are premised on the same basic idea, i.e., to provide the untrusted foundry (the attacker) with only partial knowledge of the design so as to limit the attacker?s ability to pirate or modify the design. However, existing approaches for logic encryption and split fabrication largely retrofit these techniques as extra steps into the conventional chip design flow; that is, they treat security as an afterthought. This project aims to fundamentally re-think automated chip design algorithms (referred to as EDA algorithms) so as to provide formal security guarantees and to provide maximum security while optimizing for chip performance and power. Specifically, the research develops new security-aware algorithms for three critical steps in chip design: logic synthesis (the chip 'compiler'); (ii) logic partitioning (breaking up a circuit into smaller components) and (iii) placement (determining the physical location of each component on the chip surface). These are integrated into a new end-to-end secure EDA flow for trustworthy off-shore chip fabrication.</AbstractNarration>
+    <MinAmdLetterDate>12/31/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>12/31/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1553419</AwardID>
+    <Investigator>
+      <FirstName>Siddharth</FirstName>
+      <LastName>Garg</LastName>
+      <EmailAddress>sg175@nyu.edu</EmailAddress>
+      <StartDate>12/31/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

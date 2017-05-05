@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Volition Based Anticipatory Control for Time-Critical Brain-Prosthetic Interaction</AwardTitle>
+    <AwardEffectiveDate>08/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>178761</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ephraim P. Glinert</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This exploratory project focuses on developing algorithms that will allow the PI's previously implemented prototype drumming prosthesis, which was developed in an effort to help an injured teen, to anticipate human physical actions based on an analysis of EEG signals so that it can respond mechanically in a timely manner. The goal is to enable the enhanced prosthesis to detect volition, the cognitive process by which an individual decides on and commits to a particular course of action hundreds of milliseconds before the action actually takes place, in order to foresee the drummer's actions and achieve sub-second synchronization between artificial and biological limbs, thereby leading to improved performance in a time-sensitive domain where asynchronous operations of more than a few milliseconds are noticeable by listeners. Project outcomes will include cognitive models and technical approaches that will be of great value for improving efficiency and fluency in a wide range of human-robot and human-prosthesis interaction scenarios, from construction tasks where humans and robots collaborate to achieve common goals, to time-critical tasks such as in hospital operating rooms or space stations where humans operate artificial robotic limbs. The work will also lead to creation of a volition trials database that will be documented and shared with the broad community of brain scholars and brain-machine interface researches. And the project will have additional broad impact by supporting students in the Robotic Musicianship group at Georgia Tech as it transitions from its previous focus on robotic musicianship into the fields of prosthetic and human augmentation.&lt;br/&gt;&lt;br/&gt;Prior studies of volition have shown that across multiple repetitions of (real or imagined) motor activity one can derive the Event-Related-Potential (ERP) associated with the intent to move the hand, up to a few seconds prior to the generation of the movement. Additionally, studies of mirror neurons have shown that observing a motor activity can trigger sets of cells in the brain that replicate the activity depicted when a subject is engaged in the action itself. In this project the PI will build on such findings to develop new pattern recognition algorithms for EEG signal analysis in an effort to identify volition and design new anticipatory algorithms for brain-machine interfaces that reduce latency and allow for synchronization at the millisecond level. The work will be carried out in stages. The PI will first collect EEG data from a large number of experimental trials where participants are engaged in a voluntary motor action. The data will be studied to detect patterns indicative of volition activity from electrodes monitoring both the motor and pre-motor cortices (SMA and pre-SMA), and also to isolate the neural correlates of imagined vs. real movement. A variety of general purpose machine learning classifiers, as well as music focused feature extraction techniques, will be used to distinguish between anticipatory patterns of activity preluding an action (volition) and patterns generated when the action is indeed manifested. As part of the analysis the PI will attempt to acquire an understanding of the delta times between volition and action under different conditions, and he will develop a repeatability / reliability matrix to be utilized for synchronization in the next stage of the work, in which the PI will develop a "latency compensation engine" that generates robotic drum hits at the exact anticipated action time, compensating for mechanical latencies while taking into account the projected delta time between volition and action. Multi-modal integration with data from other sensors (EMG, microphones, proximity, etc.) will be exploited to correct errors is detection and classification. Finally, success of the new algorithms will be evaluated using both objective and subjective measures by having the amputee drummer perform a series of musical tasks with the robotic arm.</AbstractNarration>
+    <MinAmdLetterDate>08/05/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/05/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1550397</AwardID>
+    <Investigator>
+      <FirstName>Gil</FirstName>
+      <LastName>Weinberg</LastName>
+      <EmailAddress>gil.weinberg@coa.gatech.edu</EmailAddress>
+      <StartDate>08/05/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems (CHS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7367</Code>
+      <Text>Cyber-Human Systems</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8089</Code>
+      <Text>Understanding the Brain/Cognitive Scienc</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Enabling Dual-mode Execution for Removing I/O Bottleneck: A Highly Applicable Design and Implementation</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Maintaining high parallelism is critical for efficient use of multicore- and cluster-based parallel systems, but this can be at odds with I/O efficiency, resulting in suboptimal performance of I/O-intensive parallel applications. The efficiency of request-processing policies at different levels of the I/O stack relies on the locality of requests from various processes. Processes are the producers of I/O requests, and their scheduling determines the timing of request issuance and the locality among requests from different processes. When a program is I/O bottlenecked the scheduling of its processes directly affects the storage system?s efficiency, and thus the program?s execution time. In such scenarios, a scheduling policy designed to improve request locality, in preference to the usual objectives such as load balance and fairness, is expected to improve the overall efficiency of the I/O stack and ameliorate I/O bottlenecks.&lt;br/&gt;&lt;br/&gt;The investigator proposes a dual-mode execution, incorporating a new data-driven mode to complement the normal statement-driven mode. In the data-driven mode processes are scheduled such that they will issue requests with improved locality, and will consume data that has been efficiently pre-fetched. The research focus of this 12-month project is the investigation and understanding of the extent to which process scheduling can positively affect I/O performance. It takes into account variance of I/O intensity, I/O access pattern of individual processes, and the ratio of reads and writes. The investigator will perform an extensive examination of I/O performance behaviors at different I/O layers, including the I/O library, system buffer, and I/O scheduler, with various hypothetical I/O-aware process scheduling strategies. This research will reveal the potential merits of the proposed dual-mode execution, and delineate the design space for algorithms supporting it. It will also identify pitfalls and limits of potential designs and their implementations. By so doing, this project is expected to pave the road to the introduction of a disruptive technique for mitigating I/O bottlenecks.</AbstractNarration>
+    <MinAmdLetterDate>07/30/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/30/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117772</AwardID>
+    <Investigator>
+      <FirstName>Song</FirstName>
+      <LastName>Jiang</LastName>
+      <EmailAddress>song.jiang@uta.edu</EmailAddress>
+      <StartDate>07/30/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Wayne State University</Name>
+      <CityName>Detroit</CityName>
+      <ZipCode>482023622</ZipCode>
+      <PhoneNumber>3135772424</PhoneNumber>
+      <StreetAddress>5057 Woodward</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

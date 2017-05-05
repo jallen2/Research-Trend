@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>New Approaches for Simulation-Based Optimal Decision Making</AwardTitle>
+    <AwardEffectiveDate>01/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2017</AwardExpirationDate>
+    <AwardAmount>220000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07030000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Civil, Mechanical, &amp; Manufact Inn</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Georgia-Ann Klutke</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Simulation is widely used in many industrial settings, from manufacturing and supply chain management to service systems, including health care, transportation, and financial services. Due to the complexity of many of these systems, however, computation has often been a limiting factor in solving large-scale problems based on simulation models, even with the continuing advances in computing power. This award supports fundamental research leading to new algorithms that would improve the efficiency of finding optimal decisions for many problems in the manufacturing and service industries mentioned above, and thus lead to direct benefits to the U.S. economy and society. The research involves mathematical models, computing, applied probability, and statistics. &lt;br/&gt;&lt;br/&gt;Direct gradient estimation techniques such as perturbation analysis and the likelihood ratio method provide computationally efficient methods for obtaining unbiased gradient estimators without the need for resimulation. Such estimators are the basis for gradient-based search procedures used in many simulation optimization algorithms. However, the resulting algorithms use only the gradients, consistent with their application in the deterministic optimization setting, where the gradients are exact so there is no value gained in using the objective function (or performance measure) values themselves for performing gradient search. On the other hand, in the stochastic setting, the gradient estimates are noisy, which means that using the function values to provide additional information on estimating the gradient may be beneficial. The proposed research explores new methods for incorporating direct gradient estimates from stochastic simulation into existing simulation optimization techniques, specifically response surface methodology and stochastic approximation. The goals of the research include: (i) developing new more effective algorithms, (ii) proving convergence of the resulting algorithms, (iii) analyzing finite-time properties of the algorithms, and (iv) providing practical implementation guidelines based on both theory and empirical numerical testing. Thus, in addition to algorithmic advances, new theory will likely be needed to provide guidance as to the settings in which the new algorithms are likely to provide additional benefit.</AbstractNarration>
+    <MinAmdLetterDate>06/15/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/15/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1434419</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Fu</LastName>
+      <EmailAddress>mfu@isr.umd.edu</EmailAddress>
+      <StartDate>06/15/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>5514</Code>
+      <Text>OPERATIONS RESEARCH</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>072E</Code>
+      <Text>NETWORKS &amp; QUEUING SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>073E</Code>
+      <Text>OPTIMIZATION &amp; DECISION MAKING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>077E</Code>
+      <Text>SIMULATION MODELS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

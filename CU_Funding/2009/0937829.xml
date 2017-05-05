@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>HECURA: Colaborative: Multidimensional and String Indexes for Streaming Data</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>200007</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research project aims to understand and develop systems for&lt;br/&gt;maintaining superlinear indexes for streaming data. A superlinear&lt;br/&gt;index provides search capability over an abstract space that cannot&lt;br/&gt;easily be linearized (totally ordered). In contrast, a linear index,&lt;br/&gt;typified by a B-tree, supports point and range queries on totally&lt;br/&gt;ordered data.&lt;br/&gt;&lt;br/&gt;Examples of superlinear indexes include multidimensional indexes,&lt;br/&gt;which can be over a geometric domain, such as geographic data, or&lt;br/&gt;which can be over multiple linear indexes; and full text queries,&lt;br/&gt;which can include searching for a particular word or substring.&lt;br/&gt;&lt;br/&gt;The superlinear indexes found in today's databases cannot support high&lt;br/&gt;rates of insertion. On traditional mechanical disk drives, the&lt;br/&gt;existing superlinear indexes can only support about one hundred&lt;br/&gt;insertions per second in the worst case. For many important&lt;br/&gt;applications, that is too slow, and so database users often avoid&lt;br/&gt;superlinear indexing. Even traditional linear indexes based on&lt;br/&gt;B-trees cannot support the high insertion rates demanded by many&lt;br/&gt;databases.&lt;br/&gt;&lt;br/&gt;This research investigates streaming superlinear indexes, that is,&lt;br/&gt;indexes that efficiently support full text or multidimensional&lt;br/&gt;queries, and can be updated at speeds that are related to disk&lt;br/&gt;bandwidth rather than seeks per second.&lt;br/&gt;&lt;br/&gt;Among the significant research issues are the following: (1) design&lt;br/&gt;efficient files structures for streaming superlinear indexes; (2)&lt;br/&gt;investigate how streaming superlinear indexes might pave the way to&lt;br/&gt;improved file systems; (3) determine whether cache-oblivious&lt;br/&gt;algorithms technology can enhance streaming superlinear indexes; and&lt;br/&gt;(4) program complex data structures for transactions and recovery.&lt;br/&gt;&lt;br/&gt;If successful, this research will show how to build filesystems that&lt;br/&gt;achieve dramatically better performance than today's B-tree-based&lt;br/&gt;filesystems, how to maintain rich geometrical data and&lt;br/&gt;multidimensional nongeographical databases in real time, and how to&lt;br/&gt;maintain full-text searchable databases in real time. For example,&lt;br/&gt;some of today's file systems try to maintain an full-text index to&lt;br/&gt;find strings in files quickly, but these systems often fall behind at&lt;br/&gt;high data write rates. A streaming superlinear index would allow such&lt;br/&gt;a file system to keep up, and would improve the usability of both&lt;br/&gt;high-end storage systems and relatively small consumer storage systems&lt;br/&gt;that are nonetheless too large to index with today's indexes.&lt;br/&gt;&lt;br/&gt;The researchers are developing course materials on streaming indexing&lt;br/&gt;technology which will be made freely available under the MIT&lt;br/&gt;OpenCourseWare initiative (http://ocw.mit.edu).&lt;br/&gt;&lt;br/&gt;Further information on this project may be found at the project&lt;br/&gt;web page: http://supertech.csail.mit.edu/superlinear-indexes</AbstractNarration>
+    <MinAmdLetterDate>08/27/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0937829</AwardID>
+    <Investigator>
+      <FirstName>Martin</FirstName>
+      <LastName>Farach-Colton</LastName>
+      <EmailAddress>farach@cs.rutgers.edu</EmailAddress>
+      <StartDate>08/27/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Rutgers University New Brunswick</Name>
+      <CityName>Piscataway</CityName>
+      <ZipCode>088543925</ZipCode>
+      <PhoneNumber>8489320150</PhoneNumber>
+      <StreetAddress>33 Knightsbridge Road</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New Jersey</StateName>
+      <StateCode>NJ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

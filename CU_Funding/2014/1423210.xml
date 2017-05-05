@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Automatic Database Management System Tuning Through Large-scale Machine Learning</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>499674</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The ability to collect, process, and analyze large amounts of data is paramount for being able to extrapolate new knowledge in business, scientific, and medical applications. Database management systems (DBMSs) are the critical component of modern "Big Data" applications because they are the central repository for all of this information. But tuning a DBMS to perform well is historically a difficult task because they have hundreds of configuration "knobs" that control everything in the system, such as the amount of memory to use and how often data is written. Getting these settings wrong will prevent the system from answering questions about data in a reasonable amount of time or even cause it to lose data. Many organizations resort to hiring experts to configure these knobs, but this is prohibitively expensive. Personnel cost is estimated to be almost 50% of the total ownership cost of a DBMS, and many administrators spend nearly a quarter of their time on these tuning activities. Furthermore, as databases grow in both size and complexity, optimizing a DBMS to meet the needs of new applications has surpassed the abilities of even the best human experts. Thus, the goal of this proposal is to develop the foundation and corresponding practical techniques for the automatic configuration of DBMSs by using machine learning on large-scale collections of historical performance data. Our approach will differ from previous work in that we seek to reduce the amount of time that is needed to train the algorithms that tune the DBMS for each application by relying on knowledge gained from previous tuning efforts. The results from this work will allow anyone to deploy a DBMS that is able to handle large amounts of data and more complex workloads without any expertise in database administration.&lt;br/&gt;&lt;br/&gt;Achieving good performance in a database management system (DBMS) is non-trivial because they are complex systems with many tunable options that control nearly all aspects of their runtime operation. Getting this tuning right is critical for modern high-volume and high-throughput workloads, as the performance gains can be significant. As such, many organizations resort to hiring an expensive database administrator to manually tune their DBMS. But the size and complexity of databases have now surpassed the abilities of even the best human experts. Hence, we plan to develop automatic techniques for tuning and optimizing DBMS configurations for a broad class of application workloads. We will explore the foundations of using machine learning to scale DBMSs for larger data sets, thereby removing a major impediment in deriving the full benefits of data-driven decision making applications. The crux of our approach is to map an arbitrary application's workload to features of one or more canonical benchmarks that best represents the workload's properties, and then to collect performance data from the DBMS using that benchmark. This data is then used to train models that will allow us to identify the dependencies between knobs and their effects on the DBMS. From this, the models will select a near-optimal knob setting for the application. This differs from earlier work that focused on optimizing a single DBMS installation in isolation and are unable to leverage knowledge gained from previous tuning efforts. Our approach will not require the user to generate a large sample data set of (potentially expensive) experiments to derive the proper configuration.&lt;br/&gt;&lt;br/&gt;For further information see project web site at: http://oltpbenchmark.com</AbstractNarration>
+    <MinAmdLetterDate>08/18/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423210</AwardID>
+    <Investigator>
+      <FirstName>Andrew</FirstName>
+      <LastName>Pavlo</LastName>
+      <EmailAddress>pavlo@cs.cmu.edu</EmailAddress>
+      <StartDate>08/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Geoffrey</FirstName>
+      <LastName>Gordon</LastName>
+      <EmailAddress>ggordon@cs.cmu.edu</EmailAddress>
+      <StartDate>08/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Carnegie-Mellon University</Name>
+      <CityName>PITTSBURGH</CityName>
+      <ZipCode>152133815</ZipCode>
+      <PhoneNumber>4122689527</PhoneNumber>
+      <StreetAddress>5000 Forbes Avenue</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

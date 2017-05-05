@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Accelerated ParalleX (APX) for Enhanced Scaling AMR based Science</AwardTitle>
+    <AwardEffectiveDate>09/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2015</AwardExpirationDate>
+    <AwardAmount>424911</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Intellectual Merit:&lt;br/&gt;This project addresses scalability of applications on Exascale parallel computer architectures. &lt;br/&gt;&lt;br/&gt;Among the strategic challenges to scalability is identifying and exploiting new forms of parallelism as well as reducing overhead for effective fine grained parallelism execution. The project, "Accelerated ParalleX (APX) for Enhanced Scaling" project investigates combining a new model of computation with FPGA hardware support, in otherwise conventional multicore platforms, to realize significant gains in scalability. This approach is particularly applicable to the important class of adaptive mesh refinement based applications for colliding neutron stars and gamma ray bursts. &lt;br/&gt;&lt;br/&gt;Prior NSF funding supported the development of an experimental ParalleX prototype. That model is employed in this new research project. This framework extracts inherent parallelism implicit in structure meta-data, eliminates most global barriers, and releases adaptive control to overlap multiple phases of computation and intermediate communication for latency hiding and circumvention of contention hot spots. &lt;br/&gt;&lt;br/&gt;The research investigates the use of FPGA based hardware technology for accelerating system software to significantly reduce critical time path overhead in execution and directly enhance scalability. The experimental designs include synchronization atomics, thread scheduling and queues, and active message driven operations. In addition, for this class of science problems, higher precision floating-point arithmetic is becoming more important for such science questions as resolving the smallest possible black holes. FPGA technology will therefore accelerate multi-precision floating point arithmetic. &lt;br/&gt;&lt;br/&gt;This research, if successful, will advance the specific science domain of numerical relativity and, more broadly, those science and engineering disciplines relying on both AMR and strong scaling. It will advance near-term computer system science through an innovative application of available FPGA technology to general computational science and long-term future scalable system design. The performance model derived for this purpose may prove valuable for extended preliminary exploratory investigation for establishing bounds and sensitivities in a complex multi-faceted trade-off space. &lt;br/&gt;&lt;br/&gt;Broader Impact: &lt;br/&gt;The APX research results and resources will be applied to the distance-learning course distributed live to other national and international campuses to expand its content and extend its advanced topics section, in the short term, while motivating a new graduate level seminar course next year around its topic areas. Summer internships for under-represented undergraduate and high school students will be created at LSU and the Beowulf Bootcamp will be expanded for more high school students.</AbstractNarration>
+    <MinAmdLetterDate>08/19/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/28/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1117470</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Sterling</LastName>
+      <EmailAddress>tron@indiana.edu</EmailAddress>
+      <StartDate>08/19/2011</StartDate>
+      <EndDate>07/28/2014</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Hartmut</FirstName>
+      <LastName>Kaiser</LastName>
+      <EmailAddress>hkaiser@cct.lsu.edu</EmailAddress>
+      <StartDate>08/19/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Louisiana State University &amp; Agricultural and Mechanical College</Name>
+      <CityName>Baton Rouge</CityName>
+      <ZipCode>708032701</ZipCode>
+      <PhoneNumber>2255782760</PhoneNumber>
+      <StreetAddress>202 Himes Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Louisiana</StateName>
+      <StateCode>LA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CDS&amp;E: Fast, scalable GPU-enabled software for predictive materials design &amp; discovery</AwardTitle>
+    <AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>595880</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03070000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Materials Research</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Daryl W. Hess</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>NONTECHNICAL SUMMARY&lt;br/&gt;&lt;br/&gt;This Computational and Data-Enabled Science and Engineering award supports computational materials research and the development of computational tools for materials research. Designing novel materials requires new computational tools capable of performing simulations that reveal unexpected insights that, in turn, inform the way we think about materials and materials processes. These tools must be scientifically valid, robust, accessible and easy to use, and should exploit the fastest available hardware. Today this hardware involves graphics processing units, known as GPUS, whose architecture exploits massive parallelism, allowing many more calculations to be done simultaneously per second on a single chip than on current, more traditional CPUs. To use GPUs for the study of materials systems and chemical processes, the workhorse algorithms and codes used by that community of researchers must be redesigned and rewritten specifically for that architecture. This project will develop those tools, share them broadly with an existing and rapidly growing user base, and apply them, as an exemplar area, to the outstanding and computationally demanding problem of colloidal crystallization. In colloidal crystallization, micron-sized particles suspended in solution self-assemble into ordered structures, giving rise to properties and behavior with wide-ranging application. Predicting these structures requires considerable computation, especially for complex crystal structures. This project will also train students in software engineering, algorithm design, and open source software development for materials simulation. The enhancements to HOOMD-Blue, DEM-HOOMD-Blue and HPMC developed under this award will be made available to the broader community through the HOOMD-Blue website on University of Michigan Codeblue.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;TECHNICAL SUMMARY&lt;br/&gt;&lt;br/&gt;This Computational and Data-Enabled Science and Engineering award supports computational materials research and the development of computational tools for materials research. This project will develop simulation software for materials and chemical systems. Building on the open source software platform known as highly optimized object oriented many particle dynamics-blue, the PI will expand the capabilities of HOOMD-Blue to include discrete-element molecular dynamics and Monte Carlo algorithms optimized for Graphics Processor Units. A workhorse tool for granular matter, DEM will be adopted for hard particle collisions in the absence of friction, allowing high fidelity studies of the dynamics and thermodynamics of colloidal systems. Monte Carlo - a traditionally serial algorithm for sampling phase space stochastically - will leverage the HOOMD infrastructure to achieve a high degree of parallelism using a checkerboarding strategy. Both additions, DEM-HOOMD-blue and HPMC, will allow the simulation of particle-based systems and materials processes of considerable complexity. The PI will demonstrate the efficacy of the codes by applying them to the problem of crystal nucleation and growth in hard particle systems driven to order by entropy maximization. Combined with rare event sampling tools, DEM-HOOMD-blue and HPMC will enable the study of thermodynamic and kinetic pathways by which hard-particle fluids assemble into quasicrystals and open, chiral, or hierarchical crystals characterized by large or complex unit cells. Given that the current state of the art in nucleation and growth simulation studies of nanoparticles and colloids is limited to simple Bravais lattices, this project will expand the knowledge base needed to design new crystalline materials. Following current HOOMD-blue strategy, the new computational tools will run efficiently on laptops, desktops, and massive GPU clusters, thereby serving multiple user types. The PI's findings will be of immediate interest to the nanoparticle and colloidal assembly communities. The PI's approaches and tools are transferable and will be of immediate and even broader interest to the materials, engineering, and chemistry communities interested in crystallization of appropriate atomic, molecular, or nanoscale building blocks. This project will also train students in software engineering, algorithm design, and open source software development for materials simulation. The enhancements to HOOMD-Blue, DEM-HOOMD-Blue and HPMC developed under this award will be made available to the broader community through the HOOMD-Blue website on University of Michigan Codeblue.</AbstractNarration>
+    <MinAmdLetterDate>06/20/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/20/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1409620</AwardID>
+    <Investigator>
+      <FirstName>Sharon</FirstName>
+      <LastName>Glotzer</LastName>
+      <EmailAddress>sglotzer@umich.edu</EmailAddress>
+      <StartDate>06/20/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1765</Code>
+      <Text>CONDENSED MATTER &amp; MAT THEORY</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7237</Code>
+      <Text>NANO NON-SOLIC SCI &amp; ENG AWD</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7569</Code>
+      <Text>CYBERINFRASTRUCTURE/SCIENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8084</Code>
+      <Text>CDS&amp;E</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

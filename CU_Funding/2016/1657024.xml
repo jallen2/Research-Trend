@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CRII: CPS: Architecture and Distributed Computation in the Networked Control Paradigm: An Autonomous Grid Example</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>82817</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>David Corman</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This proposal will establish a framework for developing distributed Cyber-Physical Systems operating in a Networked Control Systems (NCS) environment. Specific attention is focused on an application where the computational, and communication challenges are unique due to the sheer size of the physical system, and communications between system elements include potential for significant losses and delays. An example of this is the power grid which includes large-scale deployment of distributed and networked Phasor Measurement Units (PMUs) and wind energy resources. Although, much has been done to model and analyze the impact of data dropouts and delay in NCS at a theoretical level, their impact on the behavior of cyber physical systems has received little attention. As a result much of the past research done on the `smart grid' has oversimplified the `physical' portion of the model, thereby overlooking key computational challenges lying at the heart of the dimensionality of the model and the heterogeneity in the dynamics of the grid. A clear gap has remained in understanding the implications of uncertainties in NCS (e.g. bandwidth limitations, packet dropout, packet disorientation, latency, signal loss, etc.) cross-coupled with the uncertainties in a large power grid with wind farms (e.g. variability in wind power, fault and nonlinearity, change in topology etc.) on the reliable operation of the grid. To address these challenges, this project will, for the first time, develop a modeling framework for discovering hitherto unknown interactions through co-simulation of NCS, distributed computing, and a large power grid included distributed wind generation resources. Most importantly, it addresses challenges in distributed computation through frequency domain abstractions and proposes two novel techniques in grid stabilization during packet dropout. &lt;br/&gt;The broader impact lies in providing deeper understanding of the impact of delays and dropouts in the Smart Grid. This will enable a better utilization of energy transmission assets and improve integration of renewable energy sources. The project will facilitate participation of women in STEM disciplines, and will include outreach with local Native American tribal community colleges&lt;br/&gt;This project will develop fundamental understanding of impact of network delays and drops using an approach that is applicable to a variety of CPS. It will enable transformative Wide-Areas Measurement Systems research for the smart grid through modeling adequacy studies of a representative sub-transient model of the grid along with the representation of packet drop in the communication network by a Gilbert model. Most importantly, fundamental concepts of frequency domain abstraction including balanced truncation and optimal Hankel-norm approximation are proposed to significantly reduce the burden of distributed computing. Finally, a novel `reduced copy' approach and a `modified Kalman filtering' approach are proposed to address the problem of grid stabilization using wind farm controls when packet drop is encountered.</AbstractNarration>
+    <MinAmdLetterDate>08/24/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1657024</AwardID>
+    <Investigator>
+      <FirstName>Nilanjan Ray</FirstName>
+      <LastName>Chaudhuri</LastName>
+      <EmailAddress>nuc88@engr.psu.edu</EmailAddress>
+      <StartDate>08/24/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Pennsylvania State Univ University Park</Name>
+      <CityName>UNIVERSITY PARK</CityName>
+      <ZipCode>168027000</ZipCode>
+      <PhoneNumber>8148651372</PhoneNumber>
+      <StreetAddress>110 Technology Center Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8228</Code>
+      <Text>CISE Resrch Initiatn Initiatve</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

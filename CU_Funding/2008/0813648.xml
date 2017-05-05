@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Capturing subgrid structures with level set methods</AwardTitle>
+    <AwardEffectiveDate>07/15/2008</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2013</AwardExpirationDate>
+    <AwardAmount>491981</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project tackles important problems arising from the need to find, represent and track small structures using level set methods. A particular focus are fluid dynamics applications of the new approaches developed. Level set methods encode surfaces using level set functions defined on Eulerian grids, and evolve them by evolving the function. Commonly used implementations suffer from mass loss, and&lt;br/&gt;small structures can vanish over the course of a computation. To remedy these&lt;br/&gt;problems, local mesh refinements and Lagrangian features have been reasonably successful, but at the expense of the method's basic simplicity and transparency.&lt;br/&gt;This research introduces a new solution to the difficulty: incorporate gradient information into the process. Current approaches do not carry, nor update this information. Instead (when/if needed) it is approximated from the grid function.&lt;br/&gt;Knowledge of gradient information is not enough to allow actual simulation of subgrid scale processes, but it enables the capture and tracking of subgrid size objects. It is also expected to improve accuracy in calculating quantities (e.g.&lt;br/&gt;stresses) where gradients play a role. The gradient data must be updated in time, maintaining coherence between function values and derivatives, while exploiting the extra information carried by derivatives. This is done using characteristic&lt;br/&gt;properties of the exact solutions to the underlying equation(s). The advantage&lt;br/&gt;of the proposed approach is that it captures small structures, while preserving the simplicity of a purely Eulerian approach on a regular grid. This new method uses gradient information with a computational effort which is of the same order of magnitude as that of the current techniques that ignore gradients.&lt;br/&gt;&lt;br/&gt;Identifying and accurately tracking small or thin structures, and the boundaries separating regions with different properties, is fundamental in simulating many physical and biological processes, and in many other computational applications.&lt;br/&gt;Examples arise in: medical imaging; image processing; evolution of thin liquid and solid films, wafers, and fibers; bubbly flows; droplet formation; colloids;&lt;br/&gt;etc. The research in this project should contribute to a better simulation of&lt;br/&gt;such processes. A very useful technology for surface tracking is provided by the&lt;br/&gt;level set method: the key idea is to model the surface as the locus where some&lt;br/&gt;property/function changes sign, and to move the surface advecting the function&lt;br/&gt;--- rather than the surface itself. This has many advantages; e.g. it allows an easy interface with other associated calculations where the surface plays a role&lt;br/&gt;--- in which it is usually preferable to have the data on a regular grid, where the surface is hard to represent directly (e.g.: the pixels used to represent an image). However, one standard difficulty with this approach is that parts of the interface may be lost when below some level of resolution. In this research the authors investigate a new approach to ameliorating this difficulty, by carrying in the calculation gradient information, in addition to the level set function.&lt;br/&gt;Unlike prior remedies, this approach does not tamper with the basic simplicity of the level set method. In many practical applications gradient information is available, but currently not fully used. Example 1: Data structures in computer graphics store surface normals, which are not fully used in simulations of the object. Equipping the data with gradients should improve the quality of further processing steps, such as in visualization techniques for realistic rendering.&lt;br/&gt;Example 2: The dynamic range of 2-D and 3-D MRI or CT-SCAN images is high, but current technology does not make use this gradient information. Incorporating it into the calculations should increase the effective resolution, thus improving the detection of tumors in infants and the identification of small anomalies.</AbstractNarration>
+    <MinAmdLetterDate>07/11/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/28/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0813648</AwardID>
+    <Investigator>
+      <FirstName>Rodolfo</FirstName>
+      <LastName>Rosales</LastName>
+      <EmailAddress>rrr@math.mit.edu</EmailAddress>
+      <StartDate>07/11/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Benjamin</FirstName>
+      <LastName>Seibold</LastName>
+      <EmailAddress>seibold@temple.edu</EmailAddress>
+      <StartDate>07/11/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jean-Christophe</FirstName>
+      <LastName>Nave</LastName>
+      <EmailAddress>jcnave@mit.edu</EmailAddress>
+      <StartDate>07/11/2008</StartDate>
+      <EndDate>11/28/2011</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Massachusetts Institute of Technology</Name>
+      <CityName>Cambridge</CityName>
+      <ZipCode>021394301</ZipCode>
+      <PhoneNumber>6172531000</PhoneNumber>
+      <StreetAddress>77 MASSACHUSETTS AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

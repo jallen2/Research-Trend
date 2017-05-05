@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small:Collaborative Research: Flexible, Efficient, and Trustworthy Proof Checking for Satisfiability Modulo Theories</AwardTitle>
+    <AwardEffectiveDate>08/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2011</AwardExpirationDate>
+    <AwardAmount>150000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 &lt;br/&gt;(Public Law 111-5).&lt;br/&gt;&lt;br/&gt;Software bugs cost the U.S. economy over $60 billion each year. Promising bug-detection technology depends on high-performance logic solvers for Satisfiability Modulo Theories (SMT), which employ sophisticated algorithms to check large formulas efficiently. Sophistication has a price: the solvers themselves exhibit bugs, and are not trustworthy enough for safety-critical applications. To increase confidence, some SMT solvers can emit formal proofs for valid formulas. Checking these proofs with a simple proof checker confirms the solver's results. SMT's rich logic poses challenges for standardizing a single proof format for all SMT solvers. Furthermore, proofs produced by SMT solvers can be gigabytes long, requiring an optimized proof checker. &lt;br/&gt;&lt;br/&gt;This collaborative project is developing a verified proof checker supporting a flexible format called the Edinburgh Logical Framework with Side Conditions (LFSC). LFSC is a meta-language for describing different proof systems, thus providing flexibility. Verification techniques are being applied to the proof checker itself to verify its optimizations, by writing it in a verified programming language called Guru. Support is also being added for LFSC proofs to the CVC3 solver. This research will greatly increase confidence in solver results through proofs, thus increasing the power of bug detection.</AbstractNarration>
+    <MinAmdLetterDate>07/15/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2009</MaxAmdLetterDate>
+    <ARRAAmount>150000</ARRAAmount>
+    <AwardID>0914956</AwardID>
+    <Investigator>
+      <FirstName>Clark</FirstName>
+      <LastName>Barrett</LastName>
+      <EmailAddress>barrett@cs.stanford.edu</EmailAddress>
+      <StartDate>07/15/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9217</Code>
+      <Text>NATNL RESERCH &amp; EDUCAT NETWORK</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Adaptively Applying Data-Driven Execution Mode to Remove I/O Bottleneck for Data-Intensive Computing</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2016</AwardExpirationDate>
+    <AwardAmount>349782</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The increasingly common multi-core/many-core CPU architectures&lt;br/&gt;are effective for accelerating programsâ?? execution only when&lt;br/&gt;sufficient parallelism is maintained. For data-intensive&lt;br/&gt;programs the increased parallelism can severely compromise I/O&lt;br/&gt;efficiency: when a sequential program is parallelized, not only&lt;br/&gt;computations, but also the I/O operations associated with them, can&lt;br/&gt;be distributed among multiple processes. Because the execution&lt;br/&gt;order of the processes is usually determined by the scheduler at&lt;br/&gt;runtime, the relative progress of processes is nondeterministic&lt;br/&gt;and the order in which the processes issue their I/O requests is&lt;br/&gt;accordingly nondeterministic. It is this I/O nondeterminism that&lt;br/&gt;can substantially compromise I/O efficiency, and thus program&lt;br/&gt;performance, by negating the advantages of parallel execution.&lt;br/&gt;&lt;br/&gt;To address this problem the PI proposes a facility built either&lt;br/&gt;in the operating system kernel or in the runtime to streamline&lt;br/&gt;the service of I/O requests from different processes of a&lt;br/&gt;parallel program. The major distinction from conventional&lt;br/&gt;techniques for improving I/O performance is in the coordination&lt;br/&gt;of I/O request issuance, via I/O-aware process scheduling, to&lt;br/&gt;improve the locality of these requests for I/O-intensive&lt;br/&gt;multithreaded and MPI programs.&lt;br/&gt;&lt;br/&gt;If successful, the proposed research would introduce a disruptive&lt;br/&gt;technique for data-centric computing to effectively relieve the&lt;br/&gt;I/O bottleneck. This project also provides abundant research&lt;br/&gt;training opportunities for students, especially under-represented&lt;br/&gt;minority students in the southeast Michigan area, to help relieve&lt;br/&gt;the shortage of IT professionals with expertise in parallel&lt;br/&gt;computing and storage systems.</AbstractNarration>
+    <MinAmdLetterDate>08/16/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/26/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217948</AwardID>
+    <Investigator>
+      <FirstName>Song</FirstName>
+      <LastName>Jiang</LastName>
+      <EmailAddress>song.jiang@uta.edu</EmailAddress>
+      <StartDate>08/16/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Wayne State University</Name>
+      <CityName>Detroit</CityName>
+      <ZipCode>482023622</ZipCode>
+      <PhoneNumber>3135772424</PhoneNumber>
+      <StreetAddress>5057 Woodward</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

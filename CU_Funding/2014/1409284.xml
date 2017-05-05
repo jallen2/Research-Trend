@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Medium: Collaborative Research: Micro Virtual Machines for Managed Languages: Abstraction, defined and contained</AwardTitle>
+    <AwardEffectiveDate>06/15/2014</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2018</AwardExpirationDate>
+    <AwardAmount>667681</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: Micro Virtual Machines for Managed Languages: Abstraction, contained&lt;br/&gt;&lt;br/&gt;A large fraction of today's software is written in managed languages. These languages increase software productivity by supporting programming at a very high level, hiding the complexity of modern computer hardware and operating systems. Examples include JavaScript, PHP, Objective-C, Java, C#, Python, and Ruby. These languages have great economic importance. Unfortunately, most of these languages are inefficient, imposing overheads as large as a factor of fifty compared to orthodox language choices such as C. The broader impacts of this research are two-fold: (1) Since managed languages are increasingly becoming economic linchpins, deployed in the engine rooms of global e-commerce platforms and Internet applications (including those of key software companies such as Amazon, Google, Facebook, Apple, Oracle, and Microsoft), improving the reliability and performance of these managed language platforms will lead to economic efficiencies as well as resource efficiencies in the form of reduced power costs to data centers and improved battery lifetime on mobile devices;(2) Concerning human diversity in the computing field, the research will engage undergraduates from under-represented groups, and encourage them to pursue graduate school and careers in computing and research.&lt;br/&gt;&lt;br/&gt;This research project is defining, developing, evaluating, and refining the essential components of a new foundation layer for managed language implementation. In doing so, it addresses a key source of systemic inefficiency, by pioneering the "micro virtual machine" (microVM) as an efficient high-performance substrate for managed language implementation. The relationship between a microVM and existing managed language implementations is analogous to that between an operating system micro kernel and monolithic operating systems such as Linux. The microVM captures the insight that there exists a well-defined foundation common to most modern languages that can take responsibility for fundamental abstractions over hardware, concurrency, and memory. By isolating and exposing this substrate, the microVM embodies state-of-the-art base technology available to language implementers while isolating them from the pernicious complexities of these abstractions, freeing them to focus on all-important language-specific optimizations. The research is enabling more efficient software and a distinctly sharper focus for language implementation research and development. The intellectual merits of the research are: (1) Researching and identifying, via prototyping and evaluation, the right microVM abstractions, allowing clean separation of low-level language-neutral and high-level language-specific concerns, capturing the core behaviors, while also admitting high-performance language implementations; (2) Generating secondary research challenges, especially with regard to the effective and efficient combination of abstractions for hardware, concurrency, and memory; and (3) Creating a viable target for formal verification because the microVM has a relatively small code base, thus taking one step on the way towards trustworthy subsystems for assurance of managed software.</AbstractNarration>
+    <MinAmdLetterDate>06/09/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/31/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1409284</AwardID>
+    <Investigator>
+      <FirstName>Timothy</FirstName>
+      <LastName>Richards</LastName>
+      <EmailAddress>richards@cs.umass.edu</EmailAddress>
+      <StartDate>06/09/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>J. Eliot</FirstName>
+      <LastName>Moss</LastName>
+      <EmailAddress>moss@cs.umass.edu</EmailAddress>
+      <StartDate>06/09/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Massachusetts Amherst</Name>
+      <CityName>Hadley</CityName>
+      <ZipCode>010359450</ZipCode>
+      <PhoneNumber>4135450698</PhoneNumber>
+      <StreetAddress>Research Administration Building</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7943</Code>
+      <Text>PROGRAMMING LANGUAGES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Designing a Predictable Database - An Overlooked Virtue</AwardTitle>
+    <AwardEffectiveDate>02/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2021</AwardExpirationDate>
+    <AwardAmount>199533</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Four decades of research on database systems has mostly focused on improving average raw performance. This competition for faster performance has, understandably, neglected predictability of our database management systems. However, as database systems have become more complex, their erratic and unpredictable performance has become a major challenge facing database users and administrators alike. With the increasing reliance of mission-critical business applications on their databases, maintaining high levels of database performance (i.e., service level guarantees) is now more important than ever. Cloud users find it challenging to provision and tune their database instances, due to the highly non-linear and unpredictable nature of today's databases. Even for deployed databases, performance tuning has become somewhat of a black art, rendering qualified database administrators a scare resource.&lt;br/&gt;&lt;br/&gt;In this project, we restore the missing virtue of predictability in the design of database systems. First, we quantify the major sources of uncertainty in a database in a principled manner. Then, by rethinking the traditional design of a database system, we architect a new generation of databases that treat predictability as a first class-citizen in their various stages of query processing, from physical design to memory management and query scheduling. Moreover, to accommodate existing database systems (which are not predictable by design), we provide effective tools and methodologies for predicting their performance more accurately. Building a predictable database in a bottom-up fashion and in a principled manner, offers great insight into improving existing database products and can instigate a radical shift in the way that future databases are designed and implemented. For more information on this project, please visit https://web.eecs.umich.edu/~mozafari/predictabledb</AbstractNarration>
+    <MinAmdLetterDate>01/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/14/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1553169</AwardID>
+    <Investigator>
+      <FirstName>Barzan</FirstName>
+      <LastName>Mozafari</LastName>
+      <EmailAddress>mozafari@umich.edu</EmailAddress>
+      <StartDate>01/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Michigan Ann Arbor</Name>
+      <CityName>Ann Arbor</CityName>
+      <ZipCode>481091274</ZipCode>
+      <PhoneNumber>7347636438</PhoneNumber>
+      <StreetAddress>3003 South State St. Room 1062</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Michigan</StateName>
+      <StateCode>MI</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Topology Switching for Data Centers and the Clouds Above</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2012</AwardExpirationDate>
+    <AwardAmount>400000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Thyagarajan Nandagopal</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5).&lt;br/&gt;&lt;br/&gt;This project addresses the complex networking challenge presented by the emerging cloud computing model. Cloud providers must run a diverse set of client applications, each with potentially different networking demands, on shared data-center facilities. Traditionally, a datacenter network is configured to use the same routing process to choose the "best" route for each flow in a datacenter, regardless of the application. For example, Ethernet frequently performs shortest-path routing along a single spanning tree. Yet data center networks typically exhibit significant redundancy; routing along a single tree leaves many paths unused, sacrificing potential gains in reliability, isolation and performance.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Topology switching moves beyond this one-size-fits-all approach providing an architecture for fine-grained multi-topology networking. It allows applications to create custom routing systems within a data center; they can configure multiple logical topologies that, together, are tailored to their reliability and performance requirements. From a cloud provider's perspective, a topology-switched network increases efficiency by multiplexing potentially hundreds of topologies across the same shared physical network. The PIs are designing a scalable topology-switched routing platform that facilitates the exploration of application interfaces, management challenges, novel routing strategies, and performance benefits of this approach.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Ultimately, the project aims to develop a flexible topology management primitive that improves administrators' ability to effectively manage extremely large datacenter deployments. The research is also analyzing the benefits and costs of multi-topology networking. Additional outcomes of this proposal include a public release of the topology switching platform, enabling academic and industrial feedback and adoption.</AbstractNarration>
+    <MinAmdLetterDate>08/28/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/28/2009</MaxAmdLetterDate>
+    <ARRAAmount>400000</ARRAAmount>
+    <AwardID>0917339</AwardID>
+    <Investigator>
+      <FirstName>Kenneth</FirstName>
+      <LastName>Yocum</LastName>
+      <EmailAddress>kyocum@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/28/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Alex</FirstName>
+      <LastName>Snoeren</LastName>
+      <EmailAddress>snoeren@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/28/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>6890</Code>
+      <Text>RECOVERY ACT ACTION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

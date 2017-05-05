@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Interpolatory Model Reduction for the Control of Fluids</AwardTitle>
+    <AwardEffectiveDate>07/15/2015</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2018</AwardExpirationDate>
+    <AwardAmount>319933</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Fluid flow control problems are ubiquitous. They arise in important applications such as drag reduction (with the benefits of saving fuel or improving range/speed), enhancing mixing (for more efficient combustion), reducing structural fatigue, improved solidification and die casting, and efficient cooling in large indoor-air environments. However, the ever-increasing need for improved accuracy and complexity of the underlying flow problems lead to very large-scale dynamical systems whose simulations and control make overwhelming and unmanageable demands on computational resources. This research project aims to develop novel computational techniques and a new rigorous mathematical framework to solve large-scale flow control problems very efficiently. In addition, the project will develop a year-long graduate course on Model Reduction and Flow Control and will provide students with valuable interdisciplinary education.&lt;br/&gt;&lt;br/&gt;The current state-of-the-art is to solve flow control problems by using reduced models constructed using the proper orthogonal decomposition. However, these models are limited in that they are only guaranteed to be accurate for a pre-selected range of inputs. This project will provide significantly improved tools for the efficient analysis and approximation of large-scale dynamical systems. It will also have direct application to model reduction for problems with bilinear and quadratic nonlinearities. Bilinear models arise in control problems for heat exchangers, and nonlinear partial differential equations with quadratic nonlinearities include the Korteweg-de Vries (shallow waves), the Kuramoto-Sivashinsky (turbulent flames), and the Landau-Lifshitz (magnetic fields in solid state physics) equations. Using rational interpolation, this research will lead to new algorithms to systematically perform high-fidelity, in most cases optimal, model reduction for linear and nonlinear systems associated with (discretized) flow equations. These reduced models will be used to design optimal feedback laws. The new framework will offer major advantages: First, unlike current approaches, the proposed control design will not require expensive full-order, time-accurate simulations for specific input trajectories or solutions of large dense matrix equations; the computational efforts lie in computing a steady-state solution and solving a modest number of sparse linear systems. Second, the reduced models will be uniformly accurate for a wide range of input profiles and will not depend on specific input trajectories. Third, the methodology will naturally create reduced models that respect the stability properties of the original flow.</AbstractNarration>
+    <MinAmdLetterDate>07/15/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/15/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1522616</AwardID>
+    <Investigator>
+      <FirstName>Serkan</FirstName>
+      <LastName>Gugercin</LastName>
+      <EmailAddress>gugercin@math.vt.edu</EmailAddress>
+      <StartDate>07/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jeffrey</FirstName>
+      <LastName>Borggaard</LastName>
+      <EmailAddress>jborggaard@vt.edu</EmailAddress>
+      <StartDate>07/15/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Virginia Polytechnic Institute and State University</Name>
+      <CityName>BLACKSBURG</CityName>
+      <ZipCode>240610001</ZipCode>
+      <PhoneNumber>5402315281</PhoneNumber>
+      <StreetAddress>Sponsored Programs 0170</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>8396</Code>
+      <Text>Clean Energy Technology</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8609</Code>
+      <Text>Other Energy Research</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

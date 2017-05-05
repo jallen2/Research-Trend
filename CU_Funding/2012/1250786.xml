@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>BIGDATA: Small: DA: Mining large graphs through subgraph sampling</AwardTitle>
+    <AwardEffectiveDate>10/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>560367</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The size and complexity of these "Big Data" graphs have always posed significant challenges, limiting the scope of their analysis and thus also limiting the implications that one can draw from them. Mining data from large real-world graphs typically poses two challenges: one of computational resources and another of incomplete information. A comprehensive analysis of these graphs has usually required access to large distributed computing platforms and sophisticated software. This project aims to address a portion of these challenges by investigating a new method, based in statistics and spectral graph theory, to infer essential properties of the full graph through extracting a representative sample of small subgraphs from the full graph. The goal is to reduce the computational burden on researchers interested in large graphs and thus broaden participation in "Big Data" activities. As is now well-understood, the analysis of large graphs has many applications in a variety of fields including business, economics, public policy development, law enforcement, public health, sociology and, of course, computer science. This breadth of applicability and the proposed curriculum development activities have the potential to draw and retain a greater diversity of students into computer science and engineering and increasing the participation by under-represented groups.&lt;br/&gt;&lt;br/&gt;Many of the principal properties of a graph can be inferred from the graph spectrum (eigenvalues of its adjacency or the normalized Laplacian matrix). In particular, a rich set of interlacing results in spectral graph theory allows one to bound the eigenvalues of the full graph using the eigenvalues of its subgraphs. This project will develop new algorithms for generating subgraph samples, and then use basic estimation theory from statistics and the interlacing results from spectral graph theory to discern properties of a large graph. The new method based on subgraph sampling (as opposed to node or edge sampling) uses results from spectral graph theory and statistics to estimate the spectrum (eigenvalues) of the graph based on the spectrum of the sampled subgraphs. The goal is to allow a meaningful analysis of extremely large graphs without the use of anything beyond a typical desktop computer. The data collected and the algorithms developed as part of this project will be made available to the larger research community through a data repository hosted by Drexel University. The project will also make contributions to open-source software.</AbstractNarration>
+    <MinAmdLetterDate>09/18/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1250786</AwardID>
+    <Investigator>
+      <FirstName>Harish</FirstName>
+      <LastName>Sethu</LastName>
+      <EmailAddress>sethu@drexel.edu</EmailAddress>
+      <StartDate>09/18/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Steven</FirstName>
+      <LastName>Weber</LastName>
+      <EmailAddress>sweber@ece.drexel.edu</EmailAddress>
+      <StartDate>09/18/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Drexel University</Name>
+      <CityName>Philadelphia</CityName>
+      <ZipCode>191021119</ZipCode>
+      <PhoneNumber>2158955849</PhoneNumber>
+      <StreetAddress>1505 Race St, 8th Floor</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Pennsylvania</StateName>
+      <StateCode>PA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8083</Code>
+      <Text>Big Data Science &amp;Engineering</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

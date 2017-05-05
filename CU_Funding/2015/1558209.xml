@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>I-Corps: AdsProphet: Full-screen Delay-aware Mobile Ads Display</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2016</AwardExpirationDate>
+    <AwardAmount>50000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07070000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Steven Konsek</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Mobile advertising is a large and quickly growing market, driven by the movement of viewing traffic and advertising dollars from other media to mobile. In 2014, mobile worldwide ad spending is about $40 billion and it's expected to top nearly $200 billion in 2019. Among all the hundreds of thousands of app developers operating today, 90% of which offer free apps that create revenues through "in-app" advertising: they get paid when a user clicks on an ad embedded in their apps. Nowadays, these app developers have to play banner ad in their apps, which is a small-sized ad form that usually runs at the bottom of the screen, attracting littler user attention&lt;br/&gt;and thus reducing developers' revenues. The proposed technology "AdsProphet" is a novel mobile ads library that is based on the observation that when user using apps, a lot of time has been wasted on waiting for the app to load remote data and such 'freezing time' has not been fully taken advantage of. AdsProphet can find these valuable windows and displays full-screen ads, which attracts user attention 25 times higher than what banner ads can achieve. This I-Corps team assumes app developers can use AdsProphet to display full-screen ads at a rate of 10% of banner ads, then AdsProphet is expected to double developers' revenue without affecting user experiences.&lt;br/&gt;&lt;br/&gt;The key technique behind AdsProphet is a novel real-time user-perceived delay prediction system on mobile device. It's challenging to propose such a system: first, during each networking delay,only a portion of it is user-perceived delay when user can do nothing but to wait. There is no built-in event for it in any systems. This I-Corps team proposes a novel approach that is able to intelligently&lt;br/&gt;detect user-perceived delay by combing techniques of network behavior manipulation, image similarity comparison algorithms and user behavior model. Second, the networking condition varies dramatically and frequently on a mobile device: users move their phones from place to place and connect to different networks such as WIFI or cellular network all the time. Moreover, the prediction process must decide whether or not to play ads in real-time; otherwise, it wastes the time to play full-screen ads and affect developers? revenues. The team first proposes an approach to predict user-perceived delay by designing a novel algorithm to efficiently estimate bandwidth as&lt;br/&gt;well as round trip time to target servers, both of which serve as the most essential indicators of current networking condition. Then, to further accelerate the proposed prediction system, the team proposes a networking history model based on user's history.</AbstractNarration>
+    <MinAmdLetterDate>08/31/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/31/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1558209</AwardID>
+    <Investigator>
+      <FirstName>Nathaniel</FirstName>
+      <LastName>Harrison</LastName>
+      <EmailAddress>nathaniel.harrison@northwestern.edu</EmailAddress>
+      <StartDate>08/31/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Yan</FirstName>
+      <LastName>Chen</LastName>
+      <EmailAddress>ychen@northwestern.edu</EmailAddress>
+      <StartDate>08/31/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northwestern University</Name>
+      <CityName>Evanston</CityName>
+      <ZipCode>602013149</ZipCode>
+      <PhoneNumber>8474913003</PhoneNumber>
+      <StreetAddress>1801 Maple Ave.</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Illinois</StateName>
+      <StateCode>IL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8023</Code>
+      <Text>I-Corps</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

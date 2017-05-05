@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Advanced Digital Signal Processing with DNA</AwardTitle>
+    <AwardEffectiveDate>08/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>408000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mitra Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will develop techniques for implementing computation in general, and advanced digital signal processing operations in particular, using molecular reactions in general, and DNA-based reactions in particular. Just as electronic systems implement computation in terms of voltage (energy per unit charge), one can conceive of molecular systems that compute in terms of chemical concentrations (molecules per unit volume). This proposal will explore techniques for implementing a variety of computational constructs such as logic, memory, arithmetic, and signal processing. A technique called DNA strand displacement is the target experimental chassis. &lt;br/&gt;&lt;br/&gt;The impetus for this research is not computation per se. Molecular computation will never compete with conventional computers made of silicon integrated circuits for tasks such as number crunching. Chemical systems are inherently slow and messy, taking minutes or even hours to finish, and producing fragmented results. Rather, the goal is to create "embedded controllers" - viruses and bacteria that are engineered to perform useful molecular computation in situ where it is needed, for instance in drug delivery and biochemical sensing applications.&lt;br/&gt;&lt;br/&gt;The digital circuit design community has unique expertise that can be brought to bear on the challenging design problems encountered in synthetic biology. Applications in biology, in turn, offer a wealth of interesting problems in algorithmic development. With its cross-disciplinary emphasis, this project will bring new perspectives to both fields. If successful, the proposed research will transform disciplines such as genetic engineering of drug-delivery systems. Currently, a costly and ineffective ad-hoc approach prevails. With robust techniques for implementing operations such as digital signal processing, much more effective systems will be developed. An important goal of the project is to communicate the impetus for interdisciplinary research to a wide audience. Building upon current research efforts that include female students, underrepresented students will be recruited into the project.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;This proposal will build on the success of prior work, exploring the implementation of complex signal processing functions for both discrete-time and digital signal processing applications with DNA. The project will develop synthesis techniques for molecular implementations of signal processing functions such as finite-impulse response (FIR) and infinite impulse response (IIR) digital filters, fast Fourier transforms (FFT), and power spectral density (PSD) computations. A major component of this project is to study how to implement analog-to-digital (A/D) and digital-to-analog (D/A) conversion with molecular reactions. A distinction will be made between discrete-time signal processing and digital signal processing. While signals are sampled periodically in both systems, the signal is represented as an analog value in the former while the signal is quantized to a digital value in the latter. Each has its advantages. Discrete-time signal processing systems are similar to sampled data systems and require lower molecular concentrations; however, the resolution cannot be precisely controlled. Digital systems are more precise, but require higher molecular concentrations.&lt;br/&gt;&lt;br/&gt;Specific research thrusts are as follows. Firstly, a complete digital signal processing system will be demonstrated. Such a system will contain A/D and D/A converters and will implement a full repertoire of complex operations. Secondly, the project will develop faster implementations of both discrete-time and digital signal processing systems. The main bottleneck in prior discrete-time signal processing implementations has been speed. In contrast to electronic systems, where the speed is limited by changes in electric charge, the speed in molecular systems is limited by changes in molecular concentrations, which are inherently slow. The project will develop new scheduling approaches where multiple computations are mapped to different phases of transfer. The computation will be synchronous, with molecular transfers synchronized by a "clock", implemented through sustained chemical oscillations. The new scheduling approaches will allow computation of parallel outputs without increasing the number of delay transfer reactions. Reducing currently achievable sample periods from 40-80 hours to 4-8 hours will enable experimental demonstration of some example signal processing functions using DNA. Finally, the project will investigate tradeoffs in discrete-time and digital implementations of signal processing functions with respect to speed, accuracy, and robustness. Detailed studies of the system properties and behaviors will be performed, e.g., how the resolution correlates with changing molecular concentrations and how robust the designs are to parametric variations.</AbstractNarration>
+    <MinAmdLetterDate>07/24/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>02/12/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1423407</AwardID>
+    <Investigator>
+      <FirstName>Marc</FirstName>
+      <LastName>Riedel</LastName>
+      <EmailAddress>mriedel@umn.edu</EmailAddress>
+      <StartDate>07/24/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Keshab</FirstName>
+      <LastName>Parhi</LastName>
+      <EmailAddress>parhi@umn.edu</EmailAddress>
+      <StartDate>07/24/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Minnesota-Twin Cities</Name>
+      <CityName>Minneapolis</CityName>
+      <ZipCode>554552070</ZipCode>
+      <PhoneNumber>6126245599</PhoneNumber>
+      <StreetAddress>200 OAK ST SE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Minnesota</StateName>
+      <StateCode>MN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7796</Code>
+      <Text>ALGORITHMIC FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7797</Code>
+      <Text>COMM &amp; INFORMATION FOUNDATIONS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7931</Code>
+      <Text>COMPUTATIONAL BIOLOGY</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7936</Code>
+      <Text>SIGNAL PROCESSING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7946</Code>
+      <Text>BIO COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

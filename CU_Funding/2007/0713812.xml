@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Novel Approaches to Empirical Force Field Models in Molecular Modeling via Multidimensional Scaling</AwardTitle>
+    <AwardEffectiveDate>07/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2011</AwardExpirationDate>
+    <AwardAmount>133759</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dalin Tang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The project focuses on new computational methods for the determination of biomolecular structure, which is crucial to our understanding of how biomolecules such as proteins perform the functions they do. This functional understanding, in turn, figures in the development of techniques for disease diagnosis and treatment.&lt;br/&gt; A widely used approach to determining the structure of biomolecules is the minimization of the molecule''s potential energy, computed using a force-field model. The potential energy accounts for such features as the stretching of bonds between atoms, the deformation of bond angles, and the interactions of non-bonded atoms (e.g., electrostatic forces). Of interest are molecular configurations that have very low potential energies, since biomolecules fold themselves into shapes that tend to minimize the potential energy: Nature is an optimizer. One seeks physically meaningful molecular configurations by applying computational techniques to systematically vary the locations of the atoms to reduce the potential energy.&lt;br/&gt; A serious difficulty encountered when applying computational algorithms to energy minimization arises when the search needs to move through configurations with high potential energies on the way to configurations with low potential energies. For instance, moving atoms close past one another increases the potential energy due to repulsive forces. Minimization algorithms have difficulty dealing with this situation since they cannot be sure in advance that allowing increases in potential energy will ultimately lead to configurations with lower energy. As a consequence, algorithms may halt at structures that minimize the potential energy only among nearby configurations, but not overall, and are not of physical interest.&lt;br/&gt; This project explores a new approach to address this difficulty. We pose the problem in terms of the interatomic distances, rather than the locations of the atoms, rewriting the potential energy in terms of these distances. Roughly speaking, our approach corresponds to adding fictitious copies of each atom, one for each of the other atoms. Of course, we must also add conditions that ensure that all the fictitious copies of an atom ultimately coalesce into a single atom. However, we use conditions that can be relaxed at intermediate steps of the energy minimization process and are only enforced as we approach a solution.&lt;br/&gt; This approach benefits from adding a large number of extra dimensions to the search space. As an analogy, imagine a search for the lowest point in North America, Death Valley, starting from Chicago. As purely earthbound voyagers we might be fooled into stopping at a local low point at the foot of the Rockies or around the Great Salt Lake, just as optimization algorithms might halt at local energy minimizers. But if we relax the requirement of traveling by land and allow travel by air, then we can pass over local minimizers on the ground to arrive at the desired destination. &lt;br/&gt; Preliminary tests have shown that our approach greatly improves the behavior of the more notoriously troublesome energy terms. This project will investigate its use for molecular structure determination and will examine extensions to other applications such as drug docking and finding transition mechanisms for chemical reactions.</AbstractNarration>
+    <MinAmdLetterDate>06/29/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/29/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0713812</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Trosset</LastName>
+      <EmailAddress>mtrosset@indiana.edu</EmailAddress>
+      <StartDate>06/29/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Lewis</LastName>
+      <EmailAddress>buckaroo@math.wm.edu</EmailAddress>
+      <StartDate>06/29/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>College of William and Mary</Name>
+      <CityName>Williamsburg</CityName>
+      <ZipCode>231878795</ZipCode>
+      <PhoneNumber>7572213966</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7454</Code>
+      <Text>MSPA-INTERDISCIPLINARY</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7237</Code>
+      <Text>NANO NON-SOLIC SCI &amp; ENG AWD</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7303</Code>
+      <Text>MATH SCI PRIORITY AREA: INTERDISCIPLINAR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

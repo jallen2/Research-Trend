@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Big Memory: Exploring Memory Management Mechanisms and Policies for Rack-Scale Computers</AwardTitle>
+    <AwardEffectiveDate>10/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2019</AwardExpirationDate>
+    <AwardAmount>499997</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Yan Solihin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Large-memory applications, including data analytics, in-memory object&lt;br/&gt;caches, and in-memory databases, are a major consumer of data center&lt;br/&gt;resources. Moreover, these applications can effectively use more&lt;br/&gt;memory than a single computer can provide. Traditional approaches to&lt;br/&gt;scaling these applications involve parallelism across multiple&lt;br/&gt;computers. However, that may not use resources cost-effectively, as&lt;br/&gt;the ratio of processing, networking, and memory is determined by the&lt;br/&gt;configuration of the underlying computers, not the application. This&lt;br/&gt;project explores disaggregated servers, or "rack-scale computers".&lt;br/&gt;These servers consist of pools of processors, memory, and I/O devices&lt;br/&gt;within a rack that can be flexibly allocated to virtual machines based&lt;br/&gt;on the needs of their resident applications.&lt;br/&gt;&lt;br/&gt;This project focuses on one aspect of disaggregated servers: managing&lt;br/&gt;a large pool of memory within the rack. Specifically, using this pool&lt;br/&gt;to dynamically add memory to and remove memory from virtual machines.&lt;br/&gt;This will enable applications to handle bursty load without the need&lt;br/&gt;to spin up/down entire virtual machines. In order to effectively&lt;br/&gt;manage memory across virtual machines, the hypervisor will need a&lt;br/&gt;better understanding of how memory is being used, by both the guest&lt;br/&gt;operating systems and applications. Therefore, we are exploring the&lt;br/&gt;interfaces, mechanisms, and policies within and between the&lt;br/&gt;hypervisor, guest operating system, and application that will enable&lt;br/&gt;the use of large disaggregated memories. This research is one step &lt;br/&gt;towards rethinking what a computer is and how to construct one that &lt;br/&gt;better serves data science and analytics applications that can benefit &lt;br/&gt;from large amounts of memory.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1619124</AwardID>
+    <Investigator>
+      <FirstName>Alan</FirstName>
+      <LastName>Cox</LastName>
+      <EmailAddress>alc@rice.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Scott</FirstName>
+      <LastName>Rixner</LastName>
+      <EmailAddress>rixner@rice.edu</EmailAddress>
+      <StartDate>08/08/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>William Marsh Rice University</Name>
+      <CityName>Houston</CityName>
+      <ZipCode>770051827</ZipCode>
+      <PhoneNumber>7133484820</PhoneNumber>
+      <StreetAddress>6100 MAIN ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

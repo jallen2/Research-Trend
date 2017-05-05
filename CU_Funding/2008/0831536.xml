@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CT-ISG: Real Time Cryptography</AwardTitle>
+    <AwardEffectiveDate>10/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2011</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Security is of primary importance in many modern computer applications, like electronic payments, personalized news broadcasts, location aware electronic services, automatic sharing and exchange of personal information for social networking, etc. Cryptography provides many technical tools that can be used to achieve security and privacy goals, but at a substantial computational cost. Traditionally, this cost has been measured in terms of the number and size of messages exchanged during the cryptographic protocol execution. However, such traditional efficiency measures are not representative of performance as perceived by the final user: the main efficiency measure of interest to the end user is real time, i.e., the amount of clock time elapsed since the user issues a request, till the moment the request is served. This is especially true for applications that run over an heterogeneous network like the Internet, where latency and bandwidth can substantially vary both across the network and over time. This project investigates the design and analysis of cryptographic protocols in a real time model, with two main objectives: (1) designing cryptographic protocols that are efficient with respect to realistic time complexity measures, as perceived by the end user, and (2) exploiting time itself as a tool to achieve security goals. For example, local timing constraints (e.g., delays and time-outs) can be used to enforce restrictions on the order in which events take place in a global execution environment. Time can also be used to introduce asymmetries between the capabilities of different parties similar to what is typically achieved using expensive public key cryptographic operations. Finally, the value associated to information usually varies with time: what is valuable confidential information today, may be publicly available tomorrow. This project will investigates all these different aspects of real time cryptographic protocol design, first focusing on zero-knowledge proof systems (a representative and very useful class of cryptographic protocols), and then, after appropriate models for timed cryptographic protocol execution have been developed, expanding our study to larger classes of applications.&lt;br/&gt;&lt;br/&gt;Broader significance: Security is essential in many modern computer applications, and to ensure public confidence in the cyber infrastructure. Cryptography has developed many tools that can be used to secure electronic transactions, but still many cryptographic protocols are seldom used in practice because they are too complex or computationally expensive. This project investigates cryptographic protocols that make use of timed operations to achieve security goals at a reduced computational cost, and according to a metric directly related to efficiency as experienced by the end user. As such, the project will help making cryptography more usable and more used in practice.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0831536</AwardID>
+    <Investigator>
+      <FirstName>Daniele</FirstName>
+      <LastName>Micciancio</LastName>
+      <EmailAddress>daniele@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/25/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7371</Code>
+      <Text>CYBER TRUST</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CT-ISG: The Origin of the Code: Automated Identification of Common Characteristics in Malware</AwardTitle>
+    <AwardEffectiveDate>09/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2012</AwardExpirationDate>
+    <AwardAmount>268510</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nina Amla</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software is a common target of attacks on the current computing / communications infrastructure. Software continues to be vulnerable to attacks that exploit obscure or misunderstood language and program features. Detection of these software exploits (also called "malware") will therefore be needed for the forseeable future as one part of an effective defense. Virus checkers detect many known exploits, and are now widely used, but attackers have adapted by obfuscating and mutating their code to evade virus checkers.&lt;br/&gt;&lt;br/&gt;Such techniques make precise identification of malware extremely difficult. This project will use key characteristics of attack code for identification purposes. Important features of this approach include: advanced disassembly techniques; translation of code into an intermediate form more amenable to analysis, and more resistant to obfuscation; static reconstruction of program control flow and data flow; and, extraction of properties of interest, followed by analysis of these properties. The properties of interest include the characteristic behaviors of encryption and compression, and the system calls executed by the code. Rather than relying on exact matching of these properties for malware identification, approximate matching will be used. Static analysis will be the focus, to avoid the performance penalties of dynamic execution monitoring. The application of data mining to identify important malware features, and construct high-level patterns or signatures in a completely automated way, will also be investigated. The method will additionally help identify malware relationships, with applications to forensics, recovery of attack strategies, and identification of new classes of attacks (including zero-day attacks).&lt;br/&gt;&lt;br/&gt;The method will resist the introduction of noise, or targeted evasion by malware writers, and will provide much better protection against polymorphic and metamorphic exploit code, and new attack variations. A database of patterns / characteristics for known software exploits will be maintained and made public. Educational materials about malware detection will be developed and disseminated, and training of female researchers will continue to be a priority.</AbstractNarration>
+    <MinAmdLetterDate>08/25/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/25/2008</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0831081</AwardID>
+    <Investigator>
+      <FirstName>Douglas</FirstName>
+      <LastName>Reeves</LastName>
+      <EmailAddress>reeves@eos.ncsu.edu</EmailAddress>
+      <StartDate>08/25/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7371</Code>
+      <Text>CYBER TRUST</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

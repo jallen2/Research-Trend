@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Collaborative Research: Spatial Model-based Methods for RNA-seq Analysis</AwardTitle>
+    <AwardEffectiveDate>10/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2013</AwardExpirationDate>
+    <AwardAmount>279154</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Mary Ann Horn</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>RNA sequencing (RNA-seq) is a powerful new technology for mapping and quantifying transcriptomes using next generation ultra-high-throughput sequencing technologies. Although extremely promising, massive data produced by RNA-seq, substantial biases, and uncertainty in short read alignment pose daunting challenges for researchers when analyzing RNA-seq data. Most of the current analytic programs enumerate total number of tags landed within each exon and use normalized counts as the expression measure. Such methods ignore variation and correlation in sequencing depth within an exon, which may result in less accurate expression measures. Because the correlation between the read counts of adjacent bases depends on the distance between them, it is referred to as spatial correlation. Large base-specific variations and between-bases spatial correlations make naive approaches, such as averaging to normalizing RNA-seq data and quantifying gene/isoform expressions, ineffective. The presence of location-specific variation as well as spatial correlation is an outstanding characteristic of many spatial data in Geostatistics, Spatial Epidemiology, and image processing, and it has been studied in the literature of Spatial Statistics. In this project, the investigators propose to apply and extend the ideas, models and methodologies rooted in Spatial Statistics to model and analyze RNA-seq data. In particular, the investigators develop spatial Poisson mixed effects models including a hierarchical model and a mixture model to accommodate biases, variations, and correlations present in RNA-seq data so as to accurately estimate gene/isoform expression levels and to facilitate gene/isoform expression comparison and novel transcript structure or activities discovery. Furthermore, the investigators will apply the proposed methods to analyze real RNA-seq data generated from prostate cancer and psoriasis transcriptomic studies. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Monitoring gene expression levels genome-wide is important for understanding the mechanisms of many biological processes. In the past decade, microarray has been the main tool in laboratories for measuring gene expression levels. Recently, RNA-seq, an emerging new technology, has been shown to offer key advantages over microarray in measuring gene expression profiles. However, existing methods for quantifying expression levels from RNA-seq data are crude and unsatisfactory. This greatly compromises the power of RNA-seq for genomic and transcriptomic studies. In this project, having carefully investigated the unique characteristics of RNA-seq data, the investigators propose a series of advanced statistical models, and aim to develop effective and efficient methods for RNA-seq data analysis. The methods generated from this project will greatly benefit a fast growing community of researchers who are planning to conduct RNA-seq experiments with data analysis. Furthermore, this project also constitutes a significant contribution to the advance of statistical methodology development. The investigators will also develop and support open-source computer software for RNA-seq data analysis based on the methods resulting from this project and make it freely available to the public online.</AbstractNarration>
+    <MinAmdLetterDate>09/22/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/15/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1000443</AwardID>
+    <Investigator>
+      <FirstName>Yu Michael</FirstName>
+      <LastName>Zhu</LastName>
+      <EmailAddress>yuzhu@stat.purdue.edu</EmailAddress>
+      <StartDate>09/22/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

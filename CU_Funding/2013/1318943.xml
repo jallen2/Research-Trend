@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Rethinking the Memory Hierarchy</AwardTitle>
+    <AwardEffectiveDate>08/01/2013</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>515762</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>M. Mimi McClure</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Modern multicores are designed around complex memory hierarchies that&lt;br/&gt;achieve high performance with a high cost in design complexity and&lt;br/&gt;efficiency. The reason is that delaying the memory access just a few&lt;br/&gt;cycles has an unacceptable performance impact. This proposal decouples&lt;br/&gt;the memory operations in non-critical and critical. The critical&lt;br/&gt;component is allowed to be incorrect which results in a system with&lt;br/&gt;power savings, simplifications in the memory hierarchy, and even the&lt;br/&gt;removal of complex memory coherence. The proposed sequential&lt;br/&gt;consistency model allows simple programming models without performance&lt;br/&gt;or power consumption impact.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;This proposal addresses the challenge of excessive complexity in modern&lt;br/&gt;multicore memory hierarchy. This complexity results in a power waste and&lt;br/&gt;difficult programming models. For modern systems, the memory hierarchy&lt;br/&gt;represents over half of the power. The proposed decoupled execution&lt;br/&gt;allows an energy efficient implementation by moving the complex&lt;br/&gt;operations out of the critical path. Furthermore, the proposed memory&lt;br/&gt;hierarchy allows for simpler parallel applications because it avoids&lt;br/&gt;complex consistency models commonly used. This proposal solution allows&lt;br/&gt;for an efficient implementation of the simplest consistency model&lt;br/&gt;available. Overall, the PI hopes to make fundamental advances toward&lt;br/&gt;energy efficient and simpler to use memory hierarchies.</AbstractNarration>
+    <MinAmdLetterDate>06/24/2013</MinAmdLetterDate>
+    <MaxAmdLetterDate>01/24/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1318943</AwardID>
+    <Investigator>
+      <FirstName>Jose</FirstName>
+      <LastName>Renau</LastName>
+      <EmailAddress>renau@soe.ucsc.edu</EmailAddress>
+      <StartDate>06/24/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Santa Cruz</Name>
+      <CityName>Santa Cruz</CityName>
+      <ZipCode>950641077</ZipCode>
+      <PhoneNumber>8314595278</PhoneNumber>
+      <StreetAddress>1156 High Street</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9178</Code>
+      <Text>UNDERGRADUATE EDUCATION</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

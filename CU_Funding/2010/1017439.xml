@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: The Cross-layer Reliability Stack</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2014</AwardExpirationDate>
+    <AwardAmount>349999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Fault-tolerance is now a primary design constraint for all major microprocessors; however, perfect fault-tolerance is not a requirement for most designs. Instead, designs strive to maximize performance subject to an acceptable failure rate constraint. Therefore, vendors typically set a failure rate (FIT) target for each design and validate that the design meets this target with extensive pre-silicon and post-silicon analysis. One method to quantify fault masking is to use vulnerability factors. A system consists of multiple independent components that interact through well-defined interfaces. Therefore, fault masking can be quantified within a single component by focusing on its interfaces. This abstraction is called the "vulnerability stack", and is the major focus of this project.&lt;br/&gt;&lt;br/&gt;The vulnerability stack can have immediate tangible benefits to the Computer Architecture community. First, by enabling independent vulnerability assessment of each system component, the vulnerability stack allows a designer to assess (and potentially improve) the fault-tolerance of a particular component (e.g., a user program). This enables a much broader segment of the Computer Architecture and Software Engineering communities to participate in the vulnerability assessment and remediation process; currently, these activities are typically performed by architects equipped with a microarchitectural model. A second benefit of the vulnerability stack is a substantial reduction in the overall effort required for vulnerability assessment. A third benefit of the vulnerability stack is its application to runtime vulnerability estimation techniques. These are of interest because they allow a system to dynamically tune redundancy features to match the current vulnerability environment; this can improve performance during periods of low vulnerability.&lt;br/&gt;&lt;br/&gt;This project will impact undergraduate and graduate education by introducing vulnerability concepts in the Computer Architecture curriculum at Northeastern University and deliver a tutorial at a major Computer Architecture conference. The project will also include participation by under-represented groups.</AbstractNarration>
+    <MinAmdLetterDate>09/02/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/02/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1017439</AwardID>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Kaeli</LastName>
+      <EmailAddress>kaeli@ece.neu.edu</EmailAddress>
+      <StartDate>09/02/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Northeastern University</Name>
+      <CityName>BOSTON</CityName>
+      <ZipCode>021155005</ZipCode>
+      <PhoneNumber>6173732508</PhoneNumber>
+      <StreetAddress>360 HUNTINGTON AVE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

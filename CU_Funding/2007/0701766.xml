@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Analog-Inspired Digital Signal Processors</AwardTitle>
+    <AwardEffectiveDate>07/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2010</AwardExpirationDate>
+    <AwardAmount>300000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sankar Basu</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>ID: 0701766 &lt;br/&gt;Title: Analog-Inspired Digital Signal Processors&lt;br/&gt;PI: Yannis Tsividis&lt;br/&gt;Inst: Columbia University, New York, NY&lt;br/&gt;&lt;br/&gt;ABSTRACT&lt;br/&gt;Some of the most innovative work in science and technology today occurs at the boundaries between fields. Although certain fields may be mature in themselves, the connection of such fields can be new, and can present a wealth of possibilities for research. The motivation behind our work is the conviction that similar benefits can be had when different domains within a single field are combined; in our case, that field is signal processing. The main domain of application of this work is digital signal processors, i.e. hardware that processes digital signals consisting of ones and zeros, which are for example found in modern computers. The second domain in this cross-disciplinary work is analog signals and systems, i.e. signals as they occur in the physical world, and the systems that are used to handle them. &lt;br/&gt;&lt;br/&gt;The work has two components. The first component uses the concept of accompanding" (compressing-expanding), which has been very successfully applied in the past to analog systems for voice transmission and audio recording (e.g., in the ubiquitous Dolby system). This process varies the magnitude of signals dynamically, to ensure that they are always large enough so that they do not get contaminated by noise. Direct application of this technique to digital signal processors fails completely, as it does not take into account the dynamics inside such processors. The PI is developing a general mathematical framework for eliminating this problem, using concepts from externally linear, internally nonlinear systems, which has been already developed for analog systems under prior NSF funding. The results can be used to obtain much better performance from digital signal processors of the fixed-point kind, without having to increase the number of bits used in them, thus keeping their power dissipation low a key advantage in the ubiquitous portable applications, which require low energy drain from a battery.&lt;br/&gt;&lt;br/&gt;The second component of the work uses digital signals as functions of continuous time, for real-time signal processing applications; the signals are still ones and zeros, but are defined for all time, rather than at discrete time instants as in classical computing and digital signal processing. We are developing a theory to handle such signals and study the properties of the systems that use them. Preliminary work has shown that continuous-time operation can make possible a much lower error, and in addition makes possible hardware which has signal-depended power dissipation, with the power decreasing toward zero as the signal activity decreases. Again, a key advantage of this technique is the low energy drain in portable applications. The plan is to fully test ideas with a silicon chip custom-designed for this purpose.</AbstractNarration>
+    <MinAmdLetterDate>06/20/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/25/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0701766</AwardID>
+    <Investigator>
+      <FirstName>Yannis</FirstName>
+      <LastName>Tsividis</LastName>
+      <EmailAddress>tsividis@ee.columbia.edu</EmailAddress>
+      <StartDate>06/20/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

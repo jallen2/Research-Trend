@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Fast integral equation methods for moving boundary problems in parabolic PDEs</AwardTitle>
+    <AwardEffectiveDate>08/15/2009</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2012</AwardExpirationDate>
+    <AwardAmount>210259</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Fast algorithms, such as the Fast Multipole Method, wavelets, or FFT-based convolutions are by now well established methods for solving boundary integral formulations of elliptic partial differential equations. These methods have been successfully applied in potential theory, viscous flow, linear elasticity and wave propagation.This project seeks to broaden the range of fast boundary integral solvers to problems governed by parabolic differential equations. In this case the integral operators involve a convolution over the history of problem, which increase CPU and storage requirements to impractical levels unless fast methods are used. Specifically, we will investigate Nystrom methods for the discretization of boundary integral equations and develop fast algorithms based on Chebyshev interpolation of the heat kernel. We expect to evaluate thermal layer potentials in nearly optimal time. The numerical methods can be applied to problems governed by the heat equation or transient Stokes flow. Because of unconditional stability and better asymptotic scaling these methods have the potential to replace the conventional finite element- or finite difference methods as the workhorse algorithm.&lt;br/&gt;&lt;br/&gt;The newly developed numerical techniques will be applied to the problem of laser melting of a metal film on a substrate and to the interaction of fluid interfaces with micro- and nanostructured surfaces. These problems are of current interest for technological applications. The simulations of laser-induced melting of metal films will lead to potential advances in fabrication of micro- and nanochannels for lab-on-a-chip devices. Such portable devices can be used for detection of a range of substances from chemical pollutants to biological weapons. The simulations of interaction of fluid interfaces with micro- and nanostructured surfaces are important for the development of the so-called self-cleaning surfaces, which are considered among the most promising applications of nanotechnology. The proposed project will also promote learning through research and interdisciplinary scientific collaborations.</AbstractNarration>
+    <MinAmdLetterDate>08/10/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/10/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0915222</AwardID>
+    <Investigator>
+      <FirstName>Johannes</FirstName>
+      <LastName>Tausch</LastName>
+      <EmailAddress>tausch@smu.edu</EmailAddress>
+      <StartDate>08/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Vladimir</FirstName>
+      <LastName>Ajaev</LastName>
+      <EmailAddress>ajaev@mail.smu.edu</EmailAddress>
+      <StartDate>08/10/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Southern Methodist University</Name>
+      <CityName>Dallas</CityName>
+      <ZipCode>752750302</ZipCode>
+      <PhoneNumber>2147682030</PhoneNumber>
+      <StreetAddress>6425 BOAZ</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Texas</StateName>
+      <StateCode>TX</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000099</Code>
+      <Name>Other Applications NEC</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

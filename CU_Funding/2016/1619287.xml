@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: Small: Towards a Database Engine for Interactive and Online Sampling and Analytics</AwardTitle>
+    <AwardEffectiveDate>09/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Nan Zhang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Existing databases and data management systems are designed and optimized for executing queries and analytical jobs in their entirety. User interactions with such systems are limited to binary decisions: either wait for exact answers in the end, or terminate a job while it is still running and obtain little or even zero knowledge regarding the final output. This model no loner works well with big data as waiting for the exact query or analytical results may take a long time. The good news is that often users do not need exact results in big data computation; instead, they are happy with approximations, especially for approximations with quality guarantees. It is even better if the approximation quality gradually improves over time in an online fashion, while the query is being executed, and users can control the efficiency-accuracy tradeoff in realtime. This project designs techniques for building a database engine that supports such interactive and online exploration and analytics. The results of this project is also useful for downstream data analytical modules such as information visualization.&lt;br/&gt;&lt;br/&gt;As data continues to grow, executing queries and analytics in their entirety is increasingly more expensive and falls short of enabling interactive exploration and analytics. This project investigates novel online sampling and approximation techniques to enable online and interactive exploration and analytics over big data in a database system. The main idea is to produce independent random samples from the set of records that satisfy the user query in a continuous online fashion. This project designs techniques that produce such online samples efficiently and effectively for a wide range of queries and analytical workloads, such as join and group-by queries, in a database engine. The project also develops online approximation techniques based on these online samples. A system prototype is being developed by integrating these techniques into an existing database engine. The techniques and the system developed in this project helps increase the productivity of users and scientists in various application domains by enabling interactive and online exploration and analytics. The project also makes broader impacts through various teaching, education, and outreach activities.</AbstractNarration>
+    <MinAmdLetterDate>06/30/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/30/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1619287</AwardID>
+    <Investigator>
+      <FirstName>Feifei</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>lifeifei@cs.utah.edu</EmailAddress>
+      <StartDate>06/30/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

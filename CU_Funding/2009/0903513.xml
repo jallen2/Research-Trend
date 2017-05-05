@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>System-level Design of Streaming Applications on Domain Specific Multi-core Processors</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>233014</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>"This award is funded under the American Recovery and Reinvestment Act of 2009 (Public Law 111-5)."&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Domain specific multi-core processors (DSMPs) are aimed at high performance embedded system applications (image/signal processing, networking, graphics, medical instrumentation, and so on). DSMPs incorporate several architectural innovations including symmetric multi-processing, block multi-threading, hardware accelerators, scratch-pad memories and support for inter-processor communication. However, there is a lack of application development tools which requires the designer to manually divide the functionality among threads and processors, and determine the data mapping on the memory elements. This low level approach to programming leads to increased design time in the best case, and poor quality designs in the worst case. Further, with increasing power densities in each successive generation of processors, it is expected that eventually performance optimization on DSMPs would have to consider power and thermal constraints. &lt;br/&gt;&lt;br/&gt;The proposal aims to address two research issues. First is the development of system-level design techniques for programming on DSMPs. The techniques will take a streaming application description and target processor features as inputs, and automatically generate a mapping of the application on the DSMP with an objective of maximizing the performance. The second task focuses on development of power and thermal-aware design techniques for DSMPs. The power and thermal-aware design techniques will perform automated system-level application mapping on DSMP architectures under respective peak power and temperature constraints. &lt;br/&gt;&lt;br/&gt;As DSMP architectures are aimed at embedded system applications, the research will have an impact on many interfaces of human-computer interaction. Education activities will include training of graduate students, dissemination of research outcomes, and incorporation of the results in undergraduate/graduate coursework.</AbstractNarration>
+    <MinAmdLetterDate>08/26/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2009</MaxAmdLetterDate>
+    <ARRAAmount>233014</ARRAAmount>
+    <AwardID>0903513</AwardID>
+    <Investigator>
+      <FirstName>Goran</FirstName>
+      <LastName>Konjevod</LastName>
+      <EmailAddress>goran.konjevod@gmail.com</EmailAddress>
+      <StartDate>08/26/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Karamvir</FirstName>
+      <LastName>Chatha</LastName>
+      <EmailAddress>karam.chatha@asu.edu</EmailAddress>
+      <StartDate>08/26/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Arizona State University</Name>
+      <CityName>TEMPE</CityName>
+      <ZipCode>852816011</ZipCode>
+      <PhoneNumber>4809655479</PhoneNumber>
+      <StreetAddress>ORSPA</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Arizona</StateName>
+      <StateCode>AZ</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

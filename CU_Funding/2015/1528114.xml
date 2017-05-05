@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TWC: Small: Collaborative: Multipath TCP Side Channel Vulnerabilities and Defenses</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>167000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Wenjing Lou</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The objective of this project is to understand and strengthen the security of Multipath TCP (MPTCP) - an IETF standardized suite of TCP extensions that allow one MPTCP connection, consisting of multiple sub-connections between two hosts, to use multiple paths simultaneously. Even though MPTCP has been gaining momentum in being widely deployed, its security is yet to be well understood. The project is expected to raise awareness of MPTCP security and ultimately yield a foundation for MPTCP security. The study will further increase the acceptance of MPTCP as an efficient, trustworthy, and next-generation transport layer protocol, especially considering that the deployment of new protocols can always be hindered by security concerns. The results will lead to development of guidelines and specifications for MPTCP through standards organizations such as IETF.&lt;br/&gt;&lt;br/&gt;This project aims to gain an in-depth understanding of the implicit interaction among sub-connections within an MPTCP connection, the information that can be leaked or inferred through side channels by eavesdropping such interaction, and the potential attacks on MPTCP by exploiting such leaked or inferred information. The key insight is that the current MPTCP design inherently allows an attacker eavesdropping on one path to learn information (e.g., throughput) about the sub-connections along other paths. Such seemingly benign information leakage allows an attacker to hijack the entire MPTCP connection. This project considers three general threat models: on-path only attacker, host-assisted off-path attacker, and host-assisted on-path attacker. Based on these threat models, the PIs propose to study traffic offloading/onloading and sequence number inference attacks. The PIs also plan to design and validate countermeasures and defense mechanisms for MPTCP against such threats.</AbstractNarration>
+    <MinAmdLetterDate>08/12/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/12/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1528114</AwardID>
+    <Investigator>
+      <FirstName>Zhiyun</FirstName>
+      <LastName>Qian</LastName>
+      <EmailAddress>zhiyun.qian@ucr.edu</EmailAddress>
+      <StartDate>08/12/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Riverside</Name>
+      <CityName>RIVERSIDE</CityName>
+      <ZipCode>925211000</ZipCode>
+      <PhoneNumber>9518275535</PhoneNumber>
+      <StreetAddress>Office of Research</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

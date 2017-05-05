@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III-CXT: Information Integration and Processing for Computer-Aided Trauma Decision Making</AwardTitle>
+    <AwardEffectiveDate>08/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>11/30/2007</AwardExpirationDate>
+    <AwardAmount>141633</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Lawrence Brandt</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Context&lt;br/&gt;The goal of this grant is to 1) form a computer-aided system to improve decision-making for traumatic pelvic injuries and 2) support research on a number of data integration topics in computer science. Trauma is the leading cause of death for Americans under the age of 45. Traumatic pelvic injuries can be fatal due to severe hemorrhage, and care givers treating these injuries need to consider several types of data, including biomedical signals, images, trauma scores, laboratory results, diagnosis/treatment, injury specifics, and demographics during the decision making process. Integrating simple types of data such as lab results and demographics is not easy, but the decision-making process shows its true complexity when trying to integrate more complex types of patient data such as biomedical signals and images. &lt;br/&gt;&lt;br/&gt;Intellectual Merit&lt;br/&gt;The project is challenging in the following aspects: &lt;br/&gt;o It constructs a traumatic pelvic injury database that includes all relevant biomedical signals/images, trauma scores, lab results, diagnosis, treatment, demographics, and injury specifics for each patient. This database will have two significant advantages over existing databases: 1) it will contain not only patient demographics and trauma scores but also time-series (signals) of physiological measures and images; and 2) in the new database, instead of including only raw data, patient information is processed and transformed into a set of features that can be directly used for decision making. &lt;br/&gt;o A variety of novel biomedical signal and image processing methods will be formed to extract relevant features. These computational methods will include both the improved versions of computational methods in signal and image processing (e.g., segmentation techniques for CT images), and feature extraction methods for specific signals and images (e.g., defining the total area of the pelvic ring captured from CT as a feature). &lt;br/&gt;o The project constructs a rule database where all derived features for patients in the feature database are analyzed with outcomes, resulting in a set of rules to describe logical relationships among the input features and resulting outcomes/recommendations, using non-linear classification and regression tree. The project is novel in its rule validation; besides using typical statistical methods such as cross-validation and measures of sensitivity and specificity used in existing systems, a new statistical framework based on computational learning theory will be used to allow a more comprehensive comparison of the new system with other methods such as neural networks and Bayesian classifiers.&lt;br/&gt;&lt;br/&gt;Broader Impacts&lt;br/&gt;This project brings together computer scientists with trauma experts and will produce a system that can be replicated at other hospital systems. This methodology can be used for other types of trauma cases, such as brain injuries. Educationally, project results will be included in regular seminars to teach healthcare providers across the spectrum of the trauma care the latest techniques used in trauma care. The PI will align the research project with undergraduate and graduate research and outreach activities managed by the University of North Carolina at Charlotte''s Diversity in IT Institute, whose mission is to increase enrollment and retention of women and underrepresented groups within IT with a focus on facilitating graduate and undergraduate interdisciplinary programs, and two NSF-funded programs housed within the institute: 1) The Students &amp; Technology in Academia, Research, and Service Alliance: A Southeastern Partnership for Broadening Participation in Computing, and 2) Computing Research for Undergraduates.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0713419</AwardID>
+    <Investigator>
+      <FirstName>Kayvan</FirstName>
+      <LastName>Najarian</LastName>
+      <EmailAddress>kayvan@umich.edu</EmailAddress>
+      <StartDate>08/01/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Toan</FirstName>
+      <LastName>Huynh</LastName>
+      <EmailAddress>thuynh@carolinas.org</EmailAddress>
+      <StartDate>08/01/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of North Carolina at Charlotte</Name>
+      <CityName>CHARLOTTE</CityName>
+      <ZipCode>282230001</ZipCode>
+      <PhoneNumber>7046871888</PhoneNumber>
+      <StreetAddress>9201 University City Boulevard</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

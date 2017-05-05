@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR: Small: Highly Efficient, Pipeline-oriented Data-intensive Scalable Computing</AwardTitle>
+    <AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>350000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Intellectual Merit: Data-intensive Scalable Computing (DISC) is increasingly important to peta-scale problems, from search engines and social networks to biological and scientific applications. Already datacenters built to support large-scale DISC computing operate at staggering scale, housing up to hundreds of thousands of compute nodes, exabytes of storage, and petabytes of memory. Current DISC systems have addressed these data sizes through scalability, however the resulting per-node performance has lagged behind per-server capacity by more than an order of magnitude. For example, in current systems as much as 94% of available disk I/O and 33% of CPU remain idle. This results in unsustainable cost and energy requirements. Meeting future data processing challenges will only be possible if DISC systems can be deployed in a sustainable, efficient manner.&lt;br/&gt;&lt;br/&gt;This project focuses on two specific, unaddressed challenges to building and deploying sustainable DISC systems: &lt;br/&gt;&lt;br/&gt; -a lack of per-node efficiency and cross-resource balance as the system scales, and &lt;br/&gt; -highly-efficient storage fault tolerance tailored to DISC workloads. &lt;br/&gt;&lt;br/&gt;This project's approach is to automatically and dynamically ensure cross-resource balance between compute, memory, network, and underlying storage components statically during system design, as well as dynamically during runtime. The goal is to support general DISC processing in a balanced manner despite changing application behavior and heterogeneous computing and storage configurations. This work will result in a fully functional prototype DISC system supporting the Map/Reduce programming model to support general-purpose application programs.&lt;br/&gt;&lt;br/&gt;Broader impacts include:&lt;br/&gt; -training diverse students, such as undergraduates and underrepresented groups - to understand DISC services as an interesting part of the overall curriculum and as a resource for interdisciplinary collaboration.&lt;br/&gt; -a public release of the proposed balanced runtime system, including support for higher-level programming models;&lt;br/&gt; -working with industrial partners as part of UCSD's Center for Networked Systems to address sustainability and efficiency issues in this critical portion of industrial and governmental data processing.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/10/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116079</AwardID>
+    <Investigator>
+      <FirstName>Amin</FirstName>
+      <LastName>Vahdat</LastName>
+      <EmailAddress>vahdat@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>George</FirstName>
+      <LastName>Porter</LastName>
+      <EmailAddress>gmporter@cs.ucsd.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-San Diego</Name>
+      <CityName>La Jolla</CityName>
+      <ZipCode>920930621</ZipCode>
+      <PhoneNumber>8585344896</PhoneNumber>
+      <StreetAddress>Office of Contract &amp; Grant Admin</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

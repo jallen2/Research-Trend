@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Elastic Multi-layer Memcached Tiers</AwardTitle>
+    <AwardEffectiveDate>06/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>05/31/2018</AwardExpirationDate>
+    <AwardAmount>257166</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Yan Solihin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Facebook and YouTube have massive databases containing many objects.&lt;br/&gt;Objects (e.g., pictures, videos) are read from these databases and presented&lt;br/&gt;to users. These databases use slower and cheaper I/O devices. Repeated&lt;br/&gt;database queries are also slow, so companies cache popular objects in&lt;br/&gt;volatile memory (RAM). As RAM is about 1000x faster than I/O, queries to&lt;br/&gt;popular objects are serviced faster. A single computer cannot efficiently&lt;br/&gt;use too much RAM, so a distributed memory caching system called "Memcached"&lt;br/&gt;is utilized. Memcached creates a cluster of nodes, forming a key-value&lt;br/&gt;database in faster memory.&lt;br/&gt;&lt;br/&gt;Memcached's simple architecture led to its popularity, but is also its&lt;br/&gt;Achilles' heel. When loads increase, more caching nodes are needed, but it&lt;br/&gt;is difficult to add new nodes and redistribute the cached data to more&lt;br/&gt;nodes. Similarly, when loads reduce, it is harder to shut down some nodes&lt;br/&gt;and migrate their cached data to fewer nodes; scaling down the cluster helps&lt;br/&gt;reduce the large energy costs they consume. Any changes to the number of&lt;br/&gt;Memcached nodes result in throwing out most cached data, leading to lengthy&lt;br/&gt;periods where the distributed caches have to be slowly re-warmed up from the&lt;br/&gt;backend database.&lt;br/&gt;&lt;br/&gt;This EArly-concept Grants for Exploratory Research (EAGER) project investigates techniques to scale Memcached clusters&lt;br/&gt;smoothly, without any transient performance degradations. The project also&lt;br/&gt;introduces an intermediate Flash-based storage tier between the memory nodes&lt;br/&gt;and the backend database, to help reduce high latencies to the backend&lt;br/&gt;database and help the smooth scaling of the Memcached cluster.</AbstractNarration>
+    <MinAmdLetterDate>05/11/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/11/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1622832</AwardID>
+    <Investigator>
+      <FirstName>Erez</FirstName>
+      <LastName>Zadok</LastName>
+      <EmailAddress>ezk@cs.stonybrook.edu</EmailAddress>
+      <StartDate>05/11/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Anshul</FirstName>
+      <LastName>Gandhi</LastName>
+      <EmailAddress>anshul@cs.stonybrook.edu</EmailAddress>
+      <StartDate>05/11/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>SUNY at Stony Brook</Name>
+      <CityName>Stony Brook</CityName>
+      <ZipCode>117940001</ZipCode>
+      <PhoneNumber>6316329949</PhoneNumber>
+      <StreetAddress>WEST 5510 FRK MEL LIB</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1714</Code>
+      <Text>SPECIAL PROJECTS - CISE</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7354</Code>
+      <Text>COMPUTER SYSTEMS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

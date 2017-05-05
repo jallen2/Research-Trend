@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Development and Application of Turbulence Models in Numerical Geodynamo Simulations</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2018</AwardExpirationDate>
+    <AwardAmount>134000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>06030000</Code>
+      <Directorate>
+        <LongName>Directorate For Geosciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Earth Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Robin Reichlin</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Numerical simulations of geophysical and astrophysical flows are a powerful tool for studying processes in various contexts. All of these applications share the challenge of resolving flow over a vast range of spatial scales. In most cases the computational requirements of the application exceed the limits of available resources, so researchers confine their attention to the largest-scale flows and parameterize the influence of small-scale turbulence. Complications can arise from contributions due to planetary rotation, fluid stratification, and the presence of a magnetic field, all of which alter the structure of the small-scale flow and affect the way this flow should be parameterized. Our project addresses the pressing need for a flexible and adaptive method for incorporating practical complications into models for small-scale turbulence. The tools developed in this project will directly benefit our understanding of the origin of the Earth's magnetic field, offering the prospect of better forecasts for changes in the magnetic field. The same approach can also be extended to other applications, including geophysical flows in the atmosphere and oceans, as well as astrophysical flows in accretion disks around stars and other objects.&lt;br/&gt;&lt;br/&gt;The proposed work represents the culmination of nearly ten years of effort to build a predictive model that quantitatively accounts for the influence of turbulence with no ad hoc or tunable parameters. The approach is based on an adaptive implementation of the scale-similarity model, which has been successfully tested in both plane-layer and spherical-shell dynamo models. The investigators plan to implement the scale-similarity model in an open-source dynamo code, Calypso, to address the processes responsible for generating the Earth's magnetic field. They conservatively estimate that the new dynamo model will allow the investigators to refine the fluid properties used in simulations by two orders of magnitude, substantially improving the reliability of numerical simulations and the scientific inferences drawn from them. They will test their implementation using output from an independent high-resolution simulation from the Computational Infrastructure for Geodynamics (CIG) with support from the DOE INCITE Program. Harnessing similar resources in simulations that incorporate turbulence models will allow the team to dramatically push the limits on what is currently feasible. They expect to gain new insights into the processes that generate the Earth's magnetic field and provide a computational framework for interpreting modern satellite observations and for forecasting changes in the magnetic field.</AbstractNarration>
+    <MinAmdLetterDate>08/03/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/03/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1620483</AwardID>
+    <Investigator>
+      <FirstName>Hiroaki</FirstName>
+      <LastName>Matsui</LastName>
+      <EmailAddress>hrmatsui@ucdavis.edu</EmailAddress>
+      <StartDate>08/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Bruce</FirstName>
+      <LastName>Buffett</LastName>
+      <EmailAddress>bbuffett@berkeley.edu</EmailAddress>
+      <StartDate>08/03/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of California-Davis</Name>
+      <CityName>Davis</CityName>
+      <ZipCode>956186134</ZipCode>
+      <PhoneNumber>5307547700</PhoneNumber>
+      <StreetAddress>OR/Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1574</Code>
+      <Text>GEOPHYSICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1031</Code>
+      <Text>STUDIES OF THE EARTH'S DEEP INTERIOR</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SBIR Phase I: A Storage Engine for High-Volume Data</AwardTitle>
+    <AwardEffectiveDate>01/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2008</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07070000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Industrial Innovation &amp; Partnersh</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Ian M. Bennett</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This Small Business Innovation Research (SBIR) Phase I project will investigate adaptive techniques to speed up key database operations dramatically. Specifically, the project will investigate adaptive algorithms and idle-time re-balancers which can respond to bursts of insertions and to changing insertion and query patterns. Many applications insert millions of indexed records per second into storage systems. The proposed research is based on new algorithms for transactional databases that improve insertion speeds by two orders of magnitude, achieving about 2% of disk bandwidth for worst-case insertion patterns of 100-byte records, as compared to 0.01% for traditional B-tree-based databases, a 200-fold speedup. Although impressive, there remains another factor of 50 before disk bandwidth is fully utilized. The specific research objective is to obtain another order-of-magnitude speedup for insertions, allowing databases to insert millions of indexed records per second on a modestly sized disk array. The anticipated outcome of the research is an algorithm with a theoretical performance analysis, along with a design document for incorporating the design into a proposed database product.&lt;br/&gt;&lt;br/&gt;The market for databases and file systems is over $15 billion per year and growing. Furthermore, there are many application areas which do not employ database because their performance is too slow. Orders-of-magnitude speedup for databases can help grow the market by additional billions of dollars per year. Societal impact: Applications in finance, retail, homeland security, telecommunications, and scientific computing will benefit from high-performance databases. Enhanced scientific and technological understanding: The proposed research will further understanding of how to organize data on disk, which is a core problem for computation on large persistent data.</AbstractNarration>
+    <MinAmdLetterDate>11/09/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>11/09/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0740298</AwardID>
+    <Investigator>
+      <FirstName>Martin</FirstName>
+      <LastName>Farach-Colton</LastName>
+      <EmailAddress>farach@cs.rutgers.edu</EmailAddress>
+      <StartDate>11/09/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Tokutek, Inc.</Name>
+      <CityName>Lexington</CityName>
+      <ZipCode>024214703</ZipCode>
+      <PhoneNumber>3392230680</PhoneNumber>
+      <StreetAddress>1 Militia Drive, Suite 11</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Massachusetts</StateName>
+      <StateCode>MA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0308000</Code>
+      <Name>Industrial Technology</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

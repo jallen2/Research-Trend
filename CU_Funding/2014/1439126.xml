@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>XPS: FULL: FP: Collaborative Research: Taming parallelism: optimally exploiting high-throughput parallel architectures</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>329571</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anindya Banerjee</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Title: XPS: FULL: FP: Collaborative Research: Taming parallelism: Optimally exploiting high-throughput parallel architectures&lt;br/&gt;&lt;br/&gt;Over the past decade, computer manufacturers have focused on producing "multicore" chips, that package multiple, powerful computing cores on a single chip. Researchers have invested significant effort in developing methods for writing programs that can run efficiently on these cores. The basic idea is to allow programmers to write programs using a high-level programming model and to rely on an underlying compiler and runtime system to efficiently schedule these programs on multicore platforms. However, due to power and heat dissipation concerns, emerging "throughput-oriented" computing systems increasingly rely on far simpler computing cores to deliver parallel computing performance. These cores are much more efficient than traditional multicores, and can deliver much higher performance. Practitioners across numerous fields -- bioinformatics, data analytics, machine learning, etc. -- are deploying these systems to harness their power. Unfortunately, existing high level programming models are targeted to multicore chips, and do not produce code that can run effectively on these new systems. As a result, practitioners are forced to rewrite their applications, with painstaking low-level optimization and scheduling. This project will develop schemes to adapt applications written for multicore systems to run efficiently on throughput-oriented processors. The intellectual merits are novel program optimizations that will transform multicore-oriented programs into forms that map efficiently to throughput-oriented processors, scheduling mechanisms that ensure that these throughput-oriented processors do not waste computational resources, and scheduling policies that ensure that the mechanisms are used effectively. The project's broader significance and importance are that programmers will be able to write portable, high-performant and energy-efficient programs for both traditional multicore systems as well as throughput-oriented systems. Moreover, high-level programming models will be used to program the throughput-oriented machines, thus leading to significant reduction of programming effort for practitioners in many science and engineering disciplines. Finally, outreach efforts enhance the project by providing training and mentoring to a diverse group of students.&lt;br/&gt;&lt;br/&gt;Languages like Cilk provide support for "dynamic multithreading", which allows programmers to identify all of the parallelism in their program, while relying on sophisticated runtime systems to map that parallelism to available parallel execution hardware at runtime. However, Cilk-style execution is inappropriate for the vector-based parallelism found in SIMD units, GPUs and the Xeon Phi; vector parallelism requires finding identical computations performed on different data units. This project investigates a series of transformations that will morph Cilk-style programs into programs that expose vectorizable parallelism, allowing dynamic multithreading programs to be mapped to emerging throughput-oriented architectures. The enabling transformation involves transforming task parallel applications into data-parallel applications by identifying similar tasks being performed at different points in the computation. This project develops a series of scheduling mechanisms and provably efficient scheduling policies that ensure that parallelizing dynamic multithreading applications on throughput-oriented architectures are effective. In this manner, this project enables portable applications that run efficiently both on multicores and on vector-based architectures.</AbstractNarration>
+    <MinAmdLetterDate>08/06/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1439126</AwardID>
+    <Investigator>
+      <FirstName>Milind</FirstName>
+      <LastName>Kulkarni</LastName>
+      <EmailAddress>milind@purdue.edu</EmailAddress>
+      <StartDate>08/06/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>8283</Code>
+      <Text>Exploiting Parallel&amp;Scalabilty</Text>
+    </ProgramElement>
+  </Award>
+</rootTag>

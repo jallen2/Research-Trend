@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SHF: Small: Xsmith, A Configurable Generator of Highly Effective Fuzz Testers</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2018</AwardExpirationDate>
+    <AwardAmount>499998</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project is developing new techniques for the creation of highly effective&lt;br/&gt;fuzz testers, also known as "fuzzers," for programming language compilers and&lt;br/&gt;interpreters. Fuzz testing is an automatic and low-cost technique for finding&lt;br/&gt;defects in software systems. A fuzzer randomly creates test inputs for a&lt;br/&gt;software system; a fuzzer is effective if it can continually create test cases&lt;br/&gt;that reveal defects throughout the system under test. It is difficult to&lt;br/&gt;create effective fuzzers for programming language compilers and interpreters&lt;br/&gt;because these systems have highly structured inputs, but it is important that&lt;br/&gt;such fuzzers exist. Programming language implementations are critical software&lt;br/&gt;infrastructure: defects in compilers and interpreters can potentially have&lt;br/&gt;great costs in terms of software correctness and reliability, human&lt;br/&gt;productivity, and computer security. This project seeks to reduce the time and&lt;br/&gt;human effort needed to create sophisticated fuzzers for programming language&lt;br/&gt;implementations. In so doing, this project is expected to advance the state of&lt;br/&gt;the art in random software testing, improve the quality of several programming&lt;br/&gt;language implementations selected for study, and produce new open-source&lt;br/&gt;software tools that programmers can use to develop new and more effective fuzz&lt;br/&gt;testers.&lt;br/&gt;&lt;br/&gt;The techniques developed by this project will be embodied in a new generator of&lt;br/&gt;fuzz testers, called Xsmith. Xsmith will generate language fuzzers from&lt;br/&gt;specifications and thus reduce the time and effort required to create fuzzers.&lt;br/&gt;More importantly, Xsmith will inject sophisticated program-generation&lt;br/&gt;techniques into the language fuzzers it creates. This project will investigate&lt;br/&gt;three techniques in particular. This first is generation-time analysis,&lt;br/&gt;intended to allow Xsmith-derived fuzzers to create output that is both complex&lt;br/&gt;and meaningful. The second is feature subsetting, intended to increase the&lt;br/&gt;likelihood that Xsmith-derived fuzzers will output bug-triggering test&lt;br/&gt;programs. The third is iterative refinement, intended to further diversify the&lt;br/&gt;outputs from Xsmith-derived fuzzers. The project participants will use Xsmith&lt;br/&gt;to create fuzz testers for a varied set of programming languages. Where&lt;br/&gt;possible, the bug-finding power of Xsmith-derived fuzzers will be compared to&lt;br/&gt;that of existing fuzzers: quantitatively, in terms of the number of&lt;br/&gt;identifiably unique defects found within a fixed test-time budget, and&lt;br/&gt;qualitatively, in terms of the kinds of defects uncovered. This evaluation&lt;br/&gt;will allow the investigators to assess the impact of the techniques embodied in&lt;br/&gt;Xsmith, both individually and collectively, over a range of programming&lt;br/&gt;language implementations. Xsmith will be successful if it permits highly&lt;br/&gt;effective fuzz testers to be constructed with significantly less ad hoc code,&lt;br/&gt;and thus significantly less effort, than if they had been constructed from&lt;br/&gt;scratch.</AbstractNarration>
+    <MinAmdLetterDate>06/25/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/25/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1527638</AwardID>
+    <Investigator>
+      <FirstName>John</FirstName>
+      <LastName>Regehr</LastName>
+      <EmailAddress>regehr@cs.utah.edu</EmailAddress>
+      <StartDate>06/25/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Eric</FirstName>
+      <LastName>Eide</LastName>
+      <EmailAddress>eeide@cs.utah.edu</EmailAddress>
+      <StartDate>06/25/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Utah</Name>
+      <CityName>SALT LAKE CITY</CityName>
+      <ZipCode>841128930</ZipCode>
+      <PhoneNumber>8015816903</PhoneNumber>
+      <StreetAddress>75 S 2000 E</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Utah</StateName>
+      <StateCode>UT</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

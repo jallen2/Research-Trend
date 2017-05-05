@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CI-P: Planning a Community Benchmarking Infrastructure for Bidirectional Reflectance Distribution Functions</AwardTitle>
+    <AwardEffectiveDate>08/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>01/31/2018</AwardExpirationDate>
+    <AwardAmount>100000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Dan Cosley</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project will support the planning and building of an initial testbed application for evaluating material models that describe how light is reflected from surfaces in computer graphics research. After talking with interested researchers in the community, the lead investigator will build an application that allows anyone to submit and download three important types of data for doing this research: (1) reference implementations of material models, (2) measures of how well the predicted light reflections of a model match real examples, and (3) examples of measured reflections from physical materials to compare against. When people submit new material model implementations, the application will automatically run all of the models it contains using all of the measures and measured examples available. This is an important advance because currently there is no good way for researchers to compare their work against others', which slows down progress in both research and graphics applications; the testbed will make it much easier to compare new ideas to old ones, as well as to understand which models work best in which situations. This will advance research in a number of areas related to computer graphics, as well as directly benefiting society through improving graphics in real applications including virtual reality, animation, and data visualization. &lt;br/&gt;&lt;br/&gt;To do this, the lead investigator will create a repository with an initial set of reference algorithms, datasets, fitting functions, and evaluation metrics based on existing research around bidirectional reflectance distribution functions (BRDFs). Other researchers will be able to contribute to the repository through an Application Programming Interface (API) that allows for easy addition of new items; it will then dynamically report on run all-against-all comparisons with existing items in the repository. During this planning grant the lead investigator will develop the initial infrastructure both to demonstrate a proof-of-concept and to present a concrete artifact that can jump start the discussion of how to make the repository more useful to the broader research community. Although starting with researchers most directly involved with BRDFs, the community will eventually include people from a number of related research areas, including non-linear optimization, human perception, rendering, photorealistic visualization, and computer vision.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/01/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1625879</AwardID>
+    <Investigator>
+      <FirstName>Pieter</FirstName>
+      <LastName>Peers</LastName>
+      <EmailAddress>ppeers@cs.wm.edu</EmailAddress>
+      <StartDate>08/01/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>College of William and Mary</Name>
+      <CityName>Williamsburg</CityName>
+      <ZipCode>231878795</ZipCode>
+      <PhoneNumber>7572213966</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7359</Code>
+      <Text>COMPUTING RES INFRASTRUCTURE</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

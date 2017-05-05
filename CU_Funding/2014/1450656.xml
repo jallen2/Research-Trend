@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Reinforcement Learning of Multi-Party Negotiation Dialogue Policies</AwardTitle>
+    <AwardEffectiveDate>09/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>159999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tatiana D. Korelsky</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Natural-language-based dialogue systems have a dialogue policy that determines what the system should do based on the dialogue context (also called dialogue state). Manually designing dialogue policies can be a very hard task and there is no guarantee that the resulting policies will be optimal. This issue has motivated research on statistical methods to learn dialogue policies. However, this work has mainly addressed two-party dialogue between one computer agent (system) and one human user, and assumed that the behavior of the user does not change over time. This assumption generally holds for simple information-providing tasks (e.g., reserving a flight), where not much variation in user behavior is expected. But this assumption is not realistic for other genres of dialogue, such as negotiation, where users may change their behavior if they realize that their current negotiation strategy does not help them achieve their goals. This EArly Grant for Exploratory Research investigates automated dialogue policy creation for multi-party dialogue (with more participants than just one agent and one user) without making the assumption that the behavior of the user does not change over time.&lt;br/&gt;&lt;br/&gt;Previous work has used single-agent Reinforcement Learning (RL) for two-party dialogue policy learning. Single-agent RL requires a stationary environment, i.e., an environment (in our case a user) that does not change over time. Thus single-agent RL is not suitable for a non-stationary environment. For this reason, this project explores the use of multi-agent RL for two-party and multi-party negotiation dialogue. Multi-agent RL makes no assumption that the behavior of the user does not change over time, and is designed for situations where the strategy of one agent may affect the strategy of other agents (non-stationary environment). System-user interaction is done using natural language, and the learned policies are evaluated both in simulation and with human users. The advances made in the project, i.e., multi-agent RL algorithms for dialogue policy learning, are encoded in a statistical dialogue management toolkit (to be publicly distributed). Publicly available multi-agent RL algorithms for dialogue policy learning allow broader access to this technology for dialogue researchers and students.</AbstractNarration>
+    <MinAmdLetterDate>08/18/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/18/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1450656</AwardID>
+    <Investigator>
+      <FirstName>Kallirroi</FirstName>
+      <LastName>Georgila</LastName>
+      <EmailAddress>kgeorgila@ict.usc.edu</EmailAddress>
+      <StartDate>08/18/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Southern California</Name>
+      <CityName>Los Angeles</CityName>
+      <ZipCode>900890001</ZipCode>
+      <PhoneNumber>2137407762</PhoneNumber>
+      <StreetAddress>University Park</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>California</StateName>
+      <StateCode>CA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

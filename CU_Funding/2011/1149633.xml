@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Non-Parametric Image Parsing</AwardTitle>
+    <AwardEffectiveDate>03/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2018</AwardExpirationDate>
+    <AwardAmount>499999</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Jie Yang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project develops new techniques for visually interpreting an image in a way that specifically leverages large image collections, now common on the web and elsewhere. The research team uses an approach whose performance directly scales with the size of the dataset, unlike many existing approaches to image understanding. The basic approach is to build a copy of a query image by assembling pieces of image from a large set of training images, in the manner of a jigsaw. Each region in the query is classified by copying labels from the matched regions. The larger the training set, the more jigsaw pieces there are to choose from, thus the more accurate the match.&lt;br/&gt;&lt;br/&gt;The initial work of the project focuses on developing efficient methods for performing the matching that allow the incorporating of various desirable constraints. The approach is then extended to handle training data with incomplete labels -- important since few datasets have labels for every region. The research plan also includes building better embeddings for the regions which place semantically similar regions closer together than current representations do, and developing efficient binary matching schemes along with further work on the region embeddings. &lt;br/&gt;&lt;br/&gt;Robust techniques for visual recognition have widespread applicability, in such areas as image search, robotics and surveillance. The project also involves extensive outreach activities, including high-school internships and the organization of a NY-area vision day for students and researchers</AbstractNarration>
+    <MinAmdLetterDate>02/29/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>04/23/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1149633</AwardID>
+    <Investigator>
+      <FirstName>Robert</FirstName>
+      <LastName>Fergus</LastName>
+      <EmailAddress>fergus@cs.nyu.edu</EmailAddress>
+      <StartDate>02/29/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>New York University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100121019</ZipCode>
+      <PhoneNumber>2129982121</PhoneNumber>
+      <StreetAddress>70 WASHINGTON SQUARE S</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7495</Code>
+      <Text>ROBUST INTELLIGENCE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

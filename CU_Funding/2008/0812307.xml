@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III-COR-Small: Developing Novel Mosaic Generation Methods for Object-Based Multimedia Information Systems</AwardTitle>
+    <AwardEffectiveDate>10/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2012</AwardExpirationDate>
+    <AwardAmount>205441</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Maria Zemankova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project provides solutions to one of the important components of an interactive, object-based, semantic multimedia information retrieval system: "mosaic" generation. A mosaic can be considered as a static component (or background) of a scene that does not change over a sequence of frames and is obtained by computing the global motion between frames, warping according to the global motion, and then blending the frames. Mosaic generation plays an important role in many applications including object-based coding (where objects in a scene are also coded or compressed independent of regular rectangular frame coding), video compression, video indexing, object tracking, virtual environments, security surveillance, wide-area surveillance, panoramic video, traffic monitoring, object recognition, and human behavior analysis since these applications usually require the subtraction of actual scenes from the background (or the mosaic) to determine the foreground objects. Since traditional mosaic generation methods require object segmentation for videos containing moving objects, they are not suitable for real-time mosaic generation and especially for video encoders that require sprite coding (coding based on layering objects on top of a mosaic or a sprite). This project (i) develops mosaic generation solutions for larger domains of videos; (ii) generates mosaics for videos containing many shots by classifying video shots; and (iii) develops objective evaluation methods for mosaic generation by producing ground-truths. Sprite fusion method blends assertive and conservative sprites that are generated using the aligned frame differences without object segmentation thus eliminating the object occlusion problem especially for videos where the camera tracks an object. Since the sprite fusion method computes the global motion once for a pair of frames and does not require object segmentation, it suits well for real-time mosaic generation or sprite coding for video encoders. As the mosaic is constructed for a sequence, the global motion vectors are stored to be able to generate (or warp) any frame with respect to another frame thus allowing to provide multiple degrees-of-freedom for spatial interactions including up-down, left-right, move forward-backward, and rotation. The multiple degrees-of-freedom with the warping of the current (or active) scene forms the basis of interactive video reproduction by regenerating any frame from the mosaic and then overlaying the active (current scene) on top of the reproduced frame. &lt;br/&gt;&lt;br/&gt;The educational component of this project includes development of a new course on multimedia that appeals to any freshman students in order to grow interest in computer science. This course covers fundamental concepts in computer science including types of media, color models, storage devices, multimedia authoring, and internet. A multimedia workshop is planned for K-12 students. The results of this research project will be disseminated via Internet (http://www.cs.uah.edu/~raygun/projects/mosaics.htm), including a video database system (video sets and any truth annotation for it) to share test data with other researchers and to encourage open metrics-based evaluations across research institutions. This project will foster the development of photo-realistic visualization systems using interactive video reproduction, with a wide range of applications.</AbstractNarration>
+    <MinAmdLetterDate>08/16/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/04/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0812307</AwardID>
+    <Investigator>
+      <FirstName>Ramazan</FirstName>
+      <LastName>Aygun</LastName>
+      <EmailAddress>aygunr@uah.edu</EmailAddress>
+      <StartDate>08/16/2008</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Alabama in Huntsville</Name>
+      <CityName>Huntsville</CityName>
+      <ZipCode>358051911</ZipCode>
+      <PhoneNumber>2568246120</PhoneNumber>
+      <StreetAddress>301 Sparkman Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Alabama</StateName>
+      <StateCode>AL</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9216</Code>
+      <Text>ADVANCED SOFTWARE TECH &amp; ALGOR</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

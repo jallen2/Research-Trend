@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>SI2-SSE: Dynamic Adaptive Runtime Systems for Advanced Multipole Method-based Science Achievement</AwardTitle>
+    <AwardEffectiveDate>10/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2017</AwardExpirationDate>
+    <AwardAmount>522676</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05090000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Advanced Cyberinfrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Multipole methods, including the fast multipole method and the Barnes-Hut algorithm, contribute to a broad range of end-user science applications extending from molecular dynamics to galaxy formation. Multipole methods are widely applied to N-body like problems where the individual interactions of a large number of distant objects can be treated as a single interaction under the appropriate conditions. This simplification eliminates the need for computing individual pairwise interactions and results in a drastic speed-up of computation. However, conventional parallel multipole methods are facing serious challenges to remain competitive as computational resources approach Exascale. Many applications employing multipole methods describe very dynamic physical processes, both in their time dependence and in their range of relevant spatial scales, while conventional implementations of multipole methods are essentially static in nature leading to computational inefficiencies. &lt;br/&gt;This project provides a fine-grained data-driven approach for multipole methods in order to address the limitations of conventional practices and improve scalability and efficiency. The software library employs dynamic adaptive execution methods with multipole-specific strategies for fault tolerance and exception handling while simplifying the implementation of the fast multipole method and the Barnes-Hut algorithm for end-users. The project software library immediately impacts science applications based on multipole methods by improving application scalability and efficiency and providing fault tolerance, a global address space, and an Exascale-ready execution model which integrates the entire system stack. The software library provides a portable and easy-to-use interface that allows scientists to work more efficiently and take advantage of high performance computing resources more effectively. The software library also serves to inform the evolution and development of other languages and programming models aiming to improve performance by shifting to message-driven techniques.</AbstractNarration>
+    <MinAmdLetterDate>08/21/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/16/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1440396</AwardID>
+    <Investigator>
+      <FirstName>Thomas</FirstName>
+      <LastName>Sterling</LastName>
+      <EmailAddress>tron@indiana.edu</EmailAddress>
+      <StartDate>08/21/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Matthew</FirstName>
+      <LastName>Anderson</LastName>
+      <EmailAddress>andersmw@indiana.edu</EmailAddress>
+      <StartDate>08/21/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Bo</FirstName>
+      <LastName>Zhang</LastName>
+      <EmailAddress>zhang416@indiana.edu</EmailAddress>
+      <StartDate>08/21/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Jackson</FirstName>
+      <LastName>DeBuhr</LastName>
+      <EmailAddress>jdebuhr@indiana.edu</EmailAddress>
+      <StartDate>08/21/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Indiana University</Name>
+      <CityName>Bloomington</CityName>
+      <ZipCode>474013654</ZipCode>
+      <PhoneNumber>8128550516</PhoneNumber>
+      <StreetAddress>509 E 3RD ST</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>2878</Code>
+      <Text>SPECIAL PROJECTS - CCF</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8004</Code>
+      <Text>Software Institutes</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8005</Code>
+      <Text>Scientific Software Elements</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

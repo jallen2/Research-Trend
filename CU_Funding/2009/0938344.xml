@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER:Incremental and Distributed Learning in Nonstationary Environments with Applications to Wind Forecasting</AwardTitle>
+    <AwardEffectiveDate>09/01/2009</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>150251</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07010000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Electrical, Commun &amp; Cyber Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Paul Werbos</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Project Summary&lt;br/&gt;This proposal examines novel on-line kernel learning algorithms for applications in renewable energy. The PI has experience and previous funded NSF research in the machine learning and signal processing areas. The PI is now moving into new areas of renewable energy (specifically wind forecasting) attempting to do both basic and applied research in this area by applying machine learning and signal processing knowledge. This EAGER proposal provides an opportunity to move into this area of renewable energy and sustainability that is of key importance both nationally and in the state of Hawaii (with the Hawaii Clean Energy Initiative (goal of having 70% of energy generated from renewable sources and energy efficient practices by 2030). This proposal will also assist the PI in becoming a technical and administrative leader in the renewable energy area as he collaborates with other University of Hawaii researchers and industry leaders in pursuing more research and educational opportunities. Intellectual Merit: The PI has previously studied least squares kernel algorithms, but there are still concerns about their implementation. This proposal addresses many of these issues by considering algorithms that balance performance, space complexity, and computational complexity. We develop a suite of on-line kernel algorithms varying from subspace least squares algorithms to variants of kernel LMS algorithms. The on-line kernel algorithms work in the dual space where dimensionality of systems increase as we add training examples. Data must be windowed. For subspace algorithms the number of support vectors, and the dimensionality of the matrices, LS is controlled to balance performance and complexity. We also develop distributed on-line kernel algorithms combining results from signal processing and machine learning. The distributed algorithms are ensemble learning algorithms that are well suited for operation in sensor networks where information is gathered in a distributed manner. The sensor networks may have physical constraints (communication and energy costs) associated which make distributed processing and learning more attractive. To understand these different algorithms we analyze their performance and determine the complexity of the different algorithms. A system identification approach is used to analyze the mean and mean squared error performance of algorithms. We also study the convergence properties of the adaptive on-line learning algorithms. Distributed learning algorithms performance, complexity, and physical costs are studied and analyzed. Some of the distributed learning algorithms are similar to boosting and we study the convergence behavior of these algorithms. We also look at the performance of learning algorithms in nonstationary environments. A focus will be on studying the performance of on-line kernel learning algorithms in drifting environments. With a development and analysis of the on-line kernel learning algorithms we will be in a better position to apply the learning algorithms in a variety of applications. In particular we look at applying these algorithm to wind forecasting. We have some preliminary results in this area that show that on-line kernel algorithms can accurately make short term wind prediction. We will consider prediction from multiple sensors using distributed kernel algorithms and longer term prediction. Distributed on-line kernel algorithms are also well suited to extract other information from sensor networks. Broader Impacts: The proposal is an integrated research and educational effort that can have major impacts to machine learning, signal processing, and renewable energy. Research from this proposal will add to the understanding and adoption of adaptive on-line nonlinear kernel algorithms in different application areas. As the United States and Hawaii move towards more clean energy solutions (renewable energy and energy efficiency) more intelligence will need to be deployed in making decisions about energy storage and usage. This proposal shows how machine learning algorithms combined with signal processing can be used for accurate wind prediction. The proposed research will also have major educational benefits to both undergraduate and graduate students at the University of Hawaii. Special effort will be given to work with the Native Hawaiian Science and Engineering Mentorship Program (NHSEMP) in the College of Engineering to encourage Native Hawaiian, Pacific Islander, and women students to enter graduate research programs. This proposal will complement other group proposals that the PI has recently written in the renewable energy area. A goal is to have the University of Hawaii, College of Engineering being a leader player in using information technology in the development of clean energy solutions. The PI will also look at collaborations with international researchers in Imperial College, London and Japan.</AbstractNarration>
+    <MinAmdLetterDate>08/22/2009</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/22/2009</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0938344</AwardID>
+    <Investigator>
+      <FirstName>Anthony</FirstName>
+      <LastName>Kuh</LastName>
+      <EmailAddress>kuh@hawaii.edu</EmailAddress>
+      <StartDate>08/22/2009</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Hawaii</Name>
+      <CityName>HONOLULU</CityName>
+      <ZipCode>968222234</ZipCode>
+      <PhoneNumber>8089567800</PhoneNumber>
+      <StreetAddress>2440 Campus Road, Box 368</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Hawaii</StateName>
+      <StateCode>HI</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0510403</Code>
+      <Name>Engineering &amp; Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7607</Code>
+      <Text>ENERGY,POWER,ADAPTIVE SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>0000</Code>
+      <Text>UNASSIGNED</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>090E</Code>
+      <Text>Chem/Bio and Physical Diagnostics</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>096E</Code>
+      <Text>High freq comm/sensing circuits</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7916</Code>
+      <Text>EAGER</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>OTHR</Code>
+      <Text>OTHER RESEARCH OR EDUCATION</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>III: AF: Medium: Collaborative Research: Scalable and Highly Accurate Methods for Metagenomics</AwardTitle>
+    <AwardEffectiveDate>09/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2019</AwardExpirationDate>
+    <AwardAmount>184593</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Metagenomic studies of microbial communities can generate millions to billions of sequencing reads. The assignment of accurate taxonomic labels to these sequences is a critical component in many analyses, but is complicated by the fact that the majority of the organisms found in environmental or host-associated communities cannot be easily cultured in a laboratory. Even among the organisms that can be cultured, relatively few have been sequenced, even partially. Thus, many commonly encountered organisms are largely absent from existing databases of known genomes and genes. Providing taxonomic labels to metagenomic sequences, thus, requires extrapolating the knowledge contained in sequence databases to previously unseen DNA strings. Simple similarity-based approaches (e.g., picking the best database hit as the best guess at the taxonomic label) have been shown to be insufficiently accurate, leading to the development of more sophisticated methods. Further developments are necessary to handle the characteristics of emerging sequencing technologies, such as high error rates with large numbers of insertions and deletions. To date, metagenomic taxon identification methods have been evaluated with respect to their ability to estimate the distribution of bacterial taxa (species, genera, families, etc.) within a metagenomic sample. Yet, different scientific and clinical settings may require specific types of analyses, and this one type of evaluation may not be the most appropriate for all settings. For example, in a clinical setting the most important question may be to detect whether a specific pathogen is present, while in a scientific setting the most interesting question may be to be able to determine if an observed read comes from a never-been-seen-before species. New evaluation strategies must be developed that specifically target the specific needs of the application domain. All the methods developed in the project will be made into open-source software that is freely available to the scientific public. Researchers will provide training activities each year with funds available to students and postdocs from around the country, and an outreach program to minority serving institutions and women?s colleges. A summer REU program will also be provided at the University of Maryland, College Park.&lt;br/&gt;&lt;br/&gt;The team will develop a new framework for integrating the formal definition of biological use-cases with evaluation datasets and metrics in order to ensure the software being developed adequately addresses the needs of the end-users. Second, they will develop new approaches for marker-based taxon identification and abundance profiling that can leverage multiple sources of information (e.g., multiple markers) as well as handle the high error rates of third-generation sequencing technologies. These approaches will build upon experience developing TIPP - a taxonomic profiling package recently published by the team that outperforms the leading metagenomic taxonomic profiling software, in particular for novel sequences, or for longer, high-error sequences. Finally they plan to develop high-performance computing implementations of these methods in order to enable rapid analysis of sample. Speed of analysis is particularly important in clinical settings where medical treatments may depend on the rate at which the method can return an analysis. Speed is also important in non-medical applications where faster analyses enable researchers to perform deeper or broader analyses of microbial communities.</AbstractNarration>
+    <MinAmdLetterDate>08/12/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/08/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1513615</AwardID>
+    <Investigator>
+      <FirstName>Mihai</FirstName>
+      <LastName>Pop</LastName>
+      <EmailAddress>mpop@umiacs.umd.edu</EmailAddress>
+      <StartDate>08/12/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7364</Code>
+      <Text>INFO INTEGRATION &amp; INFORMATICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7924</Code>
+      <Text>MEDIUM PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

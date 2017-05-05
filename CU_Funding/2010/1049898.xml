@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>EAGER: Rapid Updates and Snapshot-Based Queries Using Multicore Processors</AwardTitle>
+    <AwardEffectiveDate>09/01/2010</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2013</AwardExpirationDate>
+    <AwardAmount>150000</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05020000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Information &amp; Intelligent Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Frank Olken</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Applications such as traffic monitoring, mobile user management, and sensor networks need to process large volumes of updates while supporting on-line analytic queries. With large amounts of RAM, single machines are potentially able to manage hundreds of millions of items. With multiple hardware threads, as many as 64 on modern commodity multicore chips, many operations can be processed concurrently.&lt;br/&gt;&lt;br/&gt;Processing queries and updates concurrently can cause interference. Queries need to see a consistent database state, meaning that at least some of the time, updates will need to wait for queries to complete. To address this problem, a variety of solutions are explored in which a RAM-resident snapshot of the database is taken at various points in time. Analytic queries operate over the snapshot, eliminating interference, but allowing answers to be slightly out of date. Several different snapshot creation methods are being developed and studied, with the goal of being able to create snapshots rapidl(e.g., in fractions of a second) while minimizing the overhead on update processing.&lt;br/&gt;&lt;br/&gt;These problems are studied both for traditional server machines, as well as for multicore mobile devices. By keeping personalized, up to date data on a user's mobile device, a wide range of potential new applications could be supported while avoiding the privacy concerns of widely distributing one's location. The research focus is on how to efficiently utilize the many processing cores available on modern machines, both traditional and mobile devices. A primary goal is to allow performance to scale as additional cores become available in newer generations of hardware.&lt;br/&gt;&lt;br/&gt;The website for this project can be found at http://www.cs.columbia.edu/~kar/snapshot.html</AbstractNarration>
+    <MinAmdLetterDate>08/24/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/24/2010</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1049898</AwardID>
+    <Investigator>
+      <FirstName>Kenneth</FirstName>
+      <LastName>Ross</LastName>
+      <EmailAddress>kar@cs.columbia.edu</EmailAddress>
+      <StartDate>08/24/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Columbia University</Name>
+      <CityName>NEW YORK</CityName>
+      <ZipCode>100276902</ZipCode>
+      <PhoneNumber>2128546851</PhoneNumber>
+      <StreetAddress>2960 Broadway</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+  </Award>
+</rootTag>

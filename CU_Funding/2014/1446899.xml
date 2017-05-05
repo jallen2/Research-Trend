@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CPS: TTP Option: Synergy: Collaborative Research: Calibration of Personal Air Quality Sensors in the Field - Coping with Noise and Extending Capabilities</AwardTitle>
+    <AwardEffectiveDate>01/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>12/31/2018</AwardExpirationDate>
+    <AwardAmount>290007</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sylvia J. Spengler</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>All cyber-physical systems (CPS) depend on properly calibrated sensors to sense the surrounding environment. Unfortunately, the current state of the art is that calibration is often a manual and expensive operation; moreover, many types of sensors, especially economical ones, must be recalibrated often. This is typically costly, performed in a lab environment, requiring that sensors be removed from service. MetaSense will reduce the cost and management burden of calibrating sensors. The basic idea is that if two sensors are co-located, then they should report similar values; if they do not, the least-recently-calibrated sensor is suspect. Building on this idea, this project will provide an autonomous system and a set of algorithms that will automate the detection of calibration issues and preform recalibration of sensors in the field, removing the need to take sensors offline and send them to a laboratory for calibration. The outcome of this project will transform the way sensors are engineered and deployed, increasing the scale of sensor network deployment. This in turn will increase the availability of environmental data for research, medical, personal, and business use. MetaSense researchers will leverage this new data to provide early warning for factors that could negatively affect health. In addition, graduate student engagement in the research will help to maintain the STEM pipeline.&lt;br/&gt;&lt;br/&gt;This project will leverage large networks of mobile sensors connected to the cloud. The cloud will enable using large data repositories and computational power to cross-reference data from different sensors and detect loss of calibration. The theory of calibration will go beyond classical models for computation and physics of CPS. The project will combine big data, machine learning, and analysis of the physics of sensors to calculate two factors that will be used in the calibration. First, MetaSense researchers will identify measurement transformations that, applied in software after the data collection, will generate calibrated results. Second, the researchers will compute the input for an on-board signal-conditioning circuit that will enable improving the sensitivity of the physical measurement. The project will contribute research results in multiple disciplines. In the field of software engineering, the project will contribute a new theory of service reconfiguration that will support new architecture and workflow languages. New technologies are needed because the recalibration will happen when the machine learning algorithms discover calibration errors, after the data has already been collected and processed. These technologies will support modifying not only the raw data in the database by applying new calibration corrections, but also the results of calculations that used the data. In the field of machine learning, the project will provide new algorithms for dealing with spatiotemporal maps of noisy sensor readings. In particular, the algorithms will work with Gaussian processes and the results of the research will provide more meaningful confidence intervals for these processes, substantially increasing the effectiveness of MetaSense models compared to the current state of the art. In the field of pervasive computing, the project will build on the existing techniques for context-aware sensing to increase the amount of information available to the machine learning algorithms for inferring calibration parameters. Adding information about the sensing context is paramount to achieve correct calibration results. For example, a sensor that measures air pollution inside a car on a highway will get very different readings if the car window is open or closed. Finally, the project will contribute innovations in sensor calibration hardware. Here, the project will contribute innovative signal-conditioning circuits that will interact with the cloud system and receive remote calibration parameters identified by the machine learning algorithms. This will be a substantial advance over current circuits based on simple feedback loops because it will have to account for the cloud and machine learning algorithms in the loop and will have to perform this more complex calibration with power and bandwidth constraints. Inclusion of graduate students in the research helps to maintain the STEM pipeline.</AbstractNarration>
+    <MinAmdLetterDate>08/27/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/27/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1446899</AwardID>
+    <Investigator>
+      <FirstName>Michael</FirstName>
+      <LastName>Hannigan</LastName>
+      <EmailAddress>hannigan@colorado.edu</EmailAddress>
+      <StartDate>08/27/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Colorado at Boulder</Name>
+      <CityName>Boulder</CityName>
+      <ZipCode>803031058</ZipCode>
+      <PhoneNumber>3034926221</PhoneNumber>
+      <StreetAddress>3100 Marine Street, Room 481</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Colorado</StateName>
+      <StateCode>CO</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7918</Code>
+      <Text>CYBER-PHYSICAL SYSTEMS (CPS)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>8235</Code>
+      <Text>CPS-Synergy</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

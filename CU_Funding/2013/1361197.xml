@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>FRG: Collaborative Research: Developing Mathematical Algorithms for Adaptive, Geodesic Mesh MHD for use in Astrophysics and Space Physics</AwardTitle>
+    <AwardEffectiveDate>07/01/2014</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2017</AwardExpirationDate>
+    <AwardAmount>281163</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Rosemary Renaut</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Simulation tools for astrophysical and space physics systems share a set of common requirements: they need to robustly simulate magnetohydrodynamic (MHD) flows around spherical bodies with high accuracy. This multidisciplinary project will develop algorithms from applied mathematics for robust, highly accurate non-relativistic MHD on geodesic meshes. In the past few years new schemes for simulating conservation laws with truly multi-dimensional divergence free approximate Riemann solvers for applications have been developed. Currently, these Riemann solvers are only available for two-dimensional rectangular structured meshes for MHD. This project will employ a geodesic mesh to provide the best possible coverage for simulations of magnetohydrodynamic flows around spherical bodies and to incorporate Delaunay triangulation to achieve high accuracy. Divergence-free formulations of vector fields can be found on these triangular meshes. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Simulation tools for astrophysical and space physics systems share a set of common requirements: they need to robustly simulate magnetohydrodynamic (MHD) flows around spherical bodies with high accuracy. Building a computational framework, based on shared needs in space physics and astrophysics, will unleash important synergies between these two allied fields of study. The MHD equations are a combination of the Navier-Stokes equations for fluid dynamics and Maxwell's equations for electromagnetism. Thus, the MHD equations require numerical solvers that incorporate the hydrodynamic fluid motion and enforce the divergence free magnetic field, i.e. no magnetic monopoles, requirements on the geometric domain approximated by a polygonal mesh. The nature of the MHD equations closely couples solution methodologies to the underlying mesh, making it necessary to develop new algorithms for the divergence-free reconstruction of the magnetic field on novel mesh structures. Additionally, the MHD system is formulated as a system of conservation laws. With a traditional conservation law, the fluxes can be evolved on a dimension-by-dimension basis. The fact that different flux components are coupled in an involution-constrained system also makes a case for multidimensional upwinding based on multidimensional Riemann solvers. Such solver strategies are again intimately coupled to the mesh structure.</AbstractNarration>
+    <MinAmdLetterDate>06/27/2014</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/27/2014</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1361197</AwardID>
+    <Investigator>
+      <FirstName>Dinshaw</FirstName>
+      <LastName>Balsara</LastName>
+      <EmailAddress>dbalsara@nd.edu</EmailAddress>
+      <StartDate>06/27/2014</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Notre Dame</Name>
+      <CityName>NOTRE DAME</CityName>
+      <ZipCode>465565708</ZipCode>
+      <PhoneNumber>5746317432</PhoneNumber>
+      <StreetAddress>940 Grace Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1253</Code>
+      <Text>OFFICE OF MULTIDISCIPLINARY AC</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>1798</Code>
+      <Text/>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1206</Code>
+      <Text>THEORETICAL &amp; COMPUTATIONAL ASTROPHYSICS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>1616</Code>
+      <Text>FOCUSED RESEARCH GROUPS IN MATH SCIENCES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

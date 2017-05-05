@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Overcoming the Many-Core Power Wall with Resistive Computation</AwardTitle>
+    <AwardEffectiveDate>07/01/2011</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2016</AwardExpirationDate>
+    <AwardAmount>489052</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Tao Li</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>As transistor count has increased exponentially with Moore?s Law, power has become the number one problem in microprocessor design. Traditional scaling theory relies on reducing supply voltages in proportion to the reduction in device dimensions to keep dynamic power in check. In addition, leakage power also increases exponentially with decreasing supply voltages. This project proposes a novel micro-architectural design technique whose goal is to avoid the power wall by migrating most of the functionality of a modern microprocessor to spin-torque transfer magneto-resistive random-access memory (STT-MRAM) ? a leakage resistant, non-volatile, resistive memory technology. The central idea is to implement most of the on-chip storage and combinational logic using scalable, leakage-resistant STT-MRAM arrays and lookup tables to lower power dissipation, thereby allowing many more active cores under a fixed power budget than a conventional implementation could afford. To accomplish this, the investigator addresses challenges all the way from the circuit-level implementation of fundamental hardware building blocks to the development of larger-scale micro-architectural resources, control policies, and management approaches. At the circuit level, the project explores the design of content-addressable memories, registers, hybrid cells, and lookup tables based on STT-MRAM. At the architecture level, novel cache architectures, latency-hiding techniques, throughput optimizations, and write-power mitigation mechanisms are employed throughout the memory hierarchy. Novel hybrid memory cells are explored to eliminate write throughput and latency problems in heavily written queues and register files, while adaptive write policies, loop stream detectors, and micro-architectural resource allocation mechanisms limit write power to a small fraction of what is possible under a naïve implementation. The project also addresses lookup-table based design of functional units and other combinational logic, as well as design- and run-time reconfiguration of these units.&lt;br/&gt;&lt;br/&gt;Leveraging STT-MRAM in processor design holds the potential to induce a significant leap in the performance and scalability of computer systems, with tremendous positive fallout to science, technology, and society at large. The project is expected to pave the way towards efficient power-aware many-core processors that can scale to hundreds of active cores under a fixed power envelope. The educational component of the project involves (1) training both graduate and undergraduate students in computer architecture, (2) the introduction of a a new memory systems course that integrates resistive memories into the syllabus, and (3) an improved computer architecture curriculum that includes design experience for undergraduates. The investigator plans involvement in local outreach programs promoting the participation of women and underrepresented minorities in computer science and engineering, and initiating a new effort to increase the enrollment of minorities in University of Rochester's computer science and electrical and computer engineering programs.</AbstractNarration>
+    <MinAmdLetterDate>12/09/2010</MinAmdLetterDate>
+    <MaxAmdLetterDate>06/10/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1054179</AwardID>
+    <Investigator>
+      <FirstName>Engin</FirstName>
+      <LastName>Ipek</LastName>
+      <EmailAddress>ipek@cs.rochester.edu</EmailAddress>
+      <StartDate>12/09/2010</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Rochester</Name>
+      <CityName>Rochester</CityName>
+      <ZipCode>146270140</ZipCode>
+      <PhoneNumber>5852754031</PhoneNumber>
+      <StreetAddress>518 HYLAN, RC BOX 270140</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>New York</StateName>
+      <StateCode>NY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7941</Code>
+      <Text>COMPUTER ARCHITECTURE</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Computational methods for the study of rare events</AwardTitle>
+    <AwardEffectiveDate>08/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2016</AwardExpirationDate>
+    <AwardAmount>287174</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Leland M. Jameson</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The research problem is concerned with developing computational tools for (A) rare reactive events and (B) seismic modeling. (A): The problem of finding the most likely transition paths in systems that are modeled using stochastic differential equations with small noise is very difficult due to several issues: (1)transitions between metastable states of the system are rare, hence direct simulations are very hard; (2)high dimensionality; (3) expensive-to-evaluate force; (4) multiple local minimizers; (5) temperature dependence of the dominant reactive channel. The investigator plans to explore a Hamilton-Jacobi-based approach for the study of rare transitions. It has important advantages over existing path-based methods. This approach is guaranteed to find the global minimizer and requires no initial guess. Furthermore, it allows us to find the most likely transition paths between any attractors of the system, not only between equilibrium points. The main difficulties in this approach are associated with high dimensionality and the anisotropic and unbounded speed function in the Hamilton-Jacobi equation. The investigator proposes several approaches for dealing with these problems. (B): The majority of methods for finding the sound speed inside the Earth (the seismic velocity) rely on vast computing resources and a good initial guess. The investigator and her colleagues propose an alternative approach that is computationally cheap and requires no initial guess. This approach is based on theoretical relationships between the time-migration velocity and the seismic velocity. The sound speed can be recovered by solving an elliptic partial differential equation with Cauchy data. Despite the fact that this problem is ill-posed, they have developed numerical techniques capable of solving it in the required interval of time. The investigator plans to continue research in this direction and incorporate methods from the field of computational stochastic processes. &lt;br/&gt;&lt;br/&gt;Many processes are modeled using stochastic differential equations, which are evolution laws that involve a random term (noise). Examples include small-scale processes in physics and chemistry such as chemical reactions and conformal changes in molecules. Other examples come from stochastically-modeled computer networks, pricing of financial securities, and the distribution of money in society. In the absence of noise a given system evolves toward one of its equilibrium states and stays there forever. But the presence of noise, even arbitrarily small, enables transitions between the equilibrium states. In many important cases these transitions are rare on the time-scale of the system but not rare on a human time-scale. This fact creates a need for techniques besides direct simulation for the study of these rare transitions. Such study will help to understand such phenomena as protein folding and mechanisms for gene expression. Producing an accurate image of the Earth?s interior is a challenging aspect of such things as oil recovery and earthquake analysis. First, seismic data always contain noise and the deeper the data come from the stronger its influence. Second, important and interesting geological features (e.g. oil deposition) typically occur where the subsurface structures are complicated and sound speeds vary severely in lateral (sideways) directions. In result, the fundamental inverse problem of determining the sound speeds of the Earth is ill-posed and exceedingly difficult. Yet determination of sound speed is crucial for accurate seismic imaging. The approach proposed by the investigator and her colleagues will lead to cheaper and more efficient methods for its determination.</AbstractNarration>
+    <MinAmdLetterDate>07/16/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>07/16/2012</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1217118</AwardID>
+    <Investigator>
+      <FirstName>Maria</FirstName>
+      <LastName>Cameron</LastName>
+      <EmailAddress>cameron@math.umd.edu</EmailAddress>
+      <StartDate>07/16/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Maryland College Park</Name>
+      <CityName>COLLEGE PARK</CityName>
+      <ZipCode>207425141</ZipCode>
+      <PhoneNumber>3014056269</PhoneNumber>
+      <StreetAddress>3112 LEE BLDG 7809 Regents Drive</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Maryland</StateName>
+      <StateCode>MD</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

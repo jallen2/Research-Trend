@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>OMP-D: Shared-Address-Space Model and Programming System for High-End Computing</AwardTitle>
+    <AwardEffectiveDate>10/01/2008</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2014</AwardExpirationDate>
+    <AwardAmount>721602</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This research develops shared-address-space (SAS) programming models for distributed computer architectures. Almost all of today's high-end computers (HEC) have a distributed system architecture. Programming such architectures is tedious and contributes to very high software costs. SAS programming is easier and leads to higher software productivity. Achieving the set goals of developing translators that efficiently execute SAS programs on distributed computer systems may have a large impact on the software industry and on the way software engineering for HEC is taught.&lt;br/&gt;&lt;br/&gt;The specific research is motivated by recent successes of a new SAS model and compiler that has demonstrated to perform close to hand-coded message passing programs by successful translation of the OpenMP SAS model to MPI. &lt;br/&gt;This project brings together expertise in programming models, compilers for parallel computing, compiler infrastructures, and languages for HEC, including HPF and OpenMP. The new system will allow current OpenMP programs to run on large HEC platforms, and will allow programmers to incrementally port and debug their sequential programs to utilize the OpenMP SAS model while achieving the benefits of larger-scale parallelism than is available on a single node. A number of novel compiler techniques, such as dynamic affinity optimizations, scalability enhancements, runtime array range detection, multicore integration, and parallel data-flow semantics will be developed and implemented in a prototype OMP-D (OpenMP for Distributed architectures) translator. The performance will be evaluated on a large set of benchmarks from the NAS, SPEC OMP, and SPEC MPI suites as well as several other HEC applications.</AbstractNarration>
+    <MinAmdLetterDate>08/01/2008</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/26/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0833115</AwardID>
+    <Investigator>
+      <FirstName>Rudolf</FirstName>
+      <LastName>Eigenmann</LastName>
+      <EmailAddress>eigenman@ecn.purdue.edu</EmailAddress>
+      <StartDate>08/01/2008</StartDate>
+      <EndDate>06/06/2013</EndDate>
+      <RoleCode>Former Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Samuel</FirstName>
+      <LastName>Midkiff</LastName>
+      <EmailAddress>smidkiff@purdue.edu</EmailAddress>
+      <StartDate>08/01/2008</StartDate>
+      <EndDate>06/06/2013</EndDate>
+      <RoleCode>Former Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Samuel</FirstName>
+      <LastName>Midkiff</LastName>
+      <EmailAddress>smidkiff@purdue.edu</EmailAddress>
+      <StartDate>08/26/2013</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Purdue University</Name>
+      <CityName>West Lafayette</CityName>
+      <ZipCode>479072114</ZipCode>
+      <PhoneNumber>7654941055</PhoneNumber>
+      <StreetAddress>Young Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Indiana</StateName>
+      <StateCode>IN</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+    <ProgramElement>
+      <Code>7583</Code>
+      <Text>ITR-HECURA</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7798</Code>
+      <Text>SOFTWARE &amp; HARDWARE FOUNDATION</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7942</Code>
+      <Text>HIGH-PERFORMANCE COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9218</Code>
+      <Text>BASIC RESEARCH &amp; HUMAN RESORCS</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>HPCC</Code>
+      <Text>HIGH PERFORMANCE COMPUTING &amp; COMM</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7944</Code>
+      <Text>SOFTWARE ENG &amp; FORMAL METHODS</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

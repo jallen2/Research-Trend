@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Bridging Particle-Resolved and Point-Particle Based Simulation for Turbulent Particle-Laden Flow Using New Heterogeneous High-Performance Computer</AwardTitle>
+    <AwardEffectiveDate>09/01/2012</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2017</AwardExpirationDate>
+    <AwardAmount>365861</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>07020000</Code>
+      <Directorate>
+        <LongName>Directorate For Engineering</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Chem, Bioeng, Env, &amp; Transp Sys</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>William Olbricht</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>1235974&lt;br/&gt;PI: Wang&lt;br/&gt;&lt;br/&gt;Turbulent flows laden with solid particles, small droplets, and gas microbubbles are ubiquitous in engineering, biological and environmental applications. In these applications, particles are usually suspended in a turbulent carrier fluid. The interactions between the dispersed phase and the carrier fluid phase impact the dynamics of suspended particles (e.g., dispersion, deposition rate, collision rate, settling velocity) and the bulk properties of the multiphase flow (e.g., wall or surface drag, turbulence intensity). Understanding turbulent particle-laden flows can help improve engineering devices such as coal combustors and better predict natural phenomena such as warm rain and hurricane. In the last 20 years, computational methods have been developed to address these complex multiscale flows, primarily using the point-particle based simulations where the effect of finite particle sizes has been ignored. However, in many applications where the particle size overlaps with turbulent flow scales, a better approach known as particle-resolved simulations is necessary to fully address the coupling between the dispersed phase and the fluid phase. The overall goal of this research is to develop an efficient particle-resolved simulation approach to study a range of important physical issues from the particle size and flow dissipation scales to coarse-grained system scales. The study will make use of the mesoscopic lattice Boltzmann approach to efficiently map its data locality and algorithmic scalability to heterogeneous PetaScale computers equipped with both multicore CPUs and high-performance GPUs. The flexibility of the lattice Boltzmann algorithm in treating interfacial interaction between the phases will be exploited. Several benchmark cases will be simulated to validate the approach and the codes. The effects of particle size, particle-to-fluid density ratio, volume fraction, and gravity on the interaction dynamics of both phases will be systematically studied. These codes will then be ported to different high-performance computers to achieve a consistent sustained scalability. Through extended collaborations, the approach will be used to address particle-rough wall impact dynamics in industrial devices and surface drag modulation by sea sprays in marine atmospheric boundary layer. The developed codes will be converted to public-domain software to allow others to use the approach for many other engineering, biological and environmental applications. &lt;br/&gt;&lt;br/&gt;The computational tool can potentially be used to address many applications involving moving objects in a turbulent carrier flow, such as fluidized bed, sediment transport, sea sprays, and warm rain development. The research will help move the computation of complex turbulent multiphase flow to the mainstream high-performance, GPU-accelerated, multicore heterogeneous computers. These capabilities will impact future research directions in both turbulent multiphase flows and parallel computation. The project provides an interdisciplinary training and mentoring ground for one graduate student, one postdoc, and two early-career collaborators. The project will contribute to a new multidisciplinary graduate certificate program in Computational Science and Engineering at the University of Delaware, which could impact a few dozens of students each year.</AbstractNarration>
+    <MinAmdLetterDate>07/26/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/26/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1235974</AwardID>
+    <Investigator>
+      <FirstName>Lian-Ping</FirstName>
+      <LastName>Wang</LastName>
+      <EmailAddress>lwang@udel.edu</EmailAddress>
+      <StartDate>07/26/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Xiaoming</FirstName>
+      <LastName>Li</LastName>
+      <EmailAddress>xli@udel.edu</EmailAddress>
+      <StartDate>07/26/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Orlando</FirstName>
+      <LastName>Ayala</LastName>
+      <EmailAddress>oayala@odu.edu</EmailAddress>
+      <StartDate>07/26/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Delaware</Name>
+      <CityName>Newark</CityName>
+      <ZipCode>197162553</ZipCode>
+      <PhoneNumber>3028312136</PhoneNumber>
+      <StreetAddress>210 Hullihen Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Delaware</StateName>
+      <StateCode>DE</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1415</Code>
+      <Text>PARTICULATE &amp;MULTIPHASE PROCES</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>6892</Code>
+      <Text>CI REUSE</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>056E</Code>
+      <Text>Multiphase flow</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7433</Code>
+      <Text>CyberInfra Frmwrk 21st (CIF21)</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9251</Code>
+      <Text>RES EXPER FOR UNDERGRAD-SUPPLT</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

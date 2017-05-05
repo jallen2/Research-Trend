@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CAREER: Learning the Chromatin Network from ChIP-Seq Data</AwardTitle>
+    <AwardEffectiveDate>07/01/2016</AwardEffectiveDate>
+    <AwardExpirationDate>06/30/2021</AwardExpirationDate>
+    <AwardAmount>151408</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>08080000</Code>
+      <Directorate>
+        <LongName>Direct For Biological Sciences</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Div Of Biological Infrastructure</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Peter H. McCartney</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Each cell of an organism shares the same nuclear DNA sequence (genome), but different types of cells turn on different sets of genes to carry out their unique functions. To correctly turn on and off the needed sets of genes requires coordinated action by several hundred regulatory molecules. The regulators interact with the genome and with each other: understanding how this happens is one of the most important questions biological researchers are trying to answer. This project will use chromatin immunoprecipitation-sequencing (ChIP-Seq) data, which measures where a particular regulator is located on the genome: this may be zero, one or a few hundred positions out of the billions possible in a genome. Regulators often act together and one may change the action of another, so another part of the proposed work is to discover sites where regulators are co-localized. However, co-localization alone does not show whether regulators interact directly, or indirectly through an intermediate. The overall goal of this project is to develop a computational framework that identifies direct and indirect interactions among regulators, using thousands of ChIP-seq datasets. This framework will develop novel statistical and machine learning techniques to overcome the limitations of existing methods. The techniques that are developed will be applied to answer the following fundamental questions: How do hundreds of regulators interact with each other to regulate the genome? How do these regulator interactions differ across cell types? How do these interactions differ across different species (human, mouse, fly and worm)? The implementation of the new methods will be made publicly available to help many other scientists to study how the human genome works. This project is interdisciplinary in nature and has significant emphasis on interdisciplinary education, through project courses and outreach activities.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Identifying the interactions among chromatin regulators, such as transcription factors and histone modifications, is of paramount importance to understand genome regulation. To infer this network of interactions, this research will compare multiple chromatin immunoprecipitation-sequencing (ChIP-seq) datasets, each measuring genome-wide localization of a chromatin regulator. Co-localization may indicate that two regulators interact directly or indirectly through transitive interactions. To identify direct interactions, the proposal aims to develop novel network inference methods to infer conditional dependence relationships (i.e., correlation not explained via any other variables in the network) among a large number of ChIP-seq datasets. While network inference has become a commonly used analysis tool for other types of data, such as gene expression data, the immense size of the ChIP-seq data sets and the strong redundancies present in the data limit the use of existing network inference methods. To resolve these challenges, this research proposes a novel machine learning (ML) framework to enable network inference from large collections of ChIP-seq data: 1) efficient ML methods to infer the chromatin network based on the entire ENCODE ChIP-seq data that contain redundancies; 2) new ML methods to jointly infer the context-specific chromatin networks and the associated genomic contexts by incorporating other types of genomic data; and 3) new ML methods to learn a conserved chromatin network across species and predict chromatin factor interactions even if the factors are not measured in the species of study. For further information see the project web site at: http://suinlee.cs.washington.edu/projects/chromnet.</AbstractNarration>
+    <MinAmdLetterDate>03/29/2016</MinAmdLetterDate>
+    <MaxAmdLetterDate>03/29/2016</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1552309</AwardID>
+    <Investigator>
+      <FirstName>Su-In</FirstName>
+      <LastName>Lee</LastName>
+      <EmailAddress>suinlee@cs.washington.edu</EmailAddress>
+      <StartDate>03/29/2016</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Washington</Name>
+      <CityName>Seattle</CityName>
+      <ZipCode>981950001</ZipCode>
+      <PhoneNumber>2065434043</PhoneNumber>
+      <StreetAddress>4333 Brooklyn Ave NE</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Washington</StateName>
+      <StateCode>WA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1165</Code>
+      <Text>ADVANCES IN BIO INFORMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>1045</Code>
+      <Text>CAREER: FACULTY EARLY CAR DEV</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

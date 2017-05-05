@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>TC: Large: Collaborative Research: Practical Secure Two-Party Computation: Techniques, Tools, and Applications</AwardTitle>
+    <AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2017</AwardExpirationDate>
+    <AwardAmount>1500000</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Sol J. Greenspan</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Many compelling applications involve computations that require sensitive data from two or more individuals. For example, as the cost of personal genome sequencing rapidly plummets many genetics applications will soon be within reach of individuals such as comparing one?s genome with the genomes of different groups of participants in a study to determine which treatment is likely to be most effective. Such comparisons could have tremendous value, but are currently infeasible because of the privacy concerns both for the individual and study participants. What is needed is a way to produce the result of the comparison without exposing either party's private inputs. The ultimate aim of this project is to make privacy-preserving computation practical and accessible enough to be used routinely in applications such as personalized genetics, medical research, and privacy-preserving biometrics.&lt;br/&gt;&lt;br/&gt;Theoretical solutions to this problem, known as secure multi-party computation, have been known for several decades, including a general solution developed by Andrew Yao based on garbled circuits. Because of its extensive memory use and computational cost, however, the garbled circuits approach has traditionally been considered more of a theoretical curiosity than a practical mechanism for building privacy-preserving applications. Recent developments in cryptographic techniques and new implementation approaches are beginning to change this, however, and admit the possibility of scalable, practical secure computation. This project is designing methods for avoiding the memory bottleneck associated with garbled circuit evaluation by aggressively pipelining circuit generation and evaluation, and exploring a variety of techniques for reducing the size of garbled circuits. Another issue the limits the use of secure computation in practice is the need for standard protocols to assume an honest-but-curious adversary who always follows the specified protocol. This project is developing new techniques for dealing with malicious adversaries, improving the standard cut-and-choose and commit-and-prove approaches by using new cryptographic tools and exploring an alternate model in which a verifiable trusted party generates the circuit but is not trusted with any private data. The project is also developing techniques to audit the information that can be inferred from the result of a secure computation. Another goal is to make secure computation more accessible to developers by developing programming tools for defining secure computations at a high level, based on information-flow analysis and program partitioning.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>09/17/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1111781</AwardID>
+    <Investigator>
+      <FirstName>Abhi</FirstName>
+      <LastName>Shelat</LastName>
+      <EmailAddress>a.shelat@northeastern.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>David</FirstName>
+      <LastName>Evans</LastName>
+      <EmailAddress>evans@cs.virginia.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Investigator>
+      <FirstName>Aaron</FirstName>
+      <LastName>Mackey</LastName>
+      <EmailAddress>ajm6q@virginia.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Co-Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Virginia Main Campus</Name>
+      <CityName>CHARLOTTESVILLE</CityName>
+      <ZipCode>229044195</ZipCode>
+      <PhoneNumber>4349244270</PhoneNumber>
+      <StreetAddress>P.O. BOX 400195</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Virginia</StateName>
+      <StateCode>VA</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramElement>
+    <ProgramElement>
+      <Code>8060</Code>
+      <Text>Secure &amp;Trustworthy Cyberspace</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7795</Code>
+      <Text>TRUSTWORTHY COMPUTING</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7925</Code>
+      <Text>LARGE PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>7434</Code>
+      <Text>CNCI</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

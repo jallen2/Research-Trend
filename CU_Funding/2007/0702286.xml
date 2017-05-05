@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Opportunistic Computing: A New Paradigm for Scalable Programming on Multicore Processors</AwardTitle>
+    <AwardEffectiveDate>09/01/2007</AwardEffectiveDate>
+    <AwardExpirationDate>08/31/2010</AwardExpirationDate>
+    <AwardAmount>324999</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05010000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division of Computing and Communication Foundations</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Almadena Y. Chtchelkanova</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>The introduction of multi-core processors personal computing platforms such as desktops, laptops and game consoles open up interesting end-user application possibilities making parallelism more ubiquitous than ever. Trends show an increasing presence of immersive multimedia and gaming applications on newer personal computing platforms. One of the desirable features of such applications is that the applications exhibit varying degrees of sophistication based on the resource-richness of the platform on which they execute. Current programming paradigms are limited in their ability to express variable semantics of applications that could scale dynamically to the resource availability. &lt;br/&gt;This limitation leads to huge barriers causing applications to evolve slowly as the platforms emerge. On the other hand, multi-core processors are rapidly evolving and if one is unable to use the extra cores their value will be severely diminished. In order to bridge this gap, it is important to develop languages and compiler technology that offers a scaling of application semantics with the processor power.&lt;br/&gt;&lt;br/&gt;This work investigates a new paradigm, called Opportunistic Computing, that allows a specification of scalable semantics in applications that can be enriched and thus adapt to the amount of available resources at runtime. A domain specific programming language involving extensions to C++ allows the programmer to define a specification of how the current semantics of a program can be opportunistically enriched. It can take the form of an additional computation, the choice of the best computation at runtime for a given quality of result or the adaptation of the current computation into a better one. The work develops and investigates new analyses and techniques for managing the runtime and software transactional memory under compiler control coupled with the compiler controlled scheduling of soft real-time tasks.</AbstractNarration>
+    <MinAmdLetterDate>05/01/2007</MinAmdLetterDate>
+    <MaxAmdLetterDate>05/01/2007</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>0702286</AwardID>
+    <Investigator>
+      <FirstName>Santosh</FirstName>
+      <LastName>Pande</LastName>
+      <EmailAddress>santosh@cc.gatech.edu</EmailAddress>
+      <StartDate>05/01/2007</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+    <FoaInformation>
+      <Code>0000912</Code>
+      <Name>Computer Science</Name>
+    </FoaInformation>
+  </Award>
+</rootTag>

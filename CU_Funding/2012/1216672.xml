@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>Investigation of Auxiliary Subspace Techniques as a General Tool for A Posteriori Error Estimation</AwardTitle>
+    <AwardEffectiveDate>09/15/2012</AwardEffectiveDate>
+    <AwardExpirationDate>02/28/2014</AwardExpirationDate>
+    <AwardAmount>115812</AwardAmount>
+    <AwardInstrument>
+      <Value>Continuing grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>03040000</Code>
+      <Directorate>
+        <LongName>Direct For Mathematical &amp; Physical Scien</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Mathematical Sciences</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Junping Wang</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>A posteriori error estimation is an essential component of high-performance finite element computations. Such estimates are used in practice not only to reliably determine when an approximate solution is accurate enough, but also to (efficiently) adaptively improve the approximation. This proposal considers auxiliary subspace error estimates, which are derived from computing an approximate error function in an auxiliary space. Such an approximate error function provides great flexibility, in principle, in how it may be used for adaptive finite, and we are here concerned estimation of and adaptivity with respect to: error in a variety of norms, higher-order derivatives in a variety norms, functional error for general classes of linear functionals, and error in eigenvalue and invariant subspace computations. The robustness of hierarchical error estimates of energy-norm error is well-established both in theory and in practice for low-order finite elements and second-order linear elliptic boundary value problems in two dimensions. This proposal aims to significantly extend both theory and practice not only to include the various error measures mentioned above, but also higher-order elements in two and three dimensions (p- and hp-adaptivity), as well as to different types of operators and finite elements, including systems of partial differential equations. Additionally, an adaptive convergence theory would also be developed, where possible. A key component of the proposed research is the development of a basic framework in which clear guidance concerning an appropriate choice of auxiliary space for computing the approximate error function is provided by considering a few basic properties of the underlying problem and the space which was used for the approximate solution.&lt;br/&gt;&lt;br/&gt;The ability to automatically detect and adapt to relevant fine and coarse-scale features in the modeling of composite materials is often indispensable as an aid for design of such materials, as well as for remote sensing in the presence of complex media (e.g. non-destructive exploration for natural resources). This proposal concerns the development of a general and very flexible approach to error estimation and adaptive improvement of approximations in a variety of contexts, providing careful development of specific cases of interest, such as those mentioned above. A clear theoretical framework for error estimation and adaptivity, together with several important practical realizations, will not only aid practitioners in making appropriate choices in their particular contexts, but will also make it easier to train students to be able to develop such tools for problem where little (if any) are available. The various projects in the proposal include both national and international collaboration,as well as the education and involvement of graduate students. Additionally, much of the software developed in conjunction with this proposal will be made freely available by the proposer from his website.</AbstractNarration>
+    <MinAmdLetterDate>09/04/2012</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/06/2013</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1216672</AwardID>
+    <Investigator>
+      <FirstName>Jeffrey</FirstName>
+      <LastName>Ovall</LastName>
+      <EmailAddress>jovall@pdx.edu</EmailAddress>
+      <StartDate>09/04/2012</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>University of Kentucky Research Foundation</Name>
+      <CityName>Lexington</CityName>
+      <ZipCode>405260001</ZipCode>
+      <PhoneNumber>8592579420</PhoneNumber>
+      <StreetAddress>109 Kinkead Hall</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Kentucky</StateName>
+      <StateCode>KY</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>1271</Code>
+      <Text>COMPUTATIONAL MATHEMATICS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>9150</Code>
+      <Text>EXP PROG TO STIM COMP RES</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9263</Code>
+      <Text>COMPUTATIONAL SCIENCE &amp; ENGING</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

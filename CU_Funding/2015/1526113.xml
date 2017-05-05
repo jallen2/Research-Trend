@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>NeTS: Small: Collaborative Research: Creating Semantically-Enabled Programmable Networked Systems (SERPENT)</AwardTitle>
+    <AwardEffectiveDate>10/01/2015</AwardEffectiveDate>
+    <AwardExpirationDate>09/30/2018</AwardExpirationDate>
+    <AwardAmount>278271</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Darleen L. Fisher</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>Software-Defined Networking (SDN) is a new paradigm in programming the behavior of computer networks. It opens possibilities for offering novel services and implementing existing functions more efficiently. SDN uses a concept of a logically centralized controller that remotely manages the behavior of multiple infrastructure elements in the network. SDN controllers must make decisions about provisioning network services based on a multitude of technical and business factors drawn from the semantically rich data describing the configuration of various resources in the network. SERPENT will develop novel mechanisms for efficiently handling this data and enabling a new approach to SDN controller design that is based on using queries on this data, same as many web applications today are built using queries on large relational databases. By allowing efficient processing and amortization of computationally complex steps across multiple queries and the integration of many types of query constraints, our project will allow to create complex controller behaviors that fuse together information from multiple sources and combine structural and semantic descriptions of resources in a seamless way something that would be critical for future datacenter and wide-area networks.&lt;br/&gt;&lt;br/&gt;We plan to bring the approach of ontological query answering via query rewriting and of solving path problems using a path algebra framework into a unified model that will allow queries with both ontological (semantic) and navigational constraints. The second major component will be developing the algorithmic and optimization framework for answering complex networking queries over this unified model. SERPENT will enable query optimization in two ways: (a) problems can be solved in two phases with the heavy lifting done in one phase producing an output that can be reused for many problems in a much more efficient second phase. This is similar to traditional query optimization where expensive preprocessing is employed to compute indexes, statistics which are then used to enable efficient query processing. Using this approach for example, the subgraph isomorphism problem which is known to be NP Hard has been made to have efficient practical implementations. (b) design and development of efficient representation and indexing structures for the output of the preprocessing phase and algorithms for exploiting the representations and data structures for efficient query processing. We will show how these query mechanisms that allow to express both structural and semantic path constraints are used to create novel SDN controllers by incorporating them into existing SDN controllers and evaluating them.&lt;br/&gt;&lt;br/&gt;Broader Impact. SERPENT will contribute to enhancing the functionality of existing and future SDN control mechanisms by transforming the management of networking data into a query- based processes that will remove the need to reimplement these mechanisms for new applications. Instead they will leverage the framework rooted in database techniques that can be reused and extended over-time, same way relational databases have evolved. SERPENT integrates research and education of graduate students that will help evolve the area that lies at the intersection of several disciplines: network management, Semantic Web and graph database data management. It will impact SDN research community by producing prototype implementations, it will impact GENI (Global Environment for Network Innovations) community by transitioning the results into operations of GENI testbeds. It will impact other domains that rely on network analysis and require the inclusion of semantic constraints in pathfinding like social and biological networks.</AbstractNarration>
+    <MinAmdLetterDate>08/14/2015</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/14/2015</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1526113</AwardID>
+    <Investigator>
+      <FirstName>Kemafor</FirstName>
+      <LastName>Anyanwu-Ogan</LastName>
+      <EmailAddress>kogan@ncsu.edu</EmailAddress>
+      <StartDate>08/14/2015</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>North Carolina State University</Name>
+      <CityName>RALEIGH</CityName>
+      <ZipCode>276957514</ZipCode>
+      <PhoneNumber>9195152444</PhoneNumber>
+      <StreetAddress>CAMPUS BOX 7514</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>North Carolina</StateName>
+      <StateCode>NC</StateCode>
+    </Institution>
+    <ProgramElement>
+      <Code>7363</Code>
+      <Text>RES IN NETWORKING TECH &amp; SYS</Text>
+    </ProgramElement>
+    <ProgramReference>
+      <Code>7923</Code>
+      <Text>SMALL PROJECT</Text>
+    </ProgramReference>
+    <ProgramReference>
+      <Code>9102</Code>
+      <Text>WOMEN, MINORITY, DISABLED, NEC</Text>
+    </ProgramReference>
+  </Award>
+</rootTag>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootTag>
+  <Award>
+    <AwardTitle>CSR:Small: Multi-Bottlenecks: What They Are and How to Find Them</AwardTitle>
+    <AwardEffectiveDate>08/15/2011</AwardEffectiveDate>
+    <AwardExpirationDate>07/31/2014</AwardExpirationDate>
+    <AwardAmount>224996</AwardAmount>
+    <AwardInstrument>
+      <Value>Standard Grant</Value>
+    </AwardInstrument>
+    <Organization>
+      <Code>05050000</Code>
+      <Directorate>
+        <LongName>Direct For Computer &amp; Info Scie &amp; Enginr</LongName>
+      </Directorate>
+      <Division>
+        <LongName>Division Of Computer and Network Systems</LongName>
+      </Division>
+    </Organization>
+    <ProgramOfficer>
+      <SignBlockName>Anita J. LaSalle</SignBlockName>
+    </ProgramOfficer>
+    <AbstractNarration>This project addresses computing clouds, large-scale shared infrastructures that offer practically unlimited hardware to most users and applications. In order to achieve scalable performance, all components of the system, from hardware to operating system, middleware, various servers, and the application itself, need to cooperate. Bottlenecks in components can slow down the entire system. In traditional computer systems (e.g., as modeled by queuing theory), a typical assumption is that their workloads consist of independent jobs. This assumption, which is valid for old-style batch-oriented processing and interactive users, guarantees the appearance of single bottlenecks for an entire system. Single bottlenecks can be relatively easily detected, since they appear as resources reaching saturation (e.g., 100% utilization).&lt;br/&gt;&lt;br/&gt;The "independent jobs" model does not hold for the important class of web-facing applications (e.g., e-commerce) that rely on the popular n-tier architecture. N-tier systems divide the system into a pipeline of processing components, e.g., consisting of web servers, application servers, and database servers. While the n-tier architecture supports good performance scalability at the web server and application server tiers, it also introduces several (sometimes unexpected) strong dependencies among other tiers and components. These dependencies produce an interesting phenomenon called multi-bottleneck. Multi-bottlenecks are characterized by system throughput limited by a ceiling regardless of additional hardware, and no single resource shows average utilization anywhere near saturation. (Anecdotally, this is an increasingly common situation in practice.) Multi-bottlenecks are difficult to find, diagnose, and remove when using traditional performance evaluation methods. They are also important in clouds since they will be the only bottlenecks left after the removal of easily spotted single bottlenecks.&lt;br/&gt;&lt;br/&gt;This project develops, evaluates, and refines a systematic search method, called Telescoping, to find multi-bottlenecks by running large scale experiments on production clouds. A simulator generates well-defined multi-bottlenecks to help refine the Telescoping search method and tune its parameters. Then, n-tier benchmarks such as RUBiS and RUBBoS (e-commerce applications) on production clouds such as Open Cirrus, Amazon EC2, and Emulab, gather experimental evidence on multi-bottlenecks. These experiments shed light on a little-known phenomenon in a rich, but unexplored area (performance limits of jobs with dependencies). Success can lead to significant new developments in the theoretical understanding of jobs with dependencies and improve practical uses of clouds by n-tier systems.</AbstractNarration>
+    <MinAmdLetterDate>08/08/2011</MinAmdLetterDate>
+    <MaxAmdLetterDate>08/08/2011</MaxAmdLetterDate>
+    <ARRAAmount/>
+    <AwardID>1116451</AwardID>
+    <Investigator>
+      <FirstName>Calton</FirstName>
+      <LastName>Pu</LastName>
+      <EmailAddress>calton@cc.gatech.edu</EmailAddress>
+      <StartDate>08/08/2011</StartDate>
+      <EndDate/>
+      <RoleCode>Principal Investigator</RoleCode>
+    </Investigator>
+    <Institution>
+      <Name>Georgia Tech Research Corporation</Name>
+      <CityName>Atlanta</CityName>
+      <ZipCode>303320420</ZipCode>
+      <PhoneNumber>4048944819</PhoneNumber>
+      <StreetAddress>Office of Sponsored Programs</StreetAddress>
+      <CountryName>United States</CountryName>
+      <StateName>Georgia</StateName>
+      <StateCode>GA</StateCode>
+    </Institution>
+  </Award>
+</rootTag>
